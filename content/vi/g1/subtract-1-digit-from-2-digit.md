@@ -10,19 +10,20 @@ minutes: 15
 - Giải bài toán có lời văn bằng một phép trừ.
 :::
 
-Nam có $27$ viên bi. Nam cho bạn $4$ viên bi. Hỏi Nam còn lại bao nhiêu viên bi?
+Nam có $27$ viên bi. Nam cho bạn $4$ viên bi. Em thử nghĩ xem: Nam còn lại bao nhiêu viên bi?
 
-Em có thể đếm lùi từng viên: $26, 25, 24, 23$. Nhưng đếm lùi nhiều viên thì rất lâu. Bài này giúp em trừ nhanh bằng hàng chục và hàng đơn vị.
+Em có thể đếm lùi từng viên: $26, 25, 24, 23$. Cách đó đúng. Nhưng nếu Nam cho đi nhiều viên hơn, đếm lùi sẽ rất lâu, lại dễ đếm nhầm. Có một cách nhanh hơn: tách số ra hàng chục và hàng đơn vị, rồi chỉ trừ ở hàng đơn vị.
 
 ## Cùng khám phá
 
-Số $27$ có $2$ chục và $7$ đơn vị.
+Ta nhìn kĩ số $27$ trước. Số này có $2$ chục và $7$ đơn vị.
 
 - Nam có $2$ chục viên bi và $7$ viên bi lẻ.
-- Nam cho đi $4$ viên bi lẻ. Các viên bi lẻ còn lại là $7-4=3$ viên.
+- Nam cho bạn $4$ viên bi lẻ. Số bi lẻ còn lại là $7-4=3$ viên.
 - Nam không cho đi bó chục nào, nên vẫn còn $2$ chục.
+Chỉ có bi lẻ bị bớt đi. Còn các bó chục thì vẫn nguyên.
 
-Vậy $2$ chục và $3$ đơn vị là $23$. Ta có $27-4=23$.
+Ghép lại, $2$ chục và $3$ đơn vị làm thành số $23$. Vậy $27-4=23$.
 
 :::graph Trên tia số: từ 27, lùi 4 bước về 23
 alt: Tia số từ 20 đến 30, đánh dấu điểm 27 và điểm 23; đoạn từ 23 đến 27 được tô đậm
@@ -40,11 +41,11 @@ Muốn tính $27-4$:
 3. Viết kết quả: $2$ chục và $3$ đơn vị là $23$.
 :::
 
-Cách này đúng vì em chỉ bớt các viên bi lẻ. Số chục không đổi, nên em giữ nguyên hàng chục.
+Vì sao em chỉ cần trừ ở hàng đơn vị? Vì Nam chỉ cho đi bi lẻ, không cho đi bó chục nào. Số chục không đổi, nên em giữ nguyên hàng chục.
 
 ## Ví dụ
 
-Ta bắt đầu với một phép trừ đơn giản nhất.
+Ta làm lại đúng phép tính của Nam, từng bước một.
 
 :::example Tính $27-4$
 **Lời giải.** $27$ có $2$ chục và $7$ đơn vị. Ta trừ ở hàng đơn vị: $7-4=3$. Hàng chục giữ nguyên là $2$:
@@ -52,7 +53,7 @@ $$27-4=23.$$
 Vậy $27-4=23$.
 :::
 
-Bây giờ ta làm một phép tính giống như vậy, nhưng đổi số.
+Ta thử một phép tính khác, vẫn làm theo các bước ấy. Em xem cách làm có giống không.
 
 :::example Tính $58-6$
 **Lời giải.** $58$ có $5$ chục và $8$ đơn vị. Trừ ở hàng đơn vị: $8-6=2$. Hàng chục giữ nguyên là $5$:
@@ -60,7 +61,7 @@ $$58-6=52.$$
 Vậy $58-6=52$.
 :::
 
-Khi số trừ bằng hàng đơn vị của số bị trừ, hàng đơn vị còn lại $0$.
+Có một trường hợp em dễ thấy lạ. Khi số trừ bằng đúng hàng đơn vị của số bị trừ, hàng đơn vị chẳng còn gì, tức là còn $0$. Đừng lo, ta vẫn làm các bước như cũ.
 
 :::example Tính $45-5$
 **Lời giải.** $45$ có $4$ chục và $5$ đơn vị. Trừ ở hàng đơn vị: $5-5=0$. Hàng chục giữ nguyên là $4$:
@@ -68,7 +69,7 @@ $$45-5=40.$$
 Vậy $45-5=40$.
 :::
 
-Bây giờ em dùng phép trừ để trả lời một câu hỏi trong cuộc sống.
+Phép trừ còn dùng được ở nhiều chỗ trong cuộc sống, ví dụ khi đi xe buýt. Ta thử một bài toán như thế.
 
 :::example Xe buýt
 Trên xe buýt có $36$ người. Ở bến, $3$ người xuống xe. Hỏi trên xe còn lại bao nhiêu người?
@@ -81,9 +82,10 @@ Vậy trên xe còn lại $33$ người.
 :::
 
 :::warning Những lỗi em hay gặp
-- **Quên hàng chục.** Sai: $27-4=3$. Vì sao sai: em mới tính $7-4$ mà quên $2$ chục. Đúng: $27-4=23$.
-- **Nhầm phép trừ với phép cộng.** Sai: $27-4=31$. Vì sao sai: em đã cộng $27+4$. Đúng: "còn lại" là bớt đi, nên $27-4=23$.
-- **Bài toán có lời văn quên đơn vị.** Sai: "Đáp số: $33$". Đúng: "Đáp số: $33$ người".
+- **Quên hàng chục.** Sai: $27-4=3$. Vì sao sai: em mới tính $7-4$ mà quên mất $2$ chục. Đúng: $27-4=23$.
+- **Nhầm phép trừ với phép cộng.** Sai: $27-4=31$. Vì sao sai: em đã làm phép cộng $27+4$. Đúng: "còn lại" nghĩa là bớt đi, nên $27-4=23$.
+- **Bài toán có lời văn quên đơn vị.** Sai: "Đáp số: $33$". Vì sao sai: con số một mình chưa cho biết ta đang đếm gì. Đúng: "Đáp số: $33$ người".
+Chỗ này nhiều bạn hay nhầm, em đừng lo. Làm xong, em thử lại bằng phép cộng là biết ngay.
 :::
 
 ## Thuật ngữ
@@ -104,10 +106,11 @@ Vậy trên xe còn lại $33$ người.
 - Ví dụ: $27-4=23$ vì $7-4=3$ và hàng chục vẫn là $2$.
 - Thử lại bằng phép cộng: $23+4=27$.
 - Bài toán hỏi "còn lại", "bớt đi" thường là phép trừ; nhớ ghi đơn vị trong đáp số.
+Câu hỏi về những viên bi của Nam, giờ em trả lời được mà không cần đếm lùi từng viên. Em nhớ: trừ ở hàng đơn vị, giữ nguyên hàng chục, rồi làm vài bài luyện tập cho quen tay.
 
 ## Luyện tập
 
-Mỗi bài có phần kiến thức và gợi ý. Em hãy tự làm trước, rồi mới bấm xem lời giải.
+Mỗi bài đều có phần cần nhớ và một gợi ý để em bắt đầu. Em thử tự làm trước đã. Làm chậm cũng không sao. Khi xong hoặc khi bí, em hãy bấm xem lời giải.
 
 :::exercise
 Tính $38-5$.

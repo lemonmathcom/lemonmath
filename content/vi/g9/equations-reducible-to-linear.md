@@ -10,15 +10,15 @@ minutes: 20
 - Giải phương trình chứa ẩn ở mẫu và loại các giá trị không thoả mãn điều kiện xác định.
 :::
 
-Bạn An giải phương trình $x^2=3x$ như sau: "Chia hai vế cho $x$, được $x=3$." Bạn Bình nói: "Còn thiếu một nghiệm." Thay $x=0$ vào, ta thấy $0^2=3\cdot0$, đúng là $0$ cũng là nghiệm. An sai ở đâu, và làm thế nào để không bỏ sót nghiệm?
+Bạn An giải phương trình $x^2=3x$ như sau: "Chia hai vế cho $x$, được $x=3$." Bạn Bình nói: "Còn thiếu một nghiệm." Ta thử thay $x=0$ vào: $0^2=3\cdot0$ đúng, nên $0$ cũng là nghiệm. Vậy An đã sai ở đâu? Và làm thế nào để không bỏ sót nghiệm? Bỏ sót nghiệm là lỗi rất dễ mắc, mà chính người giải lại khó nhận ra.
 
-Phương trình $x^2=3x$ không phải là phương trình bậc nhất, nhưng ta có thể **quy về** các phương trình bậc nhất. Bài này học hai dạng như vậy.
+Phương trình $x^2=3x$ không phải là phương trình bậc nhất. Nhưng nếu khéo, ta có thể **quy về** các phương trình bậc nhất mà ta đã biết giải. Bài này có hai dạng như vậy: phương trình tích và phương trình chứa ẩn ở mẫu. Học xong, bạn sẽ trả lời được câu hỏi của An và Bình.
 
 ## Phương trình tích
 
 ### Khám phá: khi nào một tích bằng $0$?
 
-Ta có $5\cdot0=0$, $0\cdot(-7)=0$, còn $2\cdot3=6\neq0$. Một tích bằng $0$ chỉ khi có ít nhất một thừa số bằng $0$. Đây là chìa khoá để giải phương trình mà vế trái là một tích và vế phải bằng $0$ (gọi là **phương trình tích**).
+Hãy nhìn vài phép nhân: $5\cdot0=0$, $0\cdot(-7)=0$, còn $2\cdot3=6\neq0$. Hai phép nhân đầu có một thừa số bằng không, phép nhân thứ ba thì không. Một tích bằng $0$ chỉ khi có ít nhất một thừa số bằng $0$. Đó là chìa khoá để giải phương trình mà vế trái là một tích và vế phải bằng $0$. Ta gọi phương trình như vậy là **phương trình tích**.
 
 :::theorem Cách giải phương trình tích
 $$(ax+b)(cx+d)=0\iff ax+b=0\ \text{ hoặc }\ cx+d=0.$$
@@ -35,7 +35,7 @@ $$2x-6=0\iff x=3;\qquad x+4=0\iff x=-4.$$
 Vậy phương trình có hai nghiệm $x=3$ và $x=-4$.
 :::
 
-Khi phương trình chưa có dạng tích, ta chuyển mọi số hạng sang vế trái rồi phân tích thành nhân tử (như ở lớp 8).
+Không phải phương trình nào cũng có sẵn dạng tích. Khi chưa có, ta chuyển mọi số hạng sang vế trái rồi phân tích thành nhân tử (như ở lớp 8). Ví dụ dưới đây dùng cách này để trả lời câu hỏi của An và Bình.
 
 :::example Trả lời câu hỏi của An và Bình
 Giải phương trình $x^2=3x$.
@@ -59,19 +59,20 @@ Vậy phương trình có hai nghiệm $x=1$ và $x=3$.
 
 ## Phương trình chứa ẩn ở mẫu
 
-Hai bạn Hoà và Bình đạp xe cùng một lúc. Hoà đi được $12$ km, Bình đi được $18$ km trong cùng khoảng thời gian, và Bình đi nhanh hơn Hoà $4$ km/h. Gọi vận tốc của Hoà là $x$ (km/h), thời gian bằng nhau cho ta phương trình
+Hai bạn Hoà và Bình đạp xe cùng một lúc. Trong cùng khoảng thời gian, Hoà đi được $12$ km, còn Bình đi được $18$ km. Bình đi nhanh hơn Hoà $4$ km/h. Gọi vận tốc của Hoà là $x$ (km/h). Thời gian bằng quãng đường chia cho vận tốc, và thời gian của hai bạn bằng nhau, nên ta có phương trình
 $$\frac{12}{x}=\frac{18}{x+4}.$$
-Ẩn nằm ở **mẫu**. Một phân thức chỉ có nghĩa khi mẫu khác $0$, nên trước hết ta phải tìm điều kiện của ẩn.
+Lần này ẩn nằm ở **mẫu**. Chỗ này cần cẩn thận: một phân thức chỉ có nghĩa khi mẫu khác $0$. Vì vậy, trước khi giải, ta phải hỏi ẩn được phép nhận những giá trị nào.
 
 :::definition Điều kiện xác định
 **Điều kiện xác định** của một phương trình chứa ẩn ở mẫu là điều kiện để **tất cả** các mẫu trong phương trình đều khác $0$. Nghiệm của phương trình phải thoả mãn điều kiện này.
 :::
 
 :::note Các bước giải phương trình chứa ẩn ở mẫu
-1. Tìm điều kiện xác định.
+1. Tìm điều kiện xác định (không mẫu nào được bằng không).
 2. Quy đồng mẫu hai vế rồi khử mẫu.
 3. Giải phương trình vừa nhận được.
-4. Đối chiếu với điều kiện xác định và kết luận.
+4. Đối chiếu với điều kiện xác định, loại giá trị không thoả mãn rồi kết luận.
+Bước đầu và bước cuối là hai bước dễ bị bỏ quên nhất.
 :::
 
 :::example Bài toán đạp xe
@@ -84,7 +85,7 @@ $$12(x+4)=18x\iff 12x+48=18x\iff 6x=48\iff x=8.$$
 Giá trị $x=8$ thoả mãn điều kiện xác định. Vậy Hoà đi với vận tốc $8$ km/h, Bình đi với vận tốc $12$ km/h.
 :::
 
-Bước đối chiếu điều kiện không phải là hình thức: có khi phương trình sau khi khử mẫu cho một giá trị làm mẫu bằng $0$.
+Bước đối chiếu điều kiện không phải để cho đủ thủ tục. Có khi phương trình sau khi khử mẫu cho ra một giá trị làm mẫu bằng $0$, và giá trị đó phải bị loại. Ví dụ sau cho thấy điều đó.
 
 :::example Phải loại một giá trị
 Giải phương trình $\dfrac{x}{x-2}-\dfrac{1}{x}=\dfrac{2}{x(x-2)}$.
@@ -109,9 +110,9 @@ point: (1, 0) "1" above
 :::
 
 :::warning Những sai lầm thường gặp
-- **Chia hai vế cho biểu thức chứa ẩn.** Sai: từ $(x-1)(2x+1)=(x-1)(x+4)$ chia cho $x-1$ được $x=3$. Lí do sai: mất nghiệm $x=1$. Đúng: chuyển vế, đặt nhân tử chung.
-- **Quên đối chiếu điều kiện xác định.** Sai: kết luận phương trình ở ví dụ cuối có nghiệm $x=0$. Lí do sai: tại $x=0$ mẫu bằng $0$. Đúng: loại $x=0$.
-- **Khử mẫu nhưng quên nhân số hạng không có mẫu.** Sai: từ $\dfrac{x+1}{x-3}=2+\dfrac{4}{x-3}$ viết $x+1=2+4$. Lí do sai: số $2$ cũng phải nhân với $x-3$. Đúng: $x+1=2(x-3)+4$.
+- **Chia hai vế cho biểu thức chứa ẩn.** Sai: từ $(x-1)(2x+1)=(x-1)(x+4)$ chia hai vế cho $x-1$ được $x=3$. Lí do sai: ta làm mất nghiệm $x=1$. Đúng: chuyển vế, đặt nhân tử chung.
+- **Quên đối chiếu điều kiện xác định.** Sai: kết luận phương trình ở ví dụ cuối có nghiệm $x=0$. Nhiều bạn hay nhầm chỗ này, vì giải ra nghiệm là thấy xong việc. Lí do sai: tại $x=0$ mẫu bằng $0$. Đúng: loại $x=0$.
+- **Khử mẫu nhưng quên nhân số hạng không có mẫu.** Sai: từ $\dfrac{x+1}{x-3}=2+\dfrac{4}{x-3}$ viết $x+1=2+4$. Lí do sai: khi nhân hai vế với mẫu, số $2$ cũng phải được nhân với $x-3$. Đúng: $x+1=2(x-3)+4$.
 :::
 
 ## Thuật ngữ
@@ -133,10 +134,11 @@ point: (1, 0) "1" above
 - Không chia hai vế cho biểu thức chứa ẩn.
 - Phương trình chứa ẩn ở mẫu: tìm điều kiện xác định, quy đồng và khử mẫu, giải, rồi **đối chiếu điều kiện**.
 - Một phương trình có thể vô nghiệm nếu mọi giá trị tìm được đều bị loại.
+Quay lại câu hỏi đầu bài: An mất nghiệm vì chia hai vế cho chính ẩn. Cách an toàn là chuyển vế, đặt nhân tử chung, rồi giải phương trình tích. Đừng ngại làm chậm ở bước điều kiện xác định: bước ấy ngắn mà cứu được cả bài.
 
 ## Luyện tập
 
-Mỗi bài có phần kiến thức và gợi ý các bước. Hãy tự làm trước, rồi mới bấm xem lời giải.
+Mỗi bài có phần kiến thức cần nhớ và gợi ý từng bước. Bạn nên tự làm trước, vướng thì xem gợi ý, cuối cùng mới mở lời giải để đối chiếu. Làm sai một lần cũng không sao, vì chỗ sai thường giúp ta nhớ lâu nhất.
 
 :::exercise
 Giải phương trình $(x-5)(3x+6)=0$.

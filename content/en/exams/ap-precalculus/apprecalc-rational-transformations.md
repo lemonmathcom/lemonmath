@@ -11,15 +11,16 @@ minutes: 45
 - Build and use simple models, including inverse proportion, and choose a suitable function type for a situation.
 :::
 
-Rational functions are quotients of polynomials, and they model situations in which one quantity shrinks as another grows: average cost, concentration, light intensity. The AP Precalculus exam asks you to read their key features from the formula, to describe what happens near the "breaks" in the graph, and to explain in context what an asymptote means. This lesson also covers transformations of graphs and the choice of a model, two ideas that appear throughout Units 1 to 3.
+A lamp looks dimmer the further away you stand. A drink gets weaker the more water you add. The average cost of each item falls the more items a factory makes. In each case one quantity shrinks as another grows, and rational functions, which are quotients of polynomials, are the tool for describing it. The AP Precalculus exam asks you to read their key features from the formula, to describe what happens near the "breaks" in the graph, and to explain in context what an asymptote means. This lesson also covers transformations of graphs and the choice of a model, two ideas that appear throughout Units 1 to 3.
 
 ## Zeros, holes and vertical asymptotes
 
-For $r(x)=\dfrac{p(x)}{q(x)}$, first **factor** the numerator and the denominator.
+To read the features of $r(x)=\dfrac{p(x)}{q(x)}$, the first job is to **factor** the numerator and the denominator. Then we compare the factors on top with the factors on the bottom, because whether a factor cancels decides how the graph behaves at that place.
 
-- A factor that cancels gives a **hole** in the graph.
-- A zero of the denominator that does not cancel gives a **vertical asymptote**.
-- A zero of the numerator that does not cancel gives a **zero** of $r$.
+- A factor that cancels leaves a **hole** in the graph: just one point is missing there.
+- A zero of the denominator that does not cancel gives a **vertical asymptote**: the graph shoots up or down without bound near that line.
+- A zero of the numerator that does not cancel gives a **zero** of $r$: the graph meets the horizontal axis there.
+Many students mix up a hole and a vertical asymptote, because both appear when the denominator is zero. Whether the factor cancels is what tells them apart.
 
 :::graph The graph of $r(x)=\dfrac{x^2-4}{x^2-x-2}$
 alt: A hyperbola-like curve with a vertical asymptote at x = -1, a horizontal asymptote at y = 1, a zero at x = -2 and a hole at (2, 4/3)
@@ -50,7 +51,7 @@ So statement B is true, answer **B**.
 
 ## End behavior of rational functions
 
-Compare the degrees of the numerator and the denominator:
+When the input is very large, the highest-degree terms of the numerator and the denominator overpower everything else. So to see where the graph goes at its two ends, we only need to compare the degrees, as the table shows:
 
 | Degrees | End behavior |
 |---|---|
@@ -59,7 +60,7 @@ Compare the degrees of the numerator and the denominator:
 | numerator $=$ denominator $+1$ | slant asymptote: a line found by division |
 | numerator $>$ denominator $+1$ | behaves like a polynomial of degree (difference of degrees) |
 
-Near a vertical asymptote $x=a$, the function grows without bound; we write, for example, $\displaystyle\lim_{x\to a^+}r(x)=\infty$.
+Near a vertical asymptote $x=a$ the denominator is very small, so the function values are very large: they grow without bound, upwards or downwards. We write this in limit notation, for example $\displaystyle\lim_{x\to a^+}r(x)=\infty$.
 
 :::example End behavior
 Which rational function has the horizontal asymptote $y=\dfrac32$?
@@ -87,7 +88,7 @@ So $\displaystyle\lim_{x\to3^+}r(x)=\infty$, answer **D**.
 
 ## Transformations
 
-$g(x)=a\,f\big(b(x-h)\big)+k$ transforms the graph of $f$: a horizontal dilation by factor $\dfrac1{|b|}$, a horizontal translation by $h$, a vertical dilation by factor $|a|$, a vertical translation by $k$, and reflections when $a$ or $b$ is negative. A point $(x_0,y_0)$ on $f$ with $b=1$ moves to $(x_0+h,\ ay_0+k)$.
+Transformations let us build many new functions from a graph we already know, instead of drawing each one from scratch. The function $g(x)=a\,f\big(b(x-h)\big)+k$ transforms the graph of $f$ in four ways: a horizontal dilation by factor $\dfrac1{|b|}$, a horizontal translation by $h$, a vertical dilation by factor $|a|$ and a vertical translation by $k$. When $a$ or $b$ is negative there is a reflection too. To follow a single point, take $b=1$: a point $(x_0,y_0)$ on $f$ moves to $(x_0+h,\ ay_0+k)$.
 
 :::example Following a point
 The point $(2,5)$ lies on the graph of $f$. Which point must lie on the graph of $g(x)=-2f(x-1)+3$?
@@ -105,7 +106,7 @@ So the point $(3,-7)$ lies on the graph of $g$, answer **C**. Options A and D sh
 
 ## Building and choosing models
 
-Choose the type of function from the way the quantity behaves: constant rate of change, linear; constant second differences or a single turning point, quadratic; one quantity inversely proportional to another, rational. Then use given data to find the parameters.
+When we meet a real situation, the first question is how the quantity behaves. If the rate of change is constant, we choose a linear function. If the second differences are constant, or there is a single turning point, we choose a quadratic. If one quantity is inversely proportional to another, we choose a rational function. Once the type is chosen, we use the given data to find the parameters.
 
 :::example Inverse square law
 The intensity $I$ of light from a lamp is inversely proportional to the square of the distance $d$: $I=\dfrac{k}{d^2}$. The intensity is $200$ units at a distance of $2$ m. What is the intensity at $4$ m?
@@ -122,10 +123,10 @@ So the intensity at $4$ m is $50$ units, answer **C**. Doubling the distance div
 :::
 
 :::warning Common traps
-- **Not factoring first:** a common factor gives a hole, not an asymptote.
+- **Not factoring first:** a factor common to the numerator and the denominator gives a hole, not an asymptote.
 - **Horizontal asymptote from the wrong terms:** compare only the leading terms.
-- **Direction of a shift:** $f(x-1)$ moves the graph right.
-- **Order inside a transformation:** for $f\big(b(x-h)\big)$ the dilation by $\dfrac1b$ comes with the shift $h$; rewrite $f(2x-6)$ as $f\big(2(x-3)\big)$.
+- **Direction of a shift:** $f(x-1)$ moves the graph to the right, even though the minus sign tempts us to say left.
+- **Order inside a transformation:** for $f\big(b(x-h)\big)$ the dilation by $\dfrac1b$ goes together with the shift $h$. So rewrite $f(2x-6)$ as $f\big(2(x-3)\big)$ before reading off the transformation.
 - **Models outside their domain:** an average-cost model makes sense only for positive quantities.
 :::
 

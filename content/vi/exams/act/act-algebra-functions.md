@@ -12,11 +12,11 @@ minutes: 45
 - Tính giá trị và lập hàm hợp, làm việc với tăng trưởng hàm mũ và logarit.
 :::
 
-Đại số và hàm số chiếm phần lớn bài thi ACT Math, và còn xuất hiện bên trong các câu hình học, thống kê và mô hình hoá. Tin vui cho học sinh học chương trình Việt Nam là bản thân phần đại số rất quen thuộc. Kĩ năng cần mài sắc là chuyển nhanh câu tiếng Anh thành phương trình, và đọc đúng điều câu hỏi thật sự yêu cầu: thường không phải $x$, mà là một biểu thức như $x+y$ hay $2x-1$.
+Gặp một câu ACT, bạn có bao giờ tính đúng cả bài mà vẫn chọn sai đáp án không? Với đại số và hàm số, chuyện đó xảy ra khá thường. Phần này chiếm phần lớn bài thi ACT Math, và còn nằm bên trong các câu hình học, thống kê và mô hình hoá. Tin vui cho bạn học chương trình Việt Nam là đại số ở đây rất quen. Hai kĩ năng cần mài sắc là chuyển câu tiếng Anh thành phương trình cho nhanh, và đọc cho đúng điều đề hỏi. Nhiều khi đề không hỏi $x$, mà hỏi một biểu thức như $x+y$ hay $2x-1$.
 
 ## Phương trình và bất phương trình bậc nhất
 
-Để chuyển một bài toán có lời văn, hãy đặt tên ẩn, viết một phương trình hoặc bất phương trình, rồi giải. Khi nhân hoặc chia hai vế bất phương trình cho một số âm, phải đổi chiều bất phương trình.
+Bài có lời văn nào cũng đi qua ba việc: đặt tên cho ẩn, viết một phương trình hoặc bất phương trình, rồi giải. Có một chỗ nhiều bạn hay nhầm: khi nhân hoặc chia hai vế bất phương trình cho một số âm, chiều của bất phương trình phải đổi. Ví dụ dưới đây là một bài về ngân sách, ta cùng làm từng bước.
 
 :::example Bất phương trình về ngân sách
 Một phòng tập thu phí hội viên $30$ đô la cộng $12$ đô la cho mỗi buổi tập. Lan có $150$ đô la. Lan có thể tham gia nhiều nhất bao nhiêu buổi?
@@ -35,7 +35,7 @@ Vậy Lan có thể tham gia nhiều nhất $10$ buổi, chọn đáp án **B**.
 
 ## Hệ phương trình bậc nhất
 
-Giải bằng phương pháp thế hoặc cộng đại số. Hệ **vô nghiệm** khi hai đường thẳng song song (cùng hệ số góc, khác tung độ gốc) và **vô số nghiệm** khi hai phương trình biểu diễn cùng một đường thẳng.
+Có hai cách giải hệ quen thuộc: phương pháp thế và cộng đại số. Muốn biết hệ có nghiệm hay không, hãy nghĩ đến hai đường thẳng. Nếu chúng song song (cùng hệ số góc, khác tung độ gốc) thì không bao giờ gặp nhau, hệ **vô nghiệm**. Nếu hai phương trình cùng vẽ ra một đường thẳng thì mọi điểm trên đường đó đều là nghiệm, hệ **vô số nghiệm**. Ví dụ sau có một cái bẫy về chuyện đọc đề.
 
 :::example Đề hỏi x + y
 Nếu $2x+3y=12$ và $x-y=1$ thì giá trị của $x+y$ là
@@ -55,7 +55,7 @@ Vậy $x+y=5$, chọn đáp án **A**. Hãy đọc câu hỏi đến cuối: đ�
 
 ## Hàm bậc hai
 
-Phân tích thành nhân tử khi các số đơn giản, dùng công thức nghiệm trong trường hợp khác. Với $y=ax^2+bx+c$, đỉnh nằm tại $x=-\dfrac{b}{2a}$; tổng hai nghiệm là $-\dfrac ba$ và tích là $\dfrac ca$.
+Khi các số đơn giản, hãy thử phân tích thành nhân tử trước. Nếu không được thì dùng công thức nghiệm. Với $y=ax^2+bx+c$, đỉnh nằm tại $x=-\dfrac{b}{2a}$. Còn tổng hai nghiệm là $-\dfrac ba$ và tích hai nghiệm là $\dfrac ca$. Hai hệ thức này giúp trả lời nhanh những câu chỉ hỏi tổng hoặc tích các nghiệm, khỏi cần giải hẳn phương trình.
 
 :::example Nghiệm của phương trình bậc hai
 Tổng các nghiệm của $x^2-5x-14=0$ là
@@ -74,7 +74,7 @@ Vậy tổng các nghiệm là $5$, chọn đáp án **D**. Kết quả này kh�
 
 ## Giá trị tuyệt đối
 
-$|A|<k$ (với $k>0$) nghĩa là $-k<A<k$; $|A|>k$ nghĩa là $A<-k$ hoặc $A>k$; $|A|=k$ nghĩa là $A=k$ hoặc $A=-k$.
+Giá trị tuyệt đối đo khoảng cách, nên khi nó bằng một số dương thì có hai khả năng. $|A|<k$ (với $k>0$) nghĩa là $-k<A<k$, tức là nó nằm gần số không. $|A|>k$ nghĩa là $A<-k$ hoặc $A>k$, tức là nó nằm xa. Còn $|A|=k$ nghĩa là $A=k$ hoặc $A=-k$.
 
 :::example Số nghiệm nguyên của một bất phương trình
 Có bao nhiêu số nguyên $x$ thoả mãn $|2x-3|<7$?
@@ -94,7 +94,7 @@ Vậy có $6$ số nguyên thoả mãn bất phương trình, chọn đáp án *
 
 ## Hàm số: kí hiệu, hàm hợp và mô hình hàm mũ
 
-$f(g(x))$ nghĩa là: thực hiện $g$ trước, rồi đến $f$. Mô hình hàm mũ có dạng $P(t)=P_0\cdot b^{t/k}$; chẳng hạn một đại lượng nhân đôi sau mỗi $k$ đơn vị thời gian là $P_0\cdot2^{t/k}$. Logarit trả lời câu hỏi "luỹ thừa bao nhiêu?": $\log_bx=y$ nghĩa là $b^y=x$.
+Hàm hợp thì cứ làm từ trong ra ngoài: $f(g(x))$ nghĩa là thực hiện $g$ trước, rồi đến $f$. Còn khi một đại lượng nhân lên theo từng chu kì thời gian, ta dùng mô hình hàm mũ $P(t)=P_0\cdot b^{t/k}$. Chẳng hạn, một đại lượng nhân đôi sau mỗi $k$ đơn vị thời gian thì có dạng $P_0\cdot2^{t/k}$. Logarit thực chất chỉ là một câu hỏi: "luỹ thừa bao nhiêu?" Cụ thể, $\log_bx=y$ nghĩa là $b^y=x$.
 
 :::example Tính giá trị của hàm hợp
 Cho $f(x)=x^2-1$ và $g(x)=3x+2$. Giá trị của $f\big(g(-1)\big)$ là
@@ -126,11 +126,12 @@ Vậy sau $12$ giờ có $8000$ vi khuẩn, chọn đáp án **C**. Phương án
 :::
 
 :::warning Những cái bẫy thường gặp
-- **Trả lời nhầm đại lượng:** đề hỏi $x+y$, $2x$ hay "nhiều hơn bao nhiêu"; hãy gạch chân điều được hỏi.
-- **Đổi chiều bất phương trình** khi nhân với số âm, hoặc quên đổi.
+- **Trả lời nhầm đại lượng:** đề có thể hỏi $x+y$, $2x$ hay "nhiều hơn bao nhiêu". Hãy gạch chân điều được hỏi trước khi giải.
+- **Đổi chiều bất phương trình** khi nhân với số âm: có bạn quên đổi, cũng có bạn đổi khi không cần.
 - **Bất đẳng thức chặt và không chặt:** dấu $<$ không lấy hai đầu mút.
 - **Thứ tự của hàm hợp:** $f(g(x))$ thực hiện $g$ trước.
 - **Nhầm tăng tuyến tính với tăng theo hàm mũ:** "nhân đôi sau mỗi $3$ giờ" là phép nhân, không phải phép cộng.
+Đọc lại câu hỏi một lần nữa trước khi chọn đáp án, bạn sẽ tránh được phần lớn các lỗi này.
 :::
 
 :::terms

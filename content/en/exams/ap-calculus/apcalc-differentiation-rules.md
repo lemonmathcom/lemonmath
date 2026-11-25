@@ -11,7 +11,7 @@ minutes: 40
 - Write the equation of a tangent line, use it to approximate values, and explain why differentiability implies continuity.
 :::
 
-Unit 2 turns the idea of a limit into the derivative, the instantaneous rate of change. Most of its questions are fast multiple-choice items in the no-calculator part, but the same skills are needed in every free-response question, so accuracy here is worth a lot. Vietnamese students know these rules from grade 11; the AP style adds questions that **disguise** a derivative as a limit.
+When you glance at a car's speedometer, you read how fast it is going at that very moment, not the average over the whole journey. The derivative is exactly that number: the instantaneous rate of change. Unit 2 turns the idea of a limit into the derivative, and gives us rules to find it quickly. Most of its questions are fast multiple-choice items in the no-calculator part, but the same skills are needed in every free-response question, so accuracy here is worth a lot. Vietnamese students already know these rules from grade 11. What the AP style adds are questions that **disguise** a derivative as a limit, and we will practise spotting them.
 
 ## The derivative as a limit
 
@@ -66,7 +66,7 @@ For $f(x)=\dfrac{2x+1}{x-3}$, what is $f'(4)$?
 
 ## Tangent lines and local linear approximation
 
-The tangent line to $y=f(x)$ at $x=a$ is $y=f(a)+f'(a)(x-a)$. Near $a$ it is a good approximation of $f$.
+Zoom in far enough on a curve near a point and it looks almost straight. That straight piece is the tangent line, and because it is so much simpler than the curve, we can use it to estimate values. The tangent line to $y=f(x)$ at $x=a$ is $y=f(a)+f'(a)(x-a)$. Near $a$ it is a very good approximation of $f$.
 
 :::example Approximating with a tangent line
 Write the equation of the tangent line to $y=e^x$ at $x=0$, and use it to approximate $e^{0.1}$.
@@ -100,14 +100,15 @@ D. $f$ is continuous and differentiable.
 :::
 
 :::warning Common traps
-- **Multiplying derivatives.** $(fg)'\ne f'g'$ and $\left(\dfrac fg\right)'\ne\dfrac{f'}{g'}$.
-- **Order in the quotient rule.** The numerator is $f'g-fg'$; reversing it changes the sign.
-- **$\dfrac{d}{dx}\cos x=-\sin x$.** The minus sign is the most common lost point.
-- **Constants.** $\dfrac{d}{dx}e^2=0$, because $e^2$ is a number.
+- **Multiplying derivatives.** It is tempting to multiply the two derivatives, but $(fg)'\ne f'g'$ and $\left(\dfrac fg\right)'\ne\dfrac{f'}{g'}$.
+- **Order in the quotient rule.** The numerator is $f'g-fg'$; reversing the two terms changes the sign of the whole answer.
+- **$\dfrac{d}{dx}\cos x=-\sin x$.** The minus sign is the most common lost point, so pause and check the sign here.
+- **Constants.** $\dfrac{d}{dx}e^2=0$, because $e^2$ is just a fixed number.
+If you have made these slips, do not worry: a lot of people do, and a little practice fixes them.
 :::
 
 :::tip Numerical derivative on the calculator
-In the calculator parts, your graphing calculator can compute $f'(a)$ numerically. Use it to check a hand computation, or when the derivative is messy and only its value is needed.
+In the calculator parts, your graphing calculator can compute $f'(a)$ numerically. You can use it to check a hand computation, or when the derivative is messy and you only need its value at a point. The calculator gives only a number; understanding what is being calculated is still your job.
 :::
 
 :::terms

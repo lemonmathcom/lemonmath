@@ -12,12 +12,12 @@ minutes: 50
 - Solve kinematics problems: displacement, velocity, acceleration and distance.
 :::
 
-Calculus carries the largest share of marks in IB Maths AA, and it is the usual subject of the long Section B questions. A typical question starts with a function, asks for its derivative and stationary points, then an area or a volume, and often ends with a context such as motion or optimization. The rules are in the formula booklet; what earns marks is accurate algebra on Paper 1 and clearly stated setups on Paper 2.
+A car speeding up, a box that must hold as much as possible, a field whose area we need: all three ask the same thing. What is changing, and how fast? Calculus is the tool that answers. Calculus carries the largest share of marks in IB Maths AA, and it is the usual subject of the long Section B questions. A typical question starts with a function, asks for its derivative and stationary points, then an area or a volume, and often ends with a context such as motion or optimization. The rules are in the formula booklet, so what we need to practise is using them: what earns marks is accurate algebra on Paper 1 and clearly stated setups on Paper 2.
 
 ## Differentiation rules
 
 $$\frac{d}{dx}\big(f(g(x))\big)=f'(g(x))g'(x),\qquad(uv)'=u'v+uv',\qquad\left(\frac uv\right)'=\frac{u'v-uv'}{v^2}.$$
-Standard derivatives: $\left(x^n\right)'=nx^{n-1}$, $\left(e^x\right)'=e^x$, $(\ln x)'=\dfrac1x$, $(\sin x)'=\cos x$, $(\cos x)'=-\sin x$, $(\tan x)'=\dfrac{1}{\cos^2x}$.
+The three rules above tell us how to combine functions. Here are the derivatives of the basic ones: $\left(x^n\right)'=nx^{n-1}$, $\left(e^x\right)'=e^x$, $(\ln x)'=\dfrac1x$, $(\sin x)'=\cos x$, $(\cos x)'=-\sin x$, $(\tan x)'=\dfrac{1}{\cos^2x}$. Let us see the quotient rule at work on a familiar function.
 
 :::example Quotient rule
 Let $g(x)=\dfrac{\ln x}{x}$, $x>0$.
@@ -31,7 +31,7 @@ Let $g(x)=\dfrac{\ln x}{x}$, $x>0$.
 
 ## Tangents and normals
 
-At $x=a$, the tangent has gradient $f'(a)$, and the **normal** is perpendicular to it, with gradient $-\dfrac{1}{f'(a)}$. Both pass through $\big(a,f(a)\big)$.
+The derivative gives the steepness of a curve at each point, and that steepness can be drawn as a straight line. At $x=a$, the tangent has gradient $f'(a)$, and the **normal** is perpendicular to it, with gradient $-\dfrac{1}{f'(a)}$. Both pass through the point $\big(a,f(a)\big)$, so the gradient is all we need to write down an equation. The next example does both.
 
 :::example Tangent and normal
 Find the equations of the tangent and the normal to $y=x^3-2x$ at $x=1$. [5 marks]
@@ -43,7 +43,7 @@ Tangent: $y+1=1(x-1)$, so $y=x-2$. Normal: gradient $-1$, so $y+1=-(x-1)$, that 
 
 ## Stationary points and optimization
 
-Stationary points satisfy $f'(x)=0$. Classify them with the sign of $f'$ on each side, or with the second derivative: $f''(a)>0$ gives a minimum, $f''(a)<0$ a maximum. A **point of inflection** is where the concavity changes, that is where $f''$ changes sign.
+At the top of a hill the path is neither rising nor falling. A graph is the same: where the tangent is horizontal, the derivative is zero. Such points are called stationary points, and they satisfy $f'(x)=0$. A stationary point may be a peak or a valley, and to tell which, we classify it with the sign of $f'$ on each side, or with the second derivative: $f''(a)>0$ gives a minimum, $f''(a)<0$ a maximum. A **point of inflection** is different: it is where the concavity changes, that is where $f''$ changes sign.
 
 :::example Stationary points of a cubic
 Let $f(x)=x^3-3x^2-9x+2$. Find the coordinates of the stationary points and determine their nature. [6 marks]
@@ -67,7 +67,7 @@ Squares of side $x$ cm are cut from the corners of a $12$ cm by $12$ cm sheet, a
 
 $$\int x^n\,dx=\frac{x^{n+1}}{n+1}+C\ (n\ne-1),\quad\int\frac1x\,dx=\ln|x|+C,\quad\int e^x\,dx=e^x+C,$$
 $$\int\cos x\,dx=\sin x+C,\quad\int\sin x\,dx=-\cos x+C.$$
-The area between a curve and the $x$-axis is $\displaystyle\int_a^b|y|\,dx$; between two curves, integrate (top $-$ bottom).
+Integration undoes differentiation, and it gives us something very useful: area. The area between a curve and the $x$-axis is $\displaystyle\int_a^b|y|\,dx$. The modulus sign has a reason: where the curve lies below the axis the integral is negative, but an area cannot be negative. Between two curves, integrate (top $-$ bottom).
 
 :::example Area under a parabola
 Find the area enclosed by $y=4x-x^2$ and the $x$-axis. [4 marks]
@@ -78,7 +78,7 @@ $$\int_0^4\left(4x-x^2\right)dx=\left[2x^2-\frac{x^3}{3}\right]_0^4=32-\frac{64}
 
 ## Kinematics
 
-For a particle moving in a straight line: $v=\dfrac{ds}{dt}$ and $a=\dfrac{dv}{dt}$. The displacement from $t_1$ to $t_2$ is $\displaystyle\int_{t_1}^{t_2}v\,dt$, and the **distance traveled** is $\displaystyle\int_{t_1}^{t_2}|v|\,dt$; on Paper 2, the GDC evaluates the integral of $|v|$ directly.
+A particle goes out and comes back: how far has it gone, and how far is it from where it started? These two questions can have different answers. For a particle moving in a straight line: $v=\dfrac{ds}{dt}$ and $a=\dfrac{dv}{dt}$. The displacement from $t_1$ to $t_2$ is $\displaystyle\int_{t_1}^{t_2}v\,dt$, and the **distance traveled** is $\displaystyle\int_{t_1}^{t_2}|v|\,dt$. Many students mix these two up. On Paper 2, the GDC evaluates the integral of $|v|$ directly.
 
 :::example Displacement and distance
 A particle moves with velocity $v(t)=6t-3t^2$ m s⁻¹ for $0\le t\le3$.
@@ -100,6 +100,7 @@ A particle moves with velocity $v(t)=6t-3t^2$ m s⁻¹ for $0\le t\le3$.
 - **Negative area.** An integral is negative where the curve is below the axis; split the integral for area or distance.
 - **Not justifying the nature** of a stationary point when the question asks you to "determine" or "justify".
 - **Radian mode** on the GDC for trigonometric calculus.
+Don't worry if you trip over a few of these the first time. Keep hold of the question we began with: what is changing, and how fast? The exercises below are the place to practise it.
 :::
 
 :::terms

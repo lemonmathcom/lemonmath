@@ -10,7 +10,7 @@ minutes: 20
 - Simplify expressions with square roots, step by step, as in the grade 10 entrance exam.
 :::
 
-Mrs Lan has three square plots of land side by side in a row, with areas of $12$ m², $27$ m² and $48$ m². She wants a fence along the front edge of all three plots. How long is the fence? Can we write its exact length in a neat form?
+Mrs Lan has three square plots of land side by side in a row, with areas of $12$ m², $27$ m² and $48$ m². She wants a fence along the front edge of all three plots. How long is the fence? And can we write its exact length neatly, rather than as a long decimal from a calculator?
 
 :::diagram Three square plots side by side
 alt: Three squares standing next to each other on a straight line, with sides root 12, root 27 and root 48 metres
@@ -32,17 +32,17 @@ segment B C "√27"
 segment C D "√48"
 :::
 
-The three sides are $\sqrt{12}$, $\sqrt{27}$ and $\sqrt{48}$ m. There is no rule for adding square roots, but we can transform them so that they share the same "root part".
+The sides of the three plots are $\sqrt{12}$, $\sqrt{27}$ and $\sqrt{48}$ m. At a glance they look quite different, and there is no rule for adding square roots as they stand. But if we transform them so that they share the same "root part", we can add them. That is what we do next.
 
 ## Taking factors outside and inside the root sign
 
 ### Explore
 
-We split each number under the root sign into a perfect square times another number, then use $\sqrt{ab}=\sqrt a\cdot\sqrt b$:
+We split each number under the root sign into a perfect square times another number. A perfect square has a whole-number root, so we can pull it out on its own, using $\sqrt{ab}=\sqrt a\cdot\sqrt b$:
 
 $$\sqrt{12}=\sqrt{4\cdot3}=2\sqrt3,\qquad \sqrt{27}=\sqrt{9\cdot3}=3\sqrt3,\qquad \sqrt{48}=\sqrt{16\cdot3}=4\sqrt3.$$
 
-The three roots are now multiples of the same number $\sqrt3$. A square root such as $\sqrt3$ that cannot be written as a whole number or a fraction is called a **surd**. Surds that are multiples of the same root are **like surds**, and we add them just as we add like terms.
+The three roots are now multiples of the same number $\sqrt3$. A square root such as $\sqrt3$, which cannot be written as a whole number or a fraction, is called a **surd**. Surds that are multiples of the same root are **like surds**, and we add them just as we add like terms: by adding the coefficients.
 
 :::definition Taking a factor outside or inside the root sign
 For $B\ge0$:
@@ -50,7 +50,7 @@ For $B\ge0$:
 - **Moving a factor inside the root sign:** $A\sqrt B=\sqrt{A^2B}$ if $A\ge0$; $A\sqrt B=-\sqrt{A^2B}$ if $A<0$.
 :::
 
-The first formula holds because $\sqrt{A^2B}=\sqrt{A^2}\cdot\sqrt B=|A|\sqrt B$. The second is the first one read backwards; when $A<0$ the number $A\sqrt B$ is negative, so the minus sign must stay outside.
+Why does the first formula hold? Because the root of a product is the product of the roots, so $\sqrt{A^2B}=\sqrt{A^2}\cdot\sqrt B=|A|\sqrt B$. The second formula is just the first read backwards. Here is a spot where many people slip: when $A<0$, the number $A\sqrt B$ is negative, but a square root is never negative, so the minus sign must stay outside the root.
 
 :::example Adding like surds
 Find the length of the fence $\sqrt{12}+\sqrt{27}+\sqrt{48}$ (in a neat form, then rounded to two decimal places).
@@ -62,7 +62,7 @@ $$\sqrt{12}+\sqrt{27}+\sqrt{48}=2\sqrt3+3\sqrt3+4\sqrt3=9\sqrt3\approx15.59.$$
 So the fence is exactly $9\sqrt3$ m long, about $15.59$ m.
 :::
 
-When there are letters under the root sign, remember that $\sqrt{A^2}=|A|$, so we must look at the sign of $A$.
+When there are letters under the root sign, we need to be a little more careful. Since $\sqrt{A^2}=|A|$, we look at the sign of $A$ before we can decide how to drop the absolute value.
 
 :::example Taking a factor with letters outside
 Simplify: a) $\sqrt{50x^2}$ for $x<0$; b) $\sqrt{18a^3}$ for $a\ge0$.
@@ -74,7 +74,7 @@ $$\sqrt{50x^2}=\sqrt{(5x)^2\cdot2}=5|x|\sqrt2=-5x\sqrt2;\qquad \sqrt{18a^3}=\sqr
 So a) equals $-5x\sqrt2$ and b) equals $3a\sqrt{2a}$.
 :::
 
-Moving a factor inside the root sign lets us compare two numbers without a calculator.
+Moving a factor inside the root sign has another use: it lets us compare two numbers without a calculator. Once both numbers sit under a single root sign, we only need to compare the numbers under the roots.
 
 :::example Comparing by moving factors inside
 Compare $3\sqrt5$ and $2\sqrt{11}$.
@@ -90,7 +90,7 @@ So $3\sqrt5>2\sqrt{11}$.
 
 ## Removing denominators and rationalising
 
-Numbers like $\dfrac{6}{\sqrt3}$ are hard to estimate because the denominator is irrational. We transform them so that the denominator has no root.
+A number such as $\dfrac{6}{\sqrt3}$ is hard to picture, because the denominator is irrational. To estimate it, we transform it so that the denominator has no root. The transformations are collected in the box below.
 
 :::theorem The transformations
 - **Removing the denominator under the root sign:** $\sqrt{\dfrac AB}=\dfrac{\sqrt{AB}}{|B|}$ for $AB\ge0$, $B\neq0$.
@@ -99,7 +99,7 @@ Numbers like $\dfrac{6}{\sqrt3}$ are hard to estimate because the denominator is
 - For $A$, $B\ge0$, $A\neq B$: $\dfrac{C}{\sqrt A+\sqrt B}=\dfrac{C\left(\sqrt A-\sqrt B\right)}{A-B}$ and $\dfrac{C}{\sqrt A-\sqrt B}=\dfrac{C\left(\sqrt A+\sqrt B\right)}{A-B}$.
 :::
 
-The common idea: multiply the numerator and the denominator by an expression that turns the denominator into the identity $(m+n)(m-n)=m^2-n^2$, where squaring removes the root. The expressions $\sqrt A+\sqrt B$ and $\sqrt A-\sqrt B$ are called **conjugates**.
+Why does multiplying by that expression remove the root? Because we multiply the numerator and the denominator so that the denominator becomes the identity $(m+n)(m-n)=m^2-n^2$, and squaring a root removes it. The expressions $\sqrt A+\sqrt B$ and $\sqrt A-\sqrt B$ are called **conjugates** of each other.
 
 :::example Rationalising denominators
 Rationalise the denominator: a) $\dfrac{6}{\sqrt3}$; b) $\dfrac{4}{\sqrt5-1}$; c) $\dfrac{1}{\sqrt7+\sqrt5}$.
@@ -113,7 +113,7 @@ So a) $2\sqrt3$; b) $\sqrt5+1$; c) $\dfrac{\sqrt7-\sqrt5}{2}$.
 
 ## Simplifying expressions with square roots
 
-A simplification question in the grade 10 entrance exam usually follows these steps: find the condition for the expression to be defined, factorise the numerators and denominators, write over a common denominator, and collect terms.
+A simplification question in the grade 10 entrance exam looks long, but it usually follows the same path: find the condition for the expression to be defined, factorise the numerators and denominators, write over a common denominator, and collect terms. Once you know this path, you know where to start with any expression.
 
 :::example Simplifying an expression with $\sqrt x$
 Simplify $A=\dfrac{x-\sqrt x}{\sqrt x-1}+\dfrac{x-4}{\sqrt x+2}$ for $x\ge0$, $x\neq1$.
@@ -126,9 +126,9 @@ So $A=2\sqrt x-2$ for $x\ge0$, $x\neq1$.
 :::
 
 :::warning Common mistakes
-- **Adding unlike surds.** Wrong: $\sqrt2+\sqrt3=\sqrt5$. Why it is wrong: a root does not split over addition. Right: $\sqrt2+\sqrt3$ is already simplest; we can only add $a\sqrt3+b\sqrt3=(a+b)\sqrt3$.
+- **Adding unlike surds.** Wrong: $\sqrt2+\sqrt3=\sqrt5$. Why it is wrong: the root of a sum is not the sum of the roots. Right: $\sqrt2+\sqrt3$ is already as simple as it gets; we can only add surds that match, as in $a\sqrt3+b\sqrt3=(a+b)\sqrt3$.
 - **Moving a negative number inside the root.** Wrong: $-2\sqrt3=\sqrt{12}$. Why it is wrong: the left side is negative and the right side is positive. Right: $-2\sqrt3=-\sqrt{12}$.
-- **Multiplying only the denominator by the conjugate.** Wrong: $\dfrac{4}{\sqrt5-1}=\dfrac{4}{4}=1$. Why it is wrong: if the denominator is multiplied by $\sqrt5+1$, so must the numerator be. Right: $\dfrac{4\left(\sqrt5+1\right)}{4}=\sqrt5+1$.
+- **Multiplying only the denominator by the conjugate.** Wrong: $\dfrac{4}{\sqrt5-1}=\dfrac{4}{4}=1$. Why it is wrong: once the denominator is multiplied by $\sqrt5+1$, the numerator must be multiplied by it too. Right: $\dfrac{4\left(\sqrt5+1\right)}{4}=\sqrt5+1$.
 - **Forgetting the conditions when simplifying.** Wrong: simplifying $\dfrac{x-\sqrt x}{\sqrt x-1}$ without writing $x\neq1$. Why it is wrong: at $x=1$ the denominator is $0$. Right: state $x\ge0$, $x\neq1$.
 :::
 
@@ -152,10 +152,11 @@ So $A=2\sqrt x-2$ for $x\ge0$, $x\neq1$.
 - Like surds: $a\sqrt c+b\sqrt c=(a+b)\sqrt c$.
 - $\dfrac{A}{\sqrt B}=\dfrac{A\sqrt B}{B}$; with a denominator $\sqrt A\pm B$ or $\sqrt A\pm\sqrt B$, multiply the numerator and the denominator by the conjugate.
 - Simplifying: conditions → factorise → common denominator → collect terms → check with one value.
+Back to Mrs Lan's fence: once we took the square factors outside the root sign, the three roots became like surds, and the length came out in one neat form. The thing to remember is to make surds alike before adding them. A few practice exercises are the quickest way to make this stick.
 
 ## Practice
 
-Each exercise comes with what you need and some steps to start. Try it yourself first, then open the solution.
+Each exercise gives you what you need and a few steps to start with. Try it yourself first, look at the steps if you get stuck, and open the solution only to check your work. A slip now and then is fine: it often shows us exactly what to remember.
 
 :::exercise
 Take the factor out from under the square root sign:

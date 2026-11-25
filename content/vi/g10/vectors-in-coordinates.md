@@ -11,17 +11,17 @@ minutes: 25
 - Dùng toạ độ cho trung điểm, trọng tâm, tính thẳng hàng và đỉnh còn thiếu của hình bình hành.
 :::
 
-Trên bản đồ một khu phố kẻ ô vuông, nhà Lan ở điểm $(0; 0)$. Ứng dụng chỉ đường bảo Lan "đi $3$ dãy nhà về phía đông, rồi $2$ dãy nhà về phía bắc" để tới trường. Nhà Minh ở điểm $(1; 4)$, và Minh làm đúng hai thao tác ấy. Minh sẽ đến điểm nào?
+Trên bản đồ một khu phố kẻ ô vuông, nhà Lan ở điểm $(0; 0)$. Ứng dụng chỉ đường bảo Lan "đi $3$ dãy nhà về phía đông, rồi $2$ dãy nhà về phía bắc" để tới trường. Nhà Minh ở điểm $(1; 4)$, và Minh làm đúng hai thao tác ấy. Minh sẽ đến điểm nào? Ta trả lời được mà không cần vẽ bản đồ, chỉ cần một phép cộng. Đó cũng là ý tưởng của cả bài: gắn cho mỗi bước đi một cặp số, rồi tính toán với các cặp số ấy.
 
 ## Toạ độ của vectơ
 
-Ta thử tính. Thao tác "đi $3$ sang phải, $2$ lên trên" cộng $3$ vào hoành độ và $2$ vào tung độ, dù xuất phát ở đâu:
+Ta thử tính. Dù xuất phát ở đâu, thao tác "đi $3$ sang phải, $2$ lên trên" cũng chỉ cộng $3$ vào hoành độ và cộng $2$ vào tung độ:
 
 $$\text{Lan: } (0+3;\ 0+2)=(3; 2),\qquad \text{Minh: } (1+3;\ 4+2)=(4; 6).$$
 
-Hai bạn đi hai mũi tên khác chỗ nhưng **bằng nhau**, và cặp số $(3; 2)$ mô tả trọn vẹn mũi tên đó. Vậy Minh đến điểm $(4; 6)$. Cặp số như $(3; 2)$ gọi là toạ độ của vectơ.
+Lan và Minh đi hai mũi tên đặt ở hai chỗ khác nhau, nhưng hai mũi tên ấy **bằng nhau**, và cặp số $(3; 2)$ mô tả trọn vẹn mũi tên đó. Vì thế Minh đến điểm $(4; 6)$. Một cặp số như $(3; 2)$ gọi là toạ độ của vectơ.
 
-Trong mặt phẳng có hệ trục $Ox$, $Oy$, gọi $\vec{i}$ là vectơ có độ dài $1$ trên trục $Ox$, cùng hướng với trục, và $\vec{j}$ là vectơ như vậy trên trục $Oy$. Đây là các **vectơ đơn vị** của hai trục.
+Để nói cho gọn, ta chọn sẵn hai vectơ làm "đơn vị" cho cả mặt phẳng. Trong mặt phẳng có hệ trục $Ox$, $Oy$, gọi $\vec{i}$ là vectơ có độ dài $1$ trên trục $Ox$, cùng hướng với trục, và $\vec{j}$ là vectơ như vậy trên trục $Oy$. Hai vectơ này là các **vectơ đơn vị** của hai trục.
 
 :::definition Toạ độ của vectơ
 Mỗi vectơ $\vec{a}$ viết được duy nhất dưới dạng
@@ -42,15 +42,15 @@ segment X P dashed
 segment Y P dashed
 :::
 
-Hai vectơ **bằng nhau** khi và chỉ khi toạ độ của chúng bằng nhau: $(x; y)=(x'; y')$ nghĩa là $x=x'$ và $y=y'$. Vectơ-không là $(0; 0)$.
+Vì mỗi vectơ chỉ có một cặp toạ độ, hai vectơ **bằng nhau** khi và chỉ khi toạ độ của chúng bằng nhau: $(x; y)=(x'; y')$ nghĩa là $x=x'$ và $y=y'$. Vectơ-không là $(0; 0)$.
 
 ### Từ hai điểm đến một vectơ
 
-Nếu $A(x_A; y_A)$ và $B(x_B; y_B)$ thì để đi từ $A$ đến $B$ ta dịch $x_B-x_A$ theo chiều ngang và $y_B-y_A$ theo chiều dọc:
+Còn khi chỉ biết hai điểm thì sao? Nếu $A(x_A; y_A)$ và $B(x_B; y_B)$ thì để đi từ $A$ đến $B$ ta dịch $x_B-x_A$ theo chiều ngang và $y_B-y_A$ theo chiều dọc:
 $$\overrightarrow{AB}=(x_B-x_A;\ y_B-y_A).$$
-Nói gọn: toạ độ **điểm cuối trừ điểm đầu**.
+Nói gọn: toạ độ **điểm cuối trừ điểm đầu**. Bạn nên nhớ cụm này, vì chỗ này nhiều bạn hay trừ ngược.
 
-Ví dụ đầu tiên áp dụng công thức này và cho thấy một vectơ có thể "nằm" ở nhiều chỗ.
+Ví dụ đầu tiên áp dụng công thức này, và cho ta thấy một vectơ có thể "nằm" ở nhiều chỗ khác nhau.
 
 :::example Vectơ từ hai điểm
 Cho $A(1; 2)$, $B(4; 6)$, $C(-2; 0)$, $D(1; 4)$. Tìm toạ độ của $\overrightarrow{AB}$ và $\overrightarrow{CD}$. Hai vectơ này có bằng nhau không?
@@ -64,7 +64,7 @@ Hai vectơ có cùng toạ độ, nên $\overrightarrow{AB}=\overrightarrow{CD}$
 
 ## Các phép toán theo toạ độ
 
-Vì $\vec{a}=x_1\vec{i}+y_1\vec{j}$ và $\vec{b}=x_2\vec{i}+y_2\vec{j}$, các quy tắc tính toán của bài trước cho $\vec{a}+\vec{b}=(x_1+x_2)\vec{i}+(y_1+y_2)\vec{j}$. Làm tương tự cho hiệu và tích với một số:
+Vì $\vec{a}=x_1\vec{i}+y_1\vec{j}$ và $\vec{b}=x_2\vec{i}+y_2\vec{j}$, các quy tắc tính toán của bài trước cho $\vec{a}+\vec{b}=(x_1+x_2)\vec{i}+(y_1+y_2)\vec{j}$. Nghĩa là hoành độ cộng với hoành độ, tung độ cộng với tung độ. Hiệu và tích với một số cũng làm tương tự:
 
 :::theorem Các phép toán theo toạ độ
 Cho $\vec{a}=(x_1; y_1)$, $\vec{b}=(x_2; y_2)$ và số $k$. Khi đó
@@ -73,7 +73,7 @@ Cho $\vec{a}=(x_1; y_1)$, $\vec{b}=(x_2; y_2)$ và số $k$. Khi đó
 - $k\vec{a}=(kx_1;\ ky_1)$.
 :::
 
-Như vậy ta cộng, trừ và nhân vectơ với một số **từng toạ độ một**.
+Nói cách khác, ta cộng, trừ và nhân vectơ với một số **từng toạ độ một**. Đừng lo nếu lần đầu thấy lạ: ví dụ sau chỉ là tính hoành độ rồi tính tung độ.
 
 :::example Kết hợp các vectơ
 Cho $\vec{a}=(2; -1)$ và $\vec{b}=(-3; 4)$. Tìm $\vec{a}+\vec{b}$, $\vec{a}-\vec{b}$ và $3\vec{a}-2\vec{b}$.
@@ -91,12 +91,12 @@ Vậy $\vec{a}+\vec{b}=(-1; 3)$, $\vec{a}-\vec{b}=(5; -5)$ và $3\vec{a}-2\vec{b
 
 ## Độ dài vectơ và khoảng cách
 
-Trong hình trên, $\vec{a}=(3; 2)$ là cạnh huyền của tam giác vuông có hai cạnh góc vuông $3$ và $2$. Tổng quát, theo định lí Pythagore, vectơ $\vec{a}=(x; y)$ có độ dài
+Trong hình trên, $\vec{a}=(3; 2)$ là cạnh huyền của tam giác vuông có hai cạnh góc vuông $3$ và $2$. Độ dài của vectơ chính là độ dài cạnh huyền ấy. Tổng quát, theo định lí Pythagore, vectơ $\vec{a}=(x; y)$ có độ dài
 $$|\vec{a}|=\sqrt{x^2+y^2}.$$
-Vì $AB$ là độ dài của $\overrightarrow{AB}$, nên **khoảng cách giữa hai điểm** là
+Độ dài đoạn $AB$ cũng chính là độ dài của $\overrightarrow{AB}$. Do đó **khoảng cách giữa hai điểm** là
 $$AB=\sqrt{(x_B-x_A)^2+(y_B-y_A)^2}.$$
 
-Có độ dài ba cạnh, ta nhận dạng được tam giác mà không cần vẽ.
+Có độ dài ba cạnh, ta nhận dạng được tam giác mà không cần vẽ. Ví dụ sau dùng điều đó để nhận ra một tam giác vuông.
 
 :::example Tam giác vuông
 Cho $A(1; 2)$, $B(4; 6)$, $C(9; -4)$. Chứng minh tam giác $ABC$ vuông.
@@ -116,7 +116,7 @@ Vì $AB^2+AC^2=25+100=125=BC^2$, tam giác $ABC$ vuông tại $A$.
 
 ## Trung điểm và trọng tâm
 
-Dùng $\overrightarrow{OM}=\frac12(\overrightarrow{OA}+\overrightarrow{OB})$ và $\overrightarrow{OG}=\frac13(\overrightarrow{OA}+\overrightarrow{OB}+\overrightarrow{OC})$ với $O$ là gốc toạ độ. Toạ độ của $\overrightarrow{OA}$ chính là toạ độ của điểm $A$, nên ta được toạ độ bằng cách lấy trung bình cộng.
+Vì sao lại lấy trung bình cộng? Ta dùng hai đẳng thức $\overrightarrow{OM}=\frac12(\overrightarrow{OA}+\overrightarrow{OB})$ và $\overrightarrow{OG}=\frac13(\overrightarrow{OA}+\overrightarrow{OB}+\overrightarrow{OC})$ với $O$ là gốc toạ độ. Toạ độ của $\overrightarrow{OA}$ chính là toạ độ của điểm $A$, nên cộng các vectơ rồi chia cho số điểm cũng là lấy trung bình cộng các toạ độ.
 
 :::theorem Trung điểm và trọng tâm
 - Trung điểm $M$ của $AB$ là $M\left(\dfrac{x_A+x_B}{2};\ \dfrac{y_A+y_B}{2}\right)$.
@@ -136,11 +136,11 @@ Vậy trung điểm là $M(4; 2)$ và trọng tâm là $G(2; 3)$.
 
 ## Vectơ cùng phương và ba điểm thẳng hàng
 
-Hai vectơ $\vec{a}=(x_1; y_1)$ và $\vec{b}=(x_2; y_2)$ khác $\vec{0}$ **cùng phương** khi vectơ này là bội của vectơ kia, chẳng hạn $(2; 4)$ và $(4; 8)=2(2; 4)$. Theo toạ độ, điều đó tương đương với
+Ba điểm có nằm trên một đường thẳng hay không? Để trả lời, ta cần khái niệm vectơ cùng phương. Hai vectơ $\vec{a}=(x_1; y_1)$ và $\vec{b}=(x_2; y_2)$ khác $\vec{0}$ **cùng phương** khi vectơ này là bội của vectơ kia, chẳng hạn $(2; 4)$ và $(4; 8)=2(2; 4)$. Theo toạ độ, điều đó tương đương với
 $$x_1y_2-x_2y_1=0.$$
 Ta dùng phép thử bằng tích này thay cho tỉ số $\frac{x_1}{x_2}=\frac{y_1}{y_2}$, vì tỉ số không dùng được khi có một toạ độ bằng $0$. Ba điểm $A$, $B$, $C$ thẳng hàng khi $\overrightarrow{AB}$ và $\overrightarrow{AC}$ cùng phương.
 
-Ví dụ sau dùng phép thử này hai lần: một lần để kiểm tra, một lần để tìm một điểm chưa biết.
+Ví dụ sau dùng phép thử này hai lần: lần đầu để kiểm tra ba điểm có thẳng hàng không, lần sau để tìm một điểm chưa biết.
 
 :::example Ba điểm thẳng hàng
 Cho $A(-1; 1)$, $B(3; 3)$, $C(7; 5)$.
@@ -163,7 +163,7 @@ Vậy $M(-3; 0)$.
 
 ## Đỉnh còn thiếu của hình bình hành
 
-$ABCD$ là hình bình hành khi và chỉ khi $\overrightarrow{AB}=\overrightarrow{DC}$. Viết đẳng thức này theo toạ độ, ta tìm được đỉnh thứ tư.
+Cho ba đỉnh của một hình bình hành, đỉnh thứ tư nằm ở đâu? Ta dựa vào một điều đã biết: $ABCD$ là hình bình hành khi và chỉ khi $\overrightarrow{AB}=\overrightarrow{DC}$. Viết đẳng thức này theo toạ độ, ta tìm được đỉnh thứ tư.
 
 :::diagram Hình bình hành $ABCD$
 alt: Hình bình hành có các đỉnh A(1; 1), B(4; 2), C(5; 5) và D(2; 4) vẽ trên lưới
@@ -188,10 +188,11 @@ Vậy $D(2; 4)$.
 :::
 
 :::warning Những sai lầm thường gặp
-- **Trừ sai thứ tự.** Sai: với $A(1; 2)$, $B(4; 6)$, viết $\overrightarrow{AB}=(1-4;\ 2-6)=(-3; -4)$. Đó là $\overrightarrow{BA}$. Đúng: điểm cuối trừ điểm đầu, $\overrightarrow{AB}=(3; 4)$.
+- **Trừ sai thứ tự.** Sai: với $A(1; 2)$, $B(4; 6)$, viết $\overrightarrow{AB}=(1-4;\ 2-6)=(-3; -4)$. Đó mới là $\overrightarrow{BA}$. Đúng: điểm cuối trừ điểm đầu, $\overrightarrow{AB}=(3; 4)$.
 - **Cộng toạ độ thay cho tính độ dài.** Sai: $|(3; 4)|=3+4=7$. Đúng: $|(3; 4)|=\sqrt{9+16}=5$.
 - **Dùng tỉ số khi có toạ độ bằng $0$.** Với $(0; 2)$ và $(0; 5)$, tỉ số $\frac{0}{0}$ không có nghĩa, nhưng $0\cdot5-0\cdot2=0$ cho biết hai vectơ cùng phương.
 - **Sai thứ tự đỉnh hình bình hành.** $ABCD$ là hình bình hành cần $\overrightarrow{AB}=\overrightarrow{DC}$, không phải $\overrightarrow{AB}=\overrightarrow{CD}$.
+Đây đều là những chỗ nhiều bạn hay nhầm. Làm xong mỗi bài, bạn thử soát lại đúng bốn điểm này.
 :::
 
 ## Thuật ngữ
@@ -216,10 +217,11 @@ Vậy $D(2; 4)$.
 - Trung điểm: trung bình cộng hai toạ độ; trọng tâm: trung bình cộng ba toạ độ.
 - $\vec{a}$, $\vec{b}$ cùng phương $\iff x_1y_2-x_2y_1=0$; ba điểm thẳng hàng khi $\overrightarrow{AB}$, $\overrightarrow{AC}$ cùng phương.
 - Đỉnh thứ tư của hình bình hành $ABCD$: giải $\overrightarrow{AB}=\overrightarrow{DC}$.
+Quay lại câu hỏi đầu bài: chỉ bằng phép cộng từng toạ độ, ta tìm được nơi Minh đến mà không cần vẽ bản đồ. Điều đáng nhớ nhất là mọi việc với vectơ đều quy về tính toán trên từng toạ độ. Bạn làm thêm các bài luyện tập để quen tay nhé.
 
 ## Luyện tập
 
-Mỗi bài có phần kiến thức và gợi ý các bước. Hãy tự làm trước, rồi mới bấm xem lời giải.
+Mỗi bài có phần kiến thức cần dùng và vài bước gợi ý để bạn bắt đầu. Bạn hãy tự làm trước, mắc chỗ nào thì mới mở lời giải ra xem.
 
 :::exercise
 Cho $\vec{a}=(3; -2)$ và $\vec{b}=(-1; 5)$. Tìm toạ độ của $2\vec{a}+\vec{b}$ và $\vec{a}-3\vec{b}$.

@@ -11,15 +11,16 @@ minutes: 45
 - Lập và dùng các mô hình đơn giản, kể cả tỉ lệ nghịch, và chọn loại hàm phù hợp với tình huống.
 :::
 
-Hàm phân thức là thương của hai đa thức, và chúng mô tả các tình huống mà một đại lượng giảm dần khi đại lượng kia tăng: chi phí trung bình, nồng độ, cường độ ánh sáng. Đề AP Precalculus yêu cầu bạn đọc các đặc điểm chính từ công thức, mô tả điều gì xảy ra gần các "chỗ đứt" của đồ thị, và giải thích ý nghĩa của tiệm cận trong ngữ cảnh. Bài này cũng đề cập phép biến đổi đồ thị và việc chọn mô hình, hai ý xuất hiện xuyên suốt Unit 1 đến 3.
+Đèn càng xa thì ánh sáng càng yếu. Nước pha càng nhiều thì nồng độ càng loãng. Sản xuất càng nhiều thì chi phí trung bình cho mỗi sản phẩm càng thấp. Trong cả ba tình huống, một đại lượng giảm dần khi đại lượng kia tăng, và hàm phân thức, tức thương của hai đa thức, là công cụ để mô tả chúng. Đề AP Precalculus yêu cầu bạn đọc các đặc điểm chính từ công thức, mô tả điều gì xảy ra gần các "chỗ đứt" của đồ thị, và giải thích ý nghĩa của tiệm cận trong ngữ cảnh. Bài này cũng đề cập phép biến đổi đồ thị và việc chọn mô hình, hai ý xuất hiện xuyên suốt Unit 1 đến 3.
 
 ## Nghiệm, điểm khuyết và tiệm cận đứng
 
-Với $r(x)=\dfrac{p(x)}{q(x)}$, trước hết hãy **phân tích** tử và mẫu thành nhân tử.
+Muốn đọc các đặc điểm của $r(x)=\dfrac{p(x)}{q(x)}$, việc đầu tiên là **phân tích** tử và mẫu thành nhân tử. Sau đó ta so các nhân tử ở tử với các nhân tử ở mẫu, vì nhân tử nào rút gọn được hay không sẽ quyết định đồ thị trông thế nào ở chỗ ấy.
 
-- Một nhân tử rút gọn được cho một **điểm khuyết (hole)** trên đồ thị.
-- Một nghiệm của mẫu không rút gọn được cho một **tiệm cận đứng (vertical asymptote)**.
-- Một nghiệm của tử không rút gọn được cho một **nghiệm** của $r$.
+- Nhân tử nào rút gọn được thì để lại một **điểm khuyết (hole)** trên đồ thị: đồ thị chỉ thiếu đúng một điểm ở đó.
+- Nghiệm của mẫu mà không rút gọn được thì cho một **tiệm cận đứng (vertical asymptote)**: đồ thị vươn lên hoặc xuống không giới hạn khi lại gần đường đó.
+- Nghiệm của tử mà không rút gọn được thì cho một **nghiệm** của $r$: ở đó đồ thị chạm trục hoành.
+Chỗ này nhiều bạn hay nhầm điểm khuyết với tiệm cận đứng, vì cả hai đều xuất hiện khi mẫu bằng không. Việc rút gọn được hay không chính là thứ phân biệt chúng.
 
 :::graph Đồ thị của $r(x)=\dfrac{x^2-4}{x^2-x-2}$
 alt: Một đường cong dạng hyperbol có tiệm cận đứng x = -1, tiệm cận ngang y = 1, một nghiệm tại x = -2 và một điểm khuyết tại (2, 4/3)
@@ -50,7 +51,7 @@ Vậy khẳng định B đúng, chọn đáp án **B**.
 
 ## Dáng điệu ở vô cực của hàm phân thức
 
-So sánh bậc của tử và mẫu:
+Khi đầu vào rất lớn, số hạng bậc cao nhất của tử và của mẫu lấn át phần còn lại. Vì vậy, để biết hàm số đi đâu ở hai đầu, ta chỉ cần so sánh bậc của tử và mẫu theo bảng sau:
 
 | Bậc | Dáng điệu ở vô cực |
 |---|---|
@@ -59,7 +60,7 @@ So sánh bậc của tử và mẫu:
 | tử $=$ mẫu $+1$ | tiệm cận xiên: một đường thẳng tìm bằng phép chia |
 | tử $>$ mẫu $+1$ | có dáng điệu như đa thức có bậc bằng hiệu hai bậc |
 
-Gần tiệm cận đứng $x=a$, hàm số tăng (hoặc giảm) không bị chặn; ta viết, chẳng hạn, $\displaystyle\lim_{x\to a^+}r(x)=\infty$.
+Còn ở gần tiệm cận đứng $x=a$, mẫu số rất nhỏ nên giá trị hàm số rất lớn: nó tăng (hoặc giảm) không bị chặn. Ta ghi điều đó bằng kí hiệu giới hạn, chẳng hạn $\displaystyle\lim_{x\to a^+}r(x)=\infty$.
 
 :::example Dáng điệu ở vô cực
 Hàm phân thức nào có tiệm cận ngang $y=\dfrac32$?
@@ -87,7 +88,7 @@ Vậy $\displaystyle\lim_{x\to3^+}r(x)=\infty$, chọn đáp án **D**.
 
 ## Phép biến đổi đồ thị
 
-$g(x)=a\,f\big(b(x-h)\big)+k$ biến đổi đồ thị của $f$: co giãn theo phương ngang với hệ số $\dfrac1{|b|}$, tịnh tiến ngang $h$, co giãn theo phương đứng với hệ số $|a|$, tịnh tiến đứng $k$, và đối xứng khi $a$ hoặc $b$ âm. Khi $b=1$, điểm $(x_0,y_0)$ trên đồ thị $f$ chuyển thành $(x_0+h,\ ay_0+k)$.
+Biến đổi đồ thị giúp ta tạo ra nhiều hàm số mới từ một đồ thị đã biết, thay vì vẽ lại từ đầu. Hàm số $g(x)=a\,f\big(b(x-h)\big)+k$ biến đổi đồ thị của $f$ bằng bốn việc: co giãn theo phương ngang với hệ số $\dfrac1{|b|}$, tịnh tiến ngang $h$, co giãn theo phương đứng với hệ số $|a|$, và tịnh tiến đứng $k$. Khi $a$ hoặc $b$ âm, đồ thị còn được đối xứng. Để theo dõi một điểm cho dễ, ta xét trường hợp $b=1$: điểm $(x_0,y_0)$ trên đồ thị $f$ chuyển thành $(x_0+h,\ ay_0+k)$.
 
 :::example Theo dấu một điểm
 Điểm $(2,5)$ nằm trên đồ thị của $f$. Điểm nào chắc chắn nằm trên đồ thị của $g(x)=-2f(x-1)+3$?
@@ -105,7 +106,7 @@ Vậy điểm $(3,-7)$ nằm trên đồ thị của $g$, chọn đáp án **C**
 
 ## Lập và chọn mô hình
 
-Chọn loại hàm theo cách đại lượng thay đổi: tốc độ thay đổi không đổi, chọn tuyến tính; sai phân cấp hai không đổi hoặc có một điểm đổi chiều, chọn bậc hai; một đại lượng tỉ lệ nghịch với đại lượng khác, chọn hàm phân thức. Sau đó dùng dữ liệu đã cho để tìm các tham số.
+Khi gặp một tình huống thực tế, câu hỏi đầu tiên là: đại lượng này thay đổi theo kiểu nào? Nếu tốc độ thay đổi không đổi, ta chọn hàm tuyến tính. Nếu sai phân cấp hai không đổi hoặc đồ thị có một điểm đổi chiều, ta chọn hàm bậc hai. Nếu một đại lượng tỉ lệ nghịch với đại lượng khác, ta chọn hàm phân thức. Chọn xong loại hàm, ta dùng dữ liệu đã cho để tìm các tham số.
 
 :::example Định luật nghịch đảo bình phương
 Cường độ $I$ của ánh sáng từ một ngọn đèn tỉ lệ nghịch với bình phương khoảng cách $d$: $I=\dfrac{k}{d^2}$. Ở khoảng cách $2$ m, cường độ là $200$ đơn vị. Cường độ ở khoảng cách $4$ m là bao nhiêu?
@@ -122,10 +123,10 @@ Vậy cường độ ở khoảng cách $4$ m là $50$ đơn vị, chọn đáp 
 :::
 
 :::warning Những cái bẫy thường gặp
-- **Không phân tích nhân tử trước:** nhân tử chung cho điểm khuyết, không phải tiệm cận.
-- **Tìm tiệm cận ngang bằng số hạng khác:** chỉ so sánh các số hạng bậc cao nhất.
-- **Chiều tịnh tiến:** $f(x-1)$ dời đồ thị sang phải.
-- **Thứ tự trong phép biến đổi:** với $f\big(b(x-h)\big)$, hệ số co giãn $\dfrac1b$ đi kèm với phép tịnh tiến $h$; hãy viết $f(2x-6)$ thành $f\big(2(x-3)\big)$.
+- **Không phân tích nhân tử trước:** nhân tử chung của tử và mẫu cho một điểm khuyết, không phải tiệm cận.
+- **Tìm tiệm cận ngang bằng số hạng khác:** chỉ cần so sánh các số hạng bậc cao nhất.
+- **Chiều tịnh tiến:** $f(x-1)$ dời đồ thị sang phải, dù thấy dấu trừ ta hay nghĩ là sang trái.
+- **Thứ tự trong phép biến đổi:** với $f\big(b(x-h)\big)$, hệ số co giãn $\dfrac1b$ đi cùng phép tịnh tiến $h$. Vì thế hãy viết $f(2x-6)$ thành $f\big(2(x-3)\big)$ trước khi đọc phép biến đổi.
 - **Dùng mô hình ngoài miền xác định:** mô hình chi phí trung bình chỉ có nghĩa với số lượng dương.
 :::
 

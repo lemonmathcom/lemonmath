@@ -5,7 +5,7 @@ minutes: 175
 type: test
 ---
 
-Đề luyện này theo cấu trúc AP Precalculus từ kì thi tháng 5/2027. Mọi câu hỏi đều do Lemonmath soạn; đây không phải câu hỏi AP thật, nhưng bao quát Unit 1–3 theo đúng tỉ lệ và kiểu câu hỏi chính thức.
+Làm một đề trọn vẹn khác hẳn với làm từng bài lẻ: bạn phải giữ sức và giữ nhịp trong gần ba tiếng. Đề này theo cấu trúc AP Precalculus từ kì thi tháng 5/2027, nên bạn có dịp tập đúng nhịp đó trước ngày thi. Mọi câu hỏi đều do Lemonmath soạn. Đây không phải câu hỏi AP thật, nhưng bao quát Unit 1–3 theo đúng tỉ lệ và kiểu câu hỏi chính thức.
 
 ## Cách làm đề
 
@@ -15,9 +15,10 @@ type: test
 | Thời gian | 65 phút | 40 phút | 35 phút | 35 phút |
 | Máy tính | không được dùng | máy tính đồ thị | máy tính đồ thị | không được dùng |
 
-1. Làm từng phần với đồng hồ bấm giờ và không xem lời giải. Nộp từng phần trắc nghiệm để xem điểm.
-2. Ở các phần dùng máy tính, để chế độ radian và ghi số thập phân chính xác đến ba chữ số sau dấu phẩy.
-3. Viết bài tự luận ra giấy, rồi so với lời giải từng điểm, dùng bài [Bốn dạng câu tự luận và cách đạt điểm](lesson:apprecalc-frq-strategies).
+1. Bấm giờ cho từng phần và đừng xem lời giải khi đang làm. Làm xong phần trắc nghiệm nào thì nộp phần đó để xem điểm.
+2. Ở các phần dùng máy tính, nhớ để máy ở chế độ radian và ghi số thập phân chính xác đến ba chữ số sau dấu phẩy. Chỗ này nhiều bạn quên và mất điểm oan.
+3. Bài tự luận thì viết ra giấy, rồi đối chiếu với lời giải từng điểm. Cách chấm từng điểm có trong bài [Bốn dạng câu tự luận và cách đạt điểm](lesson:apprecalc-frq-strategies).
+Đừng lo nếu lần đầu điểm chưa như ý. Đề luyện có ích nhất khi bạn quay lại xem những câu đã sai.
 
 ## Section I, Part A: không dùng máy tính
 
@@ -407,7 +408,7 @@ $r(0)=5$ và $r\left(\dfrac\pi3\right)=3{,}5$, nên $\dfrac{3{,}5-5}{\pi/3}\appr
 
 ## Section II: tự luận
 
-Viết bài làm ra giấy. Mỗi câu $6$ điểm: mỗi ý (A)(i), (A)(ii), (B)(i), (B)(ii), (C)(i), (C)(ii) được $1$ điểm. Ghi số thập phân chính xác đến ba chữ số sau dấu phẩy.
+Sang phần tự luận, bạn viết bài làm ra giấy như khi thi thật. Mỗi câu $6$ điểm: mỗi ý (A)(i), (A)(ii), (B)(i), (B)(ii), (C)(i), (C)(ii) được $1$ điểm, nên đừng bỏ trống ý nào, làm được ý nào cứ ghi ý đó. Ghi số thập phân chính xác đến ba chữ số sau dấu phẩy.
 
 ### Part A: dùng máy tính đồ thị (35 phút)
 
@@ -538,7 +539,7 @@ Vậy các đáp số là $x=5$; $3\left(e^2\right)^x$; $\dfrac\pi6,\dfrac\pi2,\
 
 ## Sau khi làm đề
 
-Section I chấm trên 42 câu và Section II trên 24 điểm. Trong kì thi thật, phần trắc nghiệm chiếm $62{,}5\%$ và phần tự luận $37{,}5\%$ tổng điểm; College Board quy đổi điểm tổng sang thang 1–5, nên đề luyện này không đưa ra điểm AP. Dùng bảng dưới để biết mỗi câu trắc nghiệm sai cần ôn lại bài nào.
+Làm xong rồi, điều đáng giá nhất là biết mình sai ở đâu. Section I chấm trên 42 câu và Section II trên 24 điểm. Trong kì thi thật, phần trắc nghiệm chiếm $62{,}5\%$ và phần tự luận $37{,}5\%$ tổng điểm. College Board quy đổi điểm tổng sang thang 1–5, nên đề luyện này không cho ra điểm AP; con số bạn nhận được chỉ để biết mình đang đứng ở đâu. Với mỗi câu trắc nghiệm làm sai, hãy tra bảng dưới để biết nên ôn lại bài nào.
 
 | Câu | Bài cần ôn |
 |---|---|

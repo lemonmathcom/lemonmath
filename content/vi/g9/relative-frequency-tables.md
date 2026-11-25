@@ -10,17 +10,17 @@ minutes: 20
 - Dùng tần số tương đối để so sánh các mẫu dữ liệu có cỡ khác nhau.
 :::
 
-Giả sử trường A khảo sát 300 học sinh và thấy $84$ bạn dùng mạng xã hội hơn 3 giờ mỗi ngày; trường B khảo sát 180 học sinh và thấy $63$ bạn như vậy. Trường A có nhiều bạn hơn, vậy học sinh trường A "nghiện" mạng xã hội hơn? Chưa chắc: $84$ trên $300$ và $63$ trên $180$ là hai chuyện khác nhau. Để so sánh công bằng, ta cần biết mỗi nhóm chiếm *bao nhiêu phần* của cả mẫu. Đó chính là tần số tương đối.
+Giả sử trường A khảo sát 300 học sinh và thấy $84$ bạn dùng mạng xã hội hơn 3 giờ mỗi ngày. Trường B khảo sát 180 học sinh và thấy $63$ bạn như vậy. Trường A có nhiều bạn hơn, vậy có phải học sinh trường A "nghiện" mạng xã hội hơn không? Chưa chắc. $84$ trên $300$ và $63$ trên $180$ là hai chuyện khác nhau. Muốn so sánh công bằng, ta cần biết mỗi nhóm chiếm *bao nhiêu phần* của cả mẫu. Con số ấy có tên là tần số tương đối.
 
 ## Tần số tương đối
 
 ### Khám phá: chia cho cỡ mẫu
 
-Ta chia số bạn dùng mạng xã hội hơn 3 giờ cho số bạn được khảo sát:
+Cách đơn giản nhất là chia số bạn dùng mạng xã hội hơn 3 giờ cho số bạn được khảo sát ở mỗi trường:
 
 $$\text{Trường A: } \frac{84}{300}=0{,}28=28\%;\qquad \text{Trường B: } \frac{63}{180}=0{,}35=35\%.$$
 
-Như vậy trường B có tỉ lệ cao hơn, dù số bạn ít hơn. Con số $28\%$ cho biết: cứ 100 học sinh trường A thì có khoảng 28 bạn dùng mạng xã hội hơn 3 giờ mỗi ngày.
+Vậy trường B mới là trường có tỉ lệ cao hơn, dù số bạn ít hơn. Con số $28\%$ nói rằng cứ 100 học sinh trường A thì có khoảng 28 bạn dùng mạng xã hội hơn 3 giờ mỗi ngày. Nhờ chia cho cỡ mẫu, hai trường đã nói được cùng một thứ tiếng.
 
 :::definition Tần số tương đối
 Cho mẫu dữ liệu cỡ $n$ có các giá trị $x_1, x_2, \ldots, x_k$ với tần số $m_1, m_2, \ldots, m_k$.
@@ -30,7 +30,7 @@ $$f_i=\frac{m_i}{n}\cdot100\%.$$
 - Tổng các tần số tương đối bằng $100\%$.
 :::
 
-**Hiểu sâu hơn.** Tần số trả lời "bao nhiêu?", còn tần số tương đối trả lời "bao nhiêu phần của cả mẫu?". Vì đã chia cho $n$, tần số tương đối không phụ thuộc cỡ mẫu, nên so sánh được một lớp 35 bạn với cả một quốc gia. Tổng bằng $100\%$ vì $\dfrac{m_1+m_2+\ldots+m_k}{n}=\dfrac nn=1$. Khi các $f_i$ được làm tròn, tổng có thể là $99{,}9\%$ hoặc $100{,}1\%$: đó là sai số làm tròn, không phải lỗi.
+**Hiểu sâu hơn.** Tần số trả lời câu hỏi "bao nhiêu?", còn tần số tương đối trả lời câu hỏi "bao nhiêu phần của cả mẫu?". Ta đã chia cho $n$, nên tần số tương đối không còn phụ thuộc vào cỡ mẫu. Nhờ vậy, một lớp 35 bạn cũng so sánh được với cả một quốc gia. Vì sao tổng luôn bằng $100\%$? Vì $\dfrac{m_1+m_2+\ldots+m_k}{n}=\dfrac nn=1$: các phần cộng lại thành đúng một cả mẫu. Có lúc các $f_i$ được làm tròn và tổng ra $99{,}9\%$ hoặc $100{,}1\%$. Bạn đừng lo, đó chỉ là sai số làm tròn, không phải tính sai.
 
 :::example Lập bảng tần số tương đối
 Số giờ ngủ của 200 học sinh khối 9 (bài [bảng tần số](lesson:frequency-tables-charts)) có bảng tần số:
@@ -55,7 +55,7 @@ Vậy bảng tần số tương đối là:
 **Kiểm tra.** $12+23+34+22+9=100$. Từ bảng ta đọc ngay: $22\%+9\%=31\%$ học sinh ngủ đủ từ 8 giờ trở lên.
 :::
 
-Từ tần số tương đối, ta cũng tính ngược được tần số: $m_i=f_i\cdot n$.
+Chiều ngược lại cũng làm được: biết tần số tương đối và cỡ mẫu, ta tìm lại được tần số bằng $m_i=f_i\cdot n$.
 
 :::example Vận dụng: phân loại rác tại nguồn
 Giả sử một phường khảo sát 250 hộ gia đình về việc phân loại rác: $18\%$ phân loại đầy đủ, $46\%$ phân loại một phần, còn lại không phân loại. Tính số hộ của mỗi nhóm.
@@ -71,7 +71,7 @@ Vậy có $45$ hộ phân loại đầy đủ, $115$ hộ phân loại một ph�
 
 ### Dạng cột
 
-Biểu đồ tần số tương đối dạng cột vẽ giống biểu đồ tần số dạng cột, chỉ khác là chiều cao mỗi cột bằng tần số tương đối (tính theo %).
+Biểu đồ tần số tương đối dạng cột vẽ giống hệt biểu đồ tần số dạng cột, chỉ khác một điều: chiều cao mỗi cột là tần số tương đối, tính theo %.
 
 :::graph Tần số tương đối của số giờ ngủ (%)
 alt: Biểu đồ cột: các giá trị 5, 6, 7, 8, 9 giờ có cột cao lần lượt 12, 23, 34, 22, 9 phần trăm
@@ -84,15 +84,15 @@ fill: 22 ; 0 ; 7.7..8.3
 fill: 9 ; 0 ; 8.7..9.3
 :::
 
-Hình dạng giống hệt biểu đồ tần số của bài trước, vì mọi cột đều được chia cho cùng một số $n=200$. Chỉ thang đo trên trục đứng thay đổi.
+Bạn thử so với biểu đồ tần số ở bài trước: hình dạng vẫn y như cũ. Lí do là mọi cột đều được chia cho cùng một số $n=200$, nên chỉ có thang đo trên trục đứng thay đổi.
 
 ### Dạng hình quạt tròn
 
-Khi muốn thấy mỗi nhóm chiếm bao nhiêu phần của *toàn thể*, ta dùng biểu đồ hình quạt tròn: cả hình tròn ứng với $100\%$, mỗi giá trị ứng với một hình quạt có số đo góc ở tâm
+Có lúc ta muốn thấy mỗi nhóm chiếm bao nhiêu phần của *toàn thể*. Khi đó biểu đồ hình quạt tròn hợp hơn cả: cả hình tròn ứng với $100\%$, mỗi giá trị ứng với một hình quạt có số đo góc ở tâm
 
 $$\alpha_i=f_i\cdot360^\circ.$$
 
-Chẳng hạn $f=25\%$ ứng với góc $90^\circ$, tức một phần tư hình tròn.
+Chẳng hạn, $f=25\%$ ứng với góc $90^\circ$, tức là một phần tư hình tròn. Bạn cứ hình dung một chiếc bánh được cắt làm bốn phần bằng nhau.
 
 :::example Cơ cấu dân số Việt Nam theo nhóm tuổi
 Theo kết quả Điều tra dân số và nhà ở giữa kì năm 2024 của Tổng cục Thống kê (công bố tháng 1/2025), tại thời điểm 1/4/2024, dân số Việt Nam là $101\,112\,656$ người, trong đó $23{,}3\%$ dưới 15 tuổi, $67{,}4\%$ từ 15 đến 64 tuổi và $9{,}3\%$ từ 65 tuổi trở lên.
@@ -155,9 +155,10 @@ Vậy trường B có tỉ lệ dùng hơn 3 giờ cao hơn ($35\%$ so với $28
 - **So sánh tần số thay cho tần số tương đối** khi hai mẫu có cỡ khác nhau (như $84>63$ ở mở đầu).
 - **Tính góc sai.** Sai: $25\%$ ứng với góc $25^\circ$. Đúng: $25\%\cdot360^\circ=90^\circ$.
 - **Chia cho sai cỡ mẫu**, chẳng hạn chia cho số giá trị $k$ thay vì cho $n$.
+Chỗ này nhiều bạn hay nhầm, nên trước khi chia hãy hỏi lại: cỡ mẫu của mình là bao nhiêu?
 :::
 
-**Kết nối.** Tần số tương đối là cầu nối giữa thống kê và xác suất: ở lớp 8 bạn đã thấy khi lặp lại một phép thử nhiều lần, tần số tương đối của một biến cố gần với xác suất của nó. Ở chương sau, ta sẽ tính [xác suất](lesson:event-probability-experiments) bằng cách đếm, rồi so sánh với tần số tương đối thu được từ thực tế.
+**Kết nối.** Tần số tương đối là cầu nối giữa thống kê và xác suất. Ở lớp 8, bạn đã thấy khi lặp lại một phép thử nhiều lần, tần số tương đối của một biến cố gần với xác suất của nó. Ở chương sau, ta sẽ tính [xác suất](lesson:event-probability-experiments) bằng cách đếm, rồi đối chiếu với tần số tương đối thu được từ thực tế.
 
 ## Thuật ngữ
 
@@ -177,10 +178,11 @@ Vậy trường B có tỉ lệ dùng hơn 3 giờ cao hơn ($35\%$ so với $28
 - Ngược lại: $m_i=f_i\cdot n$.
 - Biểu đồ cột: chiều cao cột bằng $f_i$. Biểu đồ hình quạt tròn: góc ở tâm $f_i\cdot360^\circ$.
 - So sánh hai mẫu có cỡ khác nhau: dùng tần số tương đối, không dùng tần số.
+Quay lại hai trường ở đầu bài: số bạn nhiều hơn chưa nói lên điều gì, còn tỉ lệ thì có. Bạn hãy làm các bài luyện tập để việc chia cho cỡ mẫu thành thói quen.
 
 ## Luyện tập
 
-Mỗi bài có phần kiến thức và gợi ý các bước. Hãy tự làm trước, rồi mới bấm xem lời giải.
+Mỗi bài đều có phần kiến thức cần nhớ và vài gợi ý để bắt đầu. Bạn cứ tự làm trước, vướng ở đâu thì đọc gợi ý, sau cùng mới mở lời giải để đối chiếu.
 
 :::exercise
 Giả sử số con trong 25 gia đình có bảng tần số: giá trị $1, 2, 3, 4$ với tần số lần lượt $7, 12, 5, 1$. Lập bảng tần số tương đối.

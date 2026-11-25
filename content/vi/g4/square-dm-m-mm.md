@@ -10,19 +10,21 @@ minutes: 15
 - Đổi đơn vị diện tích và giải bài toán đơn giản có dùng các đơn vị này.
 :::
 
-Lan có một tấm bìa hình vuông, mỗi cạnh dài $1\ \text{dm}$. Lan muốn dán kín tấm bìa bằng những mảnh giấy màu hình vuông, mỗi cạnh $1\ \text{cm}$. Hỏi Lan cần bao nhiêu mảnh giấy?
+Lan có một tấm bìa hình vuông, mỗi cạnh dài $1\ \text{dm}$. Bạn ấy muốn dán kín tấm bìa bằng những mảnh giấy màu hình vuông, mỗi cạnh $1\ \text{cm}$. Em thử đoán xem: Lan cần bao nhiêu mảnh giấy?
 
-Em đã học ở lớp 3: diện tích đo bằng xăng-ti-mét vuông ($\text{cm}^2$). Hôm nay em học thêm ba đơn vị mới để đo những mặt phẳng to hơn hoặc nhỏ hơn.
+Ở lớp 3, em đã đo diện tích bằng xăng-ti-mét vuông ($\text{cm}^2$). Đơn vị ấy hợp với một tấm bìa nhỏ, nhưng đo cả một căn phòng thì quá bé. Vì vậy em sẽ học thêm ba đơn vị mới, để đo những mặt phẳng to hơn hoặc nhỏ hơn. Câu hỏi của Lan cũng sẽ có lời đáp ngay: một đề-xi-mét vuông bằng bao nhiêu xăng-ti-mét vuông?
 
 ## Cùng khám phá
 
-Em nhớ lại: $1\ \text{dm}=10\ \text{cm}$. Vậy tấm bìa của Lan có cạnh dài $10\ \text{cm}$.
+Trước hết, em nhớ lại: $1\ \text{dm}=10\ \text{cm}$. Vậy mỗi cạnh tấm bìa của Lan dài $10\ \text{cm}$. Đo bằng xăng-ti-mét thì tấm bìa trông quen hơn nhiều.
 
 - Mỗi hàng xếp được $10$ mảnh giấy cạnh $1\ \text{cm}$.
 - Tấm bìa có $10$ hàng như vậy.
 - Số mảnh giấy là $10\times10=100$ mảnh.
 
-Mỗi mảnh giấy có diện tích $1\ \text{cm}^2$. Vậy tấm bìa có diện tích $100\ \text{cm}^2$.
+Em cứ nghĩ như lát gạch nền nhà: hết hàng này đến hàng khác, cho đến khi kín.
+
+Mỗi mảnh giấy có diện tích $1\ \text{cm}^2$. Các mảnh phủ kín tấm bìa, nên diện tích của chúng cộng lại chính là diện tích tấm bìa: $100\ \text{cm}^2$.
 
 :::diagram Hình vuông cạnh 1 dm (10 cm) chia thành 100 ô vuông, mỗi ô là 1 cm²
 alt: Hình vuông cạnh 10 cm chia bằng lưới thành 10 hàng, mỗi hàng 10 ô vuông nhỏ cạnh 1 cm
@@ -35,9 +37,9 @@ grid
 label 5,-1 "10 cm"
 :::
 
-Tấm bìa này là hình vuông cạnh $1\ \text{dm}$. Diện tích của nó gọi là **một đề-xi-mét vuông**, viết là $1\ \text{dm}^2$. Em vừa tìm được $1\ \text{dm}^2=100\ \text{cm}^2$.
+Tấm bìa này là hình vuông cạnh $1\ \text{dm}$. Diện tích của nó có một tên riêng: **một đề-xi-mét vuông**, viết là $1\ \text{dm}^2$. Em vừa tìm được một điều cần nhớ: $1\ \text{dm}^2=100\ \text{cm}^2$.
 
-Ta làm tương tự với mét vuông. Hình vuông cạnh $1\ \text{m}$ có diện tích **một mét vuông** ($1\ \text{m}^2$). Vì $1\ \text{m}=10\ \text{dm}$, nên hình vuông này xếp được $10$ hàng, mỗi hàng $10$ hình vuông $1\ \text{dm}^2$. Số hình vuông là $10\times10=100$.
+Mét vuông cũng làm hệt như vậy. Hình vuông cạnh $1\ \text{m}$ có diện tích **một mét vuông** ($1\ \text{m}^2$). Vì $1\ \text{m}=10\ \text{dm}$, nên hình vuông này xếp được $10$ hàng, mỗi hàng có $10$ hình vuông $1\ \text{dm}^2$. Đếm ra được $10\times10=100$ hình vuông. Cách nghĩ vẫn là hàng nhân với hàng, chỉ đổi đơn vị.
 
 Với mi-li-mét vuông, em nhớ $1\ \text{cm}=10\ \text{mm}$. Hình vuông cạnh $1\ \text{cm}$ xếp được $10\times10=100$ hình vuông cạnh $1\ \text{mm}$. Diện tích hình vuông cạnh $1\ \text{mm}$ gọi là **một mi-li-mét vuông** ($1\ \text{mm}^2$).
 
@@ -50,13 +52,13 @@ Ba đổi cần nhớ:
 Đơn vị lớn đổi sang đơn vị bé liền sau thì **nhân với $100$**. Đơn vị bé đổi sang đơn vị lớn liền trước thì **chia cho $100$**.
 :::
 
-Vì sao là $100$ mà không phải $10$? Vì khi độ dài cạnh gấp $10$ lần, hình vuông có $10$ hàng, mỗi hàng $10$ ô. Diện tích gấp $10\times10=100$ lần.
+Vì sao là $100$ mà không phải $10$? Chỗ này nhiều bạn hay nhầm. Khi cạnh dài gấp $10$ lần, hình vuông có $10$ hàng, mỗi hàng $10$ ô. Diện tích vì thế gấp $10\times10=100$ lần, chứ không chỉ gấp mười lần.
 
-Từ hai đổi đầu, em thấy $1\ \text{m}^2=100\ \text{dm}^2=10\,000\ \text{cm}^2$, vì $100\times100=10\,000$.
+Từ hai đổi đầu, em còn suy ra được một đổi nữa: $1\ \text{m}^2=100\ \text{dm}^2=10\,000\ \text{cm}^2$, vì $100\times100=10\,000$. Đi qua hai đơn vị thì phải nhân hai lần như thế.
 
 ## Ví dụ
 
-Ta bắt đầu với một phép đổi từ đơn vị lớn sang đơn vị bé.
+Ta thử một phép đổi từ đơn vị lớn sang đơn vị bé. Số đo sẽ lớn lên, vì cùng một mặt phẳng, nhưng bây giờ ta đếm bằng những ô nhỏ hơn.
 
 :::example Đổi $3\ \text{dm}^2$ ra $\text{cm}^2$
 **Lời giải.** Đổi từ đơn vị lớn ($\text{dm}^2$) sang đơn vị bé ($\text{cm}^2$) nên em nhân với $100$, vì $1\ \text{dm}^2=100\ \text{cm}^2$:
@@ -66,7 +68,7 @@ Vậy $3\ \text{dm}^2=300\ \text{cm}^2$.
 **Kiểm tra.** $300\ \text{cm}^2:100=3\ \text{dm}^2$. Đúng.
 :::
 
-Bây giờ em đổi cả hai chiều với số khác.
+Giờ em đổi cả hai chiều, với số khác. Em xem đang đổi sang đơn vị lớn hay bé trước đã.
 
 :::example Đổi $8\ \text{m}^2$ ra $\text{dm}^2$ và $500\ \text{dm}^2$ ra $\text{m}^2$
 **Lời giải.** a) Đổi $\text{m}^2$ sang $\text{dm}^2$ là đổi sang đơn vị bé hơn, nên nhân với $100$:
@@ -76,7 +78,7 @@ $$500\ \text{dm}^2=500:100\ \text{m}^2=5\ \text{m}^2.$$
 Vậy $8\ \text{m}^2=800\ \text{dm}^2$ và $500\ \text{dm}^2=5\ \text{m}^2$.
 :::
 
-Có khi số đo gồm hai đơn vị. Em đổi từng phần rồi cộng lại.
+Có khi số đo gồm hai đơn vị, ví dụ vài đề-xi-mét vuông và thêm vài xăng-ti-mét vuông nữa. Em đổi từng phần rồi cộng lại.
 
 :::example Đổi $4\ \text{dm}^2\ 25\ \text{cm}^2$ ra $\text{cm}^2$
 **Lời giải.** Đổi phần $4\ \text{dm}^2$ ra $\text{cm}^2$ trước:
@@ -86,7 +88,7 @@ $$400+25=425.$$
 Vậy $4\ \text{dm}^2\ 25\ \text{cm}^2=425\ \text{cm}^2$.
 :::
 
-Muốn so sánh hai số đo, em đưa chúng về cùng một đơn vị.
+Hai số đo khác đơn vị thì chưa so sánh ngay được. Em đưa chúng về cùng một đơn vị rồi mới so.
 
 :::example So sánh $2\ \text{m}^2\ 8\ \text{dm}^2$ với $280\ \text{dm}^2$
 **Lời giải.** Đổi $2\ \text{m}^2\ 8\ \text{dm}^2$ ra $\text{dm}^2$: $2\ \text{m}^2=200\ \text{dm}^2$, rồi cộng $8\ \text{dm}^2$:
@@ -95,7 +97,7 @@ So sánh hai số cùng đơn vị: $208<280$.
 Vậy $2\ \text{m}^2\ 8\ \text{dm}^2<280\ \text{dm}^2$.
 :::
 
-Cuối cùng em dùng các đơn vị mới để giải một bài toán trong cuộc sống.
+Cuối cùng, ta dùng các đơn vị mới cho một việc quen thuộc: tính diện tích mặt bàn học.
 
 :::example Mặt bàn
 Mặt bàn học hình chữ nhật dài $12\ \text{dm}$, rộng $6\ \text{dm}$. Tính diện tích mặt bàn theo $\text{dm}^2$ và theo $\text{cm}^2$.
@@ -108,9 +110,11 @@ Vậy diện tích mặt bàn là $72\ \text{dm}^2$, tức $7\,200\ \text{cm}^2$
 :::
 
 :::warning Những lỗi em hay gặp
-- **Nhầm $1\ \text{dm}^2=10\ \text{cm}^2$.** Sai: $3\ \text{dm}^2=30\ \text{cm}^2$. Vì sao sai: $10$ chỉ là số xăng-ti-mét của một cạnh, còn diện tích gấp $10\times10$ lần. Đúng: $3\ \text{dm}^2=300\ \text{cm}^2$.
-- **Quên số $0$ ở giữa.** Sai: $4\ \text{dm}^2\ 5\ \text{cm}^2=45\ \text{cm}^2$. Vì sao sai: $4\ \text{dm}^2=400\ \text{cm}^2$, và $400+5=405$. Đúng: $405\ \text{cm}^2$.
-- **Nhân khi cần chia.** Sai: $500\ \text{dm}^2=50\,000\ \text{m}^2$. Vì sao sai: $\text{m}^2$ là đơn vị lớn hơn, nên số đo phải nhỏ đi. Đúng: $500\ \text{dm}^2=5\ \text{m}^2$.
+- **Nhầm $1\ \text{dm}^2=10\ \text{cm}^2$.** Sai: $3\ \text{dm}^2=30\ \text{cm}^2$. Vì sao sai: $10$ chỉ là số xăng-ti-mét của một cạnh, còn diện tích thì gấp $10\times10$ lần. Đúng: $3\ \text{dm}^2=300\ \text{cm}^2$.
+- **Quên số $0$ ở giữa.** Sai: $4\ \text{dm}^2\ 5\ \text{cm}^2=45\ \text{cm}^2$. Vì sao sai: $4\ \text{dm}^2=400\ \text{cm}^2$, và $400+5=405$, nên số $0$ ở giữa không được bỏ. Đúng: $405\ \text{cm}^2$.
+- **Nhân khi cần chia.** Sai: $500\ \text{dm}^2=50\,000\ \text{m}^2$. Vì sao sai: $\text{m}^2$ là đơn vị lớn hơn, nên số đo phải nhỏ đi. Đúng: $500\ \text{dm}^2=5\ \text{m}^2$. Trước khi tính, em hỏi mình: đơn vị mới lớn hơn hay bé hơn?
+
+Đừng lo nếu lúc đầu em còn lẫn. Làm vài bài là quen.
 :::
 
 ## Thuật ngữ
@@ -136,9 +140,11 @@ Vậy diện tích mặt bàn là $72\ \text{dm}^2$, tức $7\,200\ \text{cm}^2$
 - Đổi $1\ \text{m}^2$ ra $\text{cm}^2$ thì được $10\,000\ \text{cm}^2$.
 - Muốn so sánh hoặc cộng các số đo, em đưa về cùng một đơn vị.
 
+Quay lại câu hỏi của Lan: tấm bìa là hình vuông cạnh $1\ \text{dm}$, mà $1\ \text{dm}^2=100\ \text{cm}^2$, nên Lan cần đúng một trăm mảnh giấy cạnh một xăng-ti-mét. Em nhớ một điều thôi: hai đơn vị diện tích liền nhau hơn kém nhau một trăm lần, không phải mười lần. Em làm các bài luyện tập để quen tay nhé.
+
 ## Luyện tập
 
-Mỗi bài có phần kiến thức và gợi ý. Em hãy tự làm trước, rồi mới bấm xem lời giải.
+Mỗi bài có phần kiến thức và gợi ý để em bắt đầu. Em hãy tự làm trước, rồi mới bấm xem lời giải. Làm sai một lần cũng không sao, vì chỗ sai thường chỉ đúng chỗ cần nhớ.
 
 :::exercise
 Điền số thích hợp vào chỗ trống:

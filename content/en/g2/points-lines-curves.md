@@ -12,13 +12,13 @@ minutes: 15
 
 Mai stands at the school gate and sees the flagpole far away. She wants to walk straight from the gate to the flagpole. What kind of path should she follow, and how can we draw that path on paper?
 
-This lesson helps you name some shapes you see all around you: points, line segments, straight lines and curves.
+The path Mai walks, a line on paper, the edge of a desk: you see shapes like these every day. Once you know their names, point, line segment, straight line and curve, you can draw them and talk about them clearly.
 
 ## Let's explore
 
-Put two small dots on a sheet of paper. Each small dot is a **point**. We name a point with a capital letter, for example point $A$ and point $B$.
+Let us begin with the simplest shape. Put two small dots on a sheet of paper. Each small dot is a **point**. We name a point with a capital letter, for example point $A$ and point $B$.
 
-Place a ruler so that its edge passes through both $A$ and $B$. Draw a line along the edge from $A$ to $B$. The line you drew is a **line segment**, called $AB$. The points $A$ and $B$ are the two endpoints of the segment.
+Now place a ruler so that its edge passes through both $A$ and $B$. Draw a line along the edge from $A$ to $B$. The line you drew is a **line segment**, called $AB$. The points $A$ and $B$ are the two endpoints of the segment.
 
 :::diagram Line segment AB
 alt: A horizontal line segment AB with the two endpoints A and B
@@ -27,9 +27,9 @@ point B 4,0 below
 segment A B
 :::
 
-If we keep this straight line going for ever in both directions, with no place to stop, we get a **straight line**. A straight line has no endpoints.
+Now imagine we keep this straight line going for ever in both directions, with no place to stop. Then we get a **straight line**. A straight line has no endpoints.
 
-If the line is not straight but bends and wiggles, we call it a **curve**.
+What if the line is not straight, but bends and wiggles? We call it a **curve**.
 
 :::graph A curve
 alt: A curve that wiggles up and down and is not straight
@@ -45,11 +45,11 @@ plot: sin(x) ; 0..6
 - **Curve**: a line that is not straight and bends.
 :::
 
-We use a ruler because its edge is straight, so a line drawn along the edge is straight too.
+Why do we use a ruler? Its edge is straight, so a line drawn along the edge is straight too. Drawing by hand often makes the line bend.
 
 ## Examples
 
-We start with how to draw a line segment.
+Let us practise drawing a line segment first.
 
 :::example Draw line segment $MN$
 **Solution.** Follow these steps:
@@ -60,7 +60,7 @@ We start with how to draw a line segment.
 The straight line you drew is the line segment $MN$.
 :::
 
-Now tell the shapes apart in everyday life.
+Now we look for these shapes around us, on a desk and on a cup.
 
 :::example Line segment or curve?
 The edge of a desk and the rim of a round cup: which one suggests a line segment, and which a curve?
@@ -70,7 +70,7 @@ The edge of a desk and the rim of a round cup: which one suggests a line segment
 **Solution.** The edge of a desk is straight and has two ends, so it suggests a line segment. The rim of a round cup goes round and is not straight, so it suggests a curve.
 :::
 
-Now we check whether three points lie on the same straight line.
+What about three points? We check whether they lie on the same straight line.
 
 :::diagram Points A, B, C and point D
 alt: Three points A, B and C on the same straight line going up to the right, and point D above and to the left, off the line
@@ -87,7 +87,7 @@ Look at the picture. Which three points lie on the same straight line?
 **Solution.** Place a ruler along the line from $A$ to $C$. Point $B$ lies exactly on the edge, but point $D$ is off to the side. So the three points $A$, $B$, $C$ lie on one straight line. We say $A$, $B$, $C$ are **in a line**.
 :::
 
-Finally, count the line segments that join pairs of points.
+Finally, we count the line segments that join pairs of points.
 
 :::example Counting line segments
 Three points $A$, $B$, $C$ are in a line. We join every pair of points. How many line segments do we get?
@@ -98,9 +98,9 @@ So we get $3$ line segments.
 :::
 
 :::warning Mistakes to watch out for
-- **Drawing without a ruler.** Wrong: drawing line segment $AB$ by hand so that it bends. Why it is wrong: a bent line is not a line segment. Right: use a ruler and draw along its edge.
-- **Mixing up a line segment and a straight line.** Wrong: saying that line segment $AB$ goes on for ever. Why it is wrong: a line segment has only two ends, $A$ and $B$. Right: only a straight line goes on for ever in both directions.
-- **Saying three points are in a line when one is off.** Wrong: "$A$, $B$, $D$ are in a line" in the picture above. Why it is wrong: $D$ is not on the straight line $AC$. Right: only $A$, $B$, $C$ are in a line.
+- **Drawing without a ruler.** Wrong: drawing line segment $AB$ by hand so that it bends. Why it is wrong: once a line bends, it is not a line segment. Right: place a ruler and draw along its edge.
+- **Mixing up a line segment and a straight line.** Wrong: saying that line segment $AB$ goes on for ever. Why it is wrong: a line segment has only two ends, $A$ and $B$, so it cannot go on for ever. Right: only a straight line goes on for ever in both directions.
+- **Saying three points are in a line when one is off.** Wrong: "$A$, $B$, $D$ are in a line" in the picture above. Why it is wrong: $D$ is not on the straight line $AC$, it sits off to the side. Right: only $A$, $B$, $C$ are in a line.
 :::
 
 ## Key terms
@@ -122,9 +122,11 @@ So we get $3$ line segments.
 - A straight line goes on for ever in both directions; a curve is not straight.
 - Three points on the same straight line are in a line.
 
+Back to our opening question: to walk straight from the gate to the flagpole, Mai follows a line segment, and we draw that path with a ruler. Remember that a line segment has two ends, while a straight line goes on for ever. Try the practice exercises to get used to it.
+
 ## Practice
 
-Each exercise comes with what you need and how to start. Try it yourself first, then open the solution.
+Each exercise has what you need to remember and a hint to start you off. Have a go on your own first, then open the solution to check.
 
 :::exercise
 A shape has two points $P$ and $Q$ and a straight line joining $P$ to $Q$ drawn with a ruler. What is the shape? Write its name.

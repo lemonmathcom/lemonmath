@@ -12,11 +12,11 @@ minutes: 15
 
 Nam có một chiếc hộp quà hình lập phương, cạnh dài $10$ cm. Nam muốn bọc kín hộp bằng giấy màu. Hỏi Nam cần bao nhiêu xăng-ti-mét vuông giấy?
 
-Em không cần đo từng mặt. Chỉ cần biết hình lập phương có gì đặc biệt, em sẽ tính được bằng vài phép nhân.
+Em không cần đo từng mặt một. Hình lập phương có điều gì đặc biệt mà chỉ vài phép nhân là đủ? Ta cùng tìm câu trả lời.
 
 ## Cùng khám phá
 
-Nam cắt hộp dọc theo một số cạnh rồi trải phẳng ra. Em được $6$ hình vuông bằng nhau, mỗi hình vuông có cạnh $10$ cm.
+Thử tưởng tượng Nam cắt hộp dọc theo một số cạnh rồi trải phẳng ra. Em sẽ được $6$ hình vuông bằng nhau, mỗi hình vuông có cạnh $10$ cm.
 
 :::diagram Hình khai triển của hộp quà: 4 mặt bên và 2 mặt đáy
 alt: Hình khai triển gồm 6 hình vuông bằng nhau: một hàng 4 hình vuông là các mặt bên, hai hình vuông còn lại là hai mặt đáy, nằm trên và dưới hình vuông thứ hai
@@ -52,7 +52,7 @@ label 1.5,0.5 "đáy"
 - Bốn mặt bên xung quanh hộp: $100\times4=400\ (\text{cm}^2)$.
 - Cả sáu mặt: $100\times6=600\ (\text{cm}^2)$.
 
-Vậy Nam cần $600\ \text{cm}^2$ giấy để bọc kín hộp. Số $400\ \text{cm}^2$ là diện tích của $4$ mặt bên: đó là **diện tích xung quanh**.
+Vậy Nam cần $600\ \text{cm}^2$ giấy để bọc kín hộp. Còn số $400\ \text{cm}^2$ là diện tích của $4$ mặt bên, và nó có tên riêng: **diện tích xung quanh**. Hai mặt còn lại là mặt trên và mặt dưới của hộp.
 
 :::theorem Diện tích của hình lập phương cạnh $a$
 Hình lập phương có $6$ mặt là các hình vuông bằng nhau. Mỗi mặt có diện tích $a\times a$.
@@ -86,11 +86,11 @@ segment D D' dashed
 label 1.5,1.5 "a × a"
 :::
 
-Công thức đúng vì mọi mặt đều bằng nhau: ta lấy diện tích một mặt nhân với số mặt. Diện tích toàn phần hơn diện tích xung quanh đúng $2$ mặt đáy, nên $S_{\text{tp}}=S_{\text{xq}}+a\times a\times2$.
+Vì sao công thức đúng? Vì mọi mặt đều bằng nhau, nên ta lấy diện tích một mặt nhân với số mặt. Diện tích toàn phần hơn diện tích xung quanh đúng $2$ mặt đáy, nên $S_{\text{tp}}=S_{\text{xq}}+a\times a\times2$.
 
 ## Ví dụ
 
-Ta bắt đầu với hình lập phương có cạnh là số tự nhiên.
+Ta thử trước với hình lập phương có cạnh là số tự nhiên.
 
 :::example Tính hai diện tích
 Một hình lập phương có cạnh $5$ cm. Tính diện tích xung quanh và diện tích toàn phần của nó.
@@ -100,7 +100,7 @@ $$S_{\text{xq}}=25\times4=100\ (\text{cm}^2),\qquad S_{\text{tp}}=25\times6=150\
 Vậy diện tích xung quanh là $100\ \text{cm}^2$ và diện tích toàn phần là $150\ \text{cm}^2$.
 :::
 
-Khi cạnh là số thập phân, em nhân hai số thập phân để tìm diện tích một mặt.
+Nếu cạnh là số thập phân thì sao? Cách làm không đổi: em nhân hai số thập phân để tìm diện tích một mặt.
 
 :::example Cạnh là số thập phân
 Một hình lập phương có cạnh $1{,}5$ m. Tính diện tích xung quanh và diện tích toàn phần.
@@ -112,7 +112,7 @@ $$S_{\text{xq}}=2{,}25\times4=9\ (\text{m}^2),\qquad S_{\text{tp}}=2{,}25\times6
 Vậy diện tích xung quanh là $9\ \text{m}^2$ và diện tích toàn phần là $13{,}5\ \text{m}^2$.
 :::
 
-Trong thực tế, nhiều đồ vật không có đủ $6$ mặt. Em phải đếm xem cần tính mấy mặt.
+Trong thực tế, nhiều đồ vật không có đủ $6$ mặt, chẳng hạn một cái thùng không nắp. Em đếm xem cần tính mấy mặt rồi hãy nhân.
 
 :::example Thùng không nắp
 Bác Hải làm một cái thùng tôn hình lập phương không có nắp, cạnh $3$ dm. Bác sơn toàn bộ mặt ngoài của thùng. Hỏi diện tích cần sơn là bao nhiêu đề-xi-mét vuông?
@@ -124,7 +124,7 @@ Vậy diện tích cần sơn là $45\ \text{dm}^2$.
 **Kiểm tra.** Diện tích toàn phần là $9\times6=54\ (\text{dm}^2)$. Bớt mặt nắp $9\ \text{dm}^2$ thì còn $54-9=45\ (\text{dm}^2)$. Kết quả khớp.
 :::
 
-Cuối cùng, ta làm ngược lại: biết diện tích, tìm cạnh.
+Bây giờ ta làm ngược lại: biết diện tích, tìm cạnh.
 
 :::example Tìm cạnh
 Diện tích toàn phần của một hình lập phương là $96\ \text{cm}^2$. Tính độ dài cạnh.
@@ -136,7 +136,7 @@ Ta cần tìm số nhân với chính nó bằng $16$. Vì $4\times4=16$ nên c�
 **Kiểm tra.** $4\times4\times6=96$. Đúng.
 :::
 
-Nếu đề cho diện tích xung quanh, em chia cho $4$ (không phải $6$) để được diện tích một mặt.
+Nếu đề cho diện tích xung quanh, em chia cho $4$ (không phải $6$) để được diện tích một mặt. Chỗ này nhiều bạn hay chia nhầm cho $6$, nên em nhớ đếm mặt trước.
 
 :::warning Những lỗi em hay gặp
 - **Quên nhân hai lần cạnh.** Sai: hình lập phương cạnh $3$ cm có $S_{\text{tp}}=3\times6=18\ \text{cm}^2$. Vì sao sai: $3\times6$ không phải là diện tích; diện tích một mặt là $3\times3=9$. Đúng: $S_{\text{tp}}=3\times3\times6=54\ \text{cm}^2$.
@@ -167,10 +167,11 @@ Nếu đề cho diện tích xung quanh, em chia cho $4$ (không phải $6$) đ�
 - Vật không nắp chỉ có $5$ mặt: lấy diện tích một mặt nhân với $5$.
 - Biết diện tích, tìm cạnh: chia để được diện tích một mặt, rồi tìm số nhân với chính nó.
 - Diện tích luôn ghi kèm đơn vị vuông, ví dụ $\text{cm}^2$.
+Câu hỏi đầu bài là Nam cần bao nhiêu giấy để bọc kín hộp: đó là diện tích toàn phần, bằng diện tích một mặt nhân với số mặt. Em nhớ đếm đúng số mặt cần tính, rồi luyện thêm vài bài cho quen tay.
 
 ## Luyện tập
 
-Mỗi bài có phần kiến thức và gợi ý. Em hãy tự làm trước, rồi mới bấm xem lời giải.
+Mỗi bài có phần kiến thức và gợi ý để em bắt đầu. Em cứ tự làm trước, chưa vội xem lời giải. Sai một chút cũng không sao, vì sửa được chỗ sai thì em nhớ lâu hơn.
 
 :::exercise
 Tính diện tích xung quanh của hình lập phương có cạnh $4$ cm.

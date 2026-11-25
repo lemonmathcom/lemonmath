@@ -12,7 +12,7 @@ minutes: 15
 
 Nam measures his desk with his hand span and gets $6$ spans. Mai measures the same desk with her hand span and gets $7$ spans. Why do the two friends get different numbers?
 
-Because everyone's hand span is a different length. To make everyone measure the same, we need standard units. You already know the centimetre (cm). Today you learn three more units.
+Because everyone's hand span is a different length, so the answers differ too. To make everyone get the same answer, we need standard units: lengths that everybody agrees to use. You already know the centimetre (cm). Today you meet three more units, which let you measure much longer things.
 
 ## Let's explore
 
@@ -22,15 +22,15 @@ Take a ruler that is $10$ cm long. A length of $10$ cm is called $1$ **decimetre
 
 - $1$ dm $=10$ cm.
 
-Now pick up your teacher's metre rule. It is as long as $10$ of those $1$ dm rulers placed end to end. This length is called $1$ **metre**, written m.
+Now pick up your teacher's metre rule. It is as long as $10$ of those $1$ dm rulers laid end to end. This length is called $1$ **metre**, written m.
 
 - $1$ m $=10$ dm.
 
-For very long distances, like from school to another town, we use the **kilometre**, written km.
+For very long distances, like from school to another town, a metre is not very handy. So we use the **kilometre**, written km.
 
 - $1$ km $=1000$ m.
 
-We put this in a table:
+We put all three units in one table so they are easy to remember:
 
 | Unit | Short form | Exchange |
 |---|---|---|
@@ -44,11 +44,11 @@ We put this in a table:
 - $1$ km $=1000$ m.
 :::
 
-The bigger the unit, the longer the things we measure with it: dm for desks and chairs; m for classrooms and playgrounds; km for the way between faraway places.
+The bigger the unit, the longer the things we measure with it. A way to remember: dm for desks and chairs; m for classrooms and playgrounds; km for the way between faraway places.
 
 ## Examples
 
-We start with changing metres to decimetres.
+Let us change metres to decimetres first.
 
 :::example Changing m to dm
 Change $3$ m to dm.
@@ -58,7 +58,7 @@ $$3\text{ m}=10+10+10=30\text{ dm}.$$
 So $3$ m $=30$ dm.
 :::
 
-Now you change the other way.
+Changing the other way, from decimetres to metres, means putting the decimetres into groups.
 
 :::example Changing dm to m
 Change $40$ dm to m.
@@ -68,7 +68,7 @@ $$40\text{ dm}=4\text{ m}.$$
 So $40$ dm $=4$ m.
 :::
 
-Next you choose a sensible unit.
+Once you can change units, you also need to know which unit suits which object.
 
 :::example Choosing a unit
 Choose dm, m or km to measure: a) the length of the school playground; b) the distance from Hanoi to Hai Phong.
@@ -78,7 +78,7 @@ Choose dm, m or km to measure: a) the length of the school playground; b) the di
 So a) use m; b) use km.
 :::
 
-Finally you do a sum with lengths.
+Finally, we do a sum with lengths, like Nam's walk.
 
 :::example A walk
 This morning Nam walks $3$ km and this afternoon he walks $2$ km. How many kilometres does he walk altogether?
@@ -89,9 +89,9 @@ So Nam walks $5$ km altogether.
 :::
 
 :::warning Mistakes to watch out for
-- **Mixing up metres and decimetres.** Wrong: "$1$ m $=100$ dm". Why it is wrong: one metre is ten $1$ dm rulers. Right: $1$ m $=10$ dm.
-- **Leaving out the unit in the answer.** Wrong: "Answer: $5$". Right: "Answer: $5$ km".
-- **Using the wrong unit.** Wrong: "The pen is $15$ km long". Why it is wrong: km is for very long distances. Right: the pen is $15$ cm long.
+- **Mixing up metres and decimetres.** Wrong: "$1$ m $=100$ dm". Why it is wrong: one metre is only as long as ten $1$ dm rulers end to end. Right: $1$ m $=10$ dm.
+- **Leaving out the unit in the answer.** Wrong: "Answer: $5$". Why it is wrong: a number on its own does not tell the reader how long something is. Right: "Answer: $5$ km".
+- **Using the wrong unit.** Wrong: "The pen is $15$ km long". Why it is wrong: km is for very long distances, not for a pen. Right: the pen is $15$ cm long.
 :::
 
 ## Key terms
@@ -111,10 +111,11 @@ So Nam walks $5$ km altogether.
 - $1$ dm $=10$ cm; $1$ m $=10$ dm; $1$ km $=1000$ m.
 - Use dm for short objects, m for playgrounds and classrooms, km for long roads.
 - In sums with lengths, keep the unit and write it in the answer.
+Back to the opening question: why did Nam and Mai get different numbers? Hand spans are different lengths. Standard units such as dm, m and km give everyone the same answer. Remember to write the unit in your answer, and try the practice questions.
 
 ## Practice
 
-Each exercise comes with what you need and how to start. Try it yourself first, then open the solution.
+Each exercise comes with what you need to know and a hint for how to start. Try it yourself first. If an answer is not right, that is fine: it shows you what to look at again. Then open the solution.
 
 :::exercise
 Write the right number in each box.

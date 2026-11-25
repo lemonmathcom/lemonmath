@@ -10,36 +10,36 @@ minutes: 15
 - So sánh và sắp xếp các số trong phạm vi $100\,000$.
 :::
 
-Thư viện trường em có $36\,407$ quyển sách. Em đọc số này thế nào? Chữ số $6$ trong số này có giá trị bao nhiêu? Thư viện của trường bên cạnh có $36\,470$ quyển. Trường nào có nhiều sách hơn?
+Thư viện trường em có $36\,407$ quyển sách. Em sẽ đọc số này thế nào? Chữ số $6$ trong số này có giá trị bao nhiêu? Thư viện của trường bên cạnh có $36\,470$ quyển. Hai số trông gần giống nhau, vậy trường nào có nhiều sách hơn?
 
-Em đã học các số này ở lớp $3$. Bài này giúp em nhớ lại thật chắc trước khi học các số lớn hơn.
+Em đã học các số này ở lớp $3$. Ta ôn lại cho chắc, vì các số lớn hơn sau này cũng được đọc, viết và so sánh theo đúng cách ấy.
 
 ## Cùng khám phá
 
-Mỗi chữ số trong một số có một **hàng**. Với số $36\,407$, em đọc từ trái sang phải:
+Mỗi chữ số trong một số đứng ở một **hàng**, và hàng quyết định giá trị của chữ số đó. Với số $36\,407$, em đọc từ trái sang phải:
 
 | Hàng | Chục nghìn | Nghìn | Trăm | Chục | Đơn vị |
 |---|---|---|---|---|---|
 | Chữ số | $3$ | $6$ | $4$ | $0$ | $7$ |
 | Giá trị | $30\,000$ | $6\,000$ | $400$ | $0$ | $7$ |
 
-Cộng các giá trị lại, em được số ban đầu:
+Cộng các giá trị ở dòng cuối lại, ta được đúng số ban đầu:
 $$36\,407=30\,000+6\,000+400+0+7.$$
 
-Vậy chữ số $6$ ở hàng nghìn, có giá trị $6\,000$. Em đọc số này là: **ba mươi sáu nghìn bốn trăm linh bảy**. Chữ số $0$ ở hàng chục nên em đọc "linh".
+Vậy chữ số $6$ đứng ở hàng nghìn, nên giá trị của nó là $6\,000$. Số này đọc là **ba mươi sáu nghìn bốn trăm linh bảy**. Hàng chục là chữ số $0$, nên giữa "bốn trăm" và "bảy" em thêm chữ "linh".
 
-Bây giờ so sánh $36\,407$ và $36\,470$. Hai số đều có $5$ chữ số. Các chữ số hàng chục nghìn, nghìn, trăm đều giống nhau ($3$, $6$, $4$). Đến hàng chục: $0$ và $7$. Vì $0<7$ nên $36\,407<36\,470$. Trường bên cạnh có nhiều sách hơn.
+Giờ ta so sánh $36\,407$ và $36\,470$. Hai số đều có $5$ chữ số. Các chữ số hàng chục nghìn, nghìn, trăm đều giống nhau ($3$, $6$, $4$), nên chưa phân được hơn kém. Đến hàng chục: $0$ và $7$. Vì $0<7$ nên $36\,407<36\,470$. Vậy trường bên cạnh có nhiều sách hơn.
 
 :::theorem Cách đọc, viết và so sánh số
 - **Đọc và viết:** đọc từ hàng cao đến hàng thấp, đọc "nghìn" sau phần chục nghìn và nghìn. Hàng nào có chữ số $0$ ở giữa thì đọc "không trăm" hoặc "linh".
 - **So sánh:** số nào có nhiều chữ số hơn thì lớn hơn. Hai số có cùng số chữ số thì so từng hàng, bắt đầu từ hàng cao nhất; hàng nào khác nhau đầu tiên thì chữ số lớn hơn cho số lớn hơn.
 :::
 
-Cách so sánh này đúng vì hàng cao có giá trị lớn hơn rất nhiều: $1$ chục nghìn là $10\,000$, lớn hơn mọi giá trị của bốn hàng còn lại cộng lại.
+Vì sao chỉ cần so ở hàng đầu tiên khác nhau? Vì hàng cao có giá trị lớn hơn rất nhiều: $1$ chục nghìn là $10\,000$, lớn hơn mọi giá trị của bốn hàng còn lại cộng lại.
 
 ## Ví dụ
 
-Ta bắt đầu bằng việc đọc và phân tích một số.
+Ta bắt đầu bằng việc đọc một số và xem chữ số nào đứng ở hàng nào.
 
 :::example Đọc số
 Đọc số $52\,019$ và nêu chữ số ở mỗi hàng.
@@ -53,7 +53,7 @@ Ta bắt đầu bằng việc đọc và phân tích một số.
 Hàng trăm là $0$ nên em đọc "không trăm". Vậy $52\,019$ đọc là: **năm mươi hai nghìn không trăm mười chín**.
 :::
 
-Từ cách phân tích hàng, em viết số thành tổng.
+Biết giá trị của từng hàng rồi, em viết được số thành một tổng.
 
 :::example Viết thành tổng
 Viết số $84\,350$ thành tổng các hàng.
@@ -64,7 +64,7 @@ $$84\,350=80\,000+4\,000+300+50.$$
 Vậy $84\,350=80\,000+4\,000+300+50$.
 :::
 
-Tiếp theo là so sánh hai số.
+Bây giờ ta so sánh hai số. Chỗ cần nhớ: nhìn số chữ số trước, rồi mới so từng hàng.
 
 :::example So sánh số
 So sánh: a) $45\,678$ và $45\,687$; b) $9\,999$ và $10\,000$.
@@ -74,7 +74,7 @@ So sánh: a) $45\,678$ và $45\,687$; b) $9\,999$ và $10\,000$.
 b) $9\,999$ có $4$ chữ số, $10\,000$ có $5$ chữ số. Số có nhiều chữ số hơn thì lớn hơn. Vậy $9\,999<10\,000$.
 :::
 
-Có nhiều số thì ta so sánh lần lượt rồi sắp xếp.
+Khi có nhiều số, ta so từng đôi một rồi xếp chúng theo thứ tự.
 
 :::example Sắp xếp số
 Sắp xếp các số $23\,540$; $32\,450$; $23\,450$; $9\,999$ theo thứ tự từ bé đến lớn.
@@ -84,7 +84,7 @@ Sắp xếp các số $23\,540$; $32\,450$; $23\,450$; $9\,999$ theo thứ tự 
 Vậy thứ tự từ bé đến lớn là: $9\,999$; $23\,450$; $23\,540$; $32\,450$.
 :::
 
-Cuối cùng là số liền trước và số liền sau.
+Cuối cùng là số liền trước và số liền sau, chỉ cần bớt hoặc thêm một đơn vị.
 
 :::example Số liền trước, liền sau
 Tìm số liền sau của $69\,999$ và số liền trước của $40\,000$.
@@ -99,6 +99,7 @@ Vậy số liền sau của $69\,999$ là $70\,000$, số liền trước của 
 - **Bỏ sót "linh" hoặc "không trăm".** Sai: đọc $30\,502$ là "ba mươi nghìn năm trăm hai mươi". Vì sao sai: đó là số $30\,520$. Đúng: "ba mươi nghìn năm trăm linh hai".
 - **So sánh khi số chữ số khác nhau.** Sai: $9\,999>10\,000$ vì $9>1$. Vì sao sai: $10\,000$ có nhiều chữ số hơn. Đúng: $9\,999<10\,000$.
 - **Nhầm giá trị với chữ số.** Sai: chữ số $6$ trong $46\,280$ có giá trị $6$. Vì sao sai: $6$ ở hàng nghìn. Đúng: giá trị là $6\,000$.
+Đừng lo nếu em từng nhầm ở đây. Mỗi lần đọc số hay so sánh, em cứ tự hỏi: chữ số này đứng ở hàng nào?
 :::
 
 ## Thuật ngữ
@@ -120,10 +121,11 @@ Vậy số liền sau của $69\,999$ là $70\,000$, số liền trước của 
 - Mỗi chữ số có giá trị theo hàng của nó: $36\,407=30\,000+6\,000+400+7$.
 - Đọc từ hàng cao đến hàng thấp; chữ số $0$ ở giữa thì đọc "linh" hoặc "không trăm".
 - So sánh: nhiều chữ số hơn thì lớn hơn; cùng số chữ số thì so từng hàng từ hàng cao nhất.
+Quay lại câu hỏi đầu bài: nhờ biết mỗi chữ số đứng ở hàng nào, em đọc được số sách của thư viện, nêu được giá trị của từng chữ số và so sánh được hai số. Em chỉ cần nhớ rằng hàng cao hơn thì giá trị lớn hơn rất nhiều. Làm thêm bài luyện tập, em sẽ thấy quen tay.
 
 ## Luyện tập
 
-Mỗi bài có phần kiến thức và gợi ý. Em hãy tự làm trước, rồi mới bấm xem lời giải.
+Mỗi bài có phần kiến thức cần dùng và một gợi ý để em bắt đầu. Em cứ thử tự làm trước, chưa ra thì mở gợi ý, cuối cùng mới xem lời giải.
 
 :::exercise
 Đọc số $41\,305$.

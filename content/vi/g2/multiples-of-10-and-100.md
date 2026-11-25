@@ -12,16 +12,16 @@ minutes: 15
 
 Mỗi túi có $1$ chục viên kẹo. Mai có $6$ túi như vậy. Hỏi Mai có tất cả bao nhiêu viên kẹo?
 
-Em đã biết $1$ chục là $10$ đơn vị. Bài này giúp em gọi tên và viết nhanh số kẹo của nhiều túi.
+Đếm từng viên kẹo thì chậm, nhất là khi có nhiều túi. Em đã biết $1$ chục là $10$ đơn vị. Chỉ cần nhớ điều đó, em sẽ gọi tên và viết ra số kẹo của tất cả các túi thật nhanh.
 
 ## Cùng khám phá
 
-Em đếm thêm từng chục: $1$ chục, $2$ chục, $3$ chục, ... Mỗi lần thêm $1$ chục là thêm $10$.
+Ta cùng đếm kẹo theo từng túi nhé. Em đếm thêm từng chục: $1$ chục, $2$ chục, $3$ chục, ... Mỗi lần thêm $1$ chục là thêm $10$.
 
 - $1$ chục là $10$, $2$ chục là $20$, $3$ chục là $30$.
-- Cứ thế đến $9$ chục là $90$.
+- Em cứ đếm tiếp như vậy, đến $9$ chục thì được $90$.
 
-Những số như $10, 20, 30, \dots, 90$ gọi là **số tròn chục**. Chữ số hàng đơn vị của chúng đều là $0$.
+Nhìn các số $10, 20, 30, \dots, 90$, em thấy chúng đều có chữ số $0$ ở cuối, tức là ở hàng đơn vị. Những số như vậy gọi là **số tròn chục**.
 
 :::graph Trên tia số: các số tròn chục từ 0 đến 100
 alt: Tia số từ 0 đến 100, đánh dấu các số tròn chục 0, 10, 20, ..., 100
@@ -41,18 +41,18 @@ point: (90, 0) "90" below
 point: (100, 0) "100" below
 :::
 
-Làm tương tự với trăm: $1$ trăm là $100$, $2$ trăm là $200$, ..., $9$ trăm là $900$. Những số này gọi là **số tròn trăm**. Hai chữ số cuối của chúng đều là $0$.
+Với trăm, em làm y như vậy: $1$ trăm là $100$, $2$ trăm là $200$, ..., $9$ trăm là $900$. Hai chữ số cuối của các số này đều là $0$, và ta gọi chúng là **số tròn trăm**.
 
 :::theorem Số tròn chục, số tròn trăm
 - $n$ chục viết là $n$ rồi thêm một chữ số $0$. Ví dụ: $4$ chục là $40$.
 - $n$ trăm viết là $n$ rồi thêm hai chữ số $0$. Ví dụ: $4$ trăm là $400$.
 :::
 
-Cách viết này đúng vì $4$ chục là $10+10+10+10=40$, còn $4$ trăm là $100+100+100+100=400$.
+Vì sao chỉ cần thêm chữ số không? Em cộng thử nhé: $4$ chục là $10+10+10+10=40$, còn $4$ trăm là $100+100+100+100=400$. Cộng ra đúng như cách viết ở trên.
 
 ## Ví dụ
 
-Ta bắt đầu với số tròn chục.
+Ta thử với số tròn chục trước.
 
 :::example Viết số tròn chục
 Viết số cho $3$ chục và $8$ chục.
@@ -62,7 +62,7 @@ $$3\text{ chục}=30,\qquad 8\text{ chục}=80.$$
 Vậy $3$ chục là $30$ và $8$ chục là $80$.
 :::
 
-Bây giờ em đếm thêm $10$ để điền số còn thiếu.
+Dãy số dưới đây có chỗ trống. Em đếm thêm $10$ từng bước để tìm số còn thiếu.
 
 :::example Đếm thêm 10
 Điền số còn thiếu: $20, 30, \square, 50, \square$.
@@ -72,7 +72,7 @@ $$20, 30, 40, 50, 60.$$
 Vậy hai số còn thiếu là $40$ và $60$.
 :::
 
-Tiếp theo là số tròn trăm.
+Giờ đến số tròn trăm, cách làm cũng tương tự.
 
 :::example Viết số tròn trăm
 Viết số cho $4$ trăm. Số $700$ có mấy trăm?
@@ -82,7 +82,7 @@ Viết số cho $4$ trăm. Số $700$ có mấy trăm?
 Vậy $4$ trăm là $400$ và $700$ là $7$ trăm.
 :::
 
-Cuối cùng em dùng số tròn chục trong một bài toán.
+Cuối cùng, ta quay lại với túi kẹo của Mai ở đầu bài.
 
 :::example Túi kẹo
 Mỗi túi có $1$ chục viên kẹo. Mai có $6$ túi. Hỏi Mai có bao nhiêu viên kẹo?
@@ -93,9 +93,9 @@ Vậy Mai có $60$ viên kẹo.
 :::
 
 :::warning Những lỗi em hay gặp
-- **Quên chữ số 0.** Sai: "$4$ chục là $4$". Vì sao sai: $4$ chục là bốn nhóm $10$. Đúng: $4$ chục là $40$.
-- **Nhầm số tròn chục với số tròn trăm.** Sai: "$6$ trăm là $60$". Vì sao sai: $60$ là $6$ chục. Đúng: $6$ trăm là $600$.
-- **Cho rằng mọi số đều tròn chục.** Sai: "$35$ là số tròn chục". Vì sao sai: chữ số cuối của $35$ là $5$, không phải $0$. Đúng: $35$ không phải số tròn chục.
+- **Quên chữ số 0.** Sai: "$4$ chục là $4$". Vì sao sai: $4$ chục là bốn nhóm $10$ gộp lại. Đúng: $4$ chục là $40$.
+- **Nhầm số tròn chục với số tròn trăm.** Sai: "$6$ trăm là $60$". Vì sao sai: $60$ chỉ là $6$ chục thôi em nhé. Đúng: $6$ trăm là $600$.
+- **Cho rằng mọi số đều tròn chục.** Sai: "$35$ là số tròn chục". Vì sao sai: chữ số cuối của $35$ là $5$ chứ không phải $0$. Đúng: $35$ không phải số tròn chục.
 :::
 
 ## Thuật ngữ
@@ -117,9 +117,11 @@ Vậy Mai có $60$ viên kẹo.
 - $4$ chục là $40$; $4$ trăm là $400$.
 - Đếm thêm $10$ được số tròn chục kế tiếp; đếm thêm $100$ được số tròn trăm kế tiếp.
 
+Quay lại câu hỏi đầu bài: số kẹo của các túi là một số tròn chục. Em chỉ cần đếm xem có bao nhiêu chục, viết số đó ra rồi thêm chữ số không vào bên phải. Em làm các bài luyện tập để nhớ cho chắc nhé.
+
 ## Luyện tập
 
-Mỗi bài có phần kiến thức và gợi ý. Em hãy tự làm trước, rồi mới bấm xem lời giải.
+Mỗi bài đều có phần kiến thức cần nhớ và một gợi ý để em bắt đầu. Em cứ thử tự làm trước, chưa chắc thì mới mở lời giải ra xem.
 
 :::exercise
 Viết số.

@@ -10,13 +10,13 @@ minutes: 15
 - Know that swapping the two parts does not change the whole.
 :::
 
-Lan has $5$ marbles. She holds $2$ marbles in her left hand and the rest in her right hand. How many marbles are in her right hand?
+Lan has $5$ marbles. She holds $2$ of them in her left hand and puts the rest in her right hand. Can you guess how many marbles are in her right hand?
 
-You can already count and compare numbers up to $10$. In this lesson you learn to split a number into two parts.
+You can already count and compare numbers up to $10$. But what if some of the marbles are hidden in a hand? Once you know how to split a number into two parts, you can work out the part you cannot see.
 
 ## Let's explore
 
-You have $5$ marbles and share them between two hands.
+Let us try it with $5$ marbles. You can share them between your two hands in more than one way. The table shows each way.
 
 | Left hand | Right hand |
 |---|---|
@@ -25,9 +25,9 @@ You have $5$ marbles and share them between two hands.
 | $3$ | $2$ |
 | $4$ | $1$ |
 
-In every row, the two parts together make all $5$ marbles. We say: $5$ is made of $1$ and $4$; $5$ is made of $2$ and $3$; $5$ is made of $3$ and $2$; $5$ is made of $4$ and $1$.
+Look at each row. The two hands together always make all $5$ marbles, whichever row you choose. We have a way of saying this: $5$ is made of $1$ and $4$; $5$ is made of $2$ and $3$; $5$ is made of $3$ and $2$; $5$ is made of $4$ and $1$.
 
-So Lan has $3$ marbles in her right hand.
+Back to Lan's question. The row that matches her left hand gives the answer: she has $3$ marbles in her right hand.
 
 :::theorem Number bonds
 1. A number can be made of two smaller numbers. For example, $5$ is made of $2$ and $3$.
@@ -35,11 +35,11 @@ So Lan has $3$ marbles in her right hand.
 3. If you know the whole and one part, you find the other part by counting on or by matching.
 :::
 
-This works because when you share the marbles between two hands, no marble is lost. The two hands together are still the whole group.
+Why does this work? When you share the marbles between two hands, no marble is lost. The two hands together are still the whole group, however you share them.
 
 ## Examples
 
-We start with the number $4$.
+We begin with a small group: the number $4$.
 
 :::example $4$ is made of $1$ and what
 $4$ is made of $1$ and $\square$. Find the missing number.
@@ -49,7 +49,7 @@ $4$ is made of $1$ and $\square$. Find the missing number.
 So $4$ is made of $1$ and $3$.
 :::
 
-Now try a bigger number.
+Does the method change for a bigger group? Have a go and see.
 
 :::example $6$ is made of $2$ and what
 $6$ is made of $2$ and $\square$. Find the missing number.
@@ -61,7 +61,7 @@ So $6$ is made of $2$ and $4$.
 **Check.** $6$ is made of $4$ and $2$ (swapped). Correct.
 :::
 
-Next, use swapping the two parts.
+You may already know one way to split a number. Then just swap the two parts.
 
 :::example Swapping the two parts
 You know $7$ is made of $3$ and $4$. What is $7$ made of $4$ and?
@@ -71,7 +71,7 @@ You know $7$ is made of $3$ and $4$. What is $7$ made of $4$ and?
 So $7$ is made of $4$ and $3$.
 :::
 
-Last, solve an everyday problem.
+What about sharing sweets between two plates? Splitting helps here too.
 
 :::example Sharing sweets on two plates
 $8$ sweets are shared between two plates. The first plate has $3$ sweets. How many sweets are on the second plate?
@@ -84,9 +84,10 @@ So the second plate has $5$ sweets.
 :::
 
 :::warning Mistakes to watch out for
-- **Parts that do not make the whole.** Wrong: $6$ is made of $4$ and $3$. Why it is wrong: $4$ and $3$ together make seven, not six. Right: $6$ is made of $4$ and $2$.
-- **Forgetting that swapping still works.** Wrong: $7$ is made of $3$ and $4$ but not of $4$ and $3$. Why it is wrong: swapping the parts does not change the whole. Right: both are correct.
+- **Parts that do not make the whole.** Wrong: $6$ is made of $4$ and $3$. Why it is wrong: put $4$ and $3$ together and you get seven, not six. Right: $6$ is made of $4$ and $2$.
+- **Forgetting that swapping still works.** Wrong: thinking $7$ is made of $3$ and $4$ but not of $4$ and $3$. Why it is wrong: swapping the parts does not change the whole. Right: both are correct.
 - **Counting the number you already know.** Wrong: $6$ is made of $2$ and $5$ because you count "two, three, four, five, six". Why it is wrong: you counted the $2$ as well. Right: count on after $2$ to get $4$ numbers.
+Many children slip up here, so do not worry if you do too. Go slowly and point to each marble as you count.
 :::
 
 ## Key terms
@@ -104,12 +105,13 @@ So the second plate has $5$ sweets.
 
 - A number can be made of two smaller numbers: $5$ is made of $2$ and $3$.
 - Swap the two parts and the whole stays the same.
-- If you know the whole and one part, count on from the known part to the whole to find the missing part.
+- If you know the whole and one part, you count on from the known part to the whole to find the missing part.
 - The two parts must make the whole group.
+Do you remember Lan's question? One hand holds the part you know, the other holds the missing part, and together the two hands still make all the marbles. Do a few more exercises and splitting numbers will soon feel natural.
 
 ## Practice
 
-Each exercise comes with what you need and how to start. Try it yourself first, then open the solution.
+Each exercise comes with what you need to remember and a hint to start you off. Try it yourself first, then open the solution. If the answer does not come at once, do not worry. Take it one step at a time.
 
 :::exercise
 $3$ is made of $1$ and $\square$. Find the missing number.

@@ -12,16 +12,16 @@ minutes: 15
 
 Em có một viên xúc xắc và một hộp phấn. Cả hai đều là khối, không phẳng như tờ giấy. Hai khối đó khác nhau ở chỗ nào, và em gọi tên chúng như thế nào?
 
-Ở bài trước em học phép cộng và phép trừ. Bài này em làm quen với các hình khối.
+Em đã học phép cộng và phép trừ. Bây giờ ta nhìn sang những vật em cầm được trong tay, như viên xúc xắc hay hộp phấn. Biết tên và đặc điểm của chúng, em sẽ nhận ra chúng ở khắp nơi quanh mình.
 
 ## Cùng khám phá
 
-Em cầm viên xúc xắc và sờ vào các mặt phẳng của nó.
+Em thử cầm viên xúc xắc lên, rồi sờ từng mặt phẳng của nó.
 
 - Viên xúc xắc có $6$ mặt.
 - Mỗi mặt là một hình vuông, và các hình vuông đó bằng nhau.
 
-Em cầm hộp phấn và sờ vào các mặt phẳng của nó.
+Bây giờ em làm giống như vậy với hộp phấn: cầm lên và sờ từng mặt.
 
 - Hộp phấn cũng có $6$ mặt.
 - Mỗi mặt là một hình chữ nhật.
@@ -56,11 +56,11 @@ segment E H dashed
 3. Hình vuông và hình chữ nhật là hình phẳng, còn khối lập phương và khối hộp chữ nhật là hình khối.
 :::
 
-Cách này đúng vì em chỉ cần nhìn các mặt: mặt vuông thì là khối lập phương, mặt chữ nhật thì là khối hộp chữ nhật.
+Vì sao chỉ cần nhìn các mặt? Vì hình dạng của mặt cho em biết tên của khối. Mặt vuông thì là khối lập phương. Mặt chữ nhật thì là khối hộp chữ nhật.
 
 ## Ví dụ
 
-Ta bắt đầu với một đồ vật quen thuộc.
+Ta bắt đầu với vật em vừa cầm ở trên: viên xúc xắc.
 
 :::example Viên xúc xắc
 Viên xúc xắc có dạng khối gì?
@@ -72,7 +72,7 @@ Viên xúc xắc có dạng khối gì?
 Vậy viên xúc xắc có dạng khối lập phương.
 :::
 
-Bây giờ em gọi tên một khối khác.
+Hộp sữa cũng là một khối quen thuộc. Em thử gọi tên nó nhé.
 
 :::example Hộp sữa
 Một hộp sữa có $6$ mặt. Các mặt đều là hình chữ nhật. Hộp sữa có dạng khối gì?
@@ -84,7 +84,7 @@ Một hộp sữa có $6$ mặt. Các mặt đều là hình chữ nhật. Hộp
 Vậy hộp sữa có dạng khối hộp chữ nhật.
 :::
 
-Tiếp theo em đếm mặt.
+Còn một việc nữa: đếm xem khối có mấy mặt. Em đếm chậm, từng mặt một, để không bỏ sót.
 
 :::example Đếm mặt
 Khối lập phương có mấy mặt?
@@ -94,7 +94,7 @@ Khối lập phương có mấy mặt?
 Vậy khối lập phương có $6$ mặt.
 :::
 
-Cuối cùng em đếm các khối.
+Bài này nối phép cộng em đã học với các khối vừa làm quen. Em đọc kĩ chữ "tất cả" trong đề nhé.
 
 :::example Xếp khối
 Em có $5$ khối lập phương và $3$ khối hộp chữ nhật. Hỏi em có tất cả bao nhiêu khối?
@@ -105,9 +105,9 @@ Vậy em có $8$ khối.
 :::
 
 :::warning Những lỗi em hay gặp
-- **Nhầm hình phẳng với hình khối.** Sai: hình vuông vẽ trên giấy là khối lập phương. Vì sao sai: hình vuông phẳng, không cầm nắm được như khối. Đúng: hình vuông là hình phẳng; xúc xắc là khối lập phương.
-- **Nhầm khối hộp chữ nhật với khối lập phương.** Sai: hộp phấn là khối lập phương vì có $6$ mặt. Vì sao sai: các mặt của hộp phấn là hình chữ nhật, không phải hình vuông bằng nhau. Đúng: hộp phấn là khối hộp chữ nhật.
-- **Đếm thiếu mặt.** Sai: khối lập phương có $4$ mặt. Vì sao sai: em quên mặt trên và mặt dưới. Đúng: có $6$ mặt.
+- **Nhầm hình phẳng với hình khối.** Chỗ này nhiều bạn hay nhầm. Sai: hình vuông vẽ trên giấy là khối lập phương. Vì sao sai: hình vuông là hình phẳng, em không cầm nắm được như một khối. Đúng: hình vuông là hình phẳng; xúc xắc là khối lập phương.
+- **Nhầm khối hộp chữ nhật với khối lập phương.** Sai: hộp phấn là khối lập phương vì có $6$ mặt. Vì sao sai: hai khối đều có $6$ mặt, nhưng mặt của hộp phấn là hình chữ nhật, không phải hình vuông bằng nhau. Đúng: hộp phấn là khối hộp chữ nhật.
+- **Đếm thiếu mặt.** Sai: khối lập phương có $4$ mặt. Vì sao sai: em quên mặt trên và mặt dưới. Đếm có thứ tự sẽ giúp em không bỏ sót. Đúng: có $6$ mặt.
 :::
 
 ## Thuật ngữ
@@ -127,9 +127,11 @@ Vậy em có $8$ khối.
 - Khối hộp chữ nhật có $6$ mặt là hình chữ nhật (hộp phấn, hộp sữa).
 - Hình vuông, hình chữ nhật là hình phẳng; khối lập phương, khối hộp chữ nhật là hình khối.
 
+Quay lại câu hỏi đầu bài: viên xúc xắc là khối lập phương, hộp phấn là khối hộp chữ nhật, và nhìn các mặt là em gọi được tên. Em thử tìm thêm những khối như vậy quanh mình nhé.
+
 ## Luyện tập
 
-Mỗi bài có phần kiến thức và gợi ý. Em hãy tự làm trước, rồi mới bấm xem lời giải.
+Mỗi bài có phần kiến thức và một gợi ý để em bắt đầu. Em thử tự làm trước, chưa ra thì xem gợi ý, rồi mới mở lời giải. Làm chậm một chút cũng không sao.
 
 :::exercise
 Quả xúc xắc có dạng khối gì?

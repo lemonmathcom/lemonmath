@@ -12,11 +12,11 @@ minutes: 45
 - Mô hình hoá hiện tượng tuần hoàn bằng $y=a\sin\big(b(x-c)\big)+d$.
 :::
 
-Chủ đề 3 trộn hai kiểu câu hỏi. Paper 1 kiểm tra tính toán chính xác: giá trị lượng giác đặc biệt, đẳng thức và phương trình trên một khoảng, với đáp số theo $\pi$. Paper 2 kiểm tra mô hình hoá: tam giác trong bối cảnh thực tế, phương vị, độ cao, và hàm tuần hoàn như thuỷ triều hay vòng đu quay. Ở cả hai, vẽ nhanh một hình là bước đầu tiên mà thí sinh giỏi không bao giờ bỏ qua.
+Chủ đề 3 có hai gương mặt. Paper 1 hỏi bạn tính cho chính xác: giá trị lượng giác đặc biệt, đẳng thức và phương trình trên một khoảng, với đáp số theo $\pi$. Paper 2 muốn xem bạn mô hình hoá: tam giác trong bối cảnh thực tế, phương vị, độ cao, và các hàm tuần hoàn như thuỷ triều hay vòng đu quay. Làm sao chuẩn bị cho cả hai? Có một thói quen đáng giữ: vẽ nhanh một hình trước khi viết bất cứ dòng nào. Thí sinh giỏi hiếm khi bỏ bước này.
 
 ## Khối không gian: thể tích và diện tích
 
-Sổ công thức có thể tích và diện tích của hình chóp, hình nón và hình cầu. Cái khó thường là một độ dài còn thiếu, tìm bằng định lí Pythagoras trong một tam giác vuông bên trong khối.
+Sổ công thức đã có sẵn thể tích và diện tích của hình chóp, hình nón và hình cầu. Vì vậy chỗ khó thường là một độ dài còn thiếu. Khi đó hãy tìm một tam giác vuông ẩn bên trong khối, rồi dùng định lí Pythagoras để lấy độ dài ấy ra. Ví dụ sau làm việc này với một hình nón.
 
 :::example Hình nón
 Một hình nón có bán kính đáy $6$ cm và đường sinh $10$ cm. Tính theo $\pi$:
@@ -31,7 +31,7 @@ Một hình nón có bán kính đáy $6$ cm và đường sinh $10$ cm. Tính t
 ## Tam giác: định lí sin, định lí cosin, diện tích
 
 $$\frac{a}{\sin A}=\frac{b}{\sin B}=\frac{c}{\sin C},\qquad c^2=a^2+b^2-2ab\cos C,\qquad\text{Diện tích}=\frac12ab\sin C.$$
-Dùng định lí cosin khi biết hai cạnh và góc xen giữa (hoặc cả ba cạnh); dùng định lí sin khi biết một cạnh và góc đối diện.
+Gặp một tam giác, câu hỏi đầu tiên là: mình đang biết những gì? Nếu biết hai cạnh và góc xen giữa (hoặc cả ba cạnh), hãy dùng định lí cosin. Nếu biết một cạnh và góc đối diện với nó, hãy dùng định lí sin. Lí do khá đơn giản: định lí sin cần một cặp cạnh và góc đối diện đã biết để so sánh, còn định lí cosin thì không cần.
 
 :::example Định lí cosin và diện tích, tính chính xác
 Trong tam giác $ABC$, $AB=7$, $AC=9$ và $\hat A=60^\circ$.
@@ -51,7 +51,7 @@ Trong tam giác $ABC$, $a=8$, $b=10$ và $\hat A=40^\circ$. Tìm hai giá trị 
 
 ## Radian, cung và hình quạt
 
-$\pi$ radian $=180^\circ$. Với hình quạt bán kính $r$ và góc $\theta$ tính bằng radian: độ dài cung $l=r\theta$ và diện tích $A=\dfrac12r^2\theta$.
+Đo góc bằng độ thì ta đã quen, nhưng độ dài cung và diện tích hình quạt sẽ gọn hơn khi đo góc bằng radian. Hai cách đo nối với nhau bằng một dòng: $\pi$ radian $=180^\circ$. Với hình quạt bán kính $r$ và góc $\theta$ tính bằng radian, độ dài cung là $l=r\theta$ và diện tích là $A=\dfrac12r^2\theta$.
 
 :::example Một hình quạt
 Một hình quạt có bán kính $5$ cm và góc $1{,}2$ radian. Tính độ dài cung, diện tích và chu vi của nó. [4 marks]
@@ -84,7 +84,7 @@ Bốn nghiệm: $0$, $\dfrac{2\pi}{3}$, $\dfrac{4\pi}{3}$, $2\pi$. Kiểm tra kh
 
 ## Mô hình lượng giác
 
-Với $y=a\sin\big(b(x-c)\big)+d$ (hoặc với cosin): **biên độ (amplitude)** là $|a|$, **chu kì (period)** là $\dfrac{2\pi}{b}$, **trục chính (principal axis)** là $y=d$, giá trị lớn nhất là $d+|a|$ và nhỏ nhất là $d-|a|$.
+Vòng đu quay hay thuỷ triều đều lặp đi lặp lại, và ta mô tả chúng bằng $y=a\sin\big(b(x-c)\big)+d$ (hoặc dùng cosin). Mỗi chữ trong công thức kể một điều về đồ thị. Ta gọi $|a|$ là **biên độ (amplitude)**: đồ thị dao động xa trục chính bao nhiêu. Ta gọi $\dfrac{2\pi}{b}$ là **chu kì (period)**: sau bao lâu thì đồ thị lặp lại. Còn $y=d$ là **trục chính (principal axis)**, đường nằm giữa đồ thị. Từ đó, giá trị lớn nhất là $d+|a|$ và nhỏ nhất là $d-|a|$.
 
 :::example Vòng đu quay
 Độ cao, tính bằng mét, của một ghế trên vòng đu quay sau $t$ giây kể từ khi qua điểm thấp nhất là $h(t)=12-10\cos\left(\dfrac{\pi t}{15}\right)$.
@@ -97,11 +97,13 @@ Với $y=a\sin\big(b(x-c)\big)+d$ (hoặc với cosin): **biên độ (amplitude
 :::
 
 :::warning Những cái bẫy thường gặp
-- **Chế độ độ hay radian.** Câu về tam giác thường dùng độ; giải tích và mô hình tuần hoàn dùng radian.
-- **Trường hợp hai nghiệm.** Khi định lí sin cho một góc, hãy kiểm tra xem $180^\circ$ trừ góc đó có cũng thoả mãn không.
-- **Bỏ sót nghiệm.** Tìm mọi nghiệm trong khoảng: vẽ đồ thị hoặc dùng tính đối xứng của đường tròn đơn vị.
-- **Chia cho $\sin x$** trong phương trình như $\sin2x=\sin x$ làm mất các nghiệm có $\sin x=0$. Hãy phân tích thành nhân tử.
-- **Công thức hình quạt với độ.** $l=r\theta$ và $A=\dfrac12r^2\theta$ đòi hỏi $\theta$ tính bằng radian.
+- **Chế độ độ hay radian.** Câu về tam giác thường dùng độ; giải tích và mô hình tuần hoàn dùng radian. Trước khi bấm máy, bạn hãy nhìn xem máy đang ở chế độ nào.
+- **Trường hợp hai nghiệm.** Khi định lí sin cho bạn một góc, hãy tự hỏi: $180^\circ$ trừ góc đó có cũng thoả mãn không?
+- **Bỏ sót nghiệm.** Hãy tìm mọi nghiệm trong khoảng: vẽ đồ thị hoặc dùng tính đối xứng của đường tròn đơn vị để không sót.
+- **Chia cho $\sin x$** trong phương trình như $\sin2x=\sin x$ sẽ làm mất các nghiệm có $\sin x=0$. Hãy phân tích thành nhân tử thay vì chia.
+- **Công thức hình quạt với độ.** $l=r\theta$ và $A=\dfrac12r^2\theta$ chỉ đúng khi $\theta$ tính bằng radian.
+
+Những chỗ này nhiều bạn hay nhầm, nên đừng ngại dừng lại kiểm tra trước khi nộp bài. Mỗi lần luyện tập, bạn thử rà lại danh sách này một lượt.
 :::
 
 :::terms

@@ -5,7 +5,9 @@
       Lấy mọi bài còn trống trong giao-viec/GIONG-VAN.md, tách phần lời thành các đoạn
       có mã [[P<n>·<băm>]], gói mỗi gói ~10 bài (cả Việt và Anh) thành GV-NN.txt.
 
-  python3 tools/qa/giongvan.py apply <file kết quả .md> [--dry]
+  python3 tools/qa/giongvan.py apply <file kết quả .md> [--dry] [--blank-ok]
+    --blank-ok: nhận đoạn có dòng trống (vd. danh sách + một câu kết "Quay lại…"); phần sau dòng trống
+    mà là công thức $$ hay bảng đã có sẵn trong bài (chép trùng) thì tự bỏ, có ghi chú.
       Ghép các đoạn ChatGPT viết lại. Chỉ thay được đoạn lời (không đụng hộp ví dụ, bài tập,
       công thức hiển thị, bảng, tiêu đề). Đoạn có băm không khớp (bài đã đổi) thì bỏ qua.
       Cảnh báo khi công thức $…$ hay con số trong một đoạn khác bản cũ. Bài nào ghép được
@@ -282,7 +284,7 @@ NUM = re.compile(r'\d+(?:[.,]\d+)?')
 
 
 def cmd_apply(args):
-    path = args[0]; dry = '--dry' in args
+    path = args[0]; dry = '--dry' in args; blank_ok = '--blank-ok' in args
     src = open(path, encoding='utf-8').read().replace('\r\n', '\n')
     src = re.sub(r'^```[a-z]*\s*$', '', src, flags=re.M)
     sections = re.split(r'^@@@\s+(\S+)\s+(vi|en)\s*$', src, flags=re.M)
@@ -318,7 +320,28 @@ def cmd_apply(args):
                 errs.append(tag + ': mã băm không khớp (bài đã đổi sau khi đóng gói), bỏ qua'); continue
             if not new_lines:
                 errs.append(tag + ': đoạn trống, bỏ qua'); continue
-            bad = [l for l in new_lines if re.match(r'^\s*(:::|::|#|\||\$\$|!\[)', l) or not l.strip()]
+            if blank_ok:
+                dup = [l for l in new_lines if re.match(r'^\s*\$\$.*\$\$\s*$', l) and l.strip() in text]
+                for l in dup:
+                    notes.append(tag + ': bỏ dòng công thức chép trùng (%s)' % l.strip()[:40]); new_lines.remove(l)
+                while new_lines and not new_lines[-1].strip(): new_lines.pop()
+            if blank_ok and any(not l.strip() for l in new_lines):
+                parts, cur = [], []
+                for l in new_lines:
+                    if l.strip(): cur.append(l)
+                    elif cur: parts.append(cur); cur = []
+                if cur: parts.append(cur)
+                keep = [parts[0]]
+                for part in parts[1:]:
+                    first = part[0].strip()
+                    if re.match(r'^(\$\$|\|)', first):
+                        if all(x.strip() in text for x in part):
+                            notes.append(tag + ': bỏ phần chép trùng sau dòng trống (%s)' % first[:40]); continue
+                    keep.append(part)
+                new_lines = [l for i, part in enumerate(keep) for l in ([''] if i else []) + part]
+                bad = [l for l in new_lines if re.match(r'^\s*(:::|::|#|\||\$\$|!\[)', l)]
+            else:
+                bad = [l for l in new_lines if re.match(r'^\s*(:::|::|#|\||\$\$|!\[)', l) or not l.strip()]
             if bad:
                 errs.append(tag + ': có dòng không hợp lệ (%r), bỏ qua' % bad[0][:40]); continue
             newt = '\n'.join(new_lines)

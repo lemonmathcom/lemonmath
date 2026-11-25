@@ -11,23 +11,23 @@ minutes: 20
 - Explain why a positive test for a rare disease can still be unlikely to mean the disease.
 :::
 
-A rare disease affects $1\%$ of the population. A test gives a positive result for $95\%$ of people who have the disease, but it also gives a false positive for $5\%$ of people who do not. Lan takes the test and gets a positive result. Is the chance that Lan has the disease $95\%$?
+There is a rare disease that affects $1\%$ of the population. A test gives a positive result for $95\%$ of people who have the disease, but it also gives a false positive for $5\%$ of people who do not. Lan takes the test and gets a positive result. Is the chance that Lan has the disease $95\%$?
 
-Many people, adults included, answer "yes". The right answer is much lower. This lesson gives us the tools to find it.
+Many people, adults included, answer "yes" straight away. But the right answer is much lower. It is an easy trap, because the figure for the test sounds so convincing. We will work it out in a way that feels natural: by counting people.
 
 ## The law of total probability
 
 ### Explore: picture $10\,000$ people
 
-Instead of talking about probabilities, we imagine $10\,000$ people taking the test.
+Probabilities can feel abstract, so let us count people instead. Imagine $10\,000$ people taking the test.
 - $1\%$ of them, that is $100$ people, have the disease. Of these, $95\%$, that is $95$ people, test positive.
 - $9\,900$ people do not have the disease. Of these, $5\%$, that is $495$ people, test positive by mistake.
 
-The total number of positive results is $95+495=590$. Of those $590$ people, only $95$ really have the disease:
+Adding up, the number of positive results is $95+495=590$. Of those $590$ people, only $95$ really have the disease. As a fraction, that is:
 
 $$\frac{95}{590}\approx0.161.$$
 
-So a positive result means only about a $16\%$ chance of the disease. To get $590$ we added the positive results from **two cases**: with the disease and without it. That is the idea behind the law of total probability.
+So a person with a positive result has only about a $16\%$ chance of having the disease. Notice how we got $590$: we added the positive results from **two cases**, with the disease and without it. That is the idea behind the law of total probability.
 
 :::theorem The law of total probability
 Let $A$ and $B$ be events with $0<P(B)<1$. Then
@@ -36,9 +36,9 @@ More generally, if $B_1, B_2, \dots, B_n$ are mutually exclusive, have positive 
 $$P(A)=P(B_1)P(A\mid B_1)+P(B_2)P(A\mid B_2)+\dots+P(B_n)P(A\mid B_n).$$
 :::
 
-**Why is it true?** The event $A$ happens either together with $B$ or together with $\overline{B}$, so $A=(A\cap B)\cup(A\cap\overline{B})$, and these two parts are mutually exclusive. By the addition rule, $P(A)=P(A\cap B)+P(A\cap\overline{B})$. Each term comes from the multiplication rule, for example $P(A\cap B)=P(B)\cdot P(A\mid B)$.
+**Why is it true?** Whenever the event $A$ happens, it happens together with $B$ or together with $\overline{B}$. So $A=(A\cap B)\cup(A\cap\overline{B})$, and these two parts are mutually exclusive. By the addition rule, $P(A)=P(A\cap B)+P(A\cap\overline{B})$. Each term then comes from the multiplication rule, for example $P(A\cap B)=P(B)\cdot P(A\mid B)$.
 
-On a tree diagram the formula is easy to remember: multiply along each path that leads to $A$, then add those paths.
+If you draw a tree diagram, this formula almost remembers itself: we multiply along each path that leads to $A$, then add those paths. The next example does exactly that.
 
 :::example Two machines making the same item
 A workshop has two machines making the same item. Machine I makes $60\%$ of the items, with a defect rate of $2\%$; machine II makes $40\%$, with a defect rate of $5\%$. One item from the workshop is picked at random. Find the probability that it is defective.
@@ -75,7 +75,7 @@ label 4.4,-3 "0.95"
 
 ## Bayes' theorem
 
-The next question is often a "backwards" one: we have seen the result $A$, so how likely is it that it came from case $B$? We need $P(B\mid A)$, while we are only given $P(A\mid B)$.
+There is another kind of question that comes up often, and it runs "backwards". We have seen the result $A$, so how likely is it that it came from case $B$? Now we need $P(B\mid A)$, while we are only given $P(A\mid B)$. Bayes' theorem turns the question round.
 
 :::theorem Bayes' theorem
 Let $A$ and $B$ be events with $P(A)>0$ and $0<P(B)<1$. Then
@@ -83,7 +83,7 @@ $$P(B\mid A)=\frac{P(B)\cdot P(A\mid B)}{P(A)}=\frac{P(B)\cdot P(A\mid B)}{P(B)\
 For a partition $B_1, \dots, B_n$: $P(B_i\mid A)=\dfrac{P(B_i)\cdot P(A\mid B_i)}{P(A)}$.
 :::
 
-**Why is it true?** By definition, $P(B\mid A)=\dfrac{P(A\cap B)}{P(A)}$. The numerator is rewritten with the multiplication rule, $P(A\cap B)=P(B)\cdot P(A\mid B)$; the denominator with the law of total probability. On a tree diagram: **the numerator is one path, the denominator is the sum of all paths leading to $A$**.
+**Why is it true?** We start from the definition, $P(B\mid A)=\dfrac{P(A\cap B)}{P(A)}$. The numerator is rewritten with the multiplication rule, $P(A\cap B)=P(B)\cdot P(A\mid B)$. The denominator is written with the law of total probability. On a tree diagram we can read it off directly: **the numerator is one path, the denominator is the sum of all paths leading to $A$**.
 
 :::example Which machine made the defective item?
 Continuing the two-machine example, an item is picked at random and found to be defective. Find the probability that it was made by machine II.
@@ -95,7 +95,7 @@ $$P(\overline B\mid A)=\frac{0.4\cdot0.05}{0.032}=\frac{0.02}{0.032}=0.625.$$
 Machine II makes only $40\%$ of the items but accounts for $62.5\%$ of the defective ones, because its defect rate is higher.
 :::
 
-Choosing a box and then drawing a ball is a two-stage problem of the same kind.
+Choosing a box and then drawing a ball is a two-stage problem too, just like choosing a machine and then checking an item. We try both formulas on it.
 
 :::example Two boxes of balls
 Box I holds $3$ red and $2$ white balls; box II holds $1$ red and $4$ white balls. A fair coin is tossed: heads chooses box I and tails chooses box II, and then one ball is drawn at random from the chosen box. Find the probability of drawing a red ball. If the ball is red, what is the probability that it came from box I?
@@ -111,7 +111,7 @@ $$P(H\mid D)=\frac{3/10}{2/5}=\frac34.$$
 So $P(D)=\dfrac25$ and $P(H\mid D)=\dfrac34$.
 :::
 
-With more than two cases, we use the general form of both formulas.
+What if there are more than two cases? We do the same as before and use the general form of both formulas: one more path for each case.
 
 :::example Three suppliers
 A shop buys light bulbs from three suppliers: $50\%$ from X, $30\%$ from Y and $20\%$ from Z. The proportions of faulty bulbs from X, Y and Z are $1\%$, $2\%$ and $3\%$. A bulb chosen at random turns out to be faulty. Find the probability that it came from supplier Z.
@@ -129,7 +129,7 @@ So the probability that the faulty bulb came from Z is about $35.3\%$, even thou
 
 ## A test for a rare disease
 
-Now we answer the question from the start with the formulas.
+Now we go back to Lan from the start. This time we answer with the formulas, and the result should agree with the counting of people we did earlier.
 
 :::example A positive test
 The disease affects $1\%$ of the population; the test is positive for $95\%$ of people with the disease and for $5\%$ of people without it. A person tests positive. Find the probability that this person has the disease.
@@ -147,7 +147,7 @@ $$P(B\mid A)=\frac{0.0095}{0.059}=\frac{19}{118}\approx0.161.$$
 **Look back.** The result agrees with the count $\dfrac{95}{590}$. The probability is low because the healthy people outnumber the sick ones $99$ to $1$: $5\%$ of a very large group ($0.0495$) is more than $95\%$ of a very small group ($0.0095$).
 :::
 
-That is why, after a positive screening test, doctors usually order a second test.
+The chance of the disease after one positive test is still low. That is why, after a positive screening test, doctors usually order a second test. What happens after the second one?
 
 :::example A second test
 Lan retakes the same kind of test, and again it is positive. Assume that, for each person, the results of the two tests are independent. Find the probability that Lan has the disease.
@@ -160,8 +160,8 @@ After two positive tests, the probability of the disease rises from about $16\%$
 :::
 
 :::warning Common mistakes
-- **Mixing up $P(A\mid B)$ and $P(B\mid A)$.** Wrong: "the test is $95\%$ accurate, so a positive result means a $95\%$ chance of the disease". Why it is wrong: $95\%$ is $P(\text{positive}\mid\text{disease})$. Right: $P(\text{disease}\mid\text{positive})=\dfrac{19}{118}\approx0.161$.
-- **Missing a branch.** Wrong: in the two-machine example, $P(\text{defective})=0.6\cdot0.02=0.012$. Why it is wrong: a defective item can also come from machine II. Right: add both branches to get $0.032$.
+- **Mixing up $P(A\mid B)$ and $P(B\mid A)$.** The two sound alike but answer different questions. Wrong: "the test is $95\%$ accurate, so a positive result means a $95\%$ chance of the disease". Why it is wrong: $95\%$ is $P(\text{positive}\mid\text{disease})$. Right: $P(\text{disease}\mid\text{positive})=\dfrac{19}{118}\approx0.161$.
+- **Missing a branch.** It is easy to look at machine I only. Wrong: in the two-machine example, $P(\text{defective})=0.6\cdot0.02=0.012$. Why it is wrong: a defective item can also come from machine II. Right: add both branches to get $0.032$.
 - **Forgetting to multiply by the starting probability.** Wrong: $P(\text{machine II}\mid\text{defective})=\dfrac{0.05}{0.032}$. Why it is wrong: the numerator must be the probability of the whole path, $P(\overline B)\cdot P(A\mid\overline B)$. Right: $\dfrac{0.4\cdot0.05}{0.032}=0.625$.
 - **Taking $P(A\mid\overline B)=1-P(A\mid B)$.** Wrong: the false positive rate is $1-0.95=0.05$ "because it is the rest". Why it is wrong: $1-P(A\mid B)$ is $P(\overline A\mid B)$, the probability that a **sick** person tests negative. Right: $P(A\mid\overline B)$ is a separate figure that the problem must give.
 :::
@@ -181,15 +181,17 @@ After two positive tests, the probability of the disease rises from about $16\%$
 
 ## Summary
 
-- Total probability: $P(A)=P(B)P(A\mid B)+P(\overline B)P(A\mid\overline B)$; in general, add $P(B_i)P(A\mid B_i)$ over a partition.
+- Total probability: $P(A)=P(B)P(A\mid B)+P(\overline B)P(A\mid\overline B)$; in general, we add $P(B_i)P(A\mid B_i)$ over a partition.
 - Bayes: $P(B\mid A)=\dfrac{P(B)P(A\mid B)}{P(A)}$.
 - On a tree diagram: multiply along each path; $P(A)$ is the sum of the paths to $A$; Bayes is "one path divided by the sum".
 - For a rare disease, the false positives from the huge healthy group can dominate, so $P(\text{disease}\mid\text{positive})$ can be small.
 - $P(A\mid\overline B)$ is not $1-P(A\mid B)$.
 
+Back to Lan: the test is right for most people who have the disease, but a positive result alone is still not enough to say that Lan has it, because the healthy group is so large. The thing to remember: to find the chance of the disease given a positive test, work out each path, then divide one path by the sum of all of them.
+
 ## Practice
 
-Each exercise comes with what you need and some steps to start. Try it yourself first, then open the solution.
+Each exercise comes with what you need and some steps to start. Try it yourself first, then open the solution. If you feel stuck, draw the tree diagram: it often makes the problem clearer.
 
 :::exercise
 Given $P(B)=0.3$, $P(A\mid B)=0.6$ and $P(A\mid\overline B)=0.2$, find $P(A)$ and $P(B\mid A)$.

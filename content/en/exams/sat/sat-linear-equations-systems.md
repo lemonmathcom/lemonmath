@@ -11,11 +11,11 @@ minutes: 35
 - Decide how many solutions a system has by comparing coefficients.
 :::
 
-Algebra is the largest domain of SAT Math: about 13 to 15 of the 44 questions. Linear equations and systems appear in both modules, as multiple-choice questions and as student-produced responses. None of the math is beyond grade 9, but the test rewards three habits: reading what is actually asked, setting up equations from English sentences, and choosing the fastest route.
+A gym charges a one-time sign-up fee, then a fixed amount each month. If you know the total someone has paid, can you work out how many months they have been a member? You can, and all it takes is one linear equation. Questions like this are everywhere in SAT Math: Algebra is its largest domain, about 13 to 15 of the 44 questions. Linear equations and systems appear in both modules, as multiple-choice questions and as student-produced responses. None of the maths is beyond grade 9. What the test rewards is three habits: reading what is actually asked, setting up equations from English sentences, and choosing the fastest route.
 
 ## Linear equations in one variable
 
-A linear equation in one variable can be written as $ax+b=0$. To solve it, expand brackets, collect the $x$ terms on one side and the numbers on the other, then divide.
+We start with the simplest kind of equation. A linear equation in one variable can be written as $ax+b=0$. The aim is to get $x$ alone, so we expand brackets, collect the $x$ terms on one side and the numbers on the other, then divide.
 
 :::example Solving and answering what is asked
 If $4(x-3)+2x=3x+9$, what is the value of $x$?
@@ -31,7 +31,7 @@ $$4x-12+2x=3x+9\iff 6x-12=3x+9\iff 3x=21\iff x=7.$$
 The answer is **C**. Option D is $3x$, a typical trap for students who stop one step early.
 :::
 
-After simplifying, a linear equation falls into exactly one of three cases.
+After simplifying, a linear equation falls into exactly one of three cases. Some equations give one solution, some have no solution at all, and some are true for every value of the variable. Here is how to tell them apart.
 
 :::theorem How many solutions?
 Simplify both sides until the equation reads $ax+b=cx+d$.
@@ -48,11 +48,11 @@ In the equation $3(2x+k)=6x+12$, $k$ is a constant. The equation has infinitely 
 
 ## From words to an equation
 
-About 30% of SAT Math questions are set in a context. Most linear contexts have the same shape:
+About 30% of SAT Math questions are set in a context, which means the question tells a story and you must write the equation yourself. That sounds hard, but most linear contexts have the same shape:
 
 $$\text{total}=\text{fixed amount}+\text{rate}\times\text{number of units}.$$
 
-Words such as *per*, *each* and *every* mark the rate; words such as *initial*, *one-time* and *flat fee* mark the fixed amount.
+To find that shape, listen for a few key words. Words such as *per*, *each* and *every* mark the rate. Words such as *initial*, *one-time* and *flat fee* mark the fixed amount.
 
 :::example A membership
 A gym charges a one-time sign-up fee of 40 dollars and 25 dollars per month. Lan has paid the gym 290 dollars in total. For how many months has she been a member?
@@ -70,7 +70,7 @@ The answer is **B**. Option C comes from forgetting the sign-up fee and rounding
 
 ## Systems of two linear equations
 
-A system asks for the pair $(x, y)$ that satisfies both equations. On a graph, it is the point where the two lines cross.
+Sometimes a question gives two conditions at once and two unknown numbers. A system asks for the pair $(x, y)$ that satisfies both equations. Think of the graph: each equation is a line, and the pair we want is the point where the two lines cross, because only that point lies on both.
 
 :::graph The system $2x+3y=17$, $x-y=1$ has the solution $(4, 3)$
 alt: Two straight lines in the coordinate plane, one falling and one rising, crossing at the point (4, 3)
@@ -81,8 +81,8 @@ plot: x - 1
 point: (4, 3) "(4, 3)" above
 :::
 
-- **Substitution**: use it when one variable is already alone, or has coefficient $1$.
-- **Elimination**: multiply the equations so that one variable has opposite coefficients, then add.
+- **Substitution**: use it when one variable is already alone, or has coefficient $1$, because then it is easy to substitute that variable into the other equation.
+- **Elimination**: multiply the equations so that one variable has opposite coefficients; when you add them, that variable disappears and only one is left.
 
 :::example Substitution
 $$2x+3y=17$$
@@ -96,7 +96,7 @@ $$2(y+1)+3y=17\iff 5y=15\iff y=3,\qquad x=4.$$
 So $x+y=7$. You type **7**.
 :::
 
-The SAT often asks for a combination such as $x+y$ or $x-y$ instead of $x$ and $y$ separately. Before solving, look at whether adding or subtracting the two equations gives the combination directly.
+Here is a shortcut that saves time. The SAT often asks for a combination such as $x+y$ or $x-y$ instead of $x$ and $y$ separately. So before solving for each variable, look at whether adding or subtracting the two equations gives the combination directly.
 
 :::example The combining shortcut
 $$3x+2y=19$$
@@ -112,7 +112,7 @@ D. $35$
 
 ## How many solutions does a system have?
 
-Write both equations in the form $ax+by=c$ and compare the ratios of the coefficients.
+Two lines in a plane can sit in only three ways: they cross, they are parallel, or they are the same line. Each way gives a different number of solutions. To tell which one you have without drawing, write both equations in the form $ax+by=c$ and compare the ratios of the coefficients.
 
 :::theorem Comparing coefficients
 For the system $a_1x+b_1y=c_1$ and $a_2x+b_2y=c_2$ (with nonzero coefficients):
@@ -130,14 +130,14 @@ In the system, $a$ is a constant. The system has no solution. What is the value 
 :::
 
 :::warning Common traps
-- **Answering the wrong quantity.** The question asks for $6x+5$ or $x+y$, and the value of $x$ is among the options. Underline what is asked before you start.
-- **Losing a sign when expanding.** $-2(x-5)=-2x+10$, not $-2x-10$.
-- **Confusing "no solution" and "infinitely many".** In both cases the $x$ terms cancel. Look at the constants: different means no solution, equal means infinitely many.
+- **Answering the wrong quantity.** The question may ask for $6x+5$ or $x+y$, while the value of $x$ sits among the options to tempt you. Underline what is asked before you start.
+- **Losing a sign when expanding.** Many students slip here: $-2(x-5)=-2x+10$, not $-2x-10$.
+- **Confusing "no solution" and "infinitely many".** In both cases the $x$ terms cancel. Then look at the constants: different means no solution, equal means infinitely many.
 - **Mixing up the rate and the fixed amount.** The number next to *per* multiplies the variable.
 :::
 
 :::tip Checking with Desmos
-Type both equations of a system exactly as given, for example `2x+3y=17` and `x-y=1`. Click the crossing point to read the solution. Parallel lines mean no solution; a single line means infinitely many. Use this to check, and to rescue a question when your algebra goes wrong.
+Desmos gives you a way to check by eye. Type both equations of a system exactly as given, for example `2x+3y=17` and `x-y=1`. Click the crossing point to read the solution. Parallel lines mean no solution; a single line means infinitely many. Use this to check your work, and to rescue a question when your algebra goes wrong partway through.
 :::
 
 :::terms

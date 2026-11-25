@@ -12,18 +12,18 @@ minutes: 15
 
 Each box holds $9$ coloured pencils. How many pencils are in $4$ such boxes?
 
-You could add $9+9+9+9$, but adding many times is slow. This lesson helps you work it out quickly with the $9$ times table.
+You could add $9+9+9+9$, and that works. But with many more boxes, adding would take a long time. The $9$ times table is a shortcut: once you know it, the answer comes straight away, and there is a trick to help you remember it.
 
 ## Let's explore
 
-Each box is a group of $9$ pencils. We add one box at a time:
+Let's count up one box at a time. Each box is a group of $9$ pencils:
 
 - $1$ box: $9$ pencils.
 - $2$ boxes: $9+9=18$ pencils.
 - $3$ boxes: $18+9=27$ pencils.
 - $4$ boxes: $27+9=36$ pencils.
 
-So $4$ boxes hold $36$ pencils, that is $9\times4=36$. Each new box adds $9$ to the product.
+So $4$ boxes hold $36$ pencils, that is $9\times4=36$. Did you see it? Each new box adds $9$ to the product. That pattern is the heart of the whole table.
 
 :::graph On the number line: every jump is 9
 alt: A number line from 0 to 54 with the points 0, 9, 18, 27, 36, 45 and 54 marked, each $9$ more than the one before
@@ -39,7 +39,7 @@ point: (45, 0) "45" above
 point: (54, 0) "54" below
 :::
 
-Here is a nice trick: $9=10-1$, so $9\times4=10\times4-4=40-4=36$.
+There is a quicker way, and it rests on something simple: $9=10-1$. Nine is just one less than ten, so $9\times4=10\times4-4=40-4=36$. Multiplying by ten is easy, and then you take away one group.
 
 :::theorem The 9 times table
 To work out $9\times n$, take $10\times n$ and subtract $n$. You can also take $9\times(n-1)$ and add $9$.
@@ -53,13 +53,13 @@ To work out $9\times n$, take $10\times n$ and subtract $n$. You can also take $
 | $54$ | $63$ | $72$ | $81$ | $90$ |
 :::
 
-Notice: every two-digit product in the $9$ times table has digits that add up to $9$. For example, $63$ has $6+3=9$.
+The $9$ times table hides a small pattern. Every two-digit product has digits that add up to $9$. For example, $63$ has $6+3=9$. You can use this to check an answer quickly.
 
-The division facts for $9$ come from the $9$ times table. Since $9\times4=36$, we have $36\div9=4$. If you put $36$ pencils into boxes of $9$, you fill $4$ boxes.
+Once you can multiply, you can divide too. The division facts for $9$ come from the $9$ times table. Since $9\times4=36$, we have $36\div9=4$. Put into pencils: if you share $36$ pencils into boxes of $9$, you fill $4$ boxes.
 
 ## Examples
 
-We start with the trick of taking $10$ times and subtracting.
+Let's try the trick from just now first: take $10$ times, then subtract.
 
 :::example Work out $9\times4$
 **Solution.** $9$ is one less than $10$, so $9\times4$ is $10\times4$ minus $4$:
@@ -67,7 +67,7 @@ $$9\times4=40-4=36.$$
 So $9\times4=36$.
 :::
 
-Now a bigger number.
+Does the trick work with a bigger number? Let's see.
 
 :::example Work out $9\times7$
 **Solution.** Take $10\times7$ and subtract $7$:
@@ -77,7 +77,7 @@ $$9\times7=70-7=63.$$
 So $9\times7=63$.
 :::
 
-You can also take the product before and add $9$.
+There is another route: take the product just before, then add $9$. It suits you when you already remember the product just before.
 
 :::example Work out $9\times8$
 **Solution.** You know $9\times7=63$. Add one more group of $9$:
@@ -85,7 +85,7 @@ $$9\times8=9\times7+9=63+9=72.$$
 So $9\times8=72$.
 :::
 
-Next, division.
+If you can multiply, division is not far away. Let's try some.
 
 :::example Work out $81\div9$
 **Solution.** Ask: which number times $9$ makes $81$? In the $9$ times table, $9\times9=81$, so
@@ -95,7 +95,7 @@ $$81\div9=9.$$
 So $81\div9=9$.
 :::
 
-Finally, a word problem.
+Finally, back to groups and boxes from everyday life, but this time we know the total number of pupils and ask for the number of groups.
 
 :::example Groups of pupils
 $72$ pupils are split into groups of $9$. How many groups are there?
@@ -134,10 +134,11 @@ So there are $8$ groups.
 - Two-digit products in the $9$ times table have digits that add up to $9$.
 - From $9\times a=b$ we get $b\div9=a$ and $b\div a=9$.
 - Write the unit in the answer; check a division with a multiplication.
+Back to the opening question: instead of adding box by box, take ten times and subtract, or read the answer straight from the table. Say the table aloud a few times each day and it will soon stay with you.
 
 ## Practice
 
-Each exercise comes with what you need and how to start. Try it yourself first, then open the solution.
+Each exercise comes with what you need and a hint to get started. Try it yourself first. If you get stuck, read the hint, and only then open the solution to compare.
 
 :::exercise
 Work out:

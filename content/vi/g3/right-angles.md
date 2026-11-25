@@ -12,13 +12,13 @@ minutes: 15
 
 Góc của quyển vở, góc của tờ giấy và góc của cửa sổ đều có hình dạng giống nhau. Làm sao em biết chắc một góc có phải là "góc vuông" hay không?
 
-Bài này dạy em gọi tên góc và dùng ê-ke để kiểm tra góc vuông.
+Mắt nhìn thì dễ nhầm, nhưng có một dụng cụ nhỏ giúp ta chắc chắn: cái ê-ke. Ta sẽ học gọi tên các phần của góc, rồi dùng ê-ke để kiểm tra góc vuông.
 
 ## Cùng khám phá
 
-Hai cạnh của một cái kéo, hai kim đồng hồ hay hai que gỗ chụm lại ở một điểm tạo thành một **góc**. Điểm chung đó gọi là **đỉnh** của góc, hai tia gọi là hai **cạnh** của góc.
+Em hãy nhìn hai lưỡi kéo, hai kim đồng hồ hay hai que gỗ chụm lại ở một điểm. Chỗ chúng chụm lại tạo thành một **góc**. Điểm chung đó gọi là **đỉnh** của góc, còn hai tia gọi là hai **cạnh** của góc.
 
-Hình dưới là góc đỉnh $O$, cạnh $OA$ và $OB$. Ở đỉnh $O$ có ký hiệu hình vuông nhỏ: đây là **góc vuông**.
+Hình dưới là góc đỉnh $O$, hai cạnh là $OA$ và $OB$. Em thấy ở đỉnh $O$ có một ký hiệu hình vuông nhỏ không? Ký hiệu ấy cho biết đây là **góc vuông**.
 
 :::diagram Góc vuông đỉnh O, cạnh OA và OB
 alt: Góc có đỉnh O, hai cạnh OA nằm ngang và OB thẳng đứng, có ký hiệu hình vuông nhỏ ở đỉnh O cho biết đây là góc vuông
@@ -30,7 +30,7 @@ segment O B
 right A O B
 :::
 
-Hình tiếp theo cũng là một góc đỉnh $O$ nhưng hai cạnh $OC$ và $OD$ mở ra theo cách khác. Em thấy nó nhỏ hơn góc vuông; đây là **góc không vuông**.
+Hình sau cũng là một góc đỉnh $O$, nhưng hai cạnh $OC$ và $OD$ mở ra theo cách khác. Em thấy nó nhỏ hơn góc vuông. Những góc như vậy gọi là **góc không vuông**.
 
 :::diagram Góc không vuông đỉnh O, cạnh OC và OD
 alt: Góc có đỉnh O, cạnh OC nằm ngang và cạnh OD chếch lên, góc này không phải góc vuông
@@ -42,7 +42,7 @@ segment O D
 angle C O D
 :::
 
-Em không nên chỉ nhìn bằng mắt. Ta dùng **ê-ke**, có một góc vuông, để kiểm tra:
+Nhưng chỉ nhìn bằng mắt thì dễ nhầm, nhất là với góc gần vuông. Ta dùng **ê-ke**, một dụng cụ có sẵn một góc vuông, để kiểm tra:
 
 1. Đặt đỉnh góc vuông của ê-ke trùng với đỉnh của góc cần kiểm tra.
 2. Cho một cạnh của ê-ke trùng với một cạnh của góc.
@@ -54,11 +54,11 @@ Góc có đỉnh và hai cạnh. Góc là **góc vuông** khi khớp đúng vớ
 Độ dài hai cạnh không làm thay đổi góc có vuông hay không.
 :::
 
-Ví dụ, một góc có hai cạnh dài $3$ cm và một góc có hai cạnh dài $6$ cm đều là góc vuông nếu khớp với ê-ke.
+Cạnh dài hay ngắn không quan trọng. Ví dụ, một góc có hai cạnh dài $3$ cm và một góc có hai cạnh dài $6$ cm đều là góc vuông nếu khớp với ê-ke.
 
 ## Ví dụ
 
-Ta bắt đầu bằng cách đọc tên đỉnh và cạnh của góc.
+Ta bắt đầu bằng việc gọi đúng tên các phần của một góc: đỉnh và cạnh.
 
 :::example Đỉnh và cạnh
 Một góc có đỉnh $E$, hai cạnh là $ED$ và $EF$. Chỉ ra đỉnh và các cạnh của góc.
@@ -68,7 +68,7 @@ Một góc có đỉnh $E$, hai cạnh là $ED$ và $EF$. Chỉ ra đỉnh và c
 Vậy góc đỉnh $E$, cạnh $ED$ và $EF$.
 :::
 
-Bây giờ em dùng ê-ke để kiểm tra.
+Giờ đến lúc dùng ê-ke. Em xem hai bạn kiểm tra góc như thế nào.
 
 :::example Dùng ê-ke
 Lan đặt ê-ke vào một góc, thấy cạnh còn lại của ê-ke trùng với cạnh còn lại của góc. Nam đặt ê-ke vào một góc khác, thấy cạnh còn lại của ê-ke hở ra bên ngoài góc. Góc nào là góc vuông?
@@ -78,7 +78,7 @@ Lan đặt ê-ke vào một góc, thấy cạnh còn lại của ê-ke trùng v�
 Vậy góc của Lan là góc vuông, góc của Nam không phải góc vuông.
 :::
 
-Tiếp theo, em tìm góc vuông quanh mình.
+Góc vuông có ở khắp nơi quanh em. Ta thử tìm vài chỗ.
 
 :::example Góc vuông quanh em
 Trong các đồ vật sau, đồ vật nào có góc vuông: góc của tờ giấy hình chữ nhật, hai kim đồng hồ lúc $3$ giờ đúng, hai kim đồng hồ lúc $1$ giờ đúng, mái nhà hình chữ A?
@@ -95,7 +95,7 @@ Trong các đồ vật sau, đồ vật nào có góc vuông: góc của tờ gi
 Vậy góc tờ giấy và hai kim lúc $3$ giờ là góc vuông.
 :::
 
-Bây giờ em tự vẽ một góc vuông.
+Em đã biết nhận ra góc vuông. Giờ em thử tự vẽ một góc vuông, và ê-ke sẽ giúp em.
 
 :::example Vẽ góc vuông
 Hãy vẽ góc vuông đỉnh $O$ bằng ê-ke.
@@ -109,7 +109,7 @@ Hãy vẽ góc vuông đỉnh $O$ bằng ê-ke.
 Vậy góc đỉnh $O$, cạnh $OA$ và $OB$ là góc vuông.
 :::
 
-Cuối cùng, em tìm góc vuông trong các chữ cái.
+Cuối cùng, ta tìm góc vuông ở một nơi bất ngờ hơn: trong các chữ cái.
 
 :::example Chữ cái
 Trong hai chữ cái $L$ và $V$ viết đẹp, chữ nào có góc vuông?
@@ -121,7 +121,7 @@ Vậy chữ $L$ có góc vuông, chữ $V$ không có.
 
 :::warning Những lỗi em hay gặp
 - **Cho rằng cạnh dài hơn thì góc lớn hơn.** Sai: góc có cạnh $6$ cm lớn hơn góc có cạnh $3$ cm. Vì sao sai: độ lớn của góc không phụ thuộc độ dài cạnh. Đúng: hai góc vuông luôn "bằng nhau" dù cạnh dài ngắn khác nhau.
-- **Chỉ nhìn bằng mắt.** Sai: "Trông giống góc vuông nên là góc vuông". Vì sao sai: mắt dễ nhầm với góc gần vuông. Đúng: dùng ê-ke để kiểm tra.
+- **Chỉ nhìn bằng mắt.** Sai: "Trông giống góc vuông nên là góc vuông". Vì sao sai: mắt rất dễ nhầm với góc gần vuông. Đúng: dùng ê-ke để kiểm tra.
 - **Đặt ê-ke sai đỉnh.** Sai: đặt góc vuông của ê-ke ở chỗ khác. Vì sao sai: đỉnh ê-ke phải trùng đỉnh của góc cần kiểm tra. Đúng: đặt đỉnh trùng đỉnh rồi cho một cạnh trùng một cạnh.
 - **Nhầm đỉnh.** Sai: góc đỉnh $O$, cạnh $OA$ và $OB$ có đỉnh là $A$. Vì sao sai: đỉnh là điểm chung của hai cạnh. Đúng: đỉnh là $O$.
 :::
@@ -146,10 +146,11 @@ Vậy chữ $L$ có góc vuông, chữ $V$ không có.
 - Góc không khớp ê-ke là góc không vuông.
 - Độ dài cạnh không làm đổi việc góc có vuông hay không.
 - Đừng chỉ nhìn bằng mắt; hãy dùng ê-ke.
+Quay lại câu hỏi đầu bài: muốn biết chắc một góc có phải góc vuông hay không, em đặt ê-ke vào mà kiểm tra. Lần sau gặp một góc, em cứ thử đặt ê-ke vào xem nhé.
 
 ## Luyện tập
 
-Mỗi bài có phần kiến thức và gợi ý. Em hãy tự làm trước, rồi mới bấm xem lời giải.
+Mỗi bài có phần kiến thức và gợi ý để em bắt đầu. Em cứ thử làm trước. Nếu vướng, hãy đọc gợi ý, rồi mới mở lời giải để so lại.
 
 :::exercise
 Một góc có đỉnh $K$, hai cạnh là $KA$ và $KB$.

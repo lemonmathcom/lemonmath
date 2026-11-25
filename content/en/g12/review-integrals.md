@@ -11,9 +11,9 @@ minutes: 40
 - Use integrals in real-life problems: distance from velocity, total change from a rate of change.
 :::
 
-Antiderivatives and integrals usually take two or three questions in Part I (standard results, properties), possibly a true/false question in Part II and an area or real-life question in Part III, altogether usually about $1$ to $2$ marks. A scientific calculator can evaluate definite integrals, so this is the easiest part of the paper to check.
+In the exam, antiderivatives and integrals usually take two or three questions in Part I (standard results, properties). Part II may have a true/false question, and Part III may have a question on area or a real-life situation. Altogether this topic is usually worth about $1$ to $2$ marks. There is some good news: a scientific calculator can evaluate definite integrals, so this is the easiest part of the paper to check. So what do you need to remember to work quickly and still be sure?
 
-The details are in the lessons on [antiderivatives](lesson:antiderivatives), [definite integrals](lesson:definite-integrals) and [applications of integrals](lesson:integral-applications).
+This lesson gathers what appears most often. If a topic still feels shaky, look back at the lessons on [antiderivatives](lesson:antiderivatives), [definite integrals](lesson:definite-integrals) and [applications of integrals](lesson:integral-applications).
 
 ## Antiderivatives
 
@@ -32,7 +32,7 @@ The details are in the lessons on [antiderivatives](lesson:antiderivatives), [de
 Properties: $\displaystyle\int\left[f(x)\pm g(x)\right]dx=\int f(x)\,dx\pm\int g(x)\,dx$ and $\displaystyle\int kf(x)\,dx=k\int f(x)\,dx$ ($k\ne0$).
 :::
 
-The quickest check: differentiate your result; you must get $f(x)$ back.
+There is a quick check. An antiderivative undoes differentiation, so differentiate your result: you must get $f(x)$ back. Make it a habit.
 
 :::example Multiple choice: an antiderivative with a condition
 $F(x)$ is an antiderivative of $f(x)=3x^2+2\sin x$ with $F(0)=1$. Then $F(x)$ is
@@ -92,7 +92,7 @@ To 2 decimal places, the answer is $7.39$.
 - The volume of the solid formed by rotating the region bounded by $y=f(x)$, the $x$-axis, $x=a$, $x=b$ about the $x$-axis is $V=\pi\displaystyle\int_a^b f^2(x)\,dx$.
 :::
 
-To remove the modulus, find the roots of $f(x)-g(x)=0$ in $[a, b]$, split the interval at those roots, and on each piece take "upper curve minus lower curve".
+An area is never negative, so if the two graphs cross somewhere in between, we cannot integrate in one go. To remove the modulus, find the roots of $f(x)-g(x)=0$ in $[a, b]$ and split the interval at those roots. On each piece one curve lies above the other, and we take "upper curve minus lower curve".
 
 :::graph The region between $y=2x$ and $y=x^2$
 alt: The parabola y equals x squared and the line y equals 2x meet at the origin and at the point (2, 4); the region between them from x equal 0 to x equal 2 is shaded, with the line on top
@@ -147,11 +147,11 @@ So the car travels a further $40$ m.
 :::
 
 :::warning Common mistakes
-- **Wrong signs with $\sin$ and $\cos$.** $\displaystyle\int\sin x\,dx=-\cos x+C$, while $\displaystyle\int\cos x\,dx=\sin x+C$.
-- **Using the power rule for $\dfrac1x$ or $e^x$.** $\dfrac1x=x^{-1}$ is the case $\alpha=-1$, and its antiderivative is $\ln\lvert x\rvert$.
-- **Dropping the modulus when finding an area.** Wrong: the area between $y=x^3-x$ and the $x$-axis on $[0, 2]$ is $\displaystyle\int_0^2(x^3-x)\,dx=2$. Right: split at $x=1$ to get $\dfrac14+\dfrac94=\dfrac52$.
-- **Forgetting to square, or forgetting $\pi$, in the volume formula.** $V=\pi\displaystyle\int_a^b f^2(x)\,dx$.
-- **Forgetting that the integral of a product is not the product of the integrals.**
+- **Wrong signs with $\sin$ and $\cos$.** The two results are easy to swap: $\displaystyle\int\sin x\,dx=-\cos x+C$, while $\displaystyle\int\cos x\,dx=\sin x+C$. Of these two, only the integral of sine carries a minus sign.
+- **Using the power rule for $\dfrac1x$ or $e^x$.** The power rule does not apply to these two functions. For $\dfrac1x=x^{-1}$ we have $\alpha=-1$, exactly the excluded case, and its antiderivative is $\ln\lvert x\rvert$.
+- **Dropping the modulus when finding an area.** Wrong: the area between $y=x^3-x$ and the $x$-axis on $[0, 2]$ is $\displaystyle\int_0^2(x^3-x)\,dx=2$. Right: split at $x=1$ to get $\dfrac14+\dfrac94=\dfrac52$. The reason is that on one piece the graph lies below that axis, so the integral there is negative and takes away part of the area.
+- **Forgetting to square, or forgetting $\pi$, in the volume formula.** Each slice is a circle, so the correct formula is $V=\pi\displaystyle\int_a^b f^2(x)\,dx$.
+- **Forgetting that the integral of a product is not the product of the integrals.** For example, we cannot integrate each factor separately and then multiply the results.
 :::
 
 ## Key terms
@@ -169,7 +169,7 @@ So the car travels a further $40$ m.
 
 ## Exercises
 
-Each exercise comes with what you need and some steps to start. Try it yourself first, then open the solution.
+Each exercise comes with the facts you need and a few steps to get started. Try it yourself first, then open the solution. A mistake you find and fix on your own is usually remembered longer than a solution you read straight away.
 
 :::exercise Multiple choice
 $\displaystyle\int\left(4x^3-\frac{1}{x^2}\right)dx$ equals

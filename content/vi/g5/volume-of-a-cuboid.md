@@ -12,19 +12,19 @@ minutes: 15
 
 Mai có một chiếc hộp hình hộp chữ nhật dài $4$ cm, rộng $3$ cm, cao $2$ cm. Mai muốn xếp đầy hộp bằng các khối lập phương nhỏ, mỗi khối có cạnh $1$ cm. Hỏi Mai cần bao nhiêu khối?
 
-Em có thể xếp thử rồi đếm từng khối. Nhưng với chiếc hộp to hơn thì cách đó rất lâu. Bài này giúp em tính nhanh.
+Em có thể xếp thử rồi đếm từng khối, và cách đó vẫn cho đáp số đúng. Nhưng nếu chiếc hộp to hơn nhiều thì sao? Đếm từng khối sẽ rất lâu. Có một cách để biết số khối mà không cần xếp: chỉ cần nhìn ba kích thước của hộp. Ta cùng tìm cách đó.
 
 ## Cùng khám phá
 
-Mỗi khối nhỏ cạnh $1$ cm có thể tích $1$ cm³. Vậy số khối xếp đầy hộp chính là thể tích của hộp, tính bằng cm³.
+Ta cần một đơn vị để đo chỗ mà hộp chứa. Mỗi khối nhỏ cạnh $1$ cm có thể tích $1$ cm³. Hộp xếp đầy được bao nhiêu khối thì thể tích là bấy nhiêu cm³. Vậy số khối xếp đầy hộp chính là thể tích của hộp, tính bằng cm³.
 
-Mai xếp từng lớp một:
+Mai xếp hộp theo từng lớp, từ dưới lên:
 
-- Lớp dưới cùng có $4$ khối theo chiều dài và $3$ hàng theo chiều rộng. Lớp này có $4\times3=12$ khối.
-- Hộp cao $2$ cm nên xếp được $2$ lớp như vậy.
-- Số khối là $12\times2=24$.
+- Lớp dưới cùng trải kín đáy hộp: $4$ khối theo chiều dài và $3$ hàng theo chiều rộng. Lớp này có $4\times3=12$ khối.
+- Hộp cao $2$ cm, nên xếp được $2$ lớp giống hệt lớp này.
+- Mỗi lớp có số khối như nhau, nên số khối là $12\times2=24$.
 
-Vậy hộp có thể tích $24$ cm³. Em thấy không: $24=4\times3\times2$, đúng bằng ba kích thước của hộp nhân với nhau.
+Vậy hộp có thể tích $24$ cm³. Em để ý nhé: $24=4\times3\times2$. Số khối chính là ba kích thước của hộp nhân với nhau. Đây không phải chuyện trùng hợp, và ta sẽ thấy vì sao ngay sau đây.
 
 :::diagram Hộp dài 4 cm, rộng 3 cm, cao 2 cm
 alt: Hình hộp chữ nhật vẽ phối cảnh, các cạnh khuất vẽ nét đứt; chiều dài 4 cm, chiều rộng 3 cm, chiều cao 2 cm
@@ -59,11 +59,11 @@ $$V=a\times b\times c.$$
 Nếu $a$, $b$, $c$ tính bằng cm thì $V$ tính bằng cm³. Tương tự với dm và m.
 :::
 
-Công thức này đúng vì lớp dưới cùng có $a\times b$ khối, tức là diện tích đáy. Hộp có $c$ lớp, nên số khối là $a\times b\times c$. Vì thế em cũng có thể nhớ: thể tích bằng diện tích đáy nhân chiều cao.
+Vì sao công thức đúng? Lớp dưới cùng có $a\times b$ khối, và đó cũng chính là diện tích đáy. Hộp có $c$ lớp như thế, nên số khối là $a\times b\times c$. Em có thể nhớ theo một cách khác: thể tích bằng diện tích đáy nhân chiều cao. Cách nhớ này sẽ giúp ta ở ví dụ cuối.
 
 ## Ví dụ
 
-Ta bắt đầu với một hình hộp cho sẵn ba kích thước cùng đơn vị.
+Ta bắt đầu với trường hợp dễ nhất: hình hộp có ba kích thước cùng đơn vị, chỉ việc nhân ba số với nhau.
 
 :::example Tính thể tích hình hộp chữ nhật dài $6$ cm, rộng $4$ cm, cao $5$ cm
 **Lời giải.** Ba kích thước cùng đơn vị cm, nên em nhân ba số với nhau:
@@ -71,7 +71,7 @@ $$V=6\times4\times5=120\ (\text{cm}^3).$$
 Vậy thể tích hình hộp là $120$ cm³.
 :::
 
-Bây giờ em dùng công thức cho một vật trong cuộc sống.
+Công thức không chỉ dùng cho những chiếc hộp. Căn phòng em đang học cũng là một hình hộp chữ nhật, và ta thử tính xem trong phòng có bao nhiêu không khí.
 
 :::example Thể tích lớp học
 Một phòng học hình hộp chữ nhật dài $8$ m, rộng $6$ m, cao $3$ m. Hỏi thể tích không khí trong phòng là bao nhiêu mét khối?
@@ -81,7 +81,7 @@ $$V=8\times6\times3=144\ (\text{m}^3).$$
 Vậy thể tích không khí trong phòng là $144$ m³.
 :::
 
-Đôi khi các kích thước cho bằng đơn vị khác nhau. Khi đó em đổi về cùng một đơn vị trước.
+Có khi đề bài cho kích thước bằng hai đơn vị khác nhau, và đây là chỗ nhiều bạn hay nhầm. Nhân ngay thì sẽ sai, vì ba số phải cùng đơn vị. Em đổi về cùng một đơn vị trước, rồi mới tính.
 
 :::example Hộp có hai đơn vị
 Một hộp hình hộp chữ nhật dài $2$ dm, rộng $15$ cm, cao $10$ cm. Tính thể tích hộp theo cm³.
@@ -91,7 +91,7 @@ $$V=20\times15\times10=3000\ (\text{cm}^3).$$
 Vậy thể tích hộp là $3000$ cm³.
 :::
 
-Cuối cùng, ta đi ngược lại: biết thể tích, tìm một kích thước.
+Cuối cùng, ta thử đi ngược lại. Nếu biết thể tích và hai kích thước, em tìm được kích thước còn lại không? Được, nhờ cách nhớ thể tích bằng diện tích đáy nhân chiều cao.
 
 :::example Tìm chiều cao
 Một hình hộp chữ nhật có thể tích $90$ cm³, chiều dài $6$ cm, chiều rộng $5$ cm. Tính chiều cao.
@@ -106,8 +106,8 @@ Vậy chiều cao hình hộp là $3$ cm.
 :::
 
 :::warning Những lỗi em hay gặp
-- **Cộng thay vì nhân.** Sai: $4+3+2=9$. Vì sao sai: thể tích là số khối trong các lớp, nên phải nhân. Đúng: $4\times3\times2=24$.
-- **Không đổi về cùng đơn vị.** Sai: dài $2$ dm, rộng $15$ cm, cao $10$ cm, rồi tính $2\times15\times10=300$. Vì sao sai: $2$ dm và $15$ cm không cùng đơn vị. Đúng: $20\times15\times10=3000$ (cm³).
+- **Cộng thay vì nhân.** Sai: $4+3+2=9$. Vì sao sai: các lớp khối giống hệt nhau chồng lên nhau, nên ta phải nhân chứ không cộng. Đúng: $4\times3\times2=24$.
+- **Không đổi về cùng đơn vị.** Sai: dài $2$ dm, rộng $15$ cm, cao $10$ cm, rồi tính $2\times15\times10=300$. Vì sao sai: $2$ dm và $15$ cm không cùng đơn vị, nên nhân thẳng với nhau thì không có nghĩa. Đúng: $20\times15\times10=3000$ (cm³).
 - **Nhầm cm² với cm³.** Sai: "Thể tích là $24$ cm²". Vì sao sai: thể tích đếm các khối nên dùng đơn vị khối. Đúng: "$24$ cm³".
 :::
 
@@ -132,10 +132,11 @@ Vậy chiều cao hình hộp là $3$ cm.
 - Ba kích thước phải cùng đơn vị. Nếu khác đơn vị, em đổi trước khi tính.
 - Đơn vị thể tích là cm³, dm³, m³.
 - Thể tích bằng diện tích đáy nhân chiều cao, nên chiều cao bằng thể tích chia cho diện tích đáy.
+Quay lại câu hỏi của Mai: chỉ cần nhân ba kích thước của hộp là biết ngay số khối, không phải xếp từng khối nữa. Em nhớ một điều thôi: ba kích thước phải cùng đơn vị rồi mới nhân. Em làm vài bài luyện tập để quen tay nhé.
 
 ## Luyện tập
 
-Mỗi bài có phần kiến thức và gợi ý. Em hãy tự làm trước, rồi mới bấm xem lời giải.
+Mỗi bài có phần nhắc kiến thức và gợi ý để em bắt đầu. Em cứ thử tự làm trước, làm sai cũng không sao, rồi mới bấm xem lời giải.
 
 :::exercise
 Tính thể tích hình hộp chữ nhật dài $7$ cm, rộng $3$ cm, cao $4$ cm.

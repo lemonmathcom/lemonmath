@@ -11,15 +11,15 @@ minutes: 20
 - Tính giá trị các biểu thức đối xứng của hai nghiệm và xét dấu các nghiệm mà không cần giải phương trình.
 :::
 
-François Viète (1540–1603) là một luật sư, cố vấn của vua Pháp Henri III rồi làm việc cho vua Henri IV. Ông đã giải mã những bức thư mật gửi vua Tây Ban Nha Philip II, giúp Henri IV biết trước kế hoạch quân sự của đối phương. Trong toán học, ông đưa ra hệ thống kí hiệu đại số đầu tiên: dùng nguyên âm để kí hiệu ẩn và phụ âm để kí hiệu các số đã biết, nhờ đó viết được những quy luật chung cho *mọi* phương trình (theo MacTutor, Đại học St Andrews). Mối liên hệ giữa nghiệm và hệ số mà ta học hôm nay mang tên ông.
+François Viète (1540–1603) là một luật sư, từng làm cố vấn cho vua Pháp Henri III rồi làm việc cho vua Henri IV. Ông giải mã được những bức thư mật gửi vua Tây Ban Nha Philip II, nên Henri IV biết trước kế hoạch quân sự của đối phương. Với toán học, đóng góp của ông là hệ thống kí hiệu đại số đầu tiên: nguyên âm dành cho ẩn, phụ âm dành cho các số đã biết. Nhờ vậy, ông viết được những quy luật chung cho *mọi* phương trình (theo MacTutor, Đại học St Andrews). Mối liên hệ giữa nghiệm và hệ số mà ta học hôm nay mang tên ông.
 
-Bạn Minh nói với cả lớp: "Phương trình $x^2-7x+12=0$ có nghiệm $3$ và $4$, mình biết ngay mà không cần tính $\Delta$, vì $3+4=7$ và $3\cdot4=12$." Minh đoán may mắn, hay có một quy luật đằng sau? Nếu có, quy luật ấy giúp ta làm được những gì?
+Bạn Minh nói với cả lớp: "Phương trình $x^2-7x+12=0$ có nghiệm $3$ và $4$, mình biết ngay mà không cần tính $\Delta$, vì $3+4=7$ và $3\cdot4=12$." Nghe như đoán may, nhưng liệu có một quy luật đằng sau không? Nếu có, quy luật ấy cho ta làm được điều gì mà trước giờ phải giải xong phương trình mới biết?
 
 ## Định lí Viète
 
 ### Khám phá: tổng và tích của hai nghiệm
 
-Ta giải vài phương trình (bằng công thức nghiệm) rồi tính tổng và tích hai nghiệm:
+Ta thử tìm quy luật bằng cách giải ba phương trình (dùng công thức nghiệm), rồi tính tổng và tích hai nghiệm của từng phương trình. Bạn nhìn kĩ bảng dưới đây:
 
 | Phương trình | Nghiệm | $x_1+x_2$ | $x_1x_2$ |
 |---|---|---|---|
@@ -27,18 +27,18 @@ Ta giải vài phương trình (bằng công thức nghiệm) rồi tính tổng
 | $2x^2-7x+3=0$ | $3$; $\frac12$ | $\frac72$ | $\frac32$ |
 | $x^2+2x-8=0$ | $2$; $-4$ | $-2$ | $-8$ |
 
-Ở dòng thứ hai, tổng là $\dfrac72=\dfrac{-(-7)}{2}$ và tích là $\dfrac32$: tổng luôn bằng $-\dfrac{b}{a}$, tích luôn bằng $\dfrac{c}{a}$.
+Nhìn dòng thứ hai: tổng là $\dfrac72=\dfrac{-(-7)}{2}$ và tích là $\dfrac32$. Các dòng còn lại cũng theo đúng nếp ấy: tổng luôn bằng $-\dfrac{b}{a}$, tích luôn bằng $\dfrac{c}{a}$. Quy luật này mang tên định lí Viète.
 
 :::theorem Định lí Viète
 Nếu $x_1$, $x_2$ là hai nghiệm của phương trình $ax^2+bx+c=0$ ($a\neq0$) thì
 $$x_1+x_2=-\frac{b}{a},\qquad x_1x_2=\frac{c}{a}.$$
 :::
 
-**Vì sao?** Khi $\Delta\geq0$, cộng và nhân hai nghiệm $\dfrac{-b\pm\sqrt\Delta}{2a}$ (bài [phương trình bậc hai](lesson:quadratic-equations)), các căn triệt tiêu nhau:
+**Vì sao?** Khi $\Delta\geq0$, hai nghiệm là $\dfrac{-b\pm\sqrt\Delta}{2a}$ (bài [phương trình bậc hai](lesson:quadratic-equations)). Cộng hai nghiệm này thì hai căn đối nhau nên triệt tiêu. Nhân hai nghiệm thì ta được hiệu của hai bình phương, nên căn cũng biến mất:
 
 $$x_1+x_2=\frac{-2b}{2a}=-\frac ba,\qquad x_1x_2=\frac{(-b)^2-(\sqrt\Delta)^2}{4a^2}=\frac{b^2-(b^2-4ac)}{4a^2}=\frac ca.$$
 
-**Hiểu sâu hơn.** Nếu $x_1$, $x_2$ là hai nghiệm thì $(x-x_1)(x-x_2)=x^2-(x_1+x_2)x+x_1x_2$. So sánh với $x^2+\dfrac bax+\dfrac ca$ (chia phương trình cho $a$), ta thấy định lí Viète là điều rất tự nhiên. Nhưng định lí chỉ nói về nghiệm khi nghiệm **tồn tại**: luôn kiểm tra $\Delta\geq0$ (hoặc $a$, $c$ trái dấu) trước khi dùng.
+**Hiểu sâu hơn.** Nếu $x_1$, $x_2$ là hai nghiệm thì $(x-x_1)(x-x_2)=x^2-(x_1+x_2)x+x_1x_2$. Chia phương trình cho $a$, ta được $x^2+\dfrac bax+\dfrac ca$. Đặt hai biểu thức cạnh nhau, hệ số của số hạng bậc nhất và số hạng tự do phải khớp, nên định lí Viète là điều rất tự nhiên. Có một lưu ý: định lí chỉ nói về nghiệm khi nghiệm **tồn tại**. Vì vậy bạn hãy luôn kiểm tra $\Delta\geq0$ (hoặc $a$, $c$ trái dấu) trước khi dùng.
 
 :::example Tổng và tích mà không cần giải
 Không giải phương trình, tính tổng và tích hai nghiệm của phương trình $2x^2-9x+4=0$.
@@ -52,7 +52,7 @@ Vậy tổng hai nghiệm là $\dfrac92$, tích là $2$.
 **Kiểm tra.** Hai nghiệm là $4$ và $\dfrac12$: $4+\dfrac12=\dfrac92$, $4\cdot\dfrac12=2$.
 :::
 
-Từ tổng $S$ và tích $P$, ta tính được nhiều biểu thức "đối xứng" (đổi chỗ $x_1$, $x_2$ không đổi giá trị), chẳng hạn $x_1^2+x_2^2=(x_1+x_2)^2-2x_1x_2=S^2-2P$.
+Khi đã có tổng $S$ và tích $P$, ta tính được cả những biểu thức "đối xứng", tức là đổi chỗ $x_1$, $x_2$ thì giá trị không đổi. Chẳng hạn $x_1^2+x_2^2=(x_1+x_2)^2-2x_1x_2=S^2-2P$. Ví dụ sau cho thấy cách làm.
 
 :::example Biểu thức đối xứng của hai nghiệm
 Gọi $x_1$, $x_2$ là hai nghiệm của phương trình $x^2-5x+3=0$. Không giải phương trình, tính $x_1^2+x_2^2$ và $\dfrac1{x_1}+\dfrac1{x_2}$.
@@ -68,7 +68,7 @@ Vậy $x_1^2+x_2^2=19$ và $\dfrac1{x_1}+\dfrac1{x_2}=\dfrac53$.
 
 ## Tính nhẩm nghiệm
 
-Thay $x=1$ vào $ax^2+bx+c$ ta được $a+b+c$; thay $x=-1$ ta được $a-b+c$. Kết hợp với tích $x_1x_2=\dfrac ca$, ta tìm ngay nghiệm còn lại.
+Có những phương trình mà ta nhẩm được nghiệm, không cần tính gì. Thay $x=1$ vào $ax^2+bx+c$ thì được $a+b+c$; thay $x=-1$ thì được $a-b+c$. Nếu một trong hai kết quả ấy bằng không, ta đã có ngay một nghiệm. Nghiệm còn lại lấy từ tích $x_1x_2=\dfrac ca$.
 
 :::theorem Nhẩm nghiệm
 - Nếu $a+b+c=0$ thì phương trình $ax^2+bx+c=0$ có hai nghiệm $x_1=1$, $x_2=\dfrac ca$.
@@ -93,11 +93,11 @@ c) Ta có $a+b+c=1-2027+2026=0$ nên $x_1=1$, $x_2=2026$.
 Vậy a) $x=1$, $x=\dfrac53$; b) $x=-1$, $x=-\dfrac52$; c) $x=1$, $x=2026$.
 :::
 
-Câu c) cho thấy sức mạnh của cách nhẩm: dùng công thức nghiệm, bạn phải tính $\Delta=2027^2-4\cdot2026=2025^2$.
+Câu c) cho thấy sức mạnh của cách nhẩm. Nếu dùng công thức nghiệm, bạn phải tính $\Delta=2027^2-4\cdot2026=2025^2$, một phép tính khá cồng kềnh. Còn nhẩm thì chỉ cần cộng ba hệ số.
 
 ## Tìm hai số biết tổng và tích
 
-Đảo lại định lí Viète: nếu hai số $u$, $v$ có $u+v=S$ và $uv=P$ thì $(x-u)(x-v)=x^2-Sx+P$, nên $u$, $v$ là hai nghiệm của $x^2-Sx+P=0$.
+Bây giờ ta đi theo chiều ngược lại: biết tổng và tích của hai số, ta có tìm được hai số đó không? Được, và lí do rất gọn. Đảo lại định lí Viète: nếu hai số $u$, $v$ có $u+v=S$ và $uv=P$ thì $(x-u)(x-v)=x^2-Sx+P$, nên $u$, $v$ là hai nghiệm của $x^2-Sx+P=0$. Nói cách khác, bài toán tìm hai số được đưa về giải một phương trình bậc hai.
 
 :::theorem Tìm hai số biết tổng và tích
 Nếu hai số có tổng bằng $S$ và tích bằng $P$ thì hai số đó là hai nghiệm của phương trình
@@ -147,12 +147,12 @@ label 6,2.5 "60 m²"
 
 ## Xét dấu các nghiệm
 
-Không cần giải, từ $S$ và $P$ ta biết được dấu của hai nghiệm (khi phương trình có nghiệm):
+Nhiều khi ta không cần biết nghiệm là bao nhiêu, chỉ cần biết chúng âm hay dương. Điều đó đọc được ngay từ $S$ và $P$ (khi phương trình có nghiệm):
 - $P<0$: hai nghiệm trái dấu (khi đó $a$, $c$ trái dấu nên phương trình chắc chắn có hai nghiệm);
 - $\Delta\geq0$, $P>0$, $S>0$: hai nghiệm cùng dương;
 - $\Delta\geq0$, $P>0$, $S<0$: hai nghiệm cùng âm.
 
-Lí do: tích âm thì hai số khác dấu; tích dương thì cùng dấu, và tổng cho biết dấu chung đó.
+Lí do khá đơn giản. Hai số có tích âm thì phải khác dấu. Hai số có tích dương thì cùng dấu, và tổng cho ta biết dấu chung ấy là dương hay âm.
 
 :::example Xét dấu các nghiệm
 Không giải phương trình, xét dấu các nghiệm của mỗi phương trình sau:
@@ -173,12 +173,13 @@ Vậy a) hai nghiệm trái dấu; b) hai nghiệm âm; c) hai nghiệm dương.
 :::
 
 :::warning Những sai lầm thường gặp
-- **Quên kiểm tra $\Delta$.** Sai: với $x^2-2x+5=0$, viết $S=2$, $P=5$, nên $x_1^2+x_2^2=4-10=-6$. Lí do sai: $\Delta'=1-5<0$, phương trình vô nghiệm (tổng hai bình phương cũng không thể âm). Đúng: kiểm tra $\Delta\geq0$ trước.
+- **Quên kiểm tra $\Delta$.** Sai: với $x^2-2x+5=0$, viết $S=2$, $P=5$, nên $x_1^2+x_2^2=4-10=-6$. Vì sao sai? Vì $\Delta'=1-5<0$, phương trình vô nghiệm, mà tổng hai bình phương thì không thể âm. Đúng: kiểm tra $\Delta\geq0$ trước.
 - **Sai dấu của tổng.** Sai: $2x^2-9x+4=0$ có $x_1+x_2=-\dfrac92$. Đúng: $x_1+x_2=-\dfrac ba=\dfrac92$.
 - **Nhầm hai trường hợp nhẩm nghiệm.** Khi $a-b+c=0$, nghiệm thứ hai là $-\dfrac ca$, không phải $\dfrac ca$.
+Chỗ này nhiều bạn hay nhầm. Mỗi lần dùng định lí, bạn hãy dừng một nhịp để kiểm tra điều kiện có nghiệm và để ý dấu trừ.
 :::
 
-**Kết nối.** Định lí Viète được suy ra trực tiếp từ công thức nghiệm, và cho ta một cách nhìn mới: thay vì tìm từng nghiệm, ta làm việc với cặp $(S; P)$. Cách nhìn này dùng nhiều trong [giải bài toán bằng cách lập phương trình](lesson:g9-equation-word-problems) (các bài toán hình chữ nhật), trong phân tích $ax^2+bx+c=a(x-x_1)(x-x_2)$, và là dạng bài quen thuộc của đề thi vào lớp 10.
+**Kết nối.** Định lí Viète suy ra trực tiếp từ công thức nghiệm, nhưng nó cho ta một cách nhìn mới: thay vì đi tìm từng nghiệm, ta làm việc với cặp $(S; P)$. Cách nhìn này sẽ gặp lại trong [giải bài toán bằng cách lập phương trình](lesson:g9-equation-word-problems), nhất là các bài về hình chữ nhật; trong phân tích $ax^2+bx+c=a(x-x_1)(x-x_2)$; và cả ở dạng bài quen thuộc của đề thi vào lớp 10.
 
 ## Thuật ngữ
 
@@ -200,10 +201,11 @@ Vậy a) hai nghiệm trái dấu; b) hai nghiệm âm; c) hai nghiệm dương.
 - Hai số có tổng $S$, tích $P$ là nghiệm của $x^2-Sx+P=0$ (cần $S^2-4P\geq0$).
 - $x_1^2+x_2^2=S^2-2P$; $\dfrac1{x_1}+\dfrac1{x_2}=\dfrac SP$.
 - $P<0$: trái dấu; $P>0$, $S>0$: cùng dương; $P>0$, $S<0$: cùng âm (khi $\Delta\geq0$).
+Quay lại câu hỏi đầu bài: Minh không đoán may. Có một quy luật thật sự, và nhờ nó ta tính được tổng, tích, nhẩm nghiệm và xét dấu mà không phải giải phương trình. Bạn làm thêm các bài luyện tập để quen tay nhé.
 
 ## Luyện tập
 
-Mỗi bài có phần kiến thức và gợi ý các bước. Hãy tự làm trước, rồi mới bấm xem lời giải.
+Mỗi bài có phần kiến thức cần dùng và vài bước gợi ý để bạn bắt đầu. Bạn hãy tự làm trước, mắc chỗ nào thì mới mở lời giải ra xem, rồi thử làm lại bằng cách của mình.
 
 :::exercise
 Không giải phương trình, tính tổng và tích các nghiệm (nếu có) của mỗi phương trình sau:

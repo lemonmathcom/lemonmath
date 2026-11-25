@@ -12,11 +12,11 @@ minutes: 50
 - Read a polar graph $r=f(\theta)$: where $r$ increases or decreases, and what that means for the distance from the origin.
 :::
 
-The second half of Unit 3 turns the periodic functions of the previous lesson into tools: inverse functions to undo them, identities to rewrite them, and equations to solve with them. It ends with polar coordinates, where a function describes distance from the origin as the angle turns. FRQ 4 (Symbolic Manipulations) often draws on the identities and equations here.
+The previous lesson gave us functions that repeat. Now turn the question round: you know the output, so how do you find the angle that produced it? The second half of Unit 3 answers that. Inverse functions undo the periodic ones, identities let us rewrite them, and equations are where we use both to find solutions. The lesson ends with polar coordinates, where a function gives the distance from the origin as the angle turns. FRQ 4 (Symbolic Manipulations) often draws on the identities and equations here, so careful practice pays off.
 
 ## Inverse trigonometric functions
 
-A periodic function is not one-to-one, so to define an inverse we restrict the domain:
+Why can't we simply undo a trigonometric function? Because a periodic function takes the same value again and again. It is not one-to-one, so one output can come from many inputs. An inverse needs one input for each output, so we restrict the domain to a stretch where the function does not repeat:
 
 | Function | Input | Output (range) |
 |---|---|---|
@@ -24,7 +24,7 @@ A periodic function is not one-to-one, so to define an inverse we restrict the d
 | $\arccos x=\cos^{-1}x$ | $-1\le x\le1$ | $0\le y\le\pi$ |
 | $\arctan x=\tan^{-1}x$ | all real $x$ | $-\dfrac\pi2<y<\dfrac\pi2$ |
 
-The calculator returns only this one value; the other solutions of an equation come from symmetry and periodicity. The reciprocal functions are $\sec x=\dfrac{1}{\cos x}$, $\csc x=\dfrac{1}{\sin x}$ and $\cot x=\dfrac{1}{\tan x}$.
+Many students trip over this: the calculator returns only the one value from the table, yet an equation usually has more solutions. We find the others using symmetry and periodicity, as we do below. The reciprocal functions are $\sec x=\dfrac{1}{\cos x}$, $\csc x=\dfrac{1}{\sin x}$ and $\cot x=\dfrac{1}{\tan x}$.
 
 :::example Inverse values
 The value of $\arccos\left(-\dfrac12\right)$ is
@@ -42,11 +42,12 @@ So $\arccos\left(-\dfrac12\right)=\dfrac{2\pi}{3}$, answer **D**. Option B also 
 
 ## Solving trigonometric equations
 
-1. Isolate the trigonometric function, or factor; a quadratic in $\sin x$ or $\cos x$ factors like any quadratic.
-2. Find the reference angle, then every angle in the interval with the right sign.
-3. If the argument is $bx$, solve for $bx$ over the stretched interval first.
+1. First isolate the trigonometric function, or factor. A quadratic in $\sin x$ or $\cos x$ factors like any other quadratic.
+2. Find the reference angle, then take every angle in the interval with the right sign.
+3. If the argument is $bx$, solve for $bx$ first, over the stretched interval.
+Why stretch the interval in the last step? Because a multiplied angle goes round more times, so there are more solutions than you might expect.
 
-For an **inequality**, solve the matching equation and test the intervals between solutions, or read them from the graph or unit circle.
+For an **inequality**, we follow the same road: solve the matching equation first, because its solutions cut the number line into intervals. Then test the sign on each interval. If you find it easier, read the answer from the graph or the unit circle.
 
 :::example A quadratic in cosine
 How many solutions does $2\cos^2x-\cos x-1=0$ have on $[0,2\pi)$?
@@ -87,9 +88,9 @@ So the solutions are $x=0$, $\dfrac\pi3$, $\pi$ and $\dfrac{5\pi}{3}$.
 
 A point with polar coordinates $(r,\theta)$ has rectangular coordinates
 $$x=r\cos\theta,\qquad y=r\sin\theta,$$
-and conversely $r^2=x^2+y^2$ and $\tan\theta=\dfrac yx$, with $\theta$ chosen in the correct quadrant.
+and conversely we get from rectangular back to polar coordinates with $r^2=x^2+y^2$ and $\tan\theta=\dfrac yx$, with $\theta$ chosen in the correct quadrant. The first relation is Pythagoras at work, because the distance from the point to the origin is the radius. The quadrant is where people slip: the ratio of the two coordinates alone does not say where the point is, so look at the sign of each coordinate as well.
 
-The graph of $r=f(\theta)$ shows how the distance from the origin changes as the angle turns. When $r>0$ and $r$ is increasing, the points move **away** from the origin; when $r>0$ and $r$ is decreasing, they move **toward** it. The average rate of change of $r$ on $[\alpha,\beta]$ is $\dfrac{f(\beta)-f(\alpha)}{\beta-\alpha}$.
+What does the graph of $r=f(\theta)$ tell us? It shows how the distance from the origin changes as the angle turns. Picture yourself standing at the origin and turning slowly: when $r>0$ and $r$ is increasing, the points move **away** from the origin; when $r>0$ and $r$ is decreasing, they move **toward** it. To measure that change over a stretch, we use the average rate of change of $r$ on $[\alpha,\beta]$, which is $\dfrac{f(\beta)-f(\alpha)}{\beta-\alpha}$: the change in the distance divided by the change in the angle.
 
 :::graph The polar graph $r=2+2\cos\theta$
 alt: A heart-shaped curve, a cardioid, that touches the origin on the left and reaches farthest right at the point (4, 0); it passes through (0, 2) and (0, -2)
@@ -188,11 +189,12 @@ So the points move toward the origin, answer **C**.
 :::
 
 :::warning Common traps
-- **Missing solutions:** the calculator gives one angle; find every solution in the interval by symmetry.
-- **Dividing by a trigonometric function:** factor instead, or solutions disappear.
+- **Missing solutions:** the calculator gives one angle, so do not stop there; find every solution in the interval by symmetry.
+- **Dividing by a trigonometric function:** many students do this. Factor instead, or solutions disappear.
 - **Stretched arguments:** for $\sin3x=\dfrac12$ on $[0,2\pi)$, solve for $3x$ on $[0,6\pi)$ first: six solutions, not two.
 - **Inverse ranges:** $\arccos$ gives values in $[0,\pi]$, $\arcsin$ in $\left[-\dfrac\pi2,\dfrac\pi2\right]$.
-- **Polar quadrant:** $\tan\theta=\dfrac yx$ alone cannot tell $(1,1)$ from $(-1,-1)$.
+- **Polar quadrant:** $\tan\theta=\dfrac yx$ alone cannot tell $(1,1)$ from $(-1,-1)$, because both points give the same ratio.
+Whenever you solve an equation like these, ask yourself one thing: have I found every solution in the interval? That is the question to remember from this lesson. Then try the exercises below.
 :::
 
 :::terms

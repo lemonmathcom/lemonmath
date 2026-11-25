@@ -12,11 +12,11 @@ minutes: 15
 
 Thư viện có $3$ thùng sách, mỗi thùng $100$ quyển, thêm $4$ bó sách, mỗi bó $10$ quyển, và $5$ quyển sách lẻ. Hỏi thư viện có tất cả bao nhiêu quyển sách?
 
-Em đã biết trăm, chục, đơn vị. Bài này giúp em ghép chúng thành một số có ba chữ số.
+Sách có thể đóng thùng, buộc bó hay để lẻ. Em đã biết trăm, chục, đơn vị. Bây giờ ta ghép chúng lại thành một số có ba chữ số, để nói được ngay thư viện có bao nhiêu quyển mà không phải đếm từng quyển.
 
 ## Cùng khám phá
 
-Ta xếp các nhóm sách vào ba cột:
+Ta xếp từng loại sách vào một cột của bảng:
 
 | Trăm | Chục | Đơn vị |
 |---|---|---|
@@ -24,9 +24,9 @@ Ta xếp các nhóm sách vào ba cột:
 
 ![Ba thùng sách ghi 100, bốn chồng sách ghi 10 và năm quyển sách lẻ](/assets/img/g2/g2-three-digit-numbers-01.svg)
 
-Có $3$ trăm, $4$ chục và $5$ đơn vị. Ta viết ba chữ số liền nhau: chữ số $3$ ở hàng trăm, chữ số $4$ ở hàng chục, chữ số $5$ ở hàng đơn vị. Số đó là $345$.
+Thư viện có $3$ trăm, $4$ chục và $5$ đơn vị. Ta viết các chữ số liền nhau, từ trái sang phải. Chữ số $3$ ở hàng trăm, chữ số $4$ ở hàng chục, chữ số $5$ ở hàng đơn vị. Ta được số $345$.
 
-Số $345$ đọc là "ba trăm bốn mươi lăm". Vậy thư viện có $345$ quyển sách.
+Số $345$ đọc là "ba trăm bốn mươi lăm". Vậy thư viện có $345$ quyển sách, và ta không cần đếm từng quyển.
 
 :::theorem Số có ba chữ số
 Số có ba chữ số có:
@@ -37,11 +37,11 @@ Số có ba chữ số có:
 Nếu một hàng không có gì thì ta viết chữ số $0$ vào hàng đó.
 :::
 
-Ta phải viết chữ số $0$ để giữ đúng vị trí của các chữ số khác. Ví dụ $3$ trăm và $7$ đơn vị là $307$; nếu bỏ chữ số $0$ thì $37$ chỉ là $3$ chục $7$ đơn vị.
+Vì sao phải viết chữ số $0$? Để các chữ số khác đứng đúng chỗ của chúng. Ví dụ $3$ trăm và $7$ đơn vị là $307$. Nếu bỏ chữ số $0$ đi thì $37$ chỉ là $3$ chục $7$ đơn vị, nhỏ hơn rất nhiều.
 
 ## Ví dụ
 
-Ta bắt đầu với việc đọc các chữ số của một số.
+Ta thử đọc xem mỗi chữ số của một số đứng ở hàng nào.
 
 :::example Các chữ số của 345
 Số $345$ có chữ số hàng trăm, hàng chục, hàng đơn vị là gì?
@@ -55,7 +55,7 @@ Số $345$ có chữ số hàng trăm, hàng chục, hàng đơn vị là gì?
 Vậy chữ số hàng trăm là $3$, hàng chục là $4$, hàng đơn vị là $5$.
 :::
 
-Bây giờ em làm ngược lại: viết số từ các nhóm.
+Bây giờ ta làm ngược lại: cho các nhóm, em viết thành số.
 
 :::example Viết số
 Viết số gồm $6$ trăm, $2$ chục và $8$ đơn vị.
@@ -65,7 +65,7 @@ Viết số gồm $6$ trăm, $2$ chục và $8$ đơn vị.
 Vậy số cần viết là $628$, đọc là "sáu trăm hai mươi tám".
 :::
 
-Tiếp theo là số có chữ số $0$.
+Còn một trường hợp nhiều bạn hay lúng túng: số có chữ số $0$.
 
 :::example Số có chữ số 0
 Viết số gồm $3$ trăm, $0$ chục và $7$ đơn vị.
@@ -75,7 +75,7 @@ Viết số gồm $3$ trăm, $0$ chục và $7$ đơn vị.
 Vậy số cần viết là $307$, đọc là "ba trăm linh bảy".
 :::
 
-Cuối cùng em dùng kiến thức này giải một bài toán.
+Cuối cùng, em dùng cách viết số này để trả lời một bài toán ở cửa hàng bút.
 
 :::example Cửa hàng bút
 Cửa hàng có $5$ hộp bút loại $100$ chiếc, $3$ bó bút loại $10$ chiếc và $6$ chiếc bút lẻ. Hỏi cửa hàng có bao nhiêu chiếc bút?
@@ -86,8 +86,8 @@ Vậy cửa hàng có $536$ chiếc bút.
 :::
 
 :::warning Những lỗi em hay gặp
-- **Quên chữ số 0.** Sai: "$3$ trăm $7$ đơn vị là $37$". Vì sao sai: $37$ chỉ có $3$ chục. Đúng: $3$ trăm $0$ chục $7$ đơn vị là $307$.
-- **Viết sai thứ tự chữ số.** Sai: "$4$ trăm $3$ chục $5$ đơn vị là $435$ hay $453$ đều được". Vì sao sai: đổi chỗ chữ số thì được số khác. Đúng: chỉ có $435$.
+- **Quên chữ số 0.** Chỗ này nhiều bạn hay nhầm. Sai: "$3$ trăm $7$ đơn vị là $37$". Vì sao sai: $37$ chỉ có $3$ chục. Đúng: $3$ trăm $0$ chục $7$ đơn vị là $307$.
+- **Viết sai thứ tự chữ số.** Sai: "$4$ trăm $3$ chục $5$ đơn vị là $435$ hay $453$ đều được". Vì sao sai: đổi chỗ chữ số thì được số khác, vì mỗi chữ số có giá trị theo hàng nó đứng. Đúng: chỉ có $435$.
 - **Nhầm hàng của chữ số.** Sai: "chữ số $5$ trong $450$ là $5$ đơn vị". Vì sao sai: $5$ đứng ở hàng chục. Đúng: chữ số $5$ trong $450$ là $5$ chục.
 :::
 
@@ -110,9 +110,11 @@ Vậy cửa hàng có $536$ chiếc bút.
 - Hàng nào không có gì thì viết chữ số $0$.
 - Đổi chỗ các chữ số thì được số khác.
 
+Vậy thư viện có $345$ quyển sách. Mỗi chữ số cho ta biết có bao nhiêu trăm, bao nhiêu chục, bao nhiêu đơn vị. Em làm thêm vài bài ở phần luyện tập để đọc và viết số cho quen nhé.
+
 ## Luyện tập
 
-Mỗi bài có phần kiến thức và gợi ý. Em hãy tự làm trước, rồi mới bấm xem lời giải.
+Mỗi bài đều có phần cần nhớ và gợi ý để em bắt đầu. Em cứ tự làm trước, chưa chắc thì xem gợi ý, làm xong rồi mới bấm xem lời giải. Sai một chút cũng không sao, vì mỗi lần sửa lại là một lần em hiểu rõ hơn.
 
 :::exercise
 Cho số $482$. Tìm:

@@ -13,20 +13,20 @@ minutes: 15
 
 Một thùng có $1\,213$ quyển vở. Hỏi $3$ thùng như thế có bao nhiêu quyển vở?
 
-Em đã biết bảng nhân và cách đặt tính nhân với số có ít chữ số hơn. Bài này mở rộng cách làm ấy cho số có bốn chữ số.
+Em có thể cộng số vở của từng thùng, nhưng cộng nhiều lần thì chậm và dễ nhầm. Em đã biết bảng nhân và cách đặt tính với số có ít chữ số hơn. Giờ ta dùng lại đúng cách ấy cho số có bốn chữ số, và em sẽ tính được chỉ với một phép nhân.
 
 ## Cùng khám phá
 
-Số $1\,213$ gồm $1$ nghìn, $2$ trăm, $1$ chục và $3$ đơn vị. Ta nhân từng hàng với $3$ rồi ghép lại.
+Để thấy vì sao cách đặt tính chạy được, ta tách số ra trước. Số $1\,213$ gồm $1$ nghìn, $2$ trăm, $1$ chục và $3$ đơn vị. Ta nhân từng hàng với $3$ rồi ghép lại.
 
 | | Nghìn | Trăm | Chục | Đơn vị |
 |---|---|---|---|---|
 | Số $1\,213$ | $1$ | $2$ | $1$ | $3$ |
 | Nhân với $3$ | $1\times3=3$ | $2\times3=6$ | $1\times3=3$ | $3\times3=9$ |
 
-Ghép lại, em được $3$ nghìn, $6$ trăm, $3$ chục và $9$ đơn vị, tức là $3\,639$. Vậy $3$ thùng có $3\,639$ quyển vở.
+Ghép các hàng lại, em được $3$ nghìn, $6$ trăm, $3$ chục và $9$ đơn vị, tức là $3\,639$. Đó cũng là câu trả lời cho câu hỏi đầu bài: $3$ thùng có $3\,639$ quyển vở.
 
-Thay vì kẻ bảng, em đặt tính như sau và nhân lần lượt từ phải sang trái:
+Kẻ bảng như vậy hơi dài. Em làm gọn hơn bằng cách đặt tính, rồi nhân lần lượt từ phải sang trái:
 
 $$\begin{array}{r}1213\\ \times\ 3\\ \hline 3639\end{array}$$
 
@@ -36,11 +36,11 @@ $$\begin{array}{r}1213\\ \times\ 3\\ \hline 3639\end{array}$$
 3. Nếu tích của một hàng có hai chữ số, viết chữ số hàng đơn vị và **nhớ** chữ số hàng chục sang hàng bên trái. Ở hàng đó, nhân xong rồi **cộng thêm số nhớ**.
 :::
 
-Vì sao lại nhớ? Ví dụ $15$ đơn vị là $1$ chục và $5$ đơn vị. Em viết $5$ đơn vị ở hàng đơn vị, còn $1$ chục phải để lại cho hàng chục.
+Vì sao phải nhớ? Mỗi hàng chỉ chứa được một chữ số. Ví dụ $15$ đơn vị là $1$ chục và $5$ đơn vị. Em viết $5$ đơn vị ở hàng đơn vị, còn $1$ chục không bỏ đi được mà phải chuyển sang hàng chục. Đó chính là số nhớ.
 
 ## Ví dụ
 
-Ta bắt đầu với phép nhân không phải nhớ.
+Ta thử với phép nhân dễ nhất trước: mỗi hàng nhân xong đều nhỏ hơn mười, nên chưa phải nhớ.
 
 :::example Nhân không nhớ
 Tính $2\,121\times4$.
@@ -55,7 +55,7 @@ $$\begin{array}{r}2121\\ \times\ 4\\ \hline 8484\end{array}$$
 Vậy $2\,121\times4=8\,484$.
 :::
 
-Ví dụ sau làm giống hệt, chỉ đổi số.
+Ví dụ sau làm đúng như vậy, chỉ khác số. Em thử đoán trước xem có hàng nào phải nhớ không.
 
 :::example Nhân không nhớ, số khác
 Tính $3\,102\times3$.
@@ -67,7 +67,7 @@ Hàng đơn vị: $2\times3=6$. Hàng chục: $0\times3=0$. Hàng trăm: $1\time
 Vậy $3\,102\times3=9\,306$.
 :::
 
-Bây giờ có hàng cho tích từ $10$ trở lên, em phải nhớ.
+Đến đây là chỗ nhiều bạn hay vấp: có hàng nhân xong được từ $10$ trở lên. Lúc ấy em viết chữ số hàng đơn vị và nhớ phần còn lại sang hàng bên trái.
 
 :::example Nhân có nhớ
 Tính $1\,425\times3$.
@@ -84,7 +84,7 @@ Vậy $1\,425\times3=4\,275$.
 **Kiểm tra.** $1\,425$ gần $1\,400$, mà $1\,400\times3=4\,200$. Kết quả $4\,275$ gần $4\,200$, hợp lí.
 :::
 
-Khi gặp chữ số $0$, em vẫn phải cộng số nhớ.
+Chữ số $0$ dễ làm ta chủ quan. Nhưng nếu có số nhớ chuyển sang hàng ấy, em vẫn phải cộng vào.
 
 :::example Nhân có chữ số 0 và có nhớ
 Tính $2\,308\times4$.
@@ -101,7 +101,7 @@ Vậy $2\,308\times4=9\,232$.
 **Kiểm tra.** $2\,300\times4=9\,200$, gần $9\,232$. Hợp lí.
 :::
 
-Cuối cùng, em dùng phép nhân để giải một bài toán trong cuộc sống.
+Cuối cùng, ta quay về một chuyện giống câu hỏi đầu bài: nhiều thùng, mỗi thùng đựng số đồ vật bằng nhau. Em dùng phép nhân để giải.
 
 :::example Xếp hộp bút
 Một kho có $6$ thùng, mỗi thùng đựng $1\,125$ cái bút. Hỏi kho có tất cả bao nhiêu cái bút?
@@ -117,9 +117,9 @@ Vậy kho có $6\,750$ cái bút.
 :::
 
 :::warning Những lỗi em hay gặp
-- **Quên cộng số nhớ.** Sai: $1\,425\times3=4\,265$. Vì sao sai: ở hàng chục, em quên cộng $1$ nhớ từ hàng đơn vị. Đúng: $2\times3=6$, thêm $1$ được $7$, nên kết quả là $4\,275$.
-- **Gặp chữ số 0 là bỏ qua số nhớ.** Sai: $2\,308\times4=9\,202$. Vì sao sai: $0\times4=0$ nhưng còn phải cộng $3$ nhớ nên hàng chục là $3$. Đúng: $9\,232$.
-- **Quên đơn vị trong bài toán có lời văn.** Sai: "Đáp số: $6\,750$". Đúng: "Đáp số: $6\,750$ cái bút".
+- **Quên cộng số nhớ.** Sai: $1\,425\times3=4\,265$. Vì sao sai: ở hàng chục, em đã bỏ quên $1$ nhớ từ hàng đơn vị. Đúng: $2\times3=6$, thêm $1$ được $7$, nên kết quả là $4\,275$.
+- **Gặp chữ số 0 là bỏ qua số nhớ.** Sai: $2\,308\times4=9\,202$. Vì sao sai: $0\times4=0$ thật, nhưng hàng chục vẫn phải cộng $3$ nhớ, nên chữ số hàng chục là $3$. Đúng: $9\,232$.
+- **Quên đơn vị trong bài toán có lời văn.** Sai: "Đáp số: $6\,750$". Vì sao sai: con số đứng một mình chưa nói đó là cái gì. Đúng: "Đáp số: $6\,750$ cái bút".
 :::
 
 ## Thuật ngữ
@@ -143,10 +143,11 @@ Vậy kho có $6\,750$ cái bút.
 - Tích của một hàng có hai chữ số: viết hàng đơn vị, nhớ hàng chục sang hàng bên trái.
 - Ở hàng tiếp theo, nhân xong rồi cộng thêm số nhớ, kể cả khi chữ số đó là $0$.
 - Kiểm tra bằng cách làm tròn số rồi ước lượng, và nhớ ghi đơn vị trong đáp số.
+Quay lại câu hỏi đầu bài: nhân từng hàng, nhớ đúng chỗ là em tìm được số quyển vở của cả mấy thùng. Em nhớ làm vài bài luyện tập bên dưới để tay quen dần nhé.
 
 ## Luyện tập
 
-Mỗi bài có phần kiến thức và gợi ý. Em hãy tự làm trước, rồi mới bấm xem lời giải.
+Mỗi bài có phần kiến thức và gợi ý để em bắt đầu. Em cứ thử làm trước. Nếu vướng, hãy đọc gợi ý, rồi mới mở lời giải để so lại.
 
 :::exercise
 Tính:

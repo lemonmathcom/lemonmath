@@ -10,23 +10,23 @@ minutes: 20
 - Dùng bảng, biểu đồ tần số để nhận xét và ra quyết định trong thực tế.
 :::
 
-Theo khuyến nghị của Viện Hàn lâm Y học Giấc ngủ Hoa Kỳ (dẫn theo trang của CDC Hoa Kỳ), thiếu niên từ 13 đến 18 tuổi cần ngủ từ 8 đến 10 giờ trong mỗi 24 giờ. Giả sử cô chủ nhiệm lớp 9A hỏi 30 bạn: "Đêm qua em ngủ mấy giờ?" và ghi lại (làm tròn đến giờ):
+Bạn có biết thiếu niên từ 13 đến 18 tuổi cần ngủ từ 8 đến 10 giờ trong mỗi 24 giờ không? Đó là khuyến nghị của Viện Hàn lâm Y học Giấc ngủ Hoa Kỳ (dẫn theo trang của CDC Hoa Kỳ). Thử hình dung cô chủ nhiệm lớp 9A hỏi 30 bạn: "Đêm qua em ngủ mấy giờ?" rồi ghi lại các câu trả lời, làm tròn đến giờ:
 
 $$7,\ 8,\ 8,\ 8,\ 8,\ 7,\ 8,\ 6,\ 7,\ 9,\ 6,\ 7,\ 6,\ 9,\ 7,\ 7,\ 5,\ 8,\ 5,\ 9,\ 7,\ 7,\ 5,\ 8,\ 6,\ 6,\ 6,\ 7,\ 8,\ 7.$$
 
-Lớp có bao nhiêu bạn ngủ đủ giấc? Ba mươi con số lộn xộn che mất câu trả lời; bài này giúp ta sắp xếp chúng để câu trả lời hiện ra.
+Lớp có bao nhiêu bạn ngủ đủ giấc? Ba mươi con số lộn xộn đang che mất câu trả lời. Muốn thấy nó, ta cần sắp xếp chúng lại cho gọn, và đó là việc của bài này: với bảng tần số và biểu đồ, câu trả lời sẽ hiện ra chỉ sau một cái nhìn.
 
 ## Bảng tần số
 
 ### Khám phá: đếm từng giá trị
 
-Trong dãy trên chỉ có năm giá trị khác nhau: $5$, $6$, $7$, $8$, $9$. Ta đếm xem mỗi giá trị xuất hiện bao nhiêu lần:
+Nhìn kĩ dãy số, ta thấy chỉ có năm giá trị khác nhau: $5$, $6$, $7$, $8$, $9$. Vậy thay vì đọc ba mươi con số, ta chỉ cần đếm xem mỗi giá trị xuất hiện bao nhiêu lần:
 
 | Số giờ ngủ | $5$ | $6$ | $7$ | $8$ | $9$ |
 |---|---|---|---|---|---|
 | Số bạn | $3$ | $6$ | $10$ | $8$ | $3$ |
 
-Kiểm tra: $3+6+10+8+3=30$. Bây giờ câu trả lời hiện ra: chỉ $8+3=11$ bạn ngủ từ 8 giờ trở lên, chưa đến một nửa lớp.
+Kiểm tra lại cho chắc: $3+6+10+8+3=30$, đúng bằng số bạn được hỏi. Giờ ta trả lời được câu hỏi ban đầu: chỉ có $8+3=11$ bạn ngủ từ 8 giờ trở lên, chưa đến một nửa lớp.
 
 :::definition Tần số và bảng tần số
 - Số lần xuất hiện của một giá trị trong mẫu dữ liệu gọi là **tần số** của giá trị đó.
@@ -34,7 +34,7 @@ Kiểm tra: $3+6+10+8+3=30$. Bây giờ câu trả lời hiện ra: chỉ $8+3=1
 - Tổng các tần số bằng số dữ liệu của mẫu, gọi là **cỡ mẫu**: $n=m_1+m_2+\ldots+m_k$.
 :::
 
-**Hiểu sâu hơn.** Bảng tần số "nén" ba mươi con số thành năm cặp (giá trị; tần số), chỉ mất thứ tự và danh tính ("ai ngủ 5 giờ"). Giá trị $8$ có tần số $8$ chỉ là trùng hợp.
+**Hiểu sâu hơn.** Bảng tần số "nén" ba mươi con số thành năm cặp (giá trị; tần số). Ta chỉ mất thứ tự và danh tính, tức là không còn biết "ai ngủ 5 giờ", đổi lại bảng gọn hơn nhiều. Có một chỗ dễ nhầm: giá trị $8$ có tần số $8$ chỉ là trùng hợp, hai con số này chẳng liên quan gì đến nhau.
 
 :::example Số bàn thắng trong giải bóng đá
 Giả sử số bàn thắng trong 20 trận của một giải bóng đá học sinh như sau:
@@ -62,13 +62,13 @@ Vậy cả giải có $37$ bàn thắng.
 
 ## Biểu đồ tần số dạng cột
 
-Bảng tần số cho con số chính xác, còn biểu đồ cho thấy *hình dạng* của dữ liệu. Giả sử nhà trường hỏi 200 học sinh khối 9 về giấc ngủ và được bảng tần số:
+Bảng tần số cho con số chính xác, còn biểu đồ cho ta thấy *hình dạng* của dữ liệu. Giả sử nhà trường hỏi 200 học sinh khối 9 về giấc ngủ và được bảng tần số dưới đây. Dữ liệu nhiều như vậy thì nhìn hình dễ hơn đọc từng số:
 
 | Số giờ ngủ | $5$ | $6$ | $7$ | $8$ | $9$ |
 |---|---|---|---|---|---|
 | Số học sinh | $24$ | $46$ | $68$ | $44$ | $18$ |
 
-Để vẽ **biểu đồ tần số dạng cột**: trục ngang ghi các giá trị $x$, trục đứng ghi tần số $m$; tại mỗi giá trị $x_i$ vẽ một cột cao $m_i$, các cột rộng bằng nhau và cách đều nhau; ghi tên biểu đồ.
+Cách vẽ **biểu đồ tần số dạng cột** như sau. Trục ngang ghi các giá trị $x$, trục đứng ghi tần số $m$. Tại mỗi giá trị $x_i$, ta vẽ một cột cao $m_i$. Các cột phải rộng bằng nhau và cách đều nhau. Cuối cùng, đừng quên ghi tên biểu đồ.
 
 :::graph Số giờ ngủ của 200 học sinh khối 9
 alt: Biểu đồ cột: trục ngang là số giờ ngủ 5, 6, 7, 8, 9; các cột cao lần lượt 24, 46, 68, 44, 18
@@ -81,7 +81,7 @@ fill: 44 ; 0 ; 7.7..8.3
 fill: 18 ; 0 ; 8.7..9.3
 :::
 
-Trục ngang ($x$) là số giờ ngủ, trục đứng ($y$) là số học sinh. Chỉ cần nhìn, ta thấy cột $7$ cao nhất, các cột thấp dần về hai phía.
+Trục ngang ($x$) là số giờ ngủ, trục đứng ($y$) là số học sinh. Chỉ cần nhìn là thấy cột $7$ cao nhất, rồi các cột thấp dần về hai phía.
 
 :::example Đọc biểu đồ cột
 Dựa vào biểu đồ trên, hãy so sánh số học sinh ngủ từ 8 giờ trở lên với số học sinh ngủ dưới 7 giờ.
@@ -93,7 +93,7 @@ Vậy số học sinh ngủ dưới 7 giờ nhiều hơn số học sinh ngủ �
 
 ## Biểu đồ tần số dạng đoạn thẳng
 
-Khi các giá trị là số có thứ tự, ta còn vẽ được **biểu đồ tần số dạng đoạn thẳng**: đánh dấu các điểm $(x_i; m_i)$ rồi nối các điểm liên tiếp bằng đoạn thẳng.
+Khi các giá trị là số có thứ tự, ta còn một cách vẽ khác: **biểu đồ tần số dạng đoạn thẳng**. Ta đánh dấu các điểm $(x_i; m_i)$ rồi nối các điểm liên tiếp bằng đoạn thẳng.
 
 :::graph Biểu đồ đoạn thẳng của cùng mẫu dữ liệu
 alt: Đường gấp khúc nối các điểm (5; 24), (6; 46), (7; 68), (8; 44), (9; 18)
@@ -105,7 +105,7 @@ segment: (7, 68) (8, 44)
 segment: (8, 44) (9, 18)
 :::
 
-Đường gấp khúc cho thấy rõ xu hướng: tần số tăng đến 7 giờ rồi giảm. Nhưng với dữ liệu không phải số, như môn thể thao yêu thích, đoạn thẳng nối "bóng đá" với "cầu lông" không có nghĩa gì: khi đó ta dùng biểu đồ cột.
+Đường gấp khúc cho thấy xu hướng khá rõ: tần số tăng đến 7 giờ rồi giảm. Nhưng cách vẽ này chỉ hợp với dữ liệu là số. Với môn thể thao yêu thích, chẳng hạn, đoạn thẳng nối "bóng đá" với "cầu lông" không có nghĩa gì. Khi đó ta dùng biểu đồ cột.
 
 :::example Cửa hàng giày nên nhập hàng thế nào?
 Giả sử một cửa hàng giày thể thao ghi lại cỡ giày của 100 đôi bán được trong tháng trước:
@@ -130,12 +130,12 @@ Vậy kế hoạch chia đều không hợp lí: nên nhập nhiều cỡ 39, 40
 :::
 
 :::warning Những sai lầm thường gặp
-- **Tổng tần số khác cỡ mẫu** (đếm sót, đếm trùng). Luôn cộng hàng tần số và so với $n$.
-- **Nhầm giá trị với tần số.** Sai: "giá trị lớn nhất là $68$". Đúng: $68$ là tần số lớn nhất, ứng với giá trị $7$.
+- **Tổng tần số khác cỡ mẫu** (đếm sót, đếm trùng). Hãy luôn cộng hàng tần số rồi so với $n$.
+- **Nhầm giá trị với tần số.** Sai: "giá trị lớn nhất là $68$". Đúng: $68$ là tần số lớn nhất, ứng với giá trị $7$. Chỗ này nhiều bạn hay nhầm.
 - **Vẽ cột rộng hẹp khác nhau.** Mắt người so sánh diện tích, nên cột rộng trông như "nhiều hơn".
 :::
 
-**Kết nối.** Bảng tần số tiếp nối các biểu đồ đã học ở lớp 6, 7 và là nền móng của cả chương: bài sau ta chia tần số cho cỡ mẫu để được [tần số tương đối](lesson:relative-frequency-tables), rồi [ghép nhóm](lesson:grouped-frequency-tables) khi dữ liệu có quá nhiều giá trị; lên lớp 10, từ bảng tần số ta tính số trung bình, trung vị.
+**Kết nối.** Bảng tần số tiếp nối các biểu đồ đã học ở lớp 6, 7 và là nền móng của cả chương. Bài sau ta chia tần số cho cỡ mẫu để được [tần số tương đối](lesson:relative-frequency-tables). Khi dữ liệu có quá nhiều giá trị, ta [ghép nhóm](lesson:grouped-frequency-tables) lại cho gọn. Lên lớp 10, từ bảng tần số ta sẽ tính số trung bình và trung vị.
 
 ## Thuật ngữ
 
@@ -155,10 +155,11 @@ Vậy kế hoạch chia đều không hợp lí: nên nhập nhiều cỡ 39, 40
 - Biểu đồ cột: cột cao bằng tần số, các cột rộng bằng nhau.
 - Biểu đồ đoạn thẳng: nối các điểm $(x_i; m_i)$; chỉ dùng khi giá trị là số.
 - Tổng các dữ liệu: $x_1m_1+x_2m_2+\ldots+x_km_k$.
+Quay lại câu hỏi của cô chủ nhiệm: chỉ cần đếm và lập bảng, ba mươi con số lộn xộn đã cho ta biết bao nhiêu bạn ngủ đủ giấc. Điều cần nhớ là luôn cộng các tần số và so với cỡ mẫu.
 
 ## Luyện tập
 
-Mỗi bài có phần kiến thức và gợi ý các bước. Hãy tự làm trước, rồi mới bấm xem lời giải.
+Mỗi bài có phần kiến thức cần nhớ và gợi ý các bước đầu tiên. Bạn hãy tự làm trước, vướng chỗ nào rồi hãy bấm xem lời giải. Làm vài bài, bạn sẽ thấy quen tay hơn mình nghĩ.
 
 :::exercise
 Giả sử số con trong gia đình của 20 học sinh là:

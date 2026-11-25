@@ -12,15 +12,15 @@ minutes: 15
 
 Mỗi hộp có $6$ cây bút. Cô giáo có một số hộp như vậy, tất cả có $24$ cây bút. Hỏi cô giáo có bao nhiêu hộp bút?
 
-Em chưa biết số hộp, nên ta viết $6\times\square=24$. Bài này dạy em cách tìm số trong ô trống một cách chắc chắn.
+Em chưa biết cô giáo có bao nhiêu hộp, nên ta để một ô trống và viết $6\times\square=24$. Làm sao tìm được số trong ô trống mà không phải đoán mò? Khi đã biết cách, em sẽ tìm được nó thật chắc chắn, rồi thử lại để yên tâm.
 
 ## Cùng khám phá
 
-Em nhớ lại bảng nhân $6$: $6\times4=24$. Trong phép nhân này, $6$ và $4$ là **thừa số**, $24$ là **tích**.
+Ta thử nhớ lại bảng nhân $6$ nhé: $6\times4=24$. Trong phép nhân này, $6$ và $4$ là hai số đem nhân với nhau, ta gọi chúng là **thừa số**. Kết quả $24$ gọi là **tích**.
 
-Từ $6\times4=24$ ta cũng có $24:6=4$ và $24:4=6$. Trong phép chia $24:6=4$, số $24$ là **số bị chia**, số $6$ là **số chia**, số $4$ là **thương**.
+Từ $6\times4=24$, ta cũng viết được các phép chia $24:6=4$ và $24:4=6$. Em nhìn phép chia $24:6=4$: số $24$ là **số bị chia**, số $6$ là **số chia**, còn số $4$ là **thương**. Mỗi số có một cái tên riêng. Biết tên rồi, khi đọc đề em sẽ biết mình đang đi tìm số nào.
 
-Với câu chuyện của cô giáo: tất cả $24$ cây, mỗi hộp $6$ cây, nên số hộp là $24:6=4$.
+Quay lại câu chuyện của cô giáo. Tất cả có $24$ cây bút, chia đều vào các hộp, mỗi hộp $6$ cây. Muốn biết có bao nhiêu hộp, ta xem số bút của cả nhóm có bao nhiêu lần số bút của một hộp, tức là $24:6=4$. Đó cũng là câu trả lời cho câu hỏi của cô.
 
 :::theorem Tìm thừa số chưa biết
 Thừa số chưa biết bằng tích chia cho thừa số đã biết.
@@ -28,10 +28,11 @@ Thừa số chưa biết bằng tích chia cho thừa số đã biết.
 Nếu $6\times\square=24$ thì $\square=24:6=4$.
 :::
 
-Bây giờ ta xem phép chia $24:6=4$ khi thiếu một thành phần.
+Phép chia $24:6=4$ cũng có thể bị che mất một số. Khi đó ta tìm số bị che thế nào? Ta xem từng trường hợp.
 
-- Biết số chia $6$ và thương $4$: mỗi nhóm $6$, có $4$ nhóm, nên số bị chia là $4\times6=24$.
-- Biết số bị chia $24$ và thương $4$: chia $24$ thành $4$ nhóm bằng nhau, mỗi nhóm có $24:4=6$, nên số chia là $6$.
+- Nếu biết số chia $6$ và thương $4$: mỗi nhóm có $6$, có $4$ nhóm như thế, gộp lại thì được số bị chia là $4\times6=24$.
+- Nếu biết số bị chia $24$ và thương $4$: ta chia $24$ thành $4$ nhóm bằng nhau, mỗi nhóm có $24:4=6$, nên số chia là $6$.
+Em để ý nhé: tìm số bị chia thì ta nhân, còn tìm số chia thì ta chia.
 
 :::theorem Tìm số bị chia, số chia chưa biết
 Số bị chia bằng thương nhân số chia.
@@ -41,11 +42,11 @@ Số chia bằng số bị chia chia cho thương.
 Nếu $\square:6=4$ thì $\square=4\times6=24$. Nếu $24:\square=4$ thì $\square=24:4=6$.
 :::
 
-Cách làm này đúng vì phép nhân và phép chia "ngược nhau": nhân rồi chia cho cùng một số thì về lại số ban đầu.
+Vì sao cách làm này đúng? Vì phép nhân và phép chia làm việc ngược chiều nhau. Nhân một số với một số khác, rồi chia kết quả cho chính số khác ấy, thì ta quay về số ban đầu. Vì thế, muốn tìm số bị che, ta dùng phép tính ngược.
 
 ## Ví dụ
 
-Ta bắt đầu với thừa số chưa biết ở vị trí đầu.
+Ta bắt đầu với ví dụ có thừa số chưa biết đứng ở vị trí đầu. Em nhớ gọi tên từng số trước, rồi mới chọn phép tính.
 
 :::example Tìm $\square$, biết $\square\times7=35$
 **Lời giải.** $\square$ là thừa số chưa biết, nên ta lấy tích chia cho thừa số đã biết:
@@ -55,7 +56,7 @@ $$\square=35:7=5.$$
 Vậy $\square=5$.
 :::
 
-Thừa số chưa biết cũng có thể đứng ở vị trí thứ hai.
+Thừa số chưa biết cũng có thể đứng ở vị trí sau. Cách làm vẫn y như vậy: lấy tích chia cho thừa số đã biết.
 
 :::example Tìm $\square$, biết $8\times\square=56$
 **Lời giải.** Lấy tích chia cho thừa số đã biết là $8$:
@@ -65,7 +66,7 @@ $$\square=56:8=7.$$
 Vậy $\square=7$.
 :::
 
-Bây giờ ta tìm số bị chia.
+Lần này, số bị che là số bị chia. Em thử nghĩ xem ta nên nhân hay nên chia, rồi đọc lời giải.
 
 :::example Tìm $\square$, biết $\square:4=9$
 **Lời giải.** $\square$ là số bị chia, nên ta lấy thương nhân số chia:
@@ -75,7 +76,7 @@ $$\square=9\times4=36.$$
 Vậy $\square=36$.
 :::
 
-Tiếp theo là số chia chưa biết.
+Còn đây là trường hợp số chia bị che mất. Chỗ này nhiều bạn hay nhầm, nên ta làm chậm lại một chút.
 
 :::example Tìm $\square$, biết $42:\square=6$
 **Lời giải.** $\square$ là số chia, nên ta lấy số bị chia chia cho thương:
@@ -85,7 +86,7 @@ $$\square=42:6=7.$$
 Vậy $\square=7$.
 :::
 
-Cuối cùng, em dùng cách này để giải một bài toán trong cuộc sống.
+Bây giờ em dùng cách này cho một chuyện quen thuộc ở trường: xếp hàng. Đề cho biết có bao nhiêu học sinh và mỗi hàng có bao nhiêu em, còn số hàng thì ta phải tìm.
 
 :::example Xếp hàng
 Có $45$ học sinh xếp thành các hàng đều nhau, mỗi hàng $9$ em. Hỏi xếp được bao nhiêu hàng?
@@ -98,9 +99,10 @@ Vậy xếp được $5$ hàng.
 :::
 
 :::warning Những lỗi em hay gặp
-- **Nhân thay vì chia khi tìm thừa số.** Sai: $\square\times7=35$ nên $\square=35\times7=245$. Vì sao sai: $245\times7$ lớn hơn $35$ rất nhiều. Đúng: $\square=35:7=5$.
-- **Chia thay vì nhân khi tìm số bị chia.** Sai: $\square:4=9$ nên $\square=9:4$. Vì sao sai: $9$ không chia hết cho $4$, và $9:4$ không phải số cần tìm. Đúng: $\square=9\times4=36$.
+- **Nhân thay vì chia khi tìm thừa số.** Thấy dấu nhân là nhiều bạn nhân luôn. Sai: $\square\times7=35$ nên $\square=35\times7=245$. Vì sao sai: $245\times7$ lớn hơn $35$ rất nhiều. Đúng: $\square=35:7=5$.
+- **Chia thay vì nhân khi tìm số bị chia.** Sai: $\square:4=9$ nên $\square=9:4$. Vì sao sai: $9$ không chia hết cho $4$, và $9:4$ cũng không phải số cần tìm. Đúng: $\square=9\times4=36$.
 - **Nhân khi tìm số chia.** Sai: $42:\square=6$ nên $\square=42\times6$. Vì sao sai: $42:252$ không bằng $6$. Đúng: $\square=42:6=7$.
+Cách tự cứu mình là thử lại: đặt kết quả vào ô trống rồi xem phép tính có đúng không.
 :::
 
 ## Thuật ngữ
@@ -123,10 +125,11 @@ Vậy xếp được $5$ hàng.
 - Số bị chia chưa biết $=$ thương $\times$ số chia.
 - Số chia chưa biết $=$ số bị chia $:$ thương.
 - Dùng bảng nhân, bảng chia để tính; luôn thử lại bằng cách đặt kết quả vào ô trống.
+Câu hỏi đầu bài là cô giáo có bao nhiêu hộp bút. Giờ em đã biết cách tìm: gọi tên từng số, dùng phép tính ngược, rồi thử lại. Lần sau gặp một ô trống, em cứ làm đúng như vậy nhé.
 
 ## Luyện tập
 
-Mỗi bài có phần kiến thức và gợi ý. Em hãy tự làm trước, rồi mới bấm xem lời giải.
+Mỗi bài có phần kiến thức cần nhớ và một gợi ý để em bắt đầu. Em cứ tự làm trước, chưa ra thì xem gợi ý, và chỉ bấm xem lời giải sau cùng. Sai vài lần cũng không sao, vì làm sai rồi sửa là lúc em nhớ lâu nhất.
 
 :::exercise
 Tìm $\square$:

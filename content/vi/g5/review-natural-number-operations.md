@@ -13,19 +13,19 @@ minutes: 15
 
 Lớp 5A quyên góp sách cũ cho thư viện. Tuần đầu lớp được $235$ quyển, tuần sau được $179$ quyển. Bạn thủ thư xếp đều tất cả số sách vào $9$ thùng. Hỏi mỗi thùng có bao nhiêu quyển sách?
 
-Bài này cần cả phép cộng lẫn phép chia. Em sẽ ôn bốn phép tính và học cách gộp các bước thành một biểu thức.
+Đọc kĩ đề, em thấy có hai việc: gộp sách của hai tuần lại, rồi chia đều vào các thùng. Cần cả phép cộng lẫn phép chia, và làm phép nào trước cũng quan trọng. Ta sẽ ôn lại bốn phép tính, rồi học cách viết cả hai bước thành một biểu thức.
 
 ## Cùng khám phá
 
-Em giải từng bước:
+Ta giải từng bước, như khi em làm bài vào vở:
 
 - Số sách của cả hai tuần: $235+179=414$ (quyển).
 - Số sách mỗi thùng: $414:9=46$ (quyển).
 
-Khi gộp hai bước, em phải đặt **dấu ngoặc** để phép cộng được làm trước:
+Bây giờ ta gộp hai bước thành một. Vì phải cộng trước rồi mới chia, em đặt phép cộng trong **dấu ngoặc**:
 $$(235+179):9=414:9=46.$$
 
-Nếu bỏ ngoặc, biểu thức $235+179:9$ sẽ tính $179:9$ trước, và kết quả sai. Em thấy không, thứ tự các phép tính quyết định kết quả.
+Thử bỏ ngoặc xem sao. Biểu thức $235+179:9$ sẽ tính $179:9$ trước, nên kết quả sai. Chỗ này nhiều bạn hay nhầm: cùng những con số ấy, đổi thứ tự tính là đổi cả đáp số. Vì thế ta cần một quy tắc chung về thứ tự các phép tính.
 
 :::theorem Thứ tự thực hiện phép tính
 1. Chỉ có cộng và trừ (hoặc chỉ có nhân và chia): làm từ trái sang phải.
@@ -33,7 +33,7 @@ Nếu bỏ ngoặc, biểu thức $235+179:9$ sẽ tính $179:9$ trước, và k
 3. Có ngoặc: làm **trong ngoặc trước**.
 :::
 
-Hình dưới cho thấy tính chất phân phối với $6\times(40+3)$.
+Còn khi nào ta được nhóm các số lại để tính cho nhanh? Hình dưới cho thấy tính chất phân phối với $6\times(40+3)$.
 
 :::diagram Tính chất phân phối: 6 × (40 + 3)
 alt: Hình chữ nhật cao 6 chia thành hai phần: phần rộng 40 có diện tích 6 × 40 và phần rộng 3 có diện tích 6 × 3
@@ -52,7 +52,7 @@ label 4.8,-0.5 "3"
 label -0.5,1 "6"
 :::
 
-Cả hình có diện tích $6\times(40+3)=6\times43=258$, cũng bằng $6\times40+6\times3=240+18=258$.
+Em có thể tính cả hình một lần, hoặc tính từng phần rồi cộng lại. Cả hình có diện tích $6\times(40+3)=6\times43=258$, cũng bằng $6\times40+6\times3=240+18=258$. Hai cách cho cùng một kết quả, và đó là lí do tính chất phân phối đúng.
 
 :::theorem Ba tính chất của phép tính
 - Giao hoán: $a+b=b+a$ và $a\times b=b\times a$.
@@ -62,7 +62,7 @@ Cả hình có diện tích $6\times(40+3)=6\times43=258$, cũng bằng $6\times
 
 ## Ví dụ
 
-Ta bắt đầu với phép cộng và phép trừ.
+Ta bắt đầu với phép cộng và phép trừ, hai phép dễ sai nhất ở chỗ nhớ và mượn.
 
 :::example Cộng và trừ nhiều chữ số
 Tính a) $4\,586+3\,729$; b) $7\,002-3\,458$.
@@ -76,7 +76,7 @@ Vậy $4\,586+3\,729=8\,315$ và $7\,002-3\,458=3\,544$.
 **Thử lại.** $3\,544+3\,458=7\,002$. Đúng.
 :::
 
-Tiếp theo là phép nhân và phép chia.
+Phép nhân và phép chia cũng làm từng bước nhỏ: nhân từng hàng rồi cộng các tích riêng lại, còn chia thì đi từ trái sang phải.
 
 :::example Nhân và chia
 Tính a) $537\times48$; b) $2\,184:7$.
@@ -88,7 +88,7 @@ Câu b: em chia từ trái sang phải: $21:7=3$; hạ $8$, $8:7=1$ dư $1$; h�
 **Thử lại.** $312\times7=2\,184$. Đúng.
 :::
 
-Với biểu thức nhiều phép tính, em phải chú ý thứ tự.
+Khi biểu thức có nhiều phép tính, em dừng lại một chút và tự hỏi: phép nào phải làm trước?
 
 :::example Tính giá trị biểu thức
 Tính a) $84-12\times5+36:4$; b) $120:(18-6)\times4$.
@@ -100,7 +100,7 @@ $$\begin{aligned}120:(18-6)\times4&=120:12\times4\\&=10\times4\\&=40.\end{aligne
 Vậy hai biểu thức có giá trị $33$ và $40$.
 :::
 
-Khi các số "đẹp", em dùng tính chất để tính nhanh.
+Có những phép tính mà các số "đẹp" cho ta cơ hội làm gọn. Em nhìn xem có thể ghép số nào thành số tròn, rồi dùng tính chất để tính nhanh.
 
 :::example Tính nhanh
 Tính a) $25\times37\times4$; b) $6\times43+6\times57$.
@@ -113,8 +113,8 @@ Vậy kết quả là $3\,700$ và $600$.
 :::
 
 :::warning Những lỗi em hay gặp
-- **Làm từ trái sang phải khi có nhân.** Sai: $18+6\times4=24\times4=96$. Vì sao sai: phải nhân trước khi cộng. Đúng: $18+6\times4=18+24=42$.
-- **Quên mượn khi có chữ số $0$.** Sai: $7\,002-3\,458=4\,456$. Vì sao sai: em lấy số lớn trừ số bé ở từng hàng. Đúng: $7\,002-3\,458=3\,544$.
+- **Làm từ trái sang phải khi có nhân.** Sai: $18+6\times4=24\times4=96$. Vì sao sai: phép nhân phải làm trước phép cộng. Đúng: $18+6\times4=18+24=42$.
+- **Quên mượn khi có chữ số $0$.** Sai: $7\,002-3\,458=4\,456$. Vì sao sai: ở từng hàng em lấy số lớn trừ số bé, thay vì mượn từ hàng bên cạnh. Đúng: $7\,002-3\,458=3\,544$.
 - **Quên chữ số $0$ ở thương.** Sai: $1\,260:6=21$. Vì sao sai: $6\times21=126$, không bằng $1\,260$. Đúng: $1\,260:6=210$.
 :::
 
@@ -139,10 +139,11 @@ Vậy kết quả là $3\,700$ và $600$.
 - Không có ngoặc: nhân, chia trước; cộng, trừ sau. Có ngoặc: làm trong ngoặc trước.
 - Tính chất giao hoán, kết hợp, phân phối giúp tính nhanh, ví dụ $25\times37\times4=(25\times4)\times37$.
 - Bài toán nhiều bước: làm từng bước, ghi đơn vị. Phép chia còn dư mà ai cũng cần một chỗ thì phải thêm một nhóm.
+Câu hỏi đầu bài là mỗi thùng có bao nhiêu quyển sách: ta cộng số sách của hai tuần, rồi chia đều vào các thùng, hoặc viết gọn bằng dấu ngoặc. Em nhớ rằng có ngoặc thì làm trong ngoặc trước, rồi luyện thêm vài bài cho quen tay.
 
 ## Luyện tập
 
-Mỗi bài có phần kiến thức và gợi ý. Em hãy tự làm trước, rồi mới bấm xem lời giải.
+Mỗi bài có phần kiến thức và gợi ý để em bắt đầu. Em cứ tự làm trước, chưa vội xem lời giải. Sai một chút cũng không sao, vì sửa được chỗ sai thì em nhớ lâu hơn.
 
 :::exercise
 Đặt tính rồi tính: a) $5\,274+3\,968$; b) $6\,005-2\,847$.

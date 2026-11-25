@@ -12,18 +12,18 @@ minutes: 15
 
 Lan has $35$ marbles and Nam has $42$ marbles. Who has more marbles?
 
-In the last lesson you learned that a two-digit number is made of tens and ones. In this lesson you use the tens and ones to compare two numbers.
+You already know that a two-digit number is made of tens and ones. That is all you need to compare two numbers. You do not have to count the marbles one by one.
 
 ## Let's explore
 
-Write the two numbers as tens and ones.
+We start by splitting each number into tens and ones.
 
 - $35$ is $3$ tens and $5$ ones.
 - $42$ is $4$ tens and $2$ ones.
 
-Compare the tens first: $4$ tens are more than $3$ tens. So $42$ is greater than $35$, even though $2$ ones are fewer than $5$ ones.
+Look at the tens first: $4$ tens are more than $3$ tens. So $42$ is greater than $35$. Many children find this odd at first, because $2$ ones are fewer than $5$ ones. But the tens decide.
 
-We write $42>35$, so Nam has more marbles.
+We write $42>35$. That answers the question at the start: Nam has more marbles.
 
 :::theorem Comparing two-digit numbers
 1. Compare the tens digits first. The number with the greater tens digit is greater.
@@ -31,11 +31,11 @@ We write $42>35$, so Nam has more marbles.
 3. If both digits are equal, the numbers are equal.
 :::
 
-This works because each ten is $10$ ones, so one more ten is always worth more than a few loose ones.
+Why do the tens come first? Because each ten is $10$ ones. One more ten is always worth more than a few loose ones.
 
 ## Examples
 
-We start with the question from the beginning.
+We answer the opening question first, about Lan's and Nam's marbles.
 
 :::example Compare $35$ and $42$
 **Solution.** Tens digits: $3$ and $4$. Since $4>3$, we have $42>35$.
@@ -43,7 +43,7 @@ We start with the question from the beginning.
 So $35<42$.
 :::
 
-Now the two numbers have equal tens digits.
+What if the tens digits are the same? Then the tens cannot tell the two numbers apart, so we look at the ones.
 
 :::example Compare $56$ and $52$
 **Solution.** The tens digits are both $5$. Compare the ones digits: $6$ and $2$. Since $6>2$, we have $56>52$.
@@ -51,7 +51,7 @@ Now the two numbers have equal tens digits.
 So $56>52$.
 :::
 
-Next, put three numbers in order.
+Once you can compare two numbers, you can put three in order. We go from least to greatest.
 
 :::example Putting numbers in order
 Put the numbers $61, 16, 58$ in order from least to greatest.
@@ -63,7 +63,7 @@ So the order is $16, 58, 61$.
 **Check.** $16<58$ and $58<61$. Correct.
 :::
 
-Last, solve an everyday problem.
+Here is a problem like the ones you meet every day: two friends each have some labels, and you want to know who has more.
 
 :::example Exercise-book labels
 Mai has $24$ exercise-book labels and Ha has $27$. Who has more labels?
@@ -74,9 +74,9 @@ So Ha has more labels.
 :::
 
 :::warning Mistakes to watch out for
-- **Comparing the ones first.** Wrong: $19>21$ because $9>1$. Why it is wrong: you must compare the tens first, and $1$ ten is less than $2$ tens. Right: $19<21$.
-- **Thinking a big digit makes a big number.** Wrong: $38>41$ because it has the digit $8$. Why it is wrong: $3$ tens are less than $4$ tens. Right: $38<41$.
-- **Opening the sign the wrong way.** Wrong: $42<35$. Why it is wrong: the mouth must open towards the greater number. Right: $42>35$.
+- **Comparing the ones first.** This is an easy slip to make. Wrong: $19>21$ because $9>1$. Why it is wrong: you must compare the tens first, and $1$ ten is less than $2$ tens. Right: $19<21$.
+- **Thinking a big digit makes a big number.** Wrong: $38>41$ because it has the digit $8$. Why it is wrong: $3$ tens are less than $4$ tens, however big the digit $8$ looks. Right: $38<41$.
+- **Opening the sign the wrong way.** Wrong: $42<35$. Why it is wrong: the mouth must open towards the greater number, and $42$ is greater than $35$. Right: $42>35$.
 :::
 
 ## Key terms
@@ -99,9 +99,11 @@ So Ha has more labels.
 - If both digits are equal, the numbers are equal.
 - The signs $>$ and $<$ open towards the greater number.
 
+Back to the opening question: Nam has more marbles, because Nam has more tens. Try a few exercises so this starts to feel natural.
+
 ## Practice
 
-Each exercise comes with what you need and how to start. Try it yourself first, then open the solution.
+Each exercise has the key idea and a hint to get you started. Try it yourself first, look at the hint if you are stuck, and open the solution last. Going slowly is fine.
 
 :::exercise
 Write $>$, $<$ or $=$: $45 \;\square\; 38$.

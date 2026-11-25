@@ -10,20 +10,22 @@ minutes: 15
 - Show fractions with shapes and on a number line.
 :::
 
-A pizza is cut into $4$ equal slices. Lan eats $1$ slice and Nam eats $3$ slices. What part of the pizza does each child eat? Can we write it as a number?
+Think about sharing a pizza. This one is cut into $4$ equal slices. Lan eats $1$ slice and Nam eats $3$ slices. What part of the pizza does each child eat? Can we write that part as a number?
 
-Whole numbers cannot write "one quarter" or "three quarters". This lesson shows you a new kind of number for writing parts of a whole.
+Whole numbers cannot write "one quarter" or "three quarters". They count whole pizzas well, but a part of a pizza has no number yet. This lesson gives you a new kind of number for writing parts of a whole, so we can say exactly how much each child ate.
 
 ## Let's explore
 
-We go step by step.
+We go step by step, with Lan and Nam's pizza.
 
 - The pizza is cut into $4$ **equal** slices. The number $4$ tells us how many equal parts the pizza has.
 - Lan eats $1$ slice. We write the part Lan eats as $\dfrac{1}{4}$, read "one quarter".
 - Nam eats $3$ slices. We write $\dfrac{3}{4}$, read "three quarters".
 - Together they eat all $4$ slices, which is the whole pizza. We write $\dfrac{4}{4}=1$.
 
-We can also put fractions on a number line. The stretch from $0$ to $1$ is cut into $4$ equal parts, and each part is $\dfrac{1}{4}$.
+All four lines are about the same pizza. Only the number of slices we take changes.
+
+We can also put fractions on a number line. The stretch from $0$ to $1$ is cut into $4$ equal parts, and each part is $\dfrac{1}{4}$. This stretch is our whole, just as the pizza was.
 
 :::graph A number line: the stretch from 0 to 1 cut into 4 equal parts
 alt: A number line from 0 to 1 cut into 4 equal parts, with the points 0, 1/4, 2/4, 3/4 and 1 marked
@@ -43,11 +45,11 @@ Cut a whole into $b$ equal parts and take $a$ of them. The part taken is written
 The number $a$ on top is the **numerator**. The number $b$ underneath is the **denominator**. The denominator is never $0$.
 :::
 
-The denominator tells us how many equal parts the whole is cut into. The numerator tells us how many parts we take.
+There are two things to remember. The denominator tells us how many equal parts the whole is cut into. The numerator tells us how many parts we take. The number underneath counts the slices in the whole pizza, and the number on top counts the slices we take.
 
 ## Examples
 
-We start by writing a fraction for a shape.
+We start by writing a fraction for a shape. Count all the parts, then the parts taken.
 
 :::example Writing a fraction from a picture
 A cake is cut into $8$ equal pieces. Mai eats $3$ pieces. Write the fraction that shows the part of the cake Mai ate.
@@ -59,7 +61,7 @@ $$\frac{3}{8}.$$
 So Mai ate $\dfrac{3}{8}$ of the cake.
 :::
 
-Now you read a fraction and name its numerator and denominator.
+Now you read a fraction and name its numerator and denominator. Don't worry if the words feel strange at first. Say them aloud a few times and they will stick.
 
 :::example Reading a fraction
 Read the fraction $\dfrac{5}{6}$, then name its numerator and denominator. Write the fraction "seven ninths".
@@ -68,7 +70,7 @@ Read the fraction $\dfrac{5}{6}$, then name its numerator and denominator. Write
 $$\frac{7}{9}.$$
 :::
 
-We can also write a fraction for the part that is left.
+We can also write a fraction for the part that is left. What is left is a part of the whole too.
 
 :::example The part left over
 A square is cut into $6$ equal parts and $5$ parts are coloured in. Write the fraction for the coloured part and the fraction for the part that is not coloured.
@@ -80,7 +82,7 @@ $$\frac{5}{6}\ \text{(coloured)},\qquad \frac{1}{6}\ \text{(not coloured)}.$$
 **Check.** $5$ parts and $1$ part make $6$ parts, the whole square: $\dfrac{5}{6}$ and $\dfrac{1}{6}$ together make the whole.
 :::
 
-Finally, we mark a fraction on a number line.
+Finally, we mark a fraction on a number line, counting the parts one by one from the start.
 
 :::example A fraction on a number line
 On a number line, the stretch from $0$ to $1$ is cut into $4$ equal parts. Which point shows $\dfrac{3}{4}$?
@@ -92,6 +94,8 @@ On a number line, the stretch from $0$ to $1$ is cut into $4$ equal parts. Which
 - **Parts that are not equal.** Wrong: cutting a cake into $4$ pieces of different sizes and calling each piece $\dfrac{1}{4}$. Why it is wrong: a fraction works only when the parts are equal. Right: cut it into $4$ equal pieces.
 - **Writing the numerator and denominator the wrong way round.** Wrong: $3$ parts eaten out of $4$ written as $\dfrac{4}{3}$. Why it is wrong: the denominator is the number of parts in the whole. Right: $\dfrac{3}{4}$.
 - **A denominator of $0$.** Wrong: $\dfrac{5}{0}$. Why it is wrong: we cannot cut a whole into $0$ parts. Right: the denominator is a number that is not $0$.
+
+Many pupils turn the numerator and denominator upside down. Ask yourself: which number counts the whole pizza, and which counts the slices taken?
 :::
 
 ## Key terms
@@ -114,9 +118,11 @@ On a number line, the stretch from $0$ to $1$ is cut into $4$ equal parts. Which
 - Example: $\dfrac{3}{4}$ is read "three quarters".
 - A fraction can be shown with a shape or as a point on a number line.
 
+Back to the pizza: Lan eats one quarter, Nam eats three quarters, and together they eat the whole pizza. Remember that the denominator counts the parts of the whole and the numerator counts the parts taken. Try the practice questions to get used to reading and writing fractions.
+
 ## Practice
 
-Each exercise comes with what you need and how to start. Try it yourself first, then open the solution.
+Each exercise comes with what you need and how to start. Try it yourself first, then open the solution. Getting one wrong is fine, because a mistake usually shows you exactly what to remember.
 
 :::exercise
 A rectangle is cut into $5$ equal parts and $2$ parts are coloured in. Write the fraction for the coloured part.

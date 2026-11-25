@@ -11,9 +11,9 @@ minutes: 20
 - Đối chiếu nghiệm với điều kiện và với thực tế trước khi kết luận.
 :::
 
-Giả sử đầu xuân, một đội thanh niên tình nguyện của xã dự định trồng $120$ cây xanh dọc con đường vào trường, mỗi ngày trồng một số cây như nhau. Khi bắt tay vào làm, có thêm các bạn học sinh tham gia nên mỗi ngày đội trồng được nhiều hơn dự định $4$ cây, và xong việc sớm hơn $1$ ngày. Theo dự định, mỗi ngày đội trồng bao nhiêu cây?
+Hãy tưởng tượng đầu xuân, một đội thanh niên tình nguyện của xã dự định trồng $120$ cây xanh dọc con đường vào trường, mỗi ngày trồng một số cây như nhau. Khi bắt tay vào làm, có thêm học sinh đến giúp, nên mỗi ngày đội trồng được nhiều hơn dự định $4$ cây và xong việc sớm hơn $1$ ngày. Theo dự định, mỗi ngày đội trồng bao nhiêu cây?
 
-Trong bài toán này có ba đại lượng ràng buộc nhau: số cây mỗi ngày, số ngày và tổng số cây ($\text{tổng} = \text{mỗi ngày}\times\text{số ngày}$). Lập phương trình chính là viết mối ràng buộc ấy bằng ngôn ngữ đại số, rồi để phương trình bậc hai (bài [phương trình bậc hai một ẩn](lesson:quadratic-equations)) làm phần việc còn lại.
+Ba đại lượng trong bài toán này ràng buộc lẫn nhau: số cây mỗi ngày, số ngày và tổng số cây ($\text{tổng} = \text{mỗi ngày}\times\text{số ngày}$). Lập phương trình chỉ là viết mối ràng buộc ấy bằng ngôn ngữ đại số. Phần việc còn lại, ta giao cho phương trình bậc hai (bài [phương trình bậc hai một ẩn](lesson:quadratic-equations)).
 
 ## Các bước giải bài toán bằng cách lập phương trình
 
@@ -28,7 +28,7 @@ Trong bài toán này có ba đại lượng ràng buộc nhau: số cây mỗi 
 **Bước 3.** Kiểm tra xem trong các nghiệm của phương trình, nghiệm nào thoả mãn điều kiện của ẩn, rồi kết luận.
 :::
 
-**Hiểu sâu hơn.** Phương trình là một *mô hình* của tình huống thực tế, và mô hình thường "rộng" hơn thực tế: nó có thể có nghiệm âm dù không có độ dài nào âm. Vì thế điều kiện ở Bước 1 không phải là thủ tục: nó giúp Bước 3 lọc nghiệm. Thường ta chọn ẩn là đại lượng đề bài hỏi; nếu phương trình trở nên rối, hãy chọn đại lượng khác.
+**Hiểu sâu hơn.** Phương trình là một *mô hình* của tình huống thực tế, và mô hình thường "rộng" hơn thực tế: nó có thể cho nghiệm âm dù không có độ dài nào âm. Vì thế điều kiện ở Bước 1 không phải thủ tục cho có: nó giúp Bước 3 lọc nghiệm. Thường ta chọn ẩn là đại lượng đề bài hỏi. Nếu phương trình trở nên rối, bạn hãy thử chọn đại lượng khác.
 
 :::example Hai số tự nhiên liên tiếp
 Tìm hai số tự nhiên liên tiếp có tích bằng $156$.
@@ -44,7 +44,7 @@ Vậy hai số cần tìm là $12$ và $13$.
 
 ## Bài toán có nội dung hình học
 
-Trong bài toán hình học, chu vi, diện tích và định lí Pythagore là "cầu nối" giữa ẩn và dữ kiện; một hình vẽ ghi kích thước theo $x$ giúp lập phương trình nhanh hơn.
+Với bài toán hình học, chu vi, diện tích và định lí Pythagore là những "cầu nối" giữa ẩn và dữ kiện. Bạn nên vẽ hình và ghi các kích thước theo $x$: lập phương trình sẽ nhanh hơn nhiều.
 
 :::example Lối đi trong vườn
 Giả sử một mảnh vườn hình chữ nhật dài $20$ m, rộng $14$ m. Người ta làm một lối đi có chiều rộng đều nhau chạy sát bốn cạnh, bên trong mảnh vườn; phần còn lại để trồng rau có diện tích $160$ m². Tính chiều rộng của lối đi.
@@ -78,7 +78,7 @@ label 10,1 "x"
 
 ## Bài toán về năng suất và chuyển động
 
-Hai dạng này có cùng một cấu trúc: $\text{khối lượng công việc}=\text{năng suất}\times\text{thời gian}$ và $\text{quãng đường}=\text{vận tốc}\times\text{thời gian}$. Thời gian được biểu diễn bằng một phân thức, nên phương trình có ẩn ở mẫu (bài [phương trình quy về phương trình bậc nhất](lesson:equations-reducible-to-linear)).
+Hai dạng này có chung một cấu trúc: $\text{khối lượng công việc}=\text{năng suất}\times\text{thời gian}$ và $\text{quãng đường}=\text{vận tốc}\times\text{thời gian}$. Vì thời gian được viết dưới dạng một phân thức, phương trình sẽ có ẩn ở mẫu (bài [phương trình quy về phương trình bậc nhất](lesson:equations-reducible-to-linear)).
 
 :::example Trả lời câu hỏi ở đầu bài
 Giải bài toán trồng cây ở đầu bài.
@@ -94,7 +94,7 @@ Vậy theo dự định, mỗi ngày đội trồng $20$ cây.
 **Kiểm tra.** Dự định $120:20=6$ ngày, thực tế $120:24=5$ ngày, sớm hơn $1$ ngày.
 :::
 
-Bài toán chuyển động sau đây có nhiều dữ kiện hơn, nên ta đi đủ bốn bước.
+Bài toán chuyển động sau đây có nhiều dữ kiện hơn, nên ta đi đủ bốn bước, từng bước một.
 
 :::example Đi và về với hai vận tốc
 Một người đi xe máy từ nhà đến thành phố cách $60$ km. Lúc về, người đó tăng vận tốc thêm $10$ km/h nên thời gian về ít hơn thời gian đi $30$ phút. Tính vận tốc lúc đi.
@@ -116,7 +116,7 @@ Vậy vận tốc lúc đi là $30$ km/h.
 
 ## Bài toán về tăng trưởng phần trăm
 
-Nếu một đại lượng tăng $r$ (viết dạng số thập phân) mỗi năm thì sau mỗi năm nó được nhân với $1+r$; sau hai năm, nó được nhân với $(1+r)^2$. Đây là quy luật chung của lãi kép, tăng dân số, tăng giá.
+Giả sử một đại lượng tăng $r$ (viết dạng số thập phân) mỗi năm. Sau mỗi năm, nó được nhân với $1+r$; sau hai năm, nó được nhân với $(1+r)^2$. Vì sao lại là phép nhân? Vì mỗi năm, số mới là số cũ cộng thêm một phần của chính số cũ. Đây là quy luật chung của lãi kép, tăng dân số, tăng giá.
 
 :::example Dân số của một xã
 Giả sử dân số của một xã tăng từ $10\,000$ người lên $10\,404$ người sau $2$ năm, với tỉ lệ tăng hằng năm như nhau. Tính tỉ lệ tăng dân số hằng năm của xã.
@@ -133,11 +133,11 @@ Vậy tỉ lệ tăng dân số hằng năm là $2\%$.
 :::
 
 :::warning Những sai lầm thường gặp
-- **Không đối chiếu điều kiện.** Sai: "vận tốc là $30$ km/h hoặc $-40$ km/h". Đúng: loại nghiệm không thoả mãn điều kiện ($x>0$) rồi mới kết luận.
+- **Không đối chiếu điều kiện.** Sai: "vận tốc là $30$ km/h hoặc $-40$ km/h". Đúng: loại nghiệm không thoả mãn điều kiện ($x>0$) rồi mới kết luận. Chỗ này nhiều bạn hay quên.
 - **Lập sai hiệu thời gian.** "Xong sớm hơn" nghĩa là thời gian dự định lớn hơn, nên phải lấy $\text{dự định}-\text{thực tế}=1$, không phải ngược lại.
 :::
 
-**Kết nối.** Bài này gom các công cụ của chương: công thức nghiệm, định lí Viète, phương trình chứa ẩn ở mẫu; nó cũng nối với cách lập hệ phương trình ở chương I. Gặp một bài toán, hãy tự hỏi: các đại lượng nào phụ thuộc nhau, và quan hệ nào giữa chúng là "bằng nhau"?
+**Kết nối.** Bài này gom các công cụ của chương: công thức nghiệm, định lí Viète, phương trình chứa ẩn ở mẫu; nó cũng nối với cách lập hệ phương trình ở chương I. Gặp một bài toán, hãy tự hỏi: các đại lượng nào phụ thuộc nhau, và quan hệ nào giữa chúng là "bằng nhau"? Chuyện trồng cây ở đầu bài cũng vậy: câu trả lời nằm sẵn trong một phương trình như thế.
 
 ## Thuật ngữ
 
@@ -158,10 +158,11 @@ Vậy tỉ lệ tăng dân số hằng năm là $2\%$.
 - Hình học: dùng chu vi, diện tích, định lí Pythagore; vẽ hình ghi kích thước theo $x$.
 - Năng suất, chuyển động: $\text{thời gian}=\dfrac{\text{tổng}}{\text{năng suất}}$ hoặc $\dfrac{\text{quãng đường}}{\text{vận tốc}}$; đổi đơn vị cho thống nhất.
 - Tăng trưởng: sau hai năm đại lượng được nhân với $(1+r)^2$.
+Quay lại đội trồng cây: chỉ cần viết đúng mối ràng buộc giữa số cây, số ngày và tổng số cây, phương trình sẽ trả lời giúp ta. Điều cần nhớ là đừng bỏ bước đối chiếu điều kiện.
 
 ## Luyện tập
 
-Mỗi bài có phần kiến thức và gợi ý các bước. Hãy tự làm trước, rồi mới bấm xem lời giải.
+Mỗi bài có phần kiến thức cần nhớ và gợi ý các bước đầu tiên. Bạn hãy tự làm trước, vướng chỗ nào rồi hãy bấm xem lời giải. Làm vài bài, bạn sẽ thấy quen tay hơn mình nghĩ.
 
 :::exercise
 Tìm hai số tự nhiên chẵn liên tiếp có tích bằng $224$.

@@ -12,19 +12,19 @@ minutes: 25
 
 Cửa hàng sách giảm giá $15\%$ cho một quyển truyện giá $80\,000$ đồng. Lan có $70\,000$ đồng. Hỏi Lan có đủ tiền mua quyển truyện đó không?
 
-Để trả lời, em cần dùng cả số thập phân lẫn phần trăm. Bài này ôn lại hai việc đó và cho em thấy chúng liên quan chặt chẽ với nhau.
+Muốn biết Lan có đủ tiền hay không, em cần tìm xem quyển truyện còn bao nhiêu tiền sau khi giảm. Việc đó dùng đến phần trăm, và khi tính toán thì số thập phân cũng xuất hiện. Hai thứ này thực ra là hai cách viết của cùng một ý. Ta ôn lại cả hai, rồi quay lại giúp Lan.
 
 ## Cùng khám phá
 
-Lớp của Lan có $40$ bạn, trong đó $6$ bạn đeo kính. Ta viết phần của lớp đeo kính bằng ba cách:
+Ta xem một ví dụ nhỏ. Lớp của Lan có $40$ bạn, trong đó $6$ bạn đeo kính. Phần của lớp đeo kính viết được bằng ba cách:
 
 - phân số: $\dfrac{6}{40}=\dfrac{3}{20}=\dfrac{15}{100}$;
 - số thập phân: $\dfrac{15}{100}=0{,}15$;
 - tỉ số phần trăm: $\dfrac{15}{100}=15\%$.
 
-Vậy $15\%$ nghĩa là $15$ phần trong $100$ phần bằng nhau. Ba cách viết này chỉ cùng một giá trị. Muốn đổi phân số sang phần trăm, em chia tử số cho mẫu số rồi nhân với $100$: $\dfrac{3}{4}=0{,}75=75\%$.
+Vậy $15\%$ nghĩa là $15$ phần trong $100$ phần bằng nhau. Ba cách viết trên chỉ cùng một giá trị, giống như một người có ba tên gọi. Khi cần đổi phân số sang phần trăm, em chia tử số cho mẫu số rồi nhân với $100$: $\dfrac{3}{4}=0{,}75=75\%$.
 
-Em hãy nhìn vài giá trị quen thuộc trên tia số:
+Em thử nhìn vài giá trị quen thuộc trên tia số, để thấy chúng nằm ở đâu:
 
 :::graph Các giá trị quen thuộc trên tia số từ $0$ đến $1$
 alt: Tia số từ 0 đến 1, đánh dấu các điểm 0, 0,25, 0,5, 0,75 và 1; ba điểm giữa có ghi 25%, 50% và 75%
@@ -47,18 +47,18 @@ label: (0.75, 0.06) "75%"
 3. **Tìm số khi biết $a\%$ của nó bằng $c$:** tính $c:a\times100$.
 :::
 
-Cách 2 đúng vì $a\%=\dfrac{a}{100}$, nên $a\%$ của $b$ là $b\times\dfrac{a}{100}$. Cách 3 là phép tính ngược: $a$ phần ứng với $c$, nên $1$ phần ứng với $c:a$ và $100$ phần ứng với $c:a\times100$.
+Vì sao cách 2 đúng? Vì $a\%=\dfrac{a}{100}$, nên $a\%$ của $b$ là $b\times\dfrac{a}{100}$. Cách 3 đi ngược lại: $a$ phần ứng với $c$, nên $1$ phần ứng với $c:a$, và cả $100$ phần ứng với $c:a\times100$.
 
 :::note Nhắc lại về số thập phân
-- **So sánh:** so phần nguyên trước; nếu bằng nhau thì so lần lượt hàng phần mười, phần trăm, phần nghìn. Thêm chữ số $0$ vào cuối phần thập phân thì giá trị không đổi: $4{,}6=4{,}60$.
-- **Làm tròn:** nhìn chữ số ngay sau hàng cần làm tròn. Chữ số đó từ $5$ trở lên thì tăng chữ số ở hàng làm tròn thêm $1$; nhỏ hơn $5$ thì giữ nguyên.
+- **So sánh:** em so phần nguyên trước. Nếu bằng nhau thì so lần lượt hàng phần mười, phần trăm, phần nghìn. Thêm chữ số $0$ vào cuối phần thập phân thì giá trị không đổi: $4{,}6=4{,}60$.
+- **Làm tròn:** em nhìn chữ số ngay sau hàng cần làm tròn. Chữ số đó từ $5$ trở lên thì tăng chữ số ở hàng làm tròn thêm $1$; nhỏ hơn $5$ thì giữ nguyên.
 - **Nhân, chia cho $10$; $100$; $1\,000$:** dời dấu phẩy sang phải (nhân) hoặc sang trái (chia) $1$; $2$; $3$ chữ số.
-- **Chia cho số thập phân:** nhân cả số bị chia và số chia với $10$; $100$; $\dots$ để số chia thành số tự nhiên. Thương không đổi.
+- **Chia cho số thập phân:** em nhân cả số bị chia và số chia với $10$; $100$; $\dots$ để số chia thành số tự nhiên. Thương không đổi nên kết quả vẫn đúng.
 :::
 
 ## Ví dụ
 
-Ta bắt đầu với số thập phân: so sánh và làm tròn.
+Ta ôn số thập phân trước, với hai việc hay gặp nhất: so sánh và làm tròn.
 
 :::example Sắp xếp và làm tròn
 Sắp xếp các số $5{,}08$; $5{,}8$; $5{,}075$; $4{,}99$ theo thứ tự từ bé đến lớn. Rồi làm tròn $5{,}075$ đến hàng phần mười.
@@ -70,7 +70,7 @@ $$4{,}99<5{,}075<5{,}08<5{,}8.$$
 Để làm tròn $5{,}075$ đến hàng phần mười, em nhìn hàng phần trăm: chữ số $7$ lớn hơn $5$ nên tăng hàng phần mười thêm $1$. Vậy $5{,}075\approx5{,}1$.
 :::
 
-Tiếp theo là bốn phép tính với số thập phân trong một bài toán thực tế.
+Bốn phép tính với số thập phân thường đi cùng nhau trong một bài toán thực tế, như bài cắt vải dưới đây.
 
 :::example Cắt vải
 Một cuộn vải dài $12{,}6$ m. Người bán cắt lần một $4{,}75$ m, lần hai $3{,}8$ m. Phần còn lại được cắt thành các mảnh dài $0{,}45$ m. Hỏi cắt được bao nhiêu mảnh?
@@ -84,7 +84,7 @@ Vậy cắt được $9$ mảnh vải.
 **Kiểm tra.** $0{,}45\times9=4{,}05$. Đúng.
 :::
 
-Bây giờ sang phần trăm. Ta bắt đầu với bài toán loại 1: tìm tỉ số phần trăm của hai số.
+Sang phần trăm, có ba loại bài toán em cần nhớ. Loại 1 là tìm tỉ số phần trăm của hai số, tức là so một số với một số khác.
 
 :::example Tỉ lệ cây sống
 Bác Hùng trồng $250$ cây xoan, có $215$ cây sống. Hỏi số cây sống chiếm bao nhiêu phần trăm số cây đã trồng? Số cây không sống chiếm bao nhiêu phần trăm?
@@ -96,7 +96,7 @@ $$100\%-86\%=14\%.$$
 Vậy $86\%$ số cây sống và $14\%$ số cây không sống.
 :::
 
-Quay lại bài toán mở đầu, đó là loại 2: tìm phần trăm của một số.
+Giờ ta quay lại bài toán mở đầu để giúp Lan. Đó là loại 2: tìm phần trăm của một số.
 
 :::example Giảm giá quyển truyện
 Quyển truyện giá $80\,000$ đồng được giảm giá $15\%$. Lan có $70\,000$ đồng. Lan có đủ tiền mua không?
@@ -108,7 +108,7 @@ $$80\,000-12\,000=68\,000.$$
 Vì $68\,000<70\,000$ nên Lan đủ tiền mua và còn thừa $2\,000$ đồng.
 :::
 
-Cuối cùng là loại 3: biết phần trăm của một số, tìm số đó.
+Loại 3 làm ngược lại: ta biết phần trăm của một số bằng bao nhiêu, và phải tìm cả số đó.
 
 :::example Gạo trong kho
 Một kho gạo đã bán $360$ kg, bằng $45\%$ số gạo có lúc đầu. Hỏi lúc đầu kho có bao nhiêu ki-lô-gam gạo?
@@ -121,9 +121,9 @@ Vậy lúc đầu kho có $800$ kg gạo.
 :::
 
 :::warning Những lỗi em hay gặp
-- **So sánh số thập phân như số tự nhiên.** Sai: $2{,}35>2{,}4$ vì $35>4$. Vì sao sai: hàng phần mười của $2{,}35$ là $3$, bé hơn $4$. Đúng: $2{,}35<2{,}4$.
+- **So sánh số thập phân như số tự nhiên.** Chỗ này nhiều bạn hay nhầm. Sai: $2{,}35>2{,}4$ vì $35>4$. Vì sao sai: hàng phần mười của $2{,}35$ là $3$, bé hơn $4$. Đúng: $2{,}35<2{,}4$.
 - **Quên chia cho $100$.** Sai: $15\%$ của $80\,000$ là $80\,000\times15=1\,200\,000$. Vì sao sai: $15\%$ chỉ là $\dfrac{15}{100}$. Đúng: $80\,000\times15:100=12\,000$.
-- **Lấy sai "cả" để tính phần trăm.** Sai: giá sau khi giảm $20\%$ là $240\,000$ đồng, nên giá ban đầu là $240\,000+20\%\times240\,000=288\,000$ đồng. Vì sao sai: $20\%$ là của giá ban đầu, không phải của giá sau khi giảm. Đúng: $240\,000$ đồng là $80\%$ giá ban đầu, nên giá ban đầu là $240\,000:80\times100=300\,000$ đồng.
+- **Lấy sai "cả" để tính phần trăm.** Sai: giá sau khi giảm $20\%$ là $240\,000$ đồng, nên giá ban đầu là $240\,000+20\%\times240\,000=288\,000$ đồng. Vì sao sai: $20\%$ là phần trăm của giá ban đầu, không phải của giá sau khi giảm. Đúng: $240\,000$ đồng là $80\%$ giá ban đầu, nên giá ban đầu là $240\,000:80\times100=300\,000$ đồng. Trước khi tính, em hãy tự hỏi: phần trăm của số nào?
 :::
 
 ## Thuật ngữ
@@ -148,9 +148,11 @@ Vậy lúc đầu kho có $800$ kg gạo.
 - Loại 1: $(a:b)\times100\%$. Loại 2: $a\%$ của $b$ là $b\times a:100$. Loại 3: số có $a\%$ bằng $c$ là $c:a\times100$.
 - Giá sau khi giảm $a\%$ là $(100-a)\%$ giá cũ; giá sau khi tăng $a\%$ là $(100+a)\%$ giá cũ. Mỗi lần đổi giá, phần trăm tính trên giá ngay trước đó.
 
+Quay lại câu hỏi đầu bài: để biết Lan có đủ tiền không, ta tìm số tiền được giảm bằng loại 2, trừ đi, rồi so với số tiền Lan có. Em nhớ giúp một điều: phần trăm luôn là phần trăm của một số cụ thể, nên tính xong hãy kiểm tra lại xem mình đã lấy đúng số "cả" chưa.
+
 ## Luyện tập
 
-Mỗi bài có phần kiến thức và gợi ý. Em hãy tự làm trước, rồi mới bấm xem lời giải.
+Mỗi bài có phần kiến thức cần nhớ và gợi ý để em bắt đầu. Em hãy tự làm trước, rồi mới bấm xem lời giải. Làm đều tay một chút thì số thập phân và phần trăm sẽ quen dần.
 
 :::exercise
 Viết mỗi phân số sau dưới dạng số thập phân và dạng tỉ số phần trăm: a) $\dfrac{3}{4}$; b) $\dfrac{7}{20}$.

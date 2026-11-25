@@ -5,7 +5,7 @@ minutes: 90
 type: exam
 ---
 
-This paper has the three parts of the Vietnamese upper-secondary graduation exam: 12 multiple-choice questions, 4 true-or-false questions and 6 short-answer questions, to be done in 90 minutes. Part I gives 0.25 points per question; Part II gives up to 1 point per question, depending on how many statements you judge correctly; Part III gives 0.5 points per question. Print the sheet and work on paper first, then enter your answers below to get a mark out of 10. Every solution names the revision lesson to go back to if you got it wrong.
+This paper follows the three parts of the Vietnamese upper-secondary graduation exam: 12 multiple-choice questions, 4 true-or-false questions and 6 short-answer questions, all in 90 minutes. Part I gives 0.25 points per question. Part II gives up to 1 point per question, depending on how many statements you judge correctly. Part III gives 0.5 points per question. Print the sheet and work on paper first, as you would in the exam hall, then enter your answers below to get a mark out of 10. If you get a question wrong, don't worry: every solution names the revision lesson to go back to. A wrong answer here is the gentlest way to find out what needs more practice.
 
 :::quiz exam
 ::mc NB

@@ -11,7 +11,7 @@ minutes: 40
 - Giải phương trình chứa căn, phương trình chứa ẩn ở mẫu và loại nghiệm ngoại lai.
 :::
 
-Hàm bậc hai là trọng tâm của mảng Advanced Math, xuất hiện ở gần như mọi module, thường nằm trong nhóm câu khó nhất. Học sinh Việt Nam đã biết công thức nghiệm và định lí Viète từ lớp 9, đó là một lợi thế thật sự. Điều SAT đòi hỏi thêm là chuyển nhanh giữa ba dạng của hàm bậc hai, hiểu ý nghĩa của chúng trong bối cảnh như đường bay của quả bóng, và phát hiện nghiệm sai.
+Nghĩ đến một quả bóng được ném lên: nó bay lên, chậm dần rồi rơi xuống, và đường bay của nó là một parabol. Bóng lên cao nhất ở đâu, bao giờ thì chạm đất? Hàm bậc hai là trọng tâm của mảng Advanced Math, xuất hiện ở gần như mọi module, thường nằm trong nhóm câu khó nhất. Bạn đã biết công thức nghiệm và định lí Viète từ lớp 9, đó là một lợi thế thật sự. Điều SAT đòi hỏi thêm là chuyển nhanh giữa ba dạng của hàm bậc hai, hiểu ý nghĩa của chúng trong bối cảnh như đường bay của quả bóng, và phát hiện nghiệm sai.
 
 ## Ba dạng của hàm bậc hai
 
@@ -77,7 +77,7 @@ $$x=\frac{4\pm\sqrt{40}}{4}=\frac{4\pm2\sqrt{10}}{4}=1\pm\frac{\sqrt{10}}{2}.$$
 
 ## Đường thẳng và parabol
 
-Để giải hệ gồm một phương trình bậc nhất và một phương trình bậc hai, hãy cho hai biểu thức của $y$ bằng nhau. Phương trình bậc hai thu được có thể có hai, một hoặc không có nghiệm, đúng như số giao điểm của đường thẳng với parabol.
+Một đường thẳng có thể cắt parabol ở hai điểm, một điểm, hoặc không điểm nào. Đó chính là điều mà một hệ gồm một phương trình bậc nhất và một phương trình bậc hai đang hỏi. Để giải, ta cho hai biểu thức của $y$ bằng nhau, vì giao điểm là nơi hai vế phải có cùng $y$. Phương trình bậc hai thu được có thể có hai, một hoặc không có nghiệm, đúng như số giao điểm của đường thẳng với parabol.
 
 :::example Hệ có parabol
 $$y=x^2-2x+1$$
@@ -93,7 +93,7 @@ Vậy $x=4$ hoặc $x=-1$. Vì $a>0$ nên $a=4$ và $b=4+5=9$. Bạn gõ **9**.
 
 ## Phương trình chứa căn, chứa ẩn ở mẫu và mô hình thực tế
 
-Khi bình phương hai vế, hoặc nhân với một biểu thức có thể bằng $0$, ta có thể tạo ra **nghiệm ngoại lai** (extraneous solution): số thoả mãn phương trình mới nhưng không thoả mãn phương trình ban đầu. Luôn thử lại vào phương trình ban đầu.
+Có những bước biến đổi tiện tay, nhưng lặng lẽ kéo theo rắc rối. Khi bình phương hai vế, hoặc nhân với một biểu thức có thể bằng $0$, ta có thể tạo ra **nghiệm ngoại lai** (extraneous solution): số thoả mãn phương trình mới nhưng không thoả mãn phương trình ban đầu. Vì vậy bước cuối cùng không bao giờ được bỏ: luôn thử lại vào phương trình ban đầu.
 
 :::example Một nghiệm ngoại lai
 Tập nghiệm của $\sqrt{x+7}=x-5$ là
@@ -112,14 +112,15 @@ Một quả bóng được ném lên. Độ cao của nó, tính bằng feet, sa
 :::
 
 :::warning Những cái bẫy thường gặp
-- **Dấu của đỉnh.** $f(x)=(x+2)^2-1$ có đỉnh $(-2, -1)$, không phải $(2, -1)$.
-- **Chia cho $x$.** Từ $x^2=5x$, chia cho $x$ sẽ mất nghiệm $x=0$. Hãy phân tích nhân tử: $x(x-5)=0$.
+- **Dấu của đỉnh.** Chỗ này nhiều bạn hay nhầm: $f(x)=(x+2)^2-1$ có đỉnh $(-2, -1)$, không phải $(2, -1)$.
+- **Chia cho $x$.** Từ $x^2=5x$, nếu chia cho $x$ thì ta làm mất nghiệm $x=0$. Hãy phân tích nhân tử: $x(x-5)=0$.
 - **Không thử lại phương trình chứa căn.** Căn bậc hai không bao giờ âm, nên "nghiệm" nào làm vế phải âm là nghiệm ngoại lai.
 - **Giá trị lớn nhất hay thời điểm đạt được.** "Độ cao lớn nhất là bao nhiêu?" hỏi $k$; "sau bao nhiêu giây?" hỏi $h$.
+Bốn lỗi này đều là lỗi đọc vội chứ không phải không hiểu bài. Chỉ cần chậm lại một nhịp là tránh được.
 :::
 
 :::tip Desmos cho hàm bậc hai
-Gõ `y=-16x^2+64x+5` rồi bấm các điểm xám: Desmos hiện đỉnh và các nghiệm kèm toạ độ. Với hệ phương trình, gõ cả hai phương trình rồi bấm vào các giao điểm. Với câu "đúng một nghiệm" có hằng số, hãy thêm thanh trượt và kéo đến khi hai đồ thị vừa chạm nhau.
+Desmos làm giúp bạn phần việc nặng nhất, nên hãy dùng nó để kiểm tra đáp số. Gõ `y=-16x^2+64x+5` rồi bấm các điểm xám: Desmos hiện đỉnh và các nghiệm kèm toạ độ. Với hệ phương trình, gõ cả hai phương trình rồi bấm vào các giao điểm. Với câu "đúng một nghiệm" có hằng số, hãy thêm thanh trượt và kéo đến khi hai đồ thị vừa chạm nhau.
 :::
 
 :::terms

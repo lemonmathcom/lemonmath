@@ -10,15 +10,15 @@ minutes: 15
 - Tính độ dài một nửa đoạn thẳng hoặc cả đoạn thẳng khi biết trung điểm.
 :::
 
-Nhà An, trường học và nhà Bình nằm trên cùng một con đường thẳng. Từ nhà An đến trường là $3$ km, từ trường đến nhà Bình cũng là $3$ km. Vị trí của trường so với hai nhà có gì đặc biệt?
+Nhà An, trường học và nhà Bình nằm trên cùng một con đường thẳng. Từ nhà An đến trường là $3$ km, từ trường đến nhà Bình cũng là $3$ km. Em thử nhìn xem: trường đứng ở đâu so với hai nhà? Vị trí ấy có gì đặc biệt?
 
-Bài này giúp em gọi tên vị trí ấy và dùng nó để tính độ dài.
+Vị trí ấy có một cái tên riêng. Biết tên rồi, em tính được độ dài mà không cần đo cả con đường. Ta sẽ gọi tên nó, rồi dùng nó để tính.
 
 ## Cùng khám phá
 
-Ba điểm cùng nằm trên một đường thẳng gọi là **ba điểm thẳng hàng**. Trong ba điểm $A$, $M$, $B$ thẳng hàng, nếu đi từ $A$ đến $B$ ta phải qua $M$ thì $M$ **nằm giữa** $A$ và $B$.
+Hãy nghĩ đến một con đường thẳng. Ba điểm cùng nằm trên một đường thẳng gọi là **ba điểm thẳng hàng**. Lấy ba điểm $A$, $M$, $B$ thẳng hàng. Nếu đi từ $A$ đến $B$ ta phải đi qua $M$ thì ta nói $M$ **nằm giữa** $A$ và $B$.
 
-Ta vẽ nhà An là điểm $A$, trường là điểm $M$, nhà Bình là điểm $B$:
+Ta vẽ lại con đường ấy: nhà An là điểm $A$, trường là điểm $M$, nhà Bình là điểm $B$:
 
 :::diagram Điểm M nằm giữa A và B, hai đoạn MA và MB bằng nhau
 alt: Đoạn thẳng AB nằm ngang với điểm M ở giữa; hai đoạn AM và MB có cùng một dấu gạch ngắn nên bằng nhau
@@ -30,7 +30,7 @@ mark A M 1
 mark M B 1
 :::
 
-Điểm $M$ nằm giữa $A$ và $B$, và $MA=MB=3$ km. Điểm $M$ chia đoạn thẳng $AB$ thành hai đoạn bằng nhau. Ta gọi $M$ là **trung điểm** của đoạn thẳng $AB$.
+Điểm $M$ nằm giữa $A$ và $B$, lại có $MA=MB=3$ km. Nghĩa là $M$ chia đoạn thẳng $AB$ thành hai đoạn bằng nhau. Điểm như thế có tên riêng: ta gọi $M$ là **trung điểm** của đoạn thẳng $AB$.
 
 :::theorem Trung điểm của đoạn thẳng
 Điểm $M$ là trung điểm của đoạn thẳng $AB$ khi $M$ nằm giữa $A$ và $B$ và $MA=MB$.
@@ -38,11 +38,11 @@ mark M B 1
 Khi đó $AB=MA+MB=2\times MA$, nên $MA=AB:2$.
 :::
 
-Điều này đúng vì $MA$ và $MB$ bằng nhau, nên mỗi đoạn là $\dfrac{1}{2}$ đoạn $AB$. Ở bài trước em đã biết: một nửa của một số bằng số đó chia cho $2$.
+Vì sao ta chia đôi? Vì $MA$ và $MB$ bằng nhau, nên mỗi đoạn là $\dfrac{1}{2}$ đoạn $AB$. Ở bài trước em đã biết: một nửa của một số bằng số đó chia cho $2$. Vậy tìm một nửa đoạn thẳng cũng chỉ là một phép chia.
 
 ## Ví dụ
 
-Ta bắt đầu bằng việc tìm điểm nằm giữa.
+Trước hết, ta luyện cách nhận ra điểm nằm giữa: đi từ điểm này sang điểm kia và xem mình đi qua những điểm nào.
 
 :::example Điểm ở giữa
 Trên một đường thẳng có bốn điểm $D$, $E$, $G$, $H$ theo thứ tự từ trái sang phải. Điểm nào nằm giữa $D$ và $H$? Điểm nào nằm giữa $E$ và $H$?
@@ -52,7 +52,7 @@ Trên một đường thẳng có bốn điểm $D$, $E$, $G$, $H$ theo thứ t�
 Vậy $E$, $G$ nằm giữa $D$ và $H$; $G$ nằm giữa $E$ và $H$.
 :::
 
-Bây giờ em kiểm tra một điểm có là trung điểm không.
+Nằm giữa thôi thì chưa đủ để là trung điểm. Ta thử kiểm tra xem một điểm có là trung điểm hay không.
 
 :::example Kiểm tra trung điểm
 Cho $M$ nằm giữa $A$ và $B$.
@@ -70,7 +70,7 @@ b) $AM=4$ cm khác $MB=6$ cm, nên $M$ không là trung điểm của $AB$.
 Vậy a) có; b) không.
 :::
 
-Tiếp theo, em tính độ dài một nửa đoạn thẳng.
+Biết trung điểm rồi thì tính được độ dài một nửa đoạn thẳng. Em cùng làm nhé.
 
 :::example Tính $AM$
 $M$ là trung điểm của đoạn thẳng $AB$ dài $12$ cm. Tính $AM$.
@@ -82,7 +82,7 @@ $$AM=12:2=6\ \text{(cm)}.$$
 Vậy $AM=6$ cm.
 :::
 
-Làm ngược lại, em tính cả đoạn thẳng.
+Bây giờ làm ngược lại: biết một nửa, em tìm cả đoạn thẳng.
 
 :::example Tính $AB$
 $M$ là trung điểm của đoạn thẳng $AB$ và $MA=7$ cm. Tính $AB$.
@@ -94,7 +94,7 @@ $$AB=7\times2=14\ \text{(cm)}.$$
 Vậy $AB=14$ cm.
 :::
 
-Cuối cùng, em giải bài toán ở đầu bài trong một tình huống khác.
+Ta quay lại con đường của An và Bình, lần này với con số khác.
 
 :::example Đường đến trường
 Nhà An, trường học và nhà Bình nằm trên một đường thẳng. Trường học là trung điểm của đoạn đường từ nhà An đến nhà Bình, dài $8$ km. Hỏi từ nhà An đến trường dài bao nhiêu ki-lô-mét?
@@ -107,10 +107,11 @@ Vậy từ nhà An đến trường dài $4$ km.
 :::
 
 :::warning Những lỗi em hay gặp
-- **Nằm giữa chưa chắc là trung điểm.** Sai: $M$ nằm giữa $A$ và $B$ nên $M$ là trung điểm. Vì sao sai: nếu $AM=3$ cm, $MB=7$ cm thì $M$ vẫn nằm giữa nhưng hai đoạn không bằng nhau. Đúng: còn phải có $MA=MB$.
-- **Quên chia đôi.** Sai: $M$ là trung điểm của $AB=12$ cm nên $AM=12$ cm. Vì sao sai: $AM$ chỉ là một nửa $AB$. Đúng: $AM=12:2=6$ cm.
+- **Nằm giữa chưa chắc là trung điểm.** Sai: $M$ nằm giữa $A$ và $B$ nên $M$ là trung điểm. Vì sao sai: giả sử $AM=3$ cm, $MB=7$ cm. Khi đó $M$ vẫn nằm giữa, nhưng hai đoạn không bằng nhau. Đúng: còn phải có $MA=MB$.
+- **Quên chia đôi.** Sai: $M$ là trung điểm của $AB=12$ cm nên $AM=12$ cm. Vì sao sai: $AM$ chỉ là một nửa của $AB$. Đúng: $AM=12:2=6$ cm.
 - **Quên nhân đôi.** Sai: $MA=7$ cm nên $AB=7$ cm. Vì sao sai: $AB$ gồm hai đoạn $MA$ và $MB$. Đúng: $AB=7\times2=14$ cm.
 - **Quên đơn vị.** Sai: "Đáp số: $6$". Đúng: "Đáp số: $6$ cm".
+Chỗ này nhiều bạn hay nhầm, em đừng lo. Làm xong, em thử lại bằng phép tính ngược là sẽ thấy ngay.
 :::
 
 ## Thuật ngữ
@@ -133,10 +134,11 @@ Vậy từ nhà An đến trường dài $4$ km.
 - $M$ là trung điểm của $AB$ khi $M$ nằm giữa $A$, $B$ và $MA=MB$.
 - Khi $M$ là trung điểm: $MA=AB:2$ và $AB=MA\times2$.
 - Ghi đơn vị đo độ dài trong đáp số.
+Còn câu hỏi ở đầu bài? Trường nằm giữa hai nhà và cách đều hai nhà, nên trường là trung điểm của con đường. Em nhớ: muốn tìm một nửa thì chia đôi, muốn tìm cả đoạn thì nhân đôi. Em làm thêm vài bài luyện tập để quen tay nhé.
 
 ## Luyện tập
 
-Mỗi bài có phần kiến thức và gợi ý. Em hãy tự làm trước, rồi mới bấm xem lời giải.
+Mỗi bài có phần kiến thức cần nhớ và một gợi ý để em bắt đầu. Em thử tự làm trước đã. Nếu bí, em đọc gợi ý, rồi mới mở lời giải để so với bài của mình.
 
 :::exercise
 Trên một đường thẳng có bốn điểm $P$, $Q$, $R$, $S$ theo thứ tự từ trái sang phải.

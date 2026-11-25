@@ -11,13 +11,13 @@ minutes: 45
 - Tính diện tích miền giới hạn bởi một hoặc hai đường cong trong toạ độ cực.
 :::
 
-Unit 9 chỉ có ở BC và chiếm khoảng một phần mười điểm BC. Câu tự luận của unit này thường là một hạt chuyển động trong mặt phẳng, hoặc một miền giới hạn bởi đường cong trong toạ độ cực, và cả hai đều dựng từ một vài công thức. Cái khó không nằm ở giải tích mà ở việc nhớ mình đang lấy đạo hàm theo biến nào.
+Hãy nghĩ đến một con kiến bò trên mặt bàn. Mỗi giây nó ở một chỗ khác, nên vị trí của nó phụ thuộc vào thời gian chứ không chỉ vào một toạ độ. Muốn biết nó đang đi hướng nào và nhanh đến đâu, ta cần những công cụ riêng, và Unit 9 trao đúng những công cụ ấy. Unit 9 chỉ có ở BC và chiếm khoảng một phần mười điểm BC. Câu tự luận của unit này thường là một hạt chuyển động trong mặt phẳng, hoặc một miền giới hạn bởi đường cong trong toạ độ cực, và cả hai đều dựng từ một vài công thức. Cái khó không nằm ở giải tích mà ở việc nhớ mình đang lấy đạo hàm theo biến nào.
 
 ## Đường cong tham số
 
-Đường cong cho bởi $x=x(t)$, $y=y(t)$ có hệ số góc
+Khi cả hai toạ độ cùng chạy theo thời gian, hệ số góc của đường đi là tốc độ đi lên chia cho tốc độ đi ngang. Cụ thể, đường cong cho bởi $x=x(t)$, $y=y(t)$ có hệ số góc
 $$\frac{dy}{dx}=\frac{dy/dt}{dx/dt}\quad\text{khi }\frac{dx}{dt}\ne0.$$
-Tiếp tuyến nằm ngang khi $\dfrac{dy}{dt}=0$ và $\dfrac{dx}{dt}\ne0$, thẳng đứng khi $\dfrac{dx}{dt}=0$ và $\dfrac{dy}{dt}\ne0$.
+Hệ số góc còn cho ta biết chỗ nào đường cong nằm ngang, chỗ nào dựng đứng. Tiếp tuyến nằm ngang khi $\dfrac{dy}{dt}=0$ và $\dfrac{dx}{dt}\ne0$: lúc đó điểm không đi lên hay xuống nữa, chỉ còn đi ngang. Tiếp tuyến thẳng đứng khi $\dfrac{dx}{dt}=0$ và $\dfrac{dy}{dt}\ne0$: lúc đó điểm không đi ngang nữa, chỉ còn đi lên hoặc xuống. Hai điều kiện đi kèm này đừng bỏ sót.
 
 :::example Hệ số góc và tiếp tuyến
 Với $x=t^2$, $y=t^3-3t$:
@@ -47,11 +47,11 @@ D. $6$
 
 ## Chuyển động bằng véc-tơ
 
-Một hạt có vị trí $\langle x(t),y(t)\rangle$ thì có vận tốc $\langle x'(t),y'(t)\rangle$ và gia tốc $\langle x''(t),y''(t)\rangle$.
+Bây giờ ta cho hạt chạy theo thời gian. Mỗi thời điểm hạt ở một chỗ, nên vị trí là một cặp số thay đổi: hạt ở $\langle x(t),y(t)\rangle$. Vị trí đổi nhanh thế nào thì ta lấy đạo hàm từng thành phần, và được vận tốc $\langle x'(t),y'(t)\rangle$. Vận tốc đổi nhanh thế nào thì ta lấy đạo hàm tiếp, và được gia tốc $\langle x''(t),y''(t)\rangle$.
 
-- **Tốc độ** là độ dài véc-tơ vận tốc: $\sqrt{x'(t)^2+y'(t)^2}$.
-- **Quãng đường** từ $t=a$ đến $t=b$ là $\displaystyle\int_a^b\sqrt{x'(t)^2+y'(t)^2}\,dt$; cũng tích phân đó cho độ dài cung của quỹ đạo.
-- **Vị trí về sau:** $x(b)=x(a)+\displaystyle\int_a^bx'(t)\,dt$, tương tự với $y$.
+- **Tốc độ** là độ dài véc-tơ vận tốc. Nó cho biết hạt nhanh hay chậm, không cho biết hướng: $\sqrt{x'(t)^2+y'(t)^2}$.
+- **Quãng đường** từ $t=a$ đến $t=b$ là $\displaystyle\int_a^b\sqrt{x'(t)^2+y'(t)^2}\,dt$. Cộng tốc độ qua từng khoảnh khắc thì ra quãng đường, nên cũng tích phân đó cho độ dài cung của quỹ đạo.
+- **Vị trí về sau:** $x(b)=x(a)+\displaystyle\int_a^bx'(t)\,dt$, tương tự với $y$. Vị trí mới bằng vị trí cũ cộng phần đã dịch chuyển.
 
 :::example Một hạt trong mặt phẳng
 Một hạt có vận tốc $v(t)=\left\langle2t,\ t^2-1\right\rangle$ và ở điểm $(1,2)$ lúc $t=0$.
@@ -69,9 +69,9 @@ c) $4t^2+\left(t^2-1\right)^2=t^4+2t^2+1=\left(t^2+1\right)^2$, nên quãng đư
 
 ## Đường cong cực: hệ số góc và ý nghĩa của dr/dθ
 
-Đường cong cực $r=f(\theta)$ chính là đường cong tham số $x=r\cos\theta$, $y=r\sin\theta$ với tham số $\theta$. Vì vậy hệ số góc của nó là
+Toạ độ cực nghe lạ, nhưng ta đã có sẵn công cụ. Đường cong cực $r=f(\theta)$ chính là đường cong tham số $x=r\cos\theta$, $y=r\sin\theta$ với tham số $\theta$. Vì vậy hệ số góc của nó cũng tính theo cách của đường cong tham số:
 $$\frac{dy}{dx}=\frac{dy/d\theta}{dx/d\theta}=\frac{r'\sin\theta+r\cos\theta}{r'\cos\theta-r\sin\theta}.$$
-Dấu của $\dfrac{dr}{d\theta}$ cho biết khoảng cách tới gốc toạ độ: khi $r>0$ và $\dfrac{dr}{d\theta}>0$, điểm đang ra xa gốc; khi $\dfrac{dr}{d\theta}<0$, điểm đang lại gần gốc.
+Còn $\dfrac{dr}{d\theta}$ nói lên điều gì? Nó cho ta biết điểm đang ra xa hay lại gần gốc toạ độ khi góc quay thêm. Khi $r>0$ và $\dfrac{dr}{d\theta}>0$, điểm đang ra xa gốc; khi $\dfrac{dr}{d\theta}<0$, điểm đang lại gần gốc.
 
 :::example Hệ số góc của đường hình tim
 Tìm hệ số góc của $r=1+\cos\theta$ tại $\theta=\dfrac{\pi}{2}$.
@@ -99,11 +99,11 @@ D. $2\pi$
 :::
 
 :::warning Những cái bẫy thường gặp
-- **Chia hai đạo hàm cấp hai cho nhau.** $\dfrac{d^2y}{dx^2}\ne\dfrac{y''(t)}{x''(t)}$.
-- **Nhầm tốc độ với vận tốc.** Tốc độ là một số; vận tốc là một véc-tơ.
-- **Diện tích cực thiếu $\dfrac12$, hoặc dùng $r$ thay cho $r^2$.**
-- **Lỗi kiểu vành khuyên trong toạ độ cực.** Giữa hai đường cong, dùng $r_{\text{ngoài}}^2-r_{\text{trong}}^2$, không phải $\left(r_{\text{ngoài}}-r_{\text{trong}}\right)^2$.
-- **Sai cận.** Tìm giao điểm bằng cách giải $f(\theta)=g(\theta)$, rồi kiểm tra miền trên hình vẽ hoặc máy tính vẽ đồ thị.
+- **Chia hai đạo hàm cấp hai cho nhau.** Nghe hợp lí nhưng sai: $\dfrac{d^2y}{dx^2}\ne\dfrac{y''(t)}{x''(t)}$.
+- **Nhầm tốc độ với vận tốc.** Tốc độ chỉ là một số; vận tốc còn mang hướng nên là một véc-tơ.
+- **Diện tích cực thiếu $\dfrac12$, hoặc dùng $r$ thay cho $r^2$.** Mỗi lát mỏng là một hình quạt, và diện tích hình quạt có hệ số một nửa cùng bình phương của bán kính.
+- **Lỗi kiểu vành khuyên trong toạ độ cực.** Giữa hai đường cong, ta trừ hai diện tích: dùng $r_{\text{ngoài}}^2-r_{\text{trong}}^2$, không phải $\left(r_{\text{ngoài}}-r_{\text{trong}}\right)^2$.
+- **Sai cận.** Tìm giao điểm bằng cách giải $f(\theta)=g(\theta)$, rồi nhìn lại miền trên hình vẽ hoặc máy tính vẽ đồ thị để chắc chắn cận đúng.
 :::
 
 :::terms

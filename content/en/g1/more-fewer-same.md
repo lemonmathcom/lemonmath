@@ -12,11 +12,11 @@ minutes: 15
 
 On the table there are $4$ cups and $5$ spoons. Mum wants each cup to have one spoon. Are there more cups or more spoons?
 
-You could count each group. This lesson shows you another way that needs no counting: match in pairs.
+You could count each group. But there is another way that needs no counting at all: match the things in pairs and see which side has some left.
 
 ## Let's explore
 
-Put one spoon in each cup, one spoon for each cup.
+Let us put one spoon in each cup. One spoon for each cup, and never two spoons in the same cup.
 
 ![Four cups with one spoon in each and one extra spoon beside them](/assets/img/g1/g1-more-fewer-same-01.svg)
 
@@ -24,7 +24,7 @@ Put one spoon in each cup, one spoon for each cup.
 - The third cup and the fourth cup also have one spoon each.
 - All four cups have a spoon, but one spoon is left over.
 
-A spoon is left over, so there are more spoons than cups. The cups ran out first, so there are fewer cups than spoons.
+One spoon is left over. The group with something left over is the group with more, so there are more spoons than cups. The cups ran out first, so there are fewer cups than spoons.
 
 :::theorem Matching one to one
 Match each thing in one group with one thing in the other group.
@@ -33,11 +33,11 @@ Match each thing in one group with one thing in the other group.
 3. If both groups run out together, they are **the same**.
 :::
 
-This works because each pair uses up one thing from each group. The group that still has things left has more.
+Why does matching tell us which group has more? Each pair uses up one thing from each group. So the group that still has things left is the one with more.
 
 ## Examples
 
-We answer the question from the start.
+We go back to the question at the start, about the cups and spoons on the table.
 
 :::example Cups and spoons
 There are $4$ cups and $5$ spoons. Which group has more? Which has fewer?
@@ -47,7 +47,7 @@ There are $4$ cups and $5$ spoons. Which group has more? Which has fewer?
 So there are more spoons than cups, and fewer cups than spoons.
 :::
 
-Now both groups can run out together.
+Sometimes the matching ends with nothing left on either side. Here is an example.
 
 :::example Children and hats
 There are $3$ children and $3$ hats. Each child wears one hat. Which group has more?
@@ -57,7 +57,7 @@ There are $3$ children and $3$ hats. Each child wears one hat. Which group has m
 So the number of children and the number of hats are the same.
 :::
 
-Next, see how many the bigger group has left over.
+Once you know which group has more, you can also say how many more it has. That is just the number left over.
 
 :::example Red flowers and yellow flowers
 In a pot there are $6$ red flowers and $8$ yellow flowers. Which group has more? How many are left over?
@@ -67,7 +67,7 @@ In a pot there are $6$ red flowers and $8$ yellow flowers. Which group has more?
 So there are more yellow flowers than red flowers, by $2$ flowers.
 :::
 
-Last, use matching for an everyday question.
+Matching also answers everyday questions, like whether every bird has a nest.
 
 :::example Birds and nests
 There are $5$ birds and $4$ nests. Each bird goes into one nest. Is any bird without a nest?
@@ -78,7 +78,7 @@ So $1$ bird has no nest.
 :::
 
 :::warning Mistakes to watch out for
-- **Thinking big means many.** Wrong: the big box has more marbles. Why it is wrong: a big box may not have many marbles. Right: match or count the marbles.
+- **Thinking big means many.** Many children mix these up. Wrong: the big box has more marbles. Why it is wrong: a big box may not have many marbles. Right: match or count the marbles.
 - **Matching one thing twice.** Wrong: one cup gets two spoons. Why it is wrong: the result is thrown off. Right: one spoon for each cup.
 - **Mixing up "more" and "fewer".** Wrong: the group with things left over has fewer. Why it is wrong: it has more things. Right: the group with things left over has more.
 :::
@@ -101,9 +101,11 @@ So $1$ bird has no nest.
 - If both groups run out together, they are the same.
 - A bigger thing does not always mean more things.
 
+Back to the opening question: a spoon is left over, so there are more spoons than cups. Remember to use each thing only once, look at which side has some left, and then try some exercises.
+
 ## Practice
 
-Each exercise comes with what you need and how to start. Try it yourself first, then open the solution.
+Each exercise has the key idea and a hint to get you started. Try it yourself first, look at the hint if you are stuck, and open the solution last. Going slowly is fine.
 
 :::exercise
 There are $3$ cups and $4$ spoons. Which group has more?

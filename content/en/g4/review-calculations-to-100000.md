@@ -10,25 +10,26 @@ minutes: 15
 - Check answers and solve word problems with these operations.
 :::
 
-In January, a shop sold $23\,456$ exercise books. In February it sold $18\,749$. How many exercise books did the shop sell in the two months altogether?
+In January, a shop sold $23\,456$ exercise books, and in February it sold $18\,749$ more. How many exercise books did the shop sell in the two months altogether?
 
-You have used written columns since Grade 3. This lesson helps you remember all four operations with big numbers.
+You have used written columns since Grade 3. But with big numbers, one small slip can push a digit into the wrong column or lose a carried number. We go over all four operations again, step by step, so you stay steady with big numbers.
 
 ## Let's explore
 
-"Altogether" means we add. Write the numbers in columns so that digits of the same place line up, then add from right to left:
+The word "altogether" tells us to add. We write the numbers in columns so that digits of the same place line up, because only digits of the same place can be added together. Then we add from right to left:
 
 $$\begin{array}{r} 23\,456\\ +\ 18\,749\\ \hline 42\,205 \end{array}$$
 
-Place by place, from right to left:
+We go through the places one at a time, from right to left:
 
 - Ones: $6+9=15$, write $5$, regroup $1$.
 - Tens: $5+4+1=10$, write $0$, regroup $1$.
 - Hundreds: $4+7+1=12$, write $2$, regroup $1$.
 - Thousands: $3+8+1=12$, write $2$, regroup $1$.
 - Ten thousands: $2+1+1=4$, write $4$.
+At each place we write only one digit and carry the rest to the next place on the left.
 
-So the shop sold $42\,205$ exercise books in the two months.
+So the shop sold $42\,205$ exercise books in the two months. That answers the question at the start.
 
 :::theorem Four operations and how to check them
 - **Addition and subtraction:** write in columns, work from **right to left**, regroup when needed. Check an addition by subtracting, and check a subtraction by adding.
@@ -36,11 +37,11 @@ So the shop sold $42\,205$ exercise books in the two months.
 - **Dividing by a one-digit number:** work from **left to right**, bringing down one digit each time. Check by multiplying.
 :::
 
-These checks work because addition and subtraction undo each other, and so do multiplication and division.
+Why do these checks work? Addition and subtraction undo each other: add something, then take it away, and you are back where you started. Multiplication and division undo each other in the same way.
 
 ## Examples
 
-We start with an addition that regroups many times.
+We start with an addition that regroups many times. Watch the carried digit at each place.
 
 :::example Addition
 Work out $35\,628+24\,975$.
@@ -54,7 +55,7 @@ The steps: $8+5=13$ (write $3$, regroup $1$); $2+7+1=10$ (write $0$, regroup $1$
 So $35\,628+24\,975=60\,603$.
 :::
 
-Subtraction is harder when the top number has many zeros.
+Subtraction gets harder when the top number has many zeros, because the place next door has nothing to lend. Here is how we handle it.
 
 :::example Subtraction
 Work out $70\,000-25\,438$.
@@ -70,7 +71,7 @@ The steps: $10-8=2$; $9-3=6$; $9-4=5$; $9-5=4$; $6-2=4$.
 So $70\,000-25\,438=44\,562$.
 :::
 
-Now multiplication.
+Now multiplication, which also works from right to left.
 
 :::example Multiplication
 Work out $12\,405\times6$.
@@ -84,7 +85,7 @@ The steps: $5\times6=30$ (write $0$, regroup $3$); $0\times6+3=3$ (write $3$); $
 So $12\,405\times6=74\,430$.
 :::
 
-Division works from left to right.
+Division works the other way, from left to right. We divide the highest place first, and whatever is left over moves down to the next place.
 
 :::example Division
 Work out $48\,372\div6$.
@@ -103,7 +104,7 @@ The quotient is $8\,062$ with remainder $0$.
 So $48\,372\div6=8\,062$.
 :::
 
-Finally, we use the operations in a word problem.
+Finally, we use the operations in a word problem. When there are several steps, we first find what we need, then answer the main question.
 
 :::example The rice store
 A store has $36\,000$ kg of rice. Each day it sells $4\,250$ kg, for $5$ days. How many kilograms of rice are left?
@@ -121,6 +122,7 @@ So $14\,750$ kg of rice are left.
 - **Columns not lined up.** Wrong: writing $9\,365$ out of line with $25\,480$. Why it is wrong: you add digits from different places. Right: ones under ones, tens under tens, and so on.
 - **Forgetting a zero in the quotient.** Wrong: $36\,054\div6=609$. Why it is wrong: when you bring down $0$ and $5$ and cannot divide yet, you must write $0$ in the quotient. Right: $36\,054\div6=6\,009$.
 - **Forgetting to regroup.** Wrong: $8+5=13$ and writing $13$ in one place. Why it is wrong: each place holds only one digit. Right: write $3$ and regroup $1$ to the next place.
+Many pupils slip here, especially in division. Set the work out neatly and read each step back, and these slips will fade.
 :::
 
 ## Key terms
@@ -145,10 +147,11 @@ So $14\,750$ kg of rice are left.
 - Multiply by a one-digit number: multiply each digit from right to left, regrouping when needed.
 - Divide by a one-digit number: work from left to right, bringing down one digit each step; write $0$ in the quotient when you cannot divide yet.
 - Check: addition and subtraction undo each other; multiplication and division undo each other.
+So to find how many exercise books the shop sold in the two months, we write the numbers in columns and add place by place from right to left. Check with the opposite operation to be sure. Then try a few practice questions.
 
 ## Practice
 
-Each exercise comes with what you need and how to start. Try it yourself first, then open the solution.
+Each exercise comes with the idea you need and a hint to get started. Try it yourself first, open the hint if you are stuck, and look at the solution last.
 
 :::exercise
 Work out $46\,285+27\,639$.

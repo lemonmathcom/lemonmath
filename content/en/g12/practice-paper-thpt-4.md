@@ -5,7 +5,7 @@ minutes: 90
 type: exam
 ---
 
-The paper has $22$ questions to be done in $90$ minutes, in three parts: Part I has $12$ multiple-choice questions ($0.25$ points each), Part II has $4$ true/false questions (up to $1$ point each) and Part III has $6$ short-answer questions ($0.5$ points each). This is the hardest paper of the series: many statements in Part II and Part III need a careful check of conditions and rounding. Work on the printed sheet first under timed conditions, then enter your answers below to be marked out of $10$.
+This paper has $22$ questions, to be done in $90$ minutes, in three parts. Part I has $12$ multiple-choice questions, $0.25$ points each. Part II has $4$ true/false questions, up to $1$ point each. Part III has $6$ short-answer questions, $0.5$ points each. This is the hardest paper of the series. In many statements of Part II and Part III you need to check the conditions and the rounding carefully, because that is where many students slip. Work on the printed sheet first and keep to the time, then enter your answers below to be marked out of $10$.
 
 :::quiz exam
 ::mc VD

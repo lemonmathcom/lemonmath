@@ -41,12 +41,12 @@ label 6.9,0.45 "5 cm"
 label -0.45,1.5 "4 cm"
 :::
 
-Bốn mặt bên gồm hai hình chữ nhật $8\ \text{cm}\times4\ \text{cm}$ và hai hình chữ nhật $5\ \text{cm}\times4\ \text{cm}$. Tổng diện tích là
+Bốn mặt bên gồm hai hình chữ nhật $8\ \text{cm}\times4\ \text{cm}$ và hai hình chữ nhật $5\ \text{cm}\times4\ \text{cm}$. Em cộng diện tích của chúng lại:
 $$2\times(8\times4)+2\times(5\times4)=104\ \text{cm}^2.$$
 
-Chu vi mặt đáy là $(8+5)\times2=26$ cm. Trải bốn mặt bên thành một dải rộng $4$ cm, ta cũng được $26\times4=104\ \text{cm}^2$.
+Còn một cách nhìn khác, nhanh hơn. Chu vi mặt đáy là $(8+5)\times2=26$ cm. Trải bốn mặt bên thành một dải rộng $4$ cm, dải ấy dài bằng chu vi đáy, nên diện tích cũng là $26\times4=104\ \text{cm}^2$.
 
-Hai mặt đáy có tổng diện tích $2\times8\times5=80\ \text{cm}^2$. Vì thế, diện tích cả sáu mặt là $104+80=184\ \text{cm}^2$.
+Hai mặt đáy có tổng diện tích $2\times8\times5=80\ \text{cm}^2$. Cộng thêm vào bốn mặt bên, diện tích cả sáu mặt là $104+80=184\ \text{cm}^2$. Đó là câu trả lời cho việc bọc kín cả hộp.
 
 :::theorem Quy tắc tính diện tích
 - **Diện tích xung quanh** là tổng diện tích bốn mặt bên:
@@ -55,11 +55,11 @@ $$S_{\text{xung quanh}}=(\text{chiều dài}+\text{chiều rộng})\times2\times
 $$S_{\text{toàn phần}}=S_{\text{xung quanh}}+2\times\text{chiều dài}\times\text{chiều rộng}.$$
 :::
 
-Quy tắc đúng vì dải bốn mặt bên dài bằng chu vi đáy và rộng bằng chiều cao. Diện tích toàn phần có thêm hai đáy bằng nhau.
+Vì sao quy tắc đúng? Dải bốn mặt bên dài bằng chu vi đáy và rộng bằng chiều cao. Còn diện tích toàn phần thì có thêm hai đáy bằng nhau.
 
 ## Ví dụ
 
-Ta bắt đầu với bốn mặt bên.
+Ta bắt đầu với bốn mặt bên: chỉ cần chu vi đáy và chiều cao.
 
 :::example Tính diện tích xung quanh
 Tính diện tích xung quanh của hình hộp dài $12$ cm, rộng $7$ cm, cao $5$ cm.
@@ -69,7 +69,7 @@ $$ (12+7)\times2\times5=190\ \text{cm}^2.$$
 Vậy kết quả là $190\ \text{cm}^2$.
 :::
 
-Bây giờ ta tính cả sáu mặt.
+Bây giờ ta tính cả sáu mặt, tức là cộng thêm hai đáy.
 
 :::example Tính diện tích toàn phần
 Tính diện tích toàn phần của hình hộp dài $9$ dm, rộng $4$ dm, cao $6$ dm.
@@ -80,7 +80,7 @@ $$156+72=228\ \text{dm}^2.$$
 Vậy kết quả là $228\ \text{dm}^2$.
 :::
 
-Ta cũng có thể tìm ngược một kích thước.
+Ta cũng làm được ngược lại: biết diện tích xung quanh, tìm một kích thước.
 
 :::example Tìm chiều cao
 Hình hộp dài $10$ cm, rộng $6$ cm, có diện tích xung quanh $256\ \text{cm}^2$. Tìm chiều cao.
@@ -90,7 +90,7 @@ $$256:32=8\ \text{(cm)}.$$
 Vậy chiều cao là $8$ cm.
 :::
 
-Cuối cùng, ta chỉ tính những mặt được sơn.
+Đồ vật trong thực tế không phải lúc nào cũng cần tính đủ sáu mặt. Ở ví dụ cuối, ta chỉ tính những mặt được sơn.
 
 :::example Sơn một thùng gỗ
 Thùng dài $60$ cm, rộng $40$ cm, cao $30$ cm. Sơn bốn mặt bên và mặt trên. Tính diện tích sơn.
@@ -127,10 +127,11 @@ Vậy kết quả là $8\,400\ \text{cm}^2$.
 - Diện tích xung quanh $=$ chu vi mặt đáy $\times$ chiều cao.
 - Diện tích toàn phần $=$ diện tích xung quanh $+$ diện tích hai mặt đáy.
 - Dùng cùng một đơn vị, ghi đơn vị vuông và chỉ tính các mặt đề bài nêu.
+Câu hỏi đầu bài hỏi Minh cần bao nhiêu giấy cho mỗi việc: dán bốn mặt bên thì tính diện tích xung quanh, bọc kín cả hộp thì tính diện tích toàn phần. Em nhớ xem đề cần những mặt nào, rồi luyện thêm vài bài cho quen tay.
 
 ## Luyện tập
 
-Mỗi bài có phần kiến thức và gợi ý. Em hãy tự làm trước, rồi mới xem lời giải.
+Mỗi bài có phần kiến thức và gợi ý để em bắt đầu. Em cứ tự làm trước, chưa vội xem lời giải. Sai một chút cũng không sao, vì sửa được chỗ sai thì em nhớ lâu hơn.
 
 :::exercise
 Hình hộp dài $11$ cm, rộng $4$ cm, cao $6$ cm. Tính diện tích xung quanh.

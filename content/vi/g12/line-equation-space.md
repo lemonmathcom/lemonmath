@@ -11,21 +11,21 @@ minutes: 26
 - Tìm hình chiếu vuông góc của một điểm trên mặt phẳng và trên đường thẳng.
 :::
 
-Một chiếc drone cất cánh từ điểm $M_0(1; 2; 0)$ trên sân trường (đơn vị: mét). Nó bay thẳng, mỗi giây dịch chuyển theo vectơ $\vec{u}=(2; 1; 2)$. Trên cao có một vòng kiểm tra đặt tại $N(9; 6; 8)$. Drone có bay qua vòng kiểm tra không, và nếu có thì sau bao nhiêu giây?
+Một chiếc drone cất cánh từ điểm $M_0(1; 2; 0)$ trên sân trường (đơn vị: mét). Nó bay thẳng, và mỗi giây lại dịch chuyển theo vectơ $\vec{u}=(2; 1; 2)$. Trên cao có một vòng kiểm tra đặt tại $N(9; 6; 8)$. Bạn thử đoán xem: drone có bay xuyên qua vòng không, và nếu có thì sau bao nhiêu giây? Ta không cần thả drone bay thử. Chỉ cần viết đường bay của nó thành phương trình là trả lời được.
 
-Giống như trong mặt phẳng, một đường thẳng trong không gian được xác định bởi **một điểm** và **một hướng**. Chỉ khác là bây giờ có ba toạ độ.
+Ở mặt phẳng, bạn đã biết một điểm và một hướng là đủ để vẽ một đường thẳng. Trong không gian cũng vậy: đường thẳng được xác định bởi **một điểm** và **một hướng**. Chỉ khác là bây giờ mỗi điểm có ba toạ độ thay vì hai.
 
 ## Phương trình tham số của đường thẳng
 
 ### Khám phá: vị trí của drone
 
-Sau $t$ giây, drone ở điểm $M$ với $\overrightarrow{M_0M}=t\vec{u}$. Ta ghi vài vị trí:
+Sau $t$ giây, drone ở điểm $M$ với $\overrightarrow{M_0M}=t\vec{u}$. Nói cách khác, nó đã dịch chuyển bấy nhiêu lần bước bay mỗi giây kể từ chỗ cất cánh. Ta ghi vài vị trí để xem quy luật:
 
 | $t$ (giây) | $0$ | $1$ | $2$ | $3$ |
 |---|---|---|---|---|
 | vị trí | $(1; 2; 0)$ | $(3; 3; 2)$ | $(5; 4; 4)$ | $(7; 5; 6)$ |
 
-Vị trí sau $t$ giây là $(1+2t; 2+t; 2t)$. Để tới $N(9; 6; 8)$ cần $1+2t=9$, $2+t=6$, $2t=8$. Cả ba đều cho $t=4$, nên drone qua vòng kiểm tra sau $4$ giây. Quãng đường đã bay là $4|\vec{u}|=4\cdot3=12$ m.
+Vị trí sau $t$ giây là $(1+2t; 2+t; 2t)$. Vòng kiểm tra ở $N(9; 6; 8)$, nên ta hỏi: có một thời điểm nào làm cả ba toạ độ cùng khớp không? Tức là cần $1+2t=9$, $2+t=6$, $2t=8$. Cả ba đều cho $t=4$. Nếu chúng cho ba giá trị khác nhau thì drone đã bay lệch vòng. Vậy drone qua vòng kiểm tra sau $4$ giây. Quãng đường đã bay là $4|\vec{u}|=4\cdot3=12$ m.
 
 :::diagram Đường thẳng qua $M_0$ có vectơ chỉ phương $\vec{u}$
 alt: Một đường thẳng d đi qua điểm M0, mũi tên vectơ u đặt trên đường thẳng, và một điểm M khác trên d
@@ -47,7 +47,7 @@ $$\begin{cases}x=x_0+at\\ y=y_0+bt\\ z=z_0+ct\end{cases}\quad(t\in\mathbb{R}).$$
 $$\frac{x-x_0}{a}=\frac{y-y_0}{b}=\frac{z-z_0}{c}.$$
 :::
 
-**Vì sao đúng?** Điểm $M(x; y; z)$ thuộc $\Delta$ khi và chỉ khi $\overrightarrow{M_0M}$ cùng phương với $\vec{u}$, tức có số $t$ để $\overrightarrow{M_0M}=t\vec{u}$. Viết theo từng toạ độ: $x-x_0=at$, $y-y_0=bt$, $z-z_0=ct$. Khi $abc\neq0$, cả ba phân số đều bằng $t$.
+**Vì sao đúng?** Điểm $M(x; y; z)$ thuộc $\Delta$ khi và chỉ khi $\overrightarrow{M_0M}$ cùng phương với $\vec{u}$, tức là có số $t$ để $\overrightarrow{M_0M}=t\vec{u}$. Đó chính là điều chiếc drone đã làm: đi một số lần bước bay từ điểm xuất phát. Viết theo từng toạ độ: $x-x_0=at$, $y-y_0=bt$, $z-z_0=ct$. Khi $abc\neq0$, ta chia mỗi đẳng thức cho hệ số tương ứng, và cả ba phân số đều bằng $t$.
 
 :::example Từ một điểm và vectơ chỉ phương
 Cho đường thẳng $\Delta$ đi qua $M(1; -2; 3)$ và có vectơ chỉ phương $\vec{u}=(2; 0; -1)$. Viết phương trình tham số của $\Delta$, tìm điểm ứng với $t=2$ và xét xem $A(-3; -2; 5)$ có thuộc $\Delta$ không.
@@ -61,7 +61,7 @@ Với $t=2$ ta được điểm $(5; -2; 1)$. Với $A$, từ $1+2t=-3$ ta có $
 Vậy $A$ thuộc $\Delta$ (ứng với $t=-2$). Đường thẳng này không có phương trình chính tắc, vì toạ độ thứ hai của $\vec{u}$ bằng $0$.
 :::
 
-Khi biết hai điểm, ta lấy vectơ nối chúng làm vectơ chỉ phương. Khi đường thẳng vuông góc với một mặt phẳng, vectơ pháp tuyến của mặt phẳng chính là vectơ chỉ phương.
+Không phải lúc nào đề cũng cho sẵn vectơ chỉ phương, nhưng ta thường tự tìm được. Biết hai điểm thì vectơ nối chúng chạy dọc theo đường thẳng, nên ta lấy nó làm vectơ chỉ phương. Nếu đường thẳng vuông góc với một mặt phẳng thì nó cùng hướng với vectơ pháp tuyến của mặt phẳng, nên vectơ pháp tuyến chính là vectơ chỉ phương. Ví dụ dưới đây dùng cả hai cách.
 
 :::example Qua hai điểm; vuông góc với một mặt phẳng
 a) Viết phương trình tham số và chính tắc của đường thẳng $AB$ với $A(1; 2; -1)$, $B(3; -1; 1)$.
@@ -81,7 +81,7 @@ Vậy ta có các phương trình như trên.
 
 ## Vị trí tương đối của hai đường thẳng
 
-Trong không gian, hai đường thẳng có bốn khả năng. Khác với mặt phẳng, hai đường thẳng không cắt nhau và không song song vẫn có thể tồn tại: đó là hai đường thẳng **chéo nhau**.
+Trong không gian, hai đường thẳng có bốn khả năng: song song, trùng nhau, cắt nhau, và một khả năng mà mặt phẳng không có. Hình dung một cầu vượt chạy ngang trên cao và con đường chạy bên dưới: chúng không gặp nhau, mà cũng không song song. Hai đường thẳng như vậy gọi là **chéo nhau**.
 
 :::theorem Cách xét hai đường thẳng
 Cho $d_1$ qua $M_1$, vectơ chỉ phương $\vec{u}_1$ và $d_2$ qua $M_2$, vectơ chỉ phương $\vec{u}_2$.
@@ -105,7 +105,7 @@ Vậy $d_1$ cắt $d_2$ tại $(2; 2; 1)$, còn $d_1$ và $d_3$ chéo nhau.
 
 ## Đường thẳng và mặt phẳng
 
-Để xét đường thẳng $d$ và mặt phẳng $(P)$, ta thay phương trình tham số của $d$ vào phương trình của $(P)$ và được một phương trình bậc nhất theo $t$.
+Một điểm của đường thẳng nằm trên mặt phẳng khi toạ độ của nó thoả mãn phương trình của mặt phẳng. Vì mọi điểm của đường thẳng đều viết được theo tham số, ta thay phương trình tham số của $d$ vào phương trình của $(P)$ và được một phương trình bậc nhất theo $t$. Số nghiệm của phương trình đó cho biết $d$ và $(P)$ gặp nhau như thế nào.
 
 :::theorem Vị trí của đường thẳng và mặt phẳng
 Thay $x$, $y$, $z$ của $d$ vào phương trình $(P)$:
@@ -128,7 +128,7 @@ Vậy $d$ cắt $(P)$ tại điểm ứng với $t=2$, tức $(5; 1; 0)$; $d$ n�
 
 ## Hình chiếu vuông góc của một điểm
 
-Hình chiếu $H$ của điểm $M$ trên mặt phẳng $(P)$ là giao điểm của $(P)$ với đường thẳng qua $M$ vuông góc với $(P)$. Hình chiếu $H$ của $M$ trên đường thẳng $d$ là điểm $H\in d$ sao cho $\overrightarrow{MH}\perp\vec{u}$.
+Điểm của một mặt phẳng hay một đường thẳng gần nhất với điểm cho trước chính là chỗ ta thả vuông góc xuống. Điểm ấy gọi là hình chiếu. Hình chiếu $H$ của điểm $M$ trên mặt phẳng $(P)$ là giao điểm của $(P)$ với đường thẳng qua $M$ vuông góc với $(P)$. Hình chiếu $H$ của $M$ trên đường thẳng $d$ là điểm $H\in d$ sao cho $\overrightarrow{MH}\perp\vec{u}$.
 
 :::diagram Hình chiếu $H$ của $M$ trên mặt phẳng $(P)$
 alt: Một mặt phẳng vẽ dạng hình bình hành, điểm M ở phía trên, đoạn MH vuông góc với mặt phẳng tại H
@@ -159,7 +159,7 @@ Vậy điểm gần drone nhất là $H(1; -1; 3)$, cách drone $9$ m.
 **Kiểm tra.** Công thức khoảng cách: $\dfrac{|4+10+18-5|}{3}=9$.
 :::
 
-Ví dụ cuối nhiều bước hơn, nên ta làm theo bốn bước.
+Ví dụ cuối có nhiều bước hơn, nên ta làm chậm lại và chia thành bốn bước: hiểu đề, tìm cách giải, giải, nhìn lại.
 
 :::example Đoạn dây ngắn nhất tới một ống nước
 Một ống nước thẳng nằm dọc đường thẳng $d: x=1+t$, $y=-1+2t$, $z=2t$ (đơn vị: mét). Từ móc $M(0; 0; 4)$ cần kéo một sợi dây ngắn nhất tới ống. Tìm điểm buộc dây $H$ trên ống và độ dài sợi dây.
@@ -180,10 +180,11 @@ Vậy $H(2; 1; 2)$, $\overrightarrow{MH}=(2; 1; -2)$ và $MH=\sqrt{4+1+4}=3$. S�
 :::
 
 :::warning Những sai lầm thường gặp
-- **Dùng chung một tham số cho hai đường thẳng.** Sai: giải $d_1$, $d_2$ bằng hệ $1+t=1+t$, $2t=3-t$, ... Vì sao sai: mỗi đường thẳng có tham số riêng; một giao điểm có thể ứng với $t$ và $s$ khác nhau. Đúng: dùng $t$ cho $d_1$, $s$ cho $d_2$.
-- **Kết luận "song song" chỉ vì không cắt nhau.** Sai: $d_1$, $d_3$ không có điểm chung nên song song. Vì sao sai: trong không gian còn trường hợp chéo nhau. Đúng: song song cần thêm $\vec{u}_1$, $\vec{u}_2$ cùng phương.
-- **Viết phương trình chính tắc khi có toạ độ bằng $0$.** Sai: $\Delta$ ở Ví dụ 1 viết thành $\dfrac{x-1}{2}=\dfrac{y+2}{0}=\dfrac{z-3}{-1}$. Vì sao sai: không chia được cho $0$. Đúng: dùng phương trình tham số.
+- **Dùng chung một tham số cho hai đường thẳng.** Sai: giải $d_1$, $d_2$ bằng hệ $1+t=1+t$, $2t=3-t$, ... Vì sao sai: mỗi đường thẳng có tham số riêng, và một giao điểm có thể ứng với $t$ và $s$ khác nhau. Đúng: dùng $t$ cho $d_1$, $s$ cho $d_2$.
+- **Kết luận "song song" chỉ vì không cắt nhau.** Sai: $d_1$, $d_3$ không có điểm chung nên song song. Vì sao sai: trong không gian còn có trường hợp chéo nhau. Đúng: muốn song song thì $\vec{u}_1$, $\vec{u}_2$ còn phải cùng phương.
+- **Viết phương trình chính tắc khi có toạ độ bằng $0$.** Sai: viết $\Delta$ ở Ví dụ 1 thành $\dfrac{x-1}{2}=\dfrac{y+2}{0}=\dfrac{z-3}{-1}$. Vì sao sai: ta không chia được cho $0$. Đúng: dùng phương trình tham số.
 - **Dùng vectơ pháp tuyến làm vectơ chỉ phương cho đường thẳng song song với mặt phẳng.** Sai: đường thẳng song song với $(P)$ nhận $\vec{n}_P$ làm vectơ chỉ phương. Vì sao sai: $\vec{n}_P$ vuông góc với $(P)$. Đúng: $\vec{n}_P$ là vectơ chỉ phương của đường thẳng **vuông góc** với $(P)$.
+Mấy chỗ này nhiều bạn hay nhầm ở lần đầu, nên đừng lo nếu bạn cũng vậy. Làm xong, bạn thử thay kết quả vào đề để kiểm tra.
 :::
 
 ## Thuật ngữ
@@ -202,16 +203,17 @@ Vậy $H(2; 1; 2)$, $\overrightarrow{MH}=(2; 1; -2)$ và $MH=\sqrt{4+1+4}=3$. S�
 
 ## Tóm tắt
 
-- Đường thẳng qua $M_0(x_0; y_0; z_0)$, vectơ chỉ phương $\vec{u}=(a; b; c)$: $x=x_0+at$, $y=y_0+bt$, $z=z_0+ct$.
+- Đường thẳng qua $M_0(x_0; y_0; z_0)$ với vectơ chỉ phương $\vec{u}=(a; b; c)$ có phương trình $x=x_0+at$, $y=y_0+bt$, $z=z_0+ct$.
 - Khi $abc\neq0$: $\dfrac{x-x_0}{a}=\dfrac{y-y_0}{b}=\dfrac{z-z_0}{c}$.
 - Qua hai điểm $A$, $B$: $\vec{u}=\overrightarrow{AB}$. Vuông góc với $(P)$: $\vec{u}=\vec{n}_P$.
-- Hai đường thẳng: $\vec{u}_1$, $\vec{u}_2$ cùng phương thì song song hoặc trùng nhau; không cùng phương thì giải hệ theo $t$, $s$: có nghiệm là cắt nhau, vô nghiệm là chéo nhau.
-- Đường thẳng và mặt phẳng: thay vào được phương trình theo $t$; một nghiệm là cắt, vô nghiệm là song song, mọi $t$ là nằm trong.
+- Hai đường thẳng: $\vec{u}_1$, $\vec{u}_2$ cùng phương thì song song hoặc trùng nhau. Không cùng phương thì giải hệ theo $t$, $s$: có nghiệm là cắt nhau, vô nghiệm là chéo nhau.
+- Đường thẳng và mặt phẳng: thay vào được phương trình theo $t$. Một nghiệm là cắt, vô nghiệm là song song, mọi $t$ là nằm trong.
 - Hình chiếu trên $(P)$: giao của $(P)$ với đường thẳng qua $M$ có vectơ chỉ phương $\vec{n}$. Hình chiếu trên $d$: $H\in d$, $\overrightarrow{MH}\cdot\vec{u}=0$.
+Quay lại câu hỏi về chiếc drone: một điểm và một vectơ chỉ phương đủ để viết cả đường bay, và việc còn lại chỉ là giải phương trình theo tham số. Bạn nhớ điều đó là đã nắm được ý chính của cả bài.
 
 ## Luyện tập
 
-Mỗi bài có phần kiến thức và gợi ý các bước. Hãy tự làm trước, rồi mới bấm xem lời giải.
+Mỗi bài đều có phần kiến thức cần dùng và vài bước gợi ý để bạn bắt đầu. Hãy tự làm trước, đừng vội mở lời giải. Nếu bị kẹt, bạn xem gợi ý một chút, làm tiếp, rồi mới mở lời giải để đối chiếu.
 
 :::exercise
 Viết phương trình tham số của đường thẳng đi qua $A(2; -1; 3)$ và có vectơ chỉ phương $\vec{u}=(1; 4; -2)$. Tìm điểm ứng với $t=-1$ và kiểm tra xem $B(4; 7; -1)$ có thuộc đường thẳng không.

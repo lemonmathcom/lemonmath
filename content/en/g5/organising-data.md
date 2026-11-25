@@ -14,11 +14,11 @@ Class 5A has $24$ children. The teacher asks: "Which fruit do you like best?" Sh
 
 Orange, Mango, Guava, Orange, Banana, Mango, Orange, Watermelon, Orange, Mango, Banana, Guava, Orange, Mango, Orange, Watermelon, Banana, Mango, Orange, Guava, Mango, Banana, Orange, Watermelon.
 
-The list is long and messy. Which fruit did the most children choose?
+The list is long and messy, and one read-through will not tell us how many children chose each fruit. So which fruit did the most children choose?
 
 ## Let's explore
 
-Draw a table with one row for each fruit. Read each answer and make one stroke in that fruit's row. After $5$ strokes, group them together to make counting easy. This is called a **tally**.
+Let us tidy it up. Draw a table with one row for each fruit. Then read the answers one at a time, and for each child make one stroke in the row of the fruit they chose. A long run of strokes is hard to count, so after every $5$ strokes we group them together. This way of recording is called a **tally**.
 
 | Fruit | Tally | Number of children |
 |---|---|---|
@@ -29,7 +29,7 @@ Draw a table with one row for each fruit. Read each answer and make one stroke i
 | Watermelon | /// | 3 |
 | Total | | 24 |
 
-Add the numbers: $8+6+4+3+3=24$. The total equals the number of children asked, so no child was missed or counted twice. The favourite fruit is orange, with $8$ children.
+The table already answers our opening question: the favourite fruit is orange, with $8$ children. But before we trust the table, we add the numbers: $8+6+4+3+3=24$. Why add them? Because the total must equal the number of children asked. When the two numbers match, we know that no child was missed and no child was counted twice.
 
 :::theorem Three jobs with data
 1. **Collect:** ask, measure or count, and write down each piece of data.
@@ -37,11 +37,11 @@ Add the numbers: $8+6+4+3+3=24$. The total equals the number of children asked, 
 3. **Put in order:** arrange the numbers in **ascending order** (smallest to largest) or **descending order** (largest to smallest).
 :::
 
-Checking the total is an important step. If the total is different from the number of children asked, you missed someone or counted someone twice, so count again.
+This is the step that is easiest to forget: checking the total. It takes only a few seconds, and it tells you at once whether the table is right. If the total is different from the number of children asked, you missed someone or counted someone twice, so count again.
 
 ## Examples
 
-We start with data that are numbers: the number of brothers and sisters each child has.
+Data are not only the names of fruit. They can be numbers too, such as the number of brothers and sisters each child has. The method is the same: sort into groups, tally, then check the total.
 
 :::example Brothers and sisters
 The teacher asks $12$ children: "How many brothers and sisters do you have?" The answers are $1, 2, 1, 0, 2, 1, 3, 1, 2, 1, 0, 2$. Make a table of the data.
@@ -59,7 +59,7 @@ The teacher asks $12$ children: "How many brothers and sisters do you have?" The
 Check: $2+5+4+1=12$, exactly the number of children asked. So $5$ children have exactly $1$ brother or sister.
 :::
 
-Once we have the data, we often need to put them in order.
+Once we have the data, we often want to know who is shortest and who is tallest. Putting the numbers in order shows this at once.
 
 :::example Putting heights in order
 The heights of $6$ children in a group (in cm) are $138, 145, 141, 150, 139, 143$. Write them in ascending order. How tall are the shortest and the tallest child?
@@ -70,7 +70,7 @@ For descending order, write it backwards: $150, 145, 143, 141, 139, 138$.
 So the shortest child is $138$ cm and the tallest is $150$ cm.
 :::
 
-Now read a data table and answer questions.
+A table holds more than you see at first glance. Read the next one carefully and answer each question in turn.
 
 :::example Library loans
 The table shows how many books were borrowed in $5$ days:
@@ -90,7 +90,7 @@ $$41-28=13.$$
 So Wednesday had the most loans; $170$ books were borrowed in the week; the busiest day had $13$ more books than the quietest day.
 :::
 
-Finally, use the total to find a missing number in a table.
+Knowing the total also lets us find a missing number: subtract the known numbers from the total.
 
 :::example A bakery
 One morning a bakery sold $60$ items: $18$ rolls, $12$ steamed buns, $14$ sticky rice parcels and some doughnuts. How many doughnuts were sold? Put the items in order of the number sold, from most to least.
@@ -102,9 +102,11 @@ So the bakery sold $16$ doughnuts.
 :::
 
 :::warning Mistakes to watch out for
-- **Not checking the total.** Wrong: a table totals $23$ for $24$ children and nobody counts again. Why it is wrong: one child was missed. Right: add up and compare with the number asked.
-- **Mixing up ascending and descending.** Wrong: saying $5, 9, 12$ is descending. Why it is wrong: the numbers are getting bigger. Right: $5<9<12$ is ascending.
-- **Ordering numbers but dropping the names.** Wrong: putting running times in order without saying who ran each one. Right: keep each name with its number.
+- **Not checking the total.** Wrong: the table adds up to $23$ although $24$ children were asked, and nobody counts again. Why it is wrong: when the two numbers differ, one child was missed. Right: add up the table and compare with the number of children asked.
+- **Mixing up ascending and descending.** Wrong: saying $5, 9, 12$ is descending. Why it is wrong: reading from left to right, the numbers are getting bigger. Right: $5<9<12$ is ascending.
+- **Ordering numbers but dropping the names.** Wrong: putting running times in order without saying who ran each one. Right: always keep each name with its number.
+
+Everyone slips on these now and then. Checking each step as you go will help you avoid them.
 :::
 
 ## Key terms
@@ -123,15 +125,17 @@ So the bakery sold $16$ doughnuts.
 
 ## Summary
 
-- Collect data by asking, measuring or counting; write down each piece of data.
-- Sort into a table with a **tally**: one stroke each time, and group every $5$ strokes.
-- Add the numbers in the table; the total must equal the number of children asked.
+- Collect data by asking, measuring or counting, and write down each piece of data.
+- Sort into a table with a **tally**: make one stroke each time you meet a piece of data, and group every $5$ strokes.
+- Add the numbers in the table: the total must equal the number of children asked.
 - **Ascending:** smallest to largest. **Descending:** largest to smallest.
 - When the total is known, a missing number is the total minus the known numbers.
 
+Back to our opening question: with a tally table, the messy list gave us a clear answer, orange. Remember to add up and check the total, then keep practising.
+
 ## Practice
 
-Each exercise comes with what you need and how to start. Try it yourself first, then open the solution.
+Each exercise comes with what you need to remember and a hint to get you started. Try it yourself first, look at the hint if you are stuck, and open the solution last. A mistake along the way is fine: the method is what we are practising.
 
 :::exercise
 Put these numbers in ascending order: $47, 39, 52, 40, 45$.

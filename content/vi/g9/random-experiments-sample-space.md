@@ -10,18 +10,18 @@ minutes: 20
 - Phân biệt lấy có hoàn lại, không hoàn lại và lấy đồng thời.
 :::
 
-An và Bình chơi trò tung hai đồng xu: nếu hai đồng xu cùng mặt thì An thắng, khác mặt thì Bình thắng. Bình phàn nàn: "Chỉ có ba khả năng: hai mặt sấp, hai mặt ngửa, một sấp một ngửa. An có hai khả năng thắng, mình chỉ có một. Không công bằng!" Bình nói đúng không? Để trả lời, ta phải liệt kê *đúng* và *đủ* mọi kết quả có thể xảy ra: việc tưởng đơn giản nhưng rất hay nhầm.
+An và Bình chơi trò tung hai đồng xu: nếu hai đồng xu cùng mặt thì An thắng, khác mặt thì Bình thắng. Bình phàn nàn: "Chỉ có ba khả năng: hai mặt sấp, hai mặt ngửa, một sấp một ngửa. An có hai khả năng thắng, mình chỉ có một. Không công bằng!" Bình nói đúng không? Muốn biết, ta phải liệt kê mọi kết quả có thể xảy ra, không thiếu và không thừa. Việc này nghe đơn giản mà rất dễ nhầm, nhưng liệt kê đúng là bước đầu của mọi bài toán xác suất.
 
 ## Phép thử ngẫu nhiên và không gian mẫu
 
-Gieo một con xúc xắc, rút một lá thăm, chọn một bạn lên bảng: trước khi làm, ta biết những kết quả *có thể* xảy ra, nhưng không biết kết quả *nào* sẽ xảy ra.
+Khi gieo một con xúc xắc, rút một lá thăm hay chọn một bạn lên bảng, ta biết trước những kết quả *có thể* xảy ra. Nhưng kết quả *nào* sẽ xảy ra thì chưa ai biết. Những hoạt động như vậy có tên riêng, và tập hợp các kết quả của chúng cũng có tên riêng.
 
 :::definition Phép thử ngẫu nhiên và không gian mẫu
 - **Phép thử ngẫu nhiên** (gọi tắt là phép thử) là một hoạt động mà ta không thể biết trước kết quả của nó.
 - Tập hợp tất cả các kết quả có thể xảy ra của phép thử gọi là **không gian mẫu** của phép thử, kí hiệu là $\Omega$.
 :::
 
-**Hiểu sâu hơn.** Rút một thẻ từ hộp mà mọi thẻ đều ghi số $5$ không phải phép thử ngẫu nhiên: kết quả đã biết trước. Ngoài ra, "kết quả" phụ thuộc vào điều ta quan sát: gieo một xúc xắc và ghi số chấm thì $\Omega=\{1;2;3;4;5;6\}$, chỉ ghi "chẵn" hay "lẻ" thì $\Omega=\{\text{chẵn}; \text{lẻ}\}$. Vì vậy, trước khi liệt kê, hãy hỏi: "Một kết quả gồm những thông tin gì?"
+**Hiểu sâu hơn.** Có hai chỗ bạn nên để ý. Thứ nhất, rút một thẻ từ hộp mà mọi thẻ đều ghi số $5$ thì không phải phép thử ngẫu nhiên, vì kết quả đã biết trước. Thứ hai, "kết quả" là gì còn tùy ta quan sát điều gì. Gieo một xúc xắc và ghi số chấm thì $\Omega=\{1;2;3;4;5;6\}$. Nếu chỉ ghi "chẵn" hay "lẻ" thì $\Omega=\{\text{chẵn}; \text{lẻ}\}$. Vì vậy, trước khi liệt kê, bạn hãy tự hỏi: một kết quả gồm những thông tin gì?
 
 :::example Mô tả không gian mẫu
 Mô tả không gian mẫu của mỗi phép thử sau và cho biết không gian mẫu có bao nhiêu phần tử.
@@ -41,7 +41,7 @@ c) Ta có $\Omega=\{S; N\}$, gồm $2$ phần tử.
 
 ## Sơ đồ cây cho phép thử gồm hai bước
 
-Khi phép thử gồm hai bước (tung hai đồng xu, rút hai lá thăm), mỗi kết quả là một **cặp có thứ tự**: kết quả bước 1, rồi kết quả bước 2. Để không bỏ sót, ta vẽ **sơ đồ cây**: từ gốc, vẽ một nhánh cho mỗi kết quả của bước 1; từ đầu mỗi nhánh đó, vẽ một nhánh cho mỗi kết quả của bước 2. Mỗi đường đi từ gốc đến ngọn cho một kết quả.
+Khi phép thử có hai bước, như tung hai đồng xu hay rút hai lá thăm, một kết quả gồm hai phần: kết quả bước 1, rồi kết quả bước 2. Ta gọi đó là một **cặp có thứ tự**. Làm sao liệt kê hết mà không sót? Ta vẽ một **sơ đồ cây**. Từ gốc, vẽ một nhánh cho mỗi kết quả của bước 1. Từ đầu mỗi nhánh đó, lại vẽ một nhánh cho mỗi kết quả của bước 2. Mỗi đường đi từ gốc đến ngọn cho đúng một kết quả.
 
 :::diagram Sơ đồ cây khi tung hai đồng xu
 alt: Sơ đồ cây: từ gốc tách thành S và N (đồng xu thứ nhất), mỗi nhánh lại tách thành S và N (đồng xu thứ hai), cho bốn kết quả (S; S), (S; N), (N; S), (N; N)
@@ -106,7 +106,7 @@ b) Mỗi màu ở lần thứ nhất có cả ba màu ở lần thứ hai, nên 
 
 ## Dùng bảng cho phép thử gồm hai bước
 
-Khi mỗi bước có nhiều kết quả, sơ đồ cây trở nên rậm rạp; ta dùng **bảng**: hàng ứng với kết quả bước 1, cột ứng với kết quả bước 2, mỗi ô là một kết quả.
+Khi mỗi bước có nhiều kết quả, sơ đồ cây trở nên rậm rạp và khó nhìn. Lúc đó ta chuyển sang dùng **bảng**: hàng ứng với kết quả bước 1, cột ứng với kết quả bước 2, và mỗi ô là một kết quả. Ví dụ gieo hai xúc xắc dưới đây cho thấy bảng gọn hơn cây ở chỗ nào.
 
 :::example Gieo hai con xúc xắc
 Gieo hai con xúc xắc (một xanh, một đỏ). Mô tả không gian mẫu và cho biết có bao nhiêu kết quả mà tổng số chấm bằng $7$.
@@ -128,12 +128,13 @@ Vậy không gian mẫu có $36$ phần tử, trong đó có $6$ kết quả có
 :::
 
 :::warning Những sai lầm thường gặp
-- **Gộp các kết quả khác nhau.** Sai: tung hai đồng xu có ba kết quả. Đúng: có bốn kết quả, vì $(S; N)$ và $(N; S)$ khác nhau.
-- **Quên kết quả trùng khi lấy có hoàn lại**, như $(Đ; Đ)$; hoặc **thêm kết quả trùng khi lấy không hoàn lại**.
-- **Lẫn lộn cặp có thứ tự và không thứ tự** (lấy lần lượt và lấy đồng thời).
+- **Gộp các kết quả khác nhau.** Sai: tung hai đồng xu có ba kết quả. Đúng: có bốn kết quả, vì $(S; N)$ và $(N; S)$ là hai kết quả khác nhau.
+- **Quên kết quả trùng khi lấy có hoàn lại**, như $(Đ; Đ)$. Ngược lại, cũng đừng **thêm kết quả trùng khi lấy không hoàn lại**.
+- **Lẫn lộn cặp có thứ tự và không thứ tự**: lấy lần lượt khác với lấy đồng thời.
+Chỗ này nhiều bạn hay nhầm, nên liệt kê xong hãy đối chiếu lại với sơ đồ cây hoặc bảng.
 :::
 
-**Kết nối.** Lớp 8 bạn đã tính xác suất khi gieo một xúc xắc. Bài này chuẩn bị cho [xác suất của biến cố](lesson:event-probability-experiments): muốn tính xác suất, trước hết phải liệt kê đúng không gian mẫu. Cách đếm (số nhánh bước 1) $\times$ (số nhánh bước 2) sẽ thành quy tắc nhân ở lớp 10.
+**Kết nối.** Ở lớp 8, bạn đã tính xác suất khi gieo một xúc xắc. Bài này là bước chuẩn bị cho [xác suất của biến cố](lesson:event-probability-experiments): muốn tính xác suất, trước hết phải liệt kê đúng không gian mẫu. Còn cách đếm (số nhánh bước 1) $\times$ (số nhánh bước 2) sẽ trở thành quy tắc nhân ở lớp 10.
 
 ## Thuật ngữ
 
@@ -152,10 +153,11 @@ Vậy không gian mẫu có $36$ phần tử, trong đó có $6$ kết quả có
 - Phép thử: không biết trước kết quả. Không gian mẫu $\Omega$: tập hợp mọi kết quả có thể.
 - Phép thử hai bước: mỗi kết quả là một cặp có thứ tự; liệt kê bằng sơ đồ cây hoặc bảng.
 - Số phần tử $=$ (số nhánh bước 1) $\times$ (số nhánh bước 2).
+Quay lại trò chơi của An và Bình: chỉ cần liệt kê đúng và đủ là ta thấy ngay Bình đã nhầm. Mỗi khi gặp một phép thử mới, bạn hãy vẽ sơ đồ cây hoặc kẻ bảng trước khi đếm, rồi làm các bài luyện tập để quen tay.
 
 ## Luyện tập
 
-Mỗi bài có phần kiến thức và gợi ý các bước. Hãy tự làm trước, rồi mới bấm xem lời giải.
+Mỗi bài đều có phần kiến thức cần nhớ và vài gợi ý để bắt đầu. Bạn cứ tự làm trước, vướng ở đâu thì đọc gợi ý, sau cùng mới mở lời giải để đối chiếu. Làm được vài bài là bạn sẽ thấy quen tay.
 
 :::exercise
 Mô tả không gian mẫu của mỗi phép thử sau:

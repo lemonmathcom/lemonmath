@@ -12,11 +12,11 @@ minutes: 45
 - Cộng, nhân số phức và rút gọn luỹ thừa của $i$.
 :::
 
-Các câu về số và đại lượng là những điểm nhanh nhất của ACT, nhưng cũng là nơi lỗi cẩu thả gây thiệt hại nhiều nhất: tính phần trăm trên nhầm đại lượng, quên đổi đơn vị, mất dấu khi tính luỹ thừa của $i$. Bài này tập hợp những ý cần biết và cho thấy cách trình bày một lời giải nhanh, chắc chắn cho từng dạng.
+Phần số và đại lượng cho điểm nhanh nhất trong ACT. Nhưng đây cũng là chỗ những lỗi cẩu thả tốn điểm nhất: tính phần trăm trên nhầm đại lượng, quên đổi đơn vị, mất dấu khi tính luỹ thừa của $i$. Vậy làm sao vừa nhanh vừa chắc? Bài này gom những ý cần biết, rồi cho thấy cách trình bày một lời giải gọn cho từng dạng.
 
 ## Phần trăm
 
-Thay đổi $p\%$ nghĩa là nhân đại lượng với một **hệ số nhân (multiplier)**: tăng $p\%$ thì nhân với $1+\dfrac{p}{100}$, giảm $p\%$ thì nhân với $1-\dfrac{p}{100}$. Các lần thay đổi liên tiếp nhân các hệ số với nhau, nên không thể cộng đơn giản.
+Thay đổi $p\%$ nghĩa là nhân đại lượng với một **hệ số nhân (multiplier)**. Tăng $p\%$ thì nhân với $1+\dfrac{p}{100}$, giảm $p\%$ thì nhân với $1-\dfrac{p}{100}$. Vì sao không cộng được các lần thay đổi liên tiếp? Vì mỗi lần thay đổi được tính trên kết quả của lần trước, nên các hệ số nhân phải nhân với nhau.
 
 :::example Tăng 20% rồi giảm 20%
 Một chiếc áo khoác giá $50$ đô la. Giá được tăng $20\%$, sau đó giá mới lại giảm $20\%$. Giá cuối cùng là bao nhiêu?
@@ -35,7 +35,7 @@ Vậy giá cuối cùng là $48$ đô la, chọn đáp án **B**. Phương án A
 
 ## Tỉ số, tỉ lệ thức và tỉ lệ bản đồ
 
-Nếu hai đại lượng có tỉ số $a:b$, hãy viết chúng là $ak$ và $bk$ với một số $k$ nào đó. Với tỉ lệ thức $\dfrac ab=\dfrac cd$, nhân chéo: $ad=bc$.
+Nếu hai đại lượng có tỉ số $a:b$, hãy viết chúng là $ak$ và $bk$ với một số $k$ nào đó, rồi bài toán chỉ còn một ẩn. Còn với tỉ lệ thức $\dfrac ab=\dfrac cd$, ta nhân chéo: $ad=bc$.
 
 :::example Tỉ lệ bản đồ
 Trên một bản đồ, $1$ cm ứng với $2{,}5$ km. Hai thị trấn cách nhau $7{,}2$ cm trên bản đồ. Khoảng cách thực tế giữa chúng là bao nhiêu?
@@ -52,7 +52,7 @@ Vậy hai thị trấn cách nhau $18$ km, chọn đáp án **A**. Phương án 
 
 ## Tốc độ và đổi đơn vị
 
-Hãy viết đơn vị ở mọi bước và rút gọn chúng như các con số. Chẳng hạn $1$ km $=1000$ m và $1$ h $=3600$ s, nên để đổi km/h sang m/s ta nhân với $\dfrac{1000}{3600}=\dfrac{1}{3{,}6}$.
+Hãy viết đơn vị ở mọi bước và rút gọn chúng như các con số: nếu các đơn vị rút gọn ra đúng cái cần tìm thì phép đổi đã đúng. Chẳng hạn $1$ km $=1000$ m và $1$ h $=3600$ s, nên để đổi km/h sang m/s ta nhân với $\dfrac{1000}{3600}=\dfrac{1}{3{,}6}$.
 
 :::example Từ km/h sang m/s
 Một đoàn tàu chạy với tốc độ $72$ km/h. Tốc độ của nó tính bằng mét mỗi giây là bao nhiêu?
@@ -107,7 +107,7 @@ Vậy kết quả là $2\times10^{10}$, chọn đáp án **B**. Phương án A t
 
 ## Số phức
 
-Số $i$ thoả mãn $i^2=-1$. Cộng hai số phức bằng cách cộng phần thực với nhau và phần ảo với nhau; nhân chúng như nhân hai nhị thức rồi thay $i^2$ bởi $-1$. Các luỹ thừa của $i$ lặp lại với chu kì $4$: $i,-1,-i,1$.
+Số $i$ thoả mãn $i^2=-1$, và mọi quy tắc còn lại đi ra từ đó. Cộng hai số phức bằng cách cộng phần thực với nhau và phần ảo với nhau. Nhân chúng như nhân hai nhị thức, rồi thay $i^2$ bởi $-1$. Các luỹ thừa của $i$ lặp lại với chu kì $4$: $i,-1,-i,1$. Nhờ chu kì đó, mọi luỹ thừa đều quy về bốn giá trị ấy.
 
 :::example Nhân hai số phức
 Biểu thức nào sau đây bằng $(3+2i)(1-i)$?
@@ -126,10 +126,11 @@ Vậy $(3+2i)(1-i)=5-i$, chọn đáp án **A**.
 
 :::warning Những cái bẫy thường gặp
 - **Cộng các phần trăm:** tăng $20\%$ rồi giảm $20\%$ là giảm $4\%$, không phải $0\%$.
-- **Gốc của phần trăm:** "nhiều hơn $x$ là $25\%$" là $1{,}25x$, còn "$x$ nhiều hơn $y$ là $25\%$" nghĩa là $x=1{,}25y$.
+- **Gốc của phần trăm:** chỗ này nhiều bạn hay nhầm. "nhiều hơn $x$ là $25\%$" là $1{,}25x$, còn "$x$ nhiều hơn $y$ là $25\%$" nghĩa là $x=1{,}25y$.
 - **Đổi đơn vị ngược chiều:** kiểm tra xem các đơn vị rút gọn có ra đúng đơn vị cần tìm không.
 - **Quy tắc luỹ thừa với cơ số khác nhau:** hãy đưa về cùng cơ số trước.
 - **Luỹ thừa của $i$:** chia số mũ cho $4$ và dùng số dư.
+Trước khi chốt đáp án, bạn hãy tự hỏi: mình đang tính phần trăm của đại lượng nào, và đơn vị đã khớp chưa?
 :::
 
 :::terms

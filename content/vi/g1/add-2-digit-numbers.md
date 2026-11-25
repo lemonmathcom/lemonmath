@@ -12,13 +12,13 @@ minutes: 15
 
 Lan có $23$ cái nhãn dán. Hoa có $34$ cái nhãn dán. Hỏi hai bạn có tất cả bao nhiêu cái nhãn dán?
 
-Đếm thêm từng cái thì rất lâu. Bài này giúp em cộng nhanh bằng cách tách mỗi số thành hàng chục và hàng đơn vị.
+Muốn biết hai bạn có bao nhiêu cái nhãn dán, em có thể đếm thêm từng cái một. Nhưng với hai số lớn như vậy thì đếm rất lâu và dễ nhầm. Nếu em tách mỗi số thành hàng chục và hàng đơn vị, phép cộng sẽ gọn hơn nhiều.
 
 ## Cùng khám phá
 
-Em đã học ở bài trước: $23+4$ thì cộng hàng đơn vị và giữ nguyên hàng chục. Bây giờ ta cộng thêm cả hàng chục.
+Ở bài trước, với $23+4$, em cộng hàng đơn vị và giữ nguyên hàng chục. Lần này số thứ hai cũng có hàng chục, nên hàng chục không đứng yên nữa. Ta phải cộng cả hàng chục.
 
-Ta tách mỗi số thành chục và đơn vị:
+Trước hết ta tách mỗi số thành chục và đơn vị, để nhìn rõ từng hàng:
 
 | Số | Chục | Đơn vị |
 |---|---|---|
@@ -28,8 +28,9 @@ Ta tách mỗi số thành chục và đơn vị:
 - Cộng hàng đơn vị với hàng đơn vị: $3+4=7$.
 - Cộng hàng chục với hàng chục: $2+3=5$.
 - $5$ chục và $7$ đơn vị là $57$.
+Chục cộng với chục, lẻ cộng với lẻ. Hai hàng không bao giờ lẫn vào nhau.
 
-Vậy $23+34=57$.
+Vậy $23+34=57$. Đó cũng là số nhãn dán của cả hai bạn.
 
 :::graph Trên tia số: từ 23, nhảy 3 chục đến 53, rồi nhảy 4 đơn vị đến 57
 alt: Tia số từ 20 đến 60, đánh dấu các điểm 23, 53 và 57; đoạn từ 23 đến 57 được tô đậm
@@ -48,11 +49,11 @@ Muốn tính $23+34$:
 3. Ghép lại: $5$ chục và $7$ đơn vị là $57$.
 :::
 
-Cách này đúng vì em gộp chục với chục và lẻ với lẻ, nên không bị mất hay thừa cái nhãn dán nào.
+Vì sao ta cộng chục với chục, lẻ với lẻ? Vì mỗi cái nhãn dán thuộc đúng một hàng. Em gộp chục với chục và lẻ với lẻ, nên không bị mất hay thừa cái nhãn dán nào.
 
 ## Ví dụ
 
-Ta bắt đầu với một phép cộng đơn giản nhất.
+Ta thử ngay với số nhãn dán của hai bạn.
 
 :::example Tính $23+34$
 **Lời giải.** Cộng hàng đơn vị: $3+4=7$. Cộng hàng chục: $2+3=5$:
@@ -60,7 +61,7 @@ $$23+34=57.$$
 Vậy $23+34=57$.
 :::
 
-Bây giờ ta làm một phép tính giống như vậy, nhưng đổi số.
+Em thử với những số khác nhé. Các bước vẫn y như vậy.
 
 :::example Tính $41+25$
 **Lời giải.** Cộng hàng đơn vị: $1+5=6$. Cộng hàng chục: $4+2=6$:
@@ -68,7 +69,7 @@ $$41+25=66.$$
 Vậy $41+25=66$.
 :::
 
-Khi một số tròn chục, hàng đơn vị chỉ có một số khác $0$.
+Có khi một trong hai số tròn chục, nghĩa là hàng đơn vị của nó là $0$. Em vẫn làm như cũ, chỉ có phép cộng hàng đơn vị là nhẹ nhàng hơn.
 
 :::example Tính $30+52$
 **Lời giải.** Cộng hàng đơn vị: $0+2=2$. Cộng hàng chục: $3+5=8$:
@@ -76,7 +77,7 @@ $$30+52=82.$$
 Vậy $30+52=82$.
 :::
 
-Hãy thử một phép tính mà hàng đơn vị cộng lại gần bằng $10$.
+Thử một phép tính mà hàng đơn vị cộng lại gần bằng $10$ nhé. Cách làm vẫn là hai bước như trước.
 
 :::example Tính $45+34$
 **Lời giải.** Cộng hàng đơn vị: $5+4=9$. Cộng hàng chục: $4+3=7$:
@@ -86,7 +87,7 @@ Vậy $45+34=79$.
 **Kiểm tra.** $79$ lớn hơn $45$ và lớn hơn $34$, đúng như mong đợi của một tổng.
 :::
 
-Bây giờ em dùng phép cộng để trả lời một câu hỏi trong cuộc sống.
+Phép cộng cũng giúp em đếm số bạn trong trường. Em xem bài toán về hai lớp nhé.
 
 :::example Học sinh hai lớp
 Lớp $1$A có $32$ học sinh, lớp $1$B có $36$ học sinh. Hỏi cả hai lớp có tất cả bao nhiêu học sinh?
@@ -97,9 +98,9 @@ Vậy cả hai lớp có $68$ học sinh.
 :::
 
 :::warning Những lỗi em hay gặp
-- **Quên cộng hàng chục.** Sai: $23+34=7$. Vì sao sai: em mới cộng hàng đơn vị. Đúng: còn $2+3=5$ chục, nên $23+34=57$.
-- **Đảo chục và đơn vị.** Sai: $23+34=75$. Vì sao sai: em viết hàng đơn vị lên trước hàng chục. Đúng: $5$ chục và $7$ đơn vị là $57$.
-- **Bài toán có lời văn quên đơn vị.** Sai: "Đáp số: $68$". Đúng: "Đáp số: $68$ học sinh".
+- **Quên cộng hàng chục.** Sai: $23+34=7$, vì em mới cộng hàng đơn vị. Đúng: còn $2+3=5$ chục, nên $23+34=57$. Em nhớ nhìn xem còn hàng nào chưa cộng nhé.
+- **Đảo chục và đơn vị.** Chỗ này nhiều bạn hay nhầm. Sai: $23+34=75$, vì em viết hàng đơn vị lên trước hàng chục. Đúng: $5$ chục và $7$ đơn vị là $57$.
+- **Bài toán có lời văn quên đơn vị.** Sai: "Đáp số: $68$". Đúng: "Đáp số: $68$ học sinh". Em nhớ ghi đơn vị sau con số nhé.
 :::
 
 ## Thuật ngữ
@@ -121,10 +122,11 @@ Vậy cả hai lớp có $68$ học sinh.
 - Viết hàng chục trước, hàng đơn vị sau: $5$ chục và $7$ đơn vị là $57$.
 - Đổi chỗ các số hạng thì tổng không đổi.
 - Bài toán hỏi "tất cả", "cả hai" thường là phép cộng; nhớ ghi đơn vị trong đáp số.
+Quay lại câu hỏi đầu bài: số nhãn dán của hai bạn là tổng của hai số, và ta tìm nó bằng cách cộng từng hàng. Em nhớ chục với chục, đơn vị với đơn vị, rồi làm thêm vài bài luyện tập để quen tay nhé.
 
 ## Luyện tập
 
-Mỗi bài có phần kiến thức và gợi ý. Em hãy tự làm trước, rồi mới bấm xem lời giải.
+Mỗi bài có phần kiến thức cần nhớ và một gợi ý để em khởi động. Em thử tự làm trước đã, chỗ nào chưa chắc thì hãy bấm xem lời giải.
 
 :::exercise
 Tính $32+45$.

@@ -12,17 +12,18 @@ minutes: 15
 
 Lan has lots of marbles. She makes bundles of $10$ marbles and gets $2$ bundles, with $3$ marbles left over. How many marbles does Lan have altogether?
 
-You already know the numbers up to $10$. In this lesson you learn bigger numbers by counting in tens.
+You already know how to count up to $10$. But if Lan had more marbles than that, counting them one by one would be easy to muddle. Putting them into bundles and counting the bundles is much tidier. This lesson shows you how to read and write numbers that way.
 
 ## Let's explore
 
-Put $10$ things together to make one ten. One ten has $10$ ones.
+When you put $10$ things together, you make one ten. So one ten has $10$ ones.
 
-- $10$ marbles are $1$ ten and $0$ ones. We write the number $10$.
+- $10$ marbles make $1$ ten and $0$ ones. We write the number $10$.
 - $2$ bundles of marbles and $3$ loose marbles are $2$ tens and $3$ ones. We write the number $23$ (read "twenty-three").
 - $4$ bundles of marbles and $7$ loose marbles are $4$ tens and $7$ ones. We write the number $47$ (read "forty-seven").
+Notice that the tens come first and the ones come second.
 
-So Lan has $23$ marbles.
+So Lan has $23$ marbles. Look at the table:
 
 | Number | Tens | Ones |
 |---|---|---|
@@ -37,11 +38,11 @@ So Lan has $23$ marbles.
 4. $1$ ten is $10$ ones; $5$ tens make $50$.
 :::
 
-This works because each bundle has $10$ marbles. The number of bundles is the tens, and the loose marbles are the ones.
+Why does this work? Each bundle has $10$ marbles. Counting the bundles gives the tens, and counting the loose marbles gives the ones.
 
 ## Examples
 
-We start by reading a number.
+We start with a number and ask: how many tens and ones?
 
 :::example The number 23
 How many tens and ones are in the number $23$?
@@ -51,7 +52,7 @@ How many tens and ones are in the number $23$?
 So $23$ is $2$ tens and $3$ ones.
 :::
 
-Now do it the other way: write a number.
+Now we go the other way: you know the tens and the ones, and you write the number.
 
 :::example Writing a number
 Write the number made of $4$ tens and $7$ ones.
@@ -61,7 +62,7 @@ Write the number made of $4$ tens and $7$ ones.
 So the number is $47$.
 :::
 
-Some numbers are whole tens.
+Some numbers are whole tens, with no loose ones at all. Here is one.
 
 :::example The number 50
 How many tens and ones are in the number $50$?
@@ -71,7 +72,7 @@ How many tens and ones are in the number $50$?
 So $50$ is $5$ tens and $0$ ones.
 :::
 
-Last, solve an everyday problem.
+Last, we use bundles to count something real: sticks.
 
 :::example Bundles of sticks
 There are $3$ bundles of sticks with $10$ sticks in each, and $4$ loose sticks. How many sticks are there altogether?
@@ -87,6 +88,7 @@ So there are $34$ sticks.
 - **Swapping the digits.** Wrong: $2$ tens $3$ ones is written $32$. Why it is wrong: $32$ has $3$ tens. Right: $23$.
 - **Forgetting the $0$.** Wrong: $5$ tens is written $5$. Why it is wrong: $5$ is only $5$ ones. Right: $5$ tens is written $50$.
 - **Mixing up tens and ones.** Wrong: the digit $6$ in $68$ is in the ones place. Why it is wrong: $6$ is on the left, so it is in the tens place. Right: $6$ is in the tens place and $8$ in the ones place.
+Many pupils mix these up, so remember: the digit on the left is in the tens place.
 :::
 
 ## Key terms
@@ -107,10 +109,11 @@ So there are $34$ sticks.
 - A two-digit number has tens and ones: $23$ is $2$ tens and $3$ ones.
 - The digit on the left is the tens digit; the digit on the right is the ones digit.
 - $5$ tens is written $50$.
+Lan's question at the start is answered the same way: counting bundles gives the tens, and counting loose marbles gives the ones. Practise reading and writing a few more numbers until it feels natural.
 
 ## Practice
 
-Each exercise comes with what you need and how to start. Try it yourself first, then open the solution.
+Each exercise comes with a reminder of what you need and a hint to start you off. Try it yourself first. If you get stuck, or when you have finished, open the solution.
 
 :::exercise
 The number $34$ is $\square$ tens and $\square$ ones.

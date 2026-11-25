@@ -11,9 +11,9 @@ minutes: 26
 - Tính khoảng cách từ một điểm đến một mặt phẳng.
 :::
 
-Một tấm bạt che nắng hình tam giác được căng giữa ba điểm: hai cọc trên mặt đất và một móc trên cột ở góc sân. Đặt chân cột ở gốc toạ độ, đơn vị mét: ba góc tấm bạt là $A(3; 0; 0)$, $B(0; 6; 0)$ và $C(0; 0; 3)$. Một chiếc drone quay phim đang đứng yên tại $M(3; 6; 3)$. Drone cách mặt phẳng tấm bạt bao xa?
+Hình dung một tấm bạt che nắng hình tam giác được căng giữa ba điểm: hai cọc trên mặt đất và một móc trên cột ở góc sân. Đặt chân cột ở gốc toạ độ, đơn vị mét: ba góc tấm bạt là $A(3; 0; 0)$, $B(0; 6; 0)$ và $C(0; 0; 3)$. Một chiếc drone quay phim đang đứng yên tại $M(3; 6; 3)$. Drone cách mặt phẳng tấm bạt bao xa?
 
-Để trả lời, ta cần một phương trình mô tả mọi điểm của mặt phẳng $(ABC)$. Bài này cho ta phương trình đó và một công thức khoảng cách chỉ gồm vài phép tính.
+Muốn đo khoảng cách ấy, trước hết ta phải mô tả được tấm bạt bằng toán học: cần một phương trình mà mọi điểm của mặt phẳng $(ABC)$ đều thoả mãn. Có phương trình đó rồi, một công thức khoảng cách chỉ gồm vài phép tính sẽ cho ta đáp số.
 
 :::diagram Tấm bạt che nắng $ABC$
 alt: Hệ trục Oxyz; tấm bạt hình tam giác ABC có A trên trục Ox, B trên trục Oy, C trên trục Oz
@@ -34,9 +34,9 @@ polygon A B C
 
 ### Khám phá: một vectơ vuông góc với tấm bạt
 
-Ta có $\overrightarrow{AB}=(-3; 6; 0)$ và $\overrightarrow{AC}=(-3; 0; 3)$. Thử vectơ $\vec{n}=(2; 1; 2)$:
+Ta có $\overrightarrow{AB}=(-3; 6; 0)$ và $\overrightarrow{AC}=(-3; 0; 3)$ là hai cạnh của tấm bạt. Thử xem vectơ $\vec{n}=(2; 1; 2)$ có vuông góc với chúng không:
 $$\vec{n}\cdot\overrightarrow{AB}=-6+6+0=0,\qquad \vec{n}\cdot\overrightarrow{AC}=-6+0+6=0.$$
-Vậy $\vec{n}$ vuông góc với hai cạnh không cùng phương của tấm bạt, nên vuông góc với cả tấm bạt. Một điểm $P(x; y; z)$ nằm trên mặt phẳng $(ABC)$ khi và chỉ khi $\overrightarrow{AP}\perp\vec{n}$, tức là
+Vậy $\vec{n}$ vuông góc với hai cạnh không cùng phương của tấm bạt, nên vuông góc với cả tấm bạt. Từ đó ta viết được phương trình của tấm bạt: một điểm $P(x; y; z)$ nằm trên mặt phẳng $(ABC)$ khi và chỉ khi $\overrightarrow{AP}\perp\vec{n}$, tức là
 $$2(x-3)+1\cdot(y-0)+2(z-0)=0\iff 2x+y+2z-6=0.$$
 
 :::definition Vectơ pháp tuyến, cặp vectơ chỉ phương
@@ -45,7 +45,7 @@ $$2(x-3)+1\cdot(y-0)+2(z-0)=0\iff 2x+y+2z-6=0.$$
 - Nếu $\vec{n}$ là vectơ pháp tuyến thì $k\vec{n}$ ($k\neq0$) cũng là vectơ pháp tuyến.
 :::
 
-Khi chỉ biết một cặp vectơ chỉ phương, ta cần một cách tìm ngay một vectơ vuông góc với cả hai.
+Ở trên ta thử một vectơ rồi kiểm tra, nhưng không phải lúc nào cũng đoán được. Khi chỉ biết một cặp vectơ chỉ phương, ta cần một cách tìm ngay một vectơ vuông góc với cả hai.
 
 :::theorem Tìm vectơ pháp tuyến từ cặp vectơ chỉ phương
 Nếu $\vec{u}=(a; b; c)$ và $\vec{v}=(a'; b'; c')$ là một cặp vectơ chỉ phương của $(P)$ thì
@@ -53,9 +53,9 @@ $$\vec{n}=[\vec{u}, \vec{v}]=(bc'-b'c;\ ca'-c'a;\ ab'-a'b)$$
 là một vectơ pháp tuyến của $(P)$. Vectơ này gọi là **tích có hướng** của $\vec{u}$ và $\vec{v}$.
 :::
 
-**Vì sao đúng?** Nhân vô hướng với $\vec{u}$: $a(bc'-b'c)+b(ca'-c'a)+c(ab'-a'b)=0$, vì các số hạng triệt tiêu từng cặp. Tương tự $\vec{n}\cdot\vec{v}=0$. Vì $\vec{u}$, $\vec{v}$ không cùng phương nên $\vec{n}\neq\vec{0}$.
+**Vì sao đúng?** Ta cần kiểm tra vectơ này vuông góc với từng vectơ chỉ phương. Nhân vô hướng với $\vec{u}$: $a(bc'-b'c)+b(ca'-c'a)+c(ab'-a'b)=0$, vì các số hạng triệt tiêu từng cặp. Tương tự $\vec{n}\cdot\vec{v}=0$. Cuối cùng, vì $\vec{u}$, $\vec{v}$ không cùng phương nên $\vec{n}\neq\vec{0}$, nên đó đúng là một vectơ pháp tuyến.
 
-**Cách nhớ.** Viết toạ độ $\vec{u}$ trên, $\vec{v}$ dưới. Muốn toạ độ thứ nhất, che cột thứ nhất và tính định thức $2\times2$ còn lại; toạ độ thứ hai che cột thứ hai rồi lấy *cột 3 nhân chéo với cột 1*; toạ độ thứ ba che cột thứ ba.
+**Cách nhớ.** Viết toạ độ $\vec{u}$ ở hàng trên, $\vec{v}$ ở hàng dưới. Muốn có toạ độ thứ nhất, bạn che cột thứ nhất và tính định thức $2\times2$ còn lại. Toạ độ thứ hai: che cột thứ hai rồi lấy *cột 3 nhân chéo với cột 1*. Toạ độ thứ ba: che cột thứ ba.
 
 ## Phương trình tổng quát của mặt phẳng
 
@@ -65,7 +65,7 @@ $$A(x-x_0)+B(y-y_0)+C(z-z_0)=0.$$
 Ngược lại, mỗi phương trình $Ax+By+Cz+D=0$ với $A^2+B^2+C^2>0$ là phương trình của một mặt phẳng nhận $\vec{n}=(A; B; C)$ làm vectơ pháp tuyến. Phương trình này gọi là **phương trình tổng quát** của mặt phẳng.
 :::
 
-**Vì sao đúng?** Điểm $M(x; y; z)$ thuộc mặt phẳng khi và chỉ khi $\overrightarrow{M_0M}=(x-x_0; y-y_0; z-z_0)$ vuông góc với $\vec{n}$, tức tích vô hướng của chúng bằng $0$. Khai triển ta được dạng $Ax+By+Cz+D=0$ với $D=-(Ax_0+By_0+Cz_0)$.
+**Vì sao đúng?** Đó cũng là lập luận ta đã dùng với tấm bạt. Điểm $M(x; y; z)$ thuộc mặt phẳng khi và chỉ khi $\overrightarrow{M_0M}=(x-x_0; y-y_0; z-z_0)$ vuông góc với $\vec{n}$, tức tích vô hướng của chúng bằng $0$. Khai triển rồi gom các hằng số lại, ta được dạng $Ax+By+Cz+D=0$ với $D=-(Ax_0+By_0+Cz_0)$.
 
 :::example Biết một điểm và vectơ pháp tuyến
 Viết phương trình mặt phẳng $(P)$ đi qua $M(1; -2; 3)$ và có vectơ pháp tuyến $\vec{n}=(2; -1; 4)$.
@@ -79,7 +79,7 @@ Vậy $(P): 2x-y+4z-16=0$.
 **Kiểm tra.** Thay $M$: $2+2+12-16=0$.
 :::
 
-Khi đề cho ba điểm, ta tự tạo cặp vectơ chỉ phương từ ba điểm đó.
+Nếu đề cho ba điểm thay vì vectơ pháp tuyến, ta tự tạo ra cặp vectơ chỉ phương từ ba điểm đó, rồi tìm vectơ pháp tuyến như vừa học.
 
 :::example Mặt phẳng qua ba điểm
 Viết phương trình mặt phẳng đi qua $A(1; 2; 0)$, $B(2; 0; 1)$, $C(0; 1; 3)$.
@@ -101,14 +101,14 @@ Vậy $(ABC): 5x+4y+3z-13=0$.
 
 ### Các mặt phẳng đặc biệt
 
-Xét $(P): Ax+By+Cz+D=0$.
+Nhìn vào các hệ số của $(P): Ax+By+Cz+D=0$, ta nhận ra ngay vài mặt phẳng đặc biệt.
 - $D=0$: $(P)$ đi qua gốc $O$.
 - $A=0$: $\vec{n}=(0; B; C)$ vuông góc với $\vec{i}$, nên $(P)$ song song với hoặc chứa trục $Ox$. Tương tự với $B=0$ (trục $Oy$) và $C=0$ (trục $Oz$).
 - $A=B=0$: $(P): z=z_0$ song song với hoặc trùng mặt phẳng $(Oxy)$. Ba mặt phẳng toạ độ là $(Oxy): z=0$, $(Oyz): x=0$, $(Ozx): y=0$.
 - Mặt phẳng cắt ba trục tại $(a; 0; 0)$, $(0; b; 0)$, $(0; 0; c)$ với $abc\neq0$ có **phương trình theo đoạn chắn**
 $$\frac{x}{a}+\frac{y}{b}+\frac{z}{c}=1.$$
 
-Với tấm bạt, $a=3$, $b=6$, $c=3$, nên $\dfrac{x}{3}+\dfrac{y}{6}+\dfrac{z}{3}=1$; nhân hai vế với $6$ ta lại được $2x+y+2z-6=0$.
+Thử với tấm bạt: ba góc của nó nằm trên ba trục, nên $a=3$, $b=6$, $c=3$. Phương trình theo đoạn chắn là $\dfrac{x}{3}+\dfrac{y}{6}+\dfrac{z}{3}=1$. Nhân hai vế với $6$, ta lại được $2x+y+2z-6=0$, đúng phương trình đã tìm ở phần khám phá.
 
 :::example Mặt phẳng song song với $(Oxy)$, mặt phẳng chứa $Ox$
 Cho $M(2; -1; 3)$. Viết phương trình mặt phẳng đi qua $M$ và a) song song với $(Oxy)$; b) chứa trục $Ox$.
@@ -124,7 +124,7 @@ Chọn $C=1$, $B=3$. Vậy hai mặt phẳng cần tìm là $z=3$ và $3y+z=0$.
 
 ## Hai mặt phẳng song song, vuông góc
 
-Hai mặt phẳng song song có vectơ pháp tuyến cùng phương. Hai mặt phẳng vuông góc thì hai vectơ pháp tuyến của chúng vuông góc.
+Hai mặt phẳng song song thì "nghiêng" như nhau, nên vectơ pháp tuyến của chúng cùng phương. Hai mặt phẳng vuông góc thì hai vectơ pháp tuyến của chúng cũng vuông góc. Nhờ vậy, câu hỏi về mặt phẳng trở thành câu hỏi về vectơ, dễ tính hơn nhiều.
 
 :::theorem Vị trí của hai mặt phẳng
 Cho $(P): Ax+By+Cz+D=0$ và $(P'): A'x+B'y+C'z+D'=0$ với vectơ pháp tuyến $\vec{n}$, $\vec{n'}$.
@@ -161,7 +161,7 @@ Khoảng cách từ $M_0(x_0; y_0; z_0)$ đến $(P): Ax+By+Cz+D=0$ là
 $$d(M_0, (P))=\frac{|Ax_0+By_0+Cz_0+D|}{\sqrt{A^2+B^2+C^2}}.$$
 :::
 
-**Vì sao đúng?** Gọi $H$ là hình chiếu của $M_0$ trên $(P)$. Khi đó $\overrightarrow{HM_0}=t\vec{n}$ với một số $t$, và $M_0H=|t|\cdot|\vec{n}|$. Vì $H$ thuộc $(P)$, thay $H=M_0-t\vec{n}$ vào phương trình ta được $Ax_0+By_0+Cz_0+D=t(A^2+B^2+C^2)$. Rút $t$ rồi nhân với $|\vec{n}|=\sqrt{A^2+B^2+C^2}$ ta có công thức.
+**Vì sao đúng?** Khoảng cách chính là độ dài đoạn vuông góc từ điểm đó xuống mặt phẳng. Gọi $H$ là hình chiếu của $M_0$ trên $(P)$. Khi đó $\overrightarrow{HM_0}=t\vec{n}$ với một số $t$, và $M_0H=|t|\cdot|\vec{n}|$. Vì $H$ thuộc $(P)$, thay $H=M_0-t\vec{n}$ vào phương trình ta được $Ax_0+By_0+Cz_0+D=t(A^2+B^2+C^2)$. Rút $t$ rồi nhân với $|\vec{n}|=\sqrt{A^2+B^2+C^2}$ ta có công thức.
 
 :::example Drone và tấm bạt
 Tính khoảng cách từ drone $M(3; 6; 3)$ đến mặt phẳng tấm bạt $(ABC): 2x+y+2z-6=0$ (đơn vị: mét).
@@ -173,7 +173,7 @@ $$d(M, (ABC))=\frac{|2\cdot3+6+2\cdot3-6|}{\sqrt{2^2+1^2+2^2}}=\frac{12}{3}=4.$$
 Vậy drone cách mặt phẳng tấm bạt $4$ m.
 :::
 
-Ví dụ cuối nhiều bước hơn, nên ta làm theo bốn bước.
+Ví dụ cuối có nhiều bước hơn, nên ta làm chậm lại và chia thành bốn bước: hiểu đề, tìm cách giải, giải, nhìn lại.
 
 :::diagram Hình lập phương và mặt phẳng $(A'BD)$
 alt: Hình lập phương ABCD.A'B'C'D' vẽ phối cảnh, tam giác A'BD được tô, các cạnh khuất vẽ nét đứt
@@ -219,8 +219,9 @@ $$(A'BD): \frac{x}{2}+\frac{y}{2}+\frac{z}{2}=1\iff x+y+z-2=0,\qquad d(A, (A'BD)
 :::warning Những sai lầm thường gặp
 - **Sai dấu khi thay điểm.** Sai: mặt phẳng qua $M(1; -2; 3)$ với $\vec{n}=(2; -1; 4)$ viết thành $2(x-1)-(y-2)+4(z-3)=0$. Vì sao sai: $y-y_0=y-(-2)=y+2$. Đúng: $2(x-1)-(y+2)+4(z-3)=0$.
 - **Quên $D$ hoặc quên căn trong công thức khoảng cách.** Sai: $d(M, (ABC))=\dfrac{|6+6+6|}{3}=6$ hoặc $\dfrac{12}{9}$. Vì sao sai: tử số là cả vế trái $Ax_0+By_0+Cz_0+D$, mẫu số là $\sqrt{A^2+B^2+C^2}$. Đúng: $\dfrac{12}{3}=4$.
-- **Khoảng cách giữa hai mặt phẳng song song khi hệ số chưa khớp.** Với $(P): 2x-y+2z+1=0$ và $(Q): 4x-2y+4z-10=0$. Sai: $\dfrac{|1-(-10)|}{3}=\dfrac{11}{3}$. Vì sao sai: hai vectơ pháp tuyến $(2; -1; 2)$ và $(4; -2; 4)$ chưa bằng nhau. Đúng: lấy điểm $E(0; 0; 2{,}5)$ thuộc $(Q)$, rồi $d(E, (P))=\dfrac{|5+1|}{3}=2$.
+- **Khoảng cách giữa hai mặt phẳng song song khi hệ số chưa khớp.** Xét $(P): 2x-y+2z+1=0$ và $(Q): 4x-2y+4z-10=0$. Sai: $\dfrac{|1-(-10)|}{3}=\dfrac{11}{3}$. Vì sao sai: hai vectơ pháp tuyến $(2; -1; 2)$ và $(4; -2; 4)$ chưa bằng nhau. Đúng: lấy điểm $E(0; 0; 2{,}5)$ thuộc $(Q)$, rồi $d(E, (P))=\dfrac{|5+1|}{3}=2$.
 - **Nhầm mặt phẳng chứa trục với mặt phẳng toạ độ.** Sai: mặt phẳng chứa $Ox$ là $x=0$. Vì sao sai: $x=0$ là mặt phẳng $(Oyz)$, vuông góc với $Ox$. Đúng: mặt phẳng chứa $Ox$ có dạng $By+Cz=0$.
+Mục đầu tiên là chỗ nhiều bạn hay nhầm nhất, nên đừng lo nếu lần đầu bạn cũng vậy. Viết xong một phương trình, bạn thử thay điểm đã cho vào để kiểm tra.
 :::
 
 ## Thuật ngữ
@@ -246,10 +247,11 @@ $$(A'BD): \frac{x}{2}+\frac{y}{2}+\frac{z}{2}=1\iff x+y+z-2=0,\qquad d(A, (A'BD)
 - Theo đoạn chắn: $\dfrac{x}{a}+\dfrac{y}{b}+\dfrac{z}{c}=1$; $(Oxy): z=0$, $(Oyz): x=0$, $(Ozx): y=0$.
 - Song song: $\vec{n'}=k\vec{n}$, $D'\neq kD$. Vuông góc: $\vec{n}\cdot\vec{n'}=0$.
 - $d(M_0, (P))=\dfrac{|Ax_0+By_0+Cz_0+D|}{\sqrt{A^2+B^2+C^2}}$.
+Quay lại tấm bạt và chiếc drone: một vectơ pháp tuyến cùng một điểm cho ta phương trình của tấm bạt, rồi công thức khoảng cách cho ta đáp số. Nếu chỉ nhớ một điều, bạn hãy nhớ rằng mọi bài trong phần này đều xoay quanh vectơ pháp tuyến.
 
 ## Luyện tập
 
-Mỗi bài có phần kiến thức và gợi ý các bước. Hãy tự làm trước, rồi mới bấm xem lời giải.
+Mỗi bài đều có phần kiến thức cần dùng và vài bước gợi ý để bạn bắt đầu. Hãy tự làm trước, đừng vội mở lời giải. Nếu bị kẹt, bạn xem gợi ý một chút, làm tiếp, rồi mới mở lời giải để đối chiếu.
 
 :::exercise
 Viết phương trình mặt phẳng đi qua $M(2; 1; -1)$ và có vectơ pháp tuyến $\vec{n}=(1; -3; 2)$.

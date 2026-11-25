@@ -11,9 +11,9 @@ minutes: 20
 - Apply quadratic equations to real-life problems.
 :::
 
-Quadratic equations are among the oldest problems in mathematics. On Babylonian clay tablets, some of them about $4000$ years old, there are already problems such as "find the sides of a rectangle given its area and the difference of its sides". Around the year $830$, the mathematician al-Khwarizmi in Baghdad solved such equations by rearranging pieces to "complete a square", and the title of his book (*Hisab al-jabr w'al-muqabala*) gave us the word "algebra" (MacTutor, University of St Andrews).
+Quadratic equations are among the oldest problems in mathematics. On Babylonian clay tablets, some of them about $4000$ years old, there are already problems such as "find the sides of a rectangle given its area and the difference of its sides". Around the year $830$, the mathematician al-Khwarizmi in Baghdad solved such equations by rearranging pieces to "complete a square". The title of his book (*Hisab al-jabr w'al-muqabala*) gave us the word "algebra" (MacTutor, University of St Andrews).
 
-The old problem is still close to home. Suppose your family has a rectangular garden whose length is $3$ m more than its width and whose area is $40$ m². How wide is the garden? Let the width be $x$ (m); then $x(x+3)=40$, that is $x^2+3x-40=0$. Trying numbers one by one takes time, and the solutions are not always whole numbers. This lesson gives you a formula that solves every equation like this.
+The old problem is still close to home. Suppose your family has a rectangular garden whose length is $3$ m more than its width and whose area is $40$ m². How wide is the garden? Let the width be $x$ (m); then $x(x+3)=40$, that is $x^2+3x-40=0$. Trying numbers one by one takes time, and the solutions are not always whole numbers. Is there a way to solve every equation like this? By the end of the lesson you will have a formula that does.
 
 ## Quadratic equations in one unknown
 
@@ -23,7 +23,7 @@ $$ax^2+bx+c=0,$$
 where $x$ is the unknown and $a$, $b$, $c$ are given numbers called the **coefficients**, with $a\neq0$.
 :::
 
-**Going deeper.** The condition $a\neq0$ is essential: if $a=0$, the equation becomes $bx+c=0$, a linear equation that you already know how to solve. The coefficients $b$ and $c$ may be $0$. The equations $x^3-2x=0$ (a cubic) and $\dfrac1x+x=2$ (unknown in a denominator) are not quadratic equations, even though they can be turned into familiar forms.
+**Going deeper.** The condition $a\neq0$ is the heart of the matter. If $a=0$, the equation shrinks to $bx+c=0$, a linear equation that you already know how to solve. The coefficients $b$ and $c$ are allowed to be $0$. The equations $x^3-2x=0$ (a cubic) and $\dfrac1x+x=2$ (unknown in a denominator) are not quadratic equations, even though they can be turned into familiar forms.
 
 :::example Recognising quadratic equations
 Which of the following are quadratic equations in one unknown? State their coefficients $a$, $b$, $c$.
@@ -51,7 +51,7 @@ So the equations a), b), c) are quadratic equations.
 
 ## Solving special quadratic equations
 
-When $c=0$, we take out the common factor $x$ to get a product equation. When $b=0$, we rewrite the equation as $x^2=k$ and use square roots.
+The easiest cases are the ones with a missing term. When $c=0$, both remaining terms contain $x$, so we take out the common factor $x$ to get a product equation. When $b=0$, we rewrite the equation as $x^2=k$ and use square roots.
 
 :::example Two special cases
 Solve the following equations:
@@ -71,7 +71,7 @@ c) We have $(x-2)^2=5\Leftrightarrow x-2=\sqrt5$ or $x-2=-\sqrt5$, so $x=2+\sqrt
 So a) $x=0$, $x=4$; b) $x=3$, $x=-3$; c) $x=2\pm\sqrt5$.
 :::
 
-How many solutions does $x^2=k$ have? Exactly as many as the points where the parabola $y=x^2$ (lesson [the function $y=ax^2$](lesson:function-y-equals-ax2)) meets the horizontal line $y=k$: two points when $k>0$, one when $k=0$, none when $k<0$.
+How many solutions does $x^2=k$ have? The picture helps: the number of solutions is the number of points where the parabola $y=x^2$ (lesson [the function $y=ax^2$](lesson:function-y-equals-ax2)) meets the horizontal line $y=k$. There are two points when $k>0$, one when $k=0$, and none when $k<0$.
 
 :::graph The number of solutions of $x^2=k$
 alt: The parabola y equals x squared; the line y equals 4 meets it at the two points (-2, 4) and (2, 4); the dashed line y equals -1 does not meet it
@@ -89,11 +89,11 @@ label: (-2.4, 5) "y = 4"
 
 ### Explore: completing the square
 
-Part c) suggests an idea: if we can write the left-hand side as a square, we can solve the equation. Try it with $x^2-6x+5=0$. Since $(x-3)^2=x^2-6x+9$, we add $4$ to both sides:
+Part c) gives us an idea: if we can write the left-hand side as a square, we can solve the equation straight away. Does that work for any equation? Let us try it with $x^2-6x+5=0$. Since $(x-3)^2=x^2-6x+9$, we add $4$ to both sides:
 
 $$x^2-6x+5=0\Leftrightarrow x^2-6x+9=4\Leftrightarrow(x-3)^2=4\Leftrightarrow x-3=\pm2.$$
 
-Hence $x=5$ or $x=1$. This is exactly al-Khwarizmi's "completing the square". Doing the same with any coefficients gives the quadratic formula.
+So $x=5$ or $x=1$. This is exactly al-Khwarizmi's "completing the square". If we do the same with any coefficients, the quadratic formula appears.
 
 ## The quadratic formula
 
@@ -104,11 +104,11 @@ Consider the equation $ax^2+bx+c=0$ ($a\neq0$) and its **discriminant** $\Delta=
 - If $\Delta<0$, the equation has no solutions.
 :::
 
-**Why?** Divide both sides by $a$ and complete the square as in the exploration; we get
+**Why?** We divide both sides by $a$, then add the same number to both sides to complete the square, as in the exploration. The result is:
 
 $$\left(x+\frac{b}{2a}\right)^2=\frac{b^2-4ac}{4a^2}=\frac{\Delta}{4a^2}.$$
 
-The right-hand side has denominator $4a^2>0$, so its sign is the sign of $\Delta$. This is exactly the form $X^2=k$ above: $\Delta>0$ gives two roots, $\Delta=0$ gives one, and $\Delta<0$ gives none (a square is never negative). The word "discriminant" means the expression that *discriminates*, or tells apart, the three cases.
+The right-hand side has denominator $4a^2>0$, so its sign is the sign of $\Delta$. This is the form $X^2=k$ we met above. If $\Delta>0$ there are two roots, if $\Delta=0$ there is one, and if $\Delta<0$ there are none, because a square is never negative. The word "discriminant" means the expression that *discriminates*, or tells apart, the three cases.
 
 :::example The three cases of $\Delta$
 Solve the following equations:
@@ -131,10 +131,10 @@ So a) $x=2$, $x=\dfrac12$; b) $x=\dfrac12$; c) no solutions.
 :::
 
 :::note When $a$ and $c$ have opposite signs
-If $a$ and $c$ have opposite signs, then $ac<0$, so $\Delta=b^2-4ac>0$: the equation always has two distinct roots. For example, $3x^2-5x-7=0$ has two distinct roots, with no need to work out $\Delta$.
+If $a$ and $c$ have opposite signs, then $ac<0$, so $\Delta=b^2-4ac>0$. The equation therefore always has two distinct roots. For example, $3x^2-5x-7=0$ has two distinct roots, and we do not need to work out $\Delta$.
 :::
 
-Now we answer the opening question, going through all four steps of solving a problem.
+Now we go back to the garden from the opening. We will take all four steps of solving a problem: understand, plan, solve, look back.
 
 :::example The garden from the opening
 A rectangular garden has length $3$ m more than its width and area $40$ m². Find the width and the length of the garden.
@@ -156,7 +156,7 @@ Since $x>0$, $x=5$. So the garden is $5$ m wide and $8$ m long.
 
 ## The reduced discriminant
 
-When $b$ is even, write $b=2b'$. Then $\Delta=4b'^2-4ac=4(b'^2-ac)$, and the fractions in the quadratic formula can be simplified by $2$.
+When $b$ is even, we write $b=2b'$ to make the working lighter. Then $\Delta=4b'^2-4ac=4(b'^2-ac)$, and the fractions in the quadratic formula can be simplified by $2$.
 
 :::theorem The formula with the reduced discriminant
 Consider the equation $ax^2+bx+c=0$ ($a\neq0$) with $b=2b'$ and the reduced discriminant $\Delta'=b'^2-ac$.
@@ -180,16 +180,17 @@ So a) $x=2$, $x=\dfrac23$; b) $x=-3+\sqrt5$, $x=-3-\sqrt5$.
 :::
 
 :::tip Checking with a calculator
-A scientific calculator has a mode for solving quadratic equations: enter $a$, $b$, $c$ and it gives the roots. Use it to **check** your answers; in your written work, still show $\Delta$ (or $\Delta'$) and the formula.
+A scientific calculator has a mode for solving quadratic equations: enter $a$, $b$, $c$ and it gives the roots. Use it to **check** your answers. In your written work, still show $\Delta$ (or $\Delta'$) and the formula, because those steps show that you understand the method.
 :::
 
 :::warning Common mistakes
-- **Wrong sign of $b$.** Wrong: for $2x^2-5x+2=0$, writing $x=\dfrac{-5\pm3}{4}$. Why it is wrong: $-b=-(-5)=5$. Right: $x=\dfrac{5\pm3}{4}$.
+- **Wrong sign of $b$.** Wrong: for $2x^2-5x+2=0$, writing $x=\dfrac{-5\pm3}{4}$. Why is it wrong? Because $-b=-(-5)=5$. Right: $x=\dfrac{5\pm3}{4}$.
 - **Wrong sign in $\Delta$ when $c<0$.** Wrong: $x^2+3x-40=0$ has $\Delta=9-160$. Right: $\Delta=9-4\cdot1\cdot(-40)=9+160=169$.
-- **Dividing both sides by $x$.** Wrong: "$3x^2=12x\Rightarrow3x=12\Rightarrow x=4$". Why it is wrong: dividing by $x$ loses the root $x=0$. Right: $3x(x-4)=0$, so $x=0$ or $x=4$.
+- **Dividing both sides by $x$.** Wrong: "$3x^2=12x\Rightarrow3x=12\Rightarrow x=4$". Why is it wrong? Because dividing by $x$ loses the root $x=0$. Right: $3x(x-4)=0$, so $x=0$ or $x=4$.
+These are the three places where people slip most often. Taking care over signs is the best way to avoid them.
 :::
 
-**Connections.** Quadratic equations tie together many things you have learnt: algebraic identities (to complete the square), square roots (to find the roots), product equations (when $c=0$) and the parabola $y=x^2$ (to "see" the number of solutions). Next, [Viète's theorem](lesson:vietes-theorem) gives the sum and product of the roots without solving, and the lesson [solving word problems by forming equations](lesson:g9-equation-word-problems) uses the quadratic formula in many real situations.
+**Connections.** Quadratic equations bring together much of what you have learnt: algebraic identities help us complete the square, square roots give the roots, product equations appear when $c=0$, and the parabola $y=x^2$ lets us "see" the number of solutions. The lesson on [Viète's theorem](lesson:vietes-theorem) gives the sum and product of the roots without solving. The lesson [solving word problems by forming equations](lesson:g9-equation-word-problems) uses the quadratic formula in many real situations.
 
 ## Key terms
 
@@ -213,10 +214,11 @@ A scientific calculator has a mode for solving quadratic equations: enter $a$, $
 - $b=2b'$: $\Delta'=b'^2-ac$, $x_{1,2}=\dfrac{-b'\pm\sqrt{\Delta'}}{a}$.
 - If $a$ and $c$ have opposite signs, there are always two distinct roots.
 - Real-life problems: check each root against the condition on the unknown.
+So the garden from the opening comes down to three jobs: form the equation, work out $\Delta$, then choose the root that fits the problem. If you remember one thing, remember that $\Delta$ tells you in advance how many roots there are. Practise a few more to make it feel natural.
 
 ## Practice
 
-Each exercise comes with what you need and some steps to start. Try it yourself first, then open the solution.
+Each exercise comes with what you need to remember and some steps to start. Try it yourself first, look at the steps if you get stuck, and only then open the solution. A mistake is fine, because mistakes often teach us the most.
 
 :::exercise
 Solve the following equations:

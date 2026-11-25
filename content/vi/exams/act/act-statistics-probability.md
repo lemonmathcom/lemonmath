@@ -12,11 +12,11 @@ minutes: 45
 - Tính giá trị kì vọng.
 :::
 
-Câu hỏi thống kê và xác suất trong ACT hiếm khi cần tính toán dài. Chúng kiểm tra xem bạn có hiểu chính xác ý nghĩa của từng số đặc trưng và biết dùng quy tắc đếm nào. Một câu điển hình cho một tập dữ liệu nhỏ, một bảng hoặc một mô tả ngắn, và hỏi một con số. Hãy viết quy tắc bạn dùng trước khi tính; điều đó ngăn được phần lớn lỗi sai.
+Thống kê và xác suất nghe có vẻ phải tính nhiều, nhưng ở ACT thì hiếm khi như vậy. Các câu hỏi này kiểm tra xem bạn có hiểu chính xác ý nghĩa của từng số đặc trưng và biết dùng quy tắc đếm nào. Một câu điển hình cho một tập dữ liệu nhỏ, một bảng hoặc một mô tả ngắn, và hỏi một con số. Hãy viết quy tắc bạn dùng trước khi tính; điều đó ngăn được phần lớn lỗi sai, vì lỗi hay gặp là dùng nhầm quy tắc chứ ít khi là tính nhầm.
 
 ## Trung bình, trung vị, mốt và độ phân tán
 
-**Số trung bình (mean)** là tổng chia cho số giá trị; **trung vị (median)** là giá trị đứng giữa của dãy đã sắp xếp (trung bình của hai giá trị giữa nếu số giá trị chẵn); **mốt (mode)** là giá trị xuất hiện nhiều nhất; **khoảng biến thiên (range)** là giá trị lớn nhất trừ giá trị nhỏ nhất. **Độ lệch chuẩn (standard deviation)** đo mức các giá trị thường cách xa trung bình: dữ liệu càng phân tán thì độ lệch chuẩn càng lớn.
+Có bốn con số mô tả một tập dữ liệu theo những cách khác nhau. **Số trung bình (mean)** là tổng chia cho số giá trị. Còn **trung vị (median)** là giá trị đứng giữa của dãy đã sắp xếp (trung bình của hai giá trị giữa nếu số giá trị chẵn). Rồi **mốt (mode)** là giá trị xuất hiện nhiều nhất, và **khoảng biến thiên (range)** là giá trị lớn nhất trừ giá trị nhỏ nhất. **Độ lệch chuẩn (standard deviation)** cho biết các giá trị thường cách xa trung bình đến đâu: dữ liệu càng phân tán thì độ lệch chuẩn càng lớn.
 
 :::example Ba số đặc trưng đo xu thế trung tâm
 Với dữ liệu $4, 7, 7, 9, 13$, khẳng định nào đúng?
@@ -52,7 +52,7 @@ Vậy Minh cần đạt $100$ điểm, chọn đáp án **D**. Phương án B c�
 
 ## Đếm
 
-Theo **quy tắc nhân**, nếu một lựa chọn có $m$ cách và lựa chọn thứ hai có $n$ cách thì cả hai lựa chọn có $mn$ cách. Số cách xếp $n$ đồ vật khác nhau thành một hàng là $n!$. Số cách chọn $r$ đồ vật từ $n$ đồ vật, khi không tính thứ tự, là $\dbinom nr=\dfrac{n!}{r!(n-r)!}$.
+Đếm bắt đầu từ một ý rất đơn giản. Theo **quy tắc nhân**, nếu một lựa chọn có $m$ cách và lựa chọn thứ hai có $n$ cách thì cả hai lựa chọn có $mn$ cách, vì mỗi cách của lựa chọn đầu đều ghép được với từng cách của lựa chọn sau. Số cách xếp $n$ đồ vật khác nhau thành một hàng là $n!$. Khi không tính thứ tự, số cách chọn $r$ đồ vật từ $n$ đồ vật là $\dbinom nr=\dfrac{n!}{r!(n-r)!}$. Chỗ này nhiều bạn hay nhầm giữa xếp và chọn, nên trước khi đếm hãy tự hỏi: thứ tự có quan trọng không?
 
 :::example Có thứ tự hay không
 Một câu lạc bộ có $8$ thành viên. Có bao nhiêu cách chọn một ban gồm $3$ thành viên?
@@ -69,7 +69,7 @@ Vậy có $56$ cách chọn ban, chọn đáp án **B**. Phương án A đếm c
 
 ## Xác suất
 
-Với các kết quả đồng khả năng, $P(A)=\dfrac{\text{số kết quả thuận lợi}}{\text{số kết quả có thể}}$. Với hai biến cố **độc lập**, $P(A\text{ và }B)=P(A)P(B)$. Xác suất để $A$ không xảy ra là $1-P(A)$. **Xác suất có điều kiện** chỉ xét các kết quả thoả mãn điều kiện.
+Xác suất cho biết một biến cố dễ xảy ra đến mức nào. Với các kết quả đồng khả năng, $P(A)=\dfrac{\text{số kết quả thuận lợi}}{\text{số kết quả có thể}}$. Với hai biến cố **độc lập**, tức là không ảnh hưởng đến nhau, $P(A\text{ và }B)=P(A)P(B)$. Xác suất để $A$ không xảy ra là $1-P(A)$. **Xác suất có điều kiện** thì chỉ xét các kết quả thoả mãn điều kiện, nên mẫu số nhỏ lại.
 
 :::example Một đồng xu và một con xúc xắc
 Tung một đồng xu cân đối và gieo một con xúc xắc cân đối sáu mặt. Xác suất được mặt ngửa và mặt $6$ chấm là
@@ -109,7 +109,7 @@ Vậy xác suất cần tìm là $\dfrac58$, chọn đáp án **C**. Phương á
 
 ## Giá trị kì vọng
 
-Giá trị kì vọng của một biến ngẫu nhiên là $E(X)=\sum x\,P(X=x)$: kết quả trung bình mỗi lần thử khi lặp lại rất nhiều lần.
+Một trò chơi có đáng chơi không? Giá trị kì vọng trả lời câu hỏi đó. Giá trị kì vọng của một biến ngẫu nhiên là $E(X)=\sum x\,P(X=x)$: kết quả trung bình mỗi lần thử khi lặp lại rất nhiều lần. Ta nhân từng kết quả với xác suất của nó rồi cộng lại.
 
 :::example Có nên chơi trò này không?
 Trong một trò chơi, người chơi thắng $10$ đô la với xác suất $0{,}2$, ngược lại thì thua $3$ đô la. Số tiền lãi kì vọng mỗi ván là
@@ -126,10 +126,11 @@ Vậy số tiền lãi kì vọng là $-0{,}4$ đô la mỗi ván, tức trung b
 
 :::warning Những cái bẫy thường gặp
 - **Trung vị của dữ liệu chưa sắp xếp:** hãy sắp xếp trước.
-- **Bài toán về trung bình:** làm việc với tổng, không làm với hiệu các trung bình.
+- **Bài toán về trung bình:** làm việc với tổng, đừng làm với hiệu các trung bình.
 - **Hoán vị hay tổ hợp:** thứ tự có quan trọng không? Một ban: không; xếp hạng hay các vai trò khác nhau: có.
 - **"Và" với "hoặc":** nhân với "và" khi các biến cố độc lập; với "hoặc", cộng rồi trừ phần chung.
 - **Mẫu số của xác suất có điều kiện** là tổng của nhóm thoả điều kiện, không phải tổng chung.
+Trước khi chọn đáp án, hãy dừng một nhịp và dò lại năm chỗ này.
 :::
 
 :::terms

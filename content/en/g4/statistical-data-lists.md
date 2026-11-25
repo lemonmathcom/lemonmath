@@ -10,34 +10,36 @@ minutes: 15
 - Count how many times a value appears and compare values by subtracting.
 :::
 
-The teacher asks six children in your group how many story books they read this month. Mai read $5$, Nam read $3$, Ha read $7$, Binh read $4$, Lan read $6$ and Tu read $3$. Who read the most? Who read the fewest?
+The teacher asks six children in your group how many story books they read this month. Mai read $5$, Nam read $3$, Ha read $7$, Binh read $4$, Lan read $6$ and Tu read $3$. Looking at a jumble of numbers like that, can you say straight away who read the most? And who read the fewest?
 
-The numbers $5, 3, 7, 4, 6, 3$ are information we collected. This lesson shows you how to read and compare them.
+The numbers $5, 3, 7, 4, 6, 3$ are the information the teacher collected. Left in a jumble, they are easy to misread. Once you know how to read a whole list in order, questions like these take only a few seconds. Let's practise reading and comparing them.
 
 ## Let's explore
 
-First we write the information in a table.
+First we put the information in a table, with one column for each child.
 
 | Child | Mai | Nam | Ha | Binh | Lan | Tu |
 |---|---|---|---|---|---|---|
 | Books read | $5$ | $3$ | $7$ | $4$ | $6$ | $3$ |
 
-Taking only the row of numbers gives a list: $5, 3, 7, 4, 6, 3$. Answer some small questions:
+Taking only the row of numbers gives a list: $5, 3, 7, 4, 6, 3$. We ask this list some small questions, and you can answer them as we go:
 
 - How many numbers are there? Count each one: there are $6$, one for each child.
 - Which is the greatest? Compare them: $7$ is the greatest, and that is Ha.
 - Which is the least? $3$ is the least, and that is Nam and Tu.
 - In order from smallest to largest: $3, 3, 4, 5, 6, 7$. Notice that $3$ appears twice, so we write it twice.
 
+Taking the questions one at a time means no child is missed.
+
 :::definition A list of statistical data
 The numbers we collect about the same thing (for example the number of books, or heights) are called **data values**. Data values written in a row make a **list of statistical data**. Each child or each measurement gives one value, so the number of values equals the number of children or measurements.
 :::
 
-When you read a list of data, always do three things: count how many values there are, find the greatest and the least, then answer the question.
+Whenever you meet a list of data, do three things in this order: count how many values there are, find the greatest and the least, then answer the question. Keeping to this order helps you avoid slips.
 
 ## Examples
 
-We start with a short list.
+We start with a short list: the goals scored by a class football team.
 
 :::example Goals scored
 Our class football team scored these numbers of goals in $7$ matches: $2, 0, 3, 1, 3, 2, 4$. a) How many matches did the team play? b) What is the most goals in one match? c) In how many matches did the team score exactly $2$ goals?
@@ -51,7 +53,7 @@ b) The greatest number is $4$, so the most goals in a match is $4$.
 c) The number $2$ appears in the first and the sixth match, so there are $2$ matches.
 :::
 
-Now we put the values in order and compare them.
+Now we put the values in order and compare them. Then the least and greatest sit at the two ends.
 
 :::example Heights
 The heights (cm) of $5$ children are: $132, 128, 135, 130, 128$. Put them in order from smallest to largest, then find how many centimetres taller the tallest child is than the shortest.
@@ -63,7 +65,7 @@ $$135-128=7\ \text{(cm)}.$$
 So the tallest child is $7$ cm taller than the shortest.
 :::
 
-Data often comes in a table. We read the table and carry on.
+Data often comes in a table. We read the table to get the list, then carry on as before.
 
 :::example Class sizes
 The table shows the number of pupils in each Year 4 class:
@@ -79,7 +81,7 @@ $$32+30+34+32=128\ \text{(pupils)}.$$
 So class $4$C is the biggest, and there are $128$ pupils in all.
 :::
 
-Finally, we count how many times a value appears.
+Finally, we count how many times a value appears. Take care here, because repeated values must still be counted every time.
 
 :::example How many times a value appears
 Here is a list of data: $6, 9, 4, 9, 7$. How many values are there? Which value appears most often?
@@ -93,6 +95,8 @@ Here is a list of data: $6, 9, 4, 9, 7$. How many values are there? Which value 
 - **Leaving out repeats.** Wrong: the list $6, 9, 4, 9, 7$ has $4$ numbers. Why it is wrong: each child or measurement gives one number, and $9$ appears twice so we count it twice. Right: $5$ numbers.
 - **Mixing up the greatest with the most common.** Wrong: in $3, 8, 3, 5$ the most common value is $8$. Why it is wrong: $8$ is only the greatest, and $3$ appears twice. Right: the number $3$.
 - **Losing repeats when putting in order.** Wrong: writing $7, 3, 9, 3$ as $3, 7, 9$. Why it is wrong: the new list is missing one $3$. Right: $3, 3, 7, 9$.
+
+Many children slip on these three. Counting slowly, one number at a time, avoids them.
 :::
 
 ## Key terms
@@ -115,9 +119,11 @@ Here is a list of data: $6, 9, 4, 9, 7$. How many values are there? Which value 
 - To put in order from smallest to largest, write every number, repeats included.
 - Compare two values by subtracting: $\text{greater}-\text{smaller}$.
 
+Back to the opening question: six children give six numbers. Ha read the most, and Nam and Tu read the fewest. Remember to count every value, repeats included, and try the practice questions to get used to it.
+
 ## Practice
 
-Each exercise comes with what you need and how to start. Try it yourself first, then open the solution.
+Each exercise comes with what you need and how to start. Try it yourself first, then open the solution. Getting one wrong is fine, because a mistake usually shows you exactly what to remember.
 
 :::exercise
 Here is a list of data: $4, 8, 6, 9, 5$. How many numbers are there? Which is the greatest and which is the least?

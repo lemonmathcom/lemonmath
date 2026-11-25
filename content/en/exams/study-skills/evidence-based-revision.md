@@ -11,7 +11,7 @@ type: guide
 - Plan a sample week of maths revision for any exam.
 :::
 
-Two students each revise for 10 hours. An rereads her notes, highlights the important formulas and feels calm because everything looks familiar. Binh closes his notebook, writes the formulas from memory, sits a paper and marks it, and feels tired because he keeps finding things he has forgotten. On exam day, the one who usually does better is Binh. This lesson explains why, using research on memory and learning, so that each hour you revise is worth more.
+Two students each revise for 10 hours. An rereads her notes, highlights the important formulas and feels calm because everything looks familiar. Binh closes his notebook, writes the formulas from memory, sits a paper and marks it, and feels tired because he keeps finding things he has forgotten. On exam day, the one who usually does better is Binh. Why? This lesson answers with research on memory and learning, so that each hour you revise is worth more.
 
 ## The feeling of "I get it" is often misleading
 
@@ -27,10 +27,10 @@ In 2013 a team led by Professor John Dunlosky (Kent State University, USA) revie
 | Highlighting and underlining | Low |
 | Summarising | Low |
 
-Rereading and highlighting are rated low not because they are useless, but because they create fluency: your eyes recognise the line, so your brain assumes you remember it. In the exam room nobody lets you look at your notes. The paper asks you to **pull the knowledge out by yourself**, and that skill only grows when you practise exactly that.
+Rereading and highlighting are rated low not because they are useless. They create fluency: your eyes recognise the line, so your brain assumes you remember it. In the exam room nobody lets you look at your notes. The paper asks you to **pull the knowledge out by yourself**, and that skill only grows when you practise exactly that.
 
 :::warning A sign that your revision is an illusion
-You read a solution and nod, "that's easy", but when you cover it you cannot write it again. Count a problem as "known" only when you can redo it on a blank sheet.
+You read a solution and nod, "that's easy", but when you cover it you cannot write it again. That is the sign of an illusion. Count a problem as "known" only when you can redo it on a blank sheet.
 :::
 
 ## Tool 1: test yourself instead of rereading
@@ -42,13 +42,13 @@ Psychologists call this the testing effect: trying to recall something strengthe
 - **Mini tests.** Every Lemonmath lesson ends with a test that is marked at once. Do it the next day, not straight after reading.
 - **Timed papers.** Sit a full paper in the real time, with no notes.
 
-Here a test is a tool for learning, not for a grade. A mistake during revision is good news: you have found a gap before the exam found it.
+Here a test is a tool for learning, not for a grade. A mistake during revision is good news: you have found a gap before the exam found it. Do not worry if you find you have forgotten a lot the first time.
 
 ## Tool 2: space it out instead of cramming
 
-With the same 3 hours for one topic, three 1-hour sessions a few days apart give longer-lasting memory than one 3-hour block. Forgetting a little and then working to recall is exactly when memory is strengthened. Dunlosky's review rates this technique as highly useful, for learners of many ages and in many subjects.
+With the same 3 hours for one topic, three 1-hour sessions a few days apart give longer-lasting memory than one 3-hour block. The reason is that forgetting a little and then working to recall is exactly when memory is strengthened. Dunlosky's review rates this technique as highly useful, for learners of many ages and in many subjects.
 
-A simple repetition schedule for each topic:
+Here is a simple repetition schedule for each topic:
 
 | Round | When | What to do |
 |---|---|---|
@@ -67,17 +67,17 @@ Workbooks usually group problems in blocks: 20 problems of one type. By the thir
 
 Doug Rohrer's team (University of South Florida) tested this in real classrooms: 54 seventh-grade maths classes did either blocked or mixed assignments for four months. One month later, on an unannounced test, the mixed-practice group averaged 61% and the blocked group 38%. The authors note that the study has limits, but the direction of the result is very clear.
 
-How to apply it:
+Here is how to apply it:
 
 - When a type is **new**, do 4–5 problems in a row to get used to it.
 - From the next session, build a mixed sheet: 1–2 problems from each topic you have studied, in shuffled order.
 - Before solving, ask: "What is being asked? Which topic is this? Why this method?"
 
-Mixed practice feels slower and harder. That is the useful kind of difficulty.
+Mixed practice feels slower and harder. Do not give it up for that reason: it is the useful kind of difficulty.
 
 ## Tool 4: an error log
 
-Experienced exam teachers often give the same advice: it is better to sit 3 papers and understand every mistake deeply than to rush through 10 papers. An error log turns that advice into a habit. Write four lines for each mistake:
+Experienced exam teachers often give the same advice: it is better to sit 3 papers and understand every mistake deeply than to rush through 10 papers. An error log turns that advice into a habit. For each mistake, write four lines:
 
 1. **The problem** (copy or paste it).
 2. **Where did I go wrong?** Choose one type: concept not understood, wrong method, calculation slip, misread the question, ran out of time.
@@ -92,14 +92,14 @@ The mathematician George Pólya, in *How to Solve It* (1945), split problem solv
 
 1. **Understand the problem.** What is given, what is wanted, what are the conditions?
 2. **Make a plan.** Have you seen a similar problem? Can you draw a figure, make a table, introduce an unknown?
-3. **Carry out the plan.** Write each step so that it can be checked.
+3. **Carry out the plan.** Write each step so that each one can be checked.
 4. **Look back.** Is the answer reasonable (units, sign, size)? Is there a shorter way?
 
 Step 4 is skipped most often, and it also rescues the most marks in the exam room. While revising, practise self-explanation: after each line, say quietly why that line is true.
 
 ## A sample week
 
-Suppose you have about 5 sessions of 60–90 minutes:
+Suppose you have about 5 sessions of 60–90 minutes. Then a revision week could look like this:
 
 | Session | Start (10 min) | Main part | Finish (10 min) |
 |---|---|---|---|
@@ -109,7 +109,7 @@ Suppose you have about 5 sessions of 60–90 minutes:
 | 4 | Mini test on topic B | Mixed sheet: A, B and older topics | Update error log |
 | 5 | Redo problems from the error log | Half a paper or a full paper, timed | Mark it, classify mistakes |
 
-When 3–4 weeks remain before the exam, increase the share of timed papers; mark every paper and update the error log on the same day.
+When 3–4 weeks remain before the exam, increase the share of timed papers; mark every paper and update the error log on the same day. Back to An and Binh: what makes the difference is not the number of hours, but whether you dare to test yourself, get things wrong and fix them while you revise. Today, you could start with a blank sheet.
 
 ## References
 

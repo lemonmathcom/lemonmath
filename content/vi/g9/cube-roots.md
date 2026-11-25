@@ -10,9 +10,9 @@ minutes: 20
 - Nhận biết căn thức bậc ba, dùng $\sqrt[3]{A^3}=A$ để tính và rút gọn.
 :::
 
-Một khối Rubik lớn được ghép từ $27$ khối lập phương nhỏ giống nhau. Mỗi cạnh của khối lớn có mấy khối nhỏ? Một hộp quà hình lập phương có thể tích $2$ lít, tức $2000$ cm³. Cạnh hộp dài bao nhiêu xăng-ti-mét?
+Một khối Rubik lớn được ghép từ $27$ khối lập phương nhỏ giống nhau. Mỗi cạnh của khối lớn có mấy khối nhỏ? Còn đây là câu hỏi thứ hai: một hộp quà hình lập phương có thể tích $2$ lít, tức $2000$ cm³. Cạnh hộp dài bao nhiêu xăng-ti-mét?
 
-Câu hỏi thứ nhất: $3\cdot3\cdot3=27$, nên mỗi cạnh có $3$ khối. Câu hỏi thứ hai cần một số mà **lập phương** lên bằng $2000$. Đó là căn bậc ba.
+Câu hỏi thứ nhất dễ thôi: $3\cdot3\cdot3=27$, nên mỗi cạnh có $3$ khối. Câu hỏi thứ hai khó hơn: ta cần một số mà khi **lập phương** lên thì bằng $2000$. Số đó có tên là căn bậc ba, và bài học sẽ cho ta cách tìm nó.
 
 :::diagram Hình lập phương cạnh $a$, thể tích $a^3$
 alt: Hình lập phương vẽ theo phép chiếu song song, các cạnh khuất vẽ nét đứt, một cạnh đáy ghi là a
@@ -46,7 +46,7 @@ segment D D' dashed
 |---|---|---|---|---|---|---|---|
 | $x^3$ | $-27$ | $-8$ | $-1$ | $0$ | $1$ | $8$ | $27$ |
 
-Khác với bình phương, lập phương của một số âm là số âm. Mỗi giá trị trong hàng dưới xuất hiện đúng một lần. Chẳng hạn, chỉ có một số lập phương bằng $-8$, đó là $-2$.
+Hãy nhìn hàng dưới của bảng. Khác với bình phương, lập phương của một số âm vẫn là số âm. Mỗi giá trị trong hàng dưới chỉ xuất hiện đúng một lần. Chẳng hạn, chỉ có một số mà lập phương bằng $-8$, đó là $-2$. Chính điều này cho phép ta nói về căn bậc ba của cả số âm.
 
 :::definition Căn bậc ba
 **Căn bậc ba** của số thực $a$ là số $x$ sao cho $x^3=a$.
@@ -56,7 +56,7 @@ Mỗi số thực $a$ có **đúng một** căn bậc ba, kí hiệu là $\sqrt[
 Từ định nghĩa: $\left(\sqrt[3]{a}\right)^3=a$ và $\sqrt[3]{a^3}=a$ với mọi số thực $a$.
 :::
 
-Ghi nhớ: căn bậc ba của số dương là số dương, của số âm là số âm, của $0$ là $0$. Hơn nữa $\sqrt[3]{-a}=-\sqrt[3]{a}$.
+Bạn nên nhớ: căn bậc ba của số dương là số dương, của số âm là số âm, của $0$ là $0$. Hơn nữa $\sqrt[3]{-a}=-\sqrt[3]{a}$, nghĩa là muốn tìm căn bậc ba của một số âm, ta tìm căn bậc ba của số đối của nó rồi đổi dấu.
 
 :::example Tìm căn bậc ba
 Tìm: a) $\sqrt[3]{64}$; b) $\sqrt[3]{-125}$; c) $\sqrt[3]{0{,}008}$; d) $\sqrt[3]{-\dfrac{8}{27}}$.
@@ -80,7 +80,7 @@ $$a=\sqrt[3]{2000}\approx12{,}599\approx12{,}6.$$
 Vậy cạnh hộp quà dài khoảng $12{,}6$ cm.
 :::
 
-Hai đẳng thức $\left(\sqrt[3]{a}\right)^3=a$ và $\sqrt[3]{a^3}=a$ giúp tính nhanh nhiều biểu thức.
+Hai đẳng thức $\left(\sqrt[3]{a}\right)^3=a$ và $\sqrt[3]{a^3}=a$ nói rằng lấy căn bậc ba và lập phương là hai việc ngược nhau, cái này triệt tiêu cái kia. Nhờ vậy nhiều biểu thức tính rất nhanh.
 
 :::example Tính giá trị biểu thức
 Tính $A=\sqrt[3]{27}-\sqrt[3]{-64}+\left(\sqrt[3]{3}\right)^3$.
@@ -94,7 +94,7 @@ Vậy $A=10$.
 
 ## So sánh căn bậc ba
 
-Lập phương giữ nguyên thứ tự: số lớn hơn có lập phương lớn hơn. Vì thế, với mọi số thực $a$, $b$:
+Lập phương giữ nguyên thứ tự: số lớn hơn thì có lập phương lớn hơn. Vì thế căn bậc ba cũng giữ nguyên thứ tự. Với mọi số thực $a$, $b$:
 $$a<b\iff\sqrt[3]{a}<\sqrt[3]{b}.$$
 
 :::example So sánh
@@ -115,7 +115,7 @@ Với $A$ là một biểu thức đại số, $\sqrt[3]{A}$ gọi là **căn th
 $\sqrt[3]{A}$ **xác định với mọi giá trị** của biến làm cho $A$ xác định, và $\sqrt[3]{A^3}=A$.
 :::
 
-So với căn bậc hai: $\sqrt{A^2}=|A|$, còn $\sqrt[3]{A^3}=A$, không cần giá trị tuyệt đối, và không cần điều kiện $A\ge0$.
+Chỗ này nhiều bạn hay nhầm với căn bậc hai. Với căn bậc hai, $\sqrt{A^2}=|A|$. Còn với căn bậc ba, $\sqrt[3]{A^3}=A$: không cần giá trị tuyệt đối, và cũng không cần điều kiện $A\ge0$. Vì sao? Vì số âm vẫn có căn bậc ba.
 
 :::example Rút gọn căn thức bậc ba
 Rút gọn: a) $\sqrt[3]{8x^3}$; b) $\sqrt[3]{x^3-3x^2+3x-1}$.
@@ -163,10 +163,11 @@ Vậy cạnh bể dài $1{,}2$ m.
 - $a<b\iff\sqrt[3]{a}<\sqrt[3]{b}$; để so sánh, đưa về cùng dạng căn bậc ba hoặc so sánh lập phương.
 - $\sqrt[3]{A}$ xác định khi $A$ xác định; $\sqrt[3]{A^3}=A$ (không có giá trị tuyệt đối).
 - Hình lập phương thể tích $V$ có cạnh $\sqrt[3]{V}$.
+Quay lại câu hỏi đầu bài: cạnh của hộp quà chính là căn bậc ba của thể tích, và máy tính cho ta con số cụ thể. Chỉ cần nhớ một điều: căn bậc ba không đòi số dưới dấu căn phải dương, nên không có giá trị tuyệt đối. Làm vài bài luyện tập để chắc tay nhé.
 
 ## Luyện tập
 
-Mỗi bài có phần kiến thức và gợi ý các bước. Hãy tự làm trước, rồi mới bấm xem lời giải.
+Mỗi bài có phần kiến thức cần nhớ và vài bước gợi ý. Bạn hãy thử tự làm trước, kẹt chỗ nào thì mới xem lời giải. Làm sai một lần cũng không sao, vì chính lúc sửa sai ta nhớ lâu nhất.
 
 :::exercise
 Tính:

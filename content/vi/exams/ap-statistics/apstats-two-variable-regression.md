@@ -12,11 +12,11 @@ minutes: 50
 - Nhận ra phép ngoại suy và phân biệt liên hệ với quan hệ nhân quả.
 :::
 
-Hồi quy là Unit 5 của chương trình mới và có riêng một cụm ba câu trắc nghiệm trong đề, nên đây là phần nên chắc điểm. Phần tính toán nhẹ; điểm đến từ những lời diễn giải **gắn với tình huống** với đúng từ ngữ: "dự đoán", "trung bình", "mỗi khi … tăng thêm". Bài này gồm những gì còn trong chương trình; biến đổi dữ liệu để được dạng tuyến tính và suy luận cho hệ số góc đã bị bỏ.
+Nếu biết mỗi học sinh ôn bao nhiêu giờ, ta có đoán được điểm kiểm tra của bạn ấy không? Đoán đúng từng người thì không, nhưng đoán xu hướng chung thì được, và hồi quy là công cụ để làm việc đó. Hồi quy là Unit 5 của chương trình mới và có riêng một cụm ba câu trắc nghiệm trong đề, nên đây là phần nên chắc điểm. Phần tính toán nhẹ. Điểm đến từ những lời diễn giải **gắn với tình huống** bằng đúng từ ngữ: "dự đoán", "trung bình", "mỗi khi … tăng thêm". Ở đây ta chỉ học những gì còn trong chương trình; biến đổi dữ liệu để được dạng tuyến tính và suy luận cho hệ số góc đã bị bỏ.
 
 ## Biểu đồ phân tán và hệ số tương quan
 
-**Biểu đồ phân tán** (scatterplot) biểu diễn hai biến định lượng đo trên cùng các cá thể: **biến giải thích** $x$ trên trục hoành và **biến phản hồi** $y$ trên trục tung. Mô tả nó bằng bốn đặc điểm, gắn với tình huống:
+Mọi bài hồi quy bắt đầu bằng một bức tranh. **Biểu đồ phân tán** (scatterplot) biểu diễn hai biến định lượng đo trên cùng các cá thể: **biến giải thích** $x$ trên trục hoành và **biến phản hồi** $y$ trên trục tung. Nhìn vào đó, bạn nên nói được bốn điều, và luôn gắn với tình huống:
 
 | Đặc điểm | Cần nói gì |
 |---|---|
@@ -25,7 +25,7 @@ Hồi quy là Unit 5 của chương trình mới và có riêng một cụm ba c
 | Độ mạnh | mạnh, vừa hay yếu |
 | Điểm bất thường | điểm nằm xa xu hướng chung, cụm điểm |
 
-**Hệ số tương quan** $r$ đo chiều và độ mạnh của mối liên hệ **tuyến tính**. Ta có $-1\le r\le1$, $r$ không có đơn vị, và không đổi khi đổi chỗ $x$ với $y$ hay đổi đơn vị đo. Giá trị gần $0$ nghĩa là không có liên hệ tuyến tính, chưa chắc là không có liên hệ nào.
+Nhìn bằng mắt thì chưa đủ, ta còn muốn một con số cho biết các điểm bám theo một đường thẳng chặt đến đâu. **Hệ số tương quan** $r$ chính là con số đó: nó đo chiều và độ mạnh của mối liên hệ **tuyến tính**. Ta có $-1\le r\le1$, $r$ không có đơn vị, và không đổi khi đổi chỗ $x$ với $y$ hay đổi đơn vị đo. Chỗ này nhiều bạn hay nhầm: giá trị gần $0$ nghĩa là không có liên hệ tuyến tính, chứ chưa chắc là không có liên hệ nào.
 
 :::graph Số giờ ôn bài và điểm kiểm tra của $11$ học sinh, kèm đường bình phương nhỏ nhất
 alt: Biểu đồ phân tán 11 điểm đi lên từ khoảng (1, 52) đến (8, 85), nằm gần một đường thẳng vẽ qua chúng
@@ -48,12 +48,13 @@ point: (8, 85)
 
 ## Đường hồi quy bình phương nhỏ nhất
 
-**Đường hồi quy bình phương nhỏ nhất** (least-squares regression line) $\hat y=a+bx$ là đường làm cho tổng bình phương các phần dư nhỏ nhất. Từ các số đặc trưng,
+Có vô số đường thẳng vẽ được qua một đám điểm. Ta chọn đường nào? **Đường hồi quy bình phương nhỏ nhất** (least-squares regression line) $\hat y=a+bx$ là đường làm cho tổng bình phương các phần dư nhỏ nhất. Từ các số đặc trưng của dữ liệu,
 $$b=r\,\frac{s_y}{s_x},\qquad a=\bar y-b\bar x,$$
-nên đường thẳng luôn đi qua $(\bar x,\bar y)$. Dấu mũ trên $\hat y$ nghĩa là giá trị **dự đoán**.
+nên đường thẳng luôn đi qua điểm $(\bar x,\bar y)$, tức điểm trung bình của dữ liệu. Còn dấu mũ trên $\hat y$ nghĩa là giá trị **dự đoán**, không phải giá trị thật.
 
 - **Hệ số góc:** "Mỗi khi [$x$] tăng thêm một [đơn vị], [$y$] dự đoán tăng (giảm) $b$ [đơn vị của $y$]."
-- **Hệ số chặn:** "[$y$] dự đoán khi [$x$] $=0$ là $a$." Chỉ diễn giải khi $x=0$ có ý nghĩa.
+- **Hệ số chặn:** "[$y$] dự đoán khi [$x$] $=0$ là $a$." Chỉ nói câu này khi $x=0$ thực sự có ý nghĩa trong tình huống.
+Hãy tập đọc to hai câu mẫu này, thay đúng tên biến và đơn vị của từng bài.
 
 :::example Diễn giải hệ số góc
 Với các học sinh trong đồ thị, đường bình phương nhỏ nhất là $\widehat{\text{điểm}}=49{,}2+4{,}61\,(\text{giờ})$. Cách diễn giải đúng của $4{,}61$ là
@@ -85,11 +86,11 @@ Vậy đường hồi quy là $\hat y=28+2{,}4x$, chọn đáp án **A**. Phươ
 
 ## Phần dư và $r^2$
 
-**Phần dư** (residual) là
+Muốn biết đường thẳng dự đoán lệch bao nhiêu, ta nhìn vào phần dư. **Phần dư** (residual) là
 $$\text{phần dư}=y-\hat y=\text{thực tế}-\text{dự đoán}.$$
-Phần dư dương nghĩa là đường thẳng ước lượng thấp hơn điểm đó. **Biểu đồ phần dư** (phần dư theo $x$) không có quy luật thì ủng hộ mô hình tuyến tính; quy luật dạng cong nghĩa là mô hình tuyến tính không phù hợp.
+Phần dư dương nghĩa là đường thẳng ước lượng thấp hơn điểm đó. **Biểu đồ phần dư** (phần dư theo $x$) cho ta kiểm tra cả mô hình: nếu các phần dư rải đều, không có quy luật, thì mô hình tuyến tính được ủng hộ; nếu chúng xếp thành dạng cong thì mô hình tuyến tính không phù hợp.
 
-**Hệ số xác định** $r^2$ là tỉ lệ sự biến động của $y$ được giải thích bởi mô hình tuyến tính theo $x$. **Độ lệch chuẩn của phần dư** $s$ là độ lớn điển hình của sai số dự đoán.
+Hai con số cuối cho biết mô hình tốt đến đâu. **Hệ số xác định** $r^2$ là tỉ lệ sự biến động của $y$ được giải thích bởi mô hình tuyến tính theo $x$. **Độ lệch chuẩn của phần dư** $s$ là độ lớn điển hình của sai số dự đoán, tức mỗi lần dự đoán thường lệch chừng bấy nhiêu.
 
 :::example Tính phần dư
 Một mô hình cho giá ô tô cũ là $\hat y=24-1{,}8x$, với $x$ là tuổi xe (năm) và $y$ là giá (nghìn đô la). Một chiếc xe $5$ năm tuổi được bán với giá $13{,}5$ nghìn đô la. Phần dư của nó là bao nhiêu?
@@ -117,9 +118,10 @@ Vậy khẳng định đúng là C, chọn đáp án **C**. Vì liên hệ là d
 
 ## Giới hạn của hồi quy
 
-- **Ngoại suy:** dự đoán ở các giá trị $x$ nằm xa ngoài khoảng dữ liệu dùng để lập đường thẳng là không đáng tin.
+- **Ngoại suy:** dự đoán ở các giá trị $x$ nằm xa ngoài khoảng dữ liệu dùng để lập đường thẳng thì không đáng tin, vì ta không biết quy luật còn đúng ở đó không.
 - **Liên hệ không phải nhân quả:** dữ liệu quan sát có thể cho tương quan mạnh vì một **biến ẩn** (lurking variable) ảnh hưởng đến cả $x$ và $y$. Chỉ thí nghiệm được thiết kế tốt mới cho thấy quan hệ nhân quả.
-- **Dạng tuyến tính:** $r$ và đường bình phương nhỏ nhất chỉ mô tả quy luật tuyến tính; luôn xem biểu đồ phân tán và biểu đồ phần dư.
+- **Dạng tuyến tính:** $r$ và đường bình phương nhỏ nhất chỉ mô tả quy luật tuyến tính, nên bạn luôn xem biểu đồ phân tán và biểu đồ phần dư.
+Hồi quy cho ta dự đoán xu hướng, và ba giới hạn này nhắc ta đừng đòi hỏi nó quá mức.
 
 :::warning Những cái bẫy thường gặp
 - **"Dự đoán":** câu diễn giải hệ số góc và hệ số chặn phải có từ "dự đoán" hoặc "trung bình".
@@ -127,6 +129,7 @@ Vậy khẳng định đúng là C, chọn đáp án **C**. Vì liên hệ là d
 - **$r$ và $r^2$:** dấu của $r$ là dấu của hệ số góc; $r^2$ không bao giờ âm.
 - **Tình huống:** nêu tên cả hai biến và đơn vị trong mọi lời diễn giải.
 - **Nội dung đã bỏ:** suy luận cho hệ số góc và biến đổi dữ liệu không còn được thi.
+Câu hỏi đầu bài là liệu số giờ ôn có giúp ta đoán được xu hướng của điểm. Hồi quy trả lời được, miễn là bạn diễn giải bằng đúng từ ngữ và gắn với tình huống. Nếu chỉ nhớ một chữ, hãy nhớ chữ "dự đoán". Bạn thử sức với các bài tập bên dưới nhé.
 :::
 
 :::terms

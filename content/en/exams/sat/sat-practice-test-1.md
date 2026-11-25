@@ -5,7 +5,7 @@ minutes: 70
 type: test
 ---
 
-This is a full-length practice test in the format of the digital SAT Math section: two modules of 22 questions, 35 minutes each. All questions are written by Lemonmath; they are not real SAT questions, but they follow the official content domains and question styles.
+Knowing how to swim is one thing. Swimming the whole length of the pool without stopping is another. SAT Math works the same way. Single practice questions build your skills, but a full test shows whether you can keep your focus and energy to the last question. This test follows the format of the digital SAT Math section: two modules of 22 questions, 35 minutes each. Lemonmath wrote every question, so these are not real SAT questions. They do follow the official content domains and question styles, so think of this as a proper rehearsal.
 
 ## How to take this test
 
@@ -16,11 +16,12 @@ This is a full-length practice test in the format of the digital SAT Math sectio
 | Calculator | allowed (Desmos or your own) | allowed |
 
 1. Set a timer for 35 minutes and do Module 1 without stopping. Submit it to see your score.
-2. Take a 10-minute break at most, then do Module 2 in another 35 minutes.
-3. For student-produced responses, type a number: integers, decimals with a point (for example `0.25`) or a minus sign. On the real test fractions such as `7/2` are also accepted.
-4. Afterwards, open the answers, read the explanation of every question you missed and add it to your error log.
+2. Take a break of 10 minutes at most, then do Module 2 in another 35 minutes.
+3. For questions where you type your own answer, enter a number: a whole number, a decimal with a point (for example `0.25`) or a negative number with a minus sign. The real test also accepts fractions such as `7/2`, so it is worth getting used to writing them.
+4. When you finish, open the answers and read the explanation for every question you missed. Then add each one to your error log: that log will show you what to revise first.
+Keep to the timing and take it seriously from the start, so that your score shows what you can really do.
 
-On the real test, Module 2 adapts to your performance on Module 1. Here both modules are fixed, and Module 2 is a little harder, like the harder second module.
+One thing is different from the real test. There, Module 2 adapts to how you do on Module 1. Here we keep both modules fixed, and Module 2 is a little harder than Module 1, like the harder second module you would meet on the real test. So don't be surprised if the second half feels heavier.
 
 ## Module 1
 
@@ -382,7 +383,7 @@ Two numbers that differ by 1 with product 12: $3, 4$ or $-3, -4$. Since $b>0$ th
 
 ## After the test
 
-Each module is marked out of 22. Use the table to see which lesson to revise for each question you missed. A score of 18 or more in each module suggests you are ready for the hardest SAT questions; below 12, go back to the lessons before taking another full test.
+Each module is marked out of 22. The score is only half the story. The other half is in the questions you missed: each one points to a gap you can fill, and the table below shows which lesson to revise for it. A score of 18 or more in each module suggests you are ready for the hardest SAT questions. Below 12, don't be discouraged: go back to the lessons first, then take another full test.
 
 | Question | Module 1 | Module 2 |
 |---|---|---|
@@ -409,4 +410,4 @@ Each module is marked out of 22. Use the table to see which lesson to revise for
 | 21 | [Linear equations and systems](lesson:sat-linear-equations-systems) | [Area, volume and angles](lesson:sat-area-volume-lines-angles) |
 | 22 | [Quadratics and nonlinear equations](lesson:sat-quadratics-nonlinear) | [Quadratics and nonlinear equations](lesson:sat-quadratics-nonlinear) |
 
-Then take the [second practice test](lesson:sat-practice-test-2) after at least a week of revision, and remember to review with the methods in [Revision that works](lesson:evidence-based-revision).
+Give yourself at least a week to revise the gaps, then take the [second practice test](lesson:sat-practice-test-2) to see whether you can now hold your form to the end. Use the methods in [Revision that works](lesson:evidence-based-revision) while you revise. One thing to remember: a test only helps if you go back and fix the questions you got wrong. Keep practising steadily and you will feel yourself getting stronger.

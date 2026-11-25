@@ -10,13 +10,13 @@ minutes: 20
 - Nhận biết góc ở tâm, cung nhỏ, cung lớn và tính số đo cung.
 :::
 
-Chiếc đồng hồ treo tường trong lớp có kim phút dài $15$ cm. Từ $7$ giờ đến $7$ giờ $20$ phút, đầu kim phút đi từ vị trí $A$ đến vị trí $B$ trên một cung tròn. Cung đó có số đo bao nhiêu độ? Đoạn thẳng $AB$ dài bao nhiêu?
+Chiếc đồng hồ treo tường trong lớp có kim phút dài $15$ cm. Từ $7$ giờ đến $7$ giờ $20$ phút, đầu kim phút đi từ vị trí $A$ đến vị trí $B$ trên một cung tròn. Ta hay nhìn kim quay mà không để ý nó đã vẽ nên hình gì. Cung đó có số đo bao nhiêu độ? Đoạn thẳng $AB$ dài bao nhiêu?
 
 ## Dây của đường tròn
 
 ### Khám phá: dây nào dài nhất?
 
-Trên đường tròn $(O; 5\text{ cm})$, nối hai điểm bất kì ta được một **dây**. Thử vài dây: dây cách tâm $4$ cm dài $6$ cm, dây cách tâm $3$ cm dài $8$ cm, dây đi qua tâm dài $10$ cm. Dây càng gần tâm càng dài, và dài nhất khi đi qua tâm.
+Trên đường tròn $(O; 5\text{ cm})$, nối hai điểm bất kì ta được một **dây**. Dây nào dài nhất? Ta thử vài dây. Dây cách tâm $4$ cm dài $6$ cm, dây cách tâm $3$ cm dài $8$ cm, dây đi qua tâm dài $10$ cm. Dây càng gần tâm càng dài, và dài nhất khi đi qua tâm.
 
 :::definition Dây cung
 Đoạn thẳng nối hai điểm phân biệt của một đường tròn gọi là **dây cung** (gọi tắt là **dây**). Dây đi qua tâm là đường kính.
@@ -26,9 +26,9 @@ Trên đường tròn $(O; 5\text{ cm})$, nối hai điểm bất kì ta đượ
 Trong các dây của một đường tròn, dây lớn nhất là đường kính.
 :::
 
-**Vì sao?** Với dây $AB$ không đi qua tâm, xét tam giác $OAB$ ta có $AB<OA+OB=2R$. Nếu $AB$ đi qua tâm thì $AB=2R$.
+**Vì sao?** Lấy dây $AB$ không đi qua tâm. Trong tam giác $OAB$, một cạnh luôn nhỏ hơn tổng hai cạnh còn lại, nên $AB<OA+OB=2R$. Còn nếu $AB$ đi qua tâm thì $AB=2R$. Vậy không dây nào vượt được đường kính.
 
-Tam giác $OAB$ cân tại $O$ (vì $OA=OB=R$). Do đó nếu $H$ là chân đường vuông góc kẻ từ $O$ đến $AB$ thì $H$ là trung điểm của $AB$, và theo định lí Pythagore:
+Còn một cách tính độ dài dây khi biết dây cách tâm bao xa. Tam giác $OAB$ cân tại $O$ (vì $OA=OB=R$). Trong tam giác cân, đường cao hạ từ đỉnh cũng là trung tuyến. Do đó nếu $H$ là chân đường vuông góc kẻ từ $O$ đến $AB$ thì $H$ là trung điểm của $AB$, và theo định lí Pythagore:
 
 $$AB=2HA=2\sqrt{R^2-OH^2}.$$
 
@@ -60,7 +60,7 @@ Vậy $AB=2HA=16$ cm.
 
 ## Góc ở tâm và cung
 
-Hai điểm $A$, $B$ trên đường tròn chia đường tròn thành hai **cung**, kí hiệu chung là $\overset{\frown}{AB}$. Để phân biệt, ta lấy thêm một điểm $M$ trên một cung và viết $\overset{\frown}{AMB}$.
+Giờ ta nhìn đường tròn theo cách khác: không phải đoạn nối hai điểm, mà là phần đường tròn nằm giữa hai điểm ấy. Hai điểm $A$, $B$ trên đường tròn chia đường tròn thành hai **cung**, kí hiệu chung là $\overset{\frown}{AB}$. Để phân biệt, ta lấy thêm một điểm $M$ trên một cung và viết $\overset{\frown}{AMB}$.
 
 :::definition Góc ở tâm, cung nhỏ, cung lớn
 Góc có đỉnh trùng với tâm đường tròn gọi là **góc ở tâm**. Với góc ở tâm $\widehat{AOB}$ ($0^\circ<\widehat{AOB}<180^\circ$), cung nằm bên trong góc là **cung nhỏ**, cung còn lại là **cung lớn**; cung nhỏ $AB$ gọi là **cung bị chắn** bởi góc $\widehat{AOB}$. Nếu $AB$ là đường kính thì mỗi cung là một **nửa đường tròn**.
@@ -88,7 +88,7 @@ angle A O B "100°"
 Số đo của cung $AB$ kí hiệu là $\text{sđ}\,\overset{\frown}{AB}$. Trong một đường tròn, hai cung bằng nhau nếu chúng có cùng số đo.
 :::
 
-Nếu điểm $C$ nằm trên cung $AB$ thì $\text{sđ}\,\overset{\frown}{AB}=\text{sđ}\,\overset{\frown}{AC}+\text{sđ}\,\overset{\frown}{CB}$ (vì góc ở tâm $\widehat{AOB}$ được chia thành hai góc).
+Số đo cung có tính chất cộng, giống như đo một quãng đường rồi ghép các đoạn lại. Nếu điểm $C$ nằm trên cung $AB$ thì $\text{sđ}\,\overset{\frown}{AB}=\text{sđ}\,\overset{\frown}{AC}+\text{sđ}\,\overset{\frown}{CB}$. Lí do là góc ở tâm $\widehat{AOB}$ được chia thành hai góc.
 
 :::example Cung nhỏ và cung lớn
 Trên hình trên, $\widehat{AOB}=100^\circ$. Tính số đo cung nhỏ $AB$ và cung lớn $AMB$.
@@ -100,7 +100,7 @@ $$\text{sđ}\,\overset{\frown}{AMB}=360^\circ-100^\circ=260^\circ.$$
 Vậy cung nhỏ $AB$ có số đo $100^\circ$, cung lớn $AMB$ có số đo $260^\circ$.
 :::
 
-Bây giờ ta trả lời câu hỏi về chiếc đồng hồ ở đầu bài.
+Có góc ở tâm và số đo cung, ta trả lời được câu hỏi về chiếc đồng hồ ở đầu bài. Ta cần tìm hai thứ: số đo cung và độ dài dây.
 
 :::example Kim phút của đồng hồ
 Kim phút $OA$ dài $15$ cm. Từ $7$ giờ đến $7$ giờ $20$ phút, đầu kim đi từ $A$ đến $B$. Tính $\text{sđ}\,\overset{\frown}{AB}$ (cung đầu kim đi qua) và độ dài $AB$ (làm tròn kết quả đến hàng phần trăm).
@@ -114,7 +114,7 @@ $$HA=OA\cdot\sin60^\circ=15\cdot\frac{\sqrt3}{2},\qquad AB=2HA=15\sqrt3\approx25
 Vậy cung có số đo $120^\circ$ và $AB\approx25{,}98$ cm.
 :::
 
-Khi ba điểm chia đường tròn thành ba cung, ta dùng tính chất cộng số đo cung.
+Còn khi ba điểm chia đường tròn thành ba cung, ta ghép chúng lại bằng tính chất cộng số đo cung.
 
 :::example Ba cung của một đường tròn
 Ba điểm $A$, $B$, $C$ chia đường tròn $(O)$ thành ba cung $AB$, $BC$, $CA$ không chứa điểm còn lại, với $\text{sđ}\,\overset{\frown}{AB}=100^\circ$, $\text{sđ}\,\overset{\frown}{BC}=140^\circ$. Tính $\text{sđ}\,\overset{\frown}{CA}$ và số đo cung $ACB$.
@@ -127,8 +127,8 @@ Vậy $\text{sđ}\,\overset{\frown}{CA}=120^\circ$ và $\text{sđ}\,\overset{\fr
 :::
 
 :::warning Những sai lầm thường gặp
-- **Quên nhân đôi khi tính dây.** Sai: dây cách tâm $6$ cm của $(O; 10\text{ cm})$ dài $\sqrt{100-36}=8$ cm. Lí do sai: $8$ cm chỉ là nửa dây $HA$. Đúng: $AB=16$ cm.
-- **Lấy góc ở tâm làm số đo cung lớn.** Sai: $\widehat{AOB}=70^\circ$ nên cung lớn $AB$ có số đo $70^\circ$. Lí do sai: góc ở tâm chỉ bằng cung nhỏ. Đúng: cung lớn có số đo $290^\circ$.
+- **Quên nhân đôi khi tính dây.** Có bạn tính dây cách tâm $6$ cm của $(O; 10\text{ cm})$ dài $\sqrt{100-36}=8$ cm. Nhưng $8$ cm chỉ là nửa dây $HA$. Đúng là $AB=16$ cm.
+- **Lấy góc ở tâm làm số đo cung lớn.** Có bạn viết $\widehat{AOB}=70^\circ$ nên cung lớn $AB$ có số đo $70^\circ$. Góc ở tâm chỉ bằng số đo cung nhỏ. Cung lớn có số đo $290^\circ$.
 :::
 
 ## Thuật ngữ
@@ -146,13 +146,14 @@ Vậy $\text{sđ}\,\overset{\frown}{CA}=120^\circ$ và $\text{sđ}\,\overset{\fr
 ## Tóm tắt
 
 - Dây nối hai điểm của đường tròn; đường kính là dây lớn nhất.
-- $OH\perp AB$ thì $H$ là trung điểm của $AB$ và $AB=2\sqrt{R^2-OH^2}$.
-- Số đo cung nhỏ bằng góc ở tâm chắn nó; cung lớn bằng $360^\circ$ trừ cung nhỏ; nửa đường tròn $180^\circ$.
-- $C$ nằm trên cung $AB$ thì $\text{sđ}\,\overset{\frown}{AB}=\text{sđ}\,\overset{\frown}{AC}+\text{sđ}\,\overset{\frown}{CB}$.
+- Nếu $OH\perp AB$ thì $H$ là trung điểm của $AB$ và $AB=2\sqrt{R^2-OH^2}$.
+- Số đo cung nhỏ bằng góc ở tâm chắn nó; cung lớn bằng $360^\circ$ trừ số đo cung nhỏ; nửa đường tròn là $180^\circ$.
+- Nếu $C$ nằm trên cung $AB$ thì $\text{sđ}\,\overset{\frown}{AB}=\text{sđ}\,\overset{\frown}{AC}+\text{sđ}\,\overset{\frown}{CB}$.
+Câu hỏi về chiếc đồng hồ đã có lời đáp: kim quay bao nhiêu độ thì cung có bấy nhiêu độ, và độ dài dây tính được nhờ định lí Pythagore hoặc tỉ số lượng giác. Điều cần nhớ là khi tính dây, ta tìm nửa dây trước rồi nhân đôi.
 
 ## Luyện tập
 
-Mỗi bài có phần kiến thức và gợi ý các bước. Hãy tự làm trước, rồi mới bấm xem lời giải.
+Mỗi bài tập có phần kiến thức cần nhớ và gợi ý các bước. Bạn nên tự làm trước, vướng thì mới mở lời giải. Làm chậm mà chắc, cung và dây sẽ quen dần.
 
 :::exercise
 Cho góc ở tâm $\widehat{AOB}=65^\circ$. Tính số đo cung nhỏ $AB$ và cung lớn $AB$.

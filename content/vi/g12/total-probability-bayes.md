@@ -11,23 +11,23 @@ minutes: 20
 - Giải thích vì sao một xét nghiệm dương tính với bệnh hiếm vẫn có thể ít khả năng là mắc bệnh.
 :::
 
-Một bệnh hiếm gặp có ở $1\%$ dân số. Có một xét nghiệm cho kết quả dương tính với $95\%$ người mắc bệnh, nhưng cũng dương tính nhầm với $5\%$ người không mắc bệnh. Bạn Lan đi xét nghiệm và nhận kết quả dương tính. Có phải khả năng Lan mắc bệnh là $95\%$?
+Có một căn bệnh hiếm, chỉ gặp ở $1\%$ dân số. Một xét nghiệm cho kết quả dương tính với $95\%$ người mắc bệnh, nhưng cũng dương tính nhầm với $5\%$ người không mắc bệnh. Bạn Lan đi xét nghiệm và nhận kết quả dương tính. Vậy khả năng Lan mắc bệnh có phải là $95\%$ không?
 
-Rất nhiều người, kể cả người lớn, trả lời "có". Câu trả lời đúng thấp hơn nhiều. Bài này cho ta công cụ để tính nó.
+Nhiều người, kể cả người lớn, trả lời "có" ngay. Nhưng câu trả lời đúng thấp hơn nhiều. Chỗ này nhiều bạn hay nhầm, vì con số của xét nghiệm nghe rất thuyết phục. Ta sẽ tính nó ra bằng một cách nghĩ khá gần gũi: đếm người.
 
 ## Công thức xác suất toàn phần
 
 ### Khám phá: hình dung $10\,000$ người
 
-Thay vì nói xác suất, ta tưởng tượng $10\,000$ người đi xét nghiệm.
+Xác suất nghe hơi trừu tượng, nên ta đếm người cho dễ. Hãy tưởng tượng có $10\,000$ người đi xét nghiệm.
 - Có $1\%$, tức $100$ người, mắc bệnh. Trong đó $95\%$, tức $95$ người, dương tính.
 - Có $9\,900$ người không mắc bệnh. Trong đó $5\%$, tức $495$ người, dương tính nhầm.
 
-Tổng số người dương tính là $95+495=590$. Trong $590$ người ấy chỉ có $95$ người thật sự mắc bệnh:
+Cộng lại, số người dương tính là $95+495=590$. Trong $590$ người ấy, chỉ có $95$ người thật sự mắc bệnh. Tỉ lệ là:
 
 $$\frac{95}{590}\approx0{,}161.$$
 
-Vậy dương tính thì khả năng mắc bệnh chỉ khoảng $16\%$. Để có $590$, ta đã cộng số người dương tính của **hai trường hợp**: mắc bệnh và không mắc bệnh. Đó là ý tưởng của công thức xác suất toàn phần.
+Vậy một người dương tính chỉ có khoảng $16\%$ khả năng mắc bệnh. Hãy để ý cách ta có số $590$: ta cộng số người dương tính của **hai trường hợp**, mắc bệnh và không mắc bệnh. Đó chính là ý tưởng của công thức xác suất toàn phần.
 
 :::theorem Công thức xác suất toàn phần
 Cho hai biến cố $A$ và $B$ với $0<P(B)<1$. Khi đó
@@ -36,9 +36,9 @@ Tổng quát, nếu $B_1, B_2, \dots, B_n$ đôi một xung khắc, có xác su�
 $$P(A)=P(B_1)P(A\mid B_1)+P(B_2)P(A\mid B_2)+\dots+P(B_n)P(A\mid B_n).$$
 :::
 
-**Vì sao đúng?** Biến cố $A$ xảy ra hoặc cùng với $B$, hoặc cùng với $\overline{B}$, nên $A=(A\cap B)\cup(A\cap\overline{B})$, và hai phần này xung khắc. Theo quy tắc cộng, $P(A)=P(A\cap B)+P(A\cap\overline{B})$. Mỗi số hạng được tính bằng công thức nhân, chẳng hạn $P(A\cap B)=P(B)\cdot P(A\mid B)$.
+**Vì sao đúng?** Mỗi lần biến cố $A$ xảy ra, nó xảy ra cùng với $B$ hoặc cùng với $\overline{B}$. Vì vậy $A=(A\cap B)\cup(A\cap\overline{B})$, và hai phần này xung khắc. Theo quy tắc cộng, $P(A)=P(A\cap B)+P(A\cap\overline{B})$. Mỗi số hạng lại được tính bằng công thức nhân, chẳng hạn $P(A\cap B)=P(B)\cdot P(A\mid B)$.
 
-Trên sơ đồ cây, công thức này rất dễ nhớ: nhân dọc theo mỗi đường đi dẫn đến $A$, rồi cộng các đường đi đó lại.
+Nếu vẽ sơ đồ cây, công thức này gần như tự nhớ: ta nhân dọc theo mỗi đường đi dẫn đến $A$, rồi cộng các đường đi đó lại. Ví dụ sau làm đúng như vậy.
 
 :::example Hai máy cùng sản xuất
 Một xưởng có hai máy cùng làm một loại sản phẩm. Máy I làm $60\%$ số sản phẩm, với tỉ lệ lỗi $2\%$; máy II làm $40\%$, với tỉ lệ lỗi $5\%$. Lấy ngẫu nhiên một sản phẩm của xưởng. Tính xác suất sản phẩm đó bị lỗi.
@@ -75,7 +75,7 @@ label 4.4,-3 "0,95"
 
 ## Công thức Bayes
 
-Câu hỏi tiếp theo thường là câu hỏi "ngược": đã thấy kết quả $A$, vậy khả năng nó đến từ trường hợp $B$ là bao nhiêu? Ta cần $P(B\mid A)$, trong khi đề chỉ cho $P(A\mid B)$.
+Có một kiểu câu hỏi hay gặp nữa, và nó đi "ngược" lại. Ta đã thấy kết quả $A$, vậy khả năng nó đến từ trường hợp $B$ là bao nhiêu? Lúc này ta cần $P(B\mid A)$, trong khi đề chỉ cho $P(A\mid B)$. Công thức Bayes giúp ta đổi chiều như thế.
 
 :::theorem Công thức Bayes
 Cho hai biến cố $A$, $B$ với $P(A)>0$ và $0<P(B)<1$. Khi đó
@@ -83,7 +83,7 @@ $$P(B\mid A)=\frac{P(B)\cdot P(A\mid B)}{P(A)}=\frac{P(B)\cdot P(A\mid B)}{P(B)\
 Với hệ biến cố đầy đủ $B_1, \dots, B_n$: $P(B_i\mid A)=\dfrac{P(B_i)\cdot P(A\mid B_i)}{P(A)}$.
 :::
 
-**Vì sao đúng?** Theo định nghĩa, $P(B\mid A)=\dfrac{P(A\cap B)}{P(A)}$. Tử số viết lại bằng công thức nhân, $P(A\cap B)=P(B)\cdot P(A\mid B)$; mẫu số viết bằng công thức xác suất toàn phần. Trên sơ đồ cây: **tử số là một đường đi, mẫu số là tổng mọi đường đi dẫn đến $A$**.
+**Vì sao đúng?** Ta bắt đầu từ định nghĩa: $P(B\mid A)=\dfrac{P(A\cap B)}{P(A)}$. Tử số viết lại bằng công thức nhân, $P(A\cap B)=P(B)\cdot P(A\mid B)$. Mẫu số viết bằng công thức xác suất toàn phần. Trên sơ đồ cây, ta đọc được ngay: **tử số là một đường đi, mẫu số là tổng mọi đường đi dẫn đến $A$**.
 
 :::example Sản phẩm lỗi đến từ máy nào?
 Tiếp ví dụ hai máy, lấy ngẫu nhiên một sản phẩm và thấy nó bị lỗi. Tính xác suất sản phẩm đó do máy II làm.
@@ -95,7 +95,7 @@ $$P(\overline B\mid A)=\frac{0{,}4\cdot0{,}05}{0{,}032}=\frac{0{,}02}{0{,}032}=0
 Máy II chỉ làm $40\%$ sản phẩm, nhưng chiếm $62{,}5\%$ số sản phẩm lỗi, vì tỉ lệ lỗi của nó cao hơn.
 :::
 
-Bài toán chọn hộp rồi lấy bi cũng có hai bước như vậy.
+Chọn một hộp rồi lấy bi từ hộp đó cũng là bài toán hai bước, giống như chọn máy rồi xem sản phẩm có lỗi không. Ta thử dùng cả hai công thức cho tình huống này.
 
 :::example Hai hộp bi
 Hộp I có $3$ bi đỏ, $2$ bi trắng; hộp II có $1$ bi đỏ, $4$ bi trắng. Tung một đồng xu cân đối: ngửa thì chọn hộp I, sấp thì chọn hộp II, rồi lấy ngẫu nhiên một viên bi từ hộp đã chọn. Tính xác suất lấy được bi đỏ. Nếu lấy được bi đỏ, xác suất bi đó từ hộp I là bao nhiêu?
@@ -111,7 +111,7 @@ $$P(H\mid D)=\frac{3/10}{2/5}=\frac34.$$
 Vậy $P(D)=\dfrac25$ và $P(H\mid D)=\dfrac34$.
 :::
 
-Khi có nhiều hơn hai trường hợp, ta dùng dạng tổng quát của hai công thức.
+Nếu có nhiều hơn hai trường hợp thì sao? Ta vẫn làm như cũ, chỉ dùng dạng tổng quát của hai công thức: thêm một đường đi cho mỗi trường hợp.
 
 :::example Ba nhà cung cấp
 Một cửa hàng nhập bóng đèn từ ba nhà cung cấp: $50\%$ từ X, $30\%$ từ Y và $20\%$ từ Z. Tỉ lệ bóng hỏng của X, Y, Z lần lượt là $1\%$, $2\%$, $3\%$. Chọn ngẫu nhiên một bóng thì thấy bóng hỏng. Tính xác suất bóng đó của nhà cung cấp Z.
@@ -129,7 +129,7 @@ Vậy xác suất bóng hỏng đó của Z khoảng $35{,}3\%$, dù Z chỉ cun
 
 ## Xét nghiệm bệnh hiếm
 
-Bây giờ ta trả lời câu hỏi ở đầu bài bằng công thức.
+Giờ ta quay lại bạn Lan ở đầu bài. Lần này ta trả lời bằng công thức, và kết quả phải khớp với cách đếm người lúc nãy.
 
 :::example Xét nghiệm dương tính
 Bệnh có ở $1\%$ dân số; xét nghiệm dương tính với $95\%$ người bệnh và với $5\%$ người không bệnh. Một người xét nghiệm dương tính. Tính xác suất người đó mắc bệnh.
@@ -147,7 +147,7 @@ $$P(B\mid A)=\frac{0{,}0095}{0{,}059}=\frac{19}{118}\approx0{,}161.$$
 **Nhìn lại.** Kết quả trùng với cách đếm $\dfrac{95}{590}$. Xác suất thấp vì người khoẻ đông gấp $99$ lần người bệnh: $5\%$ của một nhóm rất lớn ($0{,}0495$) lớn hơn $95\%$ của một nhóm rất nhỏ ($0{,}0095$).
 :::
 
-Vì thế, khi xét nghiệm sàng lọc dương tính, bác sĩ thường cho xét nghiệm lại.
+Vì xác suất mắc bệnh sau một lần dương tính vẫn còn thấp, nên khi xét nghiệm sàng lọc dương tính, bác sĩ thường cho xét nghiệm lại. Điều gì xảy ra ở lần thứ hai?
 
 :::example Xét nghiệm lần thứ hai
 Lan xét nghiệm lại bằng cùng loại xét nghiệm, và lần này vẫn dương tính. Giả sử với mỗi người, kết quả hai lần xét nghiệm độc lập với nhau. Tính xác suất Lan mắc bệnh.
@@ -160,8 +160,8 @@ Sau hai lần dương tính, xác suất mắc bệnh tăng từ khoảng $16\%$
 :::
 
 :::warning Những sai lầm thường gặp
-- **Nhầm $P(A\mid B)$ với $P(B\mid A)$.** Sai: "xét nghiệm đúng $95\%$, nên dương tính thì $95\%$ là mắc bệnh". Lí do sai: $95\%$ là $P(\text{dương}\mid\text{bệnh})$. Đúng: $P(\text{bệnh}\mid\text{dương})=\dfrac{19}{118}\approx0{,}161$.
-- **Thiếu một nhánh.** Sai: ở ví dụ hai máy, $P(\text{lỗi})=0{,}6\cdot0{,}02=0{,}012$. Lí do sai: sản phẩm lỗi còn có thể đến từ máy II. Đúng: cộng cả hai nhánh, được $0{,}032$.
+- **Nhầm $P(A\mid B)$ với $P(B\mid A)$.** Hai xác suất này nghe giống nhau nhưng trả lời hai câu hỏi khác nhau. Sai: "xét nghiệm đúng $95\%$, nên dương tính thì $95\%$ là mắc bệnh". Lí do sai: $95\%$ là $P(\text{dương}\mid\text{bệnh})$. Đúng: $P(\text{bệnh}\mid\text{dương})=\dfrac{19}{118}\approx0{,}161$.
+- **Thiếu một nhánh.** Dễ chỉ nhìn máy I thôi. Sai: ở ví dụ hai máy, $P(\text{lỗi})=0{,}6\cdot0{,}02=0{,}012$. Lí do sai: sản phẩm lỗi còn có thể đến từ máy II. Đúng: cộng cả hai nhánh, được $0{,}032$.
 - **Quên nhân với xác suất ban đầu.** Sai: $P(\text{máy II}\mid\text{lỗi})=\dfrac{0{,}05}{0{,}032}$. Lí do sai: tử số phải là xác suất của cả đường đi, $P(\overline B)\cdot P(A\mid\overline B)$. Đúng: $\dfrac{0{,}4\cdot0{,}05}{0{,}032}=0{,}625$.
 - **Coi $P(A\mid\overline B)=1-P(A\mid B)$.** Sai: tỉ lệ dương tính nhầm bằng $1-0{,}95=0{,}05$ "vì phần còn lại". Lí do sai: $1-P(A\mid B)$ là $P(\overline A\mid B)$, xác suất người **bệnh** âm tính. Đúng: $P(A\mid\overline B)$ là một số liệu riêng mà đề phải cho.
 :::
@@ -181,15 +181,17 @@ Sau hai lần dương tính, xác suất mắc bệnh tăng từ khoảng $16\%$
 
 ## Tóm tắt
 
-- Xác suất toàn phần: $P(A)=P(B)P(A\mid B)+P(\overline B)P(A\mid\overline B)$; tổng quát, cộng $P(B_i)P(A\mid B_i)$ trên một hệ biến cố đầy đủ.
-- Bayes: $P(B\mid A)=\dfrac{P(B)P(A\mid B)}{P(A)}$.
+- Xác suất toàn phần: $P(A)=P(B)P(A\mid B)+P(\overline B)P(A\mid\overline B)$; tổng quát, ta cộng $P(B_i)P(A\mid B_i)$ trên một hệ biến cố đầy đủ.
+- Công thức Bayes: $P(B\mid A)=\dfrac{P(B)P(A\mid B)}{P(A)}$.
 - Trên sơ đồ cây: nhân dọc mỗi đường đi; $P(A)$ là tổng các đường đến $A$; Bayes là "một đường chia cho tổng".
 - Với bệnh hiếm, dương tính giả của nhóm người khoẻ rất đông có thể áp đảo, nên $P(\text{bệnh}\mid\text{dương})$ có thể nhỏ.
 - $P(A\mid\overline B)$ không phải $1-P(A\mid B)$.
 
+Quay lại bạn Lan: xét nghiệm đúng với đa số người bệnh, nhưng một kết quả dương tính vẫn chưa đủ để kết luận Lan mắc bệnh, vì nhóm người khoẻ quá đông. Điều cần nhớ: muốn biết khả năng mắc bệnh khi đã dương tính, ta tính từng đường đi, rồi lấy một đường chia cho tổng.
+
 ## Luyện tập
 
-Mỗi bài có phần kiến thức và gợi ý các bước. Hãy tự làm trước, rồi mới bấm xem lời giải.
+Mỗi bài đều có phần kiến thức cần dùng và các bước gợi ý để bạn bắt đầu. Hãy tự làm trước, rồi mới bấm xem lời giải. Nếu thấy lúng túng, bạn thử vẽ sơ đồ cây: nó thường làm bài toán rõ ra.
 
 :::exercise
 Cho $P(B)=0{,}3$, $P(A\mid B)=0{,}6$ và $P(A\mid\overline B)=0{,}2$. Tính $P(A)$ và $P(B\mid A)$.

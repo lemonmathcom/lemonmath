@@ -11,9 +11,9 @@ minutes: 40
 - Dùng công thức cấp số cộng, cấp số nhân, tổng cấp số nhân lùi vô hạn và các giới hạn cơ bản.
 :::
 
-Các chủ đề lớp 11 này ít khi đứng thành một câu dài, nhưng xuất hiện rải rác khắp đề. Ở Phần I, thường có hai đến bốn câu hỏi ngắn: một công thức lượng giác, một phương trình lôgarit, một số hạng của cấp số, một giới hạn. Ở Phần II hoặc Phần III, đề hay có một mô hình thực tế dùng hàm số mũ hoặc hàm số lượng giác. Tổng cộng các chủ đề này thường chiếm khoảng $1$ đến $1{,}5$ điểm.
+Mở đề thi tốt nghiệp ra, bạn sẽ không thấy lượng giác, mũ, lôgarit hay cấp số đứng thành một câu dài. Các chủ đề lớp 11 này nằm rải rác khắp đề. Ở Phần I, thường có hai đến bốn câu hỏi ngắn: một công thức lượng giác, một phương trình lôgarit, một số hạng của cấp số, một giới hạn. Ở Phần II hoặc Phần III, đề hay có một mô hình thực tế dùng hàm số mũ hoặc hàm số lượng giác. Cộng lại, chúng thường đáng khoảng $1$ đến $1{,}5$ điểm, và đó là những điểm bạn lấy trọn được nếu công thức đã nằm sẵn trong đầu.
 
-Bài ôn này nhắc lại công thức của từng mảng ngắn gọn, rồi làm ví dụ đúng như câu trong đề.
+Vì vậy ta ôn theo cách gọn nhất: nhắc công thức của từng mảng bằng vài dòng, rồi làm ngay những ví dụ giống hệt câu trong đề. Đừng lo nếu có công thức đã quên. Dùng đến đâu, nó sẽ hiện lại đến đó.
 
 ## Hàm số và phương trình lượng giác
 
@@ -24,7 +24,7 @@ Bài ôn này nhắc lại công thức của từng mảng ngắn gọn, rồi 
 - Hàm số $y=A\sin(\omega x+\varphi)$ và $y=A\cos(\omega x+\varphi)$ có chu kì $\dfrac{2\pi}{|\omega|}$, giá trị nằm trong $[-|A|; |A|]$.
 :::
 
-Khi đề hỏi số nghiệm trên một đoạn, ta viết họ nghiệm rồi thử từng giá trị $k$ nguyên, hoặc nhìn đường tròn lượng giác.
+Phương trình lượng giác có vô số nghiệm, nên khi đề chỉ hỏi số nghiệm trên một đoạn, ta phải lọc bớt. Cách làm là viết họ nghiệm, rồi thử từng giá trị $k$ nguyên xem giá trị nào rơi vào đoạn đó. Nhìn đường tròn lượng giác cũng được. Ví dụ dưới đây là câu cơ bản nhất: tìm họ nghiệm.
 
 :::example Trắc nghiệm: phương trình côsin cơ bản
 Nghiệm của phương trình $2\cos x+1=0$ là
@@ -44,7 +44,7 @@ $$2\cos x+1=0\iff\cos x=-\frac12=\cos\frac{2\pi}{3}\iff x=\pm\frac{2\pi}{3}+k2\p
 Chọn **A**. Phương án B ứng với $\cos x=\dfrac12$ (quên dấu trừ); phương án C và D dùng nhầm chu kì $\pi$ của hàm $\tan$.
 :::
 
-Hàm số lượng giác mô tả rất tốt các chuyển động lặp lại, chẳng hạn một cabin vòng quay.
+Bạn đã ngồi trên vòng quay bao giờ chưa? Cabin lên cao, xuống thấp, rồi lại lên cao như cũ. Những chuyển động lặp đi lặp lại như thế chính là chỗ hàm số lượng giác phát huy tác dụng. Đồ thị dưới đây vẽ độ cao của một cabin trong một vòng quay.
 
 :::graph Độ cao cabin $h(t)=22-20\cos\dfrac{\pi t}{10}$ trong một vòng
 alt: Đồ thị hình sin trên đoạn từ 0 đến 20 phút, bắt đầu ở độ cao 2 mét, lên cao nhất 42 mét tại t bằng 10 rồi trở về 2 mét; có đường nét đứt nằm ngang ở độ cao 32 mét
@@ -93,7 +93,7 @@ Vậy đáp án là a) Sai, b) Đúng, c) Đúng, d) Sai.
 - Lãi kép: $A=A_0(1+r)^n$. Tăng trưởng hoặc suy giảm: $N(t)=N_0e^{kt}$ hoặc $N(t)=N_0\cdot q^t$ (tăng khi $q>1$, giảm khi $0<q<1$).
 :::
 
-Với phương trình lôgarit, việc đầu tiên luôn là **đặt điều kiện**. Bỏ bước này là cách mất điểm phổ biến nhất.
+Với phương trình lôgarit, ta **đặt điều kiện** trước khi biến đổi bất cứ điều gì. Vì sao? Vì lôgarit chỉ có nghĩa khi biểu thức bên trong dương, mà các bước biến đổi sau đó có thể kéo theo cả những nghiệm không hợp lệ. Quên bước này là cách mất điểm phổ biến nhất, nên hãy viết điều kiện ngay ở dòng đầu tiên.
 
 :::example Trắc nghiệm: phương trình lôgarit
 Tập nghiệm của phương trình $\log_2(x-1)+\log_2(x+1)=3$ là
@@ -126,9 +126,9 @@ Vậy sau khoảng $9{,}3$ giờ (ghi $9{,}3$).
 :::
 
 :::warning Bẫy thường gặp về mũ và lôgarit
-- **Quên điều kiện** của lôgarit, nhận cả nghiệm làm biểu thức trong lôgarit âm.
-- **Không đổi chiều** khi cơ số nằm giữa $0$ và $1$: $\log_{\frac12}x\ge-2\iff0<x\le4$, không phải $x\ge4$.
-- **Nhầm công thức**: $\log_a(b+c)$ **không** bằng $\log_ab+\log_ac$.
+- **Quên điều kiện** của lôgarit. Giải xong, bạn nhận luôn cả nghiệm làm cho biểu thức trong lôgarit âm. Hãy đối chiếu từng nghiệm với điều kiện trước khi kết luận.
+- **Không đổi chiều** khi cơ số nằm giữa $0$ và $1$. Chẳng hạn $\log_{\frac12}x\ge-2\iff0<x\le4$, chứ không phải $x\ge4$.
+- **Nhầm công thức**: $\log_a(b+c)$ **không** bằng $\log_ab+\log_ac$. Công thức cộng chỉ dành cho lôgarit của một tích.
 :::
 
 ## Cấp số cộng và cấp số nhân
@@ -141,7 +141,7 @@ Vậy sau khoảng $9{,}3$ giờ (ghi $9{,}3$).
 | Ba số hạng liên tiếp | $u_k=\dfrac{u_{k-1}+u_{k+1}}{2}$ | $u_k^2=u_{k-1}\cdot u_{k+1}$ |
 :::
 
-Nhiều bài thực tế là cấp số "nguỵ trang": số ghế mỗi hàng tăng đều là cấp số cộng; số tiền tăng theo phần trăm là cấp số nhân.
+Đề thi hiếm khi nói thẳng "cho một cấp số cộng". Cấp số thường nấp sau một câu chuyện. Số ghế mỗi hàng tăng thêm một lượng đều nhau là cấp số cộng. Số tiền tăng theo phần trăm là cấp số nhân. Nhận ra cấp số "nguỵ trang" ấy là bạn đã đi qua phần khó nhất của bài toán.
 
 :::example Trả lời ngắn: số ghế trong hội trường
 Một hội trường có $20$ hàng ghế. Hàng đầu tiên có $16$ ghế, mỗi hàng sau nhiều hơn hàng ngay trước nó $2$ ghế. Hội trường có tất cả bao nhiêu ghế?
@@ -158,10 +158,10 @@ Vậy hội trường có $700$ ghế.
 ## Giới hạn
 
 :::note Các giới hạn cơ bản
-- $\lim\dfrac{1}{n^k}=0$ ($k>0$); $\lim q^n=0$ khi $|q|<1$.
+- Hai giới hạn nên thuộc lòng: $\lim\dfrac{1}{n^k}=0$ ($k>0$) và $\lim q^n=0$ khi $|q|<1$.
 - Giới hạn của phân thức theo $n$: chia cả tử và mẫu cho luỹ thừa cao nhất của $n$ ở mẫu.
-- Cấp số nhân lùi vô hạn ($|q|<1$): $S=u_1+u_1q+u_1q^2+\cdots=\dfrac{u_1}{1-q}$.
-- Giới hạn dạng $\dfrac00$ của hàm số: phân tích thành nhân tử rồi rút gọn, ví dụ $\lim\limits_{x\to2}\dfrac{x^2-4}{x-2}=\lim\limits_{x\to2}(x+2)=4$.
+- Với cấp số nhân lùi vô hạn ($|q|<1$), tổng các số hạng là $S=u_1+u_1q+u_1q^2+\cdots=\dfrac{u_1}{1-q}$.
+- Giới hạn của hàm số có dạng $\dfrac00$: phân tích thành nhân tử rồi rút gọn nhân tử chung. Chẳng hạn $\lim\limits_{x\to2}\dfrac{x^2-4}{x-2}=\lim\limits_{x\to2}(x+2)=4$.
 :::
 
 :::example Trắc nghiệm: giới hạn của dãy số
@@ -200,7 +200,7 @@ Chọn **C**. Phương án B lấy nhầm tỉ số $\dfrac{1}{-3}$ của các h
 
 ## Bài tập
 
-Các bài được xếp từ dễ đến khó, mỗi bài ghi rõ dạng câu hỏi trong đề thi.
+Bây giờ đến phần của bạn. Các bài xếp từ dễ đến khó, và mỗi bài ghi rõ dạng câu hỏi trong đề thi để bạn quen với cách đề hỏi. Cứ làm từng bài một. Nếu chưa ra, hãy xem lại công thức rồi thử thêm lần nữa.
 
 :::exercise Trắc nghiệm
 Cho $\sin x=\dfrac13$. Giá trị của $\cos2x$ là

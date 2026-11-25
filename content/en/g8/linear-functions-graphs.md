@@ -11,19 +11,19 @@ minutes: 20
 - Use linear functions and their graphs to solve real-life problems.
 :::
 
-A bicycle shop charges 20 thousand dong to unlock a bicycle and 15 thousand dong per hour. Hiring for $x$ hours costs $y=15x+20$ thousand dong. What is the cost after $3$ hours, and what shape do the points $(x, y)$ make?
+Imagine you hire a bicycle. The shop charges 20 thousand dong to unlock it and 15 thousand dong per hour. Hiring for $x$ hours costs $y=15x+20$ thousand dong. What is the cost after $3$ hours? And if we plot the points $(x, y)$, what shape do they make?
 
 ## Linear functions
 
 ### Explore: the cost of hiring a bicycle
 
-We substitute a few values of $x$ into $y=15x+20$:
+To find out, we substitute a few values of $x$ into $y=15x+20$:
 
 | $x$ (hours) | $0$ | $1$ | $2$ | $3$ |
 |---|---:|---:|---:|---:|
 | $y$ (thousand dong) | $20$ | $35$ | $50$ | $65$ |
 
-Each extra hour adds 15 thousand dong. The number $20$ is the initial cost. The formula has the form $y=ax+b$, with $a=15$ and $b=20$.
+Look at the table. Each extra hour adds 15 thousand dong. The number $20$ is the initial cost, which is there before any time has been counted. So the formula has the form $y=ax+b$, with $a=15$ and $b=20$. Formulas like this, a fixed amount plus an amount that grows steadily, turn up everywhere, so we give them a name.
 
 :::definition Linear function
 A linear function is a function given by
@@ -31,7 +31,7 @@ $$y=ax+b,$$
 where $a$ and $b$ are fixed numbers and $a\ne0$.
 :::
 
-If $a=0$, then $y=b$ does not change with $x$: this is a constant function, not a linear function. The number $b$ may equal $0$; the formula is then $y=ax$.
+There are two points to notice. If $a=0$, then $y=b$ does not change with $x$: this is a constant function, not a linear function. The number $b$, however, may equal $0$; the formula is then $y=ax$.
 
 :::example Recognising linear functions
 Which of the following are linear functions? Give $a$ and $b$ for each linear function.
@@ -48,7 +48,7 @@ a) $y=3x-5$; b) $y=-x$; c) $y=7$; d) $y=x^2+1$.
 Therefore the functions in a) and b) are linear.
 :::
 
-Once we have a formula, we calculate a function value by substituting the value of $x$.
+With a formula in hand, calculating a function value means substituting the value of $x$ and working it out. The next example does that, and also checks whether given points lie on the graph.
 
 :::example Calculating values and checking points
 Consider the function $y=-2x+7$.
@@ -71,7 +71,7 @@ For $A$, $-2\cdot4+7=-1$, so $A$ lies on the graph. For $B$, $-2\cdot2+7=3\ne4$,
 
 ### Explore: are the points collinear?
 
-For $y=2x+1$, we obtain the points $A(-1, -1)$, $B(0, 1)$, $C(1, 3)$ and $D(2, 5)$. When we plot them on the coordinate plane, all four points lie on one straight line.
+Take $y=2x+1$. It gives the points $A(-1, -1)$, $B(0, 1)$, $C(1, 3)$ and $D(2, 5)$. When we plot them on the coordinate plane, all four lie on one straight line. Is that a coincidence?
 
 :::graph Points on the graph of $y=2x+1$
 alt: Four points A, B, C and D on the straight line representing y equals 2x plus 1
@@ -90,12 +90,12 @@ The graph of a linear function $y=ax+b$, where $a\ne0$, is a straight line. It i
 To draw the graph, find two distinct points on it, then draw the straight line through them.
 :::
 
-The graph of $y=ax$ is a straight line through the origin. In $y=ax+b$, every y-coordinate changes by $b$. All points move vertically by the same amount, so they still form a straight line.
+Why does this happen? The graph of $y=ax$ is a straight line through the origin. In $y=ax+b$, every y-coordinate changes by $b$. All points move vertically by the same amount, so they still form a straight line.
 
-Two convenient ways to choose points are:
+Two points are enough, so we pick the two that are easiest to find. Two convenient ways to choose them are:
 
 - If $b\ne0$, set $x=0$ to obtain $P(0, b)$ on the y-axis; set $y=0$ to obtain $Q\left(-\dfrac ba, 0\right)$ on the x-axis.
-- If $b=0$, the graph passes through $O(0, 0)$. Choose one more value of $x$, for example $x=1$, to obtain $(1, a)$.
+- If $b=0$, the graph passes through $O(0, 0)$, so only one more point is needed. Choose one more value of $x$, for example $x=1$, to obtain $(1, a)$.
 
 :::example Drawing a graph when $b\ne0$
 Draw the graph of $y=2x-4$.
@@ -119,7 +119,7 @@ point: (0, -4) "P" below-left
 point: (2, 0) "Q" above-right
 :::
 
-When $b=0$, one of the two points is already known: the origin.
+When $b=0$ it is even easier, because one of the two points is already known: the origin.
 
 :::example Drawing a graph when $b=0$
 Draw the graph of $y=-3x$.
@@ -140,7 +140,7 @@ point: (0, 0) "O" above-left
 point: (1, -3) "M" below-right
 :::
 
-In a real-life problem, restrictions on the quantities may mean that we use only part of the straight line.
+In real life, quantities have limits: time cannot be negative, and neither can the water left in a tank. So sometimes we use only part of the straight line. The next example shows this.
 
 :::example A water tank being emptied
 A tank contains $90$ litres of water. Water is released at a steady rate of $6$ litres per minute. Let $t$ be the time and $V$ the volume of water left.
@@ -165,11 +165,11 @@ The formula has linear form. However, only $0\le t\le15$ makes sense here, so th
 :::
 
 :::warning Common mistakes
-- **Forgetting the condition $a\ne0$.** Wrong: “$y=5$ is linear with $a=0$.” Correct: it is a constant function.
-- **Losing a sign when substituting a negative number.** For $y=-2x+1$ and $x=-3$, write $y=-2\cdot(-3)+1=7$, not $-5$.
-- **Plotting only one point before drawing.** Many straight lines pass through one point. We need two distinct points.
+- **Forgetting the condition $a\ne0$.** Wrong: “$y=5$ is linear with $a=0$.” Correct: it is a constant function, because the value never changes.
+- **Losing a sign when substituting a negative number.** Many people slip here. For $y=-2x+1$ and $x=-3$, write $y=-2\cdot(-3)+1=7$, not $-5$.
+- **Plotting only one point before drawing.** Many straight lines pass through one point, so we cannot tell which one is meant. We need two distinct points.
 - **Finding the x-intercept with the wrong sign.** For $y=2x+6$, setting $y=0$ gives $2x+6=0$, so $x=-3$, not $3$.
-- **Ignoring a real-life restriction.** Time and quantities are often non-negative, so the relevant graph may be only a line segment or a ray.
+- **Ignoring a real-life restriction.** Time and quantities are often non-negative, so the relevant graph may be only a line segment or a ray. Read the restrictions on the variable before you draw.
 :::
 
 ## Key terms
@@ -194,10 +194,11 @@ The formula has linear form. However, only $0\le t\le15$ makes sense here, so th
 - When $b\ne0$, convenient points are $P(0, b)$ and $Q\left(-\dfrac ba, 0\right)$.
 - When $b=0$, the graph passes through $O(0, 0)$; choose one more point before drawing it.
 - In a real situation, check the restrictions on the variable before choosing the relevant part of the graph.
+Back to the bicycle: the hire cost by the hour is a linear function, so its points lie on a straight line, and two points are enough to draw it. Remember just that: two distinct points are enough. A few practice questions will help it stay with you.
 
 ## Practice
 
-Try each exercise before opening the solution.
+Try each exercise before opening the solution. A mistake made here teaches you more than a solution read too soon.
 
 :::exercise
 Which of the following formulas give a linear function? For each linear function, state $a$ and $b$.

@@ -12,12 +12,12 @@ minutes: 50
 - Giải bài toán động học: độ dời, vận tốc, gia tốc và quãng đường.
 :::
 
-Giải tích chiếm nhiều điểm nhất trong IB Math AA, và thường là nội dung của các câu dài ở Section B. Một câu điển hình bắt đầu bằng một hàm số, hỏi đạo hàm và điểm dừng, rồi đến một diện tích hay thể tích, và thường kết thúc bằng một bối cảnh như chuyển động hay tối ưu. Các quy tắc có trong sổ công thức; điểm số đến từ biến đổi đại số chính xác ở Paper 1 và thiết lập rõ ràng ở Paper 2.
+Một chiếc xe đang tăng tốc, một chiếc hộp cần chứa được nhiều nhất, một mảnh vườn cần biết diện tích: cả ba đều hỏi cùng một điều, đó là cái gì đang thay đổi và thay đổi nhanh đến đâu. Giải tích là công cụ để trả lời. Giải tích chiếm nhiều điểm nhất trong IB Math AA, và thường là nội dung của các câu dài ở Section B. Một câu điển hình bắt đầu bằng một hàm số, hỏi đạo hàm và điểm dừng, rồi đến một diện tích hay thể tích, và thường kết thúc bằng một bối cảnh như chuyển động hay tối ưu. Các quy tắc có trong sổ công thức, nên điều cần luyện là cách dùng chúng: điểm số đến từ biến đổi đại số chính xác ở Paper 1 và thiết lập rõ ràng ở Paper 2.
 
 ## Các quy tắc tính đạo hàm
 
 $$\frac{d}{dx}\big(f(g(x))\big)=f'(g(x))g'(x),\qquad(uv)'=u'v+uv',\qquad\left(\frac uv\right)'=\frac{u'v-uv'}{v^2}.$$
-Đạo hàm cơ bản: $\left(x^n\right)'=nx^{n-1}$, $\left(e^x\right)'=e^x$, $(\ln x)'=\dfrac1x$, $(\sin x)'=\cos x$, $(\cos x)'=-\sin x$, $(\tan x)'=\dfrac{1}{\cos^2x}$.
+Ba quy tắc trên cho ta cách ghép các hàm lại với nhau. Còn đây là đạo hàm của từng hàm cơ bản: $\left(x^n\right)'=nx^{n-1}$, $\left(e^x\right)'=e^x$, $(\ln x)'=\dfrac1x$, $(\sin x)'=\cos x$, $(\cos x)'=-\sin x$, $(\tan x)'=\dfrac{1}{\cos^2x}$. Thử xem quy tắc thương làm việc thế nào với một hàm quen thuộc.
 
 :::example Quy tắc thương
 Cho $g(x)=\dfrac{\ln x}{x}$, $x>0$.
@@ -31,7 +31,7 @@ Cho $g(x)=\dfrac{\ln x}{x}$, $x>0$.
 
 ## Tiếp tuyến và pháp tuyến
 
-Tại $x=a$, tiếp tuyến có hệ số góc $f'(a)$, còn **pháp tuyến (normal)** vuông góc với nó, có hệ số góc $-\dfrac{1}{f'(a)}$. Cả hai đi qua $\big(a,f(a)\big)$.
+Đạo hàm cho ta độ dốc của đường cong tại từng điểm, và độ dốc ấy vẽ được thành một đường thẳng. Tại $x=a$, tiếp tuyến có hệ số góc $f'(a)$, còn **pháp tuyến (normal)** vuông góc với nó, có hệ số góc $-\dfrac{1}{f'(a)}$. Cả hai đi qua điểm $\big(a,f(a)\big)$, nên chỉ cần có hệ số góc là ta viết được phương trình. Ví dụ dưới đây làm cả hai việc.
 
 :::example Tiếp tuyến và pháp tuyến
 Viết phương trình tiếp tuyến và pháp tuyến của $y=x^3-2x$ tại $x=1$. [5 marks]
@@ -43,7 +43,7 @@ Tiếp tuyến: $y+1=1(x-1)$, tức $y=x-2$. Pháp tuyến: hệ số góc $-1$,
 
 ## Điểm dừng và bài toán tối ưu
 
-Điểm dừng (stationary point) thoả mãn $f'(x)=0$. Phân loại bằng dấu của $f'$ ở hai bên, hoặc bằng đạo hàm cấp hai: $f''(a)>0$ cho cực tiểu, $f''(a)<0$ cho cực đại. **Điểm uốn (point of inflection)** là nơi tính lồi lõm thay đổi, tức nơi $f''$ đổi dấu.
+Đứng trên đỉnh đồi thì đường không lên cũng không xuống. Đồ thị cũng vậy: ở chỗ tiếp tuyến nằm ngang, đạo hàm bằng không. Những điểm như thế gọi là điểm dừng (stationary point), thoả mãn $f'(x)=0$. Điểm dừng có thể là đỉnh hay đáy; để biết, ta phân loại bằng dấu của $f'$ ở hai bên, hoặc bằng đạo hàm cấp hai: $f''(a)>0$ cho cực tiểu, $f''(a)<0$ cho cực đại. **Điểm uốn (point of inflection)** thì khác: đó là nơi tính lồi lõm thay đổi, tức nơi $f''$ đổi dấu.
 
 :::example Điểm dừng của hàm bậc ba
 Cho $f(x)=x^3-3x^2-9x+2$. Tìm toạ độ các điểm dừng và xác định tính chất của chúng. [6 marks]
@@ -67,7 +67,7 @@ Cắt bốn hình vuông cạnh $x$ cm ở bốn góc một tấm bìa $12$ cm �
 
 $$\int x^n\,dx=\frac{x^{n+1}}{n+1}+C\ (n\ne-1),\quad\int\frac1x\,dx=\ln|x|+C,\quad\int e^x\,dx=e^x+C,$$
 $$\int\cos x\,dx=\sin x+C,\quad\int\sin x\,dx=-\cos x+C.$$
-Diện tích giữa đường cong và trục $x$ là $\displaystyle\int_a^b|y|\,dx$; giữa hai đường cong, lấy tích phân của (trên $-$ dưới).
+Tích phân làm ngược lại với đạo hàm, và nó cho ta một thứ rất hữu ích là diện tích. Diện tích giữa đường cong và trục $x$ là $\displaystyle\int_a^b|y|\,dx$. Dấu giá trị tuyệt đối ở đây có lí do: phần đường cong nằm dưới trục cho tích phân âm, mà diện tích thì không âm. Còn giữa hai đường cong, ta lấy tích phân của (trên $-$ dưới).
 
 :::example Diện tích dưới parabol
 Tính diện tích miền giới hạn bởi $y=4x-x^2$ và trục $x$. [4 marks]
@@ -78,7 +78,7 @@ $$\int_0^4\left(4x-x^2\right)dx=\left[2x^2-\frac{x^3}{3}\right]_0^4=32-\frac{64}
 
 ## Động học
 
-Với một hạt chuyển động thẳng: $v=\dfrac{ds}{dt}$ và $a=\dfrac{dv}{dt}$. Độ dời từ $t_1$ đến $t_2$ là $\displaystyle\int_{t_1}^{t_2}v\,dt$, còn **quãng đường (distance traveled)** là $\displaystyle\int_{t_1}^{t_2}|v|\,dt$; ở Paper 2, GDC tính trực tiếp tích phân của $|v|$.
+Một hạt đi ra rồi quay về chỗ cũ: nó đã đi xa bao nhiêu, và cuối cùng cách chỗ xuất phát bao nhiêu? Hai câu hỏi ấy có thể cho hai đáp số khác nhau. Với một hạt chuyển động thẳng: $v=\dfrac{ds}{dt}$ và $a=\dfrac{dv}{dt}$. Độ dời từ $t_1$ đến $t_2$ là $\displaystyle\int_{t_1}^{t_2}v\,dt$, còn **quãng đường (distance traveled)** là $\displaystyle\int_{t_1}^{t_2}|v|\,dt$. Chỗ này nhiều bạn hay nhầm hai đại lượng với nhau. Ở Paper 2, GDC tính trực tiếp tích phân của $|v|$.
 
 :::example Độ dời và quãng đường
 Một hạt chuyển động với vận tốc $v(t)=6t-3t^2$ m s⁻¹, $0\le t\le3$.
@@ -96,10 +96,11 @@ Một hạt chuyển động với vận tốc $v(t)=6t-3t^2$ m s⁻¹, $0\le t\
 :::warning Những cái bẫy thường gặp
 - **Quên quy tắc hàm hợp**, ví dụ $\dfrac{d}{dx}e^{3x}=3e^{3x}$.
 - **Hệ số góc pháp tuyến.** Là $-\dfrac{1}{m}$, không phải $-m$ hay $\dfrac1m$.
-- **Quên miền xác định** trong bài toán tối ưu: loại các nghiệm như $x=6$ cho hộp có thể tích $0$.
+- **Quên miền xác định** trong bài toán tối ưu: hãy loại các nghiệm như $x=6$ cho hộp có thể tích $0$.
 - **Diện tích âm.** Tích phân âm ở chỗ đường cong nằm dưới trục; hãy tách tích phân khi tính diện tích hay quãng đường.
 - **Không giải thích tính chất** của điểm dừng khi đề yêu cầu "determine" hay "justify".
 - **Chế độ radian** trên GDC khi làm giải tích với hàm lượng giác.
+Đừng lo nếu lần đầu bạn vướng vài chỗ trong danh sách này. Hãy giữ câu hỏi ta bắt đầu bài: cái gì đang thay đổi, và thay đổi nhanh đến đâu? Các bài tập bên dưới là chỗ để bạn luyện điều đó.
 :::
 
 :::terms

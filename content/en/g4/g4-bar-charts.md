@@ -10,13 +10,13 @@ minutes: 15
 - Compare bars by subtracting, and work out a total and a mean from a chart.
 :::
 
-The class library records how many books children borrow each day of the week, and draws a bar chart. On which day did children borrow the most books? On which day the fewest?
+The class library records how many books children borrow each day of the week, then draws a bar chart. Could you tell at a glance which day had the most books borrowed, and which day the fewest?
 
-You already know how to read a list of data. A bar chart lets you see that data as bars of different heights.
+You already know how to read a list of data. But in a long list it is hard to see which number is big and which is small. A bar chart turns the data into bars of different heights, so you can compare them just by looking. Here is how to read one.
 
 ## Let's explore
 
-Look at the chart below.
+Look at the chart below. It shows the books borrowed on each day.
 
 :::diagram Books borrowed each day of the week
 alt: A bar chart with five bars for Monday to Friday, of heights 6, 10, 8, 12 and 4; the vertical axis shows 2, 4, up to 12
@@ -64,21 +64,21 @@ label 0.3,10 "10"
 label 0.3,12 "12"
 :::
 
-- The bars stand side by side. Each bar is one day: Mon is Monday, Tue is Tuesday, and so on.
+- The bars stand side by side, and each bar is one day: Mon is Monday, Tue is Tuesday, and so on.
 - On top of each bar is the number of books. The Monday bar shows $6$.
-- The left edge shows the numbers $2, 4, 6, \ldots, 12$. These count the books.
+- Along the left edge are the numbers $2, 4, 6, \ldots, 12$. These count the books.
 
-The taller the bar, the more books. The Thursday bar is the tallest and shows $12$. The Friday bar is the shortest and shows $4$. So Thursday had the most borrowed and Friday the fewest.
+The taller the bar, the more books. The Thursday bar is the tallest and shows $12$. The Friday bar is the shortest and shows $4$. So Thursday had the most borrowed and Friday the fewest. That answers the question at the start, just by comparing heights.
 
 :::definition Bar chart
 A **bar chart** uses bars of equal width to show data. The **horizontal axis** shows the things we compare (for example the days). The **vertical axis** shows the data values. The taller the bar, the bigger the value.
 :::
 
-To read a bar chart, do three things: read the title and the two axes to see what the chart is about; check how many units each mark stands for; then look at the top of a bar to read its value.
+To read a bar chart, do three things: read the title and the two axes to see what the chart is about; check how many units each mark stands for; then look at the top of a bar to read its value. The second one is easy to forget, yet charts do not all use the same scale. Check the marks before you read.
 
 ## Examples
 
-We start by reading the value of each bar.
+We start with the easiest job: reading the number on top of each bar.
 
 :::example Reading the chart
 Use the chart above. a) How many books were borrowed on Tuesday? b) Which day had the most, and how many books? c) Which day had the fewest?
@@ -92,7 +92,7 @@ b) The tallest bar is Thursday, showing $12$. So Thursday had the most, $12$ boo
 c) The shortest bar is Friday. So Friday had the fewest, $4$ books.
 :::
 
-Now we compare two bars by subtracting.
+Once we can read each bar, we can ask how much taller one bar is than another. "How many more" always means subtract.
 
 :::example Comparing two bars
 How many more books were borrowed on Thursday than on Monday?
@@ -102,7 +102,7 @@ $$12-6=6\ \text{(books)}.$$
 So $6$ more books were borrowed on Thursday than on Monday.
 :::
 
-We can also add the bars and find the mean.
+We can also put all the bars together. Adding them gives the total, and dividing the total by the number of days gives the mean.
 
 :::example The whole week
 How many books were borrowed in the whole week? On average, how many books were borrowed each day?
@@ -114,7 +114,7 @@ $$40\div5=8\ \text{(books)}.$$
 So $40$ books were borrowed in the week, and $8$ a day on average.
 :::
 
-Finally, we find the bars that fit a condition.
+Sometimes a question asks for the bars that fit a condition. Then we check the bars one at a time.
 
 :::example More than $7$ books
 On which days were more than $7$ books borrowed?
@@ -125,9 +125,10 @@ So more than $7$ books were borrowed on Tuesday, Wednesday and Thursday.
 :::
 
 :::warning Mistakes to watch out for
-- **Reading the wrong bar.** Wrong: looking at the Wednesday bar but reading the Tuesday number. Why it is wrong: each bar belongs to exactly one day. Right: read the number on top of that day's bar.
+- **Reading the wrong bar.** Wrong: looking at the Wednesday bar but reading the Tuesday number. Why it is wrong: each bar belongs to exactly one day. Right: read the number on top of the bar for the day you need.
 - **Adding instead of subtracting to compare.** Wrong: Thursday has $12+6=18$ more than Monday. Why it is wrong: "how many more" is the difference of two numbers. Right: $12-6=6$.
 - **Missing a bar when finding a total.** Wrong: $6+10+8+12=36$. Why it is wrong: the Friday bar was left out. Right: $6+10+8+12+4=40$.
+Most of these slips come from rushing. Read slowly, and count the bars once more.
 :::
 
 ## Key terms
@@ -149,10 +150,11 @@ So more than $7$ books were borrowed on Tuesday, Wednesday and Thursday.
 - Read the value on top of each bar.
 - To find how many more: subtract the smaller from the larger.
 - Total: add all the bars; mean: divide the total by the number of bars.
+So the tallest bar is the day with the most books, and the shortest bar is the day with the fewest. Remember to read the top of the bar. A few practice questions will make it stick.
 
 ## Practice
 
-The exercises below use the chart in the lesson (books borrowed: Mon $6$, Tue $10$, Wed $8$, Thu $12$, Fri $4$) or describe a chart in words. Try each one yourself first, then open the solution.
+The exercises below use the chart in the lesson (books borrowed: Mon $6$, Tue $10$, Wed $8$, Thu $12$, Fri $4$) or describe a chart in words. Take your time: try each one yourself first, then open the solution to check.
 
 :::exercise
 On which day were the fewest books borrowed, and how many?
@@ -348,7 +350,7 @@ So bar A is $12$ tall, bar B is $8$ tall, bar C is $5$ tall, and the total heigh
 
 ## Mini test
 
-These questions use the chart of books borrowed in the lesson (Mon $6$, Tue $10$, Wed $8$, Thu $12$, Fri $4$).
+These questions use the chart of books borrowed in the lesson (Mon $6$, Tue $10$, Wed $8$, Thu $12$, Fri $4$). Look carefully at the top of each bar before you choose an answer.
 
 :::quiz
 ::mc NB

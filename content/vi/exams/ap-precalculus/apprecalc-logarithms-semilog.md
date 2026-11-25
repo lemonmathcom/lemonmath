@@ -12,15 +12,15 @@ minutes: 50
 - Đọc đồ thị bán logarit và chuyển một quan hệ tuyến tính theo $\log y$ thành mô hình hàm mũ.
 :::
 
-Logarit trả lời câu hỏi ngược của hàm mũ: "luỹ thừa bao nhiêu?" Trong AP Precalculus, logarit xuất hiện theo ba cách: là hàm ngược, là công cụ giải phương trình có ẩn ở số mũ, và là thang đo đằng sau đồ thị bán logarit. Bài này đi qua cả ba, dựa trên các mô hình hàm mũ của bài trước.
+Một khoản tiền gửi tăng dần theo hàm mũ, và bạn muốn biết sau bao lâu thì nó đạt một mức cho trước. Hàm mũ cho ta giá trị khi biết thời gian. Câu hỏi này thì đi ngược lại: biết giá trị, cần tìm thời gian. Đó là câu hỏi "luỹ thừa bao nhiêu?", và logarit sinh ra để trả lời nó. Trong AP Precalculus, logarit xuất hiện theo ba cách: là hàm ngược, là công cụ giải phương trình có ẩn ở số mũ, và là thang đo đằng sau đồ thị bán logarit. Ta đi qua cả ba, dựa trên các mô hình hàm mũ của bài trước.
 
 ## Hàm ngược và ý nghĩa của logarit
 
-Nếu $f$ biến đầu vào $x$ thành đầu ra $y$ thì **hàm ngược** $f^{-1}$ biến $y$ trở lại $x$. Để tìm hàm ngược, viết $y=f(x)$, đổi chỗ $x$ và $y$, rồi giải tìm $y$. Đồ thị của $f$ và $f^{-1}$ đối xứng nhau qua đường thẳng $y=x$, và tập xác định của hàm này là tập giá trị của hàm kia.
+Hãy nghĩ đến một cái máy: bỏ một số vào thì ra một số khác. Hàm ngược là cái máy ấy chạy theo chiều ngược lại. Nếu $f$ biến đầu vào $x$ thành đầu ra $y$ thì **hàm ngược** $f^{-1}$ biến $y$ trở lại $x$. Muốn tìm nó, bạn viết $y=f(x)$, đổi chỗ $x$ và $y$, rồi giải tìm $y$. Vì sao lại đổi chỗ? Vì vai trò của đầu vào và đầu ra đã đổi cho nhau. Hệ quả là đồ thị của $f$ và $f^{-1}$ đối xứng nhau qua đường thẳng $y=x$, và tập xác định của hàm này là tập giá trị của hàm kia.
 
 Logarit là hàm ngược của hàm mũ:
 $$y=\log_b x \iff b^y=x,\qquad b>0,\ b\ne1,\ x>0.$$
-Như vậy $\log_b x$ là số mũ cần nâng $b$ lên để được $x$. Logarit thập phân là $\log x=\log_{10}x$; logarit tự nhiên là $\ln x=\log_e x$.
+Đọc công thức trên thành lời: $\log_b x$ là số mũ cần nâng $b$ lên để được $x$. Nó chỉ là câu hỏi "luỹ thừa bao nhiêu?" được viết gọn lại. Có hai cơ số gặp rất thường xuyên nên được đặt tên riêng. Logarit thập phân là $\log x=\log_{10}x$; logarit tự nhiên là $\ln x=\log_e x$.
 
 :::example Một hàm ngược
 Với $f(x)=2x+6$, hàm ngược là
@@ -38,7 +38,7 @@ Vậy $f^{-1}(x)=\dfrac{x-6}{2}$, chọn đáp án **B**. Phương án C là ngh
 
 ## Các quy tắc logarit
 
-Với $b>0$, $b\ne1$ và $M,N>0$:
+Bốn quy tắc dưới đây dùng được khi $b>0$, $b\ne1$ và $M,N>0$:
 
 | Quy tắc | Công thức |
 |---|---|
@@ -47,7 +47,7 @@ Với $b>0$, $b\ne1$ và $M,N>0$:
 | Luỹ thừa | $\log_b M^k=k\log_b M$ |
 | Đổi cơ số | $\log_b M=\dfrac{\ln M}{\ln b}$ |
 
-Các quy tắc này suy ra từ quy tắc luỹ thừa: nhân hai luỹ thừa cùng cơ số thì cộng số mũ, nên logarit của một tích bằng tổng các logarit.
+Vì sao một tích lại biến thành một tổng? Vì logarit chính là số mũ, mà nhân hai luỹ thừa cùng cơ số thì cộng số mũ. Nên logarit của một tích bằng tổng các logarit. Các quy tắc còn lại cũng suy ra từ quy tắc luỹ thừa theo cách tương tự.
 
 :::example Gộp logarit
 Giá trị của $\log_3 54-\log_3 2$ là
@@ -65,8 +65,9 @@ Vậy giá trị cần tìm là $3$, chọn đáp án **A**. Phương án D chia
 
 ## Giải phương trình mũ và phương trình logarit
 
-- **Ẩn ở số mũ:** cô lập luỹ thừa, rồi lấy logarit hai vế (hoặc đưa về cùng cơ số).
-- **Ẩn trong logarit:** gộp thành một logarit, viết lại dưới dạng mũ, giải, rồi **kiểm tra điều kiện**: mọi biểu thức dưới dấu logarit phải dương.
+- **Ẩn ở số mũ:** cô lập luỹ thừa, rồi lấy logarit hai vế (hoặc đưa về cùng cơ số). Làm vậy vì logarit kéo số mũ xuống để ta với tới được.
+- **Ẩn trong logarit:** gộp thành một logarit, viết lại dưới dạng mũ, giải, rồi **kiểm tra điều kiện**: mọi biểu thức dưới dấu logarit phải dương. Chỗ này nhiều bạn hay quên.
+Việc đầu tiên là nhìn xem ẩn đang nằm ở đâu, vì điều đó cho bạn biết nên đi theo hướng nào.
 
 :::example Phương trình mũ
 Giải các phương trình sau.
@@ -95,7 +96,7 @@ Vậy phương trình có nghiệm duy nhất $x=6$.
 
 ## Đồ thị hàm logarit và đồ thị bán logarit
 
-Đồ thị $y=\log_b x$ với $b>1$ đi qua $(1,0)$ và $(b,1)$, đồng biến, lõm xuống và có tiệm cận đứng $x=0$. Phép biến hình áp dụng như thường lệ: $y=\log_b(x-h)+k$ có tập xác định $x>h$ và tiệm cận $x=h$.
+Nhìn đồ thị sẽ thấy rõ logarit hành xử thế nào. Đồ thị $y=\log_b x$ với $b>1$ đi qua $(1,0)$ và $(b,1)$, đồng biến, lõm xuống và có tiệm cận đứng $x=0$. Đồ thị tiến sát đường tiệm cận nhưng không bao giờ chạm tới. Phép biến hình áp dụng như thường lệ: $y=\log_b(x-h)+k$ có tập xác định $x>h$ và tiệm cận $x=h$.
 
 :::graph Đồ thị $y=\log_2(x-3)+1$
 alt: Một đường cong đồng biến bắt đầu sát tiệm cận đứng nét đứt x = 3, cắt trục hoành tại 3,5 và đi qua (4, 1), (7, 3)
@@ -108,9 +109,9 @@ point: (4, 1) "(4, 1)" above-left
 point: (7, 3) "(7, 3)" above-left
 :::
 
-Đồ thị trên là $y=\log_2(x-3)+1$: tập xác định $x>3$, tiệm cận $x=3$, và cắt trục hoành tại $x=3{,}5$, vì $\log_2(x-3)=-1$ cho $x-3=\tfrac12$.
+Ta đọc đồ thị trên như sau. Đó là $y=\log_2(x-3)+1$: tập xác định $x>3$ và tiệm cận $x=3$. Muốn biết nó cắt trục hoành ở đâu, ta cho giá trị hàm bằng không, nghĩa là $\log_2(x-3)=-1$, tức $x-3=\tfrac12$. Vậy đồ thị cắt trục hoành tại $x=3{,}5$.
 
-Trên **đồ thị bán logarit**, trục tung biểu diễn $\log y$. Khi đó dữ liệu dạng hàm mũ $y=ab^x$ nằm trên một đường thẳng, vì $\log y=\log a+x\log b$: tung độ gốc là $\log a$ và hệ số góc là $\log b$.
+Dữ liệu hàm mũ tăng rất nhanh, nên trên đồ thị thường rất khó đọc. Vì thế người ta dùng **đồ thị bán logarit**, trong đó trục tung biểu diễn $\log y$. Khi đó dữ liệu dạng hàm mũ $y=ab^x$ nằm trên một đường thẳng, vì $\log y=\log a+x\log b$. Đọc từ đường thẳng này, tung độ gốc là $\log a$ và hệ số góc là $\log b$.
 
 :::example Từ đường thẳng bán logarit đến mô hình
 Trên một đồ thị bán logarit, dữ liệu nằm trên đường thẳng $\log y=0{,}3x+1$. Mô hình hàm mũ nào phù hợp với dữ liệu?
@@ -127,11 +128,12 @@ Vậy mô hình là $y=10\cdot(1{,}995)^x$, chọn đáp án **C**.
 :::
 
 :::warning Những cái bẫy thường gặp
-- **$\log(M+N)$ không bằng $\log M+\log N$:** quy tắc tích nói về $\log(MN)$.
-- **Kiểm tra điều kiện** sau khi giải mọi phương trình logarit.
+- **$\log(M+N)$ không bằng $\log M+\log N$:** chỗ này nhiều bạn hay nhầm. Quy tắc tích nói về $\log(MN)$, không phải về một tổng.
+- **Kiểm tra điều kiện** sau khi giải mọi phương trình logarit, vì nghiệm tìm được có thể làm một biểu thức dưới dấu logarit trở thành âm.
 - **Hàm ngược không phải nghịch đảo:** $f^{-1}(x)\ne\dfrac{1}{f(x)}$.
-- **Hệ số góc bán logarit:** hệ số góc là $\log b$, nên $b=10^{\text{hệ số góc}}$, không phải chính hệ số góc.
-- **Máy tính:** dùng dấu ngoặc, chẳng hạn $\ln(7)/\ln(3)$.
+- **Hệ số góc bán logarit:** hệ số góc là $\log b$, nên $b=10^{\text{hệ số góc}}$, không phải chính hệ số góc. Nhớ đổi ngược lại trước khi viết mô hình.
+- **Máy tính:** dùng dấu ngoặc, chẳng hạn $\ln(7)/\ln(3)$, để máy chia đúng logarit này cho logarit kia.
+Nếu một bài không ra đáp số, bạn hãy rà lại năm chỗ này trước; phần lớn lỗi nằm ở đây.
 :::
 
 :::terms

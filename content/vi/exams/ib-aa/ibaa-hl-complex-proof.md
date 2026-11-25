@@ -11,11 +11,11 @@ minutes: 50
 - Viết chứng minh quy nạp, chứng minh phản chứng, và bác bỏ một mệnh đề bằng phản ví dụ.
 :::
 
-Các nội dung HL này có ở cả Paper 1 và Paper 2, thường trong các câu dài ở Section B, nơi một bài toán số phức dẫn tới một đẳng thức lượng giác hay một chứng minh. Chúng đòi hỏi kí hiệu gọn gàng: acgumen tính bằng radian, liệt kê đủ các căn, và viết đầy đủ cấu trúc hình thức của chứng minh quy nạp mỗi lần.
+Các nội dung HL này có ở cả Paper 1 và Paper 2, thường trong các câu dài ở Section B, nơi một bài toán số phức có thể dẫn tới một đẳng thức lượng giác hay một chứng minh. Điểm chung của chúng là đòi bạn viết gọn gàng: acgumen tính bằng radian, liệt kê đủ các căn, và mỗi lần làm quy nạp đều viết đầy đủ cấu trúc hình thức của chứng minh. Quen với nếp viết này từ sớm sẽ giúp bạn đỡ mất điểm vì những chỗ nhỏ.
 
 ## Số phức dạng đại số
 
-Số phức có dạng $z=a+bi$, với $i^2=-1$. **Số phức liên hợp (conjugate)** là $z^*=a-bi$ và **môđun (modulus)** là $|z|=\sqrt{a^2+b^2}$. Để chia, nhân cả tử và mẫu với số phức liên hợp của mẫu.
+Số phức có dạng $z=a+bi$, với $i^2=-1$. Mỗi số phức có một người bạn đồng hành. **Số phức liên hợp (conjugate)** của nó là $z^*=a-bi$, tức là đổi dấu phần ảo. Còn **môđun (modulus)** là $|z|=\sqrt{a^2+b^2}$, cho biết số phức ấy cách gốc bao xa. Vì sao ta cần số phức liên hợp? Vì nhân một số phức với số liên hợp của nó thì phần ảo biến mất. Đó cũng là mẹo của phép chia: nhân cả tử và mẫu với số phức liên hợp của mẫu, và mẫu trở thành số thực.
 
 :::example Tích và thương
 Cho $z=3+4i$ và $w=1-2i$. Tính $zw$, $\dfrac zw$ và $|z|$. [5 marks]
@@ -30,7 +30,7 @@ $|z|=\sqrt{9+16}=5$.
 ## Dạng lượng giác và dạng mũ
 
 $$z=r(\cos\theta+i\sin\theta)=r\operatorname{cis}\theta=re^{i\theta},$$
-trong đó $r=|z|$ và $\theta=\arg z$, thường lấy trong $-\pi<\theta\le\pi$. Ở dạng này, phép nhân nhân các môđun và cộng các acgumen, còn **định lí De Moivre** cho $\left(re^{i\theta}\right)^n=r^ne^{in\theta}$.
+trong đó $r=|z|$ là độ dài và $\theta=\arg z$ là góc, thường lấy trong $-\pi<\theta\le\pi$. Vì sao dạng này đáng dùng? Vì với nó, phép nhân trở nên rất gọn: nhân các môđun và cộng các acgumen. Từ đó có **định lí De Moivre**, cho ta $\left(re^{i\theta}\right)^n=r^ne^{in\theta}$: muốn luỹ thừa một số phức, ta luỹ thừa môđun và nhân acgumen với số mũ.
 
 :::example Luỹ thừa bằng De Moivre
 Cho $z=1+i\sqrt3$.
@@ -44,9 +44,9 @@ Cho $z=1+i\sqrt3$.
 
 ## Căn của số phức và nghiệm của đa thức
 
-Phương trình $z^n=re^{i\theta}$ có $n$ nghiệm phân biệt
+Phương trình bậc hai có hai nghiệm; còn phương trình $z^n=re^{i\theta}$ có $n$ nghiệm phân biệt, và ta viết ra được tất cả chúng:
 $$z=r^{1/n}e^{i(\theta+2k\pi)/n},\quad k=0,1,\dots,n-1.$$
-Chúng nằm trên đường tròn bán kính $r^{1/n}$, cách đều nhau. Đa thức **hệ số thực** có các nghiệm không thực đi thành từng cặp liên hợp: nếu $2+i$ là nghiệm thì $2-i$ cũng là nghiệm.
+Nếu vẽ các nghiệm lên mặt phẳng phức, bạn sẽ thấy chúng nằm trên đường tròn bán kính $r^{1/n}$ và cách đều nhau, giống các đỉnh của một đa giác đều. Với đa thức **hệ số thực**, các nghiệm không thực luôn đi thành từng cặp liên hợp. Chẳng hạn, nếu $2+i$ là nghiệm thì $2-i$ cũng là nghiệm. Bạn sẽ dùng điều này ngay trong ví dụ thứ hai bên dưới.
 
 :::example Căn bậc ba
 Giải $z^3=8i$, viết đáp số dưới dạng $a+bi$. [6 marks]
@@ -65,10 +65,12 @@ Biết $2+i$ là nghiệm của $z^3-5z^2+9z-5=0$. Tìm các nghiệm còn lại
 ## Chứng minh quy nạp
 
 :::note Bốn phần người chấm tìm kiếm
-1. **Bước cơ sở:** chứng tỏ mệnh đề đúng với giá trị đầu tiên, thường là $n=1$.
-2. **Giả thiết quy nạp:** giả sử mệnh đề đúng với $n=k$.
-3. **Bước quy nạp:** dùng giả thiết để chứng minh mệnh đề đúng với $n=k+1$.
-4. **Kết luận:** "Vì mệnh đề đúng với $n=1$, và đúng với $n=k+1$ mỗi khi nó đúng với $n=k$, nên theo nguyên lí quy nạp, mệnh đề đúng với mọi $n\in\mathbb{Z}^+$."
+1. **Bước cơ sở:** kiểm tra mệnh đề đúng với giá trị đầu tiên, thường là $n=1$.
+2. **Giả thiết quy nạp:** giả sử mệnh đề đúng với $n=k$. Đây mới chỉ là giả sử, chưa phải điều đã được chứng minh.
+3. **Bước quy nạp:** dùng giả thiết để chứng minh mệnh đề cũng đúng với $n=k+1$.
+4. **Kết luận:** viết thành một câu hoàn chỉnh: "Vì mệnh đề đúng với $n=1$, và đúng với $n=k+1$ mỗi khi nó đúng với $n=k$, nên theo nguyên lí quy nạp, mệnh đề đúng với mọi $n\in\mathbb{Z}^+$."
+
+Bạn có thể hình dung như một hàng quân domino: bước cơ sở đẩy quân đầu tiên, bước quy nạp bảo đảm quân nào đổ thì quân kế tiếp cũng đổ. Thiếu phần nào thì hàng không đổ hết, nên hãy viết đủ cả bốn phần mỗi lần.
 :::
 
 :::example Một tổng bằng quy nạp
@@ -85,7 +87,7 @@ Chứng minh bằng quy nạp rằng $\displaystyle\sum_{r=1}^{n}r(r+1)=\frac{n(
 
 ## Phản chứng và phản ví dụ
 
-Để chứng minh **phản chứng (contradiction)**, giả sử mệnh đề sai rồi suy ra một điều vô lí. Để chứng tỏ một mệnh đề sai, chỉ cần một **phản ví dụ (counterexample)**.
+Có hai cách lập luận bạn nên có sẵn trong tay. Cách thứ nhất là **phản chứng (contradiction)**: giả sử mệnh đề sai, rồi lần theo lập luận cho tới khi gặp một điều vô lí. Khi đó giả sử ban đầu không thể đúng, nghĩa là mệnh đề đúng. Cách thứ hai dành cho lúc ta muốn bác bỏ một mệnh đề: chỉ cần tìm được một **phản ví dụ (counterexample)** là đủ, vì một trường hợp sai đã làm sụp cả mệnh đề "với mọi".
 
 :::example Một phản ví dụ
 Chứng tỏ mệnh đề "$n^2+n+41$ là số nguyên tố với mọi số nguyên dương $n$" là sai. [2 marks]
@@ -94,11 +96,13 @@ Chứng tỏ mệnh đề "$n^2+n+41$ là số nguyên tố với mọi số ngu
 :::
 
 :::warning Những cái bẫy thường gặp
-- **Acgumen sai góc phần tư.** $\arctan\dfrac ba$ chỉ cho đúng góc khi $a>0$; hãy biểu diễn $z$ trên mặt phẳng phức trước.
-- **Thiếu nghiệm.** $z^n=w$ luôn có $n$ nghiệm; hãy liệt kê đủ.
+- **Acgumen sai góc phần tư.** $\arctan\dfrac ba$ chỉ cho đúng góc khi $a>0$; hãy biểu diễn $z$ trên mặt phẳng phức trước rồi mới tính.
+- **Thiếu nghiệm.** $z^n=w$ luôn có $n$ nghiệm; hãy liệt kê đủ, đừng dừng khi mới có vài nghiệm.
 - **Quy nạp không có kết luận**, hoặc viết "giả sử đúng với mọi $n$" thay cho "với $n=k$".
 - **Dùng giả thiết theo chiều ngược:** hãy xuất phát từ trường hợp $k+1$ và dùng mệnh đề $n=k$ bên trong nó.
-- **Chứng minh bằng ví dụ.** Thử các trường hợp không bao giờ chứng minh được một mệnh đề "với mọi".
+- **Chứng minh bằng ví dụ.** Thử vài trường hợp không bao giờ chứng minh được một mệnh đề "với mọi".
+
+Đừng lo nếu bạn từng mắc vài lỗi trong số này, nhiều bạn cũng vậy. Cách sửa là tập thói quen rà lại danh sách này sau mỗi bài.
 :::
 
 :::terms

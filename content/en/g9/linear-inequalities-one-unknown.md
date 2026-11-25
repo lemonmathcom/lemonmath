@@ -10,9 +10,9 @@ minutes: 20
 - Reduce inequalities to linear form and solve real-life problems.
 :::
 
-Minh has $200$ thousand đồng. He buys a box of pens for $50$ thousand đồng and wants to buy some exercise books at $12$ thousand đồng each. What is the **greatest** number of books he can buy?
+Minh has $200$ thousand đồng to spend. He buys a box of pens for $50$ thousand đồng, and he would like to spend what is left on exercise books at $12$ thousand đồng each. Money is limited, so there must be a top number he cannot pass. What is the **greatest** number of books he can buy?
 
-Let $x$ be the number of books. He pays $50+12x$, which must not exceed $200$, so $50+12x\le200$. This is not an equation but an **inequality**.
+Call the number of books $x$. He pays $50+12x$, and that must not go above $200$. So we write $50+12x\le200$. This is not an equation, because the two sides are not claimed to be equal. It is an **inequality**, and we want every value of $x$ that makes it true.
 
 ## Linear inequalities in one unknown
 
@@ -23,7 +23,7 @@ Let $x$ be the number of books. He pays $50+12x$, which must not exceed $200$, s
 | $50+12x$ | $170$ | $194$ | $206$ |
 | $\le200$? | yes | yes | no |
 
-With $12$ books he has enough money; with $13$ he does not. But trying numbers one by one is slow; we need a method like the one for solving equations.
+The table shows that with $12$ books he has enough money, and with $13$ he does not. But trying numbers one by one gets slow when the amounts are bigger. We need a method, like the one we use for solving equations.
 
 :::definition Linear inequality in one unknown
 A **linear inequality in one unknown** $x$ is an inequality of the form
@@ -49,14 +49,14 @@ So $x=2$ is a solution of $3x-7<0$.
 
 ## How to solve
 
-We transform an inequality using the properties of inequalities from the last lesson.
+When we solve an equation, we change it step by step until the unknown stands alone. We do the same with an inequality, using the properties of inequalities from the last lesson.
 
 :::theorem Two rules for transforming
 - **Moving a term:** move a term from one side to the other and **change its sign**.
 - **Multiplying:** multiply (or divide) both sides by the same non-zero number; keep the direction if the number is **positive**, **reverse** the sign if it is **negative**.
 :::
 
-These rules work because adding the same number to both sides keeps the direction, while multiplying by a negative number reverses it (for example $2<3$ but $-2>-3$).
+Why does the sign reverse? Adding the same number to both sides moves them equally, so the direction stays. Multiplying by a negative number is different: $2<3$, but $-2>-3$, and the smaller number becomes the larger one. That is why we reverse the sign when we multiply or divide by a negative number.
 
 :::example An inequality with a positive coefficient
 Solve the inequality $3x-6>0$.
@@ -68,7 +68,7 @@ $$3x-6>0\iff 3x>6\iff x>2.$$
 So the solution of the inequality is $x>2$.
 :::
 
-When the coefficient of $x$ is negative, the division step needs the most care.
+This is where many people slip. When the coefficient of $x$ is negative, the division step needs care, because the sign must be reversed. Let us see it in an example.
 
 :::example An inequality with a negative coefficient
 Solve the inequality $-4x+12\ge0$.
@@ -94,11 +94,11 @@ label: (6.3, 1.5) "x > 2"
 label: (-1.2, -1.5) "x ≤ 3"
 :::
 
-A hollow point means that number is **not** a solution (sign $>$ or $<$); a filled point means it is a solution (sign $\ge$ or $\le$).
+When you read a number line, remember this: a hollow point means that number is **not** a solution, which goes with the sign $>$ or $<$. A filled point means it is a solution, which goes with the sign $\ge$ or $\le$.
 
 ## Inequalities that reduce to linear form
 
-Many inequalities have brackets or fractions. We expand the brackets, clear the fractions, move the terms in $x$ to one side and the numbers to the other.
+Not every inequality looks tidy at the start. Some have brackets, some have fractions. The method is still familiar: expand the brackets, clear the fractions, then gather the terms in $x$ on one side and the numbers on the other, until the inequality is linear.
 
 :::example With brackets
 Solve the inequality $5(x-1)-2\le3x+1$.
@@ -120,7 +120,7 @@ $$3(x+1)-2(x-2)<6\iff 3x+3-2x+4<6\iff x+7<6\iff x<-1.$$
 So the solution of the inequality is $x<-1$.
 :::
 
-Now we answer Minh's question.
+Now we can go back to Minh's question from the start. We have the tools to answer it without trying every number.
 
 :::example How many books?
 Solve $50+12x\le200$ where $x$ is a whole number, then answer the question at the start.
@@ -133,9 +133,10 @@ The number of books is a whole number not exceeding $12.5$, so the greatest is $
 :::
 
 :::warning Common mistakes
-- **Forgetting to reverse when dividing by a negative number.** Wrong: $-4x\ge-12\iff x\ge3$. Why it is wrong: dividing by $-4<0$ reverses the sign. Right: $x\le3$.
-- **Sign errors when expanding brackets.** Wrong: $-2(x-2)=-2x-4$. Why it is wrong: $(-2)\cdot(-2)=4$. Right: $-2x+4$.
-- **Rounding the wrong way in real problems.** Wrong: $x\le12.5$, so he can buy $13$ books. Why it is wrong: $13>12.5$. Right: take the greatest whole number not exceeding $12.5$, which is $12$.
+- **Forgetting to reverse when dividing by a negative number.** Wrong: $-4x\ge-12\iff x\ge3$. Why is it wrong? Dividing by $-4<0$ reverses the sign. Right: $x\le3$.
+- **Sign errors when expanding brackets.** Wrong: $-2(x-2)=-2x-4$. Why is it wrong? Because $(-2)\cdot(-2)=4$. Right: $-2x+4$.
+- **Rounding the wrong way in real problems.** Wrong: $x\le12.5$, so he can buy $13$ books. Why is it wrong? Because $13>12.5$. Right: take the greatest whole number not exceeding $12.5$, which is $12$.
+These are the three places where people slip most often. Once you have an answer, try one number in the original inequality to check it.
 :::
 
 ## Key terms
@@ -158,10 +159,11 @@ The number of books is a whole number not exceeding $12.5$, so the greatest is $
 - Multiplying or dividing by a positive number: keep the direction; by a negative number: **reverse** it.
 - Brackets or fractions: expand, multiply by a positive common denominator, reach $ax<c$, then divide by $a$.
 - Real problems: check the conditions (whole numbers…) before choosing the answer.
+So Minh's question has its answer: the inequality tells us every number of books he can afford, and the greatest of them is the answer. If you remember one thing, remember to reverse the sign when you multiply or divide by a negative number. Do a few more exercises to make it feel natural.
 
 ## Practice
 
-Each exercise comes with what you need and some steps to start. Try it yourself first, then open the solution.
+Each exercise comes with what you need to remember and some steps to start. Try it yourself first, look at the steps if you get stuck, and only then open the solution. A mistake is fine, because mistakes often teach us the most.
 
 :::exercise
 Which of the numbers $-1$, $0$, $3$ are solutions of the inequality $2x+1>0$?

@@ -12,13 +12,13 @@ minutes: 15
 
 The corner of a book, the corner of a sheet of paper and the corner of a window all have the same shape. How can you be sure that an angle is a "right angle"?
 
-This lesson teaches you to name angles and to use a set square to test for a right angle.
+Judging by eye is easy to get wrong, but a small tool can make us sure: the set square. We will learn the names of the parts of an angle, and then use a set square to test for a right angle.
 
 ## Let's explore
 
-The two blades of scissors, the two hands of a clock or two sticks joined at one point make an **angle**. The shared point is the **vertex** of the angle, and the two lines are its two **sides**.
+Look at the two blades of scissors, the two hands of a clock or two sticks joined at one point. Where they meet, they make an **angle**. The shared point is the **vertex** of the angle, and the two lines are its two **sides**.
 
-The picture below shows the angle with vertex $O$ and sides $OA$ and $OB$. At the vertex $O$ there is a small square mark: this is a **right angle**.
+The picture below shows the angle with vertex $O$ and sides $OA$ and $OB$. Can you see the small square mark at the vertex $O$? It tells us this is a **right angle**.
 
 :::diagram A right angle with vertex O and sides OA and OB
 alt: An angle with vertex O, side OA lying flat and side OB standing upright, with a small square mark at O showing that this is a right angle
@@ -30,7 +30,7 @@ segment O B
 right A O B
 :::
 
-The next picture is also an angle with vertex $O$, but its sides $OC$ and $OD$ open in a different way. It looks smaller than a right angle; this is an angle that is **not a right angle**.
+The next picture is also an angle with vertex $O$, but its sides $OC$ and $OD$ open in a different way. It looks smaller than a right angle. An angle like this is **not a right angle**.
 
 :::diagram An angle that is not a right angle, vertex O, sides OC and OD
 alt: An angle with vertex O, side OC lying flat and side OD leaning upwards; this angle is not a right angle
@@ -42,7 +42,7 @@ segment O D
 angle C O D
 :::
 
-Do not just judge by eye. We use a **set square**, which has one right angle, to test:
+But judging by eye is easy to get wrong, especially for an angle that is nearly right. We use a **set square**, a tool with one right angle built in, to test:
 
 1. Put the right-angled corner of the set square on the vertex of the angle to test.
 2. Line up one side of the set square with one side of the angle.
@@ -54,11 +54,11 @@ An angle has a vertex and two sides. An angle is a **right angle** when it fits 
 The lengths of the two sides do not change whether the angle is a right angle.
 :::
 
-For example, an angle with sides $3$ cm long and an angle with sides $6$ cm long are both right angles if they fit the set square.
+The length of the sides does not matter. For example, an angle with sides $3$ cm long and an angle with sides $6$ cm long are both right angles if they fit the set square.
 
 ## Examples
 
-We start by naming the vertex and sides of an angle.
+We start by naming the parts of an angle: the vertex and the sides.
 
 :::example Vertex and sides
 An angle has vertex $E$ and sides $ED$ and $EF$. State the vertex and the sides.
@@ -68,7 +68,7 @@ An angle has vertex $E$ and sides $ED$ and $EF$. State the vertex and the sides.
 So the angle has vertex $E$ and sides $ED$ and $EF$.
 :::
 
-Now use a set square to test.
+Now it is time to use the set square. Let's see how two friends test their angles.
 
 :::example Using a set square
 Lan puts a set square on an angle and sees that the other side of the set square lines up with the other side of the angle. Nam puts a set square on a different angle and sees that the other side of the set square sticks out of the angle. Which angle is a right angle?
@@ -78,7 +78,7 @@ Lan puts a set square on an angle and sees that the other side of the set square
 So Lan's angle is a right angle, and Nam's angle is not.
 :::
 
-Next, find right angles around you.
+Right angles are all around you. Let's look for a few.
 
 :::example Right angles around you
 Which of these has a right angle: a corner of a rectangular sheet of paper, the two hands of a clock at exactly $3$ o'clock, the two hands of a clock at exactly $1$ o'clock, a roof shaped like the letter A?
@@ -95,7 +95,7 @@ Which of these has a right angle: a corner of a rectangular sheet of paper, the 
 So the corner of the sheet and the clock hands at $3$ o'clock are right angles.
 :::
 
-Now draw a right angle yourself.
+You can now spot a right angle. Next, draw one yourself, with the set square to help.
 
 :::example Drawing a right angle
 Draw a right angle with vertex $O$ using a set square.
@@ -109,7 +109,7 @@ Draw a right angle with vertex $O$ using a set square.
 So the angle with vertex $O$ and sides $OA$ and $OB$ is a right angle.
 :::
 
-Finally, find right angles in letters.
+Finally, a more surprising place to look: the letters of the alphabet.
 
 :::example Letters
 Of the neatly written letters $L$ and $V$, which has a right angle?
@@ -146,10 +146,11 @@ So the letter $L$ has a right angle and the letter $V$ does not.
 - An angle that does not fit the set square is not a right angle.
 - The length of the sides does not change whether an angle is a right angle.
 - Do not judge by eye alone; use a set square.
+Back to the opening question: to be sure an angle is a right angle, fit a set square to it and check. Next time you meet an angle, try the set square on it.
 
 ## Practice
 
-Each exercise comes with what you need and how to start. Try it yourself first, then open the solution.
+Each exercise comes with what you need and a hint to get started. Try it yourself first. If you get stuck, read the hint, and only then open the solution to compare.
 
 :::exercise
 An angle has vertex $K$ and sides $KA$ and $KB$.

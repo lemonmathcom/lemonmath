@@ -12,11 +12,11 @@ minutes: 15
 
 A library has $345$ books. The librarian packs them into crates of $100$, bundles of $10$ and loose books. How many crates, bundles and loose books does she use?
 
-You know that $345$ has $3$ hundreds, $4$ tens and $5$ ones. This lesson shows you how to write that as an addition.
+You know that $345$ has $3$ hundreds, $4$ tens and $5$ ones. If we write that as an addition, we can see at once what parts the number is made of, and checking it is easier too.
 
 ## Let's explore
 
-The number $345$ is made of $3$ hundreds, $4$ tens and $5$ ones. We work out the value of each part:
+Look at the number $345$ in the picture: $3$ hundreds, $4$ tens and $5$ ones. We find the value of each part:
 
 ![Base-ten blocks showing three hundreds, four tens, and five ones](/assets/img/g2/g2-partitioning-hundreds-tens-ones-01.svg)
 
@@ -27,7 +27,7 @@ The number $345$ is made of $3$ hundreds, $4$ tens and $5$ ones. We work out the
 Adding the three parts gives $300+40+5=345$. So we write:
 $$345=300+40+5.$$
 
-The librarian uses $3$ crates, $4$ bundles and $5$ loose books.
+Now we can answer the question at the start: the librarian uses $3$ crates, $4$ bundles and $5$ loose books.
 
 :::theorem Writing a number as a sum
 A three-digit number can be written as the sum of its hundreds, tens and ones:
@@ -36,11 +36,11 @@ A three-digit number can be written as the sum of its hundreds, tens and ones:
 - the ones digit gives that many ones (for example $5$ gives $5$).
 :::
 
-This works because each digit sits in a place, and the place tells the value of the digit: the digit $4$ in the tens place is $40$, not $4$.
+Why do we do it this way? Each digit sits in a place, and the place tells us the value of the digit. Many people slip up here, so take care: the digit $4$ in the tens place is $40$, not $4$.
 
 ## Examples
 
-We start with a number that has no $0$.
+Let us try a number with no $0$ first.
 
 :::example Writing a number as a sum
 Write $453$ as a sum of hundreds, tens and ones.
@@ -50,7 +50,7 @@ $$453=400+50+3.$$
 So $453=400+50+3$.
 :::
 
-Now you go the other way: from a sum to a number.
+Now you go the other way: you are given the sum, and you write the number.
 
 :::example From a sum to a number
 Write the number $700+60+2$.
@@ -60,7 +60,7 @@ $$700+60+2=762.$$
 So $700+60+2=762$.
 :::
 
-Next comes a number with a $0$.
+What happens when a number has a $0$? Let us see.
 
 :::example A number with a 0
 Write $805$ as a sum of hundreds, tens and ones.
@@ -70,7 +70,7 @@ $$805=800+5.$$
 So $805=800+5$.
 :::
 
-Finally you use this in a problem.
+Finally, you use this in a shop, much like the crates and bundles in the library.
 
 :::example Crates, bundles and loose pens
 A shop has $5$ crates of $100$ pens, $1$ bundle of $10$ pens and $9$ loose pens. Write the number of pens as a sum and say how many pens there are.
@@ -81,9 +81,9 @@ So the shop has $519$ pens, and $519=500+10+9$.
 :::
 
 :::warning Mistakes to watch out for
-- **Adding the digits.** Wrong: "$453=4+5+3$". Why it is wrong: $4+5+3=12$, not $453$. Right: $453=400+50+3$.
-- **Forgetting the value of the place.** Wrong: "$345=300+4+5$". Why it is wrong: the digit $4$ in the tens place is $40$. Right: $345=300+40+5$.
-- **Going wrong with a $0$.** Wrong: "$305=300+50$". Why it is wrong: $305$ has $0$ tens, and the $5$ is $5$ ones. Right: $305=300+5$.
+- **Adding the digits.** Wrong: "$453=4+5+3$". Why it is wrong: $4+5+3=12$, and that is not $453$. Right: $453=400+50+3$.
+- **Forgetting the value of the place.** Wrong: "$345=300+4+5$". Why it is wrong: the digit $4$ in the tens place has the value $40$. Right: $345=300+40+5$.
+- **Going wrong with a $0$.** Wrong: "$305=300+50$". Why it is wrong: $305$ has $0$ tens, so there is no tens part. The $5$ is $5$ ones. Right: $305=300+5$.
 :::
 
 ## Key terms
@@ -105,9 +105,11 @@ So the shop has $519$ pens, and $519=500+10+9$.
 - A place with $0$ can be left out of the sum: $305=300+5$.
 - From the sum $300+40+5$ you can write the number back as $345$.
 
+Back to our opening question: the library's books can be written as hundreds, tens and ones added together. Look at the place of each digit, then try the practice exercises.
+
 ## Practice
 
-Each exercise comes with what you need and how to start. Try it yourself first, then open the solution.
+Each exercise has what you need to remember and a hint to start you off. Have a go on your own first, then open the solution to check.
 
 :::exercise
 Write as a sum of hundreds, tens and ones.

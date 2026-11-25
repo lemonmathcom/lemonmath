@@ -12,13 +12,13 @@ minutes: 15
 
 Lan has $23$ stickers. Hoa has $34$ stickers. How many stickers do the two girls have altogether?
 
-Counting on one at a time takes too long. This lesson shows you a quick way: split each number into tens and ones.
+To find how many stickers the two girls have, you could count on one at a time. But with two big numbers like these, that takes a long time and it is easy to lose your place. A quicker way is to split each number into tens and ones.
 
 ## Let's explore
 
-You learned in the last lesson that $23+4$ means adding the ones and keeping the tens the same. Now we add the tens as well.
+In the last lesson, $23+4$ meant adding the ones and keeping the tens the same. This time the second number has tens too, so the tens cannot stay still. We add them as well.
 
-We split each number into tens and ones:
+First we split each number into tens and ones, so we can see each part:
 
 | Number | Tens | Ones |
 |---|---|---|
@@ -28,8 +28,9 @@ We split each number into tens and ones:
 - Add the ones to the ones: $3+4=7$.
 - Add the tens to the tens: $2+3=5$.
 - $5$ tens and $7$ ones make $57$.
+Tens go with tens and ones go with ones. The two parts never get mixed up.
 
-So $23+34=57$.
+So $23+34=57$. That is how many stickers the two girls have together.
 
 :::graph On the number line: from 23, jump 3 tens to reach 53, then jump 4 ones to reach 57
 alt: A number line from 20 to 60 with the points 23, 53 and 57 marked and the stretch from 23 to 57 highlighted
@@ -48,11 +49,11 @@ To work out $23+34$:
 3. Put them together: $5$ tens and $7$ ones make $57$.
 :::
 
-This works because you put tens with tens and ones with ones, so no sticker is lost and none is counted twice.
+Why do tens go with tens and ones with ones? Because every sticker belongs to exactly one part. Put tens with tens and ones with ones, and no sticker is lost and none is counted twice.
 
 ## Examples
 
-We start with the simplest sum.
+We start with the two girls' stickers.
 
 :::example Work out $23+34$
 **Solution.** Add the ones: $3+4=7$. Add the tens: $2+3=5$:
@@ -60,7 +61,7 @@ $$23+34=57.$$
 So $23+34=57$.
 :::
 
-Now a similar sum with different numbers.
+Now try different numbers. The steps stay the same.
 
 :::example Work out $41+25$
 **Solution.** Add the ones: $1+5=6$. Add the tens: $4+2=6$:
@@ -68,7 +69,7 @@ $$41+25=66.$$
 So $41+25=66$.
 :::
 
-When one number is a whole number of tens, its ones digit is $0$.
+When one number is a whole number of tens, its ones digit is $0$. The steps do not change. The ones are just easier to add.
 
 :::example Work out $30+52$
 **Solution.** Add the ones: $0+2=2$. Add the tens: $3+5=8$:
@@ -76,7 +77,7 @@ $$30+52=82.$$
 So $30+52=82$.
 :::
 
-Now try a sum where the ones add up to nearly $10$.
+Try a sum where the ones add up to nearly $10$. We still do the same two steps.
 
 :::example Work out $45+34$
 **Solution.** Add the ones: $5+4=9$. Add the tens: $4+3=7$:
@@ -86,7 +87,7 @@ So $45+34=79$.
 **Check.** $79$ is bigger than $45$ and bigger than $34$, as a sum should be.
 :::
 
-Now use addition to answer a question from everyday life.
+Addition helps you count people too. Here is a problem about two classes.
 
 :::example Two classes
 Class $1$A has $32$ pupils and Class $1$B has $36$ pupils. How many pupils are in the two classes altogether?
@@ -97,9 +98,9 @@ So the two classes have $68$ pupils.
 :::
 
 :::warning Mistakes to watch out for
-- **Forgetting the tens.** Wrong: $23+34=7$. Why it is wrong: you only added the ones. Right: there are also $2+3=5$ tens, so $23+34=57$.
-- **Swapping tens and ones.** Wrong: $23+34=75$. Why it is wrong: you wrote the ones before the tens. Right: $5$ tens and $7$ ones make $57$.
-- **No unit in a word problem.** Wrong: "Answer: $68$". Right: "Answer: $68$ pupils".
+- **Forgetting the tens.** Wrong: $23+34=7$, because you only added the ones. Right: there are also $2+3=5$ tens, so $23+34=57$. Check that you have used every part of the numbers.
+- **Swapping tens and ones.** This one catches a lot of people. Wrong: $23+34=75$, because you wrote the ones before the tens. Right: $5$ tens and $7$ ones make $57$.
+- **No unit in a word problem.** Wrong: "Answer: $68$". Right: "Answer: $68$ pupils". Write the unit after the number.
 :::
 
 ## Key terms
@@ -121,10 +122,11 @@ So the two classes have $68$ pupils.
 - Write the tens first and the ones second: $5$ tens and $7$ ones make $57$.
 - Swapping the addends does not change the sum.
 - Questions with "altogether" or "both" usually need addition; remember the unit in the answer.
+Back to the question we began with: the girls' stickers are the sum of two numbers, and we find it by adding one place at a time. Remember tens with tens and ones with ones, then try a few practice questions.
 
 ## Practice
 
-Each exercise comes with what you need and how to start. Try it yourself first, then open the solution.
+Each exercise comes with what you need to remember and a hint to get started. Try it yourself first, and open the solution only if you want to check or you are stuck.
 
 :::exercise
 Work out $32+45$.

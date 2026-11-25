@@ -12,21 +12,21 @@ minutes: 15
 
 Lan có $46$ cái nhãn vở. Mai có $38$ cái nhãn vở. Hỏi hai bạn có tất cả bao nhiêu cái nhãn vở?
 
-Ở bài trước, em đã cộng số có hai chữ số với số có một chữ số và biết nhớ $1$ chục. Bài này dùng đúng cách đó, chỉ thêm một số hạng có chục.
+Lan và Mai có nhiều nhãn vở, đếm từng cái thì lâu. Em đã có sẵn cách: ở bài trước, em cộng số có hai chữ số với số có một chữ số và biết nhớ $1$ chục. Bài này vẫn dùng cách ấy, chỉ khác một chỗ: số hạng thứ hai cũng có chục. Vậy khi cả hai số đều có chục, chục nhớ phải đặt vào đâu?
 
 ## Cùng khám phá
 
-Ta tách $46$ thành $4$ chục $6$ đơn vị, và $38$ thành $3$ chục $8$ đơn vị.
+Muốn cộng, ta xem mỗi số gồm những gì. Ta tách $46$ thành $4$ chục $6$ đơn vị, và $38$ thành $3$ chục $8$ đơn vị. Lần này cả hai số đều có chục.
 
-- Cộng hàng đơn vị: $6+8=14$. Đó là $1$ chục và $4$ đơn vị.
-- Viết $4$ ở hàng đơn vị, nhớ $1$ chục.
-- Cộng hàng chục: $4+3=7$, rồi cộng thêm $1$ chục nhớ được $8$.
+- Trước hết cộng hàng đơn vị: $6+8=14$. Đó là $1$ chục và $4$ đơn vị.
+- Viết $4$ ở hàng đơn vị, và nhớ $1$ chục để lát nữa cộng vào hàng chục.
+- Rồi cộng hàng chục: $4+3=7$. Cộng thêm $1$ chục đã nhớ, ta được $8$.
 
-Vậy có $8$ chục và $4$ đơn vị, tức là $84$.
+Ghép lại, ta có $8$ chục và $4$ đơn vị, tức là $84$ cái nhãn vở. Đó là số nhãn vở của cả hai bạn.
 
 $$\begin{array}{r} 46\\ +\ 38\\ \hline 84 \end{array}$$
 
-Em cũng có thể nhảy trên tia số: từ $46$ cộng $30$ được $76$, rồi cộng $8$ được $84$.
+Em cũng có thể nhìn trên tia số. Từ $46$, ta cộng $30$ để được $76$: số chục đã cộng xong. Rồi cộng $8$ để được $84$. Hai cách cho cùng một kết quả.
 
 :::graph Trên tia số: từ 46 cộng 30 được 76, rồi cộng 8 được 84
 alt: Tia số từ 40 đến 90, đánh dấu các điểm 46, 76 và 84; đoạn từ 46 đến 84 được tô đậm
@@ -45,11 +45,11 @@ Muốn tính $46+38$:
 3. Cộng hàng chục: $4+3+1=8$. Viết $8$.
 :::
 
-Cách này đúng vì $14$ đơn vị là $1$ chục và $4$ đơn vị. Chục mới được cộng vào hàng chục nên không bị mất.
+Vì sao cách này đúng? Vì $14$ đơn vị là $1$ chục và $4$ đơn vị: ta chỉ gom lại cho gọn. Chục mới ấy được cộng vào hàng chục nên không bị mất. Chỗ này nhiều bạn hay quên, nên làm xong hàng đơn vị, em nhớ ngoái lại tìm chục nhớ nhé.
 
 ## Ví dụ
 
-Ta bắt đầu với hai số nhỏ, tổng hàng đơn vị chỉ hơn $10$ một chút.
+Ta thử thêm vài phép tính cho quen tay. Phép đầu dùng hai số nhỏ, tổng hàng đơn vị chỉ hơn $10$ một chút.
 
 :::example Tính $27+15$
 **Lời giải.** Hàng đơn vị: $7+5=12$, viết $2$ nhớ $1$. Hàng chục: $2+1+1=4$ (số chục của hai số và $1$ chục nhớ):
@@ -57,7 +57,7 @@ $$\begin{array}{r} 27\\ +\ 15\\ \hline 42 \end{array}$$
 Vậy $27+15=42$.
 :::
 
-Phép tính sau làm giống hệt, chỉ đổi số.
+Phép tính sau làm y hệt phép trước, chỉ đổi số. Em thử đoán xem có phải nhớ không, rồi mở lời giải đối chiếu.
 
 :::example Tính $48+36$
 **Lời giải.** Hàng đơn vị: $8+6=14$, viết $4$ nhớ $1$. Hàng chục: $4+3+1=8$:
@@ -65,7 +65,7 @@ $$\begin{array}{r} 48\\ +\ 36\\ \hline 84 \end{array}$$
 Vậy $48+36=84$.
 :::
 
-Bây giờ hàng đơn vị có số $9$, nên tổng lớn hơn.
+Lần này hàng đơn vị có số $9$, nên tổng lớn hơn. Đừng lo, cách làm vẫn như cũ. Làm xong, ta còn kiểm tra lại bằng một cách khác.
 
 :::example Tính $59+27$
 **Lời giải.** Hàng đơn vị: $9+7=16$, viết $6$ nhớ $1$. Hàng chục: $5+2+1=8$:
@@ -75,7 +75,7 @@ Vậy $59+27=86$.
 **Kiểm tra.** Làm tròn $59$ thành $60$: $60+27=87$, rồi bớt $1$ được $86$. Kết quả giống nhau.
 :::
 
-Bây giờ em dùng phép cộng để giải một bài toán trong cuộc sống.
+Giờ ta dùng phép cộng cho một chuyện quen ở lớp: đếm xem lớp có tất cả bao nhiêu bạn. Em đọc kĩ đề rồi tự hỏi: đề bảo gộp lại hay bớt đi? Hỏi xong, em mới chọn phép tính.
 
 :::example Đội văn nghệ
 Lớp có $35$ bạn nam và $48$ bạn nữ. Hỏi lớp có tất cả bao nhiêu bạn?
@@ -86,9 +86,9 @@ Vậy lớp có tất cả $83$ bạn.
 :::
 
 :::warning Những lỗi em hay gặp
-- **Quên chục nhớ.** Sai: $46+38=74$. Vì sao sai: em viết $4$ nhưng quên cộng $1$ chục nhớ vào hàng chục. Đúng: $46+38=84$.
-- **Viết cả $14$ vào hàng đơn vị.** Sai: $46+38=714$. Vì sao sai: $14$ đơn vị phải đổi thành $1$ chục và $4$ đơn vị. Đúng: $46+38=84$.
-- **Bài toán có lời văn quên đơn vị.** Sai: "Đáp số: $83$". Đúng: "Đáp số: $83$ bạn".
+- **Quên chục nhớ.** Sai: $46+38=74$. Vì sao sai: nhiều bạn viết xong $4$ là dừng, quên cộng $1$ chục nhớ vào hàng chục. Đúng: $46+38=84$.
+- **Viết cả $14$ vào hàng đơn vị.** Sai: $46+38=714$. Vì sao sai: $14$ đơn vị phải đổi thành $1$ chục và $4$ đơn vị. Hàng đơn vị chỉ giữ phần lẻ. Đúng: $46+38=84$.
+- **Bài toán có lời văn quên đơn vị.** Sai: "Đáp số: $83$". Vì sao sai: một con số đứng một mình chưa cho biết ta đang đếm gì. Đúng: "Đáp số: $83$ bạn".
 :::
 
 ## Thuật ngữ
@@ -106,14 +106,15 @@ Vậy lớp có tất cả $83$ bạn.
 
 ## Tóm tắt
 
-- Đặt tính thẳng cột, cộng từ hàng đơn vị sang hàng chục.
-- Hàng đơn vị được $10$ hoặc hơn: viết số đơn vị còn lại, nhớ $1$ chục.
-- Hàng chục: cộng hai chữ số chục rồi cộng thêm $1$ chục nhớ.
+- Đặt tính thẳng cột, rồi cộng từ hàng đơn vị sang hàng chục.
+- Khi hàng đơn vị được $10$ hoặc hơn, viết số đơn vị còn lại và nhớ $1$ chục.
+- Ở hàng chục, cộng hai chữ số chục rồi cộng thêm $1$ chục nhớ.
 - Ví dụ: $46+38$: $6+8=14$, viết $4$ nhớ $1$; $4+3+1=8$; kết quả $84$.
+Còn nhớ câu hỏi đầu bài không: chục nhớ đặt vào đâu? Nó được cộng vào hàng chục, cùng với số chục của hai số hạng. Em làm thêm vài phép tính ở phần Luyện tập để cách này thành quen tay nhé.
 
 ## Luyện tập
 
-Mỗi bài có phần kiến thức và gợi ý. Em hãy tự làm trước, rồi mới bấm xem lời giải.
+Mỗi bài có phần kiến thức cần nhớ và một gợi ý để em bắt đầu. Em cứ thử tự làm trước, chưa ra ngay cũng không sao. Làm xong rồi hãy bấm xem lời giải để đối chiếu.
 
 :::exercise
 Tính $24+18$.

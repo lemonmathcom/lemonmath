@@ -12,13 +12,13 @@ minutes: 45
 - Recognize a polynomial model from constant finite differences.
 :::
 
-AP Precalculus starts with a question that runs through the whole course: how fast is a quantity changing, and is that rate itself increasing or decreasing? Polynomials are the first family of functions studied this way. Much of the algebra will be familiar from the Vietnamese curriculum; the new part is describing behavior precisely in words, which the exam rewards in both the multiple-choice and the free-response sections.
+Think of a car on a road. We rarely ask only how fast it is going; we also ask whether it is speeding up or slowing down. AP Precalculus is built around those same two questions: how fast is a quantity changing, and is that rate itself increasing or decreasing? Polynomials are the first family of functions we study this way. Much of the algebra will be familiar from the Vietnamese curriculum. What is new is describing the behaviour precisely in words, and the exam rewards that in both the multiple-choice and the free-response sections.
 
 ## Average rate of change
 
 The **average rate of change** of $f$ on $[a,b]$ is
 $$\frac{f(b)-f(a)}{b-a},$$
-the slope of the secant line through $\big(a,f(a)\big)$ and $\big(b,f(b)\big)$. Its units are output units per input unit.
+the slope of the secant line through $\big(a,f(a)\big)$ and $\big(b,f(b)\big)$. In plain words, it is the average steepness of the graph over that interval. We divide by the length of the interval to find how much the output changes, on average, for each unit of input. So its units are output units per input unit: if the output is in metres and the input in seconds, the rate is in metres per second.
 
 :::example A rate from a formula
 What is the average rate of change of $f(x)=x^3-2x$ on $[1,3]$?
@@ -35,7 +35,7 @@ So the average rate of change is $11$, answer **B**. Option C forgets to divide 
 
 ## Increasing rates and concavity
 
-If, over consecutive equal intervals, the average rates of change **increase**, the graph is **concave up**; if they **decrease**, it is **concave down**. A function can be increasing and concave down at the same time: it is rising, but more and more slowly.
+Look at the average rates of change over consecutive intervals of equal length. If they **increase**, the graph curves like the inside of a bowl, and we say it is **concave up**. If they **decrease**, the graph is **concave down**. Many students trip over this: a function can be increasing and concave down at the same time. It is still rising, but more and more slowly.
 
 :::example Reading a table
 The table gives values of a function $f$.
@@ -60,7 +60,7 @@ So statement C is true, answer **C**.
 
 ## End behavior of polynomials
 
-For large $|x|$, a polynomial behaves like its **leading term** $a_nx^n$. If $n$ is even, both ends go the same way: up when $a_n>0$, down when $a_n<0$. If $n$ is odd, the ends go opposite ways. In limit notation, for example, $\displaystyle\lim_{x\to\infty}p(x)=-\infty$.
+For large $|x|$, the smaller terms hardly matter, and a polynomial behaves like its strongest term, the **leading term** $a_nx^n$. So the leading term alone tells us where the two ends of the graph go. If $n$ is even, both ends go the same way: up when $a_n>0$, down when $a_n<0$. If $n$ is odd, the ends go opposite ways. We write this in limit notation, for example $\displaystyle\lim_{x\to\infty}p(x)=-\infty$.
 
 :::example End behavior
 Which describes the end behavior of $p(x)=-2x^5+3x^2-1$?
@@ -76,7 +76,7 @@ So $p(x)\to-\infty$ as $x\to\infty$ and $p(x)\to\infty$ as $x\to-\infty$, answer
 
 ## Zeros and multiplicity
 
-If $(x-c)^m$ is a factor of $p$, then $c$ is a zero of **multiplicity** $m$. At a zero of odd multiplicity the graph **crosses** the $x$-axis; at a zero of even multiplicity it **touches** the axis and turns back. A polynomial of degree $n$ has at most $n$ real zeros and at most $n-1$ turning points.
+A zero is a place where the graph meets the $x$-axis, and how it meets the axis depends on one number. If $(x-c)^m$ is a factor of $p$, then $c$ is a zero of **multiplicity** $m$. At a zero of odd multiplicity the graph **crosses** the axis and carries on to the other side. At a zero of even multiplicity it **touches** the axis and turns back. Also, a polynomial of degree $n$ has at most $n$ real zeros and at most $n-1$ turning points.
 
 :::graph The graph of $p(x)=(x-1)^2(x+3)$
 alt: A cubic curve that crosses the x-axis at x = -3 and touches it at x = 1, with a local maximum between them
@@ -113,7 +113,7 @@ So $p(x)=2(x+2)(x-1)(x-4)$.
 
 ## Finite differences and polynomial models
 
-For equally spaced inputs: if the first differences of the outputs are constant, a **linear** model fits; if the second differences are constant, a **quadratic** model fits; if the third differences are constant, a **cubic** model fits.
+Suppose we are given only a table of values and no formula. How do we decide which kind of polynomial to use? We take the differences between consecutive outputs; these are called finite differences, and they only work when the inputs are equally spaced. If the first differences are constant, a **linear** model fits. If the second differences are constant, a **quadratic** model fits. If the third differences are constant, a **cubic** model fits.
 
 :::example Which model?
 The outputs of a function for $x=0,1,2,3,4$ are $1, 4, 11, 22, 37$. Which type of polynomial fits these data exactly?
@@ -128,11 +128,11 @@ So a quadratic model fits the data exactly, answer **D**.
 :::
 
 :::warning Common traps
-- **Forgetting the denominator** $b-a$ in an average rate of change.
-- **Increasing versus concave up:** a function can increase while its rate of change decreases.
-- **End behavior from the wrong term:** only the leading term matters for large $|x|$.
-- **Multiplicity:** even means touch, odd means cross; do not count a double zero twice when asked for distinct zeros.
-- **Unequal input steps:** finite differences only work when the inputs are equally spaced.
+- **Forgetting the denominator** $b-a$: until you divide by the length of the interval, you have not found the average rate of change.
+- **Increasing versus concave up:** a function can be increasing while its rate of change is decreasing.
+- **End behavior from the wrong term:** for large $|x|$, only the leading term matters.
+- **Multiplicity:** an even multiplicity means the graph touches the axis, an odd one means it crosses. When you are asked for distinct zeros, do not count a double zero twice.
+- **Unequal input steps:** use finite differences only when the inputs are equally spaced.
 :::
 
 :::terms

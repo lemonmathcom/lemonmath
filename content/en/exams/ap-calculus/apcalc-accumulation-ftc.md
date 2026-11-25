@@ -12,11 +12,11 @@ minutes: 50
 - Analyze $g(x)=\displaystyle\int_a^x f(t)\,dt$ from the graph of $f$.
 :::
 
-Unit 6 turns the questions of the derivative around: instead of "how fast is it changing?", it asks "how much has accumulated?". On the AP exam this idea is everywhere. Almost every free-response section opens with a rate given in a table or by a formula, and asks for a Riemann sum, a total change or an amount at a later time. This lesson covers the core of the unit; the next one, on integration techniques, covers substitution and the other antidifferentiation methods.
+A tank is filling and you know only how fast the water flows at each moment. How much water is in it at the end? That question is the derivative turned round, and it is what Unit 6 is about: instead of "how fast is it changing?", it asks "how much has accumulated?". On the AP exam this idea is everywhere. Almost every free-response section opens with a rate given in a table or by a formula, and asks for a Riemann sum, a total change or an amount at a later time. This lesson covers the core of the unit; the next one, on integration techniques, covers substitution and the other antidifferentiation methods.
 
 ## Riemann sums from a table
 
-To approximate $\displaystyle\int_a^b f(x)\,dx$, split $[a,b]$ into subintervals and add up (width) × (height). The height comes from the left endpoint, the right endpoint or the midpoint; the **trapezoidal sum** averages the left and right heights. The subintervals do not need to be equal: AP tables often use uneven times.
+How do we find the water that has flowed in when we only have a few measurements? We cut the time into short intervals, treat the rate as nearly constant on each, and add up. That is a Riemann sum. To approximate $\displaystyle\int_a^b f(x)\,dx$, split $[a,b]$ into subintervals and add up (width) × (height). The height comes from the left endpoint, the right endpoint or the midpoint; the **trapezoidal sum** averages the left and right heights. The subintervals do not need to be equal, and this is where many students slip: AP tables often use uneven times.
 
 :::example Water flowing into a tank
 Water flows into a tank at a rate of $R(t)$ liters per minute. Selected values are shown.
@@ -100,7 +100,7 @@ b) $g'(x)=f(x)$, which changes from positive to negative only at $x=3$. Candidat
 
 ## Net change and total distance
 
-If $r$ is the rate of change of a quantity $Q$, then $\displaystyle\int_a^b r(t)\,dt=Q(b)-Q(a)$, the **net change**, and $Q(b)=Q(a)+\displaystyle\int_a^b r(t)\,dt$. For a particle with velocity $v$: $\displaystyle\int_a^b v(t)\,dt$ is the displacement and $\displaystyle\int_a^b|v(t)|\,dt$ is the total distance.
+This is the heart of the unit: the integral of a rate tells us how much a quantity has changed. If $r$ is the rate of change of a quantity $Q$, then $\displaystyle\int_a^b r(t)\,dt=Q(b)-Q(a)$, the **net change**, and so $Q(b)=Q(a)+\displaystyle\int_a^b r(t)\,dt$: the amount at the end is the amount at the start plus what was added. For a particle with velocity $v$ we must tell two things apart: $\displaystyle\int_a^b v(t)\,dt$ is the displacement and $\displaystyle\int_a^b|v(t)|\,dt$ is the total distance. Why do they differ? When the particle moves backwards, negative velocity reduces the displacement, but the distance still grows.
 
 :::example Displacement versus distance
 A particle has velocity $v(t)=t-2$ meters per second for $0\le t\le5$. Find its displacement and the total distance traveled.
@@ -111,15 +111,15 @@ Distance: $v<0$ on $(0,2)$ and $v>0$ on $(2,5)$, so the distance is $\left|\disp
 :::
 
 :::warning Common traps
-- **Equal widths assumed.** In a table with $t=0, 2, 5, 7, 10$, the widths are $2, 3, 2, 3$.
-- **Forgetting the starting amount.** "How much water is in the tank at $t=10$?" means initial amount plus the integral.
+- **Equal widths assumed.** In a table with $t=0, 2, 5, 7, 10$, the widths are $2, 3, 2, 3$, so subtract each pair of neighbouring times rather than share the total evenly.
+- **Forgetting the starting amount.** "How much water is in the tank at $t=10$?" means initial amount plus the integral, because the tank may already have held some water.
 - **Areas below the axis.** They count negative in $\displaystyle\int f$, but positive in total distance.
-- **FTC Part 1 without the chain rule.** $\dfrac{d}{dx}\displaystyle\int_0^{x^2}f(t)\,dt=f\left(x^2\right)\cdot2x$, not $f\left(x^2\right)$.
+- **FTC Part 1 without the chain rule.** $\dfrac{d}{dx}\displaystyle\int_0^{x^2}f(t)\,dt=f\left(x^2\right)\cdot2x$, not $f\left(x^2\right)$. The upper limit is an expression, not the variable itself, so we must multiply by its derivative.
 - **Units.** If $R$ is in liters per minute and $t$ in minutes, $\displaystyle\int R\,dt$ is in liters.
 :::
 
 :::tip On the calculator section
-When a rate is given by a formula on a calculator part, write the integral with its limits first, for example $\displaystyle\int_0^{10}R(t)\,dt$, then the value correct to three decimal places. The written setup earns a point on its own.
+When a rate is given by a formula on a calculator part, write the integral with its limits first, for example $\displaystyle\int_0^{10}R(t)\,dt$, then the value correct to three decimal places. The written setup earns a point on its own. Back to the opening question: how much has accumulated? The answer is always the integral of the rate, with the right units. Practise below until writing the limits and units comes without thinking.
 :::
 
 :::terms

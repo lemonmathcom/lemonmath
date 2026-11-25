@@ -11,9 +11,9 @@ minutes: 22
 - Give a complete answer with units, and check that the result is sensible.
 :::
 
-A workshop has to make sheet-metal tanks **with no lid**, with a square base, holding exactly $32$ dm³ (that is, $32$ litres). The less metal a tank uses, the cheaper it is. If the base is $2$ dm wide, the tank must be $8$ dm tall; if the base is $6$ dm wide, it needs to be less than $1$ dm tall. What base side should we choose to use the least metal?
+A workshop makes sheet-metal tanks **with no lid**, with a square base, each holding exactly $32$ dm³ (that is, $32$ litres). The less metal a tank uses, the cheaper it is. Try two shapes: if the base is $2$ dm wide, the tank must be $8$ dm tall; if the base is $6$ dm wide, it needs to be less than $1$ dm tall. These two tanks look very different. So what base side should we choose to use the least metal?
 
-"What is the best way to do it?" is a question for engineers, shopkeepers and gardeners alike: how to fence a garden with the least netting, how to price a product for the highest revenue, how fast to drive so that a trip costs least. The derivative turns these everyday questions into problems of finding maximum and minimum values, which we already know how to solve.
+"What is the best way to do it?" is not only a workshop's question. A gardener asks how to fence a garden with the least netting, a shopkeeper asks what price brings the highest revenue, a driver asks what speed makes the trip cost least. The derivative gives a reliable answer: it turns these everyday questions into problems of finding a maximum or minimum, which we already know how to solve.
 
 ## Optimisation problems
 
@@ -26,11 +26,11 @@ $$S(x)=x^2+4xh=x^2+\frac{128}{x}.$$
 |---|---|---|---|---|---|
 | $S(x)$ (dm²) | $68$ | $\approx51.67$ | $48$ | $50.6$ | $\approx57.33$ |
 
-A small base means tall sides, so a lot of metal goes on the sides; a large base uses a lot of metal on the bottom. The best value seems to be near $x=4$, but the table does not prove it. The derivative will give the exact answer.
+A small base means tall sides, so a lot of metal goes on the sides. A large base means a lot of metal goes on the bottom. These two pull in opposite directions, so the best value lies somewhere between, and it seems to be near $x=4$. But a table only lets us guess; it proves nothing. The derivative will give the exact answer.
 
-**A closer look.** An optimisation problem usually has two opposite tendencies: here, a smaller base saves metal on the bottom but needs more metal on the sides. The best point is where the two tendencies "balance", that is, where the derivative is $0$. For example, at $x=4$ the bottom $x^2$ has derivative $2x=8$ and the sides $\dfrac{128}{x}$ have derivative $-\dfrac{128}{x^2}=-8$: widening the base a little adds exactly as much metal to the bottom as it saves on the sides.
+**A closer look.** An optimisation problem usually has two tendencies pulling in opposite directions. Here, a smaller base saves metal on the bottom but needs more metal on the sides. The best point is where the two tendencies balance, that is, where the derivative is $0$. Look at $x=4$: the bottom $x^2$ has derivative $2x=8$ and the sides $\dfrac{128}{x}$ have derivative $-\dfrac{128}{x^2}=-8$. Widening the base a little adds exactly as much metal to the bottom as it saves on the sides.
 
-**Connections.** This lesson uses maximum and minimum values (previous lesson) and the meaning of the derivative as a rate of change (grade 11): velocity, acceleration, the extra cost of one more product. In the next chapter, antiderivatives and integrals do the reverse: from a rate of change they recover the original quantity.
+**Connections.** This lesson reuses two ideas you already know: finding maximum and minimum values (previous lesson) and the derivative as a rate of change (grade 11), for example velocity, acceleration, or the extra cost of making one more product. In the next chapter, antiderivatives and integrals go the other way: from a rate of change they recover the original quantity.
 
 :::note Steps for an optimisation problem
 1. **Choose the variable** (often a length, a quantity or a time) and state its **constraint**.
@@ -59,7 +59,7 @@ plot: x^2 + 128/x ; 1..10
 point: (4, 48) "(4, 48)" below
 :::
 
-Business problems have the same shape, but the domain is often a closed interval, so both endpoints must be compared too.
+Business problems have the same shape, with one difference: the variable often runs over a closed interval, so besides the critical points we must compare both endpoints. Here is an example.
 
 :::example The largest profit
 A company estimates that if it makes $x$ hundred products a month ($0\le x\le 15$), its profit is $P(x)=-x^3+9x^2+120x-200$ (million đồng). How many products a month should the company make so that its profit is largest?
@@ -77,10 +77,10 @@ So the company should make $1000$ products a month ($x=10$); the largest profit 
 
 ## Velocity, acceleration and rates of change
 
-The derivative $f'(t_0)$ is the **instantaneous rate of change** of the quantity $f$ at time $t_0$. For an object moving along a straight line with distance $s(t)$:
+The derivative $f'(t_0)$ tells us how fast the quantity $f$ is changing at the exact moment $t_0$. We call it the **instantaneous rate of change**. For an object moving along a straight line with distance $s(t)$, two familiar quantities follow:
 
-- the velocity is $v(t)=s'(t)$;
-- the acceleration is $a(t)=v'(t)=s''(t)$ (see the second derivative in grade 11).
+- the velocity is $v(t)=s'(t)$, the rate of change of distance;
+- the acceleration is $a(t)=v'(t)=s''(t)$, the rate of change of velocity (see the second derivative in grade 11).
 
 :::example The greatest velocity
 A test car runs along a straight track and has travelled $s(t)=-t^3+9t^2$ (metres) after $t$ seconds, $0\le t\le 6$. Find the acceleration at $t=1$ and the greatest velocity of the car.
@@ -98,7 +98,7 @@ We see that the greatest velocity occurs exactly when the acceleration is $0$: b
 So at $t=1$ the acceleration is $12$ m/s²; the greatest velocity is $27$ m/s, reached at $t=3$ seconds.
 :::
 
-Rates of change are not only for motion. The next example is about temperature.
+Rates of change are not only about motion. The next example is a cup of tea cooling down.
 
 :::example A cup of tea cools down
 The temperature of a cup of tea after $t$ minutes is $T(t)=20+\dfrac{70}{1+0.1t}$ (°C). Find the starting temperature and the rate of change of the temperature at $t=10$ minutes.
@@ -112,7 +112,7 @@ So the tea starts at $90$ °C; at $t=10$ minutes its temperature is falling at $
 
 ## Shortest paths and least cost
 
-This problem has a lot of data, so we solve it in four steps.
+This problem has a lot of data, which can feel confusing. So we solve it in four steps: understand, plan, solve, look back.
 
 :::diagram A pipeline from the pumping station $A$ to the factory $F$
 alt: A horizontal river bank through H, M and A; the factory F is 3 km above H; the pipeline runs along the bank from A to M, then straight from M to F
@@ -180,10 +180,11 @@ So $M$ should be $2.25$ km from $H$ (that is, $5.75$ km from $A$); the least cos
 - Motion: $v(t)=s'(t)$, $a(t)=v'(t)=s''(t)$; the greatest velocity is usually reached when $a(t)=0$.
 - $f'(t_0)$ is the instantaneous rate of change of $f$ at $t_0$; a minus sign means the quantity is decreasing.
 - Always check the result: does it satisfy the constraint, and does it make sense in real life?
+Back to the opening question: which tank uses the least metal? We no longer guess from a table. We set up a function, find where its derivative vanishes, and check. Remember that the last step is looking back at the result.
 
 ## Practice
 
-Each exercise comes with what you need and some steps to start. Try it yourself first, then open the solution.
+Each exercise comes with what you need and some steps to start. Try it yourself first, then open the solution. If you get stuck, go back to the four steps above.
 
 :::exercise
 An object moves along a straight line and has travelled $s(t)=t^3-6t^2+9t$ (metres) after $t$ seconds. Find the times when the velocity is $0$, and the acceleration at those times.

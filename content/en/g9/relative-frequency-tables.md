@@ -10,17 +10,17 @@ minutes: 20
 - Use relative frequencies to compare data sets of different sizes.
 :::
 
-Suppose school A surveys 300 students and finds that $84$ of them use social media for more than 3 hours a day; school B surveys 180 students and finds $63$ such students. School A has more of them, so are school A's students more "hooked" on social media? Not necessarily: $84$ out of $300$ and $63$ out of $180$ are different things. To compare fairly, we need to know what *fraction* of the whole sample each group is. That is exactly the relative frequency.
+Suppose school A surveys 300 students and finds that $84$ of them use social media for more than 3 hours a day. School B surveys 180 students and finds $63$ such students. School A has more of them, so are school A's students more "hooked" on social media? Not necessarily. $84$ out of $300$ and $63$ out of $180$ are different things. To compare fairly, we need to know what *fraction* of the whole sample each group is. That number is called the relative frequency.
 
 ## Relative frequency
 
 ### Explore: dividing by the sample size
 
-We divide the number of students using social media for more than 3 hours by the number surveyed:
+The simplest way is to divide the number of students using social media for more than 3 hours by the number surveyed at each school:
 
 $$\text{School A: } \frac{84}{300}=0.28=28\%;\qquad \text{School B: } \frac{63}{180}=0.35=35\%.$$
 
-So school B has the higher proportion, even though it has fewer such students. The figure $28\%$ means: for every 100 students in school A, about 28 use social media for more than 3 hours a day.
+So it is school B that has the higher proportion, even though it has fewer such students. The figure $28\%$ says that for every 100 students in school A, about 28 use social media for more than 3 hours a day. Because we divide by the sample size, the two schools now speak the same language.
 
 :::definition Relative frequency
 Consider a data set of size $n$ with values $x_1, x_2, \ldots, x_k$ and frequencies $m_1, m_2, \ldots, m_k$.
@@ -30,7 +30,7 @@ $$f_i=\frac{m_i}{n}\cdot100\%.$$
 - The relative frequencies add up to $100\%$.
 :::
 
-**Going deeper.** Frequency answers "how many?", relative frequency answers "what fraction of the whole sample?". Because we have divided by $n$, relative frequency does not depend on the sample size, so a class of 35 can be compared with a whole country. The total is $100\%$ because $\dfrac{m_1+m_2+\ldots+m_k}{n}=\dfrac nn=1$. When the $f_i$ are rounded, the total may be $99.9\%$ or $100.1\%$: that is rounding error, not a mistake.
+**Going deeper.** Frequency answers the question "how many?", and relative frequency answers "what fraction of the whole sample?". We have divided by $n$, so relative frequency no longer depends on the sample size. That is why a class of 35 can be compared with a whole country. Why does the total always come to $100\%$? Because $\dfrac{m_1+m_2+\ldots+m_k}{n}=\dfrac nn=1$: the parts add up to exactly one whole sample. Sometimes the $f_i$ are rounded and the total comes to $99.9\%$ or $100.1\%$. Do not worry: that is only rounding error, not a mistake in your working.
 
 :::example Building a relative frequency table
 The hours of sleep of 200 year 9 students (lesson [frequency tables](lesson:frequency-tables-charts)) have this frequency table:
@@ -55,7 +55,7 @@ So the relative frequency table is:
 **Check.** $12+23+34+22+9=100$. From the table we read at once: $22\%+9\%=31\%$ of the students sleep 8 hours or more.
 :::
 
-From relative frequencies we can also work back to frequencies: $m_i=f_i\cdot n$.
+The other direction works too: knowing the relative frequency and the sample size, we can recover the frequency with $m_i=f_i\cdot n$.
 
 :::example Application: sorting waste at source
 Suppose a ward surveys 250 households about sorting their rubbish: $18\%$ sort it fully, $46\%$ sort it partly and the rest do not sort it. Find the number of households in each group.
@@ -71,7 +71,7 @@ So $45$ households sort fully, $115$ sort partly and $90$ do not sort.
 
 ### Bar charts
 
-A relative frequency bar chart is drawn like a frequency bar chart, except that the height of each bar is the relative frequency (as a percentage).
+A relative frequency bar chart is drawn just like a frequency bar chart, with one difference: the height of each bar is the relative frequency, as a percentage.
 
 :::graph Relative frequencies of hours of sleep (%)
 alt: Bar chart: the values 5, 6, 7, 8, 9 hours have bars of heights 12, 23, 34, 22, 9 per cent
@@ -84,15 +84,15 @@ fill: 22 ; 0 ; 7.7..8.3
 fill: 9 ; 0 ; 8.7..9.3
 :::
 
-The shape is exactly the same as the frequency bar chart in the previous lesson, because every bar is divided by the same number $n=200$. Only the scale on the vertical axis changes.
+Compare it with the frequency bar chart from the previous lesson: the shape is exactly the same. The reason is that every bar is divided by the same number $n=200$, so only the scale on the vertical axis changes.
 
 ### Pie charts
 
-To see what fraction of the *whole* each group is, we use a pie chart: the whole circle stands for $100\%$, and each value has a sector with angle at the centre
+Sometimes we want to see what fraction of the *whole* each group is. A pie chart suits that best: the whole circle stands for $100\%$, and each value has a sector with angle at the centre
 
 $$\alpha_i=f_i\cdot360^\circ.$$
 
-For example, $f=25\%$ gives an angle of $90^\circ$, a quarter of the circle.
+For example, $f=25\%$ gives an angle of $90^\circ$, which is a quarter of the circle. Picture a cake cut into four equal slices.
 
 :::example The age structure of Vietnam's population
 According to the 2024 Intercensal Population and Housing Survey of Vietnam's General Statistics Office (published in January 2025), on 1 April 2024 Vietnam's population was $101\,112\,656$, of whom $23.3\%$ were under 15, $67.4\%$ were aged 15 to 64 and $9.3\%$ were 65 or over.
@@ -155,9 +155,10 @@ So school B has a higher proportion using it for more than 3 hours ($35\%$ again
 - **Comparing frequencies instead of relative frequencies** when the samples have different sizes (like $84>63$ in the opening).
 - **Wrong angles.** Wrong: $25\%$ gives an angle of $25^\circ$. Right: $25\%\cdot360^\circ=90^\circ$.
 - **Dividing by the wrong number**, for example by the number of values $k$ instead of by $n$.
+Many people slip here, so before you divide, ask yourself again: what is my sample size?
 :::
 
-**Connections.** Relative frequency is the bridge between statistics and probability: in year 8 you saw that when an experiment is repeated many times, the relative frequency of an event gets close to its probability. In the next chapter we work out [probabilities](lesson:event-probability-experiments) by counting and compare them with relative frequencies from real data.
+**Connections.** Relative frequency is the bridge between statistics and probability. In year 8 you saw that when an experiment is repeated many times, the relative frequency of an event gets close to its probability. In the next chapter we work out [probabilities](lesson:event-probability-experiments) by counting, and then compare them with relative frequencies from real data.
 
 ## Key terms
 
@@ -177,10 +178,11 @@ So school B has a higher proportion using it for more than 3 hours ($35\%$ again
 - Conversely: $m_i=f_i\cdot n$.
 - Bar chart: bar height equals $f_i$. Pie chart: angle at the centre $f_i\cdot360^\circ$.
 - To compare two data sets of different sizes, use relative frequencies, not frequencies.
+Back to the two schools at the start: having more students says nothing by itself, but a proportion does. Try the practice exercises so that dividing by the sample size becomes a habit.
 
 ## Practice
 
-Each exercise comes with what you need and hints. Try it yourself first, then open the solution.
+Each exercise comes with what you need to remember and some hints to get started. Try it yourself first, look at the hints if you get stuck, and open the solution last to compare.
 
 :::exercise
 Suppose the numbers of children in 25 families have the frequency table: values $1, 2, 3, 4$ with frequencies $7, 12, 5, 1$. Build the relative frequency table.

@@ -10,17 +10,17 @@ minutes: 20
 - Solve problems about numbers, motion, percentages and mixing solutions.
 :::
 
-A farm keeps chickens and cows, $50$ animals in all. Nam counts $140$ legs altogether. How many chickens and how many cows are there on the farm?
+A farm keeps chickens and cows, $50$ animals in all. Nam counts $140$ legs altogether. From just those two numbers, can we tell how many chickens and how many cows there are on the farm?
 
-The problem has two unknown numbers and two conditions. That is the sign that we should form a pair of simultaneous equations.
+The problem has two unknown numbers, the chickens and the cows, and two conditions, the total number of animals and the total number of legs. Two unknowns and two conditions: that is the sign that we should form a pair of simultaneous equations. With this method you can solve problems that are hard to guess.
 
 ## Three steps to solve a problem
 
 ### Explore: suppose that…
 
-Suppose all $50$ animals were chickens. Then there would be $50\cdot2=100$ legs, which is $140-100=40$ legs short. Each time we swap a chicken for a cow, the number of legs goes up by $2$. So we need $40\div2=20$ swaps: there are $20$ cows and $30$ chickens.
+Let us first try supposing. Suppose all $50$ animals were chickens. Then there would be $50\cdot2=100$ legs, which is $140-100=40$ legs short. Each time we swap a chicken for a cow, the number of legs goes up by $2$, because a cow has two legs more than a chicken. So we need $40\div2=20$ swaps: there are $20$ cows and $30$ chickens.
 
-The "suppose" trick is clever but hard to find for harder problems. Forming simultaneous equations is a general method that works for every problem.
+The "suppose" trick is clever, but for harder problems it is hard to think of. So we want a general method that works for every problem: forming simultaneous equations. It takes three steps, shown in the box below.
 
 :::definition Steps for solving a problem with simultaneous equations
 1. **Form the equations:** choose two unknowns and state their conditions; write the other unknown quantities in terms of them; form two equations from the two conditions in the problem.
@@ -51,7 +51,7 @@ label: (58, 9) "2x + 4y = 140"
 
 ## Number problems and motion problems
 
-In digit problems, a two-digit number with tens digit $a$ and units digit $b$ is written $\overline{ab}=10a+b$.
+In digit problems we need to write a number using its digits. A two-digit number with tens digit $a$ and units digit $b$ is written $\overline{ab}=10a+b$. The tens digit is worth ten times as much as the same digit in the units place, so it is multiplied by ten.
 
 :::example Swapping the digits
 A two-digit number has digits that add up to $11$. If the two digits are swapped, the new number is $27$ more than the original number. Find the number.
@@ -65,7 +65,7 @@ So the number is $47$.
 **Check.** $74-47=27$.
 :::
 
-A motion problem on a river has more data, so we work through the four steps.
+A motion problem on a river has more data, so we slow down and work through four steps: understand, plan, solve and look back. The thing to keep in mind is that the current sometimes helps the boat along and sometimes holds it back.
 
 :::example A boat downstream and upstream
 A motor boat travels $48$ km downstream in $2$ hours and $48$ km upstream in $3$ hours. Find the speed of the boat in still water and the speed of the current.
@@ -85,7 +85,7 @@ $$\begin{cases} x+y=24\\ x-y=16 \end{cases}\Rightarrow 2x=40,\ x=20,\ y=4.$$
 
 ## Percentage problems
 
-When a quantity $x$ increases by $15\%$, the increase is $0.15x$ and the new value is $1.15x$ (not $x+15$).
+Percentages are easy to misread here. When a quantity $x$ increases by $15\%$, the increase is a part of that quantity itself, namely $0.15x$. The new value is $1.15x$, not $x+15$.
 
 :::example Two production teams
 Last month two production teams made $800$ products. This month team I made $15\%$ more than last month and team II made $20\%$ more, so together they made $945$ products. How many products did each team make last month?
@@ -100,7 +100,7 @@ So last month team I made $300$ products and team II made $500$.
 :::
 
 :::warning Common mistakes
-- **No conditions on the unknowns.** Numbers of animals or people must be whole numbers; speeds must be positive. If you get $y=-3$ or $x=12.5$ chickens, go back and check how you formed the equations.
+- **No conditions on the unknowns.** Numbers of animals or people must be whole numbers, and speeds must be positive. If you get $y=-3$, or $x=12.5$ chickens, go back and check how you formed the equations.
 - **Misreading percentages.** Wrong: "an increase of $15\%$" becomes $x+15$. Why it is wrong: it is $15\%$ **of $x$**. Right: $x+0.15x=1.15x$.
 - **Mixing units.** Wrong: at $12$ km/h for $30$ minutes you cover $12\cdot30=360$ km. Why it is wrong: the speed is per hour. Right: $30$ minutes $=0.5$ hours, so you cover $6$ km.
 :::
@@ -124,10 +124,11 @@ So last month team I made $300$ products and team II made $500$.
 - Step 2: solve the equations (substitution or elimination).
 - Step 3: check against the conditions, then answer, with units.
 - $\overline{ab}=10a+b$; downstream $x+y$, upstream $x-y$; an increase of $p\%$ means multiplying by $1+\dfrac{p}{100}$.
+Back to the farm question: two unknowns, two conditions, so we form the equations and solve them to find the chickens and the cows. What to remember is to state the conditions on the unknowns and to check against them at the end. Have a go at the practice exercises.
 
 ## Practice
 
-Each exercise comes with what you need and some steps to start. Try it yourself first, then open the solution.
+Each exercise gives you what you need and a few steps to start with. Try it yourself first, look at the steps if you get stuck, and open the solution only to check your work. A slip now and then is fine: it often shows us exactly what to remember.
 
 :::exercise
 There are $36$ chickens and rabbits, with $100$ legs altogether. How many chickens and how many rabbits are there?

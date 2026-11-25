@@ -11,7 +11,7 @@ minutes: 35
 - Use doubling time and half-life, and rewrite a model for a different time unit.
 :::
 
-Exponential functions are new to many students who learned math in Vietnam before grade 11, yet the SAT uses them in every module, mostly in real-life contexts: populations, savings, prices, medicines and depreciation. The good news is that almost every question comes back to one formula and one idea: **multiply by the same factor in each equal time step**.
+Think of savings that earn interest, a town that keeps growing, or a medicine fading from the body. None of these changes by the same amount each time. They speed up or slow down. So how do you write a formula for that? Exponential functions are new to many students who learned maths in Vietnam before grade 11, yet the SAT uses them in every module, mostly in real-life contexts: populations, savings, prices, medicines and depreciation. The good news is that almost every question comes back to one formula and one idea: **multiply by the same factor in each equal time step**. Once that idea feels natural, the rest of the lesson follows from it.
 
 ## The exponential model
 
@@ -48,8 +48,8 @@ You type **14739**. Note that the car loses less money each year (3,600 dollars 
 ## Linear or exponential?
 
 :::note The key difference
-- **Linear:** the quantity changes by the same **amount** in each equal step (add $m$).
-- **Exponential:** the quantity changes by the same **factor** (or percent) in each equal step (multiply by $b$).
+- **Linear:** after each equal step, the quantity gains (or loses) the same **amount**. You add $m$.
+- **Exponential:** after each equal step, the quantity is multiplied by the same **factor**, which means the same percent change. You multiply by $b$.
 :::
 
 :::example Reading a table
@@ -91,7 +91,7 @@ A patient takes 80 milligrams of a medicine. The amount in the body halves every
 
 ## Equivalent forms of a model
 
-The SAT may ask which form of a model shows a rate for a different time unit. Use the law $b^{kt}=\left(b^k\right)^t$.
+The same model can be written in more than one way, and each way shows the rate for a different time unit, such as a year or a half-year. The SAT may ask which form shows the rate for the unit you need. The key is the law $b^{kt}=\left(b^k\right)^t$: part of the exponent can move into the base without changing the value.
 
 :::example Changing the time unit
 An investment grows according to $f(t)=200(1.21)^t$, where $t$ is in years. Which equivalent form shows the growth rate for each half-year?
@@ -104,14 +104,14 @@ D. $f(t)=100(1.21)^{2t}$
 :::
 
 :::warning Common traps
-- **Rate versus factor.** A decrease of $8\%$ is the factor $0.92$, not $0.08$.
-- **Adding percents.** Two increases of $10\%$ give $1.1^2=1.21$, an increase of $21\%$, not $20\%$.
-- **Forgetting the period.** "Doubles every 3 hours" means $2^{\frac t3}$, not $2^{3t}$.
-- **Linear words.** "Increases by 50 each year" is linear; "increases by 50% each year" is exponential.
+- **Rate versus factor.** Many students slip here: a decrease of $8\%$ is the factor $0.92$, not $0.08$.
+- **Adding percents.** Two increases of $10\%$ do not give $20\%$. They give $1.1^2=1.21$, an increase of $21\%$.
+- **Forgetting the period.** "Doubles every 3 hours" means $2^{\frac t3}$, not $2^{3t}$. The 3 is the length of one period, so it belongs in the denominator of the exponent.
+- **Linear words.** "Increases by 50 each year" is linear; "increases by 50% each year" is exponential. Look for the word "percent" or the percent sign.
 :::
 
 :::tip Desmos for exponential models
-Type `y=24000(0.85)^x` and click the curve at $x=3$ to read the value. To find when a quantity reaches a target, add the horizontal line, for example `y=50`, and click the intersection.
+Desmos is a quick way to check an answer. Type `y=24000(0.85)^x` and click the curve at $x=3$ to read the value. To find when a quantity reaches a target, add a horizontal line, for example `y=50`, and click the intersection.
 :::
 
 :::terms

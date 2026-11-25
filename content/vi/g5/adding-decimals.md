@@ -13,23 +13,23 @@ minutes: 15
 
 Mẹ mua $2{,}4$ kg cam và $1{,}35$ kg xoài. Hỏi mẹ mua tất cả bao nhiêu ki-lô-gam hoa quả?
 
-Hai số này có số chữ số ở phần thập phân khác nhau, nên em khó cộng ngay trong đầu. Bài này dạy em cách cộng gọn gàng và không bị nhầm.
+Nhìn hai khối lượng của mẹ, em thấy một số có một chữ số sau dấu phẩy, số kia có hai chữ số. Hai số lệch nhau như vậy nên khó cộng nhẩm, và dễ nhầm. Có một cách đặt tính giúp em cộng đúng mà không phải đoán. Ta cùng tìm cách đó, để biết mẹ mua tất cả bao nhiêu ki-lô-gam hoa quả.
 
 ## Cùng khám phá
 
-Em đổi hai khối lượng sang gam cho dễ cộng. Biết $1\ \text{kg}=1000\ \text{g}$.
+Trước hết, em thử đổi cả hai khối lượng sang gam, vì khi đó chỉ còn số tự nhiên để cộng. Ta nhớ rằng $1\ \text{kg}=1000\ \text{g}$.
 
 - $2{,}4\ \text{kg}=2400\ \text{g}$, vì $0{,}4\ \text{kg}=400\ \text{g}$.
 - $1{,}35\ \text{kg}=1350\ \text{g}$, vì $0{,}35\ \text{kg}=350\ \text{g}$.
 - $2400+1350=3750$ (g), tức là $3{,}75$ kg.
 
-Cách đổi ra gam đúng nhưng hơi dài. Em để ý: $2{,}4=2{,}40$, nên cả hai số đều tính theo phần trăm. Đó là $240$ phần trăm và $135$ phần trăm, mà $240+135=375$ phần trăm, tức là $3{,}75$.
+Đổi ra gam thì đúng, nhưng hơi dài. Em có cách ngắn hơn. Vì $2{,}4=2{,}40$ nên cả hai số đều đếm được theo phần trăm: $240$ phần trăm và $135$ phần trăm. Cộng lại, $240+135=375$ phần trăm, tức là $3{,}75$. Khi hai số được đếm theo cùng một loại phần, ta cộng chúng như cộng số tự nhiên.
 
-Em đặt tính, cho dấu phẩy thẳng dấu phẩy:
+Ý đó chính là cách đặt tính. Em viết số này dưới số kia, cho dấu phẩy thẳng dấu phẩy:
 
 $$\begin{array}{r} 2{,}40 \\ +\ 1{,}35 \\ \hline 3{,}75 \end{array}$$
 
-Vậy mẹ mua $3{,}75$ kg hoa quả. Em thấy không, chỉ cần **thẳng dấu phẩy** rồi cộng như số tự nhiên là xong.
+Vậy mẹ mua tất cả $3{,}75$ kg hoa quả, trùng với kết quả khi đổi ra gam. Điều quan trọng là **thẳng dấu phẩy**: chỉ cần xếp đúng cột rồi cộng như số tự nhiên.
 
 :::graph Trên tia số: từ 2,4 nhảy 1 đến 3,4, rồi nhảy thêm 0,35 đến 3,75
 alt: Tia số từ 2 đến 4, đánh dấu ba điểm 2,4 rồi 3,4 rồi 3,75; đoạn từ 2,4 đến 3,75 được tô đậm
@@ -48,11 +48,11 @@ Muốn cộng hai số thập phân:
 3. Viết dấu phẩy ở tổng thẳng cột với các dấu phẩy ở hai số hạng.
 :::
 
-Quy tắc này đúng vì các chữ số cùng hàng đứng thẳng cột. Ta cộng phần mười với phần mười, phần trăm với phần trăm. Khi một hàng có tổng từ $10$ trở lên, ta nhớ sang hàng bên trái, giống như cộng số tự nhiên.
+Vì sao phải thẳng dấu phẩy? Vì khi đó các chữ số cùng hàng đứng thẳng cột, nên ta cộng phần mười với phần mười, phần trăm với phần trăm, giống như cộng chục với chục, đơn vị với đơn vị. Khi một hàng có tổng từ $10$ trở lên, ta nhớ sang hàng bên trái, y như khi cộng số tự nhiên.
 
 ## Ví dụ
 
-Ta bắt đầu với hai số có cùng số chữ số ở phần thập phân, và có nhớ.
+Ta thử với trường hợp dễ nhất: hai số có cùng số chữ số ở phần thập phân. Bài này còn có một chỗ nhớ, em để ý nhé.
 
 :::example Tính $4{,}6+2{,}9$
 **Lời giải.** Hai số đều có một chữ số ở phần thập phân, nên em đặt tính thẳng dấu phẩy rồi cộng:
@@ -62,7 +62,7 @@ Hàng phần mười: $6+9=15$, viết $5$ nhớ $1$. Hàng đơn vị: $4+2+1=7
 Vậy $4{,}6+2{,}9=7{,}5$.
 :::
 
-Khi hai số có số chữ số khác nhau, em thêm chữ số $0$ để chúng bằng nhau.
+Còn khi hai số có số chữ số ở phần thập phân khác nhau thì sao? Em thêm chữ số $0$ vào số ngắn hơn để hai số có số chữ số bằng nhau. Giá trị của số không đổi, vì sao thì ta xem ngay trong lời giải.
 
 :::example Tính $8{,}45+3{,}7$
 **Lời giải.** Viết thêm chữ số $0$ vào cuối phần thập phân không làm đổi giá trị, vì $7$ phần mười bằng $70$ phần trăm. Em viết $3{,}7=3{,}70$ rồi đặt tính:
@@ -72,7 +72,7 @@ Hàng phần trăm: $5+0=5$. Hàng phần mười: $4+7=11$, viết $1$ nhớ $1
 Vậy $8{,}45+3{,}7=12{,}15$.
 :::
 
-Số tự nhiên cũng là số thập phân: em chỉ cần viết thêm dấu phẩy và các chữ số $0$.
+Một số tự nhiên cũng cộng được với số thập phân. Em coi nó là số thập phân có phần thập phân toàn chữ số $0$: chỉ cần viết thêm dấu phẩy và các chữ số $0$.
 
 :::example Tính $27+4{,}85$
 **Lời giải.** Em viết $27=27{,}00$ để có hai chữ số ở phần thập phân, rồi đặt tính:
@@ -82,7 +82,7 @@ Hàng phần trăm: $0+5=5$. Hàng phần mười: $0+8=8$. Hàng đơn vị: $7
 Vậy $27+4{,}85=31{,}85$.
 :::
 
-Khi cộng ba số, em có thể đổi chỗ và nhóm các số cho dễ tính.
+Khi cộng ba số, em không nhất thiết phải cộng từ trái sang phải. Em có thể đổi chỗ và nhóm các số lại. Nếu có hai số ghép thành số tròn thì việc tính nhẹ đi nhiều.
 
 :::example Tính bằng cách thuận tiện: $3{,}6+4{,}8+6{,}4$
 **Lời giải.** Vì $3{,}6+6{,}4=10$ là số tròn, em dùng tính chất giao hoán và tính chất kết hợp để ghép hai số này lại:
@@ -90,7 +90,7 @@ $$\begin{aligned} 3{,}6+4{,}8+6{,}4 &= (3{,}6+6{,}4)+4{,}8 \\ &= 10+4{,}8 \\ &= 
 Vậy $3{,}6+4{,}8+6{,}4=14{,}8$.
 :::
 
-Bây giờ em dùng phép cộng để trả lời một câu hỏi trong cuộc sống.
+Ta thử dùng phép cộng cho một việc rất quen: chủ cửa hàng gạo muốn biết hai ngày bán được tất cả bao nhiêu.
 
 :::example Bán gạo
 Ngày thứ nhất cửa hàng bán $45{,}6$ kg gạo, ngày thứ hai bán $38{,}75$ kg gạo. Hỏi cả hai ngày cửa hàng bán được bao nhiêu ki-lô-gam gạo?
@@ -101,9 +101,9 @@ Vậy cả hai ngày cửa hàng bán được $84{,}35$ kg gạo.
 :::
 
 :::warning Những lỗi em hay gặp
-- **Không thẳng dấu phẩy.** Sai: $2{,}4+1{,}35=1{,}59$. Vì sao sai: em xếp chữ số $4$ (phần mười) thẳng cột với chữ số $5$ (phần trăm), nên cộng $24$ với $135$. Đúng: $2{,}40+1{,}35=3{,}75$.
-- **Quên nhớ.** Sai: $4{,}6+2{,}9=6{,}5$. Vì sao sai: $6+9=15$ phần mười, em viết $5$ mà quên nhớ $1$ sang hàng đơn vị. Đúng: $4{,}6+2{,}9=7{,}5$.
-- **Bài toán có lời văn quên đơn vị.** Sai: "Đáp số: $84{,}35$". Đúng: "Đáp số: $84{,}35$ kg".
+- **Không thẳng dấu phẩy.** Chỗ này nhiều bạn hay nhầm. Sai: $2{,}4+1{,}35=1{,}59$. Vì sao sai: em xếp chữ số $4$ (phần mười) thẳng cột với chữ số $5$ (phần trăm), nên đã cộng $24$ với $135$. Đúng: $2{,}40+1{,}35=3{,}75$.
+- **Quên nhớ.** Sai: $4{,}6+2{,}9=6{,}5$. Vì sao sai: $6+9=15$ phần mười, em viết $5$ mà quên nhớ $1$ sang hàng đơn vị. Đúng: $4{,}6+2{,}9=7{,}5$. Cộng xong mỗi hàng, em nhìn lại xem có phải nhớ gì không.
+- **Bài toán có lời văn quên đơn vị.** Sai: "Đáp số: $84{,}35$". Đúng: "Đáp số: $84{,}35$ kg". Có số đúng rồi mà thiếu đơn vị thì câu trả lời vẫn chưa trọn vẹn.
 :::
 
 ## Thuật ngữ
@@ -129,9 +129,11 @@ Vậy cả hai ngày cửa hàng bán được $84{,}35$ kg gạo.
 - Tính chất giao hoán $a+b=b+a$ và tính chất kết hợp $(a+b)+c=a+(b+c)$ giúp em ghép các số cho tròn, ví dụ $3{,}6+6{,}4=10$.
 - Bài toán hỏi "tất cả", "cả hai" thường là phép cộng; nhớ ghi đơn vị trong đáp số.
 
+Quay lại câu hỏi ở đầu bài: chỉ cần thẳng dấu phẩy và thêm chữ số $0$ cho đủ chỗ, em cộng được khối lượng cam và xoài của mẹ mà không sợ nhầm. Em hãy làm thử vài bài luyện tập để tay quen dần.
+
 ## Luyện tập
 
-Mỗi bài có phần kiến thức và gợi ý. Em hãy tự làm trước, rồi mới bấm xem lời giải.
+Mỗi bài có phần kiến thức cần nhớ và gợi ý để em bắt đầu. Em hãy tự làm trước, rồi mới bấm xem lời giải. Làm đều tay một chút thì việc đặt tính sẽ quen dần.
 
 :::exercise
 Đặt tính rồi tính: $5{,}8+3{,}6$.

@@ -11,11 +11,11 @@ minutes: 45
 - Tính xác suất của phân phối nhị thức và phân phối chuẩn, kể cả bài toán tra ngược phân phối chuẩn.
 :::
 
-Chủ đề 4 chủ yếu nằm ở Paper 2: GDC lo phần tính toán, còn điểm thuộc về việc chọn đúng mô hình, nhập đúng số liệu và trả lời trong ngữ cảnh. Hai thói quen rất đáng giá. Thứ nhất, định nghĩa biến ngẫu nhiên bằng lời và viết phân phối của nó, ví dụ "$X\sim B(10;0{,}3)$, với $X$ là số sản phẩm lỗi". Thứ hai, viết biểu thức xác suất cần tính, như $P(X\ge2)$, trước khi ghi con số.
+Khi máy tính làm hết phần tính, điều còn lại là bạn đã bảo nó làm đúng việc chưa. Chủ đề 4 chủ yếu nằm ở Paper 2: GDC lo phần tính toán, còn điểm thuộc về việc chọn đúng mô hình, nhập đúng số liệu và trả lời trong ngữ cảnh. Vì thế có hai thói quen rất đáng giá. Thứ nhất, định nghĩa biến ngẫu nhiên bằng lời và viết phân phối của nó, ví dụ "$X\sim B(10;0{,}3)$, với $X$ là số sản phẩm lỗi". Thứ hai, viết biểu thức xác suất cần tính, như $P(X\ge2)$, trước khi ghi con số. Hai việc này tốn rất ít thời gian, nhưng giúp bạn khỏi nhầm ở các bước sau.
 
 ## Dữ liệu và hồi quy
 
-GDC cho bạn số trung bình, độ lệch chuẩn, các tứ phân vị và đường hồi quy. **Hệ số tương quan Pearson** $r$ đo độ mạnh của quan hệ tuyến tính: gần $1$ hoặc $-1$ là mạnh, gần $0$ là yếu. Dùng đường hồi quy của $y$ theo $x$ để dự đoán $y$ từ $x$, và chỉ trong phạm vi dữ liệu: **nội suy (interpolation)** thì hợp lí, **ngoại suy (extrapolation)** thì không.
+GDC cho bạn số trung bình, độ lệch chuẩn, các tứ phân vị và đường hồi quy. **Hệ số tương quan Pearson** $r$ đo độ mạnh của quan hệ tuyến tính: gần $1$ hoặc $-1$ là mạnh, gần $0$ là yếu. Đường hồi quy của $y$ theo $x$ dùng để dự đoán $y$ từ $x$, nhưng chỉ nên tin trong phạm vi dữ liệu. Vì sao? Vì ngoài phạm vi ấy ta không biết xu hướng còn giữ nguyên hay không. Dự đoán trong phạm vi dữ liệu gọi là **nội suy (interpolation)**, và hợp lí. Dự đoán ngoài phạm vi gọi là **ngoại suy (extrapolation)**, và không nên.
 
 :::example Một đường hồi quy
 | $x$ | $2$ | $4$ | $6$ | $8$ | $10$ |
@@ -36,7 +36,7 @@ GDC cho bạn số trung bình, độ lệch chuẩn, các tứ phân vị và �
 ## Các quy tắc xác suất
 
 $$P(A\cup B)=P(A)+P(B)-P(A\cap B),\qquad P(A\mid B)=\frac{P(A\cap B)}{P(B)}.$$
-$A$ và $B$ **xung khắc (mutually exclusive)** nếu $P(A\cap B)=0$, và **độc lập (independent)** nếu $P(A\cap B)=P(A)P(B)$, tương đương $P(A\mid B)=P(A)$.
+Hai quan hệ này rất hay bị lẫn. $A$ và $B$ **xung khắc (mutually exclusive)** nếu $P(A\cap B)=0$: chúng không thể cùng xảy ra. $A$ và $B$ **độc lập (independent)** nếu $P(A\cap B)=P(A)P(B)$, tương đương $P(A\mid B)=P(A)$: biết $B$ đã xảy ra không làm đổi xác suất của $A$.
 
 :::example Kiểm tra tính độc lập
 $P(A)=0{,}5$, $P(B)=0{,}4$ và $P(A\cup B)=0{,}7$.
@@ -61,7 +61,7 @@ Sơ đồ cây giúp tính đúng xác suất ở lần lấy thứ hai, với m
 
 ## Biến ngẫu nhiên rời rạc
 
-Bảng phân phối xác suất liệt kê mỗi giá trị $x$ cùng xác suất của nó; tổng các xác suất bằng $1$. **Kì vọng (expected value)** là $E(X)=\sum xP(X=x)$. Một trò chơi là **công bằng (fair)** khi số tiền lãi kì vọng bằng $0$.
+Một biến ngẫu nhiên rời rạc được mô tả bằng bảng phân phối xác suất: bảng liệt kê mỗi giá trị $x$ cùng xác suất của nó, và tổng các xác suất bằng $1$ vì chắc chắn một giá trị nào đó sẽ xảy ra. **Kì vọng (expected value)** là giá trị trung bình ta chờ đợi sau nhiều lần lặp lại, tính bằng $E(X)=\sum xP(X=x)$. Một trò chơi là **công bằng (fair)** khi số tiền lãi kì vọng bằng $0$.
 
 :::example Tìm k và kì vọng
 $P(X=x)=kx$ với $x=1,2,3,4$.
@@ -75,9 +75,9 @@ $P(X=x)=kx$ với $x=1,2,3,4$.
 
 ## Phân phối nhị thức và phân phối chuẩn
 
-**Nhị thức:** $X\sim B(n,p)$ đếm số lần thành công trong $n$ phép thử độc lập có cùng xác suất $p$. $E(X)=np$ và $\mathrm{Var}(X)=np(1-p)$. Trên GDC, xác suất đúng $k$ lần thành công dùng binomial pdf, còn xác suất nhiều nhất $k$ lần dùng binomial cdf. Với "ít nhất", hãy dùng biến cố đối.
+Mỗi hạt giống nảy mầm hoặc không, mỗi sản phẩm đạt hoặc lỗi: những tình huống chỉ có hai kết quả, lặp lại nhiều lần như vậy, dùng mô hình nhị thức. **Nhị thức:** $X\sim B(n,p)$ đếm số lần thành công trong $n$ phép thử độc lập có cùng xác suất $p$. $E(X)=np$ và $\mathrm{Var}(X)=np(1-p)$. Trên GDC, xác suất đúng $k$ lần thành công dùng binomial pdf, còn xác suất nhiều nhất $k$ lần dùng binomial cdf. Với "ít nhất", hãy dùng biến cố đối, vì tính phần bù thường gọn hơn cộng từng khả năng.
 
-**Chuẩn:** $X\sim N\left(\mu,\sigma^2\right)$ là đường cong hình chuông đối xứng. GDC cho trực tiếp $P(a<X<b)$; chức năng **tra ngược (inverse normal)** tìm giá trị có xác suất cho trước ở phía dưới nó.
+**Chuẩn:** $X\sim N\left(\mu,\sigma^2\right)$ là đường cong hình chuông đối xứng; chiều cao, điểm thi hay sai số đo thường có dạng gần như thế. GDC cho trực tiếp $P(a<X<b)$. Chức năng **tra ngược (inverse normal)** làm việc theo chiều ngược lại: cho trước xác suất ở phía dưới, nó tìm giá trị tương ứng.
 
 :::example Một mô hình nhị thức
 Mỗi hạt giống trong một gói nảy mầm với xác suất $0{,}3$, độc lập với nhau. Gieo mười hạt. Tính xác suất:
@@ -105,7 +105,7 @@ Chiều cao học sinh trong một trường có phân phối chuẩn với trun
 
 :::warning Những cái bẫy thường gặp
 - **Phương sai hay độ lệch chuẩn.** $N\left(170;8^2\right)$ có $\sigma=8$; nhập $8$ vào GDC, không phải $64$.
-- **"Ít nhất" và "nhiều hơn".** Với nhị thức, $P(X>2)=1-P(X\le2)$, nhưng $P(X\ge2)=1-P(X\le1)$.
+- **"Ít nhất" và "nhiều hơn".** Với nhị thức, $P(X>2)=1-P(X\le2)$, nhưng $P(X\ge2)=1-P(X\le1)$. Chỗ này nhiều bạn hay nhầm, nên nhìn kĩ dấu bất đẳng thức trong đề.
 - **Xung khắc không phải độc lập.** Hai biến cố có xác suất dương mà xung khắc thì không bao giờ độc lập.
 - **Đảo ngược xác suất có điều kiện.** $P(A\mid B)$ chia cho $P(B)$, tức điều kiện.
 - **Ngoại suy** bằng đường hồi quy, hoặc dùng đường $y$ theo $x$ để dự đoán $x$.

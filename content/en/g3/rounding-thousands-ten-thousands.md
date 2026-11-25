@@ -11,13 +11,13 @@ minutes: 15
 - Use rounding to say "about how many".
 :::
 
-The city stadium had $4\,732$ spectators at this afternoon's football match. A reporter wants to write it briefly: "About how many thousand spectators were there?" Help her choose a whole thousand close to $4\,732$.
+This afternoon, $4\,732$ people watched the football match at the city stadium. A reporter wants to write one short line: "About how many thousand spectators were there?" Readers only need a rough idea, not an exact head count. Help her choose a whole thousand close to $4\,732$.
 
-In the last lesson you learned to compare numbers up to $100\,000$. You also know how to round to the nearest ten and hundred. This lesson uses the same thinking for thousands and ten thousands.
+In the last lesson you compared numbers up to $100\,000$, and you have already rounded to the nearest ten and hundred. This time we use the very same idea for thousands and ten thousands. Then you can say "about so many thousand" without reading out every digit.
 
 ## Let's explore
 
-We place the whole thousands $4\,000$ and $5\,000$ on a number line. The number $4\,732$ lies between them. The point exactly halfway between them is $4\,500$.
+To see which whole thousand $4\,732$ is nearest to, we put it on a number line. The whole thousands on either side are $4\,000$ and $5\,000$. The number $4\,732$ lies between them, and the point exactly halfway is $4\,500$.
 
 :::graph The number $4\,732$ lies between $4\,000$ and $5\,000$
 alt: A number line from 3800 to 5200 with the points 4000, 4500, 4732 and 5000 marked; 4732 is closer to 5000
@@ -30,15 +30,16 @@ point: (4732, 0) "4732" below
 point: (5000, 0) "5000" below
 :::
 
-Ask yourself: which number is $4\,732$ closer to?
+Here is the question: on this line, which whole thousand is $4\,732$ closer to? We can find out by measuring the gaps.
 
-- From $4\,000$ to $4\,732$ is $4\,732-4\,000=732$.
-- From $4\,732$ to $5\,000$ is $5\,000-4\,732=268$.
+- Going from $4\,000$ up to $4\,732$ is a gap of $4\,732-4\,000=732$.
+- Going from $4\,732$ up to $5\,000$ is a gap of $5\,000-4\,732=268$.
 - Since $268<732$, $4\,732$ is closer to $5\,000$.
+The shorter gap points to the nearer whole thousand.
 
-We say: $4\,732$ rounded to the nearest thousand is $5\,000$, and we write $4\,732\approx5\,000$. The sign $\approx$ is read "is approximately equal to".
+So we say $4\,732$ rounded to the nearest thousand is $5\,000$, and we write $4\,732\approx5\,000$. The sign $\approx$ is read "is approximately equal to". It reminds us that the number is no longer exact, but the nearest round one.
 
-Notice: $4\,732$ is greater than the halfway point $4\,500$, so it is closer to $5\,000$. Any number less than $4\,500$ is closer to $4\,000$. The hundreds digit of $4\,500$ is $5$, so the hundreds digit tells you which half a number is in.
+There is a quicker way than measuring each gap. The number $4\,732$ is greater than the halfway point $4\,500$, so it sits in the half nearer $5\,000$. Any number less than $4\,500$ sits in the half nearer $4\,000$. The hundreds digit of $4\,500$ is $5$, so you only need to look at the hundreds digit to know which half a number is in.
 
 :::theorem How to round
 **Rounding to the nearest thousand:** look at the hundreds digit.
@@ -48,11 +49,11 @@ Notice: $4\,732$ is greater than the halfway point $4\,500$, so it is closer to 
 **Rounding to the nearest ten thousand:** do the same, but look at the thousands digit.
 :::
 
-This works because you choose the nearest whole number of that size. A hundreds digit of $5$ or more means the number is in the upper half, closer to the bigger whole thousand.
+Why does this work? Rounding means choosing the nearest whole number of that size. A hundreds digit of $5$ or more puts the number in the upper half, so the bigger whole thousand is the nearer one. A smaller hundreds digit puts it in the lower half.
 
 ## Examples
 
-We start with a number whose hundreds digit is small.
+We start with a number whose hundreds digit is small, so the thousands stay the same.
 
 :::example Round $3\,214$ to the nearest thousand
 **Solution.** To round to the nearest thousand, look at the hundreds digit. The hundreds digit of $3\,214$ is $2$, less than $5$, so keep $3$ thousands and change the digits to the right to $0$:
@@ -60,7 +61,7 @@ $$3\,214\approx3\,000.$$
 So $3\,214$ rounded to the nearest thousand is $3\,000$.
 :::
 
-Now the hundreds digit is bigger.
+Now a number whose hundreds digit is bigger. This time the thousands go up.
 
 :::example Round $6\,750$ to the nearest thousand
 **Solution.** The hundreds digit of $6\,750$ is $7$, which is $5$ or more, so the thousands digit goes up from $6$ to $7$ and the digits to the right become $0$:
@@ -68,7 +69,7 @@ $$6\,750\approx7\,000.$$
 So $6\,750$ rounded to the nearest thousand is $7\,000$.
 :::
 
-A five-digit number can be rounded in two different ways.
+A five-digit number can be rounded in two ways: to the nearest thousand or to the nearest ten thousand. Watch how the answer changes with the place.
 
 :::example Round $47\,328$ to the nearest thousand and to the nearest ten thousand
 **Solution.** To the nearest thousand: the hundreds digit is $3$, less than $5$, so keep $47$ thousands:
@@ -78,7 +79,7 @@ $$47\,328\approx50\,000.$$
 So $47\,328$ rounded to the nearest thousand is $47\,000$, and to the nearest ten thousand is $50\,000$.
 :::
 
-One case often confuses pupils: the digit that goes up is a $9$.
+Here is a spot where many pupils hesitate: the digit that has to go up is a $9$. Let us see what happens.
 
 :::example Round $9\,640$ to the nearest thousand
 **Solution.** The hundreds digit of $9\,640$ is $6$, which is $5$ or more, so you add $1$ thousand to $9$ thousands. $9$ thousands and $1$ more thousand make $10$ thousands:
@@ -86,7 +87,7 @@ $$9\,640\approx10\,000.$$
 So $9\,640$ rounded to the nearest thousand is $10\,000$.
 :::
 
-Now use rounding to answer a question from everyday life.
+Rounding is most useful when we want to say "about how many". Try it on a number from real life.
 
 :::example Concert tickets
 A concert sold $23\,480$ tickets. A newspaper asks: "About how many thousand tickets were sold?" Answer the question.
@@ -97,9 +98,10 @@ So about $23$ thousand tickets were sold.
 :::
 
 :::warning Mistakes to watch out for
-- **Looking at the wrong digit.** Wrong: rounding $4\,372$ to the nearest thousand by looking at the $2$ in the ones place. Why it is wrong: you must look at the place just to the right of the place you are rounding to, which is the hundreds, the digit $3$. Right: $4\,372\approx4\,000$.
-- **Forgetting to change the digits on the right to $0$.** Wrong: $6\,750\approx7\,750$. Why it is wrong: a number rounded to the nearest thousand must be a whole thousand. Right: $6\,750\approx7\,000$.
+- **Looking at the wrong digit.** Wrong: rounding $4\,372$ to the nearest thousand by looking at the $2$ in the ones place. Why it is wrong: the digit to check sits just to the right of the place you are rounding to, which is the hundreds, the digit $3$. Right: $4\,372\approx4\,000$.
+- **Forgetting to change the digits on the right to $0$.** Wrong: $6\,750\approx7\,750$. Why it is wrong: rounding to the nearest thousand must give a whole thousand. Right: $6\,750\approx7\,000$.
 - **Not daring to round a $9$ up.** Wrong: $9\,640\approx9\,000$. Why it is wrong: the hundreds digit is $6$, so you round up, and $9$ thousands plus $1$ thousand is $10$ thousands. Right: $9\,640\approx10\,000$.
+Do not worry if you have made one of these slips. Meeting it once is how you learn to avoid it.
 :::
 
 ## Key terms
@@ -122,10 +124,11 @@ So about $23$ thousand tickets were sold.
 - After rounding, all the digits to the right become $0$.
 - Examples: $4\,732\approx5\,000$ (nearest thousand); $47\,328\approx50\,000$ (nearest ten thousand).
 - You can check on a number line: the rounded number must be the nearest one of that size.
+Back to the reporter's question: the first example already answers it, since $4\,732\approx5\,000$ gives her a whole thousand to write. The one thing to remember is to look at the digit just to the right. The practice below will make it feel natural.
 
 ## Practice
 
-Each exercise comes with what you need and how to start. Try it yourself first, then open the solution.
+Each exercise comes with what you need to remember and a hint to start you off. Try it yourself first, and open the solution only when you are stuck. A slip along the way is fine, because that is how the method sticks.
 
 :::exercise
 Round each number to the nearest thousand:

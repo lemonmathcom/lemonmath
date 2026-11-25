@@ -11,15 +11,15 @@ minutes: 22
 - Tính thể tích khối tròn xoay sinh ra khi quay một hình phẳng quanh trục $Ox$.
 :::
 
-Một cổng trường có mặt trước hình parabol: chân cổng rộng $4$ m, đỉnh cao $4$ m. Người ta cần sơn kín mặt trước của cổng. Diện tích cần sơn là bao nhiêu mét vuông?
+Ta đi qua cổng vòm và dưới mái cong mỗi ngày mà ít khi nghĩ xem chúng chiếm bao nhiêu chỗ. Một cổng trường có mặt trước hình parabol: chân cổng rộng $4$ m, đỉnh cao $4$ m. Người ta cần sơn kín mặt trước của cổng. Diện tích cần sơn là bao nhiêu mét vuông? Hình có cạnh cong thì ta chưa có công thức quen thuộc nào để dùng.
 
-Hình chữ nhật bao quanh cổng có diện tích $4\cdot4=16$ m², tam giác nằm trong cổng có diện tích $\dfrac12\cdot4\cdot4=8$ m². Vậy đáp số nằm giữa $8$ và $16$. Tích phân cho ta con số chính xác.
+Thử ước lượng trước. Hình chữ nhật bao quanh cổng có diện tích $4\cdot4=16$ m², còn tam giác nằm trong cổng có diện tích $\dfrac12\cdot4\cdot4=8$ m². Vậy đáp số nằm giữa $8$ và $16$. Nhưng "nằm giữa" thì còn rộng quá, và tích phân cho ta con số chính xác.
 
 ## Diện tích hình phẳng
 
 ### Khám phá: cổng parabol
 
-Đặt hệ trục toạ độ với gốc ở giữa chân cổng, trục $Oy$ hướng lên. Parabol đi qua $(-2; 0)$, $(2; 0)$ và có đỉnh $(0; 4)$, nên có phương trình $y=4-x^2$. Mặt cổng là phần dưới đồ thị, trên trục hoành, với $-2\le x\le2$.
+Muốn dùng tích phân, ta cần một hàm số mô tả mép cổng. Đặt hệ trục toạ độ với gốc ở giữa chân cổng, trục $Oy$ hướng lên. Parabol đi qua $(-2; 0)$, $(2; 0)$ và có đỉnh $(0; 4)$, nên có phương trình $y=4-x^2$. Mặt cổng là phần dưới đồ thị, trên trục hoành, với $-2\le x\le2$.
 
 :::graph Mặt cổng parabol $y=4-x^2$
 alt: Parabol úp xuống có đỉnh tại (0; 4), cắt trục hoành tại -2 và 2; phần nằm giữa parabol và trục hoành được tô màu
@@ -36,11 +36,11 @@ Hàm $4-x^2$ không âm trên $[-2; 2]$, nên theo ý nghĩa hình học của t
 
 $$S=\int_{-2}^{2}(4-x^2)\,dx=\Big[4x-\frac{x^3}{3}\Big]_{-2}^{2}=\left(8-\frac83\right)-\left(-8+\frac83\right)=\frac{32}{3}\approx10{,}67.$$
 
-Đúng là một số nằm giữa $8$ và $16$; nó bằng $\dfrac23$ diện tích hình chữ nhật bao quanh.
+Kết quả hợp lý: đó là một số nằm giữa $8$ và $16$, và nó bằng $\dfrac23$ diện tích hình chữ nhật bao quanh.
 
 Con số này còn bằng $\dfrac43\cdot8$, tức là $\dfrac43$ diện tích tam giác có cùng đáy và cùng đỉnh với cổng. Archimedes đã chứng minh đúng tỉ lệ $\dfrac43$ đó cho mọi "mảnh parabol" trong tác phẩm *Phép cầu phương parabol*, hơn $2000$ năm trước, bằng cách lấp đầy hình bởi vô số tam giác nhỏ (theo MacTutor History of Mathematics). Ngày nay, tích phân cho cùng kết quả chỉ trong một dòng.
 
-Khi đồ thị có phần nằm **dưới** trục hoành, tích phân của phần đó là số âm, còn diện tích luôn dương. Vì thế công thức tổng quát có dấu giá trị tuyệt đối.
+Khi đồ thị có phần nằm **dưới** trục hoành, tích phân của phần đó là số âm, còn diện tích thì luôn dương. Vì thế công thức tổng quát phải có dấu giá trị tuyệt đối. Ta viết công thức đó ra ngay đây.
 
 :::theorem Diện tích hình phẳng
 - Hình phẳng giới hạn bởi đồ thị $y=f(x)$ liên tục, trục hoành và hai đường thẳng $x=a$, $x=b$ $(a<b)$ có diện tích
@@ -49,11 +49,11 @@ $$S=\int_a^b\lvert f(x)\rvert\,dx.$$
 $$S=\int_a^b\lvert f(x)-g(x)\rvert\,dx.$$
 :::
 
-**Vì sao đúng?** Nếu $f(x)\ge g(x)$ trên $[a; b]$, ta tịnh tiến cả hai đồ thị lên cùng một đoạn $k$ để chúng nằm trên trục hoành. Hình phẳng không đổi, và diện tích của nó là diện tích dưới $f+k$ trừ diện tích dưới $g+k$, tức $\displaystyle\int_a^b(f-g)\,dx$. Ở đoạn nào $f<g$ thì vai trò hai hàm đổi chỗ, nên ta dùng $\lvert f-g\rvert$.
+**Vì sao đúng?** Nếu $f(x)\ge g(x)$ trên $[a; b]$, ta tịnh tiến cả hai đồ thị lên cùng một đoạn $k$ để chúng nằm trên trục hoành. Hình phẳng không đổi, và diện tích của nó là diện tích dưới $f+k$ trừ diện tích dưới $g+k$, tức $\displaystyle\int_a^b(f-g)\,dx$. Ở đoạn nào $f<g$ thì hai hàm đổi vai cho nhau, nên ta dùng $\lvert f-g\rvert$.
 
-**Kết nối.** Bài này ghép ý nghĩa hình học của tích phân (bài trước) với kĩ năng đọc đồ thị và tìm giao điểm (chương I). Ý tưởng "cắt thành những lát thật mỏng rồi cộng lại" còn dùng tiếp cho thể tích ở mục sau, và giải thích được các công thức thể tích khối chóp, khối nón, khối cầu mà trước đây ta chỉ thừa nhận.
+**Kết nối.** Bài này ghép ý nghĩa hình học của tích phân (bài trước) với việc đọc đồ thị và tìm giao điểm (chương I). Ý tưởng "cắt thành những lát thật mỏng rồi cộng lại" sẽ còn dùng cho thể tích ở mục sau. Nhờ nó, ta cũng hiểu vì sao có các công thức thể tích khối chóp, khối nón, khối cầu mà trước đây ta chỉ thừa nhận.
 
-**Cách làm.** Giải $f(x)-g(x)=0$ để tìm các điểm cắt trong $(a; b)$. Trên mỗi đoạn con, $f-g$ không đổi dấu, nên $\displaystyle\int\lvert f-g\rvert\,dx=\left\lvert\int(f-g)\,dx\right\rvert$. Nếu đề không cho $x=a$, $x=b$ thì hai cận là các hoành độ giao điểm.
+**Cách làm.** Giải $f(x)-g(x)=0$ để tìm các điểm cắt trong $(a; b)$. Trên mỗi đoạn con, $f-g$ giữ nguyên một dấu, nên $\displaystyle\int\lvert f-g\rvert\,dx=\left\lvert\int(f-g)\,dx\right\rvert$. Nếu đề không cho $x=a$, $x=b$ thì hai cận chính là các hoành độ giao điểm.
 
 :::example Đồ thị cắt trục hoành
 Tính diện tích hình phẳng giới hạn bởi đồ thị $y=x^2-2x$, trục hoành và hai đường thẳng $x=0$, $x=3$.
@@ -78,7 +78,7 @@ vline: 3 ; dashed
 point: (2, 0) "2" above-left
 :::
 
-Khi hình phẳng nằm giữa hai đồ thị, hai cận thường là hoành độ giao điểm.
+Khi hình phẳng nằm giữa hai đồ thị, hai cận thường là hoành độ giao điểm. Ví dụ sau cho thấy cách làm.
 
 :::example Giữa hai đồ thị
 Tính diện tích hình phẳng giới hạn bởi parabol $y=x^2$ và đường thẳng $y=x+2$.
@@ -103,7 +103,7 @@ point: (2, 4) "(2; 4)" right
 
 ## Thể tích vật thể
 
-Cắt một vật thể bởi mặt phẳng vuông góc với trục $Ox$ tại điểm có hoành độ $x$, ta được một **thiết diện** có diện tích $S(x)$. Một lát mỏng dày $h$ có thể tích xấp xỉ $S(x)\cdot h$. Cộng tất cả các lát, giống như cộng các hình chữ nhật nhỏ để được diện tích, ta có công thức sau.
+Cắt một vật thể bởi mặt phẳng vuông góc với trục $Ox$ tại điểm có hoành độ $x$, ta được một **thiết diện** có diện tích $S(x)$. Một lát mỏng dày $h$ có thể tích xấp xỉ $S(x)\cdot h$. Cộng tất cả các lát lại, giống như cộng các hình chữ nhật nhỏ để được diện tích, ta có công thức sau.
 
 :::theorem Thể tích vật thể
 Một vật thể nằm giữa hai mặt phẳng vuông góc với $Ox$ tại $x=a$ và $x=b$. Nếu thiết diện tại $x$ $(a\le x\le b)$ có diện tích $S(x)$ liên tục thì thể tích vật thể là
@@ -124,7 +124,7 @@ Vậy thể tích khối chóp bằng $18$.
 
 ## Khối tròn xoay
 
-Quay hình phẳng giới hạn bởi $y=f(x)$, trục hoành, $x=a$, $x=b$ quanh trục $Ox$, ta được một **khối tròn xoay**. Thiết diện tại $x$ là một hình tròn bán kính $\lvert f(x)\rvert$, có diện tích $S(x)=\pi f^2(x)$. Thay vào công thức thể tích:
+Quay hình phẳng giới hạn bởi $y=f(x)$, trục hoành, $x=a$, $x=b$ quanh trục $Ox$, ta được một **khối tròn xoay**. Thiết diện tại $x$ là một hình tròn bán kính $\lvert f(x)\rvert$, nên có diện tích $S(x)=\pi f^2(x)$. Thay vào công thức thể tích, ta được:
 
 :::theorem Thể tích khối tròn xoay
 $$V=\pi\int_a^b f^2(x)\,dx.$$
@@ -142,7 +142,7 @@ $$V=\pi\int_{-3}^{3}(9-x^2)\,dx=\pi\Big[9x-\frac{x^3}{3}\Big]_{-3}^{3}=\pi\big(1
 Vậy thể tích khối cầu bằng $36\pi$.
 :::
 
-Công thức khối tròn xoay cũng tính được thể tích những đồ vật thật có hình dạng cong.
+Công thức khối tròn xoay cũng tính được thể tích những đồ vật thật có hình dạng cong. Ví dụ sau là một chiếc ly.
 
 :::example Dung tích một chiếc ly
 Lòng một chiếc ly có dạng khối tròn xoay sinh ra khi quay hình phẳng giới hạn bởi $y=\sqrt{2x}$, trục hoành và $x=8$ quanh $Ox$ (đơn vị cm; $x$ là độ cao tính từ đáy ly). Hỏi ly chứa được bao nhiêu mililít nước?
@@ -161,6 +161,7 @@ Miệng ly có bán kính $\sqrt{16}=4$ cm. Vì $1$ cm³ $=1$ ml nên ly chứa 
 - **Trừ ngược hai hàm mà không lấy trị tuyệt đối.** Sai: $\displaystyle\int_{-1}^2\big(x^2-(x+2)\big)\,dx=-\frac92$ là diện tích. Lí do sai: diện tích không thể âm. Đúng: lấy hàm nằm trên trừ hàm nằm dưới, được $\dfrac92$.
 - **Quên bình phương hoặc quên $\pi$.** Sai: thể tích khối cầu là $\pi\displaystyle\int_{-3}^3\sqrt{9-x^2}\,dx$. Lí do sai: thiết diện là hình tròn, diện tích $\pi r^2=\pi f^2(x)$. Đúng: $\pi\displaystyle\int_{-3}^3(9-x^2)\,dx=36\pi$.
 - **Lấy sai cận.** Sai: tính diện tích giữa $y=x^2$ và $y=x+2$ trên $[0; 2]$. Lí do sai: hình phẳng kéo dài từ giao điểm $x=-1$. Đúng: cận là $-1$ và $2$.
+Cả bốn lỗi này đều tránh được nếu bạn phác nhanh đồ thị trước khi tính.
 :::
 
 ## Thuật ngữ
@@ -183,10 +184,11 @@ Miệng ly có bán kính $\sqrt{16}=4$ cm. Vì $1$ cm³ $=1$ ml nên ly chứa 
 - Không cho $x=a$, $x=b$ thì cận là các hoành độ giao điểm.
 - Thể tích khi biết thiết diện: $V=\displaystyle\int_a^bS(x)\,dx$.
 - Khối tròn xoay quanh $Ox$: $V=\pi\displaystyle\int_a^bf^2(x)\,dx$ (nhớ bình phương và $\pi$).
+Quay lại chiếc cổng ở đầu bài: một tích phân đủ cho ta diện tích chính xác, thay cho phép ước lượng giữa hai số. Điều cần nhớ là cắt thành lát mỏng rồi cộng lại, và sau đó bạn hãy làm bài luyện tập để quen tay.
 
 ## Luyện tập
 
-Mỗi bài có phần kiến thức và gợi ý các bước. Hãy tự làm trước, rồi mới bấm xem lời giải.
+Mỗi bài có phần kiến thức và gợi ý các bước. Bạn hãy tự làm trước, rồi mới bấm xem lời giải. Làm sai một lần cũng không sao, vì chính chỗ sai cho ta biết cần xem lại điều gì.
 
 :::exercise
 Tính diện tích hình phẳng giới hạn bởi đồ thị $y=x^2+1$, trục hoành và hai đường thẳng $x=0$, $x=3$.

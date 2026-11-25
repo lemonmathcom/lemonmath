@@ -10,23 +10,23 @@ minutes: 20
 - Use frequency tables and charts to comment and make decisions in real situations.
 :::
 
-The American Academy of Sleep Medicine recommends (as quoted by the US CDC) that teenagers aged 13 to 18 sleep 8 to 10 hours per 24 hours. Suppose the form tutor of class 9A asks 30 students "How many hours did you sleep last night?" and writes down the answers (to the nearest hour):
+Did you know that teenagers aged 13 to 18 are advised to sleep 8 to 10 hours in every 24? That is the recommendation of the American Academy of Sleep Medicine, as quoted by the US CDC. Suppose the form tutor of class 9A asks 30 students "How many hours did you sleep last night?" and writes down the answers, to the nearest hour:
 
 $$7,\ 8,\ 8,\ 8,\ 8,\ 7,\ 8,\ 6,\ 7,\ 9,\ 6,\ 7,\ 6,\ 9,\ 7,\ 7,\ 5,\ 8,\ 5,\ 9,\ 7,\ 7,\ 5,\ 8,\ 6,\ 6,\ 6,\ 7,\ 8,\ 7.$$
 
-How many students in the class sleep enough? Thirty numbers in no order hide the answer; this lesson shows how to arrange them so that the answer appears.
+How many students in the class sleep enough? Thirty numbers in no order are hiding the answer. To bring it out, we need to arrange them neatly, and that is what this lesson does: with a frequency table and a chart, the answer shows up at a glance.
 
 ## Frequency tables
 
 ### Explore: counting each value
 
-The list contains only five different values: $5$, $6$, $7$, $8$, $9$. We count how many times each value appears:
+Look closely at the list and you will see only five different values: $5$, $6$, $7$, $8$, $9$. So instead of reading thirty numbers, we count how many times each value appears:
 
 | Hours of sleep | $5$ | $6$ | $7$ | $8$ | $9$ |
 |---|---|---|---|---|---|
 | Number of students | $3$ | $6$ | $10$ | $8$ | $3$ |
 
-Check: $3+6+10+8+3=30$. Now the answer appears: only $8+3=11$ students slept 8 hours or more, less than half of the class.
+Let us check: $3+6+10+8+3=30$, which is exactly the number of students asked. Now we can answer the opening question: only $8+3=11$ students slept 8 hours or more, less than half of the class.
 
 :::definition Frequency and frequency table
 - The number of times a value appears in a data set is the **frequency** of that value.
@@ -34,7 +34,7 @@ Check: $3+6+10+8+3=30$. Now the answer appears: only $8+3=11$ students slept 8 h
 - The sum of the frequencies is the number of data values, called the **sample size**: $n=m_1+m_2+\ldots+m_k$.
 :::
 
-**Going deeper.** A frequency table "compresses" thirty numbers into five (value; frequency) pairs, losing only the order and who gave each answer ("who slept 5 hours"). The value $8$ having frequency $8$ is only a coincidence.
+**Going deeper.** A frequency table "compresses" thirty numbers into five (value; frequency) pairs. We lose only the order and who gave each answer ("who slept 5 hours"), and we gain a much shorter table. One spot to watch: the value $8$ having frequency $8$ is only a coincidence, and the two numbers have nothing to do with each other.
 
 :::example Goals in a football tournament
 Suppose the numbers of goals in the 20 matches of a school football tournament are:
@@ -62,13 +62,13 @@ So $37$ goals were scored in the whole tournament.
 
 ## Frequency bar charts
 
-A frequency table gives exact numbers; a chart shows the *shape* of the data. Suppose the school asks 200 students in year 9 about their sleep and gets this frequency table:
+A frequency table gives exact numbers; a chart shows us the *shape* of the data. Suppose the school asks 200 students in year 9 about their sleep and gets the frequency table below. With this much data, a picture is easier to read than a row of numbers:
 
 | Hours of sleep | $5$ | $6$ | $7$ | $8$ | $9$ |
 |---|---|---|---|---|---|
 | Number of students | $24$ | $46$ | $68$ | $44$ | $18$ |
 
-To draw a **frequency bar chart**: put the values $x$ on the horizontal axis and the frequencies $m$ on the vertical axis; at each value $x_i$ draw a bar of height $m_i$, with all bars the same width and equally spaced; give the chart a title.
+Here is how to draw a **frequency bar chart**. Put the values $x$ on the horizontal axis and the frequencies $m$ on the vertical axis. At each value $x_i$ draw a bar of height $m_i$. All bars must have the same width and be equally spaced. Finally, give the chart a title.
 
 :::graph Hours of sleep of 200 year 9 students
 alt: Bar chart: the horizontal axis shows 5, 6, 7, 8, 9 hours of sleep; the bars have heights 24, 46, 68, 44, 18
@@ -81,7 +81,7 @@ fill: 44 ; 0 ; 7.7..8.3
 fill: 18 ; 0 ; 8.7..9.3
 :::
 
-The horizontal axis ($x$) shows hours of sleep and the vertical axis ($y$) the number of students. At a glance, the bar at $7$ is the tallest and the bars get shorter on both sides.
+The horizontal axis ($x$) shows hours of sleep and the vertical axis ($y$) shows the number of students. At a glance, the bar at $7$ is the tallest, and the bars get shorter on both sides.
 
 :::example Reading a bar chart
 Using the chart above, compare the number of students who sleep 8 hours or more with the number who sleep less than 7 hours.
@@ -93,7 +93,7 @@ So $8$ more students sleep less than 7 hours than sleep enough.
 
 ## Frequency line graphs
 
-When the values are numbers in order, we can also draw a **frequency line graph**: mark the points $(x_i, m_i)$ and join consecutive points with line segments.
+When the values are numbers in order, there is another way to draw the data: a **frequency line graph**. Mark the points $(x_i, m_i)$ and join consecutive points with line segments.
 
 :::graph Line graph of the same data set
 alt: A broken line joining the points (5, 24), (6, 46), (7, 68), (8, 44), (9, 18)
@@ -105,7 +105,7 @@ segment: (7, 68) (8, 44)
 segment: (8, 44) (9, 18)
 :::
 
-The broken line shows the trend clearly: the frequency rises up to 7 hours and then falls. But for data that are not numbers, such as a favourite sport, a segment joining "football" to "badminton" means nothing: then we use a bar chart.
+The broken line shows the trend quite clearly: the frequency rises up to 7 hours and then falls. But this only suits data that are numbers. For a favourite sport, say, a segment joining "football" to "badminton" means nothing. Then we use a bar chart.
 
 :::example How should a shoe shop restock?
 Suppose a trainer shop records the sizes of the 100 pairs it sold last month:
@@ -131,11 +131,11 @@ So the equal split is not sensible: the shop should order more of sizes 39 and 4
 
 :::warning Common mistakes
 - **The frequencies do not add up to the sample size** (missed or double-counted values). Always add the frequency row and compare it with $n$.
-- **Mixing up values and frequencies.** Wrong: "the largest value is $68$". Right: $68$ is the largest frequency, for the value $7$.
+- **Mixing up values and frequencies.** Wrong: "the largest value is $68$". Right: $68$ is the largest frequency, for the value $7$. Many people slip here.
 - **Bars of different widths.** The eye compares areas, so a wider bar looks like "more".
 :::
 
-**Connections.** Frequency tables build on the charts you met in years 6 and 7 and are the foundation of this chapter: next we divide frequencies by the sample size to get [relative frequencies](lesson:relative-frequency-tables), then [group the data](lesson:grouped-frequency-tables) when there are too many values; in year 10, we find the mean and the median from a frequency table.
+**Connections.** Frequency tables build on the charts you met in years 6 and 7, and they are the foundation of this chapter. In the next lesson we divide frequencies by the sample size to get [relative frequencies](lesson:relative-frequency-tables). When there are too many values, we [group the data](lesson:grouped-frequency-tables). In year 10, you will find the mean and the median from a frequency table.
 
 ## Key terms
 
@@ -155,10 +155,11 @@ So the equal split is not sensible: the shop should order more of sizes 39 and 4
 - Bar chart: bar height equals the frequency; all bars have the same width.
 - Line graph: join the points $(x_i, m_i)$; use it only when the values are numbers.
 - Total of the data: $x_1m_1+x_2m_2+\ldots+x_km_k$.
+Back to the form tutor's question: by counting and building a table, thirty jumbled numbers told us how many students sleep enough. One thing to remember: always add the frequencies and compare the total with the sample size.
 
 ## Practice
 
-Each exercise comes with what you need and hints. Try it yourself first, then open the solution.
+Each exercise comes with what you need to remember and some hints. Try it yourself first, and open the solution only when you are stuck. After a few exercises it will feel much more familiar.
 
 :::exercise
 Suppose the numbers of children in the families of 20 students are:

@@ -12,7 +12,7 @@ minutes: 15
 
 Nam đo chiều dài chiếc bàn học bằng gang tay và được $6$ gang. Mai đo cùng chiếc bàn ấy bằng gang tay của mình và được $7$ gang. Vì sao hai bạn đo ra hai số khác nhau?
 
-Vì gang tay của mỗi người dài khác nhau. Muốn mọi người đo giống nhau, ta cần các đơn vị chuẩn. Em đã biết xăng-ti-mét (cm). Hôm nay em học thêm ba đơn vị mới.
+Vì gang tay của mỗi người dài ngắn khác nhau, nên kết quả đo cũng khác nhau. Muốn ai đo cũng ra một kết quả, ta cần đơn vị chuẩn, nghĩa là một độ dài mà ai cũng dùng giống nhau. Em đã biết xăng-ti-mét (cm). Hôm nay em làm quen thêm ba đơn vị nữa, để đo được những thứ dài hơn nhiều.
 
 ## Cùng khám phá
 
@@ -22,15 +22,15 @@ Em dùng thước kẻ dài $10$ cm. Đoạn dài $10$ cm gọi là $1$ **đề-
 
 - $1$ dm $=10$ cm.
 
-Em cầm thước mét của cô giáo. Thước dài bằng $10$ thước kẻ $1$ dm đặt nối nhau. Độ dài này gọi là $1$ **mét**, viết tắt là m.
+Giờ em cầm thước mét của cô giáo. Thước này dài bằng $10$ thước kẻ $1$ dm đặt nối đuôi nhau. Độ dài ấy gọi là $1$ **mét**, viết tắt là m.
 
 - $1$ m $=10$ dm.
 
-Quãng đường rất dài như từ trường đến thành phố khác ta dùng **ki-lô-mét**, viết tắt là km.
+Còn quãng đường rất dài, như từ trường em đến một thành phố khác, thì mét cũng chưa tiện. Với những quãng đường như thế ta dùng **ki-lô-mét**, viết tắt là km.
 
 - $1$ km $=1000$ m.
 
-Ta ghi vào bảng:
+Ta gom cả ba đơn vị vào một bảng để dễ nhớ:
 
 | Đơn vị | Viết tắt | Đổi |
 |---|---|---|
@@ -44,11 +44,11 @@ Ta ghi vào bảng:
 - $1$ km $=1000$ m.
 :::
 
-Đơn vị càng lớn thì càng dùng để đo vật càng dài: dm đo bàn, ghế; m đo lớp học, sân; km đo đường đi giữa các nơi xa nhau.
+Đơn vị càng lớn thì ta dùng để đo những thứ càng dài. Em nhớ thế này: dm đo bàn, ghế; m đo lớp học, sân; km đo đường đi giữa các nơi xa nhau.
 
 ## Ví dụ
 
-Ta bắt đầu với việc đổi mét ra đề-xi-mét.
+Ta thử đổi mét ra đề-xi-mét trước.
 
 :::example Đổi m ra dm
 Đổi $3$ m ra dm.
@@ -58,7 +58,7 @@ $$3\text{ m}=10+10+10=30\text{ dm}.$$
 Vậy $3$ m $=30$ dm.
 :::
 
-Bây giờ em đổi ngược lại.
+Đổi ngược lại, từ đề-xi-mét ra mét, thì ta gom các đề-xi-mét thành từng nhóm.
 
 :::example Đổi dm ra m
 Đổi $40$ dm ra m.
@@ -68,7 +68,7 @@ $$40\text{ dm}=4\text{ m}.$$
 Vậy $40$ dm $=4$ m.
 :::
 
-Tiếp theo em chọn đơn vị phù hợp.
+Biết đổi rồi, em còn phải biết đo vật nào thì dùng đơn vị nào cho hợp.
 
 :::example Chọn đơn vị
 Chọn đơn vị dm, m hay km để đo: a) chiều dài sân trường; b) quãng đường từ Hà Nội đến Hải Phòng.
@@ -78,7 +78,7 @@ Chọn đơn vị dm, m hay km để đo: a) chiều dài sân trường; b) qu�
 Vậy a) dùng m; b) dùng km.
 :::
 
-Cuối cùng em làm tính với số đo độ dài.
+Cuối cùng, ta làm tính với số đo độ dài, như khi Nam đi bộ.
 
 :::example Đi bộ
 Sáng nay Nam đi bộ $3$ km, chiều nay Nam đi bộ $2$ km. Hỏi cả hai buổi Nam đi bộ bao nhiêu ki-lô-mét?
@@ -89,9 +89,9 @@ Vậy cả hai buổi Nam đi bộ $5$ km.
 :::
 
 :::warning Những lỗi em hay gặp
-- **Nhầm mét với đề-xi-mét.** Sai: "$1$ m $=100$ dm". Vì sao sai: một mét bằng mười thước $1$ dm. Đúng: $1$ m $=10$ dm.
-- **Quên đơn vị trong đáp số.** Sai: "Đáp số: $5$". Đúng: "Đáp số: $5$ km".
-- **Dùng sai đơn vị.** Sai: "Chiếc bút dài $15$ km". Vì sao sai: km dùng cho đường rất dài. Đúng: chiếc bút dài $15$ cm.
+- **Nhầm mét với đề-xi-mét.** Sai: "$1$ m $=100$ dm". Vì sao sai: một mét chỉ dài bằng mười thước $1$ dm đặt nối nhau. Đúng: $1$ m $=10$ dm.
+- **Quên đơn vị trong đáp số.** Sai: "Đáp số: $5$". Vì sao sai: chỉ có số mà thiếu đơn vị thì chưa nói được độ dài là bao nhiêu. Đúng: "Đáp số: $5$ km".
+- **Dùng sai đơn vị.** Sai: "Chiếc bút dài $15$ km". Vì sao sai: km chỉ dùng cho đường rất dài, không dùng cho chiếc bút. Đúng: chiếc bút dài $15$ cm.
 :::
 
 ## Thuật ngữ
@@ -111,10 +111,11 @@ Vậy cả hai buổi Nam đi bộ $5$ km.
 - $1$ dm $=10$ cm; $1$ m $=10$ dm; $1$ km $=1000$ m.
 - Dùng dm đo vật ngắn, m đo sân và lớp học, km đo đường dài.
 - Làm tính với số đo thì giữ nguyên đơn vị và ghi đơn vị vào đáp số.
+Quay lại câu hỏi đầu bài: vì sao Nam và Mai đo ra hai số khác nhau? Vì gang tay mỗi người dài khác nhau. Có đơn vị chuẩn như dm, m, km thì ai đo cũng ra cùng một kết quả. Em nhớ ghi đơn vị vào đáp số, rồi làm phần luyện tập nhé.
 
 ## Luyện tập
 
-Mỗi bài có phần kiến thức và gợi ý. Em hãy tự làm trước, rồi mới bấm xem lời giải.
+Mỗi bài có phần kiến thức cần nhớ và gợi ý cách bắt đầu. Em cứ tự làm trước. Làm chưa đúng cũng không sao, vì như thế em biết chỗ nào cần xem lại. Xong rồi hãy bấm xem lời giải.
 
 :::exercise
 Điền số thích hợp.

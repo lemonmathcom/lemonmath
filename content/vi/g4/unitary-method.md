@@ -10,15 +10,17 @@ minutes: 15
 - Giải bài toán tìm số đơn vị khi biết số tiền hoặc số lượng.
 :::
 
-Mẹ mua $4$ quyển vở hết $24\,000$ đồng. Nếu mẹ mua $7$ quyển vở cùng loại thì hết bao nhiêu tiền?
+Mẹ mua $4$ quyển vở hết $24\,000$ đồng. Nếu mẹ mua $7$ quyển vở cùng loại thì hết bao nhiêu tiền? Khi đi mua đồ, em hay gặp chuyện này: biết giá của vài món, mà lại cần biết giá của số món khác.
 
-Em chưa biết giá tiền của $7$ quyển ngay được. Nhưng nếu biết giá của một quyển thì bài toán dễ hơn nhiều.
+Em chưa biết giá tiền của $7$ quyển ngay được. Nhưng nếu biết giá của một quyển thì bài toán dễ hơn nhiều. Vậy việc đầu tiên là tìm giá của một quyển. Với mọi bài toán kiểu này, ta đều bắt đầu như thế.
 
 ## Cùng khám phá
 
-Ta làm từng bước nhỏ.
+Ta làm từng bước nhỏ, em thử nghĩ trước nhé.
 
-- Bước 1: $4$ quyển hết $24\,000$ đồng. Chia đều, một quyển có giá bao nhiêu?
+- Bước 1: $4$ quyển hết $24\,000$ đồng. Nếu chia đều số tiền ấy cho các quyển, một quyển có giá bao nhiêu?
+
+Bảng dưới đây ghi lại từng bước.
 
 | Số quyển | Số tiền |
 |---|---|
@@ -26,9 +28,11 @@ Ta làm từng bước nhỏ.
 | $1$ | $24\,000:4=6\,000$ đồng |
 | $7$ | $6\,000\times7=42\,000$ đồng |
 
-- Bước 2: biết một quyển giá $6\,000$ đồng, $7$ quyển giá gấp $7$ lần.
+- Bước 2: biết một quyển giá $6\,000$ đồng, vậy $7$ quyển giá gấp $7$ lần số đó.
 
-Vậy mua $7$ quyển hết $42\,000$ đồng. Cách làm này gọi là **rút về đơn vị**: ta rút về giá của một quyển trước.
+Các quyển giá bằng nhau, nên thêm một quyển là thêm một lần giá ấy.
+
+Vậy mua $7$ quyển hết $42\,000$ đồng. Cách làm này gọi là **rút về đơn vị**: ta rút về giá của một quyển trước, rồi từ đó đi đến điều đề hỏi.
 
 :::theorem Rút về đơn vị
 Biết giá trị của nhiều đơn vị, muốn tìm giá trị của số đơn vị khác:
@@ -36,11 +40,11 @@ Biết giá trị của nhiều đơn vị, muốn tìm giá trị của số đ
 2. Tìm giá trị cần hỏi: lấy giá trị của một đơn vị nhân với số đơn vị cần hỏi.
 :::
 
-Cách này đúng vì mỗi quyển vở có giá bằng nhau. Nên $7$ quyển có giá gấp $7$ lần một quyển.
+Vì sao làm vậy được? Vì quyển vở nào cũng có giá bằng nhau. Nên $7$ quyển có giá gấp $7$ lần một quyển. Nếu mỗi quyển một giá thì cách này không dùng được, nên em nhớ đọc kĩ những chữ như "cùng loại" hay "như nhau" trong đề.
 
 ## Ví dụ
 
-Ta bắt đầu với bài toán số lượng.
+Ta bắt đầu với một bài toán về số lượng: số kẹo trong các gói.
 
 :::example Gói kẹo
 Có $6$ gói kẹo như nhau chứa $48$ viên kẹo. Hỏi $9$ gói kẹo như thế chứa bao nhiêu viên kẹo?
@@ -50,7 +54,7 @@ $$48:6=8\ \text{(viên)},\qquad 8\times9=72\ \text{(viên)}.$$
 Vậy $9$ gói kẹo chứa $72$ viên kẹo.
 :::
 
-Bài toán chuyển động cũng giải cùng cách.
+Bài toán chuyển động cũng giải đúng theo cách ấy, chỉ khác là "một đơn vị" bây giờ là một giờ.
 
 :::example Đi xe đạp
 Một bạn đi xe đạp đều, $4$ giờ đi được $36$ km. Hỏi $7$ giờ bạn đó đi được bao nhiêu ki-lô-mét?
@@ -60,7 +64,7 @@ $$36:4=9\ \text{(km)},\qquad 9\times7=63\ \text{(km)}.$$
 Vậy $7$ giờ bạn đó đi được $63$ km.
 :::
 
-Bây giờ em làm bài toán với số tiền lớn hơn.
+Bây giờ em làm bài toán với số tiền lớn hơn. Các bước vẫn y như trước.
 
 :::example Mua gạo
 Mua $5$ kg gạo hết $75\,000$ đồng. Hỏi mua $8$ kg gạo như thế hết bao nhiêu tiền?
@@ -70,7 +74,7 @@ $$75\,000:5=15\,000\ \text{(đồng)},\qquad 15\,000\times8=120\,000\ \text{(đ�
 Vậy mua $8$ kg gạo hết $120\,000$ đồng.
 :::
 
-Có loại bài khác: biết số tiền, hỏi mua được bao nhiêu. Bước 2 lúc này là phép chia.
+Có một loại bài khác: biết số tiền, hỏi mua được bao nhiêu. Bước đầu vẫn là tìm giá của một đơn vị. Còn bước 2 lúc này là phép chia, vì ta hỏi số tiền đang có chứa được mấy lần giá một quả.
 
 :::example Mua cam
 Mua $12$ quả cam hết $60\,000$ đồng. Với $45\,000$ đồng thì mua được bao nhiêu quả cam như thế?
@@ -86,6 +90,8 @@ Vậy với $45\,000$ đồng mua được $9$ quả cam.
 - **Nhân luôn, bỏ qua bước chia.** Sai: $24\,000\times7$. Vì sao sai: $24\,000$ là giá của $4$ quyển, không phải $1$ quyển. Đúng: chia cho $4$ trước.
 - **Chia nhầm số.** Sai: $24\,000:7$. Vì sao sai: phải chia cho số quyển đã biết giá, tức $4$. Đúng: $24\,000:4=6\,000$.
 - **Quên đơn vị.** Sai: "Đáp số: $42\,000$". Đúng: "Đáp số: $42\,000$ đồng".
+
+Chỗ này nhiều bạn hay nhầm, nhất là lúc vội. Em đọc lại đề xem số nào ứng với mấy quyển rồi hãy tính.
 :::
 
 ## Thuật ngữ
@@ -108,9 +114,11 @@ Vậy với $45\,000$ đồng mua được $9$ quả cam.
 - Ví dụ: $24\,000:4=6\,000$, rồi $6\,000\times7=42\,000$.
 - Nhớ viết đơn vị trong từng phép tính và đáp số.
 
+Quay lại bài toán của mẹ: muốn biết giá của nhiều quyển, ta tìm giá của một quyển trước. Đó là điều em cần nhớ, vì em sẽ gặp lại nó trong rất nhiều bài toán khác. Em làm các bài luyện tập để quen tay nhé.
+
 ## Luyện tập
 
-Mỗi bài có phần kiến thức và gợi ý. Em hãy tự làm trước, rồi mới bấm xem lời giải.
+Mỗi bài có phần kiến thức và gợi ý để em bắt đầu. Em hãy tự làm trước, rồi mới bấm xem lời giải. Làm sai một lần cũng không sao, vì chỗ sai thường chỉ đúng chỗ cần nhớ.
 
 :::exercise
 Mua $3$ quyển vở hết $18\,000$ đồng. Hỏi một quyển vở giá bao nhiêu tiền?

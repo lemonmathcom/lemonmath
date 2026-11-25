@@ -12,16 +12,16 @@ minutes: 15
 
 School A has $428$ pupils. School B has $482$ pupils. Which school has more pupils?
 
-You know how to write a three-digit number as a sum. This lesson shows you how to compare two three-digit numbers quickly and correctly.
+You already know how to write a three-digit number as a sum of hundreds, tens and ones. That is just what you need to compare two of them. The only question is where to look first, and we will see why the answer is the hundreds.
 
 ## Let's explore
 
 We write both numbers as sums:
 $$428=400+20+8,\qquad 482=400+80+2.$$
 
-Both have $4$ hundreds. We compare the tens next: $2$ tens is less than $8$ tens. So $428<482$.
+Both have $4$ hundreds, so the hundreds cannot settle it. We compare the tens next: $2$ tens is less than $8$ tens. So $428<482$, and School B has more pupils.
 
-On a number line, the number further to the right is greater:
+The number line shows this too. The number further to the right is greater:
 
 :::graph On the number line: 378 is to the right of 352, so 378 is greater than 352
 alt: A number line from 340 to 390 with the points 352 and 378 marked; the point 378 is to the right of the point 352
@@ -40,11 +40,11 @@ Compare the places from left to right:
 4. If all three places are equal, the numbers are equal.
 :::
 
-We start with the hundreds because one hundred is more than any tens or ones that go with it: $1$ hundred is $10$ tens, which is more than $9$ tens.
+Why do we start with the hundreds? Because they count for the most. Just $1$ hundred is $10$ tens, which is more than $9$ tens. So once the hundreds differ, the tens and ones that go with them cannot change the answer.
 
 ## Examples
 
-We start with two numbers that differ in the hundreds.
+First, two numbers that differ in the hundreds. Looking at the hundreds is enough.
 
 :::example Comparing the hundreds
 Compare $476$ and $534$.
@@ -54,7 +54,7 @@ $$476<534.$$
 So $476<534$.
 :::
 
-Now two numbers with the same hundreds.
+What if the hundreds are the same? Then we move on to the tens.
 
 :::example Comparing the tens
 Compare $352$ and $378$.
@@ -64,7 +64,7 @@ $$352<378.$$
 So $352<378$.
 :::
 
-Next, two numbers with the same hundreds and the same tens.
+And if the hundreds and the tens are both the same, we look at the ones.
 
 :::example Comparing the ones
 Compare $641$ and $647$.
@@ -74,7 +74,7 @@ $$641<647.$$
 So $641<647$.
 :::
 
-Finally you put several numbers in order.
+With several numbers, we compare place by place in the same way to put them in order.
 
 :::example Putting in order
 Put the numbers $325, 235, 253$ in order, smallest first.
@@ -85,9 +85,9 @@ So the order from smallest to largest is $235, 253, 325$.
 :::
 
 :::warning Mistakes to watch out for
-- **Comparing the ones first.** Wrong: "$349>351$ because $9>1$". Why it is wrong: we must compare the hundreds first. The hundreds $3$ and $3$ are equal, and the tens $4<5$. Right: $349<351$.
-- **Not comparing the next place when the first are equal.** Wrong: "$352=358$ because both start with $35$". Why it is wrong: the ones $2<8$. Right: $352<358$.
-- **Turning the sign the wrong way.** Wrong: $476>534$. Why it is wrong: the pointed end faces the smaller number. Right: $476<534$.
+- **Comparing the ones first.** Wrong: "$349>351$ because $9>1$". Why it is wrong: we always start with the hundreds. The hundreds $3$ and $3$ are equal, so we go on to the tens: $4<5$. Right: $349<351$.
+- **Not comparing the next place when the first are equal.** Wrong: "$352=358$ because both start with $35$". Why it is wrong: the first two places match, but the ones are different: $2<8$. Right: $352<358$.
+- **Turning the sign the wrong way.** Wrong: $476>534$. Why it is wrong: the first number is the smaller one, and the pointed end faces the smaller number. Right: $476<534$.
 :::
 
 ## Key terms
@@ -108,10 +108,11 @@ So the order from smallest to largest is $235, 253, 325$.
 - The first place that differs decides which number is greater.
 - The pointed end of $>$ or $<$ faces the smaller number.
 - To order smallest first, start with the smallest number.
+Back to the opening question: which school has more pupils? Comparing place by place, hundreds first, gives the answer. Remember that the first place that differs decides, and try the practice questions.
 
 ## Practice
 
-Each exercise comes with what you need and how to start. Try it yourself first, then open the solution.
+Each exercise comes with what you need to know and a hint for how to start. Try it yourself first. If an answer is not right, that is fine: it shows you what to look at again. Then open the solution.
 
 :::exercise
 Write $>$, $<$ or $=$ in the box.

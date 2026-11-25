@@ -11,9 +11,9 @@ minutes: 20
 - Apply these ideas to real-life problems (floor tiles, nuts, observation wheels).
 :::
 
-More than two thousand years ago, Archimedes (287–212 BC) wanted to know how many times longer a circle is than its diameter. He could not measure it directly, so he "trapped" the circle between two **regular polygons** with $96$ sides, one inscribed and one circumscribed, and computed their perimeters. The result: $3\frac{10}{71}<\pi<3\frac17$ (according to MacTutor, University of St Andrews).
+More than two thousand years ago, Archimedes (287–212 BC) wanted to know how many times longer a circle is than its diameter. He could not measure it directly. So he "trapped" the circle between two **regular polygons** with $96$ sides, one inscribed and one circumscribed, and computed the perimeters of both. The result: $3\frac{10}{71}<\pi<3\frac17$ (according to MacTutor, University of St Andrews).
 
-Why *regular* polygons? Because a regular polygon is completely determined by its number of sides and the radius of its circumcircle, so every one of its measurements can be calculated. This lesson gives you Archimedes' first tools.
+Why did Archimedes choose *regular* polygons, and not any polygon? Because a regular polygon is completely determined by its number of sides and the radius of its circumcircle. Once we know those two things, we can calculate every other measurement of it. His first tools are exactly what we learn below.
 
 ## Regular polygons and their angles
 
@@ -21,11 +21,11 @@ Why *regular* polygons? Because a regular polygon is completely determined by it
 A **regular polygon** is a convex polygon whose sides are all equal and whose angles are all equal.
 :::
 
-The equilateral triangle and the square are familiar regular polygons. A rhombus (equal sides but unequal angles) or a non-square rectangle (equal angles but unequal sides) is **not** a regular polygon: both conditions are needed.
+The equilateral triangle and the square are two regular polygons you already know. What about a rhombus? Its sides are equal, but its angles are not, so it is **not** a regular polygon. A non-square rectangle is the same story: equal angles, but unequal sides. A regular polygon needs both conditions.
 
 ### Explore: the sum of the angles
 
-From one vertex of a convex polygon with $n$ sides, draw the diagonals: they split the polygon into $n-2$ triangles. Each triangle has angles adding up to $180^\circ$, so the angles of the polygon add up to $(n-2)\cdot180^\circ$. A regular polygon has $n$ equal angles, hence:
+Let us try a convex polygon with $n$ sides. From one vertex we draw the diagonals, and they split the polygon into $n-2$ triangles. Each triangle has angles adding up to $180^\circ$, so the angles of the polygon add up to $(n-2)\cdot180^\circ$. A regular polygon has $n$ equal angles. So to find one angle, we just divide the total by the number of angles:
 
 :::theorem Each angle of a regular polygon with $n$ sides
 $$\alpha=\frac{(n-2)\cdot180^\circ}{n}.$$
@@ -41,7 +41,7 @@ $$\frac{3\cdot180^\circ}{5}=108^\circ,\qquad \frac{4\cdot180^\circ}{6}=120^\circ
 So each angle of a regular pentagon, hexagon and octagon is $108^\circ$, $120^\circ$ and $135^\circ$ respectively.
 :::
 
-The size of the angle settles a very practical question: covering a floor with identical tiles.
+The size of an angle also answers a very everyday question: which tiles will cover a floor with no gaps? Think of tiles that are all the same regular polygon.
 
 :::example Application: floor tiles
 We want to cover a floor with tiles that are all the same regular polygon, so that at each shared vertex the tiles fit exactly, without overlapping. Can regular hexagonal tiles be used? What about regular pentagonal tiles?
@@ -65,7 +65,7 @@ So hexagonal tiles can be used and pentagonal tiles cannot.
 Every regular polygon has exactly one circumcircle and exactly one incircle; these two circles have the same centre, called the **centre of the regular polygon**.
 :::
 
-Joining the centre $O$ to the vertices splits a regular polygon with $n$ sides into $n$ congruent isosceles triangles; each has an angle of $\dfrac{360^\circ}{n}$ at $O$. The circumradius $R$ is the equal side, and the inradius $r$ is the height of these isosceles triangles.
+Joining the centre $O$ to the vertices, we split a regular polygon with $n$ sides into $n$ congruent isosceles triangles. The angles at the centre fill one full turn, so each triangle has an angle of $\dfrac{360^\circ}{n}$ at $O$. Two important lengths sit right inside these triangles: the circumradius $R$ is the equal side, and the inradius $r$ is the height of these isosceles triangles.
 
 :::diagram The regular hexagon $ABCDEF$ inscribed in the circle $(O, R)$
 alt: The regular hexagon ABCDEF inscribed in a circle with centre O; the radii OA, OB and the segment OH perpendicular to AB at its midpoint H
@@ -85,7 +85,7 @@ segment O H dashed
 right O H A
 :::
 
-For a regular hexagon, each isosceles triangle $OAB$ has an angle of $\dfrac{360^\circ}{6}=60^\circ$ at $O$, so it is **equilateral**. Hence the side of a regular hexagon equals its circumradius: $a=R$.
+Look at the regular hexagon on its own. Each isosceles triangle $OAB$ has an angle of $\dfrac{360^\circ}{6}=60^\circ$ at $O$, and an isosceles triangle with an angle like that at the top is **equilateral**. So the side of a regular hexagon is exactly its circumradius: $a=R$. The table below gives the circumradius and the inradius of three familiar regular polygons.
 
 | Regular polygon with side $a$ | $R$ | $r$ |
 |---|---|---|
@@ -113,7 +113,7 @@ So $R=4$ cm, $r=2\sqrt3$ cm and $S=24\sqrt3\approx41.57$ cm².
 The **rotation** about $O$ through $\alpha^\circ$ ($0^\circ<\alpha^\circ<360^\circ$) maps $O$ to itself and maps each point $M\neq O$ to the point $M'$ such that $OM'=OM$ and the angle turned from $OM$ to $OM'$ is $\alpha^\circ$ in the chosen direction (clockwise or anticlockwise).
 :::
 
-Picture a plate shaped like a regular hexagon turning about its centre: after every $60^\circ$ it fits exactly into its "old place" again. In general, the rotations about $O$ through $\dfrac{360^\circ}{n}$, $2\cdot\dfrac{360^\circ}{n}$, ..., $(n-1)\cdot\dfrac{360^\circ}{n}$ (all in the same direction) map a regular polygon with $n$ sides and centre $O$ onto itself.
+Picture a plate shaped like a regular hexagon turning about its centre. Every time it turns another $60^\circ$, it fits exactly into its "old place" again. In general, for a regular polygon with $n$ sides and centre $O$, the rotations about $O$ through $\dfrac{360^\circ}{n}$, $2\cdot\dfrac{360^\circ}{n}$, ..., $(n-1)\cdot\dfrac{360^\circ}{n}$ (all in the same direction) map the polygon onto itself.
 
 :::example Rotations that map a square onto itself
 The square $ABCD$ has centre $O$ (its vertices go anticlockwise). List the anticlockwise rotations about $O$ that map the square onto itself, and find the image of the vertex $A$ under each one.
@@ -129,9 +129,10 @@ So there are three rotations, through $90^\circ$, $180^\circ$ and $270^\circ$, m
 - **Checking only one condition.** Wrong: "a rhombus has equal sides, so it is a regular polygon". Right: the angles must be equal too.
 - **Confusing the angle of the polygon with the angle at the centre.** A regular hexagon has angles of $120^\circ$, while the angle at the centre $\angle AOB$ is $60^\circ$.
 - **Confusing $R$ and $r$.** $R$ goes from the centre to a **vertex**, $r$ from the centre to the **midpoint of a side**; always $r<R$.
+These three are easy to mix up, so when you finish, ask yourself whether you checked every condition.
 :::
 
-**Connections.** This lesson builds on the angle sum of a triangle, equilateral triangles and [the circumcircle and incircle of a triangle](lesson:circumcircle-incircle). The perimeter of the inscribed regular hexagon is $6R$, less than the circumference $2\pi R$, so $\pi>3$: that is Archimedes' first step. Increasing the number of sides to $12$, $24$, $48$, $96$ brings the perimeter closer and closer to the circumference. Rotations also explain the patterns and logos with rotational symmetry all around us.
+**Connections.** What we have just learnt rests on the angle sum of a triangle, equilateral triangles and [the circumcircle and incircle of a triangle](lesson:circumcircle-incircle). The perimeter of the inscribed regular hexagon is $6R$, less than the circumference $2\pi R$, so $\pi>3$: that is Archimedes' first step. If we increase the number of sides to $12$, $24$, $48$, $96$, the perimeter gets closer and closer to the circumference. Rotations also help you see why the patterns and logos around us have rotational symmetry.
 
 ## Key terms
 
@@ -152,10 +153,11 @@ So there are three rotations, through $90^\circ$, $180^\circ$ and $270^\circ$, m
 - Each angle: $\dfrac{(n-2)\cdot180^\circ}{n}$; the angle at the centre on one side: $\dfrac{360^\circ}{n}$.
 - The circumcircle and incircle share a centre; a regular hexagon has $R=a$, $r=\dfrac{a\sqrt3}{2}$; a square has $R=\dfrac{a\sqrt2}{2}$, $r=\dfrac a2$.
 - The rotations about $O$ through $k\cdot\dfrac{360^\circ}{n}$ ($k=1,\dots,n-1$) map a regular $n$-sided polygon onto itself.
+Back to Archimedes: knowing only the number of sides and the circumradius, we can work out everything about a regular polygon, and that is why he chose it to trap the circle. Try the practice exercises so that each formula becomes familiar.
 
 ## Practice
 
-Each exercise comes with what you need and some steps to start. Try it yourself first, then open the solution.
+Each exercise comes with what you need to remember and some hints to get started. Try it yourself first, look at the hints if you get stuck, and open the solution last to compare.
 
 :::exercise
 Find each angle of a regular decagon ($10$ sides) and of a regular polygon with $12$ sides.

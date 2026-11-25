@@ -12,13 +12,13 @@ minutes: 15
 
 Nam có một con xúc xắc và một hộp phấn. Hai vật này đều có các mặt phẳng, nhưng hình dạng không giống nhau. Hỏi chúng khác nhau ở chỗ nào?
 
-Để trả lời, em hãy cầm từng vật lên, đếm mặt và nhìn xem mặt có hình gì.
+Em thử cầm từng vật lên xem nhé. Đếm xem mỗi vật có bao nhiêu mặt, rồi nhìn xem các mặt ấy có hình gì. Chỉ cần hai việc đó là em thấy được chỗ khác nhau.
 
 ## Cùng khám phá
 
-Em nhìn con xúc xắc: có $6$ mặt, mỗi mặt là một hình vuông và các mặt to bằng nhau. Nó có dạng **khối lập phương**.
+Em nhìn con xúc xắc trước. Nó có $6$ mặt, mỗi mặt là một hình vuông, và các mặt to bằng nhau. Những vật có dạng như thế gọi là **khối lập phương**.
 
-Em nhìn hộp phấn: cũng có $6$ mặt, nhưng mỗi mặt là một hình chữ nhật. Nó có dạng **khối hộp chữ nhật**.
+Giờ em nhìn hộp phấn. Hộp phấn cũng có $6$ mặt, nhưng mỗi mặt là một hình chữ nhật. Dạng này gọi là **khối hộp chữ nhật**.
 
 :::diagram Khối lập phương
 alt: Khối lập phương ABCD.A'B'C'D' vẽ theo kiểu hình hộp, các cạnh bị che khuất vẽ bằng nét đứt
@@ -44,18 +44,18 @@ segment C C'
 segment D D' dashed
 :::
 
-Trên hình, em đếm được $8$ đỉnh. Mỗi đoạn thẳng là một cạnh, và có $12$ cạnh.
+Còn đỉnh và cạnh thì sao? Trên hình, em đếm được $8$ đỉnh, tức là $8$ góc của khối. Mỗi đoạn thẳng nối hai đỉnh là một cạnh, và có tất cả $12$ cạnh.
 
 :::theorem Hai loại khối
 - **Khối lập phương:** $6$ mặt đều là hình vuông bằng nhau; $8$ đỉnh; $12$ cạnh bằng nhau.
 - **Khối hộp chữ nhật:** $6$ mặt là hình chữ nhật; $8$ đỉnh; $12$ cạnh. Hai mặt đối diện thì bằng nhau.
 :::
 
-Hai khối này giống nhau ở số mặt, số đỉnh, số cạnh. Chúng khác nhau ở hình dạng các mặt.
+Vậy hai khối giống nhau ở số mặt, số đỉnh và số cạnh. Chỗ khác nhau nằm ở hình dạng các mặt: một bên toàn hình vuông, một bên là hình chữ nhật. Đó cũng là câu trả lời cho Nam.
 
 ## Ví dụ
 
-Ta bắt đầu với việc đếm các phần của khối lập phương.
+Ta bắt đầu bằng việc đếm các phần của khối lập phương, ngay trên con xúc xắc của Nam.
 
 :::example Đếm mặt, đỉnh, cạnh
 Khối lập phương có bao nhiêu mặt, bao nhiêu đỉnh, bao nhiêu cạnh?
@@ -65,7 +65,7 @@ Khối lập phương có bao nhiêu mặt, bao nhiêu đỉnh, bao nhiêu cạn
 Vậy khối lập phương có $6$ mặt, $8$ đỉnh, $12$ cạnh.
 :::
 
-Bây giờ em gọi tên khối cho các đồ vật quen thuộc.
+Giờ em thử gọi tên khối cho vài đồ vật quen thuộc quanh mình. Cách làm vẫn là nhìn xem các mặt có hình gì.
 
 :::example Gọi tên đồ vật
 Mỗi vật sau có dạng khối gì: con xúc xắc, viên gạch, khối rubik?
@@ -75,7 +75,7 @@ Mỗi vật sau có dạng khối gì: con xúc xắc, viên gạch, khối rubi
 Vậy con xúc xắc và khối rubik là khối lập phương; viên gạch là khối hộp chữ nhật.
 :::
 
-Hai mặt đối diện của khối hộp chữ nhật bằng nhau. Ta dùng điều này để tìm kích thước.
+Em hãy nhìn một viên gạch hay hộp phấn: hai mặt đối diện của khối hộp chữ nhật bằng nhau. Nhờ vậy, biết kích thước của một mặt là ta biết luôn mặt đối diện với nó.
 
 :::example Hai mặt đối diện
 Một khối hộp chữ nhật có mặt đáy là hình chữ nhật dài $6$ cm, rộng $3$ cm. Mặt nắp đối diện với mặt đáy là hình gì và có kích thước bao nhiêu?
@@ -85,7 +85,7 @@ Một khối hộp chữ nhật có mặt đáy là hình chữ nhật dài $6$ 
 Vậy mặt nắp là hình chữ nhật dài $6$ cm, rộng $3$ cm.
 :::
 
-Cuối cùng là một bài toán xếp khối.
+Cuối cùng là một bài toán xếp khối. Em hình dung các khối được xếp thành từng lớp, rồi nghĩ xem nên cộng hay nhân.
 
 :::example Xếp khối
 Nam xếp các khối lập phương nhỏ thành $3$ lớp, mỗi lớp có $4$ khối. Nam đã dùng tất cả bao nhiêu khối?
@@ -100,8 +100,8 @@ Vậy Nam đã dùng $12$ khối.
 
 :::warning Những lỗi em hay gặp
 - **Nhầm hình phẳng với khối.** Sai: "khối lập phương là hình vuông". Vì sao sai: hình vuông là hình phẳng, còn khối lập phương có $6$ mặt là hình vuông. Đúng: mỗi mặt của khối lập phương là hình vuông.
-- **Nhầm số đỉnh và số cạnh.** Sai: khối lập phương có $12$ đỉnh. Vì sao sai: $12$ là số cạnh. Đúng: có $8$ đỉnh và $12$ cạnh.
-- **Quên đơn vị.** Sai: "Đáp số: $12$". Đúng: "Đáp số: $12$ khối".
+- **Nhầm số đỉnh và số cạnh.** Chỗ này nhiều bạn hay nhầm. Sai: khối lập phương có $12$ đỉnh. Vì sao sai: $12$ là số cạnh. Đúng: có $8$ đỉnh và $12$ cạnh. Em đếm các góc và các đoạn thẳng riêng ra thì sẽ không lẫn.
+- **Quên đơn vị.** Sai: "Đáp số: $12$". Đúng: "Đáp số: $12$ khối". Có đơn vị thì người đọc mới biết em đang đếm gì.
 :::
 
 ## Thuật ngữ
@@ -123,9 +123,11 @@ Vậy Nam đã dùng $12$ khối.
 - Các mặt của khối hộp chữ nhật là hình chữ nhật; hai mặt đối diện bằng nhau.
 - Xếp $n$ lớp, mỗi lớp $m$ khối thì có $m\times n$ khối.
 
+Quay lại câu hỏi của Nam: xúc xắc và hộp phấn giống nhau ở số mặt, số đỉnh, số cạnh, nhưng khác nhau ở hình dạng các mặt. Em nhớ nhìn các mặt trước, rồi làm vài bài Luyện tập cho quen mắt nhé.
+
 ## Luyện tập
 
-Mỗi bài có phần kiến thức và gợi ý. Em hãy tự làm trước, rồi mới bấm xem lời giải.
+Mỗi bài có phần kiến thức cần nhớ và một gợi ý để em bắt đầu. Em cứ tự làm trước, sai cũng không sao, rồi hãy bấm xem lời giải để đối chiếu.
 
 :::exercise
 Điền số vào chỗ trống: khối lập phương có $\ldots$ mặt, $\ldots$ đỉnh và $\ldots$ cạnh.

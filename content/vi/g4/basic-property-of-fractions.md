@@ -10,21 +10,22 @@ minutes: 15
 - Tìm số còn thiếu trong hai phân số bằng nhau.
 :::
 
-Lan ăn $\dfrac{1}{2}$ chiếc bánh. Nam ăn $\dfrac{2}{4}$ chiếc bánh cùng loại. Hai bạn ai ăn nhiều hơn?
+Lan ăn $\dfrac{1}{2}$ chiếc bánh. Nam ăn $\dfrac{2}{4}$ chiếc bánh cùng loại. Em đoán xem, hai bạn ai ăn nhiều hơn?
 
-Hai phân số trông khác nhau, vì tử số và mẫu số đều khác. Nhưng có thể phần bánh hai bạn ăn bằng nhau. Bài này giúp em biết khi nào hai phân số bằng nhau.
+Nhìn qua thì hai phân số khác nhau hẳn: tử số khác, mẫu số cũng khác. Vậy mà phần bánh hai bạn ăn có thể bằng nhau. Biết khi nào hai phân số khác mặt nhưng vẫn bằng nhau, em sẽ nhận ra ngay hai phân số nào thực ra là một.
 
 ## Cùng khám phá
 
-Ta cắt chiếc bánh từng bước.
+Ta cùng cắt chiếc bánh, từng bước một, và xem phần bánh của Lan có thay đổi không.
 
 - Chiếc bánh cắt đôi: Lan ăn $1$ phần trong $2$ phần, tức $\dfrac{1}{2}$.
 - Cắt mỗi nửa thành $2$ phần nhỏ bằng nhau. Chiếc bánh có $4$ phần, và phần Lan ăn gồm $2$ phần nhỏ, tức $\dfrac{2}{4}$.
 - Cắt tiếp mỗi phần nhỏ thành $2$: chiếc bánh có $8$ phần, phần Lan ăn gồm $4$ phần, tức $\dfrac{4}{8}$.
+Em để ý: mỗi lần cắt, số phần của cả chiếc bánh và số phần Lan ăn đều tăng lên.
 
-Chiếc bánh và phần Lan ăn vẫn như cũ, chỉ cách cắt khác nhau. Vậy $\dfrac{1}{2}=\dfrac{2}{4}=\dfrac{4}{8}$. Hai bạn ăn bằng nhau.
+Chiếc bánh vẫn là chiếc bánh ấy, phần Lan ăn vẫn là phần ấy; chỉ có cách cắt là khác. Vậy $\dfrac{1}{2}=\dfrac{2}{4}=\dfrac{4}{8}$. Hai bạn ăn bằng nhau.
 
-Ta thấy tử số và mẫu số cùng nhân với $2$: $1\times2=2$ và $2\times2=4$.
+Em nhìn kĩ các con số: tử số và mẫu số cùng được nhân với $2$, vì $1\times2=2$ và $2\times2=4$.
 
 :::graph Trên trục số: 1/2, 2/4 và 4/8 là cùng một điểm
 alt: Trục số từ 0 đến 1, điểm chính giữa được đánh dấu là một phần hai, hai phần bốn và bốn phần tám
@@ -42,11 +43,11 @@ Nếu nhân cả tử số và mẫu số của một phân số với cùng m�
 Nếu chia cả tử số và mẫu số của một phân số cho cùng một số tự nhiên khác $0$ (chia hết cả hai) thì cũng được một phân số bằng phân số đã cho.
 :::
 
-Điều này đúng vì nhân cả hai số với $2$ nghĩa là cắt mỗi phần thành $2$ phần nhỏ bằng nhau: số phần cả bánh gấp $2$, số phần đã lấy cũng gấp $2$, còn phần bánh đã lấy không đổi.
+Vì sao nhân cả hai số với cùng một số mà phân số không đổi? Vì nhân cả hai số với $2$ nghĩa là cắt mỗi phần thành $2$ phần nhỏ bằng nhau: số phần của cả chiếc bánh gấp $2$, số phần đã lấy cũng gấp $2$, còn phần bánh đã lấy không đổi.
 
 ## Ví dụ
 
-Ta bắt đầu với phép nhân.
+Ta bắt đầu với phép nhân: đã biết mẫu số mới, em đi tìm tử số mới.
 
 :::example Nhân tử số và mẫu số
 Tìm số thích hợp: $\dfrac{2}{3}=\dfrac{?}{6}$.
@@ -56,7 +57,7 @@ $$\frac{2}{3}=\frac{2\times2}{3\times2}=\frac{4}{6}.$$
 Vậy số cần tìm là $4$.
 :::
 
-Bây giờ số nhân khó thấy hơn.
+Lần này số nhân không còn dễ thấy ngay. Em tự hỏi: mẫu số cũ nhân với mấy thì ra mẫu số mới?
 
 :::example Tìm số nhân
 Tìm số thích hợp: $\dfrac{3}{5}=\dfrac{?}{20}$.
@@ -68,7 +69,7 @@ Vậy số cần tìm là $12$.
 **Kiểm tra.** $12:4=3$ và $20:4=5$, đúng là $\dfrac{3}{5}$.
 :::
 
-Ta cũng có thể chia, nhưng phải chia hết cả hai số.
+Phép chia cũng dùng được, với một điều kiện: cả tử số và mẫu số đều phải chia hết cho số đó.
 
 :::example Chia tử số và mẫu số
 Tìm số thích hợp: $\dfrac{6}{8}=\dfrac{?}{4}$.
@@ -78,7 +79,7 @@ $$\frac{6}{8}=\frac{6:2}{8:2}=\frac{3}{4}.$$
 Vậy số cần tìm là $3$.
 :::
 
-Bây giờ em dùng tính chất này để trả lời một câu hỏi trong cuộc sống.
+Giờ ta dùng tính chất này để trả lời một câu hỏi giống câu hỏi đầu bài: ai ăn nhiều hơn?
 
 :::example Ai ăn nhiều hơn?
 Lan ăn $\dfrac{1}{2}$ chiếc bánh, Hà ăn $\dfrac{3}{6}$ chiếc bánh cùng loại. Hai bạn có ăn bằng nhau không?
@@ -89,9 +90,9 @@ Vậy $\dfrac{3}{6}=\dfrac{1}{2}$, hai bạn ăn bằng nhau.
 :::
 
 :::warning Những lỗi em hay gặp
-- **Chỉ nhân tử số.** Sai: $\dfrac{2}{3}=\dfrac{4}{3}$. Vì sao sai: phải nhân cả tử số và mẫu số với cùng một số. Đúng: $\dfrac{2}{3}=\dfrac{4}{6}$.
-- **Cộng thay vì nhân.** Sai: $\dfrac{1}{2}=\dfrac{2}{3}$ (cùng cộng $1$). Vì sao sai: tính chất cơ bản chỉ nói về phép nhân và phép chia. Đúng: $\dfrac{1}{2}=\dfrac{2}{4}$.
-- **Chia không hết.** Sai: chia cả $5$ và $8$ cho $2$. Vì sao sai: $5$ không chia hết cho $2$. Đúng: chỉ chia khi cả hai số cùng chia hết cho số đó.
+- **Chỉ nhân tử số.** Viết $\dfrac{2}{3}=\dfrac{4}{3}$ là sai, vì phải nhân cả tử số và mẫu số với cùng một số. Đúng là $\dfrac{2}{3}=\dfrac{4}{6}$.
+- **Cộng thay vì nhân.** Chỗ này nhiều bạn hay nhầm: viết $\dfrac{1}{2}=\dfrac{2}{3}$ (cùng cộng $1$) là sai, vì tính chất cơ bản chỉ nói về phép nhân và phép chia. Đúng là $\dfrac{1}{2}=\dfrac{2}{4}$.
+- **Chia không hết.** Chia cả $5$ và $8$ cho $2$ là sai, vì $5$ không chia hết cho $2$. Em chỉ chia khi cả hai số cùng chia hết cho số đó.
 :::
 
 ## Thuật ngữ
@@ -113,10 +114,11 @@ Vậy $\dfrac{3}{6}=\dfrac{1}{2}$, hai bạn ăn bằng nhau.
 - Ví dụ: $\dfrac{1}{2}=\dfrac{2}{4}=\dfrac{4}{8}$.
 - Tìm số còn thiếu: tìm số nhân hoặc số chia từ hai mẫu số.
 - Hai phân số bằng nhau cùng biểu diễn một điểm trên trục số.
+Quay lại câu hỏi đầu bài: một phần hai và hai phần tư chỉ là hai cách gọi của cùng một phần bánh, nên Lan và Nam ăn bằng nhau. Em nhớ làm cùng một phép tính với cả tử số lẫn mẫu số, rồi luyện thêm vài bài cho quen tay.
 
 ## Luyện tập
 
-Mỗi bài có phần kiến thức và gợi ý. Em hãy tự làm trước, rồi mới bấm xem lời giải.
+Mỗi bài đều có phần kiến thức và gợi ý để em bắt đầu. Em cứ tự làm trước, chưa chắc thì xem gợi ý, rồi mới mở lời giải để đối chiếu.
 
 :::exercise
 Tìm số thích hợp: $\dfrac{1}{3}=\dfrac{?}{6}$.

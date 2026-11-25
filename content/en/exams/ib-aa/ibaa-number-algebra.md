@@ -12,7 +12,7 @@ minutes: 45
 - Write a short deductive proof in the "show that" style.
 :::
 
-Topic 1 rarely fills a long Section B question on its own, but it appears in almost every paper: a sequence question in Section A, a logarithm step inside a calculus question, a binomial coefficient in a probability question. The formulas are in the formula booklet; the marks come from choosing the right one, setting up the equations cleanly and writing exact answers on Paper 1.
+Open any IB Maths AA paper and you will almost certainly meet topic 1 somewhere. It might be a sequence question in Section A, a logarithm step inside a calculus question, or a binomial coefficient in a probability question. It rarely fills a long Section B question on its own, but it appears in almost every paper. So how do you collect the small marks that turn up so often? The formulas are in the formula booklet. The marks come from choosing the right one, setting up the equations cleanly and writing exact answers on Paper 1.
 
 ## Arithmetic and geometric sequences
 
@@ -22,7 +22,7 @@ Topic 1 rarely fills a long Section B question on its own, but it appears in alm
 | Sum of $n$ terms | $S_n=\dfrac n2\big(2u_1+(n-1)d\big)=\dfrac n2(u_1+u_n)$ | $S_n=\dfrac{u_1\left(r^n-1\right)}{r-1}$, $r\ne1$ |
 | Sum to infinity | does not exist (unless all terms are $0$) | $S_\infty=\dfrac{u_1}{1-r}$, only when $|r|<1$ |
 
-When two terms are given, write two equations in $u_1$ and $d$ (or $u_1$ and $r$) and solve them. For geometric sequences, dividing one equation by the other removes $u_1$.
+When two terms are given, we have two pieces of information and two unknowns, so write two equations in $u_1$ and $d$ (or $u_1$ and $r$) and solve them. For geometric sequences there is a neat trick: divide one equation by the other. Why does it work? Because $u_1$ appears in both equations, so it cancels and only the common ratio is left.
 
 :::example Two terms of an arithmetic sequence
 In an arithmetic sequence, $u_3=11$ and $u_8=26$.
@@ -48,9 +48,9 @@ The first term of a geometric sequence is $48$, and the sum to infinity is $64$.
 
 ## Compound interest and growth (Paper 2)
 
-Money invested at an annual rate of $r\%$, compounded $k$ times per year, grows to
+Leave money in a bank and next year the interest earns interest too. That is compound interest. Money invested at an annual rate of $r\%$, compounded $k$ times per year, grows to
 $$FV=PV\left(1+\frac{r}{100k}\right)^{kn}$$
-after $n$ years. On Paper 2 you can use the financial solver of your GDC, but write the formula with the numbers substituted: that line earns the method mark.
+after $n$ years. On Paper 2 you can use the financial solver of your GDC. Even so, still write the formula with the numbers substituted, because that line earns the method mark.
 
 :::example Monthly compounding
 Mai invests $5000$ dollars at an annual interest rate of $3.6\%$, compounded monthly. Find the value of the investment after $4$ years, to the nearest dollar. [3 marks]
@@ -82,7 +82,7 @@ Solve $\log_3x+\log_3(x-8)=2$. [5 marks]
 ## The binomial theorem
 
 $$(a+b)^n=\sum_{r=0}^{n}\binom nr a^{n-r}b^r,\qquad\binom nr=\frac{n!}{r!(n-r)!}.$$
-To find one term, write the general term, then decide which $r$ gives the power you want. Keep the signs and coefficients inside the brackets.
+Expanding the whole bracket would take ages, and we usually need only one term. So write the general term, then decide which $r$ gives the power you want. When you substitute, keep the signs and coefficients inside brackets, because this is where signs are easily lost.
 
 :::example A coefficient and a constant term
 (a) Find the coefficient of $x^3$ in the expansion of $(2x-3)^5$. [3 marks]
@@ -95,7 +95,7 @@ To find one term, write the general term, then decide which $r$ gives the power 
 
 ## Proof
 
-At SL, proofs are short and deductive: start from what is known, use algebra, and end with the statement you were asked to prove. Write "LHS $=$" and transform it step by step into the right-hand side, or show that a quantity is a multiple of a number by factoring it out.
+A "show that" question gives you the result, so your job is to show the road that leads to it. At SL, proofs are short and deductive: start from what is known, use algebra, and end with the statement you were asked to prove. There are two common moves. One is to write "LHS $=$" and transform it step by step into the right-hand side. The other is to show that a quantity is a multiple of a number by factoring that number out.
 
 :::example A "show that" proof
 Show that the sum of any three consecutive integers is a multiple of $3$. [3 marks]
@@ -106,12 +106,14 @@ Notice the three parts: define the objects in algebra, simplify, and state the c
 :::
 
 :::warning Common traps
-- **Using $S_\infty$ when $|r|\ge1$.** Check the condition; some questions ask for exactly this check.
-- **Forgetting the $-1$** in $u_1+(n-1)d$ or $u_1r^{n-1}$.
-- **Inventing log laws.** $\log(x+y)\ne\log x+\log y$, and $\dfrac{\log x}{\log y}\ne\log\dfrac xy$.
-- **Not rejecting invalid roots** of logarithmic equations, or rejecting them without a reason.
+- **Using $S_\infty$ when $|r|\ge1$.** Check the condition first; some questions ask for exactly this check.
+- **Forgetting the $-1$** in $u_1+(n-1)d$ or $u_1r^{n-1}$. Many students slip here when rushing.
+- **Inventing log laws.** $\log(x+y)\ne\log x+\log y$, and $\dfrac{\log x}{\log y}\ne\log\dfrac xy$. Use only the laws in the formula booklet.
+- **Not rejecting invalid roots** of logarithmic equations, or rejecting them without a reason. The R mark lies in that reason.
 - **Losing the sign** in binomial terms: $(-3)^2=9$, but $(-3)^3=-27$.
 - **Circular proofs:** in a "show that", never start from the statement you have to prove.
+
+Do not worry if you fall into a few of these at first. Spend a few seconds checking these points on every question.
 :::
 
 :::terms

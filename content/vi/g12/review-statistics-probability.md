@@ -11,9 +11,9 @@ minutes: 40
 - Dùng sơ đồ cây, công thức xác suất toàn phần và công thức Bayes trong bài toán thực tế.
 :::
 
-Thống kê và xác suất chắc chắn có trong đề thi. Phần I thường có hai đến ba câu tính nhanh một số đặc trưng hoặc một xác suất. Ở Phần II hoặc Phần III, đề thường có một câu xác suất có điều kiện hoặc công thức Bayes gắn với thực tế. Chủ đề này thường chiếm khoảng $1$ đến $1{,}5$ điểm.
+Một xét nghiệm cho kết quả dương tính: khả năng người đó thật sự mắc bệnh là bao nhiêu? Thống kê và xác suất cho ta cách trả lời, và mảng này chắc chắn có trong đề thi tốt nghiệp. Phần I thường có hai đến ba câu tính nhanh một số đặc trưng hoặc một xác suất. Ở Phần II hoặc Phần III, đề thường có một câu xác suất có điều kiện hoặc công thức Bayes gắn với thực tế, như câu hỏi vừa rồi. Chủ đề này thường chiếm khoảng $1$ đến $1{,}5$ điểm. Cuối bài, ta sẽ quay lại câu hỏi về xét nghiệm với một sơ đồ cây.
 
-Phần thống kê dùng chung bảng sau: thời gian dùng điện thoại mỗi ngày (phút) của $40$ học sinh.
+Với phần thống kê, ta dùng chung một bảng số liệu cho cả bài, nên bạn chỉ cần làm quen với nó một lần. Đó là thời gian dùng điện thoại mỗi ngày (phút) của $40$ học sinh:
 
 | Thời gian (phút) | $[0; 30)$ | $[30; 60)$ | $[60; 90)$ | $[90; 120)$ | $[120; 150)$ |
 |---|---|---|---|---|---|
@@ -30,7 +30,7 @@ Mẫu có các nhóm $[u_1; u_2)$, …, $[u_k; u_{k+1})$, tần số $n_1$, …,
 - Mốt: nếu $[u_m; u_{m+1})$ là nhóm có tần số lớn nhất thì $M_o=u_m+\dfrac{n_m-n_{m-1}}{(n_m-n_{m-1})+(n_m-n_{m+1})}(u_{m+1}-u_m)$.
 :::
 
-Với bảng trên, $\dfrac n2=20$ nằm trong nhóm $[60; 90)$ (vì $14<20\le28$), nên $M_e=60+\dfrac{20-14}{14}\cdot30\approx72{,}86$. Nhóm có tần số lớn nhất cũng là $[60; 90)$, nên $M_o=60+\dfrac{4}{4+6}\cdot30=72$.
+Ta thử với bảng trên. Một nửa số học sinh ứng với $\dfrac n2=20$. Dòng tần số tích luỹ cho thấy giá trị này rơi vào nhóm $[60; 90)$, vì $14<20\le28$: các nhóm đứng trước chưa đủ một nửa, còn đến hết nhóm này thì đã vượt qua. Từ đó $M_e=60+\dfrac{20-14}{14}\cdot30\approx72{,}86$. Nhóm có tần số lớn nhất cũng là $[60; 90)$, nên $M_o=60+\dfrac{4}{4+6}\cdot30=72$.
 
 :::example Trắc nghiệm: số trung bình của mẫu ghép nhóm
 Số trung bình của mẫu số liệu ở trên là
@@ -89,9 +89,9 @@ Vậy đáp án là a) Đúng, b) Đúng, c) Sai, d) Đúng.
 :::
 
 :::warning Bẫy thường gặp về thống kê
-- **Chọn nhóm theo tần số lớn nhất** thay vì theo tần số tích luỹ khi tìm nhóm chứa $Q_1$, $M_e$, $Q_3$.
-- **Lấy $C$ gồm cả nhóm đang xét.** $C$ chỉ là tần số tích luỹ của các nhóm **đứng trước**.
-- **Quên trừ $\bar x^2$** trong công thức phương sai, hoặc trả lời phương sai khi đề hỏi độ lệch chuẩn.
+- **Chọn nhóm theo tần số lớn nhất** thay vì theo tần số tích luỹ khi tìm nhóm chứa $Q_1$, $M_e$, $Q_3$. Tần số lớn nhất chỉ dùng để tìm mốt.
+- **Lấy $C$ gồm cả nhóm đang xét.** Chỗ này nhiều bạn hay nhầm: $C$ chỉ là tần số tích luỹ của các nhóm **đứng trước**.
+- **Quên trừ $\bar x^2$** trong công thức phương sai, hoặc trả lời phương sai khi đề hỏi độ lệch chuẩn. Hãy đọc kĩ đề hỏi gì trước khi viết đáp số.
 :::
 
 ## Xác suất có điều kiện và quy tắc nhân
@@ -190,8 +190,8 @@ Vậy đáp án là a) Đúng, b) Đúng, c) Sai, d) Đúng.
 :::
 
 :::warning Bẫy thường gặp về xác suất
-- **Nhầm $P(A\mid B)$ với $P(B\mid A)$.** Câu "biết … " cho biết biến cố nào đứng sau dấu $\mid$.
-- **Nhầm xung khắc với độc lập.** Xung khắc thì cộng xác suất; độc lập thì nhân xác suất.
+- **Nhầm $P(A\mid B)$ với $P(B\mid A)$.** Chỗ này nhiều bạn hay nhầm. Hãy đọc chữ "biết": biến cố đứng sau chữ "biết" là biến cố đứng sau dấu $\mid$.
+- **Nhầm xung khắc với độc lập.** Hai khái niệm này khác nhau: xung khắc thì cộng xác suất; độc lập thì nhân xác suất.
 :::
 
 ## Thuật ngữ
@@ -213,7 +213,7 @@ Vậy đáp án là a) Đúng, b) Đúng, c) Sai, d) Đúng.
 
 ## Bài tập
 
-Các bài xếp từ dễ đến khó, có ghi dạng câu hỏi trong đề thi.
+Các bài xếp từ dễ đến khó, có ghi dạng câu hỏi trong đề thi. Làm xong, bạn thử trả lời câu hỏi đầu bài và nhớ: nhánh cần tìm chia cho tổng các nhánh.
 
 :::exercise Trắc nghiệm
 Thời gian chờ (phút) của $10$ khách hàng được ghép nhóm: nhóm $[0; 4)$ có $3$ người, nhóm $[4; 8)$ có $5$ người, nhóm $[8; 12)$ có $2$ người. Số trung bình của mẫu số liệu là

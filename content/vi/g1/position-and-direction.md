@@ -10,13 +10,13 @@ minutes: 15
 - Nói và hiểu đúng vị trí của đồ vật và của bạn bè.
 :::
 
-Lan, Mai và Nam xếp hàng vào lớp. Lan đứng trước Mai, Mai đứng trước Nam. Ai đứng ở giữa?
+Giờ vào lớp, Lan, Mai và Nam xếp thành hàng. Lan đứng trước Mai, còn Mai đứng trước Nam. Ai đứng ở giữa hàng?
 
-Em đã biết các hình khối. Bài này em học cách nói đồ vật ở đâu bằng những từ chỉ vị trí.
+Em đã biết các hình khối. Nhưng muốn bảo một bạn tìm đồ vật, em phải nói được nó ở đâu. Những từ chỉ vị trí giúp em nói điều đó cho rõ, và cho ta biết ai đứng giữa hàng của Lan.
 
 ## Cùng khám phá
 
-Em nhìn ba hình xếp thành hàng ngang.
+Ta bắt đầu với ba hình xếp cạnh nhau thành hàng ngang. Em nhìn xem hình nào ở đâu.
 
 :::diagram Ba hình xếp hàng ngang
 alt: Ba hình xếp hàng ngang từ trái sang phải: hình vuông, hình tròn, hình tam giác
@@ -37,7 +37,7 @@ polygon P Q R
 - Hình tam giác ở bên phải hình tròn.
 - Hình tròn ở giữa hình vuông và hình tam giác.
 
-Bây giờ em nhìn ba hình xếp thành hàng dọc.
+Giờ em nhìn ba hình xếp thành hàng dọc, hình này nằm trên hình kia. Lúc này ta cần những từ nào để nói vị trí?
 
 :::diagram Ba hình xếp hàng dọc
 alt: Ba hình xếp hàng dọc từ trên xuống dưới: hình tam giác, hình vuông, hình tròn
@@ -65,11 +65,11 @@ polygon P Q R
 4. **Ở giữa**: nằm giữa hai đồ vật hoặc hai bạn.
 :::
 
-Cách này đúng vì các từ này cho em biết một vật nằm ở phía nào so với vật khác.
+Vì sao những từ này dùng được? Vì mỗi từ cho em biết một vật nằm ở phía nào so với vật khác. Nói "bên trái" thì phải nói rõ bên trái của vật nào.
 
 ## Ví dụ
 
-Ta bắt đầu với hàng ngang.
+Ta thử với hàng ngang trước, đọc từ trái sang phải.
 
 :::example Hình bên trái hình tròn
 Trong hàng ngang (vuông, tròn, tam giác từ trái sang phải), hình nào ở bên trái hình tròn?
@@ -79,7 +79,7 @@ Trong hàng ngang (vuông, tròn, tam giác từ trái sang phải), hình nào 
 Vậy hình vuông ở bên trái hình tròn.
 :::
 
-Tiếp theo em tìm hình ở giữa.
+Hình ở giữa là hình nào? Em tìm xem nhé.
 
 :::example Hình ở giữa
 Trong hàng ngang trên, hình nào ở giữa?
@@ -89,7 +89,7 @@ Trong hàng ngang trên, hình nào ở giữa?
 Vậy hình tròn ở giữa.
 :::
 
-Bây giờ em xem hàng dọc.
+Với hàng dọc, em đọc từ trên xuống dưới. Ta xem trên và dưới.
 
 :::example Trên và dưới
 Trong hàng dọc (tam giác, vuông, tròn từ trên xuống dưới), hình nào ở trên hình vuông? Hình nào ở dưới hình vuông?
@@ -99,7 +99,7 @@ Trong hàng dọc (tam giác, vuông, tròn từ trên xuống dưới), hình n
 Vậy hình tam giác ở trên và hình tròn ở dưới hình vuông.
 :::
 
-Cuối cùng em trả lời câu hỏi ở đầu bài.
+Giờ em quay lại câu hỏi ở đầu bài: ai đứng ở giữa hàng của Lan, Mai và Nam?
 
 :::example Xếp hàng vào lớp
 Lan đứng trước Mai, Mai đứng trước Nam. Ai đứng ở giữa?
@@ -113,6 +113,7 @@ Vậy Mai đứng ở giữa.
 - **Nhầm trái và phải.** Sai: tay cầm bút là tay trái. Vì sao sai: tay cầm bút của đa số bạn là tay phải. Đúng: nhớ tay cầm bút là tay phải, tay kia là tay trái.
 - **Nhầm trước và sau.** Sai: người đứng cuối hàng đứng trước. Vì sao sai: người gần đầu hàng đứng trước. Đúng: đọc thứ tự từ đầu hàng.
 - **Nhầm ở giữa.** Sai: hình ở bên trái cùng là hình ở giữa. Vì sao sai: hình ở giữa phải có hình ở hai bên. Đúng: tìm hình có một hình bên trái và một hình bên phải.
+Chỗ này nhiều bạn hay nhầm, nhất là trái và phải. Đừng lo, em cứ từ từ đọc theo thứ tự rồi trả lời.
 :::
 
 ## Thuật ngữ
@@ -134,10 +135,11 @@ Vậy Mai đứng ở giữa.
 - Trên – dưới: trên là phía cao, dưới là phía thấp.
 - Trước – sau: đọc thứ tự từ đầu hàng.
 - Ở giữa: có một vật ở mỗi bên.
+Lan đứng trước Mai và Mai đứng trước Nam, nên Mai đứng ở giữa vì Mai có một bạn ở mỗi bên. Em luyện tập thêm để nói vị trí thật nhanh và đúng nhé.
 
 ## Luyện tập
 
-Mỗi bài có phần kiến thức và gợi ý. Em hãy tự làm trước, rồi mới bấm xem lời giải.
+Mỗi bài tập có phần kiến thức và một gợi ý để em bắt đầu. Em thử tự làm trước, rồi hãy bấm xem lời giải. Nếu chưa ra ngay cũng đừng lo, em cứ nhìn từng hình một.
 
 :::exercise
 Trong hàng ngang (vuông, tròn, tam giác từ trái sang phải), hình nào ở bên phải hình tròn?

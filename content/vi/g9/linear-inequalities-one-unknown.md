@@ -10,9 +10,9 @@ minutes: 20
 - Đưa bất phương trình về dạng bậc nhất và giải các bài toán thực tế.
 :::
 
-Bạn Minh có $200$ nghìn đồng. Minh mua một hộp bút giá $50$ nghìn đồng và muốn mua thêm vở, mỗi quyển $12$ nghìn đồng. Minh mua được **nhiều nhất** bao nhiêu quyển vở?
+Bạn Minh có $200$ nghìn đồng. Minh mua một hộp bút giá $50$ nghìn đồng, rồi muốn dùng số tiền còn lại để mua vở, mỗi quyển $12$ nghìn đồng. Tiền thì có hạn, nên chắc chắn có một con số không thể vượt qua. Minh mua được **nhiều nhất** bao nhiêu quyển vở?
 
-Gọi $x$ là số vở. Số tiền phải trả là $50+12x$ và không được vượt quá $200$, nên $50+12x\le200$. Đây không phải phương trình mà là một **bất phương trình**.
+Ta gọi số vở là $x$. Số tiền phải trả là $50+12x$, và số này không được vượt quá $200$. Viết lại, ta có $50+12x\le200$. Đây không phải phương trình, vì hai vế không còn là bằng nhau. Người ta gọi nó là một **bất phương trình**. Điều ta cần tìm là mọi giá trị của $x$ làm cho nó đúng.
 
 ## Bất phương trình bậc nhất một ẩn
 
@@ -23,7 +23,7 @@ Gọi $x$ là số vở. Số tiền phải trả là $50+12x$ và không đư�
 | $50+12x$ | $170$ | $194$ | $206$ |
 | $\le200$? | có | có | không |
 
-Mua $12$ quyển thì vẫn đủ tiền, mua $13$ quyển thì thiếu. Nhưng thử từng số rất chậm; ta cần một cách giải giống như giải phương trình.
+Bảng cho thấy mua $12$ quyển thì vẫn đủ tiền, còn mua $13$ quyển thì thiếu. Nhưng nếu số tiền lớn hơn, ta sẽ phải thử rất lâu. Ta cần một cách giải gọn, giống như cách ta giải phương trình.
 
 :::definition Bất phương trình bậc nhất một ẩn
 **Bất phương trình bậc nhất một ẩn** $x$ là bất phương trình dạng
@@ -49,14 +49,14 @@ Vậy $x=2$ là một nghiệm của $3x-7<0$.
 
 ## Cách giải
 
-Ta biến đổi bất phương trình nhờ các tính chất của bất đẳng thức ở bài trước.
+Khi giải phương trình, ta biến đổi dần cho đến khi ẩn đứng một mình. Với bất phương trình ta làm y như vậy, chỉ cần dựa vào các tính chất của bất đẳng thức ở bài trước.
 
 :::theorem Hai quy tắc biến đổi
 - **Quy tắc chuyển vế:** chuyển một hạng tử từ vế này sang vế kia và **đổi dấu** hạng tử đó.
 - **Quy tắc nhân:** nhân (hoặc chia) hai vế với cùng một số khác $0$; giữ nguyên chiều nếu số đó **dương**, **đổi chiều** nếu số đó **âm**.
 :::
 
-Hai quy tắc này đúng vì cộng cùng một số vào hai vế không làm đổi chiều, còn nhân với số âm thì đổi chiều (ví dụ $2<3$ nhưng $-2>-3$).
+Vì sao phải đổi chiều? Cộng cùng một số vào hai vế thì hai vế dịch đi như nhau, nên chiều không đổi. Nhân với số âm thì khác: ví dụ $2<3$ nhưng $-2>-3$, số bé hơn bỗng thành số lớn hơn. Vì thế khi nhân hoặc chia với số âm, ta phải đổi chiều.
 
 :::example Giải bất phương trình với hệ số dương
 Giải bất phương trình $3x-6>0$.
@@ -68,7 +68,7 @@ $$3x-6>0\iff 3x>6\iff x>2.$$
 Vậy nghiệm của bất phương trình là $x>2$.
 :::
 
-Khi hệ số của $x$ âm, bước chia cần chú ý nhất.
+Chỗ này nhiều bạn hay nhầm: khi hệ số của $x$ là số âm, bước chia hai vế phải đổi chiều. Ta làm một ví dụ để thấy rõ.
 
 :::example Giải bất phương trình với hệ số âm
 Giải bất phương trình $-4x+12\ge0$.
@@ -94,11 +94,11 @@ label: (6.3, 1.5) "x > 2"
 label: (-1.2, -1.5) "x ≤ 3"
 :::
 
-Điểm rỗng nghĩa là số đó **không** là nghiệm (dấu $>$ hoặc $<$), điểm tô đậm nghĩa là số đó là nghiệm (dấu $\ge$ hoặc $\le$).
+Khi nhìn trục số, bạn chỉ cần nhớ: điểm rỗng nghĩa là số đó **không** là nghiệm, ứng với dấu $>$ hoặc $<$. Điểm tô đậm nghĩa là số đó là nghiệm, ứng với dấu $\ge$ hoặc $\le$.
 
 ## Bất phương trình đưa được về dạng bậc nhất
 
-Nhiều bất phương trình có ngoặc hoặc phân số. Ta phá ngoặc, khử mẫu, chuyển các hạng tử chứa $x$ sang một vế và các số sang vế kia.
+Không phải bất phương trình nào cũng gọn ngay từ đầu. Có bài có ngoặc, có bài có phân số. Cách làm vẫn quen thuộc: phá ngoặc, khử mẫu, rồi dồn các hạng tử chứa $x$ sang một vế và các số sang vế kia, để đưa về dạng bậc nhất vừa học.
 
 :::example Có dấu ngoặc
 Giải bất phương trình $5(x-1)-2\le3x+1$.
@@ -120,7 +120,7 @@ $$3(x+1)-2(x-2)<6\iff 3x+3-2x+4<6\iff x+7<6\iff x<-1.$$
 Vậy nghiệm của bất phương trình là $x<-1$.
 :::
 
-Bây giờ ta trả lời câu hỏi của Minh.
+Đến lúc quay lại câu hỏi của Minh ở đầu bài. Ta đã có đủ công cụ để trả lời mà không phải thử từng số.
 
 :::example Mua được bao nhiêu vở?
 Giải $50+12x\le200$ với $x$ là số tự nhiên, rồi trả lời bài toán ở đầu bài.
@@ -133,9 +133,10 @@ Số vở là số tự nhiên không vượt quá $12{,}5$, nên lớn nhất l
 :::
 
 :::warning Những sai lầm thường gặp
-- **Quên đổi chiều khi chia cho số âm.** Sai: $-4x\ge-12\iff x\ge3$. Lí do sai: chia cho $-4<0$ phải đổi chiều. Đúng: $x\le3$.
-- **Phá ngoặc sai dấu.** Sai: $-2(x-2)=-2x-4$. Lí do sai: $(-2)\cdot(-2)=4$. Đúng: $-2x+4$.
-- **Làm tròn sai trong bài thực tế.** Sai: $x\le12{,}5$ nên mua được $13$ quyển. Lí do sai: $13>12{,}5$. Đúng: lấy số tự nhiên lớn nhất không vượt quá $12{,}5$, tức $12$.
+- **Quên đổi chiều khi chia cho số âm.** Sai: $-4x\ge-12\iff x\ge3$. Vì sao sai? Vì chia cho $-4<0$ thì phải đổi chiều. Đúng: $x\le3$.
+- **Phá ngoặc sai dấu.** Sai: $-2(x-2)=-2x-4$. Vì sao sai? Vì $(-2)\cdot(-2)=4$. Đúng: $-2x+4$.
+- **Làm tròn sai trong bài thực tế.** Sai: $x\le12{,}5$ nên mua được $13$ quyển. Vì sao sai? Vì $13>12{,}5$. Đúng: lấy số tự nhiên lớn nhất không vượt quá $12{,}5$, tức $12$.
+Đây là ba chỗ nhiều bạn hay nhầm. Làm xong, bạn nên thử lại bằng một số cụ thể.
 :::
 
 ## Thuật ngữ
@@ -158,10 +159,11 @@ Số vở là số tự nhiên không vượt quá $12{,}5$, nên lớn nhất l
 - Nhân, chia với số dương: giữ chiều; với số âm: **đổi chiều**.
 - Có ngoặc, có mẫu: phá ngoặc, nhân với mẫu chung dương, đưa về $ax<c$ rồi chia cho $a$.
 - Bài thực tế: đối chiếu điều kiện (số tự nhiên…) rồi chọn đáp số.
+Vậy câu hỏi của Minh có lời đáp: bất phương trình cho ta biết mọi số vở có thể mua, và số lớn nhất trong đó chính là đáp số. Điều đáng nhớ nhất là đổi chiều khi nhân hoặc chia với số âm. Bạn hãy làm thêm vài bài để quen tay.
 
 ## Luyện tập
 
-Mỗi bài có phần kiến thức và gợi ý các bước. Hãy tự làm trước, rồi mới bấm xem lời giải.
+Mỗi bài có phần kiến thức cần nhớ và vài gợi ý để bắt đầu. Bạn hãy tự làm trước, vướng thì xem gợi ý, rồi mới bấm xem lời giải. Sai một lần cũng không sao, vì chỗ sai thường dạy ta nhiều nhất.
 
 :::exercise
 Trong các số $-1$, $0$, $3$, số nào là nghiệm của bất phương trình $2x+1>0$?

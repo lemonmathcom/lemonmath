@@ -11,11 +11,11 @@ minutes: 45
 - Giải bài toán nhiều bước kết hợp tốc độ, đơn vị, thể tích, phần trăm và chi phí.
 :::
 
-ACT gắn nhãn **Mô hình hoá (Modeling)** cho một số câu và xếp các câu khác vào **Kĩ năng thiết yếu tổng hợp (Integrating Essential Skills)**. Trên thực tế chúng trông giống nhau: một tình huống thực tế, nhiều mẩu thông tin, và một câu hỏi cần hai ba bước. Phần toán hiếm khi khó hơn các câu khác; cái khó là sắp xếp thông tin. Một quy trình tốt là: gọi tên các đại lượng, viết mô hình hoặc chuỗi phép tính, tính toán, rồi kiểm tra xem đáp số có hợp lí trong ngữ cảnh không.
+Một tình huống thực tế, nhiều mẩu thông tin, và một câu hỏi cần hai ba bước: đó là dạng câu mà ACT gắn nhãn **Mô hình hoá (Modeling)** hoặc xếp vào **Kĩ năng thiết yếu tổng hợp (Integrating Essential Skills)**. Trên thực tế hai loại này trông giống nhau. Phần toán hiếm khi khó hơn các câu khác; cái khó là sắp xếp thông tin cho gọn. Vậy làm sao để không bị rối? Một quy trình tốt gồm bốn việc: gọi tên các đại lượng, viết mô hình hoặc chuỗi phép tính, tính toán, rồi kiểm tra xem đáp số có hợp lí trong ngữ cảnh không.
 
 ## Mô hình tuyến tính
 
-Một đại lượng thay đổi **cùng một lượng** sau mỗi bước đơn vị là đại lượng tuyến tính: $y=mx+b$, trong đó $m$ là tốc độ thay đổi và $b$ là giá trị ban đầu (giá trị khi $x=0$).
+Hãy nghĩ đến một khoản phí cố định cộng với một khoản tính theo từng món. Khi một đại lượng thay đổi **cùng một lượng** sau mỗi bước đơn vị, nó là đại lượng tuyến tính: $y=mx+b$. Ở đây $m$ là tốc độ thay đổi, còn $b$ là giá trị ban đầu (giá trị khi $x=0$).
 
 :::example Mô hình tuyến tính từ bảng
 Bảng cho chi phí $C$, tính bằng đô la, để in $n$ chiếc áo phông.
@@ -40,7 +40,7 @@ Vậy chi phí in $18$ chiếc áo là $130$ đô la, chọn đáp án **A**. Ph
 
 ## Mô hình hàm mũ
 
-Một đại lượng thay đổi **cùng một tỉ lệ phần trăm** sau mỗi chu kì là đại lượng hàm mũ: $y=a\cdot b^t$, trong đó $a$ là giá trị ban đầu và $b=1+r$ nếu tăng hoặc $b=1-r$ nếu giảm với tỉ lệ $r$.
+Còn khi đại lượng thay đổi **cùng một tỉ lệ phần trăm** sau mỗi chu kì, như tiền lãi hay số vi khuẩn, ta có đại lượng hàm mũ: $y=a\cdot b^t$. Trong đó $a$ là giá trị ban đầu, và $b=1+r$ nếu tăng hoặc $b=1-r$ nếu giảm với tỉ lệ $r$.
 
 :::example Tăng trưởng lãi kép
 Linh gửi $2000$ đô la với lãi suất $4\%$ một năm, ghép lãi mỗi năm một lần. Làm tròn đến đô la, khoản tiền sau $10$ năm là bao nhiêu?
@@ -71,7 +71,7 @@ Vậy mô hình là $y=3\cdot2^x$, chọn đáp án **C**.
 
 ## Giải thích một mô hình
 
-Trong câu hỏi mô hình hoá, mỗi con số trong công thức đều có ý nghĩa. Số hạng tự do thường là giá trị ban đầu, hệ số của $x$ thường là tốc độ, và cơ số của hàm mũ là hệ số tăng trưởng.
+Trong câu hỏi mô hình hoá, mỗi con số trong công thức đều kể một điều về tình huống. Số hạng tự do thường là giá trị ban đầu, hệ số của $x$ thường là tốc độ, và cơ số của hàm mũ là hệ số tăng trưởng. Đề hay hỏi đúng những ý nghĩa đó, nên hãy tập đọc công thức như đọc một câu chuyện.
 
 :::example Số 2 có nghĩa là gì?
 Độ cao, tính bằng mét, của một quả bóng sau $t$ giây kể từ khi ném là $h(t)=-4{,}9t^2+14{,}7t+2$. Số $2$ biểu thị điều gì?
@@ -87,7 +87,7 @@ Vậy số $2$ biểu thị độ cao từ đó quả bóng được ném, chọ
 
 ## Bài toán nhiều bước
 
-Các câu tổng hợp nối nhiều bước đơn giản. Hãy viết mỗi bước kèm đơn vị để luôn biết mình đang ở đâu.
+Câu tổng hợp nối nhiều bước đơn giản, và chỗ dễ lạc nhất là giữa các bước. Cách tránh lạc là viết mỗi bước kèm đơn vị, để lúc nào bạn cũng biết mình đang cầm con số gì.
 
 :::example Đổ đầy một bể nước
 Một bể hình hộp chữ nhật kích thước $2$ m, $1{,}5$ m và $1$ m. Nước chảy vào với tốc độ $50$ lít mỗi phút. Bể rỗng cần bao lâu để đầy? ($1$ m³ $=1000$ lít.)
@@ -120,11 +120,12 @@ Vậy chi phí xăng cho chuyến đi là $26{,}52$ đô la, chọn đáp án **
 :::
 
 :::warning Những cái bẫy thường gặp
-- **Tuyến tính hay hàm mũ:** xem các hiệu (tuyến tính) và các tỉ số (hàm mũ).
+- **Tuyến tính hay hàm mũ:** hãy xem các hiệu (tuyến tính) và các tỉ số (hàm mũ).
 - **Lãi đơn và lãi kép:** "ghép lãi" (compounded) nghĩa là nhân sau mỗi chu kì.
 - **Đơn vị:** đổi trước khi tính: m³ sang lít, phút sang giờ.
 - **Làm tròn quá sớm** trong một chuỗi bước; chỉ làm tròn đáp số cuối.
-- **Trả lời một đại lượng trung gian:** câu hỏi về chi phí không dừng ở số lít xăng.
+- **Trả lời một đại lượng trung gian:** câu hỏi về chi phí không dừng lại ở số lít xăng.
+Chỗ nào chưa chắc, hãy hỏi lại: đề đang hỏi đại lượng nào, và mình đã tính đến đó chưa?
 :::
 
 :::terms

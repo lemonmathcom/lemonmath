@@ -12,20 +12,20 @@ minutes: 15
 
 The class library has $52$ story books. The children have borrowed $27$ of them. How many story books are left in the library?
 
-In the last lesson you subtracted a one-digit number and borrowed $1$ ten. This lesson uses the same method, and also takes away some tens.
+What if the children borrow lots of books, so we must take away tens as well as ones? In the last lesson you borrowed $1$ ten when the ones were too small. We use the same method here, with one extra job: taking away the tens of the number we are subtracting.
 
 ## Let's explore
 
-We split $52$ into $5$ tens and $2$ ones, and $27$ into $2$ tens and $7$ ones.
+Let's split the books up: $52$ is $5$ tens and $2$ ones, and the $27$ borrowed books are $2$ tens and $7$ ones.
 
-- Ones: $2$ is too small to take away $7$. We exchange $1$ ten for $10$ ones to get $12$ ones, then work out $12-7=5$.
-- Tens: $5$ tens take away the $1$ ten we borrowed leaves $4$ tens. Then take away $2$ tens: $4-2=2$.
+- Ones: $2$ is too small to take away $7$, so we exchange $1$ ten for $10$ ones. That makes $12$ ones, and $12-7=5$.
+- Tens: $5$ tens take away the $1$ ten we borrowed leaves $4$ tens. Then we take away $2$ tens: $4-2=2$.
 
-So there are $2$ tens and $5$ ones, which is $25$.
+Put together, that is $2$ tens and $5$ ones, which is $25$. So that is how many story books are left in the library.
 
 $$\begin{array}{r} 52\\ -\ 27\\ \hline 25 \end{array}$$
 
-You can also jump back on a number line: from $52$ jump back $20$ to reach $32$, then jump back $7$ to reach $25$.
+There is another way. On a number line, jump back $20$ from $52$ to reach $32$, then jump back $7$ more to reach $25$. Both ways give the same answer.
 
 :::graph On the number line: from 52 jump back 20 to reach 32, then jump back 7 to reach 25
 alt: A number line from 20 to 55 with the points 25, 32 and 52 marked and the stretch from 25 to 52 highlighted
@@ -44,11 +44,11 @@ To work out $52-27$:
 3. Tens: $5-1-2=2$ (take away the borrowed ten, then take away $2$ tens). Write $2$.
 :::
 
-This works because $1$ ten is the same as $10$ ones. We only change how the number is written; the number of books stays the same.
+Why can we borrow a ten? Because $1$ ten is the same as $10$ ones. We only change how we count; the number of books stays the same.
 
 ## Examples
 
-We start with two small numbers where the ones are only a little too small.
+Let's start with two small numbers, where the ones are only a little too small.
 
 :::example Work out $41-15$
 **Solution.** Ones: $1$ is too small to take away $5$, so borrow $1$ ten to make $11$. Work out $11-5=6$. Tens: $4-1-1=2$:
@@ -56,7 +56,7 @@ $$\begin{array}{r} 41\\ -\ 15\\ \hline 26 \end{array}$$
 So $41-15=26$.
 :::
 
-The next subtraction is done in exactly the same way, with different numbers.
+This one is done in exactly the same way, with different numbers. Before you read on, ask yourself: are there enough ones to take away?
 
 :::example Work out $63-28$
 **Solution.** Ones: borrow $1$ ten, $13-8=5$. Tens: $6-1-2=3$:
@@ -66,7 +66,7 @@ So $63-28=35$.
 **Check.** Check with addition: $35+28=63$. Correct.
 :::
 
-Now the ones digit of the first number is $0$, so we must be more careful.
+This time the ones digit of the first number is $0$. Slow down here: with $0$ ones there is nothing at all to take away.
 
 :::example Work out $80-34$
 **Solution.** Ones: $0$ is too small to take away $4$, so borrow $1$ ten to make $10$. Work out $10-4=6$. Tens: $8-1-3=4$:
@@ -74,7 +74,7 @@ $$\begin{array}{r} 80\\ -\ 34\\ \hline 46 \end{array}$$
 So $80-34=46$.
 :::
 
-Now use subtraction to solve a problem from everyday life.
+Subtraction with regrouping also helps when we count books in a library. Try this problem.
 
 :::example The library
 A library has $72$ books. Children borrow $45$ of them. How many books are left in the library?
@@ -85,9 +85,9 @@ So there are $27$ books left in the library.
 :::
 
 :::warning Mistakes to watch out for
-- **Taking the smaller digit from the bigger one.** Wrong: $41-15=34$. Why it is wrong: you worked out $5-1=4$ instead of borrowing a ten to work out $11-5$. Right: $41-15=26$.
-- **Borrowing a ten but not reducing the tens.** Wrong: $41-15=36$. Why it is wrong: you worked out $11-5=6$ but in the tens you only did $4-1$ and forgot to take away the borrowed ten. Right: $41-15=26$.
-- **No unit in a word problem.** Wrong: "Answer: $27$". Right: "Answer: $27$ books".
+- **Taking the smaller digit from the bigger one.** This is an easy slip to make. Wrong: $41-15=34$. Why it is wrong: you worked out $5-1=4$ instead of borrowing a ten to work out $11-5$. Right: $41-15=26$.
+- **Borrowing a ten but not reducing the tens.** Wrong: $41-15=36$. Why it is wrong: you worked out $11-5=6$ but in the tens you only did $4-1$ and forgot to take away the borrowed ten. Take away the borrowed ten first, then the tens of the number you are subtracting. Right: $41-15=26$.
+- **No unit in a word problem.** Wrong: "Answer: $27$". A number always needs its unit. Right: "Answer: $27$ books".
 :::
 
 ## Key terms
@@ -110,9 +110,11 @@ So there are $27$ books left in the library.
 - In the tens: take away the borrowed ten, then take away the tens of the number you are subtracting.
 - Example: $52-27$: $12-7=5$; $5-1-2=2$; the answer is $25$. Check: $25+27=52$.
 
+So there are $25$ story books left in the library. The thing to remember is this: borrow a ten, and the tens go down by one ten. Try a few questions in the practice section to get used to it.
+
 ## Practice
 
-Each exercise comes with what you need and how to start. Try it yourself first, then open the solution.
+Each exercise gives you what you need to remember and a hint to get started. Try it yourself first, look at the hint if you are stuck, and open the solution only when you have finished. A wrong answer is not a problem; putting it right is how you learn.
 
 :::exercise
 Work out $74-36$.

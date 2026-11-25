@@ -5,7 +5,7 @@ minutes: 90
 type: exam
 ---
 
-Đề gồm $22$ câu, làm trong $90$ phút, chia thành ba phần: Phần I có $12$ câu nhiều phương án lựa chọn ($0{,}25$ điểm mỗi câu), Phần II có $4$ câu đúng sai (tối đa $1$ điểm mỗi câu), Phần III có $6$ câu trả lời ngắn ($0{,}5$ điểm mỗi câu). Đề này khó hơn đề số 1 và số 2, nhiều câu cần hai đến ba bước lập luận. Bạn hãy làm trên phiếu in trước, bấm giờ nghiêm túc, rồi nhập đáp án vào bên dưới để được chấm theo thang điểm $10$.
+Đề này có $22$ câu, làm trong $90$ phút, chia thành ba phần. Phần I có $12$ câu nhiều phương án lựa chọn, mỗi câu $0{,}25$ điểm. Phần II có $4$ câu đúng sai, mỗi câu tối đa $1$ điểm. Phần III có $6$ câu trả lời ngắn, mỗi câu $0{,}5$ điểm. Đề này khó hơn đề số 1 và số 2: nhiều câu cần hai đến ba bước lập luận, nên đừng lo nếu có câu phải nghĩ lâu. Bạn hãy làm trên phiếu in trước và bấm giờ nghiêm túc, như trong phòng thi. Xong rồi mới nhập đáp án vào bên dưới để được chấm theo thang điểm $10$.
 
 :::quiz exam
 ::mc TH

@@ -12,19 +12,19 @@ minutes: 15
 
 Mai has $4$ boxes of pencils, with $12$ pencils in each box. How many pencils does Mai have altogether?
 
-You do not know a $12$ times table, but you can still work it out. This lesson shows you how to multiply a two-digit number.
+You do not know a $12$ times table, so how can we tell how many pencils Mai has? Do not worry: you do not need a new table. We only need to split that number into parts that are easy to multiply. The same idea works for many other two-digit numbers.
 
 ## Let's explore
 
-The number $12$ is $1$ ten and $2$ ones, so $12=10+2$. Each box has $10+2$ pencils, so $4$ boxes have:
+Look closely at the number $12$. It is $1$ ten and $2$ ones, so $12=10+2$. Each box has $10+2$ pencils, so $4$ boxes have:
 
-- $10\times4=40$ pencils (the tens part);
-- $2\times4=8$ pencils (the ones part);
-- $40+8=48$ pencils.
+- $10\times4=40$ pencils: the tens part;
+- $2\times4=8$ pencils: the ones part;
+- $40+8=48$ pencils: we add the parts together.
 
-So $12\times4=48$. You see: we multiply each part and then add.
+So $12\times4=48$. Notice what we did: we multiplied each part and then added. That idea sits behind the method you are about to learn.
 
-To write this shortly, we **set it out in columns** and multiply the ones first, then the tens.
+That works, but it is a little long. To write it more shortly, we **set it out in columns**: we multiply the ones first, then the tens. The steps are in the box below.
 
 :::theorem How to multiply a two-digit number by a one-digit number
 To work out $24\times3$:
@@ -35,11 +35,11 @@ To work out $24\times3$:
 If the product of the ones is less than $10$, there is nothing to carry.
 :::
 
-This works because $24\times3=(20+4)\times3=60+12=72$. The carried $1$ is the $1$ ten in $12$.
+Why does this work? Because $24\times3=(20+4)\times3=60+12=72$. There is $1$ ten in $12$. That ten belongs in the tens place, so we carry it and add it at the next step. The carried $1$ is that ten.
 
 ## Examples
 
-We start with a multiplication where nothing is carried.
+We start with a multiplication where nothing needs to be carried. The ones come first, then the tens.
 
 :::example No carrying
 Work out $12\times4$.
@@ -50,7 +50,7 @@ $$2\times4=8,\qquad 1\times4=4.$$
 Write $4$ in the tens place and $8$ in the ones place. So $12\times4=48$.
 :::
 
-Now a multiplication with carrying. Setting it out in columns makes it easier to see.
+Now a multiplication with carrying. Do not worry if it looks strange the first time. Setting it out in columns lets us follow each step.
 
 :::example With carrying
 Work out $24\times3$.
@@ -61,7 +61,7 @@ $$\begin{array}{r}24\\\times\ \ 3\\\hline72\end{array}$$
 So $24\times3=72$.
 :::
 
-Sometimes the product of the ones ends in $5$ or $0$. We work in just the same way.
+Sometimes the product of the ones ends in $5$ or $0$. Nothing changes: we work in just the same way.
 
 :::example Another multiplication with carrying
 Work out $15\times5$.
@@ -72,7 +72,7 @@ $$15\times5=75.$$
 So $15\times5=75$.
 :::
 
-Finally, use multiplication to solve a problem from everyday life.
+Now let us use multiplication for something that happens all the time: counting crayons in several equal boxes. When there are many equal groups, we think of multiplying.
 
 :::example Boxes of crayons
 Each box has $16$ crayons. How many crayons are in $5$ such boxes?
@@ -84,9 +84,10 @@ So $5$ boxes have $80$ crayons.
 :::
 
 :::warning Mistakes to watch out for
-- **Forgetting the carry.** Wrong: $24\times3=62$. Why it is wrong: you wrote $2$, then worked out $2\times3=6$ and forgot to add the carried $1$. Right: $24\times3=72$.
+- **Forgetting the carry.** Wrong: $24\times3=62$. Why it is wrong: you wrote $2$, then worked out $2\times3=6$ and forgot to add the carried $1$, so a ten went missing. Right: $24\times3=72$.
 - **Adding the carry to the ones.** Wrong: adding the carried ten to the $5$ in the ones place. Why it is wrong: the carry is tens, so it must be added to the tens. Right: $1\times5+2=7$ tens.
 - **No unit.** Wrong: "Answer: $80$". Right: "Answer: $80$ crayons".
+Many learners slip here, so when you finish, read the question again and check that your answer has its unit.
 :::
 
 ## Key terms
@@ -107,10 +108,11 @@ So $5$ boxes have $80$ crayons.
 - Multiply the ones first, then the tens.
 - If the product of the ones is $10$ or more, write the ones digit and carry the tens.
 - A problem with several equal groups needs multiplication; remember the unit in the answer.
+At the start we asked how many pencils Mai has altogether. Now you can answer questions like that: split into tens and ones, multiply each part and add, or set it out in columns. A few more to practise will make it feel natural.
 
 ## Practice
 
-Each exercise comes with what you need and how to start. Try it yourself first, then open the solution.
+Each exercise gives you what you need to remember and a hint to get you started. Have a go on your own first, look at the hint if you are stuck, and open the solution last. Getting something wrong is fine: putting it right is how the method sticks.
 
 :::exercise
 Work out $21\times4$.

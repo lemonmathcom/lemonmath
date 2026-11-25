@@ -10,21 +10,21 @@ minutes: 20
 - Apply these ideas to real-life problems.
 :::
 
-Suppose three mountain villages $A$, $B$, $C$ want to share one phone mast placed at the **same distance** from all three villages, so that no village is "worse off". Where should the mast go?
+Three mountain villages $A$, $B$, $C$ want to share one phone mast. Each village wants the mast to be no further from it than from the others, so the mast must stand at the **same distance** from all three. Where should it go?
 
-Another problem: from a triangular wooden board, a carpenter wants to cut the **largest** round tabletop. Its edge must touch all three sides of the board, because if one side is not touched, the circle can still be enlarged. Two problems, two special circles of a triangle.
+Here is a different problem. A carpenter has a triangular wooden board and wants to cut the **largest** round tabletop from it. The edge of the tabletop must touch all three sides, because if one side is not touched, the circle can still be enlarged. These two problems lead to two special circles of a triangle, and we will find both.
 
 ## The circumcircle of a triangle
 
 ### Explore: a point equidistant from three vertices
 
-A point equidistant from $A$ and $B$ lies on the perpendicular bisector of $AB$; a point equidistant from $B$ and $C$ lies on the perpendicular bisector of $BC$. The point $O$ where these two lines meet has $OA=OB=OC$, so $O$ also lies on the perpendicular bisector of $AC$. The circle with centre $O$ and radius $OA$ passes through all three vertices.
+Let us look for the point we want. A point equidistant from $A$ and $B$ lies on the perpendicular bisector of $AB$. A point equidistant from $B$ and $C$ lies on the perpendicular bisector of $BC$. These two lines meet at a point $O$, and $OA=OB=OC$. So $O$ is also equidistant from $A$ and $C$, which means $O$ lies on the perpendicular bisector of $AC$. The circle with centre $O$ and radius $OA$ therefore passes through all three vertices.
 
 :::definition Circumcircle of a triangle
 The circle through the three vertices of a triangle is the **circumcircle** of the triangle; the triangle is **inscribed in** the circle. Its centre (the circumcentre) is the point where the three perpendicular bisectors of the triangle meet.
 :::
 
-Every triangle has exactly one circumcircle. The centre $O$ lies inside the triangle if the triangle is acute, outside if it is obtuse, and on the hypotenuse if it is right-angled.
+Every triangle has exactly one circumcircle. Where the centre $O$ sits depends on the triangle: inside it if the triangle is acute, outside if it is obtuse, and on the hypotenuse if it is right-angled. The right-angled case gives a particularly neat result, so let us look at it.
 
 :::diagram The circumcircle of the triangle $ABC$
 alt: The triangle ABC inscribed in a circle with centre O; from O, perpendicular segments go to the midpoints of the three sides
@@ -47,7 +47,7 @@ right O P A
 
 ### Right-angled triangles
 
-If the triangle $ABC$ is right-angled at $A$, then $\angle BAC=90^\circ$ is an inscribed angle, so it stands on a semicircle (lesson [Inscribed angles](lesson:inscribed-angles)). Hence:
+Take the triangle $ABC$, right-angled at $A$. The angle $\angle BAC=90^\circ$ is an inscribed angle, and a right inscribed angle stands on a semicircle (lesson [Inscribed angles](lesson:inscribed-angles)). So the hypotenuse is a diameter, and we get:
 
 :::theorem Circumcircle of a right-angled triangle
 The circumcentre of a right-angled triangle is the midpoint of the hypotenuse; the circumradius is half the hypotenuse.
@@ -75,13 +75,13 @@ So the mast goes at the midpoint of $BC$, $5$ km from each village.
 
 ## The incircle of a triangle
 
-A point on the bisector of an angle is equidistant from the two arms of the angle (grade 7). The point $I$ where the internal bisectors at $B$ and $C$ meet is equidistant from all three sides, so $I$ also lies on the bisector of the angle at $A$.
+In grade 7 we learnt that a point on the bisector of an angle is equidistant from the two arms of the angle. Now draw the internal bisectors at $B$ and $C$; they meet at a point $I$. This point is equidistant from the two sides through $B$, and from the two sides through $C$, so it is equidistant from all three sides. That means $I$ also lies on the bisector of the angle at $A$.
 
 :::definition Incircle of a triangle
 The circle that touches the three sides of a triangle is the **incircle** of the triangle; the triangle is **circumscribed about** the circle. Its centre (the incentre) is the point where the three internal angle bisectors meet, and it always lies inside the triangle.
 :::
 
-The radius $r$ is the distance from $I$ to each side. The sides are tangents, so the two tangent segments from each vertex are equal (lesson [Relative positions of a line and a circle](lesson:line-circle-positions)).
+The radius $r$ is the distance from $I$ to each side. The sides are tangents, so the two tangent segments from each vertex are equal (lesson [Relative positions of a line and a circle](lesson:line-circle-positions)). We use exactly this fact to find $r$ in the next example.
 
 :::diagram The incircle of the right-angled triangle $ABC$ with sides $3$, $4$, $5$
 alt: The triangle ABC right-angled at A with AB equal to 4 and AC equal to 3; a circle with centre I and radius 1 touches the three sides at D, E, F
@@ -132,7 +132,7 @@ So the tabletop has radius $10$ cm and about $286$ cm² of wood is wasted.
 
 ## Equilateral triangles
 
-In an equilateral triangle, each perpendicular bisector is also an angle bisector, a median and an altitude. So the circumcentre and the incentre **coincide** at the centroid $G$. The centroid lies on each median, two thirds of the way from the vertex (grade 7).
+An equilateral triangle is special: each perpendicular bisector is also an angle bisector, a median and an altitude. So the circumcentre and the incentre **coincide** at the centroid $G$. The centroid lies on each median, two thirds of the way from the vertex (grade 7). That lets us find both radii from the length of the altitude.
 
 :::theorem Equilateral triangle with side $a$
 The altitude (also a median) has length $h=\dfrac{a\sqrt3}{2}$, so
@@ -150,12 +150,12 @@ So $R=2\sqrt3$ cm and $r=\sqrt3$ cm.
 :::
 
 :::warning Common mistakes
-- **Mixing up the two centres.** The circumcentre is where the **perpendicular bisectors** meet (equidistant from the vertices); the incentre is where the **angle bisectors** meet (equidistant from the sides).
-- **Taking $R$ equal to the hypotenuse.** Wrong: the hypotenuse is $10$ cm, so $R=10$ cm. Right: $R=5$ cm (half the hypotenuse).
-- **Swapping $\dfrac23$ and $\dfrac13$ in an equilateral triangle.** $R$ goes from the centre to a vertex (longer), $r$ from the centre to a side: $R=2r$.
+- **Mixing up the two centres.** Many people do this. The circumcentre is where the **perpendicular bisectors** meet (equidistant from the vertices); the incentre is where the **angle bisectors** meet (equidistant from the sides).
+- **Taking $R$ equal to the hypotenuse.** Wrong: the hypotenuse is $10$ cm, so $R=10$ cm. Right: $R=5$ cm, because the radius is only half the hypotenuse.
+- **Swapping $\dfrac23$ and $\dfrac13$ in an equilateral triangle.** $R$ goes from the centre to a vertex (longer), $r$ from the centre to a side (shorter), so $R=2r$.
 :::
 
-**Connections.** This lesson pulls together earlier ideas: perpendicular bisectors and angle bisectors (grade 7), the angle in a semicircle, and two tangents from a point. The question "a circle through three points" grows into "do four points lie on one circle?" in [Cyclic quadrilaterals](lesson:cyclic-quadrilaterals), and the equilateral triangle is the first case of a [regular polygon](lesson:regular-polygons).
+**Connections.** This lesson pulls together things you already know: perpendicular bisectors and angle bisectors (grade 7), the angle in a semicircle, and two tangents from a point. A circle through three points also leads to a new question: do four points lie on one circle? You will meet it in [Cyclic quadrilaterals](lesson:cyclic-quadrilaterals). And the equilateral triangle is the first case of a [regular polygon](lesson:regular-polygons).
 
 ## Key terms
 
@@ -175,10 +175,11 @@ So $R=2\sqrt3$ cm and $r=\sqrt3$ cm.
 - Incentre $I$: where the three angle bisectors meet, at distance $r$ from each side.
 - Right-angled triangle: $O$ is the midpoint of the hypotenuse, $R=\dfrac a2$; $r=\dfrac{b+c-a}{2}$.
 - Equilateral triangle with side $a$: $R=\dfrac{a\sqrt3}{3}$, $r=\dfrac{a\sqrt3}{6}$, and the two centres coincide.
+Back to our two problems: the mast goes at the circumcentre, and the largest round tabletop is the disc inside the incircle. Remember: perpendicular bisectors give the circumcircle, angle bisectors give the incircle.
 
 ## Practice
 
-Each exercise comes with what you need and some steps to start. Try it yourself first, then open the solution.
+Each exercise comes with what you need to know and some steps to start. Try it yourself first, and open the solution only when you are stuck. A mistake made once is no problem; correcting it is where we learn most.
 
 :::exercise
 The triangle $ABC$ is right-angled at $A$, with $AB=5$ cm and $AC=12$ cm. Find the centre and the radius of its circumcircle.

@@ -11,11 +11,11 @@ minutes: 40
 - Xét tính liên tục, phân loại điểm gián đoạn và lập luận bằng định lí giá trị trung gian.
 :::
 
-Unit 1 là nền móng của AP Calculus: cả đạo hàm và tích phân đều được định nghĩa bằng giới hạn. Trong đề thi, giới hạn xuất hiện chủ yếu ở phần trắc nghiệm không dùng máy tính, còn tính liên tục xuất hiện trong câu tự luận yêu cầu **giải thích** (justify) một kết luận. Học sinh Việt Nam gặp các ý này ở lớp 11; kiểu đề AP bổ sung thuật ngữ chính xác và giới hạn một bên đọc từ đồ thị.
+Khi ta tiến sát một điểm mà chưa chạm tới nó, giá trị của hàm đi về đâu? Câu hỏi ấy chính là nền móng của giải tích. Unit 1 là nền móng của AP Calculus vì cả đạo hàm lẫn tích phân đều được định nghĩa bằng giới hạn. Trong đề thi, giới hạn xuất hiện chủ yếu ở phần trắc nghiệm không dùng máy tính, còn tính liên tục xuất hiện trong câu tự luận yêu cầu **giải thích** (justify) một kết luận. Học sinh Việt Nam đã gặp các ý này ở lớp 11, nên phần mới chỉ là thuật ngữ chính xác và giới hạn một bên đọc từ đồ thị.
 
 ## Giới hạn và giới hạn một bên
 
-$\displaystyle\lim_{x\to a}f(x)=L$ nghĩa là $f(x)$ gần $L$ bao nhiêu cũng được khi $x$ đủ gần $a$, **bất kể điều gì xảy ra tại chính $x=a$**. Giới hạn tồn tại khi và chỉ khi hai giới hạn một bên tồn tại và bằng nhau:
+Ý tưởng của giới hạn là hỏi hàm đang đi về đâu, chứ không hỏi nó đang đứng ở đâu. $\displaystyle\lim_{x\to a}f(x)=L$ nghĩa là $f(x)$ gần $L$ bao nhiêu cũng được khi $x$ đủ gần $a$, **bất kể điều gì xảy ra tại chính $x=a$**. Vì sao phải nhấn mạnh như vậy? Vì một hàm có thể không xác định đúng tại điểm ấy mà vẫn có giới hạn, như đồ thị ngay dưới đây. Giới hạn tồn tại khi và chỉ khi hai giới hạn một bên tồn tại và bằng nhau:
 
 $$\lim_{x\to a}f(x)=L\iff\lim_{x\to a^-}f(x)=\lim_{x\to a^+}f(x)=L.$$
 
@@ -40,9 +40,10 @@ D. Giới hạn không tồn tại.
 ## Các kĩ thuật tính giới hạn
 
 :::note Khi thay trực tiếp được $\dfrac00$
-- **Phân tích nhân tử** rồi giản ước nhân tử chung.
+- **Phân tích nhân tử** rồi giản ước nhân tử chung. Cứ thấy phân thức, hãy thử cách này trước.
 - **Nhân liên hợp** với biểu thức chứa căn bậc hai.
 - **Dùng giới hạn đặc biệt** $\displaystyle\lim_{x\to0}\frac{\sin x}{x}=1$, và dạng mở rộng $\displaystyle\lim_{x\to0}\frac{\sin(kx)}{x}=k$.
+Bạn cứ thử lần lượt từng cách; thường chỉ một cách hợp với bài.
 :::
 
 :::example Nhân liên hợp
@@ -67,7 +68,7 @@ D. $3$
 
 ## Giới hạn ở vô cực và tiệm cận
 
-Với hàm phân thức, so sánh bậc của tử và mẫu khi $x\to\pm\infty$:
+Khi $x\to\pm\infty$, tử và mẫu của một phân thức cùng lớn dần, và kết quả tuỳ vào bên nào lớn nhanh hơn. Bậc cao hơn thì lớn nhanh hơn. Vì vậy với hàm phân thức, ta chỉ cần so sánh bậc của tử và mẫu:
 
 | Bậc | $\displaystyle\lim_{x\to\infty}$ | Tiệm cận ngang |
 |---|---|---|
@@ -75,7 +76,7 @@ Với hàm phân thức, so sánh bậc của tử và mẫu khi $x\to\pm\infty$
 | tử = mẫu | tỉ số các hệ số cao nhất | $y=\dfrac{a}{b}$ |
 | tử > mẫu | $\pm\infty$ | không có |
 
-**Tiệm cận đứng** $x=a$ xuất hiện tại nơi mẫu bằng $0$ còn tử khác $0$ (sau khi đã giản ước nhân tử chung).
+Tiệm cận đứng thì khác: ở đó hàm "vọt" ra vô cực. **Tiệm cận đứng** $x=a$ xuất hiện tại nơi mẫu bằng $0$ còn tử khác $0$, sau khi đã giản ước nhân tử chung. Chữ "sau khi giản ước" là chỗ nhiều bạn hay quên.
 
 :::example Tiệm cận ngang
 Tính $\displaystyle\lim_{x\to\infty}\frac{3x^2-5x}{2x^2+7}$.
@@ -117,10 +118,11 @@ D. $f'(c)=\dfrac73$ với một $c$ nào đó thuộc $(1; 4)$.
 - **Dùng IVT mà không nêu tính liên tục.** Luôn nêu $f$ liên tục trên đoạn đóng.
 - **Quên giản ước trước khi tìm tiệm cận đứng.** $\dfrac{x+1}{x^2-1}$ bị khuyết tại $x=-1$, không có tiệm cận ở đó.
 - **$\dfrac{\sin(kx)}{x}$ không tiến tới $1$.** Nó tiến tới $k$.
+Nếu chỉ nhớ một điều từ hộp này, hãy nhớ: trước khi kết luận, kiểm tra điều kiện của định lí.
 :::
 
 :::tip Kiểm tra giới hạn bằng máy tính
-Ở phần được dùng máy, một bảng giá trị với $x$ tiến về $a$ từ hai phía (ví dụ $2{,}99$; $2{,}999$ và $3{,}01$; $3{,}001$) là cách kiểm tra nhanh. Ở phần không dùng máy, hãy dựa vào biến đổi đại số.
+Ở phần được dùng máy, một bảng giá trị là cách thử nhanh: cho $x$ tiến về $a$ từ hai phía (ví dụ $2{,}99$; $2{,}999$ và $3{,}01$; $3{,}001$) rồi xem kết quả đi về đâu. Cách này chỉ để kiểm tra, không thay được lập luận. Ở phần không dùng máy, hãy dựa vào biến đổi đại số.
 :::
 
 :::terms

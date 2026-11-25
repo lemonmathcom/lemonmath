@@ -11,11 +11,11 @@ minutes: 35
 - Giải các bài toán nhiều bước về khối lượng riêng, tiêu thụ nhiên liệu và pha trộn.
 :::
 
-Mảng Problem-Solving and Data Analysis có khoảng 5 đến 7 câu trong đề, và khoảng một nửa số đó nói về tỉ số, tốc độ, phần trăm và đơn vị. Đây là những câu "đời thường" nhất của SAT: công thức nấu ăn, bản đồ, giá cả, giảm giá và tốc độ. Kiến thức chỉ ở lớp 6 và lớp 7, nhưng đọc đề cẩu thả làm mất nhiều điểm, nên thói quen cần tập ở đây là viết mọi đại lượng **kèm đơn vị**.
+Bạn đã bao giờ nhìn bản đồ để đoán một nơi còn cách bao xa, hay tính xem món đồ đang giảm giá còn lại bao nhiêu tiền? Đó chính là tỉ số, tốc độ và phần trăm. Mảng Problem-Solving and Data Analysis có khoảng 5 đến 7 câu trong đề, và khoảng một nửa số đó nói về tỉ số, tốc độ, phần trăm và đơn vị. Đây là những câu "đời thường" nhất của SAT: công thức nấu ăn, bản đồ, giá cả, giảm giá và tốc độ. Kiến thức chỉ ở lớp 6 và lớp 7, nhưng đọc đề cẩu thả làm mất nhiều điểm. Vì vậy thói quen đáng tập ở đây là viết mọi đại lượng **kèm đơn vị**.
 
 ## Tỉ số và tỉ lệ thức
 
-Tỉ số (ratio) $a:b$ so sánh hai đại lượng. Nếu một tổng được chia theo tỉ số $a:b$ thì tổng đó gồm $a+b$ phần bằng nhau.
+Khi chia một tổng theo tỉ số, việc đầu tiên là đếm xem có bao nhiêu phần. Tỉ số (ratio) $a:b$ so sánh hai đại lượng. Nếu một tổng được chia theo tỉ số $a:b$ thì tổng đó gồm $a+b$ phần bằng nhau. Sau đó, bài toán chỉ còn là tìm xem một phần lớn bao nhiêu.
 
 :::example Chia theo tỉ số
 Trong một lớp có 36 học sinh, tỉ số giữa số bạn nam và số bạn nữ là $4:5$. Lớp có bao nhiêu bạn nữ?
@@ -27,7 +27,7 @@ D. $25$
 **Lời giải.** Có $4+5=9$ phần bằng nhau, nên mỗi phần là $36:9=4$ học sinh. Số bạn nữ: $5\cdot4=20$. Đáp án là **B**. Phương án A là số bạn nam; phương án C là số phần.
 :::
 
-**Tỉ lệ thức** (proportion) cho biết hai tỉ số bằng nhau: $\dfrac{a}{b}=\dfrac{c}{d}$, suy ra $ad=bc$ (nhân chéo).
+**Tỉ lệ thức** (proportion) cho biết hai tỉ số bằng nhau: $\dfrac{a}{b}=\dfrac{c}{d}$. Nhờ đó, biết ba số là ta tìm được số thứ tư. Vì sao? Vì nhân chéo, ta được $ad=bc$, và đây chỉ còn là một phương trình đơn giản. Tỉ lệ bản đồ là ví dụ quen thuộc nhất.
 
 :::example Tỉ lệ bản đồ
 Trên một bản đồ, 1 xăng-ti-mét ứng với 2,5 ki-lô-mét. Hai thị trấn cách nhau 7,2 xăng-ti-mét trên bản đồ. Khoảng cách thực giữa hai thị trấn là bao nhiêu ki-lô-mét?
@@ -37,7 +37,7 @@ Trên một bản đồ, 1 xăng-ti-mét ứng với 2,5 ki-lô-mét. Hai thị 
 
 ## Tốc độ và đổi đơn vị
 
-Tốc độ (rate) là tỉ số có đơn vị, như ki-lô-mét mỗi giờ hay đô la mỗi ki-lô-gam. Để đổi đơn vị, hãy nhân với các phân số bằng $1$, như $\dfrac{5.280\text{ feet}}{1\text{ dặm}}$, sắp xếp sao cho đơn vị không cần thiết bị triệt tiêu. SAT luôn cho sẵn hệ số quy đổi với các đơn vị của Mỹ.
+Đề cho tốc độ bằng đơn vị này nhưng lại hỏi bằng đơn vị khác: chuyện này rất hay gặp. Tốc độ (rate) là tỉ số có đơn vị, như ki-lô-mét mỗi giờ hay đô la mỗi ki-lô-gam. Để đổi đơn vị, ta nhân với các phân số bằng $1$, như $\dfrac{5.280\text{ feet}}{1\text{ dặm}}$. Nhân với một số bằng $1$ thì giá trị không đổi, chỉ có đơn vị đổi. Hãy sắp xếp sao cho đơn vị không cần thiết bị triệt tiêu. SAT luôn cho sẵn hệ số quy đổi với các đơn vị của Mỹ.
 
 :::example Đổi đơn vị tốc độ
 Một ô tô chạy với tốc độ 60 dặm mỗi giờ. Tốc độ đó bằng bao nhiêu feet mỗi giây? (1 dặm = 5.280 feet)
@@ -67,7 +67,7 @@ D. $87\%$
 **Lời giải.** $\dfrac{92-80}{80}=\dfrac{12}{80}=0{,}15$, tức tăng $15\%$. Đáp án là **C**. Phương án A lấy số đô la tăng thêm làm phần trăm; phương án B chia cho $92$.
 :::
 
-Để tìm giá trị ban đầu sau khi thay đổi theo phần trăm, hãy **chia** cho hệ số nhân. Đừng bao giờ trừ phần trăm vào giá mới.
+Chỗ này nhiều bạn hay nhầm: giá đã giảm rồi, vậy cứ cộng lại phần trăm đó là xong? Không phải. Giá mới là kết quả của việc nhân giá cũ với một hệ số, nên muốn quay về giá cũ ta phải làm phép ngược lại. Để tìm giá trị ban đầu sau khi thay đổi theo phần trăm, hãy **chia** cho hệ số nhân. Đừng bao giờ trừ phần trăm vào giá mới.
 
 :::example Tìm giá trị ban đầu
 Sau khi giảm giá 20%, một chiếc áo khoác có giá 64 đô la. Giá trước khi giảm là bao nhiêu đô la?
@@ -90,10 +90,11 @@ D. $77$
 - **Chia nhầm số trong phần trăm thay đổi.** Luôn chia cho giá trị ban đầu.
 - **Hoàn tác phần trăm bằng chính phần trăm đó.** Giảm 20% rồi tăng 20% không trở về ban đầu: $0{,}8\cdot1{,}2=0{,}96$.
 - **Bỏ đơn vị.** Ghi đơn vị ở từng bước; đơn vị cho biết nên nhân hay chia.
+Cả bốn chỗ này đều là chỗ đề hay đặt bẫy. Đọc chậm một chút là bạn tránh được.
 :::
 
 :::tip Kiểm tra phần trăm thật nhanh
-$10\%$ của một số rất dễ tính (dời dấu phẩy), và $5\%$ là một nửa của nó. Vậy $15\%$ của $80$ là $8+4=12$. Hãy ước lượng như vậy trước khi tính.
+Có một cách kiểm tra nhanh để biết đáp số có hợp lí không. $10\%$ của một số rất dễ tính, chỉ cần dời dấu phẩy, và $5\%$ là một nửa của nó. Vậy $15\%$ của $80$ là $8+4=12$. Hãy ước lượng như vậy trước khi tính chính thức.
 :::
 
 :::terms

@@ -11,29 +11,29 @@ minutes: 20
 - Solve some real-life problems involving the function $y=ax^2$.
 :::
 
-Between about 1602 and 1604, in Padua (Italy), Galileo Galilei rolled balls down sloping channels to slow down falling motion so that he could measure it. He found a surprising law: the distance travelled is not proportional to the time, but to the **square** of the time (MacTutor, University of St Andrews). In grade 10 physics, the law of free fall is written as $s=\dfrac12gt^2$ with $g\approx9.8$ m/s²; rounding to $g\approx10$ gives $s\approx5t^2$ (metres).
+Between about 1602 and 1604, in Padua (Italy), Galileo Galilei rolled balls down sloping channels. Free fall is too fast to measure, so he slowed the motion down. He found a surprising law: the distance travelled is not proportional to the time, but to the **square** of the time (MacTutor, University of St Andrews). In grade 10 physics, the law of free fall is written as $s=\dfrac12gt^2$ with $g\approx9.8$ m/s²; rounding to $g\approx10$ gives $s\approx5t^2$ (metres).
 
-Suppose you drop a marble from the roof of a building $45$ m high (about $15$ storeys) and ignore air resistance. How long does it take the marble to reach the ground? And why does it fall so much further in the third second than in the first?
+Imagine standing on the roof of a building $45$ m high (about $15$ storeys), dropping a marble and ignoring air resistance. How long does it take the marble to reach the ground? And why does it fall so much further in the third second than in the first?
 
 ## The function $y=ax^2$ ($a\neq0$)
 
 ### Explore: distance fallen over time
 
-We work out $s=5t^2$ at a few times:
+To see the law at work, we work out $s=5t^2$ at a few times:
 
 | $t$ (seconds) | $0$ | $1$ | $2$ | $3$ |
 |---|---|---|---|---|
 | $s$ (metres) | $0$ | $5$ | $20$ | $45$ |
 
-When the time doubles (from $1$ to $2$ seconds), the distance becomes four times as large (from $5$ to $20$ m); three times the time gives nine times the distance. In each second the marble falls $5$ m, then $15$ m, then $25$ m: it keeps speeding up. Each value of $t$ gives exactly one value of $s$, so $s$ is a function of $t$.
+Look at the table. When the time doubles (from $1$ to $2$ seconds), the distance becomes four times as large (from $5$ to $20$ m); three times the time gives nine times the distance. In each second the marble falls $5$ m, then $15$ m, then $25$ m: it keeps speeding up. Each value of $t$ gives exactly one value of $s$, so $s$ is a function of $t$.
 
 :::definition The function $y=ax^2$
 A function of the form $y=ax^2$, where $a$ is a real number other than $0$, is defined for every real number $x$. The number $a$ is called the **coefficient** of the function.
 :::
 
-**Going deeper.** For the linear function $y=ax$ (grade 8), doubling $x$ doubles $y$. For $y=ax^2$, multiplying $x$ by $k$ multiplies $y$ by $k^2$, because $a(kx)^2=k^2\cdot ax^2$. That is why the area of a square with side $x$ is $S=x^2$ ($a=1$) and the area of a circle with radius $R$ is $S=\pi R^2$ ($a=\pi$): enlarge a shape by a factor of $2$ and its area becomes four times as large.
+**Going deeper.** For the linear function $y=ax$ (grade 8), doubling $x$ doubles $y$. For $y=ax^2$ it is different: multiplying $x$ by $k$ multiplies $y$ by $k^2$, because $a(kx)^2=k^2\cdot ax^2$. You have met this before: the area of a square with side $x$ is $S=x^2$ ($a=1$) and the area of a circle with radius $R$ is $S=\pi R^2$ ($a=\pi$). Enlarge a shape by a factor of $2$ and its area becomes four times as large.
 
-Functions such as $y=x^2+1$ or $y=(x-1)^2$ do **not** have the form $y=ax^2$: their graphs do not pass through $O$ (for $y=x^2+1$) or do not have the $y$-axis as axis of symmetry (for $y=(x-1)^2$). In grade 10 you will study general quadratic functions like these.
+Functions such as $y=x^2+1$ or $y=(x-1)^2$ do **not** have the form $y=ax^2$. The graph of $y=x^2+1$ does not pass through $O$, and the graph of $y=(x-1)^2$ does not have the $y$-axis as its axis of symmetry. Do not worry about them yet: in grade 10 you will study general quadratic functions like these.
 
 :::example Finding values of the function
 Consider the function $y=-2x^2$. Find the value of $y$ when $x=-3$, $x=\dfrac12$ and $x=\sqrt2$.
@@ -54,7 +54,7 @@ So the corresponding values of $y$ are $-18$, $-\dfrac12$ and $-4$.
 | $y=x^2$ | $4$ | $1$ | $0$ | $1$ | $4$ |
 | $y=-x^2$ | $-4$ | $-1$ | $0$ | $-1$ | $-4$ |
 
-Two opposite values of $x$ give the same value of $y$, because $(-x)^2=x^2$. Plotting the points $(x, y)$ on a coordinate grid and joining them with a smooth curve, we get the picture below.
+Two opposite values of $x$ give the same value of $y$, because $(-x)^2=x^2$. We plot the points $(x, y)$ on a coordinate grid and join them with a smooth curve, and we get the picture below.
 
 :::graph The graphs of $y=x^2$ and $y=-x^2$
 alt: Two parabolas with their vertex at the origin O; y equals x squared opens upwards and y equals minus x squared opens downwards, each the reflection of the other in the x-axis
@@ -79,7 +79,7 @@ The graph of $y=ax^2$ is a curve through the origin $O$ with the $y$-axis as its
 - If $a<0$, the graph lies below the $x$-axis and $O$ is its highest point.
 :::
 
-**Why is it symmetrical about the $y$-axis?** If the point $(x_0, y_0)$ is on the graph, then $y_0=ax_0^2=a(-x_0)^2$, so the point $(-x_0, y_0)$ is on the graph too. These two points are reflections of each other in the $y$-axis. Also $x^2\geq0$, so $y=ax^2$ has the same sign as $a$ when $x\neq0$.
+**Why is it symmetrical about the $y$-axis?** If the point $(x_0, y_0)$ is on the graph, then $y_0=ax_0^2=a(-x_0)^2$, so the point $(-x_0, y_0)$ is on the graph too. These two points are reflections of each other in the $y$-axis. Also, since $x^2\geq0$, $y=ax^2$ has the same sign as $a$ when $x\neq0$. That is why the graph stays entirely on one side of the horizontal axis.
 
 :::example Drawing a graph
 Draw the graph of $y=\dfrac12x^2$.
@@ -109,7 +109,7 @@ point: (4, 8) "(4, 8)" right
 
 ## Points on the graph and real-life problems
 
-The point $M(x_0, y_0)$ lies on the graph of $y=ax^2$ exactly when $y_0=ax_0^2$. So if we know one point of the graph, we can find the coefficient $a$.
+The point $M(x_0, y_0)$ lies on the graph of $y=ax^2$ exactly when $y_0=ax_0^2$. So we only need one point of the graph to find the coefficient $a$.
 
 :::example Finding the coefficient $a$
 The graph of $y=ax^2$ passes through the point $A(2, -12)$.
@@ -127,7 +127,7 @@ b) With $y=-3x^2$, we have $-3\cdot(-1)^2=-3$, so $B$ lies on the graph; $-3\cdo
 So $a=-3$; the point $B$ lies on the graph and the point $C$ does not.
 :::
 
-Conversely, if we know the $y$-coordinate, we find the $x$-coordinate by solving $ax^2=y_0$. Because of the symmetry, there are usually two opposite values of $x$.
+Conversely, if we know the $y$-coordinate, we find the $x$-coordinate by solving $ax^2=y_0$. Because the graph is symmetrical, there are usually two opposite values of $x$. Now we can go back to the marble from the opening.
 
 :::example Answering the opening question
 The marble falls from a height of $45$ m, and the distance fallen is $s=5t^2$ (m). How long does it take to reach the ground? After $2$ seconds, how far above the ground is it?
@@ -149,10 +149,10 @@ So the marble reaches the ground after $3$ seconds; after $2$ seconds it is $25$
 *Look back.* Is the result sensible? After $2$ seconds (two thirds of the time) the marble has fallen less than half the height, because it keeps speeding up. If the building were four times as high ($180$ m), the fall would take only twice as long ($t^2=36$, $t=6$ seconds), not four times as long.
 :::
 
-**Connections.** This lesson builds on functions, graphs (grade 8) and square roots. Solving $ax^2=k$ is the simplest case of a [quadratic equation in one unknown](lesson:quadratic-equations). A parabola is also the path of a ball thrown at an angle (ignoring air resistance) and the graph of the quadratic functions of grade 10.
+**Connections.** This lesson builds on functions, graphs (grade 8) and square roots. Solving $ax^2=k$ is the simplest case of a [quadratic equation in one unknown](lesson:quadratic-equations). Parabolas turn up elsewhere too: a parabola is the path of a ball thrown at an angle (ignoring air resistance) and the graph of the quadratic functions of grade 10.
 
 :::warning Common mistakes
-- **Squaring the coefficient as well.** Wrong: for $y=-2x^2$ at $x=-3$, working out $y=(-2\cdot(-3))^2=36$. Why it is wrong: only $x$ is squared. Right: $y=-2\cdot(-3)^2=-18$.
+- **Squaring the coefficient as well.** Wrong: for $y=-2x^2$ at $x=-3$, working out $y=(-2\cdot(-3))^2=36$. Why it is wrong: only $x$ is squared. Right: $y=-2\cdot(-3)^2=-18$. Many people slip here.
 - **Missing one value of $x$.** Wrong: "$x^2=9$, so $x=3$". Why it is wrong: $(-3)^2=9$ as well. Right: $x=3$ or $x=-3$, then check the condition of the problem (such as $t>0$).
 - **Joining the points with straight lines.** The graph is a smooth curve; near the vertex $O$ it is "rounded", with no sharp corner.
 :::
@@ -177,10 +177,11 @@ So the marble reaches the ground after $3$ seconds; after $2$ seconds it is $25$
 - $a>0$: the graph is above the $x$-axis and $O$ is lowest; $a<0$: the graph is below the $x$-axis and $O$ is highest.
 - $M(x_0, y_0)$ is on the graph $\Leftrightarrow y_0=ax_0^2$; use this to find $a$ or to find points.
 - To draw the graph: make a table of values with opposite pairs of $x$ and join with a smooth curve.
+Back to the marble dropped from the roof: the distance fallen is proportional to the square of the time, so one simple equation tells us when it lands. One thing to remember: the graph is always a parabola with the vertical axis as its axis of symmetry. Draw a few more graphs to get used to it.
 
 ## Practice
 
-Each exercise comes with what you need and some steps to start. Try it yourself first, then open the solution.
+Each exercise comes with what you need to remember and some steps to start. Try it yourself first, and open the solution only when you are stuck. After a few exercises it will feel much more familiar.
 
 :::exercise
 Consider the function $y=3x^2$. Find the value of $y$ when $x=-2$, $x=0$, $x=\dfrac13$ and $x=\sqrt3$.

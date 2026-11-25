@@ -11,13 +11,13 @@ minutes: 15
 - Điền số còn thiếu trong dãy số từ $0$ đến $5$.
 :::
 
-Trên bàn có một đĩa kẹo. Lan đếm xong và nói: "Có $4$ cái kẹo." Lan ăn hết kẹo trên đĩa. Bây giờ trên đĩa có mấy cái kẹo, và em viết bằng số nào?
+Trên bàn có một đĩa kẹo. Lan đếm xong và nói: "Có $4$ cái kẹo." Rồi Lan ăn hết số kẹo ấy. Bây giờ trên đĩa còn mấy cái kẹo? Và em viết số đó bằng chữ số nào?
 
-Em đã biết đếm ở trường mầm non. Bài này giúp em đọc và viết các số đó thật đẹp.
+Em đã biết đếm từ hồi ở trường mầm non. Giờ ta cùng viết các số ấy cho đúng, cho đẹp. Ta cũng sẽ biết khi đĩa không còn cái kẹo nào thì viết số gì.
 
 ## Cùng khám phá
 
-Em hãy đếm từng đồ vật, mỗi đồ vật đếm một lần.
+Ta bắt đầu bằng việc đếm. Em chạm vào từng đồ vật, và mỗi đồ vật chỉ đếm một lần.
 
 - Trên cành có một con chim. Em đếm: "một". Ta viết số $1$.
 - Có hai bông hoa trong lọ. Em đếm: "một, hai". Ta viết số $2$.
@@ -25,8 +25,9 @@ Em hãy đếm từng đồ vật, mỗi đồ vật đếm một lần.
 - Có bốn cái kẹo trên đĩa. Ta viết số $4$.
 - Có năm quả bóng bay. Ta viết số $5$.
 - Trong bể không có con cá nào. Ta viết số $0$ và đọc là "không".
+Đừng lo nếu lần đầu em thấy số không hơi lạ. Chẳng có gì để đếm thì ta chỉ việc viết số không.
 
-Vậy khi Lan ăn hết kẹo, trên đĩa có $0$ cái kẹo.
+Giờ em trả lời được câu hỏi của Lan rồi. Đĩa hết kẹo, giống như bể cá không có con cá nào, nên trên đĩa có $0$ cái kẹo.
 
 :::graph Các số từ 0 đến 5 xếp thành hàng trên tia số
 alt: Tia số có các điểm 0, 1, 2, 3, 4, 5 xếp từ trái sang phải
@@ -48,11 +49,11 @@ point: (5, 0) "5" below
 4. Đếm thêm một thì được số đứng ngay sau.
 :::
 
-Cách này đúng vì mỗi lần đếm, em chỉ chạm vào một đồ vật và nói một số. Số cuối cùng em nói chính là số đồ vật.
+Vì sao đếm như vậy lại đúng? Mỗi lần em chạm vào một đồ vật thì nói một số. Đồ vật nào cũng có số của riêng nó, không sót và không trùng. Nên số cuối cùng em nói chính là số đồ vật.
 
 ## Ví dụ
 
-Ta bắt đầu với một việc rất đơn giản: đếm các con chim.
+Ta bắt đầu bằng việc quen thuộc: đếm những con chim đậu trên cành.
 
 :::example Đếm chim
 Trên cây có ba con chim. Viết số con chim.
@@ -64,7 +65,7 @@ Trên cây có ba con chim. Viết số con chim.
 Vậy có $3$ con chim.
 :::
 
-Bây giờ em đếm một nhóm có nhiều đồ vật hơn.
+Nhóm có nhiều đồ vật hơn thì em đếm chậm lại một chút, để không bỏ sót. Em thử xem nhé.
 
 :::example Đếm bóng bay
 Bạn Nam cầm năm quả bóng bay. Viết số quả bóng bay.
@@ -76,7 +77,7 @@ Bạn Nam cầm năm quả bóng bay. Viết số quả bóng bay.
 Vậy có $5$ quả bóng bay.
 :::
 
-Có khi chẳng có đồ vật nào để đếm.
+Còn một tình huống khác: chẳng có đồ vật nào để đếm. Lúc ấy em viết số nào?
 
 :::example Bể cá trống
 Trong bể không có con cá nào. Viết số con cá.
@@ -88,7 +89,7 @@ Trong bể không có con cá nào. Viết số con cá.
 Vậy có $0$ con cá.
 :::
 
-Cuối cùng em điền số còn thiếu trong dãy số.
+Em biết thứ tự đếm rồi, nên em tìm được số bị ẩn trong một dãy số. Em thử xem.
 
 :::example Điền số vào dãy
 Điền số thích hợp vào ô trống: $0, 1, \square, 3, 4, 5$.
@@ -104,6 +105,7 @@ Vậy số cần điền là $2$.
 - **Đếm sót.** Sai: có $4$ quả bóng nhưng đếm "một, hai, ba, năm". Vì sao sai: em bỏ quên số bốn. Đúng: đếm "một, hai, ba, bốn", được $4$ quả.
 - **Quên số $0$.** Sai: lọ không có hoa, em viết số $1$. Vì sao sai: $1$ nghĩa là có một bông hoa. Đúng: viết $0$.
 - **Đếm một vật hai lần.** Sai: chạm vào một quả cam hai lần. Vì sao sai: kết quả sẽ nhiều hơn thật. Đúng: mỗi vật chỉ đếm một lần, đếm xong thì đánh dấu.
+Chỗ này nhiều bạn hay nhầm. Em đánh dấu từng vật đã đếm thì sẽ yên tâm hơn.
 :::
 
 ## Thuật ngữ
@@ -126,10 +128,11 @@ Vậy số cần điền là $2$.
 - Không có đồ vật nào thì viết số $0$.
 - Thứ tự đếm: $0, 1, 2, 3, 4, 5$.
 - Mỗi đồ vật chỉ đếm một lần; số cuối cùng em nói là kết quả.
+Em còn nhớ đĩa kẹo của Lan chứ? Hết kẹo nghĩa là không còn gì để đếm, nên ta viết số không. Em luyện tập thêm để đếm và viết số cho thật quen tay nhé.
 
 ## Luyện tập
 
-Mỗi bài có phần kiến thức và gợi ý. Em hãy tự làm trước, rồi mới bấm xem lời giải.
+Mỗi bài tập có phần kiến thức và một gợi ý để em bắt đầu. Em thử tự làm trước, rồi hãy bấm xem lời giải. Nếu chưa ra ngay cũng đừng lo, em cứ đếm từng bước một.
 
 :::exercise
 Trong rổ có ba quả cam. Viết số quả cam.

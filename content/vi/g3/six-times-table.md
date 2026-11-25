@@ -10,20 +10,20 @@ minutes: 15
 - Giải bài toán có lời văn bằng một phép nhân hoặc một phép chia.
 :::
 
-Một vỉ có $6$ quả trứng. Mẹ mua $4$ vỉ như vậy. Hỏi mẹ mua tất cả bao nhiêu quả trứng?
+Đi chợ với mẹ, em hay thấy trứng được xếp sẵn trong từng vỉ, và đếm theo vỉ thì nhanh hơn đếm từng quả. Một vỉ có $6$ quả trứng. Mẹ mua $4$ vỉ như vậy. Hỏi mẹ mua tất cả bao nhiêu quả trứng?
 
-Em có thể cộng $6+6+6+6$, nhưng cộng nhiều lần dễ nhầm. Bài này giúp em tính nhanh bằng bảng nhân $6$.
+Em có thể cộng $6+6+6+6$ và sẽ ra đáp số. Chỉ có điều cộng nhiều lần thì chậm, lại dễ nhầm. Bảng nhân $6$ là đường tắt: thuộc rồi, em có đáp số ngay.
 
 ## Cùng khám phá
 
-Mỗi vỉ có $6$ quả. Ta cộng dần từng vỉ:
+Mỗi vỉ có $6$ quả. Ta cộng dần từng vỉ để xem các số hiện ra thế nào:
 
 - $1$ vỉ: $6$ quả.
 - $2$ vỉ: $6+6=12$ quả.
 - $3$ vỉ: $12+6=18$ quả.
 - $4$ vỉ: $18+6=24$ quả.
 
-Vậy $4$ vỉ có $24$ quả trứng, tức là $6\times4=24$. Mỗi lần thêm một vỉ, tích tăng thêm $6$.
+Vậy $4$ vỉ có $24$ quả trứng, ta viết $6\times4=24$. Em để ý: mỗi lần thêm một vỉ, tích tăng thêm $6$. Bảng nhân $6$ được xây lên đúng như thế, mỗi nhóm thêm một lần.
 
 :::graph Trên tia số: mỗi bước nhảy 6 đơn vị
 alt: Tia số từ 0 đến 36 đánh dấu các điểm 0, 6, 12, 18, 24, 30 và 36, mỗi điểm cách điểm trước 6 đơn vị
@@ -39,7 +39,7 @@ point: (30, 0) "30" above
 point: (36, 0) "36" below
 :::
 
-Em còn một mẹo nữa: $6$ gấp đôi $3$, nên $6\times4$ gấp đôi $3\times4=12$, và $12+12=24$.
+Nếu em đã thuộc bảng nhân $3$ thì còn một cách nữa. Vì $6$ gấp đôi $3$, nên $6\times4$ gấp đôi $3\times4=12$. Vậy $12+12=24$.
 
 :::theorem Bảng nhân 6
 Muốn tính $6\times n$, em lấy $6\times(n-1)$ rồi cộng thêm $6$. Em cũng có thể lấy $3\times n$ rồi gấp đôi.
@@ -53,11 +53,11 @@ Muốn tính $6\times n$, em lấy $6\times(n-1)$ rồi cộng thêm $6$. Em cũ
 | $36$ | $42$ | $48$ | $54$ | $60$ |
 :::
 
-Bảng chia $6$ suy ra từ bảng nhân $6$. Vì $6\times4=24$ nên $24:6=4$. Em chia $24$ quả thành các vỉ $6$ quả thì được $4$ vỉ.
+Bảng chia $6$ không cần học riêng, vì nó suy ra từ bảng nhân $6$. Vì $6\times4=24$ nên $24:6=4$. Nghĩa là chia $24$ quả thành các vỉ $6$ quả, em được $4$ vỉ.
 
 ## Ví dụ
 
-Ta bắt đầu bằng mẹo gấp đôi bảng nhân $3$.
+Ta bắt đầu bằng mẹo gấp đôi bảng nhân $3$, vì bảng này em đã quen.
 
 :::example Tính $6\times4$ bằng cách gấp đôi
 **Lời giải.** Ta có $3\times4=12$. Mà $6$ gấp đôi $3$ nên $6\times4$ gấp đôi $3\times4$:
@@ -65,7 +65,7 @@ $$6\times4=12+12=24.$$
 Vậy $6\times4=24$.
 :::
 
-Bây giờ em lấy tích liền trước cộng thêm $6$.
+Bây giờ ta lấy tích liền trước rồi cộng thêm $6$.
 
 :::example Tính $6\times7$
 **Lời giải.** Em biết $6\times6=36$. Thêm một nhóm $6$ nữa:
@@ -73,7 +73,7 @@ $$6\times7=6\times6+6=36+6=42.$$
 Vậy $6\times7=42$.
 :::
 
-Có khi em lấy tích liền sau rồi bớt đi $6$ sẽ dễ hơn.
+Có khi đi từ tích liền sau rồi bớt đi $6$ lại dễ hơn, nhất là với những phép nhân gần tròn chục.
 
 :::example Tính $6\times9$
 **Lời giải.** Em biết $6\times10=60$. Bớt đi một nhóm $6$:
@@ -81,7 +81,7 @@ $$6\times9=6\times10-6=60-6=54.$$
 Vậy $6\times9=54$.
 :::
 
-Tiếp theo là phép chia.
+Giờ đến phép chia. Em sẽ thấy bảng nhân giúp được ngay.
 
 :::example Tính $48:6$
 **Lời giải.** Em tìm số nào nhân $6$ bằng $48$. Trong bảng nhân $6$ ta có $6\times8=48$, nên
@@ -91,7 +91,7 @@ $$48:6=8.$$
 Vậy $48:6=8$.
 :::
 
-Cuối cùng, em giải một bài toán có lời văn.
+Cuối cùng, ta dùng bảng nhân vào một bài toán có lời văn. Chỗ cần nghĩ là bài này nhân hay chia.
 
 :::example Gói kẹo
 Có $30$ cái kẹo, chia vào các túi, mỗi túi $6$ cái. Hỏi chia được bao nhiêu túi?
@@ -104,10 +104,11 @@ Vậy chia được $5$ túi.
 :::
 
 :::warning Những lỗi em hay gặp
-- **Lấy sai hàng liền kề.** Sai: $6\times7=48$. Vì sao sai: $48$ là $6\times8$. Đúng: $6\times7=36+6=42$.
+- **Lấy sai hàng liền kề.** Sai: $6\times7=48$. Vì sao sai: $48$ là $6\times8$, em đã nhảy sang hàng bên cạnh. Đúng: $6\times7=36+6=42$.
 - **Nhầm nhân với cộng.** Sai: $6\times6=12$. Vì sao sai: $6+6=12$ là phép cộng, còn $6\times6$ là $6$ nhóm $6$. Đúng: $6\times6=36$.
 - **Chia nhầm.** Sai: $48:6=7$. Vì sao sai: $6\times7=42$, không phải $48$. Đúng: $6\times8=48$ nên $48:6=8$.
 - **Quên đơn vị.** Sai: "Đáp số: $5$". Đúng: "Đáp số: $5$ túi".
+Chỗ này nhiều bạn hay nhầm, nên em cứ yên tâm: kiểm tra lại một lượt là bắt được ngay.
 :::
 
 ## Thuật ngữ
@@ -130,10 +131,11 @@ Vậy chia được $5$ túi.
 - $6$ gấp đôi $3$, nên $6\times n$ gấp đôi $3\times n$.
 - Từ $6\times a=b$ ta có $b:6=a$ và $b:a=6$.
 - Ghi đơn vị trong đáp số; thử lại phép chia bằng phép nhân.
+Quay lại câu hỏi đầu bài: số trứng của bốn vỉ, em tìm được ngay nhờ bảng nhân $6$. Em nhớ mỗi nhóm thêm một lần $6$, và phép chia luôn dựa vào bảng nhân. Em làm các bài luyện tập bên dưới để bảng nhân $6$ thuộc dần nhé.
 
 ## Luyện tập
 
-Mỗi bài có phần kiến thức và gợi ý. Em hãy tự làm trước, rồi mới bấm xem lời giải.
+Mỗi bài có kèm phần kiến thức cần nhớ và một gợi ý để em bắt đầu. Em cứ tự làm trước, chỗ nào vướng thì mới mở lời giải. Làm sai một lần cũng không sao, vì chính chỗ sai giúp em nhớ lâu.
 
 :::exercise
 Tính:

@@ -10,13 +10,13 @@ minutes: 20
 - Find the length of a common chord, a radius or the distance between the centres.
 :::
 
-Two phone masts $O$ and $O'$ are $7$ km apart and cover radii of $5$ km and $3$ km respectively. Do the two coverage zones overlap? What if mast $O'$ is moved so that the masts are $8$ km apart?
+Two phone masts $O$ and $O'$ are $7$ km apart and cover radii of $5$ km and $3$ km respectively. Do the two coverage zones overlap? What if mast $O'$ is moved so that the masts are $8$ km apart? To answer, we compare the distance between the centres with the radii, and this lesson shows how.
 
 ## Common points of two circles
 
 ### Explore: pull two circles apart
 
-Take $(O, R)$ and $(O', r)$ with $R\geq r$, and $d=OO'$. Put the small circle inside the large one and slowly pull it out: they touch from inside when $d=R-r$, then intersect, touch from outside when $d=R+r$, and finally move apart.
+Take $(O, R)$ and $(O', r)$ with $R\geq r$, and $d=OO'$. Picture the small circle sitting inside the large one at first, and slowly pull it out. They touch from inside when $d=R-r$, then intersect, touch from outside when $d=R+r$, and finally move apart. Each time the number of common points changes, the distance between the centres has a special value, and that is what we want to record.
 
 :::theorem Relative position of $(O, R)$ and $(O', r)$, $R\geq r$, $d=OO'$
 - **Intersect** ($2$ common points): $R-r<d<R+r$.
@@ -26,7 +26,7 @@ Take $(O, R)$ and $(O', r)$ with $R\geq r$, and $d=OO'$. Put the small circle in
 - **One inside the other** ($0$ common points): $d<R-r$; when $d=0$ the circles are **concentric**.
 :::
 
-The line $OO'$ is called the **line of centres**. Every line through the centre is a line of symmetry of a circle, so the line of centres is a common line of symmetry of both circles.
+The line $OO'$ is called the **line of centres**. This line is useful because it is a common line of symmetry of both circles. Why? Because every line through the centre of a circle is a line of symmetry of it, and the line of centres passes through the centre of each.
 
 :::example Answering the opening question
 Solve the opening problem.
@@ -45,9 +45,9 @@ So at first the two coverage zones overlap; when the masts are $8$ km apart, the
 - If two circles touch at $T$, then $T$ lies on the line of centres.
 :::
 
-**Why?** We have $OA=OB$ and $O'A=O'B$, so $O$ and $O'$ both lie on the perpendicular bisector of $AB$.
+**Why?** We have $OA=OB$ and $O'A=O'B$ because these are all radii. A point equally far from the two ends of a segment lies on its perpendicular bisector, so $O$ and $O'$ both lie on the perpendicular bisector of $AB$.
 
-If two circles touch at $T$ and $T$ is not on $OO'$, then the reflection of $T$ in $OO'$ is also a common point (because $OO'$ is a common line of symmetry). Then the circles would have two common points, which is impossible.
+Touching circles need a proof by contradiction. Suppose two circles touch at $T$ and $T$ is not on $OO'$. Then the reflection of $T$ in $OO'$ is also a common point, because $OO'$ is a common line of symmetry of both circles. That would give the circles two common points, which is impossible, since touching circles have only one. So the point of contact must lie on the line of centres.
 
 :::diagram Two circles intersecting at $A$ and $B$
 alt: Two circles with centres O, O' meeting at A, B; OO' is perpendicular to AB at its midpoint H
@@ -79,7 +79,7 @@ So $AB=24$ cm.
 
 ## Two touching circles
 
-When two circles touch externally at $T$, the point $T$ lies between $O$ and $O'$, so $OO'=OT+TO'=R+r$. The line through $T$ perpendicular to $OO'$ is a common tangent of the two circles at $T$.
+When two circles touch externally at $T$, the point $T$ lies between $O$ and $O'$. So $OO'=OT+TO'=R+r$: the distance between the centres is exactly the sum of the radii. Also, the line through $T$ perpendicular to $OO'$ is a common tangent of the two circles at $T$.
 
 :::diagram Two circles touching externally at $T$
 alt: Two circles with centres O, O' touching externally at T on OO', with the common tangent at T
@@ -106,8 +106,8 @@ So the small wheel has radius $5$ cm and the large wheel has radius $10$ cm.
 :::
 
 :::warning Common mistakes
-- **Only thinking of touching externally.** Wrong: "Two circles of radii $7$ and $3$ touch, so $OO'=10$". Why it is wrong: they may touch internally. Right: $OO'=10$ or $OO'=4$.
-- **Mixing up "do not meet" and "lie outside each other".** Wrong: $d=1$, $R=5$, $r=3$, so the circles lie outside each other. Why it is wrong: $d<R-r=2$. Right: one circle is inside the other.
+- **Only thinking of touching externally.** Many people forget the second case here. Wrong: "Two circles of radii $7$ and $3$ touch, so $OO'=10$". Why it is wrong: they may touch internally. Right: $OO'=10$ or $OO'=4$.
+- **Mixing up "do not meet" and "lie outside each other".** Having no common point does not mean the circles lie outside each other. Wrong: $d=1$, $R=5$, $r=3$, so the circles lie outside each other. Why it is wrong: $d<R-r=2$. Right: one circle is inside the other.
 :::
 
 ## Key terms
@@ -127,10 +127,11 @@ So the small wheel has radius $5$ cm and the large wheel has radius $10$ cm.
 - Intersect: $R-r<d<R+r$; touch externally: $d=R+r$; touch internally: $d=R-r$; outside each other: $d>R+r$; one inside the other: $d<R-r$.
 - The line of centres is a line of symmetry, the perpendicular bisector of the common chord, and passes through the point of contact.
 - For a common chord: let $OH=x$ and write $AH^2$ in two ways.
+Back to the two masts: comparing the distance between the centres with the sum and the difference of the radii tells us whether the zones overlap, touch or stay apart. Remember to compare with both. Work through the practice problems to get used to each case.
 
 ## Practice
 
-Each exercise comes with what you need and some steps to start. Try it yourself first, then open the solution.
+Each exercise comes with the facts you need and a few steps to start you off. Try it yourself first, then open the solution when you want to check your work.
 
 :::exercise
 Consider the circles $(O, 6\text{ cm})$ and $(O', 4\text{ cm})$. Find their relative position in each of the following cases:

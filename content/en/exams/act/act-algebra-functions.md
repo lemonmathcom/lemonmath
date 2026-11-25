@@ -12,11 +12,11 @@ minutes: 45
 - Evaluate and compose functions, and work with exponential growth and logarithms.
 :::
 
-Algebra and functions make up a large part of the ACT Math test, and they also appear inside geometry, statistics and modeling questions. The good news for students from the Vietnamese curriculum is that the algebra itself is familiar. The skills to sharpen are translating English sentences into equations quickly, and reading what a question really asks for: often not $x$, but an expression such as $x+y$ or $2x-1$.
+Have you ever worked a question through correctly and still picked the wrong answer? With algebra and functions it happens quite often. They make up a large part of the ACT Math test, and they also appear inside geometry, statistics and modelling questions. The good news for students from the Vietnamese curriculum is that the algebra itself is familiar. Two skills are worth sharpening: turning English sentences into equations quickly, and reading what the question really asks for. Often that is not $x$, but an expression such as $x+y$ or $2x-1$.
 
 ## Linear equations and inequalities
 
-Translate a word problem by naming the unknown, writing one equation or inequality, and solving it. When you multiply or divide an inequality by a negative number, reverse the inequality sign.
+Every word problem goes through the same three steps: name the unknown, write one equation or inequality, and solve it. Here is a spot where many students slip: when you multiply or divide an inequality by a negative number, you must reverse the inequality sign. The example below is a budget problem, so let us work through it step by step.
 
 :::example A budget inequality
 A gym charges a $30$-dollar membership fee plus $12$ dollars per class. Lan has $150$ dollars. What is the greatest number of classes she can take?
@@ -35,7 +35,7 @@ So Lan can take at most $10$ classes, answer **B**. Option A forgets the members
 
 ## Systems of linear equations
 
-Solve by substitution or elimination. A system has **no solution** when the lines are parallel (same slope, different intercepts) and **infinitely many** when the equations describe the same line.
+There are two familiar ways to solve a system: substitution and elimination. To see whether a solution exists, think about two lines. If they are parallel (same slope, different intercepts), they never meet, so the system has **no solution**. If both equations describe the same line, every point on it is a solution, so the system has **infinitely many**. The next example has a trap about reading the question.
 
 :::example Asking for x + y
 If $2x+3y=12$ and $x-y=1$, what is the value of $x+y$?
@@ -55,7 +55,7 @@ So $x+y=5$, answer **A**. Read the question to the end: it asks for $x+y$, not f
 
 ## Quadratics
 
-Factor when the numbers are simple, use the quadratic formula otherwise. For $y=ax^2+bx+c$, the vertex is at $x=-\dfrac{b}{2a}$; the sum of the roots is $-\dfrac ba$ and the product is $\dfrac ca$.
+When the numbers are simple, try factoring first. If that does not work, use the quadratic formula. For $y=ax^2+bx+c$, the vertex is at $x=-\dfrac{b}{2a}$. The sum of the roots is $-\dfrac ba$ and the product is $\dfrac ca$. These two facts answer questions about a sum or product of roots quickly, without solving the whole equation.
 
 :::example Roots of a quadratic
 What is the sum of the solutions of $x^2-5x-14=0$?
@@ -74,7 +74,7 @@ So the sum of the solutions is $5$, answer **D**. This agrees with $-\dfrac ba=5
 
 ## Absolute value
 
-$|A|<k$ (with $k>0$) means $-k<A<k$; $|A|>k$ means $A<-k$ or $A>k$; $|A|=k$ means $A=k$ or $A=-k$.
+Absolute value measures distance, so when it equals a positive number there are two possibilities. $|A|<k$ (with $k>0$) means $-k<A<k$, so it stays close to zero. $|A|>k$ means $A<-k$ or $A>k$, so it is far away. And $|A|=k$ means $A=k$ or $A=-k$.
 
 :::example Integers satisfying an inequality
 How many integers $x$ satisfy $|2x-3|<7$?
@@ -94,7 +94,7 @@ So $6$ integers satisfy the inequality, answer **C**. The endpoints $-2$ and $5$
 
 ## Functions: notation, composition and exponential models
 
-$f(g(x))$ means: apply $g$ first, then $f$. An exponential model has the form $P(t)=P_0\cdot b^{t/k}$; for example, a quantity that doubles every $k$ units of time is $P_0\cdot2^{t/k}$. A logarithm answers the question "which power?": $\log_bx=y$ means $b^y=x$.
+Composition works from the inside out: $f(g(x))$ means apply $g$ first, then $f$. When a quantity multiplies over equal periods of time, we use an exponential model $P(t)=P_0\cdot b^{t/k}$. For example, a quantity that doubles every $k$ units of time is $P_0\cdot2^{t/k}$. A logarithm is really just a question: "which power?" Precisely, $\log_bx=y$ means $b^y=x$.
 
 :::example Evaluating a composition
 Let $f(x)=x^2-1$ and $g(x)=3x+2$. What is $f\big(g(-1)\big)$?
@@ -126,11 +126,12 @@ So there are $8000$ bacteria after $12$ hours, answer **C**. Option D adds $500$
 :::
 
 :::warning Common traps
-- **Answering the wrong quantity:** the question asks for $x+y$, $2x$ or "how many more"; underline it.
-- **Reversing the inequality** when multiplying by a negative number, or forgetting to.
+- **Answering the wrong quantity:** the question may ask for $x+y$, $2x$ or "how many more". Underline what is asked before you start.
+- **Reversing the inequality** when multiplying by a negative number: some students forget, and some reverse it when they should not.
 - **Strict and non-strict inequalities:** $<$ excludes the endpoints.
 - **Composition order:** $f(g(x))$ applies $g$ first.
 - **Linear instead of exponential:** "doubles every $3$ hours" multiplies; it does not add.
+Reading the question once more before you choose an answer catches most of these.
 :::
 
 :::terms

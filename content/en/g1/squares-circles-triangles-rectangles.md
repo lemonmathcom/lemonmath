@@ -10,13 +10,13 @@ minutes: 15
 - Find these shapes in things around you.
 :::
 
-Look around the classroom: a clock face, a sheet of paper, a handkerchief, a road sign. Each thing has a different shape. How do you name these shapes?
+Look around your classroom. There is a clock face, a sheet of paper, a handkerchief and a road sign. Each one has its own shape. How do you know what to call each shape?
 
-In the last lesson you learned to split numbers. In this lesson you learn to spot four familiar shapes.
+In the last lesson you split numbers. Now we look at shapes. When you know the name of a shape, you can describe an object with a single word: circle, square, rectangle. Four familiar shapes come first, and for each one we will count the sides.
 
 ## Let's explore
 
-Look at the four shapes below.
+Look closely at the four shapes below. Which of them have you seen at home or at school?
 
 :::diagram Four shapes: a square, a rectangle, a triangle and a circle
 alt: Four shapes: a square, a rectangle, a triangle and a circle
@@ -42,12 +42,13 @@ label 10,-0.7 "triangle"
 label 13,-0.7 "circle"
 :::
 
-Run your finger along the edge of each shape.
+Run your finger slowly along the edge of each shape. Is the edge straight or curved? Count how many straight pieces you find.
 
 - A square has $4$ sides, and all $4$ sides are the same length.
-- A rectangle has $4$ sides: two long sides the same length and two short sides the same length.
+- A rectangle also has $4$ sides, but only in pairs: two long sides the same length and two short sides the same length.
 - A triangle has $3$ sides and $3$ corners.
-- A circle has no sides. Its edge is round and curved.
+- A circle has no sides at all. Its edge is round and curved.
+Many children mix up a square and a rectangle. Just remember: in a square, every side is the same length.
 
 :::theorem Four familiar shapes
 1. Square: $4$ sides of the same length.
@@ -56,11 +57,11 @@ Run your finger along the edge of each shape.
 4. Circle: no sides and no corners.
 :::
 
-This works because you only need to count the sides and see whether they are long or short to name the shape.
+Why does this work? Every shape has its own number of sides and its own side lengths. Count the sides, then see whether they are all the same length, and you can name the shape.
 
 ## Examples
 
-We start with a familiar object.
+We try it on something you see often: a bicycle wheel.
 
 :::example A bicycle wheel
 What shape is a bicycle wheel?
@@ -70,7 +71,7 @@ What shape is a bicycle wheel?
 So the wheel is a circle.
 :::
 
-Now name a shape with sides.
+A wheel has no sides. Now we try a shape that does have sides: a handkerchief.
 
 :::example A handkerchief
 A handkerchief has $4$ sides, and all $4$ sides are the same length. What shape is it?
@@ -80,7 +81,7 @@ A handkerchief has $4$ sides, and all $4$ sides are the same length. What shape 
 So the handkerchief is a square.
 :::
 
-Next, tell a rectangle apart.
+A window has sides too, but it is not like the handkerchief. Where is the difference?
 
 :::example A window
 A window has $4$ sides. Two sides are long and the same, and two sides are short and the same. What shape is it?
@@ -90,7 +91,7 @@ A window has $4$ sides. Two sides are long and the same, and two sides are short
 So the window is a rectangle.
 :::
 
-Last, count the shapes in a picture made of shapes.
+Sometimes an object is put together from several shapes. Here we count the shapes in a house.
 
 :::example A house made of shapes
 You make a house from one square (the walls) and one triangle (the roof). How many shapes did you use?
@@ -103,9 +104,10 @@ So you used $2$ shapes.
 :::
 
 :::warning Mistakes to watch out for
-- **Mixing up a rectangle and a square.** Wrong: a shape with two long sides and two short sides is a square. Why it is wrong: a square has all $4$ sides the same. Right: it is a rectangle.
+- **Mixing up a rectangle and a square.** Wrong: a shape with two long sides and two short sides is a square. Why it is wrong: a square has all $4$ sides the same. Right: that shape is a rectangle.
 - **Saying a triangle has $4$ sides.** Wrong: a triangle has $4$ sides. Why it is wrong: a triangle has only $3$ sides. Right: a triangle has $3$ sides.
-- **Saying a circle has a side.** Wrong: a circle has $1$ side. Why it is wrong: its edge is curved, with no straight side. Right: a circle has no sides.
+- **Saying a circle has a side.** Wrong: a circle has $1$ side. Why it is wrong: its edge is curved, with no straight side at all. Right: a circle has no sides.
+Do not worry if you get these wrong at first. Count the sides slowly and you will get them right.
 :::
 
 ## Key terms
@@ -126,10 +128,11 @@ So you used $2$ shapes.
 - A rectangle has $4$ sides: two long and two short.
 - A triangle has $3$ sides and $3$ corners.
 - A circle has no sides and no corners.
+Look back at the clock face, the sheet of paper, the handkerchief and the road sign: you can now name each shape. Remember to count the sides first, then see whether they are the same length, and practise a few exercises to train your eye.
 
 ## Practice
 
-Each exercise comes with what you need and how to start. Try it yourself first, then open the solution.
+Each exercise has a reminder of what you need and a hint to get started. Try it yourself first, and take your time. When you finish, or if you get stuck, open the solution.
 
 :::exercise
 What shape is a wall clock face?

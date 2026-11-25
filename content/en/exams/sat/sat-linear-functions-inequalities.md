@@ -11,7 +11,7 @@ minutes: 35
 - Solve linear inequalities and check points against a system of inequalities.
 :::
 
-After equations and systems, the rest of the SAT Algebra domain is about lines: their equations, what their numbers mean in a real situation, and inequalities. In Vietnam you write a line as $y=ax+b$; the SAT writes $y=mx+b$ and calls $m$ the **slope**. Many questions here need no calculation at all, only the right reading of $m$ and $b$.
+A tank draining, savings growing steadily week after week: in both we want to know how fast the quantity changes and where it starts. A line answers both questions. So after equations and systems, the rest of the SAT Algebra domain is about lines: their equations, what their numbers mean in a real situation, and inequalities. In Vietnam you write a line as $y=ax+b$; the SAT writes $y=mx+b$ and calls $m$ the **slope**. Many questions here need no calculation at all, only the right reading of $m$ and $b$.
 
 ## Slope and the equation $y=mx+b$
 
@@ -21,7 +21,7 @@ $$m=\frac{y_2-y_1}{x_2-x_1}.$$
 In $y=mx+b$, $m$ is the slope and $b$ is the $y$-intercept: the line crosses the $y$-axis at $(0, b)$. The $x$-intercept is the value of $x$ when $y=0$.
 :::
 
-A positive slope means the line rises from left to right; a negative slope means it falls. A slope of $2$ means: each time $x$ increases by $1$, $y$ increases by $2$.
+The slope tells you how steep a line is. A positive slope means the line rises from left to right; a negative slope means it falls. The number itself measures the steepness: a slope of $2$ means each time $x$ increases by $1$, $y$ increases by $2$.
 
 :::example A line through two points
 Line $\ell$ passes through the points $(1, 3)$ and $(4, 9)$. Which equation defines line $\ell$?
@@ -49,9 +49,9 @@ point: (0, 1) "b = 1" left
 
 ## Linear models in context
 
-A linear function $f(x)=mx+b$ models a quantity that changes at a constant rate. The SAT asks what the numbers mean:
+A linear function $f(x)=mx+b$ models a quantity that changes at a constant rate. In word problems, the SAT asks what the numbers mean:
 
-- $b$ is the **starting value**, the value when $x=0$;
+- $b$ is the **starting value**, the value at the start, when $x=0$;
 - $m$ is the **rate of change**, the change in the quantity for each increase of $1$ in $x$.
 
 :::example Interpreting a model
@@ -64,7 +64,7 @@ D. The height of the plant, in centimeters, after 3 weeks
 **Solution.** $3$ multiplies $t$, so it is the rate of change: the plant grows $3$ centimeters each week. The answer is **C**. Option A describes $12$, the value at $t=0$.
 :::
 
-When a function is known to be linear, two values are enough to find any other.
+Here is something useful: when a function is known to be linear, two values are enough to find any other. Two values give the slope, and once you have the slope you can travel from any point to any other.
 
 :::example A linear function from two values
 The function $f$ is linear, with $f(2)=7$ and $f(5)=16$. What is the value of $f(10)$?
@@ -92,7 +92,7 @@ The $y$-intercept is $3$. You type **3**.
 
 ## Linear inequalities
 
-Solve an inequality like an equation, with one extra rule: **when you multiply or divide both sides by a negative number, reverse the inequality sign.**
+Solve an inequality like an equation, with one extra rule. Why is it needed? Multiplying by a negative number reverses the order of the numbers on the number line, so a smaller number becomes a larger one. That is why: **when you multiply or divide both sides by a negative number, reverse the inequality sign.**
 
 :::example Reversing the sign
 Which of the following describes all solutions of $-3x+7\le22$?
@@ -104,7 +104,7 @@ D. $x\ge5$
 **Solution.** Subtract $7$: $-3x\le15$. Divide by $-3$ and reverse the sign: $x\ge-5$. The answer is **B**. Option A forgets to reverse the sign. Quick check with $x=0$: $7\le22$ is true, and $0\ge-5$.
 :::
 
-In two variables, the solutions of an inequality form a half-plane, and the solutions of a system of inequalities form the region where the half-planes overlap. To test whether a point is a solution, substitute it into **every** inequality.
+In two variables, each inequality cuts the plane into two halves. Its solutions form a half-plane, and the solutions of a system of inequalities form the region where the half-planes overlap. To test whether a point is a solution, substitute it into **every** inequality. One false inequality is enough to rule the point out.
 
 :::example A system of inequalities in context
 Notebooks cost 4 dollars each and pens cost 2 dollars each. Minh can spend at most 40 dollars and wants at least 12 items in total. If $n$ is the number of notebooks and $p$ the number of pens, which pair $(n, p)$ satisfies both conditions?
@@ -136,15 +136,15 @@ point: (6, 8) "(6, 8)" above-right
 :::
 
 :::warning Common traps
-- **Slope upside down.** Slope is change in $y$ over change in $x$, never the reverse.
+- **Slope upside down.** Remember: slope is change in $y$ over change in $x$, never the reverse.
 - **Mixing up $m$ and $b$ in context.** The number multiplied by the variable is the rate; the number standing alone is the starting value.
-- **Perpendicular is not just "negative".** The slope perpendicular to $2$ is $-\dfrac12$, not $-2$.
-- **Forgetting to reverse the sign** when dividing by a negative number.
+- **Perpendicular is not just "negative".** The slope perpendicular to $2$ is $-\dfrac12$, not $-2$. Take the reciprocal first, then change the sign.
+- **Forgetting to reverse the sign** when dividing by a negative number. This one is easy to miss when you work in a hurry.
 - **Words for inequalities.** *At least* means $\ge$; *at most* and *no more than* mean $\le$; *more than* means $>$; *fewer than* means $<$.
 :::
 
 :::tip Desmos for lines and inequalities
-Type an inequality such as `4x+2y<=40` and Desmos shades its half-plane; type a second one and the overlap is the solution region. To test answer options, type each point, for example `(6,8)`, and see whether it lies in the overlap.
+Desmos can draw the solution region for you. Type an inequality such as `4x+2y<=40` and Desmos shades its half-plane. Type a second one and the overlap is the solution region. To test answer options, type each point, for example `(6,8)`, and see whether it lies in the overlap.
 :::
 
 :::terms

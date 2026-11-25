@@ -12,7 +12,7 @@ minutes: 45
 - Viết một chứng minh suy diễn ngắn theo kiểu "show that".
 :::
 
-Chủ đề 1 hiếm khi chiếm trọn một câu dài ở Section B, nhưng có mặt trong gần như mọi đề: một câu về cấp số ở Section A, một bước logarit trong câu giải tích, một hệ số nhị thức trong câu xác suất. Các công thức đều có trong sổ công thức; điểm số đến từ việc chọn đúng công thức, lập phương trình gọn gàng và ghi đáp số đúng dạng chính xác ở Paper 1.
+Mở một đề IB Math AA bất kì, bạn gần như chắc chắn gặp chủ đề 1 ở đâu đó. Có thể là một câu về cấp số ở Section A, một bước logarit nằm trong câu giải tích, hay một hệ số nhị thức trong câu xác suất. Chủ đề này hiếm khi chiếm trọn một câu dài ở Section B, nhưng có mặt trong gần như mọi đề. Vậy làm sao để lấy trọn những điểm nhỏ mà hay gặp này? Các công thức đều có trong sổ công thức. Điểm số đến từ việc chọn đúng công thức, lập phương trình gọn gàng và ghi đáp số đúng dạng chính xác ở Paper 1.
 
 ## Cấp số cộng và cấp số nhân
 
@@ -22,7 +22,7 @@ Chủ đề 1 hiếm khi chiếm trọn một câu dài ở Section B, nhưng c�
 | Tổng $n$ số hạng | $S_n=\dfrac n2\big(2u_1+(n-1)d\big)=\dfrac n2(u_1+u_n)$ | $S_n=\dfrac{u_1\left(r^n-1\right)}{r-1}$, $r\ne1$ |
 | Tổng vô hạn | không tồn tại (trừ khi mọi số hạng bằng $0$) | $S_\infty=\dfrac{u_1}{1-r}$, chỉ khi $|r|<1$ |
 
-Khi đề cho hai số hạng, hãy viết hai phương trình ẩn $u_1$ và $d$ (hoặc $u_1$ và $r$) rồi giải. Với cấp số nhân, chia hai phương trình cho nhau sẽ khử được $u_1$.
+Khi đề cho hai số hạng, ta có hai dữ kiện và hai ẩn, nên hãy viết hai phương trình ẩn $u_1$ và $d$ (hoặc $u_1$ và $r$) rồi giải. Với cấp số nhân, có một mẹo gọn: chia hai phương trình cho nhau. Vì sao được? Vì $u_1$ có mặt ở cả hai phương trình, nên khi chia nó triệt tiêu, chỉ còn công bội.
 
 :::example Hai số hạng của cấp số cộng
 Trong một cấp số cộng, $u_3=11$ và $u_8=26$.
@@ -48,9 +48,9 @@ Số hạng đầu của một cấp số nhân là $48$, và tổng vô hạn b
 
 ## Lãi kép và tăng trưởng (Paper 2)
 
-Số tiền đầu tư với lãi suất năm $r\%$, ghép lãi $k$ lần mỗi năm, sau $n$ năm trở thành
+Bạn gửi tiền vào ngân hàng, sang năm tiền lãi lại sinh thêm lãi. Đó là lãi kép. Số tiền đầu tư với lãi suất năm $r\%$, ghép lãi $k$ lần mỗi năm, sau $n$ năm trở thành
 $$FV=PV\left(1+\frac{r}{100k}\right)^{kn}.$$
-Ở Paper 2 bạn có thể dùng chức năng tài chính của GDC, nhưng hãy viết công thức đã thay số: dòng đó mang điểm phương pháp.
+Ở Paper 2 bạn có thể dùng chức năng tài chính của GDC. Dù vậy, hãy vẫn viết ra công thức đã thay số, vì dòng đó mang điểm phương pháp.
 
 :::example Ghép lãi hằng tháng
 Mai đầu tư $5000$ đô la với lãi suất năm $3{,}6\%$, ghép lãi hằng tháng. Tính giá trị khoản đầu tư sau $4$ năm, làm tròn đến đô la. [3 marks]
@@ -82,7 +82,7 @@ Giải $\log_3x+\log_3(x-8)=2$. [5 marks]
 ## Nhị thức Newton
 
 $$(a+b)^n=\sum_{r=0}^{n}\binom nr a^{n-r}b^r,\qquad\binom nr=\frac{n!}{r!(n-r)!}.$$
-Để tìm một số hạng, hãy viết số hạng tổng quát rồi xác định $r$ nào cho luỹ thừa cần tìm. Giữ nguyên dấu và hệ số ở trong ngoặc.
+Khai triển cả biểu thức thì rất dài, mà ta thường chỉ cần một số hạng. Vì vậy hãy viết số hạng tổng quát, rồi tìm $r$ nào cho luỹ thừa cần tìm. Khi thay vào, giữ dấu và hệ số trong ngoặc, vì chỗ này rất dễ mất dấu.
 
 :::example Một hệ số và một số hạng không chứa x
 (a) Tìm hệ số của $x^3$ trong khai triển $(2x-3)^5$. [3 marks]
@@ -95,7 +95,7 @@ $$(a+b)^n=\sum_{r=0}^{n}\binom nr a^{n-r}b^r,\qquad\binom nr=\frac{n!}{r!(n-r)!}
 
 ## Chứng minh
 
-Ở SL, các chứng minh ngắn và mang tính suy diễn: xuất phát từ điều đã biết, biến đổi đại số, và kết thúc bằng mệnh đề cần chứng minh. Hãy viết "VT $=$" (vế trái) rồi biến đổi từng bước thành vế phải, hoặc chứng tỏ một đại lượng là bội của một số bằng cách đặt số đó ra ngoài.
+Câu "show that" cho sẵn kết quả, nên việc của bạn là chỉ ra con đường dẫn tới nó. Ở SL, các chứng minh ngắn và mang tính suy diễn: xuất phát từ điều đã biết, biến đổi đại số, và kết thúc bằng mệnh đề cần chứng minh. Có hai cách hay dùng. Một là viết "VT $=$" (vế trái) rồi biến đổi từng bước thành vế phải. Hai là chứng tỏ một đại lượng là bội của một số bằng cách đặt số đó ra ngoài.
 
 :::example Một chứng minh "show that"
 Chứng minh rằng tổng của ba số nguyên liên tiếp bất kì là bội của $3$. [3 marks]
@@ -106,12 +106,14 @@ Hãy để ý ba phần: gọi tên đối tượng bằng đại số, rút g�
 :::
 
 :::warning Những cái bẫy thường gặp
-- **Dùng $S_\infty$ khi $|r|\ge1$.** Hãy kiểm tra điều kiện; có câu hỏi yêu cầu đúng việc kiểm tra này.
-- **Quên $-1$** trong $u_1+(n-1)d$ hoặc $u_1r^{n-1}$.
-- **Tự chế quy tắc logarit.** $\log(x+y)\ne\log x+\log y$, và $\dfrac{\log x}{\log y}\ne\log\dfrac xy$.
-- **Không loại nghiệm sai** của phương trình logarit, hoặc loại mà không nêu lí do.
+- **Dùng $S_\infty$ khi $|r|\ge1$.** Hãy kiểm tra điều kiện trước; có câu hỏi yêu cầu đúng việc kiểm tra này.
+- **Quên $-1$** trong $u_1+(n-1)d$ hoặc $u_1r^{n-1}$. Chỗ này nhiều bạn hay nhầm khi làm vội.
+- **Tự chế quy tắc logarit.** $\log(x+y)\ne\log x+\log y$, và $\dfrac{\log x}{\log y}\ne\log\dfrac xy$. Hãy chỉ dùng những quy tắc có trong sổ công thức.
+- **Không loại nghiệm sai** của phương trình logarit, hoặc loại mà không nêu lí do. Điểm R nằm đúng ở lí do này.
 - **Mất dấu** trong số hạng nhị thức: $(-3)^2=9$, nhưng $(-3)^3=-27$.
 - **Chứng minh vòng quanh:** trong câu "show that", không bao giờ xuất phát từ mệnh đề cần chứng minh.
+
+Đừng lo nếu lần đầu bạn vướng vài bẫy này. Mỗi lần làm bài, hãy dành vài giây rà lại những chỗ ở trên.
 :::
 
 :::terms

@@ -5,7 +5,7 @@ minutes: 90
 type: exam
 ---
 
-Đề gồm ba phần như đề thi tốt nghiệp THPT: 12 câu trắc nghiệm nhiều phương án, 4 câu đúng sai và 6 câu trả lời ngắn, làm trong 90 phút. Phần I mỗi câu 0,25 điểm; Phần II mỗi câu tối đa 1 điểm, tính theo số ý đúng; Phần III mỗi câu 0,5 điểm. Bạn hãy in phiếu và làm trên giấy trước, rồi nhập đáp án vào các ô dưới đây để được chấm trên thang điểm 10. Đề này có nhiều câu vận dụng hơn đề số 1, nên hãy dành khoảng 40 phút cho Phần III.
+Đề này cũng có ba phần như đề thi tốt nghiệp THPT: 12 câu trắc nghiệm nhiều phương án, 4 câu đúng sai và 6 câu trả lời ngắn, làm trong 90 phút. Phần I mỗi câu 0,25 điểm. Phần II mỗi câu tối đa 1 điểm, tính theo số ý đúng. Phần III mỗi câu 0,5 điểm. Bạn nên in phiếu và làm trên giấy trước, rồi nhập đáp án vào các ô dưới đây để được chấm trên thang điểm 10. Đề này khó hơn đề số 1 một chút, vì có nhiều câu vận dụng hơn. Những câu đó cần thời gian để nghĩ, nên bạn hãy dành khoảng 40 phút cho Phần III.
 
 :::quiz exam
 ::mc TH

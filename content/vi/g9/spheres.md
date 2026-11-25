@@ -12,11 +12,11 @@ minutes: 20
 
 Archimedes (287–212 TCN) có rất nhiều phát minh, nhưng ông coi kết quả về hình cầu và hình trụ là quan trọng nhất: thể tích hình cầu bằng $\dfrac23$ thể tích hình trụ ngoại tiếp nó, và diện tích mặt cầu cũng bằng $\dfrac23$ diện tích toàn phần của hình trụ đó. Ông muốn khắc hình một quả cầu trong hình trụ lên mộ mình; khoảng năm 75 TCN, Cicero đã tìm thấy ngôi mộ nhờ hình vẽ ấy (theo MacTutor, Đại học St Andrews).
 
-Từ quả bóng đá đến Trái Đất, hình cầu có mặt khắp nơi. Vỏ một quả bóng rộng bao nhiêu? Một viên bi chứa bao nhiêu kim loại? Bài này trả lời bằng phát hiện của Archimedes.
+Hình cầu ở quanh ta: quả bóng đá, viên bi, quả cam, và cả Trái Đất nơi ta đang đứng. Muốn biết vỏ một quả bóng rộng bao nhiêu, hay một viên bi chứa bao nhiêu kim loại, ta cần những công thức đúng. Archimedes đã tìm ra chúng từ rất lâu rồi, và ta sẽ đi theo phát hiện ấy. Biết công thức, ta chỉ cần đo bán kính là tính được, khỏi phải bóc vỏ hay cắt xẻ.
 
 ## Hình cầu và mặt cắt
 
-Quay một nửa hình tròn tâm $O$, bán kính $R$ một vòng quanh đường kính cố định, ta được một **hình cầu** tâm $O$, bán kính $R$. Nửa đường tròn quét thành **mặt cầu**: mọi điểm của mặt cầu cách $O$ đúng bằng $R$.
+Hình dung một nửa hình tròn tâm $O$, bán kính $R$ được cắm vào một chiếc que dọc theo đường kính. Xoay que một vòng, nửa hình tròn sẽ quét ra một **hình cầu** tâm $O$, bán kính $R$. Riêng nửa đường tròn thì quét thành **mặt cầu**, tức là lớp vỏ ngoài: mọi điểm của mặt cầu cách $O$ đúng bằng $R$.
 
 :::diagram Hình cầu tâm $O$, bán kính $R$
 alt: Hình cầu tâm O bán kính R với đường tròn lớn nằm ngang vẽ như một hình elip, nửa sau nét đứt
@@ -53,7 +53,7 @@ label 1.5,0.25 "R"
 
 ### Khám phá: cắt hình cầu bằng một mặt phẳng
 
-Hình dung cắt một hình cầu (chẳng hạn một quả cam gần tròn) bằng một nhát dao thẳng: mặt cắt là một hình tròn. Nhát cắt đi qua tâm cho hình tròn lớn nhất, bán kính $R$: đường tròn biên của nó gọi là **đường tròn lớn** (như đường xích đạo của Trái Đất). Nhát cắt cách tâm một khoảng $d$ ($d<R$) cho hình tròn bán kính $r=\sqrt{R^2-d^2}$, theo định lí Pythagore trong tam giác $OHM$ vuông tại $H$.
+Thử nghĩ đến một quả cam gần tròn và một nhát dao thẳng. Dù cắt ở đâu, mặt cắt cũng là một hình tròn. Nhát cắt đi qua tâm cho hình tròn to nhất, bán kính $R$, và đường tròn biên của nó gọi là **đường tròn lớn**, như đường xích đạo của Trái Đất. Nếu nhát cắt cách tâm một khoảng $d$ ($d<R$) thì hình tròn nhỏ lại, với bán kính $r=\sqrt{R^2-d^2}$. Vì sao lại có công thức này? Vì trong tam giác $OHM$ vuông tại $H$, định lí Pythagore cho ta đúng hệ thức đó.
 
 :::diagram Mặt cắt cách tâm $O$ một khoảng $d=OH$
 alt: Nhìn từ bên cạnh: đường tròn tâm O bán kính R, một dây nằm ngang cách O một khoảng d, nửa dây bằng r
@@ -85,13 +85,13 @@ Vậy mặt cắt là hình tròn bán kính $12$ cm, diện tích khoảng $452
 
 ## Diện tích mặt cầu và thể tích hình cầu
 
-Hình trụ ngoại tiếp hình cầu bán kính $R$ có bán kính đáy $R$ và chiều cao $2R$. Diện tích xung quanh của nó là $2\pi R\cdot2R=4\pi R^2$ và thể tích là $\pi R^2\cdot2R=2\pi R^3$. Archimedes đã chứng minh: diện tích mặt cầu đúng bằng diện tích xung quanh của hình trụ ngoại tiếp, còn thể tích hình cầu bằng $\dfrac23$ thể tích hình trụ đó.
+Ta thử so hình cầu với hình trụ vừa khít bao quanh nó. Hình trụ ngoại tiếp hình cầu bán kính $R$ có bán kính đáy $R$ và chiều cao $2R$. Diện tích xung quanh của nó là $2\pi R\cdot2R=4\pi R^2$ và thể tích là $\pi R^2\cdot2R=2\pi R^3$. Archimedes đã chứng minh một điều đáng nhớ: diện tích mặt cầu đúng bằng diện tích xung quanh của hình trụ ngoại tiếp, còn thể tích hình cầu bằng $\dfrac23$ thể tích hình trụ đó. Nhờ vậy, từ một hình trụ quen thuộc ta suy ra được hình cầu.
 
 :::theorem Hình cầu bán kính $R$
 $$S=4\pi R^2,\qquad V=\frac43\pi R^3.$$
 :::
 
-**Hiểu sâu hơn.** $S=4\pi R^2$ nghĩa là mặt cầu có diện tích bằng đúng $4$ hình tròn lớn. *Hoạt động:* vẽ $4$ hình tròn có bán kính bằng bán kính một quả cam, bóc vỏ cam thành từng mảnh nhỏ rồi thử phủ lên các hình tròn đó và so sánh với công thức (quả cam không tròn tuyệt đối nên kết quả chỉ gần đúng). Thể tích tỉ lệ với $R^3$: bán kính gấp đôi thì thể tích gấp $8$ lần.
+**Hiểu sâu hơn.** Công thức $S=4\pi R^2$ nói rằng mặt cầu có diện tích bằng đúng $4$ hình tròn lớn. Bạn có thể tự kiểm tra bằng một quả cam. *Hoạt động:* vẽ $4$ hình tròn có bán kính bằng bán kính một quả cam, bóc vỏ cam thành từng mảnh nhỏ rồi thử phủ lên các hình tròn đó và so với công thức. Quả cam không tròn tuyệt đối nên kết quả chỉ gần đúng, đừng lo nếu hơi lệch. Còn thể tích thì tỉ lệ với $R^3$: bán kính gấp đôi thì thể tích gấp $8$ lần, vì cả chiều dài, chiều rộng và chiều cao đều tăng gấp đôi.
 
 :::example Tính diện tích và thể tích
 Tính diện tích mặt cầu và thể tích của hình cầu có bán kính $3$ cm.
@@ -136,12 +136,12 @@ Vậy đường xích đạo dài khoảng $40\,030$ km và diện tích bề m�
 :::
 
 :::warning Những sai lầm thường gặp
-- **Dùng đường kính thay cho bán kính.** Quả bóng đường kính $22$ cm có $R=11$ cm.
-- **Nhầm hai công thức.** Diện tích có $R^2$ (đơn vị cm²), thể tích có $R^3$ (đơn vị cm³). Sai: $V=4\pi R^2$.
-- **Nghĩ rằng gấp đôi bán kính thì thể tích gấp đôi.** Đúng: thể tích gấp $2^3=8$ lần, diện tích gấp $2^2=4$ lần.
+- **Dùng đường kính thay cho bán kính.** Hãy xem đề cho đường kính hay bán kính trước khi thay số: quả bóng đường kính $22$ cm có $R=11$ cm.
+- **Nhầm hai công thức.** Diện tích có $R^2$ (đơn vị cm²), thể tích có $R^3$ (đơn vị cm³). Nhìn đơn vị là biết ngay công thức nào hợp lí: thể tích mà đơn vị là cm² thì chắc chắn sai. Sai: $V=4\pi R^2$.
+- **Nghĩ rằng gấp đôi bán kính thì thể tích gấp đôi.** Chỗ này nhiều bạn hay nhầm. Đúng: thể tích gấp $2^3=8$ lần, diện tích gấp $2^2=4$ lần. Bán kính tăng thì mọi chiều đều dãn ra, nên thể tích tăng nhanh hơn ta tưởng.
 :::
 
-**Kết nối.** Hình cầu khép lại chương các hình khối thực tiễn: hình trụ, hình nón, hình cầu đều sinh ra khi quay một hình phẳng quanh một trục. Mặt cắt dùng định lí Pythagore như bài toán dây cung trong [Cung và dây](lesson:arcs-and-chords). Ba công thức thể tích có liên hệ đẹp: với cùng bán kính $R$ và chiều cao $2R$, ta có $V_{\text{nón}}:V_{\text{cầu}}:V_{\text{trụ}}=1:2:3$ (bài [Hình trụ và hình nón](lesson:cylinders-and-cones)).
+**Kết nối.** Hình cầu khép lại chương các hình khối thực tiễn: hình trụ, hình nón, hình cầu đều sinh ra khi ta quay một hình phẳng quanh một trục. Phần mặt cắt dùng định lí Pythagore, giống như bài toán dây cung trong [Cung và dây](lesson:arcs-and-chords). Còn các công thức thể tích có một liên hệ rất đẹp: với cùng bán kính $R$ và chiều cao $2R$, ta có $V_{\text{nón}}:V_{\text{cầu}}:V_{\text{trụ}}=1:2:3$ (bài [Hình trụ và hình nón](lesson:cylinders-and-cones)). Nhớ tỉ số này thì nhớ công thức cũng dễ hơn.
 
 ## Thuật ngữ
 
@@ -161,10 +161,11 @@ Vậy đường xích đạo dài khoảng $40\,030$ km và diện tích bề m�
 - Mặt phẳng cách tâm $d<R$ cắt hình cầu theo hình tròn bán kính $\sqrt{R^2-d^2}$; qua tâm thì được đường tròn lớn.
 - $S=4\pi R^2$ (bằng $4$ hình tròn lớn); $V=\dfrac43\pi R^3$.
 - Hình cầu bằng $\dfrac23$ hình trụ ngoại tiếp (cả thể tích lẫn diện tích toàn phần).
+Quay lại câu hỏi đầu bài: biết bán kính, ta tính được vỏ một quả bóng và lượng kim loại trong một viên bi. Điều đáng nhớ là hình cầu luôn nằm gọn trong hình trụ ngoại tiếp theo một tỉ lệ cố định. Bạn làm thêm vài bài luyện tập để quen tay nhé.
 
 ## Luyện tập
 
-Mỗi bài có phần kiến thức và gợi ý các bước. Hãy tự làm trước, rồi mới bấm xem lời giải.
+Mỗi bài có phần kiến thức cần dùng và vài bước gợi ý để bạn bắt đầu. Bạn hãy tự làm trước, bí rồi hãy bấm xem lời giải. Làm sai một lần cũng có ích, vì nhờ đó bạn biết mình vướng ở đâu.
 
 :::exercise
 Tính diện tích mặt cầu và thể tích của hình cầu có bán kính $5$ cm (làm tròn kết quả đến hàng phần trăm).

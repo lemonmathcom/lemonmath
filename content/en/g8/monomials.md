@@ -11,19 +11,19 @@ minutes: 20
 - Use monomials to write areas and volumes briefly in real-life problems.
 :::
 
-A gift box has a square base with side $x$ cm, and its height is twice the side of the base, that is $2x$ cm. The volume of the box is $x\cdot x\cdot2x$ (cm³). How can this expression be written more briefly, and what kind of expression is it?
+Picture a gift box with a square base of side $x$ cm. Its height is twice the side of the base, that is $2x$ cm. So the volume is $x\cdot x\cdot2x$ (cm³). That is a mouthful to write. Is there a shorter way, and what kind of expression is it?
 
-In grade $7$ you learned to use letters in place of numbers and the rule for multiplying two powers with the same base. Today we use both ideas to meet the simplest kind of algebraic expression: the monomial.
+In grade $7$ you learned to let a letter stand for a number, and how to multiply two powers with the same base. Those two ideas are enough to meet the simplest kind of algebraic expression, the monomial. Once you know it, you can name, compare and work with expressions like the volume of the box, without the clutter.
 
 ## Monomials and monomials in simplest form
 
 ### Explore: writing the volume of the gift box briefly
 
-Try $x=3$. The base is a square with side $3$ cm and the height is $2\cdot3=6$ cm. The volume is $3\cdot3\cdot6=54$ cm³.
+To see what the expression means, try a real number. Take $x=3$. The base is a square with side $3$ cm and the height is $2\cdot3=6$ cm. The volume is $3\cdot3\cdot6=54$ cm³.
 
-Now group the factors that are the same. The number $2$ stands on its own, and $x\cdot x\cdot x=x^3$, so the volume is $2x^3$. Check with $x=3$: $2\cdot3^3=2\cdot27=54$. The two results are equal, so $x\cdot x\cdot2x=2x^3$.
+Look at the volume again: several factors are the same, so we group them. The number $2$ stands on its own, and $x\cdot x\cdot x=x^3$. So the volume is $2x^3$. Check with $x=3$: $2\cdot3^3=2\cdot27=54$, the same as before. So $x\cdot x\cdot2x=2x^3$.
 
-The table below lists some expressions and shows which ones are "like" $2x^3$.
+Since $2x^3$ is short and easy to read, we want to know which expressions belong to the same family. The table below lists some expressions and shows which are monomials, and why.
 
 | Expression | A monomial? | Why |
 |---|---|---|
@@ -38,7 +38,7 @@ The table below lists some expressions and shows which ones are "like" $2x^3$.
 A **monomial** is an expression that is just a number, or just a variable, or a product of numbers and variables (with the variables raised to natural-number powers).
 :::
 
-A monomial can have several variables; for example $-2xy$ has the two variables $x$ and $y$. The expression $x\cdot x\cdot2x$ is also a monomial, but it is not in simplest form, because the variable $x$ appears more than once.
+A monomial can have more than one variable. For example, $-2xy$ has the two variables $x$ and $y$. The volume $x\cdot x\cdot2x$ is also a monomial, but it is not tidy, because the variable $x$ appears more than once. We need a standard way to write it.
 
 :::definition Monomial in simplest form, coefficient, variable part, degree
 A monomial **in simplest form** is a monomial made of one number multiplied by powers of the variables, with each variable appearing only once.
@@ -49,15 +49,15 @@ In the monomial in simplest form $-5x^2y$:
 - the **degree** of the monomial is the sum of the exponents of the variables: $2+1=3$.
 :::
 
-The exponent of $y$ is $1$ because $y=y^1$. A non-zero number is a monomial of degree $0$. The number $0$ is also a monomial, called the zero monomial, and it has no degree.
+Do not worry if these conventions look odd at first. The exponent of $y$ is $1$ even though we do not write it, because $y=y^1$. A non-zero number is a monomial of degree $0$. The number $0$ is a monomial too, called the zero monomial, and it alone has no degree.
 
 ## Operations with monomials
 
 ### Like monomials, addition and subtraction
 
-Look at $3x^2+5x^2$. Each $x^2$ is like an identical "packet": $3$ packets plus $5$ packets make $8$ packets. So $3x^2+5x^2=8x^2$. Check with $x=2$: $3\cdot4+5\cdot4=32$ and $8\cdot4=32$.
+Picture $3$ packets of sweets plus $5$ identical packets: that makes $8$ packets. The expression $3x^2+5x^2$ works the same way, because each $x^2$ is an identical "packet". So $3x^2+5x^2=8x^2$. Check with $x=2$: $3\cdot4+5\cdot4=32$ and $8\cdot4=32$.
 
-This works because of the distributive law: $3x^2+5x^2=(3+5)x^2$. It only works when the two monomials have the same variable part.
+Why does counting packets work? Because of the distributive law: $3x^2+5x^2=(3+5)x^2$. Here is a spot where many people slip: it only works when the two monomials have the same variable part, since only then are the packets identical. Such monomials have a name, which comes next.
 
 :::definition Like monomials
 Two monomials with non-zero coefficients and **the same variable part** are called **like monomials**.
@@ -67,7 +67,7 @@ To add (subtract) like monomials, add (subtract) the coefficients and keep the v
 
 ### Multiplying two monomials
 
-Multiply $(2x^2)\cdot(3x^3)$. Rearrange the factors to group numbers with numbers and variables with variables: $2\cdot3\cdot x^2\cdot x^3$. The numbers give $6$. For the variable, use the rule for multiplying powers with the same base: $x^2\cdot x^3=x^{2+3}=x^5$. So $(2x^2)(3x^3)=6x^5$.
+Now multiply two monomials: $(2x^2)\cdot(3x^3)$. Factors in a product can be swapped, so group numbers with numbers and variables with variables: $2\cdot3\cdot x^2\cdot x^3$. The numbers give $6$. For the variable, use the rule for multiplying powers with the same base: $x^2\cdot x^3=x^{2+3}=x^5$. So $(2x^2)(3x^3)=6x^5$.
 
 :::theorem Multiplying two monomials
 To multiply two monomials, multiply the coefficients together and multiply the variable parts together (for the same variable, add the exponents):
@@ -76,7 +76,7 @@ $$(a\,x^m y^n)\cdot(b\,x^p y^q)=ab\,x^{m+p}y^{n+q}.$$
 
 ## Examples
 
-We start by recognising monomials.
+We begin with the most basic question: is a given expression a monomial? The example below shows how to check each one.
 
 :::example Recognising monomials
 Of the expressions $5$, $-x^2y$, $2x+3$, $\dfrac{4}{y}$, $\dfrac{1}{3}xy^2$, which are monomials?
@@ -92,7 +92,7 @@ Of the expressions $5$, $-x^2y$, $2x+3$, $\dfrac{4}{y}$, $\dfrac{1}{3}xy^2$, whi
 So there are three monomials: $5$, $-x^2y$ and $\dfrac{1}{3}xy^2$.
 :::
 
-Next, we simplify a monomial and read off its coefficient, variable part and degree.
+A long monomial is simplified first, and then we can read off its coefficient, variable part and degree. This example does all of those steps.
 
 :::example Simplifying a monomial
 Simplify $A=4x\cdot\dfrac12y\cdot x^2y$, then give the coefficient, the variable part and the degree of $A$.
@@ -104,7 +104,7 @@ $$A=\left(4\cdot\frac12\right)\cdot(x\cdot x^2)\cdot(y\cdot y)=2x^3y^2.$$
 So $A=2x^3y^2$ has coefficient $2$, variable part $x^3y^2$ and degree $3+2=5$.
 :::
 
-Now we read the coefficient and degree of some monomials already in simplest form.
+Once a monomial is in simplest form, reading its coefficient and degree is quick. We practise on a few, including one with no number written in front.
 
 :::example Coefficient and degree
 Find the coefficient and the degree of the monomials $-7x^2y$, $\dfrac34x^4$ and $xy^2z$.
@@ -118,7 +118,7 @@ Find the coefficient and the degree of the monomials $-7x^2y$, $\dfrac34x^4$ and
 | $xy^2z$ | $1$ | $1+2+1=4$ |
 :::
 
-We move on to like monomials.
+Back to the idea of identical packets: which monomials in a list are like one another, and what do we get when we add them?
 
 :::example Like monomials, addition and subtraction
 Of the monomials $2xy^2$, $-xy^2$, $3x^2y$, $5y^2x$, which are like $xy^2$? Find the sum of those monomials.
@@ -132,7 +132,7 @@ $$2xy^2+(-xy^2)+5xy^2=(2-1+5)xy^2=6xy^2.$$
 So the sum is $6xy^2$.
 :::
 
-Multiplication, on the other hand, does not need like monomials.
+Addition needs like monomials, but multiplication does not. Any two monomials can be multiplied.
 
 :::example Multiplying two monomials
 Work out $(-3x^2y)\cdot(2xy^3)$ and give the degree of the result.
@@ -144,7 +144,7 @@ $$(-3x^2y)\cdot(2xy^3)=(-3\cdot2)\cdot x^{2+1}\cdot y^{1+3}=-6x^3y^4.$$
 So the result is $-6x^3y^4$, of degree $3+4=7$.
 :::
 
-Last, we use monomials in the real-life problem from the start of the lesson.
+Last, we return to the gift box from the start, now with two kinds of box. Monomials let us write the total volume very briefly.
 
 :::example The volume of two kinds of box
 Box A has a square base with side $x$ cm and height $2x$ cm. Box B is a cube with side $x$ cm. Write the volume of one box A plus the volume of one box B as a monomial, then find its value when $x=4$.
@@ -159,10 +159,10 @@ So the total volume is $3x^3$ cm³, which is $192$ cm³ when $x=4$.
 :::
 
 :::warning Common mistakes
-- **Thinking that $x+y$ is a monomial.** Wrong: $x+y$ is a monomial. Why it is wrong: a monomial only has multiplication between numbers and variables, never addition. Right: $x+y$ is not a monomial.
-- **Finding the degree by multiplying the exponents.** Wrong: the degree of $x^2y^3$ is $2\cdot3=6$. Why it is wrong: the degree is the sum of the exponents. Right: $2+3=5$.
-- **Adding the exponents when adding monomials.** Wrong: $3x^2+5x^2=8x^4$. Why it is wrong: when you add the coefficients, the variable part stays the same, just as $3$ packets plus $5$ packets make $8$ packets. Right: $8x^2$. (Try $x=2$: $3\cdot4+5\cdot4=32$, but $8\cdot2^4=128$.)
-- **Multiplying the exponents when multiplying powers.** Wrong: $x^2\cdot x^3=x^6$. Why it is wrong: $x^2\cdot x^3=(x\cdot x)(x\cdot x\cdot x)$ has $5$ factors of $x$. Right: $x^5$.
+- **Thinking that $x+y$ is a monomial.** Some people write: $x+y$ is a monomial. The slip is that a monomial only has multiplication between numbers and variables, never addition. Right: $x+y$ is not a monomial.
+- **Finding the degree by multiplying the exponents.** It is tempting to say the degree of $x^2y^3$ is $2\cdot3=6$. But the degree is the sum of the exponents, so the right answer is $2+3=5$.
+- **Adding the exponents when adding monomials.** Some people write $3x^2+5x^2=8x^4$. Remember the packets: adding the coefficients leaves the variable part alone, just as $3$ packets plus $5$ packets make $8$ packets. Right: $8x^2$. (Try $x=2$: $3\cdot4+5\cdot4=32$, but $8\cdot2^4=128$.)
+- **Multiplying the exponents when multiplying powers.** Some people write $x^2\cdot x^3=x^6$. Write it out: $x^2\cdot x^3=(x\cdot x)(x\cdot x\cdot x)$ has $5$ factors of $x$. Right: $x^5$.
 :::
 
 ## Key terms
@@ -186,11 +186,12 @@ So the total volume is $3x^3$ cm³, which is $192$ cm³ when $x=4$.
 - A monomial in simplest form $ax^my^n$ has coefficient $a$, variable part $x^my^n$, and degree equal to the sum of the exponents $m+n$.
 - Two monomials are like monomials if their coefficients are non-zero and they have the same variable part. To add or subtract them, add or subtract the coefficients and keep the variable part.
 - To multiply two monomials, multiply the coefficients together and the variable parts together (adding the exponents of the same variable).
-- You can check by replacing the variables with a small number, for example $x=2$, and comparing the two sides.
+- To check an answer, replace the variables with a small number, for example $x=2$, and compare the two sides.
+The opening question has an answer: the volume of the gift box can be written as one short monomial, and monomials give us a tidy way to name, compare and calculate. The one thing to remember is that when you add, the variable part stays the same, and when you multiply, the exponents add.
 
 ## Practice
 
-Each exercise comes with what you need and hints. Try it yourself first, then open the solution.
+Each exercise comes with what you need to know and hints for the steps. Try it yourself first, and open the solution only when you are stuck. Work slowly and steadily, and monomials will soon feel familiar.
 
 :::exercise
 Of the expressions $-3$, $x^2y$, $x-2y$, $\dfrac{5}{x}$, $\dfrac{2}{3}ab$, $y^3$, which are monomials?

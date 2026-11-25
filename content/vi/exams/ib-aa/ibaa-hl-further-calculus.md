@@ -11,12 +11,12 @@ minutes: 50
 - Xấp xỉ nghiệm của phương trình vi phân bằng phương pháp Euler.
 :::
 
-Các nội dung giải tích HL này rất hay được chọn cho câu cuối Section B của Paper 1 hoặc Paper 2: lập một chuỗi Maclaurin, dùng nó để tính giới hạn hay giá trị gần đúng, hoặc giải từng bước một phương trình vi phân rồi giải thích nghiệm trong ngữ cảnh. Như mọi phần đại số ở HL, mỗi dòng phải suy ra từ dòng trước, nên hãy trình bày đầy đủ phương pháp.
+Câu cuối của Section B, ở Paper 1 hoặc Paper 2, hay rơi vào phần giải tích HL này. Đề có thể cho bạn lập một chuỗi Maclaurin, rồi dùng nó để tìm một giới hạn hoặc một giá trị gần đúng. Cũng có thể đề cho một phương trình vi phân, bạn giải từng bước rồi nói nghiệm có nghĩa gì trong tình huống đã cho. Câu hỏi của bài này là: làm sao đi từ đề đến đáp số mà mỗi dòng đều có lí do? Ở HL, mỗi dòng phải suy ra từ dòng trước, nên bạn hãy viết đủ phương pháp, đừng nhảy bước.
 
 ## Chuỗi Maclaurin
 
 $$f(x)=f(0)+xf'(0)+\frac{x^2}{2!}f''(0)+\frac{x^3}{3!}f'''(0)+\dots$$
-Sổ công thức cho sẵn chuỗi của $e^x$, $\ln(1+x)$, $\sin x$, $\cos x$, $\arctan x$ và $(1+x)^p$. Chuỗi mới được tạo bằng cách thế biến, nhân, lấy đạo hàm hoặc lấy tích phân.
+Bạn không cần học thuộc những chuỗi quen: sổ công thức đã cho sẵn chuỗi của $e^x$, $\ln(1+x)$, $\sin x$, $\cos x$, $\arctan x$ và $(1+x)^p$. Việc của bạn là biến chúng thành chuỗi mới. Có bốn cách: thế biến, nhân hai chuỗi, lấy đạo hàm hoặc lấy tích phân từng số hạng. Hai ví dụ dưới đây làm thử cách nhân và cách thế biến.
 
 :::example Nhân hai chuỗi
 Tìm chuỗi Maclaurin của $e^x\sin x$ đến số hạng chứa $x^3$. [4 marks]
@@ -32,7 +32,7 @@ Dùng chuỗi của $\ln(1+x)$ để tìm ba số hạng khác không đầu ti�
 
 ## Giới hạn bằng chuỗi và quy tắc L'Hôpital
 
-Với giới hạn dạng $\dfrac00$ hoặc $\dfrac\infty\infty$, có thể thay các hàm bằng chuỗi của chúng, hoặc dùng **quy tắc L'Hôpital**: $\displaystyle\lim\frac{f(x)}{g(x)}=\lim\frac{f'(x)}{g'(x)}$, lặp lại nếu cần.
+Gặp giới hạn dạng $\dfrac00$ hoặc $\dfrac\infty\infty$, ta không thể thay thẳng giá trị vào, vì phép chia lúc đó không có nghĩa. Có hai lối ra. Lối thứ nhất là thay các hàm bằng chuỗi của chúng, rồi rút gọn. Lối thứ hai là dùng **quy tắc L'Hôpital**: $\displaystyle\lim\frac{f(x)}{g(x)}=\lim\frac{f'(x)}{g'(x)}$, lặp lại nếu cần. Ví dụ sau làm cả hai cách cho cùng một giới hạn, để bạn thấy chúng cho cùng đáp số.
 
 :::example Một giới hạn, hai cách
 Tính $\displaystyle\lim_{x\to0}\frac{e^x-1-x}{x^2}$. [4 marks]
@@ -45,9 +45,11 @@ Bằng L'Hôpital (hai lần, vì cả hai bước đều có dạng $\dfrac00$)
 ## Phương trình vi phân
 
 :::note Ba dạng và cách giải
-- **Tách biến (separable):** $\dfrac{dy}{dx}=f(x)g(y)$. Tách biến rồi lấy tích phân: $\displaystyle\int\frac{dy}{g(y)}=\int f(x)\,dx$.
-- **Đẳng cấp (homogeneous):** $\dfrac{dy}{dx}=f\left(\dfrac yx\right)$. Đặt $y=vx$, khi đó $\dfrac{dy}{dx}=v+x\dfrac{dv}{dx}$, rồi tách biến.
-- **Tuyến tính (linear):** $\dfrac{dy}{dx}+P(x)y=Q(x)$. Nhân hai vế với **thừa số tích phân (integrating factor)** $e^{\int P(x)\,dx}$; vế trái trở thành đạo hàm của (thừa số tích phân $\times\ y$).
+- **Tách biến (separable):** $\dfrac{dy}{dx}=f(x)g(y)$. Đưa mọi thứ của một biến về một vế, mọi thứ của biến kia về vế còn lại, rồi lấy tích phân: $\displaystyle\int\frac{dy}{g(y)}=\int f(x)\,dx$.
+- **Đẳng cấp (homogeneous):** $\dfrac{dy}{dx}=f\left(\dfrac yx\right)$. Đặt $y=vx$, khi đó $\dfrac{dy}{dx}=v+x\dfrac{dv}{dx}$. Phương trình mới lúc này tách biến được.
+- **Tuyến tính (linear):** $\dfrac{dy}{dx}+P(x)y=Q(x)$. Nhân hai vế với **thừa số tích phân (integrating factor)** $e^{\int P(x)\,dx}$. Mẹo nằm ở chỗ này: vế trái trở thành đạo hàm của (thừa số tích phân $\times\ y$), nên chỉ còn việc lấy tích phân hai vế.
+
+Gặp một phương trình mới, bạn hãy tự hỏi nó thuộc dạng nào trước, rồi mới bắt tay vào giải.
 :::
 
 :::example Tách biến
@@ -70,7 +72,7 @@ Tìm nghiệm tổng quát của $\dfrac{dy}{dx}=\dfrac{x+y}{x}$, $x>0$. [5 mark
 
 ## Phương pháp Euler
 
-Xuất phát từ $(x_0,y_0)$ với bước nhảy $h$: $x_{n+1}=x_n+h$ và $y_{n+1}=y_n+h\,f(x_n,y_n)$, trong đó $\dfrac{dy}{dx}=f(x,y)$. Ở Paper 2, bảng giá trị của GDC hoặc bảng tính giúp tính nhanh.
+Có những phương trình vi phân không tìm được nghiệm dưới dạng công thức. Khi đó ta vẫn ước lượng được nghiệm, bằng cách đi từng bước nhỏ, mỗi bước theo hướng của hệ số góc tại điểm đang đứng. Xuất phát từ $(x_0,y_0)$ với bước nhảy $h$: $x_{n+1}=x_n+h$ và $y_{n+1}=y_n+h\,f(x_n,y_n)$, trong đó $\dfrac{dy}{dx}=f(x,y)$. Nói bằng lời, giá trị mới bằng giá trị cũ cộng bước nhảy nhân với hệ số góc. Ở Paper 2, bảng giá trị của GDC hoặc bảng tính giúp tính nhanh.
 
 :::example Hai bước Euler
 Với $\dfrac{dy}{dx}=x+y$ và $y(0)=1$, dùng phương pháp Euler với $h=0{,}1$ để ước lượng $y(0{,}2)$. [3 marks]
@@ -79,11 +81,13 @@ Với $\dfrac{dy}{dx}=x+y$ và $y(0)=1$, dùng phương pháp Euler với $h=0{,
 :::
 
 :::warning Những cái bẫy thường gặp
-- **Hằng số tích phân** thêm quá muộn, hoặc chỉ thêm ở một vế.
-- **Sai thừa số tích phân:** đó là $e^{\int P\,dx}$ với phương trình đã viết dưới dạng $y'+Py=Q$; hãy sắp xếp lại trước.
-- **Khoảng hội tụ** của chuỗi sau khi thế biến.
-- **Dùng L'Hôpital cho giới hạn không có dạng $\dfrac00$ hay $\dfrac\infty\infty$.** Kiểm tra dạng ở mỗi bước.
-- **Phương pháp Euler:** dùng $x$ mới cùng $y$ cũ khi tính hệ số góc.
+- **Hằng số tích phân** thêm quá muộn, hoặc chỉ thêm ở một vế. Hãy thêm hằng số ngay ở bước lấy tích phân.
+- **Sai thừa số tích phân:** đó là $e^{\int P\,dx}$ với phương trình đã viết dưới dạng $y'+Py=Q$, nên hãy sắp xếp lại phương trình trước khi tính.
+- **Khoảng hội tụ** của chuỗi sau khi thế biến. Chỗ này nhiều bạn hay quên tính lại.
+- **Dùng L'Hôpital cho giới hạn không có dạng $\dfrac00$ hay $\dfrac\infty\infty$.** Kiểm tra dạng của giới hạn ở mỗi bước.
+- **Phương pháp Euler:** dùng $x$ mới cùng $y$ cũ khi tính hệ số góc. Hệ số góc phải tính tại cùng một điểm, chính là điểm đang đứng.
+
+Đừng lo nếu lần đầu bạn mắc vài lỗi trong số này. Ghi lại lỗi và cách sửa, lần sau bạn sẽ nhận ra chúng từ xa.
 :::
 
 :::terms

@@ -12,11 +12,11 @@ minutes: 15
 
 Trong chuồng có $5$ con chó, mỗi con có $4$ cái chân. Hỏi $5$ con chó có tất cả bao nhiêu cái chân?
 
-Em có thể đếm từng cái chân, nhưng sẽ chậm và dễ nhầm. Bài này giúp em tính nhanh bằng bảng nhân $4$.
+Em có thể đếm từng cái chân một, nhưng như thế chậm và dễ nhầm. Nếu chuồng có nhiều chó hơn thì còn khó hơn nữa. Bảng nhân $4$ cho em một đường tắt: thuộc bảng rồi, em có ngay đáp số.
 
 ## Cùng khám phá
 
-Mỗi con chó có $4$ chân, tức là $4$ chân một nhóm. Ta cộng dần từng nhóm:
+Mỗi con chó có $4$ chân, tức là $4$ chân một nhóm. Ta thêm từng con chó một, và xem số chân tăng lên thế nào:
 
 - $1$ con: $4$ chân.
 - $2$ con: $4+4=8$ chân.
@@ -24,7 +24,7 @@ Mỗi con chó có $4$ chân, tức là $4$ chân một nhóm. Ta cộng dần t
 - $4$ con: $12+4=16$ chân.
 - $5$ con: $16+4=20$ chân.
 
-Vậy $5$ con chó có $20$ chân, tức là $4\times5=20$. Mỗi lần thêm một nhóm, tích tăng thêm $4$.
+Vậy $5$ con chó có $20$ chân, tức là $4\times5=20$. Em để ý chỗ này: mỗi lần thêm một con chó, tức là thêm một nhóm, thì tích tăng thêm đúng $4$.
 
 :::graph Trên tia số: mỗi bước nhảy 4 đơn vị
 alt: Tia số từ 0 đến 24 đánh dấu các điểm 0, 4, 8, 12, 16, 20 và 24, mỗi điểm cách điểm trước 4 đơn vị
@@ -40,7 +40,7 @@ point: (20, 0) "20" above
 point: (24, 0) "24" below
 :::
 
-Em còn một mẹo nữa: $4$ gấp đôi $2$, nên $4\times5$ gấp đôi $2\times5=10$, và $10+10=20$.
+Còn một mẹo nữa, nếu em đã thuộc bảng nhân $2$. Vì sao mẹo này đúng? Vì $4$ gấp đôi $2$, nên $4\times5$ cũng gấp đôi $2\times5=10$. Em chỉ cần tính $10+10=20$.
 
 :::theorem Bảng nhân 4
 Muốn tính $4\times n$, em lấy $4\times(n-1)$ rồi cộng thêm $4$. Em cũng có thể lấy $2\times n$ rồi gấp đôi.
@@ -54,11 +54,11 @@ Muốn tính $4\times n$, em lấy $4\times(n-1)$ rồi cộng thêm $4$. Em cũ
 | $24$ | $28$ | $32$ | $36$ | $40$ |
 :::
 
-Bảng chia $4$ suy ra từ bảng nhân $4$. Vì $4\times5=20$ nên $20:4=5$. Em chia $20$ vật thành các nhóm $4$ vật thì được $5$ nhóm.
+Biết bảng nhân $4$ rồi, em có luôn cả bảng chia $4$. Vì sao? Vì phép chia là làm ngược lại phép nhân. Ta có $4\times5=20$ nên $20:4=5$. Nói bằng chuyện đàn chó: chia $20$ cái chân thành các nhóm $4$ cái chân thì được $5$ nhóm, mỗi nhóm là một con chó.
 
 ## Ví dụ
 
-Ta bắt đầu bằng cách lấy tích liền trước cộng thêm $4$.
+Ta thử cách thứ nhất trước: lấy tích liền trước rồi cộng thêm $4$.
 
 :::example Tính $4\times7$
 **Lời giải.** Em biết $4\times6=24$. Thêm một nhóm $4$ nữa:
@@ -66,7 +66,7 @@ $$4\times7=4\times6+4=24+4=28.$$
 Vậy $4\times7=28$.
 :::
 
-Bây giờ em dùng mẹo gấp đôi.
+Giờ em thử mẹo gấp đôi: biết một tích rồi, em gấp đôi lên là ra tích kia.
 
 :::example Tính $4\times8$ bằng cách gấp đôi
 **Lời giải.** Ta có $4\times4=16$. Mà $8$ gấp đôi $4$ nên $4\times8$ gấp đôi $4\times4$:
@@ -74,7 +74,7 @@ $$4\times8=16+16=32.$$
 Vậy $4\times8=32$.
 :::
 
-Tiếp theo là phép chia. Em tìm trong bảng nhân $4$ một tích bằng số bị chia.
+Giờ ta chuyển sang phép chia. Em tìm trong bảng nhân $4$ một tích bằng số bị chia. Số nhân với $4$ ra tích đó chính là kết quả.
 
 :::example Tính $36:4$
 **Lời giải.** Em tìm số nào nhân $4$ bằng $36$. Trong bảng nhân $4$ ta có $4\times9=36$, nên
@@ -84,7 +84,7 @@ $$36:4=9.$$
 Vậy $36:4=9$.
 :::
 
-Bây giờ em giải bài toán có lời văn bằng phép nhân.
+Giờ em dùng phép nhân để giải một bài toán có lời văn. Em nghĩ xem mỗi nhóm là gì và có bao nhiêu nhóm.
 
 :::example Chỗ ngồi
 Mỗi bàn có $4$ bạn ngồi. Hỏi $6$ bàn như vậy có bao nhiêu bạn ngồi?
@@ -94,7 +94,7 @@ $$4\times6=24\ \text{(bạn)}.$$
 Vậy $6$ bàn có $24$ bạn ngồi.
 :::
 
-Cuối cùng, em giải một bài toán bằng phép chia.
+Cuối cùng là một bài toán giải bằng phép chia. Lần này ta biết tổng số quả và số quả ở mỗi đĩa, còn phải tìm số đĩa.
 
 :::example Xếp cam vào đĩa
 Có $28$ quả cam, xếp vào các đĩa, mỗi đĩa $4$ quả. Hỏi xếp được bao nhiêu đĩa?
@@ -107,10 +107,10 @@ Vậy xếp được $7$ đĩa.
 :::
 
 :::warning Những lỗi em hay gặp
-- **Lấy sai hàng liền kề.** Sai: $4\times7=24$. Vì sao sai: $24$ là $4\times6$, em quên thêm một nhóm $4$. Đúng: $4\times7=24+4=28$.
+- **Lấy sai hàng liền kề.** Chỗ này nhiều bạn hay nhầm. Sai: $4\times7=24$. Vì sao sai: $24$ là $4\times6$, em quên thêm một nhóm $4$. Đúng: $4\times7=24+4=28$.
 - **Cộng thay cho nhân.** Sai: $4\times6=10$. Vì sao sai: $4+6$ là phép cộng, còn $4\times6$ là $6$ nhóm, mỗi nhóm $4$. Đúng: $4\times6=24$.
-- **Chia nhầm với tích gần đúng.** Sai: $36:4=8$. Vì sao sai: $4\times8=32$, không phải $36$. Đúng: $4\times9=36$ nên $36:4=9$.
-- **Quên đơn vị.** Sai: "Đáp số: $24$". Đúng: "Đáp số: $24$ bạn".
+- **Chia nhầm với tích gần đúng.** Sai: $36:4=8$. Vì sao sai: $4\times8=32$, không phải $36$. Đúng: $4\times9=36$ nên $36:4=9$. Em thử lại bằng phép nhân là biết ngay mình đúng hay sai.
+- **Quên đơn vị.** Sai: "Đáp số: $24$". Đúng: "Đáp số: $24$ bạn". Có đơn vị thì người đọc mới biết em đang đếm gì.
 :::
 
 ## Thuật ngữ
@@ -134,9 +134,11 @@ Vậy xếp được $7$ đĩa.
 - Từ $4\times a=b$ ta có $b:4=a$ và $b:a=4$.
 - Ghi đơn vị trong đáp số; thử lại phép chia bằng phép nhân.
 
+Quay lại câu hỏi đầu bài: nhờ bảng nhân, em tính được số chân của cả đàn chó mà không phải đếm từng chân. Điều đáng nhớ là mỗi lần thêm một nhóm thì tích tăng thêm đúng một nhóm, nên em cứ luyện tập cho thuộc bảng nhé.
+
 ## Luyện tập
 
-Mỗi bài có phần kiến thức và gợi ý. Em hãy tự làm trước, rồi mới bấm xem lời giải.
+Mỗi bài có phần kiến thức cần nhớ và một gợi ý để em bắt đầu. Em cứ tự làm trước, sai cũng không sao, rồi hãy bấm xem lời giải để đối chiếu.
 
 :::exercise
 Tính:

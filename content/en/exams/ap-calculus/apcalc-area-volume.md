@@ -12,7 +12,7 @@ minutes: 45
 - (BC) Find the length of a curve.
 :::
 
-Unit 8 supplies one of the most predictable free-response questions on the exam: a region $R$ bounded by two curves, then its area, the volume of a solid with $R$ as its base, and the volume when $R$ is revolved around a line. Usually it sits in the calculator part, so the points come from a correct integral with correct limits; the calculator does the arithmetic. This lesson trains the setups.
+Picture a plot of land with a curved edge on each side. How would you measure its area? Unit 8 asks questions of exactly this kind, and it supplies one of the most predictable free-response questions on the exam. You are given a region $R$ bounded by two curves, then asked for its area, for the volume of a solid with $R$ as its base, and for the volume when $R$ is revolved around a line. It usually sits in the calculator part. The calculator does the arithmetic, so the points come from a correct integral with correct limits. That setup is the skill we practise here.
 
 ## Average value
 
@@ -32,7 +32,7 @@ Do not confuse this with the average rate of change $\dfrac{f(3)-f(0)}{3-0}=3$. 
 
 ## Area between curves
 
-The area between $y=f(x)$ on top and $y=g(x)$ below, for $a\le x\le b$, is $\displaystyle\int_a^b\big(f(x)-g(x)\big)\,dx$: top minus bottom. When the region is easier to describe with right and left curves $x=p(y)$ and $x=q(y)$, use $\displaystyle\int_c^d\big(p(y)-q(y)\big)\,dy$: right minus left.
+Think of cutting the region into thin strips and adding them up. Each strip is as tall as the gap between the top curve and the bottom one. So the area between $y=f(x)$ on top and $y=g(x)$ below, for $a\le x\le b$, is $\displaystyle\int_a^b\big(f(x)-g(x)\big)\,dx$: top minus bottom. Some regions are easier to describe from side to side, with a right curve $x=p(y)$ and a left curve $x=q(y)$. Then we cut horizontal strips and use $\displaystyle\int_c^d\big(p(y)-q(y)\big)\,dy$: right minus left.
 
 :::graph The region between $y=x$ and $y=x^2$
 alt: The line y = x and the parabola y = x squared meet at (0, 0) and (1, 1); the region between them is shaded, with the line on top
@@ -63,7 +63,7 @@ $$\int_{-1}^2\left(y+2-y^2\right)dy=\left[\frac{y^2}{2}+2y-\frac{y^3}{3}\right]_
 
 ## Volumes with known cross sections
 
-If the cross section perpendicular to the $x$-axis at $x$ has area $A(x)$, the volume is $\displaystyle\int_a^bA(x)\,dx$. You only need the side of the cross section in terms of $x$, then the area formula: square $s^2$, semicircle with diameter $s$: $\dfrac{\pi}{8}s^2$, equilateral triangle $\dfrac{\sqrt3}{4}s^2$.
+Think of a loaf of bread cut into thin slices: the volume of the loaf is the total of the volumes of the slices. For our solid, if the cross section perpendicular to the $x$-axis at $x$ has area $A(x)$, then adding up all the slices gives the volume $\displaystyle\int_a^bA(x)\,dx$. The real work is finding $A(x)$. You only need the side of the cross section in terms of $x$, then the area formula for that shape: a square is $s^2$, a semicircle with diameter $s$ is $\dfrac{\pi}{8}s^2$, and an equilateral triangle is $\dfrac{\sqrt3}{4}s^2$.
 
 :::example Square cross sections
 The base of a solid is the region under $y=\sqrt x$ for $0\le x\le4$. Cross sections perpendicular to the $x$-axis are squares. Find the volume.
@@ -73,7 +73,7 @@ The base of a solid is the region under $y=\sqrt x$ for $0\le x\le4$. Cross sect
 
 ## Disks and washers
 
-Revolving a region around a line gives circular slices. If the region touches the axis, slices are **disks**: $V=\pi\displaystyle\int_a^bR(x)^2\,dx$. If there is a gap, slices are **washers**: $V=\pi\displaystyle\int_a^b\left(R(x)^2-r(x)^2\right)dx$, where $R$ and $r$ are the outer and inner radii, measured from the axis of rotation.
+Revolve a region around a line and slice the solid across the axis: every slice is circular. So we only need the radius of each slice, then we add them up. If the region touches the axis, each slice is solid, a **disk**, and $V=\pi\displaystyle\int_a^bR(x)^2\,dx$. If there is a gap between the region and the axis, each slice has a hole in the middle, a **washer**, and $V=\pi\displaystyle\int_a^b\left(R(x)^2-r(x)^2\right)dx$. Here $R$ and $r$ are the outer and inner radii, both measured from the axis of rotation.
 
 :::example A washer around a line below the region
 The region between $y=x$ and $y=x^2$ is revolved around the line $y=-1$. Find the volume.
@@ -84,15 +84,15 @@ Around the $x$-axis instead, $R=x$, $r=x^2$ and $V=\dfrac{2\pi}{15}$.
 :::
 
 :::warning Common traps
-- **$(R-r)^2$ instead of $R^2-r^2$.** A washer is a big disk minus a small disk.
-- **Radii from the wrong line.** Around $y=-1$, the radius of a curve $y=f(x)$ is $f(x)+1$; around $y=3$ it is $3-f(x)$.
-- **Wrong top curve.** Check which curve is on top with one test value before integrating.
+- **$(R-r)^2$ instead of $R^2-r^2$.** Many students slip here. A washer is a big disk with a small disk cut out, so we subtract the two areas; we do not square the difference of the radii.
+- **Radii from the wrong line.** A radius is always measured from the axis. Around $y=-1$, the radius of a curve $y=f(x)$ is $f(x)+1$; around $y=3$ it is $3-f(x)$.
+- **Wrong top curve.** Before integrating, check which curve is on top with one test value.
 - **Average value without $\dfrac{1}{b-a}$.** Without it you have the integral, not the average.
 :::
 
 ## Arc length (BC)
 
-The length of the curve $y=f(x)$ for $a\le x\le b$ is $L=\displaystyle\int_a^b\sqrt{1+\left(f'(x)\right)^2}\,dx$. On the exam it is usually evaluated with a calculator; the setup earns the point.
+To measure the length of a curve, break it into tiny pieces, treat each piece as almost straight, and add them up. The result is that the length of the curve $y=f(x)$ for $a\le x\le b$ is $L=\displaystyle\int_a^b\sqrt{1+\left(f'(x)\right)^2}\,dx$. On the exam it is usually evaluated with a calculator, and the setup is what earns the point.
 
 :::example A length that can be found exactly
 Find the length of $y=\dfrac23x^{3/2}$ for $0\le x\le3$.

@@ -10,21 +10,22 @@ minutes: 15
 - Find a missing number in two equal fractions.
 :::
 
-Lan eats $\dfrac{1}{2}$ of a cake. Nam eats $\dfrac{2}{4}$ of the same kind of cake. Who eats more?
+Lan eats $\dfrac{1}{2}$ of a cake. Nam eats $\dfrac{2}{4}$ of the same kind of cake. Who eats more? Have a guess.
 
-The two fractions look different, because both the numerators and the denominators are different. But the two children may have eaten the same amount. This lesson helps you see when two fractions are equal.
+At first glance the two fractions look quite different: the numerators differ and so do the denominators. Yet the two children may have eaten exactly the same amount. Once you can tell when two fractions are equal, you can spot at once which fractions are really the same.
 
 ## Let's explore
 
-We cut the cake step by step.
+We cut the cake step by step and watch whether Lan's share changes.
 
 - The cake is cut in half: Lan eats $1$ part out of $2$, which is $\dfrac{1}{2}$.
 - Cut each half into $2$ equal smaller pieces. The cake has $4$ pieces, and Lan's part is $2$ small pieces, which is $\dfrac{2}{4}$.
 - Cut each small piece into $2$ again: the cake has $8$ pieces and Lan's part is $4$ pieces, which is $\dfrac{4}{8}$.
+Notice that with every cut, the number of pieces in the whole cake and in Lan's part both grow.
 
-The cake and Lan's part have not changed, only the way we cut it. So $\dfrac{1}{2}=\dfrac{2}{4}=\dfrac{4}{8}$. The two children ate the same amount.
+The cake is the same cake and Lan's share is the same share; only the cutting is different. So $\dfrac{1}{2}=\dfrac{2}{4}=\dfrac{4}{8}$. The two children ate the same amount.
 
-We can see that the numerator and denominator are both multiplied by $2$: $1\times2=2$ and $2\times2=4$.
+Look closely at the numbers: the numerator and the denominator are both multiplied by $2$, since $1\times2=2$ and $2\times2=4$.
 
 :::graph On the number line: 1/2, 2/4 and 4/8 are the same point
 alt: A number line from 0 to 1 with the middle point labelled one half, two quarters and four eighths
@@ -42,11 +43,11 @@ If we multiply both the numerator and the denominator of a fraction by the same 
 If we divide both the numerator and the denominator by the same non-zero whole number (dividing both exactly), we also get an equal fraction.
 :::
 
-This is true because multiplying both numbers by $2$ means cutting every part into $2$ equal smaller parts: the number of parts in the whole doubles, the number of parts taken doubles too, and the amount taken does not change.
+Why does the fraction stay the same? Multiplying both numbers by $2$ means cutting every part into $2$ equal smaller parts: the number of parts in the whole doubles, the number of parts taken doubles too, and the amount taken does not change.
 
 ## Examples
 
-We start with multiplying.
+We start with multiplying: we know the new denominator and look for the new numerator.
 
 :::example Multiplying the numerator and denominator
 Find the missing number: $\dfrac{2}{3}=\dfrac{?}{6}$.
@@ -56,7 +57,7 @@ $$\frac{2}{3}=\frac{2\times2}{3\times2}=\frac{4}{6}.$$
 So the missing number is $4$.
 :::
 
-Now the multiplier is harder to see.
+This time the multiplier is not so easy to spot. Ask yourself: what do we multiply the old denominator by to get the new one?
 
 :::example Finding the multiplier
 Find the missing number: $\dfrac{3}{5}=\dfrac{?}{20}$.
@@ -68,7 +69,7 @@ So the missing number is $12$.
 **Check.** $12\div4=3$ and $20\div4=5$, which gives $\dfrac{3}{5}$. Correct.
 :::
 
-We can also divide, but both numbers must divide exactly.
+Dividing works too, on one condition: both the numerator and the denominator must divide exactly.
 
 :::example Dividing the numerator and denominator
 Find the missing number: $\dfrac{6}{8}=\dfrac{?}{4}$.
@@ -78,7 +79,7 @@ $$\frac{6}{8}=\frac{6\div2}{8\div2}=\frac{3}{4}.$$
 So the missing number is $3$.
 :::
 
-Now we use the property to answer a question from everyday life.
+Now we use the property on a question like the one at the start: who eats more?
 
 :::example Who eats more?
 Lan eats $\dfrac{1}{2}$ of a cake and Ha eats $\dfrac{3}{6}$ of the same kind of cake. Do they eat the same amount?
@@ -89,9 +90,9 @@ So $\dfrac{3}{6}=\dfrac{1}{2}$, and the two children eat the same amount.
 :::
 
 :::warning Mistakes to watch out for
-- **Multiplying only the numerator.** Wrong: $\dfrac{2}{3}=\dfrac{4}{3}$. Why it is wrong: both the numerator and the denominator must be multiplied by the same number. Right: $\dfrac{2}{3}=\dfrac{4}{6}$.
-- **Adding instead of multiplying.** Wrong: $\dfrac{1}{2}=\dfrac{2}{3}$ (adding $1$ to both). Why it is wrong: the basic property is only about multiplying and dividing. Right: $\dfrac{1}{2}=\dfrac{2}{4}$.
-- **Dividing when it does not divide exactly.** Wrong: dividing both $5$ and $8$ by $2$. Why it is wrong: $5$ does not divide exactly by $2$. Right: divide only when both numbers divide exactly by that number.
+- **Multiplying only the numerator.** Writing $\dfrac{2}{3}=\dfrac{4}{3}$ is wrong, because both the numerator and the denominator must be multiplied by the same number. The correct statement is $\dfrac{2}{3}=\dfrac{4}{6}$.
+- **Adding instead of multiplying.** Many students mix this up. Writing $\dfrac{1}{2}=\dfrac{2}{3}$ (adding $1$ to both) is wrong, because the basic property is only about multiplying and dividing. The correct statement is $\dfrac{1}{2}=\dfrac{2}{4}$.
+- **Dividing when it does not divide exactly.** Dividing both $5$ and $8$ by $2$ is wrong, because $5$ does not divide exactly by $2$. Divide only when both numbers divide exactly by that number.
 :::
 
 ## Key terms
@@ -113,10 +114,11 @@ So $\dfrac{3}{6}=\dfrac{1}{2}$, and the two children eat the same amount.
 - Example: $\dfrac{1}{2}=\dfrac{2}{4}=\dfrac{4}{8}$.
 - To find a missing number, find the multiplier or divisor from the two denominators.
 - Equal fractions show the same point on a number line.
+Back to the cake: one half and two quarters are two names for the same share, so Lan and Nam ate the same amount. Always do the same thing to the numerator and the denominator, and practise a few questions to make it stick.
 
 ## Practice
 
-Each exercise comes with what you need and how to start. Try it yourself first, then open the solution.
+Every exercise has the key idea and a hint to get you started. Have a go on your own first, use the hint if you get stuck, and open the solution last to check.
 
 :::exercise
 Find the missing number: $\dfrac{1}{3}=\dfrac{?}{6}$.

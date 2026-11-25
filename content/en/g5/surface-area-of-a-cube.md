@@ -12,11 +12,11 @@ minutes: 15
 
 Nam has a gift box in the shape of a cube. Its edge is $10$ cm long. Nam wants to cover the whole box with coloured paper. How many square centimetres of paper does he need?
 
-You do not need to measure every face. If you know what is special about a cube, a few multiplications are enough.
+You do not need to measure every face. What is special about a cube that lets a few multiplications do the job? Let us find out.
 
 ## Let's explore
 
-Nam cuts the box along some edges and lays it flat. He gets $6$ equal squares, each with a side of $10$ cm.
+Imagine Nam cuts the box along some edges and lays it flat. He gets $6$ equal squares, each with a side of $10$ cm.
 
 :::diagram The net of the gift box: 4 side faces and 2 bases
 alt: A net made of 6 equal squares: a row of 4 squares for the side faces, and two more squares for the bases, one above and one below the second square
@@ -52,7 +52,7 @@ label 1.5,0.5 "base"
 - The four side faces around the box: $100\times4=400\ (\text{cm}^2)$.
 - All six faces: $100\times6=600\ (\text{cm}^2)$.
 
-So Nam needs $600\ \text{cm}^2$ of paper to cover the box. The $400\ \text{cm}^2$ is the area of the $4$ side faces: this is the **lateral surface area**.
+So Nam needs $600\ \text{cm}^2$ of paper to cover the box. The $400\ \text{cm}^2$ is the area of the $4$ side faces, and it has a name of its own: the **lateral surface area**. The other two faces are the top and the bottom of the box.
 
 :::theorem Surface area of a cube with edge $a$
 A cube has $6$ faces, all equal squares. Each face has area $a\times a$.
@@ -86,11 +86,11 @@ segment D D' dashed
 label 1.5,1.5 "a × a"
 :::
 
-The rules work because all faces are equal: we multiply the area of one face by the number of faces. The total surface area is bigger than the lateral surface area by exactly the $2$ bases, so $S_{\text{total}}=S_{\text{lat}}+a\times a\times2$.
+Why do the rules work? All the faces are equal, so we multiply the area of one face by the number of faces. The total surface area is bigger than the lateral surface area by exactly the $2$ bases, so $S_{\text{total}}=S_{\text{lat}}+a\times a\times2$.
 
 ## Examples
 
-We start with a cube whose edge is a whole number.
+We try first a cube whose edge is a whole number.
 
 :::example Find both areas
 A cube has an edge of $5$ cm. Find its lateral surface area and its total surface area.
@@ -100,7 +100,7 @@ $$S_{\text{lat}}=25\times4=100\ (\text{cm}^2),\qquad S_{\text{total}}=25\times6=
 So the lateral surface area is $100\ \text{cm}^2$ and the total surface area is $150\ \text{cm}^2$.
 :::
 
-When the edge is a decimal, you multiply two decimals to find the area of one face.
+What if the edge is a decimal? The method stays the same: you multiply two decimals to find the area of one face.
 
 :::example A decimal edge
 A cube has an edge of $1.5$ m. Find its lateral surface area and its total surface area.
@@ -112,7 +112,7 @@ $$S_{\text{lat}}=2.25\times4=9\ (\text{m}^2),\qquad S_{\text{total}}=2.25\times6
 So the lateral surface area is $9\ \text{m}^2$ and the total surface area is $13.5\ \text{m}^2$.
 :::
 
-In real life, many objects do not have all $6$ faces. You must count how many faces to include.
+In real life, many objects do not have all $6$ faces, such as a bin with no lid. Count the faces you need before you multiply.
 
 :::example A bin with no lid
 Mr Hai makes a metal bin in the shape of a cube with no lid. Its edge is $3$ dm. He paints the whole outside of the bin. How many square decimetres does he paint?
@@ -124,7 +124,7 @@ So he paints $45\ \text{dm}^2$.
 **Check.** The total surface area is $9\times6=54\ (\text{dm}^2)$. Taking away the lid, $9\ \text{dm}^2$, leaves $54-9=45\ (\text{dm}^2)$. The results agree.
 :::
 
-Finally, we work backwards: we know the area and want the edge.
+Now we work backwards: we know the area and want the edge.
 
 :::example Find the edge
 The total surface area of a cube is $96\ \text{cm}^2$. Find the length of its edge.
@@ -136,11 +136,11 @@ We need a number that gives $16$ when multiplied by itself. Since $4\times4=16$,
 **Check.** $4\times4\times6=96$. Correct.
 :::
 
-If you are given the lateral surface area instead, divide by $4$ (not $6$) to get the area of one face.
+If you are given the lateral surface area instead, divide by $4$ (not $6$) to get the area of one face. Many people divide by $6$ here out of habit, so count the faces first.
 
 :::warning Mistakes to watch out for
 - **Forgetting to multiply the edge by itself.** Wrong: a cube with edge $3$ cm has $S_{\text{total}}=3\times6=18\ \text{cm}^2$. Why it is wrong: $3\times6$ is not an area; one face has area $3\times3=9$. Right: $S_{\text{total}}=3\times3\times6=54\ \text{cm}^2$.
-- **Using the wrong number of faces.** Wrong: finding the lateral surface area as $a\times a\times6$. Why it is wrong: the lateral surface area has only the $4$ side faces, not the two bases. Right: $a\times a\times4$.
+- **Using the wrong number of faces.** Wrong: finding the lateral surface area as $a\times a\times6$. Why it is wrong: the lateral surface area includes only the $4$ side faces, not the two bases. Right: $a\times a\times4$.
 - **Wrong unit.** Wrong: "Answer: $54\ \text{cm}$". Right: "Answer: $54\ \text{cm}^2$", because area is measured in square centimetres.
 :::
 
@@ -167,10 +167,11 @@ If you are given the lateral surface area instead, divide by $4$ (not $6$) to ge
 - An object with no lid has only $5$ faces: multiply the area of one face by $5$.
 - Given an area, to find the edge: divide to get the area of one face, then find the number that multiplies by itself to give it.
 - Always write the area with a square unit, for example $\text{cm}^2$.
+The opening question asked how much paper Nam needs to cover the box: that is the total surface area, the area of one face times the number of faces. Remember to count the faces you need, and practise a few more until it feels easy.
 
 ## Practice
 
-Each exercise comes with what you need and how to start. Try it yourself first, then open the solution.
+Each exercise gives you what you need and a way to start. Try it yourself first, and only then open the solution. A wrong first try is part of learning.
 
 :::exercise
 Find the lateral surface area of a cube with edge $4$ cm.

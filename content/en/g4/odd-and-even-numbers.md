@@ -10,20 +10,21 @@ minutes: 15
 - Solve simple problems about odd and even numbers.
 :::
 
-Class $4$A has $18$ pupils lining up in pairs. They all make pairs and nobody is left over. Class $4$B has $19$ pupils, and when they line up in pairs one pupil is left over. Which class fills every pair?
+Class $4$A has $18$ pupils lining up in pairs, and they all make pairs with nobody left over. Class $4$B has $19$ pupils, and one pupil is left standing alone. Which class fills every pair?
 
-How are the numbers $18$ and $19$ different? This lesson will help you answer.
+The numbers $18$ and $19$ stand right next to each other, yet they differ in an important way. What is it? Once you know, you can tell at a glance whether a number is even or odd.
 
 ## Let's explore
 
-We divide the number of pupils by $2$, because each pair has $2$ pupils:
+To see whether the pupils fill every pair, we divide by $2$, because each pair has $2$ pupils:
 
 - $18\div2=9$, remainder $0$. There are $9$ pairs and nobody is left over.
 - $19\div2=9$, remainder $1$. There are $9$ pairs and $1$ pupil is left over.
+The remainder is what makes the two classes different.
 
-The number $18$ divides exactly by $2$; we call it an **even number**. The number $19$ leaves a remainder of $1$ when divided by $2$; we call it an **odd number**.
+The number $18$ divides exactly by $2$; we call it an **even number**. The number $19$ leaves a remainder of $1$ when divided by $2$; we call it an **odd number**. In other words, an even number fills every pair, and an odd number always has one left over.
 
-Now look at the last digits. Small even numbers: $0$, $2$, $4$, $6$, $8$, $10$, $12$, $14$. Small odd numbers: $1$, $3$, $5$, $7$, $9$, $11$, $13$. The ones digit of an even number is always $0$, $2$, $4$, $6$ or $8$; the ones digit of an odd number is always $1$, $3$, $5$, $7$ or $9$.
+Now look at the last digits. Small even numbers: $0$, $2$, $4$, $6$, $8$, $10$, $12$, $14$. Small odd numbers: $1$, $3$, $5$, $7$, $9$, $11$, $13$. Can you see the pattern? The ones digit of an even number is always $0$, $2$, $4$, $6$ or $8$; the ones digit of an odd number is always $1$, $3$, $5$, $7$ or $9$.
 
 :::theorem Even and odd numbers
 - An **even number** divides exactly by $2$. Its last digit is $0$, $2$, $4$, $6$ or $8$.
@@ -31,11 +32,11 @@ Now look at the last digits. Small even numbers: $0$, $2$, $4$, $6$, $8$, $10$, 
 - Two consecutive even numbers differ by $2$. Two consecutive odd numbers also differ by $2$.
 :::
 
-You only need to look at the last digit because every other place (tens, hundreds, thousands, …) divides exactly by $2$. What is left over depends only on the ones.
+Why only the last digit? Every other place (tens, hundreds, thousands, …) divides exactly by $2$, so what is left over depends only on the ones.
 
 ## Examples
 
-We start by telling even and odd numbers apart.
+We start by telling even and odd numbers apart. All we need is the last digit.
 
 :::example Spotting even and odd
 Among the numbers $3\,406$; $5\,719$; $80\,000$; $99\,997$, which are even and which are odd?
@@ -50,7 +51,7 @@ Among the numbers $3\,406$; $5\,719$; $80\,000$; $99\,997$, which are even and w
 So the even numbers are $3\,406$ and $80\,000$; the odd numbers are $5\,719$ and $99\,997$.
 :::
 
-Next, you write a number that fits a condition.
+Now you write a number that fits a condition. The last digit will help again.
 
 :::example The greatest even number and the least odd number
 Find the greatest three-digit even number and the least four-digit odd number.
@@ -62,7 +63,7 @@ The least four-digit number is $1\,000$, but $1\,000$ is even. The odd number ju
 So the greatest three-digit even number is $998$, and the least four-digit odd number is $1\,001$.
 :::
 
-You can also write a list of consecutive even or odd numbers.
+Even and odd numbers also let us write a whole list of consecutive numbers.
 
 :::example Consecutive numbers
 Write three consecutive even numbers starting from $48$.
@@ -73,7 +74,7 @@ $$48,\quad 48+2=50,\quad 50+2=52.$$
 So the three consecutive even numbers are $48$, $50$, $52$.
 :::
 
-Now we make numbers from given digits.
+Sometimes the digits are given and we must build even numbers from them. The last digit is the first thing to think about.
 
 :::example Making even numbers
 Using the digits $1$, $2$, $5$ (each digit once), make all the three-digit even numbers.
@@ -83,7 +84,7 @@ Using the digits $1$, $2$, $5$ (each digit once), make all the three-digit even 
 So there are two even numbers: $152$ and $512$.
 :::
 
-Last, a problem close to everyday life.
+Last, a problem from everyday life: house numbers along a street.
 
 :::example House numbers
 The houses on the right-hand side of Hoa Lan Street have consecutive even numbers: $2$, $4$, $6$, … What is the number of the $10$th house?
@@ -98,6 +99,7 @@ The $10$th number in the list is $20$. So the $10$th house is number $20$.
 - **Looking at a digit in the middle.** Wrong: "$1\,250$ is odd because it has the digit $5$". Why it is wrong: only the last digit decides. Right: $1\,250$ ends in $0$, so it is even.
 - **Looking at the first digit.** Wrong: "$8\,371$ is even because it starts with $8$". Why it is wrong: look only at the ones digit. Right: $8\,371$ ends in $1$, so it is odd.
 - **Thinking consecutive odd numbers differ by $1$.** Wrong: after $7$ comes $8$. Why it is wrong: $8$ is even. Right: after $7$ comes $9$.
+Don't worry if you have made these slips before. Just remember to look at the ones digit only.
 :::
 
 ## Key terms
@@ -119,10 +121,11 @@ The $10$th number in the list is $20$. So the $10$th house is number $20$.
 - An odd number leaves a remainder of $1$ when divided by $2$; its last digit is $1$, $3$, $5$, $7$, $9$.
 - Two consecutive even numbers (or two consecutive odd numbers) differ by $2$.
 - To tell whether a number is even or odd, just look at its last digit.
+So the two classes at the start differ in their remainder: the class that fills every pair has an even number of pupils, and the class with one left over has an odd number. Remember one thing: look at the last digit. A few practice questions will make it feel natural.
 
 ## Practice
 
-Each exercise comes with what you need and how to start. Try it yourself first, then open the solution.
+Each exercise comes with the idea you need and a hint to get started. Try it yourself first, open the hint if you are stuck, and look at the solution last.
 
 :::exercise
 Among the numbers $7\,482$; $6\,135$; $20\,508$; $9\,999$, which are even?

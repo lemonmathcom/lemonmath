@@ -12,17 +12,17 @@ minutes: 15
 
 Each spider has $8$ legs. How many legs do $3$ spiders have altogether?
 
-You could add $8+8+8$, but with many spiders adding is slow. This lesson helps you work it out quickly with the $8$ times table.
+You could add $8+8+8$, and that works. But what if there were ten spiders, or twenty? Adding would take a long time. The $8$ times table is a shortcut: once you know it, the answer comes straight away.
 
 ## Let's explore
 
-Each spider is a group of $8$ legs. We add one spider at a time:
+Each spider is a group of $8$ legs. Let's add the spiders one at a time and watch the number of legs change:
 
 - $1$ spider: $8$ legs.
 - $2$ spiders: $8+8=16$ legs.
 - $3$ spiders: $16+8=24$ legs.
 
-So $3$ spiders have $24$ legs, that is $8\times3=24$. Each new group adds $8$ to the product.
+So $3$ spiders have $24$ legs, that is $8\times3=24$. Notice this: each time we add a spider, which is one more group, the product goes up by exactly $8$.
 
 :::graph On the number line: every jump is 8
 alt: A number line from 0 to 48 with the points 0, 8, 16, 24, 32, 40 and 48 marked, each $8$ more than the one before
@@ -38,7 +38,7 @@ point: (40, 0) "40" above
 point: (48, 0) "48" below
 :::
 
-Here is one more trick: $8$ is double $4$, so $8\times3$ is double $4\times3=12$, and $12+12=24$.
+Here is one more trick, if you already know the $4$ times table. Why does it work? Because $8$ is double $4$, so $8\times3$ is also double $4\times3=12$. You only need to work out $12+12=24$.
 
 :::theorem The 8 times table
 To work out $8\times n$, take $8\times(n-1)$ and add $8$. You can also take $4\times n$ and double it.
@@ -52,11 +52,11 @@ To work out $8\times n$, take $8\times(n-1)$ and add $8$. You can also take $4\t
 | $48$ | $56$ | $64$ | $72$ | $80$ |
 :::
 
-The division facts for $8$ come from the $8$ times table. Since $8\times3=24$, we have $24\div8=3$. If you split $24$ legs into groups of $8$, you get $3$ groups.
+Once you know the $8$ times table, you know the division facts for $8$ too. Why? Because division undoes multiplication. Since $8\times3=24$, we have $24\div8=3$. In spider words: if you split $24$ legs into groups of $8$, you get $3$ groups, one for each spider.
 
 ## Examples
 
-We start with the trick of doubling the $4$ times table.
+Let's try the doubling trick first, using the $4$ times table.
 
 :::example Work out $8\times6$ by doubling
 **Solution.** We have $4\times6=24$. Since $8$ is double $4$, $8\times6$ is double $4\times6$:
@@ -64,7 +64,7 @@ $$8\times6=24+24=48.$$
 So $8\times6=48$.
 :::
 
-Now take the product before and add $8$.
+The second way is to take the product before and add $8$.
 
 :::example Work out $8\times7$
 **Solution.** You know $8\times6=48$. Add one more group of $8$:
@@ -72,7 +72,7 @@ $$8\times7=8\times6+8=48+8=56.$$
 So $8\times7=56$.
 :::
 
-Sometimes it is easier to take the next product and subtract $8$.
+Sometimes it is easier to go back from the next product. Take that product and subtract $8$.
 
 :::example Work out $8\times9$
 **Solution.** You know $8\times10=80$. Take away one group of $8$:
@@ -80,7 +80,7 @@ $$8\times9=8\times10-8=80-8=72.$$
 So $8\times9=72$.
 :::
 
-Next, division.
+Now we use the times table to divide. Ask yourself: which number times the divisor gives the dividend?
 
 :::example Work out $64\div8$
 **Solution.** Ask: which number times $8$ makes $64$? In the $8$ times table, $8\times8=64$, so
@@ -90,7 +90,7 @@ $$64\div8=8.$$
 So $64\div8=8$.
 :::
 
-Finally, a word problem.
+Finally, a word problem. Read it carefully and decide whether to multiply or divide before you work anything out.
 
 :::example Cakes into boxes
 There are $40$ cakes to put into boxes, $8$ cakes in each box. How many boxes can we fill?
@@ -103,9 +103,9 @@ So we can fill $5$ boxes.
 :::
 
 :::warning Mistakes to watch out for
-- **Using a nearby number.** Wrong: $8\times7=54$. Why it is wrong: $54$ is not in the $8$ times table. Right: $8\times7=48+8=56$.
-- **Adding instead of multiplying.** Wrong: $8\times8=16$. Why it is wrong: $8+8=16$ is an addition, but $8\times8$ means $8$ groups of $8$. Right: $8\times8=64$.
-- **Dividing wrongly.** Wrong: $64\div8=7$. Why it is wrong: $8\times7=56$, not $64$. Right: $8\times8=64$, so $64\div8=8$.
+- **Using a nearby number.** Numbers that sit close together are easy to mix up. Wrong: $8\times7=54$. Why it is wrong: $54$ is not in the $8$ times table. Right: $8\times7=48+8=56$.
+- **Adding instead of multiplying.** Wrong: $8\times8=16$. Why it is wrong: $8+8=16$ is an addition, but $8\times8$ means $8$ groups of $8$. Right: $8\times8=64$. Remember that multiplying means taking equal groups.
+- **Dividing wrongly.** Wrong: $64\div8=7$. Why it is wrong: $8\times7=56$, not $64$. Right: $8\times8=64$, so $64\div8=8$. You can always check a division with a multiplication.
 - **Forgetting the unit.** Wrong: "Answer: $5$". Right: "Answer: $5$ boxes".
 :::
 
@@ -130,9 +130,11 @@ So we can fill $5$ boxes.
 - From $8\times a=b$ we get $b\div8=a$ and $b\div a=8$.
 - Write the unit in the answer; check a division with a multiplication.
 
+Back to the spiders: with the table, you can find the legs of any number of spiders without adding again and again. Knowing the times table gives you the division facts too, so practise a little at a time.
+
 ## Practice
 
-Each exercise comes with what you need and how to start. Try it yourself first, then open the solution.
+Each exercise has a short reminder of what you need and a hint to get you started. Have a go on your own first, and don't worry if you get stuck. Then open the solution and compare.
 
 :::exercise
 Work out:

@@ -12,7 +12,7 @@ type: guide
 - Lập kế hoạch ôn bằng các bài học Lemonmath và các tài nguyên chính thức miễn phí.
 :::
 
-AP Calculus là một trong những kì thi Advanced Placement phổ biến nhất. Điểm tốt có thể được nhiều trường đại học ở Mỹ và các nước khác công nhận tín chỉ hoặc xếp lớp, và cho hội đồng tuyển sinh thấy bạn theo được Toán bậc đại học. Với học sinh Việt Nam, nội dung khá quen thuộc: giới hạn, đạo hàm và tích phân có trong chương trình lớp 11 và 12. Điều khác biệt là mức độ **lập luận** (justification): AP yêu cầu giải thích suy luận bằng lời và bằng định lí, không chỉ tính toán.
+Bạn đã gặp giới hạn, đạo hàm và tích phân trong chương trình lớp 11 và 12, nên nội dung của AP Calculus không xa lạ. Vậy kì thi này còn đòi thêm điều gì? Câu trả lời nằm ở chữ **lập luận** (justification): AP muốn thấy bạn giải thích suy luận bằng lời và bằng định lí, chứ không chỉ tính ra một con số. Đổi lại, một điểm tốt ở kì thi Advanced Placement phổ biến này có thể được nhiều trường đại học ở Mỹ và các nước khác công nhận tín chỉ hoặc xếp lớp, và cho hội đồng tuyển sinh thấy bạn theo được Toán bậc đại học. Ta sẽ xem đề được chia thế nào, AB khác BC ở đâu, rồi lập kế hoạch ôn.
 
 ## AB hay BC?
 
@@ -22,11 +22,11 @@ AP Calculus là một trong những kì thi Advanced Placement phổ biến nh�
 | Tương đương | khoảng một học kì giải tích đại học | khoảng hai học kì |
 | Điểm | một điểm AP, từ 1 đến 5 | một điểm AP, kèm điểm phụ AB |
 
-Nếu kế hoạch học tập cho phép và bạn đã vững nội dung AB, thì BC thường là lựa chọn tốt hơn: điểm phụ AB cho thấy cả kết quả của bạn ở phần AB.
+Vậy nên chọn AB hay BC? Nếu kế hoạch học tập cho phép và bạn đã vững nội dung AB, BC thường là lựa chọn tốt hơn. Lí do là điểm phụ AB: nó cho thấy cả kết quả của bạn ở phần AB, nên thi BC bạn vẫn biết rõ mình làm phần AB tốt đến đâu.
 
 ## Cấu trúc đề (từ tháng 5/2027)
 
-Hai đề có cùng cấu trúc. Phần trắc nghiệm làm trên ứng dụng Bluebook; phần tự luận viết tay vào tập bài làm.
+Về cấu trúc, AB và BC giống nhau. Phần trắc nghiệm làm trên ứng dụng Bluebook, còn phần tự luận bạn viết tay vào tập bài làm. Bảng dưới cho biết mỗi phần dài bao lâu và khi nào được dùng máy tính.
 
 | Phần | Nhánh | Số câu | Thời gian | Máy tính | Tỉ trọng |
 |---|---|---|---|---|---|
@@ -35,7 +35,7 @@ Hai đề có cùng cấu trúc. Phần trắc nghiệm làm trên ứng dụng 
 | II. Tự luận | A | 2 | 30 phút | bắt buộc máy tính đồ thị | 50% cho Phần II |
 | | B | 4 | 60 phút | không được dùng | |
 
-Câu trắc nghiệm có bốn phương án và sai không bị trừ điểm. Mỗi câu tự luận được 9 điểm. Sách và trang web cũ mô tả 30 + 15 câu trắc nghiệm; cấu trúc đó kết thúc ở kì thi năm 2026. Kì thi AB năm 2027 dự kiến vào ngày 10 tháng 5; hãy xem AP Central để biết lịch chính thức.
+Câu trắc nghiệm có bốn phương án và sai không bị trừ điểm, nên bạn cứ trả lời hết mọi câu, kể cả câu chưa chắc. Mỗi câu tự luận được 9 điểm. Sách và trang web cũ mô tả 30 + 15 câu trắc nghiệm; cấu trúc đó kết thúc ở kì thi năm 2026. Kì thi AB năm 2027 dự kiến vào ngày 10 tháng 5; lịch chính thức có trên AP Central, bạn nhớ xem lại.
 
 ## Mười unit
 
@@ -54,17 +54,18 @@ Câu trắc nghiệm có bốn phương án và sai không bị trừ điểm. M
 
 ## Câu tự luận trông như thế nào
 
-Câu tự luận trộn nhiều unit, và mỗi ý được chấm riêng, nên bạn vẫn có điểm ở các ý sau dù ý trước sai. Các dạng thường gặp:
+Câu tự luận thường trộn kiến thức của nhiều unit. Mỗi ý được chấm riêng, nên nếu ý đầu sai, bạn vẫn có thể lấy điểm ở các ý sau. Đừng bỏ trống cả câu chỉ vì kẹt một ý. Các dạng thường gặp là:
 
-- **Tốc độ thay đổi trong bối cảnh**, thường kèm bảng giá trị: ước lượng đạo hàm, tổng Riemann, hoặc lượng thay đổi $\displaystyle\int_a^b r(t)\,dt$.
+- **Tốc độ thay đổi trong bối cảnh**, thường kèm bảng giá trị: ước lượng đạo hàm, tính tổng Riemann, hoặc tìm lượng thay đổi $\displaystyle\int_a^b r(t)\,dt$.
 - **Chuyển động của chất điểm**: vận tốc, gia tốc, nhanh dần hay chậm dần, tổng quãng đường.
-- **Phân tích đồ thị của $f'$**: $f$ đồng biến ở đâu, có cực trị hay điểm uốn ở đâu, kèm giải thích.
+- **Phân tích đồ thị của $f'$**: $f$ đồng biến ở đâu, có cực trị hay điểm uốn ở đâu, và giải thích vì sao.
 - **Phương trình vi phân**: trường hướng (slope field), xấp xỉ bằng tiếp tuyến, tách biến.
 - **Diện tích và thể tích** của miền giữa các đường cong.
 - **Chỉ BC**: đa thức Taylor và cận sai số, sự hội tụ của chuỗi, đường cong tham số hoặc cực.
+Mỗi dạng có cách làm riêng, và luyện vài lần là bạn quen.
 
 :::warning Câu tự luận được chấm thế nào
-Giám khảo tìm **phần thiết lập** và **phần giải thích**, không chỉ con số. "Hàm số có cực đại tại $x=2$" gần như không có điểm nếu thiếu lí do: "vì $f'$ đổi dấu từ dương sang âm tại $x=2$". Ở phần dùng máy tính, hãy viết tích phân hoặc phương trình đang giải trước khi ghi kết quả thập phân, chính xác đến ba chữ số sau dấu phẩy.
+Giám khảo không chỉ nhìn con số. Họ tìm **phần thiết lập** (bạn bắt đầu bài toán thế nào) và **phần giải thích** (vì sao kết luận đúng). Chỗ này nhiều bạn hay bỏ sót. "Hàm số có cực đại tại $x=2$" gần như không có điểm nếu thiếu lí do: "vì $f'$ đổi dấu từ dương sang âm tại $x=2$". Ở phần dùng máy tính, hãy viết ra tích phân hoặc phương trình đang giải trước khi ghi kết quả thập phân, chính xác đến ba chữ số sau dấu phẩy.
 :::
 
 ## Hai câu hỏi mẫu
@@ -87,9 +88,10 @@ Hàm số $f$ có đạo hàm cấp hai, và $f'(x)=x^2-4$. $f$ đồng biến t
 
 ## Kế hoạch ôn
 
-1. **Tuần 1–2:** làm một đề luyện chính thức trọn vẹn trên Bluebook để biết trình độ; ôn Unit 1–3.
-2. **Tuần 3–6:** Unit 4–8 (và 9–10 nếu thi BC), mỗi lần một bài, làm kèm bài tập.
-3. **Tuần 7–9:** câu tự luận các năm trước trên AP Central, bấm giờ 15 phút mỗi câu. Đối chiếu bài làm với hướng dẫn chấm chính thức.
-4. **Tuần 10–12:** đề luyện trọn vẹn và [sổ lỗi sai](lesson:error-log).
+1. **Tuần 1–2:** làm một đề luyện chính thức trọn vẹn trên Bluebook để biết trình độ của mình; ôn Unit 1–3.
+2. **Tuần 3–6:** học Unit 4–8 (và 9–10 nếu thi BC), mỗi lần một bài, làm kèm bài tập.
+3. **Tuần 7–9:** làm câu tự luận các năm trước trên AP Central, bấm giờ 15 phút mỗi câu. Đối chiếu bài làm với hướng dẫn chấm chính thức.
+4. **Tuần 10–12:** làm đề luyện trọn vẹn và xem lại [sổ lỗi sai](lesson:error-log).
+Kế hoạch này chỉ là cái khung. Bạn cứ co giãn cho hợp với thời gian mình có, miễn là học đều đặn.
 
-Tài nguyên chính thức miễn phí: AP Classroom (qua nhà trường), câu tự luận các năm trước kèm hướng dẫn chấm trên AP Central, và các đề luyện trong Bluebook. Về kĩ năng dùng máy, xem bài [Dùng máy tính cầm tay và Desmos thông minh](lesson:calculator-skills).
+Tài nguyên chính thức miễn phí gồm AP Classroom (qua nhà trường), câu tự luận các năm trước kèm hướng dẫn chấm trên AP Central, và các đề luyện trong Bluebook. Về kĩ năng dùng máy, xem bài [Dùng máy tính cầm tay và Desmos thông minh](lesson:calculator-skills). Nếu chỉ nhớ một điều, hãy nhớ điều đã mở đầu bài: AP muốn thấy lí do đằng sau con số. Mỗi lần luyện, bạn thử viết thêm một câu giải thích, và làm bài đều đặn, bạn sẽ thấy mình vững dần.

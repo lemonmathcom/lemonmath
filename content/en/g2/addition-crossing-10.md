@@ -12,17 +12,18 @@ minutes: 15
 
 Lan has $8$ sweets. Her mum gives her $5$ more. How many sweets does Lan have altogether?
 
-You could count on one at a time: $9, 10, 11, 12, 13$. But counting like that is slow and easy to get wrong. This lesson shows you a much quicker trick.
+You could count on one at a time: $9, 10, 11, 12, 13$. That works, but it is slow and easy to lose your place. A quicker way is to make a full ten first, then add what is left.
 
 ## Let's explore
 
-Lan has a sweet box with exactly $10$ spaces. She puts her $8$ sweets in, so $2$ spaces are still empty.
+Picture a sweet box with exactly $10$ spaces. Lan puts her $8$ sweets in, so $2$ spaces are still empty.
 
 - Lan takes $2$ of the $5$ sweets from her mum to fill the box. Now the box has $10$.
 - $3$ of mum's sweets are left outside the box.
 - $10$ in the box and $3$ outside make $13$.
+The box is full, so you only need to count the ones outside.
 
-So $8+5=13$. You see: just **make 10** first, and the answer is easy.
+So $8+5=13$. What you just did has a name: **make 10**. Fill the box first, then add what is left outside.
 
 :::graph On the number line: from 8, jump 2 to reach 10, then jump 3 to reach 13
 alt: A number line from 0 to 20 with the points 8, 10 and 13 marked and the stretch from 8 to 13 highlighted
@@ -41,11 +42,11 @@ To work out $8+5$:
 3. Add: $8+2=10$, then $10+3=13$.
 :::
 
-The trick works because no sweet is lost: you only move $2$ of them into the box to make $10$, and the rest are still counted.
+Why does the trick work? No sweet is lost. You only move $2$ of them into the box to make $10$, and the rest are still counted.
 
 ## Examples
 
-We start with a sum that has a $9$ in it, because $9$ needs only $1$ more to make $10$.
+We try a $9$ first, because $9$ needs only $1$ more to make $10$. The split is simple to do.
 
 :::example Work out $9+4$
 **Solution.** $9$ needs $1$ more to make $10$, so split $4$ into $1$ and $3$:
@@ -53,7 +54,7 @@ $$9+4=9+1+3=10+3=13.$$
 So $9+4=13$.
 :::
 
-With a $7$, you need more to make $10$.
+With a $7$ it is different: you need more to make $10$. Ask yourself how many more.
 
 :::example Work out $7+6$
 **Solution.** $7$ needs $3$ more to make $10$, so split $6$ into $3$ and $3$:
@@ -61,7 +62,7 @@ $$7+6=7+3+3=10+3=13.$$
 So $7+6=13$.
 :::
 
-When the first number is the smaller one, you can swap the two numbers to make it easier.
+Sometimes the first number is the smaller one. Then you can swap the two numbers, because the sum stays the same, and work it out more easily.
 
 :::example Work out $6+8$
 **Solution.** Swapping the addends does not change the sum, so $6+8=8+6$. $8$ needs only $2$ more to make $10$, so split $6$ into $2$ and $4$:
@@ -69,7 +70,7 @@ $$8+6=8+2+4=10+4=14.$$
 So $6+8=14$.
 :::
 
-Now use addition to answer a question from everyday life.
+Now we use addition for something familiar: groups planting trees together.
 
 :::example Planting trees
 Group One planted $9$ trees and Group Two planted $7$ trees. How many trees did the two groups plant altogether?
@@ -82,7 +83,8 @@ So the two groups planted $16$ trees.
 :::warning Mistakes to watch out for
 - **Forgetting what is left.** Wrong: $8+5=10$. Why it is wrong: you only added $2$ of the $5$ and forgot the other $3$. Right: $8+5=10+3=13$.
 - **Splitting wrongly.** Wrong: splitting $5$ into $2$ and $2$. Why it is wrong: $2+2=4$, not $5$. Right: $5=2+3$.
-- **No unit in a word problem.** Wrong: "Answer: $16$". Right: "Answer: $16$ trees".
+- **No unit in a word problem.** Wrong: "Answer: $16$". Why it is wrong: a number on its own does not say what it is a number of. Right: "Answer: $16$ trees".
+Many pupils slip up here, so after splitting, add the two parts back together to see whether they match the number you started with.
 :::
 
 ## Key terms
@@ -103,10 +105,11 @@ So the two groups planted $16$ trees.
 - Example: $8+5=8+2+3=10+3=13$.
 - Swapping the addends does not change the sum; add on to the bigger number to make it easier.
 - Questions with "altogether" or "both" usually need addition; remember the unit in the answer.
+Lan's question at the start is solved the same way: fill the box to make a full ten, then add what is left. Practise a few more sums until it feels natural.
 
 ## Practice
 
-Each exercise comes with what you need and how to start. Try it yourself first, then open the solution.
+Each exercise comes with a reminder of what you need and a hint to start you off. Try it yourself first. If you get stuck, or when you have finished, open the solution.
 
 :::exercise
 Work out $9+3$.

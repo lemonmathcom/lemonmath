@@ -17,21 +17,21 @@ Bạn Lan muốn vẽ đồ thị $y=x^3-3x+1$ bằng tay. Lan chấm năm đi�
 |---|---|---|---|---|---|
 | $y$ | $-1$ | $3$ | $1$ | $-1$ | $3$ |
 
-rồi nối lại. Nhưng biết đâu giữa hai điểm chấm, đồ thị còn có một chỗ "nhô" lên mà Lan không thấy? Và phương trình $x^3-3x+1=0$ có bao nhiêu nghiệm?
+rồi nối chúng lại bằng một đường cong. Nhưng biết đâu giữa hai điểm chấm, đồ thị còn có một chỗ "nhô" lên mà Lan không thấy? Và phương trình $x^3-3x+1=0$ có bao nhiêu nghiệm? Chấm điểm thôi thì chưa trả lời được cả hai câu hỏi ấy.
 
-Dù chấm bao nhiêu điểm, ta cũng không chắc chắn được giữa hai điểm liền nhau đồ thị làm gì. Khảo sát hàm số cho ta sự chắc chắn đó: nó tổng hợp mọi điều đã học về đạo hàm, cực trị và tiệm cận thành một bức tranh đầy đủ về hình dạng của đồ thị.
+Dù chấm thêm bao nhiêu điểm, ta vẫn không chắc giữa hai điểm liền nhau đồ thị làm gì. Muốn chắc, ta cần khảo sát hàm số. Việc này gom mọi điều đã học về đạo hàm, cực trị và tiệm cận thành một bức tranh đầy đủ về hình dạng của đồ thị, nên bạn vẽ mà không còn phải đoán.
 
 ## Sơ đồ khảo sát hàm số
 
 ### Khám phá: đạo hàm cho biết hình dạng
 
-Đạo hàm $y'=3x^2-3=3(x-1)(x+1)$ chỉ bằng $0$ tại $x=-1$ và $x=1$. Vậy đồ thị chỉ có thể "quay đầu" tại hai điểm đó: đi lên trên $(-\infty; -1)$, đi xuống trên $(-1; 1)$, đi lên trên $(1; +\infty)$. Giữa các điểm Lan chấm không còn chỗ nhô nào khác.
+Hãy nhìn đạo hàm $y'=3x^2-3=3(x-1)(x+1)$. Nó chỉ bằng $0$ tại $x=-1$ và $x=1$. Mà đồ thị chỉ có thể "quay đầu" ở nơi đạo hàm bằng $0$, nên đồ thị đi lên trên $(-\infty; -1)$, đi xuống trên $(-1; 1)$ và lại đi lên trên $(1; +\infty)$. Giữa các điểm Lan chấm không còn chỗ nhô nào khác.
 
-Như vậy chỉ cần vài điểm và bảng biến thiên là ta vẽ được đồ thị đúng hình dạng. Đó là ý tưởng của sơ đồ khảo sát.
+Vậy chỉ cần vài điểm và bảng biến thiên là ta vẽ được đồ thị đúng hình dạng. Đó là ý tưởng của sơ đồ khảo sát. Ta sẽ đi qua từng bước của nó.
 
-**Hiểu sâu hơn.** Mỗi bước của sơ đồ trả lời một câu hỏi về hình dạng: tập xác định cho biết đồ thị có bị "đứt" không; dấu của $y'$ cho biết đồ thị đi lên hay đi xuống; giới hạn và tiệm cận cho biết đồ thị đi về đâu khi ở rất xa; giao điểm với các trục giúp đặt đồ thị đúng vị trí.
+**Hiểu sâu hơn.** Mỗi bước của sơ đồ trả lời một câu hỏi về hình dạng. Tập xác định cho biết đồ thị có bị "đứt" chỗ nào không. Dấu của $y'$ cho biết đồ thị đi lên hay đi xuống. Giới hạn và tiệm cận cho biết đồ thị đi về đâu khi ra rất xa. Giao điểm với các trục giúp đặt đồ thị đúng vị trí.
 
-**Kết nối.** Sơ đồ này gom lại ba bài trước (tính đơn điệu và cực trị, giá trị lớn nhất và nhỏ nhất, tiệm cận). Đồ thị vẽ được lại dùng ngay để tìm số nghiệm của phương trình và để mô tả các đại lượng thực tế.
+**Kết nối.** Sơ đồ này gom lại ba bài trước (tính đơn điệu và cực trị, giá trị lớn nhất và nhỏ nhất, tiệm cận). Đồ thị vẽ xong lại dùng được ngay: để tìm số nghiệm của phương trình và để mô tả các đại lượng trong thực tế.
 
 :::note Sơ đồ khảo sát và vẽ đồ thị hàm số
 1. **Tập xác định** của hàm số.
@@ -77,9 +77,9 @@ point: (1, -1) "(1; -1)" below
 point: (0, 1) "(0; 1)" right
 :::
 
-Điểm $(0; 1)$ là trung điểm của hai điểm cực trị, và đồ thị đối xứng qua điểm này. Mọi đồ thị bậc ba đều có một **tâm đối xứng**: đó là điểm có hoành độ là nghiệm của $y''=0$ (ở đây $y''=6x=0\iff x=0$).
+Điểm $(0; 1)$ là trung điểm của hai điểm cực trị, và đồ thị đối xứng qua điểm này. Điều đó đúng với mọi hàm bậc ba: đồ thị đều có một **tâm đối xứng**, là điểm có hoành độ là nghiệm của $y''=0$. Ở đây $y''=6x=0\iff x=0$.
 
-Không phải hàm bậc ba nào cũng có cực trị. Khi $y'$ không đổi dấu, đồ thị đi một chiều.
+Đừng nghĩ hàm bậc ba nào cũng có hai cực trị. Khi $y'$ không đổi dấu thì đồ thị chỉ đi một chiều, không có chỗ nào để quay đầu. Ví dụ sau cho thấy điều đó.
 
 :::example Hàm bậc ba không có cực trị
 Khảo sát và vẽ đồ thị hàm số $y=-x^3+3x^2-3x+2$.
@@ -107,7 +107,7 @@ point: (2, 0) "(2; 0)" left
 
 ## Hàm số phân thức
 
-Với phân thức, bước "giới hạn và tiệm cận" quan trọng hơn: các tiệm cận được vẽ trước bằng nét đứt, rồi ta vẽ các nhánh sát chúng.
+Với hàm phân thức, bước giới hạn và tiệm cận quan trọng hơn cả. Ta vẽ các tiệm cận trước bằng nét đứt, rồi vẽ các nhánh của đồ thị bám sát chúng.
 
 :::example Khảo sát $y=\dfrac{x+1}{x-1}$
 Khảo sát và vẽ đồ thị hàm số $y=\dfrac{x+1}{x-1}$.
@@ -139,7 +139,7 @@ point: (-1, 0) "(-1; 0)" above-left
 point: (0, -1) "(0; -1)" below-left
 :::
 
-Với $y=\dfrac{ax^2+bx+c}{mx+n}$, ta chia đa thức trước: vừa thấy tiệm cận xiên, vừa tính đạo hàm dễ hơn.
+Với $y=\dfrac{ax^2+bx+c}{mx+n}$, ta chia đa thức trước. Làm vậy có hai cái lợi: tiệm cận xiên hiện ra ngay, và việc tính đạo hàm cũng dễ hơn.
 
 :::example Khảo sát $y=\dfrac{x^2-2x+2}{x-1}$
 Khảo sát và vẽ đồ thị hàm số $y=\dfrac{x^2-2x+2}{x-1}$.
@@ -173,7 +173,7 @@ point: (2, 2) "(2; 2)" above-right
 
 ## Đọc đồ thị và ứng dụng
 
-Khi đã có đồ thị, ta đọc được nhiều thông tin mà không cần tính lại, chẳng hạn số nghiệm của phương trình $f(x)=k$ (với $k$ là một số cho trước): đó là số giao điểm của đồ thị với đường thẳng nằm ngang $y=k$.
+Khi đã có đồ thị, ta đọc được nhiều điều mà không cần tính lại. Chẳng hạn, muốn biết phương trình $f(x)=k$ (với $k$ là một số cho trước) có bao nhiêu nghiệm, ta đếm số giao điểm của đồ thị với đường thẳng nằm ngang $y=k$. Vì sao? Vì mỗi giao điểm là một chỗ mà hàm số nhận đúng giá trị $k$.
 
 :::graph Đồ thị của một hàm bậc ba $y=f(x)$ và đường thẳng $y=1$
 alt: Đồ thị bậc ba đi qua (-1; 0), có cực đại (0; 4) và cực tiểu (2; 0); đường ngang nét đứt y bằng 1 cắt đồ thị tại ba điểm
@@ -202,7 +202,7 @@ b) Vì đường thẳng $y=1$ nằm giữa giá trị cực tiểu $0$ và giá
 Vậy $f(x)=x^3-3x^2+4$; trên đoạn đường có $3$ vị trí cao $10$ m và $2$ vị trí cao $40$ m ($x=0$ và $x=3$).
 :::
 
-Cuối cùng, ta nhắc lại cách viết tiếp tuyến đã học ở lớp 11: tiếp tuyến tại $M(x_0; y_0)$ có phương trình $y=f'(x_0)(x-x_0)+y_0$.
+Cuối cùng là tiếp tuyến. Bạn đã học cách viết nó ở lớp 11, ta chỉ nhắc lại: tiếp tuyến tại $M(x_0; y_0)$ có phương trình $y=f'(x_0)(x-x_0)+y_0$.
 
 :::example Tiếp tuyến của đồ thị phân thức
 Viết phương trình tiếp tuyến của đồ thị $y=\dfrac{x+1}{x-1}$ tại điểm có hoành độ $x_0=2$.
@@ -243,10 +243,11 @@ Vậy tiếp tuyến là $y=-2x+7$.
 - $y=\dfrac{ax+b}{cx+d}$: luôn đồng biến hoặc luôn nghịch biến trên từng khoảng; hai tiệm cận cắt nhau tại tâm đối xứng.
 - $y=\dfrac{ax^2+bx+c}{mx+n}$: chia đa thức để có tiệm cận xiên và đạo hàm gọn.
 - Số nghiệm của $f(x)=k$ bằng số giao điểm của đồ thị với đường thẳng $y=k$. Tiếp tuyến tại $x_0$: $y=f'(x_0)(x-x_0)+f(x_0)$.
+Quay lại bạn Lan: thay vì chấm thật nhiều điểm rồi đoán, chỉ cần xét dấu đạo hàm là biết đồ thị đi lên, đi xuống ở đâu, và đếm được số nghiệm. Bạn hãy thử với vài hàm số trong phần luyện tập.
 
 ## Luyện tập
 
-Mỗi bài có phần kiến thức và gợi ý các bước. Hãy tự làm trước, rồi mới bấm xem lời giải.
+Mỗi bài có phần kiến thức và gợi ý các bước. Bạn hãy tự làm trước, rồi mới bấm xem lời giải. Đừng lo nếu lần đầu thấy nhiều bước; làm vài hàm là bạn quen tay.
 
 :::exercise
 Khảo sát và vẽ đồ thị hàm số $y=x^3-3x$.

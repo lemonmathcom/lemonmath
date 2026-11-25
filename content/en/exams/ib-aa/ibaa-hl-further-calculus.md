@@ -11,12 +11,12 @@ minutes: 50
 - Approximate solutions of differential equations with Euler's method.
 :::
 
-These HL calculus topics are favorites for the last Section B question of Paper 1 or Paper 2: build a Maclaurin series, use it to find a limit or an approximation, or solve a differential equation step by step and interpret the solution in context. As with all HL algebra, every line must follow from the previous one, so write the method in full.
+The last Section B question on Paper 1 or Paper 2 often comes from this HL calculus. You may be asked to build a Maclaurin series and use it to find a limit or an approximation. Or you may be given a differential equation to solve step by step, then asked what the solution means in context. So the question for this lesson is: how do you get from the problem to an answer where every line has a reason? As with all HL algebra, each line must follow from the one before, so write the method in full and do not skip steps.
 
 ## Maclaurin series
 
 $$f(x)=f(0)+xf'(0)+\frac{x^2}{2!}f''(0)+\frac{x^3}{3!}f'''(0)+\dots$$
-The formula booklet gives the series for $e^x$, $\ln(1+x)$, $\sin x$, $\cos x$, $\arctan x$ and $(1+x)^p$. New series are built by substitution, multiplication, differentiation or integration.
+You do not need to memorise the common series: the formula booklet gives the series for $e^x$, $\ln(1+x)$, $\sin x$, $\cos x$, $\arctan x$ and $(1+x)^p$. Your job is to turn them into new ones. You can substitute, multiply two series, or differentiate or integrate term by term. The two examples below try multiplication and substitution.
 
 :::example Multiplying two series
 Find the Maclaurin series of $e^x\sin x$ up to the term in $x^3$. [4 marks]
@@ -32,7 +32,7 @@ Use the series for $\ln(1+x)$ to find the first three nonzero terms of the serie
 
 ## Limits with series and L'Hôpital's rule
 
-For a limit of the form $\dfrac00$ or $\dfrac\infty\infty$, either replace the functions by their series, or use **L'Hôpital's rule**: $\displaystyle\lim\frac{f(x)}{g(x)}=\lim\frac{f'(x)}{g'(x)}$, repeated if necessary.
+A limit of the form $\dfrac00$ or $\dfrac\infty\infty$ cannot be found by putting the value straight in, because the division makes no sense. There are two ways out. One is to replace the functions by their series and simplify. The other is to use **L'Hôpital's rule**: $\displaystyle\lim\frac{f(x)}{g(x)}=\lim\frac{f'(x)}{g'(x)}$, repeated if necessary. The next example does both on the same limit, so you can see that they agree.
 
 :::example A limit two ways
 Find $\displaystyle\lim_{x\to0}\frac{e^x-1-x}{x^2}$. [4 marks]
@@ -45,9 +45,11 @@ With L'Hôpital (twice, since both stages are $\dfrac00$): $\displaystyle\lim_{x
 ## Differential equations
 
 :::note Three types and their methods
-- **Separable:** $\dfrac{dy}{dx}=f(x)g(y)$. Separate and integrate: $\displaystyle\int\frac{dy}{g(y)}=\int f(x)\,dx$.
-- **Homogeneous:** $\dfrac{dy}{dx}=f\left(\dfrac yx\right)$. Substitute $y=vx$, so $\dfrac{dy}{dx}=v+x\dfrac{dv}{dx}$, and separate.
-- **Linear:** $\dfrac{dy}{dx}+P(x)y=Q(x)$. Multiply by the **integrating factor** $e^{\int P(x)\,dx}$; the left side becomes the derivative of (integrating factor $\times\ y$).
+- **Separable:** $\dfrac{dy}{dx}=f(x)g(y)$. Put everything with one variable on one side and everything with the other variable on the other side, then integrate: $\displaystyle\int\frac{dy}{g(y)}=\int f(x)\,dx$.
+- **Homogeneous:** $\dfrac{dy}{dx}=f\left(\dfrac yx\right)$. Substitute $y=vx$, so $\dfrac{dy}{dx}=v+x\dfrac{dv}{dx}$. The new equation can then be separated.
+- **Linear:** $\dfrac{dy}{dx}+P(x)y=Q(x)$. Multiply by the **integrating factor** $e^{\int P(x)\,dx}$. This is the clever part: the left side becomes the derivative of (integrating factor $\times\ y$), so all that is left is to integrate both sides.
+
+When you meet a new equation, first ask which type it is, and only then start solving.
 :::
 
 :::example Separable
@@ -70,7 +72,7 @@ Find the general solution of $\dfrac{dy}{dx}=\dfrac{x+y}{x}$, $x>0$. [5 marks]
 
 ## Euler's method
 
-Starting from $(x_0,y_0)$ with step $h$: $x_{n+1}=x_n+h$ and $y_{n+1}=y_n+h\,f(x_n,y_n)$, where $\dfrac{dy}{dx}=f(x,y)$. A GDC table or a spreadsheet makes the arithmetic quick on Paper 2.
+Not every differential equation has a solution you can write as a formula. When that happens we can still estimate the solution by taking small steps, each one in the direction of the slope where we stand. Starting from $(x_0,y_0)$ with step $h$: $x_{n+1}=x_n+h$ and $y_{n+1}=y_n+h\,f(x_n,y_n)$, where $\dfrac{dy}{dx}=f(x,y)$. In words, the new value is the old value plus the step times the slope. A GDC table or a spreadsheet makes the arithmetic quick on Paper 2.
 
 :::example Two Euler steps
 For $\dfrac{dy}{dx}=x+y$ with $y(0)=1$, use Euler's method with $h=0.1$ to estimate $y(0.2)$. [3 marks]
@@ -79,11 +81,13 @@ For $\dfrac{dy}{dx}=x+y$ with $y(0)=1$, use Euler's method with $h=0.1$ to estim
 :::
 
 :::warning Common traps
-- **The constant of integration** added too late, or forgotten on one side only.
-- **Wrong integrating factor:** it is $e^{\int P\,dx}$ for the equation written as $y'+Py=Q$; rearrange first.
-- **Interval of validity** of a series after substitution.
-- **L'Hôpital on a limit that is not $\dfrac00$ or $\dfrac\infty\infty$.** Check the form at each stage.
-- **Euler's method:** using the new $x$ with the old $y$ in the slope.
+- **The constant of integration** added too late, or forgotten on one side only. Add it at the moment you integrate.
+- **Wrong integrating factor:** it is $e^{\int P\,dx}$ for the equation written as $y'+Py=Q$, so rearrange the equation before you calculate.
+- **Interval of validity** of a series after substitution. Many students forget to work it out again.
+- **L'Hôpital on a limit that is not $\dfrac00$ or $\dfrac\infty\infty$.** Check the form of the limit at each stage.
+- **Euler's method:** using the new $x$ with the old $y$ in the slope. The slope must be found at one point, the one you are standing on.
+
+Do not worry if you make a few of these at first. Note each mistake and its fix, and next time you will spot it from far off.
 :::
 
 :::terms

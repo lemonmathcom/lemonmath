@@ -11,11 +11,11 @@ minutes: 50
 - Write proofs by mathematical induction, by contradiction, and disprove statements with a counterexample.
 :::
 
-These HL topics appear in Paper 1 and Paper 2, and often in the long Section B questions, where a complex number problem leads into a trigonometric identity or a proof. They reward clean notation: arguments in radians, roots listed completely, and the formal structure of an induction proof written out every time.
+These HL topics appear in Paper 1 and Paper 2, and often in the long Section B questions, where a complex number problem can lead into a trigonometric identity or a proof. What they share is that they reward tidy writing: arguments in radians, roots listed completely, and the formal structure of an induction proof written out every time. Getting used to this habit early saves you from losing marks over small things.
 
 ## Complex numbers in Cartesian form
 
-A complex number is $z=a+bi$, with $i^2=-1$. Its **conjugate** is $z^*=a-bi$ and its **modulus** is $|z|=\sqrt{a^2+b^2}$. To divide, multiply numerator and denominator by the conjugate of the denominator.
+A complex number is $z=a+bi$, with $i^2=-1$. Every complex number has a partner. Its **conjugate** is $z^*=a-bi$: the same number with the sign of the imaginary part flipped. Its **modulus** is $|z|=\sqrt{a^2+b^2}$, which tells you how far the number is from zero. Why do we need the conjugate? Because multiplying a complex number by its conjugate makes the imaginary part vanish. That is the trick behind division: multiply the numerator and denominator by the conjugate of the denominator, and the denominator becomes real.
 
 :::example Products and quotients
 Let $z=3+4i$ and $w=1-2i$. Find $zw$, $\dfrac zw$ and $|z|$. [5 marks]
@@ -30,7 +30,7 @@ $|z|=\sqrt{9+16}=5$.
 ## Modulus-argument and Euler form
 
 $$z=r(\cos\theta+i\sin\theta)=r\operatorname{cis}\theta=re^{i\theta},$$
-where $r=|z|$ and $\theta=\arg z$, usually taken in $-\pi<\theta\le\pi$. In this form, multiplying multiplies moduli and adds arguments, and **De Moivre's theorem** gives $\left(re^{i\theta}\right)^n=r^ne^{in\theta}$.
+where $r=|z|$ is the length and $\theta=\arg z$ is the angle, usually taken in $-\pi<\theta\le\pi$. Why is this form worth using? Because multiplying becomes simple: you multiply the moduli and add the arguments. **De Moivre's theorem** follows, and gives $\left(re^{i\theta}\right)^n=r^ne^{in\theta}$: to raise a complex number to a power, raise its modulus to that power and multiply its argument by the power.
 
 :::example A power with De Moivre
 Let $z=1+i\sqrt3$.
@@ -44,9 +44,9 @@ Let $z=1+i\sqrt3$.
 
 ## Roots of complex numbers and polynomials
 
-The equation $z^n=re^{i\theta}$ has $n$ distinct roots
+A quadratic equation has two roots; the equation $z^n=re^{i\theta}$ has $n$ distinct roots, and we can write all of them down:
 $$z=r^{1/n}e^{i(\theta+2k\pi)/n},\quad k=0,1,\dots,n-1.$$
-They lie on a circle of radius $r^{1/n}$, equally spaced. A polynomial with **real coefficients** has non-real roots in conjugate pairs: if $2+i$ is a root, so is $2-i$.
+If you plot the roots on an Argand diagram, you will see them sitting on a circle of radius $r^{1/n}$, equally spaced, like the corners of a regular polygon. For a polynomial with **real coefficients**, the non-real roots always come in conjugate pairs. For example, if $2+i$ is a root, so is $2-i$. You will use this straight away in the second example below.
 
 :::example Cube roots
 Solve $z^3=8i$, giving your answers in the form $a+bi$. [6 marks]
@@ -65,10 +65,12 @@ Given that $2+i$ is a root of $z^3-5z^2+9z-5=0$, find the other roots. [5 marks]
 ## Proof by induction
 
 :::note The four parts graders look for
-1. **Basis:** show that the statement is true for the first value, usually $n=1$.
-2. **Assumption:** assume it is true for $n=k$.
-3. **Inductive step:** use the assumption to prove it for $n=k+1$.
-4. **Conclusion:** "Since the statement is true for $n=1$, and true for $n=k+1$ whenever it is true for $n=k$, it is true for all $n\in\mathbb{Z}^+$ by mathematical induction."
+1. **Basis:** check that the statement is true for the first value, usually $n=1$.
+2. **Assumption:** assume it is true for $n=k$. This is only an assumption, not something you have proved yet.
+3. **Inductive step:** use the assumption to prove that it is also true for $n=k+1$.
+4. **Conclusion:** write one complete sentence: "Since the statement is true for $n=1$, and true for $n=k+1$ whenever it is true for $n=k$, it is true for all $n\in\mathbb{Z}^+$ by mathematical induction."
+
+Think of a row of dominoes: the basis knocks over the first one, and the inductive step guarantees that whenever one falls, the next one falls too. If a part is missing, the row does not fall all the way, so write out all four parts every time.
 :::
 
 :::example A sum by induction
@@ -85,7 +87,7 @@ Prove by induction that $\displaystyle\sum_{r=1}^{n}r(r+1)=\frac{n(n+1)(n+2)}{3}
 
 ## Contradiction and counterexample
 
-To prove by **contradiction**, assume the statement is false and deduce something impossible. To show a statement is false, one **counterexample** is enough.
+There are two ways of arguing that you should keep ready. The first is **contradiction**: assume the statement is false, and follow the argument until you reach something impossible. Then the assumption cannot have been right, so the statement is true. The second is for when you want to knock a statement down: one **counterexample** is enough, because a single failing case brings down a "for all" statement.
 
 :::example A counterexample
 Show that the statement "$n^2+n+41$ is prime for every positive integer $n$" is false. [2 marks]
@@ -94,11 +96,13 @@ Show that the statement "$n^2+n+41$ is prime for every positive integer $n$" is 
 :::
 
 :::warning Common traps
-- **Argument in the wrong quadrant.** $\arctan\dfrac ba$ gives the right angle only for $a>0$; draw $z$ on an Argand diagram first.
-- **Missing roots.** $z^n=w$ always has $n$ roots; list all of them.
+- **Argument in the wrong quadrant.** $\arctan\dfrac ba$ gives the right angle only for $a>0$; draw $z$ on an Argand diagram first, then calculate.
+- **Missing roots.** $z^n=w$ always has $n$ roots; list all of them, and do not stop after the first few.
 - **Induction without a conclusion**, or with "assume true for all $n$" instead of "for $n=k$".
 - **Using the assumption backwards:** start from the $k+1$ case and use the $n=k$ statement inside it.
-- **Proof by examples.** Checking cases never proves a "for all" statement.
+- **Proof by examples.** Checking a few cases never proves a "for all" statement.
+
+Do not worry if you have made a few of these slips; many students do. The cure is a habit: run through this list at the end of each question.
 :::
 
 :::terms

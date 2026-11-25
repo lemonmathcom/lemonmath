@@ -12,11 +12,11 @@ minutes: 15
 
 Mai có $10$ viên bi lẻ. Mai bỏ cả $10$ viên vào một túi. Hỏi $10$ viên bi lẻ đổi được mấy túi bi loại $10$ viên?
 
-Đếm từng viên thì lâu. Bài này giúp em gói thành nhóm để đếm nhanh hơn.
+Đếm từng viên một thì lâu lắm, nhất là khi có thật nhiều bi. Muốn nhanh hơn, ta gói chúng thành từng nhóm rồi đếm các nhóm. Em xem cách gói đó nhé.
 
 ## Cùng khám phá
 
-Em đã biết đếm đến $10$. Khi có $10$ vật lẻ, ta gói lại thành một nhóm gọi là **một chục**.
+Em đã biết đếm đến $10$. Bây giờ thử nghĩ xem: khi có $10$ vật lẻ, ta gói chúng lại cho gọn thì sao? Mỗi nhóm gói như vậy gọi là **một chục**.
 
 ![Bốn khối đếm lần lượt biểu diễn 1, 10, 100 và 1 000](/assets/img/g2/g2-ones-tens-hundreds-thousands-01.svg)
 
@@ -24,7 +24,7 @@ Em đã biết đếm đến $10$. Khi có $10$ vật lẻ, ta gói lại thành
 - $10$ túi như vậy (mỗi túi là $1$ chục) gộp lại thành $1$ **trăm**.
 - $10$ hộp như vậy (mỗi hộp là $1$ trăm) gộp lại thành $1$ **nghìn**.
 
-Ta ghi vào bảng:
+Ta ghi các phép đổi này vào bảng cho dễ nhìn:
 
 | Đổi | Được |
 |---|---|
@@ -32,7 +32,7 @@ Ta ghi vào bảng:
 | $10$ chục | $1$ trăm |
 | $10$ trăm | $1$ nghìn |
 
-Vậy $10$ viên bi lẻ đổi được $1$ túi bi loại $10$ viên.
+Đến đây em trả lời được câu hỏi đầu bài rồi: $10$ viên bi lẻ đổi được $1$ túi bi loại $10$ viên.
 
 :::theorem Quy tắc đổi
 - $10$ đơn vị $=1$ chục.
@@ -40,11 +40,11 @@ Vậy $10$ viên bi lẻ đổi được $1$ túi bi loại $10$ viên.
 - $10$ trăm $=1$ nghìn.
 :::
 
-Quy tắc này đúng vì mỗi lần có $10$ nhóm giống nhau, ta gói chúng thành một nhóm lớn hơn, và không có vật nào bị mất đi.
+Vì sao đổi được như vậy? Vì mỗi lần có $10$ nhóm giống nhau, ta chỉ gom chúng lại thành một nhóm lớn hơn. Không có vật nào bị mất đi, chỉ là ta đếm gọn hơn.
 
 ## Ví dụ
 
-Ta bắt đầu với phép đổi đơn giản nhất.
+Ta thử với phép đổi đơn giản nhất trước.
 
 :::example Từ đơn vị sang chục
 Lan có $10$ chiếc kẹo lẻ. Lan gói được mấy chục kẹo?
@@ -54,7 +54,7 @@ Lan có $10$ chiếc kẹo lẻ. Lan gói được mấy chục kẹo?
 Vậy Lan có $1$ chục kẹo.
 :::
 
-Bây giờ ta đổi ngược lại, từ chục về đơn vị.
+Giờ ta đổi ngược lại, từ chục về đơn vị.
 
 :::example Từ chục sang đơn vị
 Nam có $2$ chục viên bi. Nam có bao nhiêu viên bi?
@@ -64,7 +64,7 @@ $$10+10=20.$$
 Vậy Nam có $20$ viên bi.
 :::
 
-Tiếp theo ta lên một bậc: từ chục sang trăm.
+Ta lên thêm một bậc nữa: từ chục sang trăm.
 
 :::example Từ chục sang trăm
 Có $10$ chục quyển vở. Đó là mấy trăm quyển vở? Một trăm có mấy chục?
@@ -74,7 +74,7 @@ Có $10$ chục quyển vở. Đó là mấy trăm quyển vở? Một trăm có
 Vậy đó là $1$ trăm quyển vở, và $1$ trăm có $10$ chục.
 :::
 
-Cuối cùng ta dùng quy tắc để giải một bài toán trong cuộc sống.
+Cuối cùng, ta dùng quy tắc đổi cho một việc quen thuộc: đếm vở ở cửa hàng.
 
 :::example Thùng vở
 Một thùng có $100$ quyển vở. Cửa hàng có $10$ thùng như vậy. Hỏi có tất cả bao nhiêu quyển vở?
@@ -85,9 +85,9 @@ Vậy cửa hàng có $1$ nghìn quyển vở.
 :::
 
 :::warning Những lỗi em hay gặp
-- **Nhầm trăm với chục.** Sai: "$1$ trăm có $10$ đơn vị". Vì sao sai: $10$ đơn vị chỉ là $1$ chục. Đúng: $1$ trăm có $10$ chục.
-- **Nhầm chục với đơn vị.** Sai: "$1$ chục là $1$ đơn vị". Vì sao sai: $1$ chục là một nhóm có $10$ đơn vị. Đúng: $1$ chục có $10$ đơn vị.
-- **Nhầm nghìn với trăm.** Sai: "$10$ trăm là $1$ trăm". Vì sao sai: $10$ trăm là mười nhóm lớn. Đúng: $10$ trăm là $1$ nghìn.
+- **Nhầm trăm với chục.** Sai: "$1$ trăm có $10$ đơn vị". Vì sao sai: $10$ đơn vị mới chỉ đủ $1$ chục thôi. Đúng: $1$ trăm có $10$ chục.
+- **Nhầm chục với đơn vị.** Sai: "$1$ chục là $1$ đơn vị". Vì sao sai: $1$ chục là cả một nhóm, trong nhóm có $10$ đơn vị. Đúng: $1$ chục có $10$ đơn vị.
+- **Nhầm nghìn với trăm.** Sai: "$10$ trăm là $1$ trăm". Vì sao sai: $10$ trăm là mười nhóm trăm gộp lại, không phải chỉ một nhóm. Đúng: $10$ trăm là $1$ nghìn.
 :::
 
 ## Thuật ngữ
@@ -109,9 +109,11 @@ Vậy cửa hàng có $1$ nghìn quyển vở.
 - $10$ trăm $=1$ nghìn.
 - Gói thành nhóm $10$ giúp em đếm nhanh hơn.
 
+Quay lại câu hỏi đầu bài: cứ đủ mười viên bi lẻ thì ta gói được một túi, và đó là một chục. Em nhớ cách gói nhóm này, rồi làm các bài luyện tập cho quen tay nhé.
+
 ## Luyện tập
 
-Mỗi bài có phần kiến thức và gợi ý. Em hãy tự làm trước, rồi mới bấm xem lời giải.
+Mỗi bài đều có phần kiến thức cần nhớ và một gợi ý để em bắt đầu. Em cứ thử tự làm trước, chưa chắc thì mới mở lời giải ra xem.
 
 :::exercise
 Điền số thích hợp.

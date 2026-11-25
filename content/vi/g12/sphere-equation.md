@@ -11,17 +11,17 @@ minutes: 22
 - Xét vị trí của một điểm, một mặt phẳng với mặt cầu; viết phương trình mặt phẳng tiếp diện.
 :::
 
-Một bộ phát Wi-Fi đặt ở $I(2; 3; 1)$ trong một hội trường (đơn vị: mét). Sóng đủ mạnh trong phạm vi $10$ m quanh bộ phát. Một chiếc điện thoại ở $M(8; 10; 3)$ có bắt được sóng không? Một chiếc loa treo trên trần tại $N(2; 3; 12)$ thì sao?
+Bạn ngồi trong một hội trường có bộ phát Wi-Fi đặt ở $I(2; 3; 1)$ (đơn vị: mét). Sóng đủ mạnh trong phạm vi $10$ m quanh bộ phát. Chiếc điện thoại của bạn ở $M(8; 10; 3)$ có bắt được sóng không? Còn chiếc loa treo trên trần tại $N(2; 3; 12)$ thì sao?
 
-Tập hợp các điểm cách $I$ đúng $10$ m là một **mặt cầu**. Bài này viết mặt cầu thành một phương trình, để mọi câu hỏi "ở trong hay ở ngoài" chỉ còn là một phép tính.
+Để trả lời, ta nghĩ đến tập hợp các điểm cách $I$ đúng $10$ m. Tập hợp ấy là một **mặt cầu**. Khi viết được mặt cầu thành một phương trình, mọi câu hỏi "ở trong hay ở ngoài" chỉ còn là một phép tính. Cách này dùng được cả cho vùng quét của radar ở cuối bài.
 
 ## Phương trình mặt cầu
 
 ### Khám phá: khoảng cách tới bộ phát
 
-Ta tính khoảng cách từ bộ phát tới hai điểm:
+Ta thử tính xem điện thoại và loa cách bộ phát bao xa:
 $$IM=\sqrt{6^2+7^2+2^2}=\sqrt{89}\approx9{,}43<10,\qquad IN=\sqrt{0^2+0^2+11^2}=11>10.$$
-Vậy điện thoại bắt được sóng, còn chiếc loa nằm ngoài vùng phủ sóng. Một điểm $P(x; y; z)$ nằm **đúng** trên biên của vùng phủ sóng khi $IP=10$, tức
+Điện thoại nằm gần hơn mức giới hạn của sóng, nên bắt được sóng. Chiếc loa nằm xa hơn, tức là ở ngoài vùng phủ sóng. Bây giờ hỏi thêm: điểm $P(x; y; z)$ nằm **đúng** trên biên của vùng phủ sóng khi nào? Khi $IP=10$, tức
 $$(x-2)^2+(y-3)^2+(z-1)^2=100.$$
 
 :::diagram Mặt cầu tâm $I$ bán kính $R$
@@ -43,7 +43,7 @@ $$(x-a)^2+(y-b)^2+(z-c)^2=R^2.$$
 - Phương trình $x^2+y^2+z^2-2ax-2by-2cz+d=0$ là phương trình của một mặt cầu khi và chỉ khi $a^2+b^2+c^2-d>0$. Khi đó mặt cầu có tâm $I(a; b; c)$ và bán kính $R=\sqrt{a^2+b^2+c^2-d}$.
 :::
 
-**Vì sao đúng?** $M(x; y; z)$ thuộc mặt cầu khi và chỉ khi $IM^2=R^2$, và $IM^2=(x-a)^2+(y-b)^2+(z-c)^2$. Với dạng thứ hai, thêm bớt để có bình phương: phương trình tương đương $(x-a)^2+(y-b)^2+(z-c)^2=a^2+b^2+c^2-d$. Vế phải phải dương thì mới là $R^2$.
+**Vì sao đúng?** Điểm $M(x; y; z)$ thuộc mặt cầu khi và chỉ khi $IM^2=R^2$, mà $IM^2=(x-a)^2+(y-b)^2+(z-c)^2$. Đó là dạng thứ nhất. Với dạng thứ hai, ta thêm bớt để xuất hiện các bình phương, và phương trình trở thành $(x-a)^2+(y-b)^2+(z-c)^2=a^2+b^2+c^2-d$. Vế phải đóng vai trò $R^2$, nên nó phải dương thì mới có mặt cầu.
 
 :::example Biết tâm và bán kính; biết đường kính
 a) Viết phương trình mặt cầu tâm $I(1; -2; 3)$, bán kính $4$, và kiểm tra rằng $A(1; 2; 3)$ thuộc mặt cầu.
@@ -63,7 +63,7 @@ $$I(2; 1; 2),\qquad AB=\sqrt{2^2+(-4)^2+6^2}=\sqrt{56},\qquad R=\frac{\sqrt{56}}
 Vậy a) $(x-1)^2+(y+2)^2+(z-3)^2=16$; b) $(x-2)^2+(y-1)^2+(z-2)^2=14$.
 :::
 
-Khi phương trình đã khai triển, ta đọc $a$, $b$, $c$ bằng cách chia hệ số của $x$, $y$, $z$ cho $-2$.
+Phương trình đã khai triển trông khác hẳn, nhưng ta vẫn đọc được tâm. Bạn chia hệ số của $x$, $y$, $z$ cho $-2$ để có $a$, $b$, $c$. Vì sao lại là $-2$? Vì trong dạng khai triển, mỗi hệ số ấy là $-2$ nhân với $a$, $b$ hoặc $c$.
 
 :::example Từ dạng khai triển
 Mỗi phương trình sau có phải phương trình mặt cầu không? Nếu có, tìm tâm và bán kính.
@@ -81,7 +81,7 @@ $$a^2+b^2+c^2-d=1+4+0-6=-1<0.$$
 Vậy a) là mặt cầu tâm $I(2; -1; 3)$, bán kính $4$; b) không phải phương trình mặt cầu (không có điểm nào thoả mãn).
 :::
 
-Khi biết bốn điểm trên mặt cầu, dạng khai triển cho bốn phương trình bậc nhất với bốn ẩn $a$, $b$, $c$, $d$.
+Nếu đề cho bốn điểm nằm trên mặt cầu thì sao? Ta thay từng điểm vào dạng khai triển. Mỗi điểm cho một phương trình bậc nhất, nên bốn điểm cho bốn phương trình với bốn ẩn $a$, $b$, $c$, $d$. Vậy ta có một hệ để giải.
 
 :::example Mặt cầu đi qua bốn điểm
 Viết phương trình mặt cầu đi qua $O(0; 0; 0)$, $A(2; 0; 0)$, $B(0; 4; 0)$, $C(0; 0; 6)$.
@@ -95,7 +95,7 @@ Khi đó $R^2=1+4+9-0=14$. Vậy mặt cầu là $x^2+y^2+z^2-2x-4y-6z=0$, tâm 
 
 ## Mặt phẳng và mặt cầu
 
-So sánh khoảng cách $h$ từ tâm $I$ đến mặt phẳng với bán kính $R$, giống như so sánh khoảng cách từ tâm đến đường thẳng trong hình học phẳng.
+Một mặt phẳng và một mặt cầu có thể gặp nhau theo vài cách khác nhau. Để biết là cách nào, ta so sánh khoảng cách $h$ từ tâm $I$ đến mặt phẳng với bán kính $R$. Bạn đã làm việc tương tự trong hình học phẳng, khi so sánh khoảng cách từ tâm đến một đường thẳng với bán kính của đường tròn.
 
 :::theorem Vị trí của mặt phẳng và mặt cầu
 Cho mặt cầu $(S)$ tâm $I$, bán kính $R$ và mặt phẳng $(P)$, $h=d(I, (P))$.
@@ -132,7 +132,7 @@ Vậy mặt phẳng tiếp diện là $2x+y+2z-11=0$.
 **Kiểm tra.** $d(I, (P))=\dfrac{|2+2-2-11|}{3}=3=R$.
 :::
 
-Ví dụ cuối là một bài toán thực tế nhiều bước, nên ta làm theo bốn bước.
+Ví dụ cuối là một bài toán thực tế có nhiều bước, nên ta đi từng bước một: hiểu đề, tìm cách giải, giải, rồi nhìn lại. Hình dưới đây là mặt cắt thẳng đứng của vùng radar, xem trước sẽ dễ hình dung hơn.
 
 :::graph Mặt cắt thẳng đứng của vùng radar (đơn vị: $10$ km)
 alt: Một đường tròn bán kính 5 tâm ở gốc, một đường nằm ngang ở độ cao 3 cắt đường tròn, đoạn từ tâm lên độ cao 3 và đoạn nằm ngang dài 4
@@ -169,10 +169,10 @@ Vậy máy bay bay khoảng $69{,}3$ km trong vùng radar.
 :::
 
 :::warning Những sai lầm thường gặp
-- **Sai dấu toạ độ tâm.** Sai: $(x+1)^2+(y-2)^2+z^2=9$ có tâm $(1; -2; 0)$. Vì sao sai: $x+1=x-(-1)$. Đúng: tâm $I(-1; 2; 0)$.
-- **Nhầm $R$ với $R^2$.** Sai: mặt cầu tâm $I(1; -2; 3)$, bán kính $4$ là $(x-1)^2+(y+2)^2+(z-3)^2=4$. Đúng: vế phải là $R^2=16$.
-- **Đọc tâm khi hệ số của $x^2$ khác $1$.** Với $2x^2+2y^2+2z^2-4x+8y-2=0$, sai: $a=2$, $b=-4$. Vì sao sai: công thức cần hệ số của $x^2$, $y^2$, $z^2$ bằng $1$. Đúng: chia cho $2$ được $x^2+y^2+z^2-2x+4y-1=0$, nên $a=1$, $b=-2$, $c=0$, $R=\sqrt{1+4+0+1}=\sqrt6$.
-- **Quên kiểm tra $a^2+b^2+c^2-d>0$.** Sai: $x^2+y^2+z^2-2x+4y+6=0$ có $R=\sqrt{-1}$ "không xác định nhưng vẫn là mặt cầu". Đúng: điều kiện không thoả mãn, phương trình không biểu diễn mặt cầu nào.
+- **Sai dấu toạ độ tâm.** Chỗ này nhiều bạn hay nhầm. Sai: $(x+1)^2+(y-2)^2+z^2=9$ có tâm $(1; -2; 0)$. Vì sao sai: $x+1=x-(-1)$. Đúng: tâm $I(-1; 2; 0)$.
+- **Nhầm $R$ với $R^2$.** Sai: mặt cầu tâm $I(1; -2; 3)$, bán kính $4$ là $(x-1)^2+(y+2)^2+(z-3)^2=4$. Vì sao sai: vế phải là bình phương của bán kính, không phải chính bán kính. Đúng: vế phải là $R^2=16$.
+- **Đọc tâm khi hệ số của $x^2$ khác $1$.** Với $2x^2+2y^2+2z^2-4x+8y-2=0$, sai: $a=2$, $b=-4$. Vì sao sai: công thức chỉ dùng được khi hệ số của $x^2$, $y^2$, $z^2$ bằng $1$. Đúng: chia cho $2$ được $x^2+y^2+z^2-2x+4y-1=0$, nên $a=1$, $b=-2$, $c=0$, $R=\sqrt{1+4+0+1}=\sqrt6$.
+- **Quên kiểm tra $a^2+b^2+c^2-d>0$.** Sai: $x^2+y^2+z^2-2x+4y+6=0$ có $R=\sqrt{-1}$ "không xác định nhưng vẫn là mặt cầu". Vì sao sai: bán kính phải là một số thực dương. Đúng: điều kiện không thoả mãn, nên phương trình không biểu diễn mặt cầu nào.
 :::
 
 ## Thuật ngữ
@@ -190,16 +190,18 @@ Vậy máy bay bay khoảng $69{,}3$ km trong vùng radar.
 
 ## Tóm tắt
 
-- Tâm $I(a; b; c)$, bán kính $R$: $(x-a)^2+(y-b)^2+(z-c)^2=R^2$.
-- $x^2+y^2+z^2-2ax-2by-2cz+d=0$ là mặt cầu $\iff a^2+b^2+c^2-d>0$; khi đó $R=\sqrt{a^2+b^2+c^2-d}$.
-- Đường kính $AB$: tâm là trung điểm $AB$, $R=\dfrac{AB}{2}$.
-- Điểm $M$: $IM<R$ ở trong, $IM=R$ ở trên, $IM>R$ ở ngoài mặt cầu.
-- Mặt phẳng: $h=d(I, (P))$; $h>R$ không cắt, $h=R$ tiếp xúc, $h<R$ cắt theo đường tròn bán kính $\sqrt{R^2-h^2}$.
-- Tiếp diện tại $M$: qua $M$, vectơ pháp tuyến $\overrightarrow{IM}$.
+- Mặt cầu tâm $I(a; b; c)$, bán kính $R$ có phương trình $(x-a)^2+(y-b)^2+(z-c)^2=R^2$.
+- Phương trình $x^2+y^2+z^2-2ax-2by-2cz+d=0$ là mặt cầu $\iff a^2+b^2+c^2-d>0$; khi đó $R=\sqrt{a^2+b^2+c^2-d}$.
+- Mặt cầu đường kính $AB$: tâm là trung điểm $AB$, $R=\dfrac{AB}{2}$.
+- Với điểm $M$: $IM<R$ là ở trong, $IM=R$ là ở trên, $IM>R$ là ở ngoài mặt cầu.
+- Với mặt phẳng, đặt $h=d(I, (P))$: $h>R$ không cắt, $h=R$ tiếp xúc, $h<R$ cắt theo đường tròn bán kính $\sqrt{R^2-h^2}$.
+- Tiếp diện tại $M$: đi qua $M$, nhận $\overrightarrow{IM}$ làm vectơ pháp tuyến.
+
+Quay lại bộ phát Wi-Fi: điện thoại ở trong vùng sóng, chiếc loa ở ngoài, và ta biết điều đó chỉ nhờ so khoảng cách từ tâm với bán kính. Bạn chỉ cần nhớ một điều: mọi câu hỏi "ở trong hay ở ngoài" đều quy về phép so sánh ấy.
 
 ## Luyện tập
 
-Mỗi bài có phần kiến thức và gợi ý các bước. Hãy tự làm trước, rồi mới bấm xem lời giải.
+Mỗi bài đều có phần kiến thức cần dùng và vài bước gợi ý để bạn bắt đầu. Hãy tự thử trước, rồi mới bấm xem lời giải. Nếu bị vướng, bạn quay lại ví dụ gần nhất và xem cách ta đã làm.
 
 :::exercise
 Viết phương trình mặt cầu tâm $I(-1; 2; 0)$, bán kính $3$. Điểm $A(1; 3; 2)$ nằm trong, trên hay ngoài mặt cầu?

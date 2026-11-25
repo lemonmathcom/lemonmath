@@ -12,18 +12,18 @@ type: guide
 - Lập kế hoạch ôn tập trong mười tuần.
 :::
 
-AP Statistics là môn học của College Board tương đương một học kì thống kê nhập môn ở đại học. Từ năm học 2026–27, môn học được sửa đổi: chín unit gộp còn năm, một số nội dung bị bỏ, và đề thi được thiết kế lại. Học sinh theo chương trình Việt Nam thường thấy phần tính toán dễ; thử thách thật sự là **viết**: giải thích phương pháp, kiểm tra điều kiện và nêu kết luận theo tình huống. Các bài trong mục này viết theo chương trình mới, nên sách ôn và đề luyện cũ sẽ không khớp hoàn toàn.
+Điểm trong AP Statistics thật ra đến từ đâu? Để trả lời, ta cần nhìn toàn cảnh môn học trước. AP Statistics là môn học của College Board tương đương một học kì thống kê nhập môn ở đại học. Từ năm học 2026–27, môn học được sửa đổi: chín unit gộp còn năm, một số nội dung bị bỏ, và đề thi được thiết kế lại. Học sinh theo chương trình Việt Nam thường thấy phần tính toán dễ. Thử thách thật sự là **viết**: giải thích phương pháp, kiểm tra điều kiện và nêu kết luận theo tình huống. Các bài trong mục này viết theo chương trình mới, nên sách ôn và đề luyện cũ sẽ không khớp hoàn toàn. Phần dưới đây trải ra toàn cảnh kì thi, để bạn biết mình cần ôn gì và ôn theo thứ tự nào.
 
 ## Đề thi từ tháng 5/2027
 
-Toàn bộ bài thi làm trên ứng dụng **Bluebook**. Được dùng máy tính đồ thị, Bluebook có sẵn Desmos, và có bảng công thức kèm các bảng tra.
+Trước hết là chuyện bạn sẽ thi như thế nào. Toàn bộ bài thi làm trên ứng dụng **Bluebook**. Bạn được dùng máy tính đồ thị, Bluebook có sẵn Desmos, và đề có bảng công thức kèm các bảng tra. Bảng dưới đây ghi hai phần của bài thi.
 
 | Phần | Số câu | Thời gian | Tỉ trọng |
 |---|---|---|---|
 | I: trắc nghiệm | 42, mỗi câu 4 phương án | 90 phút | 50% |
 | II: tự luận | 4, mỗi câu 10 điểm | 90 phút | 50% |
 
-Phần trắc nghiệm có **hai cụm ba câu** dùng chung một dữ kiện: một cụm về xác suất, biến ngẫu nhiên và phân phối, một cụm về hồi quy. Điểm báo theo thang AP từ 1 đến 5. Trước 2027, đề có 40 câu trắc nghiệm năm phương án và 6 câu tự luận, trong đó có một "investigative task"; dạng câu này nay không còn.
+Phần trắc nghiệm có một nét đáng để ý: **hai cụm ba câu** dùng chung một dữ kiện. Một cụm hỏi về xác suất, biến ngẫu nhiên và phân phối, một cụm hỏi về hồi quy. Điểm báo theo thang AP từ 1 đến 5. Nếu bạn đang dùng đề cũ, hãy nhớ rằng trước 2027 đề có 40 câu trắc nghiệm năm phương án và 6 câu tự luận, trong đó có một "investigative task". Dạng câu này nay không còn.
 
 ## Nội dung thi
 
@@ -35,18 +35,19 @@ Phần trắc nghiệm có **hai cụm ba câu** dùng chung một dữ kiện: 
 | 4. Inference for Quantitative Data: Means | khoảng tin cậy và kiểm định cho trung bình | 10%–20% |
 | 5. Regression Analysis | biểu đồ phân tán, hệ số tương quan, hồi quy bình phương nhỏ nhất, phần dư | 10%–20% |
 
-**Đã bỏ khỏi chương trình:** phân tích độ lệch khỏi dạng tuyến tính (biến đổi dữ liệu), tổ hợp các biến ngẫu nhiên, phân phối hình học, kiểm định chi bình phương về độ phù hợp (goodness of fit), và suy luận cho hệ số góc đường hồi quy. Gặp các phần này trong sách cũ thì bỏ qua. **Mới:** viết và đánh giá **câu hỏi khảo sát thống kê** (statistical investigative questions).
+**Đã bỏ khỏi chương trình:** phân tích độ lệch khỏi dạng tuyến tính (biến đổi dữ liệu), tổ hợp các biến ngẫu nhiên, phân phối hình học, kiểm định chi bình phương về độ phù hợp (goodness of fit), và suy luận cho hệ số góc đường hồi quy. Gặp các phần này trong sách cũ thì bạn cứ bỏ qua, đỡ tốn thời gian. **Mới:** bạn cần viết và đánh giá **câu hỏi khảo sát thống kê** (statistical investigative questions).
 
-Trong mục này, bài hồi quy đặt ngay sau bài dữ liệu một biến, vì cả hai đều mô tả dữ liệu; trong đề thi, hồi quy là Unit 5.
+Một lưu ý nhỏ về thứ tự các bài: trong mục này, bài hồi quy đặt ngay sau bài dữ liệu một biến, vì cả hai đều mô tả dữ liệu. Còn trong đề thi, hồi quy là Unit 5.
 
 ## Bốn câu tự luận
 
-Mỗi câu 10 điểm và có dạng cố định:
+Cả bốn câu đều có 10 điểm, và mỗi câu có một dạng cố định, nên bạn biết trước mình sẽ gặp gì:
 
 1. **Đặt câu hỏi và thu thập dữ liệu:** câu hỏi khảo sát, phương pháp chọn mẫu, thiết kế thí nghiệm.
 2. **Phân tích dữ liệu và diễn giải kết quả:** biểu đồ và số đặc trưng, so sánh, kết quả hồi quy.
 3. **Suy luận thống kê:** một khoảng tin cậy hoặc một kiểm định ý nghĩa, có điều kiện và kết luận theo tình huống.
 4. **Câu tổng hợp** kết hợp nhiều mảng của chương trình.
+Câu thứ ba đòi hỏi điều kiện và kết luận gắn với tình huống, nên bạn hãy tập viết đủ từng phần.
 
 ## Ba câu hỏi mẫu
 
@@ -94,21 +95,23 @@ Vậy cách diễn giải đúng là D, chọn đáp án **D**.
 ## Kế hoạch mười tuần
 
 :::note Các tuần trước kì thi
-1. **Tuần 1–2:** [Mô tả dữ liệu một biến](lesson:apstats-one-variable-data) và [Dữ liệu hai biến và hồi quy tuyến tính](lesson:apstats-two-variable-regression).
-2. **Tuần 3:** [Chọn mẫu, nghiên cứu quan sát và thí nghiệm](lesson:apstats-collecting-data).
-3. **Tuần 4–5:** [Xác suất và biến ngẫu nhiên](lesson:apstats-probability-random-variables), rồi [Phân phối chuẩn và phân phối mẫu](lesson:apstats-sampling-distributions).
-4. **Tuần 6–8:** [Suy luận cho tỉ lệ](lesson:apstats-inference-proportions), rồi [Suy luận cho trung bình](lesson:apstats-inference-means); luyện viết đầy đủ kiểm định và khoảng tin cậy.
-5. **Tuần 9–10:** [bốn câu tự luận](lesson:apstats-frq-strategies), rồi [đề luyện](lesson:apstats-practice-exam-1) trọn vẹn có bấm giờ; ghi mọi lỗi sai vào sổ lỗi sai.
+1. **Tuần 1–2:** làm quen với [Mô tả dữ liệu một biến](lesson:apstats-one-variable-data) và [Dữ liệu hai biến và hồi quy tuyến tính](lesson:apstats-two-variable-regression).
+2. **Tuần 3:** học [Chọn mẫu, nghiên cứu quan sát và thí nghiệm](lesson:apstats-collecting-data).
+3. **Tuần 4–5:** học [Xác suất và biến ngẫu nhiên](lesson:apstats-probability-random-variables), rồi [Phân phối chuẩn và phân phối mẫu](lesson:apstats-sampling-distributions).
+4. **Tuần 6–8:** học [Suy luận cho tỉ lệ](lesson:apstats-inference-proportions), rồi [Suy luận cho trung bình](lesson:apstats-inference-means), và luyện viết đầy đủ kiểm định và khoảng tin cậy.
+5. **Tuần 9–10:** làm [bốn câu tự luận](lesson:apstats-frq-strategies), rồi làm [đề luyện](lesson:apstats-practice-exam-1) trọn vẹn có bấm giờ, và ghi mọi lỗi sai vào sổ lỗi sai.
+Kế hoạch chỉ là cái khung. Nếu tuần nào đi chậm, bạn cứ lùi lại một chút rồi đi tiếp.
 :::
 
 :::warning Những cái bẫy thường gặp
-- **Tài liệu cũ:** các nội dung đã bỏ vẫn có trong sách và đề cũ; hãy bỏ qua.
-- **Trả lời không có tình huống:** chỉ viết "bác bỏ $H_0$" được rất ít điểm; hãy nói điều đó có nghĩa gì với tình huống.
+- **Tài liệu cũ:** các nội dung đã bỏ vẫn có trong sách và đề cũ, nên bạn cứ bỏ qua khi gặp.
+- **Trả lời không có tình huống:** chỉ viết "bác bỏ $H_0$" thì được rất ít điểm. Hãy nói thêm điều đó có nghĩa gì với tình huống.
 - **Mẫu và tổng thể:** suy luận luôn nói về tham số của tổng thể.
-- **Điều kiện:** nêu và kiểm tra điều kiện mỗi lần lập khoảng tin cậy hay làm kiểm định.
+- **Điều kiện:** mỗi lần lập khoảng tin cậy hay làm kiểm định, bạn nên nêu và kiểm tra điều kiện.
+Chỗ này nhiều bạn hay nhầm, nên hãy đọc lại danh sách trên trước mỗi lần làm đề.
 :::
 
-AP Classroom và trang môn học trên AP Central có câu hỏi luyện tập chính thức, tài liệu mô tả môn học và đề thi (course and exam description) và bảng công thức; hãy dùng chúng cùng các bài này.
+Cùng với các bài ở đây, bạn nên dùng tài liệu chính thức. AP Classroom và trang môn học trên AP Central có câu hỏi luyện tập chính thức, tài liệu mô tả môn học và đề thi (course and exam description) và bảng công thức. Nếu chỉ nhớ một điều, hãy nhớ rằng điểm nằm ở phần viết: nêu phương pháp, kiểm tra điều kiện và kết luận theo tình huống. Luyện đều mỗi tuần một chút sẽ vững hơn học dồn.
 
 :::terms
 - statistical investigative question | câu hỏi khảo sát thống kê

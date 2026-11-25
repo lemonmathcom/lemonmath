@@ -11,11 +11,11 @@ minutes: 35
 - Xác định một cuộc khảo sát hay nghiên cứu cho phép rút ra kết luận nào.
 :::
 
-Câu hỏi thống kê trong SAT hiếm khi đòi tính toán dài. Thay vào đó, đề kiểm tra xem bạn có **hiểu** một số đặc trưng hay không: điều gì làm thay đổi số trung bình nhưng không làm thay đổi trung vị, hệ số góc trong biểu đồ phân tán có nghĩa gì, hay một cuộc khảo sát có đại diện được cho cả tổng thể không. Học sinh Việt Nam học phần lớn các ý này từ lớp 6 đến lớp 10; phần mới là từ vựng, vì vậy bảng thuật ngữ ở cuối bài rất quan trọng.
+Bạn nhìn một biểu đồ, hoặc nghe ai đó kết luận điều gì từ một cuộc khảo sát. Làm sao biết kết luận ấy có đáng tin không? Câu hỏi thống kê trong SAT hiếm khi đòi tính toán dài. Thay vào đó, đề kiểm tra xem bạn có **hiểu** một số đặc trưng hay không: điều gì làm thay đổi số trung bình nhưng không làm thay đổi trung vị, hệ số góc trong biểu đồ phân tán có nghĩa gì, hay một cuộc khảo sát có đại diện được cho cả tổng thể không. Phần lớn các ý này bạn đã học từ lớp 6 đến lớp 10; phần mới là từ vựng, vì vậy bảng thuật ngữ ở cuối bài rất quan trọng.
 
 ## Số trung bình, trung vị và giá trị ngoại lai
 
-**Số trung bình** (mean) bằng tổng các giá trị chia cho số giá trị. **Trung vị** (median) là giá trị đứng giữa của dãy đã sắp xếp (là trung bình của hai giá trị đứng giữa khi số giá trị chẵn). **Giá trị ngoại lai** (outlier) là giá trị cách xa các giá trị còn lại: nó kéo số trung bình về phía mình nhưng hầu như không làm trung vị dịch chuyển.
+Muốn tóm tắt cả một nhóm số bằng một con số, ta có thể dùng số trung bình hoặc trung vị. **Số trung bình** (mean) bằng tổng các giá trị chia cho số giá trị. **Trung vị** (median) là giá trị đứng giữa của dãy đã sắp xếp (là trung bình của hai giá trị đứng giữa khi số giá trị chẵn). Vậy chuyện gì xảy ra khi có một giá trị lạc lõng? **Giá trị ngoại lai** (outlier) là giá trị cách xa các giá trị còn lại: nó kéo số trung bình về phía mình nhưng hầu như không làm trung vị dịch chuyển.
 
 :::example Tìm giá trị còn thiếu
 Số trung bình của 6 bài kiểm tra đầu tiên của Nam là 82. Sau bài thứ bảy, số trung bình của cả 7 bài là 84. Nam được bao nhiêu điểm ở bài thứ bảy?
@@ -33,7 +33,7 @@ D. Số trung bình và trung vị đều không đổi.
 **Lời giải.** Giá trị ngoại lai cao hơn hẳn các giá trị khác, nên bỏ nó đi làm số trung bình giảm nhiều. Trung vị chỉ chuyển từ giá trị thứ 5 thành trung bình của giá trị thứ 4 và thứ 5 trong 8 giá trị còn lại, một thay đổi nhỏ. Đáp án là **B**.
 :::
 
-**Độ lệch chuẩn** (standard deviation) đo mức độ phân tán của các giá trị quanh số trung bình. SAT chỉ yêu cầu so sánh: tập dữ liệu có các giá trị tập trung sát số trung bình có độ lệch chuẩn nhỏ hơn tập có các giá trị trải rộng. **Khoảng biến thiên** (range) là giá trị lớn nhất trừ giá trị nhỏ nhất.
+Hai nhóm số có thể có cùng số trung bình mà trông rất khác nhau: một nhóm tập trung sát nhau, một nhóm trải rộng. **Độ lệch chuẩn** (standard deviation) đo mức độ phân tán của các giá trị quanh số trung bình. SAT chỉ yêu cầu so sánh: tập dữ liệu có các giá trị tập trung sát số trung bình có độ lệch chuẩn nhỏ hơn tập có các giá trị trải rộng. **Khoảng biến thiên** (range) là giá trị lớn nhất trừ giá trị nhỏ nhất.
 
 ## Bảng tần số và biểu đồ phân tán
 
@@ -53,7 +53,7 @@ D. $2{,}65$
 **Lời giải.** Có 20 giá trị, nên trung vị là trung bình của giá trị thứ 10 và thứ 11. Đếm dần: các giá trị thứ 1 đến 3 là "1", thứ 4 đến 8 là "2", thứ 9 đến 16 là "3". Cả giá trị thứ 10 và thứ 11 đều là $3$, nên trung vị là $3$: đáp án **C**. Phương án D là số trung bình, $\dfrac{3+10+24+16}{20}=2{,}65$.
 :::
 
-**Biểu đồ phân tán** (scatterplot) biểu diễn các cặp dữ liệu. **Đường thẳng khớp nhất** (line of best fit) $y=mx+b$ mô tả xu hướng: hệ số góc $m$ là mức thay đổi dự đoán của $y$ khi $x$ tăng $1$, còn $b$ là giá trị dự đoán của $y$ khi $x=0$.
+Mỗi chấm trên biểu đồ là một cặp dữ liệu, như số giờ học và điểm kiểm tra của một bạn. **Biểu đồ phân tán** (scatterplot) biểu diễn các cặp dữ liệu như vậy. Khi các chấm xếp theo một xu hướng, ta vẽ một đường thẳng đi qua giữa chúng. **Đường thẳng khớp nhất** (line of best fit) $y=mx+b$ mô tả xu hướng đó: hệ số góc $m$ là mức thay đổi dự đoán của $y$ khi $x$ tăng $1$, còn $b$ là giá trị dự đoán của $y$ khi $x=0$.
 
 :::graph Số giờ học và điểm kiểm tra, với đường thẳng khớp nhất $y=2{,}5x+40$
 alt: Tám điểm dữ liệu đi lên từ trái sang phải quanh một đường thẳng bắt đầu từ 40 trên trục y
@@ -83,7 +83,7 @@ D. Điểm của mọi học sinh tăng 2,5 điểm cho mỗi giờ học.
 
 ## Bảng hai chiều và xác suất
 
-Khi mọi kết quả đồng khả năng, xác suất của một biến cố là $\dfrac{\text{số kết quả thuận lợi}}{\text{tổng số kết quả}}$. Trong bảng hai chiều, **xác suất có điều kiện** "biết rằng…" (given that) thu hẹp tổng về một hàng hoặc một cột.
+Xác suất trả lời một câu hỏi: trong tất cả các trường hợp có thể, có bao nhiêu trường hợp ta quan tâm? Khi mọi kết quả đồng khả năng, xác suất của một biến cố là $\dfrac{\text{số kết quả thuận lợi}}{\text{tổng số kết quả}}$. Trong bảng hai chiều, có một chỗ cần cẩn thận: **xác suất có điều kiện** "biết rằng…" (given that) thu hẹp tổng về một hàng hoặc một cột. Đề nói "biết rằng" nhóm nào thì tổng chính là nhóm đó.
 
 :::example Bảng hai chiều
 Bảng cho biết câu lạc bộ mà 80 học sinh chọn.
@@ -106,9 +106,10 @@ D. $\dfrac{5}{8}$
 ## Mẫu và nghiên cứu
 
 :::note Kết luận được điều gì?
-- **Mẫu ngẫu nhiên** (random sample) cho phép khái quát lên tổng thể mà mẫu được chọn ra, và chỉ tổng thể đó.
+- **Mẫu ngẫu nhiên** (random sample) cho phép ta nói điều gì đó về tổng thể mà mẫu được chọn ra, và chỉ về tổng thể đó.
 - **Biên sai số** (margin of error) cho một khoảng giá trị hợp lí của tổng thể: ước lượng 64% với biên sai số 5% gợi ý giá trị thật nằm trong khoảng từ 59% đến 69%.
-- Chỉ **thí nghiệm ngẫu nhiên** (đối tượng được phân ngẫu nhiên vào các nhóm) mới cho phép kết luận nhân quả. Nghiên cứu quan sát chỉ cho thấy mối liên hệ.
+- Muốn kết luận nhân quả thì phải có **thí nghiệm ngẫu nhiên** (đối tượng được phân ngẫu nhiên vào các nhóm). Nghiên cứu quan sát chỉ cho thấy mối liên hệ.
+Trước mỗi kết luận, hãy hỏi: mẫu này được chọn thế nào, và nghiên cứu này có phân nhóm ngẫu nhiên không?
 :::
 
 :::warning Những cái bẫy thường gặp
@@ -116,10 +117,11 @@ D. $\dfrac{5}{8}$
 - **Số trung bình và trung vị khi có ngoại lai.** Giá trị ngoại lai làm số trung bình dịch chuyển nhiều hơn hẳn trung vị.
 - **Khái quát quá mức.** Mẫu lấy ở một trường không nói chắc chắn điều gì về mọi trường trong cả nước.
 - **Kết luận nhân quả từ quan sát.** "Người uống nhiều cà phê ngủ ít hơn" không chứng tỏ cà phê làm ngủ ít.
+Chỗ nào ở trên nhiều bạn cũng từng nhầm, nên đọc kĩ từng chữ của đề.
 :::
 
 :::tip Thống kê trong Desmos
-Gõ một danh sách như `L=[3,9,4,7,12,5]`, rồi `mean(L)`, `median(L)` hoặc `stdev(L)`. Để tìm đường thẳng khớp nhất, nhập dữ liệu vào bảng rồi gõ `y_1~mx_1+b`.
+Khi danh sách dài, hãy để Desmos tính giúp. Gõ một danh sách như `L=[3,9,4,7,12,5]`, rồi `mean(L)`, `median(L)` hoặc `stdev(L)`. Để tìm đường thẳng khớp nhất, nhập dữ liệu vào bảng rồi gõ `y_1~mx_1+b`.
 :::
 
 :::terms

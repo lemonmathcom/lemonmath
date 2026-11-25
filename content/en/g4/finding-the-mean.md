@@ -10,20 +10,21 @@ minutes: 15
 - Solve word problems about the mean, including finding a missing number.
 :::
 
-Nam has $6$ marbles, Lan has $8$ marbles and Ha has $10$ marbles. They want to share them out so that each child has the same number. How many marbles will each child have?
+Nam has $6$ marbles, Lan has $8$ marbles and Ha has $10$ marbles. They want to share them out so that each child has the same number. Can you guess how many marbles each child will have?
 
-You already know division from earlier lessons. Today you use addition and division together to solve this.
+You already know division from earlier lessons. Division alone is not quite enough here, though, because we have to put the marbles together first. Today you use addition and division as a pair, and it works for any group of numbers, not only marbles.
 
 ## Let's explore
 
-We can share equally by moving marbles from the child with more to the child with fewer.
+Let's share the marbles the way the children would: whoever has more passes some to whoever has fewer.
 
 - Ha has $10$ and Nam has $6$. Ha gives Nam $2$ marbles.
 - Now Ha has $8$, Nam has $8$ and Lan still has $8$.
+One move, and all three children have the same.
 
-So each child has $8$ marbles. We say $8$ is the **mean** of $6$, $8$ and $10$.
+So each child has $8$ marbles. This number has a name: we say $8$ is the **mean** of $6$, $8$ and $10$. In plain words, it is what each child ends up with when everything is shared equally.
 
-There is a quicker way, with no moving. Put all the marbles together: $6+8+10=24$. Share them equally among $3$ children: $24\div3=8$.
+Moving marbles one at a time would be slow if there were a lot of children. Here is a quicker way, with no moving. Put all the marbles together: $6+8+10=24$. Then share them equally among $3$ children: $24\div3=8$. We get the same answer again.
 
 :::graph On the number line: the numbers 6, 8, 10 and their mean 8 in the middle
 alt: A number line from 0 to 14 with the points 6, 8 and 10 marked; the stretch from 6 to 10 has the point 8 in the middle
@@ -41,7 +42,7 @@ To find the mean of several numbers, do two steps:
 2. Divide the sum by how many numbers there are.
 :::
 
-This works because putting everything together and dividing gives each number an equal share. That is exactly sharing equally.
+Why does this work? Adding puts everything into one pile, and dividing gives each number an equal share of that pile. That is exactly what sharing equally means, the same as when we moved the marbles.
 
 ## Examples
 
@@ -53,7 +54,7 @@ $$(4+6+8)\div3=18\div3=6.$$
 So the mean of $4$, $6$ and $8$ is $6$.
 :::
 
-Now try four numbers. Notice that what we divide by changes.
+Now try four numbers. Here is where many people slip: how many numbers there are has changed, so what we divide by changes too.
 
 :::example Find the mean of $12$, $15$, $9$ and $16$
 **Solution.** There are $4$ numbers, so we divide the sum by $4$:
@@ -61,7 +62,7 @@ $$(12+15+9+16)\div4=52\div4=13.$$
 So the mean is $13$.
 :::
 
-Now use the same idea for a problem from everyday life.
+The same idea works in everyday life. Here is one about planting trees.
 
 :::example Planting trees
 Four groups planted $7$, $9$, $5$ and $7$ trees. On average, how many trees did each group plant?
@@ -71,7 +72,7 @@ $$(7+9+5+7)\div4=28\div4=7\ \text{(trees)}.$$
 So each group planted $7$ trees on average.
 :::
 
-Sometimes we know the mean and need a missing number. Then we find the sum first.
+Sometimes we know the mean but one number is missing. Don't worry if this feels backwards at first. We find the sum first, then take away the numbers we already know.
 
 :::example Finding a missing number
 The mean of three numbers is $9$. Two of the numbers are $7$ and $12$. Find the third number.
@@ -84,8 +85,8 @@ So the third number is $8$.
 :::
 
 :::warning Mistakes to watch out for
-- **Forgetting to divide.** Wrong: the mean of $6$, $8$, $10$ is $24$. Why it is wrong: $24$ is only the sum. Right: $24\div3=8$.
-- **Dividing by the wrong number.** Wrong: $(4+6+8)\div2=9$. Why it is wrong: there are $3$ numbers, so divide by $3$. Right: $18\div3=6$.
+- **Forgetting to divide.** Wrong: the mean of $6$, $8$, $10$ is $24$. Why it is wrong: $24$ is only the sum, and we still have to share it equally. Right: $24\div3=8$.
+- **Dividing by the wrong number.** Wrong: $(4+6+8)\div2=9$. Why it is wrong: there are $3$ numbers, so we divide by $3$. Right: $18\div3=6$.
 - **No unit in a word problem.** Wrong: "Answer: $7$". Right: "Answer: $7$ trees".
 :::
 
@@ -108,10 +109,11 @@ So the third number is $8$.
 - Example: $(4+6+8)\div3=18\div3=6$.
 - If you know the mean and how many numbers there are, the sum is the mean times that number.
 - In word problems, remember the unit.
+Back to Nam, Lan and Ha: put the marbles together, share them out, and you know what each child has. Remember it as add first, divide second. Now try the practice section.
 
 ## Practice
 
-Each exercise comes with what you need and how to start. Try it yourself first, then open the solution.
+Each exercise comes with what you need to remember and a hint to get started. Try it yourself first, and open the solution only when you are stuck. A mistake is not a problem: that is when you learn the most.
 
 :::exercise
 Find the mean of $5$, $7$ and $9$.

@@ -11,7 +11,7 @@ minutes: 40
 - Viết phương trình tiếp tuyến, dùng nó để tính gần đúng, và giải thích vì sao có đạo hàm thì liên tục.
 :::
 
-Unit 2 biến ý tưởng giới hạn thành đạo hàm, tức tốc độ thay đổi tức thời. Phần lớn câu hỏi của unit này là câu trắc nghiệm làm nhanh ở phần không dùng máy tính, nhưng các kĩ năng này cần cho mọi câu tự luận, nên tính chính xác ở đây rất đáng giá. Học sinh Việt Nam biết các quy tắc từ lớp 11; kiểu đề AP bổ sung những câu **nguỵ trang** một đạo hàm thành một giới hạn.
+Nhìn kim đồng hồ tốc độ trên xe, bạn biết xe đang chạy nhanh bao nhiêu ngay lúc đó, chứ không phải tốc độ trung bình cả chặng. Đạo hàm chính là con số ấy: tốc độ thay đổi tức thời. Unit 2 biến ý tưởng giới hạn thành đạo hàm, rồi cho ta bộ quy tắc để tính nó nhanh. Phần lớn câu hỏi của unit này là câu trắc nghiệm làm nhanh ở phần không dùng máy tính, nhưng các kĩ năng này cần cho mọi câu tự luận, nên tính chính xác ở đây rất đáng giá. Học sinh Việt Nam đã biết các quy tắc từ lớp 11. Điều mới của kiểu đề AP là những câu **nguỵ trang** một đạo hàm thành một giới hạn, và ta sẽ tập nhận ra chúng.
 
 ## Đạo hàm như một giới hạn
 
@@ -66,7 +66,7 @@ Với $f(x)=\dfrac{2x+1}{x-3}$, tính $f'(4)$.
 
 ## Tiếp tuyến và xấp xỉ tuyến tính địa phương
 
-Tiếp tuyến của $y=f(x)$ tại $x=a$ là $y=f(a)+f'(a)(x-a)$. Gần $a$, tiếp tuyến xấp xỉ tốt cho $f$.
+Phóng thật to một đường cong quanh một điểm, bạn sẽ thấy nó gần như thẳng. Đoạn thẳng ấy chính là tiếp tuyến, và vì nó đơn giản hơn đường cong nên ta dùng nó để tính gần đúng. Tiếp tuyến của $y=f(x)$ tại $x=a$ là $y=f(a)+f'(a)(x-a)$. Gần $a$, tiếp tuyến xấp xỉ rất tốt cho $f$.
 
 :::example Tính gần đúng bằng tiếp tuyến
 Viết phương trình tiếp tuyến của $y=e^x$ tại $x=0$, và dùng nó để tính gần đúng $e^{0{,}1}$.
@@ -100,14 +100,15 @@ D. $f$ liên tục và có đạo hàm.
 :::
 
 :::warning Những cái bẫy thường gặp
-- **Nhân các đạo hàm.** $(fg)'\ne f'g'$ và $\left(\dfrac fg\right)'\ne\dfrac{f'}{g'}$.
-- **Thứ tự trong quy tắc thương.** Tử số là $f'g-fg'$; đảo ngược sẽ đổi dấu.
-- **$\dfrac{d}{dx}\cos x=-\sin x$.** Dấu trừ là chỗ mất điểm nhiều nhất.
-- **Hằng số.** $\dfrac{d}{dx}e^2=0$, vì $e^2$ là một số.
+- **Nhân các đạo hàm.** Nhiều bạn thấy tích thì nhân hai đạo hàm với nhau, nhưng $(fg)'\ne f'g'$ và $\left(\dfrac fg\right)'\ne\dfrac{f'}{g'}$.
+- **Thứ tự trong quy tắc thương.** Tử số là $f'g-fg'$; đảo ngược hai số hạng sẽ đổi dấu cả kết quả.
+- **$\dfrac{d}{dx}\cos x=-\sin x$.** Dấu trừ là chỗ mất điểm nhiều nhất, nên hãy dừng lại kiểm tra dấu ở chỗ này.
+- **Hằng số.** $\dfrac{d}{dx}e^2=0$, vì $e^2$ chỉ là một số cố định.
+Nếu bạn từng mắc những lỗi này thì cũng đừng lo: rất nhiều người mắc, và luyện tập vài lần là hết.
 :::
 
 :::tip Đạo hàm số trên máy tính
-Ở các phần được dùng máy, máy tính đồ thị tính được $f'(a)$ bằng phương pháp số. Hãy dùng để kiểm tra phần tính tay, hoặc khi đạo hàm rối mà chỉ cần giá trị của nó.
+Ở các phần được dùng máy, máy tính đồ thị có thể tính $f'(a)$ bằng phương pháp số. Bạn dùng nó để kiểm tra lại phần tính tay, hoặc khi đạo hàm quá rối mà bạn chỉ cần giá trị tại một điểm. Máy chỉ cho con số; việc hiểu đang tính gì vẫn là của bạn.
 :::
 
 :::terms

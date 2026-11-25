@@ -10,13 +10,13 @@ minutes: 15
 - Say and understand where things and friends are.
 :::
 
-Lan, Mai and Nam line up to go into class. Lan stands in front of Mai, and Mai stands in front of Nam. Who stands in the middle?
+Lan, Mai and Nam line up to go into class. Lan stands in front of Mai, and Mai stands in front of Nam. Who stands in the middle of the line?
 
-You already know some solid shapes. In this lesson you learn to say where things are with words for position.
+You already know some solid shapes. But to help a friend find something, you must be able to say where it is. Words for position let you say that clearly. They will also tell us who stands in the middle of Lan's line.
 
 ## Let's explore
 
-Look at three shapes in a row.
+We begin with three shapes side by side in a row. Look at where each one is.
 
 :::diagram Three shapes in a row
 alt: Three shapes in a row from left to right: a square, a circle, a triangle
@@ -37,7 +37,7 @@ polygon P Q R
 - The triangle is on the right of the circle.
 - The circle is in the middle, between the square and the triangle.
 
-Now look at three shapes in a column.
+Now look at three shapes in a column, one above another. Which words do we need this time?
 
 :::diagram Three shapes in a column
 alt: Three shapes in a column from top to bottom: a triangle, a square, a circle
@@ -65,11 +65,11 @@ polygon P Q R
 4. **In the middle**: between two things or two friends.
 :::
 
-This works because these words tell you which side one thing is on compared with another.
+Why do these words work? Each one tells you which side one thing is on compared with another. If you say "on the left", you must also say on the left of what.
 
 ## Examples
 
-We start with the row.
+We try the row first, reading from left to right.
 
 :::example The shape on the left of the circle
 In the row (square, circle, triangle from left to right), which shape is on the left of the circle?
@@ -79,7 +79,7 @@ In the row (square, circle, triangle from left to right), which shape is on the 
 So the square is on the left of the circle.
 :::
 
-Next, find the shape in the middle.
+Which shape is in the middle? See if you can find it.
 
 :::example The shape in the middle
 In the row above, which shape is in the middle?
@@ -89,7 +89,7 @@ In the row above, which shape is in the middle?
 So the circle is in the middle.
 :::
 
-Now look at the column.
+Now the column: read from top to bottom.
 
 :::example Above and below
 In the column (triangle, square, circle from top to bottom), which shape is above the square? Which shape is below the square?
@@ -99,7 +99,7 @@ In the column (triangle, square, circle from top to bottom), which shape is abov
 So the triangle is above and the circle is below the square.
 :::
 
-Last, answer the question from the start.
+Now go back to the question at the start: who stands in the middle of the line with Lan, Mai and Nam?
 
 :::example Lining up for class
 Lan stands in front of Mai, and Mai stands in front of Nam. Who stands in the middle?
@@ -113,6 +113,7 @@ So Mai stands in the middle.
 - **Mixing up left and right.** Wrong: the hand you write with is the left hand. Why it is wrong: most children write with the right hand. Right: remember the writing hand is the right hand, the other is the left.
 - **Mixing up in front of and behind.** Wrong: the child at the end of the line is in front. Why it is wrong: the child nearer the start is in front. Right: read the order from the start of the line.
 - **Mixing up the middle.** Wrong: the shape furthest to the left is in the middle. Why it is wrong: the middle one needs a shape on each side. Right: find the shape with one on its left and one on its right.
+Many children slip up here, especially with left and right. Do not worry. Read the order slowly and then answer.
 :::
 
 ## Key terms
@@ -134,10 +135,11 @@ So Mai stands in the middle.
 - Above and below: above is higher, below is lower.
 - In front of and behind: read the order from the start of the line.
 - In the middle: there is one thing on each side.
+Lan stands in front of Mai and Mai stands in front of Nam, so Mai is in the middle, with a friend on each side. Practise a little more and you will say where things are quickly and correctly.
 
 ## Practice
 
-Each exercise comes with what you need and how to start. Try it yourself first, then open the solution.
+Each exercise comes with what you need to remember and a hint to start you off. Try it yourself first, then open the solution. If the answer does not come at once, do not worry. Look at one shape at a time.
 
 :::exercise
 In the row (square, circle, triangle from left to right), which shape is on the right of the circle?

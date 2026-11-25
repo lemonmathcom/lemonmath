@@ -12,11 +12,11 @@ type: guide
 - Chuẩn bị theo kế hoạch tám tuần với tài liệu luyện tập phù hợp.
 :::
 
-ACT là kì thi chuẩn hoá dùng để xét tuyển đại học, chủ yếu ở Hoa Kì, song song với SAT. Phần Toán (Math) của ACT là bài kiểm tra tốc độ về toán phổ thông: nhiều câu ngắn, mỗi câu có một đáp án đúng, và rất ít thời gian cho mỗi câu. Với học sinh học chương trình Việt Nam, phần lớn kiến thức đều quen thuộc; thử thách nằm ở tốc độ, ở việc đọc bài toán có lời văn bằng tiếng Anh, và ở vài chủ đề được dạy theo cách khác.
+Bạn có bao giờ làm một bài kiểm tra mà biết cách giải hết, nhưng hết giờ khi còn mấy câu chưa kịp đụng tới không? ACT Math rất dễ khiến ta rơi vào tình huống đó. ACT là kì thi chuẩn hoá dùng để xét tuyển đại học, chủ yếu ở Hoa Kì, song song với SAT. Phần Toán (Math) của ACT là bài kiểm tra tốc độ về toán phổ thông: nhiều câu ngắn, mỗi câu có một đáp án đúng, và rất ít thời gian cho mỗi câu. Với học sinh học chương trình Việt Nam, phần lớn kiến thức đều quen thuộc. Thử thách nằm ở tốc độ, ở việc đọc bài toán có lời văn bằng tiếng Anh, và ở vài chủ đề được dạy theo cách khác. Biết trước hình thức bài thi sẽ giúp bạn quyết định nên ôn gì và dùng từng phút ra sao.
 
 ## Cấu trúc của ACT mới
 
-"ACT mới" (enhanced ACT) áp dụng cho hình thức thi trên máy từ tháng 4/2025 và thi trên giấy từ tháng 9/2025.
+Kì thi đã đổi cấu trúc, nên trước hết ta xem bài thi hiện nay trông thế nào. "ACT mới" (enhanced ACT) áp dụng cho hình thức thi trên máy từ tháng 4/2025 và thi trên giấy từ tháng 9/2025. Bảng dưới đây gom những điều cần nhớ.
 
 | | ACT Math mới |
 |---|---|
@@ -26,27 +26,29 @@ ACT là kì thi chuẩn hoá dùng để xét tuyển đại học, chủ yếu 
 | Trả lời sai | không bị trừ điểm |
 | Thang điểm | từ 1 đến 36 |
 
-Trước khi thay đổi, bài thi Toán có 60 câu trong 60 phút với 5 phương án, nên các sách luyện thi cũ không còn khớp với cấu trúc hiện tại. Trong 45 câu có 4 câu thử nghiệm không tính điểm; bạn không biết đó là câu nào, nên hãy làm nghiêm túc mọi câu.
+Trước khi thay đổi, bài thi Toán có 60 câu trong 60 phút với 5 phương án, nên các sách luyện thi cũ không còn khớp với cấu trúc hiện tại. Trong 45 câu có 4 câu thử nghiệm không tính điểm. Bạn không biết đó là câu nào, nên cứ làm nghiêm túc mọi câu.
 
-**Điểm tổng (Composite score)** là trung bình của English, Math và Reading. Phần Science nay là phần tự chọn.
+Kết quả cuối cùng của bạn gộp từ nhiều phần thi. **Điểm tổng (Composite score)** là trung bình của English, Math và Reading. Phần Science nay là phần tự chọn.
 
 ## Các câu hỏi bao quát những gì
 
-ACT chia các câu Toán thành những mảng sau:
+Vậy bài Toán hỏi những gì? ACT chia các câu Toán thành những mảng sau:
 
-- **Chuẩn bị cho toán cao hơn (Preparing for Higher Math)**, gồm **Số và đại lượng (Number and Quantity)**, **Đại số (Algebra)**, **Hàm số (Functions)**, **Hình học (Geometry)**, **Thống kê và xác suất (Statistics and Probability)**.
-- **Kĩ năng thiết yếu tổng hợp (Integrating Essential Skills)**: tốc độ, phần trăm, tỉ lệ, diện tích và thể tích, số trung bình và các phép toán đời thường khác, thường kết hợp trong một bài.
+- **Chuẩn bị cho toán cao hơn (Preparing for Higher Math)**, gồm **Số và đại lượng (Number and Quantity)**, **Đại số (Algebra)**, **Hàm số (Functions)**, **Hình học (Geometry)**, **Thống kê và xác suất (Statistics and Probability)**. Đây là phần kiến thức nền, gần với những gì bạn đã học ở trường.
+- **Kĩ năng thiết yếu tổng hợp (Integrating Essential Skills)**: tốc độ, phần trăm, tỉ lệ, diện tích và thể tích, số trung bình và các phép toán đời thường khác. Nhiều kĩ năng thường được kết hợp trong một bài.
 - **Mô hình hoá (Modeling)**: câu hỏi yêu cầu xây dựng, sử dụng hoặc giải thích một mô hình toán học của tình huống thực tế.
+Đừng lo nếu tên gọi nghe lạ. Phần lớn là toán bạn đã quen, chỉ được xếp nhóm theo cách khác.
 
-ACT công bố chi tiết từng mảng trên trang chính thức; hãy xem act.org để có tỉ lệ mới nhất thay vì dựa vào số liệu trong sách cũ.
+Tỉ lệ của từng mảng có thể thay đổi theo thời gian. ACT công bố chi tiết từng mảng trên trang chính thức; hãy xem act.org để có tỉ lệ mới nhất thay vì dựa vào số liệu trong sách cũ.
 
 ## Phân bổ thời gian: 67 giây một câu
 
-ACT thưởng cho tốc độ đều tay hơn là sự sâu sắc. Ba thói quen sau rất có ích.
+Làm sao để kịp giờ? ACT thưởng cho tốc độ đều tay hơn là sự sâu sắc, nên cách chia thời gian quan trọng không kém kiến thức. Ba thói quen sau rất có ích.
 
-1. **Làm hai lượt.** Lượt đầu trả lời mọi câu làm nhanh được; đánh dấu các câu chậm và quay lại sau.
+1. **Làm hai lượt.** Lượt đầu, trả lời mọi câu làm nhanh được; đánh dấu các câu chậm để quay lại sau.
 2. **Không bỏ trống.** Trả lời sai không bị trừ điểm, nên trong phút cuối hãy điền hết các câu còn lại.
-3. **Dùng máy tính khôn ngoan.** Máy tính được dùng suốt bài, nhưng tính nhẩm thường nhanh hơn với các bước đơn giản; hãy để máy tính cho số thập phân, căn bậc hai và việc kiểm tra.
+3. **Dùng máy tính khôn ngoan.** Máy tính được dùng suốt bài, nhưng với các bước đơn giản thì tính nhẩm thường nhanh hơn. Hãy để máy tính cho số thập phân, căn bậc hai và việc kiểm tra.
+Cả ba thói quen đều nhằm một việc: không để một câu khó lấy mất thời gian của những câu dễ.
 
 ## Ba câu hỏi mẫu
 
@@ -93,22 +95,23 @@ Vậy xác suất để viên bi không phải màu xanh dương là $\dfrac{7}{
 
 ## So sánh ACT với SAT
 
-Cả hai kì thi đều được các trường đại học Hoa Kì chấp nhận, và nhiều học sinh thử cả hai. Phần Toán của SAT dạng số có hai mô-đun, mỗi mô-đun 22 câu trong 35 phút, có máy tính Desmos tích hợp và một số câu tự điền đáp số. ACT có nhiều câu hơn trên mỗi phút, và tất cả đều là trắc nghiệm. Nếu bạn làm nhanh và chính xác, ACT có thể hợp với bạn; nếu bạn thích nhiều thời gian hơn cho mỗi câu và các mô-đun thích ứng, hãy xem [mục SAT](lesson:sat-overview). Làm thử một đề của mỗi kì thi là cách tốt nhất để quyết định.
+Nên thi ACT hay SAT? Cả hai kì thi đều được các trường đại học Hoa Kì chấp nhận, và nhiều học sinh thử cả hai. Phần Toán của SAT dạng số có hai mô-đun, mỗi mô-đun 22 câu trong 35 phút, có máy tính Desmos tích hợp và một số câu tự điền đáp số. ACT thì có nhiều câu hơn trên mỗi phút, và tất cả đều là trắc nghiệm. Nếu bạn làm nhanh và chính xác, ACT có thể hợp với bạn. Nếu bạn thích có nhiều thời gian hơn cho mỗi câu và các mô-đun thích ứng, hãy xem [mục SAT](lesson:sat-overview). Cách tốt nhất để quyết định là làm thử một đề của mỗi kì thi.
 
 ## Kế hoạch tám tuần
 
 :::note Các tuần trước kì thi
-1. **Tuần 1:** làm trọn một đề luyện có bấm giờ; liệt kê các chủ đề bạn làm sai.
-2. **Tuần 2 đến 5:** mỗi tuần ôn một mảng bằng các bài trong mục này: [Số, đại lượng và tỉ lệ](lesson:act-number-quantity), [Đại số và hàm số](lesson:act-algebra-functions), rồi hình học và thống kê. Cuối mỗi tuần làm các câu tổng hợp có bấm giờ.
-3. **Tuần 6:** mô hình hoá và bài tổng hợp; luyện đọc nhanh các bài toán có lời văn dài.
+1. **Tuần 1:** làm trọn một đề luyện có bấm giờ, rồi liệt kê các chủ đề bạn làm sai.
+2. **Tuần 2 đến 5:** mỗi tuần ôn một mảng bằng các bài trong mục này: [Số, đại lượng và tỉ lệ](lesson:act-number-quantity), [Đại số và hàm số](lesson:act-algebra-functions), rồi hình học và thống kê. Cuối mỗi tuần, làm các câu tổng hợp có bấm giờ.
+3. **Tuần 6:** mô hình hoá và bài tổng hợp. Luyện đọc nhanh các bài toán có lời văn dài.
 4. **Tuần 7 đến 8:** mỗi tuần làm trọn một đề có bấm giờ, rồi xem lại mọi lỗi sai trong sổ lỗi sai.
+Quan trọng nhất là đều đặn từng tuần, không cần dồn sức một lúc.
 :::
 
 :::warning Những cái bẫy thường gặp
-- **Luyện bằng cấu trúc cũ.** Sách cũ có 60 câu với 5 phương án; hãy điều chỉnh tốc độ cho 45 câu trong 50 phút.
-- **Dành ba phút cho một câu.** Đánh dấu, làm tiếp, rồi quay lại sau.
-- **Đọc quá nhanh.** Nhiều câu sai vì bỏ sót các từ như "not", "except" hay "least".
+- **Luyện bằng cấu trúc cũ.** Sách cũ có 60 câu với 5 phương án; hãy chỉnh tốc độ cho 45 câu trong 50 phút.
+- **Dành ba phút cho một câu.** Chỗ này nhiều bạn hay mắc: cố giải cho bằng được. Hãy đánh dấu, làm tiếp, rồi quay lại sau.
+- **Đọc quá nhanh.** Nhiều câu sai chỉ vì bỏ sót các từ như "not", "except" hay "least".
 - **Bỏ trống.** Đoán chỉ có lợi chứ không có hại.
 :::
 
-Trang chính thức của ACT có tài liệu luyện tập miễn phí, kể cả một đề luyện đầy đủ; hãy dùng song song với các bài học ở đây. Khi đã ôn xong các chủ đề, hãy làm [Đề luyện ACT Math số 1](lesson:act-practice-test-1).
+Trang chính thức của ACT có tài liệu luyện tập miễn phí, kể cả một đề luyện đầy đủ; hãy dùng song song với các bài học ở đây. Khi đã ôn xong các chủ đề, hãy làm [Đề luyện ACT Math số 1](lesson:act-practice-test-1). Hãy nhớ câu hỏi đầu bài: biết cách giải thôi chưa đủ, bạn còn cần kịp giờ. Vì vậy, khi luyện, hãy bấm giờ và luyện đều mỗi tuần.

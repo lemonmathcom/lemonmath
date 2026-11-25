@@ -13,17 +13,18 @@ minutes: 15
 
 Lan có $7$ cái kẹo. Lan ăn $2$ cái. Hỏi Lan còn lại bao nhiêu cái kẹo?
 
-Ở bài trước em gộp hai nhóm lại bằng phép cộng. Bài này em làm ngược lại: bớt đi.
+Ở bài trước em gộp hai nhóm lại bằng phép cộng. Còn khi em ăn bớt kẹo hay cho đi một ít đồ chơi thì sao? Lúc đó em làm ngược lại: bớt đi, rồi xem còn lại bao nhiêu.
 
 ## Cùng khám phá
 
-Lan có $7$ cái kẹo, ăn mất $2$ cái. Em đếm lùi $2$ số bắt đầu từ $7$.
+Ta quay lại với Lan: Lan có $7$ cái kẹo và ăn mất $2$ cái. Để biết còn lại bao nhiêu cái, em đếm lùi $2$ số, bắt đầu từ $7$.
 
 - Em nói số $7$ trước: "bảy".
 - Em đếm lùi hai số: "sáu, năm".
 - Số cuối cùng là năm.
+Số em đếm đến cuối cùng chính là số kẹo còn lại.
 
-Vậy Lan còn $5$ cái kẹo. Ta viết $7-2=5$ và đọc là "bảy trừ hai bằng năm".
+Vậy Lan còn $5$ cái kẹo. Ta ghi lại bằng một dòng ngắn: $7-2=5$. Em đọc là "bảy trừ hai bằng năm".
 
 :::graph Trên tia số: từ 7 đếm lùi 2 bước về 5
 alt: Tia số có các điểm 7, 6, 5; đoạn từ 7 về 5 cho thấy đếm lùi hai bước
@@ -43,11 +44,11 @@ point: (5, 0) "5" below
 5. Em kiểm tra bằng phép cộng: $5+2=7$.
 :::
 
-Cách này đúng vì khi bớt $2$ cái kẹo thì số kẹo giảm đi $2$, em chỉ đếm số kẹo còn lại.
+Vì sao đếm lùi lại ra đúng? Vì khi bớt $2$ cái kẹo thì số kẹo giảm đi $2$, và em chỉ cần đếm xem còn lại bao nhiêu cái.
 
 ## Ví dụ
 
-Ta bắt đầu với một phép trừ rất nhỏ.
+Ta thử với một phép trừ thật nhỏ trước, để làm quen cách đếm lùi.
 
 :::example Tính $5-1$
 **Lời giải.** Em nói số đầu "năm", rồi đếm lùi một số: "bốn".
@@ -55,7 +56,7 @@ Ta bắt đầu với một phép trừ rất nhỏ.
 Vậy $5-1=4$.
 :::
 
-Bây giờ em đếm lùi nhiều số hơn.
+Giờ em đếm lùi nhiều bước hơn. Chỗ này nhiều bạn hay đếm thừa một số, nên em nhớ đếm thật chậm.
 
 :::example Tính $8-3$
 **Lời giải.** Em nói số đầu "tám", rồi đếm lùi ba số: "bảy, sáu, năm".
@@ -65,7 +66,7 @@ Vậy $8-3=5$.
 **Kiểm tra.** $5+3=8$. Đúng.
 :::
 
-Có khi bớt hết cả nhóm.
+Có khi ta bớt hết cả nhóm. Khi ấy còn lại gì nhỉ?
 
 :::example Tính $6-6$
 **Lời giải.** Bớt hết $6$ đồ vật thì không còn đồ vật nào.
@@ -73,7 +74,7 @@ Có khi bớt hết cả nhóm.
 Vậy $6-6=0$.
 :::
 
-Trừ đi $0$ thì sao?
+Còn nếu chẳng bớt gì cả, tức là trừ đi $0$, thì sao?
 
 :::example Tính $9-0$
 **Lời giải.** Bớt đi $0$ nghĩa là không bớt gì, nên số không đổi.
@@ -81,7 +82,7 @@ Trừ đi $0$ thì sao?
 Vậy $9-0=9$.
 :::
 
-Cuối cùng em giải một bài toán có lời văn.
+Cuối cùng, em dùng phép trừ cho một chuyện có thật: những quả bóng bay bị gió thổi đi.
 
 :::example Bóng bay
 Bình có $9$ quả bóng bay. Gió thổi bay mất $4$ quả. Hỏi Bình còn lại mấy quả bóng bay?
@@ -94,9 +95,10 @@ Vậy Bình còn lại $5$ quả bóng bay.
 :::
 
 :::warning Những lỗi em hay gặp
-- **Đếm cả số đầu khi lùi.** Sai: $8-3=6$ vì đếm "tám, bảy, sáu". Vì sao sai: em chỉ đếm lùi $2$ số. Đúng: đếm lùi đủ $3$ số: bảy, sáu, năm. Vậy $8-3=5$.
+- **Đếm cả số đầu khi lùi.** Sai: $8-3=6$ vì đếm "tám, bảy, sáu". Vì sao sai: em đã đếm cả số đầu, nên chỉ lùi được $2$ số. Đúng: đếm lùi đủ $3$ số: bảy, sáu, năm. Vậy $8-3=5$.
 - **Đổi chỗ hai số.** Sai: $2-5=3$. Vì sao sai: không thể bớt $5$ cái từ $2$ cái. Đúng: phép trừ không đổi chỗ được.
-- **Bài toán có lời văn quên đơn vị.** Sai: "Đáp số: $5$". Đúng: "Đáp số: $5$ quả".
+- **Bài toán có lời văn quên đơn vị.** Sai: "Đáp số: $5$". Vì sao sai: con số đứng một mình chưa cho biết đó là cái gì. Đúng: "Đáp số: $5$ quả".
+Đếm lùi cần chậm rãi, em đừng vội nhé.
 :::
 
 ## Thuật ngữ
@@ -117,10 +119,11 @@ Vậy Bình còn lại $5$ quả bóng bay.
 - $9-0=9$ và $6-6=0$.
 - Kiểm tra phép trừ bằng phép cộng: $5+2=7$.
 - Bài toán "bớt đi", "bay mất", "còn lại" thường là phép trừ; nhớ ghi đơn vị.
+Câu hỏi của Lan lúc đầu cũng trả lời được như vậy: bớt đi thì em đếm lùi để biết còn lại bao nhiêu. Em luyện thêm vài bài cho quen tay nhé.
 
 ## Luyện tập
 
-Mỗi bài có phần kiến thức và gợi ý. Em hãy tự làm trước, rồi mới bấm xem lời giải.
+Mỗi bài có phần nhắc kiến thức và một gợi ý để em bắt đầu. Em cứ tự làm trước. Làm xong, hoặc khi bí, hãy bấm xem lời giải.
 
 :::exercise
 Tính $5-2$.

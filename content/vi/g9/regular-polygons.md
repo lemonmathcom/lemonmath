@@ -11,9 +11,9 @@ minutes: 20
 - Vận dụng vào các bài toán thực tế (lát nền, ốc vít, vòng quay).
 :::
 
-Hơn hai nghìn năm trước, Archimedes (287–212 TCN) muốn biết đường tròn dài gấp bao nhiêu lần đường kính. Ông không đo được trực tiếp, nên "kẹp" đường tròn giữa hai **đa giác đều** $96$ cạnh, một nội tiếp và một ngoại tiếp, rồi tính chu vi hai đa giác. Kết quả: $3\frac{10}{71}<\pi<3\frac17$ (theo MacTutor, Đại học St Andrews).
+Hơn hai nghìn năm trước, Archimedes (287–212 TCN) muốn biết đường tròn dài gấp bao nhiêu lần đường kính của nó. Ông không đo được trực tiếp. Vì vậy ông "kẹp" đường tròn vào giữa hai **đa giác đều** $96$ cạnh, một nội tiếp và một ngoại tiếp, rồi tính chu vi của cả hai đa giác. Kết quả là $3\frac{10}{71}<\pi<3\frac17$ (theo MacTutor, Đại học St Andrews).
 
-Vì sao lại là đa giác *đều*? Vì một đa giác đều được xác định hoàn toàn bởi số cạnh và bán kính đường tròn ngoại tiếp, nên mọi đại lượng của nó đều tính được. Bài này cho bạn những công cụ đầu tiên của Archimedes.
+Vì sao Archimedes chọn đa giác *đều*, mà không chọn đa giác bất kì? Vì một đa giác đều được xác định hoàn toàn bởi số cạnh và bán kính đường tròn ngoại tiếp. Biết hai điều ấy là ta tính được mọi đại lượng khác của nó. Những công cụ đầu tiên của ông cũng chính là điều ta học dưới đây.
 
 ## Đa giác đều và số đo các góc
 
@@ -21,11 +21,11 @@ Vì sao lại là đa giác *đều*? Vì một đa giác đều được xác �
 **Đa giác đều** là đa giác lồi có tất cả các cạnh bằng nhau và tất cả các góc bằng nhau.
 :::
 
-Tam giác đều và hình vuông là những đa giác đều quen thuộc. Một hình thoi (cạnh bằng nhau nhưng góc không bằng nhau) hay một hình chữ nhật không vuông (góc bằng nhau nhưng cạnh không bằng nhau) **không** phải đa giác đều: cần đủ cả hai điều kiện.
+Tam giác đều và hình vuông là hai đa giác đều bạn đã quen. Còn hình thoi thì sao? Cạnh của nó bằng nhau, nhưng góc thì không, nên nó **không** phải đa giác đều. Hình chữ nhật không vuông cũng vậy: góc bằng nhau nhưng cạnh lại không. Một đa giác đều cần đủ cả hai điều kiện.
 
 ### Khám phá: tổng các góc
 
-Từ một đỉnh của đa giác lồi $n$ cạnh, kẻ các đường chéo, ta chia đa giác thành $n-2$ tam giác. Mỗi tam giác có tổng ba góc $180^\circ$, nên tổng các góc của đa giác là $(n-2)\cdot180^\circ$. Đa giác đều có $n$ góc bằng nhau, do đó:
+Hãy thử với một đa giác lồi $n$ cạnh. Từ một đỉnh, ta kẻ các đường chéo và chia đa giác thành $n-2$ tam giác. Mỗi tam giác có tổng ba góc là $180^\circ$, nên tổng các góc của đa giác là $(n-2)\cdot180^\circ$. Đa giác đều có $n$ góc bằng nhau. Vậy muốn biết một góc, ta chỉ cần chia tổng cho số góc:
 
 :::theorem Số đo mỗi góc của đa giác đều $n$ cạnh
 $$\alpha=\frac{(n-2)\cdot180^\circ}{n}.$$
@@ -41,7 +41,7 @@ $$\frac{3\cdot180^\circ}{5}=108^\circ,\qquad \frac{4\cdot180^\circ}{6}=120^\circ
 Vậy mỗi góc của ngũ giác đều, lục giác đều, bát giác đều lần lượt là $108^\circ$, $120^\circ$, $135^\circ$.
 :::
 
-Số đo góc quyết định một câu hỏi rất thực tế: lát nền bằng những viên gạch đều nhau.
+Số đo góc còn trả lời được một câu hỏi rất đời thường: loại gạch nào lát nền thì khít? Hãy nghĩ đến những viên gạch cùng hình một đa giác đều.
 
 :::example Vận dụng: gạch lát nền
 Người ta muốn lát kín một mặt sàn bằng các viên gạch cùng hình một đa giác đều, sao cho tại mỗi đỉnh chung, các viên gạch ghép khít với nhau không chồng lên nhau. Gạch hình lục giác đều có dùng được không? Gạch hình ngũ giác đều thì sao?
@@ -65,7 +65,7 @@ Vậy gạch lục giác đều dùng được, gạch ngũ giác đều không 
 Mỗi đa giác đều có đúng một đường tròn ngoại tiếp và đúng một đường tròn nội tiếp; hai đường tròn này có cùng tâm, gọi là **tâm của đa giác đều**.
 :::
 
-Nối tâm $O$ với các đỉnh, đa giác đều $n$ cạnh được chia thành $n$ tam giác cân bằng nhau; mỗi tam giác có góc ở đỉnh $O$ bằng $\dfrac{360^\circ}{n}$. Bán kính ngoại tiếp $R$ là cạnh bên, bán kính nội tiếp $r$ là đường cao của các tam giác cân đó.
+Nối tâm $O$ với các đỉnh, ta chia đa giác đều $n$ cạnh thành $n$ tam giác cân bằng nhau. Các góc ở tâm ghép lại thành một vòng đầy, nên mỗi tam giác có góc ở đỉnh $O$ bằng $\dfrac{360^\circ}{n}$. Hai độ dài quan trọng nằm ngay trong các tam giác này: bán kính ngoại tiếp $R$ là cạnh bên, còn bán kính nội tiếp $r$ là đường cao của các tam giác cân đó.
 
 :::diagram Lục giác đều $ABCDEF$ nội tiếp đường tròn $(O; R)$
 alt: Lục giác đều ABCDEF nội tiếp đường tròn tâm O; các bán kính OA, OB và đoạn OH vuông góc với AB tại trung điểm H
@@ -85,7 +85,7 @@ segment O H dashed
 right O H A
 :::
 
-Với lục giác đều, mỗi tam giác $OAB$ cân có góc ở đỉnh $\dfrac{360^\circ}{6}=60^\circ$, nên là **tam giác đều**. Vì vậy cạnh lục giác đều bằng bán kính ngoại tiếp: $a=R$.
+Hãy nhìn riêng lục giác đều. Mỗi tam giác cân $OAB$ có góc ở đỉnh $\dfrac{360^\circ}{6}=60^\circ$, và một tam giác cân có góc ở đỉnh như thế thì là **tam giác đều**. Vì vậy cạnh của lục giác đều bằng đúng bán kính ngoại tiếp: $a=R$. Bảng dưới đây ghi bán kính ngoại tiếp và bán kính nội tiếp của ba đa giác đều quen thuộc.
 
 | Đa giác đều cạnh $a$ | $R$ | $r$ |
 |---|---|---|
@@ -113,7 +113,7 @@ Vậy $R=4$ cm, $r=2\sqrt3$ cm và $S=24\sqrt3\approx41{,}57$ cm².
 **Phép quay** tâm $O$ góc $\alpha^\circ$ ($0^\circ<\alpha^\circ<360^\circ$) biến điểm $O$ thành chính nó và biến mỗi điểm $M\neq O$ thành điểm $M'$ sao cho $OM'=OM$ và góc quay từ $OM$ đến $OM'$ bằng $\alpha^\circ$ theo chiều đã chọn (thuận hoặc ngược chiều kim đồng hồ).
 :::
 
-Hình dung một chiếc đĩa hình lục giác đều quay quanh tâm: sau mỗi $60^\circ$, đĩa lại khớp đúng vào "chỗ cũ" của nó. Tổng quát, phép quay tâm $O$ góc $\dfrac{360^\circ}{n}$, $2\cdot\dfrac{360^\circ}{n}$, ..., $(n-1)\cdot\dfrac{360^\circ}{n}$ (theo cùng một chiều) biến đa giác đều $n$ cạnh tâm $O$ thành chính nó.
+Hình dung một chiếc đĩa hình lục giác đều quay quanh tâm. Cứ quay thêm $60^\circ$, đĩa lại khớp đúng vào "chỗ cũ" của nó. Tổng quát, với đa giác đều $n$ cạnh tâm $O$, các phép quay tâm $O$ góc $\dfrac{360^\circ}{n}$, $2\cdot\dfrac{360^\circ}{n}$, ..., $(n-1)\cdot\dfrac{360^\circ}{n}$ (theo cùng một chiều) đều biến đa giác đó thành chính nó.
 
 :::example Phép quay biến hình vuông thành chính nó
 Cho hình vuông $ABCD$ tâm $O$ (các đỉnh theo thứ tự ngược chiều kim đồng hồ). Nêu các phép quay ngược chiều kim đồng hồ tâm $O$ biến hình vuông thành chính nó, và tìm ảnh của đỉnh $A$ trong mỗi phép quay.
@@ -129,9 +129,10 @@ Vậy có ba phép quay: $90^\circ$, $180^\circ$, $270^\circ$, biến $A$ lần 
 - **Chỉ kiểm tra một điều kiện.** Sai: "hình thoi có các cạnh bằng nhau nên là đa giác đều". Đúng: cần cả các góc bằng nhau.
 - **Nhầm góc của đa giác với góc ở tâm.** Lục giác đều có mỗi góc $120^\circ$, còn góc ở tâm $\widehat{AOB}=60^\circ$.
 - **Nhầm $R$ và $r$.** $R$ đi từ tâm đến **đỉnh**, $r$ đi từ tâm đến **trung điểm cạnh**; luôn có $r<R$.
+Ba chỗ này nhiều bạn hay nhầm, nên làm xong hãy tự hỏi mình đã kiểm tra đủ điều kiện chưa.
 :::
 
-**Kết nối.** Bài này dựa trên tổng các góc của tam giác, tam giác đều và [đường tròn ngoại tiếp, nội tiếp tam giác](lesson:circumcircle-incircle). Chu vi lục giác đều nội tiếp là $6R$, nhỏ hơn độ dài đường tròn $2\pi R$, nên $\pi>3$: đó chính là bước đầu tiên của Archimedes. Tăng số cạnh lên $12$, $24$, $48$, $96$, chu vi đa giác càng gần độ dài đường tròn. Phép quay còn giúp ta hiểu các hoa văn, logo có tính đối xứng quay quanh ta.
+**Kết nối.** Những gì ta vừa học dựa trên tổng các góc của tam giác, tam giác đều và [đường tròn ngoại tiếp, nội tiếp tam giác](lesson:circumcircle-incircle). Chu vi lục giác đều nội tiếp là $6R$, nhỏ hơn độ dài đường tròn $2\pi R$, nên $\pi>3$: đó chính là bước đầu tiên của Archimedes. Nếu tăng số cạnh lên $12$, $24$, $48$, $96$, chu vi đa giác sẽ càng gần độ dài đường tròn. Phép quay còn giúp bạn hiểu vì sao các hoa văn và logo quanh ta lại có tính đối xứng quay.
 
 ## Thuật ngữ
 
@@ -152,10 +153,11 @@ Vậy có ba phép quay: $90^\circ$, $180^\circ$, $270^\circ$, biến $A$ lần 
 - Mỗi góc: $\dfrac{(n-2)\cdot180^\circ}{n}$; góc ở tâm chắn một cạnh: $\dfrac{360^\circ}{n}$.
 - Đường tròn ngoại tiếp và nội tiếp có chung tâm; lục giác đều có $R=a$, $r=\dfrac{a\sqrt3}{2}$; hình vuông có $R=\dfrac{a\sqrt2}{2}$, $r=\dfrac a2$.
 - Các phép quay tâm $O$ góc $k\cdot\dfrac{360^\circ}{n}$ ($k=1,\dots,n-1$) giữ nguyên đa giác đều $n$ cạnh.
+Quay lại câu chuyện của Archimedes: chỉ cần biết số cạnh và bán kính ngoại tiếp, ta tính được mọi thứ của đa giác đều, và đó là lí do ông chọn nó để "kẹp" đường tròn. Bạn hãy làm các bài luyện tập để quen với từng công thức.
 
 ## Luyện tập
 
-Mỗi bài có phần kiến thức và gợi ý các bước. Hãy tự làm trước, rồi mới bấm xem lời giải.
+Mỗi bài đều có phần kiến thức cần nhớ và vài gợi ý để bắt đầu. Bạn cứ tự làm trước, vướng ở đâu thì đọc gợi ý, sau cùng mới mở lời giải để đối chiếu.
 
 :::exercise
 Tính số đo mỗi góc của thập giác đều ($10$ cạnh) và của đa giác đều $12$ cạnh.

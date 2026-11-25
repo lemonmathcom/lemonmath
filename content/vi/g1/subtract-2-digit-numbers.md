@@ -12,24 +12,24 @@ minutes: 15
 
 Lan có $57$ cái nhãn dán. Lan tặng bạn $23$ cái. Hỏi Lan còn lại bao nhiêu cái nhãn dán?
 
-Đếm lùi từng cái thì rất lâu. Bài này giúp em trừ nhanh bằng cách tách mỗi số thành hàng chục và hàng đơn vị.
+Đếm lùi từng cái nhãn dán thì lâu, mà đếm nhiều như thế lại dễ nhầm. Có một cách nhanh hơn: tách mỗi số thành hàng chục và hàng đơn vị, rồi trừ từng phần một. Biết cách này, em trừ hai số có hai chữ số mà không cần đếm lùi.
 
 ## Cùng khám phá
 
-Em đã học ở bài trước: $27-4$ thì trừ ở hàng đơn vị và giữ nguyên hàng chục. Bây giờ ta trừ cả hàng chục.
+Ở bài trước, em đã làm phép tính $27-4$: chỉ trừ ở hàng đơn vị và giữ nguyên hàng chục. Lần này số trừ cũng có chục, nên ta phải trừ cả hai hàng.
 
-Ta tách mỗi số thành chục và đơn vị:
+Muốn trừ cho gọn, ta tách mỗi số thành chục và đơn vị. Em nhìn bảng này nhé:
 
 | Số | Chục | Đơn vị |
 |---|---|---|
 | $57$ | $5$ | $7$ |
 | $23$ | $2$ | $3$ |
 
-- Trừ hàng đơn vị cho hàng đơn vị: $7-3=4$.
-- Trừ hàng chục cho hàng chục: $5-2=3$.
-- $3$ chục và $4$ đơn vị là $34$.
+- Trừ hàng đơn vị cho hàng đơn vị trước: $7-3=4$.
+- Rồi trừ hàng chục cho hàng chục: $5-2=3$.
+- Ghép lại: $3$ chục và $4$ đơn vị là $34$.
 
-Vậy $57-23=34$.
+Vậy $57-23=34$, Lan còn ngần ấy nhãn dán.
 
 :::graph Trên tia số: từ 57, lùi 2 chục về 37, rồi lùi 3 đơn vị về 34
 alt: Tia số từ 30 đến 60, đánh dấu các điểm 57, 37 và 34; đoạn từ 34 đến 57 được tô đậm
@@ -48,11 +48,11 @@ Muốn tính $57-23$:
 3. Ghép lại: $3$ chục và $4$ đơn vị là $34$.
 :::
 
-Cách này đúng vì em bớt chục ở phần chục và bớt lẻ ở phần lẻ, nên không bớt thừa hay thiếu cái nhãn dán nào.
+Vì sao cách này đúng? Vì chục trừ với chục, lẻ trừ với lẻ, nên mỗi cái nhãn dán chỉ bị bớt đúng một lần, không thừa cũng không thiếu.
 
 ## Ví dụ
 
-Ta bắt đầu với một phép trừ đơn giản nhất.
+Ta thử ngay với phép tính ở đầu bài, để xem từng bước hiện ra thế nào.
 
 :::example Tính $57-23$
 **Lời giải.** Trừ hàng đơn vị: $7-3=4$. Trừ hàng chục: $5-2=3$:
@@ -60,7 +60,7 @@ $$57-23=34.$$
 Vậy $57-23=34$.
 :::
 
-Bây giờ ta làm một phép tính giống như vậy, nhưng đổi số.
+Giờ ta giữ nguyên cách làm, chỉ đổi các số. Em thử đoán trước xem hàng đơn vị trừ ra mấy, hàng chục trừ ra mấy nhé.
 
 :::example Tính $86-41$
 **Lời giải.** Trừ hàng đơn vị: $6-1=5$. Trừ hàng chục: $8-4=4$:
@@ -68,7 +68,7 @@ $$86-41=45.$$
 Vậy $86-41=45$.
 :::
 
-Khi số trừ là số tròn chục, hàng đơn vị của số bị trừ giữ nguyên.
+Có một trường hợp hay gặp: số trừ là số tròn chục. Khi đó hàng đơn vị của số bị trừ không bị bớt đi, nên giữ nguyên.
 
 :::example Tính $78-30$
 **Lời giải.** Trừ hàng đơn vị: $8-0=8$. Trừ hàng chục: $7-3=4$:
@@ -76,7 +76,7 @@ $$78-30=48.$$
 Vậy $78-30=48$.
 :::
 
-Ta có thể thử lại một phép trừ bằng phép cộng.
+Làm xong, em nên kiểm tra lại cho chắc. Phép cộng giúp ta việc đó: lấy hiệu cộng với số trừ thì phải được lại số bị trừ.
 
 :::example Tính $95-54$ và thử lại
 **Lời giải.** Trừ hàng đơn vị: $5-4=1$. Trừ hàng chục: $9-5=4$:
@@ -86,7 +86,7 @@ Thử lại bằng phép cộng: $41+54=95$. Kết quả đúng.
 Vậy $95-54=41$.
 :::
 
-Bây giờ em dùng phép trừ để trả lời một câu hỏi trong cuộc sống.
+Phép trừ còn trả lời được những câu hỏi quen thuộc ở lớp mình. Em xem bài này nhé.
 
 :::example Học sinh nam
 Lớp có $68$ học sinh, trong đó có $36$ học sinh nữ. Hỏi lớp có bao nhiêu học sinh nam?
@@ -97,9 +97,10 @@ Vậy lớp có $32$ học sinh nam.
 :::
 
 :::warning Những lỗi em hay gặp
-- **Quên hàng chục.** Sai: $57-23=4$. Vì sao sai: em mới trừ hàng đơn vị. Đúng: còn $5-2=3$ chục, nên $57-23=34$.
-- **Đảo chục và đơn vị.** Sai: $57-23=43$. Vì sao sai: em viết hàng đơn vị lên trước hàng chục. Đúng: $3$ chục và $4$ đơn vị là $34$.
-- **Bài toán có lời văn quên đơn vị.** Sai: "Đáp số: $32$". Đúng: "Đáp số: $32$ học sinh".
+- **Quên hàng chục.** Sai: $57-23=4$. Vì sao sai: em mới trừ hàng đơn vị rồi dừng lại. Đúng: còn phải trừ hàng chục, $5-2=3$ chục, nên $57-23=34$.
+- **Đảo chục và đơn vị.** Sai: $57-23=43$. Vì sao sai: em viết hàng đơn vị lên trước hàng chục. Đúng: $3$ chục và $4$ đơn vị là $34$, chục viết trước, đơn vị viết sau.
+- **Bài toán có lời văn quên đơn vị.** Sai: "Đáp số: $32$". Vì sao sai: con số đứng một mình chưa cho biết đếm cái gì. Đúng: "Đáp số: $32$ học sinh".
+Chỗ này nhiều bạn hay nhầm, nên em cứ chậm rãi, kiểm tra từng hàng một.
 :::
 
 ## Thuật ngữ
@@ -121,10 +122,11 @@ Vậy lớp có $32$ học sinh nam.
 - Viết hàng chục trước, hàng đơn vị sau: $3$ chục và $4$ đơn vị là $34$.
 - Thử lại bằng phép cộng: $34+23=57$.
 - Bài toán hỏi "còn lại", "bớt đi" thường là phép trừ; nhớ ghi đơn vị trong đáp số.
+Câu hỏi của Lan lúc đầu cũng giải được theo cách ấy: chục trừ chục, lẻ trừ lẻ. Em luyện thêm vài phép tính để quen tay nhé.
 
 ## Luyện tập
 
-Mỗi bài có phần kiến thức và gợi ý. Em hãy tự làm trước, rồi mới bấm xem lời giải.
+Mỗi bài có phần nhắc kiến thức và một gợi ý để em bắt đầu. Em cứ tự làm trước. Làm xong, hoặc khi bí, hãy bấm xem lời giải.
 
 :::exercise
 Tính $68-35$.

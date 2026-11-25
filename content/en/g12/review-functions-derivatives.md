@@ -11,9 +11,9 @@ minutes: 40
 - Read tables of variations and graphs; count the roots of $f(x)=k$; identify a function from its graph.
 :::
 
-This topic usually appears in all three parts of the paper: a few short questions in Part I (reading a table of variations, finding asymptotes), usually a true/false question about one function in Part II, and one or two maximum/minimum questions in Part III, altogether usually worth about $1.5$ to $2.5$ marks.
+Functions and derivatives show up in all three parts of the paper, so revising them well pays off across the whole exam. Part I has a few short questions (reading a table of variations, finding asymptotes). Part II usually has a true/false question about one function. Part III has one or two maximum/minimum questions. Altogether this topic is usually worth about $1.5$ to $2.5$ marks. So what do you need to have ready to answer any of them?
 
-For the details, look back at the lessons on [turning points](lesson:monotonicity-extrema), [maximum and minimum values](lesson:max-min-values), [asymptotes](lesson:asymptotes) and [curve sketching](lesson:graphing-functions).
+This lesson does not teach everything again from the start. It gathers what appears most often in one place. If a topic still feels shaky, look back at the lessons on [turning points](lesson:monotonicity-extrema), [maximum and minimum values](lesson:max-min-values), [asymptotes](lesson:asymptotes) and [curve sketching](lesson:graphing-functions).
 
 ## Monotonicity and turning points
 
@@ -23,7 +23,7 @@ For the details, look back at the lessons on [turning points](lesson:monotonicit
 - A repeated root of even multiplicity of $f'$ (such as $(x-2)^2$) makes $f'=0$ but with **no change of sign**, so it is not a turning point.
 :::
 
-Typical questions: given $f'(x)$ as a product, find where $f$ increases or decreases, or how many turning points it has; given a cubic or quartic, find the local maximum or minimum value.
+In this part the question usually gives you $f'(x)$ as a product, and asks where $f$ increases or decreases, or how many turning points it has. Sometimes it gives a cubic or quartic and asks for the local maximum or minimum value. For the first kind, everything comes down to one job: finding the sign of the derivative. Why? Where the derivative is positive the graph climbs, where it is negative the graph falls, so a change of sign is where the graph turns.
 
 :::example Multiple choice: reading the sign of the derivative
 The function $y=f(x)$ has derivative $f'(x)=(x+1)(x-2)^2$ for all $x\in\mathbb{R}$. On which interval is the function decreasing?
@@ -39,7 +39,7 @@ $$f'(x)<0\iff x<-1,\qquad f'(x)\ge0\ \text{for}\ x\ge-1.$$
 So the function is decreasing on $(-\infty, -1)$: the answer is **A**. The function has only one turning point, $x=-1$; at $x=2$ the derivative does not change sign.
 :::
 
-In a true/false question, we compute the derivative and the turning values once for all four statements.
+A true/false question has four statements, but they are usually all about one function. So we compute the derivative and the turning values once, and use them for all four statements.
 
 :::example True/false: a cubic
 Let $f(x)=-x^3+3x^2+9x-2$.
@@ -72,7 +72,7 @@ Key: T F T T.
 2. Compute $f$ at those points and at $a$, $b$.
 3. The largest value is $\max\limits_{[a, b]}f$, the smallest is $\min\limits_{[a, b]}f$.
 
-On an **open interval**, draw the table of variations.
+On an **open interval** there are no endpoints to compare, so we draw the table of variations to see how the function behaves.
 :::
 
 :::example Short answer: the sum of the maximum and minimum
@@ -98,7 +98,7 @@ So $M=10$, $m=-22$ and $M+m=-12$. On the answer sheet: $-12$.
 - For $y=\dfrac{ax+b}{cx+d}$ ($c\ne0$, $ad-bc\ne0$): vertical asymptote $x=-\dfrac dc$, horizontal asymptote $y=\dfrac ac$.
 :::
 
-A common trap: the denominator is $0$ at $x_0$ but so is the numerator; after cancelling, $x_0$ may no longer be a vertical asymptote.
+Many students slip here: the denominator is $0$ at $x_0$, so it looks like a vertical asymptote. If the numerator is also zero there, we must cancel first. After cancelling, $x_0$ may no longer be a vertical asymptote.
 
 :::example Multiple choice: counting asymptotes
 How many vertical and horizontal asymptotes does the graph of $y=\dfrac{x^2-1}{x^2-3x+2}$ have altogether?
@@ -118,7 +118,7 @@ So there are $2$ asymptotes: the answer is **A**. Option B wrongly counts $x=1$.
 
 ## Tables of variations and graph reading
 
-From a table of variations or a graph we can read where the function increases or decreases, its turning points, its maximum and minimum, and the **number of roots** of $f(x)=k$: the number of points where the graph meets the horizontal line $y=k$.
+A table of variations or a graph tells us a lot: where the function increases or decreases, its turning points, its maximum and minimum. The **number of roots** of $f(x)=k$ needs one more thought. A root is where the graph meets the horizontal line $y=k$, so the number of roots is the number of those meeting points. Picture sliding a horizontal ruler up and down and counting where it crosses the graph.
 
 :::example True/false: reading a table of variations
 The function $y=f(x)$ is continuous on $\mathbb{R}$ and has this table of variations:
@@ -144,7 +144,7 @@ d) **False**: the line $y=3$ only touches the graph at the local maximum $x=-1$ 
 Key: T F T F.
 :::
 
-To identify a cubic $y=ax^3+bx^2+cx+d$ from its graph, check in turn: if the right-hand branch rises, $a>0$; the graph meets the $y$-axis at $(0, d)$; the $x$-coordinates of the turning points are the roots of $y'$.
+To tell which cubic $y=ax^3+bx^2+cx+d$ a graph belongs to, ask the graph three questions in turn. Does the right-hand branch rise? If it does, $a>0$. Where does it meet the $y$-axis? At $(0, d)$, so we can read off the constant term. And at which $x$-coordinates are the turning points? Those are the roots of $y'$.
 
 :::graph The graph of a cubic
 alt: A cubic graph rising to a local maximum at (1, 3), falling to a local minimum at (3, -1) and then rising, crossing the y-axis at (0, -1)
@@ -169,10 +169,10 @@ Check A: $y'=3(x-1)(x-3)$, $y(1)=3$, $y(3)=-1$, matching the figure. The answer 
 :::
 
 :::warning Common mistakes
-- **Treating every root of $f'$ as a turning point.** Wrong: "$f'=(x+1)(x-2)^2$, so there are $2$ turning points". Right: at $x=2$, $f'$ does not change sign; there is only $1$ turning point.
-- **Confusing the turning point with the turning value.** The local maximum point is $x_0$, the local maximum value is $f(x_0)$, and the point on the graph is $(x_0, f(x_0))$. Read carefully which one is asked.
-- **Forgetting the endpoints.** The maximum on a closed interval may be at an endpoint, not necessarily at a local maximum.
-- **Not cancelling before looking for vertical asymptotes.** A common root of the numerator and denominator may not give an asymptote.
+- **Treating every root of $f'$ as a turning point.** Many students slip here. Wrong: "$f'=(x+1)(x-2)^2$, so there are $2$ turning points". Right: at $x=2$, $f'$ does not change sign, so there is only $1$ turning point.
+- **Confusing the turning point with the turning value.** The local maximum point is $x_0$, the local maximum value is $f(x_0)$, and the point on the graph is $(x_0, f(x_0))$. These are three different things, so read carefully which one is asked.
+- **Forgetting the endpoints.** The maximum on a closed interval may be at an endpoint rather than at a local maximum, so we always compute both ends.
+- **Not cancelling before looking for vertical asymptotes.** A common root of the numerator and denominator may give no asymptote at all, because after cancelling it disappears from the denominator.
 :::
 
 ## Key terms
@@ -191,7 +191,7 @@ Check A: $y'=3(x-1)(x-3)$, $y(1)=3$, $y(3)=-1$, matching the figure. The answer 
 
 ## Exercises
 
-Each exercise comes with what you need and some steps to start. Try it yourself first, then open the solution.
+Each exercise comes with the facts you need and a few steps to get started. Try it yourself first, then open the solution. A mistake you find and fix on your own is usually remembered longer than a solution you read straight away.
 
 :::exercise Multiple choice
 How many turning points does $y=x^4-2x^2+1$ have?

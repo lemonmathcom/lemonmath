@@ -11,9 +11,9 @@ minutes: 25
 - Round and write a short answer in the 4 boxes correctly.
 :::
 
-Two students each get $8$ true/false statements right in Part II. Hà gets all $4$ statements right in two questions and none in the other two. Nam gets $2$ statements right in each of the four questions. Who scores more?
+Two students, Hà and Nam, each get $8$ true/false statements right in Part II. Hà gets all $4$ statements right in two questions and none in the other two. Nam gets $2$ statements right in each of the four questions. With the same $8$ right, who scores more?
 
-The answer lies in how Part II is marked, and it directly affects how you should work. This lesson describes the format of the specimen papers published by the Ministry of Education and Training from 2025, and the habits that stop you losing marks needlessly. The Ministry may adjust the format or the marking from year to year, so check its official announcement for your exam year.
+The answer lies in how Part II is marked, and it directly affects how you should work. This lesson describes the format of the specimen papers published by the Ministry of Education and Training from 2025, and a few habits that stop you losing marks needlessly. The Ministry may adjust the format or the marking from year to year, so follow the official announcement for your exam year.
 
 ## Format and marking
 
@@ -33,7 +33,7 @@ In one Part II question, the number of statements you judge correctly decides th
 | Mark | $0$ | $0.1$ | $0.25$ | $0.5$ | $1$ |
 :::
 
-The mark rises steeply at the last statement: going from $3$ to $4$ correct doubles the mark. So every statement is worth checking carefully.
+Look at the end of the table: going from $3$ to $4$ correct statements doubles the mark for the question. That last statement is worth a lot, so every statement deserves a careful check.
 
 :::example Marking a paper
 An gets $10$ questions right in Part I. In Part II, An gets $4$, $3$, $2$, $3$ statements right. In Part III, An gets $4$ questions right. Find An's mark.
@@ -49,16 +49,17 @@ $$\begin{aligned}
 So An scores $2.5+2.25+2=6.75$.
 :::
 
-Back to the opening question: Hà scores $1+1=2$, while Nam scores $4\cdot0.25=1$. The same $8$ correct statements, but Hà scores twice as much.
+Back to the opening question. Hà scores $1+1=2$, while Nam scores $4\cdot0.25=1$. The same $8$ correct statements, but Hà scores twice as much, because the marks reward a question done completely. That is why it pays to make each question solid.
 
 ## Part I: multiple choice
 
-Each question has exactly one correct option and wrong answers lose nothing. So **never leave a question blank**. Part I questions are usually short and test one formula or one step.
+Each question has exactly one correct option, and a wrong answer loses nothing. So **never leave a question blank**. Part I questions are usually short and test one formula or one step.
 
 Three quick methods:
-- **Solve directly**, then match with the options.
-- **Work backwards**: put each option into the condition of the question (for example, differentiate an option to check an antiderivative).
-- **Eliminate**: wrong options usually come from a familiar mistake (wrong sign, missing coefficient, wrong formula). Spotting the mistake lets you rule them out quickly.
+- **Solve directly**, then match your result with the options.
+- **Work backwards**: put each option into the condition of the question. For example, differentiate an option to check an antiderivative.
+- **Eliminate**: wrong options usually come from a familiar mistake (wrong sign, missing coefficient, wrong formula). Once you spot the mistake, you can rule the option out quickly.
+You do not need all three methods for every question; pick the one that suits the question in front of you.
 
 :::example Working backwards with the derivative
 The family of antiderivatives of $f(x)=2x+e^x$ is
@@ -76,12 +77,12 @@ So the answer is **A**. Option B is the derivative of $2x$, not an antiderivativ
 
 ## Part II: true or false
 
-Each question gives a common setting (a function, a figure, a data table) followed by four statements. Later statements are usually harder.
+Each question gives a common setting (a function, a figure, a data table) followed by four statements. Later statements are usually harder. So read the common part carefully before you judge any statement.
 
 :::tip Judge each statement on its own
-- Read the common stem carefully and work out first what is used several times (derivative, roots, values at key points).
-- Each statement is a separate claim; one being false says nothing about another. There is no rule that "at least one must be false".
-- Watch the small words that decide the answer: "distinct", "on the interval", "only", "greatest", units.
+- Read the common stem carefully, and work out first whatever you will use several times (derivative, roots, values at key points).
+- Each statement is a separate claim: one being false says nothing about another. There is no rule that "at least one must be false".
+- Watch the small words that decide the answer: "distinct", "on the interval", "only", "greatest", units. Many students lose marks here by reading too fast.
 :::
 
 :::example A true/false question on a function
@@ -106,7 +107,7 @@ Key: T F T F.
 
 ## Part III: short answers and the 4 boxes
 
-Each answer is **one number**, written on the sheet in $4$ boxes. The minus sign and the decimal comma **each take a box** (the Vietnamese sheet uses a comma, not a point, as the decimal separator).
+Each Part III answer is **one number**, and the answer sheet gives you $4$ boxes to write it in. Many students slip here: the minus sign and the decimal comma **each take a box**, just like a digit. (The Vietnamese sheet uses a comma, not a point, as the decimal separator.)
 
 :::diagram Writing the answer $-0.5$ in 4 boxes
 alt: Four adjacent square boxes containing a minus sign, the digit 0, a decimal comma and the digit 5
@@ -131,13 +132,13 @@ label 3.5,0.5 "5"
 :::
 
 :::note Rules for writing an answer
-- Round **exactly as the question says** (to the nearest whole number, 1 decimal place, 2 decimal places). Round only at the last step; keep more digits in between.
+- Round **exactly as the question says** (to the nearest whole number, 1 decimal place, 2 decimal places). Round only at the last step; keep more digits in between so that small errors do not pile up.
 - Fill the boxes from the left, one character per box; leave unused boxes empty.
 - Do not write a final $0$ after the decimal comma: a result that rounds to $1.10$ is written 1,1, and $2.50$ is written 2,5.
-- The intended answer always fits in $4$ boxes. If your result needs $5$ characters or more, you have almost certainly made a calculation or rounding error.
+- The intended answer always fits in $4$ boxes. If your result needs $5$ characters or more, you have almost certainly made a calculation or rounding error, so check it again.
 :::
 
-For example, $\dfrac{7}{4}=1.75$ is written 1,75 (all $4$ boxes); $-\dfrac{2}{3}$ to 1 decimal place is $-0.7$ (all $4$ boxes).
+Two examples. $\dfrac{7}{4}=1.75$ is written 1,75, which fills all $4$ boxes. $-\dfrac{2}{3}$ to 1 decimal place is $-0.7$, which also fills all $4$ boxes.
 
 :::example A short-answer question with rounding
 Find $\displaystyle\int_1^3\frac{1}{x}\,dx$. Give your answer to 2 decimal places.
@@ -151,7 +152,7 @@ To 2 decimal places this is $1.10$. A final $0$ after the decimal comma is not w
 
 ## Time plan and checking
 
-$90$ minutes for $22$ questions is tight. A suggested plan:
+$90$ minutes for $22$ questions is tight, so a plan made beforehand saves you from panic. Here is a suggestion:
 
 | Task | Suggested time |
 |---|---|
@@ -160,9 +161,9 @@ $90$ minutes for $22$ questions is tight. A suggested plan:
 | Part III ($6$ questions) | about $25$–$30$ minutes |
 | Checking, filling in the sheet | about $5$–$10$ minutes |
 
-Work in order of **difficulty**, not necessarily in question order: on a first pass do every question you are sure of, mark the hard ones, then come back. Do not spend more than $5$ minutes on one Part I question.
+You do not have to work in question order. Work in order of **difficulty**: on a first pass do every question you are sure of, mark the hard ones, then come back. Why? Because one hard question can eat the time of several easy ones. Do not spend more than $5$ minutes on one Part I question.
 
-Use your scientific calculator to **check**: evaluate a function at given points, compute definite integrals, solve quadratic and cubic equations. The calculator catches slips, but you still need reasoning to know what to compute.
+Your scientific calculator is a tool to **check** with: evaluate a function at given points, compute definite integrals, solve quadratic and cubic equations. It helps you catch slips, but knowing what to compute still needs your own reasoning.
 
 :::warning Common mistakes
 - **Leaving a multiple-choice question blank.** Wrong answers lose nothing, so always choose an option.
@@ -187,7 +188,7 @@ Use your scientific calculator to **check**: evaluate a function at given points
 
 ## Exercises
 
-Each exercise comes with what you need and some steps to start. Try it yourself first, then open the solution.
+Each exercise comes with what you need and some steps to start. Try it yourself first, then open the solution. When you finish, try marking your own work using the table at the start of the lesson.
 
 :::exercise Multiple choice
 In one true/false question you judge $3$ statements correctly. What mark do you get for that question?

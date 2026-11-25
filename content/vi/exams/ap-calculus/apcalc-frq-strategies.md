@@ -12,24 +12,25 @@ type: guide
 - Tránh các lỗi trình bày làm mất điểm dù phần toán đã đúng.
 :::
 
-Phần tự luận chiếm một nửa điểm AP Calculus: sáu câu, mỗi câu chín điểm. Khác với phần trắc nghiệm, mỗi điểm ở đây gắn với một điều bạn viết ra. Rất nhiều học sinh hiểu giải tích nhưng mất điểm vì cách trình bày, và cách khắc phục rất cụ thể: biết người chấm tìm gì, rồi luyện viết đúng điều đó. Mọi điều trong bài này đều lấy từ hướng dẫn làm bài và hướng dẫn chấm công bố trên AP Central; bạn nên tự đọc hướng dẫn chấm của ít nhất vài câu gần đây.
+Bạn đã bao giờ làm đúng toán mà vẫn bị trừ điểm chưa? Ở phần tự luận AP Calculus, chuyện đó xảy ra thường xuyên. Phần này chiếm một nửa điểm: sáu câu, mỗi câu chín điểm. Khác với trắc nghiệm, mỗi điểm ở đây gắn với một điều bạn viết ra giấy. Nhiều bạn hiểu giải tích nhưng mất điểm vì cách trình bày, và cách khắc phục khá cụ thể: biết người chấm tìm gì, rồi tập viết đúng điều đó. Mọi điều trong bài đều lấy từ hướng dẫn làm bài và hướng dẫn chấm công bố trên AP Central. Bạn nên tự đọc hướng dẫn chấm của vài câu gần đây để thấy tận mắt.
 
 ## Phần tự luận diễn ra thế nào
 
-- **Part A:** 2 câu trong 30 phút, bắt buộc dùng máy tính vẽ đồ thị. Để máy tính ở **chế độ radian**.
+- **Part A:** 2 câu trong 30 phút, bắt buộc có máy tính vẽ đồ thị. Nhớ để máy ở **chế độ radian**.
 - **Part B:** 4 câu trong 60 phút, không dùng máy tính.
-- Mỗi câu $9$ điểm, và các ý được chấm độc lập: sai ý (a) không làm bạn mất điểm ở ý (b). Nếu không làm được ý (a), hãy giả sử một giá trị hợp lí và làm tiếp.
-- Đáp số **không cần rút gọn**: $\dfrac{3}{2}\left(2^4-1\right)$ cũng tốt như $22{,}5$.
-- **Đáp số thập phân** phải chính xác đến **ba chữ số sau dấu phẩy**, làm tròn hoặc cắt bớt đều được. Trong một câu, lỗi làm tròn chỉ bị trừ tối đa một điểm, vì vậy hãy giữ nguyên độ chính xác ở các bước trung gian và chỉ làm tròn ở kết quả cuối.
-- Bài làm phải viết bằng **kí hiệu toán học chuẩn**, không dùng cú pháp máy tính. $\displaystyle\int_1^5x^2\,dx$ được chấp nhận; "fnInt(X², X, 1, 5)" thì không.
+- Mỗi câu $9$ điểm, và các ý được chấm độc lập: sai ý (a) không kéo theo mất điểm ý (b). Nếu kẹt ở ý (a), cứ giả sử một giá trị hợp lí rồi làm tiếp.
+- Đáp số **không cần rút gọn**: $\dfrac{3}{2}\left(2^4-1\right)$ cũng tốt như $22{,}5$, nên bạn đỡ mất công biến đổi thêm.
+- **Đáp số thập phân** phải chính xác đến **ba chữ số sau dấu phẩy**; làm tròn hay cắt bớt đều được. Trong một câu, lỗi làm tròn chỉ bị trừ tối đa một điểm. Vì vậy hãy giữ nguyên độ chính xác ở các bước giữa và chỉ làm tròn ở kết quả cuối.
+- Bài làm phải viết bằng **kí hiệu toán học chuẩn**, không dùng cú pháp máy tính. $\displaystyle\int_1^5x^2\,dx$ được chấp nhận, còn "fnInt(X², X, 1, 5)" thì không.
+Đọc kĩ mấy dòng này một lần, vì khá nhiều điểm bị mất oan ở đây.
 
 :::tip Những việc máy tính được làm mà không cần ghi các bước
-Ở Part A, bạn được dùng máy tính để vẽ đồ thị, giải phương trình, tính đạo hàm tại một điểm và tính tích phân xác định, chỉ cần ghi thiết lập và kết quả. Với mọi việc khác, hãy trình bày phần toán dẫn tới đáp số.
+Ở Part A, máy tính làm thay bạn được những việc sau: vẽ đồ thị, giải phương trình, tính đạo hàm tại một điểm và tính tích phân xác định. Với những việc này, bạn chỉ cần ghi phần thiết lập và kết quả. Còn mọi việc khác, người chấm muốn thấy phần toán dẫn tới đáp số, nên bạn hãy viết ra.
 :::
 
 ## Các dạng câu lặp lại
 
-Cơ cấu cụ thể thay đổi mỗi năm, nhưng các dạng sau trở lại liên tục. Biết trước chúng nghĩa là trong phòng thi bạn nhận ra câu hỏi, thay vì lần đầu gặp nó.
+Đề mỗi năm một khác, nhưng nhìn kĩ thì chỉ quanh quẩn vài dạng quen. Bảng dưới đây gom các dạng hay quay lại nhất. Biết trước chúng, bạn bước vào phòng thi sẽ thấy câu hỏi như gặp lại người quen, chứ không phải lần đầu gặp.
 
 | Dạng | Thường cho gì | Thường hỏi gì |
 |---|---|---|
@@ -43,7 +44,7 @@ Cơ cấu cụ thể thay đổi mỗi năm, nhưng các dạng sau trở lại 
 
 ## Mẫu câu giải thích được điểm
 
-Người chấm chỉ cho điểm giải thích khi lí do nói về đúng hàm số, đúng về mặt toán học, và thật sự dẫn tới kết luận. Hãy gọi tên hàm số: hướng dẫn chấm thường không chấp nhận những cụm mơ hồ như "hàm số" hay "đồ thị" khi không rõ đó là hàm nào.
+Giải thích thế nào thì được điểm? Người chấm chỉ cho điểm khi lí do nói về đúng hàm số, đúng về mặt toán học, và thật sự dẫn tới kết luận. Chỗ này nhiều bạn hay nhầm: viết "hàm số" hay "đồ thị" mà không nói rõ là hàm nào, nên hướng dẫn chấm thường không chấp nhận. Vì vậy hãy gọi tên hàm số ra. Bảng dưới đây ghi sẵn mẫu câu cho từng kết luận hay gặp.
 
 | Để kết luận | Hãy viết |
 |---|---|
@@ -57,11 +58,11 @@ Người chấm chỉ cho điểm giải thích khi lí do nói về đúng hàm
 | Tồn tại một giá trị đạo hàm (MVT) | "$f$ khả vi, do đó liên tục, trên $[a,b]$, và $\dfrac{f(b)-f(a)}{b-a}=m$, nên ..." |
 | Lớn hơn hay nhỏ hơn giá trị thật | Gắn với tính đơn điệu (tổng trái và phải) hoặc tính lồi lõm (tiếp tuyến, hình thang). |
 
-Hai thói quen có ích. Thứ nhất, nêu **giả thiết** của định lí trước khi dùng: liên tục cho định lí giá trị trung gian, khả vi cho định lí giá trị trung bình. Thứ hai, giải thích kết quả **trong ngữ cảnh, kèm đơn vị**: "Tại thời điểm $t=3$ giờ, lượng nước trong bể đang giảm với tốc độ $2{,}5$ lít mỗi giờ."
+Có hai thói quen nhỏ mà hiệu quả. Thứ nhất, nêu **giả thiết** của định lí trước khi dùng: liên tục cho định lí giá trị trung gian, khả vi cho định lí giá trị trung bình. Vì sao? Vì định lí chỉ đúng khi giả thiết đúng, và người chấm muốn thấy bạn biết điều đó. Thứ hai, giải thích kết quả **trong ngữ cảnh, kèm đơn vị**, chẳng hạn: "Tại thời điểm $t=3$ giờ, lượng nước trong bể đang giảm với tốc độ $2{,}5$ lít mỗi giờ."
 
 ## Một ví dụ có chấm điểm minh hoạ
 
-Câu dưới đây do chúng tôi tự soạn, theo phong cách một câu chuyển động của hạt không dùng máy tính. Cách chia $9$ điểm mô phỏng cách các hướng dẫn chấm đã công bố chia điểm.
+Để thấy điểm được chia ra sao, ta thử làm một câu hoàn chỉnh. Câu dưới đây do chúng tôi tự soạn, theo phong cách một câu chuyển động của hạt không dùng máy tính. Cách chia $9$ điểm mô phỏng cách các hướng dẫn chấm đã công bố chia điểm. Bạn thử tự làm trước, rồi đối chiếu từng điểm với lời giải.
 
 :::example Một câu chuyển động, có chấm điểm
 Một hạt chuyển động trên trục $x$ với vận tốc $v(t)=t^2-6t+8$, $0\le t\le5$. Lúc $t=0$ hạt ở $x=2$.
@@ -82,24 +83,26 @@ Một hạt chuyển động trên trục $x$ với vận tốc $v(t)=t^2-6t+8$,
 (d) Tách tại chỗ $v$ đổi dấu: $\displaystyle\int_0^2v\,dt=\frac{20}{3}$, $\displaystyle\int_2^4v\,dt=-\frac43$ và $\displaystyle\int_4^5v\,dt=\frac43$. Tổng quãng đường là $\dfrac{20}{3}+\dfrac43+\dfrac43=\dfrac{28}{3}$. **3 điểm:** một cho việc dùng $|v|$ hoặc tách tại chỗ đổi dấu, một cho nguyên hàm, một cho đáp số.
 :::
 
-Hãy để ý những chỗ có thể mất điểm dù toán đúng: ghi khoảng mà không có lí do ở (a), viết "chậm dần" mà không nhắc tới $v$ và $a$ ở (b), tính vị trí mà quên giá trị ban đầu $2$ ở (c), và lấy độ dời $\dfrac{20}{3}$ thay cho quãng đường ở (d).
+Bây giờ nhìn lại câu vừa làm để xem điểm có thể rơi mất ở đâu dù toán vẫn đúng. Ở (a), ghi khoảng mà không nêu lí do. Ở (b), viết "chậm dần" mà không nhắc tới $v$ và $a$. Ở (c), tính vị trí mà quên giá trị ban đầu $2$. Ở (d), lấy độ dời $\dfrac{20}{3}$ thay cho quãng đường. Những chỗ này nhiều bạn hay nhầm, nên đáng nhớ kĩ.
 
 ## Thói quen trình bày giữ điểm
 
 :::warning Những lỗi mất điểm dù toán đúng
-- **Chỉ ghi đáp số.** Ở câu không dùng máy tính, một con số không có lời giải đi kèm thường được rất ít điểm.
-- **Lỗi nối kết.** Viết $\displaystyle\int_0^3v(t)\,dt=x(3)$ trong khi ý bạn là $x(3)-x(0)$: một dấu bằng nối hai thứ không bằng nhau có thể làm mất điểm.
-- **Làm tròn quá sớm.** Giữ nguyên giá trị đầy đủ trong máy; chỉ làm tròn đáp số cuối.
-- **Để máy ở chế độ độ** trong phần được dùng máy tính.
-- **Trả lời sai câu hỏi.** "Khi nào $f$ đồng biến?" cần các khoảng của $x$; "giá trị lớn nhất bằng bao nhiêu?" cần một giá trị của $f$, không phải của $x$.
+- **Chỉ ghi đáp số.** Ở câu không dùng máy tính, một con số trơ trọi, không có lời giải đi kèm, thường chỉ được rất ít điểm.
+- **Lỗi nối kết.** Bạn viết $\displaystyle\int_0^3v(t)\,dt=x(3)$ trong khi ý bạn là $x(3)-x(0)$. Dấu bằng nối hai thứ không bằng nhau có thể làm mất điểm.
+- **Làm tròn quá sớm.** Hãy giữ nguyên giá trị đầy đủ trong máy và chỉ làm tròn đáp số cuối.
+- **Để máy ở chế độ độ** trong phần được dùng máy tính. Lỗi nhỏ này làm kết quả lệch hẳn.
+- **Trả lời sai câu hỏi.** "Khi nào $f$ đồng biến?" cần các khoảng của $x$. "Giá trị lớn nhất bằng bao nhiêu?" cần một giá trị của $f$, không phải của $x$.
 - **Thiếu đơn vị** khi đề yêu cầu.
+Những lỗi này đều sửa được bằng thói quen, không cần học thêm toán. Trước khi nộp bài, hãy đọc lại bài làm của mình với đúng danh sách này.
 :::
 
 :::tip Luyện tập trong sáu tuần cuối
 1. Mỗi tuần, làm hai câu tự luận đã công bố, có bấm giờ: $15$ phút mỗi câu.
-2. Tự chấm bằng hướng dẫn chấm chính thức, từng điểm một, chặt như người chấm thật.
+2. Tự chấm bằng hướng dẫn chấm chính thức, từng điểm một, chặt tay như người chấm thật.
 3. Chép mỗi lời giải thích bạn bị thiếu vào sổ lỗi sai, đúng nguyên văn dạng mà hướng dẫn chấm dùng.
 4. Mỗi tuần đọc phần nhận xét chấm (scoring commentary) của một câu: nó cho thấy bài làm thật của học sinh và vì sao từng điểm được hay không được.
+Đừng lo nếu những lần tự chấm đầu tiên còn thấp. Chép lỗi vào sổ rồi tập lại, điểm sẽ lên dần.
 :::
 
-Các câu tự luận đã công bố của nhiều năm, kèm hướng dẫn chấm và bài làm mẫu, đều miễn phí trên AP Central, ở trang kì thi AP Calculus AB và AP Calculus BC. Đó là tài liệu luyện tập tốt nhất hiện có, vì nó cho thấy không chỉ câu hỏi mà cả cách bài làm thật được chấm.
+Muốn có tài liệu luyện tập, bạn không phải tìm đâu xa. Các câu tự luận đã công bố của nhiều năm, kèm hướng dẫn chấm và bài làm mẫu, đều miễn phí trên AP Central, ở trang kì thi AP Calculus AB và AP Calculus BC. Đó là tài liệu luyện tập tốt nhất hiện có, vì nó cho thấy không chỉ câu hỏi mà cả cách bài làm thật được chấm. Quay lại câu hỏi ban đầu: làm đúng toán mà vẫn mất điểm là chuyện có thật, nhưng cũng là chuyện luyện được. Hãy nhớ một điều: mỗi điểm gắn với một điều bạn viết ra. Chọn một câu, bấm giờ và bắt đầu từ tuần này.

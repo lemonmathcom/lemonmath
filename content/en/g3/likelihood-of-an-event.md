@@ -10,25 +10,26 @@ minutes: 15
 - Record the results of a trial in a data table.
 :::
 
-Mai has a closed box with only $5$ red marbles inside. Mai shuts her eyes and takes out one marble. Can Mai get a blue marble? Is Mai certain to get a red marble?
+Mai has a closed box, and inside there are only $5$ red marbles. Mai shuts her eyes and takes out one marble. Can she get a blue marble? Is she certain to get a red one?
 
-This lesson helps you answer questions like these, just by looking at what is in the box.
+You can answer questions like these just by looking at what is in the box. That is the idea we will practise here.
 
 ## Let's explore
 
-There are three boxes. Each time, we shut our eyes and take out one marble.
+Here are three boxes. Each time, we shut our eyes and take out one marble.
 
 ![Boxes A, B, and C contain five red; three red and two blue; and five blue marbles](/assets/img/g3/g3-likelihood-of-an-event-01.svg)
 
 - **Box A:** $5$ red marbles.
 - **Box B:** $3$ red marbles and $2$ blue marbles.
 - **Box C:** $5$ blue marbles.
+Before we pick, try guessing which colours could come out of each box.
 
-**Box A.** There are only red marbles. However we pick, we get a red marble. We say: getting a red marble is **certain**. Getting a blue marble is **impossible**.
+**Box A.** There are only red marbles in this box. However we pick, we get a red marble. So we say: getting a red marble is **certain**, and getting a blue marble is **impossible**.
 
-**Box B.** There are red and blue marbles. This time we might get red, another time we might get blue. We say: getting a red marble is **possible**, and getting a blue marble is also **possible**.
+**Box B.** This box has red and blue marbles. This time we might get red, and next time we might get blue. So we say: getting a red marble is **possible**, and getting a blue marble is also **possible**.
 
-**Box C.** There are only blue marbles. Getting a blue marble is **certain**, and getting a red marble is **impossible**.
+**Box C.** There are only blue marbles here. Getting a blue marble is **certain**, and getting a red marble is **impossible**. Three boxes give us three levels of likelihood. Let us name them:
 
 :::theorem Three levels of likelihood
 - **Certain:** the event always happens.
@@ -38,11 +39,11 @@ There are three boxes. Each time, we shut our eyes and take out one marble.
 To decide which level it is, look at what is in the box.
 :::
 
-This works because you know everything in the box. If the thing you want is not there, it is impossible. If everything in the box is that thing, it is certain.
+Why is looking in the box enough? Because you know everything inside it. If the thing you want is not there, it is impossible. If everything in the box is that thing, it is certain. Anything in between is possible.
 
 ## Examples
 
-We start with a box that holds only one kind of ball.
+First, a box that holds only one kind of ball.
 
 :::example A box of yellow balls
 A box has $6$ yellow balls. Shut your eyes and take out one. Say how likely each event is:
@@ -56,7 +57,7 @@ a) Every ball you take out is yellow, so this event is **certain**.
 b) There is no green ball in the box, so this event is **impossible**.
 :::
 
-Now the box has two kinds of sweets.
+This time the bag holds two kinds of sweets. Let us see what changes.
 
 :::example A bag of sweets
 A bag has $4$ orange sweets and $2$ strawberry sweets. Shut your eyes and take out one. Say how likely each event is:
@@ -73,7 +74,7 @@ b) You might take a strawberry sweet, so this event is also **possible**.
 c) There are no lemon sweets, so this event is **impossible**.
 :::
 
-We can also ask about numbers on cards.
+The same thinking works for numbers on cards.
 
 :::example Number cards
 A box has $3$ cards with the numbers $1$, $2$, $3$. Shut your eyes and take out one card. Say how likely each event is:
@@ -90,7 +91,7 @@ b) All three numbers $1$, $2$, $3$ are less than $4$, so it is **certain**.
 c) The card with $2$ is in the box, but so are other cards, so it is **possible**.
 :::
 
-You meet these questions in everyday life too.
+You meet questions like these outside school too.
 
 :::example Everyday events
 Say whether each event is certain, possible or impossible:
@@ -107,7 +108,7 @@ b) Nobody can walk that fast, so it is **impossible**.
 c) Some days it rains and some days it does not, so it is **possible**.
 :::
 
-Finally, we try it for real and record the results in a data table, as in the last lesson.
+Finally, let us try it for real and record the results in a data table, as in the last lesson.
 
 :::example A trial with marbles
 Box B has $3$ red and $2$ blue marbles. Nam takes out one marble, writes down its colour, puts it back, and does this $10$ times. The results are: red, blue, red, red, blue, red, blue, red, red, blue. Make a data table.
@@ -126,6 +127,7 @@ Check: $6+4=10$ times. Both colours appeared, which fits "possible to get red, p
 - **Mixing up "possible" and "certain".** Wrong: a box has $1$ red and $9$ blue marbles, and you say "you are certain to get blue". Why it is wrong: the red marble is still in the box, so you might get red. Right: getting blue is possible.
 - **Mixing up "very few" and "impossible".** Wrong: a box has $1$ red marble, and you say "you cannot get red". Why it is wrong: the red marble is in the box. Right: getting red is possible.
 - **Not looking in the box.** Wrong: answering without checking what is inside. Right: always check what is in the box before you answer.
+Don't worry if these get mixed up at first. Look in the box before you answer.
 :::
 
 ## Key terms
@@ -147,10 +149,11 @@ Check: $6+4=10$ times. Both colours appeared, which fits "possible to get red, p
 - Look at what is in the box: if the thing you want is not there, it is impossible; if everything is that thing, it is certain.
 - If the box holds several kinds, each kind is possible to take out, even if there are only a few of that kind.
 - Record the results of a trial with tally marks and a data table.
+Back to Mai's box at the start: it holds only red marbles, so a blue marble is impossible and a red marble is certain. Looking in the box was all it took. A few practice questions will make it feel natural.
 
 ## Practice
 
-Each exercise comes with what you need and how to start. Try it yourself first, then open the solution.
+Every exercise gives you the idea you need and a hint for getting started. Have a go on your own first. If you get stuck, read the hint, and only then open the solution to compare.
 
 :::exercise
 A box has $5$ blue marbles. Shut your eyes and take out one. Say how likely each event is:

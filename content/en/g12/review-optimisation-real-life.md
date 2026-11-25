@@ -11,17 +11,17 @@ minutes: 40
 - Give answers with the right units and the requested rounding.
 :::
 
-Real-life problems are a speciality of the new exam format. They usually appear in Part III (short answer, with a single number in some unit), sometimes as a whole true/false question in Part II, and are usually worth about $1$ to $2$ marks altogether. The calculus is usually not hard; the hard part is **setting up the function** and **finding the right domain** for the variable.
+The new exam format loves real-life problems. They usually appear in Part III (short answer, with a single number in some unit), and sometimes as a whole true/false question in Part II. Altogether they are usually worth about $1$ to $2$ marks. The calculus is usually not hard. The hard part is two things: **setting up the function** and **finding the right domain** for the variable. So how do we get past those two hard spots?
 
-The background is in the lessons on [maximum and minimum values](lesson:max-min-values) and [derivatives in real-life problems](lesson:derivative-real-problems).
+The way through is a clear method, and we write it down just below. The background is in the lessons on [maximum and minimum values](lesson:max-min-values) and [derivatives in real-life problems](lesson:derivative-real-problems), which you can look back at whenever you need.
 
 ## A method for optimisation problems
 
 :::note Four steps
-1. **Choose a variable** $x$ (a quantity that can vary), with its unit and its **constraints**.
-2. **Write the function** to be optimised in terms of $x$ (use the conditions to eliminate other variables).
-3. **Find the maximum or minimum** of the function on that domain: differentiate, compare with the endpoints or draw a table of variations.
-4. **Answer the actual question**: does it ask for $x$, for the maximum value, or for another quantity?
+1. **Choose a variable** $x$ (a quantity that can vary), with its unit and its **constraints**. These constraints decide the domain we will work on in a later step.
+2. **Write the function** to be optimised in terms of $x$ (use the conditions to eliminate other variables), so that only one variable is left at the end.
+3. **Find the maximum or minimum** of the function on that domain: differentiate, compare with the endpoints or draw a table of variations. Remember to compare with the endpoints too, because the best value may sit there.
+4. **Answer the actual question**: does it ask for $x$, for the maximum value, or for another quantity? Many students do the maths correctly but answer for the wrong quantity.
 :::
 
 :::example Short answer: an open box
@@ -46,7 +46,7 @@ The greatest volume is $2000$ cm³ (cutting squares of side $5$ cm).
 - If velocity and acceleration have the same sign, the object is speeding up; if opposite signs, it is slowing down.
 :::
 
-Two questions that are often confused: "when is $Q$ greatest" (solve $Q'=0$) and "when is $Q$ **increasing fastest**" (find the maximum of $Q'$, that is, look at $Q''$).
+Many students mix up two questions that sound alike. "When is $Q$ greatest" means the quantity is at its peak, so we solve $Q'=0$. But "when is $Q$ **increasing fastest**" asks about the speed of increase, and that speed is the derivative. So we need the maximum of $Q'$, that is, we look at $Q''$.
 
 :::example Multiple choice: increasing fastest
 The number of bacteria in a culture after $t$ hours is $N(t)=1000+30t^2-t^3$, $0\le t\le20$. At what time is the number of bacteria increasing fastest?
@@ -89,7 +89,7 @@ Key: T T F T.
 :::note Remember
 - Profit = revenue − cost: $P(x)=R(x)-C(x)$.
 - Average cost per item: $\overline{C}(x)=\dfrac{C(x)}{x}$.
-- The number of items $x$ is usually a whole number, but we treat $x$ as continuous on an interval and check the result.
+- The number of items $x$ is usually a whole number, but we treat $x$ as continuous on an interval and check the result, because a derivative only makes sense when the variable runs continuously.
 :::
 
 :::example Multiple choice: output for the greatest profit
@@ -110,7 +110,7 @@ So it should make $40$ items a day (a profit of $56$ million đồng): the answe
 
 ## Route and installation problems
 
-Here a point $M$ moves along a straight line; the distance or cost has a slanting part (use Pythagoras' theorem) and a straight part.
+In this kind of problem a point $M$ moves along a straight line, and we must decide where it should stop to spend as little as possible. The distance or cost has two parts: a slanting part, found with Pythagoras' theorem, and a straight part. The diagram below shows an example.
 
 :::diagram Laying a cable from the power station $A$ to the island $C$
 alt: A horizontal coastline with point B on the left and the power station A on the right, 8 km from B; the island C is above B, 3 km from the shore; the cable runs along the shore from A to M and then underwater from M to C
@@ -141,11 +141,11 @@ Comparing: $T(0)=390$, $T\left(\frac94\right)=172.5+187.5=360$, $T(8)=50\sqrt{73
 :::
 
 :::warning Common mistakes
-- **The wrong domain.** For the $30$ cm box, $x$ must be less than $15$; the root $x=15$ of $V'$ gives volume $0$.
-- **Answering for the wrong quantity.** The question asks "how far from $B$" and the answer given is the cost $360$, or the other way round.
-- **Confusing "greatest" with "increasing fastest".** Greatest: $Q'=0$. Increasing fastest: $Q'$ greatest.
-- **Forgetting the endpoints.** The optimum may be at an endpoint, especially when the domain is limited by the situation.
-- **Forgetting to convert units.** Minutes and hours, metres and kilometres, thousand đồng and million đồng.
+- **The wrong domain.** Many students slip here. For the $30$ cm box, $x$ must be less than $15$; the root $x=15$ of $V'$ gives volume $0$, so it cannot be the answer.
+- **Answering for the wrong quantity.** The question asks "how far from $B$" and the answer given is the cost $360$, or the other way round. Before writing the answer, read the question once more.
+- **Confusing "greatest" with "increasing fastest".** These are different ideas. Greatest: $Q'=0$. Increasing fastest: $Q'$ greatest.
+- **Forgetting the endpoints.** The optimum may be at an endpoint, especially when the domain is limited by the situation, so we always compute both ends.
+- **Forgetting to convert units.** The pairs that get mixed up are minutes and hours, metres and kilometres, thousand đồng and million đồng. Bring every quantity to the same unit before calculating.
 :::
 
 ## Key terms
@@ -163,7 +163,7 @@ Comparing: $T(0)=390$, $T\left(\frac94\right)=172.5+187.5=360$, $T(8)=50\sqrt{73
 
 ## Exercises
 
-Each exercise comes with what you need and some steps to start. Try it yourself first, then open the solution.
+Each exercise comes with the facts you need and a few steps to get started. Try it yourself first, then open the solution. A mistake you find and fix on your own is usually remembered longer than a solution you read straight away.
 
 :::exercise Multiple choice
 A rectangular garden has perimeter $40$ m. Its greatest possible area is

@@ -11,13 +11,13 @@ minutes: 15
 - Giải bài toán có lời văn về tiền, nhớ ghi đơn vị đồng.
 :::
 
-Nam có một tờ tiền $20\,000$ đồng. Nam mua một cuốn sổ giá $12\,000$ đồng và đưa cô bán hàng tờ tiền đó. Hỏi cô bán hàng phải trả lại Nam bao nhiêu tiền?
+Nam có một tờ tiền $20\,000$ đồng. Nam mua một cuốn sổ giá $12\,000$ đồng và đưa cô bán hàng tờ tiền đó. Tờ tiền lớn hơn giá cuốn sổ, vậy cô bán hàng phải trả lại Nam bao nhiêu tiền?
 
-Em đã học cộng và trừ các số trong phạm vi $100\,000$. Bài này dùng chính các phép tính đó để tính tiền.
+Đi mua đồ ở đâu cũng cần tính tiền. Em đã biết cộng và trừ các số trong phạm vi $100\,000$. Ta sẽ dùng chính hai phép tính ấy để đếm tiền, tính tiền hàng và biết người bán phải trả lại mình bao nhiêu.
 
 ## Cùng khám phá
 
-Ở Việt Nam, đơn vị tiền là **đồng**. Em thường gặp các tờ tiền ghi trong bảng sau. Cột bên phải cho biết mỗi tờ bằng bao nhiêu **nghìn** đồng.
+Ở Việt Nam, ta tính tiền bằng đơn vị **đồng**. Em thường thấy những tờ tiền trong bảng dưới đây. Cột bên phải cho biết mỗi tờ bằng bao nhiêu **nghìn** đồng. Có cột ấy, việc đếm tiền nhẹ đi nhiều, vì ta chỉ cần cộng những số nhỏ.
 
 | Tờ tiền (đồng) | Bằng bao nhiêu nghìn đồng |
 |---|---|
@@ -29,15 +29,15 @@ Em đã học cộng và trừ các số trong phạm vi $100\,000$. Bài này d
 | $50\,000$ | $50$ nghìn |
 | $100\,000$ | $100$ nghìn |
 
-Ta bắt đầu với một ví dụ nhỏ. Mẹ cho Nam hai tờ $5\,000$ đồng và một tờ $2\,000$ đồng. Nam có tất cả bao nhiêu tiền?
+Thử một ví dụ nhỏ. Mẹ cho Nam hai tờ $5\,000$ đồng và một tờ $2\,000$ đồng. Nam có tất cả bao nhiêu tiền?
 
-- Mỗi tờ $5\,000$ đồng là $5$ nghìn. Hai tờ là $5+5=10$ nghìn.
+- Đổi ra nghìn đồng: mỗi tờ $5\,000$ đồng là $5$ nghìn. Hai tờ là $5+5=10$ nghìn.
 - Tờ $2\,000$ đồng là $2$ nghìn.
 - Cộng lại: $10+2=12$ nghìn.
 
-Vậy Nam có $12$ nghìn đồng, tức là $12\,000$ đồng. Em thấy không, ta cộng các số nhỏ rồi mới thêm chữ "nghìn".
+Vậy Nam có $12$ nghìn đồng, tức là $12\,000$ đồng. Em để ý nhé: ta cộng các số nhỏ trước, rồi mới thêm chữ "nghìn" vào cuối. Làm vậy đỡ phải cộng những số dài.
 
-Bây giờ ta quay lại bài toán của Nam ở đầu bài. Nam đưa $20$ nghìn đồng và tiền hàng là $12$ nghìn đồng. Em hãy xem trên tia số: từ $12$ lên $20$ cần thêm bao nhiêu nghìn?
+Ta quay lại cuốn sổ của Nam ở đầu bài. Nam đưa $20$ nghìn đồng, tiền hàng là $12$ nghìn đồng. Em nhìn trên tia số: muốn đi từ $12$ lên $20$ thì cần thêm bao nhiêu nghìn?
 
 :::graph Trên tia số (đơn vị: nghìn đồng): từ 12 lên 20 cần thêm 8
 alt: Tia số từ 0 đến 24 tính theo nghìn đồng, đánh dấu điểm 12 và điểm 20; đoạn từ 12 đến 20 dài 8 nghìn
@@ -49,7 +49,7 @@ point: (20, 0) "20" below
 label: (16, 0) "+8" above
 :::
 
-Từ $12$ lên $20$ cần thêm $8$ nghìn. Em cũng có thể trừ: $20-12=8$ nghìn. Vậy cô bán hàng trả lại Nam $8\,000$ đồng.
+Từ $12$ lên $20$ cần thêm $8$ nghìn. Cách khác là làm phép trừ: $20-12=8$ nghìn. Vậy cô bán hàng trả lại Nam $8\,000$ đồng. Từ đây ta rút ra cách tính tiền như sau:
 
 :::theorem Tính tiền
 - **Số tiền của nhiều tờ tiền:** đổi mỗi tờ ra nghìn đồng, cộng lại, rồi viết thêm "nghìn đồng".
@@ -57,11 +57,11 @@ Từ $12$ lên $20$ cần thêm $8$ nghìn. Em cũng có thể trừ: $20-12=8$ 
 - **Tiền trả lại** $=$ tiền đưa $-$ tiền hàng.
 :::
 
-Tiền trả lại dùng phép trừ vì đó là phần tiền đưa dư ra sau khi đã trả đủ tiền hàng. Em luôn có thể thử lại: tiền hàng $+$ tiền trả lại phải bằng tiền đưa. Ở trên, $12+8=20$, đúng.
+Vì sao tiền trả lại là phép trừ? Vì đó là phần tiền đưa dư ra, sau khi đã trả đủ tiền hàng. Em có thể thử lại bất cứ lúc nào: tiền hàng $+$ tiền trả lại phải bằng tiền đưa. Ở trên, $12+8=20$, đúng.
 
 ## Ví dụ
 
-Ta bắt đầu với việc đếm một ít tờ tiền.
+Trước hết, em đếm một ít tờ tiền.
 
 :::example Đếm tiền
 Mai có một tờ $10\,000$ đồng, một tờ $5\,000$ đồng và hai tờ $2\,000$ đồng. Hỏi Mai có bao nhiêu tiền?
@@ -75,7 +75,7 @@ Vậy Mai có $19\,000$ đồng.
 **Kiểm tra.** $10\,000+5\,000+2\,000+2\,000=19\,000$. Khớp.
 :::
 
-Ví dụ sau có nhiều tờ tiền hơn, nhưng cách làm vẫn như vậy.
+Ví dụ sau có nhiều tờ tiền hơn. Em đừng lo, cách làm vẫn y như vừa rồi.
 
 :::example Đếm nhiều tờ tiền
 Hà có hai tờ $20\,000$ đồng, một tờ $5\,000$ đồng, một tờ $2\,000$ đồng và một tờ $1\,000$ đồng. Hỏi Hà có bao nhiêu tiền?
@@ -87,7 +87,7 @@ $$40+5+2+1=48\ \text{(nghìn đồng)}.$$
 Vậy Hà có $48\,000$ đồng.
 :::
 
-Bây giờ em tính tiền hàng khi mua nhiều món.
+Ra tiệm mua nhiều món thì phải tính tiền hàng. Em thử xem.
 
 :::example Tiền hàng
 Nam mua một quyển vở giá $7\,000$ đồng, một cái bút giá $4\,000$ đồng và một cục tẩy giá $2\,000$ đồng. Hỏi Nam phải trả bao nhiêu tiền?
@@ -97,7 +97,7 @@ $$7\,000+4\,000+2\,000=13\,000\ \text{(đồng)}.$$
 Vậy Nam phải trả $13\,000$ đồng.
 :::
 
-Sau khi biết tiền hàng, em có thể tính tiền trả lại.
+Biết tiền hàng rồi, em tính được tiền trả lại.
 
 :::example Tiền trả lại
 Cô Lan mua rau hết $35\,000$ đồng và đưa người bán tờ $50\,000$ đồng. Hỏi người bán phải trả lại cô Lan bao nhiêu tiền?
@@ -109,7 +109,7 @@ Vậy người bán trả lại cô Lan $15\,000$ đồng.
 **Kiểm tra.** $35\,000+15\,000=50\,000$. Khớp với tiền đưa.
 :::
 
-Cuối cùng là một bài cần so sánh số tiền có với số tiền cần dùng.
+Còn một tình huống nữa hay gặp: em có sẵn một số tiền, và phải xem số tiền ấy có đủ để mua hay không.
 
 :::example Có đủ tiền không?
 Lan có $30\,000$ đồng. Lan muốn mua một con gấu bông giá $18\,000$ đồng và một hộp bút giá $15\,000$ đồng. Lan có đủ tiền không? Nếu không đủ thì thiếu bao nhiêu?
@@ -122,9 +122,10 @@ Vậy Lan không đủ tiền, còn thiếu $3\,000$ đồng.
 :::
 
 :::warning Những lỗi em hay gặp
-- **Đếm thiếu tờ tiền.** Sai: có hai tờ $5\,000$ đồng và một tờ $2\,000$ đồng, tính $5\,000+2\,000=7\,000$ đồng. Vì sao sai: em bỏ sót một tờ $5\,000$ đồng. Đúng: $5\,000+5\,000+2\,000=12\,000$ đồng.
-- **Cộng thay vì trừ khi tính tiền trả lại.** Sai: $20\,000+12\,000=32\,000$ đồng. Vì sao sai: tiền trả lại là phần dư ra, không thể nhiều hơn tiền đưa. Đúng: $20\,000-12\,000=8\,000$ đồng.
+- **Đếm thiếu tờ tiền.** Sai: có hai tờ $5\,000$ đồng và một tờ $2\,000$ đồng, tính $5\,000+2\,000=7\,000$ đồng. Vì sao sai: em đã bỏ sót một tờ $5\,000$ đồng. Đúng: $5\,000+5\,000+2\,000=12\,000$ đồng.
+- **Cộng thay vì trừ khi tính tiền trả lại.** Sai: $20\,000+12\,000=32\,000$ đồng. Vì sao sai: tiền trả lại là phần dư ra, nên không thể nhiều hơn tiền đưa. Đúng: $20\,000-12\,000=8\,000$ đồng.
 - **Quên đổi về đồng.** Sai: "Đáp số: $12$ đồng". Vì sao sai: $12$ nghìn đồng là $12\,000$ đồng. Đúng: "Đáp số: $12\,000$ đồng".
+Chỗ này nhiều bạn hay nhầm. Em cứ thử lại bằng phép cộng là biết mình làm đúng hay chưa.
 :::
 
 ## Thuật ngữ
@@ -148,10 +149,11 @@ Vậy Lan không đủ tiền, còn thiếu $3\,000$ đồng.
 - Muốn đếm tiền, đổi mỗi tờ ra nghìn đồng rồi cộng. Ví dụ: $5+5+2=12$ nghìn, tức là $12\,000$ đồng.
 - Tiền hàng: cộng giá các món. Tiền trả lại $=$ tiền đưa $-$ tiền hàng.
 - Em có thể thử lại bằng phép cộng: tiền hàng $+$ tiền trả lại $=$ tiền đưa. Nhớ ghi đơn vị đồng.
+Giờ em đã trả lời được câu hỏi ở đầu bài: lấy tiền đưa trừ tiền hàng là ra tiền trả lại. Em làm thêm vài bài luyện tập để tính tiền cho thật quen tay nhé.
 
 ## Luyện tập
 
-Mỗi bài có phần kiến thức và gợi ý. Em hãy tự làm trước, rồi mới bấm xem lời giải.
+Mỗi bài có phần kiến thức cần nhớ và một gợi ý để em bắt đầu. Em thử tự làm trước đã. Nếu bí, em đọc gợi ý, rồi mới mở lời giải để so với bài của mình.
 
 :::exercise
 Em đếm số tiền:

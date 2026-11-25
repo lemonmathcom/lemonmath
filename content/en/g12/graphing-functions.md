@@ -17,21 +17,21 @@ Lan wants to draw the graph of $y=x^3-3x+1$ by hand. She plots five points:
 |---|---|---|---|---|---|
 | $y$ | $-1$ | $3$ | $1$ | $-1$ | $3$ |
 
-and joins them up. But what if, between two plotted points, the graph has a "bump" that Lan cannot see? And how many solutions does the equation $x^3-3x+1=0$ have?
+and joins them up with a smooth curve. But what if, between two plotted points, the graph has a "bump" that Lan cannot see? And how many solutions does the equation $x^3-3x+1=0$ have? Plotting points alone cannot answer either question.
 
-However many points we plot, we cannot be sure what the graph does between two neighbouring points. Analysing the function gives us that certainty: it brings together everything we have learnt about derivatives, extrema and asymptotes into a complete picture of the shape of the graph.
+However many more points we plot, we still cannot be sure what the graph does between two neighbouring points. To be sure, we analyse the function. This brings together everything we have learnt about derivatives, extrema and asymptotes into one complete picture of the shape of the graph, so we no longer have to guess.
 
 ## The curve-sketching procedure
 
 ### Explore: the derivative tells the shape
 
-The derivative $y'=3x^2-3=3(x-1)(x+1)$ is zero only at $x=-1$ and $x=1$. So the graph can only "turn round" at those two points: it goes up on $(-\infty, -1)$, down on $(-1, 1)$ and up on $(1, +\infty)$. There is no other bump between Lan's points.
+Look at the derivative $y'=3x^2-3=3(x-1)(x+1)$. It is zero only at $x=-1$ and $x=1$. A graph can only "turn round" where the derivative is $0$, so it goes up on $(-\infty, -1)$, down on $(-1, 1)$ and up again on $(1, +\infty)$. There is no other bump between Lan's points.
 
-So a few points and the table of variations are enough to draw the graph with the right shape. That is the idea of the procedure.
+So a few points and the table of variations are enough to draw the graph with the right shape. That is the idea of the procedure. We now go through it step by step.
 
-**A closer look.** Each step of the procedure answers a question about shape: the domain tells us whether the graph is "broken"; the sign of $y'$ tells us whether it goes up or down; limits and asymptotes tell us where it goes far away; the intercepts place it in the right position.
+**A closer look.** Each step of the procedure answers a question about shape. The domain tells us whether the graph is "broken" anywhere. The sign of $y'$ tells us whether it goes up or down. Limits and asymptotes tell us where it heads when it goes far away. The intercepts place the graph in the right position.
 
-**Connections.** The procedure brings together the three previous lessons (monotonicity and extrema, maximum and minimum values, asymptotes). The graph we draw is then used straight away to count the solutions of equations and to describe real-life quantities.
+**Connections.** The procedure brings together the three previous lessons (monotonicity and extrema, maximum and minimum values, asymptotes). Once drawn, the graph can be used straight away: to count the solutions of equations and to describe real-life quantities.
 
 :::note Procedure for analysing a function and sketching its graph
 1. **Domain** of the function.
@@ -77,9 +77,9 @@ point: (1, -1) "(1, -1)" below
 point: (0, 1) "(0, 1)" right
 :::
 
-The point $(0, 1)$ is the midpoint of the two turning points, and the graph is symmetric about it. Every cubic graph has a **centre of symmetry**: the point whose x-coordinate is the root of $y''=0$ (here $y''=6x=0\iff x=0$).
+The point $(0, 1)$ is the midpoint of the two turning points, and the graph is symmetric about it. This is true of every cubic: its graph has a **centre of symmetry**, the point whose x-coordinate is the root of $y''=0$. Here $y''=6x=0\iff x=0$.
 
-Not every cubic has extrema. When $y'$ does not change sign, the graph goes one way only.
+Do not assume every cubic has two turning points. When $y'$ does not change sign, the graph goes one way only, with nowhere to turn round. The next example shows this.
 
 :::example A cubic with no extrema
 Analyse $y=-x^3+3x^2-3x+2$ and sketch its graph.
@@ -107,7 +107,7 @@ point: (2, 0) "(2, 0)" left
 
 ## Rational functions
 
-For a rational function, the step "limits and asymptotes" matters more: we draw the asymptotes first as dashed lines, then draw the branches close to them.
+For a rational function, the step on limits and asymptotes matters most. We draw the asymptotes first as dashed lines, then draw the branches of the graph close to them.
 
 :::example Analysing $y=\dfrac{x+1}{x-1}$
 Analyse $y=\dfrac{x+1}{x-1}$ and sketch its graph.
@@ -139,7 +139,7 @@ point: (-1, 0) "(-1, 0)" above-left
 point: (0, -1) "(0, -1)" below-left
 :::
 
-For $y=\dfrac{ax^2+bx+c}{mx+n}$, we divide first: we see the oblique asymptote, and the derivative becomes easier.
+For $y=\dfrac{ax^2+bx+c}{mx+n}$, we divide first. This helps twice: the oblique asymptote appears at once, and the derivative becomes easier.
 
 :::example Analysing $y=\dfrac{x^2-2x+2}{x-1}$
 Analyse $y=\dfrac{x^2-2x+2}{x-1}$ and sketch its graph.
@@ -173,7 +173,7 @@ point: (2, 2) "(2, 2)" above-right
 
 ## Reading graphs and applications
 
-Once we have the graph, we can read a lot without computing again, for example the number of solutions of $f(x)=k$ (for a given number $k$): it is the number of intersection points of the graph with the horizontal line $y=k$.
+Once we have the graph, we can read a lot from it without computing again. For example, to find how many solutions $f(x)=k$ has (for a given number $k$), we count the intersection points of the graph with the horizontal line $y=k$. Why? Because each intersection point is a place where the function takes exactly the value $k$.
 
 :::graph The graph of a cubic $y=f(x)$ and the line $y=1$
 alt: A cubic graph through (-1, 0), with local maximum (0, 4) and local minimum (2, 0); the dashed horizontal line y equal 1 cuts the graph at three points
@@ -202,7 +202,7 @@ b) Since the line $y=1$ lies between the local minimum value $0$ and the local m
 So $f(x)=x^3-3x^2+4$; the road has $3$ points at a height of $10$ m and $2$ points at a height of $40$ m ($x=0$ and $x=3$).
 :::
 
-Finally, we recall how to write a tangent line from grade 11: the tangent at $M(x_0, y_0)$ is $y=f'(x_0)(x-x_0)+y_0$.
+Finally, tangent lines. You met them in grade 11, so we only recall the result: the tangent at $M(x_0, y_0)$ is $y=f'(x_0)(x-x_0)+y_0$.
 
 :::example A tangent to a rational graph
 Write the equation of the tangent to the graph of $y=\dfrac{x+1}{x-1}$ at the point with x-coordinate $x_0=2$.
@@ -243,10 +243,11 @@ So the tangent is $y=-2x+7$.
 - $y=\dfrac{ax+b}{cx+d}$: always increasing or always decreasing on each interval; its two asymptotes meet at the centre of symmetry.
 - $y=\dfrac{ax^2+bx+c}{mx+n}$: divide to get the oblique asymptote and a tidy derivative.
 - The number of solutions of $f(x)=k$ is the number of intersections of the graph with the line $y=k$. Tangent at $x_0$: $y=f'(x_0)(x-x_0)+f(x_0)$.
+Back to Lan: instead of plotting many more points and guessing, she only needs the sign of the derivative to know where the graph rises and falls, and to count the solutions. Try a few functions in the practice section.
 
 ## Practice
 
-Each exercise comes with what you need and some steps to start. Try it yourself first, then open the solution.
+Each exercise comes with what you need and some steps to start. Try it yourself first, then open the solution. Do not worry if the procedure feels long at first; after a few functions it becomes familiar.
 
 :::exercise
 Analyse $y=x^3-3x$ and sketch its graph.

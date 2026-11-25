@@ -11,7 +11,7 @@ minutes: 40
 - Solve radical and rational equations and reject extraneous solutions.
 :::
 
-Quadratics are the heart of the Advanced Math domain and appear in almost every module, often among the hardest questions. Vietnamese students already know the quadratic formula and Viète's theorem from grade 9, which is a real advantage. What the SAT adds is the ability to move quickly between the three forms of a quadratic, to read their meaning in a context such as the path of a ball, and to spot false solutions.
+Think of a ball thrown into the air. It climbs, slows down and falls back, and its path is a parabola. How high does it go, and when does it land? Quadratics are the heart of the Advanced Math domain and appear in almost every module, often among the hardest questions. Vietnamese students already know the quadratic formula and Viète's theorem from grade 9, which is a real advantage. What the SAT adds is the ability to move quickly between the three forms of a quadratic, to read their meaning in a context such as the path of a ball, and to spot false solutions.
 
 ## Three forms of a quadratic
 
@@ -77,7 +77,7 @@ The answer is **B**. Option A forgets to divide $2\sqrt{10}$ by $4$ as well.
 
 ## A line and a parabola
 
-To solve a system of a linear and a quadratic equation, set the two expressions for $y$ equal. The resulting quadratic can have two, one or no solutions, just like the number of points where a line meets a parabola.
+How many times can a line cross a parabola? Twice, once, or not at all. That is exactly what a system of a linear and a quadratic equation is asking. To solve it, set the two expressions for $y$ equal, because an intersection point is where both sides give the same $y$. The resulting quadratic can have two, one or no solutions, just like the number of points where a line meets a parabola.
 
 :::example A system with a parabola
 $$y=x^2-2x+1$$
@@ -93,7 +93,7 @@ So $x=4$ or $x=-1$. Since $a>0$, $a=4$ and $b=4+5=9$. You type **9**.
 
 ## Radical equations, rational equations and models
 
-When you square both sides of an equation, or multiply by an expression that can be zero, you may create **extraneous solutions**: numbers that solve the new equation but not the original one. Always check them in the original equation.
+Some steps in solving an equation quietly add trouble. When you square both sides of an equation, or multiply by an expression that can be zero, you may create **extraneous solutions**: numbers that solve the new equation but not the original one. So the last step is never optional: always check them in the original equation.
 
 :::example An extraneous solution
 What is the solution set of $\sqrt{x+7}=x-5$?
@@ -112,14 +112,15 @@ A ball is thrown upward. Its height, in feet, $t$ seconds after it is thrown is 
 :::
 
 :::warning Common traps
-- **Sign of the vertex.** $f(x)=(x+2)^2-1$ has vertex $(-2, -1)$, not $(2, -1)$.
+- **Sign of the vertex.** Many students slip here: $f(x)=(x+2)^2-1$ has vertex $(-2, -1)$, not $(2, -1)$.
 - **Dividing by $x$.** From $x^2=5x$, dividing by $x$ loses the solution $x=0$. Factor instead: $x(x-5)=0$.
 - **Not checking radical equations.** A square root is never negative, so any "solution" that makes the right side negative is extraneous.
 - **Maximum value or where it happens.** "What is the maximum height?" asks for $k$; "after how many seconds?" asks for $h$.
+All four are slips of reading, not of understanding. Slow down for a beat and you will avoid them.
 :::
 
 :::tip Desmos for quadratics
-Type `y=-16x^2+64x+5` and click the gray points: Desmos shows the vertex and the zeros with their coordinates. For a system, type both equations and click the intersection points. For "exactly one solution" questions with a constant, add a slider and drag it until the graphs just touch.
+Let Desmos do the heavy lifting, and use it to check your answers. Type `y=-16x^2+64x+5` and click the grey points: Desmos shows the vertex and the zeros with their coordinates. For a system, type both equations and click the intersection points. For "exactly one solution" questions with a constant, add a slider and drag it until the graphs just touch.
 :::
 
 :::terms

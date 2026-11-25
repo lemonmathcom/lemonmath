@@ -11,23 +11,23 @@ minutes: 22
 - Apply this to polynomial, rational, square-root and trigonometric functions and to real-life problems.
 :::
 
-The temperature in a laboratory is monitored for $5$ hours. After $t$ hours, it is $T(t)=t^3-6t^2+9t+20$ (°C), $0\le t\le 5$. At the start the room is at $20$ °C, after $1$ hour it is $24$ °C, and after $3$ hours it is back at $20$ °C. Over those $5$ hours, what are the highest and the lowest temperatures?
+The temperature in a laboratory is monitored for $5$ hours. After $t$ hours, it is $T(t)=t^3-6t^2+9t+20$ (°C), $0\le t\le 5$. At the start the room is at $20$ °C, after $1$ hour it is $24$ °C, and after $3$ hours it is back at $20$ °C. Over those $5$ hours, what are the highest and the lowest temperatures? Think about it for a moment before you read on.
 
-You might think straight away of the local maximum $24$ °C at $t=1$. But the answer is not $24$.
+Many people reach straight away for the local maximum, $24$ °C at $t=1$. But the answer is not $24$. We will see why in a moment.
 
-"Greatest or least" is the question behind many decisions: choosing a size that uses the least material, a price that gives the most profit, a speed that uses the least fuel. In grade 10 we found the maximum of a quadratic from the vertex of the parabola. The derivative gives one method for every function that is continuous on a closed interval.
+"Greatest" and "least" are the questions behind many everyday decisions: choosing a size that uses the least material, a price that gives the most profit, a speed that uses the least fuel. In grade 10 you found the maximum of a quadratic from the vertex of the parabola, but that works for only one kind of function. The derivative gives us one method that works for every function that is continuous on a closed interval.
 
 ## Maximum and minimum values
 
 ### Explore: is a local maximum the highest value?
 
-We compute the temperature at whole hours:
+To see what the temperature really does, we compute it at whole hours:
 
 | $t$ | $0$ | $1$ | $2$ | $3$ | $4$ | $5$ |
 |---|---|---|---|---|---|---|
 | $T(t)$ | $20$ | $24$ | $22$ | $20$ | $24$ | $40$ |
 
-The derivative $T'(t)=3t^2-12t+9=3(t-1)(t-3)$ tells us that $T$ has a local maximum of $24$ at $t=1$ and a local minimum of $20$ at $t=3$. Yet by the end of the session, $T(5)=40$, far above the local maximum. A local maximum is compared only with the moments **near** it; "the highest" must be compared with **every** moment.
+The derivative $T'(t)=3t^2-12t+9=3(t-1)(t-3)$ tells us that $T$ has a local maximum of $24$ at $t=1$ and a local minimum of $20$ at $t=3$. Yet by the end of the session, $T(5)=40$, far above the local maximum. This is where many people slip: a local maximum is the highest point only compared with the moments **near** it, like the top of a small hill. "The highest" must be compared with **every** moment.
 
 :::graph Laboratory temperature $T(t)=t^3-6t^2+9t+20$
 alt: A graph on the interval from 0 to 5 with a local maximum at t equal 1 with value 24, a local minimum at t equal 3 with value 20, and the highest value 40 at the endpoint t equal 5
@@ -46,7 +46,7 @@ Let $y=f(x)$ be defined on a set $D$.
 - A number $m$ is the **minimum value** (least value) of $f$ on $D$ if $f(x)\ge m$ for every $x\in D$ **and** there is $x_0\in D$ with $f(x_0)=m$. We write $m=\min\limits_{D} f(x)$.
 :::
 
-The condition "there is $x_0$" matters. For example, $f(x)=x^2\le 4$ for every $x\in(0, 2)$, but no $x$ in that interval gives $f(x)=4$; so $4$ is **not** the maximum value of $f$ on $(0, 2)$, and in fact $f$ has no maximum value on this interval.
+The condition "there is $x_0$" in the definition matters, and it is easy to overlook. For example, $f(x)=x^2\le 4$ for every $x\in(0, 2)$. But no $x$ in that interval gives $f(x)=4$. So $4$ is **not** the maximum value of $f$ on $(0, 2)$, and in fact $f$ has no maximum value on this interval.
 
 ## On a closed interval
 
@@ -54,11 +54,11 @@ The condition "there is $x_0$" matters. For example, $f(x)=x^2\le 4$ for every $
 Every function that is continuous on a closed interval $[a, b]$ has a maximum value and a minimum value on that interval.
 :::
 
-The maximum can only be reached in two places: at an endpoint, or at an interior point where the graph "turns round", that is, where $f'=0$ or $f'$ is undefined. At any other interior point, $f'$ is not zero, so the function is still increasing or decreasing and there is a larger value nearby. So we only need to compare a few values.
+How many values must we compare? Fewer than you might expect. The maximum can only be reached in two places: at an endpoint, or at an interior point where the graph "turns round", that is, where $f'=0$ or $f'$ is undefined. Why not anywhere else? At any other interior point, $f'$ is not zero, so the function is still increasing or decreasing and there is always a larger value nearby. So we only need to compare a few values.
 
-**A closer look.** Why do we need both conditions, "continuous" and "closed interval"? Without the endpoints, $f(x)=x$ on the open interval $(0, 1)$ gets close to $1$ but never equals $1$, so it has no maximum value. Without continuity, the function with $f(x)=\dfrac1x$ for $x\neq0$ and $f(0)=0$ is defined on the whole of $[-1, 1]$, but takes arbitrarily large values as $x$ tends to $0$ from the right.
+**A closer look.** Why do we need both conditions, "continuous" and "closed interval"? Try dropping each one in turn. Without the endpoints, $f(x)=x$ on the open interval $(0, 1)$ gets close to $1$ but never equals $1$, so it has no maximum value. Without continuity, the function with $f(x)=\dfrac1x$ for $x\neq0$ and $f(0)=0$ is defined on the whole of $[-1, 1]$, but takes arbitrarily large values as $x$ tends to $0$ from the right, so again there is no maximum value.
 
-**Connections.** This lesson builds on the extrema of the previous lesson, and it is the key step in the real-life optimisation problems at the end of the chapter. The method is:
+**Connections.** This lesson builds on the extrema of the previous lesson, and it is the key step in the real-life optimisation problems at the end of the chapter. From what we have just seen, the method has three steps:
 
 1. Find the points $x_1, x_2, \dots$ in the **open interval** $(a, b)$ where $f'(x)=0$ or $f'(x)$ is undefined.
 2. Compute $f(a)$, $f(x_1)$, $f(x_2)$, …, $f(b)$.
@@ -78,7 +78,7 @@ $$f(0)=1,\qquad f(1)=-1,\qquad f(2)=8-6+1=3.$$
 So $\max\limits_{[0, 2]} f(x)=3$ (at $x=2$) and $\min\limits_{[0, 2]} f(x)=-1$ (at $x=1$).
 :::
 
-Rejecting a root outside the interval is an easy step to forget. The next example has one rejected root and one irrational root.
+Rejecting a root outside the interval is an easy step to forget. The next example has one root to reject and one irrational root, so watch each step.
 
 :::example A quartic
 Find the maximum and minimum values of $f(x)=x^4-4x^2+5$ on $[-1, 3]$.
@@ -94,7 +94,7 @@ $$f(-1)=1-4+5=2,\quad f(0)=5,\quad f(\sqrt2)=4-8+5=1,\quad f(3)=81-36+5=50.$$
 So $\max\limits_{[-1, 3]} f(x)=50$ at $x=3$ and $\min\limits_{[-1, 3]} f(x)=1$ at $x=\sqrt2$.
 :::
 
-With a square root, we solve $f'(x)=0$ carefully, with a condition before squaring.
+With a square root, the equation $f'(x)=0$ needs more care. Before squaring both sides we write down a condition, otherwise we may accept a value that does not work.
 
 :::example A function with a square root
 Find the maximum and minimum values of $f(x)=x+\sqrt{4-x^2}$.
@@ -112,7 +112,7 @@ We have $f(-2)=-2$, $f(\sqrt2)=\sqrt2+\sqrt2=2\sqrt2$, $f(2)=2$.
 So the maximum value is $2\sqrt2$ (at $x=\sqrt2$) and the minimum value is $-2$ (at $x=-2$).
 :::
 
-With a trigonometric function, a substitution often turns the problem into a polynomial on a closed interval.
+With a trigonometric function, a substitution often turns the problem into something more familiar: a polynomial on a closed interval. The hard part is finding the right interval.
 
 :::example A trigonometric function and a substitution
 Find the maximum and minimum values of $f(x)=2\sin x+\cos 2x$ on $[0, \pi]$.
@@ -132,7 +132,7 @@ So $\max\limits_{[0, \pi]} f(x)=\dfrac32$ (when $\sin x=\dfrac12$, that is $x=\d
 
 ## On an open interval
 
-On an open interval (with no endpoints), a function may have **no** maximum or no minimum value. Then we draw the table of variations and read the result from it.
+On an open interval there are no endpoints to compare, and a function may have **no** maximum or no minimum value. So we draw the table of variations and read the result from it: where the function falls, where it rises, and whether it ever reaches the value in question.
 
 :::example A minimum on an open interval
 Find the minimum value of $f(x)=x+\dfrac{9}{x}$ on $(0, +\infty)$.
@@ -161,7 +161,7 @@ point: (3, 6) "(3, 6)" below
 
 ## Real-life problems
 
-Now we answer the temperature question from the start. In real-life problems the endpoints are often the start and the end of a period, so they must not be ignored.
+Now we return to the temperature question from the start. In real-life problems the endpoints are often the start and the end of a period. Those moments are real, so they must not be ignored.
 
 :::example Highest and lowest temperature
 The room temperature is $T(t)=t^3-6t^2+9t+20$ (°C), $0\le t\le 5$ (hours). Find the highest and lowest temperatures over the $5$ hours.
@@ -175,9 +175,10 @@ So the highest temperature is $40$ °C (at the end, $t=5$) and the lowest is $20
 
 :::warning Common mistakes
 - **Taking a local maximum as the maximum.** Wrong: "$T$ has a local maximum of $24$, so the highest temperature is $24$ °C". Why it is wrong: the endpoints were not compared, and $T(5)=40$. Right: always compute $f(a)$ and $f(b)$ as well.
-- **Keeping a root outside the interval.** Wrong: finding the minimum of $x^3-3x+1$ on $[0, 2]$ and including $f(-1)=3$. Why it is wrong: $-1$ is not in the interval. Right: only use roots in $(a, b)$.
+- **Keeping a root outside the interval.** Wrong: finding the minimum of $x^3-3x+1$ on $[0, 2]$ and still including $f(-1)=3$. Why it is wrong: $-1$ is not in the interval. Right: only use roots in $(a, b)$.
 - **The wrong range for a substitution.** Wrong: putting $t=\sin x$ for $x\in[0, \pi]$ and then using $t\in[-1, 1]$, giving the minimum $g(-1)=-3$. Why it is wrong: on $[0, \pi]$, $\sin x\ge 0$. Right: $t\in[0, 1]$ and the minimum is $1$.
-- **Claiming a maximum that is never reached.** Wrong: "$x+\dfrac9x$ has maximum value $+\infty$". Why it is wrong: $+\infty$ is not a number and no $x$ gives it. Right: the function has no maximum value on $(0, +\infty)$.
+- **Claiming a maximum that is never reached.** Wrong: "$x+\dfrac9x$ has maximum value $+\infty$". Why it is wrong: $+\infty$ is not a number, and no $x$ gives it. Right: the function has no maximum value on $(0, +\infty)$.
+The first one is where most people slip. Get into the habit of computing both endpoints before you decide.
 :::
 
 ## Key terms
@@ -200,10 +201,11 @@ So the highest temperature is $40$ °C (at the end, $t=5$) and the lowest is $20
 - On a closed interval: roots of $f'$ (and points where $f'$ is undefined) **inside** $(a, b)$ → compute $f$ there and at $a$, $b$ → compare.
 - On an open interval: draw the table of variations; there may be no maximum or no minimum.
 - After a substitution, find the correct range of the new variable.
+Back to the temperature question: the answer is not the local maximum, because the endpoints had to be compared too. Remember that a local maximum is the highest point nearby, while the maximum value is the highest point anywhere.
 
 ## Practice
 
-Each exercise comes with what you need and some steps to start. Try it yourself first, then open the solution.
+Each exercise gives you what you need and a few steps to start. Try it yourself before you open the solution. If you get stuck, read a hint, carry on, and only then open the solution to compare.
 
 :::exercise
 Find the maximum and minimum values of $y=x^3-3x^2$ on $[-1, 3]$.

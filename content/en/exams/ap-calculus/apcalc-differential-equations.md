@@ -12,11 +12,11 @@ minutes: 45
 - (BC) Approximate a solution with Euler's method and analyze logistic growth.
 :::
 
-Unit 7 appears on the free-response section almost every year, usually as a full question: sketch a slope field at a few points, find a tangent line approximation, then solve the equation by separating variables. The separation question is worth several points, and the scoring is strict about each step. The good news is that the steps are always the same.
+Think of a bath filling, or bacteria multiplying. You rarely know the formula for the amount at first. What you can often say is how fast it is changing. So can we get back to the amount itself? A differential equation answers exactly that question. Unit 7 appears on the free-response section almost every year, usually as a full question: sketch a slope field at a few points, find a tangent line approximation, then solve the equation by separating variables. The separation part is worth several points, and graders are strict about each step. The good news is that the steps are always the same, so once you know them you can use them again and again.
 
 ## Solutions and slope fields
 
-A **differential equation** relates an unknown function to its derivatives. A function is a **solution** if substituting it makes the equation true. A **slope field** draws, at each point $(x,y)$, a short segment with slope $\dfrac{dy}{dx}$ given by the equation; solution curves follow the segments.
+Let us start with three names. A **differential equation** is an equation about an unknown function, written using its derivatives. Put a function into the equation: if both sides agree, that function is a **solution**. But how can we see the solutions without solving anything? That is what a **slope field** is for. At each point $(x,y)$ the equation gives the slope $\dfrac{dy}{dx}$, and we draw a short segment with exactly that slope. A solution curve simply follows the segments it passes through.
 
 :::example Checking a solution
 Which function satisfies $\dfrac{dy}{dx}=2y$?
@@ -77,12 +77,13 @@ c) $\dfrac{d^2y}{dx^2}=1-\dfrac{dy}{dx}=1-(x-y)=1-x+y$. Concave up where $y>x-1$
 ## Separation of variables
 
 :::note The steps graders check
-1. **Separate:** all $y$ on one side with $dy$, all $x$ on the other with $dx$.
-2. **Integrate both sides**, with a constant $C$.
-3. **Use the initial condition** to find $C$ right away.
-4. **Solve for $y$.**
+1. **Separate:** put all the $y$ terms on one side with $dy$, and all the $x$ terms on the other with $dx$.
+2. **Integrate both sides**, and remember the constant $C$.
+3. **Use the initial condition** to find $C$ right away, not at the end.
+4. **Solve for $y$.** Do this once you know $C$.
+Graders read your work in this order, so it helps to write it in this order too.
 
-A missing constant of integration usually caps the score of the whole question, so write $+C$ the moment you integrate.
+This is a spot where many students slip: the constant of integration. Without it the whole question usually loses marks, however good the later steps are. So write $+C$ the moment you integrate, and do not plan to add it later.
 :::
 
 :::example A classic separable equation
@@ -99,7 +100,7 @@ Solve $\dfrac{dy}{dx}=\dfrac{2x}{y}$ with $y(0)=-2$.
 
 ## Exponential growth and decay
 
-If a quantity changes at a rate proportional to its size, $\dfrac{dy}{dt}=ky$, then $y=y_0e^{kt}$. Growth when $k>0$, decay when $k<0$.
+Some quantities grow faster the larger they are, like bacteria multiplying. Others shrink faster the larger they are, like a radioactive substance decaying. When the rate of change is proportional to the quantity itself, we write $\dfrac{dy}{dt}=ky$, and the solution is $y=y_0e^{kt}$. Growth when $k>0$, decay when $k<0$, so the sign of the constant of proportionality tells you the direction.
 
 :::example Doubling time
 A bacteria population grows at a rate proportional to its size. It has $500$ bacteria at $t=0$ and $1000$ at $t=3$ hours. Find the population at $t=6$, and the constant $k$.
@@ -109,7 +110,7 @@ A bacteria population grows at a rate proportional to its size. It has $500$ bac
 
 ## Euler's method and logistic growth (BC)
 
-**Euler's method** follows the slope field with straight steps of size $h$: $y_{\text{new}}=y_{\text{old}}+h\cdot\dfrac{dy}{dx}\Big|_{(x_{\text{old}},\,y_{\text{old}})}$.
+Not every equation can be solved with a neat formula. We can still walk along the slope field in small steps, like a walker who reads the signpost where they stand and then takes the next step. That is the idea of **Euler's method**: straight steps of size $h$, each one using the slope at the point where we stand. The formula is $y_{\text{new}}=y_{\text{old}}+h\cdot\dfrac{dy}{dx}\Big|_{(x_{\text{old}},\,y_{\text{old}})}$.
 
 :::example Two Euler steps
 For $\dfrac{dy}{dx}=x+y$ with $y(0)=1$, use Euler's method with two steps of size $0.5$ to approximate $y(1)$.
@@ -124,10 +125,11 @@ A population satisfies $\dfrac{dP}{dt}=0.2P\left(1-\dfrac{P}{1000}\right)$ with 
 :::
 
 :::warning Common traps
-- **No constant, or a late constant.** Write $+C$ when you integrate and find it before solving for $y$.
-- **Wrong branch.** After $y^2=\dots$, the initial condition decides the sign of the root.
-- **Dividing by zero.** Separating $\dfrac{dy}{dx}=xy$ divides by $y$; the constant solution $y=0$ is lost, which is fine when $y(0)\ne0$.
-- **Domain.** A solution such as $y=\dfrac{1}{1-x}$ through $(0,1)$ only lives on $x<1$.
+- **No constant, or a late constant.** Write $+C$ the moment you integrate, and find it before solving for $y$.
+- **Wrong branch.** Once you have $y^2=\dots$, do not rush to take the positive root: the initial condition decides the sign of the root.
+- **Dividing by zero.** To separate $\dfrac{dy}{dx}=xy$ we must divide by $y$, so the constant solution $y=0$ is lost. This is fine when $y(0)\ne0$.
+- **Domain.** A solution such as $y=\dfrac{1}{1-x}$ through $(0,1)$ only lives on $x<1$, so remember that it is valid only on an interval.
+From start to finish the aim is the same: from a rate of change, find the quantity itself. Keep to the steps above and practise with the exercises below until they feel natural.
 :::
 
 :::terms

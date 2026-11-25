@@ -12,16 +12,16 @@ minutes: 15
 
 Thư viện của trường có $200$ quyển sách. Cô thủ thư nói $35\%$ số sách là truyện tranh. Hỏi thư viện có bao nhiêu quyển truyện tranh?
 
-Em đã biết $35\%$ nghĩa là $35$ phần trong $100$ phần bằng nhau. Bài này dạy em cách tìm số quyển đó.
+Em đã biết $35\%$ nghĩa là $35$ phần trong $100$ phần bằng nhau. Nhưng mới biết tỉ lệ thì chưa biết số quyển. Ta cần tìm xem mỗi phần ứng với mấy quyển. Biết cách này, em còn tính được tiền phải trả khi mua hàng giảm giá.
 
 ## Cùng khám phá
 
-Coi cả $200$ quyển là $100\%$ và chia thành $100$ phần bằng nhau.
+Ta thử chia nhỏ ra. Coi cả $200$ quyển là $100\%$, rồi chia thành $100$ phần bằng nhau. Mỗi phần có bao nhiêu quyển?
 
-- Một phần là $1\%$: $200:100=2$ (quyển).
-- $35\%$ là $35$ phần như thế: $2\times35=70$ (quyển).
+- Cả số sách chia đều ra, mỗi phần là $1\%$: $200:100=2$ (quyển).
+- $35\%$ gồm $35$ phần như thế, nên ta lấy số quyển của một phần nhân với số phần: $2\times35=70$ (quyển).
 
-Vậy $35\%$ của $200$ là $70$. Thư viện có $70$ quyển truyện tranh.
+Vậy $35\%$ của $200$ là $70$. Thư viện có $70$ quyển truyện tranh, và câu hỏi đầu bài đã có lời đáp.
 
 :::graph Trên tia số: $200$ quyển là $100\%$, còn $70$ quyển là $35\%$
 alt: Tia số từ 0 đến 200, đánh dấu các điểm 0, 70 và 200 ứng với 0%, 35% và 100%
@@ -42,11 +42,11 @@ Muốn tìm $a\%$ của số $B$, em làm một trong hai cách:
 2. Nhân $B$ với $a$ rồi chia cho $100$: $B\times a:100$.
 :::
 
-Hai cách này đúng vì $1\%$ của $B$ là $B:100$, và $a\%$ là $a$ phần như thế. Nhân $a$ trước hay chia $100$ trước thì kết quả vẫn như nhau. Em chọn cách nào làm phép tính dễ hơn.
+Vì sao hai cách đều đúng? Vì $1\%$ của $B$ là $B:100$, còn $a\%$ gồm $a$ phần như thế. Nhân với $a$ trước hay chia cho $100$ trước thì kết quả vẫn như nhau. Em cứ chọn cách nào làm phép tính nhẹ nhàng hơn. Các ví dụ sau sẽ cho em thấy lúc nào nên chọn cách nào.
 
 ## Ví dụ
 
-Ta bắt đầu với số $250$, chia cho $100$ được số thập phân gọn.
+Ta thử với số $250$. Chia cho $100$ ta được một số thập phân gọn, nên chia trước ở đây rất tiện.
 
 :::example Tính $40\%$ của $250$
 **Lời giải.** Em dùng cách 1: chia $250$ cho $100$ để tìm $1\%$, rồi nhân với $40$:
@@ -54,7 +54,7 @@ $$250:100\times40=2{,}5\times40=100.$$
 Vậy $40\%$ của $250$ là $100$.
 :::
 
-Với số $360$, em nên nhân trước để khỏi phải làm việc với số thập phân.
+Số $360$ thì khác. Nếu em chia trước, kết quả sẽ có phần thập phân và phép nhân sau đó rườm hơn. Vậy ở đây em nhân trước cho gọn.
 
 :::example Tính $15\%$ của $360$
 **Lời giải.** Em dùng cách 2: nhân $360$ với $15$, rồi chia cho $100$ (bỏ hai chữ số $0$ ở cuối):
@@ -62,7 +62,7 @@ $$360\times15:100=5\,400:100=54.$$
 Vậy $15\%$ của $360$ là $54$.
 :::
 
-Có vài tỉ số phần trăm quen thuộc mà em có thể nhẩm ngay.
+Có những tỉ số phần trăm quen đến mức em không cần làm từng bước mà nhẩm được ngay. Vì sao vậy? Ví dụ dưới đây sẽ cho thấy.
 
 :::example Tính nhẩm $50\%$ của $86$ và $25\%$ của $120$
 **Lời giải.** Ta có $50\%=\dfrac{50}{100}=\dfrac12$ và $25\%=\dfrac{25}{100}=\dfrac14$. Tìm một nửa là chia $2$, tìm một phần tư là chia $4$:
@@ -72,7 +72,7 @@ Vậy $50\%$ của $86$ là $43$ và $25\%$ của $120$ là $30$.
 **Kiểm tra.** $120\times25:100=3\,000:100=30$. Đúng.
 :::
 
-Bây giờ em dùng cách này để giải một bài toán giảm giá.
+Đi mua hàng, em hay thấy tấm biển ghi "giảm giá". Biết tìm phần trăm của một số, em tính được ngay mình phải trả bao nhiêu tiền.
 
 :::example Giảm giá chiếc cặp
 Một chiếc cặp có giá $250\,000$ đồng. Cửa hàng giảm giá $20\%$. Hỏi em phải trả bao nhiêu tiền?
@@ -85,10 +85,12 @@ Vậy em phải trả $200\,000$ đồng.
 :::
 
 :::warning Những lỗi em hay gặp
-- **Quên chia cho $100$.** Sai: $20\%$ của $150$ là $150\times20=3\,000$. Vì sao sai: $3\,000$ lớn hơn $150$ rất nhiều, mà một phần của $150$ thì không thể lớn hơn $150$. Đúng: $150\times20:100=30$.
-- **Chia cho số phần trăm.** Sai: $20\%$ của $150$ là $150:20=7{,}5$. Vì sao sai: cả số ứng với $100\%$ nên phải chia cho $100$, không chia cho $20$. Đúng: $150:100\times20=30$.
-- **Ghi dấu $\%$ trong đáp số.** Sai: "$20\%$ của $150$ là $30\%$". Vì sao sai: kết quả là một số quyển, số tiền,... chứ không phải tỉ số phần trăm. Đúng: $30$ (kèm đơn vị).
-- **Quên trừ trong bài giảm giá.** Sai: giá phải trả là $50\,000$ đồng. Vì sao sai: $50\,000$ đồng là số tiền được giảm. Đúng: $250\,000-50\,000=200\,000$ đồng.
+- **Quên chia cho $100$.** Sai: $20\%$ của $150$ là $150\times20=3\,000$. Vì sao sai: $3\,000$ lớn hơn $150$ rất nhiều, trong khi một phần của $150$ không thể lớn hơn $150$. Đúng: $150\times20:100=30$.
+- **Chia cho số phần trăm.** Sai: $20\%$ của $150$ là $150:20=7{,}5$. Vì sao sai: cả số ứng với $100\%$, nên ta chia cho $100$ chứ không chia cho $20$. Đúng: $150:100\times20=30$.
+- **Ghi dấu $\%$ trong đáp số.** Sai: "$20\%$ của $150$ là $30\%$". Vì sao sai: kết quả là một số quyển sách, một số tiền,... chứ không phải một tỉ số phần trăm. Đúng: $30$ (kèm đơn vị).
+- **Quên trừ trong bài giảm giá.** Sai: giá phải trả là $50\,000$ đồng. Vì sao sai: $50\,000$ đồng chỉ là số tiền được giảm. Đúng: $250\,000-50\,000=200\,000$ đồng.
+
+Chỗ này nhiều bạn hay nhầm, nên làm xong em hãy tự hỏi: kết quả này có hợp lí không?
 :::
 
 ## Thuật ngữ
@@ -109,12 +111,14 @@ Vậy em phải trả $200\,000$ đồng.
 - $a\%$ của $B$ là $a$ phần trong $100$ phần bằng nhau của $B$.
 - Cách 1: $B:100\times a$. Cách 2: $B\times a:100$. Hai cách cho cùng kết quả.
 - Nhẩm nhanh: $50\%$ là một nửa (chia $2$), $25\%$ là một phần tư (chia $4$).
-- Bài giảm giá: số tiền được giảm là một phần trăm của giá gốc; số tiền phải trả là giá gốc trừ số tiền được giảm.
+- Bài giảm giá: số tiền được giảm là một phần trăm của giá gốc; số tiền phải trả là giá gốc trừ đi số tiền được giảm.
 - Kết quả là một số có đơn vị, không viết dấu $\%$.
+
+Quay lại câu hỏi ở đầu bài: muốn biết thư viện có bao nhiêu quyển truyện tranh, ta tìm một phần trước rồi lấy nhiều phần như thế. Em luyện thêm vài bài, hai cách tính sẽ quen tay dần.
 
 ## Luyện tập
 
-Mỗi bài có phần kiến thức và gợi ý. Em hãy tự làm trước, rồi mới bấm xem lời giải.
+Mỗi bài có phần kiến thức cần nhớ và một gợi ý để em bắt đầu. Em cứ tự làm trước, chưa ra thì xem gợi ý, rồi mới mở lời giải. Sai một lần cũng không sao, vì điều ta đang luyện là cách làm.
 
 :::exercise
 Tính $20\%$ của $350$.

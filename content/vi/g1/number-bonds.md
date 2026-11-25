@@ -10,13 +10,13 @@ minutes: 15
 - Biết đổi chỗ hai phần mà số lớn không đổi.
 :::
 
-Lan có $5$ viên bi. Lan cầm $2$ viên ở tay trái, phần còn lại ở tay phải. Tay phải có mấy viên bi?
+Lan có $5$ viên bi. Lan nắm $2$ viên trong tay trái, còn lại cho vào tay phải. Em thử đoán xem tay phải của Lan có mấy viên bi?
 
-Em đã biết đếm và so sánh các số đến $10$. Bài này em học cách tách một số thành hai phần.
+Em đã biết đếm và so sánh các số đến $10$. Nhưng nếu một phần số bi bị giấu trong tay, em có tìm ra nó không? Khi biết cách tách một số thành hai phần, em tìm được phần bi mà mình không nhìn thấy.
 
 ## Cùng khám phá
 
-Em có $5$ viên bi và chia vào hai tay.
+Ta thử với $5$ viên bi nhé. Em chia số bi này vào hai tay, và có nhiều cách chia. Bảng dưới đây ghi lại từng cách.
 
 | Tay trái | Tay phải |
 |---|---|
@@ -25,9 +25,9 @@ Em có $5$ viên bi và chia vào hai tay.
 | $3$ | $2$ |
 | $4$ | $1$ |
 
-Ở mỗi dòng, hai phần ghép lại đều đủ $5$ viên. Ta nói: $5$ gồm $1$ và $4$; $5$ gồm $2$ và $3$; $5$ gồm $3$ và $2$; $5$ gồm $4$ và $1$.
+Em nhìn từng dòng. Hai tay ghép lại luôn đủ $5$ viên, dòng nào cũng vậy. Ta nói như sau: $5$ gồm $1$ và $4$; $5$ gồm $2$ và $3$; $5$ gồm $3$ và $2$; $5$ gồm $4$ và $1$.
 
-Vậy tay phải của Lan có $3$ viên bi.
+Nhìn lại bảng, dòng có tay trái giống tay của Lan cho em đáp số: tay phải của Lan có $3$ viên bi.
 
 :::theorem Mấy và mấy
 1. Một số có thể gồm hai số nhỏ hơn. Ví dụ $5$ gồm $2$ và $3$.
@@ -35,11 +35,11 @@ Vậy tay phải của Lan có $3$ viên bi.
 3. Biết số lớn và một phần, em tìm phần còn lại bằng cách đếm tiếp hoặc ghép.
 :::
 
-Cách này đúng vì khi chia các viên bi vào hai tay, không viên bi nào mất đi. Hai tay cộng lại vẫn là cả nhóm bi ban đầu.
+Vì sao cách này đúng? Vì khi chia bi vào hai tay, không viên nào mất đi. Hai tay gộp lại vẫn là cả nhóm bi ban đầu. Nên dù chia thế nào, hai phần ghép lại cũng vẫn đủ số bi ấy.
 
 ## Ví dụ
 
-Ta bắt đầu với số $4$.
+Ta làm quen với nhóm nhỏ trước, là số $4$.
 
 :::example Số 4 gồm 1 và mấy
 $4$ gồm $1$ và $\square$. Tìm số còn thiếu.
@@ -49,7 +49,7 @@ $4$ gồm $1$ và $\square$. Tìm số còn thiếu.
 Vậy $4$ gồm $1$ và $3$.
 :::
 
-Bây giờ em làm với số lớn hơn.
+Nhóm bi lớn hơn thì cách làm có đổi không? Em thử xem nhé.
 
 :::example Số 6 gồm 2 và mấy
 $6$ gồm $2$ và $\square$. Tìm số còn thiếu.
@@ -61,7 +61,7 @@ Vậy $6$ gồm $2$ và $4$.
 **Kiểm tra.** $6$ gồm $4$ và $2$ (đổi chỗ). Đúng.
 :::
 
-Tiếp theo em dùng cách đổi chỗ hai phần.
+Đôi khi em đã biết sẵn một cách tách, thì không cần đếm lại. Em chỉ việc đổi chỗ hai phần. Ta xem nó dùng thế nào.
 
 :::example Đổi chỗ hai phần
 Biết $7$ gồm $3$ và $4$. Hỏi $7$ gồm $4$ và mấy?
@@ -71,7 +71,7 @@ Biết $7$ gồm $3$ và $4$. Hỏi $7$ gồm $4$ và mấy?
 Vậy $7$ gồm $4$ và $3$.
 :::
 
-Cuối cùng em giải một bài toán trong cuộc sống.
+Còn chuyện chia kẹo vào hai đĩa thì sao? Em thử xem cách tách số giúp ích thế nào.
 
 :::example Chia kẹo vào hai đĩa
 Có $8$ cái kẹo chia vào hai đĩa. Đĩa thứ nhất có $3$ cái kẹo. Đĩa thứ hai có mấy cái kẹo?
@@ -84,9 +84,10 @@ Vậy đĩa thứ hai có $5$ cái kẹo.
 :::
 
 :::warning Những lỗi em hay gặp
-- **Hai phần không đủ cả nhóm.** Sai: $6$ gồm $4$ và $3$. Vì sao sai: $4$ và $3$ ghép lại thành bảy, không phải sáu. Đúng: $6$ gồm $4$ và $2$.
-- **Quên đổi chỗ vẫn đúng.** Sai: $7$ gồm $3$ và $4$ nhưng $7$ gồm $4$ và $3$ thì sai. Vì sao sai: đổi chỗ hai phần thì số lớn không đổi. Đúng: cả hai đều đúng.
-- **Đếm cả số đã biết.** Sai: $6$ gồm $2$ và $5$ vì đếm "hai, ba, bốn, năm, sáu". Vì sao sai: em đã đếm thừa số $2$. Đúng: đếm tiếp sau số $2$, được $4$ số.
+- **Hai phần không đủ cả nhóm.** Sai: $6$ gồm $4$ và $3$. Vì sao sai: ghép $4$ và $3$ lại, em được bảy chứ không phải sáu. Đúng: $6$ gồm $4$ và $2$.
+- **Quên đổi chỗ vẫn đúng.** Sai: nghĩ rằng $7$ gồm $3$ và $4$ thì đúng, còn $7$ gồm $4$ và $3$ thì sai. Vì sao sai: đổi chỗ hai phần thì số lớn vẫn giữ nguyên. Đúng: cả hai cách nói đều đúng.
+- **Đếm cả số đã biết.** Sai: $6$ gồm $2$ và $5$ vì đếm "hai, ba, bốn, năm, sáu". Vì sao sai: em đã đếm luôn cả số $2$. Đúng: đếm tiếp sau số $2$, được $4$ số.
+Chỗ này nhiều bạn hay nhầm, nên đừng lo nếu em cũng vậy. Em đếm thật chậm và chỉ vào từng viên bi là được.
 :::
 
 ## Thuật ngữ
@@ -104,12 +105,13 @@ Vậy đĩa thứ hai có $5$ cái kẹo.
 
 - Một số có thể gồm hai số nhỏ hơn: $5$ gồm $2$ và $3$.
 - Đổi chỗ hai phần thì số lớn không đổi.
-- Biết số lớn và một phần, đếm tiếp từ phần đã biết lên số lớn để tìm phần còn thiếu.
+- Biết số lớn và một phần, em đếm tiếp từ phần đã biết lên số lớn để tìm phần còn thiếu.
 - Hai phần phải ghép lại đủ cả nhóm.
+Em còn nhớ câu hỏi của Lan không? Tay trái giữ phần đã biết, tay phải giữ phần còn thiếu, và hai tay ghép lại vẫn đủ số bi ban đầu. Em làm thêm vài bài để cách tách số thành thói quen nhé.
 
 ## Luyện tập
 
-Mỗi bài có phần kiến thức và gợi ý. Em hãy tự làm trước, rồi mới bấm xem lời giải.
+Mỗi bài tập có phần kiến thức và một gợi ý để em bắt đầu. Em thử tự làm trước, rồi hãy bấm xem lời giải. Nếu chưa ra ngay cũng đừng lo, em cứ làm từng bước một.
 
 :::exercise
 $3$ gồm $1$ và $\square$. Tìm số còn thiếu.

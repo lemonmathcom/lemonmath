@@ -12,17 +12,17 @@ minutes: 15
 
 Your teacher asks $12$ children in your group: "Which fruit do you like best: orange, banana or apple?" They answer one by one: orange, banana, orange, apple, banana, banana, orange, apple, orange, banana, apple, orange. How many children like oranges best?
 
-You could count along the list. But with a long list it is easy to miss one or count one twice. This lesson shows you a tidier way to record and count.
+You could count along the list, and with a short list like this that works. But what if we asked the whole class, or the whole school? The longer the list, the easier it is to miss one child or count one twice. There is a tidy way to record the answers so that you can count them in one go and still be sure. Let's see how it works.
 
 ## Let's explore
 
-We take small steps with the list of answers above.
+We will go step by step, using the list of answers above. Each step does just one job.
 
-**Step 1: collect.** We asked each child and wrote down the answer. Each answer is one piece of **data**.
+**Step 1: collect.** We asked each child and wrote down the answer. Each answer we write down like this is one piece of **data**.
 
-**Step 2: sort.** We put the answers into three groups: orange, banana, apple.
+**Step 2: sort.** Looking at the list, only three fruits are named. So we put the answers into three groups: orange, banana, apple.
 
-**Step 3: count with tally marks.** Read the answers one at a time. For each answer, draw one stroke $/$ in the row of that fruit. After $5$ strokes, start a new group. You read the list only once.
+**Step 3: count with tally marks.** Now read the answers one at a time. For each answer, draw one stroke $/$ in the row of that fruit. Why make groups? A long line of strokes is hard to count, but a group of $5$ is quick to read. So start a new group after every $5$ strokes. This way you read the list only once.
 
 | Fruit | Tally marks | Number of children |
 |---|---|---|
@@ -30,7 +30,7 @@ We take small steps with the list of answers above.
 | Banana | //// | $4$ |
 | Apple | /// | $3$ |
 
-So $5$ children like oranges best. Check: $5+4+3=12$, which is the number of children we asked.
+Now we can read the answer straight from the table: $5$ children like oranges best. There is one more thing to do. Add the numbers in the table: $5+4+3=12$. That is exactly the number of children we asked, so we know we have not missed anyone.
 
 :::theorem Three steps for working with data
 1. **Collect:** ask or look, and write down each piece of data.
@@ -40,11 +40,11 @@ So $5$ children like oranges best. Check: $5+4+3=12$, which is the number of chi
 Finally, add up the numbers in the table. The total must equal the number of times you asked or looked.
 :::
 
-This last check helps you find out if you missed something or counted something twice.
+This last check is small, but it is worth doing. If the total does not match, you know you missed a child or counted one twice, and you can go back and count again.
 
 ## Examples
 
-We start by making a table from a short list.
+Let's make a table from a short list first. Follow the three steps as you go.
 
 :::example Colours of shirts
 Mai wrote down the shirt colours of $10$ children: red, blue, red, yellow, blue, blue, red, blue, yellow, blue. Make a data table.
@@ -62,7 +62,7 @@ Mai wrote down the shirt colours of $10$ children: red, blue, red, yellow, blue,
 Check: $3+5+2=10$, the number of children Mai wrote down. So the table is right.
 :::
 
-Once we have a table, we only need to look at it to answer questions.
+Once we have a table, we do not need to read the whole list again. We can look at the table and answer questions straight away. Let's try some.
 
 :::example Favourite sports
 The table shows how many children in Class 3A chose each sport:
@@ -86,7 +86,7 @@ $$9+6+4+5=24\ \text{(children)}.$$
 So football is the most popular, $5$ more children chose football than swimming, and there are $24$ children in the class.
 :::
 
-A table can also record data over time.
+A table is not only for counting children. It can also record data day by day, such as the exercise books a shop sells.
 
 :::example Selling exercise books
 A shop sold these numbers of exercise books in four days:
@@ -105,7 +105,7 @@ The smallest number in the table is $12$, for Thursday.
 So the shop sold $65$ books in the four days, and sold the fewest on Thursday.
 :::
 
-Sometimes a box in the table is empty. We use the total to find it.
+Sometimes one box in the table is empty. Don't worry: if you know the total, you can find the missing number by taking away the numbers you already have.
 
 :::example The missing box
 There are $30$ children in the class and each chose one colour. The number who chose yellow is missing:
@@ -121,9 +121,9 @@ Check: $12+9+9=30$. So $9$ children chose yellow.
 :::
 
 :::warning Mistakes to watch out for
-- **Missing or double counting.** Wrong: writing orange $6$ children when there are only $5$ answers "orange". Why it is wrong: you counted one answer twice. Right: draw a stroke as you read each answer, then add up to check the total.
-- **Not comparing with the total.** Wrong: not adding up the numbers in the table. Why it is wrong: you cannot tell whether the table is correct. Right: add the numbers and compare with the number of children asked.
-- **No unit in the answer.** Wrong: "Answer: $24$". Right: "Answer: $24$ children".
+- **Missing or double counting.** This is an easy one to slip on. Wrong: writing orange $6$ children when there are only $5$ answers "orange". Why it is wrong: you counted one answer twice. Right: draw a stroke as you read each answer, then add up to check the total.
+- **Not comparing with the total.** Wrong: not adding up the numbers in the table. Why it is wrong: then you cannot tell whether the table is correct. Right: add the numbers and compare with the number of children asked.
+- **No unit in the answer.** Wrong: "Answer: $24$". Right: "Answer: $24$ children". The unit tells the reader what you counted.
 :::
 
 ## Key terms
@@ -146,9 +146,11 @@ Check: $12+9+9=30$. So $9$ children chose yellow.
 - Reading a table: the biggest number is the "most", the smallest is the "least"; "how many more" means subtract.
 - Add the numbers in the table to check: the total must equal the number of times you asked.
 
+Back to our opening question: with a data table, you can see how many children like oranges without counting the whole list again. Remember one thing: after counting, add up to check, and then try the practice below.
+
 ## Practice
 
-Each exercise comes with what you need and how to start. Try it yourself first, then open the solution.
+Each exercise has a short reminder of what you need and a hint to get you started. Have a go on your own first, and don't worry if you get stuck. Then open the solution and compare.
 
 :::exercise
 You wrote down the animals children like: cat, dog, cat, fish, dog, cat, cat, fish. Make a data table (with a column of tally marks).

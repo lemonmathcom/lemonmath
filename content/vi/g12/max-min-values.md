@@ -11,23 +11,23 @@ minutes: 22
 - Áp dụng cho hàm đa thức, phân thức, căn thức, lượng giác và bài toán thực tế.
 :::
 
-Nhiệt độ trong một phòng thí nghiệm được theo dõi trong $5$ giờ. Sau $t$ giờ, nhiệt độ là $T(t)=t^3-6t^2+9t+20$ (°C), $0\le t\le 5$. Lúc bắt đầu phòng có $20$ °C, sau $1$ giờ là $24$ °C, sau $3$ giờ lại về $20$ °C. Trong suốt $5$ giờ đó, nhiệt độ cao nhất và thấp nhất là bao nhiêu?
+Nhiệt độ trong một phòng thí nghiệm được theo dõi trong $5$ giờ. Sau $t$ giờ, nhiệt độ là $T(t)=t^3-6t^2+9t+20$ (°C), $0\le t\le 5$. Lúc bắt đầu phòng có $20$ °C, sau $1$ giờ là $24$ °C, sau $3$ giờ lại về $20$ °C. Trong suốt $5$ giờ đó, nhiệt độ cao nhất và thấp nhất là bao nhiêu? Bạn thử nghĩ một lúc trước khi đọc tiếp.
 
-Bạn có thể nghĩ ngay đến cực đại $24$ °C lúc $t=1$. Nhưng câu trả lời không phải là $24$.
+Nhiều bạn sẽ nghĩ ngay đến cực đại $24$ °C lúc $t=1$. Nhưng câu trả lời không phải là $24$. Vì sao thì ta sẽ thấy ngay sau đây.
 
-"Lớn nhất, nhỏ nhất" là câu hỏi đứng sau rất nhiều quyết định: chọn kích thước để tốn ít vật liệu nhất, chọn giá bán để lãi nhiều nhất, chọn tốc độ để đỡ tốn nhiên liệu nhất. Ở lớp 10, ta đã tìm giá trị lớn nhất của hàm bậc hai nhờ đỉnh parabol. Đạo hàm cho ta một cách làm chung cho mọi hàm số liên tục trên một đoạn.
+Câu hỏi "lớn nhất, nhỏ nhất" nằm sau rất nhiều quyết định hằng ngày: chọn kích thước sao cho tốn ít vật liệu nhất, chọn giá bán sao cho lãi nhiều nhất, chọn tốc độ sao cho đỡ tốn nhiên liệu nhất. Ở lớp 10, bạn đã tìm giá trị lớn nhất của hàm bậc hai nhờ đỉnh parabol, nhưng cách đó chỉ dùng được cho một loại hàm. Với đạo hàm, ta có một cách làm chung cho mọi hàm số liên tục trên một đoạn.
 
 ## Giá trị lớn nhất và giá trị nhỏ nhất
 
 ### Khám phá: cực đại có phải là cao nhất?
 
-Ta tính nhiệt độ tại các giờ tròn:
+Để xem nhiệt độ thật sự thay đổi ra sao, ta tính nhiệt độ tại các giờ tròn:
 
 | $t$ | $0$ | $1$ | $2$ | $3$ | $4$ | $5$ |
 |---|---|---|---|---|---|---|
 | $T(t)$ | $20$ | $24$ | $22$ | $20$ | $24$ | $40$ |
 
-Đạo hàm $T'(t)=3t^2-12t+9=3(t-1)(t-3)$ cho biết $T$ có cực đại $24$ tại $t=1$ và cực tiểu $20$ tại $t=3$. Thế nhưng đến cuối buổi, $T(5)=40$, cao hơn hẳn cực đại. Cực đại chỉ so với các thời điểm **gần** nó; còn "cao nhất" phải so với **mọi** thời điểm.
+Đạo hàm $T'(t)=3t^2-12t+9=3(t-1)(t-3)$ cho ta biết $T$ có cực đại $24$ tại $t=1$ và cực tiểu $20$ tại $t=3$. Thế nhưng đến cuối buổi, $T(5)=40$, cao hơn hẳn cực đại. Chỗ này dễ nhầm: cực đại chỉ là điểm cao nhất so với các thời điểm **gần** nó, giống như đỉnh của một ngọn đồi nhỏ. Còn "cao nhất" thì phải so với **mọi** thời điểm.
 
 :::graph Nhiệt độ phòng thí nghiệm $T(t)=t^3-6t^2+9t+20$
 alt: Đồ thị trên đoạn từ 0 đến 5, có cực đại tại t bằng 1 với giá trị 24, cực tiểu tại t bằng 3 với giá trị 20, và đạt giá trị cao nhất 40 tại đầu mút t bằng 5
@@ -46,7 +46,7 @@ Cho hàm số $y=f(x)$ xác định trên tập $D$.
 - Số $m$ là **giá trị nhỏ nhất** của $f$ trên $D$ nếu $f(x)\ge m$ với mọi $x\in D$ **và** có $x_0\in D$ sao cho $f(x_0)=m$. Kí hiệu $m=\min\limits_{D} f(x)$.
 :::
 
-Điều kiện "có $x_0$" rất quan trọng. Chẳng hạn $f(x)=x^2\le 4$ với mọi $x\in(0; 2)$, nhưng không có $x$ nào trong khoảng đó cho $f(x)=4$; vì vậy $4$ **không** phải giá trị lớn nhất của $f$ trên $(0; 2)$, và thực ra $f$ không có giá trị lớn nhất trên khoảng này.
+Điều kiện "có $x_0$" trong định nghĩa rất quan trọng, và dễ bị bỏ qua. Hãy xem một ví dụ: $f(x)=x^2\le 4$ với mọi $x\in(0; 2)$. Nhưng không có $x$ nào trong khoảng đó cho $f(x)=4$. Vì vậy $4$ **không** phải giá trị lớn nhất của $f$ trên $(0; 2)$, và thực ra $f$ không có giá trị lớn nhất trên khoảng này.
 
 ## Trên một đoạn
 
@@ -54,11 +54,11 @@ Cho hàm số $y=f(x)$ xác định trên tập $D$.
 Mọi hàm số liên tục trên đoạn $[a; b]$ đều có giá trị lớn nhất và giá trị nhỏ nhất trên đoạn đó.
 :::
 
-Giá trị lớn nhất chỉ có thể đạt ở hai nơi: tại một đầu mút, hoặc tại một điểm bên trong mà đồ thị "quay đầu", tức là nơi $f'=0$ hoặc $f'$ không xác định. Ở mọi điểm khác bên trong, $f'$ khác $0$, nên hàm số vẫn đang tăng hoặc giảm và còn có giá trị lớn hơn ở gần đó. Vì vậy ta chỉ cần so sánh vài giá trị.
+Ta cần so sánh bao nhiêu giá trị? Ít hơn bạn nghĩ. Giá trị lớn nhất chỉ có thể đạt ở hai nơi: tại một đầu mút, hoặc tại một điểm bên trong mà đồ thị "quay đầu", tức là nơi $f'=0$ hoặc $f'$ không xác định. Vì sao không thể ở chỗ khác? Ở mọi điểm khác bên trong, $f'$ khác $0$, nên hàm số vẫn đang tăng hoặc giảm, và gần đó luôn còn một giá trị lớn hơn. Vì vậy ta chỉ cần so sánh vài giá trị.
 
-**Hiểu sâu hơn.** Vì sao cần cả hai điều kiện "liên tục" và "đoạn"? Nếu bỏ đầu mút, hàm $f(x)=x$ trên khoảng $(0; 1)$ tiến gần $1$ mà không bao giờ bằng $1$, nên không có giá trị lớn nhất. Nếu bỏ tính liên tục, hàm số $f(x)=\dfrac1x$ với $x\neq0$ và $f(0)=0$ xác định trên cả đoạn $[-1; 1]$, nhưng nhận giá trị lớn tuỳ ý khi $x$ dần về $0$ từ bên phải.
+**Hiểu sâu hơn.** Vì sao định lí cần cả hai điều kiện "liên tục" và "đoạn"? Thử bỏ từng điều kiện một. Bỏ đầu mút: hàm $f(x)=x$ trên khoảng $(0; 1)$ tiến gần $1$ mà không bao giờ bằng $1$, nên không có giá trị lớn nhất. Bỏ tính liên tục: hàm số $f(x)=\dfrac1x$ với $x\neq0$ và $f(0)=0$ xác định trên cả đoạn $[-1; 1]$, nhưng nhận giá trị lớn tuỳ ý khi $x$ dần về $0$ từ bên phải, nên cũng không có giá trị lớn nhất.
 
-**Kết nối.** Bài này dựa trên cực trị ở bài trước, và là bước then chốt của các bài toán tối ưu thực tế ở cuối chương. Các bước làm như sau:
+**Kết nối.** Bài này nối tiếp phần cực trị ở bài trước, và cũng là bước then chốt của các bài toán tối ưu thực tế ở cuối chương. Từ những điều trên, ta có ba bước làm:
 
 1. Tìm các điểm $x_1, x_2, \dots$ thuộc **khoảng** $(a; b)$ tại đó $f'(x)=0$ hoặc $f'(x)$ không xác định.
 2. Tính $f(a)$, $f(x_1)$, $f(x_2)$, …, $f(b)$.
@@ -78,7 +78,7 @@ $$f(0)=1,\qquad f(1)=-1,\qquad f(2)=8-6+1=3.$$
 Vậy $\max\limits_{[0; 2]} f(x)=3$ (tại $x=2$) và $\min\limits_{[0; 2]} f(x)=-1$ (tại $x=1$).
 :::
 
-Bước loại nghiệm nằm ngoài đoạn rất dễ quên. Ví dụ sau có một nghiệm bị loại và một nghiệm vô tỉ.
+Bước loại nghiệm nằm ngoài đoạn rất dễ quên. Ví dụ sau có một nghiệm phải loại và một nghiệm vô tỉ, nên bạn chú ý từng bước nhé.
 
 :::example Hàm bậc bốn
 Tìm giá trị lớn nhất và giá trị nhỏ nhất của $f(x)=x^4-4x^2+5$ trên đoạn $[-1; 3]$.
@@ -94,7 +94,7 @@ $$f(-1)=1-4+5=2,\quad f(0)=5,\quad f(\sqrt2)=4-8+5=1,\quad f(3)=81-36+5=50.$$
 Vậy $\max\limits_{[-1; 3]} f(x)=50$ tại $x=3$ và $\min\limits_{[-1; 3]} f(x)=1$ tại $x=\sqrt2$.
 :::
 
-Với hàm chứa căn, ta giải phương trình $f'(x)=0$ cẩn thận, có điều kiện để bình phương.
+Với hàm chứa căn, phương trình $f'(x)=0$ cần giải cẩn thận hơn. Trước khi bình phương hai vế, ta phải ghi điều kiện, nếu không dễ nhận nhầm một nghiệm không thoả mãn.
 
 :::example Hàm chứa căn
 Tìm giá trị lớn nhất và giá trị nhỏ nhất của $f(x)=x+\sqrt{4-x^2}$.
@@ -112,7 +112,7 @@ Ta có $f(-2)=-2$, $f(\sqrt2)=\sqrt2+\sqrt2=2\sqrt2$, $f(2)=2$.
 Vậy giá trị lớn nhất là $2\sqrt2$ (tại $x=\sqrt2$), giá trị nhỏ nhất là $-2$ (tại $x=-2$).
 :::
 
-Với hàm lượng giác, đặt ẩn phụ thường đưa bài toán về một đa thức trên một đoạn.
+Với hàm lượng giác, đặt ẩn phụ thường đưa bài toán về dạng quen thuộc hơn: một đa thức trên một đoạn. Cái khó là phải tìm đúng đoạn đó.
 
 :::example Hàm lượng giác và ẩn phụ
 Tìm giá trị lớn nhất và giá trị nhỏ nhất của $f(x)=2\sin x+\cos 2x$ trên đoạn $[0; \pi]$.
@@ -132,7 +132,7 @@ Vậy $\max\limits_{[0; \pi]} f(x)=\dfrac32$ (khi $\sin x=\dfrac12$, tức $x=\d
 
 ## Trên một khoảng
 
-Trên một khoảng (không chứa đầu mút), hàm số có thể **không có** giá trị lớn nhất hoặc nhỏ nhất. Khi đó ta lập bảng biến thiên và đọc kết quả từ bảng.
+Trên một khoảng, ta không có đầu mút để so sánh, và hàm số có thể **không có** giá trị lớn nhất hoặc nhỏ nhất. Vì vậy ta lập bảng biến thiên rồi đọc kết quả từ bảng: hàm số đi lên, đi xuống ra sao, và có thật sự đạt được giá trị đó hay không.
 
 :::example Giá trị nhỏ nhất trên một khoảng
 Tìm giá trị nhỏ nhất của $f(x)=x+\dfrac{9}{x}$ trên khoảng $(0; +\infty)$.
@@ -161,7 +161,7 @@ point: (3, 6) "(3; 6)" below
 
 ## Bài toán thực tế
 
-Bây giờ ta trả lời câu hỏi về nhiệt độ ở đầu bài. Trong bài toán thực tế, đầu mút của đoạn thường là thời điểm bắt đầu và kết thúc, nên không được bỏ qua.
+Giờ ta quay lại câu hỏi về nhiệt độ ở đầu bài. Trong bài toán thực tế, đầu mút của đoạn thường là lúc bắt đầu và lúc kết thúc. Những lúc ấy cũng là thời điểm thật, nên không được bỏ qua.
 
 :::example Nhiệt độ cao nhất và thấp nhất
 Nhiệt độ phòng là $T(t)=t^3-6t^2+9t+20$ (°C), $0\le t\le 5$ (giờ). Tìm nhiệt độ cao nhất và thấp nhất trong $5$ giờ.
@@ -175,9 +175,10 @@ Vậy nhiệt độ cao nhất là $40$ °C (lúc kết thúc, $t=5$), thấp nh
 
 :::warning Những sai lầm thường gặp
 - **Lấy cực đại làm giá trị lớn nhất.** Sai: "$T$ đạt cực đại $24$ nên nhiệt độ cao nhất là $24$ °C". Lí do sai: chưa so sánh với đầu mút, mà $T(5)=40$. Đúng: luôn tính cả $f(a)$ và $f(b)$.
-- **Giữ nghiệm nằm ngoài đoạn.** Sai: tìm giá trị nhỏ nhất của $x^3-3x+1$ trên $[0; 2]$ mà tính cả $f(-1)=3$. Lí do sai: $-1$ không thuộc đoạn đang xét. Đúng: chỉ xét nghiệm thuộc $(a; b)$.
+- **Giữ nghiệm nằm ngoài đoạn.** Sai: tìm giá trị nhỏ nhất của $x^3-3x+1$ trên $[0; 2]$ mà vẫn tính cả $f(-1)=3$. Lí do sai: $-1$ không thuộc đoạn đang xét. Đúng: chỉ xét nghiệm thuộc $(a; b)$.
 - **Sai miền của ẩn phụ.** Sai: đặt $t=\sin x$ với $x\in[0; \pi]$ rồi xét $t\in[-1; 1]$, được giá trị nhỏ nhất $g(-1)=-3$. Lí do sai: trên $[0; \pi]$ thì $\sin x\ge 0$. Đúng: $t\in[0; 1]$, giá trị nhỏ nhất là $1$.
-- **Nói có giá trị lớn nhất khi không đạt được.** Sai: "$x+\dfrac9x$ có giá trị lớn nhất là $+\infty$". Lí do sai: $+\infty$ không phải là một số và không có $x$ nào cho giá trị đó. Đúng: hàm số không có giá trị lớn nhất trên $(0; +\infty)$.
+- **Nói có giá trị lớn nhất khi không đạt được.** Sai: "$x+\dfrac9x$ có giá trị lớn nhất là $+\infty$". Lí do sai: $+\infty$ không phải là một số, và không có $x$ nào cho giá trị đó. Đúng: hàm số không có giá trị lớn nhất trên $(0; +\infty)$.
+Mục đầu tiên là chỗ nhiều bạn hay nhầm nhất. Chỉ cần tập thói quen tính cả hai đầu mút trước khi kết luận là tránh được.
 :::
 
 ## Thuật ngữ
@@ -200,10 +201,11 @@ Vậy nhiệt độ cao nhất là $40$ °C (lúc kết thúc, $t=5$), thấp nh
 - Trên đoạn: tìm nghiệm của $f'$ (và điểm $f'$ không xác định) **trong** $(a; b)$ → tính $f$ tại đó và tại $a$, $b$ → so sánh.
 - Trên khoảng: lập bảng biến thiên; có thể không có giá trị lớn nhất hoặc nhỏ nhất.
 - Đặt ẩn phụ thì phải tìm đúng miền giá trị của ẩn phụ.
+Quay lại câu hỏi nhiệt độ ở đầu bài: đáp số không phải là cực đại, vì ta còn phải so sánh cả đầu mút. Bạn nhớ một điều thôi: cực đại là điểm cao nhất ở gần, còn giá trị lớn nhất là điểm cao nhất ở mọi nơi.
 
 ## Luyện tập
 
-Mỗi bài có phần kiến thức và gợi ý các bước. Hãy tự làm trước, rồi mới bấm xem lời giải.
+Mỗi bài đều có phần kiến thức cần dùng và vài bước gợi ý để bạn bắt đầu. Hãy tự làm trước, đừng vội mở lời giải. Nếu bị kẹt, bạn xem gợi ý một chút, làm tiếp, rồi mới mở lời giải để đối chiếu.
 
 :::exercise
 Tìm giá trị lớn nhất và giá trị nhỏ nhất của $y=x^3-3x^2$ trên đoạn $[-1; 3]$.

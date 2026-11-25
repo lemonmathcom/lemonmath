@@ -12,17 +12,18 @@ minutes: 15
 
 Nam has $23$ marbles. His friend Minh gives him $4$ more marbles. How many marbles does Nam have altogether?
 
-You could count on one at a time: $24, 25, 26, 27$. But if you add many marbles, counting takes a long time. This lesson shows you a quicker way, using tens and ones.
+You could count on one at a time: $24, 25, 26, 27$. That works. But what if Minh gave Nam a lot more marbles? Counting would take ages. There is a quicker way, and it starts by looking at the tens and the ones separately.
 
 ## Let's explore
 
-You learned in the last lesson that a two-digit number is made of tens and ones. The number $23$ has $2$ tens and $3$ ones.
+Remember from the last lesson that a two-digit number is made of tens and ones. Nam's number, $23$, has $2$ tens and $3$ ones. Keep those two parts in mind, because we will work with them one at a time.
 
 - Nam has $2$ tens of marbles and $3$ single marbles.
 - Minh gives $4$ more single marbles. Now the single marbles are $3+4=7$.
 - The tens stay at $2$ tens, because Nam did not get any new group of ten.
+The tens stand still. Only the ones change.
 
-So $2$ tens and $7$ ones make $27$. We have $23+4=27$.
+Put the two parts back together: $2$ tens and $7$ ones make $27$. So Nam has $27$ marbles, and we write $23+4=27$.
 
 :::graph On the number line: from 23, jump 4 to reach 27
 alt: A number line from 20 to 30 with the points 23 and 27 marked and the stretch from 23 to 27 highlighted
@@ -40,11 +41,11 @@ To work out $23+4$:
 3. Write the answer: $2$ tens and $7$ ones make $27$.
 :::
 
-This works because you only add single marbles. The number of tens does not change, so you keep the tens the same.
+Why do we keep the tens the same? Because Minh gave only single marbles and no new group of ten. The number of tens does not change, so we only add in the ones.
 
 ## Examples
 
-We start with the simplest sum.
+We try Nam's marbles again, this time written as a sum.
 
 :::example Work out $23+4$
 **Solution.** $23$ has $2$ tens and $3$ ones. Add the ones: $3+4=7$. Keep the tens the same: $2$:
@@ -52,7 +53,7 @@ $$23+4=27.$$
 So $23+4=27$.
 :::
 
-Now a similar sum with different numbers.
+Now try different numbers. The method stays the same.
 
 :::example Work out $52+6$
 **Solution.** $52$ has $5$ tens and $2$ ones. Add the ones: $2+6=8$. Keep the tens the same: $5$:
@@ -60,7 +61,7 @@ $$52+6=58.$$
 So $52+6=58$.
 :::
 
-When the ones digit is $0$, the sum is even easier.
+There is one special case: the ones digit is $0$. Then the sum is even easier.
 
 :::example Work out $40+5$
 **Solution.** $40$ has $4$ tens and $0$ ones. Add the ones: $0+5=5$. Keep the tens the same: $4$:
@@ -68,7 +69,7 @@ $$40+5=45.$$
 So $40+5=45$.
 :::
 
-When the one-digit number comes first, you can swap the two numbers to make it easier.
+Sometimes the one-digit number comes first. Do not worry if that looks odd at first. You can swap the two numbers to make it easier.
 
 :::example Work out $6+31$
 **Solution.** Swapping the addends does not change the sum, so $6+31=31+6$. Add the ones: $1+6=7$. Keep the tens the same: $3$:
@@ -76,7 +77,7 @@ $$31+6=37.$$
 So $6+31=37$.
 :::
 
-Now use addition to answer a question from everyday life.
+Addition also helps you keep track of the pages in a book. Here is Ha's problem.
 
 :::example Reading
 Ha has read $35$ pages of a storybook. Today she reads $3$ more pages. How many pages has she read altogether?
@@ -89,9 +90,9 @@ So Ha has read $38$ pages altogether.
 :::
 
 :::warning Mistakes to watch out for
-- **Adding to the tens.** Wrong: $23+4=63$. Why it is wrong: you added $4$ to the $2$ tens. Right: $4$ is $4$ ones, so $23+4=27$.
-- **Forgetting the tens.** Wrong: $23+4=7$. Why it is wrong: you only worked out $3+4$ and forgot the $2$ tens. Right: $23+4=27$.
-- **No unit in a word problem.** Wrong: "Answer: $38$". Right: "Answer: $38$ pages".
+- **Adding to the tens.** Plenty of people slip up here. Wrong: $23+4=63$, because you added $4$ to the $2$ tens. Right: $4$ is $4$ ones, so $23+4=27$.
+- **Forgetting the tens.** Wrong: $23+4=7$, because you only worked out $3+4$ and forgot the $2$ tens. Right: $23+4=27$.
+- **No unit in a word problem.** Wrong: "Answer: $38$". Right: "Answer: $38$ pages". Write the unit after the number, so the answer says what was counted.
 :::
 
 ## Key terms
@@ -113,10 +114,11 @@ So Ha has read $38$ pages altogether.
 - Example: $23+4=27$ because $3+4=7$ and the tens stay $2$.
 - Swapping the addends does not change the sum: $6+31=31+6$.
 - Questions with "more" or "altogether" usually need addition; remember the unit in the answer.
+So that answers the question we began with: Nam's marbles are found by adding the ones and keeping the tens the same. A few practice questions will make this feel natural.
 
 ## Practice
 
-Each exercise comes with what you need and how to start. Try it yourself first, then open the solution.
+Each exercise comes with what you need to remember and a hint to start you off. Try it yourself first, and open the solution only when you want to check or when you are stuck.
 
 :::exercise
 Work out $36+2$.

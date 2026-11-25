@@ -10,17 +10,17 @@ minutes: 20
 - Recognise equations with no solution or infinitely many solutions, and check answers on a calculator.
 :::
 
-At the school canteen, Mai buys $2$ cups of milk tea and $1$ cake for $65$ thousand đồng. Tú buys $1$ cup of milk tea and $1$ cake for $40$ thousand đồng. How much is a cup of milk tea, and how much is a cake?
+At the school canteen, Mai buys $2$ cups of milk tea and $1$ cake for $65$ thousand đồng. Tú buys $1$ cup of milk tea and $1$ cake for $40$ thousand đồng. We know the total on each bill, but not the price of each item. How much is a cup of milk tea, and how much is a cake?
 
-Let the price of milk tea be $x$ and the price of a cake be $y$ (thousand đồng). Then $2x+y=65$ and $x+y=40$. In the last lesson we could only **check** a solution; in this lesson we learn how to **find** it.
+Let the price of milk tea be $x$ and the price of a cake be $y$ (thousand đồng). Then $2x+y=65$ and $x+y=40$. In the last lesson we could only **check** whether a pair of numbers is a solution. Once we can **find** the solution, we no longer need to guess, and that is what we do in this lesson.
 
 ## The idea: get rid of one unknown
 
 ### Explore: comparing the two bills
 
-The two bills differ by exactly $1$ cup of milk tea, and by $65-40=25$ thousand đồng. So a cup of milk tea costs $25$ thousand đồng, and a cake costs $40-25=15$ thousand đồng.
+Let us compare the two bills. They differ by exactly $1$ cup of milk tea, and the difference in money is $65-40=25$ thousand đồng. So that difference is the price of a cup of milk tea: $25$ thousand đồng. Once we know that, the cake costs $40-25=15$ thousand đồng.
 
-We removed the unknown $y$ by subtracting the equations, which left an equation in one unknown. Every method for simultaneous equations follows this idea: **transform the equations until one of them has only one unknown**. There are two ways to do it: the substitution method and the elimination method.
+Just now we removed the unknown $y$ by subtracting one equation from the other, which left a single equation in one unknown, and that one we can solve straight away. Every method for simultaneous equations follows this idea: **transform the equations until one of them has only one unknown**. There are two familiar ways to do it: the substitution method and the elimination method. We take them one at a time.
 
 ## The substitution method
 
@@ -49,7 +49,7 @@ plot: 10 - 3x
 point: (3, 1) "(3, 1)" right
 :::
 
-Not every pair of equations has exactly one solution. When we substitute, both unknowns may disappear.
+Not every pair of equations has exactly one solution. Sometimes, after substituting, both unknowns disappear, and we have to look at what is left to see whether it is true or false. Do not worry if this looks strange at first; the example below shows both possibilities.
 
 :::example No solution and infinitely many solutions
 Solve: a) $\begin{cases} x+y=2\\ 2x+2y=5 \end{cases}$ b) $\begin{cases} x-y=1\\ 3x-3y=3 \end{cases}$
@@ -61,11 +61,11 @@ $$\begin{aligned} \text{a) }& y=2-x:\quad 2x+2(2-x)=5\iff 0x=1;\\ \text{b) }& y=
 So a) has no solution, because no $x$ gives $0x=1$. And b) has infinitely many solutions, because every $x$ satisfies $0x=0$; the solutions are $(x, x-1)$ for any $x$.
 :::
 
-Geometrically: in a) the lines $y=2-x$ and $y=2.5-x$ are parallel; in b) both equations describe the same line.
+It helps to see this geometrically. In a) the lines $y=2-x$ and $y=2.5-x$ are parallel, so they never meet and there is no solution. In b) both equations describe the same line, so every point on it is a solution.
 
 ## The elimination method
 
-When the coefficients of the same unknown in the two equations are **equal** or **opposite**, we subtract or add the equations so that this unknown disappears.
+This second method uses exactly what we did with the two bills. When the coefficients of the same unknown in the two equations are **equal** or **opposite**, we subtract or add the equations so that this unknown disappears. Why may we do that? Because adding (or subtracting) the two sides of two true equations gives another true equation.
 
 :::definition The elimination method
 1. Multiply both sides of each equation by a suitable number (if needed) so that the coefficients of one unknown are equal or opposite.
@@ -83,7 +83,7 @@ $$\begin{aligned} 8x&=16\iff x=2;\\ 3\cdot2+2y&=12\iff 2y=6\iff y=3. \end{aligne
 So the solution is $(2, 3)$.
 :::
 
-If the coefficients are not yet equal or opposite, we multiply first. Remember to multiply **both sides**, including the right-hand side.
+If the coefficients are not yet equal or opposite, we first multiply each equation by a suitable number. Here is a spot where many people slip: we must multiply **both sides**, including the right-hand side.
 
 :::example Multiply, then add
 Solve $\begin{cases} 2x+3y=8\\ 3x-2y=-1 \end{cases}$
@@ -97,7 +97,7 @@ So the solution is $(1, 2)$.
 **Check.** $3\cdot1-2\cdot2=-1$, which fits the second equation.
 :::
 
-Now we solve the canteen problem with the method we have just learnt.
+Now we go back to the canteen and solve Mai and Tú's problem with the method we have just learnt. It is the same as subtracting the two bills at the start, only written with equations.
 
 :::example Milk tea and cakes
 Solve $\begin{cases} 2x+y=65\\ x+y=40 \end{cases}$ where $x$ and $y$ are the prices of milk tea and of a cake (thousand đồng).
@@ -110,12 +110,12 @@ So a cup of milk tea costs $25$ thousand đồng and a cake costs $15$ thousand 
 :::
 
 :::tip Checking on a calculator
-Many scientific calculators have a mode for solving two simultaneous linear equations: choose that mode, enter $a$, $b$, $c$ of each equation $ax+by=c$ in turn, and the calculator gives $x$ and $y$. Use it to **check**, but still write out the solution by hand.
+Many scientific calculators have a mode for solving two simultaneous linear equations. Choose that mode, enter $a$, $b$, $c$ of each equation $ax+by=c$ in turn, and the calculator gives $x$ and $y$. Use it to **check** your answer, but still write out the solution by hand, because what we are learning is the method, not just the answer.
 :::
 
 :::warning Common mistakes
-- **Forgetting to multiply the right-hand side.** Wrong: multiplying $2x+3y=8$ by $2$ gives $4x+6y=8$. Why it is wrong: both sides must be multiplied. Right: $4x+6y=16$.
-- **Sign errors when subtracting.** Wrong: $(5x-2y)-(3x+2y)=2x$. Why it is wrong: $-2y-2y=-4y$. Right: $2x-4y$; when the coefficients are opposite you should **add**.
+- **Forgetting to multiply the right-hand side.** Wrong: multiplying $2x+3y=8$ by $2$ gives $4x+6y=8$. Why it is wrong: both sides must be multiplied, including the right-hand side. Right: $4x+6y=16$.
+- **Sign errors when subtracting.** Wrong: $(5x-2y)-(3x+2y)=2x$. Why it is wrong: $-2y-2y=-4y$, and those two terms do not cancel. Right: $2x-4y$; when the coefficients are opposite you should **add**.
 - **The wrong conclusion from $0x=1$.** Wrong: "$0x=1$, so $x=0$". Why it is wrong: $0\cdot0=0\neq1$. Right: $0x=1$ has no solution, so the simultaneous equations have no solution.
 :::
 
@@ -138,10 +138,11 @@ Many scientific calculators have a mode for solving two simultaneous linear equa
 - Substitution: write one unknown in terms of the other and substitute into the other equation.
 - Elimination: make the coefficients of one unknown equal (then subtract) or opposite (then add); multiply both sides when needed.
 - If you reach $0x=c$ with $c\neq0$: no solution. If you reach $0x=0$: infinitely many solutions.
+Back to the canteen: once one unknown disappears, the price of each item follows. What to remember is that every method leads to an equation in one unknown. Keep practising, and you will soon pick the quicker method at a glance.
 
 ## Practice
 
-Each exercise comes with what you need and some steps to start. Try it yourself first, then open the solution.
+Each exercise gives you what you need and a few steps to start with. Try it yourself first, look at the steps if you get stuck, and open the solution only to check your work. A slip now and then is fine: it often shows us exactly what to remember.
 
 :::exercise
 Solve $\begin{cases} x=2y\\ x+y=9 \end{cases}$ by substitution.

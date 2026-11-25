@@ -10,13 +10,13 @@ minutes: 20
 - Solve real-life problems: water tanks, painting columns, conical hats, sand piles.
 :::
 
-On the roofs of many Vietnamese homes stands a cylindrical water tank; in the fields, the conical hat (nón lá) shades the farmer from the sun; on building sites, poured sand forms a cone by itself. Very everyday questions follow: how many litres does the tank hold, and how many days will it last? How much leaf does one hat need? How many lorry loads will the sand pile take?
+On the roofs of many Vietnamese homes stands a cylindrical water tank. In the fields, the conical hat (nón lá) shades the farmer from the sun. On building sites, poured sand forms a cone by itself. Very everyday questions follow. How many litres does the tank hold, and how many days will it last? How much leaf does one hat need? How many lorry loads will the sand pile take?
 
-To answer them, we need to measure the first two "round" solids: the cylinder and the cone.
+To answer them, we need to measure the first two "round" solids: the cylinder and the cone. Once we can measure them, a few sums replace a lot of guessing.
 
 ## The cylinder
 
-Turn a rectangle $OABO'$ through one full turn about the fixed side $OO'$, and we get a **cylinder**. The sides $OA$ and $O'B$ sweep out the two **bases**, two equal discs in parallel planes; the side $AB$ sweeps out the **curved surface**, and each position of $AB$ is a **generator**. The length $AB$ is the **height** $h$, and the length $OA$ is the **base radius** $r$.
+Take a rectangle $OABO'$ and turn it through one full turn about the fixed side $OO'$. The solid it sweeps out is a **cylinder**. The sides $OA$ and $O'B$ sweep out the two **bases**: two equal discs in parallel planes. The side $AB$ sweeps out the **curved surface**, and each position of $AB$ is a **generator**. The length $AB$ is the **height** $h$, and the length $OA$ is the **base radius** $r$.
 
 :::diagram A cylinder with base radius $r$ and height $h$
 alt: An upright cylinder with circular bases centred at O and O', radius r and height h; the back half of the lower base is dashed
@@ -84,9 +84,9 @@ label 2.4,2 "h"
 
 ### Explore: unrolling the curved surface
 
-Imagine peeling the label off a cylindrical can and laying it flat: we get a **rectangle**. One side is the height $h$; the other side is the circumference of the base, $2\pi r$. Hence the curved surface area is $2\pi r\cdot h$.
+Imagine peeling the label off a cylindrical can and laying it flat. We get a **rectangle**. One side is the height $h$. The other side is the circumference of the base, $2\pi r$, because the label wraps once round the can. The area of a rectangle is length times width, so the curved surface area is $2\pi r\cdot h$.
 
-The volume of a cylinder is found as for a right prism (grade 7): base area times height.
+What about the volume? A cylinder is like a right prism (grade 7): the volume is the base area times the height. The formulae we need are in the box below.
 
 :::theorem Cylinder with base radius $r$ and height $h$
 $$S_{\text{curved}}=2\pi rh,\qquad S_{\text{total}}=2\pi rh+2\pi r^2,\qquad V=\pi r^2h.$$
@@ -126,7 +126,7 @@ So a full tank lasts $2$ whole days (it runs short on the third day).
 
 ## The cone
 
-Turn a triangle $SOA$, right-angled at $O$, through one full turn about the fixed side $SO$, and we get a **cone**. The side $OA$ sweeps out the **base** (a disc of radius $r=OA$), the side $SA$ sweeps out the **curved surface**, and each position of $SA$ is a generator of length $l$, the **slant height**. The point $S$ is the **vertex**, and $SO=h$ is the **height**. By Pythagoras' theorem, $l^2=r^2+h^2$.
+Now replace the rectangle with a triangle $SOA$, right-angled at $O$, and turn it through one full turn about the fixed side $SO$. We get a **cone**. The side $OA$ sweeps out the **base**, a disc of radius $r=OA$. The side $SA$ sweeps out the **curved surface**, and each position of $SA$ is a generator of length $l$, the **slant height**. The point $S$ is the **vertex**, and $SO=h$ is the **height**. The triangle is right-angled, so by Pythagoras' theorem, $l^2=r^2+h^2$.
 
 :::diagram A cone with vertex $S$, base radius $r$, height $h$ and slant height $l$
 alt: A cone with vertex S and base centre O; the radius OA equals r, the height SO equals h and is perpendicular to OA, the slant height SA equals l
@@ -170,11 +170,11 @@ label 1.3,2.2 "l"
 
 ### Why is $S_{\text{curved}}=\pi rl$?
 
-Cut the curved surface of a cone along a generator and lay it flat: we get a **sector** of radius $l$. The arc length of the sector equals the circumference of the base, $2\pi r$. By the lesson on [the area of a sector](lesson:arc-length-sector-area), $S_{\text{sector}}=\dfrac{l_{\text{arc}}\cdot R}{2}$, so
+We do the same as for the cylinder: cut the curved surface of a cone along a generator and lay it flat. This time we get a **sector** of radius $l$. The arc of the sector is the base circle opened out, so its length equals the circumference of the base, $2\pi r$. By the lesson on [the area of a sector](lesson:arc-length-sector-area), the area of a sector is $S_{\text{sector}}=\dfrac{l_{\text{arc}}\cdot R}{2}$, so
 
 $$S_{\text{curved}}=\frac{2\pi r\cdot l}{2}=\pi rl.$$
 
-As for the volume: fill a cone with water and pour it into a cylinder with the same base and the same height, and it takes exactly $3$ cones to fill it. The volume of a cone is $\dfrac13$ of the volume of the cylinder with the same base and height.
+And the volume? Imagine filling a cone with water and pouring it into a cylinder with the same base and the same height. It takes exactly $3$ cones to fill the cylinder. So the volume of a cone is $\dfrac13$ of the volume of the cylinder with the same base and height.
 
 :::theorem Cone with base radius $r$, height $h$ and slant height $l$
 $$S_{\text{curved}}=\pi rl,\qquad S_{\text{total}}=\pi rl+\pi r^2,\qquad V=\frac13\pi r^2h.$$
@@ -203,13 +203,13 @@ So about $1571$ cm² of leaf is needed for one layer, and the flat sector has an
 :::
 
 :::warning Common mistakes
-- **Using the height instead of the slant height.** Wrong: $S_{\text{curved}}=\pi rh$. Right: $S_{\text{curved}}=\pi rl$ with $l=\sqrt{r^2+h^2}$.
-- **Forgetting the $\dfrac13$.** Wrong: $V_{\text{cone}}=\pi r^2h$. Right: $V_{\text{cone}}=\dfrac13\pi r^2h$.
-- **Using the diameter instead of the radius.** If the diameter is $1$ m, then $r=0.5$ m; mixing them up makes the volume $4$ times too big.
-- **Not converting units.** $1$ m³ $=1000$ dm³ $=1000$ litres.
+- **Using the height instead of the slant height.** Wrong: $S_{\text{curved}}=\pi rh$. Many students slip here, because the curved surface of a cone leans along the slant height. Right: $S_{\text{curved}}=\pi rl$ with $l=\sqrt{r^2+h^2}$.
+- **Forgetting the $\dfrac13$.** Wrong: $V_{\text{cone}}=\pi r^2h$. Right: $V_{\text{cone}}=\dfrac13\pi r^2h$, since a cone is only a third of the cylinder with the same base and height.
+- **Using the diameter instead of the radius.** If the diameter is $1$ m, then $r=0.5$ m. Mixing them up makes the volume $4$ times too big.
+- **Not converting units.** Change every measurement to one unit before you calculate: $1$ m³ $=1000$ dm³ $=1000$ litres.
 :::
 
-**Connections.** Both curved-surface formulae come from **unrolling**: a rectangle (cylinder) and a sector (cone), using the circumference and the area of a sector from the Circles chapter. The volume of a cylinder extends the formula for a right prism (grade 7), and the volume of a cone looks like that of a regular pyramid ($\dfrac13$ base times height) from grade 8. The next lesson, [spheres](lesson:spheres), is the third "round" solid.
+**Connections.** Both curved-surface formulae come from **unrolling**: a rectangle (cylinder) and a sector (cone). We use the circumference and the area of a sector from the Circles chapter. The volume of a cylinder extends the formula for a right prism (grade 7), and the volume of a cone looks like that of a regular pyramid ($\dfrac13$ base times height) from grade 8. We meet the third "round" solid in the next lesson, [spheres](lesson:spheres).
 
 ## Key terms
 
@@ -230,10 +230,11 @@ So about $1571$ cm² of leaf is needed for one layer, and the flat sector has an
 - Cone: $l=\sqrt{r^2+h^2}$, $S_{\text{curved}}=\pi rl$, $S_{\text{total}}=\pi rl+\pi r^2$, $V=\dfrac13\pi r^2h$.
 - Unrolled: the curved surface of a cylinder is a $2\pi r\times h$ rectangle; that of a cone is a sector of radius $l$ with arc length $2\pi r$.
 - A cone and a cylinder with the same base and height: $V_{\text{cone}}=\dfrac13V_{\text{cylinder}}$.
+Back to the opening questions: the tank, the hat and the sand pile can all be worked out with these formulae, as long as we remember what the radius, the height and the slant height are. A few practice problems will make them familiar.
 
 ## Practice
 
-Each exercise comes with what you need and some steps to start. Try it yourself first, then open the solution.
+Each exercise starts with what you need to know, and gives a few steps to get going. Try it yourself first. If you get stuck, use the steps, and open the solution last to compare. A wrong attempt is not wasted: it often shows what to practise.
 
 :::exercise
 A cylinder has base radius $3$ cm and height $10$ cm. Find its curved surface area and volume (give your answers to 2 decimal places).

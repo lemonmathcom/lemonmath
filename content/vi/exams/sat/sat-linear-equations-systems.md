@@ -11,11 +11,11 @@ minutes: 35
 - Xét số nghiệm của hệ bằng cách so sánh các hệ số.
 :::
 
-Algebra là mảng lớn nhất của SAT Math: khoảng 13 đến 15 câu trong 44 câu. Phương trình và hệ phương trình bậc nhất có mặt ở cả hai module, cả ở câu trắc nghiệm lẫn câu tự điền đáp số (student-produced response). Kiến thức không vượt quá lớp 9, nhưng đề thi thưởng cho ba thói quen: đọc kĩ đề hỏi gì, tự lập phương trình từ câu tiếng Anh, và chọn con đường nhanh nhất.
+Một phòng tập thu phí đăng kí một lần, rồi thu thêm tiền mỗi tháng. Biết tổng số tiền đã trả, bạn có tính được mình đã tập bao nhiêu tháng không? Được, và chỉ cần một phương trình bậc nhất. Những câu như vậy rất nhiều trong SAT Math: Algebra là mảng lớn nhất, khoảng 13 đến 15 câu trong 44 câu. Phương trình và hệ phương trình bậc nhất có mặt ở cả hai module, cả ở câu trắc nghiệm lẫn câu tự điền đáp số (student-produced response). Kiến thức không vượt quá lớp 9. Điều đề thi thưởng là ba thói quen: đọc kĩ đề hỏi gì, tự lập phương trình từ câu tiếng Anh, và chọn con đường nhanh nhất.
 
 ## Phương trình bậc nhất một ẩn
 
-Phương trình bậc nhất một ẩn (linear equation in one variable) có thể viết dưới dạng $ax+b=0$. Để giải, ta phá ngoặc, chuyển các hạng tử chứa $x$ về một vế, các số về vế kia, rồi chia.
+Ta bắt đầu từ loại phương trình đơn giản nhất. Phương trình bậc nhất một ẩn (linear equation in one variable) có thể viết dưới dạng $ax+b=0$. Mục tiêu khi giải là để $x$ đứng một mình. Vì vậy ta phá ngoặc, chuyển các hạng tử chứa $x$ về một vế, các số về vế kia, rồi chia.
 
 :::example Giải và trả lời đúng điều được hỏi
 Nếu $4(x-3)+2x=3x+9$ thì giá trị của $x$ là
@@ -31,7 +31,7 @@ $$4x-12+2x=3x+9\iff 6x-12=3x+9\iff 3x=21\iff x=7.$$
 Đáp án là **C**. Phương án D là $3x$, cái bẫy quen thuộc cho những bạn dừng sớm một bước.
 :::
 
-Sau khi thu gọn, một phương trình bậc nhất rơi vào đúng một trong ba trường hợp.
+Sau khi thu gọn, một phương trình bậc nhất rơi vào đúng một trong ba trường hợp. Có phương trình cho một nghiệm; có phương trình không có nghiệm nào; có phương trình đúng với mọi giá trị của ẩn. Ta nhận ra từng trường hợp như sau.
 
 :::theorem Phương trình có bao nhiêu nghiệm?
 Thu gọn hai vế đến khi phương trình có dạng $ax+b=cx+d$.
@@ -48,11 +48,11 @@ Trong phương trình $3(2x+k)=6x+12$, $k$ là hằng số. Phương trình có 
 
 ## Từ lời văn đến phương trình
 
-Khoảng 30% số câu SAT Math đặt trong bối cảnh thực tế. Phần lớn bối cảnh bậc nhất có cùng một khuôn:
+Khoảng 30% số câu SAT Math đặt trong bối cảnh thực tế, nghĩa là đề kể một câu chuyện rồi bạn phải tự viết phương trình. Nghe có vẻ khó, nhưng phần lớn bối cảnh bậc nhất có cùng một khuôn:
 
 $$\text{tổng}=\text{phần cố định}+\text{mức mỗi đơn vị}\times\text{số đơn vị}.$$
 
-Các từ *per*, *each*, *every* báo hiệu mức mỗi đơn vị (rate); các từ *initial*, *one-time*, *flat fee* báo hiệu phần cố định.
+Để tìm ra khuôn ấy, hãy để ý vài từ khoá. Các từ *per*, *each*, *every* báo hiệu mức mỗi đơn vị (rate). Các từ *initial*, *one-time*, *flat fee* báo hiệu phần cố định.
 
 :::example Thẻ thành viên
 Một phòng tập thu phí đăng kí một lần là 40 đô la và 25 đô la mỗi tháng. Lan đã trả cho phòng tập tổng cộng 290 đô la. Lan đã là thành viên được bao nhiêu tháng?
@@ -70,7 +70,7 @@ $$40+25m=290\iff 25m=250\iff m=10.$$
 
 ## Hệ hai phương trình bậc nhất
 
-Hệ phương trình (system of equations) yêu cầu tìm cặp $(x, y)$ thoả mãn cả hai phương trình. Trên đồ thị, đó là điểm hai đường thẳng cắt nhau.
+Đôi khi đề đưa ra hai điều kiện cùng lúc và có hai số chưa biết. Hệ phương trình (system of equations) yêu cầu tìm cặp $(x, y)$ thoả mãn cả hai phương trình. Hãy nghĩ đến đồ thị: mỗi phương trình là một đường thẳng, và cặp cần tìm là điểm hai đường thẳng cắt nhau, vì chỉ điểm đó nằm trên cả hai đường.
 
 :::graph Hệ $2x+3y=17$, $x-y=1$ có nghiệm $(4, 3)$
 alt: Hai đường thẳng trong mặt phẳng toạ độ, một đường đi xuống và một đường đi lên, cắt nhau tại điểm (4, 3)
@@ -81,8 +81,8 @@ plot: x - 1
 point: (4, 3) "(4, 3)" above
 :::
 
-- **Phương pháp thế** (substitution): dùng khi một ẩn đã đứng riêng hoặc có hệ số $1$.
-- **Phương pháp cộng** (elimination): nhân các phương trình để một ẩn có hệ số đối nhau, rồi cộng.
+- **Phương pháp thế** (substitution): hợp khi một ẩn đã đứng riêng, hoặc có hệ số $1$, vì khi đó ta dễ dàng thế ẩn ấy vào phương trình còn lại.
+- **Phương pháp cộng** (elimination): nhân các phương trình với số thích hợp để một ẩn có hệ số đối nhau; khi cộng lại, ẩn ấy mất đi và chỉ còn một ẩn.
 
 :::example Phương pháp thế
 $$2x+3y=17$$
@@ -96,7 +96,7 @@ $$2(y+1)+3y=17\iff 5y=15\iff y=3,\qquad x=4.$$
 Vậy $x+y=7$. Bạn gõ **7**.
 :::
 
-SAT thường hỏi một tổ hợp như $x+y$ hay $x-y$ thay vì hỏi riêng $x$ và $y$. Trước khi giải, hãy xem cộng hoặc trừ hai phương trình có cho ngay tổ hợp đó không.
+Chỗ này có một mẹo tiết kiệm thời gian. SAT thường hỏi một tổ hợp như $x+y$ hay $x-y$, chứ không hỏi riêng $x$ và $y$. Vì vậy, trước khi giải từng ẩn, hãy thử cộng hoặc trừ hai phương trình xem có ra ngay tổ hợp đó không.
 
 :::example Mẹo cộng hai phương trình
 $$3x+2y=19$$
@@ -112,7 +112,7 @@ D. $35$
 
 ## Hệ phương trình có bao nhiêu nghiệm?
 
-Viết cả hai phương trình về dạng $ax+by=c$ rồi so sánh tỉ số các hệ số.
+Hai đường thẳng trên mặt phẳng chỉ có ba cách đặt cạnh nhau: cắt nhau, song song, hoặc trùng nhau. Mỗi cách ứng với một số nghiệm khác nhau. Muốn biết là cách nào mà không cần vẽ, hãy viết cả hai phương trình về dạng $ax+by=c$ rồi so sánh tỉ số các hệ số.
 
 :::theorem So sánh hệ số
 Với hệ $a_1x+b_1y=c_1$ và $a_2x+b_2y=c_2$ (các hệ số khác $0$):
@@ -130,14 +130,14 @@ Trong hệ, $a$ là hằng số. Hệ vô nghiệm. Giá trị của $a$ bằng 
 :::
 
 :::warning Những cái bẫy thường gặp
-- **Trả lời nhầm đại lượng.** Đề hỏi $6x+5$ hoặc $x+y$, và giá trị của $x$ nằm sẵn trong các phương án. Hãy gạch chân điều được hỏi trước khi làm.
-- **Sai dấu khi phá ngoặc.** $-2(x-5)=-2x+10$, không phải $-2x-10$.
-- **Lẫn "vô nghiệm" với "vô số nghiệm".** Cả hai trường hợp các hạng tử chứa $x$ đều triệt tiêu. Hãy nhìn các hằng số: khác nhau thì vô nghiệm, bằng nhau thì vô số nghiệm.
+- **Trả lời nhầm đại lượng.** Đề có thể hỏi $6x+5$ hoặc $x+y$, trong khi giá trị của $x$ lại nằm sẵn trong các phương án để gây nhầm. Hãy gạch chân điều được hỏi trước khi làm.
+- **Sai dấu khi phá ngoặc.** Đây là lỗi nhiều bạn hay mắc: $-2(x-5)=-2x+10$, không phải $-2x-10$.
+- **Lẫn "vô nghiệm" với "vô số nghiệm".** Ở cả hai trường hợp, các hạng tử chứa $x$ đều triệt tiêu. Lúc đó hãy nhìn các hằng số: khác nhau thì vô nghiệm, bằng nhau thì vô số nghiệm.
 - **Lẫn mức mỗi đơn vị với phần cố định.** Số đứng cạnh *per* là số nhân với ẩn.
 :::
 
 :::tip Kiểm tra bằng Desmos
-Gõ cả hai phương trình của hệ đúng như đề cho, ví dụ `2x+3y=17` và `x-y=1`. Bấm vào giao điểm để đọc nghiệm. Hai đường song song là vô nghiệm; chỉ thấy một đường là vô số nghiệm. Dùng cách này để kiểm tra, và để cứu một câu khi phần đại số bị sai.
+Desmos cho bạn một cách kiểm tra bằng mắt. Gõ cả hai phương trình của hệ đúng như đề cho, ví dụ `2x+3y=17` và `x-y=1`. Bấm vào giao điểm để đọc nghiệm. Hai đường song song là vô nghiệm; chỉ thấy một đường là vô số nghiệm. Hãy dùng cách này để kiểm tra bài làm, và để cứu một câu khi phần đại số bị sai giữa chừng.
 :::
 
 :::terms

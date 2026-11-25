@@ -5,7 +5,7 @@ minutes: 70
 type: test
 ---
 
-Đây là một đề luyện đủ thời lượng theo đúng cấu trúc phần Toán của SAT thi trên máy: hai module, mỗi module 22 câu trong 35 phút. Mọi câu hỏi do Lemonmath tự soạn; đây không phải câu hỏi SAT thật, nhưng bám sát các mảng nội dung và kiểu câu hỏi chính thức.
+Hiểu cách bơi là một chuyện, xuống hồ bơi và bơi một mạch hết cự li lại là chuyện khác. Làm SAT Math cũng vậy. Làm từng bài lẻ cho bạn kiến thức, còn một đề trọn vẹn cho bạn biết mình có giữ được sức và sự tập trung đến câu cuối hay không. Đề này làm đúng theo cấu trúc phần Toán của SAT thi trên máy: hai module, mỗi module 22 câu trong 35 phút. Mọi câu hỏi do Lemonmath tự soạn, nên đây không phải câu hỏi SAT thật. Nhưng các câu bám sát những mảng nội dung và kiểu câu hỏi chính thức, nên bạn có thể xem đây là một buổi tập dượt nghiêm túc.
 
 ## Cách làm đề
 
@@ -15,12 +15,13 @@ type: test
 | Thời gian | 35 phút | 35 phút |
 | Máy tính | được dùng (Desmos hoặc máy của bạn) | được dùng |
 
-1. Đặt đồng hồ 35 phút và làm Module 1 liền một mạch. Nộp bài để xem điểm.
+1. Đặt đồng hồ 35 phút và làm Module 1 liền một mạch, đừng dừng giữa chừng. Làm xong thì nộp bài để xem điểm.
 2. Nghỉ tối đa 10 phút, rồi làm Module 2 trong 35 phút tiếp theo.
-3. Với câu tự điền đáp số, hãy nhập một số: số nguyên, số thập phân hoặc số âm (ở đây nhập dấu phẩy hay dấu chấm đều được). Trong đề thật, SAT dùng dấu chấm, ví dụ `0.25`, và chấp nhận cả phân số như `7/2`.
-4. Làm xong, mở phần đáp án, đọc lời giải của mọi câu sai và ghi vào sổ lỗi sai.
+3. Với câu tự điền đáp số, bạn nhập một số: số nguyên, số thập phân hoặc số âm (ở đây nhập dấu phẩy hay dấu chấm đều được). Chỗ này nhiều bạn hay quên: trong đề thật, SAT dùng dấu chấm, ví dụ `0.25`, và chấp nhận cả phân số như `7/2`. Nên làm quen với cách viết đó ngay từ bây giờ.
+4. Làm xong, mở phần đáp án. Đọc kĩ lời giải của mọi câu sai rồi ghi vào sổ lỗi sai. Chính cuốn sổ này sẽ chỉ cho bạn nên ôn gì trước.
+Bạn bấm giờ và làm nghiêm túc ngay từ đầu thì điểm số mới cho thấy đúng sức của mình.
 
-Trong đề thật, Module 2 thay đổi theo kết quả Module 1. Ở đây cả hai module cố định, và Module 2 khó hơn một chút, giống module 2 bản khó.
+Có một điểm khác với đề thật mà bạn nên biết. Ở đề thật, Module 2 thay đổi theo kết quả Module 1. Ở đây ta không làm vậy: cả hai module đều cố định, và Module 2 khó hơn Module 1 một chút, giống như module 2 bản khó của đề thật. Vì thế, đừng giật mình nếu nửa sau thấy nặng tay hơn.
 
 ## Module 1
 
@@ -378,7 +379,7 @@ $x^2-kx+4=0$ có một nghiệm khi $k^2-16=0$, nên $k=4$.
 
 ## Sau khi làm đề
 
-Mỗi module tính trên 22 câu. Dùng bảng dưới đây để biết mỗi câu sai cần ôn lại bài nào. Đạt từ 18 câu trở lên ở mỗi module cho thấy bạn đã sẵn sàng với những câu khó nhất của SAT; dưới 12 câu, hãy quay lại các bài học trước khi làm đề mới.
+Mỗi module được chấm trên 22 câu. Điểm số chỉ là một nửa câu chuyện. Nửa còn lại nằm ở những câu sai: mỗi câu sai cho bạn biết một chỗ còn hổng, và bảng dưới đây chỉ ra bài nào cần ôn lại cho từng câu. Nếu đạt từ 18 câu trở lên ở mỗi module, bạn đã sẵn sàng với những câu khó nhất của SAT. Nếu dưới 12 câu, đừng nản: hãy quay lại các bài học trước, rồi hẵng làm đề mới.
 
 | Câu | Module 1 | Module 2 |
 |---|---|---|
@@ -405,4 +406,4 @@ Mỗi module tính trên 22 câu. Dùng bảng dưới đây để biết mỗi 
 | 21 | [Thống kê và xác suất](lesson:sat-statistics-probability) | [Phương trình và hệ bậc nhất](lesson:sat-linear-equations-systems) |
 | 22 | [Hàm bậc hai, phương trình phi tuyến](lesson:sat-quadratics-nonlinear) | [Hàm bậc hai, phương trình phi tuyến](lesson:sat-quadratics-nonlinear) |
 
-Sau ít nhất một tuần ôn tập, hãy làm [đề luyện thứ hai](lesson:sat-practice-test-1), và nhớ ôn bằng các cách trong bài [Ôn thi theo khoa học](lesson:evidence-based-revision).
+Hãy dành ít nhất một tuần để ôn lại những chỗ còn hổng, rồi làm lại [đề luyện thứ nhất](lesson:sat-practice-test-1) để xem bạn đã giữ được phong độ đến cuối chưa. Trong lúc ôn, bạn nhớ dùng các cách trong bài [Ôn thi theo khoa học](lesson:evidence-based-revision). Điều đáng nhớ nhất: làm xong một đề chỉ có ích khi bạn quay lại sửa những câu đã sai. Cứ luyện đều tay, bạn sẽ thấy mình vững dần.

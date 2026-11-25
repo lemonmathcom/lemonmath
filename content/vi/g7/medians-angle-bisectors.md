@@ -13,15 +13,15 @@ minutes: 20
 
 Hoa cắt một tấm bìa hình tam giác và muốn đặt ngón tay đỡ đúng một điểm để tấm bìa nằm ngang, không bị nghiêng. Điểm đó nằm ở đâu trong tam giác?
 
-Một câu hỏi khác: bác Nam muốn đặt một cột đèn trong khu đất hình tam giác sao cho cột đèn cách đều ba cạnh của khu đất. Cột đèn nên đặt ở đâu? Hai câu hỏi này có hai câu trả lời khác nhau, và ta sẽ tìm cả hai trong bài.
+Còn một câu hỏi nữa: bác Nam muốn đặt một cột đèn trong khu đất hình tam giác sao cho cột đèn cách đều ba cạnh của khu đất. Cột đèn nên đặt ở đâu? Thoạt nhìn hai câu hỏi giống nhau, nhưng câu trả lời lại khác nhau. Trong bài này, ta sẽ tìm cả hai điểm đó.
 
 ## Đường trung tuyến và trọng tâm
 
 ### Khám phá: ba đoạn thẳng cắt nhau tại một điểm
 
-Ở bài trước, bạn đã biết tam giác có ba cạnh và mỗi cạnh có một trung điểm. Nối mỗi đỉnh với trung điểm của cạnh đối diện, ta được một đoạn thẳng gọi là **đường trung tuyến**.
+Bạn đã biết tam giác có ba cạnh, và mỗi cạnh có một trung điểm. Bây giờ thử nối mỗi đỉnh với trung điểm của cạnh đối diện. Đoạn thẳng nhận được gọi là **đường trung tuyến**.
 
-Trên lưới ô vuông, tam giác $ABC$ có $A(0; 0)$, $B(9; 0)$, $C(3; 6)$. Gọi $M$, $N$, $P$ lần lượt là trung điểm của $BC$, $CA$, $AB$. Ta vẽ ba trung tuyến $AM$, $BN$, $CP$.
+Ta thử trên lưới ô vuông. Tam giác $ABC$ có $A(0; 0)$, $B(9; 0)$, $C(3; 6)$. Gọi $M$, $N$, $P$ lần lượt là trung điểm của $BC$, $CA$, $AB$, rồi vẽ ba trung tuyến $AM$, $BN$, $CP$. Ba đoạn này cắt nhau như thế nào?
 
 :::diagram Ba đường trung tuyến của tam giác $ABC$
 alt: Tam giác ABC trên lưới ô vuông với ba đường trung tuyến AM, BN, CP cắt nhau tại điểm G
@@ -39,7 +39,7 @@ segment B N
 segment C P
 :::
 
-Ba trung tuyến cắt nhau tại cùng một điểm $G$. Ta đếm ô để so sánh các đoạn nằm trên cùng một trung tuyến:
+Ba trung tuyến cắt nhau tại cùng một điểm, ta gọi là $G$. Để xem điểm đó nằm ở đâu trên mỗi trung tuyến, ta đếm ô và so sánh các đoạn nằm trên cùng một trung tuyến:
 
 | Đoạn | Đi ngang | Đi lên hoặc xuống |
 |---|---|---|
@@ -48,7 +48,7 @@ Ba trung tuyến cắt nhau tại cùng một điểm $G$. Ta đếm ô để so
 | $BG$ (từ $B$ đến $G$) | $5$ ô | $2$ ô |
 | $GN$ (từ $G$ đến $N$) | $2{,}5$ ô | $1$ ô |
 
-Đoạn $AG$ có số ô gấp đôi đoạn $GM$, nên $AG=2GM$. Đoạn $BG$ cũng có số ô gấp đôi đoạn $GN$, nên $BG=2GN$.
+Nhìn bảng, bạn thấy đoạn $AG$ có số ô gấp đôi đoạn $GM$, nên $AG=2GM$. Đoạn $BG$ cũng có số ô gấp đôi đoạn $GN$, nên $BG=2GN$. Hai trung tuyến khác nhau mà quy luật giống nhau. Ta đặt tên và phát biểu quy luật đó.
 
 :::definition Đường trung tuyến và trọng tâm
 **Đường trung tuyến** của tam giác là đoạn thẳng nối một đỉnh với trung điểm của cạnh đối diện.
@@ -62,21 +62,21 @@ $$AG=\frac23AM,\qquad GM=\frac13AM,\qquad AG=2GM.$$
 Tính chất tương tự đúng với hai trung tuyến còn lại.
 :::
 
-Ta thừa nhận tính chất này. Ví dụ trên lưới cho thấy nó hợp lí: từ đỉnh đến $G$ dài gấp đôi từ $G$ đến trung điểm.
+Ta thừa nhận tính chất này, không chứng minh. Ví dụ trên lưới cho thấy nó hợp lí: đoạn từ đỉnh đến $G$ dài gấp đôi đoạn từ $G$ đến trung điểm.
 
-Vậy trọng tâm là điểm mà Hoa cần tìm. Đặt ngón tay đúng chỗ $G$ thì tấm bìa nằm thăng bằng.
+Vậy trọng tâm chính là điểm Hoa cần tìm. Đặt ngón tay đúng chỗ $G$ thì tấm bìa nằm thăng bằng. Còn cột đèn của bác Nam cần một điểm khác, ta xem tiếp.
 
 ## Đường phân giác và điểm cách đều ba cạnh
 
-Bạn đã biết tia phân giác của một góc chia góc đó thành hai góc bằng nhau. Trong tam giác $ABC$, tia phân giác của góc $A$ cắt cạnh $BC$ tại $D$, thì đoạn $AD$ gọi là **đường phân giác** xuất phát từ đỉnh $A$.
+Giờ ta chuyển sang câu hỏi của bác Nam. Bạn đã biết tia phân giác của một góc chia góc đó thành hai góc bằng nhau. Trong tam giác $ABC$, tia phân giác của góc $A$ cắt cạnh $BC$ tại $D$. Khi đó đoạn $AD$ gọi là **đường phân giác** xuất phát từ đỉnh $A$.
 
-Một điểm nằm trên tia phân giác của một góc thì cách đều hai cạnh của góc. "Cách đều" nghĩa là hai khoảng cách bằng nhau, và khoảng cách từ một điểm đến một đường thẳng là độ dài đoạn vuông góc kẻ từ điểm đó đến đường thẳng.
+Có một tính chất ta sẽ dùng: điểm nằm trên tia phân giác của một góc thì cách đều hai cạnh của góc. "Cách đều" nghĩa là hai khoảng cách bằng nhau. Còn khoảng cách từ một điểm đến một đường thẳng là độ dài đoạn vuông góc kẻ từ điểm đó đến đường thẳng. Từ tính chất này, ta suy ra được điều gì cho cả ba phân giác của tam giác?
 
 :::theorem Tính chất ba đường phân giác
 Ba đường phân giác của một tam giác cùng đi qua một điểm $I$. Điểm $I$ nằm trong tam giác và cách đều ba cạnh của tam giác.
 :::
 
-Ta giải thích vì sao $I$ cách đều ba cạnh. Gọi $IP$, $IQ$, $IR$ là các khoảng cách từ $I$ đến $AB$, $AC$, $BC$. Vì $I$ nằm trên phân giác góc $A$ nên $IP=IQ$. Vì $I$ nằm trên phân giác góc $B$ nên $IP=IR$. Do đó $IP=IQ=IR$.
+Vì sao $I$ cách đều ba cạnh? Gọi $IP$, $IQ$, $IR$ là các khoảng cách từ $I$ đến $AB$, $AC$, $BC$. Vì $I$ nằm trên phân giác góc $A$ nên $IP=IQ$. Vì $I$ nằm trên phân giác góc $B$ nên $IP=IR$. Ghép hai điều đó lại, ta có $IP=IQ=IR$.
 
 :::diagram Ba đường phân giác của tam giác $ABC$ vuông tại $A$
 alt: Tam giác ABC vuông tại A với ba đường phân giác cắt nhau tại I và ba đoạn vuông góc kẻ từ I xuống ba cạnh có độ dài bằng nhau
@@ -105,11 +105,11 @@ right I Q C
 right I R C
 :::
 
-Hình trên cho thấy ba đoạn vuông góc kẻ từ $I$ có cùng độ dài. Vậy cột đèn của bác Nam nên đặt tại $I$, giao điểm của ba đường phân giác.
+Hình trên cho thấy ba đoạn vuông góc kẻ từ $I$ có cùng độ dài. Vậy cột đèn của bác Nam nên đặt tại $I$, giao điểm của ba đường phân giác. Hai câu hỏi đầu bài có hai câu trả lời khác nhau: trọng tâm cho sự thăng bằng, còn giao điểm của ba phân giác cho khoảng cách bằng nhau đến ba cạnh.
 
 ## Ví dụ
 
-Ta bắt đầu với một phép tính độ dài đơn giản.
+Ta bắt đầu với một phép tính độ dài đơn giản: biết cả trung tuyến, tìm hai đoạn của nó.
 
 :::example Tính $AG$ và $GM$
 Cho tam giác $ABC$ có trọng tâm $G$, trung tuyến $AM=12$ cm. Tính $AG$ và $GM$.
@@ -123,7 +123,7 @@ Vậy $AG=8$ cm và $GM=4$ cm.
 **Kiểm tra.** $AG+GM=8+4=12$ và $AG=2GM$.
 :::
 
-Bây giờ đề bài cho đoạn ngắn và hỏi đoạn dài.
+Lần này đề bài cho đoạn ngắn và hỏi đoạn dài. Bạn nhớ rằng đoạn từ đỉnh đến trọng tâm là đoạn dài hơn nhé.
 
 :::example Tính $BG$ và $BN$
 Cho tam giác $ABC$ có trọng tâm $G$ và trung tuyến $BN$. Biết $GN=5$ cm. Tính $BG$ và $BN$.
@@ -135,7 +135,7 @@ $$BG=2\cdot5=10\ \text{(cm)},\qquad BN=BG+GN=10+5=15\ \text{(cm)}.$$
 Vậy $BG=10$ cm và $BN=15$ cm.
 :::
 
-Ta dùng tính chất này để trả lời câu hỏi của Hoa.
+Bây giờ ta dùng tính chất này để trả lời câu hỏi của Hoa: ngón tay cần đặt ở đâu, và chỗ đó cách mép đáy bao xa?
 
 :::example Chỗ đặt ngón tay
 Tấm bìa của Hoa là tam giác cân $ABC$ với $AB=AC$ và đáy $BC=10$ cm. Gọi $M$ là trung điểm của $BC$; Hoa đo được trung tuyến $AM=12$ cm. Ngón tay phải đặt ở trọng tâm $G$. Hỏi điểm $G$ cách cạnh $BC$ bao nhiêu xăng-ti-mét?
@@ -147,7 +147,7 @@ $$GM=\frac13\cdot12=4\ \text{(cm)}.$$
 Vì $AM\perp BC$ nên $GM$ chính là khoảng cách từ $G$ đến $BC$. Vậy $G$ cách $BC$ là $4$ cm.
 :::
 
-Chuyển sang đường phân giác, ta xét khoảng cách.
+Chuyển sang đường phân giác. Điều cần nhớ ở đây là giao điểm của ba phân giác cách đều ba cạnh, nên các khoảng cách đó bằng nhau.
 
 :::example Khoảng cách đến ba cạnh
 Cho tam giác $ABC$. Ba đường phân giác cắt nhau tại $I$. Kẻ $IH\perp AB$, $IK\perp BC$, $IL\perp CA$. Biết $IH=3$ cm. Tính $IK$ và $IL$.
@@ -159,7 +159,7 @@ $$IH=IK=IL=3\ \text{(cm)}.$$
 Vậy $IK=3$ cm và $IL=3$ cm.
 :::
 
-Cuối cùng, ta tính một góc có liên quan đến điểm $I$.
+Cuối cùng, ta tính một góc có liên quan đến điểm $I$. Ở đây ta cần dùng cả hai điều đã biết: tổng ba góc của tam giác và tính chất của đường phân giác.
 
 :::example Tính góc $\widehat{BIC}$
 Cho tam giác $ABC$ có $\widehat{A}=70^\circ$ và $\widehat{B}=50^\circ$. Hai đường phân giác của các góc $B$ và $C$ cắt nhau tại $I$. Tính $\widehat{BIC}$.
@@ -180,7 +180,7 @@ Vậy $\widehat{BIC}=125^\circ$.
 :::
 
 :::warning Những sai lầm thường gặp
-- **Nhầm tỉ lệ $\dfrac13$ và $\dfrac23$.** Sai: $G$ là trọng tâm, $AM=18$ cm nên $AG=\dfrac13\cdot18=6$ cm. Lí do sai: $AG$ là đoạn dài hơn, từ đỉnh đến $G$. Đúng: $AG=\dfrac23\cdot18=12$ cm và $GM=6$ cm.
+- **Nhầm tỉ lệ $\dfrac13$ và $\dfrac23$.** Chỗ này nhiều bạn hay nhầm. Sai: $G$ là trọng tâm, $AM=18$ cm nên $AG=\dfrac13\cdot18=6$ cm. Lí do sai: $AG$ là đoạn dài hơn, tính từ đỉnh đến $G$. Đúng: $AG=\dfrac23\cdot18=12$ cm và $GM=6$ cm.
 - **Nhầm trọng tâm với điểm cách đều ba cạnh.** Sai: "Trọng tâm cách đều ba cạnh của tam giác". Lí do sai: điểm cách đều ba cạnh là giao của ba đường phân giác. Đúng: trọng tâm là giao của ba đường trung tuyến.
 - **Chia đôi cạnh với chia đôi góc.** Sai: đường trung tuyến chia đôi góc ở đỉnh. Lí do sai: trung tuyến chia đôi cạnh đối diện. Đúng: đường phân giác mới chia đôi góc.
 - **Quên bước lấy $180^\circ$.** Sai: $\widehat{BIC}=\dfrac{\widehat B}{2}+\dfrac{\widehat C}{2}$. Lí do sai: đó chỉ là tổng hai góc của tam giác $IBC$. Đúng: $\widehat{BIC}=180^\circ-\dfrac{\widehat B}{2}-\dfrac{\widehat C}{2}$.
@@ -206,10 +206,11 @@ Vậy $\widehat{BIC}=125^\circ$.
 - Ba đường phân giác cắt nhau tại $I$, điểm này cách đều ba cạnh của tam giác.
 - Điểm $I$ nằm trong tam giác và $\widehat{BIC}=180^\circ-\dfrac{\widehat B}{2}-\dfrac{\widehat C}{2}$.
 - Trọng tâm cho thăng bằng; giao của ba phân giác cho khoảng cách bằng nhau đến ba cạnh.
+Quay lại hai câu hỏi đầu bài: ngón tay của Hoa đặt ở trọng tâm, còn cột đèn của bác Nam đặt ở giao điểm của ba đường phân giác. Hai điểm này hay bị lẫn, nên bạn nhớ giúp: trung tuyến chia đôi cạnh, phân giác chia đôi góc. Bạn làm thêm vài bài luyện tập để nhớ lâu hơn nhé.
 
 ## Luyện tập
 
-Mỗi bài có phần kiến thức và gợi ý các bước. Hãy tự làm trước, rồi mới bấm xem lời giải.
+Mỗi bài có phần nhắc kiến thức và gợi ý các bước. Bạn cứ tự làm trước, rồi mới bấm xem lời giải.
 
 :::exercise
 Cho tam giác $ABC$ có trọng tâm $G$, trung tuyến $AM=15$ cm.

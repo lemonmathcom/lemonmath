@@ -12,11 +12,11 @@ minutes: 45
 - Add and multiply complex numbers and simplify powers of $i$.
 :::
 
-Number and quantity questions are some of the fastest marks on the ACT, but they are also where careless errors cost the most: a percent applied to the wrong amount, a unit left unconverted, a sign lost in a power of $i$. This lesson collects the ideas you need and shows how to set out a quick, reliable solution for each type.
+Number and quantity questions are some of the fastest marks on the ACT. They are also where careless errors cost the most: a percent applied to the wrong amount, a unit left unconverted, a sign lost in a power of $i$. So how do you stay both quick and sure? This lesson collects the ideas you need and shows how to set out a short, reliable solution for each type.
 
 ## Percentages
 
-A change of $p\%$ multiplies a quantity by a **multiplier**: an increase of $p\%$ multiplies by $1+\dfrac{p}{100}$, a decrease by $1-\dfrac{p}{100}$. Successive changes multiply their multipliers, so they do not simply add.
+A change of $p\%$ multiplies a quantity by a **multiplier**. An increase of $p\%$ multiplies by $1+\dfrac{p}{100}$, and a decrease multiplies by $1-\dfrac{p}{100}$. Why can we not simply add successive changes? Because each change is taken on the result of the one before, so the multipliers multiply.
 
 :::example Up 20%, then down 20%
 A jacket costs $50$ dollars. Its price is increased by $20\%$, and later the new price is decreased by $20\%$. What is the final price?
@@ -35,7 +35,7 @@ So the final price is $48$ dollars, answer **B**. Option A assumes that $+20\%$ 
 
 ## Ratios, proportions and scale
 
-If two quantities are in the ratio $a:b$, write them as $ak$ and $bk$ for some number $k$. For a proportion $\dfrac ab=\dfrac cd$, cross-multiply: $ad=bc$.
+If two quantities are in the ratio $a:b$, write them as $ak$ and $bk$ for some number $k$, and the problem is left with one unknown. For a proportion $\dfrac ab=\dfrac cd$, we cross-multiply: $ad=bc$.
 
 :::example A map scale
 On a map, $1$ cm represents $2.5$ km. Two towns are $7.2$ cm apart on the map. What is the actual distance between them?
@@ -52,7 +52,7 @@ So the towns are $18$ km apart, answer **A**. Option B divides instead of multip
 
 ## Rates and unit conversion
 
-Write units in every step and cancel them like numbers. For example, $1$ km $=1000$ m and $1$ h $=3600$ s, so to convert km/h to m/s, multiply by $\dfrac{1000}{3600}=\dfrac{1}{3.6}$.
+Write units in every step and cancel them like numbers: if the units cancel to what you want, the conversion is right. For example, $1$ km $=1000$ m and $1$ h $=3600$ s, so to convert km/h to m/s, multiply by $\dfrac{1000}{3600}=\dfrac{1}{3.6}$.
 
 :::example From km/h to m/s
 A train travels at $72$ km/h. What is its speed in meters per second?
@@ -107,7 +107,7 @@ So the result is $2\times10^{10}$, answer **B**. Option A subtracts $8-2$ and ig
 
 ## Complex numbers
 
-The number $i$ satisfies $i^2=-1$. Add complex numbers by adding real parts and imaginary parts; multiply them like binomials and then replace $i^2$ by $-1$. Powers of $i$ repeat with period $4$: $i,-1,-i,1$.
+The number $i$ satisfies $i^2=-1$, and every other rule follows from that. Add complex numbers by adding real parts and imaginary parts. Multiply them like binomials, then replace $i^2$ by $-1$. Powers of $i$ repeat with period $4$: $i,-1,-i,1$. Because of that period, every power falls back onto one of these four values.
 
 :::example Multiplying complex numbers
 Which of the following is equal to $(3+2i)(1-i)$?
@@ -126,10 +126,11 @@ So $(3+2i)(1-i)=5-i$, answer **A**.
 
 :::warning Common traps
 - **Adding percentages:** a $20\%$ rise followed by a $20\%$ fall is a $4\%$ fall, not $0\%$.
-- **The base of a percentage:** "$25\%$ more than $x$" is $1.25x$, but "$x$ is $25\%$ more than $y$" means $x=1.25y$.
+- **The base of a percentage:** many students mix this up. "$25\%$ more than $x$" is $1.25x$, but "$x$ is $25\%$ more than $y$" means $x=1.25y$.
 - **Unit conversions upside down:** check that the units cancel to what you want.
 - **Exponent rules with different bases:** convert to a common base first.
 - **Powers of $i$:** divide the exponent by $4$ and use the remainder.
+Before you settle on an answer, ask yourself: a percentage of which quantity, and do the units match?
 :::
 
 :::terms

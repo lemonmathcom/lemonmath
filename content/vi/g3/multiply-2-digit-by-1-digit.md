@@ -12,19 +12,19 @@ minutes: 15
 
 Mai có $4$ hộp bút chì, mỗi hộp có $12$ cây. Hỏi Mai có tất cả bao nhiêu cây bút chì?
 
-Em chưa có bảng nhân $12$, nhưng em vẫn tính được. Bài này dạy em cách nhân một số có hai chữ số.
+Em chưa có bảng nhân $12$, vậy làm sao biết Mai có bao nhiêu cây bút chì? Đừng lo, em không cần học thêm bảng nhân nào cả. Ta chỉ cần tách số ấy ra thành những phần dễ nhân. Cách này dùng được cho nhiều số có hai chữ số khác nữa.
 
 ## Cùng khám phá
 
-Số $12$ gồm $1$ chục và $2$ đơn vị, tức là $12=10+2$. Mỗi hộp có $10+2$ cây, nên $4$ hộp có:
+Ta nhìn kĩ số $12$. Nó gồm $1$ chục và $2$ đơn vị, tức là $12=10+2$. Mỗi hộp có $10+2$ cây, nên $4$ hộp có:
 
-- $10\times4=40$ cây (phần chục);
-- $2\times4=8$ cây (phần đơn vị);
-- $40+8=48$ cây.
+- $10\times4=40$ cây: đây là phần của chục;
+- $2\times4=8$ cây: đây là phần của đơn vị;
+- $40+8=48$ cây: ta cộng các phần lại.
 
-Vậy $12\times4=48$. Em thấy không, ta nhân từng phần rồi cộng lại.
+Vậy $12\times4=48$. Em thấy chưa: ta nhân từng phần rồi cộng lại là xong. Ý nghĩ này nằm sau cách nhân em sắp học.
 
-Khi viết gọn, ta **đặt tính** và nhân hàng đơn vị trước, rồi nhân hàng chục.
+Làm như trên thì đúng, nhưng hơi dài. Để viết gọn hơn, ta **đặt tính**: nhân hàng đơn vị trước, rồi nhân hàng chục. Các bước được ghi trong hộp dưới đây.
 
 :::theorem Cách nhân số có hai chữ số với số có một chữ số
 Muốn tính $24\times3$:
@@ -35,11 +35,11 @@ Muốn tính $24\times3$:
 Nếu tích ở hàng đơn vị nhỏ hơn $10$ thì không cần nhớ.
 :::
 
-Cách này đúng vì $24\times3=(20+4)\times3=60+12=72$. Số $1$ nhớ chính là $1$ chục trong $12$.
+Vì sao cách này đúng? Vì $24\times3=(20+4)\times3=60+12=72$. Ở bước đầu ta được $12$, trong đó có chục, và chục ấy phải về đúng hàng chục, nên ta nhớ nó để cộng vào ở bước sau. Vậy số $1$ nhớ chính là $1$ chục của số vừa tính.
 
 ## Ví dụ
 
-Ta bắt đầu với một phép nhân không nhớ.
+Ta bắt đầu với phép nhân không nhớ, tức là chưa phải nhớ gì cả. Em nhân hàng đơn vị trước, rồi đến hàng chục.
 
 :::example Nhân không nhớ
 Tính $12\times4$.
@@ -50,7 +50,7 @@ $$2\times4=8,\qquad 1\times4=4.$$
 Viết $4$ ở hàng chục và $8$ ở hàng đơn vị. Vậy $12\times4=48$.
 :::
 
-Bây giờ là phép nhân có nhớ. Em đặt tính cho dễ nhìn.
+Bây giờ là phép nhân có nhớ. Đừng lo nếu lần đầu em thấy lạ. Em đặt tính, rồi theo từng bước cho dễ nhìn.
 
 :::example Nhân có nhớ
 Tính $24\times3$.
@@ -61,7 +61,7 @@ $$\begin{array}{r}24\\\times\ \ 3\\\hline72\end{array}$$
 Vậy $24\times3=72$.
 :::
 
-Có lúc tích ở hàng đơn vị là một số tròn chục hoặc có chữ số $5$. Em làm tương tự.
+Có lúc tích ở hàng đơn vị là một số tròn chục hoặc có chữ số $5$ ở cuối. Em vẫn làm đúng như vậy, không có gì khác.
 
 :::example Một phép nhân có nhớ khác
 Tính $15\times5$.
@@ -72,7 +72,7 @@ $$15\times5=75.$$
 Vậy $15\times5=75$.
 :::
 
-Cuối cùng, em dùng phép nhân để giải một bài toán trong cuộc sống.
+Bây giờ em dùng phép nhân cho một chuyện hay gặp: đếm bút trong nhiều hộp giống nhau. Khi có nhiều nhóm bằng nhau, ta nghĩ ngay đến phép nhân.
 
 :::example Hộp bút màu
 Mỗi hộp có $16$ bút màu. Hỏi $5$ hộp như thế có bao nhiêu bút màu?
@@ -84,9 +84,10 @@ Vậy $5$ hộp có $80$ bút màu.
 :::
 
 :::warning Những lỗi em hay gặp
-- **Quên số nhớ.** Sai: $24\times3=62$. Vì sao sai: em viết $2$ rồi nhân $2\times3=6$ mà quên cộng $1$ nhớ. Đúng: $24\times3=72$.
-- **Cộng số nhớ vào hàng đơn vị.** Sai: $15\times5=70+5$ rồi viết $75$ nhưng không hiểu, hoặc cộng nhớ vào $5$. Vì sao sai: số nhớ là chục, phải cộng vào hàng chục. Đúng: $1\times5+2=7$ chục.
+- **Quên số nhớ.** Sai: $24\times3=62$. Vì sao sai: em viết $2$ rồi nhân $2\times3=6$ mà quên cộng $1$ nhớ, nên hàng chục thiếu mất một chục. Đúng: $24\times3=72$.
+- **Cộng số nhớ vào hàng đơn vị.** Sai: viết $15\times5=70+5$ rồi ra $75$ mà không hiểu vì sao, hoặc cộng số nhớ vào $5$. Vì sao sai: số nhớ là chục, phải cộng vào hàng chục. Đúng: $1\times5+2=7$ chục.
 - **Quên đơn vị.** Sai: "Đáp số: $80$". Đúng: "Đáp số: $80$ bút".
+Chỗ này nhiều bạn hay nhầm. Tính xong, em đọc lại đề để chắc là mình đã trả lời đúng câu hỏi và có ghi đơn vị.
 :::
 
 ## Thuật ngữ
@@ -107,10 +108,11 @@ Vậy $5$ hộp có $80$ bút màu.
 - Nhân hàng đơn vị trước, rồi nhân hàng chục.
 - Nếu tích hàng đơn vị từ $10$ trở lên thì viết chữ số hàng đơn vị và nhớ sang hàng chục.
 - Bài toán nhiều nhóm bằng nhau dùng phép nhân; nhớ ghi đơn vị trong đáp số.
+Câu hỏi đầu bài là Mai có tất cả bao nhiêu cây bút chì. Giờ em đã biết cách làm: tách số thành chục và đơn vị, nhân từng phần rồi cộng lại, hoặc đặt tính và nhân từng hàng. Em luyện thêm vài phép tính để tay quen nhé.
 
 ## Luyện tập
 
-Mỗi bài có phần kiến thức và gợi ý. Em hãy tự làm trước, rồi mới bấm xem lời giải.
+Mỗi bài có phần kiến thức cần nhớ và một gợi ý để em bắt đầu. Em cứ tự làm trước, chưa ra thì xem gợi ý, và chỉ bấm xem lời giải sau cùng. Sai vài lần cũng không sao, vì làm sai rồi sửa là lúc em nhớ lâu nhất.
 
 :::exercise
 Tính $21\times4$.

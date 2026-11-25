@@ -12,17 +12,18 @@ minutes: 15
 
 Lan có rất nhiều viên bi. Lan xếp mỗi $10$ viên thành một bó và được $2$ bó, còn $3$ viên lẻ. Lan có tất cả bao nhiêu viên bi?
 
-Em đã biết các số đến $10$. Bài này em học các số lớn hơn bằng cách đếm theo chục.
+Em đã biết đếm các số đến $10$. Nhưng nếu Lan có nhiều bi hơn thế, đếm từng viên sẽ dễ lẫn. Gom thành từng bó rồi đếm bó thì gọn hơn nhiều. Bài này cho em cách đọc và viết số theo kiểu ấy.
 
 ## Cùng khám phá
 
-Em gom $10$ đồ vật thành một chục. Một chục có $10$ đơn vị.
+Khi gom đủ $10$ đồ vật lại, ta gọi đó là một chục. Vậy một chục có $10$ đơn vị.
 
-- $10$ viên bi là $1$ chục và $0$ đơn vị. Ta viết số $10$.
+- Gom đủ $10$ viên bi thì được $1$ chục và $0$ đơn vị. Ta viết số $10$.
 - $2$ bó bi và $3$ viên lẻ là $2$ chục và $3$ đơn vị. Ta viết số $23$ (đọc là hai mươi ba).
 - $4$ bó bi và $7$ viên lẻ là $4$ chục và $7$ đơn vị. Ta viết số $47$ (đọc là bốn mươi bảy).
+Em thấy không: số chục viết trước, số đơn vị viết sau.
 
-Vậy Lan có $23$ viên bi.
+Vậy Lan có $23$ viên bi. Em nhìn bảng sau nhé:
 
 | Số | Chục | Đơn vị |
 |---|---|---|
@@ -37,11 +38,11 @@ Vậy Lan có $23$ viên bi.
 4. $1$ chục bằng $10$ đơn vị; $5$ chục là $50$.
 :::
 
-Cách này đúng vì mỗi bó có $10$ viên. Đếm số bó là số chục, đếm số viên lẻ là số đơn vị.
+Vì sao cách này đúng? Vì mỗi bó có $10$ viên. Số bó cho ta số chục, còn số viên lẻ cho ta số đơn vị.
 
 ## Ví dụ
 
-Ta bắt đầu bằng việc đọc một số.
+Ta bắt đầu bằng cách nhìn vào một số có sẵn và hỏi: số này gồm mấy chục, mấy đơn vị?
 
 :::example Số 23
 Số $23$ gồm mấy chục và mấy đơn vị?
@@ -51,7 +52,7 @@ Số $23$ gồm mấy chục và mấy đơn vị?
 Vậy $23$ gồm $2$ chục và $3$ đơn vị.
 :::
 
-Bây giờ em làm ngược lại: viết số.
+Giờ ta làm ngược lại: biết số chục và số đơn vị, em viết ra số đó.
 
 :::example Viết số
 Viết số gồm $4$ chục và $7$ đơn vị.
@@ -61,7 +62,7 @@ Viết số gồm $4$ chục và $7$ đơn vị.
 Vậy số cần viết là $47$.
 :::
 
-Có số tròn chục.
+Có những số tròn chục, không có viên lẻ.
 
 :::example Số 50
 Số $50$ gồm mấy chục và mấy đơn vị?
@@ -71,7 +72,7 @@ Số $50$ gồm mấy chục và mấy đơn vị?
 Vậy $50$ gồm $5$ chục và $0$ đơn vị.
 :::
 
-Cuối cùng em giải một bài toán trong cuộc sống.
+Cuối cùng, em dùng cách gom chục để đếm que tính, như khi đếm đồ vật thật.
 
 :::example Bó que tính
 Có $3$ bó que tính, mỗi bó $10$ que, và $4$ que lẻ. Hỏi có tất cả bao nhiêu que tính?
@@ -87,6 +88,7 @@ Vậy có $34$ que tính.
 - **Đảo chữ số.** Sai: $2$ chục $3$ đơn vị viết là $32$. Vì sao sai: $32$ có $3$ chục. Đúng: $23$.
 - **Bỏ quên số $0$.** Sai: $5$ chục viết là $5$. Vì sao sai: $5$ chỉ có $5$ đơn vị. Đúng: $5$ chục viết là $50$.
 - **Nhầm chục với đơn vị.** Sai: chữ số $6$ của số $68$ là hàng đơn vị. Vì sao sai: $6$ đứng bên trái nên là hàng chục. Đúng: $6$ ở hàng chục, $8$ ở hàng đơn vị.
+Chỗ này nhiều bạn hay nhầm, nên em nhớ: chữ số bên trái là hàng chục.
 :::
 
 ## Thuật ngữ
@@ -107,10 +109,11 @@ Vậy có $34$ que tính.
 - Số có hai chữ số gồm chục và đơn vị: $23$ là $2$ chục $3$ đơn vị.
 - Chữ số bên trái là hàng chục; chữ số bên phải là hàng đơn vị.
 - $5$ chục viết là $50$.
+Câu hỏi của Lan lúc đầu cũng trả lời được theo cách ấy: đếm bó là đếm chục, đếm viên lẻ là đếm đơn vị. Em luyện thêm để đọc và viết số cho quen nhé.
 
 ## Luyện tập
 
-Mỗi bài có phần kiến thức và gợi ý. Em hãy tự làm trước, rồi mới bấm xem lời giải.
+Mỗi bài có phần nhắc kiến thức và một gợi ý để em bắt đầu. Em cứ tự làm trước. Làm xong, hoặc khi bí, hãy bấm xem lời giải.
 
 :::exercise
 Số $34$ gồm $\square$ chục và $\square$ đơn vị.

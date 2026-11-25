@@ -10,19 +10,20 @@ minutes: 15
 - Solve a word problem with one subtraction.
 :::
 
-Nam has $27$ marbles. He gives $4$ marbles to a friend. How many marbles does Nam have left?
+Nam has $27$ marbles. He gives $4$ marbles to a friend. Think about it: how many marbles does Nam have left?
 
-You could count back one at a time: $26, 25, 24, 23$. But counting back many marbles takes a long time. This lesson shows you a quicker way, using tens and ones.
+You could count back one at a time: $26, 25, 24, 23$. That works. But if Nam gave away many more marbles, counting back would take a long time, and it is easy to lose your place. There is a quicker way: split the number into tens and ones, and subtract only in the ones.
 
 ## Let's explore
 
-The number $27$ has $2$ tens and $7$ ones.
+Look closely at the number $27$ first. It has $2$ tens and $7$ ones.
 
 - Nam has $2$ tens of marbles and $7$ single marbles.
-- He gives away $4$ single marbles. The single marbles left are $7-4=3$.
+- He gives his friend $4$ single marbles, so the single marbles left are $7-4=3$.
 - He gives away no group of ten, so he still has $2$ tens.
+Only the single marbles are taken away. The groups of ten stay as they were.
 
-So $2$ tens and $3$ ones make $23$. We have $27-4=23$.
+Put them back together: $2$ tens and $3$ ones make $23$. So $27-4=23$.
 
 :::graph On the number line: from 27, jump back 4 to reach 23
 alt: A number line from 20 to 30 with the points 27 and 23 marked and the stretch from 23 to 27 highlighted
@@ -40,11 +41,11 @@ To work out $27-4$:
 3. Write the answer: $2$ tens and $3$ ones make $23$.
 :::
 
-This works because you only take away single marbles. The number of tens does not change, so you keep the tens the same.
+Why do we only subtract the ones? Because Nam gave away only single marbles and no group of ten. The number of tens does not change, so we keep the tens the same.
 
 ## Examples
 
-We start with the simplest subtraction.
+We work out Nam's subtraction again, one step at a time.
 
 :::example Work out $27-4$
 **Solution.** $27$ has $2$ tens and $7$ ones. Subtract the ones: $7-4=3$. Keep the tens the same: $2$:
@@ -52,7 +53,7 @@ $$27-4=23.$$
 So $27-4=23$.
 :::
 
-Now a similar subtraction with different numbers.
+Here is another subtraction, with different numbers. We follow the same steps, so see whether the method feels familiar.
 
 :::example Work out $58-6$
 **Solution.** $58$ has $5$ tens and $8$ ones. Subtract the ones: $8-6=2$. Keep the tens the same: $5$:
@@ -60,7 +61,7 @@ $$58-6=52.$$
 So $58-6=52$.
 :::
 
-When the number you subtract equals the ones digit, no ones are left.
+One case can look odd. When the number you subtract equals the ones digit, no ones are left at all. Do not worry: the steps stay the same.
 
 :::example Work out $45-5$
 **Solution.** $45$ has $4$ tens and $5$ ones. Subtract the ones: $5-5=0$. Keep the tens the same: $4$:
@@ -68,7 +69,7 @@ $$45-5=40.$$
 So $45-5=40$.
 :::
 
-Now use subtraction to answer a question from everyday life.
+Subtraction is useful in everyday life too, for example on a bus. Here is a problem like that.
 
 :::example On the bus
 There are $36$ people on a bus. At a stop, $3$ people get off. How many people are left on the bus?
@@ -83,7 +84,8 @@ So $33$ people are left on the bus.
 :::warning Mistakes to watch out for
 - **Forgetting the tens.** Wrong: $27-4=3$. Why it is wrong: you only worked out $7-4$ and forgot the $2$ tens. Right: $27-4=23$.
 - **Mixing up subtraction and addition.** Wrong: $27-4=31$. Why it is wrong: you worked out $27+4$. Right: "left" means taking away, so $27-4=23$.
-- **No unit in a word problem.** Wrong: "Answer: $33$". Right: "Answer: $33$ people".
+- **No unit in a word problem.** Wrong: "Answer: $33$". Why it is wrong: the number on its own does not say what we are counting. Right: "Answer: $33$ people".
+Many children slip up here, so do not worry. When you finish, check with addition.
 :::
 
 ## Key terms
@@ -104,10 +106,11 @@ So $33$ people are left on the bus.
 - Example: $27-4=23$ because $7-4=3$ and the tens stay $2$.
 - Check with addition: $23+4=27$.
 - Questions with "left" or "take away" usually need subtraction; remember the unit in the answer.
+You can now answer the question about Nam's marbles without counting back one at a time. Remember to subtract the ones, keep the tens the same, and practise a few questions until it feels easy.
 
 ## Practice
 
-Each exercise comes with what you need and how to start. Try it yourself first, then open the solution.
+Each exercise has a reminder of what you need and a hint to get started. Try it yourself first, and take your time. When you finish, or if you get stuck, open the solution.
 
 :::exercise
 Work out $38-5$.

@@ -10,13 +10,13 @@ minutes: 15
 - Solve a word problem with one multiplication or one division.
 :::
 
-A week has $7$ days. How many days are there in $5$ weeks?
+When we wait for something, we often count in weeks rather than in single days. A week has $7$ days. How many days are there in $5$ weeks?
 
-You could add $7+7+7+7+7$, but adding many times is easy to get wrong. This lesson helps you work it out quickly with the $7$ times table.
+You could add $7+7+7+7+7$ and you would get the answer. The trouble is that adding many times is slow and easy to get wrong. The $7$ times table is a shortcut: once you know it, the answer comes straight away.
 
 ## Let's explore
 
-Each week is a group of $7$ days. We add one week at a time:
+Each week is a group of $7$ days. We add one week at a time and watch the numbers appear:
 
 - $1$ week: $7$ days.
 - $2$ weeks: $7+7=14$ days.
@@ -24,7 +24,7 @@ Each week is a group of $7$ days. We add one week at a time:
 - $4$ weeks: $21+7=28$ days.
 - $5$ weeks: $28+7=35$ days.
 
-So $5$ weeks have $35$ days, that is $7\times5=35$. Each new week adds $7$ to the product.
+So $5$ weeks have $35$ days, and we write $7\times5=35$. Notice that each new week adds $7$ to the product. The $7$ times table is built exactly this way, one group at a time.
 
 :::graph On the number line: every jump is 7
 alt: A number line from 0 to 42 with the points 0, 7, 14, 21, 28, 35 and 42 marked, each $7$ more than the one before
@@ -40,7 +40,7 @@ point: (35, 0) "35" above
 point: (42, 0) "42" below
 :::
 
-Here is one more trick: $7=5+2$, so $7\times4=5\times4+2\times4=20+8=28$.
+Here is another way to remember it. We split $7=5+2$, two small numbers you already know well. Then $7\times4=5\times4+2\times4=20+8=28$.
 
 :::theorem The 7 times table
 To work out $7\times n$, take $7\times(n-1)$ and add $7$. You can also split $7=5+2$ and add $5\times n$ and $2\times n$.
@@ -54,7 +54,7 @@ To work out $7\times n$, take $7\times(n-1)$ and add $7$. You can also split $7=
 | $42$ | $49$ | $56$ | $63$ | $70$ |
 :::
 
-The division facts for $7$ come from the $7$ times table. Since $7\times5=35$, we have $35\div7=5$. If you split $35$ days into weeks of $7$ days, you get $5$ weeks.
+You do not need to learn the division facts for $7$ separately, because they come from the $7$ times table. Since $7\times5=35$, we have $35\div7=5$. Split $35$ days into weeks of $7$ days and you get $5$ weeks.
 
 ## Examples
 
@@ -66,7 +66,7 @@ $$7\times6=7\times5+7=35+7=42.$$
 So $7\times6=42$.
 :::
 
-Now use the trick of splitting $7=5+2$.
+Now let us try splitting $7=5+2$.
 
 :::example Work out $7\times8$ by splitting $7=5+2$
 **Solution.** $8$ groups of $7$ are $8$ groups of $5$ and $8$ groups of $2$:
@@ -74,7 +74,7 @@ $$7\times8=5\times8+2\times8=40+16=56.$$
 So $7\times8=56$.
 :::
 
-Sometimes it is easier to take the next product and subtract $7$.
+Sometimes it is easier to start from the next product and take away $7$, especially when that next product is a round ten.
 
 :::example Work out $7\times9$
 **Solution.** You know $7\times10=70$. Take away one group of $7$:
@@ -82,7 +82,7 @@ $$7\times9=7\times10-7=70-7=63.$$
 So $7\times9=63$.
 :::
 
-Next, division.
+Now division. You will see that the times table helps straight away.
 
 :::example Work out $56\div7$
 **Solution.** Ask: which number times $7$ makes $56$? In the $7$ times table, $7\times8=56$, so
@@ -92,7 +92,7 @@ $$56\div7=8.$$
 So $56\div7=8$.
 :::
 
-Finally, a word problem.
+Finally, we use the times table in a word problem. The thing to decide is whether to multiply or divide.
 
 :::example Days into weeks
 A trip lasts $49$ days. How many weeks is that?
@@ -105,10 +105,11 @@ So the trip lasts $7$ weeks.
 :::
 
 :::warning Mistakes to watch out for
-- **Taking one group too few.** Wrong: $7\times6=36$. Why it is wrong: $36$ is $6\times6$, so you have only $6$ groups. Right: $7\times6=35+7=42$.
+- **Taking one group too few.** Wrong: $7\times6=36$. Why it is wrong: $36$ is $6\times6$, so you have only $6$ groups, which is one group short of $7$. Right: $7\times6=35+7=42$.
 - **Adding instead of multiplying.** Wrong: $7\times3=10$. Why it is wrong: $7+3$ is an addition, but $7\times3$ means $3$ groups of $7$. Right: $7\times3=21$.
 - **Dividing wrongly.** Wrong: $56\div7=7$. Why it is wrong: $7\times7=49$, not $56$. Right: $7\times8=56$, so $56\div7=8$.
 - **Forgetting the unit.** Wrong: "Answer: $7$". Right: "Answer: $7$ weeks".
+Many pupils slip up here, so do not worry. A quick check will catch it.
 :::
 
 ## Key terms
@@ -131,10 +132,11 @@ So the trip lasts $7$ weeks.
 - Trick: $7=5+2$, so $7\times n=5\times n+2\times n$.
 - From $7\times a=b$ we get $b\div7=a$ and $b\div a=7$.
 - A week has $7$ days; write the unit in the answer and check a division with a multiplication.
+Back to the opening question: the days in five weeks come straight from the $7$ times table, with no long adding. Remember that each group adds $7$ more, and that division always leans on the times table. Try the practice below so the $7$ times table sticks.
 
 ## Practice
 
-Each exercise comes with what you need and how to start. Try it yourself first, then open the solution.
+Each exercise comes with what you need to remember and a hint to start you off. Try it yourself first, and open the solution only when you are stuck. A slip along the way is fine, because that is how the method sticks.
 
 :::exercise
 Work out:

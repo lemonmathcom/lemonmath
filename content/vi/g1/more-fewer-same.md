@@ -12,11 +12,11 @@ minutes: 15
 
 Trên bàn có $4$ cái cốc và $5$ cái thìa. Mẹ muốn mỗi cái cốc có một cái thìa. Cốc nhiều hơn hay thìa nhiều hơn?
 
-Em có thể đếm từng nhóm. Bài này dạy em một cách khác, không cần đếm: ghép từng cặp.
+Em có thể đếm từng nhóm. Nhưng còn một cách khác, không cần đếm: ghép từng cặp. Chỉ cần xem bên nào còn thừa là biết.
 
 ## Cùng khám phá
 
-Em đặt mỗi cái thìa vào một cái cốc, mỗi cốc chỉ một thìa.
+Ta thử đặt thìa vào cốc, mỗi cốc một cái thìa, không đặt hai thìa vào cùng một cốc.
 
 ![Bốn cốc, mỗi cốc có một thìa, và một thìa thừa nằm riêng](/assets/img/g1/g1-more-fewer-same-01.svg)
 
@@ -24,7 +24,7 @@ Em đặt mỗi cái thìa vào một cái cốc, mỗi cốc chỉ một thìa.
 - Cốc thứ ba và cốc thứ tư cũng có một thìa.
 - Cả bốn cốc đều có thìa, nhưng còn thừa một cái thìa.
 
-Thìa còn thừa, nên số thìa nhiều hơn số cốc. Cốc hết trước, nên số cốc ít hơn số thìa.
+Em thấy còn một cái thìa thừa ra. Nhóm còn thừa là nhóm nhiều hơn, nên thìa nhiều hơn cốc. Cốc thì hết trước, nên cốc ít hơn thìa.
 
 :::theorem Ghép một với một
 Ghép từng đồ vật của nhóm này với từng đồ vật của nhóm kia.
@@ -33,11 +33,11 @@ Ghép từng đồ vật của nhóm này với từng đồ vật của nhóm k
 3. Hai nhóm cùng hết một lúc thì **bằng nhau**.
 :::
 
-Cách này đúng vì mỗi cặp dùng hết một đồ vật của mỗi nhóm. Nhóm nào còn lại thì có nhiều hơn.
+Vì sao ghép cặp lại cho biết nhóm nào nhiều hơn? Vì mỗi cặp dùng hết một đồ vật của mỗi nhóm. Ghép xong, nhóm nào còn lại thì nhóm đó có nhiều hơn.
 
 ## Ví dụ
 
-Ta làm lại câu hỏi ở đầu bài.
+Ta trở lại câu hỏi ở đầu bài, về cốc và thìa trên bàn.
 
 :::example Cốc và thìa
 Có $4$ cái cốc và $5$ cái thìa. Nhóm nào nhiều hơn? Nhóm nào ít hơn?
@@ -47,7 +47,7 @@ Có $4$ cái cốc và $5$ cái thìa. Nhóm nào nhiều hơn? Nhóm nào ít h
 Vậy thìa nhiều hơn cốc, và cốc ít hơn thìa.
 :::
 
-Bây giờ hai nhóm có thể hết cùng lúc.
+Có khi ghép xong mà không bên nào còn thừa. Em xem ví dụ này.
 
 :::example Bạn và mũ
 Có $3$ bạn và $3$ chiếc mũ. Mỗi bạn đội một chiếc mũ. Nhóm nào nhiều hơn?
@@ -57,7 +57,7 @@ Có $3$ bạn và $3$ chiếc mũ. Mỗi bạn đội một chiếc mũ. Nhóm n
 Vậy số bạn và số mũ bằng nhau.
 :::
 
-Tiếp theo em xem nhóm nhiều hơn thừa ra mấy.
+Biết nhóm nào nhiều hơn rồi, em còn nói được nhóm đó nhiều hơn mấy. Đó chính là số đồ vật còn thừa.
 
 :::example Hoa đỏ và hoa vàng
 Trong chậu có $6$ bông hoa đỏ và $8$ bông hoa vàng. Nhóm nào nhiều hơn? Thừa ra mấy bông?
@@ -67,7 +67,7 @@ Trong chậu có $6$ bông hoa đỏ và $8$ bông hoa vàng. Nhóm nào nhiều
 Vậy hoa vàng nhiều hơn hoa đỏ, và nhiều hơn $2$ bông.
 :::
 
-Cuối cùng em dùng cách ghép cho bài toán đời sống.
+Cách ghép cũng giúp em giải những chuyện thường ngày, như chim về tổ. Em xem còn con chim nào chưa có chỗ không.
 
 :::example Chim và tổ
 Có $5$ con chim và $4$ cái tổ. Mỗi con chim vào một tổ. Còn con chim nào chưa có tổ không?
@@ -78,8 +78,8 @@ Vậy còn $1$ con chim chưa có tổ.
 :::
 
 :::warning Những lỗi em hay gặp
-- **Nhầm đồ vật to với nhiều.** Sai: hộp to nên có nhiều bi hơn. Vì sao sai: hộp to chưa chắc có nhiều bi. Đúng: ghép hoặc đếm số bi.
-- **Ghép một đồ vật hai lần.** Sai: một cái cốc nhận hai cái thìa. Vì sao sai: kết quả bị lệch. Đúng: mỗi cốc chỉ một thìa.
+- **Nhầm đồ vật to với nhiều.** Chỗ này nhiều bạn hay nhầm. Sai: hộp to nên có nhiều bi hơn. Vì sao sai: hộp to chưa chắc có nhiều bi. Đúng: ghép hoặc đếm số bi.
+- **Ghép một đồ vật hai lần.** Sai: một cái cốc nhận hai cái thìa. Vì sao sai: ghép như vậy thì kết quả bị lệch. Đúng: mỗi cốc chỉ một thìa.
 - **Nhầm "nhiều hơn" với "ít hơn".** Sai: nhóm còn thừa là nhóm ít hơn. Vì sao sai: nhóm còn thừa có nhiều đồ vật hơn. Đúng: nhóm còn thừa là nhóm nhiều hơn.
 :::
 
@@ -101,9 +101,11 @@ Vậy còn $1$ con chim chưa có tổ.
 - Hai nhóm cùng hết một lúc thì bằng nhau.
 - Đồ vật to hơn chưa chắc là nhiều hơn.
 
+Quay lại câu hỏi đầu bài: còn thừa thìa, nên thìa nhiều hơn cốc. Em nhớ ghép mỗi đồ vật một lần, rồi xem bên nào còn thừa, và làm thêm vài bài luyện tập nhé.
+
 ## Luyện tập
 
-Mỗi bài có phần kiến thức và gợi ý. Em hãy tự làm trước, rồi mới bấm xem lời giải.
+Mỗi bài có phần kiến thức và một gợi ý để em bắt đầu. Em thử tự làm trước, chưa ra thì xem gợi ý, rồi mới mở lời giải. Làm chậm một chút cũng không sao.
 
 :::exercise
 Có $3$ cái cốc và $4$ cái thìa. Nhóm nào nhiều hơn?

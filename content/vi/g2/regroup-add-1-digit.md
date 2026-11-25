@@ -12,21 +12,21 @@ minutes: 15
 
 Nam có $38$ viên bi. Bạn Hùng cho Nam thêm $6$ viên nữa. Hỏi Nam có tất cả bao nhiêu viên bi?
 
-Em đã biết cộng qua $10$ trong phạm vi $20$ ở các bài trước. Bài này dùng chính cách đó cho số lớn hơn.
+Nam có nhiều bi, đếm từng viên thì lâu và dễ nhầm. Em đã biết sẵn một cách nhanh hơn: ở các bài trước, em cộng qua $10$ trong phạm vi $20$. Giờ ta dùng đúng cách ấy cho số lớn hơn. Câu hỏi của bài là: khi hàng đơn vị đầy lên, phần đầy đó đi đâu?
 
 ## Cùng khám phá
 
-Ta tách số $38$ thành $3$ chục và $8$ đơn vị. Số $6$ chỉ có $6$ đơn vị.
+Muốn cộng cho dễ, ta xem mỗi số gồm những gì. Số $38$ gồm $3$ chục và $8$ đơn vị. Còn số $6$ thì không có chục nào, chỉ có $6$ đơn vị.
 
-- Cộng hàng đơn vị: $8+6=14$. Vậy có $14$ đơn vị.
-- $14$ đơn vị là $1$ chục và $4$ đơn vị. Ta đổi $10$ đơn vị lấy $1$ chục.
-- Cộng hàng chục: $3$ chục cũ cộng $1$ chục mới là $4$ chục.
+- Trước hết, cộng hàng đơn vị: $8+6=14$. Vậy ta có $14$ đơn vị.
+- $14$ đơn vị nhiều quá để ở yên hàng đơn vị. Nó là $1$ chục và $4$ đơn vị, vì ta đổi $10$ đơn vị lấy $1$ chục.
+- Sau đó cộng hàng chục: $3$ chục cũ cộng $1$ chục mới là $4$ chục.
 
-Vậy có $4$ chục và $4$ đơn vị, tức là $44$.
+Ghép lại, ta có $4$ chục và $4$ đơn vị, tức là $44$ viên bi. Đó là câu trả lời cho điều Nam muốn biết.
 
 $$\begin{array}{r} 38\\ +\ \ 6\\ \hline 44 \end{array}$$
 
-Em cũng có thể nhảy trên tia số: từ $38$ nhảy $2$ bước đến $40$, rồi nhảy thêm $4$ bước đến $44$.
+Nếu em thích nhìn bằng mắt, ta còn có thể đi trên tia số. Từ $38$ nhảy $2$ bước đến $40$ cho tròn chục, rồi nhảy thêm $4$ bước đến $44$. Hai cách cho cùng một kết quả.
 
 :::graph Trên tia số: từ 38 nhảy 2 bước đến 40, rồi nhảy 4 bước đến 44
 alt: Tia số từ 36 đến 46, đánh dấu các điểm 38, 40 và 44; đoạn từ 38 đến 44 được tô đậm
@@ -45,11 +45,11 @@ Muốn tính $38+6$:
 3. Cộng hàng chục: $3+1=4$. Viết $4$ ở hàng chục.
 :::
 
-Cách này đúng vì $14$ đơn vị bằng $1$ chục và $4$ đơn vị. Chục mới đó không bị mất: em cộng nó vào hàng chục.
+Vì sao cách này đúng? Vì $14$ đơn vị bằng $1$ chục và $4$ đơn vị: ta chỉ gom lại cho gọn. Chục mới đó không bị mất, em cộng nó vào hàng chục. Chỗ này nhiều bạn hay quên, nên em nhớ nhìn lại hàng chục nhé.
 
 ## Ví dụ
 
-Ta bắt đầu với một phép cộng ở hàng đơn vị có tổng chỉ hơn $10$ một chút.
+Ta thử vài phép tính nữa cho quen tay. Phép đầu khá nhẹ: tổng ở hàng đơn vị chỉ hơn $10$ một chút.
 
 :::example Tính $27+5$
 **Lời giải.** Cộng hàng đơn vị trước: $7+5=12$, viết $2$ và nhớ $1$ chục. Rồi cộng hàng chục: $2+1=3$:
@@ -57,7 +57,7 @@ $$\begin{array}{r} 27\\ +\ \ 5\\ \hline 32 \end{array}$$
 Vậy $27+5=32$.
 :::
 
-Phép tính sau làm giống hệt, chỉ đổi số.
+Phép tính sau làm y hệt, chỉ đổi số. Em thử đoán xem có phải nhớ không, rồi đối chiếu lời giải.
 
 :::example Tính $46+8$
 **Lời giải.** Hàng đơn vị: $6+8=14$, viết $4$ và nhớ $1$. Hàng chục: $4+1=5$:
@@ -65,7 +65,7 @@ $$\begin{array}{r} 46\\ +\ \ 8\\ \hline 54 \end{array}$$
 Vậy $46+8=54$.
 :::
 
-Bây giờ hàng đơn vị có tổng lớn hơn, nhưng cách làm vẫn như cũ.
+Lần này tổng ở hàng đơn vị lớn hơn nữa. Đừng lo, cách làm vẫn y như cũ. Làm xong, ta còn thử kiểm tra lại bằng một cách khác.
 
 :::example Tính $69+7$
 **Lời giải.** Hàng đơn vị: $9+7=16$, viết $6$ và nhớ $1$. Hàng chục: $6+1=7$:
@@ -75,7 +75,7 @@ Vậy $69+7=76$.
 **Kiểm tra.** Em tách $7=1+6$: $69+1=70$, rồi $70+6=76$. Kết quả giống nhau.
 :::
 
-Bây giờ em dùng phép cộng để giải một bài toán trong cuộc sống.
+Giờ ta thử với một chuyện quen thuộc: mẹ bỏ thêm táo vào giỏ. Em đọc kĩ đề rồi tự hỏi: đề bảo gộp lại hay bớt đi? Hỏi xong, em mới chọn phép tính.
 
 :::example Giỏ táo
 Trong giỏ có $58$ quả táo. Mẹ bỏ thêm $6$ quả táo. Hỏi trong giỏ có tất cả bao nhiêu quả táo?
@@ -86,9 +86,9 @@ Vậy trong giỏ có tất cả $64$ quả táo.
 :::
 
 :::warning Những lỗi em hay gặp
-- **Quên chục nhớ.** Sai: $38+6=34$. Vì sao sai: em viết $4$ nhưng quên cộng $1$ chục vào hàng chục. Đúng: $38+6=44$.
-- **Viết cả $14$ vào hàng đơn vị.** Sai: $38+6=314$. Vì sao sai: $14$ đơn vị phải đổi thành $1$ chục và $4$ đơn vị. Đúng: $38+6=44$.
-- **Bài toán có lời văn quên đơn vị.** Sai: "Đáp số: $64$". Đúng: "Đáp số: $64$ quả táo".
+- **Quên chục nhớ.** Sai: $38+6=34$. Vì sao sai: nhiều bạn viết xong $4$ là dừng, quên cộng $1$ chục vào hàng chục. Đúng: $38+6=44$.
+- **Viết cả $14$ vào hàng đơn vị.** Sai: $38+6=314$. Vì sao sai: $14$ đơn vị phải đổi thành $1$ chục và $4$ đơn vị. Hàng đơn vị chỉ giữ phần lẻ. Đúng: $38+6=44$.
+- **Bài toán có lời văn quên đơn vị.** Sai: "Đáp số: $64$". Vì sao sai: một con số đứng một mình chưa cho biết ta đang đếm gì. Đúng: "Đáp số: $64$ quả táo".
 :::
 
 ## Thuật ngữ
@@ -106,14 +106,15 @@ Vậy trong giỏ có tất cả $64$ quả táo.
 
 ## Tóm tắt
 
-- Cộng hàng đơn vị trước. Nếu được $10$ hoặc hơn, đổi $10$ đơn vị lấy $1$ chục.
-- Viết số đơn vị còn lại ở hàng đơn vị, nhớ $1$ chục sang hàng chục.
+- Cộng hàng đơn vị trước. Nếu được $10$ hoặc hơn, ta đổi $10$ đơn vị lấy $1$ chục.
+- Viết số đơn vị còn lại ở hàng đơn vị, rồi nhớ $1$ chục sang hàng chục.
 - Ví dụ: $38+6$: $8+6=14$, viết $4$ nhớ $1$; $3+1=4$; kết quả $44$.
-- Bài toán hỏi "tất cả", "thêm" thường là phép cộng; nhớ ghi đơn vị trong đáp số.
+- Đề hỏi "tất cả" hoặc cho "thêm" thì thường là phép cộng. Nhớ ghi đơn vị trong đáp số.
+Còn nhớ câu hỏi đầu bài không: khi hàng đơn vị đầy lên, phần đầy đó đi đâu? Nó không mất đi, mà đổi thành chục và nhập vào hàng chục. Em làm thêm vài phép tính ở phần Luyện tập để cách này thành quen tay nhé.
 
 ## Luyện tập
 
-Mỗi bài có phần kiến thức và gợi ý. Em hãy tự làm trước, rồi mới bấm xem lời giải.
+Mỗi bài có phần kiến thức cần nhớ và một gợi ý để em bắt đầu. Em cứ thử tự làm trước, chưa ra ngay cũng không sao. Làm xong rồi hãy bấm xem lời giải để đối chiếu.
 
 :::exercise
 Tính $35+7$.

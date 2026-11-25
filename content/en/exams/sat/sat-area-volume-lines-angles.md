@@ -11,7 +11,7 @@ minutes: 35
 - Predict how area and volume change when lengths are scaled.
 :::
 
-Geometry and Trigonometry has about 5 to 7 questions on the test. The formulas for area and volume are on the reference sheet in Bluebook, so the SAT does not test memory: it tests whether you can **choose** the right formula, break a figure into simple parts and set up an equation from an angle relationship. Many questions here are student-produced responses, so careful arithmetic matters.
+If you worry about having to memorise lots of geometry formulas, here is some good news: you do not need to. Geometry and Trigonometry has about 5 to 7 questions on the test, and the formulas for area and volume are on the reference sheet in Bluebook. So the SAT does not test memory. It tests whether you can **choose** the right formula, break a figure into simple parts and set up an equation from an angle relationship. Many questions here are student-produced responses, so careful arithmetic matters.
 
 ## Lines and angles
 
@@ -20,6 +20,8 @@ Geometry and Trigonometry has about 5 to 7 questions on the test. The formulas f
 - Vertical angles are equal.
 - When a transversal crosses two **parallel** lines: corresponding angles are equal, alternate interior angles are equal, and same-side interior angles add up to $180^\circ$.
 - The angles of a triangle add up to $180^\circ$; the interior angles of a polygon with $n$ sides add up to $(n-2)\cdot180^\circ$.
+
+These four facts underlie every angle question in this lesson. Whenever you see parallel lines, think of alternate interior and corresponding angles first.
 :::
 
 :::example Parallel lines
@@ -40,7 +42,7 @@ D. $720^\circ$
 
 ## Area and composite figures
 
-To find the area of a composite figure, split it into rectangles, triangles and circles, then add or subtract.
+Composite figures look messy, but they are usually made of a few familiar shapes. To find the area, split the figure into rectangles, triangles and circles, then add or subtract. Why split? Because you already know how to find the area of each simple shape.
 
 :::example A rectangle with a semicircle cut out
 A garden is a rectangle 12 meters long and 8 meters wide. A semicircular pond with diameter 8 meters lies along one of the 8-meter sides, inside the garden. What is the area of the garden not covered by the pond, in square meters?
@@ -79,14 +81,14 @@ Two similar solids have corresponding edges in the ratio $2:3$. The smaller soli
 :::
 
 :::warning Common traps
-- **Radius or diameter.** Read which one is given. Many wrong options use the diameter in $\pi r^2$.
-- **Forgetting $\dfrac13$** in the volume of a cone or a pyramid.
-- **Scaling linearly.** Doubling the radius of a circle multiplies its area by $4$, not $2$.
-- **Answers in terms of $\pi$.** If the options contain $\pi$, keep $\pi$ as a symbol; do not multiply by $3.14$.
+- **Radius or diameter.** Read which one is given. Many students slip here, and many wrong options come straight from using the diameter in $\pi r^2$.
+- **Forgetting $\dfrac13$** in the volume of a cone or a pyramid. These two solids take up less room than a cylinder or a prism with the same base and height.
+- **Scaling linearly.** Doubling the radius of a circle multiplies its area by $4$, not $2$. Area has two dimensions, so the scale factor is multiplied by itself.
+- **Answers in terms of $\pi$.** If the options contain $\pi$, keep $\pi$ as a symbol; do not multiply by $3.14$. The options are already written with $\pi$, so putting in a number only makes them harder to match.
 :::
 
 :::tip Using the reference sheet
-The reference sheet also states that a circle has $360^\circ$ or $2\pi$ radians and gives the special right triangles. Open it once before the test so you know exactly what it contains; on test day, open it only for the formula you need.
+Besides the area and volume formulas, the reference sheet also states that a circle has $360^\circ$ or $2\pi$ radians and gives the special right triangles. Open it and read it carefully once before the test, so you know exactly what it contains. On test day, open it only for the formula you need, so you do not lose time.
 :::
 
 :::terms

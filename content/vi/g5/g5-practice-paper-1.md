@@ -5,7 +5,7 @@ minutes: 40
 type: exam
 ---
 
-Đề này làm trong $40$ phút, thang điểm $10$. Em hãy in đề ra giấy (hoặc chép vào vở) và tự làm hết trước. Sau đó bấm xem từng lời giải để tự chấm điểm, rồi ôn lại những phần em còn làm sai.
+Đề này làm trong $40$ phút, thang điểm $10$, giống như một buổi thi thật. Em in đề ra giấy hoặc chép vào vở, rồi làm một mạch, đừng xem lời giải giữa chừng. Làm xong, em mở từng lời giải để tự chấm và đánh dấu những câu chưa đúng. Những câu đó cho em biết nên ôn lại phần nào. Đừng lo nếu còn vài câu sai: tìm ra chỗ yếu lúc này vẫn tốt hơn là gặp nó trong phòng thi.
 
 ## Phần 1. Trắc nghiệm (4 điểm)
 

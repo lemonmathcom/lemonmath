@@ -11,9 +11,9 @@ minutes: 40
 - Đặt hệ trục toạ độ cho một tình huống thực tế (căn phòng, máy bay, trạm phát sóng).
 :::
 
-Phương pháp toạ độ trong không gian là chủ đề "dễ lấy điểm" của lớp 12. Phần I thường có hai đến bốn câu hỏi đọc nhanh từ phương trình: vectơ pháp tuyến, tâm và bán kính mặt cầu, khoảng cách. Phần II hoặc Phần III thường có một câu tổng hợp, nhiều khi gắn với tình huống thực tế. Tổng cộng chủ đề này thường chiếm khoảng $1$ đến $1{,}5$ điểm.
+Mở đề thi Toán lớp 12 ra, bạn sẽ thấy toạ độ trong không gian xuất hiện ở nhiều phần. Phần I thường có hai đến bốn câu chỉ cần đọc từ phương trình là ra đáp số: vectơ pháp tuyến, tâm và bán kính mặt cầu, khoảng cách. Phần II hoặc Phần III thường có một câu tổng hợp, nhiều khi đặt trong một tình huống thực tế. Cộng lại, chủ đề này thường đáng khoảng $1$ đến $1{,}5$ điểm, và đây là chỗ dễ lấy điểm nếu bạn nắm chắc công thức. Vậy cần chuẩn bị những gì để lấy trọn chỗ điểm ấy?
 
-Bí quyết là thuộc chắc các công thức và tính cẩn thận dấu. Bài ôn đi qua bốn mảng: vectơ, mặt phẳng, đường thẳng, mặt cầu và mô hình thực tế.
+Câu trả lời khá giản dị: thuộc chắc các công thức và cẩn thận từng dấu cộng, dấu trừ. Ta sẽ đi lần lượt qua bốn mảng: vectơ, mặt phẳng, đường thẳng, rồi mặt cầu cùng các mô hình thực tế. Mỗi mảng có những công thức cần nhớ và một hai ví dụ cho thấy công thức ấy được dùng ra sao.
 
 :::diagram Hệ trục toạ độ $Oxyz$ và điểm $M(2; 3; 2)$
 alt: Ba trục Ox, Oy, Oz vuông góc từng đôi vẽ theo phép chiếu song song; điểm M ở phía trên mặt phẳng Oxy, hình chiếu M' của M trên mặt Oxy nối với các điểm trên trục Ox và Oy bằng nét đứt
@@ -109,7 +109,7 @@ Vậy đáp án là a) Đúng, b) Sai, c) Đúng, d) Sai.
 - Góc giữa hai mặt phẳng: $\cos\varphi=\dfrac{|\vec n\cdot\vec n'|}{|\vec n|\cdot|\vec n'|}$.
 :::
 
-Đường thẳng vuông góc với một mặt phẳng nhận vectơ pháp tuyến của mặt phẳng làm vectơ chỉ phương. Đây là ý của rất nhiều câu trắc nghiệm.
+Có một ý bạn nên nhớ thật chắc: nếu đường thẳng vuông góc với mặt phẳng thì nó cùng phương với vectơ pháp tuyến của mặt phẳng ấy, nên ta lấy luôn vectơ pháp tuyến làm vectơ chỉ phương. Lí do khá tự nhiên, vì vectơ pháp tuyến vốn là vectơ vuông góc với mặt phẳng. Rất nhiều câu trắc nghiệm dựa vào ý này, và ví dụ dưới đây là một câu như thế.
 
 :::example Trắc nghiệm: đường thẳng vuông góc với mặt phẳng
 Đường thẳng đi qua $A(1; 2; -1)$ và vuông góc với mặt phẳng $(P)\colon 2x-y+3z-5=0$ có phương trình tham số là
@@ -140,9 +140,9 @@ Vậy góc cần tìm khoảng $26^\circ$ (ghi $26$).
 :::
 
 :::warning Bẫy thường gặp
-- **Dùng $\cos$ thay cho $\sin$** với góc giữa đường thẳng và mặt phẳng. Ở ví dụ trên, dùng $\cos$ sẽ cho khoảng $64^\circ$, là góc phụ với đáp án đúng.
-- **Quên dấu giá trị tuyệt đối** khi tính góc giữa hai đường thẳng hoặc hai mặt phẳng: góc này không vượt quá $90^\circ$.
-- **Đọc sai toạ độ từ phương trình chính tắc.** Từ $\dfrac{z+1}{2}$ ta có $z_0=-1$, không phải $1$.
+- **Dùng $\cos$ thay cho $\sin$** với góc giữa đường thẳng và mặt phẳng. Chỗ này nhiều bạn hay nhầm. Ở ví dụ trên, nếu dùng $\cos$ ta được khoảng $64^\circ$, là góc phụ của đáp án đúng.
+- **Quên dấu giá trị tuyệt đối** khi tính góc giữa hai đường thẳng hoặc hai mặt phẳng. Hai góc này không bao giờ vượt quá $90^\circ$, nên tử số phải không âm.
+- **Đọc sai toạ độ từ phương trình chính tắc.** Từ $\dfrac{z+1}{2}$ ta có $z_0=-1$, chứ không phải $1$. Dấu cộng ở tử số cho ta toạ độ âm.
 :::
 
 ## Mặt cầu và mô hình toạ độ thực tế
@@ -153,7 +153,7 @@ Vậy góc cần tìm khoảng $26^\circ$ (ghi $26$).
 - Với $h=d(I, (P))$: nếu $h>R$ thì $(P)$ không cắt mặt cầu; $h=R$ thì $(P)$ tiếp xúc; $h<R$ thì $(P)$ cắt theo đường tròn bán kính $r=\sqrt{R^2-h^2}$.
 :::
 
-Trong bài toán thực tế, ta đặt gốc toạ độ ở một vị trí thuận tiện (góc phòng, chân tháp, trạm radar), chọn đơn vị (m hoặc km), rồi dịch câu hỏi thành câu hỏi về điểm, đường thẳng, mặt phẳng hay mặt cầu.
+Đề thực tế thường kể chuyện bằng lời, nên việc đầu tiên là biến câu chuyện thành hình học. Ta đặt gốc toạ độ ở chỗ thuận tiện nhất (góc phòng, chân tháp, trạm radar), chọn đơn vị (m hoặc km), rồi dịch câu hỏi thành câu hỏi về một điểm, một đường thẳng, một mặt phẳng hay một mặt cầu. Dịch xong, phần còn lại chính là những công thức bạn vừa ôn.
 
 :::example Trả lời ngắn: máy bay đi qua vùng phủ sóng radar
 Chọn hệ trục $Oxyz$ (đơn vị: km) với trạm radar đặt tại gốc $O$. Radar phát hiện được mọi vật cách nó không quá $5$ km. Một máy bay bay thẳng với vị trí $M(1+2t; 2-t; 2)$. Tính độ dài quãng đường máy bay bay trong vùng radar phát hiện được (đơn vị: km).
@@ -190,7 +190,7 @@ $$\sqrt5\cdot\frac{8}{\sqrt5}=8\ \text{(km)}.$$
 
 ## Bài tập
 
-Các bài được xếp từ dễ đến khó, mỗi bài ghi rõ dạng câu hỏi trong đề thi.
+Các bài tập xếp từ dễ đến khó, và mỗi bài ghi rõ nó thuộc dạng câu hỏi nào trong đề thi. Bạn cứ làm theo thứ tự. Nếu vướng ở một dạng nào, hãy quay lại phần ôn tương ứng ở trên rồi làm lại.
 
 :::exercise Trắc nghiệm
 Mặt phẳng đi qua $M(1; -2; 3)$ và có vectơ pháp tuyến $\vec n=(2; -1; 1)$ có phương trình là

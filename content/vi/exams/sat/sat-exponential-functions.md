@@ -11,7 +11,7 @@ minutes: 35
 - Dùng thời gian nhân đôi, chu kì bán rã và viết lại mô hình theo đơn vị thời gian khác.
 :::
 
-Hàm mũ còn mới với nhiều học sinh học Toán ở Việt Nam trước lớp 11, vậy mà SAT dùng nó ở mọi module, chủ yếu trong bối cảnh thực tế: dân số, tiền tiết kiệm, giá cả, thuốc và khấu hao. Tin vui là gần như câu nào cũng quay về một công thức và một ý: **mỗi bước thời gian bằng nhau, nhân với cùng một hệ số**.
+Tiền gửi tiết kiệm có lãi, dân số một thị trấn, lượng thuốc còn lại trong cơ thể: những thứ này không thay đổi đều đặn theo kiểu cộng thêm một lượng cố định. Chúng nhanh dần hoặc chậm dần. Vậy làm sao viết được một công thức cho kiểu thay đổi ấy? Hàm mũ còn mới với nhiều học sinh học Toán ở Việt Nam trước lớp 11, vậy mà SAT dùng nó ở mọi module, chủ yếu trong bối cảnh thực tế: dân số, tiền tiết kiệm, giá cả, thuốc và khấu hao. Đừng lo, gần như câu nào cũng quay về một công thức và một ý: **mỗi bước thời gian bằng nhau, nhân với cùng một hệ số**. Hiểu ý ấy thì phần còn lại của bài sẽ dễ theo hơn nhiều.
 
 ## Mô hình hàm mũ
 
@@ -48,8 +48,8 @@ Bạn gõ **14739**. Chú ý chiếc xe mất ít tiền dần qua từng năm (
 ## Bậc nhất hay hàm mũ?
 
 :::note Điểm khác nhau cốt lõi
-- **Bậc nhất:** sau mỗi bước bằng nhau, đại lượng thay đổi cùng một **lượng** (cộng thêm $m$).
-- **Hàm mũ:** sau mỗi bước bằng nhau, đại lượng thay đổi cùng một **hệ số** (hay cùng một phần trăm), tức là nhân với $b$.
+- **Bậc nhất:** cứ qua một bước thời gian bằng nhau, đại lượng thêm (hoặc bớt) cùng một **lượng**, tức là cộng thêm $m$.
+- **Hàm mũ:** cứ qua một bước thời gian bằng nhau, đại lượng được nhân với cùng một **hệ số** (hay đổi cùng một phần trăm), tức là nhân với $b$.
 :::
 
 :::example Đọc bảng giá trị
@@ -91,7 +91,7 @@ Một bệnh nhân uống 80 mi-li-gam thuốc. Lượng thuốc trong cơ thể
 
 ## Các dạng tương đương của mô hình
 
-SAT có thể hỏi dạng nào của mô hình thể hiện tốc độ theo một đơn vị thời gian khác. Hãy dùng quy tắc $b^{kt}=\left(b^k\right)^t$.
+Cùng một mô hình có thể viết theo nhiều cách, và mỗi cách cho thấy tốc độ tăng theo một đơn vị thời gian khác nhau, chẳng hạn theo năm hay theo nửa năm. SAT có thể hỏi dạng nào của mô hình thể hiện tốc độ theo đơn vị bạn cần. Chìa khoá là quy tắc $b^{kt}=\left(b^k\right)^t$: một phần của số mũ có thể chuyển vào cơ số mà giá trị không đổi.
 
 :::example Đổi đơn vị thời gian
 Một khoản đầu tư tăng theo $f(t)=200(1{,}21)^t$, với $t$ tính bằng năm. Dạng tương đương nào thể hiện tốc độ tăng sau mỗi nửa năm?
@@ -104,14 +104,14 @@ D. $f(t)=100(1{,}21)^{2t}$
 :::
 
 :::warning Những cái bẫy thường gặp
-- **Tốc độ hay hệ số.** Giảm $8\%$ ứng với hệ số $0{,}92$, không phải $0{,}08$.
-- **Cộng phần trăm.** Hai lần tăng $10\%$ cho $1{,}1^2=1{,}21$, tức tăng $21\%$, không phải $20\%$.
-- **Quên chu kì.** "Nhân đôi sau mỗi 3 giờ" là $2^{\frac t3}$, không phải $2^{3t}$.
-- **Từ ngữ của bậc nhất.** "Tăng thêm 50 mỗi năm" là bậc nhất; "tăng 50% mỗi năm" là hàm mũ.
+- **Tốc độ hay hệ số.** Chỗ này nhiều bạn hay nhầm: giảm $8\%$ ứng với hệ số $0{,}92$, không phải $0{,}08$.
+- **Cộng phần trăm.** Hai lần tăng $10\%$ không cho $20\%$. Ta có $1{,}1^2=1{,}21$, tức tăng $21\%$.
+- **Quên chu kì.** "Nhân đôi sau mỗi 3 giờ" là $2^{\frac t3}$, không phải $2^{3t}$. Số 3 là độ dài một chu kì, nên nó nằm ở mẫu của số mũ.
+- **Từ ngữ của bậc nhất.** "Tăng thêm 50 mỗi năm" là bậc nhất; "tăng 50% mỗi năm" là hàm mũ. Hãy để ý đề nói "thêm" một lượng hay nói "phần trăm".
 :::
 
 :::tip Desmos cho mô hình hàm mũ
-Gõ `y=24000(0.85)^x` rồi bấm vào đường cong tại $x=3$ để đọc giá trị. Để tìm khi nào đại lượng đạt một mức, hãy thêm đường nằm ngang, ví dụ `y=50`, rồi bấm vào giao điểm. Nhớ rằng Desmos dùng dấu chấm cho số thập phân.
+Muốn kiểm tra nhanh một đáp số, bạn có thể nhờ Desmos. Gõ `y=24000(0.85)^x` rồi bấm vào đường cong tại $x=3$ để đọc giá trị. Nếu cần biết khi nào đại lượng đạt một mức nào đó, hãy thêm một đường nằm ngang, ví dụ `y=50`, rồi bấm vào giao điểm. Nhớ rằng Desmos dùng dấu chấm cho số thập phân, nên bạn gõ `0.85` chứ không gõ dấu phẩy.
 :::
 
 :::terms

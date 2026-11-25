@@ -11,11 +11,11 @@ minutes: 45
 - Dùng sin, cos, tan trong tam giác vuông và nhớ các giá trị đặc biệt trên đường tròn đơn vị.
 :::
 
-Câu hỏi hình học trong ACT thường ngắn: một hình vẽ hoặc một mô tả, một hai kiến thức cần áp dụng, và một con số cần tìm. Nhiều học sinh mất điểm không phải vì hình học khó, mà vì không thuộc một công thức hoặc không vẽ nhanh một hình phác. Bài này tập hợp các kiến thức cần có và trình bày một lời giải gọn gàng cho từng dạng câu hỏi.
+Một câu hình học trên ACT thường rất ngắn: một hình vẽ hoặc một đoạn mô tả, một hai kiến thức cần dùng, và một con số cần tìm. Vậy vì sao nhiều bạn vẫn mất điểm? Thường không phải vì hình học khó, mà vì chưa thuộc một công thức, hoặc chưa kịp vẽ một hình phác. Bài này gom lại những kiến thức cần có, rồi trình bày một lời giải gọn cho từng dạng câu hỏi.
 
 ## Tam giác vuông và tam giác đồng dạng
 
-Trong tam giác vuông có hai cạnh góc vuông $a$, $b$ và cạnh huyền $c$: $a^2+b^2=c^2$. Các bộ ba quen thuộc như $3,4,5$ và $5,12,13$ (cùng các bội của chúng) giúp tiết kiệm thời gian. Trong **tam giác đồng dạng**, các cạnh tương ứng tỉ lệ với nhau.
+Tam giác vuông là hình xuất hiện nhiều nhất. Nếu hai cạnh góc vuông là $a$, $b$ và cạnh huyền là $c$ thì $a^2+b^2=c^2$. Một số bộ ba cạnh quen thuộc đáng nhớ, như $3,4,5$ và $5,12,13$ (cùng các bội của chúng), vì nhận ra chúng thì khỏi phải tính. Với **tam giác đồng dạng**, ý chính là các cạnh tương ứng tỉ lệ với nhau.
 
 :::example Chiếc thang dựa vào tường
 Một chiếc thang dài $13$ mét dựa vào một bức tường thẳng đứng. Chân thang cách tường $5$ mét. Thang chạm tường ở độ cao bao nhiêu?
@@ -48,9 +48,10 @@ Vậy cái cây cao $12$ m, chọn đáp án **C**. Phương án A dùng tỉ s�
 ## Đường tròn, diện tích và thể tích
 
 :::note Các công thức cần biết
-Đường tròn: $C=2\pi r$, $A=\pi r^2$; cung hay hình quạt có góc ở tâm $\theta^\circ$ chiếm $\dfrac{\theta}{360}$ cả hình tròn.
+Đường tròn: $C=2\pi r$, $A=\pi r^2$. Cung hay hình quạt có góc ở tâm $\theta^\circ$ chiếm $\dfrac{\theta}{360}$ cả hình tròn.
 Tam giác: $A=\dfrac12bh$. Hình thang: $A=\dfrac12(a+b)h$. Tổng các góc trong của đa giác $n$ cạnh: $(n-2)\times180^\circ$.
 Hình hộp chữ nhật: $V=lwh$. Hình trụ: $V=\pi r^2h$. Hình nón: $V=\dfrac13\pi r^2h$. Hình cầu: $V=\dfrac43\pi r^3$.
+Lúc làm bài sẽ không có thời gian tra, nên học thuộc trước thì nhẹ người hơn.
 :::
 
 :::example Từ chu vi đến hình quạt
@@ -70,7 +71,7 @@ Vậy diện tích hình quạt là $5\pi$, chọn đáp án **A**. Phương án
 
 ## Hình học toạ độ
 
-Với hai điểm $(x_1,y_1)$ và $(x_2,y_2)$: **khoảng cách** là $\sqrt{(x_2-x_1)^2+(y_2-y_1)^2}$, **trung điểm** là $\left(\dfrac{x_1+x_2}{2},\dfrac{y_1+y_2}{2}\right)$ và **hệ số góc (slope)** là $\dfrac{y_2-y_1}{x_2-x_1}$. Hai đường thẳng song song có hệ số góc bằng nhau; hai đường thẳng vuông góc có tích hệ số góc bằng $-1$. Đường tròn tâm $(h,k)$ bán kính $r$ có phương trình $(x-h)^2+(y-k)^2=r^2$.
+Mọi câu về toạ độ đều bắt đầu từ hai điểm. Với hai điểm $(x_1,y_1)$ và $(x_2,y_2)$: **khoảng cách** là $\sqrt{(x_2-x_1)^2+(y_2-y_1)^2}$, **trung điểm** là $\left(\dfrac{x_1+x_2}{2},\dfrac{y_1+y_2}{2}\right)$ và **hệ số góc (slope)** là $\dfrac{y_2-y_1}{x_2-x_1}$. Hai đường thẳng song song có hệ số góc bằng nhau; hai đường thẳng vuông góc có tích hệ số góc bằng $-1$. Đường tròn tâm $(h,k)$ bán kính $r$ có phương trình $(x-h)^2+(y-k)^2=r^2$. Hai ví dụ sau dùng ngay các công thức này.
 
 :::example Trung điểm và độ dài
 Hai đầu mút của một đoạn thẳng là $(-2,5)$ và $(6,-1)$. Trung điểm và độ dài của đoạn thẳng là
@@ -105,7 +106,7 @@ Vậy phương trình cần tìm là $y=-\dfrac12x+\dfrac72$, chọn đáp án *
 
 ## Lượng giác trong tam giác vuông
 
-Trong tam giác vuông có góc nhọn $\theta$: $\sin\theta=\dfrac{\text{đối}}{\text{huyền}}$, $\cos\theta=\dfrac{\text{kề}}{\text{huyền}}$, $\tan\theta=\dfrac{\text{đối}}{\text{kề}}$. Hãy nhớ các giá trị tại $30^\circ$, $45^\circ$, $60^\circ$, và hệ thức $\sin^2\theta+\cos^2\theta=1$.
+Trong tam giác vuông có góc nhọn $\theta$, sin, cos và tan chỉ là ba tỉ số giữa các cạnh: $\sin\theta=\dfrac{\text{đối}}{\text{huyền}}$, $\cos\theta=\dfrac{\text{kề}}{\text{huyền}}$, $\tan\theta=\dfrac{\text{đối}}{\text{kề}}$. Bạn nên nhớ các giá trị tại $30^\circ$, $45^\circ$, $60^\circ$, cùng hệ thức $\sin^2\theta+\cos^2\theta=1$.
 
 :::example Từ sin đến tan
 Trong một tam giác vuông, $\sin\theta=\dfrac35$ với $\theta$ là góc nhọn. Giá trị của $\tan\theta$ là
@@ -124,10 +125,11 @@ Vậy $\tan\theta=\dfrac34$, chọn đáp án **D**. Phương án A là $\cos\th
 
 :::warning Những cái bẫy thường gặp
 - **Cộng thay vì trừ** trong định lí Pythagoras khi đã biết cạnh huyền.
-- **Đường kính hay bán kính:** đề có thể cho một đại lượng mà công thức cần đại lượng kia.
-- **Hệ số góc vuông góc:** lấy số nghịch đảo đổi dấu, không chỉ đổi dấu.
+- **Đường kính hay bán kính:** đề có thể cho một đại lượng mà công thức lại cần đại lượng kia.
+- **Hệ số góc vuông góc:** lấy số nghịch đảo rồi đổi dấu, không chỉ đổi dấu.
 - **Phần của hình quạt:** dùng $\dfrac{\theta}{360}$ khi góc tính bằng độ.
 - **Chế độ máy tính:** câu lượng giác của ACT dùng độ trừ khi đề ghi radian.
+Một hình phác nhanh và một lần kiểm tra lại đại lượng đề cho sẽ bắt được phần lớn các lỗi này.
 :::
 
 :::terms

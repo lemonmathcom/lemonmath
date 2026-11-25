@@ -11,19 +11,19 @@ minutes: 20
 - Dùng hàm số và đồ thị để giải một số bài toán thực tế.
 :::
 
-Cửa hàng xe đạp thu 20 nghìn đồng để mở khoá và 15 nghìn đồng mỗi giờ. Thuê $x$ giờ hết $y=15x+20$ nghìn đồng. Sau $3$ giờ, bạn trả bao nhiêu? Các điểm $(x; y)$ tạo thành hình gì?
+Bạn đi thuê một chiếc xe đạp. Cửa hàng thu 20 nghìn đồng để mở khoá và 15 nghìn đồng mỗi giờ. Thuê $x$ giờ hết $y=15x+20$ nghìn đồng. Sau $3$ giờ, bạn trả bao nhiêu? Và nếu đặt các điểm $(x; y)$ lên mặt phẳng toạ độ, chúng tạo thành hình gì?
 
 ## Hàm số bậc nhất
 
 ### Khám phá: chi phí thuê xe
 
-Ta thay lần lượt vài giá trị của $x$ vào $y=15x+20$:
+Để trả lời, ta thay lần lượt vài giá trị của $x$ vào $y=15x+20$:
 
 | $x$ (giờ) | $0$ | $1$ | $2$ | $3$ |
 |---|---:|---:|---:|---:|
 | $y$ (nghìn đồng) | $20$ | $35$ | $50$ | $65$ |
 
-Mỗi giờ thêm làm chi phí tăng $15$ nghìn đồng. Số $20$ là chi phí ban đầu. Công thức có dạng $y=ax+b$ với $a=15$, $b=20$.
+Nhìn bảng, ta thấy mỗi giờ thêm làm chi phí tăng $15$ nghìn đồng. Còn số $20$ là chi phí ban đầu, có ngay từ lúc chưa tính giờ nào. Như vậy công thức có dạng $y=ax+b$ với $a=15$, $b=20$. Những công thức kiểu "một khoản cố định cộng với một khoản tăng đều" rất hay gặp, nên ta đặt tên cho chúng.
 
 :::definition Hàm số bậc nhất
 Hàm số bậc nhất là hàm số được cho bởi công thức
@@ -31,7 +31,7 @@ $$y=ax+b,$$
 trong đó $a$, $b$ là các số đã cho và $a\ne0$.
 :::
 
-Nếu $a=0$ thì $y=b$ không đổi theo $x$: đây là hàm hằng, không phải hàm số bậc nhất. Số $b$ có thể bằng $0$; khi ấy $y=ax$.
+Có hai chỗ cần để ý. Nếu $a=0$ thì $y=b$ không đổi theo $x$: đây là hàm hằng, không phải hàm số bậc nhất. Còn số $b$ thì được phép bằng $0$; khi ấy $y=ax$.
 
 :::example Nhận biết hàm số bậc nhất
 Trong các hàm số sau, hàm số nào là hàm số bậc nhất? Hãy chỉ ra $a$ và $b$.
@@ -48,7 +48,7 @@ a) $y=3x-5$; b) $y=-x$; c) $y=7$; d) $y=x^2+1$.
 Vậy các hàm số ở a) và b) là hàm số bậc nhất.
 :::
 
-Khi đã có công thức, ta tính giá trị của hàm số bằng cách thay giá trị của $x$.
+Có công thức rồi thì tính giá trị của hàm số là việc thay giá trị của $x$ vào, rồi tính. Ví dụ sau làm hai việc: tính giá trị, và kiểm tra xem một điểm cho trước có nằm trên đồ thị không.
 
 :::example Tính giá trị và kiểm tra điểm
 Cho hàm số $y=-2x+7$.
@@ -71,7 +71,7 @@ Với $A$, $-2\cdot4+7=-1$, nên $A$ thuộc đồ thị. Với $B$, $-2\cdot2+7
 
 ### Khám phá: các điểm có thẳng hàng không?
 
-Với $y=2x+1$, ta được $A(-1; -1)$, $B(0; 1)$, $C(1; 3)$, $D(2; 5)$. Cả bốn điểm nằm trên một đường thẳng.
+Với $y=2x+1$, ta tính được bốn điểm $A(-1; -1)$, $B(0; 1)$, $C(1; 3)$, $D(2; 5)$. Hãy đặt chúng lên mặt phẳng toạ độ: cả bốn điểm nằm trên một đường thẳng. Đây có phải là ngẫu nhiên không?
 
 :::graph Các điểm thuộc đồ thị $y=2x+1$
 alt: Bốn điểm A, B, C, D nằm trên đường thẳng biểu diễn hàm số y bằng 2x cộng 1
@@ -90,12 +90,12 @@ point: (2, 5) "D" above-left
 Muốn vẽ đồ thị, ta xác định hai điểm phân biệt thuộc đồ thị rồi vẽ đường thẳng đi qua hai điểm ấy.
 :::
 
-Đồ thị $y=ax$ là đường thẳng qua gốc toạ độ. Với cùng $x$, công thức $y=ax+b$ làm tung độ thay đổi thêm $b$. Mọi điểm được dịch theo phương thẳng đứng cùng một đoạn nên vẫn tạo thành đường thẳng.
+Vì sao lại như vậy? Đồ thị $y=ax$ là đường thẳng qua gốc toạ độ. Bây giờ so sánh với $y=ax+b$: với cùng $x$, tung độ chỉ thay đổi thêm $b$. Mọi điểm đều được dịch theo phương thẳng đứng một đoạn như nhau, nên chúng vẫn tạo thành đường thẳng.
 
-Hai cách chọn điểm thường thuận tiện là:
+Vì hai điểm là đủ, ta nên chọn hai điểm dễ tính nhất. Có hai cách chọn thường thuận tiện:
 
-- Nếu $b\ne0$, cho $x=0$ được $P(0; b)$; cho $y=0$ được $Q\left(-\dfrac ba; 0\right)$.
-- Nếu $b=0$, đồ thị qua $O(0; 0)$. Chọn thêm $x=1$ để được $(1; a)$.
+- Nếu $b\ne0$, cho $x=0$ được $P(0; b)$ trên trục tung; cho $y=0$ được $Q\left(-\dfrac ba; 0\right)$ trên trục hoành.
+- Nếu $b=0$, đồ thị qua $O(0; 0)$, nên chỉ cần thêm một điểm nữa. Chọn $x=1$ để được $(1; a)$.
 
 :::example Vẽ đồ thị khi $b\ne0$
 Vẽ đồ thị hàm số $y=2x-4$.
@@ -119,7 +119,7 @@ point: (0, -4) "P" below-left
 point: (2, 0) "Q" above-right
 :::
 
-Khi $b=0$, một trong hai điểm đã biết ngay là gốc toạ độ.
+Trường hợp $b=0$ còn dễ hơn, vì một trong hai điểm đã biết ngay là gốc toạ độ.
 
 :::example Vẽ đồ thị khi $b=0$
 Vẽ đồ thị hàm số $y=-3x$.
@@ -140,7 +140,7 @@ point: (0, 0) "O" above-left
 point: (1, -3) "M" below-right
 :::
 
-Trong bài toán thực tế, điều kiện của đại lượng có thể khiến ta chỉ dùng một phần của đường thẳng.
+Trong đời sống, các đại lượng thường có giới hạn: thời gian không thể âm, lượng nước trong bể cũng không thể âm. Vì thế đôi khi ta chỉ dùng một phần của đường thẳng. Ví dụ sau cho thấy điều đó.
 
 :::example Bể nước đang được xả
 Bể có $90$ lít nước và được xả đều $6$ lít mỗi phút. Gọi $t$ là thời gian, $V$ là lượng còn lại.
@@ -165,11 +165,11 @@ Công thức có dạng bậc nhất. Vì $0\le t\le15$, đồ thị thực tế
 :::
 
 :::warning Những sai lầm thường gặp
-- **Quên điều kiện $a\ne0$.** Sai: “$y=5$ là hàm số bậc nhất với $a=0$”. Đúng: đây là hàm hằng.
-- **Sai dấu khi thay số âm.** Với $y=-2x+1$ và $x=-3$, phải viết $y=-2\cdot(-3)+1=7$, không phải $-5$.
-- **Chỉ xác định một điểm rồi vẽ.** Qua một điểm có nhiều đường thẳng. Ta cần hai điểm phân biệt.
+- **Quên điều kiện $a\ne0$.** Sai: “$y=5$ là hàm số bậc nhất với $a=0$”. Đúng: đây là hàm hằng, vì giá trị của hàm không hề đổi.
+- **Sai dấu khi thay số âm.** Chỗ này nhiều bạn hay nhầm. Với $y=-2x+1$ và $x=-3$, phải viết $y=-2\cdot(-3)+1=7$, không phải $-5$.
+- **Chỉ xác định một điểm rồi vẽ.** Qua một điểm có nhiều đường thẳng, nên ta chưa biết chọn đường nào. Ta cần hai điểm phân biệt.
 - **Tìm sai giao điểm với trục hoành.** Với $y=2x+6$, cho $y=0$ được $2x+6=0$, nên $x=-3$, không phải $3$.
-- **Bỏ qua điều kiện thực tế.** Thời gian thường không âm, nên có thể chỉ dùng một đoạn hoặc một tia.
+- **Bỏ qua điều kiện thực tế.** Thời gian thường không âm, nên có thể chỉ dùng một đoạn hoặc một tia. Bạn nhớ đọc kĩ điều kiện của biến trước khi vẽ.
 :::
 
 ## Thuật ngữ
@@ -194,10 +194,11 @@ Công thức có dạng bậc nhất. Vì $0\le t\le15$, đồ thị thực tế
 - Khi $b\ne0$, thường chọn hai điểm $P(0; b)$ và $Q\left(-\dfrac ba; 0\right)$.
 - Khi $b=0$, đồ thị đi qua $O(0; 0)$; chọn thêm một điểm để vẽ.
 - Trong tình huống thực tế, luôn xét điều kiện của biến trước khi chọn phần đồ thị phù hợp.
+Quay lại chuyện thuê xe đạp: tiền thuê theo giờ là một hàm số bậc nhất, nên các điểm biểu diễn nó nằm trên một đường thẳng, và chỉ cần hai điểm là vẽ được. Bạn nhớ một điều: hai điểm phân biệt là đủ. Bạn làm thêm vài bài luyện tập để quen tay nhé.
 
 ## Luyện tập
 
-Hãy tự làm từng bài trước khi xem lời giải.
+Bạn hãy tự làm từng bài trước, rồi mới xem lời giải. Làm sai một lần cũng không sao, vì chính chỗ sai giúp bạn nhớ lâu hơn.
 
 :::exercise
 Công thức nào sau đây cho hàm số bậc nhất? Hãy xác định $a$, $b$.

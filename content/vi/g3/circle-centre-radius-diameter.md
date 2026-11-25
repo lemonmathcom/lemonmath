@@ -12,11 +12,11 @@ minutes: 15
 
 Nam dùng com-pa vẽ một hình tròn. Bạn đặt đầu nhọn của com-pa tại điểm $O$ và mở com-pa ra $3$ cm. Hỏi hình tròn Nam vẽ có đường kính bao nhiêu xăng-ti-mét?
 
-Bài này giúp em gọi tên các phần của hình tròn và trả lời câu hỏi trên.
+Muốn trả lời câu hỏi của Nam, trước hết ta cần gọi tên các phần của hình tròn. Khi biết tên và biết các phần ấy liên quan với nhau thế nào, em sẽ tìm ra đường kính chỉ bằng một phép tính ngắn.
 
 ## Cùng khám phá
 
-Khi vẽ bằng com-pa, đầu nhọn đứng yên tại điểm $O$, đầu bút xoay một vòng. Mọi điểm trên đường vẽ đều cách $O$ một khoảng như nhau, bằng độ mở com-pa.
+Em để ý lúc dùng com-pa: đầu nhọn đứng yên tại điểm $O$, còn đầu bút xoay một vòng. Vì vậy mọi điểm trên đường vẽ đều cách $O$ một khoảng như nhau, đúng bằng độ mở com-pa.
 
 :::diagram Hình tròn tâm O: bán kính OA, OC và đường kính AB
 alt: Hình tròn tâm O bán kính 3; đoạn AB nằm ngang đi qua O với hai đầu trên đường tròn; đoạn OC đi từ O lên điểm C trên đường tròn
@@ -29,13 +29,13 @@ segment A B
 segment O C
 :::
 
-Em quan sát hình:
+Ta cùng nhìn hình và gọi tên từng phần:
 
-- Điểm $O$ là **tâm** của hình tròn.
-- Đoạn thẳng nối tâm $O$ với một điểm trên đường tròn (như $OA$, $OB$, $OC$) là **bán kính**.
-- Đoạn thẳng $AB$ đi qua tâm $O$ và có hai đầu trên đường tròn là **đường kính**.
+- Điểm $O$, nơi đầu nhọn com-pa đứng yên, là **tâm** của hình tròn.
+- Đoạn thẳng nối tâm $O$ với một điểm trên đường tròn (như $OA$, $OB$, $OC$) gọi là **bán kính**.
+- Đoạn thẳng $AB$ đi qua tâm $O$ và có hai đầu nằm trên đường tròn gọi là **đường kính**.
 
-Đường kính $AB$ gồm hai bán kính $OA$ và $OB$, nên đường kính dài gấp đôi bán kính. Tâm $O$ là trung điểm của đường kính $AB$.
+Nhìn kĩ, đường kính $AB$ gồm hai bán kính $OA$ và $OB$ nối đuôi nhau. Vì vậy đường kính dài gấp đôi bán kính. Tâm $O$ nằm đúng giữa, nên là trung điểm của đường kính $AB$.
 
 :::theorem Bán kính và đường kính
 Trong một hình tròn:
@@ -45,13 +45,13 @@ Trong một hình tròn:
 - Bán kính bằng một nửa đường kính: bán kính $=$ đường kính $:2$.
 :::
 
-Điều này đúng vì mọi điểm trên đường tròn cách tâm một khoảng bằng độ mở com-pa, và đường kính gồm hai bán kính nối đuôi nhau.
+Vì sao các điều trên đúng? Mọi điểm trên đường tròn đều cách tâm một khoảng bằng độ mở com-pa, nên các bán kính bằng nhau. Còn đường kính gồm hai bán kính nối đuôi nhau, nên dài gấp đôi.
 
-Với com-pa mở $3$ cm, bán kính là $3$ cm, nên đường kính là $3\times2=6$ cm.
+Quay lại câu hỏi của Nam. Com-pa mở $3$ cm thì bán kính là $3$ cm, nên đường kính là $3\times2=6$ cm.
 
 ## Ví dụ
 
-Ta bắt đầu bằng việc gọi tên các đoạn thẳng.
+Ta thử gọi tên các đoạn thẳng trong một hình tròn.
 
 :::example Gọi tên
 Cho hình tròn tâm $O$. Các điểm $A$, $B$, $C$ nằm trên đường tròn, điểm $O$ nằm trên đoạn thẳng $AB$. Gọi tên các đoạn $OA$, $AB$, $OC$.
@@ -61,7 +61,7 @@ Cho hình tròn tâm $O$. Các điểm $A$, $B$, $C$ nằm trên đường tròn
 Vậy $OA$, $OC$ là bán kính; $AB$ là đường kính.
 :::
 
-Bây giờ em tính đường kính từ bán kính.
+Biết bán kính, em tìm đường kính như thế nào? Ta nhân đôi, như trong ví dụ sau.
 
 :::example Từ bán kính đến đường kính
 Hình tròn có bán kính $5$ cm. Tính đường kính.
@@ -73,7 +73,7 @@ $$5\times2=10\ \text{(cm)}.$$
 Vậy đường kính là $10$ cm.
 :::
 
-Làm ngược lại, em tính bán kính từ đường kính.
+Còn nếu biết đường kính thì sao? Ta làm ngược lại: lấy một nửa.
 
 :::example Từ đường kính đến bán kính
 Hình tròn có đường kính $14$ cm. Tính bán kính.
@@ -85,7 +85,7 @@ $$14:2=7\ \text{(cm)}.$$
 Vậy bán kính là $7$ cm.
 :::
 
-Tiếp theo, em giải một bài toán trong cuộc sống.
+Hình tròn có mặt khắp nơi, như chiếc đĩa ăn cơm. Em thử tính với bài toán sau.
 
 :::example Chiếc đĩa
 Một chiếc đĩa tròn có bán kính $9$ cm. Hỏi đường kính của chiếc đĩa là bao nhiêu xăng-ti-mét?
@@ -97,7 +97,7 @@ $$9\times2=18\ \text{(cm)}.$$
 Vậy đường kính của chiếc đĩa là $18$ cm.
 :::
 
-Cuối cùng, em dùng com-pa để vẽ.
+Cuối cùng, em dùng com-pa để vẽ: cần mở bao nhiêu?
 
 :::example Vẽ hình tròn
 Muốn vẽ hình tròn có đường kính $8$ cm, em cần mở com-pa bao nhiêu xăng-ti-mét?
@@ -110,10 +110,10 @@ Vậy em cần mở com-pa $4$ cm.
 :::
 
 :::warning Những lỗi em hay gặp
-- **Nhầm bán kính với đường kính.** Sai: hình tròn có bán kính $5$ cm thì đường kính cũng $5$ cm. Vì sao sai: đường kính gồm hai bán kính. Đúng: đường kính là $5\times2=10$ cm.
+- **Nhầm bán kính với đường kính.** Chỗ này nhiều bạn hay nhầm. Sai: hình tròn có bán kính $5$ cm thì đường kính cũng $5$ cm. Vì sao sai: đường kính gồm hai bán kính. Đúng: đường kính là $5\times2=10$ cm.
 - **Cho rằng đoạn nào nối hai điểm trên đường tròn cũng là đường kính.** Sai: đoạn $AC$ nối hai điểm trên đường tròn nên là đường kính. Vì sao sai: đường kính phải đi qua tâm $O$. Đúng: chỉ đoạn nối hai điểm trên đường tròn và đi qua tâm mới là đường kính.
-- **Quên chia đôi hoặc nhân đôi.** Sai: đường kính $14$ cm thì bán kính $14$ cm. Vì sao sai: bán kính chỉ bằng một nửa. Đúng: $14:2=7$ cm.
-- **Quên đơn vị.** Sai: "Đáp số: $10$". Đúng: "Đáp số: $10$ cm".
+- **Quên chia đôi hoặc nhân đôi.** Sai: đường kính $14$ cm thì bán kính $14$ cm. Vì sao sai: bán kính chỉ bằng một nửa. Em tự hỏi: bán kính phải ngắn hơn đường kính, kết quả đã hợp lí chưa? Đúng: $14:2=7$ cm.
+- **Quên đơn vị.** Sai: "Đáp số: $10$". Con số nào cũng cần đi kèm đơn vị. Đúng: "Đáp số: $10$ cm".
 :::
 
 ## Thuật ngữ
@@ -137,9 +137,11 @@ Vậy em cần mở com-pa $4$ cm.
 - Đường kính $=$ bán kính $\times2$; bán kính $=$ đường kính $:2$.
 - Độ mở com-pa bằng bán kính; ghi đơn vị trong đáp số.
 
+Vậy câu hỏi của Nam đã có lời đáp: com-pa mở bao nhiêu thì đó là bán kính, và đường kính gấp đôi bán kính. Em làm thêm vài bài ở phần luyện tập để nhớ lâu nhé.
+
 ## Luyện tập
 
-Mỗi bài có phần kiến thức và gợi ý. Em hãy tự làm trước, rồi mới bấm xem lời giải.
+Mỗi bài đều có phần cần nhớ và gợi ý để em bắt đầu. Em cứ tự làm trước, chưa chắc thì xem gợi ý, làm xong rồi mới bấm xem lời giải. Sai một chút cũng không sao, vì mỗi lần sửa lại là một lần em hiểu rõ hơn.
 
 :::exercise
 Cho hình tròn tâm $O$. Các điểm $A$, $B$ nằm trên đường tròn và $O$ nằm trên đoạn thẳng $AB$.

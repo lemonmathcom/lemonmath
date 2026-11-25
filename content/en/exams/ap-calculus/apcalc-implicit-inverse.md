@@ -11,7 +11,7 @@ minutes: 40
 - Differentiate inverse trigonometric functions and find second derivatives.
 :::
 
-Unit 3 completes the toolkit of differentiation. The chain rule appears in nearly every AP Calculus question from here on, often hidden inside a context or a table, and implicit differentiation is the key to the related-rates problems of Unit 4. The derivative of an inverse function at a point is a favorite multiple-choice item that many students find surprising, so it is worth practising until it is automatic.
+Some functions do not stand alone: one sits inside another, or two variables are tangled together in one equation and cannot be separated. How do we differentiate then? Unit 3 answers that, and it completes the toolkit of differentiation. From here on, the chain rule appears in nearly every AP Calculus question, often hidden inside a context or a table. Implicit differentiation is the key to the related-rates problems of Unit 4. The derivative of an inverse function at a point is a favourite multiple-choice item that many students find strange at first. Do not worry: practise it a few times and it becomes automatic.
 
 ## The chain rule
 
@@ -44,7 +44,7 @@ Let $h(x)=f\big(g(x)\big)$. What is $h'(1)$?
 
 ## Implicit differentiation
 
-When $y$ is defined by an equation in $x$ and $y$, differentiate both sides with respect to $x$, treating $y$ as a function of $x$: each time you differentiate an expression in $y$, multiply by $\dfrac{dy}{dx}$. Then solve for $\dfrac{dy}{dx}$.
+Some equations mix $x$ and $y$ together, and you cannot pull $y$ out to write it as a simple function. We can still find the slope: differentiate both sides with respect to $x$, treating $y$ as a function of $x$. Why multiply by $\dfrac{dy}{dx}$? Because anything containing $y$ sits inside another function, so the chain rule asks for one more factor. Then solve for $\dfrac{dy}{dx}$.
 
 :::example The slope of a circle
 Find the slope of the tangent line to the circle $x^2+y^2=25$ at the point $(3, 4)$.
@@ -92,14 +92,15 @@ For $y=x^4-2x^2$, find $\dfrac{d^2y}{dx^2}$ at $x=1$.
 :::
 
 :::warning Common traps
-- **Forgetting the inside derivative.** $\dfrac{d}{dx}\sin(5x)=5\cos(5x)$, not $\cos(5x)$.
-- **Evaluating the outside derivative at the wrong point.** $h'(1)=f'\big(g(1)\big)g'(1)$, not $f'(1)g'(1)$.
+- **Forgetting the inside derivative.** $\dfrac{d}{dx}\sin(5x)=5\cos(5x)$, not $\cos(5x)$. This is the slip students make most often.
+- **Evaluating the outside derivative at the wrong point.** $h'(1)=f'\big(g(1)\big)g'(1)$, not $f'(1)g'(1)$. The outside derivative belongs at the value of the inside.
 - **Forgetting $\dfrac{dy}{dx}$ on $y$ terms** in implicit differentiation: $\dfrac{d}{dx}y^2=2y\dfrac{dy}{dx}$.
 - **Inverse derivative at the wrong input.** For $\left(f^{-1}\right)'(b)$, first solve $f(a)=b$, then use $f'(a)$.
+Most of these come from working in a hurry. Slow down for a moment and write each step, and you will avoid nearly all of them.
 :::
 
 :::tip Organize composite functions
-Before differentiating, name the layers: "outside $\ln u$, inside $u=x^2+1$". Writing the inside on the side saves more time than it costs, and it prevents the most common chain-rule mistake.
+Before differentiating, pause and name the layers, for example: "outside $\ln u$, inside $u=x^2+1$". Writing the inside on the side takes a few seconds and saves more than that, because it stops the most common chain-rule mistake.
 :::
 
 :::terms

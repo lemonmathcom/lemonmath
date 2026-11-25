@@ -12,11 +12,11 @@ minutes: 45
 - Calculate an expected value.
 :::
 
-Statistics and probability questions on the ACT rarely need long calculations. They test whether you know exactly what each measure means and which counting rule to use. A typical question gives a small data set, a table or a short description, and asks for one number. Write the rule you use before you calculate; it prevents most errors.
+Statistics and probability can sound like heavy calculation, but on the ACT they rarely are. These questions test whether you know exactly what each measure means and which counting rule to use. A typical question gives a small data set, a table or a short description, and asks for one number. Write the rule you use before you calculate; it prevents most errors, because the usual mistake is using the wrong rule, not doing the sum wrongly.
 
 ## Mean, median, mode and spread
 
-The **mean** is the sum divided by the number of values; the **median** is the middle value of the ordered data (the mean of the two middle values when there is an even number of values); the **mode** is the most frequent value; the **range** is the largest value minus the smallest. The **standard deviation** measures how far the values typically are from the mean: more spread out data has a larger standard deviation.
+Four numbers describe a data set in four different ways. The **mean** is the sum divided by the number of values. The **median** is the middle value of the ordered data (the mean of the two middle values when there is an even number of values). The **mode** is the most frequent value, and the **range** is the largest value minus the smallest. The **standard deviation** tells you how far the values typically are from the mean: the more spread out the data, the larger it is.
 
 :::example Three measures of center
 For the data $4, 7, 7, 9, 13$, which statement is true?
@@ -52,7 +52,7 @@ So Minh needs a score of $100$, answer **D**. Option B adds the difference $3$ t
 
 ## Counting
 
-By the **multiplication principle**, if one choice can be made in $m$ ways and a second in $n$ ways, both can be made in $mn$ ways. The number of ways to arrange $n$ different objects in a row is $n!$. The number of ways to choose $r$ objects from $n$, when order does not matter, is $\dbinom nr=\dfrac{n!}{r!(n-r)!}$.
+Counting starts from one simple idea. By the **multiplication principle**, if one choice can be made in $m$ ways and a second in $n$ ways, both can be made in $mn$ ways, because each way of making the first choice pairs with every way of making the second. The number of ways to arrange $n$ different objects in a row is $n!$. When order does not matter, the number of ways to choose $r$ objects from $n$ is $\dbinom nr=\dfrac{n!}{r!(n-r)!}$. Many students mix up arranging and choosing, so before you count, ask yourself: does order matter?
 
 :::example Order or no order
 A club has $8$ members. In how many ways can a committee of $3$ members be chosen?
@@ -69,7 +69,7 @@ So there are $56$ possible committees, answer **B**. Option A counts ordered cho
 
 ## Probability
 
-For equally likely outcomes, $P(A)=\dfrac{\text{number of favorable outcomes}}{\text{number of outcomes}}$. For **independent** events, $P(A\text{ and }B)=P(A)P(B)$. The probability that $A$ does not happen is $1-P(A)$. A **conditional** probability restricts the outcomes to those satisfying the condition.
+Probability tells you how likely an event is. For equally likely outcomes, $P(A)=\dfrac{\text{number of favorable outcomes}}{\text{number of outcomes}}$. For **independent** events, which do not affect each other, $P(A\text{ and }B)=P(A)P(B)$. The probability that $A$ does not happen is $1-P(A)$. A **conditional** probability restricts the outcomes to those satisfying the condition, so the denominator gets smaller.
 
 :::example A coin and a die
 A fair coin is tossed and a fair six-sided die is rolled. What is the probability of getting heads and a $6$?
@@ -109,7 +109,7 @@ So the probability is $\dfrac58$, answer **C**. Option A divides by $100$, and o
 
 ## Expected value
 
-The expected value of a random variable is $E(X)=\sum x\,P(X=x)$: the long-run average result per trial.
+Is a game worth playing? The expected value answers that question. The expected value of a random variable is $E(X)=\sum x\,P(X=x)$: the long-run average result per trial. We multiply each result by its probability and add them up.
 
 :::example Is the game worth playing?
 In a game, a player wins $10$ dollars with probability $0.2$ and loses $3$ dollars otherwise. What is the expected gain per game?
@@ -130,6 +130,7 @@ So the expected gain is $-0.4$ dollars per game, a loss of $40$ cents on average
 - **Permutations and combinations:** does order matter? A committee: no; a ranking or different roles: yes.
 - **"And" and "or":** multiply for independent "and"; for "or", add and subtract the overlap.
 - **The denominator of a conditional probability** is the total of the condition, not the grand total.
+Before you choose an answer, pause for a moment and check these five points.
 :::
 
 :::terms

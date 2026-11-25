@@ -10,9 +10,9 @@ minutes: 20
 - Recognise cube-root expressions and use $\sqrt[3]{A^3}=A$ to evaluate and simplify.
 :::
 
-A big Rubik's-style cube is built from $27$ identical small cubes. How many small cubes are there along each edge? A gift box in the shape of a cube has a volume of $2$ litres, that is $2000$ cm³. How long is each edge, in centimetres?
+A big Rubik's-style cube is built from $27$ identical small cubes. How many small cubes lie along each edge? Here is a second question. A gift box in the shape of a cube has a volume of $2$ litres, that is $2000$ cm³. How long is each edge, in centimetres?
 
-For the first question, $3\cdot3\cdot3=27$, so each edge has $3$ small cubes. The second question needs a number whose **cube** is $2000$. That is a cube root.
+The first question is easy: $3\cdot3\cdot3=27$, so each edge has $3$ small cubes. The second is harder. We need a number whose **cube** is $2000$. That number is called a cube root, and this lesson shows how to find it.
 
 :::diagram A cube with edge $a$ and volume $a^3$
 alt: A cube drawn in oblique projection with the hidden edges dashed and one bottom edge labelled a
@@ -46,7 +46,7 @@ segment D D' dashed
 |---|---|---|---|---|---|---|---|
 | $x^3$ | $-27$ | $-8$ | $-1$ | $0$ | $1$ | $8$ | $27$ |
 
-Unlike a square, the cube of a negative number is negative. Each value in the bottom row appears exactly once. For example, only one number cubes to $-8$, namely $-2$.
+Look at the bottom row of the table. Unlike a square, the cube of a negative number stays negative. Each value in the bottom row appears exactly once. For example, only one number cubes to $-8$, namely $-2$. That is why negative numbers can have a cube root too.
 
 :::definition Cube root
 The **cube root** of a real number $a$ is the number $x$ with $x^3=a$.
@@ -56,7 +56,7 @@ Every real number $a$ has **exactly one** cube root, written $\sqrt[3]{a}$. The 
 From the definition: $\left(\sqrt[3]{a}\right)^3=a$ and $\sqrt[3]{a^3}=a$ for every real number $a$.
 :::
 
-Remember: the cube root of a positive number is positive, of a negative number is negative, and of $0$ is $0$. Also, $\sqrt[3]{-a}=-\sqrt[3]{a}$.
+Remember: the cube root of a positive number is positive, of a negative number is negative, and of $0$ is $0$. Also, $\sqrt[3]{-a}=-\sqrt[3]{a}$, so to find the cube root of a negative number, find the cube root of its opposite and change the sign.
 
 :::example Finding cube roots
 Find: a) $\sqrt[3]{64}$; b) $\sqrt[3]{-125}$; c) $\sqrt[3]{0.008}$; d) $\sqrt[3]{-\dfrac{8}{27}}$.
@@ -80,7 +80,7 @@ $$a=\sqrt[3]{2000}\approx12.599\approx12.6.$$
 So each edge of the box is about $12.6$ cm.
 :::
 
-The identities $\left(\sqrt[3]{a}\right)^3=a$ and $\sqrt[3]{a^3}=a$ make many expressions quick to evaluate.
+The identities $\left(\sqrt[3]{a}\right)^3=a$ and $\sqrt[3]{a^3}=a$ say that taking a cube root and cubing undo each other. That makes many expressions quick to evaluate.
 
 :::example Evaluating an expression
 Evaluate $A=\sqrt[3]{27}-\sqrt[3]{-64}+\left(\sqrt[3]{3}\right)^3$.
@@ -94,7 +94,7 @@ So $A=10$.
 
 ## Comparing cube roots
 
-Cubing keeps the order: a larger number has a larger cube. So for all real numbers $a$ and $b$:
+Cubing keeps the order: a larger number has a larger cube. So cube roots keep the order too. For all real numbers $a$ and $b$:
 $$a<b\iff\sqrt[3]{a}<\sqrt[3]{b}.$$
 
 :::example Comparing
@@ -115,7 +115,7 @@ If $A$ is an algebraic expression, $\sqrt[3]{A}$ is called a **cube-root express
 $\sqrt[3]{A}$ is **defined for every value** of the variable for which $A$ is defined, and $\sqrt[3]{A^3}=A$.
 :::
 
-Compare with square roots: $\sqrt{A^2}=|A|$, but $\sqrt[3]{A^3}=A$, with no absolute value and no condition $A\ge0$.
+Be careful here, because many people mix this up with square roots. For square roots, $\sqrt{A^2}=|A|$. For cube roots, $\sqrt[3]{A^3}=A$, with no absolute value and no condition $A\ge0$. The reason is simple: a negative number still has a cube root.
 
 :::example Simplifying cube-root expressions
 Simplify: a) $\sqrt[3]{8x^3}$; b) $\sqrt[3]{x^3-3x^2+3x-1}$.
@@ -163,10 +163,11 @@ So the edge of the tank is $1.2$ m.
 - $a<b\iff\sqrt[3]{a}<\sqrt[3]{b}$; to compare, write both as cube roots or compare their cubes.
 - $\sqrt[3]{A}$ is defined whenever $A$ is; $\sqrt[3]{A^3}=A$ (no absolute value).
 - A cube of volume $V$ has edge $\sqrt[3]{V}$.
+Back to the opening question: the edge of the gift box is the cube root of its volume, and a calculator gives the number. Remember one thing: a cube root does not need the number under the sign to be positive, so there is no absolute value. Do a few practice exercises to make it stick.
 
 ## Practice
 
-Each exercise comes with what you need and some steps to start. Try it yourself first, then open the solution.
+Each exercise comes with what you need to know and some steps to start. Try it yourself first, and open the solution only when you are stuck. A mistake made once is no problem; correcting it is where we learn most.
 
 :::exercise
 Calculate:

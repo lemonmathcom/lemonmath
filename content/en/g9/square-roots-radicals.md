@@ -12,19 +12,19 @@ minutes: 20
 
 Mr Hùng wants to tile a square drying yard with an area of $49$ m². How long is each side? What if the yard has an area of $50$ m²?
 
-The first question is easy: $7\cdot7=49$, so each side is $7$ m. The second needs a number whose square is $50$. This lesson helps us name, write and calculate numbers like that.
+The first question is not hard: $7\cdot7=49$, so each side is $7$ m. The second is stranger, because we need a number whose square is $50$, and that is not a whole number we already know. Numbers like this have a name, a symbol and a way of being calculated. Let us get to know them.
 
 ## Square roots of a non-negative number
 
 ### Explore: which numbers square to $16$?
 
-We square a few numbers:
+We begin by squaring a few numbers, negative as well as positive, and looking at the table:
 
 | $x$ | $-5$ | $-4$ | $-3$ | $0$ | $3$ | $4$ | $5$ |
 |---|---|---|---|---|---|---|---|
 | $x^2$ | $25$ | $16$ | $9$ | $0$ | $9$ | $16$ | $25$ |
 
-Two numbers square to $16$: $4$ and $-4$. Only one number squares to $0$, namely $0$. No number squares to $-9$, because the square of every number is non-negative.
+Looking at the table, two numbers square to $16$, namely $4$ and $-4$. Only one number squares to $0$, namely $0$. And no number squares to $-9$, because the square of every number is non-negative. These cases are exactly what the definition below describes.
 
 :::definition Square root
 A **square root** of a non-negative real number $a$ is a number $x$ with $x^2=a$.
@@ -35,7 +35,7 @@ A **square root** of a non-negative real number $a$ is a number $x$ with $x^2=a$
 The number $\sqrt{a}$ is called the **principal square root** of $a$. We have $\sqrt{a}\ge0$ and $\left(\sqrt{a}\right)^2=a$.
 :::
 
-The picture shows why a positive number has two square roots: the line $y=5$ meets the graph of $y=x^2$ at two points whose $x$-coordinates are opposites.
+We can see the same thing in a picture. The line $y=5$ meets the graph of $y=x^2$ at two points, and the $x$-coordinates of those points are opposites. That is why a positive number has two square roots.
 
 :::graph The two square roots of $5$
 alt: The graph of y equals x squared and the horizontal line y equals 5 meeting at two points with x-coordinates minus root 5 and root 5
@@ -57,7 +57,7 @@ $$9^2=81,\qquad \left(\frac34\right)^2=\frac{9}{16},\qquad 0.6^2=0.36.$$
 So the square roots of $81$ are $9$ and $-9$; of $\dfrac{9}{16}$, $\dfrac34$ and $-\dfrac34$; of $0.36$, $0.6$ and $-0.6$; and $-4$ has no square root (since $-4<0$).
 :::
 
-For a number like $50$, no rational number squares to $50$. Then we use a calculator to get an approximate value.
+For a number like $50$, no rational number squares to $50$, so its root cannot be written as a fraction or a terminating decimal. Then we use a calculator to get an approximate value. This is also how we answer the second half of the opening question.
 
 :::example Using a calculator
 Answer the question about the $50$ m² yard (rounded to two decimal places).
@@ -69,17 +69,17 @@ $$x=\sqrt{50}\approx7.0711\approx7.07.$$
 So each side of the yard is about $7.07$ m.
 :::
 
-To compare two principal square roots we use this property: for non-negative $a$ and $b$, $a<b \iff \sqrt{a}<\sqrt{b}$. For example, $\sqrt{50}<\sqrt{64}=8$.
+To compare two principal square roots without a calculator, we use this property: for non-negative $a$ and $b$, $a<b \iff \sqrt{a}<\sqrt{b}$. In words, the larger number has the larger root. For example, $\sqrt{50}<\sqrt{64}=8$.
 
 ## The identity $\sqrt{A^2}=|A|$
 
-We have $\sqrt{3^2}=\sqrt9=3$. But $\sqrt{(-3)^2}=\sqrt9=3$, not $-3$. The result is always non-negative: it is exactly the absolute value.
+Here is a spot where many people slip: squaring and then taking the root does not always bring us back to the number we started with. We have $\sqrt{3^2}=\sqrt9=3$, as we would hope. But $\sqrt{(-3)^2}=\sqrt9=3$, not $-3$. The result is always non-negative: it is exactly the absolute value of the original number.
 
 :::theorem The square root of a square
 For every real number $a$, $\sqrt{a^2}=|a|$.
 :::
 
-Why? The number $|a|$ is non-negative and $|a|^2=a^2$. So $|a|$ is the principal square root of $a^2$.
+Why the absolute value? Because $|a|$ is non-negative and $|a|^2=a^2$. A non-negative number whose square is the given number is its principal square root. So $|a|$ is the principal square root of $a^2$.
 
 :::example The square root of a square
 Evaluate: a) $\sqrt{(-7)^2}$; b) $\sqrt{\left(2-\sqrt5\right)^2}$.
@@ -93,7 +93,7 @@ So a) equals $7$ and b) equals $\sqrt5-2$.
 
 ## Square-root expressions
 
-In real life we often meet the square root of an expression with letters. For example, a pebble dropped from a height of $h$ metres hits the ground after about $t=\sqrt{\dfrac{h}{5}}$ seconds.
+A square root need not stand in front of a particular number. In real life we often meet the square root of an expression with letters. For example, a pebble dropped from a height of $h$ metres hits the ground after about $t=\sqrt{\dfrac{h}{5}}$ seconds. With this formula, knowing the height is enough to find the time.
 
 :::definition Square-root expression
 If $A$ is an algebraic expression, we call $\sqrt{A}$ a **square-root expression**, and $A$ the **expression under the root sign**.
@@ -113,9 +113,9 @@ $$h=45:\ t=\sqrt{\frac{45}{5}}=\sqrt9=3;\qquad h=20:\ t=\sqrt{\frac{20}{5}}=\sqr
 So the pebble lands after $3$ seconds (from $45$ m) and after $2$ seconds (from $20$ m).
 :::
 
-The height is more than twice as great, but the time grows by only $1$ second.
+Look at the results: the height is more than twice as great, but the time grows by only $1$ second. A square root slows growth down, and we see this often in real life.
 
-Finding when an expression is defined means solving a linear inequality in one unknown, as in the lesson [linear inequalities in one unknown](lesson:linear-inequalities-one-unknown).
+One more thing: the expression under a root sign cannot be negative, so before calculating we need the condition that makes the root meaningful. That is just solving a linear inequality in one unknown, as in the lesson [linear inequalities in one unknown](lesson:linear-inequalities-one-unknown). Look back at it if you need to.
 
 :::example When is it defined?
 Find the condition on $x$ for each expression to be defined: a) $\sqrt{2x-6}$; b) $\sqrt{5-x}$; c) $\sqrt{x^2+1}$.
@@ -127,7 +127,7 @@ $$\begin{aligned} \text{a) }& 2x-6\ge0\iff 2x\ge6\iff x\ge3;\\ \text{b) }& 5-x\g
 So a) $x\ge3$; b) $x\le5$; c) the expression is defined for every real number $x$.
 :::
 
-When the expression under the root sign is a square, we remove the root using the absolute value, then use the given condition to remove the absolute value.
+When the expression under the root sign is a square, we go step by step: remove the root using the absolute value, then use the given condition to decide the sign inside and remove the absolute value as well. The last step is where many people forget, so do not skip the condition.
 
 :::example Simplifying under a given condition
 Simplify $P=\sqrt{(x-3)^2}+x-1$ for $x<3$.
@@ -140,10 +140,10 @@ So $P=2$ for every $x<3$.
 :::
 
 :::warning Common mistakes
-- **Writing $\sqrt{16}=\pm4$.** Why it is wrong: the symbol $\sqrt{16}$ means the principal square root, which is never negative. Right: $\sqrt{16}=4$; the square roots of $16$ are $4$ and $-4$.
-- **Writing $\sqrt{a^2}=a$ for every $a$.** Wrong: $\sqrt{(-3)^2}=-3$. Why it is wrong: the principal square root is non-negative. Right: $\sqrt{(-3)^2}=|-3|=3$.
-- **Splitting the root of a sum.** Wrong: $\sqrt{9+16}=\sqrt9+\sqrt{16}=7$. Why it is wrong: a square root does not split over addition. Right: $\sqrt{9+16}=\sqrt{25}=5$.
-- **Forgetting to reverse the inequality.** Wrong: $\sqrt{4-2x}$ is defined when $x\ge2$. Why it is wrong: dividing both sides of $-2x\ge-4$ by a negative number reverses the sign. Right: $x\le2$.
+- **Writing $\sqrt{16}=\pm4$.** Many people mix up "the square roots of a number" with the root symbol. Why it is wrong: the symbol $\sqrt{16}$ means the principal square root, which is never negative. Right: $\sqrt{16}=4$; the square roots of $16$ are $4$ and $-4$.
+- **Writing $\sqrt{a^2}=a$ for every $a$.** Wrong: $\sqrt{(-3)^2}=-3$. Why it is wrong: the principal square root is never negative. Right: $\sqrt{(-3)^2}=|-3|=3$. When the number inside is negative, the absolute value changes its sign so that the result is non-negative.
+- **Splitting the root of a sum.** Wrong: $\sqrt{9+16}=\sqrt9+\sqrt{16}=7$. Why it is wrong: a square root does not split over addition. Work out each side separately and you will see two different answers. Right: $\sqrt{9+16}=\sqrt{25}=5$.
+- **Forgetting to reverse the inequality.** Wrong: $\sqrt{4-2x}$ is defined when $x\ge2$. Why it is wrong: dividing both sides of $-2x\ge-4$ by a negative number reverses the sign. Right: $x\le2$. Whenever you multiply or divide both sides by a negative number, remember to turn the sign round.
 :::
 
 ## Key terms
@@ -166,10 +166,11 @@ So $P=2$ for every $x<3$.
 - For $a$, $b\ge0$: $a<b\iff\sqrt{a}<\sqrt{b}$.
 - $\sqrt{A^2}=|A|$: it equals $A$ when $A\ge0$ and $-A$ when $A<0$.
 - $\sqrt{A}$ is defined $\iff A\ge0$.
+Back to the drying yard: when the area is a familiar perfect square, as in the first question, the side is a whole number; when it is not, we use the square root and a calculator for an approximate value. The one thing to remember is that the principal square root is never negative. The practice problems below will make it familiar.
 
 ## Practice
 
-Each exercise comes with what you need and some steps to start. Try it yourself first, then open the solution.
+Each exercise comes with the facts you need and a few steps to start you off. Try it yourself first, then open the solution. If you get stuck, reread the hints before looking at the answer.
 
 :::exercise
 Find the square roots of each of the following numbers:

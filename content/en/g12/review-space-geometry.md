@@ -11,9 +11,9 @@ minutes: 40
 - Calculate the volume of pyramids and prisms, including in real-life problems.
 :::
 
-Grade 11 geometry in space still appears in the graduation exam. In Part I (multiple choice) there are usually one or two questions on perpendicularity, angles or volume. In Part II or Part III there is usually one question on a distance, a dihedral angle or a volume in a real-life setting. Altogether this topic is usually worth about $0.5$ to $1$ mark.
+Grade 11 geometry in space has not left the graduation exam. In Part I (multiple choice) there are usually one or two questions on perpendicularity, angles or volume. In Part II or Part III there is usually one question on a distance, a dihedral angle or a volume in a real-life setting. Altogether this topic is usually worth about $0.5$ to $1$ mark, which makes it well worth revising carefully.
 
-This revision lesson covers four areas: perpendicularity, angles, distances and volumes. Every example is written exactly like an exam question. Most of them use the same familiar figure: a pyramid with one lateral edge perpendicular to the base.
+This revision covers four areas: perpendicularity, angles, distances and volumes. One question runs through all of them: looking at a solid, how do you find the right-angled triangle you need? Every example is written exactly like an exam question, and most of them use the same familiar figure: a pyramid with one lateral edge perpendicular to the base.
 
 :::diagram The pyramid $S.ABCD$ with $SA\perp(ABCD)$ and a square base with centre $O$
 alt: The pyramid S.ABCD in parallel projection, with S directly above A so that edge SA is perpendicular to the base; the hidden segments AD, AC and BD are dashed and O is the point where AC meets BD
@@ -45,11 +45,11 @@ right S A B
 - **Parallel:** if $d$ is parallel to a line in $(P)$ and $d$ does not lie in $(P)$, then $d\parallel(P)$.
 :::
 
-For a pyramid with $SA\perp(ABCD)$ and a square base, the following two "perpendicular pairs" always hold. Remember how to derive them rather than learning the results by heart:
+For a pyramid with $SA\perp(ABCD)$ and a square base, the two "perpendicular pairs" below always hold. Why? Because each line is perpendicular to two intersecting lines of the plane: one lying in the base and the other the lateral edge that is perpendicular to the base. Remember how to derive them rather than learning the results by heart:
 
 $$BC\perp AB,\ BC\perp SA\ \Rightarrow\ BC\perp(SAB);\qquad BD\perp AC,\ BD\perp SA\ \Rightarrow\ BD\perp(SAC).$$
 
-Multiple-choice questions often give four relations and ask which is correct. The reliable method is to find **two** intersecting lines in the plane that the line is perpendicular to.
+Multiple-choice questions often give four relations and ask which one is correct. A figure can fool the eye, so do not guess. The reliable method is to find **two** intersecting lines in the plane that the line is perpendicular to.
 
 :::example Multiple choice: choose the correct perpendicular relation
 The pyramid $S.ABCD$ has a square base $ABCD$ and $SA\perp(ABCD)$. Which statement is correct?
@@ -74,12 +74,12 @@ So the answer is **B**.
 ## Angles in space
 
 :::note How to identify an angle
-- **The angle between a line $d$ and a plane $(P)$:** the angle between $d$ and its projection $d'$ on $(P)$. With $SA\perp(ABCD)$, the projection of $SC$ is $AC$, so the angle between $SC$ and $(ABCD)$ is $\angle SCA$.
-- **The dihedral angle $[S, BD, A]$:** take a point $O$ on the edge $BD$, draw $OS\perp BD$ in the face $(SBD)$ and $OA\perp BD$ in the face $(ABD)$. The size of the dihedral angle is then $\angle SOA$.
+- **The angle between a line $d$ and a plane $(P)$:** the angle between $d$ and its projection $d'$ on $(P)$, which is the "shadow" of the line on the plane. With $SA\perp(ABCD)$, the projection of $SC$ is $AC$, so the angle between $SC$ and $(ABCD)$ is $\angle SCA$.
+- **The dihedral angle $[S, BD, A]$:** take a point $O$ on the edge $BD$, then in each face draw a line perpendicular to the edge: $OS\perp BD$ in the face $(SBD)$ and $OA\perp BD$ in the face $(ABD)$. The size of the dihedral angle is then $\angle SOA$.
 - The angle between two intersecting planes is between $0^\circ$ and $90^\circ$; a dihedral angle can be between $0^\circ$ and $180^\circ$.
 :::
 
-To calculate an angle we reduce it to a right-angled triangle and use $\tan$, $\sin$ or $\cos$. In the exam, a true/false question on angles often tests both **identifying** the angle and **calculating** it.
+Once the angle is identified, the rest is familiar: reduce it to a right-angled triangle and use $\tan$, $\sin$ or $\cos$. A true/false question in the exam often tests both **identifying** the angle and **calculating** it, so here is one of that kind.
 
 :::example True/false: the angle with a plane and a dihedral angle
 The pyramid $S.ABCD$ has a square base with side $a$ and centre $O$, $SA\perp(ABCD)$ and $SA=a\sqrt2$.
@@ -112,9 +112,9 @@ So the answers are a) True, b) True, c) False, d) True.
 :::
 
 :::warning Common traps with angles
-- **Taking the angle at the vertex $S$.** The angle between $SC$ and the base is $\angle SCA$ (at the point where $SC$ meets the base), not $\angle CSA$.
-- **Drawing the perpendicular in the wrong place.** For the dihedral angle $[S, BC, A]$ with a square base, the foot of the perpendicular is $B$ (because $BC\perp(SAB)$), and the angle is $\angle SBA$; it is not at the midpoint of $BC$.
-- **Guessing $60^\circ$ because it "looks like it".** Always calculate the $\tan$ first; $\tan=2$ does not give a special angle.
+- **Taking the angle at the vertex $S$.** Many students slip here: the angle between $SC$ and the base is $\angle SCA$, at the point where $SC$ meets the base, not $\angle CSA$.
+- **Drawing the perpendicular in the wrong place.** For the dihedral angle $[S, BC, A]$ with a square base, the foot of the perpendicular is $B$ (because $BC\perp(SAB)$), and the angle we need is $\angle SBA$. Do not use the midpoint of $BC$.
+- **Guessing $60^\circ$ because it "looks like it".** A figure can fool the eye, so calculate the $\tan$ first. Here $\tan=2$, which does not give a special angle.
 :::
 
 ## Distances
@@ -126,7 +126,7 @@ $$\frac{1}{AH^2}=\frac{1}{SA^2}+\frac{1}{AK^2}.$$
 - **Two skew lines $a$, $b$:** if $a\parallel(P)$ where $(P)\supset b$, then $d(a, b)=d(a, (P))$.
 :::
 
-With a square or rectangular base, the foot $K$ is $B$ itself, because $AB\perp BC$. Changing the point lets us turn the distance from an "awkward" point ($D$, $C$, a midpoint...) into the distance from $A$.
+A distance from an "awkward" point ($D$, $C$, a midpoint...) is hard to find directly. Changing the point turns it into the distance from $A$, which is the easiest point to work with. The foot $K$ is easy to place: with a square or rectangular base, it is $B$ itself, because $AB\perp BC$. The example below uses exactly this idea.
 
 :::example Short answer: the distance to a lateral face
 The pyramid $S.ABCD$ has a square base with side $3$, $SA\perp(ABCD)$ and $SA=4$. Find the distance from $D$ to the plane $(SBC)$.
@@ -149,7 +149,7 @@ So $d(D, (SBC))=2.4$. On the answer sheet we write $2.4$.
 - Area of an equilateral triangle with side $a$: $\dfrac{a^2\sqrt3}{4}$.
 :::
 
-In a regular pyramid, the foot of the height is the centre of the base. So the height is usually found with Pythagoras' theorem in the triangle formed by a lateral edge, the height and half a diagonal of the base.
+A regular pyramid has a convenient feature: the foot of its height is the centre of the base. So a lateral edge, the height and half a diagonal of the base form a right-angled triangle, and we find the height with Pythagoras' theorem. The next example is a tent of this kind.
 
 :::example Short answer: the volume of a tent
 A camping tent has the shape of a regular square pyramid with a square base of side $6$ m, and each lateral edge is $5$ m long. Find the volume of air inside the tent (in m³, to 1 decimal place).
@@ -186,7 +186,7 @@ So the volume of air in the tent is about $31.7$ m³ (write $31.7$).
 
 ## Exercises
 
-The exercises go from easy to hard, and each one states its exam format.
+The exercises go from easy to hard, and each one states its exam format. Draw the figure before you calculate, and ask yourself where the right-angled triangle is.
 
 :::exercise Multiple choice
 The right prism $ABC.A'B'C'$ has a base that is a right-angled triangle at $A$, with $AB=3$, $AC=4$ and $AA'=5$. The volume of the prism is

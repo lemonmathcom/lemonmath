@@ -10,19 +10,21 @@ minutes: 15
 - Convert units of area and solve simple problems with these units.
 :::
 
-Lan has a square piece of card. Each side is $1\ \text{dm}$ long. She wants to cover it completely with small square pieces of coloured paper. Each small piece has sides of $1\ \text{cm}$. How many pieces of paper does Lan need?
+Lan has a square piece of card. Each side is $1\ \text{dm}$ long. She wants to cover it completely with small square pieces of coloured paper, each with sides of $1\ \text{cm}$. How many pieces of paper does Lan need? Have a guess before we count.
 
-In Grade 3 you learned to measure area in square centimetres ($\text{cm}^2$). Today you learn three new units, for surfaces that are bigger or smaller.
+In Grade 3 you measured area in square centimetres ($\text{cm}^2$). That unit suits a piece of card, but it is far too small for a whole room. So you will learn three new units, for surfaces that are bigger or smaller. They will also answer Lan's question: how many square centimetres make one square decimetre?
 
 ## Let's explore
 
-Remember: $1\ \text{dm}=10\ \text{cm}$. So each side of Lan's card is $10\ \text{cm}$ long.
+First, remember that $1\ \text{dm}=10\ \text{cm}$. So each side of Lan's card is $10\ \text{cm}$ long. Measured in centimetres, the card looks much more familiar.
 
 - One row holds $10$ pieces with sides of $1\ \text{cm}$.
 - The card has $10$ rows like that.
 - The number of pieces is $10\times10=100$.
 
-Each piece has an area of $1\ \text{cm}^2$. So the card has an area of $100\ \text{cm}^2$.
+Think of tiling a floor: row after row until there is no gap left.
+
+Each piece has an area of $1\ \text{cm}^2$. The pieces cover the card with no gaps, so their areas add up to the area of the card: $100\ \text{cm}^2$.
 
 :::diagram A square with side 1 dm (10 cm) split into 100 small squares, each 1 cm²
 alt: A square with sides of 10 cm, split by a grid into 10 rows of 10 small squares with sides of 1 cm
@@ -35,9 +37,9 @@ grid
 label 5,-1 "10 cm"
 :::
 
-The card is a square with sides of $1\ \text{dm}$. Its area is called **one square decimetre**, written $1\ \text{dm}^2$. You have just found that $1\ \text{dm}^2=100\ \text{cm}^2$.
+The card is a square with sides of $1\ \text{dm}$. Its area has a name of its own: **one square decimetre**, written $1\ \text{dm}^2$. You have just found something to remember: $1\ \text{dm}^2=100\ \text{cm}^2$.
 
-We can do the same for square metres. A square with sides of $1\ \text{m}$ has an area of **one square metre** ($1\ \text{m}^2$). Since $1\ \text{m}=10\ \text{dm}$, the square holds $10$ rows, and each row has $10$ squares of $1\ \text{dm}^2$. That is $10\times10=100$ squares.
+Square metres work in exactly the same way. A square with sides of $1\ \text{m}$ has an area of **one square metre** ($1\ \text{m}^2$). Since $1\ \text{m}=10\ \text{dm}$, the square holds $10$ rows, and each row has $10$ squares of $1\ \text{dm}^2$. Counting gives $10\times10=100$ squares. The thinking is still rows times rows, only the unit has changed.
 
 Now square millimetres. Remember $1\ \text{cm}=10\ \text{mm}$. A square with sides of $1\ \text{cm}$ holds $10\times10=100$ squares with sides of $1\ \text{mm}$. The area of a square with sides of $1\ \text{mm}$ is called **one square millimetre** ($1\ \text{mm}^2$).
 
@@ -50,13 +52,13 @@ Three facts to remember:
 To change a larger unit into the next smaller unit, **multiply by $100$**. To change a smaller unit into the next larger unit, **divide by $100$**.
 :::
 
-Why $100$ and not $10$? When the side is $10$ times as long, the square has $10$ rows with $10$ squares in each row. The area is $10\times10=100$ times as big.
+Why $100$ and not $10$? Many pupils slip here. When the side is $10$ times as long, the square has $10$ rows with $10$ squares in each row. So the area is $10\times10=100$ times as big, not just ten times.
 
-From the first two facts, you can see that $1\ \text{m}^2=100\ \text{dm}^2=10\,000\ \text{cm}^2$, because $100\times100=10\,000$.
+From the first two facts there is one more to find: $1\ \text{m}^2=100\ \text{dm}^2=10\,000\ \text{cm}^2$, because $100\times100=10\,000$. Going across two units means multiplying twice.
 
 ## Examples
 
-We start with a conversion from a larger unit to a smaller unit.
+We start with a conversion from a larger unit to a smaller unit. The number gets bigger, because we count in smaller squares.
 
 :::example Convert $3\ \text{dm}^2$ into $\text{cm}^2$
 **Solution.** We change the larger unit ($\text{dm}^2$) into the smaller unit ($\text{cm}^2$), so we multiply by $100$, because $1\ \text{dm}^2=100\ \text{cm}^2$:
@@ -66,7 +68,7 @@ So $3\ \text{dm}^2=300\ \text{cm}^2$.
 **Check.** $300\ \text{cm}^2\div100=3\ \text{dm}^2$. Correct.
 :::
 
-Now convert in both directions, with different numbers.
+Now convert in both directions, with different numbers. Check which way you are going before you choose between multiplying and dividing.
 
 :::example Convert $8\ \text{m}^2$ into $\text{dm}^2$ and $500\ \text{dm}^2$ into $\text{m}^2$
 **Solution.** a) Changing $\text{m}^2$ into $\text{dm}^2$ means changing to a smaller unit, so we multiply by $100$:
@@ -76,7 +78,7 @@ $$500\ \text{dm}^2=500\div100\ \text{m}^2=5\ \text{m}^2.$$
 So $8\ \text{m}^2=800\ \text{dm}^2$ and $500\ \text{dm}^2=5\ \text{m}^2$.
 :::
 
-Sometimes a measurement uses two units. Convert each part, then add.
+Sometimes a measurement uses two units, such as a few square decimetres plus a few square centimetres. Convert each part, then add.
 
 :::example Convert $4\ \text{dm}^2\ 25\ \text{cm}^2$ into $\text{cm}^2$
 **Solution.** First change the $4\ \text{dm}^2$ part into $\text{cm}^2$:
@@ -86,7 +88,7 @@ $$400+25=425.$$
 So $4\ \text{dm}^2\ 25\ \text{cm}^2=425\ \text{cm}^2$.
 :::
 
-To compare two measurements, change them into the same unit.
+Two measurements in different units cannot be compared straight away. Change them into the same unit first, then compare.
 
 :::example Compare $2\ \text{m}^2\ 8\ \text{dm}^2$ with $280\ \text{dm}^2$
 **Solution.** Change $2\ \text{m}^2\ 8\ \text{dm}^2$ into $\text{dm}^2$: $2\ \text{m}^2=200\ \text{dm}^2$, then add $8\ \text{dm}^2$:
@@ -95,7 +97,7 @@ Now compare two numbers in the same unit: $208<280$.
 So $2\ \text{m}^2\ 8\ \text{dm}^2<280\ \text{dm}^2$.
 :::
 
-Finally, use the new units to solve a problem from everyday life.
+Finally, let's use the new units for something from everyday life: the top of a study table.
 
 :::example A tabletop
 A study table has a rectangular top $12\ \text{dm}$ long and $6\ \text{dm}$ wide. Find the area of the tabletop in $\text{dm}^2$ and in $\text{cm}^2$.
@@ -108,9 +110,11 @@ So the tabletop has an area of $72\ \text{dm}^2$, which is $7\,200\ \text{cm}^2$
 :::
 
 :::warning Mistakes to watch out for
-- **Thinking $1\ \text{dm}^2=10\ \text{cm}^2$.** Wrong: $3\ \text{dm}^2=30\ \text{cm}^2$. Why it is wrong: $10$ is only the number of centimetres in one side, but the area is $10\times10$ times as big. Right: $3\ \text{dm}^2=300\ \text{cm}^2$.
-- **Forgetting the $0$ in the middle.** Wrong: $4\ \text{dm}^2\ 5\ \text{cm}^2=45\ \text{cm}^2$. Why it is wrong: $4\ \text{dm}^2=400\ \text{cm}^2$, and $400+5=405$. Right: $405\ \text{cm}^2$.
-- **Multiplying when you should divide.** Wrong: $500\ \text{dm}^2=50\,000\ \text{m}^2$. Why it is wrong: $\text{m}^2$ is the larger unit, so the number must get smaller. Right: $500\ \text{dm}^2=5\ \text{m}^2$.
+- **Thinking $1\ \text{dm}^2=10\ \text{cm}^2$.** Many pupils slip here. Wrong: $3\ \text{dm}^2=30\ \text{cm}^2$. Why it is wrong: $10$ is only the number of centimetres in one side, but the area is $10\times10$ times as big. Right: $3\ \text{dm}^2=300\ \text{cm}^2$.
+- **Forgetting the $0$ in the middle.** Wrong: $4\ \text{dm}^2\ 5\ \text{cm}^2=45\ \text{cm}^2$. Why it is wrong: $4\ \text{dm}^2=400\ \text{cm}^2$, and $400+5=405$, so the $0$ in the middle must stay. Right: $405\ \text{cm}^2$.
+- **Multiplying when you should divide.** Wrong: $500\ \text{dm}^2=50\,000\ \text{m}^2$. Why it is wrong: $\text{m}^2$ is the larger unit, so the number must get smaller. Right: $500\ \text{dm}^2=5\ \text{m}^2$. Before you calculate, ask yourself: is the new unit bigger or smaller?
+
+Don't worry if these slip in at first. A few practice questions will settle them.
 :::
 
 ## Key terms
@@ -136,9 +140,11 @@ So the tabletop has an area of $72\ \text{dm}^2$, which is $7\,200\ \text{cm}^2$
 - $1\ \text{m}^2$ is $10\,000\ \text{cm}^2$.
 - To compare or add measurements, change them into the same unit first.
 
+Back to Lan's question: her card is a square with sides of $1\ \text{dm}$, and $1\ \text{dm}^2=100\ \text{cm}^2$, so she needs exactly one hundred pieces of paper with sides of one centimetre. Remember one thing: neighbouring units of area differ by a factor of one hundred, not ten. Try the practice questions to make it stick.
+
 ## Practice
 
-Each exercise comes with what you need and how to start. Try it yourself first, then open the solution.
+Each exercise comes with what you need and how to start. Try it yourself first, then open the solution. Getting one wrong is fine, because a mistake usually shows you exactly what to remember.
 
 :::exercise
 Write the missing number:

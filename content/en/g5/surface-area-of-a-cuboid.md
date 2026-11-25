@@ -41,12 +41,12 @@ label 6.9,0.45 "5 cm"
 label -0.45,1.5 "4 cm"
 :::
 
-The four side faces are two rectangles measuring $8$ cm by $4$ cm and two measuring $5$ cm by $4$ cm. Their total area is
+The four side faces are two rectangles measuring $8$ cm by $4$ cm and two measuring $5$ cm by $4$ cm. Add their areas:
 $$2\times(8\times4)+2\times(5\times4)=104\ \text{cm}^2.$$
 
-The base perimeter is $(8+5)\times2=26$ cm. Open the four side faces into a strip $4$ cm wide; its area is also $26\times4=104\ \text{cm}^2$.
+There is also a quicker way to see it. The base perimeter is $(8+5)\times2=26$ cm. Open the four side faces into one strip $4$ cm wide; the strip is as long as the base perimeter, so its area is also $26\times4=104\ \text{cm}^2$.
 
-The two bases have total area $2\times8\times5=80\ \text{cm}^2$. Therefore, the area of all six faces is $104+80=184\ \text{cm}^2$.
+The two bases have total area $2\times8\times5=80\ \text{cm}^2$. Add them to the four side faces, and the area of all six faces is $104+80=184\ \text{cm}^2$. That answers the job of wrapping the whole box.
 
 :::theorem Surface area rules
 - The **lateral surface area** is the total area of the four side faces:
@@ -55,11 +55,11 @@ $$\text{lateral surface area}=(\text{length}+\text{width})\times2\times\text{hei
 $$\text{total surface area}=\text{lateral surface area}+2\times\text{length}\times\text{width}.$$
 :::
 
-The rule works because the side strip is as long as the base perimeter and as wide as the height. Total surface area also includes the two equal bases.
+Why does the rule work? The side strip is as long as the base perimeter and as wide as the height. Total surface area also includes the two equal bases.
 
 ## Examples
 
-Start with the four side faces.
+We start with the four side faces: you only need the base perimeter and the height.
 
 :::example Find the lateral surface area
 Find the lateral surface area of a cuboid $12$ cm long, $7$ cm wide and $5$ cm high.
@@ -69,7 +69,7 @@ $$ (12+7)\times2\times5=190\ \text{cm}^2.$$
 So the answer is $190\ \text{cm}^2$.
 :::
 
-Now include all six faces.
+Now we include all six faces, which means adding the two bases.
 
 :::example Find the total surface area
 Find the total surface area of a cuboid $9$ dm long, $4$ dm wide and $6$ dm high.
@@ -80,7 +80,7 @@ $$156+72=228\ \text{dm}^2.$$
 So the answer is $228\ \text{dm}^2$.
 :::
 
-You can also find a missing dimension.
+You can also work backwards to find a missing dimension.
 
 :::example Find the height
 A cuboid is $10$ cm long and $6$ cm wide. Its lateral area is $256\ \text{cm}^2$. Find its height.
@@ -90,7 +90,7 @@ $$256\div32=8\ \text{(cm)}.$$
 So the height is $8$ cm.
 :::
 
-Finally, include only the painted faces.
+Real objects do not always need all six faces. In the last example we include only the painted faces.
 
 :::example Painting a wooden box
 A box is $60$ cm long, $40$ cm wide and $30$ cm high. Its sides and top are painted. Find the painted area.
@@ -127,10 +127,11 @@ So the answer is $8\,400\ \text{cm}^2$.
 - Lateral surface area $=$ perimeter of the base $\times$ height.
 - Total surface area $=$ lateral surface area $+$ area of the two bases.
 - Use one unit, give a square unit and include only the faces named.
+The opening question asked how much paper Minh needs for each job: covering the four side faces needs the lateral surface area, and wrapping the whole box needs the total surface area. Remember to check which faces the problem asks for, and practise a few more until it feels easy.
 
 ## Practice
 
-Each exercise gives you the rule and some steps. Try it yourself before opening the solution.
+Each exercise gives you what you need and a way to start. Try it yourself first, and only then open the solution. A wrong first try is part of learning.
 
 :::exercise
 A cuboid is $11$ cm long, $4$ cm wide and $6$ cm high. Find its lateral area.

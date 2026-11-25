@@ -12,24 +12,24 @@ minutes: 15
 
 Lan has $57$ stickers. Lan gives $23$ stickers to a friend. How many stickers does Lan have left?
 
-Counting back one by one takes a long time. This lesson helps you subtract quickly by splitting each number into tens and ones.
+Counting back one by one takes a long time, and with this many stickers it is easy to lose your place. There is a quicker way: split each number into tens and ones, then subtract one part at a time. Once you know it, you can subtract these numbers without counting back at all.
 
 ## Let's explore
 
-You learned in the last lesson: for $27-4$, you subtract in the ones and keep the tens the same. Now we subtract the tens as well.
+In the last lesson you worked out $27-4$: you subtracted in the ones and kept the tens the same. This time the number we take away has tens too, so we subtract both places.
 
-We split each number into tens and ones:
+To keep things tidy, we split each number into tens and ones. Look at the table:
 
 | Number | Tens | Ones |
 |---|---|---|
 | $57$ | $5$ | $7$ |
 | $23$ | $2$ | $3$ |
 
-- Take ones from ones: $7-3=4$.
-- Take tens from tens: $5-2=3$.
-- $3$ tens and $4$ ones make $34$.
+- First take ones from ones: $7-3=4$.
+- Then take tens from tens: $5-2=3$.
+- Put them together: $3$ tens and $4$ ones make $34$.
 
-So $57-23=34$.
+So Lan has $57-23=34$ stickers left.
 
 :::graph On a number line: from 57, go back 2 tens to 37, then back 3 ones to 34
 alt: A number line from 30 to 60 with the points 57, 37 and 34 marked; the part from 34 to 57 is drawn in bold
@@ -48,11 +48,11 @@ To work out $57-23$:
 3. Put them together: $3$ tens and $4$ ones make $34$.
 :::
 
-This works because you take tens away from the tens and single ones away from the ones, so you never take away too many or too few stickers.
+Why does this work? Tens come off the tens and ones come off the ones, so each sticker is taken away exactly once, never too many and never too few.
 
 ## Examples
 
-We start with the simplest kind of subtraction.
+Let us try the sum from the start of the lesson and watch each step appear.
 
 :::example Work out $57-23$
 **Solution.** Ones: $7-3=4$. Tens: $5-2=3$:
@@ -60,7 +60,7 @@ $$57-23=34.$$
 So $57-23=34$.
 :::
 
-Now we do the same kind of subtraction with different numbers.
+Now we keep the method and change only the numbers. Before you read on, guess: what is the ones subtraction, and what is the tens subtraction?
 
 :::example Work out $86-41$
 **Solution.** Ones: $6-1=5$. Tens: $8-4=4$:
@@ -68,7 +68,7 @@ $$86-41=45.$$
 So $86-41=45$.
 :::
 
-When the number you take away is a multiple of ten, the ones of the first number stay the same.
+Here is a case you will meet often: the number we take away is a multiple of ten. Then the ones of the first number are not touched, so they stay the same.
 
 :::example Work out $78-30$
 **Solution.** Ones: $8-0=8$. Tens: $7-3=4$:
@@ -76,7 +76,7 @@ $$78-30=48.$$
 So $78-30=48$.
 :::
 
-You can check a subtraction with an addition.
+When you have finished, it is wise to check. Addition helps: the difference plus the number taken away must give back the first number.
 
 :::example Work out $95-54$ and check
 **Solution.** Ones: $5-4=1$. Tens: $9-5=4$:
@@ -86,7 +86,7 @@ Check with an addition: $41+54=95$. The answer is right.
 So $95-54=41$.
 :::
 
-Now use subtraction to answer a question from everyday life.
+Subtraction also answers everyday questions, the kind you might ask in your own class. Have a look at this one.
 
 :::example Boys in the class
 A class has $68$ pupils, and $36$ of them are girls. How many boys are in the class?
@@ -97,9 +97,10 @@ So the class has $32$ boys.
 :::
 
 :::warning Mistakes to watch out for
-- **Forgetting the tens.** Wrong: $57-23=4$. Why it is wrong: you only subtracted the ones. Right: there are still $5-2=3$ tens, so $57-23=34$.
-- **Swapping tens and ones.** Wrong: $57-23=43$. Why it is wrong: you wrote the ones before the tens. Right: $3$ tens and $4$ ones make $34$.
-- **Leaving out the unit in a word problem.** Wrong: "Answer: $32$". Right: "Answer: $32$ pupils".
+- **Forgetting the tens.** Wrong: $57-23=4$. Why it is wrong: you subtracted the ones and then stopped. Right: the tens still need subtracting, $5-2=3$ tens, so $57-23=34$.
+- **Swapping tens and ones.** Wrong: $57-23=43$. Why it is wrong: you wrote the ones before the tens. Right: $3$ tens and $4$ ones make $34$, with the tens first and the ones second.
+- **Leaving out the unit in a word problem.** Wrong: "Answer: $32$". Why it is wrong: a number on its own does not say what was counted. Right: "Answer: $32$ pupils".
+Many pupils slip up here, so go slowly and check each place one at a time.
 :::
 
 ## Key terms
@@ -121,10 +122,11 @@ So the class has $32$ boys.
 - Write the tens first, then the ones: $3$ tens and $4$ ones make $34$.
 - Check with an addition: $34+23=57$.
 - Word problems that ask "how many are left" or "how many after taking away" usually need a subtraction; remember to write the unit in the answer.
+Lan's question at the start works out the same way: tens from tens, ones from ones. Practise a few more sums until it feels natural.
 
 ## Practice
 
-Each exercise comes with what you need and how to start. Try it yourself first, then open the solution.
+Each exercise comes with a reminder of what you need and a hint to start you off. Try it yourself first. If you get stuck, or when you have finished, open the solution.
 
 :::exercise
 Work out $68-35$.

@@ -11,11 +11,11 @@ minutes: 40
 - Decide whether a function is continuous, classify discontinuities, and justify a conclusion with the intermediate value theorem.
 :::
 
-Unit 1 is the foundation of AP Calculus: derivatives and integrals are both defined by limits. On the exam, limits appear mostly in the no-calculator multiple-choice part, and continuity appears in free-response questions that ask you to **justify** a conclusion. Vietnamese students meet these ideas in grade 11; the AP style adds precise vocabulary and one-sided limits read from graphs.
+When we move closer and closer to a point without reaching it, where does a function head? That question is the foundation of calculus. Unit 1 is the foundation of AP Calculus, because derivatives and integrals are both defined by limits. On the exam, limits appear mostly in the no-calculator multiple-choice part, and continuity appears in free-response questions that ask you to **justify** a conclusion. Vietnamese students already meet these ideas in grade 11, so what is new is only the precise vocabulary and the one-sided limits read from graphs.
 
 ## Limits and one-sided limits
 
-$\displaystyle\lim_{x\to a}f(x)=L$ means that $f(x)$ gets as close as we like to $L$ when $x$ is close enough to $a$, **whatever happens at $x=a$ itself**. The limit exists exactly when both one-sided limits exist and are equal:
+The idea of a limit is to ask where a function is heading, not where it is standing. $\displaystyle\lim_{x\to a}f(x)=L$ means that $f(x)$ gets as close as we like to $L$ when $x$ is close enough to $a$, **whatever happens at $x=a$ itself**. Why stress this? Because a function can be undefined at that very point and still have a limit, as the graph below shows. The limit exists exactly when both one-sided limits exist and are equal:
 
 $$\lim_{x\to a}f(x)=L\iff\lim_{x\to a^-}f(x)=\lim_{x\to a^+}f(x)=L.$$
 
@@ -40,9 +40,10 @@ D. The limit does not exist.
 ## Algebraic techniques
 
 :::note When substitution gives $\dfrac00$
-- **Factor** and cancel the common factor.
+- **Factor** and cancel the common factor. Whenever you see a fraction, try this first.
 - **Rationalize**: multiply by the conjugate of a square-root expression.
 - **Use the special limit** $\displaystyle\lim_{x\to0}\frac{\sin x}{x}=1$, and its variant $\displaystyle\lim_{x\to0}\frac{\sin(kx)}{x}=k$.
+Try them in turn; usually only one of them fits the problem.
 :::
 
 :::example Rationalizing
@@ -67,7 +68,7 @@ D. $3$
 
 ## Limits at infinity and asymptotes
 
-For a rational function, compare the degrees of the numerator and the denominator as $x\to\pm\infty$:
+As $x\to\pm\infty$, the top and bottom of a fraction both grow, and the answer depends on which one grows faster. The higher degree wins. So for a rational function we only need to compare the degrees of the numerator and the denominator:
 
 | Degrees | $\displaystyle\lim_{x\to\infty}$ | Horizontal asymptote |
 |---|---|---|
@@ -75,7 +76,7 @@ For a rational function, compare the degrees of the numerator and the denominato
 | top = bottom | ratio of the leading coefficients | $y=\dfrac{a}{b}$ |
 | top > bottom | $\pm\infty$ | none |
 
-A **vertical asymptote** $x=a$ appears where the denominator is $0$ and the numerator is not (after cancelling common factors).
+Vertical asymptotes are different: there the function shoots off towards infinity. A **vertical asymptote** $x=a$ appears where the denominator is $0$ and the numerator is not, after cancelling common factors. The words "after cancelling" are where many students slip.
 
 :::example A horizontal asymptote
 What is $\displaystyle\lim_{x\to\infty}\frac{3x^2-5x}{2x^2+7}$?
@@ -117,10 +118,11 @@ D. $f'(c)=\dfrac73$ for some $c$ in $(1, 4)$.
 - **Using the IVT without continuity.** Always state that $f$ is continuous on the closed interval.
 - **Forgetting to cancel before finding vertical asymptotes.** $\dfrac{x+1}{x^2-1}$ has a hole at $x=-1$, not an asymptote.
 - **$\dfrac{\sin(kx)}{x}$ is not $1$.** It tends to $k$.
+If you remember only one thing from this box, remember this: before you conclude, check the conditions of the theorem.
 :::
 
 :::tip Checking limits with the calculator
-In the calculator part, a table of values with $x$ approaching $a$ from both sides (for example $2.99$, $2.999$ and $3.01$, $3.001$) is a quick check. In the no-calculator part, rely on algebra.
+In the calculator part, a table of values is a quick check: let $x$ approach $a$ from both sides (for example $2.99$, $2.999$ and $3.01$, $3.001$) and see where the results head. It is only a check and cannot replace an argument. In the no-calculator part, rely on algebra.
 :::
 
 :::terms

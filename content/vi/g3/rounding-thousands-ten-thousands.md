@@ -11,13 +11,13 @@ minutes: 15
 - Dùng làm tròn để nói số lượng "khoảng bao nhiêu".
 :::
 
-Sân vận động của thành phố có $4\,732$ khán giả xem trận bóng đá chiều nay. Cô phóng viên muốn viết ngắn gọn: "Có khoảng mấy nghìn khán giả?" Em giúp cô chọn một số tròn nghìn gần với $4\,732$ nhé.
+Chiều nay, sân vận động của thành phố có $4\,732$ khán giả xem trận bóng đá. Cô phóng viên muốn viết một dòng tin thật gọn: "Có khoảng mấy nghìn khán giả?" Người đọc chỉ cần biết đại khái, không cần biết chính xác từng người. Em giúp cô chọn một số tròn nghìn gần với $4\,732$ nhé.
 
-Ở bài trước, em đã biết so sánh các số trong phạm vi $100\,000$. Em cũng đã biết làm tròn số đến hàng chục và hàng trăm. Bài này dùng lại cách nghĩ đó cho hàng nghìn và hàng chục nghìn.
+Ở bài trước, em đã so sánh các số trong phạm vi $100\,000$ và đã làm tròn đến hàng chục, hàng trăm. Lần này ta dùng đúng cách nghĩ ấy cho hàng nghìn và hàng chục nghìn. Học xong, em có thể nói "khoảng bao nhiêu nghìn" cho một số dài mà không phải đọc từng chữ số.
 
 ## Cùng khám phá
 
-Ta xếp các số tròn nghìn $4\,000$ và $5\,000$ trên tia số. Số $4\,732$ nằm giữa hai số đó. Điểm chính giữa của hai số là $4\,500$.
+Muốn biết $4\,732$ gần số tròn nghìn nào, ta đặt nó lên tia số. Hai số tròn nghìn ở hai bên là $4\,000$ và $5\,000$. Số $4\,732$ nằm giữa hai số đó, còn điểm chính giữa của chúng là $4\,500$.
 
 :::graph Số $4\,732$ nằm giữa $4\,000$ và $5\,000$
 alt: Tia số từ 3800 đến 5200, đánh dấu các điểm 4000, 4500, 4732 và 5000; điểm 4732 nằm gần 5000 hơn
@@ -30,15 +30,16 @@ point: (4732, 0) "4732" below
 point: (5000, 0) "5000" below
 :::
 
-Em hãy hỏi: số $4\,732$ gần số nào hơn?
+Câu hỏi bây giờ là: đứng trên tia số này, số $4\,732$ gần số tròn nghìn nào hơn? Ta đo khoảng cách để biết.
 
-- Từ $4\,000$ đến $4\,732$ là $4\,732-4\,000=732$.
-- Từ $4\,732$ đến $5\,000$ là $5\,000-4\,732=268$.
+- Đi từ $4\,000$ lên $4\,732$ là $4\,732-4\,000=732$.
+- Đi từ $4\,732$ lên $5\,000$ còn $5\,000-4\,732=268$.
 - Vì $268<732$ nên $4\,732$ gần $5\,000$ hơn.
+Quãng đường nào ngắn hơn thì số tròn nghìn ở đầu đó gần hơn.
 
-Ta nói: làm tròn $4\,732$ đến hàng nghìn được $5\,000$, viết $4\,732\approx5\,000$. Kí hiệu $\approx$ đọc là "gần bằng".
+Vậy ta nói: làm tròn $4\,732$ đến hàng nghìn được $5\,000$, và viết $4\,732\approx5\,000$. Kí hiệu $\approx$ đọc là "gần bằng". Thấy dấu này, em hiểu số đứng sau không còn chính xác nữa, mà là số tròn gần nhất.
 
-Em để ý: $4\,732$ lớn hơn điểm chính giữa $4\,500$, nên nó gần $5\,000$ hơn. Số nào nhỏ hơn $4\,500$ thì gần $4\,000$ hơn. Chữ số hàng trăm của số $4\,500$ là $5$, nên chữ số hàng trăm cho em biết số đó ở nửa nào.
+Có một cách nhanh hơn việc đo từng khoảng cách. Số $4\,732$ lớn hơn điểm chính giữa $4\,500$, nên nó nằm ở nửa gần $5\,000$. Số nào nhỏ hơn $4\,500$ thì nằm ở nửa gần $4\,000$. Chữ số hàng trăm của $4\,500$ là $5$, cho nên chỉ cần nhìn chữ số hàng trăm, em biết ngay số đó nằm ở nửa nào.
 
 :::theorem Cách làm tròn
 **Làm tròn đến hàng nghìn:** nhìn chữ số ở hàng trăm.
@@ -48,11 +49,11 @@ Em để ý: $4\,732$ lớn hơn điểm chính giữa $4\,500$, nên nó gần 
 **Làm tròn đến hàng chục nghìn:** làm tương tự, nhưng nhìn chữ số ở hàng nghìn.
 :::
 
-Cách làm này đúng vì em chọn số tròn gần nhất. Chữ số hàng trăm từ $5$ trở lên nghĩa là số đó ở nửa trên, gần số tròn nghìn lớn hơn.
+Vì sao cách này đúng? Vì làm tròn là chọn số tròn gần nhất. Chữ số hàng trăm từ $5$ trở lên nghĩa là số đó ở nửa trên, nên số tròn nghìn lớn hơn mới là số gần. Chữ số hàng trăm nhỏ hơn thì ngược lại, số đó ở nửa dưới.
 
 ## Ví dụ
 
-Ta bắt đầu với một số có chữ số hàng trăm nhỏ.
+Ta bắt đầu với số có chữ số hàng trăm nhỏ, để thấy khi nào hàng nghìn được giữ nguyên.
 
 :::example Làm tròn $3\,214$ đến hàng nghìn
 **Lời giải.** Muốn làm tròn đến hàng nghìn, em nhìn chữ số hàng trăm. Chữ số hàng trăm của $3\,214$ là $2$, bé hơn $5$, nên giữ nguyên $3$ nghìn và đổi các chữ số bên phải thành $0$:
@@ -60,7 +61,7 @@ $$3\,214\approx3\,000.$$
 Vậy $3\,214$ làm tròn đến hàng nghìn là $3\,000$.
 :::
 
-Bây giờ chữ số hàng trăm lớn hơn.
+Bây giờ là số có chữ số hàng trăm lớn hơn. Lần này hàng nghìn sẽ tăng lên.
 
 :::example Làm tròn $6\,750$ đến hàng nghìn
 **Lời giải.** Chữ số hàng trăm của $6\,750$ là $7$, từ $5$ trở lên, nên tăng chữ số hàng nghìn từ $6$ lên $7$ và đổi các chữ số bên phải thành $0$:
@@ -68,7 +69,7 @@ $$6\,750\approx7\,000.$$
 Vậy $6\,750$ làm tròn đến hàng nghìn là $7\,000$.
 :::
 
-Với số có năm chữ số, em có hai cách làm tròn khác nhau.
+Số có năm chữ số cho ta hai lựa chọn: làm tròn đến hàng nghìn hoặc đến hàng chục nghìn. Em xem kết quả khác nhau thế nào nhé.
 
 :::example Làm tròn $47\,328$ đến hàng nghìn và đến hàng chục nghìn
 **Lời giải.** Làm tròn đến hàng nghìn: chữ số hàng trăm là $3$, bé hơn $5$, nên giữ nguyên $47$ nghìn:
@@ -78,7 +79,7 @@ $$47\,328\approx50\,000.$$
 Vậy $47\,328$ làm tròn đến hàng nghìn là $47\,000$, đến hàng chục nghìn là $50\,000$.
 :::
 
-Có một trường hợp hay làm em lúng túng: chữ số cần tăng là $9$.
+Có một chỗ nhiều em hay lúng túng: chữ số cần tăng lại là $9$. Ta cùng xem xử lí ra sao.
 
 :::example Làm tròn $9\,640$ đến hàng nghìn
 **Lời giải.** Chữ số hàng trăm của $9\,640$ là $6$, từ $5$ trở lên, nên em cần thêm $1$ nghìn vào $9$ nghìn. $9$ nghìn thêm $1$ nghìn là $10$ nghìn:
@@ -86,7 +87,7 @@ $$9\,640\approx10\,000.$$
 Vậy $9\,640$ làm tròn đến hàng nghìn là $10\,000$.
 :::
 
-Bây giờ em dùng làm tròn để trả lời một câu hỏi trong cuộc sống.
+Làm tròn có ích nhất khi ta muốn nói "khoảng bao nhiêu". Em thử với một con số trong cuộc sống.
 
 :::example Vé buổi hòa nhạc
 Một buổi hòa nhạc bán được $23\,480$ vé. Báo viết: "Khoảng bao nhiêu nghìn vé đã được bán?" Hãy trả lời.
@@ -97,9 +98,10 @@ Vậy đã bán được khoảng $23$ nghìn vé.
 :::
 
 :::warning Những lỗi em hay gặp
-- **Nhìn nhầm chữ số.** Sai: làm tròn $4\,372$ đến hàng nghìn bằng cách nhìn chữ số $2$ ở hàng đơn vị. Vì sao sai: em phải nhìn chữ số ở hàng ngay bên phải hàng cần làm tròn, tức là hàng trăm, chữ số $3$. Đúng: $4\,372\approx4\,000$.
-- **Quên đổi các chữ số bên phải thành $0$.** Sai: $6\,750\approx7\,750$. Vì sao sai: số làm tròn đến hàng nghìn phải là số tròn nghìn. Đúng: $6\,750\approx7\,000$.
+- **Nhìn nhầm chữ số.** Sai: làm tròn $4\,372$ đến hàng nghìn bằng cách nhìn chữ số $2$ ở hàng đơn vị. Vì sao sai: chữ số cần xét nằm ngay bên phải hàng ta làm tròn, tức là hàng trăm, chữ số $3$. Đúng: $4\,372\approx4\,000$.
+- **Quên đổi các chữ số bên phải thành $0$.** Sai: $6\,750\approx7\,750$. Vì sao sai: làm tròn đến hàng nghìn thì kết quả phải là số tròn nghìn. Đúng: $6\,750\approx7\,000$.
 - **Chữ số $9$ không dám tăng.** Sai: $9\,640\approx9\,000$. Vì sao sai: chữ số hàng trăm là $6$ nên phải làm tròn lên, và $9$ nghìn thêm $1$ nghìn là $10$ nghìn. Đúng: $9\,640\approx10\,000$.
+Đừng lo nếu em từng mắc những lỗi này. Gặp một lần là em nhớ lâu hơn.
 :::
 
 ## Thuật ngữ
@@ -122,10 +124,11 @@ Vậy đã bán được khoảng $23$ nghìn vé.
 - Sau khi làm tròn, các chữ số bên phải đều thành $0$.
 - Ví dụ: $4\,732\approx5\,000$ (đến hàng nghìn); $47\,328\approx50\,000$ (đến hàng chục nghìn).
 - Em có thể thử lại bằng tia số: số làm tròn phải là số tròn gần nhất.
+Quay lại câu hỏi của cô phóng viên: ví dụ đầu bài đã trả lời rồi, vì $4\,732\approx5\,000$ cho cô một số tròn nghìn để viết. Em chỉ cần nhớ một việc: nhìn chữ số ở hàng ngay bên phải. Các bài luyện tập bên dưới sẽ giúp em quen tay.
 
 ## Luyện tập
 
-Mỗi bài có phần kiến thức và gợi ý. Em hãy tự làm trước, rồi mới bấm xem lời giải.
+Mỗi bài có kèm phần kiến thức cần nhớ và một gợi ý để em bắt đầu. Em cứ tự làm trước, chỗ nào vướng thì mới mở lời giải. Làm sai một lần cũng không sao, vì chính chỗ sai giúp em nhớ lâu.
 
 :::exercise
 Làm tròn mỗi số sau đến hàng nghìn:

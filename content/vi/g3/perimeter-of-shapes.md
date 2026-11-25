@@ -13,11 +13,11 @@ minutes: 15
 
 Mai có một tấm thiệp hình chữ nhật, dài $8$ cm, rộng $5$ cm. Mai muốn dán một sợi dây kim tuyến sát quanh mép tấm thiệp, vừa đủ một vòng. Hỏi sợi dây phải dài bao nhiêu xăng-ti-mét?
 
-Em đã biết đo độ dài bằng xăng-ti-mét và biết cộng các số. Chỉ cần hai điều đó là em giải được bài toán này.
+Nghe thì có vẻ cần một cách tính mới, nhưng thật ra không. Em đã biết đo độ dài bằng xăng-ti-mét và biết cộng các số. Chỉ hai điều ấy là đủ để giải bài toán sợi dây. Điều mới nằm ở một cái tên và một cách cộng gọn.
 
 ## Cùng khám phá
 
-Ta bắt đầu với một hình đơn giản hơn là hình tam giác. Chú kiến bò một vòng sát mép tam giác $ABC$, xuất phát từ $A$ rồi về lại $A$.
+Trước khi tới tấm thiệp, ta thử với hình tam giác cho dễ hình dung. Chú kiến bò một vòng sát mép tam giác $ABC$, xuất phát từ $A$ rồi về lại $A$.
 
 :::diagram Chú kiến bò một vòng quanh tam giác $ABC$
 alt: Tam giác ABC có cạnh AB dài 4 cm, cạnh BC dài 5 cm và cạnh CA dài 3 cm
@@ -30,13 +30,13 @@ label 2.5,1.9 "5 cm"
 label -0.6,1.5 "3 cm"
 :::
 
-Em hãy đi theo chú kiến:
+Em đi theo chú kiến và ghi lại từng đoạn đường:
 
 - Đoạn thứ nhất, từ $A$ đến $B$, dài $4$ cm.
 - Đoạn thứ hai, từ $B$ đến $C$, dài $5$ cm.
 - Đoạn thứ ba, từ $C$ về $A$, dài $3$ cm.
 
-Cả vòng dài $4+5+3=12$ cm. Độ dài cả vòng này gọi là **chu vi** của tam giác.
+Cả vòng dài $4+5+3=12$ cm. Độ dài của cả vòng quanh hình như thế có một cái tên: **chu vi**. Đây là chu vi của tam giác.
 
 :::definition Chu vi
 **Chu vi** của một hình là độ dài đường bao quanh hình đó.
@@ -44,11 +44,11 @@ Cả vòng dài $4+5+3=12$ cm. Độ dài cả vòng này gọi là **chu vi** c
 Muốn tính chu vi hình tam giác hay hình tứ giác, em cộng độ dài tất cả các cạnh. Các độ dài phải cùng một đơn vị.
 :::
 
-Vì sao phải cộng *tất cả* các cạnh? Chú kiến phải đi qua từng cạnh thì mới về được chỗ cũ. Bỏ sót một cạnh là đi chưa hết vòng.
+Vì sao phải cộng *tất cả* các cạnh? Vì chú kiến phải đi qua từng cạnh mới về được chỗ cũ. Bỏ sót một cạnh là vòng đi chưa trọn. Chỗ này nhiều bạn hay quên một cạnh, nên em đếm cạnh trước khi cộng nhé.
 
 ## Tính nhanh cho hình chữ nhật và hình vuông
 
-Ta quay lại tấm thiệp của Mai. Hình chữ nhật có hai cạnh dài bằng nhau và hai cạnh rộng bằng nhau.
+Giờ ta quay lại với tấm thiệp của Mai. Có cách nào cộng gọn hơn không? Em để ý: hình chữ nhật có hai cạnh dài bằng nhau và hai cạnh rộng bằng nhau.
 
 :::diagram Tấm thiệp hình chữ nhật dài 8 cm, rộng 5 cm
 alt: Hình chữ nhật có hai cạnh dài 8 cm và hai cạnh rộng 5 cm
@@ -63,22 +63,22 @@ label -0.6,1.25 "5 cm"
 label 4.6,1.25 "5 cm"
 :::
 
-Em cộng cả bốn cạnh: $8+5+8+5=26$ cm. Em thấy có hai cạnh dài và hai cạnh rộng. Vậy ta ghép thành hai cặp "dài và rộng".
+Trước hết cứ cộng cả bốn cạnh: $8+5+8+5=26$ cm. Trong tổng này có hai cạnh dài và hai cạnh rộng, nên ta ghép được thành hai cặp "dài và rộng".
 
-Một cặp là $8+5=13$ cm, và có hai cặp như thế. Do đó $(8+5)\times2=13\times2=26$ cm. Sợi dây của Mai dài $26$ cm.
+Một cặp là $8+5=13$ cm, và có hai cặp như thế. Vì sao nhân với hai? Vì cặp "dài và rộng" xuất hiện đúng hai lần. Do đó $(8+5)\times2=13\times2=26$ cm. Sợi dây của Mai dài $26$ cm.
 
-Hình vuông có bốn cạnh bằng nhau. Nếu cạnh dài $6$ cm thì cả vòng là $6+6+6+6=24$ cm, tức là $6\times4=24$ cm.
+Hình vuông còn gọn hơn, vì bốn cạnh bằng nhau. Nếu cạnh dài $6$ cm thì cả vòng là $6+6+6+6=24$ cm, tức là $6\times4=24$ cm. Bốn lần cùng một cạnh thì nhân là nhanh nhất.
 
 :::theorem Chu vi hình chữ nhật và hình vuông
 - Hình chữ nhật: **chu vi = (chiều dài + chiều rộng) × 2**.
 - Hình vuông: **chu vi = độ dài cạnh × 4**.
 :::
 
-Hai cách này chỉ là cách cộng gọn hơn, không có gì mới. Nếu quên công thức, em vẫn có thể cộng đủ bốn cạnh để thử lại.
+Đừng lo nếu em chưa nhớ ngay hai công thức này. Chúng chỉ là cách cộng gọn hơn, không có gì mới. Quên thì cứ cộng đủ bốn cạnh, vòng nào cũng ra đúng chu vi.
 
 ## Ví dụ
 
-Ta bắt đầu với hình tam giác.
+Ta bắt đầu với hình tam giác: ba cạnh, nên có ba số để cộng.
 
 :::example Chu vi hình tam giác
 Tam giác $DEF$ có $DE=5$ cm, $EF=6$ cm, $FD=7$ cm. Tính chu vi tam giác $DEF$.
@@ -90,7 +90,7 @@ Vậy chu vi tam giác $DEF$ là $18$ cm.
 **Kiểm tra.** $5+6=11$, rồi $11+7=18$. Kết quả khớp.
 :::
 
-Hình tứ giác có bốn cạnh, nên em cộng bốn số.
+Hình tứ giác có thêm một cạnh nữa, nên em cộng bốn số thay vì ba. Cách làm vẫn y như trước.
 
 :::example Chu vi hình tứ giác
 Tứ giác $MNPQ$ có $MN=4$ cm, $NP=6$ cm, $PQ=5$ cm, $QM=7$ cm. Tính chu vi.
@@ -100,7 +100,7 @@ $$4+6+5+7=22\ \text{(cm)}.$$
 Vậy chu vi tứ giác $MNPQ$ là $22$ cm.
 :::
 
-Với hình chữ nhật, em dùng cách tính nhanh.
+Với hình chữ nhật, ta dùng cách cộng gọn vừa tìm ra. Em nhớ lại vì sao phải nhân hai: có hai cặp cạnh bằng nhau.
 
 :::example Chu vi hình chữ nhật
 Một hình chữ nhật có chiều dài $9$ cm, chiều rộng $4$ cm. Tính chu vi.
@@ -124,7 +124,7 @@ Vậy chu vi hình vuông là $28$ cm.
 **Kiểm tra.** $7+7=14$, rồi $14+14=28$. Khớp.
 :::
 
-Bây giờ em dùng chu vi để trả lời một câu hỏi trong cuộc sống.
+Chu vi dùng được ở nhiều chỗ, chẳng hạn khi làm hàng rào. Ta thử một bài như thế.
 
 :::example Làm hàng rào
 Bác Hùng rào quanh một mảnh vườn hình chữ nhật dài $15$ m, rộng $8$ m. Hỏi hàng rào dài bao nhiêu mét?
@@ -137,9 +137,9 @@ Vậy hàng rào dài $46$ m.
 :::
 
 :::warning Những lỗi em hay gặp
-- **Chỉ cộng một cặp cạnh.** Sai: chu vi hình chữ nhật dài $9$ cm, rộng $4$ cm là $9+4=13$ cm. Vì sao sai: em mới đi nửa vòng. Đúng: $(9+4)\times2=26$ cm.
+- **Chỉ cộng một cặp cạnh.** Sai: chu vi hình chữ nhật dài $9$ cm, rộng $4$ cm là $9+4=13$ cm. Vì sao sai: em mới đi được nửa vòng. Đúng: $(9+4)\times2=26$ cm.
 - **Nhân hình vuông với 2.** Sai: chu vi hình vuông cạnh $7$ cm là $7\times2=14$ cm. Vì sao sai: hình vuông có $4$ cạnh, không phải $2$. Đúng: $7\times4=28$ cm.
-- **Quên đơn vị.** Sai: "Đáp số: $26$". Đúng: "Đáp số: $26$ cm".
+- **Quên đơn vị.** Sai: "Đáp số: $26$". Vì sao sai: con số một mình chưa nói đó là độ dài. Đúng: "Đáp số: $26$ cm".
 :::
 
 ## Thuật ngữ
@@ -163,10 +163,11 @@ Vậy hàng rào dài $46$ m.
 - Chu vi hình tam giác, hình tứ giác: cộng độ dài tất cả các cạnh.
 - Chu vi hình chữ nhật $=$ (chiều dài $+$ chiều rộng) $\times\,2$. Chu vi hình vuông $=$ cạnh $\times\,4$.
 - Em có thể thử lại bằng cách cộng đủ các cạnh, và nhớ ghi đơn vị trong đáp số.
+Quay lại sợi dây của Mai: đi hết một vòng quanh tấm thiệp chính là tính chu vi. Em làm thêm vài bài luyện tập bên dưới để quen tay nhé.
 
 ## Luyện tập
 
-Mỗi bài có phần kiến thức và gợi ý. Em hãy tự làm trước, rồi mới bấm xem lời giải.
+Mỗi bài có phần kiến thức và gợi ý để em bắt đầu. Em cứ thử làm trước. Nếu vướng, hãy đọc gợi ý, rồi mới mở lời giải để so lại.
 
 :::exercise
 Tính chu vi:

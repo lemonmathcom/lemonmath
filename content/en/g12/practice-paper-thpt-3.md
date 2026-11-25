@@ -5,7 +5,7 @@ minutes: 90
 type: exam
 ---
 
-The paper has $22$ questions to be done in $90$ minutes, in three parts: Part I has $12$ multiple-choice questions ($0.25$ points each), Part II has $4$ true/false questions (up to $1$ point each) and Part III has $6$ short-answer questions ($0.5$ points each). This paper is harder than papers 1 and 2, and many questions need two or three steps of reasoning. Work on the printed sheet first under timed conditions, then enter your answers below to be marked out of $10$.
+This paper has $22$ questions, to be done in $90$ minutes, in three parts. Part I has $12$ multiple-choice questions, $0.25$ points each. Part II has $4$ true/false questions, up to $1$ point each. Part III has $6$ short-answer questions, $0.5$ points each. It is harder than papers 1 and 2: many questions need two or three steps of reasoning, so don't worry if some of them make you stop and think. Work on the printed sheet first and keep to the time, as you would in the exam hall. Then enter your answers below to be marked out of $10$.
 
 :::quiz exam
 ::mc TH

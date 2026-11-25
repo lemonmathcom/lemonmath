@@ -11,9 +11,9 @@ minutes: 40
 - Use the formulas for arithmetic and geometric sequences, the sum to infinity and basic limits.
 :::
 
-These grade 11 topics rarely form one long question, but they are scattered all over the paper. Part I usually has two to four short questions: a trigonometric identity, a logarithmic equation, a term of a sequence, a limit. Part II or Part III often has a real-life model using an exponential or trigonometric function. Altogether these topics are usually worth about $1$ to $1.5$ marks.
+Open an exam paper and you will not find one long question on these grade 11 topics. They turn up here and there instead. Part I usually has two to four short questions: a trigonometric identity, a logarithmic equation, a term of a sequence, a limit. Part II or Part III often has a real-life model using an exponential or trigonometric function. Altogether these topics are usually worth about $1$ to $1.5$ marks, and you can collect them in full if the formulas are ready in your head.
 
-This revision lesson recalls the formulas of each area briefly, then works examples exactly like exam questions.
+So we revise in the quickest way: a short reminder of the formulas in each area, then worked examples that look exactly like exam questions. If a formula has slipped away, don't worry. It usually comes back once you use it.
 
 ## Trigonometric functions and equations
 
@@ -24,7 +24,7 @@ This revision lesson recalls the formulas of each area briefly, then works examp
 - The functions $y=A\sin(\omega x+\varphi)$ and $y=A\cos(\omega x+\varphi)$ have period $\dfrac{2\pi}{|\omega|}$ and take values in $[-|A|, |A|]$.
 :::
 
-When a question asks for the number of solutions in an interval, write the general solution and try each integer $k$, or look at the unit circle.
+A trigonometric equation has infinitely many solutions, so when a question asks for the number of solutions in an interval, we have to filter them. Write the general solution, then try each integer $k$ and see which values land in the interval. The unit circle works too. The example below is the most basic kind: finding the general solution.
 
 :::example Multiple choice: a basic cosine equation
 The solutions of the equation $2\cos x+1=0$ are
@@ -44,7 +44,7 @@ $$2\cos x+1=0\iff\cos x=-\frac12=\cos\frac{2\pi}{3}\iff x=\pm\frac{2\pi}{3}+k2\p
 The answer is **A**. Option B corresponds to $\cos x=\dfrac12$ (a lost minus sign); options C and D wrongly use the period $\pi$ of $\tan$.
 :::
 
-Trigonometric functions model repeated motion very well, for example a capsule on an observation wheel.
+Have you ever watched an observation wheel turn? A capsule rises, falls, and then rises again just as before. Trigonometric functions describe repeated motion like this very well. The graph below shows the height of one capsule over one turn of the wheel.
 
 :::graph Height of a capsule $h(t)=22-20\cos\dfrac{\pi t}{10}$ over one turn
 alt: A sine-shaped graph from 0 to 20 minutes, starting at a height of 2 metres, rising to a highest point of 42 metres at t equal 10 and returning to 2 metres; a dashed horizontal line is drawn at a height of 32 metres
@@ -93,7 +93,7 @@ So the answers are a) False, b) True, c) True, d) False.
 - Compound interest: $A=A_0(1+r)^n$. Growth or decay: $N(t)=N_0e^{kt}$ or $N(t)=N_0\cdot q^t$ (growth when $q>1$, decay when $0<q<1$).
 :::
 
-With a logarithmic equation, the first job is always to **state the conditions**. Skipping this step is the most common way to lose marks.
+With a logarithmic equation, we **state the conditions** before we do anything else. Why? A logarithm only makes sense when what is inside it is positive, and the steps that follow can bring in solutions that break this. Skipping this step is the most common way to lose marks, so write the conditions on your very first line.
 
 :::example Multiple choice: a logarithmic equation
 The solution set of the equation $\log_2(x-1)+\log_2(x+1)=3$ is
@@ -126,9 +126,9 @@ So after about $9.3$ hours (write $9.3$).
 :::
 
 :::warning Common traps with exponentials and logarithms
-- **Forgetting the conditions** of a logarithm and accepting a solution that makes the expression inside the logarithm negative.
-- **Not reversing the inequality** when the base is between $0$ and $1$: $\log_{\frac12}x\ge-2\iff0<x\le4$, not $x\ge4$.
-- **Using a false rule**: $\log_a(b+c)$ is **not** equal to $\log_ab+\log_ac$.
+- **Forgetting the conditions** of a logarithm. You finish solving and accept a solution that makes the expression inside the logarithm negative. Check each solution against the conditions before you give the answer.
+- **Not reversing the inequality** when the base is between $0$ and $1$. For example $\log_{\frac12}x\ge-2\iff0<x\le4$, not $x\ge4$.
+- **Using a false rule**: $\log_a(b+c)$ is **not** equal to $\log_ab+\log_ac$. The addition rule belongs to the logarithm of a product.
 :::
 
 ## Arithmetic and geometric sequences
@@ -141,7 +141,7 @@ So after about $9.3$ hours (write $9.3$).
 | Three consecutive terms | $u_k=\dfrac{u_{k-1}+u_{k+1}}{2}$ | $u_k^2=u_{k-1}\cdot u_{k+1}$ |
 :::
 
-Many real-life problems are sequences "in disguise": seats per row increasing steadily form an arithmetic sequence; money growing by a percentage forms a geometric sequence.
+Exam questions rarely say "here is an arithmetic sequence". The sequence is usually hidden inside a story. Seats per row increasing by the same amount each time form an arithmetic sequence. Money growing by a percentage forms a geometric sequence. Once you spot the sequence "in disguise", you have got past the hardest part of the problem.
 
 :::example Short answer: seats in a hall
 A hall has $20$ rows of seats. The first row has $16$ seats, and each row has $2$ seats more than the row in front of it. How many seats does the hall have altogether?
@@ -158,10 +158,10 @@ So the hall has $700$ seats.
 ## Limits
 
 :::note Basic limits
-- $\lim\dfrac{1}{n^k}=0$ ($k>0$); $\lim q^n=0$ when $|q|<1$.
+- Two limits to know by heart: $\lim\dfrac{1}{n^k}=0$ ($k>0$) and $\lim q^n=0$ when $|q|<1$.
 - The limit of a rational expression in $n$: divide the numerator and the denominator by the highest power of $n$ in the denominator.
-- Sum to infinity ($|q|<1$): $S=u_1+u_1q+u_1q^2+\cdots=\dfrac{u_1}{1-q}$.
-- A limit of a function of the form $\dfrac00$: factorise and cancel, for example $\lim\limits_{x\to2}\dfrac{x^2-4}{x-2}=\lim\limits_{x\to2}(x+2)=4$.
+- For a sum to infinity ($|q|<1$), the sum is $S=u_1+u_1q+u_1q^2+\cdots=\dfrac{u_1}{1-q}$.
+- A limit of a function of the form $\dfrac00$: factorise, then cancel the common factor. For example $\lim\limits_{x\to2}\dfrac{x^2-4}{x-2}=\lim\limits_{x\to2}(x+2)=4$.
 :::
 
 :::example Multiple choice: the limit of a sequence
@@ -200,7 +200,7 @@ The answer is **C**. Option B takes the ratio $\dfrac{1}{-3}$ of the lowest-orde
 
 ## Exercises
 
-The exercises go from easy to hard, and each one states its exam format.
+Now it is your turn. The exercises go from easy to hard, and each one states its exam format so you can get used to how questions are asked. Take them one at a time. If one will not work out, look back at the formula and try again.
 
 :::exercise Multiple choice
 Given $\sin x=\dfrac13$, the value of $\cos2x$ is

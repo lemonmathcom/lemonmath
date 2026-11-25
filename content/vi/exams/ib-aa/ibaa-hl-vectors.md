@@ -11,14 +11,16 @@ minutes: 45
 - Viết phương trình mặt phẳng, tìm giao điểm, góc và khoảng cách giữa đường thẳng và mặt phẳng.
 :::
 
-Véc-tơ thường chiếm trọn một câu dài ở Section B trong Paper 1 hoặc Paper 2 của HL: vài điểm trong không gian, một đường thẳng qua hai điểm, một mặt phẳng qua ba điểm, rồi một giao điểm, một góc và một khoảng cách. Bước nào cũng dùng vài công cụ quen thuộc, nên điểm thuộc về học sinh trình bày ngăn nắp: đặt tên từng véc-tơ, viết đầy đủ từng phương trình, và kiểm tra một điểm bằng cách thay ngược lại.
+Hãy hình dung một câu dài ở Section B của HL, Paper 1 hoặc Paper 2: đề cho vài điểm trong không gian, rồi hỏi một đường thẳng qua hai điểm, một mặt phẳng qua ba điểm, sau đó là một giao điểm, một góc và một khoảng cách. Làm thế nào để đi hết chuỗi câu hỏi đó mà không lạc? Tin vui là bước nào cũng chỉ dùng vài công cụ quen thuộc. Vì vậy điểm thuộc về người trình bày ngăn nắp: đặt tên từng véc-tơ, viết đầy đủ từng phương trình, và kiểm tra một điểm bằng cách thay ngược lại.
 
 ## Tích vô hướng và tích có hướng
 
-Với $\boldsymbol a=\begin{pmatrix}a_1\\a_2\\a_3\end{pmatrix}$ và $\boldsymbol b=\begin{pmatrix}b_1\\b_2\\b_3\end{pmatrix}$:
+Lấy hai véc-tơ trong không gian, $\boldsymbol a=\begin{pmatrix}a_1\\a_2\\a_3\end{pmatrix}$ và $\boldsymbol b=\begin{pmatrix}b_1\\b_2\\b_3\end{pmatrix}$. Có hai cách nhân chúng với nhau, và cho hai kết quả rất khác nhau:
 
-- **Tích vô hướng (scalar product):** $\boldsymbol a\cdot\boldsymbol b=a_1b_1+a_2b_2+a_3b_3=|\boldsymbol a||\boldsymbol b|\cos\theta$. Nó bằng $0$ khi và chỉ khi hai véc-tơ vuông góc.
-- **Tích có hướng (vector product):** $\boldsymbol a\times\boldsymbol b=\begin{pmatrix}a_2b_3-a_3b_2\\a_3b_1-a_1b_3\\a_1b_2-a_2b_1\end{pmatrix}$ vuông góc với cả hai véc-tơ, và $|\boldsymbol a\times\boldsymbol b|=|\boldsymbol a||\boldsymbol b|\sin\theta$ là diện tích hình bình hành tạo bởi chúng.
+- **Tích vô hướng (scalar product):** $\boldsymbol a\cdot\boldsymbol b=a_1b_1+a_2b_2+a_3b_3=|\boldsymbol a||\boldsymbol b|\cos\theta$. Kết quả là một số, và nó bằng $0$ khi và chỉ khi hai véc-tơ vuông góc.
+- **Tích có hướng (vector product):** $\boldsymbol a\times\boldsymbol b=\begin{pmatrix}a_2b_3-a_3b_2\\a_3b_1-a_1b_3\\a_1b_2-a_2b_1\end{pmatrix}$ cho ra một véc-tơ mới, vuông góc với cả hai véc-tơ ban đầu. Độ dài $|\boldsymbol a\times\boldsymbol b|=|\boldsymbol a||\boldsymbol b|\sin\theta$ chính là diện tích hình bình hành tạo bởi chúng.
+
+Một cách nhớ: tích vô hướng cho một số và dùng để đo góc; tích có hướng cho một véc-tơ và dùng để tìm hướng vuông góc.
 
 :::example Góc giữa hai véc-tơ
 Tìm góc giữa $\boldsymbol a=\begin{pmatrix}2\\1\\-2\end{pmatrix}$ và $\boldsymbol b=\begin{pmatrix}1\\3\\2\end{pmatrix}$. [4 marks]
@@ -34,7 +36,7 @@ Tính diện tích tam giác có các đỉnh $A(1,0,0)$, $B(0,2,0)$ và $C(0,0,
 
 ## Đường thẳng trong không gian
 
-Đường thẳng đi qua điểm có véc-tơ vị trí $\boldsymbol a$, với véc-tơ chỉ phương $\boldsymbol b$, có phương trình véc-tơ $\boldsymbol r=\boldsymbol a+\lambda\boldsymbol b$. Hai đường thẳng trong không gian có thể **song song** (véc-tơ chỉ phương cùng phương), **cắt nhau** (có đúng một điểm chung), hoặc **chéo nhau (skew)** (không thuộc hai trường hợp trên).
+Để vạch một đường thẳng trong không gian, ta chỉ cần biết nó đi qua đâu và đi theo hướng nào. Đường thẳng đi qua điểm có véc-tơ vị trí $\boldsymbol a$, với véc-tơ chỉ phương $\boldsymbol b$, có phương trình véc-tơ $\boldsymbol r=\boldsymbol a+\lambda\boldsymbol b$. Trong mặt phẳng, hai đường thẳng không song song thì phải cắt nhau. Trong không gian thì chưa chắc, nên có ba khả năng: hai đường thẳng **song song** (véc-tơ chỉ phương cùng phương), **cắt nhau** (có đúng một điểm chung), hoặc **chéo nhau (skew)** (không thuộc hai trường hợp trên).
 
 :::example Cắt nhau hay chéo nhau?
 $L_1:\boldsymbol r=\begin{pmatrix}1\\0\\2\end{pmatrix}+\lambda\begin{pmatrix}1\\1\\0\end{pmatrix}$ và $L_2:\boldsymbol r=\begin{pmatrix}2\\3\\1\end{pmatrix}+\mu\begin{pmatrix}0\\1\\1\end{pmatrix}$. Chứng minh hai đường thẳng chéo nhau. [5 marks]
@@ -46,7 +48,7 @@ Hai giá trị của $\mu$ mâu thuẫn, nên không có điểm chung. Không s
 
 ## Mặt phẳng
 
-Mặt phẳng có véc-tơ pháp tuyến $\boldsymbol n$ đi qua điểm $\boldsymbol a$ có phương trình $\boldsymbol r\cdot\boldsymbol n=\boldsymbol a\cdot\boldsymbol n$, hay dạng toạ độ $n_1x+n_2y+n_3z=d$. Véc-tơ pháp tuyến thường tìm bằng tích có hướng của hai véc-tơ nằm trong mặt phẳng.
+Một mặt phẳng được xác định bởi một điểm nó đi qua và một véc-tơ vuông góc với nó, gọi là véc-tơ pháp tuyến. Mặt phẳng có véc-tơ pháp tuyến $\boldsymbol n$ đi qua điểm $\boldsymbol a$ có phương trình $\boldsymbol r\cdot\boldsymbol n=\boldsymbol a\cdot\boldsymbol n$, hay dạng toạ độ $n_1x+n_2y+n_3z=d$. Vì sao hay dùng tích có hướng? Vì tích có hướng của hai véc-tơ nằm trong mặt phẳng vuông góc với cả hai, nên chính là một véc-tơ pháp tuyến.
 
 :::example Mặt phẳng qua ba điểm
 Viết phương trình toạ độ của mặt phẳng qua $A(1,0,0)$, $B(0,2,0)$ và $C(0,0,3)$. [3 marks]
@@ -65,11 +67,13 @@ Viết phương trình toạ độ của mặt phẳng qua $A(1,0,0)$, $B(0,2,0)
 :::
 
 :::warning Những cái bẫy thường gặp
-- **Dùng cùng một tham số cho hai đường thẳng.** Hãy dùng $\lambda$ cho đường này và $\mu$ cho đường kia.
-- **Chỉ kiểm tra hai thành phần** khi xét giao điểm; thành phần thứ ba mới quyết định.
-- **Góc giữa đường thẳng và mặt phẳng** tính bằng cosin thay vì sin.
-- **Góc tù.** Lấy giá trị tuyệt đối của tích vô hướng khi đề hỏi góc nhọn.
-- **Thứ tự trong tích có hướng.** $\boldsymbol b\times\boldsymbol a=-\boldsymbol a\times\boldsymbol b$; làm véc-tơ pháp tuyến thì dấu nào cũng được, nhưng hãy tính cẩn thận.
+- **Dùng cùng một tham số cho hai đường thẳng.** Mỗi đường một chữ cái riêng: $\lambda$ cho đường này, $\mu$ cho đường kia.
+- **Chỉ kiểm tra hai thành phần** khi xét giao điểm. Thành phần thứ ba mới là chỗ quyết định.
+- **Góc giữa đường thẳng và mặt phẳng** tính bằng cosin thay vì sin. Chỗ này nhiều bạn hay nhầm.
+- **Góc tù.** Khi đề hỏi góc nhọn, hãy lấy giá trị tuyệt đối của tích vô hướng.
+- **Thứ tự trong tích có hướng.** $\boldsymbol b\times\boldsymbol a=-\boldsymbol a\times\boldsymbol b$. Làm véc-tơ pháp tuyến thì dấu nào cũng được, nhưng hãy tính cẩn thận.
+
+Trước khi nộp bài, hãy thử thay ngược một điểm vào phương trình. Một lỗi dấu thường lộ ra ngay ở bước này.
 :::
 
 :::terms

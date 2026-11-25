@@ -11,18 +11,18 @@ minutes: 50
 - Build a sinusoidal model from a description of a periodic situation and use it to answer questions.
 :::
 
-Unit 3 is about change that repeats. Its central tool is the sinusoidal function, which describes Ferris wheels, tides, daily temperatures and anything else that rises and falls on a regular cycle. On the exam, FRQ 3 (Modeling Periodic Contexts) is built entirely from this lesson, so it rewards careful practice.
+Picture yourself on a Ferris wheel: you rise, you fall, and you do it again, lap after lap. Tides and daily temperatures repeat in just the same way. So how do we turn a regular repeating pattern into a formula we can use to predict? The tool is the sinusoidal function. Unit 3 is about change that repeats, and on the exam FRQ 3 (Modeling Periodic Contexts) is built entirely from this lesson, so careful practice pays off.
 
 ## The unit circle
 
-An angle $\theta$ in standard position meets the unit circle at the point $(\cos\theta,\sin\theta)$. On a circle of radius $r$ centred at the origin the point is $(r\cos\theta,r\sin\theta)$. The values to know by heart:
+Everything in this lesson starts from the unit circle. As an angle $\theta$ in standard position turns, it meets the unit circle at the point $(\cos\theta,\sin\theta)$: the first coordinate is the cosine and the second is the sine. On a circle of radius $r$ centred at the origin every coordinate is simply multiplied by the radius, so the point is $(r\cos\theta,r\sin\theta)$. Here are the values to know by heart:
 
 | $\theta$ | $0$ | $\dfrac\pi6$ | $\dfrac\pi4$ | $\dfrac\pi3$ | $\dfrac\pi2$ |
 |---|---|---|---|---|---|
 | $\sin\theta$ | $0$ | $\dfrac12$ | $\dfrac{\sqrt2}{2}$ | $\dfrac{\sqrt3}{2}$ | $1$ |
 | $\cos\theta$ | $1$ | $\dfrac{\sqrt3}{2}$ | $\dfrac{\sqrt2}{2}$ | $\dfrac12$ | $0$ |
 
-Other angles follow by symmetry, with signs set by the quadrant: in quadrant II sine is positive and cosine negative.
+You do not have to memorise the other angles. They follow from these by symmetry, with the sign set by the quadrant. Signs are a common slip, so keep one example in mind: in quadrant II sine is positive and cosine negative.
 
 :::example A point on a circle
 An angle of $\dfrac{2\pi}{3}$ in standard position meets the circle of radius $4$ centred at the origin at
@@ -40,7 +40,7 @@ So the point is $\left(-2,2\sqrt3\right)$, answer **C**. Option B swaps sine and
 
 ## Sinusoidal graphs
 
-For $y=a\sin\big(b(x-h)\big)+k$ or $y=a\cos\big(b(x-h)\big)+k$ with $b>0$:
+A sinusoidal formula looks long, but each number in it does one job: stretching the graph up and down, stretching it along, sliding it sideways or lifting the whole thing. For $y=a\sin\big(b(x-h)\big)+k$ or $y=a\cos\big(b(x-h)\big)+k$ with $b>0$, we read the features of the graph like this:
 
 | Feature | Value |
 |---|---|
@@ -76,14 +76,14 @@ So statement A is correct, answer **A**. Option B uses $2\pi\cdot2$ instead of $
 
 ## The tangent function
 
-Since $\tan x=\dfrac{\sin x}{\cos x}$, the tangent is undefined where $\cos x=0$, giving vertical asymptotes at $x=\dfrac\pi2+k\pi$. Its zeros are at $x=k\pi$, it increases between asymptotes, and its period is $\pi$ (not $2\pi$). For $y=\tan(bx)$ the period is $\dfrac\pi b$.
+The tangent behaves differently from sine and cosine: its graph breaks apart at certain places. Why? Because $\tan x=\dfrac{\sin x}{\cos x}$, so the tangent is undefined where $\cos x=0$, since the denominator is zero there. These are the vertical asymptotes at $x=\dfrac\pi2+k\pi$. Its zeros are at $x=k\pi$, it increases between asymptotes, and its period is $\pi$. Many students mix this up with sine and cosine: the period is not $2\pi$. For $y=\tan(bx)$ the period is $\dfrac\pi b$.
 
 ## Building sinusoidal models
 
-To model a periodic situation:
-1. **Midline** $k=\dfrac{\max+\min}{2}$, **amplitude** $\lvert a\rvert=\dfrac{\max-\min}{2}$.
+1. **Midline** $k=\dfrac{\max+\min}{2}$, **amplitude** $\lvert a\rvert=\dfrac{\max-\min}{2}$. The midline sits halfway between the highest and lowest points; the amplitude is half the gap between them.
 2. **Period** from the context, then $b=\dfrac{2\pi}{\text{period}}$.
-3. **Starting point:** cosine starts at a maximum, $-\cos$ at a minimum, sine on the midline going up. Choose $h$ to match.
+3. **Starting point:** cosine starts at a maximum, $-\cos$ at a minimum, sine on the midline going up. Then choose $h$ to match.
+Why only these three steps? Because a sinusoidal model has only a few things to adjust: how high, how fast and where to start. Read them from the situation and the formula almost writes itself.
 
 :::example A Ferris wheel
 A Ferris wheel has radius $14$ m, its centre is $16$ m above the ground, and it turns once every $40$ seconds. A rider boards at the lowest point at $t=0$. Which function gives the rider's height in metres after $t$ seconds?
@@ -113,11 +113,12 @@ So $D(t)=2.2+1.6\cos\dfrac{2\pi(t-2)}{12.5}$. Check: $D(2)=3.8$ and $D(8.25)=2.2
 :::
 
 :::warning Common traps
-- **Period:** it is $\dfrac{2\pi}{b}$, not $2\pi b$; for tangent it is $\dfrac{\pi}{b}$.
-- **Phase shift:** in $\cos(2x-\pi)$, factor first: $\cos\big(2(x-\tfrac\pi2)\big)$, so the shift is $\dfrac\pi2$, not $\pi$.
-- **Radians:** set the calculator to radian mode.
+- **Period:** it is $\dfrac{2\pi}{b}$, not $2\pi b$; for tangent it is $\dfrac{\pi}{b}$. The bigger the number multiplying the variable, the more the graph is squeezed, so the shorter the period.
+- **Phase shift:** in $\cos(2x-\pi)$, factor first: $\cos\big(2(x-\tfrac\pi2)\big)$, so the shift is $\dfrac\pi2$, not $\pi$. Many students slip here.
+- **Radians:** set the calculator to radian mode before you press anything.
 - **Start of the model:** at a minimum use $-\cos$; at a maximum use $\cos$.
-- **Half a cycle:** maximum to the next minimum is half the period.
+- **Half a cycle:** maximum to the next minimum is half the period, so do not take it for the period.
+Back to the opening question: to turn a repeating pattern into a formula, you need the midline, the amplitude, the period and the starting point. Get those four right, then practise with the exercises below.
 :::
 
 :::terms

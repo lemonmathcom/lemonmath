@@ -13,20 +13,20 @@ minutes: 15
 
 A box holds $1\,213$ exercise books. How many exercise books are there in $3$ such boxes?
 
-You already know the times tables and how to multiply smaller numbers in columns. This lesson takes the same method to four-digit numbers.
+You could add up the books in each box, but adding again and again is slow and easy to get wrong. You already know the times tables and how to multiply smaller numbers in columns. Now we use the same method on four-digit numbers, and one multiplication does the job.
 
 ## Let's explore
 
-The number $1\,213$ is $1$ thousand, $2$ hundreds, $1$ ten and $3$ ones. We multiply each place by $3$ and put them back together.
+To see why the column method works, we first split the number up. The number $1\,213$ is $1$ thousand, $2$ hundreds, $1$ ten and $3$ ones. We multiply each place by $3$ and put the results back together.
 
 | | Thousands | Hundreds | Tens | Ones |
 |---|---|---|---|---|
 | The number $1\,213$ | $1$ | $2$ | $1$ | $3$ |
 | Times $3$ | $1\times3=3$ | $2\times3=6$ | $1\times3=3$ | $3\times3=9$ |
 
-Putting them together gives $3$ thousands, $6$ hundreds, $3$ tens and $9$ ones, which is $3\,639$. So $3$ boxes hold $3\,639$ exercise books.
+Putting the places back together gives $3$ thousands, $6$ hundreds, $3$ tens and $9$ ones, which is $3\,639$. That answers the opening question: $3$ boxes hold $3\,639$ exercise books.
 
-Instead of drawing a table, you set out the multiplication like this and multiply from right to left:
+Drawing a table every time takes a while. A tidier way is to set the multiplication out in columns and multiply from right to left:
 
 $$\begin{array}{r}1213\\ \times\ 3\\ \hline 3639\end{array}$$
 
@@ -36,11 +36,11 @@ $$\begin{array}{r}1213\\ \times\ 3\\ \hline 3639\end{array}$$
 3. If the product in a place has two digits, write the ones digit and **carry** the tens digit to the place on the left. In that place, multiply first and then **add the carried digit**.
 :::
 
-Why do we carry? For example, $15$ ones are $1$ ten and $5$ ones. You write the $5$ ones in the ones place, and the $1$ ten must go to the tens place.
+Why do we carry? A single place can only hold one digit. For example, $15$ ones are $1$ ten and $5$ ones. You write the $5$ ones in the ones place, but the $1$ ten cannot just be thrown away: it moves to the tens place. That moved digit is the one we carry.
 
 ## Examples
 
-We start with a multiplication that needs no carrying.
+We start with the easiest kind, where every place gives less than ten, so nothing needs carrying.
 
 :::example Multiplying without regrouping
 Work out $2\,121\times4$.
@@ -55,7 +55,7 @@ $$\begin{array}{r}2121\\ \times\ 4\\ \hline 8484\end{array}$$
 So $2\,121\times4=8\,484$.
 :::
 
-The next example works in exactly the same way, with different numbers.
+The next example works in just the same way, only the numbers change. Try to guess first whether anything will need carrying.
 
 :::example Without regrouping, different numbers
 Work out $3\,102\times3$.
@@ -67,7 +67,7 @@ Ones: $2\times3=6$. Tens: $0\times3=0$. Hundreds: $1\times3=3$. Thousands: $3\ti
 So $3\,102\times3=9\,306$.
 :::
 
-Now some places give a product of $10$ or more, so you must carry.
+Here is where many people slip: some places now give $10$ or more. When that happens, write the ones digit and carry the rest to the place on the left.
 
 :::example Multiplying with regrouping
 Work out $1\,425\times3$.
@@ -84,7 +84,7 @@ So $1\,425\times3=4\,275$.
 **Check.** $1\,425$ is close to $1\,400$, and $1\,400\times3=4\,200$. The answer $4\,275$ is close to $4\,200$, so it makes sense.
 :::
 
-When you meet a $0$, you still add the carried digit.
+A $0$ digit can make us careless. But if there is a carried digit waiting in that place, you must still add it.
 
 :::example A zero digit and regrouping
 Work out $2\,308\times4$.
@@ -101,7 +101,7 @@ So $2\,308\times4=9\,232$.
 **Check.** $2\,300\times4=9\,200$, close to $9\,232$. It makes sense.
 :::
 
-Last, use multiplication to solve a problem from everyday life.
+Last, we go back to something like the opening question: several boxes, each holding the same number of things. We solve it with multiplication.
 
 :::example Boxes of pens
 A storeroom has $6$ boxes, and each box holds $1\,125$ pens. How many pens are in the storeroom altogether?
@@ -117,9 +117,9 @@ So the storeroom has $6\,750$ pens.
 :::
 
 :::warning Mistakes to watch out for
-- **Forgetting to add the carried digit.** Wrong: $1\,425\times3=4\,265$. Why it is wrong: in the tens you forgot to add the $1$ carried from the ones. Right: $2\times3=6$, add $1$ to get $7$, so the answer is $4\,275$.
-- **Dropping the carried digit at a zero.** Wrong: $2\,308\times4=9\,202$. Why it is wrong: $0\times4=0$, but you still add the carried $3$, so the tens digit is $3$. Right: $9\,232$.
-- **Leaving out the unit in a word problem.** Wrong: "Answer: $6\,750$". Right: "Answer: $6\,750$ pens".
+- **Forgetting to add the carried digit.** Wrong: $1\,425\times3=4\,265$. Why it is wrong: in the tens you forgot the $1$ carried from the ones. Right: $2\times3=6$, add $1$ to get $7$, so the answer is $4\,275$.
+- **Dropping the carried digit at a zero.** Wrong: $2\,308\times4=9\,202$. Why it is wrong: $0\times4=0$ is true, but you still add the carried $3$, so the tens digit is $3$. Right: $9\,232$.
+- **Leaving out the unit in a word problem.** Wrong: "Answer: $6\,750$". Why it is wrong: a number on its own does not say what is being counted. Right: "Answer: $6\,750$ pens".
 :::
 
 ## Key terms
@@ -143,10 +143,11 @@ So the storeroom has $6\,750$ pens.
 - If the product in a place has two digits, write the ones digit and carry the tens digit to the place on the left.
 - In the next place, multiply first and then add the carried digit, even when the digit is $0$.
 - Check by rounding and estimating, and remember to write the unit in the answer.
+Back to the opening question: multiply place by place, carry in the right spot, and you have the number of books in all the boxes. Practise a few questions below until your hand knows the steps.
 
 ## Practice
 
-Each exercise comes with what you need and how to start. Try it yourself first, then open the solution.
+Each exercise comes with what you need and a hint to get started. Try it yourself first. If you get stuck, read the hint, and only then open the solution to compare.
 
 :::exercise
 Work out:

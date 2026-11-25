@@ -10,7 +10,7 @@ minutes: 20
 - Apply both rules to square-root expressions with letters and to real-life problems.
 :::
 
-A rectangular garden is $\sqrt{50}$ m long and $\sqrt8$ m wide. Its area is $\sqrt{50}\cdot\sqrt8$ m². A calculator gives $7.07\ldots\cdot2.82\ldots$, which is a messy multiplication. Is there a way to find the exact area without a calculator?
+A rectangular garden is $\sqrt{50}$ m long and $\sqrt8$ m wide. To find its area we multiply the two sides: $\sqrt{50}\cdot\sqrt8$ m². A calculator gives $7.07\ldots\cdot2.82\ldots$, a multiplication with long, untidy decimals. Is there a way to find the exact area without a calculator? There is, and it comes from how square roots multiply.
 
 :::diagram The rectangular garden
 alt: Rectangle ABCD with side AB of length root 50 metres and side BC of length root 8 metres
@@ -28,7 +28,7 @@ right D A B
 
 ### Explore: compare $\sqrt{ab}$ with $\sqrt a\cdot\sqrt b$
 
-We work out both for a few pairs of perfect squares:
+Before stating any rule, let us work out both for a few pairs of perfect squares, whose roots are easy to find. Compare the two columns:
 
 | $a$, $b$ | $\sqrt{ab}$ | $\sqrt a\cdot\sqrt b$ |
 |---|---|---|
@@ -36,16 +36,16 @@ We work out both for a few pairs of perfect squares:
 | $16$, $25$ | $\sqrt{400}=20$ | $4\cdot5=20$ |
 | $1$, $49$ | $\sqrt{49}=7$ | $1\cdot7=7$ |
 
-Both ways always give the same result.
+The two columns match in every row, and that is no accident.
 
 :::theorem Square roots and multiplication
 For any two non-negative numbers $a$ and $b$,
 $$\sqrt{ab}=\sqrt a\cdot\sqrt b.$$
 :::
 
-Why? The number $\sqrt a\cdot\sqrt b$ is non-negative, and $\left(\sqrt a\cdot\sqrt b\right)^2=\left(\sqrt a\right)^2\cdot\left(\sqrt b\right)^2=ab$. So $\sqrt a\cdot\sqrt b$ is the principal square root of $ab$.
+Why does this work? The number $\sqrt a\cdot\sqrt b$ is non-negative, and squaring it gives $\left(\sqrt a\cdot\sqrt b\right)^2=\left(\sqrt a\right)^2\cdot\left(\sqrt b\right)^2=ab$. Its square is exactly the number under the root, and it is not negative, so $\sqrt a\cdot\sqrt b$ is the principal square root of $ab$.
 
-Reading the rule from left to right, we **take the square root of a product**: take the root of each factor, then multiply.
+Read the rule from left to right and we **take the square root of a product**: take the root of each factor, then multiply the results. This helps when each factor is a familiar perfect square but the whole product is hard to see.
 
 :::example The square root of a product
 Evaluate: a) $\sqrt{49\cdot1.44}$; b) $\sqrt{810\cdot40}$.
@@ -57,7 +57,7 @@ $$\sqrt{49\cdot1.44}=\sqrt{49}\cdot\sqrt{1.44}=7\cdot1.2=8.4;\qquad \sqrt{810\cd
 So a) equals $8.4$ and b) equals $180$.
 :::
 
-Reading the rule from right to left, we **multiply square roots**: multiply the numbers under the root signs, then take the root of the result. This answers the garden question.
+Now read the rule the other way, from right to left. We **multiply square roots**: multiply the numbers under the root signs, then take the root of the result. This is the key to the garden question.
 
 :::example Multiplying square roots
 Evaluate: a) $\sqrt2\cdot\sqrt{32}$; b) the area of the garden, $\sqrt{50}\cdot\sqrt8$.
@@ -69,7 +69,7 @@ $$\sqrt2\cdot\sqrt{32}=\sqrt{64}=8;\qquad \sqrt{50}\cdot\sqrt8=\sqrt{400}=20.$$
 So a) equals $8$; b) the garden has an area of exactly $20$ m².
 :::
 
-The rule still holds when $a$ and $b$ are non-negative expressions: $\sqrt{AB}=\sqrt A\cdot\sqrt B$ for $A\ge0$, $B\ge0$.
+The rule is not only for numbers. It still holds when $a$ and $b$ are non-negative expressions: $\sqrt{AB}=\sqrt A\cdot\sqrt B$ for $A\ge0$, $B\ge0$. We still have to watch the condition, because the root of a negative number is not defined.
 
 :::example Multiplying expressions with letters
 Simplify $\sqrt{3a}\cdot\sqrt{12a}$ for $a\ge0$.
@@ -83,14 +83,14 @@ So $\sqrt{3a}\cdot\sqrt{12a}=6a$.
 
 ## The square root of a quotient
 
-We have $\sqrt{\dfrac{36}{4}}=\sqrt9=3$ and $\dfrac{\sqrt{36}}{\sqrt4}=\dfrac62=3$. Division also "passes through" the root sign, just like multiplication.
+Does division behave like multiplication? Let us try an example: we have $\sqrt{\dfrac{36}{4}}=\sqrt9=3$ and $\dfrac{\sqrt{36}}{\sqrt4}=\dfrac62=3$. Both ways agree. Division also "passes through" the root sign, just like multiplication.
 
 :::theorem Square roots and division
 For a non-negative number $a$ and a positive number $b$,
 $$\sqrt{\frac ab}=\frac{\sqrt a}{\sqrt b}.$$
 :::
 
-The reason is similar: $\dfrac{\sqrt a}{\sqrt b}\ge0$ and $\left(\dfrac{\sqrt a}{\sqrt b}\right)^2=\dfrac ab$. The number $b$ must be positive because it is in the denominator.
+The reason is the same as for multiplication. We have $\dfrac{\sqrt a}{\sqrt b}\ge0$, and squaring it gives $\left(\dfrac{\sqrt a}{\sqrt b}\right)^2=\dfrac ab$. So it is exactly the principal square root of the quotient. As for the condition, the number $b$ must be positive because it is in the denominator, and a denominator cannot be zero.
 
 :::example The square root of a quotient
 Evaluate: a) $\sqrt{\dfrac{25}{144}}$; b) $\sqrt{1\dfrac{9}{16}}$.
@@ -102,7 +102,7 @@ $$\sqrt{\frac{25}{144}}=\frac{\sqrt{25}}{\sqrt{144}}=\frac{5}{12};\qquad \sqrt{\
 So a) equals $\dfrac5{12}$ and b) equals $\dfrac54$.
 :::
 
-The other way round, to divide two roots we divide the numbers under the root signs and then take the root.
+Read the other way round, we can divide one square root by another: divide the numbers under the root signs, then take the root. When the numbers divide neatly, this is much quicker than taking each root separately.
 
 :::example Dividing square roots
 Evaluate: a) $\dfrac{\sqrt{80}}{\sqrt5}$; b) $\dfrac{\sqrt{2.7}}{\sqrt{0.3}}$; c) simplify $\dfrac{\sqrt{18x^3}}{\sqrt{2x}}$ for $x>0$.
@@ -115,14 +115,14 @@ So a) equals $4$, b) equals $3$ and c) equals $3x$.
 :::
 
 :::warning Common mistakes
-- **Splitting the root when the factors are negative.** Wrong: $\sqrt{(-4)\cdot(-9)}=\sqrt{-4}\cdot\sqrt{-9}$. Why it is wrong: the rule is only for non-negative numbers; $\sqrt{-4}$ is not defined. Right: $\sqrt{(-4)\cdot(-9)}=\sqrt{36}=6$.
-- **Using the rule for addition.** Wrong: $\sqrt{16+9}=\sqrt{16}+\sqrt9$. Why it is wrong: the rules are only for multiplication and division. Right: $\sqrt{25}=5$.
-- **Forgetting the absolute value.** Wrong: $\sqrt{9a^2}=3a$ for every $a$. Why it is wrong: for $a=-1$ the left side is $3$ and the right side is $-3$. Right: $\sqrt{9a^2}=3|a|$.
+- **Splitting the root when the factors are negative.** Many people slip here because the product of two negative numbers is positive. Wrong: $\sqrt{(-4)\cdot(-9)}=\sqrt{-4}\cdot\sqrt{-9}$. Why it is wrong: the rule is only for non-negative numbers, and $\sqrt{-4}$ is not defined. Right: $\sqrt{(-4)\cdot(-9)}=\sqrt{36}=6$.
+- **Using the rule for addition.** Wrong: $\sqrt{16+9}=\sqrt{16}+\sqrt9$. Why it is wrong: the rules are only for multiplication and division, and a root does not "pass through" addition. Work out both sides and you will see they differ. Right: $\sqrt{25}=5$.
+- **Forgetting the absolute value.** Wrong: $\sqrt{9a^2}=3a$ for every $a$. Why it is wrong: for $a=-1$ the left side is $3$ and the right side is $-3$. Right: $\sqrt{9a^2}=3|a|$. Whenever you take the root of a square, ask yourself what sign the expression inside could have.
 :::
 
 ## Real-life applications
 
-Many scientific formulas contain square roots. The two rules help us calculate quickly and exactly.
+Many scientific formulas contain square roots, and we have to know how to handle the numbers under the root sign. The two rules we have just learnt let us calculate quickly and exactly. Let us try them on sea waves in shallow water.
 
 :::example Waves in shallow water
 In shallow water, the speed (m/s) of a sea wave is about $v=\sqrt{10d}$, where $d$ is the depth of the water in metres. Find the speed of the wave when $d=3.6$ m.
@@ -153,10 +153,11 @@ So the speed of the wave is about $6$ m/s, which is about $21.6$ km/h.
 - Both rules hold for non-negative expressions $A$, $B$ too (with a positive denominator).
 - Tip: regroup the factors to get perfect squares, as in $810\cdot40=81\cdot400$.
 - There is no rule like this for addition or subtraction.
+Back to the garden: multiplying the two roots into one gave the exact area with no calculator. Remember that these rules are for multiplication and division, never for addition or subtraction. A few practice problems will make them second nature.
 
 ## Practice
 
-Each exercise comes with what you need and some steps to start. Try it yourself first, then open the solution.
+Each exercise comes with the facts you need and a few steps to start you off. Try it yourself first, then open the solution when you want to check your work.
 
 :::exercise
 Calculate:

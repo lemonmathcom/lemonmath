@@ -11,9 +11,9 @@ minutes: 26
 - Find the distance from a point to a plane.
 :::
 
-A triangular shade sail is stretched between three points: two pegs in the ground and a hook on a pole in the corner of a yard. With the foot of the pole at the origin and the metre as unit, the corners of the sail are $A(3, 0, 0)$, $B(0, 6, 0)$ and $C(0, 0, 3)$. A filming drone hovers at $M(3, 6, 3)$. How far is the drone from the plane of the sail?
+Picture a triangular shade sail stretched between three points: two pegs in the ground and a hook on a pole in the corner of a yard. With the foot of the pole at the origin and the metre as unit, the corners of the sail are $A(3, 0, 0)$, $B(0, 6, 0)$ and $C(0, 0, 3)$. A filming drone hovers at $M(3, 6, 3)$. How far is the drone from the plane of the sail?
 
-To answer, we need an equation that describes every point of the plane $(ABC)$. This lesson gives us that equation and a distance formula that takes only a few calculations.
+To measure that distance, we first have to describe the sail in maths: we need an equation that every point of the plane $(ABC)$ satisfies. Once we have it, a distance formula that takes only a few calculations gives the answer.
 
 :::diagram The shade sail $ABC$
 alt: The axes Oxyz; the triangular sail ABC has A on the x-axis, B on the y-axis and C on the z-axis
@@ -34,9 +34,9 @@ polygon A B C
 
 ### Exploring: a vector perpendicular to the sail
 
-We have $\overrightarrow{AB}=(-3, 6, 0)$ and $\overrightarrow{AC}=(-3, 0, 3)$. Try the vector $\vec{n}=(2, 1, 2)$:
+We have $\overrightarrow{AB}=(-3, 6, 0)$ and $\overrightarrow{AC}=(-3, 0, 3)$, two edges of the sail. Let us test whether the vector $\vec{n}=(2, 1, 2)$ is perpendicular to them:
 $$\vec{n}\cdot\overrightarrow{AB}=-6+6+0=0,\qquad \vec{n}\cdot\overrightarrow{AC}=-6+0+6=0.$$
-So $\vec{n}$ is perpendicular to two non-parallel edges of the sail, hence to the whole sail. A point $P(x, y, z)$ lies in the plane $(ABC)$ exactly when $\overrightarrow{AP}\perp\vec{n}$, that is
+So $\vec{n}$ is perpendicular to two non-parallel edges of the sail, hence to the whole sail. That gives us the equation of the sail: a point $P(x, y, z)$ lies in the plane $(ABC)$ exactly when $\overrightarrow{AP}\perp\vec{n}$, that is
 $$2(x-3)+1\cdot(y-0)+2(z-0)=0\iff 2x+y+2z-6=0.$$
 
 :::definition Normal vector, pair of direction vectors
@@ -45,7 +45,7 @@ $$2(x-3)+1\cdot(y-0)+2(z-0)=0\iff 2x+y+2z-6=0.$$
 - If $\vec{n}$ is a normal vector, then so is $k\vec{n}$ ($k\neq0$).
 :::
 
-When we only know a pair of direction vectors, we need a quick way to find a vector perpendicular to both.
+Above we tried a vector and checked it, but we cannot always guess one. When we only know a pair of direction vectors, we need a quick way to find a vector perpendicular to both.
 
 :::theorem A normal vector from a pair of direction vectors
 If $\vec{u}=(a, b, c)$ and $\vec{v}=(a', b', c')$ are a pair of direction vectors of $(P)$, then
@@ -53,9 +53,9 @@ $$\vec{n}=\vec{u}\times\vec{v}=(bc'-b'c,\ ca'-c'a,\ ab'-a'b)$$
 is a normal vector of $(P)$. This vector is called the **cross product** (vector product) of $\vec{u}$ and $\vec{v}$.
 :::
 
-**Why is it true?** Take the scalar product with $\vec{u}$: $a(bc'-b'c)+b(ca'-c'a)+c(ab'-a'b)=0$, because the terms cancel in pairs. In the same way $\vec{n}\cdot\vec{v}=0$. Since $\vec{u}$, $\vec{v}$ are not parallel, $\vec{n}\neq\vec{0}$.
+**Why is it true?** We need to check that this vector is perpendicular to each direction vector. Take the scalar product with $\vec{u}$: $a(bc'-b'c)+b(ca'-c'a)+c(ab'-a'b)=0$, because the terms cancel in pairs. In the same way $\vec{n}\cdot\vec{v}=0$. Finally, since $\vec{u}$, $\vec{v}$ are not parallel, $\vec{n}\neq\vec{0}$, so it really is a normal vector.
 
-**How to remember it.** Write the coordinates of $\vec{u}$ on top and $\vec{v}$ below. For the first coordinate, cover the first column and work out the remaining $2\times2$ determinant; for the second, cover the second column and cross-multiply *column 3 with column 1*; for the third, cover the third column.
+**How to remember it.** Write the coordinates of $\vec{u}$ on top and $\vec{v}$ below. For the first coordinate, cover the first column and work out the remaining $2\times2$ determinant. For the second, cover the second column and cross-multiply *column 3 with column 1*. For the third, cover the third column.
 
 ## The Cartesian equation of a plane
 
@@ -65,7 +65,7 @@ $$A(x-x_0)+B(y-y_0)+C(z-z_0)=0.$$
 Conversely, every equation $Ax+By+Cz+D=0$ with $A^2+B^2+C^2>0$ is the equation of a plane with normal vector $\vec{n}=(A, B, C)$. This is called the **Cartesian (general) equation** of the plane.
 :::
 
-**Why is it true?** A point $M(x, y, z)$ lies in the plane exactly when $\overrightarrow{M_0M}=(x-x_0, y-y_0, z-z_0)$ is perpendicular to $\vec{n}$, that is, when their scalar product is $0$. Expanding gives the form $Ax+By+Cz+D=0$ with $D=-(Ax_0+By_0+Cz_0)$.
+**Why is it true?** It is the same reasoning we used for the sail. A point $M(x, y, z)$ lies in the plane exactly when $\overrightarrow{M_0M}=(x-x_0, y-y_0, z-z_0)$ is perpendicular to $\vec{n}$, that is, when their scalar product is $0$. Expanding and collecting the constants gives the form $Ax+By+Cz+D=0$ with $D=-(Ax_0+By_0+Cz_0)$.
 
 :::example A point and a normal vector
 Write the equation of the plane $(P)$ through $M(1, -2, 3)$ with normal vector $\vec{n}=(2, -1, 4)$.
@@ -79,7 +79,7 @@ So $(P): 2x-y+4z-16=0$.
 **Check.** Substituting $M$: $2+2+12-16=0$.
 :::
 
-When we are given three points, we build a pair of direction vectors from them.
+If we are given three points instead of a normal vector, we build a pair of direction vectors from them and then find a normal vector as above.
 
 :::example The plane through three points
 Write the equation of the plane through $A(1, 2, 0)$, $B(2, 0, 1)$, $C(0, 1, 3)$.
@@ -101,14 +101,14 @@ So $(ABC): 5x+4y+3z-13=0$.
 
 ### Special planes
 
-Consider $(P): Ax+By+Cz+D=0$.
+Look at the coefficients of $(P): Ax+By+Cz+D=0$ and a few special planes show up at once.
 - $D=0$: $(P)$ passes through the origin $O$.
 - $A=0$: $\vec{n}=(0, B, C)$ is perpendicular to $\vec{i}$, so $(P)$ is parallel to the axis $Ox$ or contains it. Likewise for $B=0$ (axis $Oy$) and $C=0$ (axis $Oz$).
 - $A=B=0$: $(P): z=z_0$ is parallel to the plane $(Oxy)$ or equal to it. The three coordinate planes are $(Oxy): z=0$, $(Oyz): x=0$, $(Ozx): y=0$.
 - A plane meeting the three axes at $(a, 0, 0)$, $(0, b, 0)$, $(0, 0, c)$ with $abc\neq0$ has the **intercept form**
 $$\frac{x}{a}+\frac{y}{b}+\frac{z}{c}=1.$$
 
-For the sail, $a=3$, $b=6$, $c=3$, so $\dfrac{x}{3}+\dfrac{y}{6}+\dfrac{z}{3}=1$; multiplying both sides by $6$ gives $2x+y+2z-6=0$ again.
+Try it on the sail: its three corners lie on the three axes, so $a=3$, $b=6$, $c=3$. The intercept form is $\dfrac{x}{3}+\dfrac{y}{6}+\dfrac{z}{3}=1$. Multiplying both sides by $6$ gives $2x+y+2z-6=0$ again, the equation we found in the exploration.
 
 :::example A plane parallel to $(Oxy)$, a plane containing $Ox$
 Let $M(2, -1, 3)$. Write the equation of the plane through $M$ that is a) parallel to $(Oxy)$; b) contains the axis $Ox$.
@@ -124,7 +124,7 @@ Choose $C=1$, $B=3$. So the two planes are $z=3$ and $3y+z=0$.
 
 ## Parallel and perpendicular planes
 
-Two parallel planes have parallel normal vectors. Two perpendicular planes have perpendicular normal vectors.
+Two parallel planes "lean" the same way, so their normal vectors are parallel. Two perpendicular planes have perpendicular normal vectors. So a question about planes becomes a question about vectors, which is easier to calculate.
 
 :::theorem Two planes
 Let $(P): Ax+By+Cz+D=0$ and $(P'): A'x+B'y+C'z+D'=0$ with normal vectors $\vec{n}$, $\vec{n'}$.
@@ -161,7 +161,7 @@ The distance from $M_0(x_0, y_0, z_0)$ to $(P): Ax+By+Cz+D=0$ is
 $$d(M_0, (P))=\frac{|Ax_0+By_0+Cz_0+D|}{\sqrt{A^2+B^2+C^2}}.$$
 :::
 
-**Why is it true?** Let $H$ be the orthogonal projection of $M_0$ on $(P)$. Then $\overrightarrow{HM_0}=t\vec{n}$ for some number $t$, and $M_0H=|t|\cdot|\vec{n}|$. Since $H$ lies in $(P)$, substituting $H=M_0-t\vec{n}$ into the equation gives $Ax_0+By_0+Cz_0+D=t(A^2+B^2+C^2)$. Solving for $t$ and multiplying by $|\vec{n}|=\sqrt{A^2+B^2+C^2}$ gives the formula.
+**Why is it true?** The distance is the length of the perpendicular from the point to the plane. Let $H$ be the orthogonal projection of $M_0$ on $(P)$. Then $\overrightarrow{HM_0}=t\vec{n}$ for some number $t$, and $M_0H=|t|\cdot|\vec{n}|$. Since $H$ lies in $(P)$, substituting $H=M_0-t\vec{n}$ into the equation gives $Ax_0+By_0+Cz_0+D=t(A^2+B^2+C^2)$. Solving for $t$ and multiplying by $|\vec{n}|=\sqrt{A^2+B^2+C^2}$ gives the formula.
 
 :::example The drone and the sail
 Find the distance from the drone $M(3, 6, 3)$ to the plane of the sail $(ABC): 2x+y+2z-6=0$ (unit: metre).
@@ -173,7 +173,7 @@ $$d(M, (ABC))=\frac{|2\cdot3+6+2\cdot3-6|}{\sqrt{2^2+1^2+2^2}}=\frac{12}{3}=4.$$
 So the drone is $4$ m from the plane of the sail.
 :::
 
-The last example has more steps, so we follow the four stages.
+The last example has more steps, so we slow down and follow four stages: understand, plan, solve, look back.
 
 :::diagram The cube and the plane $(A'BD)$
 alt: The cube ABCD.A'B'C'D' in oblique projection with the triangle A'BD shaded and hidden edges dashed
@@ -221,6 +221,7 @@ $$(A'BD): \frac{x}{2}+\frac{y}{2}+\frac{z}{2}=1\iff x+y+z-2=0,\qquad d(A, (A'BD)
 - **Forgetting $D$ or the square root in the distance formula.** Wrong: $d(M, (ABC))=\dfrac{|6+6+6|}{3}=6$ or $\dfrac{12}{9}$. Why it is wrong: the numerator is the whole left-hand side $Ax_0+By_0+Cz_0+D$, and the denominator is $\sqrt{A^2+B^2+C^2}$. Right: $\dfrac{12}{3}=4$.
 - **The distance between parallel planes when the coefficients do not match.** Take $(P): 2x-y+2z+1=0$ and $(Q): 4x-2y+4z-10=0$. Wrong: $\dfrac{|1-(-10)|}{3}=\dfrac{11}{3}$. Why it is wrong: the normal vectors $(2, -1, 2)$ and $(4, -2, 4)$ are not equal. Right: take the point $E(0, 0, 2.5)$ of $(Q)$; then $d(E, (P))=\dfrac{|5+1|}{3}=2$.
 - **Confusing a plane containing an axis with a coordinate plane.** Wrong: the plane containing $Ox$ is $x=0$. Why it is wrong: $x=0$ is the plane $(Oyz)$, which is perpendicular to $Ox$. Right: a plane containing $Ox$ has the form $By+Cz=0$.
+The first one is where most people slip, so do not worry if you do too. When you have written an equation, substitute the given point to check it.
 :::
 
 ## Key terms
@@ -246,10 +247,11 @@ $$(A'BD): \frac{x}{2}+\frac{y}{2}+\frac{z}{2}=1\iff x+y+z-2=0,\qquad d(A, (A'BD)
 - Intercept form: $\dfrac{x}{a}+\dfrac{y}{b}+\dfrac{z}{c}=1$; $(Oxy): z=0$, $(Oyz): x=0$, $(Ozx): y=0$.
 - Parallel: $\vec{n'}=k\vec{n}$, $D'\neq kD$. Perpendicular: $\vec{n}\cdot\vec{n'}=0$.
 - $d(M_0, (P))=\dfrac{|Ax_0+By_0+Cz_0+D|}{\sqrt{A^2+B^2+C^2}}$.
+Back to the sail and the drone: a normal vector and one point gave us the equation of the sail, and the distance formula gave us the answer. If you remember one thing, remember that everything in this lesson revolves around the normal vector.
 
 ## Practice
 
-Each exercise comes with what you need and some steps to start. Try it yourself first, then open the solution.
+Each exercise gives you what you need and a few steps to start. Try it yourself before you open the solution. If you get stuck, read a hint, carry on, and only then open the solution to compare.
 
 :::exercise
 Write the equation of the plane through $M(2, 1, -1)$ with normal vector $\vec{n}=(1, -3, 2)$.

@@ -10,20 +10,20 @@ minutes: 15
 - Solve a word problem with one multiplication or one division.
 :::
 
-One tray holds $6$ eggs. Mum buys $4$ such trays. How many eggs does she buy altogether?
+Eggs are often packed in trays, and counting trays is quicker than counting single eggs. One tray holds $6$ eggs. Mum buys $4$ such trays. How many eggs does she buy altogether?
 
-You could add $6+6+6+6$, but adding many times is easy to get wrong. This lesson helps you work it out quickly with the $6$ times table.
+You could add $6+6+6+6$ and you would get the answer. The trouble is that adding many times is slow and easy to get wrong. The $6$ times table is a shortcut: once you know it, the answer comes straight away.
 
 ## Let's explore
 
-Each tray holds $6$ eggs. We add one tray at a time:
+Each tray holds $6$ eggs. We add one tray at a time and watch the numbers appear:
 
 - $1$ tray: $6$ eggs.
 - $2$ trays: $6+6=12$ eggs.
 - $3$ trays: $12+6=18$ eggs.
 - $4$ trays: $18+6=24$ eggs.
 
-So $4$ trays hold $24$ eggs, that is $6\times4=24$. Each new tray adds $6$ to the product.
+So $4$ trays hold $24$ eggs, and we write $6\times4=24$. Notice that each new tray adds $6$ to the product. The $6$ times table is built exactly this way, one group at a time.
 
 :::graph On the number line: every jump is 6
 alt: A number line from 0 to 36 with the points 0, 6, 12, 18, 24, 30 and 36 marked, each $6$ more than the one before
@@ -39,7 +39,7 @@ point: (30, 0) "30" above
 point: (36, 0) "36" below
 :::
 
-Here is one more trick: $6$ is double $3$, so $6\times4$ is double $3\times4=12$, and $12+12=24$.
+If you already know the $3$ times table, here is another way. Since $6$ is double $3$, $6\times4$ is double $3\times4=12$. So $12+12=24$.
 
 :::theorem The 6 times table
 To work out $6\times n$, take $6\times(n-1)$ and add $6$. You can also take $3\times n$ and double it.
@@ -53,11 +53,11 @@ To work out $6\times n$, take $6\times(n-1)$ and add $6$. You can also take $3\t
 | $36$ | $42$ | $48$ | $54$ | $60$ |
 :::
 
-The division facts for $6$ come from the $6$ times table. Since $6\times4=24$, we have $24\div6=4$. If you put $24$ eggs into trays of $6$, you fill $4$ trays.
+You do not need to learn the division facts for $6$ separately, because they come from the $6$ times table. Since $6\times4=24$, we have $24\div6=4$. Put $24$ eggs into trays of $6$ and you fill $4$ trays.
 
 ## Examples
 
-We start with the trick of doubling the $3$ times table.
+We start with the trick of doubling the $3$ times table, since you know that one well.
 
 :::example Work out $6\times4$ by doubling
 **Solution.** We have $3\times4=12$. Since $6$ is double $3$, $6\times4$ is double $3\times4$:
@@ -65,7 +65,7 @@ $$6\times4=12+12=24.$$
 So $6\times4=24$.
 :::
 
-Now take the product before and add $6$.
+Now we take the product before and add $6$.
 
 :::example Work out $6\times7$
 **Solution.** You know $6\times6=36$. Add one more group of $6$:
@@ -73,7 +73,7 @@ $$6\times7=6\times6+6=36+6=42.$$
 So $6\times7=42$.
 :::
 
-Sometimes it is easier to take the next product and subtract $6$.
+Sometimes it is easier to start from the next product and take away $6$, especially when that next product is a round ten.
 
 :::example Work out $6\times9$
 **Solution.** You know $6\times10=60$. Take away one group of $6$:
@@ -81,7 +81,7 @@ $$6\times9=6\times10-6=60-6=54.$$
 So $6\times9=54$.
 :::
 
-Next, division.
+Now division. You will see that the times table helps straight away.
 
 :::example Work out $48\div6$
 **Solution.** Ask: which number times $6$ makes $48$? In the $6$ times table, $6\times8=48$, so
@@ -91,7 +91,7 @@ $$48\div6=8.$$
 So $48\div6=8$.
 :::
 
-Finally, a word problem.
+Finally, we use the times table in a word problem. The thing to decide is whether to multiply or divide.
 
 :::example Bags of sweets
 There are $30$ sweets to put into bags, $6$ sweets in each bag. How many bags can we fill?
@@ -104,10 +104,11 @@ So we can fill $5$ bags.
 :::
 
 :::warning Mistakes to watch out for
-- **Taking the wrong neighbour.** Wrong: $6\times7=48$. Why it is wrong: $48$ is $6\times8$. Right: $6\times7=36+6=42$.
+- **Taking the wrong neighbour.** Wrong: $6\times7=48$. Why it is wrong: $48$ is $6\times8$, so you have jumped to the next row. Right: $6\times7=36+6=42$.
 - **Mixing up multiplying and adding.** Wrong: $6\times6=12$. Why it is wrong: $6+6=12$ is an addition, but $6\times6$ means $6$ groups of $6$. Right: $6\times6=36$.
 - **Dividing wrongly.** Wrong: $48\div6=7$. Why it is wrong: $6\times7=42$, not $48$. Right: $6\times8=48$, so $48\div6=8$.
 - **Forgetting the unit.** Wrong: "Answer: $5$". Right: "Answer: $5$ bags".
+Many pupils slip up here, so do not worry. A quick check will catch it.
 :::
 
 ## Key terms
@@ -130,10 +131,11 @@ So we can fill $5$ bags.
 - $6$ is double $3$, so $6\times n$ is double $3\times n$.
 - From $6\times a=b$ we get $b\div6=a$ and $b\div a=6$.
 - Write the unit in the answer; check a division with a multiplication.
+Back to the opening question: the eggs in four trays come straight from the $6$ times table. Remember that each group adds $6$ more, and that division always leans on the times table. Try the practice below so the $6$ times table sticks.
 
 ## Practice
 
-Each exercise comes with what you need and how to start. Try it yourself first, then open the solution.
+Each exercise comes with what you need to remember and a hint to start you off. Try it yourself first, and open the solution only when you are stuck. A slip along the way is fine, because that is how the method sticks.
 
 :::exercise
 Work out:

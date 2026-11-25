@@ -10,35 +10,36 @@ minutes: 15
 - Check that the total number of times all events happen equals the number of trials.
 :::
 
-Nam tosses a coin $10$ times and records each result: heads (H) or tails (T). The results are: H, T, T, H, H, T, H, H, T, H. How many times did heads come up? How many times did tails come up?
+Nam tosses a coin $10$ times and records each result: heads (H) or tails (T). The results are: H, T, T, H, H, T, H, H, T, H. Looking at a long list like that, can you say at once how many times heads came up and how many times tails came up?
 
-You already know how to read a list of data and a bar chart. This lesson shows you how to count the results of trials like these.
+Counting a long list in your head is easy to get wrong: you miss one, or count one twice. You already know how to read a list of data and a bar chart. Now we learn a tidy, reliable way to count the results of trials like these.
 
 ## Let's explore
 
-Each toss of the coin is one **trial**. Heads coming up, or tails coming up, is an **event**. We count each event with **tally marks**: for every time it happens we draw one mark. Every $5$ marks make a group, which is easier to count.
+First, a few names. Each toss of the coin is one **trial**. Heads coming up, or tails coming up, is an **event**. To count without missing any, we use **tally marks**: each time an event happens, we draw one more mark for it. Every $5$ marks make a group, so the total is quick to read.
 
-For the list H, T, T, H, H, T, H, H, T, H, read through each toss:
+Let's go back to Nam's list H, T, T, H, H, T, H, H, T, H and read through each toss:
 
 - Tosses $1$, $4$, $5$, $7$, $8$ and $10$ are H. Heads came up $6$ times.
 - Tosses $2$, $3$, $6$ and $9$ are T. Tails came up $4$ times.
+We collect the results in a tally chart:
 
 | Event | Tally marks | Number of times |
 |---|---|---|
 | Heads | $\mid\mid\mid\mid\mid\ \mid$ | $6$ |
 | Tails | $\mid\mid\mid\mid$ | $4$ |
 
-Check: $6+4=10$, exactly the number of tosses.
+One more thing to do: check. Add the two numbers, $6+4=10$, which is exactly the number of tosses. So nothing was missed and nothing was counted twice.
 
 :::definition How many times an event happens
 The **frequency** of an event is how many times it happens in all the trials. The frequencies of all the events add up to the number of trials.
 :::
 
-This is true because each trial gives exactly one result. So when we count all the results we get exactly the number of trials.
+Why does the total always match? Each trial gives exactly one result, no more and no fewer. So when we count all the results we get exactly the number of trials. If the total is off, something has been counted wrongly.
 
 ## Examples
 
-We start with counting directly.
+We start by counting directly from Nam's list.
 
 :::example Counting from a list of results
 A coin is tossed $10$ times: H, T, T, H, H, T, H, H, T, H. How many times does each side come up?
@@ -48,7 +49,7 @@ $$\text{heads: } 6\ \text{times},\qquad \text{tails: } 4\ \text{times}.$$
 Check: $6+4=10$ tosses. So heads came up $6$ times and tails $4$ times.
 :::
 
-Now there are three different results instead of two.
+This time there are three different results instead of two, so take care not to mix up the colours.
 
 :::example Picking counters
 A bag has red, blue and yellow counters. Ha takes one out, looks, and puts it back, $12$ times. The results in order are: R, B, R, R, Y, B, R, Y, R, B, R, R. How many times does each colour come up?
@@ -58,7 +59,7 @@ $$\text{Red: } 7\ \text{times},\qquad \text{Blue: } 3\ \text{times},\qquad \text
 Check: $7+3+2=12$ picks. So red came up $7$ times, blue $3$ times and yellow $2$ times.
 :::
 
-Sometimes the results are already in a tally chart. We read the chart and answer.
+Sometimes the results come in a tally chart rather than as a list. Then we read the chart carefully before answering, and the first thing to do is check the total.
 
 :::example Rolling a dice
 A dice is rolled $20$ times. This table shows how many times each face came up:
@@ -80,7 +81,7 @@ $$4+5+3=12\ \text{(times)}.$$
 So the even faces came up $12$ times.
 :::
 
-If we know the number of trials, we can find a missing frequency.
+Sometimes we know only the number of trials and how many times one event happened. How do we find the other?
 
 :::example Finding a missing number of times
 A coin is tossed $15$ times and heads comes up $9$ times. How many times does tails come up?
@@ -91,9 +92,9 @@ $$15-9=6\ \text{(times)}.$$
 :::
 
 :::warning Mistakes to watch out for
-- **Missing or double-counting a result.** Wrong: the list H, T, T, H, H has $2$ heads. Why it is wrong: one H was missed. Right: $3$ heads. Tick each result as you count it.
-- **A total that does not match the trials.** Wrong: $6+5=11$ but only $10$ tosses were made. Why it is wrong: something was counted twice. Right: count again until the total is $10$.
-- **Mixing up the number of times with the name of the event.** Wrong: "The side that came up most is $6$" when asked which side. Why it is wrong: $6$ is a count, but the question asks for a side. Right: heads, $6$ times.
+- **Missing or double-counting a result.** A lot of students slip here. Counting $2$ heads in the list H, T, T, H, H is wrong, because one H was missed. There are $3$ heads. Tick each result as you count it.
+- **A total that does not match the trials.** If you get $6+5=11$ but only $10$ tosses were made, something was counted twice. Count again until the total is $10$.
+- **Mixing up the number of times with the name of the event.** When asked which side came up most, answering "$6$" is not right, because $6$ is a count and the question asks for a side. The answer is heads, $6$ times.
 :::
 
 ## Key terms
@@ -115,10 +116,11 @@ $$15-9=6\ \text{(times)}.$$
 - Tally marks: one mark each time; every $5$ marks make a group.
 - The times for all events add up to the number of trials.
 - If you know the total and the times for one event, subtract to find the other.
+Back to Nam's coin: by counting carefully, we find that heads came up six times and tails four times, and the total matches the tosses. Always check the total, then try the practice questions.
 
 ## Practice
 
-Each exercise comes with what you need and how to start. Try it yourself first, then open the solution.
+Every exercise has the key idea and a hint to get you started. Have a go on your own first, use the hint if you get stuck, and open the solution last to check.
 
 :::exercise
 A coin is tossed $8$ times: H, H, T, H, T, T, H, H. How many times does each side come up?

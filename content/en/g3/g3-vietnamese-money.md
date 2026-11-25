@@ -11,13 +11,13 @@ minutes: 15
 - Solve word problems about money, remembering to write the unit dong.
 :::
 
-Nam has one $20\,000$ dong note. He buys a notebook that costs $12\,000$ dong and hands the note to the shopkeeper. How much change should the shopkeeper give Nam?
+Nam has one $20\,000$ dong note. He buys a notebook that costs $12\,000$ dong and hands the note to the shopkeeper. The note is worth more than the notebook, so how much change should the shopkeeper give Nam?
 
-You have learned to add and subtract numbers up to $100\,000$. This lesson uses the same calculations to work with money.
+Every trip to the shop needs a little arithmetic. You have learned to add and subtract numbers up to $100\,000$. We will use the same two calculations to count money, find the total cost and work out the change.
 
 ## Let's explore
 
-In Vietnam, the unit of money is the **dong**. You often see the banknotes in the table below. The right-hand column shows how many **thousand** dong each note is worth.
+In Vietnam, we pay in **dong**. You often see the banknotes in the table below. The right-hand column shows how many **thousand** dong each note is worth. That column makes counting easier, because we only have to add small numbers.
 
 | Banknote (dong) | Worth in thousands of dong |
 |---|---|
@@ -29,15 +29,15 @@ In Vietnam, the unit of money is the **dong**. You often see the banknotes in th
 | $50\,000$ | $50$ thousand |
 | $100\,000$ | $100$ thousand |
 
-We start with a small example. Mum gives Nam two $5\,000$ dong notes and one $2\,000$ dong note. How much money does Nam have altogether?
+Let us try a small example. Mum gives Nam two $5\,000$ dong notes and one $2\,000$ dong note. How much money does Nam have altogether?
 
-- Each $5\,000$ dong note is $5$ thousand. Two notes make $5+5=10$ thousand.
+- Change to thousands: each $5\,000$ dong note is $5$ thousand. Two notes make $5+5=10$ thousand.
 - The $2\,000$ dong note is $2$ thousand.
 - Add them up: $10+2=12$ thousand.
 
-So Nam has $12$ thousand dong, which is $12\,000$ dong. See: we add the small numbers first and only then put the word "thousand" back.
+So Nam has $12$ thousand dong, which is $12\,000$ dong. Notice what we did: we added the small numbers first and only then put the word "thousand" back. That keeps the adding short.
 
-Now go back to Nam's problem at the start of the lesson. Nam hands over $20$ thousand dong and the notebook costs $12$ thousand dong. Look at the number line: how many thousand do you need to go from $12$ up to $20$?
+Back to Nam and his notebook. Nam hands over $20$ thousand dong and the notebook costs $12$ thousand dong. Look at the number line: how many thousand do you need to go from $12$ up to $20$?
 
 :::graph On a number line (unit: thousand dong): from 12 to 20 you need 8 more
 alt: A number line from 0 to 24 in thousands of dong, with the points 12 and 20 marked; the part from 12 to 20 is 8 thousand long
@@ -49,7 +49,7 @@ point: (20, 0) "20" below
 label: (16, 0) "+8" above
 :::
 
-From $12$ to $20$ you need $8$ thousand more. You can also subtract: $20-12=8$ thousand. So the shopkeeper gives Nam $8\,000$ dong change.
+From $12$ to $20$ you need $8$ thousand more. Another way is to subtract: $20-12=8$ thousand. So the shopkeeper gives Nam $8\,000$ dong change. Here is the rule we have found:
 
 :::theorem Working with money
 - **The money in several notes:** change each note into thousands of dong, add them up, then write "thousand dong".
@@ -57,11 +57,11 @@ From $12$ to $20$ you need $8$ thousand more. You can also subtract: $20-12=8$ t
 - **Change** $=$ money handed over $-$ total cost.
 :::
 
-Change is a subtraction because it is the extra money left after you have paid the full cost. You can always check: total cost $+$ change must equal the money handed over. Above, $12+8=20$, which is right.
+Why is change a subtraction? Because it is the extra money left after you have paid the full cost. You can always check: total cost $+$ change must equal the money handed over. Above, $12+8=20$, which is right.
 
 ## Examples
 
-We start by counting a few banknotes.
+First, count a few banknotes.
 
 :::example Counting money
 Mai has one $10\,000$ dong note, one $5\,000$ dong note and two $2\,000$ dong notes. How much money does Mai have?
@@ -75,7 +75,7 @@ So Mai has $19\,000$ dong.
 **Check.** $10\,000+5\,000+2\,000+2\,000=19\,000$. It matches.
 :::
 
-The next example has more notes, but the method is the same.
+The next example has more notes. Don't worry: the method is exactly the same.
 
 :::example Counting more notes
 Ha has two $20\,000$ dong notes, one $5\,000$ dong note, one $2\,000$ dong note and one $1\,000$ dong note. How much money does Ha have?
@@ -87,7 +87,7 @@ $$40+5+2+1=48\ \text{(thousand dong)}.$$
 So Ha has $48\,000$ dong.
 :::
 
-Now work out the total cost when you buy several items.
+When you buy several things, you need the total cost. Let us work one out.
 
 :::example Total cost
 Nam buys an exercise book for $7\,000$ dong, a pen for $4\,000$ dong and a rubber for $2\,000$ dong. How much must Nam pay?
@@ -97,7 +97,7 @@ $$7\,000+4\,000+2\,000=13\,000\ \text{(dong)}.$$
 So Nam must pay $13\,000$ dong.
 :::
 
-Once you know the total cost, you can work out the change.
+Knowing the total cost, you can now find the change.
 
 :::example Change
 Ms Lan buys vegetables for $35\,000$ dong and hands the seller a $50\,000$ dong note. How much change should the seller give her?
@@ -109,7 +109,7 @@ So the seller gives Ms Lan $15\,000$ dong change.
 **Check.** $35\,000+15\,000=50\,000$. It matches the money handed over.
 :::
 
-Last, a problem where you compare the money you have with the money you need.
+One more situation comes up often: you have some money, and you must see whether it is enough to buy what you want.
 
 :::example Is there enough money?
 Lan has $30\,000$ dong. She wants to buy a teddy bear for $18\,000$ dong and a pencil case for $15\,000$ dong. Does Lan have enough money? If not, how much more does she need?
@@ -125,6 +125,7 @@ So Lan does not have enough money; she needs $3\,000$ dong more.
 - **Missing a note when counting.** Wrong: with two $5\,000$ dong notes and one $2\,000$ dong note, working out $5\,000+2\,000=7\,000$ dong. Why it is wrong: you left out one $5\,000$ dong note. Right: $5\,000+5\,000+2\,000=12\,000$ dong.
 - **Adding instead of subtracting for the change.** Wrong: $20\,000+12\,000=32\,000$ dong. Why it is wrong: change is the extra money, so it can never be more than the money handed over. Right: $20\,000-12\,000=8\,000$ dong.
 - **Forgetting to turn thousands back into dong.** Wrong: "Answer: $12$ dong". Why it is wrong: $12$ thousand dong is $12\,000$ dong. Right: "Answer: $12\,000$ dong".
+Many people slip up in these places. A quick check with addition will tell you whether your answer is right.
 :::
 
 ## Key terms
@@ -148,10 +149,11 @@ So Lan does not have enough money; she needs $3\,000$ dong more.
 - To count money, change each note into thousands of dong and add. Example: $5+5+2=12$ thousand, which is $12\,000$ dong.
 - Total cost: add the prices of the items. Change $=$ money handed over $-$ total cost.
 - You can check with an addition: total cost $+$ change $=$ money handed over. Remember to write the unit dong.
+Now you can answer the question from the start: take the total cost away from the money handed over and you have the change. A few practice questions will make it feel natural.
 
 ## Practice
 
-Each exercise comes with what you need and how to start. Try it yourself first, then open the solution.
+Every exercise gives you the idea you need and a hint for getting started. Have a go on your own first. If you get stuck, read the hint, and only then open the solution to compare.
 
 :::exercise
 Count the money:

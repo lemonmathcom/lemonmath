@@ -12,16 +12,16 @@ minutes: 15
 
 Nam có một sợi dây dài $5{,}6$ m. Nam cắt đi $2{,}3$ m để buộc hộp quà. Hỏi sợi dây còn lại dài bao nhiêu mét?
 
-Số đo ở đây đều là số thập phân, nên em chưa thể trừ ngay như số tự nhiên. Bài này dạy em cách đặt tính để trừ số thập phân thật gọn và chính xác.
+Cả hai số đo đều là số thập phân, nên em chưa thể trừ ngay như với số tự nhiên. Vậy làm sao để trừ cho gọn mà không nhầm? Ta sẽ tìm cách đặt tính cho số thập phân.
 
 ## Cùng khám phá
 
-Em đổi mét sang đề-xi-mét cho dễ trừ. Ta có $5{,}6$ m $=56$ dm và $2{,}3$ m $=23$ dm.
+Trước hết, em đổi mét sang đề-xi-mét cho dễ trừ. Ta có $5{,}6$ m $=56$ dm và $2{,}3$ m $=23$ dm.
 
 - Số dây còn lại là $56-23=33$ (dm).
 - Đổi lại sang mét: $33$ dm $=3{,}3$ m.
 
-Vậy $5{,}6-2{,}3=3{,}3$. Em thấy không, ta trừ như số tự nhiên $56-23$, rồi đặt dấu phẩy lại đúng chỗ.
+Vậy $5{,}6-2{,}3=3{,}3$. Ta trừ như số tự nhiên $56-23$, rồi đặt dấu phẩy lại đúng chỗ. Cách này dùng được, nhưng đổi đơn vị mãi thì mất công, nên ta muốn có cách gọn hơn.
 
 :::graph Trên tia số: từ 5,6 lùi lại 2,3 để đến 3,3
 alt: Tia số từ 0 đến 7, đánh dấu các điểm 3,3 và 5,6; đoạn giữa hai điểm có độ dài 2,3
@@ -33,7 +33,7 @@ point: (5.6, 0) "5,6" below
 label: (4.45, 0.5) "2,3"
 :::
 
-Em viết phép trừ theo cột như sau.
+Cách gọn hơn là viết phép trừ theo cột, như sau.
 
 $$\begin{array}{r} 5{,}6 \\ -\ 2{,}3 \\ \hline 3{,}3 \end{array}$$
 
@@ -44,11 +44,11 @@ Muốn trừ hai số thập phân:
 3. Viết dấu phẩy ở hiệu thẳng cột với các dấu phẩy ở số bị trừ và số trừ.
 :::
 
-Cách làm này đúng vì khi các chữ số cùng hàng thẳng cột, em luôn trừ phần mười cho phần mười, phần trăm cho phần trăm. Nếu hai số có số chữ số thập phân khác nhau, em thêm chữ số $0$ vào bên phải phần thập phân của số ngắn hơn. Việc này không đổi giá trị: $5{,}4=5{,}40$.
+Vì sao các dấu phẩy phải thẳng nhau? Vì khi các chữ số cùng hàng thẳng cột, em luôn trừ phần mười cho phần mười, phần trăm cho phần trăm. Nếu hai số có số chữ số thập phân khác nhau, em thêm chữ số $0$ vào bên phải phần thập phân của số ngắn hơn. Làm vậy không đổi giá trị: $5{,}4=5{,}40$.
 
 ## Ví dụ
 
-Ta bắt đầu với hai số có cùng số chữ số thập phân, và chưa cần mượn.
+Ta bắt đầu với hai số có cùng số chữ số thập phân, nên chưa cần mượn.
 
 :::example Tính $7{,}85-3{,}24$
 **Lời giải.** Hai số đều có hai chữ số thập phân, nên em đặt tính thẳng dấu phẩy rồi trừ từng hàng:
@@ -56,7 +56,7 @@ $$\begin{array}{r} 7{,}85 \\ -\ 3{,}24 \\ \hline 4{,}61 \end{array}$$
 Vậy $7{,}85-3{,}24=4{,}61$.
 :::
 
-Bây giờ hai số có số chữ số thập phân khác nhau, và có mượn.
+Lần này hai số có số chữ số thập phân khác nhau, và có mượn.
 
 :::example Tính $12{,}4-5{,}78$
 **Lời giải.** Số $5{,}78$ có hai chữ số thập phân, còn $12{,}4$ chỉ có một. Em viết $12{,}4=12{,}40$ rồi đặt tính; ở hàng phần trăm, $0$ không trừ được $8$ nên em mượn:
@@ -66,7 +66,7 @@ Vậy $12{,}4-5{,}78=6{,}62$.
 **Kiểm tra.** $6{,}62+5{,}78=12{,}40$. Đúng.
 :::
 
-Khi số bị trừ là số tự nhiên, em cũng thêm dấu phẩy và các chữ số $0$.
+Còn khi số bị trừ là số tự nhiên thì sao? Em cũng viết thêm dấu phẩy và các chữ số $0$.
 
 :::example Tính $9-3{,}45$
 **Lời giải.** Số $9$ viết thành $9{,}00$ để có hai chữ số thập phân như $3{,}45$:
@@ -74,7 +74,7 @@ $$\begin{array}{r} 9{,}00 \\ -\ 3{,}45 \\ \hline 5{,}55 \end{array}$$
 Vậy $9-3{,}45=5{,}55$.
 :::
 
-Bây giờ em dùng phép trừ để trả lời một câu hỏi trong cuộc sống.
+Phép trừ số thập phân có mặt trong nhiều việc hằng ngày: đo vải, cắt dây, tính tiền thừa. Em thử với một bài về cắt vải.
 
 :::example Cắt vải
 Một mảnh vải dài $15{,}2$ m. Cô Hoa dùng $6{,}75$ m để may áo. Hỏi mảnh vải còn lại dài bao nhiêu mét?
@@ -85,8 +85,8 @@ Vậy mảnh vải còn lại dài $8{,}45$ m.
 :::
 
 :::warning Những lỗi em hay gặp
-- **Đặt tính không thẳng dấu phẩy.** Sai: viết $12{,}4-5{,}78$ với chữ số $4$ thẳng chữ số $8$. Vì sao sai: $4$ là hàng phần mười, còn $8$ là hàng phần trăm. Đúng: dấu phẩy thẳng dấu phẩy, $12{,}40-5{,}78=6{,}62$.
-- **Quên thêm chữ số 0.** Sai: $9-3{,}45=6{,}45$. Vì sao sai: em chỉ lấy $9-3=6$ rồi chép lại $45$. Đúng: $9{,}00-3{,}45=5{,}55$.
+- **Đặt tính không thẳng dấu phẩy.** Sai: viết $12{,}4-5{,}78$ với chữ số $4$ thẳng chữ số $8$. Vì sao sai: $4$ ở hàng phần mười, còn $8$ ở hàng phần trăm. Đúng: dấu phẩy thẳng dấu phẩy, $12{,}40-5{,}78=6{,}62$.
+- **Quên thêm chữ số 0.** Sai: $9-3{,}45=6{,}45$. Vì sao sai: em mới lấy $9-3=6$ rồi chép lại $45$. Đúng: $9{,}00-3{,}45=5{,}55$.
 - **Quên dấu phẩy ở hiệu.** Sai: $7{,}85-3{,}24=461$. Vì sao sai: hiệu phải nhỏ hơn $7{,}85$. Đúng: $7{,}85-3{,}24=4{,}61$.
 - **Trừ ngược ở hàng cần mượn.** Sai: $5{,}2-1{,}7=4{,}5$ (lấy $7-2$). Vì sao sai: $2$ không trừ được $7$ nên phải mượn. Đúng: $5{,}2-1{,}7=3{,}5$.
 :::
@@ -112,10 +112,11 @@ Vậy mảnh vải còn lại dài $8{,}45$ m.
 - Trừ như số tự nhiên, rồi viết dấu phẩy ở hiệu thẳng cột với các dấu phẩy ở trên.
 - Thử lại: hiệu $+$ số trừ $=$ số bị trừ.
 - Bài toán hỏi "còn lại", "bớt đi" thường là phép trừ; nhớ ghi đơn vị trong đáp số.
+Câu hỏi đầu bài là sợi dây còn lại dài bao nhiêu mét: đó là một phép trừ, và chỉ cần đặt tính thẳng dấu phẩy là làm được. Em nhớ giữ dấu phẩy thẳng cột, rồi làm thêm vài bài cho quen tay.
 
 ## Luyện tập
 
-Mỗi bài có phần kiến thức và gợi ý. Em hãy tự làm trước, rồi mới bấm xem lời giải.
+Mỗi bài có phần kiến thức và gợi ý để em bắt đầu. Em cứ tự làm trước, chưa vội xem lời giải. Sai một chút cũng không sao, vì sửa được chỗ sai thì em nhớ lâu hơn.
 
 :::exercise
 Đặt tính rồi tính $8{,}95-4{,}32$.

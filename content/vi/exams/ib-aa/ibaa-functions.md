@@ -13,13 +13,13 @@ minutes: 45
 - Giải phương trình bằng đồ thị trên GDC và ghi đáp số đúng cách.
 :::
 
-Chủ đề 2 là ngôn ngữ của cả chương trình. Một câu giải tích ở Section B gần như luôn mở đầu bằng một hàm số: bạn được hỏi tập xác định, một giao điểm, một tiệm cận hay hàm ngược trước khi đến phần đạo hàm. Những ý đầu này là điểm dễ, và chủ yếu bị mất vì kí hiệu cẩu thả hoặc quên điều kiện.
+Bạn đã bao giờ đọc một câu dài ở Section B mà chưa biết bắt đầu từ đâu chưa? Thường thì điểm bắt đầu là một hàm số. Chủ đề 2 là ngôn ngữ của cả chương trình: một câu giải tích ở Section B gần như luôn mở đầu bằng một hàm số, và bạn được hỏi tập xác định, một giao điểm, một tiệm cận hay hàm ngược trước khi đến phần đạo hàm. Những ý đầu này là điểm dễ, và chủ yếu bị mất vì kí hiệu cẩu thả hoặc quên điều kiện. Nắm chắc phần này là cách giữ điểm chắc tay nhất.
 
 ## Tập xác định, tập giá trị, hàm hợp và hàm ngược
 
-**Tập xác định (domain)** là tập các giá trị đầu vào; **tập giá trị (range)** là tập các giá trị đầu ra. Hai điều kiện xuất hiện liên tục: không chia cho không, và (với hàm thực) không lấy căn bậc hai của số âm hay logarit của số không dương.
+Một hàm số giống một cái máy: bỏ vào một giá trị, máy trả ra một giá trị. **Tập xác định (domain)** là tập các giá trị đầu vào; **tập giá trị (range)** là tập các giá trị đầu ra. Hai điều kiện xuất hiện liên tục: không chia cho không, và (với hàm thực) không lấy căn bậc hai của số âm hay logarit của số không dương. Ở những giá trị ấy phép tính vô nghĩa, nên máy không cho ra kết quả.
 
-**Hàm hợp (composite)** $(f\circ g)(x)=f\big(g(x)\big)$ thực hiện $g$ trước. **Hàm ngược (inverse)** $f^{-1}$ đảo ngược tác dụng của $f$: để tìm nó, viết $y=f(x)$, đổi chỗ $x$ và $y$, rồi rút $y$. Hàm ngược chỉ tồn tại khi $f$ là đơn ánh; đồ thị của $f^{-1}$ đối xứng với đồ thị của $f$ qua đường thẳng $y=x$, và tập xác định với tập giá trị đổi chỗ cho nhau.
+Nối hai cái máy lại, đầu ra của máy này thành đầu vào của máy kia, ta được hàm hợp. **Hàm hợp (composite)** $(f\circ g)(x)=f\big(g(x)\big)$ thực hiện $g$ trước. Muốn chạy máy theo chiều ngược lại thì cần hàm ngược. **Hàm ngược (inverse)** $f^{-1}$ đảo ngược tác dụng của $f$: để tìm nó, viết $y=f(x)$, đổi chỗ $x$ và $y$, rồi rút $y$. Hàm ngược chỉ tồn tại khi $f$ là đơn ánh, nghĩa là mỗi đầu ra chỉ đến từ một đầu vào; đồ thị của $f^{-1}$ đối xứng với đồ thị của $f$ qua đường thẳng $y=x$, và tập xác định với tập giá trị đổi chỗ cho nhau.
 
 :::example Hàm hợp và hàm ngược
 Cho $f(x)=2x-3$ và $g(x)=x^2+1$.
@@ -57,7 +57,7 @@ Cho $h(x)=(x-1)^2$ với $x\ge1$.
 | $y=-f(x)$ | đối xứng qua trục $x$ |
 | $y=f(-x)$ | đối xứng qua trục $y$ |
 
-Thay đổi bên trong ngoặc tác động lên $x$ và làm điều "ngược" với vẻ bề ngoài: $f(x-3)$ dời đồ thị sang phải, còn $f(2x)$ ép đồ thị theo phương ngang.
+Chỗ này nhiều bạn hay nhầm, nên ta đọc chậm một lần. Thay đổi bên trong ngoặc tác động lên $x$ và làm điều "ngược" với vẻ bề ngoài: $f(x-3)$ dời đồ thị sang phải, còn $f(2x)$ ép đồ thị theo phương ngang. Lí do là đầu vào đã bị đổi trước khi vào hàm số: muốn có lại cùng đầu ra, giá trị đầu vào phải bù lại phần đã bị đổi, nên đồ thị đi theo chiều ngược lại. Ví dụ sau theo dấu một điểm qua các phép biến đổi.
 
 :::example Theo dấu một điểm
 Điểm $(4,-2)$ nằm trên đồ thị $y=f(x)$. Tìm toạ độ điểm tương ứng trên đồ thị $y=2f(x-3)+1$. [3 marks]
@@ -67,7 +67,7 @@ Thay đổi bên trong ngoặc tác động lên $x$ và làm điều "ngược"
 
 ## Hàm bậc hai
 
-Hàm bậc hai có ba dạng viết: $f(x)=ax^2+bx+c$ (giao với trục $y$ tại $c$), $f(x)=a(x-h)^2+k$ (đỉnh $(h,k)$, trục đối xứng $x=h$) và $f(x)=a(x-p)(x-q)$ (giao với trục $x$ tại $p$ và $q$). **Biệt thức (discriminant)** $\Delta=b^2-4ac$ quyết định số nghiệm thực: hai nghiệm nếu $\Delta>0$, một nghiệm kép nếu $\Delta=0$, vô nghiệm nếu $\Delta<0$.
+Cùng một parabol, nhưng mỗi cách viết cho ta thấy ngay một điều khác. Hàm bậc hai có ba dạng viết: $f(x)=ax^2+bx+c$ (giao với trục $y$ tại $c$), $f(x)=a(x-h)^2+k$ (đỉnh $(h,k)$, trục đối xứng $x=h$) và $f(x)=a(x-p)(x-q)$ (giao với trục $x$ tại $p$ và $q$). Câu hỏi hỏi gì thì ta chọn dạng ấy. **Biệt thức (discriminant)** $\Delta=b^2-4ac$ quyết định số nghiệm thực: hai nghiệm nếu $\Delta>0$, một nghiệm kép nếu $\Delta=0$, vô nghiệm nếu $\Delta<0$.
 
 :::example Dạng đỉnh và biệt thức
 (a) Viết $f(x)=2x^2-8x+5$ dưới dạng $a(x-h)^2+k$ và viết toạ độ đỉnh. [3 marks]
@@ -80,7 +80,7 @@ Hàm bậc hai có ba dạng viết: $f(x)=ax^2+bx+c$ (giao với trục $y$ t�
 
 ## Hàm phân thức
 
-Với $f(x)=\dfrac{ax+b}{cx+d}$, $c\ne0$: **tiệm cận đứng** là nơi mẫu bằng không, $x=-\dfrac dc$, và **tiệm cận ngang** là $y=\dfrac ac$, giá trị mà hàm số tiến tới khi $x\to\pm\infty$.
+Đồ thị của hàm phân thức có những đường thẳng mà nó cứ tiến sát vào mãi, gọi là tiệm cận. Với $f(x)=\dfrac{ax+b}{cx+d}$, $c\ne0$: **tiệm cận đứng** là nơi mẫu bằng không, $x=-\dfrac dc$, và **tiệm cận ngang** là $y=\dfrac ac$, giá trị mà hàm số tiến tới khi $x\to\pm\infty$. Đồ thị dưới đây cho thấy cả hai.
 
 :::graph Đồ thị $y=\dfrac{2x+1}{x-3}$ cùng các tiệm cận
 alt: Một hyperbol có tiệm cận đứng x = 3 và tiệm cận ngang y = 2; nhánh trái cắt các trục tại x = -0,5 và y = -1/3
@@ -109,7 +109,7 @@ Cho $f(x)=\dfrac{2x+1}{x-3}$, $x\ne3$.
 
 ## Giải phương trình bằng GDC (Paper 2)
 
-Nhiều phương trình ở Paper 2 không giải được bằng đại số. Hãy vẽ đồ thị hai vế, tìm giao điểm, rồi ghi đáp số lấy ba chữ số có nghĩa. Ghi rõ phương trình bạn đã giải, để nếu đáp số cuối sai vẫn còn điểm phương pháp.
+Có những phương trình mà biến đổi thế nào cũng không giải được bằng đại số, và nhiều phương trình ở Paper 2 là như vậy. Khi đó máy tính là công cụ đúng: vẽ đồ thị hai vế, tìm giao điểm, rồi ghi đáp số lấy ba chữ số có nghĩa. Ghi rõ phương trình bạn đã giải, để nếu đáp số cuối sai vẫn còn điểm phương pháp. Ví dụ sau có hai giao điểm.
 
 :::example Hai giao điểm
 Giải $e^x=4-x^2$. [3 marks]
@@ -124,6 +124,7 @@ Giải $e^x=4-x^2$. [3 marks]
 - **Biến đổi bên trong ngoặc:** $f(x+2)$ dời đồ thị sang trái, không phải sang phải.
 - **Ghi tiệm cận bằng một con số.** Hãy viết phương trình: "$x=3$", không phải "$3$".
 - **Bỏ sót nghiệm trên GDC** nằm ngoài khung nhìn.
+Ở đầu bài ta nói rằng hàm số là chỗ bắt đầu của mọi câu hỏi dài. Kí hiệu đúng và điều kiện không bị quên là thứ giữ cho những điểm đầu ấy khỏi mất. Bạn làm các bài tập bên dưới để quen tay nhé.
 :::
 
 :::terms

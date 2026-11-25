@@ -10,13 +10,13 @@ minutes: 15
 - Tìm được các hình đó trong đồ vật quanh em.
 :::
 
-Em nhìn quanh lớp: mặt đồng hồ, tờ giấy, khăn tay, biển báo giao thông. Mỗi vật có hình dạng khác nhau. Em gọi tên các hình đó như thế nào?
+Em thử nhìn quanh lớp. Có mặt đồng hồ, tờ giấy, chiếc khăn tay, biển báo giao thông. Vật nào cũng có một hình dạng riêng. Làm sao em gọi đúng tên từng hình?
 
-Ở bài trước em đã học cách tách số. Bài này em học nhận biết bốn hình quen thuộc.
+Ở bài trước em đã tách số. Hôm nay ta nhìn hình. Biết tên hình, em có thể tả một đồ vật chỉ bằng một chữ: tròn, vuông, chữ nhật. Ta sẽ làm quen với bốn hình quen thuộc và xem mỗi hình có mấy cạnh.
 
 ## Cùng khám phá
 
-Em nhìn bốn hình dưới đây.
+Em nhìn kĩ bốn hình dưới đây. Hình nào em đã thấy ở nhà hoặc ở lớp?
 
 :::diagram Bốn hình: hình vuông, hình chữ nhật, hình tam giác, hình tròn
 alt: Bốn hình: hình vuông, hình chữ nhật, hình tam giác và hình tròn
@@ -42,12 +42,13 @@ label 10,-0.7 "tam giác"
 label 13,-0.7 "tròn"
 :::
 
-Em chạm ngón tay dọc theo viền của từng hình.
+Em lấy ngón tay đi chầm chậm dọc theo viền của từng hình. Viền nào thẳng, viền nào cong? Em đếm xem có bao nhiêu đoạn thẳng.
 
-- Hình vuông có $4$ cạnh, cả $4$ cạnh dài bằng nhau.
-- Hình chữ nhật có $4$ cạnh: hai cạnh dài bằng nhau và hai cạnh ngắn bằng nhau.
+- Hình vuông có $4$ cạnh, và cả $4$ cạnh dài bằng nhau.
+- Hình chữ nhật cũng có $4$ cạnh, nhưng chỉ có từng đôi bằng nhau: hai cạnh dài bằng nhau và hai cạnh ngắn bằng nhau.
 - Hình tam giác có $3$ cạnh và $3$ góc.
-- Hình tròn không có cạnh, viền tròn đều và cong.
+- Hình tròn không có cạnh nào. Viền của nó tròn đều và cong.
+Chỗ này nhiều bạn hay nhầm hình vuông với hình chữ nhật. Em cứ nhớ: hình vuông thì cạnh nào cũng bằng nhau.
 
 :::theorem Bốn hình quen thuộc
 1. Hình vuông: $4$ cạnh dài bằng nhau.
@@ -56,11 +57,11 @@ Em chạm ngón tay dọc theo viền của từng hình.
 4. Hình tròn: không có cạnh, không có góc.
 :::
 
-Cách này đúng vì em chỉ cần đếm cạnh và nhìn xem các cạnh dài hay ngắn là gọi được tên hình.
+Vì sao cách này đúng? Vì mỗi hình có số cạnh riêng và độ dài các cạnh riêng. Em đếm cạnh, rồi nhìn xem các cạnh có dài bằng nhau hay không, là gọi được tên hình.
 
 ## Ví dụ
 
-Ta bắt đầu với một đồ vật quen thuộc.
+Ta thử với một đồ vật em hay gặp: bánh xe đạp.
 
 :::example Bánh xe
 Bánh xe đạp có dạng hình gì?
@@ -70,7 +71,7 @@ Bánh xe đạp có dạng hình gì?
 Vậy bánh xe có dạng hình tròn.
 :::
 
-Bây giờ em gọi tên hình có cạnh.
+Bánh xe thì không có cạnh. Bây giờ ta thử một hình có cạnh: chiếc khăn tay.
 
 :::example Khăn tay
 Một chiếc khăn tay có $4$ cạnh, cả $4$ cạnh dài bằng nhau. Khăn có dạng hình gì?
@@ -80,7 +81,7 @@ Một chiếc khăn tay có $4$ cạnh, cả $4$ cạnh dài bằng nhau. Khăn 
 Vậy chiếc khăn có dạng hình vuông.
 :::
 
-Tiếp theo em phân biệt hình chữ nhật.
+Cửa sổ cũng có cạnh, nhưng không giống khăn tay. Em xem khác ở chỗ nào?
 
 :::example Cửa sổ
 Một cửa sổ có $4$ cạnh. Hai cạnh dài bằng nhau và hai cạnh ngắn bằng nhau. Cửa sổ có dạng hình gì?
@@ -90,7 +91,7 @@ Một cửa sổ có $4$ cạnh. Hai cạnh dài bằng nhau và hai cạnh ng�
 Vậy cửa sổ có dạng hình chữ nhật.
 :::
 
-Cuối cùng em đếm các hình trong một hình ghép.
+Có khi một đồ vật được ghép từ nhiều hình. Ta thử đếm xem trong một ngôi nhà ghép có mấy hình.
 
 :::example Ngôi nhà ghép từ hình
 Em ghép một ngôi nhà từ một hình vuông (thân nhà) và một hình tam giác (mái nhà). Em đã dùng mấy hình?
@@ -103,9 +104,10 @@ Vậy em đã dùng $2$ hình.
 :::
 
 :::warning Những lỗi em hay gặp
-- **Nhầm hình chữ nhật với hình vuông.** Sai: hình có hai cạnh dài, hai cạnh ngắn là hình vuông. Vì sao sai: hình vuông có cả $4$ cạnh bằng nhau. Đúng: đó là hình chữ nhật.
-- **Nói hình tam giác có $4$ cạnh.** Sai: tam giác có $4$ cạnh. Vì sao sai: tam giác chỉ có $3$ cạnh. Đúng: hình tam giác có $3$ cạnh.
-- **Nói hình tròn có cạnh.** Sai: hình tròn có $1$ cạnh. Vì sao sai: viền hình tròn cong, không có cạnh thẳng. Đúng: hình tròn không có cạnh.
+- **Nhầm hình chữ nhật với hình vuông.** Sai: hình có hai cạnh dài và hai cạnh ngắn là hình vuông. Vì sao sai: hình vuông phải có cả $4$ cạnh bằng nhau. Đúng: hình đó là hình chữ nhật.
+- **Nói hình tam giác có $4$ cạnh.** Sai: tam giác có $4$ cạnh. Vì sao sai: hình tam giác chỉ có $3$ cạnh. Đúng: hình tam giác có $3$ cạnh.
+- **Nói hình tròn có cạnh.** Sai: hình tròn có $1$ cạnh. Vì sao sai: viền hình tròn cong, không có cạnh thẳng nào. Đúng: hình tròn không có cạnh.
+Em đừng lo nếu lúc đầu còn nhầm. Cứ đếm cạnh thật chậm là ra.
 :::
 
 ## Thuật ngữ
@@ -126,10 +128,11 @@ Vậy em đã dùng $2$ hình.
 - Hình chữ nhật có $4$ cạnh, hai cạnh dài và hai cạnh ngắn.
 - Hình tam giác có $3$ cạnh, $3$ góc.
 - Hình tròn không có cạnh, không có góc.
+Giờ nhìn lại mặt đồng hồ, tờ giấy, khăn tay hay biển báo, em đã gọi được tên từng hình. Em cứ nhớ: đếm cạnh trước, rồi xem các cạnh dài bằng nhau hay không, và làm thêm bài luyện tập cho quen mắt.
 
 ## Luyện tập
 
-Mỗi bài có phần kiến thức và gợi ý. Em hãy tự làm trước, rồi mới bấm xem lời giải.
+Mỗi bài đều có phần cần nhớ và một gợi ý để em bắt đầu. Em thử tự làm trước đã. Làm chậm cũng không sao. Khi xong hoặc khi bí, em hãy bấm xem lời giải.
 
 :::exercise
 Mặt đồng hồ treo tường có dạng hình gì?

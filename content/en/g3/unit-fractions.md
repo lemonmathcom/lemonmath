@@ -10,13 +10,13 @@ minutes: 15
 - Find one-$n$th of a number by dividing, and solve word problems.
 :::
 
-Mum cuts a cake into equal pieces to share among $4$ friends, one piece each. What fraction of the cake does each friend get?
+Mum cuts a cake into equal pieces to share among $4$ friends, one piece each. Think about it: what fraction of the cake does each friend get?
 
-You could answer in words, but maths has a short way to write "one out of so many". This lesson shows you how to read it, write it and use it.
+You could answer in words, but saying "one part out of so many" again and again is slow. Maths has a short way to write it. You will learn to read it, write it and use it to share a number equally.
 
 ## Let's explore
 
-We think of the cake as a rectangle split into $4$ equal parts.
+To see it clearly, we draw the cake as a rectangle and split it into $4$ equal parts.
 
 :::diagram A rectangle split into 4 equal parts
 alt: A rectangle split into four equal parts by three upright lines, each part labelled 1/4
@@ -40,9 +40,9 @@ label 5,1 "1/4"
 label 7,1 "1/4"
 :::
 
-The shape is split into $4$ **equal** parts. Each part is **one quarter** of the shape, written $\dfrac{1}{4}$. So each friend gets $\dfrac{1}{4}$ of the cake.
+Count the parts: the shape is split into $4$ **equal** parts. Each part is called **one quarter** of the shape, and we write it $\dfrac{1}{4}$. So each friend gets $\dfrac{1}{4}$ of the cake.
 
-If we split into $2$ equal parts, each part is $\dfrac{1}{2}$ of the shape. If we split into $8$ equal parts, each part is $\dfrac{1}{8}$. The more equal parts we make, the smaller each part is.
+Try other splits. With $2$ equal parts, each part is $\dfrac{1}{2}$ of the shape. With $8$ equal parts, each part is $\dfrac{1}{8}$. Notice that the more equal parts we make, the smaller each part is, just as a cake shared among more friends gives each friend less.
 
 :::theorem Unit fractions
 Split a shape (or a number) into $n$ equal parts. Each part is **one-$n$th** of the shape (of the number), written $\dfrac{1}{n}$.
@@ -54,11 +54,11 @@ Split a shape (or a number) into $n$ equal parts. Each part is **one-$n$th** of 
 To find one-$n$th of a number, divide that number by $n$.
 :::
 
-This works because splitting the number into $n$ equal parts makes each part exactly one-$n$th of it. For example, $12$ sweets split into $3$ equal parts give $12\div3=4$ in each part, so $\dfrac{1}{3}$ of $12$ is $4$.
+Why do we divide? Because splitting the number into $n$ equal parts makes each part exactly one-$n$th of it. For example, $12$ sweets split into $3$ equal parts give $12\div3=4$ in each part, so $\dfrac{1}{3}$ of $12$ is $4$.
 
 ## Examples
 
-We start by naming one part.
+We start by naming one part of a piece of string.
 
 :::example A piece of string
 A piece of string is cut into $3$ equal lengths. What fraction of the string is each length?
@@ -70,7 +70,7 @@ $$\dfrac{1}{3}.$$
 So each length is $\dfrac{1}{3}$ of the string.
 :::
 
-Now practise reading and writing.
+Now practise reading and writing. Remember that the bottom number tells you how many equal parts there are.
 
 :::example Read and write
 a) Write "one seventh" with numbers.
@@ -84,7 +84,7 @@ a) One seventh is written $\dfrac{1}{7}$.
 b) $\dfrac{1}{8}$ is read "one eighth".
 :::
 
-Next, find one-$n$th of a number.
+Now we use division to find one-$n$th of a number.
 
 :::example Find $\dfrac{1}{4}$ of $20$
 **Solution.** To find one quarter of $20$, we divide $20$ by $4$:
@@ -94,7 +94,7 @@ $$20\div4=5.$$
 So $\dfrac{1}{4}$ of $20$ is $5$.
 :::
 
-Do the same with a bigger number.
+The method is the same; only the number is bigger.
 
 :::example Find $\dfrac{1}{6}$ of $42$
 **Solution.** We divide $42$ by $6$:
@@ -104,7 +104,7 @@ $$42\div6=7.$$
 So $\dfrac{1}{6}$ of $42$ is $7$.
 :::
 
-Finally, use this method for a problem from everyday life.
+Finally, we use the method on something that happens at home: sharing oranges.
 
 :::example Sharing oranges
 Mum has $18$ oranges and gives her child $\dfrac{1}{3}$ of them. How many oranges does the child get?
@@ -117,10 +117,11 @@ So the child gets $6$ oranges.
 :::
 
 :::warning Mistakes to watch out for
-- **Parts that are not equal.** Wrong: a shape split into $4$ parts of different sizes, each part called $\dfrac{1}{4}$. Why it is wrong: $\dfrac{1}{4}$ is only used when the $4$ parts are equal. Right: split it into $4$ equal parts.
-- **Multiplying instead of dividing.** Wrong: $\dfrac{1}{3}$ of $12$ is $12\times3=36$. Why it is wrong: one third of $12$ cannot be bigger than $12$. Right: $12\div3=4$.
-- **Mixing up small and big.** Wrong: $\dfrac{1}{8}$ is bigger than $\dfrac{1}{4}$ because $8>4$. Why it is wrong: splitting into $8$ parts makes each part smaller than splitting into $4$. Right: $\dfrac{1}{4}$ is bigger than $\dfrac{1}{8}$.
-- **Forgetting the unit.** Wrong: "Answer: $6$". Right: "Answer: $6$ oranges".
+- **Parts that are not equal.** Lots of students slip here. If a shape is split into $4$ parts of different sizes, we cannot call each part $\dfrac{1}{4}$, because $\dfrac{1}{4}$ is only used when the $4$ parts are equal. Split it into $4$ equal parts first.
+- **Multiplying instead of dividing.** Writing that $\dfrac{1}{3}$ of $12$ is $12\times3=36$ is wrong, because one third of $12$ cannot be bigger than $12$. Divide instead: $12\div3=4$.
+- **Mixing up small and big.** Saying that $\dfrac{1}{8}$ is bigger than $\dfrac{1}{4}$ because $8>4$ is wrong. Splitting into $8$ parts makes each part smaller than splitting into $4$ parts. So $\dfrac{1}{4}$ is bigger than $\dfrac{1}{8}$.
+- **Forgetting the unit.** Writing "Answer: $6$" is not enough. Write "Answer: $6$ oranges".
+When you finish, read your answer once more and ask whether it makes sense.
 :::
 
 ## Key terms
@@ -143,10 +144,11 @@ So the child gets $6$ oranges.
 - The more equal parts, the smaller each part.
 - One-$n$th of a number is that number divided by $n$.
 - Check with multiplication; write the unit in the answer.
+Back to the cake: shared equally among four friends, each friend gets one quarter. Remember that the parts must be equal, and practise a few questions to make it stick.
 
 ## Practice
 
-Each exercise comes with what you need and how to start. Try it yourself first, then open the solution.
+Every exercise has the key idea and a hint to get you started. Have a go on your own first, use the hint if you get stuck, and open the solution last to check.
 
 :::exercise
 Each shape is split into equal parts. Write the fraction for one part:

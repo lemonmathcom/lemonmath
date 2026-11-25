@@ -10,19 +10,20 @@ minutes: 15
 - Solve sharing problems whose answer is a fraction.
 :::
 
-A teacher shares $3$ cakes equally among $4$ children. What part of a cake does each child get?
+A teacher shares $3$ cakes equally among $4$ children. What part of a cake does each child get? There are fewer cakes than children, so nobody gets a whole cake. How much do they get, then?
 
-You know that $12\div4=3$. But $3\div4$ does not divide exactly, and we need a new kind of number to write the answer. That number is the fraction you have just learned.
+You know that $12\div4=3$, a division that works out exactly. But $3\div4$ does not divide exactly, and we need a new kind of number to write the answer. That number is the fraction you have just learned. With it, even a division that does not work out exactly has an answer we can write down.
 
 ## Let's explore
 
-We share step by step.
+We share step by step, just as the teacher would.
 
 - Cut each cake into $4$ equal pieces. Each piece is $\dfrac{1}{4}$ of a cake.
 - Each child takes $1$ piece from the first cake, $1$ piece from the second cake and $1$ piece from the third cake.
 - So each child has $3$ pieces, and each piece is $\dfrac{1}{4}$ of a cake.
+Cut equally and share equally, and every child gets the same amount.
 
-Each child gets $\dfrac{3}{4}$ of a cake. So $3\div4=\dfrac{3}{4}$.
+Each child gets $\dfrac{3}{4}$ of a cake. Notice that $3\div4=\dfrac{3}{4}$. Division and fractions are two ways of writing the same thing.
 
 :::graph On the number line: 3 ÷ 4 is the point 3/4, between 0 and 1
 alt: A number line from 0 to 1 cut into 4 equal parts, with the points 0, 3/4 and 1 marked
@@ -39,7 +40,7 @@ The quotient of a whole number $a$ divided by a whole number $b$ (not $0$) can b
 $$a\div b=\frac{a}{b}.$$
 :::
 
-This is true because sharing $a$ cakes equally among $b$ children gives each child $a$ pieces, and each piece is $\dfrac{1}{b}$ of a cake, which is $\dfrac{a}{b}$.
+Why is this true? Sharing $a$ cakes equally among $b$ children gives each child $a$ pieces, and each piece is $\dfrac{1}{b}$ of a cake. Put them together and each child has $\dfrac{a}{b}$ of a cake.
 
 ## Examples
 
@@ -53,7 +54,7 @@ $$2\div5=\frac{2}{5}.$$
 So each child gets $\dfrac{2}{5}$ of a cake.
 :::
 
-When the number being divided is larger than the divisor, the numerator is larger than the denominator. This is still fine.
+What if the number being divided is larger than the divisor? Then the numerator is larger than the denominator. That is still fine, so don't let it worry you.
 
 :::example Sharing ribbon
 Share $5$ m of ribbon equally among $4$ children. How many metres does each child get?
@@ -63,7 +64,7 @@ $$5\div4=\frac{5}{4}\ \text{(m)}.$$
 So each child gets $\dfrac{5}{4}$ m. On the number line, $\dfrac{5}{4}$ lies one quarter past the point $1$.
 :::
 
-Every whole number can also be written as a fraction.
+Whole numbers can be written as fractions too. Let's see how.
 
 :::example Writing a whole number as a fraction
 Write the number $6$ and the number $1$ as fractions.
@@ -75,7 +76,7 @@ $8$ divided by $8$ is $1$, so $1=\dfrac{8}{8}$. We can write $1$ with any denomi
 **Check.** $\dfrac{6}{1}$ is $6$ parts, and each part is a whole one: that makes $6$ wholes. Correct.
 :::
 
-We can also go the other way: read a fraction as a division.
+We can also go the other way: look at a fraction and read it as a division.
 
 :::example A fraction is a division
 A rope $9$ m long is cut into $4$ equal pieces. How long is each piece? Which division has the fraction $\dfrac{9}{4}$ as its quotient?
@@ -110,10 +111,11 @@ So each piece is $\dfrac{9}{4}$ m long, and the fraction $\dfrac{9}{4}$ is the q
 - A fraction can have a numerator larger than its denominator, for example $5\div4=\dfrac{5}{4}$.
 - A whole number $a$ can be written as $\dfrac{a}{1}$; the number $1$ can be written as $\dfrac{b}{b}$.
 - We never divide by $0$.
+Back to the cakes: when a division does not come out exactly, the answer is not lost. It sits right there in the fraction. Remember the dividend goes on top and the divisor underneath. Try the practice section to make it feel natural.
 
 ## Practice
 
-Each exercise comes with what you need and how to start. Try it yourself first, then open the solution.
+Each exercise comes with what you need to remember and a hint to get started. Try it yourself first, and open the solution only when you are stuck. A mistake is not a problem: that is when you learn the most.
 
 :::exercise
 Write the quotient of $3\div5$ as a fraction.

@@ -11,19 +11,19 @@ minutes: 25
 - Tính góc và tích vô hướng của hai vectơ, rồi dùng chúng để tìm độ dài, góc, chứng minh vuông góc.
 :::
 
-Một phòng học có dạng hình hộp chữ nhật dài $5$ m, rộng $4$ m, cao $3$ m. Người ta muốn căng một sợi dây trang trí thẳng từ một góc sàn đến góc trần đối diện xa nhất. Sợi dây đi theo hướng nào, và cần dài bao nhiêu mét?
+Hãy nghĩ đến một phòng học hình hộp chữ nhật dài $5$ m, rộng $4$ m, cao $3$ m. Ta muốn căng một sợi dây trang trí thẳng từ một góc sàn lên góc trần đối diện xa nhất. Sợi dây đi theo hướng nào, và cần dài bao nhiêu mét?
 
-Trong mặt phẳng, ta đã mô tả "đi theo hướng nào, bao xa" bằng vectơ. Bài này mang vectơ lên không gian ba chiều, và cuối bài ta sẽ tính được độ dài sợi dây chỉ bằng phép toán vectơ.
+Ở mặt phẳng, một vectơ cho ta biết hai điều: đi theo hướng nào và đi bao xa. Căn phòng thì có ba chiều, nên ta cần vectơ cũng dùng được trong không gian. Làm được điều đó, đến cuối bài ta sẽ tính được độ dài sợi dây chỉ bằng các phép toán vectơ, không cần đo.
 
-Thế giới quanh ta vốn có ba chiều: một chiếc flycam bay về phía đông, về phía bắc rồi bay lên; ba sợi cáp cùng kéo một vật nặng theo ba hướng khác nhau; một xà nhà nghiêng trong khung mái. Muốn mô tả và tính toán những chuyển động, những lực như thế, ta cần một ngôn ngữ chung cho "hướng" và "độ lớn" trong không gian. Vectơ chính là ngôn ngữ đó.
+Thế giới quanh ta có ba chiều. Một chiếc flycam bay về phía đông, rồi về phía bắc, rồi bay lên. Ba sợi cáp cùng kéo một vật nặng theo ba hướng khác nhau. Một xà nhà nghiêng trong khung mái. Muốn nói rõ và tính được những chuyển động, những lực như vậy, ta cần một ngôn ngữ chung cho "hướng" và "độ lớn" trong không gian. Vectơ chính là ngôn ngữ đó.
 
 ## Vectơ trong không gian
 
 ### Khám phá: ba đoạn đường thay cho một
 
-Gọi phòng học là hình hộp $ABCD.A'B'C'D'$ với $AB=5$, $AD=4$, $AA'=3$ (mét). Một con kiến đi từ $A$ đến $C'$ theo các cạnh: $5$ m dọc $AB$, rồi $4$ m dọc $BC$, rồi $3$ m lên theo $CC'$. Sợi dây thì đi thẳng từ $A$ đến $C'$.
+Gọi phòng học là hình hộp $ABCD.A'B'C'D'$ với $AB=5$, $AD=4$, $AA'=3$ (mét). Hãy hình dung một con kiến đi từ $A$ đến $C'$ theo các cạnh: $5$ m dọc $AB$, rồi $4$ m dọc $BC$, rồi $3$ m lên theo $CC'$. Còn sợi dây thì đi thẳng từ $A$ đến $C'$.
 
-Hai cách đi có cùng điểm đầu và cùng điểm cuối, nên cùng **một sự dịch chuyển**. Nếu ta mô tả mỗi đoạn đường bằng một mũi tên, thì mũi tên $AC'$ phải là "tổng" của ba mũi tên $AB$, $BC$, $CC'$. Để nói điều đó chính xác, ta cần vectơ trong không gian.
+Hai cách đi có cùng điểm đầu và cùng điểm cuối, nên cùng **một sự dịch chuyển**. Vẽ mỗi đoạn đường thành một mũi tên, thì mũi tên $AC'$ phải là "tổng" của ba mũi tên $AB$, $BC$, $CC'$. Để nói điều đó cho chính xác, ta cần đến vectơ trong không gian.
 
 :::diagram Hình hộp $ABCD.A'B'C'D'$ và đường chéo $AC'$
 alt: Hình hộp chữ nhật vẽ theo phép chiếu song song, các cạnh khuất vẽ nét đứt, có mũi tên đi từ đỉnh A đến đỉnh C'
@@ -57,11 +57,11 @@ arrow A C'
 - **Vectơ-không** $\vec{0}$ có điểm đầu trùng điểm cuối, chẳng hạn $\overrightarrow{AA}$.
 :::
 
-Mọi khái niệm giống hệt trong mặt phẳng; chỉ khác là giờ các vectơ có thể nằm trên những mặt phẳng khác nhau.
+Đừng lo, các khái niệm ở đây giống hệt trong mặt phẳng. Chỗ khác duy nhất là các vectơ giờ có thể nằm trên những mặt phẳng khác nhau.
 
-**Hiểu sâu hơn.** Một vectơ không "dính" vào vị trí của nó: $\overrightarrow{AA'}$ và $\overrightarrow{CC'}$ là cùng một vectơ, vì chúng mô tả cùng một sự dịch chuyển "đi lên $3$ m". Nhờ vậy ta được phép "trượt" một vectơ đến chỗ thuận tiện để nối đuôi các vectơ khác, như cách con kiến ghép ba đoạn đường thành một. Điểm mới so với mặt phẳng: hai vectơ bất kì luôn đặt được vào cùng một mặt phẳng, còn ba vectơ thì có thể không (khi đó ta nói ba vectơ không đồng phẳng).
+**Hiểu sâu hơn.** Một vectơ không "dính" vào vị trí của nó. $\overrightarrow{AA'}$ và $\overrightarrow{CC'}$ là cùng một vectơ, vì cả hai đều mô tả sự dịch chuyển "đi lên $3$ m". Vì vậy ta được phép "trượt" một vectơ đến chỗ thuận tiện để nối đuôi với các vectơ khác, giống như con kiến ghép ba đoạn đường thành một. Có một điểm mới so với mặt phẳng: hai vectơ bất kì luôn đặt được vào cùng một mặt phẳng, còn ba vectơ thì có thể không. Khi đó ta nói ba vectơ không đồng phẳng.
 
-**Kết nối.** Bài này mở rộng vectơ và tích vô hướng ở lớp 10 lên không gian, và dùng hình hộp, tứ diện của lớp 11. Ở bài sau, ta gắn vectơ với hệ trục toạ độ $Oxyz$ để mọi phép toán trở thành phép tính trên các con số.
+**Kết nối.** Bài này đưa vectơ và tích vô hướng ở lớp 10 lên không gian, đồng thời dùng hình hộp và tứ diện của lớp 11. Ở bài sau, ta gắn vectơ với hệ trục toạ độ $Oxyz$, để mọi phép toán trở thành phép tính trên các con số.
 
 :::example Nhận ra vectơ bằng nhau trong hình hộp
 Cho hình hộp $ABCD.A'B'C'D'$. Kể tên các vectơ khác $\overrightarrow{AA'}$, bằng $\overrightarrow{AA'}$ và có điểm đầu, điểm cuối là đỉnh của hình hộp. Làm tương tự với các vectơ đối của $\overrightarrow{AB}$.
@@ -79,7 +79,7 @@ Vậy có $3$ vectơ khác bằng $\overrightarrow{AA'}$ và $4$ vectơ đối c
 
 ## Tổng và hiệu của hai vectơ
 
-Tổng của hai vectơ được định nghĩa như trong mặt phẳng: đặt nối đuôi rồi nối điểm đầu với điểm cuối. Hai vectơ đặt chung gốc luôn nằm trong một mặt phẳng, nên mọi quy tắc cũ vẫn đúng.
+Cộng hai vectơ vẫn làm như trong mặt phẳng: đặt chúng nối đuôi nhau, rồi nối điểm đầu với điểm cuối. Vì sao các quy tắc cũ vẫn đúng? Vì hai vectơ đặt chung gốc luôn nằm trong một mặt phẳng, và trong mặt phẳng đó ta đã biết hết cách làm.
 
 :::theorem Các quy tắc cộng vectơ
 - **Quy tắc ba điểm:** với mọi điểm $A$, $B$, $C$: $\overrightarrow{AB}+\overrightarrow{BC}=\overrightarrow{AC}$ và $\overrightarrow{AB}-\overrightarrow{AC}=\overrightarrow{CB}$.
@@ -88,9 +88,9 @@ Tổng của hai vectơ được định nghĩa như trong mặt phẳng: đặt
 $$\overrightarrow{AB}+\overrightarrow{AD}+\overrightarrow{AA'}=\overrightarrow{AC'}.$$
 :::
 
-**Vì sao quy tắc hình hộp đúng?** Mặt $ABCD$ là hình bình hành nên $\overrightarrow{AB}+\overrightarrow{AD}=\overrightarrow{AC}$. Mặt $ACC'A'$ cũng là hình bình hành nên $\overrightarrow{AC}+\overrightarrow{AA'}=\overrightarrow{AC'}$. Ghép hai đẳng thức là xong. Đây đúng là đường đi của con kiến: $\overrightarrow{AB}+\overrightarrow{BC}+\overrightarrow{CC'}$, vì $\overrightarrow{BC}=\overrightarrow{AD}$ và $\overrightarrow{CC'}=\overrightarrow{AA'}$.
+**Vì sao quy tắc hình hộp đúng?** Mặt $ABCD$ là hình bình hành nên $\overrightarrow{AB}+\overrightarrow{AD}=\overrightarrow{AC}$. Mặt $ACC'A'$ cũng là hình bình hành nên $\overrightarrow{AC}+\overrightarrow{AA'}=\overrightarrow{AC'}$. Ghép hai đẳng thức lại là xong. Và đó chính là đường đi của con kiến: $\overrightarrow{AB}+\overrightarrow{BC}+\overrightarrow{CC'}$, vì $\overrightarrow{BC}=\overrightarrow{AD}$ và $\overrightarrow{CC'}=\overrightarrow{AA'}$.
 
-Ví dụ sau cho thấy cách "thay vectơ bằng vectơ bằng nó" để nối đuôi các vectơ.
+Trong ví dụ sau, ta làm một việc rất hay dùng: thay một vectơ bằng vectơ bằng nó, để các vectơ nối được đuôi nhau.
 
 :::example Rút gọn tổng vectơ
 Cho hình hộp $ABCD.A'B'C'D'$. Rút gọn
@@ -110,12 +110,14 @@ Vậy a) bằng $\overrightarrow{AC'}$, b) bằng $\overrightarrow{BD'}$.
 
 ## Tích của một số với một vectơ
 
-Với số $k\neq0$ và vectơ $\vec{a}\neq\vec{0}$, vectơ $k\vec{a}$ cùng hướng với $\vec{a}$ nếu $k>0$, ngược hướng nếu $k<0$, và có độ dài $|k|\cdot|\vec{a}|$. Các tính chất quen thuộc vẫn giữ nguyên, trong đó hai tính chất hay dùng nhất là:
+Lấy một số $k\neq0$ và một vectơ $\vec{a}\neq\vec{0}$. Vectơ $k\vec{a}$ cùng hướng với $\vec{a}$ nếu $k>0$, ngược hướng nếu $k<0$, và có độ dài $|k|\cdot|\vec{a}|$. Các tính chất quen thuộc vẫn giữ nguyên. Hai tính chất ta dùng nhiều nhất là:
 
-- Nếu $I$ là trung điểm của $AB$ thì với mọi điểm $M$: $\overrightarrow{MA}+\overrightarrow{MB}=2\overrightarrow{MI}$.
-- Nếu $G$ là trọng tâm tam giác $ABC$ thì $\overrightarrow{GA}+\overrightarrow{GB}+\overrightarrow{GC}=\vec{0}$, và với mọi $M$: $\overrightarrow{MA}+\overrightarrow{MB}+\overrightarrow{MC}=3\overrightarrow{MG}$.
+- Nếu $I$ là trung điểm của $AB$ thì với mọi điểm $M$ ta có $\overrightarrow{MA}+\overrightarrow{MB}=2\overrightarrow{MI}$.
+- Nếu $G$ là trọng tâm tam giác $ABC$ thì $\overrightarrow{GA}+\overrightarrow{GB}+\overrightarrow{GC}=\vec{0}$, và với mọi điểm $M$ ta có $\overrightarrow{MA}+\overrightarrow{MB}+\overrightarrow{MC}=3\overrightarrow{MG}$.
 
-Trong không gian, các điểm không bắt buộc nằm trong một mặt phẳng, nên ta hay "đi vòng" qua những điểm đã biết.
+Cả hai đẳng thức này sẽ còn xuất hiện nhiều lần, nên đáng nhớ kĩ.
+
+Trong không gian, các điểm không nhất thiết nằm trong cùng một mặt phẳng. Vì vậy ta thường phải "đi vòng": nối từ điểm này sang điểm kia qua những điểm đã biết. Ví dụ sau cho thấy cách làm đó.
 
 :::example Đoạn nối trung điểm hai cạnh đối của tứ diện
 Cho tứ diện $ABCD$. Gọi $M$, $N$ lần lượt là trung điểm của $AB$ và $CD$. Chứng minh rằng
@@ -153,14 +155,14 @@ arrow M N
 :::
 
 :::note Ba vectơ không đồng phẳng
-Ba vectơ gọi là **đồng phẳng** nếu giá của chúng cùng song song với một mặt phẳng. Ba vectơ $\overrightarrow{AB}$, $\overrightarrow{AD}$, $\overrightarrow{AA'}$ của hình hộp thì **không** đồng phẳng. Mọi vectơ trong không gian đều viết được duy nhất dưới dạng $x\overrightarrow{AB}+y\overrightarrow{AD}+z\overrightarrow{AA'}$. Đây là ý tưởng dẫn tới toạ độ trong không gian ở bài sau.
+Ba vectơ gọi là **đồng phẳng** nếu giá của chúng cùng song song với một mặt phẳng nào đó. Ba vectơ $\overrightarrow{AB}$, $\overrightarrow{AD}$, $\overrightarrow{AA'}$ của hình hộp thì **không** đồng phẳng. Mọi vectơ trong không gian đều viết được, và viết được duy nhất, dưới dạng $x\overrightarrow{AB}+y\overrightarrow{AD}+z\overrightarrow{AA'}$. Đó là ý tưởng dẫn tới toạ độ trong không gian ở bài sau.
 :::
 
 ## Tích vô hướng của hai vectơ
 
 ### Góc giữa hai vectơ
 
-Để đo góc giữa $\vec{a}$ và $\vec{b}$ (khác $\vec{0}$), ta lấy một điểm $O$ bất kì và vẽ $\overrightarrow{OA}=\vec{a}$, $\overrightarrow{OB}=\vec{b}$. Khi đó $(\vec{a}, \vec{b})=\widehat{AOB}$, một góc từ $0^\circ$ đến $180^\circ$. Điều quan trọng là **hai vectơ phải chung điểm đầu**. Chẳng hạn trong hình hộp, $\overrightarrow{A'C'}=\overrightarrow{AC}$ nên $(\overrightarrow{AB}, \overrightarrow{A'C'})=(\overrightarrow{AB}, \overrightarrow{AC})=\widehat{BAC}$.
+Muốn đo góc giữa $\vec{a}$ và $\vec{b}$ (cả hai khác $\vec{0}$), ta lấy một điểm $O$ bất kì rồi vẽ $\overrightarrow{OA}=\vec{a}$, $\overrightarrow{OB}=\vec{b}$. Khi đó $(\vec{a}, \vec{b})=\widehat{AOB}$, một góc từ $0^\circ$ đến $180^\circ$. Chỗ nhiều bạn hay nhầm là quên điều kiện **hai vectơ phải chung điểm đầu**. Chẳng hạn trong hình hộp, $\overrightarrow{A'C'}=\overrightarrow{AC}$ nên $(\overrightarrow{AB}, \overrightarrow{A'C'})=(\overrightarrow{AB}, \overrightarrow{AC})=\widehat{BAC}$.
 
 :::definition Tích vô hướng
 Tích vô hướng của hai vectơ $\vec{a}$, $\vec{b}$ khác $\vec{0}$ là **số**
@@ -168,10 +170,10 @@ $$\vec{a}\cdot\vec{b}=|\vec{a}|\cdot|\vec{b}|\cdot\cos(\vec{a}, \vec{b}).$$
 Nếu một trong hai vectơ là $\vec{0}$ thì $\vec{a}\cdot\vec{b}=0$.
 :::
 
-Tích vô hướng có các tính chất như trong mặt phẳng: giao hoán, phân phối với phép cộng, và
+Tích vô hướng có các tính chất như trong mặt phẳng: giao hoán và phân phối với phép cộng. Ba hệ thức dưới đây là những cái ta dùng nhiều nhất.
 $$\vec{a}^2=|\vec{a}|^2,\qquad \vec{a}\perp\vec{b}\iff\vec{a}\cdot\vec{b}=0,\qquad \cos(\vec{a}, \vec{b})=\frac{\vec{a}\cdot\vec{b}}{|\vec{a}|\cdot|\vec{b}|}.$$
 
-Bây giờ ta trả lời câu hỏi ở đầu bài. Các cạnh $AB$, $AD$, $AA'$ của hình hộp chữ nhật đôi một vuông góc, nên mọi tích vô hướng chéo bằng $0$.
+Bây giờ ta quay lại sợi dây ở đầu bài. Ba cạnh $AB$, $AD$, $AA'$ của hình hộp chữ nhật đôi một vuông góc, nên tích vô hướng của hai cạnh khác nhau luôn bằng $0$. Chính điều đó làm phép tính dưới đây gọn đi nhiều.
 
 :::example Độ dài sợi dây trang trí
 Hình hộp chữ nhật $ABCD.A'B'C'D'$ có $AB=5$, $AD=4$, $AA'=3$ (mét). Tính độ dài $AC'$.
@@ -189,7 +191,7 @@ Vậy sợi dây dài khoảng $7{,}07$ m.
 **Nhìn lại.** Nếu phòng cao gấp đôi ($6$ m) thì sợi dây có dài gấp đôi không? Khi đó $AC'^2=25+16+36=77$, $AC'\approx8{,}77$ m, dài hơn chưa đến $2$ m. Độ dài đường chéo không tỉ lệ với từng kích thước. Lời giải cũng cho thấy công thức $AC'^2=AB^2+AD^2+AA'^2$ chỉ đúng vì ba cạnh vuông góc: với hình hộp xiên, ba tích vô hướng trong ngoặc khác $0$ và phải được tính thêm.
 :::
 
-Cách làm trên dùng được cả khi các cạnh không vuông góc, miễn là ta biết các tích vô hướng. Ví dụ cuối dùng nó để tìm một góc trong hình lập phương.
+Cách làm trên vẫn dùng được khi các cạnh không vuông góc, miễn là ta biết các tích vô hướng. Ví dụ cuối cùng dùng đúng cách ấy để tìm một góc trong hình lập phương.
 
 :::example Góc giữa hai đường chéo của hai mặt
 Cho hình lập phương $ABCD.A'B'C'D'$ cạnh $a$. Tính góc $(\overrightarrow{AC}, \overrightarrow{A'D})$.
@@ -212,10 +214,12 @@ Vậy $(\overrightarrow{AC}, \overrightarrow{A'D})=60^\circ$.
 :::
 
 :::warning Những sai lầm thường gặp
-- **Cộng độ dài thay cho cộng vectơ.** Sai: $|\overrightarrow{AB}+\overrightarrow{AD}+\overrightarrow{AA'}|=5+4+3=12$. Vì sao sai: đó là quãng đường con kiến bò, không phải độ dời. Đúng: $|\overrightarrow{AC'}|=\sqrt{50}\approx7{,}07$.
-- **Đo góc khi hai vectơ chưa chung điểm đầu.** Sai: trong hình vuông $ABCD$, viết $(\overrightarrow{AB}, \overrightarrow{BD})=\widehat{ABD}=45^\circ$. Vì sao sai: $\widehat{ABD}$ là góc giữa $\overrightarrow{BA}$ và $\overrightarrow{BD}$, mà $\overrightarrow{BA}=-\overrightarrow{AB}$. Đúng: $(\overrightarrow{AB}, \overrightarrow{BD})=180^\circ-45^\circ=135^\circ$.
+- **Cộng độ dài thay cho cộng vectơ.** Chỗ này nhiều bạn hay nhầm. Sai: $|\overrightarrow{AB}+\overrightarrow{AD}+\overrightarrow{AA'}|=5+4+3=12$. Vì sao sai: đó là quãng đường con kiến bò, chứ không phải độ dời. Đúng: $|\overrightarrow{AC'}|=\sqrt{50}\approx7{,}07$.
+- **Đo góc khi hai vectơ chưa chung điểm đầu.** Sai: trong hình vuông $ABCD$, viết $(\overrightarrow{AB}, \overrightarrow{BD})=\widehat{ABD}=45^\circ$. Vì sao sai: $\widehat{ABD}$ thực ra là góc giữa $\overrightarrow{BA}$ và $\overrightarrow{BD}$, mà $\overrightarrow{BA}=-\overrightarrow{AB}$ ngược hướng với vectơ ban đầu. Đúng: $(\overrightarrow{AB}, \overrightarrow{BD})=180^\circ-45^\circ=135^\circ$.
 - **Sai hướng một cạnh trong quy tắc hình hộp.** Sai: $\overrightarrow{AB}+\overrightarrow{AD}+\overrightarrow{A'A}=\overrightarrow{AC'}$. Vì sao sai: $\overrightarrow{A'A}=-\overrightarrow{AA'}$, đi xuống chứ không đi lên. Đúng: $\overrightarrow{AB}+\overrightarrow{AD}+\overrightarrow{A'A}=\overrightarrow{AC}-\overrightarrow{AA'}=\overrightarrow{A'C}$.
-- **Coi tích vô hướng là vectơ.** $\vec{a}\cdot\vec{b}$ là một **số**; viết $\overrightarrow{AB}\cdot\overrightarrow{AD}=\overrightarrow{AC}$ là sai.
+- **Coi tích vô hướng là vectơ.** $\vec{a}\cdot\vec{b}$ là một **số**, không phải vectơ. Vì vậy viết $\overrightarrow{AB}\cdot\overrightarrow{AD}=\overrightarrow{AC}$ là sai.
+
+Đừng lo nếu bạn từng mắc vài lỗi trên, hầu như ai mới học cũng vậy. Viết rõ điểm đầu của từng vectơ trước khi tính sẽ tránh được phần lớn chúng.
 :::
 
 ## Thuật ngữ
@@ -234,16 +238,18 @@ Vậy $(\overrightarrow{AC}, \overrightarrow{A'D})=60^\circ$.
 
 ## Tóm tắt
 
-- Vectơ, độ dài, vectơ bằng nhau, đối nhau trong không gian định nghĩa như trong mặt phẳng.
-- Quy tắc ba điểm, hình bình hành vẫn đúng; thêm quy tắc hình hộp $\overrightarrow{AB}+\overrightarrow{AD}+\overrightarrow{AA'}=\overrightarrow{AC'}$.
+- Vectơ, độ dài, vectơ bằng nhau và đối nhau trong không gian được định nghĩa như trong mặt phẳng.
+- Quy tắc ba điểm và quy tắc hình bình hành vẫn đúng; ta thêm quy tắc hình hộp $\overrightarrow{AB}+\overrightarrow{AD}+\overrightarrow{AA'}=\overrightarrow{AC'}$.
 - Trung điểm $I$ của $AB$: $\overrightarrow{MA}+\overrightarrow{MB}=2\overrightarrow{MI}$; trọng tâm $G$: $\overrightarrow{GA}+\overrightarrow{GB}+\overrightarrow{GC}=\vec{0}$.
-- Góc giữa hai vectơ: đặt chung điểm đầu, góc từ $0^\circ$ đến $180^\circ$.
+- Góc giữa hai vectơ: đặt hai vectơ chung điểm đầu, góc nằm từ $0^\circ$ đến $180^\circ$.
 - $\vec{a}\cdot\vec{b}=|\vec{a}||\vec{b}|\cos(\vec{a}, \vec{b})$; $\vec{a}^2=|\vec{a}|^2$; $\vec{a}\perp\vec{b}\iff\vec{a}\cdot\vec{b}=0$.
-- Tính độ dài: biểu diễn vectơ qua các cạnh đã biết rồi bình phương vô hướng.
+- Muốn tính độ dài: biểu diễn vectơ qua các cạnh đã biết, rồi bình phương vô hướng.
+
+Quay lại câu hỏi đầu bài: sợi dây đi theo hướng của vectơ tổng ba cạnh xuất phát từ một đỉnh, và độ dài của nó tìm được nhờ bình phương vô hướng. Điều đáng nhớ là cách làm này dùng được cả khi các cạnh không vuông góc, miễn là ta biết các tích vô hướng. Bạn hãy thử sức với phần luyện tập để quen tay.
 
 ## Luyện tập
 
-Mỗi bài có phần kiến thức và gợi ý các bước. Hãy tự làm trước, rồi mới bấm xem lời giải.
+Mỗi bài có phần kiến thức cần dùng và vài bước gợi ý để bắt đầu. Bạn hãy tự làm trước, kể cả khi chưa chắc, rồi mới bấm xem lời giải. Tự làm sai rồi tự sửa thường nhớ lâu hơn là đọc lời giải ngay.
 
 :::exercise
 Cho hình hộp $ABCD.A'B'C'D'$. Rút gọn

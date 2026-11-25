@@ -10,13 +10,13 @@ minutes: 15
 - So sánh các cột bằng phép trừ, tính tổng và trung bình cộng từ biểu đồ.
 :::
 
-Thư viện lớp em ghi số quyển sách các bạn mượn mỗi ngày trong tuần rồi vẽ thành biểu đồ cột. Ngày nào các bạn mượn nhiều sách nhất? Ngày nào ít nhất?
+Thư viện lớp em ghi lại số quyển sách các bạn mượn mỗi ngày trong tuần rồi vẽ thành biểu đồ cột. Chỉ cần liếc qua biểu đồ, em có thể nói ngay ngày nào các bạn mượn nhiều sách nhất, ngày nào ít nhất không?
 
-Em đã biết đọc một dãy số liệu. Biểu đồ cột giúp em nhìn các số liệu đó thành những cột cao thấp khác nhau.
+Em đã biết đọc một dãy số liệu. Nhưng trong một dãy số dài, khó thấy ngay số nào lớn, số nào bé. Biểu đồ cột biến các số liệu đó thành những cột cao thấp khác nhau, nên chỉ cần nhìn là so sánh được. Ta cùng tập đọc một biểu đồ như thế.
 
 ## Cùng khám phá
 
-Hãy nhìn biểu đồ dưới đây.
+Ta nhìn biểu đồ dưới đây. Nó cho biết số quyển sách mượn trong từng ngày.
 
 :::diagram Số quyển sách mượn mỗi ngày trong tuần
 alt: Biểu đồ cột có năm cột ứng với T2 đến T6, cao lần lượt 6, 10, 8, 12 và 4; trục dọc ghi các số 2, 4, đến 12
@@ -64,21 +64,21 @@ label 0.3,10 "10"
 label 0.3,12 "12"
 :::
 
-- Các cột đứng cạnh nhau. Mỗi cột ứng với một ngày: T2 là Thứ Hai, T3 là Thứ Ba, và cứ thế.
+- Các cột đứng cạnh nhau, mỗi cột là một ngày: T2 là Thứ Hai, T3 là Thứ Ba, và cứ thế.
 - Trên đỉnh mỗi cột có ghi số quyển sách. Cột Thứ Hai ghi $6$.
-- Mép trái ghi các số $2, 4, 6, \ldots, 12$. Đó là số quyển sách.
+- Dọc mép trái là các số $2, 4, 6, \ldots, 12$. Đó là số quyển sách.
 
-Cột nào cao hơn thì số quyển sách nhiều hơn. Cột Thứ Năm cao nhất, ghi $12$. Cột Thứ Sáu thấp nhất, ghi $4$. Vậy Thứ Năm mượn nhiều nhất, Thứ Sáu ít nhất.
+Cột nào cao hơn thì số quyển sách nhiều hơn. Cột Thứ Năm cao nhất, ghi $12$. Cột Thứ Sáu thấp nhất, ghi $4$. Vậy Thứ Năm mượn nhiều nhất, Thứ Sáu ít nhất. Câu hỏi đầu bài đã có lời đáp, mà ta chỉ cần so độ cao các cột.
 
 :::definition Biểu đồ cột
 **Biểu đồ cột** dùng các cột có chiều rộng bằng nhau để biểu diễn số liệu. **Trục ngang** cho biết các đối tượng (ví dụ các ngày). **Trục dọc** cho biết số liệu. Cột càng cao thì số liệu càng lớn.
 :::
 
-Khi đọc một biểu đồ cột, em làm ba việc: xem tên biểu đồ và hai trục để biết biểu đồ nói về gì; xem mỗi vạch ứng với mấy đơn vị; rồi nhìn đỉnh cột để đọc số liệu.
+Khi đọc một biểu đồ cột, em làm ba việc: xem tên biểu đồ và hai trục để biết biểu đồ nói về gì; xem mỗi vạch ứng với mấy đơn vị; rồi nhìn đỉnh cột để đọc số liệu. Việc thứ hai hay bị bỏ quên, trong khi mỗi biểu đồ có thể chia vạch khác nhau. Em nhìn kĩ vạch chia trước khi đọc nhé.
 
 ## Ví dụ
 
-Ta bắt đầu bằng việc đọc số liệu của từng cột.
+Ta bắt đầu từ việc dễ nhất: đọc số liệu ở đỉnh từng cột.
 
 :::example Đọc biểu đồ
 Dùng biểu đồ trên. Hỏi: a) Thứ Ba các bạn mượn bao nhiêu quyển? b) Ngày nào mượn nhiều nhất, bao nhiêu quyển? c) Ngày nào mượn ít nhất?
@@ -92,7 +92,7 @@ b) Cột cao nhất là cột Thứ Năm, ghi $12$. Vậy Thứ Năm mượn nhi
 c) Cột thấp nhất là cột Thứ Sáu. Vậy Thứ Sáu mượn ít nhất, $4$ quyển.
 :::
 
-Bây giờ ta so sánh hai cột bằng phép trừ.
+Đọc được từng cột rồi, ta có thể hỏi một cột hơn cột kia bao nhiêu. Câu hỏi "hơn bao nhiêu" luôn dùng phép trừ.
 
 :::example So sánh hai cột
 Thứ Năm các bạn mượn nhiều hơn Thứ Hai bao nhiêu quyển?
@@ -102,7 +102,7 @@ $$12-6=6\ \text{(quyển)}.$$
 Vậy Thứ Năm mượn nhiều hơn Thứ Hai $6$ quyển.
 :::
 
-Ta cũng có thể cộng các cột và tìm trung bình cộng.
+Ta cũng có thể gộp tất cả các cột lại. Cộng chúng thì được tổng, chia tổng cho số ngày thì được trung bình cộng.
 
 :::example Cả tuần
 Cả tuần các bạn mượn tất cả bao nhiêu quyển? Trung bình mỗi ngày mượn bao nhiêu quyển?
@@ -114,7 +114,7 @@ $$40:5=8\ \text{(quyển)}.$$
 Vậy cả tuần mượn $40$ quyển, trung bình mỗi ngày $8$ quyển.
 :::
 
-Cuối cùng, ta tìm các cột thoả một điều kiện.
+Có khi đề không hỏi một cột mà hỏi những cột nào thoả một điều kiện. Khi đó ta xét lần lượt từng cột.
 
 :::example Hơn $7$ quyển
 Những ngày nào các bạn mượn nhiều hơn $7$ quyển?
@@ -125,9 +125,10 @@ Vậy các ngày mượn nhiều hơn $7$ quyển là Thứ Ba, Thứ Tư và Th
 :::
 
 :::warning Những lỗi em hay gặp
-- **Đọc nhầm cột.** Sai: nhìn cột Thứ Tư rồi đọc số của cột Thứ Ba. Vì sao sai: mỗi cột ứng với đúng một ngày. Đúng: đọc số ngay trên đỉnh cột của ngày đó.
-- **Cộng thay vì trừ khi so sánh.** Sai: Thứ Năm hơn Thứ Hai là $12+6=18$ quyển. Vì sao sai: "hơn bao nhiêu" là hiệu hai số. Đúng: $12-6=6$.
+- **Đọc nhầm cột.** Sai: nhìn cột Thứ Tư rồi đọc số của cột Thứ Ba. Vì sao sai: mỗi cột ứng với đúng một ngày. Đúng: đọc số ngay trên đỉnh cột của ngày cần tìm.
+- **Cộng thay vì trừ khi so sánh.** Sai: Thứ Năm hơn Thứ Hai là $12+6=18$ quyển. Vì sao sai: "hơn bao nhiêu" là hiệu của hai số. Đúng: $12-6=6$.
 - **Bỏ sót một cột khi tính tổng.** Sai: $6+10+8+12=36$. Vì sao sai: quên cột Thứ Sáu. Đúng: $6+10+8+12+4=40$.
+Những lỗi này đều do làm vội. Em đọc chậm một nhịp và đếm lại các cột là tránh được.
 :::
 
 ## Thuật ngữ
@@ -149,10 +150,11 @@ Vậy các ngày mượn nhiều hơn $7$ quyển là Thứ Ba, Thứ Tư và Th
 - Đọc số liệu ở đỉnh mỗi cột.
 - Hơn kém bao nhiêu: lấy số lớn trừ số bé.
 - Tổng: cộng tất cả các cột; trung bình cộng: lấy tổng chia cho số cột.
+Vậy ngày nào cột cao nhất thì mượn nhiều nhất, ngày nào cột thấp nhất thì mượn ít nhất. Em chỉ cần nhớ: muốn đọc biểu đồ cột, hãy nhìn đỉnh cột. Làm thêm vài bài luyện tập, em sẽ thấy quen ngay.
 
 ## Luyện tập
 
-Các bài dưới đây dùng biểu đồ trong bài học (số quyển sách mượn: T2 $6$, T3 $10$, T4 $8$, T5 $12$, T6 $4$) hoặc mô tả biểu đồ bằng lời. Em hãy tự làm trước, rồi mới bấm xem lời giải.
+Các bài dưới đây dùng biểu đồ trong bài học (số quyển sách mượn: T2 $6$, T3 $10$, T4 $8$, T5 $12$, T6 $4$) hoặc mô tả biểu đồ bằng lời. Em cứ thong thả, tự làm trước, rồi mới bấm xem lời giải để đối chiếu.
 
 :::exercise
 Ngày nào các bạn mượn ít nhất, và mượn bao nhiêu quyển?
@@ -348,7 +350,7 @@ Vậy cột A cao $12$, cột B cao $8$, cột C cao $5$ và tổng chiều cao 
 
 ## Kiểm tra mini
 
-Các câu dưới đây dùng biểu đồ số quyển sách mượn trong bài (T2 $6$, T3 $10$, T4 $8$, T5 $12$, T6 $4$).
+Các câu dưới đây dùng biểu đồ số quyển sách mượn trong bài (T2 $6$, T3 $10$, T4 $8$, T5 $12$, T6 $4$). Em nhìn kĩ đỉnh từng cột trước khi chọn đáp án.
 
 :::quiz
 ::mc NB

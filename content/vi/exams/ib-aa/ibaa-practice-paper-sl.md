@@ -5,7 +5,7 @@ minutes: 90
 type: exam
 ---
 
-Đề luyện này theo cấu trúc **Paper 1** của IB Mathematics: Analysis and Approaches SL: 90 phút, **không dùng máy tính**, 80 điểm, gồm các câu ngắn ở Section A và các câu dài ở Section B. Mọi câu hỏi đều do Lemonmath soạn; đây không phải câu hỏi IB thật, nhưng bám theo chương trình và phong cách đề thi, kể cả số điểm [n marks] sau mỗi ý.
+Khi không có máy tính trong tay, bạn phải tự mình làm từng bước, và cách duy nhất để quen là làm trọn một đề có bấm giờ. Đề luyện này theo cấu trúc **Paper 1** của IB Mathematics: Analysis and Approaches SL: 90 phút, **không dùng máy tính**, 80 điểm, gồm các câu ngắn ở Section A và các câu dài ở Section B. Mọi câu hỏi đều do Lemonmath soạn; đây không phải câu hỏi IB thật, nhưng bám theo chương trình và phong cách đề thi, kể cả số điểm [n marks] sau mỗi ý.
 
 | | Section A | Section B |
 |---|---|---|
@@ -13,7 +13,7 @@ type: exam
 | Số điểm | 42 | 38 |
 | Thời gian gợi ý | khoảng 45 phút | khoảng 45 phút |
 
-**Hướng dẫn.** Trả lời tất cả các câu. Trình bày lời giải: đáp số đúng mà không có lời giải có thể không được trọn điểm. Ghi đáp số chính xác, như phân số, căn thức hay bội của $\pi$, trừ khi đề yêu cầu khác. Làm ra giấy có bấm giờ. Dưới mỗi câu có một gợi ý ngắn: hãy che lại trừ khi bị tắc, và chỉ mở lời giải sau khi đã làm xong.
+**Hướng dẫn.** Trả lời tất cả các câu. Trình bày lời giải, vì đáp số đúng mà không có lời giải có thể không được trọn điểm. Ghi đáp số chính xác, như phân số, căn thức hay bội của $\pi$, trừ khi đề yêu cầu khác. Làm ra giấy có bấm giờ. Dưới mỗi câu có một gợi ý ngắn: hãy che lại trừ khi bị tắc, và chỉ mở lời giải sau khi đã làm xong.
 
 ## Section A
 
@@ -193,4 +193,4 @@ Trong một trò chơi, xác suất thắng mỗi lượt là $\dfrac14$, độc
 
 ## Sau khi làm đề
 
-Cộng điểm trên 80, từng ý một, như một giám khảo: điểm phương pháp vẫn được tính khi đáp số sai. Ngưỡng điểm thay đổi theo từng kì thi, vì vậy hãy dùng điểm số để tìm chủ đề còn yếu thay vì đoán mức điểm. Với mỗi điểm bị mất, hãy ôn lại bài tương ứng: [Số và đại số](lesson:ibaa-number-algebra) (bài 1, 3, 5), [Hàm số](lesson:ibaa-functions) (bài 2), [Hình học và lượng giác](lesson:ibaa-geometry-trigonometry) (bài 4, 9), [Thống kê và xác suất](lesson:ibaa-statistics-probability) (bài 6, 10), [Giải tích](lesson:ibaa-calculus) (bài 7, 8).
+Cộng điểm trên 80, từng ý một, như một giám khảo: điểm phương pháp vẫn được tính khi đáp số sai. Ngưỡng điểm thay đổi theo từng kì thi, vì vậy hãy dùng điểm số để tìm chủ đề còn yếu thay vì đoán mức điểm. Với mỗi điểm bị mất, hãy ôn lại bài tương ứng: [Số và đại số](lesson:ibaa-number-algebra) (bài 1, 3, 5), [Hàm số](lesson:ibaa-functions) (bài 2), [Hình học và lượng giác](lesson:ibaa-geometry-trigonometry) (bài 4, 9), [Thống kê và xác suất](lesson:ibaa-statistics-probability) (bài 6, 10), [Giải tích](lesson:ibaa-calculus) (bài 7, 8). Làm xong đề mới được nửa chặng. Chặng còn lại là quay về sửa những chỗ đã hụt, rồi thử làm lại câu đó.

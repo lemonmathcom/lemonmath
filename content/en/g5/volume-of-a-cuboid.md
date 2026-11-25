@@ -12,19 +12,19 @@ minutes: 15
 
 Mai has a box in the shape of a cuboid. It is $4$ cm long, $3$ cm wide and $2$ cm high. Mai wants to fill it with small cubes, each with edges of $1$ cm. How many cubes does she need?
 
-You could pack the cubes and count them one by one. But with a bigger box that takes a very long time. This lesson shows you a quick way.
+You could pack the cubes and count them one by one, and that would give the right answer. But what if the box were much bigger? Counting would take ages. There is a quicker way: you only need the three measurements of the box. Let's find it.
 
 ## Let's explore
 
-Each small cube with edges of $1$ cm has a volume of $1$ cm³. So the number of cubes that fill the box is the volume of the box, in cm³.
+First we need a way to measure how much space the box holds. Each small cube with edges of $1$ cm has a volume of $1$ cm³. If some number of these cubes fill the box, the volume is that many cm³. So the number of cubes that fill the box is the volume of the box, in cm³.
 
-Mai packs the box layer by layer:
+Mai builds it up one layer at a time, starting from the bottom:
 
-- The bottom layer has $4$ cubes along the length and $3$ rows along the width. This layer has $4\times3=12$ cubes.
-- The box is $2$ cm high, so there are $2$ layers like this.
-- The number of cubes is $12\times2=24$.
+- The bottom layer covers the base of the box: $4$ cubes along the length and $3$ rows along the width. This layer has $4\times3=12$ cubes.
+- The box is $2$ cm high, so there are $2$ layers exactly like this.
+- Every layer has the same number of cubes, so the number of cubes is $12\times2=24$.
 
-So the box has a volume of $24$ cm³. You see: $24=4\times3\times2$, which is the three measurements of the box multiplied together.
+So the box has a volume of $24$ cm³. Notice that $24=4\times3\times2$. The number of cubes is just the three measurements of the box multiplied together. That is no accident, and we will see why in a moment.
 
 :::diagram A box 4 cm long, 3 cm wide and 2 cm high
 alt: A cuboid drawn in perspective with the hidden edges dashed; length 4 cm, width 3 cm, height 2 cm
@@ -59,11 +59,11 @@ $$V=a\times b\times c.$$
 If $a$, $b$ and $c$ are in cm, then $V$ is in cm³. It is the same with dm and m.
 :::
 
-The rule works because the bottom layer has $a\times b$ cubes, which is the base area. The box has $c$ layers, so the number of cubes is $a\times b\times c$. So you can also remember: volume is base area times height.
+Why does the rule work? The bottom layer has $a\times b$ cubes, which is also the base area. The box has $c$ layers like that, so the number of cubes is $a\times b\times c$. Here is another way to remember it: volume is base area times height. That will help us in the last example.
 
 ## Examples
 
-We start with a cuboid whose three measurements are in the same unit.
+We start with the easiest case: a cuboid whose three measurements are in the same unit, so we just multiply the three numbers.
 
 :::example Find the volume of a cuboid $6$ cm long, $4$ cm wide and $5$ cm high
 **Solution.** All three measurements are in cm, so multiply the three numbers:
@@ -71,7 +71,7 @@ $$V=6\times4\times5=120\ (\text{cm}^3).$$
 So the volume of the cuboid is $120$ cm³.
 :::
 
-Now use the rule on an object from everyday life.
+The rule is not only for boxes. A classroom is a cuboid too, so let's work out how much air it holds.
 
 :::example Volume of a classroom
 A classroom is a cuboid $8$ m long, $6$ m wide and $3$ m high. What is the volume of the air in the room, in cubic metres?
@@ -81,7 +81,7 @@ $$V=8\times6\times3=144\ (\text{m}^3).$$
 So the volume of air in the room is $144$ m³.
 :::
 
-Sometimes the measurements are in different units. Then you change them to the same unit first.
+Sometimes the measurements come in different units. This is where many people slip: if you multiply straight away, the answer will be wrong, because the three numbers must be in the same unit. Change them to one unit first, then calculate.
 
 :::example A box with two units
 A cuboid-shaped box is $2$ dm long, $15$ cm wide and $10$ cm high. Find its volume in cm³.
@@ -91,7 +91,7 @@ $$V=20\times15\times10=3000\ (\text{cm}^3).$$
 So the volume of the box is $3000$ cm³.
 :::
 
-Finally, we go the other way: we know the volume and look for a missing measurement.
+Finally, let's work backwards. If you know the volume and two of the measurements, can you find the third? You can, because volume is base area times height.
 
 :::example Find the height
 A cuboid has volume $90$ cm³, length $6$ cm and width $5$ cm. Find its height.
@@ -106,8 +106,8 @@ So the height of the cuboid is $3$ cm.
 :::
 
 :::warning Mistakes to watch out for
-- **Adding instead of multiplying.** Wrong: $4+3+2=9$. Why it is wrong: volume counts the cubes in the layers, so you must multiply. Right: $4\times3\times2=24$.
-- **Not changing to the same unit.** Wrong: length $2$ dm, width $15$ cm, height $10$ cm, then $2\times15\times10=300$. Why it is wrong: $2$ dm and $15$ cm are not in the same unit. Right: $20\times15\times10=3000$ (cm³).
+- **Adding instead of multiplying.** Wrong: $4+3+2=9$. Why it is wrong: identical layers are stacked on top of each other, so you must multiply, not add. Right: $4\times3\times2=24$.
+- **Not changing to the same unit.** Wrong: length $2$ dm, width $15$ cm, height $10$ cm, then $2\times15\times10=300$. Why it is wrong: $2$ dm and $15$ cm are not in the same unit, so multiplying them directly means nothing. Right: $20\times15\times10=3000$ (cm³).
 - **Mixing up cm² and cm³.** Wrong: "The volume is $24$ cm²". Why it is wrong: volume counts cubes, so the unit is a cubic unit. Right: "$24$ cm³".
 :::
 
@@ -132,10 +132,11 @@ So the height of the cuboid is $3$ cm.
 - The three measurements must be in the same unit. If they are not, change them before you calculate.
 - Units of volume are cm³, dm³, m³.
 - Volume is base area times height, so height is volume divided by base area.
+Back to Mai's question: multiply the three measurements of the box and you know the number of cubes without packing a single one. Remember just one thing: change everything to the same unit, then multiply. Try a few practice questions to make it stick.
 
 ## Practice
 
-Each exercise comes with what you need and how to start. Try it yourself first, then open the solution.
+Each exercise comes with a reminder of what you need and a hint to get started. Try it yourself first, and do not worry if you go wrong. Then open the solution.
 
 :::exercise
 Find the volume of a cuboid $7$ cm long, $3$ cm wide and $4$ cm high.

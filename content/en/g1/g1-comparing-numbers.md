@@ -13,16 +13,16 @@ minutes: 15
 
 Lan has $6$ sweets and Nam has $8$ sweets. Who has more sweets? How do you write that with signs?
 
-In the last lesson you matched pairs to find which group has more. Now you compare two numbers straight away, with no matching.
+In the last lesson you matched pairs to find which group has more. That works, but it takes time. Once you know the numbers, you can compare them directly, with no matching at all.
 
 ## Let's explore
 
-Look at the numbers in a row on a number line.
+Look at the numbers standing in a row on a number line, like people standing in a queue.
 
 - A number on the right is counted later, so it is greater.
 - A number on the left is counted earlier, so it is less.
 
-The number $6$ is to the left of $8$. So $6$ is less than $8$, and $8$ is greater than $6$.
+Take the two numbers from the question at the start. The number $6$ is to the left of $8$. So $6$ is less than $8$, and $8$ is greater than $6$.
 
 :::graph On the number line, the number on the right is greater
 alt: A number line from 0 to 10 with 6 and 8 marked; 8 is to the right of 6
@@ -33,7 +33,7 @@ point: (6, 0) "6" below
 point: (8, 0) "8" below
 :::
 
-You use these signs. The open mouth of each sign faces the greater number.
+To write this quickly, we use signs. The open mouth of the sign always faces the greater number.
 
 - $8>6$ is read "eight is greater than six".
 - $6<8$ is read "six is less than eight".
@@ -45,11 +45,11 @@ You use these signs. The open mouth of each sign faces the greater number.
 3. The signs $>$ and $<$ always open towards the greater number.
 :::
 
-This works because when you count, each number is one more thing than the number before. The number counted later has more things.
+Why is the number on the right greater? When you count, each number is one more thing than the number before. The number counted later has more things.
 
 ## Examples
 
-We start with the question from the beginning.
+We answer the opening question first, about Lan's and Nam's sweets.
 
 :::example Lan's and Nam's sweets
 Lan has $6$ sweets and Nam has $8$ sweets. Compare $8$ and $6$.
@@ -61,7 +61,7 @@ Lan has $6$ sweets and Nam has $8$ sweets. Compare $8$ and $6$.
 So $8>6$, and Nam has more sweets.
 :::
 
-Sometimes the two numbers are the same.
+Sometimes the two numbers are exactly the same, and neither is greater. Which sign do we write then?
 
 :::example Two equal numbers
 Write the right sign: $4 \;\square\; 4$.
@@ -71,7 +71,7 @@ Write the right sign: $4 \;\square\; 4$.
 So $4=4$.
 :::
 
-Next, the first number is less than the second.
+And when the first number is less than the second? Look at the number line to decide which way the mouth of the sign opens.
 
 :::example Fill in the sign
 Write the right sign: $3 \;\square\; 9$.
@@ -81,7 +81,7 @@ Write the right sign: $3 \;\square\; 9$.
 So $3<9$.
 :::
 
-Last, put three numbers in order.
+Once you can compare two numbers, you can put three in order. We find the least number first.
 
 :::example Putting numbers in order
 Put the numbers $7, 2, 9$ in order from least to greatest.
@@ -94,9 +94,9 @@ So the order is $2, 7, 9$.
 :::
 
 :::warning Mistakes to watch out for
-- **Opening the sign the wrong way.** Wrong: $4<2$. Why it is wrong: the mouth must open towards the greater number, and $4$ is greater than $2$. Right: $4>2$.
+- **Opening the sign the wrong way.** This slip is a common one. Wrong: $4<2$. Why it is wrong: the mouth must open towards the greater number, and $4$ is greater than $2$. Right: $4>2$.
 - **Thinking the number that comes first is greater.** Wrong: $5>8$ because $5$ comes first. Why it is wrong: the number counted later is greater. Right: $5<8$.
-- **Forgetting that $0$ is the least.** Wrong: the least number in $0, 3, 6$ is $3$. Why it is wrong: $0$ is at the start of the row. Right: the least number is $0$.
+- **Forgetting that $0$ is the least.** Wrong: the least number in $0, 3, 6$ is $3$. Why it is wrong: $0$ is at the start of the row, so $0$ is less than every other number. Right: the least number is $0$.
 :::
 
 ## Key terms
@@ -119,9 +119,11 @@ So the order is $2, 7, 9$.
 - The signs $>$ and $<$ open towards the greater number.
 - To put numbers in order from least to greatest, find the least one first.
 
+Back to the opening question: Nam has more sweets, because the number on the right of the number line is the greater one. Remember that the mouth of the sign opens towards the greater number, then try some exercises.
+
 ## Practice
 
-Each exercise comes with what you need and how to start. Try it yourself first, then open the solution.
+Each exercise has the key idea and a hint to get you started. Try it yourself first, look at the hint if you are stuck, and open the solution last. Going slowly is fine.
 
 :::exercise
 Write $>$, $<$ or $=$: $7 \;\square\; 5$.

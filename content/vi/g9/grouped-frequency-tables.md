@@ -10,23 +10,23 @@ minutes: 20
 - Vẽ và đọc được biểu đồ tần số (tương đối) ghép nhóm dạng cột và dạng đoạn thẳng.
 :::
 
-Giả sử thầy giáo thể dục đo chiều cao (cm) của 20 bạn trong đội tuyển điền kinh:
+Giả sử thầy giáo thể dục vừa đo chiều cao (cm) của 20 bạn trong đội tuyển điền kinh và ghi lại như sau:
 
 $$154,\ 161,\ 164,\ 151,\ 161,\ 155,\ 153,\ 163,\ 159,\ 159,\ 154,\ 149,\ 155,\ 146,\ 158,\ 168,\ 169,\ 159,\ 152,\ 157.$$
 
-Nếu lập bảng tần số như bài trước, ta được tới 15 giá trị khác nhau, phần lớn chỉ xuất hiện một lần: bảng dài mà chẳng cho thấy gì. Trong khi thầy chỉ cần biết "bao nhiêu bạn cao từ 155 cm đến dưới 160 cm" để chọn cỡ áo. Làm sao để bảng vừa gọn vừa nói được điều cần nói?
+Nếu lập bảng tần số như ở bài trước, ta sẽ có tới 15 giá trị khác nhau, phần lớn chỉ xuất hiện một lần. Bảng dài như vậy mà chẳng nói được gì. Trong khi đó, để chọn cỡ áo, thầy chỉ cần biết "bao nhiêu bạn cao từ 155 cm đến dưới 160 cm". Làm sao để bảng vừa gọn, vừa nói được điều cần nói?
 
 ## Ghép nhóm số liệu
 
 ### Khám phá: gom theo từng khoảng 5 cm
 
-Ta chia các chiều cao vào các khoảng dài 5 cm rồi đếm:
+Thử một cách khác: ta chia các chiều cao vào các khoảng dài 5 cm, rồi đếm xem mỗi khoảng có bao nhiêu bạn:
 
 | Chiều cao (cm) | $[145; 150)$ | $[150; 155)$ | $[155; 160)$ | $[160; 165)$ | $[165; 170)$ |
 |---|---|---|---|---|---|
 | Số bạn | $2$ | $5$ | $7$ | $4$ | $2$ |
 
-Kí hiệu $[155; 160)$ gồm các số $x$ với $155\leq x<160$: bạn cao $155$ cm thuộc nhóm này, còn bạn cao $160$ cm thuộc nhóm sau. Bây giờ ta thấy ngay: nhóm $[155; 160)$ đông nhất, với $7$ bạn.
+Kí hiệu $[155; 160)$ gồm các số $x$ với $155\leq x<160$. Vậy bạn cao $155$ cm thuộc nhóm này, còn bạn cao $160$ cm thuộc nhóm sau. Giờ thì bảng nói được điều ta cần: nhóm $[155; 160)$ đông nhất, với $7$ bạn.
 
 :::definition Mẫu số liệu ghép nhóm
 - Ghép nhóm là chia các số liệu vào các **nhóm** $[a_1; a_2), [a_2; a_3), \ldots, [a_k; a_{k+1})$, mỗi số liệu thuộc đúng một nhóm. Với nhóm $[a; b)$: $a$ là **đầu mút trái**, $b$ là **đầu mút phải**, $b-a$ là **độ dài nhóm**, $\dfrac{a+b}{2}$ là **giá trị đại diện** của nhóm (số chính giữa nhóm trên trục số).
@@ -34,7 +34,7 @@ Kí hiệu $[155; 160)$ gồm các số $x$ với $155\leq x<160$: bạn cao $15
 - **Bảng tần số ghép nhóm** (**bảng tần số tương đối ghép nhóm**) ghi các nhóm và tần số (tần số tương đối) tương ứng.
 :::
 
-**Hiểu sâu hơn.** Ghép nhóm là "nhìn từ xa": bỏ bớt chi tiết (không còn biết ai cao $151$ hay $153$ cm) để thấy bức tranh chung. Các nhóm thường dài bằng nhau, nối tiếp nhau; dạng nửa khoảng $[a; b)$ bảo đảm số ở đầu mút chỉ được đếm một lần. Quá ít nhóm thì mất thông tin, quá nhiều nhóm thì lại rối; thường chọn 5 đến 8 nhóm.
+**Hiểu sâu hơn.** Ghép nhóm là "nhìn từ xa": ta bỏ bớt chi tiết (không còn biết ai cao $151$ hay $153$ cm) để thấy bức tranh chung. Các nhóm thường dài bằng nhau và nối tiếp nhau. Dạng nửa khoảng $[a; b)$ bảo đảm số ở đầu mút chỉ được đếm một lần. Quá ít nhóm thì mất nhiều thông tin, quá nhiều nhóm thì lại rối như bảng ban đầu; thường ta chọn 5 đến 8 nhóm.
 
 :::example Bảng tần số tương đối ghép nhóm
 Giả sử chiều cao của 40 học sinh lớp 9A có bảng tần số ghép nhóm:
@@ -58,7 +58,7 @@ Vậy có $45\%$ học sinh cao từ $160$ cm trở lên.
 
 ### Dạng cột
 
-Trong **biểu đồ tần số ghép nhóm dạng cột**, mỗi cột có đáy là cả nhóm $[a; b)$ trên trục ngang, nên **các cột nằm liền nhau**: số liệu chạy liên tục, không có "khoảng trống" giữa $149{,}9$ cm và $150$ cm.
+Trong **biểu đồ tần số ghép nhóm dạng cột**, mỗi cột có đáy là cả nhóm $[a; b)$ trên trục ngang. Vì thế **các cột nằm liền nhau**: số liệu chạy liên tục, không có "khoảng trống" giữa $149{,}9$ cm và $150$ cm.
 
 :::graph Chiều cao của 40 học sinh lớp 9A
 alt: Biểu đồ cột liền nhau: các nhóm từ 145 đến 175 cm, mỗi nhóm rộng 5 cm, cột cao lần lượt 3, 7, 12, 10, 6, 2
@@ -77,11 +77,11 @@ segment: (165, 0) (165, 10) ; dashed
 segment: (170, 0) (170, 6) ; dashed
 :::
 
-Biểu đồ tần số tương đối ghép nhóm dạng cột vẽ giống hệt, chỉ thay chiều cao cột bằng tần số tương đối.
+Biểu đồ tần số tương đối ghép nhóm dạng cột vẽ giống hệt như vậy, chỉ khác là chiều cao cột bằng tần số tương đối.
 
 ### Dạng đoạn thẳng
 
-Để vẽ **biểu đồ tần số tương đối ghép nhóm dạng đoạn thẳng**, với mỗi nhóm ta đánh dấu điểm có hoành độ là giá trị đại diện của nhóm, tung độ là tần số tương đối, rồi nối các điểm liên tiếp. Với lớp 9A, các giá trị đại diện là $147{,}5$; $152{,}5$; …; $172{,}5$.
+Với **biểu đồ tần số tương đối ghép nhóm dạng đoạn thẳng**, mỗi nhóm cho ta một điểm: hoành độ là giá trị đại diện của nhóm, tung độ là tần số tương đối. Sau đó ta nối các điểm liên tiếp. Với lớp 9A, các giá trị đại diện là $147{,}5$; $152{,}5$; …; $172{,}5$.
 
 :::graph Tần số tương đối (%) theo giá trị đại diện của các nhóm
 alt: Đường gấp khúc nối các điểm (147,5; 7,5), (152,5; 17,5), (157,5; 30), (162,5; 25), (167,5; 15), (172,5; 5)
@@ -94,7 +94,7 @@ segment: (162.5, 25) (167.5, 15)
 segment: (167.5, 15) (172.5, 5)
 :::
 
-Đường gấp khúc cho thấy chiều cao tập trung quanh nhóm $[155; 160)$, thưa dần về hai phía.
+Nhìn đường gấp khúc, ta thấy chiều cao tập trung quanh nhóm $[155; 160)$ và thưa dần về hai phía.
 
 :::example Đọc bảng ghép nhóm
 Với bảng tần số ghép nhóm của lớp 9A ở trên, hãy cho biết:
@@ -131,11 +131,11 @@ Vậy lời nói của công ty là đúng ($65\%$); còn số hành khách ch�
 :::
 
 :::warning Những sai lầm thường gặp
-- **Nhóm chồng lấn.** Sai: $[150; 155]$, $[155; 160]$ (số $155$ bị đếm hai lần). Đúng: $[150; 155)$, $[155; 160)$.
+- **Nhóm chồng lấn.** Sai: $[150; 155]$, $[155; 160]$ (số $155$ bị đếm hai lần). Đúng: $[150; 155)$, $[155; 160)$. Chỗ này nhiều bạn hay nhầm.
 - **Vẽ các cột cách nhau.** Với số liệu ghép nhóm, các cột phải liền nhau.
 :::
 
-**Kết nối.** Ghép nhóm tiếp nối [bảng tần số](lesson:frequency-tables-charts) và [tần số tương đối](lesson:relative-frequency-tables): cùng ý tưởng đếm, chỉ đổi "giá trị" thành "nhóm". Ở lớp 11, 12, từ bảng ghép nhóm và các giá trị đại diện, ta sẽ tính số trung bình, trung vị và độ lệch chuẩn.
+**Kết nối.** Ghép nhóm tiếp nối [bảng tần số](lesson:frequency-tables-charts) và [tần số tương đối](lesson:relative-frequency-tables): vẫn là ý tưởng đếm, chỉ đổi "giá trị" thành "nhóm". Ở lớp 11, 12, từ bảng ghép nhóm và các giá trị đại diện, ta sẽ tính số trung bình, trung vị và độ lệch chuẩn.
 
 ## Thuật ngữ
 
@@ -156,10 +156,11 @@ Vậy lời nói của công ty là đúng ($65\%$); còn số hành khách ch�
 - Tần số tương đối của nhóm: $f_i=\dfrac{m_i}{n}\cdot100\%$.
 - Dạng cột: các cột liền nhau. Dạng đoạn thẳng: nối các điểm (giá trị đại diện; $f_i$).
 - Ghép nhóm làm mất thông tin bên trong mỗi nhóm.
+Quay lại câu hỏi đầu bài: bảng ghép nhóm cho thầy biết ngay có bao nhiêu bạn ở mỗi khoảng chiều cao, đủ để chọn cỡ áo, và cái giá phải trả là mất chi tiết trong từng nhóm. Điều cần nhớ là nhóm viết dưới dạng nửa khoảng, và các cột phải liền nhau.
 
 ## Luyện tập
 
-Mỗi bài có phần kiến thức và gợi ý các bước. Hãy tự làm trước, rồi mới bấm xem lời giải.
+Mỗi bài có phần kiến thức cần nhớ và gợi ý các bước đầu tiên. Bạn hãy tự làm trước, vướng chỗ nào rồi hãy bấm xem lời giải. Làm vài bài, bạn sẽ thấy quen tay hơn mình nghĩ.
 
 :::exercise
 Giả sử thời gian tự học (phút) trong một ngày của 20 học sinh là:

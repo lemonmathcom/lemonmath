@@ -10,15 +10,15 @@ minutes: 20
 - Solve equations with the unknown in the denominator and reject any value that makes a denominator zero.
 :::
 
-An solves the equation $x^2=3x$ like this: "Divide both sides by $x$, so $x=3$." Bình says: "You have lost a solution." Substituting $x=0$ gives $0^2=3\cdot0$, so $0$ really is a solution too. Where did An go wrong, and how can we make sure no solution is lost?
+An solves the equation $x^2=3x$ like this: "Divide both sides by $x$, so $x=3$." Bình says: "You have lost a solution." Let us try $x=0$: we get $0^2=3\cdot0$, which is true, so $0$ really is a solution too. Where did An go wrong? And how can we make sure no solution is lost? Losing a solution is an easy slip to make, and hard to notice.
 
-The equation $x^2=3x$ is not linear, but we can **reduce** it to linear equations. This lesson covers two kinds of equation like this.
+The equation $x^2=3x$ is not linear. But with a little care we can **reduce** it to linear equations, which we already know how to solve. This lesson covers two kinds of equation like this: equations in factorised form, and equations with the unknown in the denominator. By the end, you will be able to answer An and Bình.
 
 ## Equations in factorised form
 
 ### Explore: when is a product equal to $0$?
 
-We have $5\cdot0=0$ and $0\cdot(-7)=0$, but $2\cdot3=6\neq0$. A product is $0$ only when at least one of its factors is $0$. This is the key to solving an equation whose left-hand side is a product of factors and whose right-hand side is $0$ (Vietnamese textbooks call it a *product equation*).
+Look at a few products: $5\cdot0=0$ and $0\cdot(-7)=0$, but $2\cdot3=6\neq0$. In the first two, one factor is zero; in the third, neither is. A product is $0$ only when at least one of its factors is $0$. This is the key to solving an equation whose left-hand side is a product of factors and whose right-hand side is $0$. Vietnamese textbooks call such an equation a *product equation*.
 
 :::theorem Solving an equation in factorised form
 $$(ax+b)(cx+d)=0\iff ax+b=0\ \text{ or }\ cx+d=0.$$
@@ -35,7 +35,7 @@ $$2x-6=0\iff x=3;\qquad x+4=0\iff x=-4.$$
 So the equation has two solutions, $x=3$ and $x=-4$.
 :::
 
-When the equation is not yet in factorised form, we move every term to the left-hand side and factorise (as in Grade 8).
+Not every equation comes in factorised form. When it does not, we move every term to the left-hand side and factorise (as in Grade 8). The next example does this to answer An and Bình.
 
 :::example Answering An and Bình
 Solve the equation $x^2=3x$.
@@ -59,9 +59,9 @@ So the equation has two solutions, $x=1$ and $x=3$.
 
 ## Equations with the unknown in the denominator
 
-Hoà and Bình set off on their bikes at the same time. In the same length of time Hoà rides $12$ km and Bình rides $18$ km, and Bình is $4$ km/h faster than Hoà. If Hoà's speed is $x$ (km/h), equal times give the equation
+Hoà and Bình set off on their bikes at the same time. In the same length of time, Hoà rides $12$ km and Bình rides $18$ km. Bình is $4$ km/h faster than Hoà. Let Hoà's speed be $x$ (km/h). Time is distance divided by speed, and the two times are equal, so we get the equation
 $$\frac{12}{x}=\frac{18}{x+4}.$$
-The unknown is in the **denominator**. A fraction only makes sense when its denominator is not $0$, so first we must find which values of the unknown are allowed.
+This time the unknown is in the **denominator**. Here we must be careful: a fraction only makes sense when its denominator is not $0$. So before solving, we ask which values of the unknown are allowed.
 
 :::definition Values for which the equation is defined
 An equation with the unknown in the denominator is **defined** only for the values of the unknown that make **every** denominator non-zero. A value that makes a denominator zero is an **excluded value**: it can never be a solution.
@@ -72,6 +72,7 @@ An equation with the unknown in the denominator is **defined** only for the valu
 2. Write both sides over a common denominator, then clear the fractions.
 3. Solve the equation you get.
 4. Reject any excluded value, then state the solutions.
+The first and the last steps are the ones most easily forgotten.
 :::
 
 :::example The cycling problem
@@ -84,7 +85,7 @@ $$12(x+4)=18x\iff 12x+48=18x\iff 6x=48\iff x=8.$$
 The value $x=8$ is not excluded. So Hoà rides at $8$ km/h and Bình at $12$ km/h.
 :::
 
-Checking for excluded values is not a formality: sometimes the equation obtained after clearing fractions gives a value that makes a denominator $0$.
+Checking for excluded values is not just a formality. Sometimes the equation we get after clearing fractions gives a value that makes a denominator $0$, and that value must be rejected. The next example shows this.
 
 :::example A value that must be rejected
 Solve the equation $\dfrac{x}{x-2}-\dfrac{1}{x}=\dfrac{2}{x(x-2)}$.
@@ -109,9 +110,9 @@ point: (1, 0) "1" above
 :::
 
 :::warning Common mistakes
-- **Dividing both sides by an expression containing the unknown.** Wrong: dividing $(x-1)(2x+1)=(x-1)(x+4)$ by $x-1$ gives $x=3$. Why it is wrong: the solution $x=1$ is lost. Right: move everything to one side and take out the common factor.
-- **Forgetting to reject excluded values.** Wrong: saying the equation in the last example has the solution $x=0$. Why it is wrong: at $x=0$ a denominator is $0$. Right: reject $x=0$.
-- **Clearing fractions but not multiplying a term without a denominator.** Wrong: from $\dfrac{x+1}{x-3}=2+\dfrac{4}{x-3}$ writing $x+1=2+4$. Why it is wrong: the $2$ must also be multiplied by $x-3$. Right: $x+1=2(x-3)+4$.
+- **Dividing both sides by an expression containing the unknown.** Wrong: dividing $(x-1)(2x+1)=(x-1)(x+4)$ by $x-1$ gives $x=3$. Why it is wrong: we lose the solution $x=1$. Right: move everything to one side and take out the common factor.
+- **Forgetting to reject excluded values.** Wrong: saying the equation in the last example has the solution $x=0$. Many students slip here, because the working looks finished. Why it is wrong: at $x=0$ a denominator is $0$. Right: reject $x=0$.
+- **Clearing fractions but not multiplying a term without a denominator.** Wrong: from $\dfrac{x+1}{x-3}=2+\dfrac{4}{x-3}$ writing $x+1=2+4$. Why it is wrong: when we multiply both sides by the denominator, the $2$ must also be multiplied by $x-3$. Right: $x+1=2(x-3)+4$.
 :::
 
 ## Key terms
@@ -133,10 +134,11 @@ point: (1, 0) "1" above
 - Never divide both sides by an expression containing the unknown.
 - Unknown in the denominator: find the excluded values, use a common denominator and clear the fractions, solve, then **reject any excluded value**.
 - An equation may have no solution if every value found is rejected.
+Back to An and Bình: An lost a solution by dividing both sides by the unknown itself. The safe way is to move everything to one side, take out the common factor, and solve the product. And never skip the check for excluded values: it is short, and it can save a whole answer.
 
 ## Practice
 
-Each exercise comes with what you need and some steps to start. Try it yourself first, then open the solution.
+Each exercise starts with what you need to know, and gives a few steps to get going. Try it yourself first. If you get stuck, use the steps, and open the solution last to compare. A wrong attempt is not wasted: it often shows what to practise.
 
 :::exercise
 Solve the equation $(x-5)(3x+6)=0$.

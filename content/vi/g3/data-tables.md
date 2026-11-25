@@ -12,17 +12,17 @@ minutes: 15
 
 Cô giáo hỏi $12$ bạn trong tổ em: "Em thích ăn quả nào nhất: cam, chuối hay táo?" Các bạn trả lời lần lượt: cam, chuối, cam, táo, chuối, chuối, cam, táo, cam, chuối, táo, cam. Có bao nhiêu bạn thích cam?
 
-Em có thể đếm một lượt trong dãy trên. Nhưng dãy dài rất dễ đếm sót hay đếm trùng. Bài này dạy em cách ghi lại và đếm gọn gàng hơn.
+Em có thể đếm thẳng trong dãy câu trả lời, và với một dãy ngắn thế này thì cũng được. Nhưng nếu hỏi cả lớp, cả trường thì sao? Dãy càng dài, ta càng dễ đếm sót hoặc đếm trùng một bạn. Có một cách ghi chép gọn gàng giúp em đếm một lượt mà vẫn chắc chắn. Ta cùng xem cách đó nhé.
 
 ## Cùng khám phá
 
-Ta làm từng bước nhỏ với dãy câu trả lời ở trên.
+Ta đi từng bước nhỏ, với chính dãy câu trả lời ở trên. Mỗi bước chỉ làm một việc.
 
-**Bước 1: thu thập.** Ta đã hỏi từng bạn và ghi lại câu trả lời. Mỗi câu trả lời là một **số liệu**.
+**Bước 1: thu thập.** Ta đã hỏi từng bạn và ghi lại câu trả lời. Mỗi câu trả lời được ghi lại như thế gọi là một **số liệu**.
 
-**Bước 2: phân loại.** Ta chia các câu trả lời thành ba nhóm: cam, chuối, táo.
+**Bước 2: phân loại.** Nhìn dãy trên, ta thấy chỉ có ba loại quả được nhắc đến. Vậy ta chia các câu trả lời thành ba nhóm: cam, chuối, táo.
 
-**Bước 3: đếm bằng vạch.** Đọc lần lượt từng câu trả lời. Gặp một câu trả lời, em kẻ một vạch $/$ vào hàng của loại quả đó. Cứ đủ $5$ vạch thì gom thành một nhóm. Em chỉ đọc dãy một lần.
+**Bước 3: đếm bằng vạch.** Bây giờ em đọc dãy câu trả lời, mỗi lần một câu. Gặp câu trả lời nào, em kẻ một vạch $/$ vào hàng của loại quả đó. Vì sao lại gom nhóm? Vì một hàng vạch dài rất khó đếm, còn một nhóm $5$ vạch thì nhìn một cái là biết. Vậy nên cứ đủ $5$ vạch, em gom thành một nhóm. Nhờ thế em chỉ cần đọc dãy một lần.
 
 | Loại quả | Vạch kiểm đếm | Số bạn |
 |---|---|---|
@@ -30,7 +30,7 @@ Ta làm từng bước nhỏ với dãy câu trả lời ở trên.
 | Chuối | //// | $4$ |
 | Táo | /// | $3$ |
 
-Vậy có $5$ bạn thích cam. Em kiểm tra: $5+4+3=12$, đúng bằng số bạn được hỏi.
+Nhìn bảng, ta trả lời được ngay: có $5$ bạn thích cam. Còn một việc nữa. Em cộng các số trong bảng: $5+4+3=12$. Tổng này đúng bằng số bạn được hỏi, nên em yên tâm là mình không đếm sót ai.
 
 :::theorem Ba bước làm việc với số liệu
 1. **Thu thập:** hỏi hoặc quan sát rồi ghi lại từng số liệu.
@@ -40,11 +40,11 @@ Vậy có $5$ bạn thích cam. Em kiểm tra: $5+4+3=12$, đúng bằng số b�
 Cuối cùng, cộng các số trong bảng. Tổng phải bằng số lần em đã hỏi hoặc đã quan sát.
 :::
 
-Bước kiểm tra cuối giúp em phát hiện mình đếm sót hay đếm trùng.
+Bước cộng lại cuối cùng tuy nhỏ nhưng rất có ích. Nếu tổng không khớp, em biết mình đã đếm sót hoặc đếm trùng ở đâu đó, và quay lại đếm lại.
 
 ## Ví dụ
 
-Ta bắt đầu bằng một bài lập bảng từ một dãy ngắn.
+Ta thử lập bảng từ một dãy ngắn trước. Em làm theo ba bước vừa rồi.
 
 :::example Màu áo
 Mai ghi màu áo của $10$ bạn: đỏ, xanh, đỏ, vàng, xanh, xanh, đỏ, xanh, vàng, xanh. Hãy lập bảng số liệu.
@@ -62,7 +62,7 @@ Mai ghi màu áo của $10$ bạn: đỏ, xanh, đỏ, vàng, xanh, xanh, đỏ,
 Kiểm tra: $3+5+2=10$, bằng số bạn đã ghi. Vậy bảng đúng.
 :::
 
-Sau khi có bảng, em chỉ cần nhìn bảng để trả lời câu hỏi.
+Có bảng rồi, em không phải đọc lại cả dãy số liệu nữa. Chỉ cần nhìn bảng là trả lời được nhiều câu hỏi. Ta thử với một bảng khác.
 
 :::example Môn thể thao yêu thích
 Bảng cho biết số bạn lớp 3A chọn mỗi môn thể thao:
@@ -86,7 +86,7 @@ $$9+6+4+5=24\ \text{(bạn)}.$$
 Vậy bóng đá nhiều nhất, bóng đá nhiều hơn bơi $5$ bạn, và lớp có $24$ bạn.
 :::
 
-Bảng cũng có thể ghi số liệu theo thời gian.
+Bảng không chỉ dùng để đếm bạn bè. Nó còn ghi được số liệu theo từng ngày, như số vở một cửa hàng bán ra.
 
 :::example Bán vở
 Cửa hàng bán số quyển vở trong bốn ngày như sau:
@@ -105,7 +105,7 @@ Số nhỏ nhất trong bảng là $12$, ứng với thứ Năm.
 Vậy cả bốn ngày bán được $65$ quyển vở, và thứ Năm bán ít nhất.
 :::
 
-Có khi bảng thiếu một ô. Em dùng tổng để tìm ô đó.
+Có khi trong bảng bị thiếu một ô. Đừng lo: nếu biết tổng, em tìm lại được số còn thiếu bằng cách lấy tổng trừ đi các số đã có.
 
 :::example Ô còn thiếu
 Lớp có $30$ bạn, mỗi bạn chọn một màu. Bảng còn thiếu số bạn chọn màu vàng:
@@ -121,9 +121,9 @@ Kiểm tra: $12+9+9=30$. Vậy có $9$ bạn chọn màu vàng.
 :::
 
 :::warning Những lỗi em hay gặp
-- **Đếm sót hoặc đếm trùng.** Sai: ghi cam $6$ bạn trong khi chỉ có $5$ câu trả lời "cam". Vì sao sai: em đếm một câu trả lời hai lần. Đúng: kẻ vạch ngay khi đọc từng câu trả lời, rồi cộng kiểm tra tổng.
-- **Quên so sánh với tổng.** Sai: không cộng lại các số trong bảng. Vì sao sai: em không biết bảng có sai hay không. Đúng: cộng các số và so với số bạn được hỏi.
-- **Quên đơn vị trong đáp số.** Sai: "Đáp số: $24$". Đúng: "Đáp số: $24$ bạn".
+- **Đếm sót hoặc đếm trùng.** Chỗ này nhiều bạn hay nhầm. Sai: ghi cam $6$ bạn trong khi chỉ có $5$ câu trả lời "cam". Vì sao sai: em đã đếm một câu trả lời hai lần. Đúng: kẻ vạch ngay khi đọc từng câu trả lời, rồi cộng lại để kiểm tra tổng.
+- **Quên so sánh với tổng.** Sai: không cộng lại các số trong bảng. Vì sao sai: em sẽ không biết bảng có sai hay không. Đúng: cộng các số và so với số bạn được hỏi.
+- **Quên đơn vị trong đáp số.** Sai: "Đáp số: $24$". Đúng: "Đáp số: $24$ bạn". Có đơn vị thì người đọc mới biết em đang đếm gì.
 :::
 
 ## Thuật ngữ
@@ -146,9 +146,11 @@ Kiểm tra: $12+9+9=30$. Vậy có $9$ bạn chọn màu vàng.
 - Đọc bảng: số lớn nhất là "nhiều nhất", số nhỏ nhất là "ít nhất"; "nhiều hơn bao nhiêu" thì làm phép trừ.
 - Cộng các số trong bảng để kiểm tra: tổng phải bằng số lần đã hỏi.
 
+Quay lại câu hỏi đầu bài: có bảng số liệu, em biết ngay bao nhiêu bạn thích cam mà không phải đếm lại cả dãy. Em nhớ một điều thôi: đếm xong thì cộng lại để kiểm tra, rồi sang phần Luyện tập thử sức nhé.
+
 ## Luyện tập
 
-Mỗi bài có phần kiến thức và gợi ý. Em hãy tự làm trước, rồi mới bấm xem lời giải.
+Mỗi bài có phần kiến thức cần nhớ và một gợi ý để em bắt đầu. Em cứ tự làm trước, sai cũng không sao, rồi hãy bấm xem lời giải để đối chiếu.
 
 :::exercise
 Em ghi lại các con vật các bạn thích: mèo, chó, mèo, cá, chó, mèo, mèo, cá. Hãy lập bảng số liệu (có cột vạch kiểm đếm).

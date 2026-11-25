@@ -12,18 +12,18 @@ minutes: 15
 
 Lan có $35$ viên bi, Nam có $42$ viên bi. Ai có nhiều bi hơn?
 
-Ở bài trước em biết mỗi số có hai chữ số gồm chục và đơn vị. Bài này em dùng chục và đơn vị để so sánh hai số.
+Em đã biết mỗi số có hai chữ số gồm chục và đơn vị. Chỉ cần nhìn chục và đơn vị, em đã biết số nào lớn hơn, không phải đếm từng viên bi. Ta xem cách làm nhé.
 
 ## Cùng khám phá
 
-Em viết hai số theo chục và đơn vị.
+Ta bắt đầu bằng cách tách mỗi số thành chục và đơn vị.
 
 - $35$ gồm $3$ chục và $5$ đơn vị.
 - $42$ gồm $4$ chục và $2$ đơn vị.
 
-Em so sánh số chục trước: $4$ chục nhiều hơn $3$ chục. Vậy $42$ lớn hơn $35$, dù $2$ đơn vị ít hơn $5$ đơn vị.
+Em nhìn số chục trước: $4$ chục nhiều hơn $3$ chục. Vì thế $42$ lớn hơn $35$. Chỗ này nhiều bạn hay nhầm, vì $2$ đơn vị lại ít hơn $5$ đơn vị. Nhưng số chục mới là chỗ quyết định.
 
-Ta viết $42>35$, nên Nam có nhiều bi hơn.
+Ta viết $42>35$. Đó là câu trả lời cho câu hỏi đầu bài: Nam có nhiều bi hơn.
 
 :::theorem So sánh hai số có hai chữ số
 1. So chữ số hàng chục trước. Số nào có hàng chục lớn hơn thì lớn hơn.
@@ -31,11 +31,11 @@ Ta viết $42>35$, nên Nam có nhiều bi hơn.
 3. Nếu cả hai hàng đều bằng nhau thì hai số bằng nhau.
 :::
 
-Cách này đúng vì mỗi chục là $10$ đơn vị, nên chục nhiều hơn một thì luôn hơn cả vài đơn vị lẻ.
+Vì sao chỉ cần so chục trước? Vì mỗi chục là $10$ đơn vị. Chỉ cần nhiều hơn một chục là đã luôn hơn vài đơn vị lẻ.
 
 ## Ví dụ
 
-Ta bắt đầu với câu hỏi ở đầu bài.
+Ta trả lời câu hỏi ở đầu bài trước, về số bi của Lan và Nam.
 
 :::example So sánh $35$ và $42$
 **Lời giải.** Hàng chục: $3$ và $4$. Vì $4>3$ nên $42>35$.
@@ -43,7 +43,7 @@ Ta bắt đầu với câu hỏi ở đầu bài.
 Vậy $35<42$.
 :::
 
-Bây giờ hai số có hàng chục bằng nhau.
+Nếu hai số có hàng chục bằng nhau thì sao? Lúc đó so chục chưa cho biết số nào lớn hơn, nên em phải so tiếp hàng đơn vị.
 
 :::example So sánh $56$ và $52$
 **Lời giải.** Hàng chục đều là $5$. Em so hàng đơn vị: $6$ và $2$. Vì $6>2$ nên $56>52$.
@@ -51,7 +51,7 @@ Bây giờ hai số có hàng chục bằng nhau.
 Vậy $56>52$.
 :::
 
-Tiếp theo em sắp xếp ba số.
+Biết so sánh hai số rồi, em sắp xếp được cả ba số. Ta xếp từ bé đến lớn.
 
 :::example Sắp xếp các số
 Sắp xếp các số $61, 16, 58$ từ bé đến lớn.
@@ -63,7 +63,7 @@ Vậy thứ tự là $16, 58, 61$.
 **Kiểm tra.** $16<58$ và $58<61$. Đúng.
 :::
 
-Cuối cùng em giải một bài toán trong cuộc sống.
+Bài toán này gần với chuyện em hay gặp: hai bạn cùng có nhãn vở, em xem bạn nào có nhiều hơn.
 
 :::example Nhãn vở
 Mai có $24$ cái nhãn vở, Hà có $27$ cái nhãn vở. Ai có nhiều nhãn hơn?
@@ -74,9 +74,9 @@ Vậy Hà có nhiều nhãn vở hơn.
 :::
 
 :::warning Những lỗi em hay gặp
-- **So hàng đơn vị trước.** Sai: $19>21$ vì $9>1$. Vì sao sai: phải so hàng chục trước, $1$ chục bé hơn $2$ chục. Đúng: $19<21$.
-- **Nghĩ chữ số lớn thì số lớn.** Sai: $38>41$ vì có chữ số $8$. Vì sao sai: $3$ chục bé hơn $4$ chục. Đúng: $38<41$.
-- **Mở miệng dấu sai phía.** Sai: $42<35$. Vì sao sai: miệng dấu phải mở về số lớn hơn. Đúng: $42>35$.
+- **So hàng đơn vị trước.** Chỗ này nhiều bạn hay nhầm. Sai: $19>21$ vì $9>1$. Vì sao sai: phải so hàng chục trước, mà $1$ chục bé hơn $2$ chục. Đúng: $19<21$.
+- **Nghĩ chữ số lớn thì số lớn.** Sai: $38>41$ vì có chữ số $8$. Vì sao sai: $3$ chục bé hơn $4$ chục, dù chữ số $8$ trông lớn. Đúng: $38<41$.
+- **Mở miệng dấu sai phía.** Sai: $42<35$. Vì sao sai: miệng dấu phải mở về phía số lớn hơn, mà $42$ lớn hơn $35$. Đúng: $42>35$.
 :::
 
 ## Thuật ngữ
@@ -99,9 +99,11 @@ Vậy Hà có nhiều nhãn vở hơn.
 - Hai hàng đều bằng nhau thì hai số bằng nhau.
 - Dấu $>$ và $<$ mở miệng về phía số lớn hơn.
 
+Quay lại câu hỏi đầu bài: Nam có nhiều bi hơn Lan vì Nam có nhiều chục hơn. Em làm thêm vài bài luyện tập để quen tay nhé.
+
 ## Luyện tập
 
-Mỗi bài có phần kiến thức và gợi ý. Em hãy tự làm trước, rồi mới bấm xem lời giải.
+Mỗi bài có phần kiến thức và một gợi ý để em bắt đầu. Em thử tự làm trước, chưa ra thì xem gợi ý, rồi mới mở lời giải. Làm chậm một chút cũng không sao.
 
 :::exercise
 Điền dấu $>$, $<$ hoặc $=$: $45 \;\square\; 38$.

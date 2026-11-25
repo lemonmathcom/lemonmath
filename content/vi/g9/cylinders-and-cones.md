@@ -10,13 +10,13 @@ minutes: 20
 - Giải các bài toán thực tế: bồn nước, sơn cột, nón lá, đống cát.
 :::
 
-Trên mái nhà nhiều gia đình Việt Nam có một chiếc bồn nước hình trụ; ngoài đồng, chiếc nón lá che nắng cho người nông dân; ở công trường, cát đổ xuống tự tạo thành một đống hình nón. Những câu hỏi rất đời thường: bồn chứa được bao nhiêu lít, đủ dùng mấy ngày? Làm một chiếc nón cần bao nhiêu lá? Đống cát cần mấy chuyến xe?
+Trên mái nhà nhiều gia đình Việt Nam có một chiếc bồn nước hình trụ. Ngoài đồng, chiếc nón lá che nắng cho người nông dân. Ở công trường, cát đổ xuống tự tạo thành một đống hình nón. Từ đó nảy ra những câu hỏi rất đời thường. Bồn chứa được bao nhiêu lít, đủ dùng mấy ngày? Làm một chiếc nón cần bao nhiêu lá? Đống cát cần mấy chuyến xe?
 
-Muốn trả lời, ta cần biết đo hai loại hình khối "tròn" đầu tiên: hình trụ và hình nón.
+Để trả lời, ta phải biết đo hai hình khối "tròn" đầu tiên: hình trụ và hình nón. Biết đo rồi, chỉ cần vài phép tính là ta ước được lượng nước, lượng lá hay lượng cát.
 
 ## Hình trụ
 
-Quay một hình chữ nhật $OABO'$ một vòng quanh cạnh $OO'$ cố định, ta được một **hình trụ**. Hai cạnh $OA$, $O'B$ quét thành hai **mặt đáy** là hai hình tròn bằng nhau, nằm trên hai mặt phẳng song song; cạnh $AB$ quét thành **mặt xung quanh**, mỗi vị trí của $AB$ là một **đường sinh**. Độ dài $AB$ là **chiều cao** $h$, độ dài $OA$ là **bán kính đáy** $r$.
+Hãy lấy một hình chữ nhật $OABO'$ và quay nó một vòng quanh cạnh $OO'$ cố định. Hình khối quét ra gọi là **hình trụ**. Hai cạnh $OA$, $O'B$ quét thành hai **mặt đáy**: hai hình tròn bằng nhau, nằm trên hai mặt phẳng song song. Cạnh $AB$ quét thành **mặt xung quanh**, và mỗi vị trí của $AB$ là một **đường sinh**. Độ dài $AB$ là **chiều cao** $h$, độ dài $OA$ là **bán kính đáy** $r$.
 
 :::diagram Hình trụ bán kính đáy $r$, chiều cao $h$
 alt: Hình trụ đứng với hai đáy hình tròn tâm O và O', bán kính r, chiều cao h; nửa sau của đáy dưới vẽ nét đứt
@@ -84,9 +84,9 @@ label 2.4,2 "h"
 
 ### Khám phá: trải phẳng mặt xung quanh
 
-Hãy hình dung bóc nhãn của một lon nước hình trụ rồi trải phẳng: ta được một **hình chữ nhật**. Một cạnh của nó là chiều cao $h$, cạnh kia chính là chu vi đáy $2\pi r$. Do đó diện tích xung quanh bằng $2\pi r\cdot h$.
+Hãy hình dung bóc nhãn của một lon nước hình trụ rồi trải phẳng ra. Ta được một **hình chữ nhật**. Một cạnh của nó là chiều cao $h$. Cạnh còn lại chính là chu vi đáy $2\pi r$, vì nhãn quấn đúng một vòng quanh lon. Diện tích hình chữ nhật bằng dài nhân rộng, nên diện tích xung quanh là $2\pi r\cdot h$.
 
-Thể tích hình trụ tính như hình lăng trụ đứng (lớp 7): diện tích đáy nhân chiều cao.
+Còn thể tích thì sao? Hình trụ giống hình lăng trụ đứng (lớp 7): thể tích bằng diện tích đáy nhân chiều cao. Các công thức ta cần nằm trong khung dưới đây.
 
 :::theorem Hình trụ bán kính đáy $r$, chiều cao $h$
 $$S_{xq}=2\pi rh,\qquad S_{tp}=2\pi rh+2\pi r^2,\qquad V=\pi r^2h.$$
@@ -126,7 +126,7 @@ Vậy bồn đầy đủ dùng trọn $2$ ngày (sang ngày thứ ba thì thiế
 
 ## Hình nón
 
-Quay một tam giác $SOA$ vuông tại $O$ một vòng quanh cạnh góc vuông $SO$ cố định, ta được một **hình nón**. Cạnh $OA$ quét thành **mặt đáy** (hình tròn bán kính $r=OA$), cạnh $SA$ quét thành **mặt xung quanh**, mỗi vị trí của $SA$ là một **đường sinh** $l$. Điểm $S$ là **đỉnh**, $SO=h$ là **chiều cao**. Theo định lí Pythagore, $l^2=r^2+h^2$.
+Bây giờ thay hình chữ nhật bằng một tam giác $SOA$ vuông tại $O$, rồi quay nó một vòng quanh cạnh góc vuông $SO$ cố định. Ta được một **hình nón**. Cạnh $OA$ quét thành **mặt đáy**, là hình tròn bán kính $r=OA$. Cạnh $SA$ quét thành **mặt xung quanh**, và mỗi vị trí của $SA$ là một **đường sinh** $l$. Điểm $S$ là **đỉnh**, còn $SO=h$ là **chiều cao**. Tam giác này vuông, nên theo định lí Pythagore, $l^2=r^2+h^2$.
 
 :::diagram Hình nón đỉnh $S$, bán kính đáy $r$, chiều cao $h$, đường sinh $l$
 alt: Hình nón đỉnh S, tâm đáy O, bán kính OA bằng r, chiều cao SO bằng h vuông góc với OA, đường sinh SA bằng l
@@ -170,11 +170,11 @@ label 1.3,2.2 "l"
 
 ### Vì sao $S_{xq}=\pi rl$?
 
-Cắt mặt xung quanh của hình nón theo một đường sinh rồi trải phẳng, ta được một **hình quạt tròn** bán kính $l$. Độ dài cung của hình quạt bằng chu vi đáy $2\pi r$. Theo bài [Diện tích hình quạt tròn](lesson:arc-length-sector-area), $S_{\text{quạt}}=\dfrac{l_{\text{cung}}\cdot R}{2}$, nên
+Ta làm giống như với hình trụ: cắt mặt xung quanh của hình nón theo một đường sinh rồi trải phẳng. Lần này ta được một **hình quạt tròn** bán kính $l$. Cung của hình quạt chính là đường tròn đáy được trải ra, nên độ dài cung bằng chu vi đáy $2\pi r$. Theo bài [Diện tích hình quạt tròn](lesson:arc-length-sector-area), diện tích hình quạt là $S_{\text{quạt}}=\dfrac{l_{\text{cung}}\cdot R}{2}$, nên
 
 $$S_{xq}=\frac{2\pi r\cdot l}{2}=\pi rl.$$
 
-Về thể tích: đổ nước đầy một hình nón rồi rót sang hình trụ có cùng đáy và cùng chiều cao, ta thấy cần đúng $3$ lần mới đầy. Thể tích hình nón bằng $\dfrac13$ thể tích hình trụ cùng đáy, cùng chiều cao.
+Còn thể tích hình nón? Hãy tưởng tượng đổ đầy nước vào một hình nón, rồi rót sang một hình trụ có cùng đáy và cùng chiều cao. Ta phải rót đúng $3$ lần thì hình trụ mới đầy. Vậy thể tích hình nón bằng $\dfrac13$ thể tích hình trụ cùng đáy, cùng chiều cao.
 
 :::theorem Hình nón bán kính đáy $r$, chiều cao $h$, đường sinh $l$
 $$S_{xq}=\pi rl,\qquad S_{tp}=\pi rl+\pi r^2,\qquad V=\frac13\pi r^2h.$$
@@ -203,13 +203,13 @@ Vậy cần khoảng $1571$ cm² lá cho một lớp, và hình quạt trải ph
 :::
 
 :::warning Những sai lầm thường gặp
-- **Dùng chiều cao thay cho đường sinh.** Sai: $S_{xq}=\pi rh$. Đúng: $S_{xq}=\pi rl$ với $l=\sqrt{r^2+h^2}$.
-- **Quên $\dfrac13$.** Sai: $V_{\text{nón}}=\pi r^2h$. Đúng: $V_{\text{nón}}=\dfrac13\pi r^2h$.
-- **Dùng đường kính thay cho bán kính.** Đề cho đường kính $1$ m thì $r=0{,}5$ m; nhầm sẽ làm thể tích tăng gấp $4$ lần.
-- **Không đổi đơn vị.** $1$ m³ $=1000$ dm³ $=1000$ lít.
+- **Dùng chiều cao thay cho đường sinh.** Sai: $S_{xq}=\pi rh$. Chỗ này nhiều bạn hay nhầm, vì mặt xung quanh của hình nón "nghiêng" theo đường sinh. Đúng: $S_{xq}=\pi rl$ với $l=\sqrt{r^2+h^2}$.
+- **Quên $\dfrac13$.** Sai: $V_{\text{nón}}=\pi r^2h$. Đúng: $V_{\text{nón}}=\dfrac13\pi r^2h$, vì hình nón chỉ chiếm một phần ba hình trụ cùng đáy, cùng chiều cao.
+- **Dùng đường kính thay cho bán kính.** Đề cho đường kính $1$ m thì $r=0{,}5$ m. Nếu nhầm, thể tích sẽ lớn gấp $4$ lần.
+- **Không đổi đơn vị.** Hãy đưa mọi số đo về cùng một đơn vị trước khi tính: $1$ m³ $=1000$ dm³ $=1000$ lít.
 :::
 
-**Kết nối.** Hai công thức diện tích xung quanh đều đến từ việc **trải phẳng**: hình chữ nhật (hình trụ) và hình quạt tròn (hình nón), dùng độ dài đường tròn và diện tích hình quạt ở chương Đường tròn. Thể tích hình trụ mở rộng công thức lăng trụ đứng (lớp 7), thể tích hình nón giống công thức hình chóp đều ($\dfrac13$ đáy nhân cao) ở lớp 8. Bài tiếp theo, [hình cầu](lesson:spheres), là hình khối "tròn" thứ ba.
+**Kết nối.** Cả hai công thức diện tích xung quanh đều đến từ việc **trải phẳng**: ra hình chữ nhật (hình trụ) và hình quạt tròn (hình nón). Ta dùng độ dài đường tròn và diện tích hình quạt ở chương Đường tròn để tính. Thể tích hình trụ mở rộng công thức lăng trụ đứng (lớp 7). Thể tích hình nón giống công thức hình chóp đều ($\dfrac13$ đáy nhân cao) ở lớp 8. Hình khối "tròn" thứ ba là [hình cầu](lesson:spheres), ở bài sau.
 
 ## Thuật ngữ
 
@@ -230,10 +230,11 @@ Vậy cần khoảng $1571$ cm² lá cho một lớp, và hình quạt trải ph
 - Hình nón: $l=\sqrt{r^2+h^2}$, $S_{xq}=\pi rl$, $S_{tp}=\pi rl+\pi r^2$, $V=\dfrac13\pi r^2h$.
 - Trải phẳng: mặt xung quanh hình trụ là hình chữ nhật $2\pi r\times h$; của hình nón là hình quạt bán kính $l$, cung dài $2\pi r$.
 - Nón và trụ cùng đáy, cùng chiều cao: $V_{\text{nón}}=\dfrac13V_{\text{trụ}}$.
+Quay lại các câu hỏi đầu bài: bồn nước, nón lá và đống cát đều tính được bằng những công thức này, miễn là ta nhớ bán kính, chiều cao và đường sinh là gì. Bạn hãy luyện tập vài bài để quen tay.
 
 ## Luyện tập
 
-Mỗi bài có phần kiến thức và gợi ý các bước. Hãy tự làm trước, rồi mới bấm xem lời giải.
+Mỗi bài có phần kiến thức cần nhớ và gợi ý từng bước. Bạn nên tự làm trước, vướng thì xem gợi ý, cuối cùng mới mở lời giải để đối chiếu. Làm sai một lần cũng không sao, vì chỗ sai thường giúp ta nhớ lâu nhất.
 
 :::exercise
 Một hình trụ có bán kính đáy $3$ cm và chiều cao $10$ cm. Tính diện tích xung quanh và thể tích (làm tròn kết quả đến hàng phần trăm).

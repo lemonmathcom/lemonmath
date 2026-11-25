@@ -11,9 +11,9 @@ minutes: 25
 - Làm tròn và ghi đáp số trả lời ngắn vào 4 ô đúng quy định.
 :::
 
-Hai bạn cùng làm đúng $8$ ý đúng/sai trong Phần II. Bạn Hà đúng đủ $4$ ý ở hai câu, còn hai câu kia sai hết. Bạn Nam đúng $2$ ý ở mỗi câu trong bốn câu. Ai được nhiều điểm hơn?
+Hai bạn Hà và Nam cùng thi thử, và cả hai làm đúng $8$ ý đúng/sai ở Phần II. Hà đúng đủ $4$ ý ở hai câu, còn hai câu kia sai hết. Nam thì đúng $2$ ý ở mỗi câu trong bốn câu. Cùng $8$ ý đúng, vậy ai được nhiều điểm hơn?
 
-Câu trả lời nằm ở cách tính điểm Phần II, và nó ảnh hưởng trực tiếp đến cách bạn nên làm bài. Bài này giới thiệu cấu trúc đề theo đề minh hoạ của Bộ GD&ĐT từ năm 2025 và các thói quen giúp bạn không mất điểm oan. Bộ có thể điều chỉnh cấu trúc hoặc cách tính điểm theo từng năm, vì vậy bạn nên theo dõi thông báo chính thức của năm mình thi.
+Câu trả lời nằm ở cách tính điểm Phần II, và nó ảnh hưởng trực tiếp đến cách bạn nên làm bài. Bài này nói về cấu trúc đề theo đề minh hoạ của Bộ GD&ĐT từ năm 2025, và vài thói quen giúp bạn không mất điểm oan. Bộ có thể điều chỉnh cấu trúc hoặc cách tính điểm theo từng năm, nên bạn hãy theo dõi thông báo chính thức của năm mình thi.
 
 ## Cấu trúc đề và cách tính điểm
 
@@ -33,7 +33,7 @@ Trong một câu của Phần II, số ý bạn chọn đúng quyết định đ
 | Điểm | $0$ | $0{,}1$ | $0{,}25$ | $0{,}5$ | $1$ |
 :::
 
-Điểm tăng rất nhanh ở ý cuối: từ $3$ lên $4$ ý đúng, điểm tăng gấp đôi. Vì vậy mỗi ý đều đáng để kiểm tra kĩ.
+Hãy chú ý cuối bảng: từ $3$ lên $4$ ý đúng, điểm của câu tăng gấp đôi. Một ý cuối làm đúng hay sai chênh nhau rất nhiều, nên ý nào cũng đáng để bạn kiểm tra kĩ.
 
 :::example Tính điểm một bài làm
 Bạn An làm đúng $10$ câu Phần I. Ở Phần II, An đúng lần lượt $4$, $3$, $2$, $3$ ý. Ở Phần III, An đúng $4$ câu. Tính điểm của An.
@@ -49,16 +49,17 @@ $$\begin{aligned}
 Vậy An được $2{,}5+2{,}25+2=6{,}75$ điểm.
 :::
 
-Quay lại câu hỏi đầu bài: Hà được $1+1=2$ điểm, còn Nam được $4\cdot0{,}25=1$ điểm. Cùng $8$ ý đúng, nhưng Hà được gấp đôi.
+Quay lại câu hỏi đầu bài. Hà được $1+1=2$ điểm, còn Nam được $4\cdot0{,}25=1$ điểm. Cùng $8$ ý đúng nhưng Hà được gấp đôi, vì điểm thưởng dồn vào những câu làm đúng trọn vẹn. Đó là lí do bạn nên dành sức làm chắc từng câu.
 
 ## Phần I: trắc nghiệm nhiều phương án
 
-Mỗi câu có đúng một phương án đúng, không trừ điểm khi sai. Vì vậy **không bỏ trống câu nào**. Các câu Phần I thường ngắn, kiểm tra một công thức hoặc một bước tính.
+Mỗi câu có đúng một phương án đúng, và chọn sai không bị trừ điểm. Vì vậy **không bỏ trống câu nào**. Câu ở Phần I thường ngắn, chỉ kiểm tra một công thức hoặc một bước tính.
 
 Ba cách làm nhanh:
-- **Giải trực tiếp** rồi so với các phương án.
-- **Thử ngược**: thay từng phương án vào điều kiện của đề (ví dụ lấy đạo hàm của phương án để kiểm tra nguyên hàm).
-- **Loại trừ**: các phương án sai thường là kết quả của một lỗi quen thuộc (sai dấu, quên hệ số, nhầm công thức). Nhận ra lỗi giúp bạn loại nhanh.
+- **Giải trực tiếp** rồi so kết quả với các phương án.
+- **Thử ngược**: thay từng phương án vào điều kiện của đề. Ví dụ, muốn kiểm tra một nguyên hàm thì lấy đạo hàm của phương án đó.
+- **Loại trừ**: phương án sai thường là kết quả của một lỗi quen thuộc (sai dấu, quên hệ số, nhầm công thức). Nhận ra lỗi nào, bạn loại được phương án ấy rất nhanh.
+Bạn không cần dùng cả ba cách cho mỗi câu; hãy chọn cách hợp với câu đang làm.
 
 :::example Thử ngược bằng đạo hàm
 Họ nguyên hàm của hàm số $f(x)=2x+e^x$ là
@@ -76,12 +77,12 @@ Vậy chọn **A**. Phương án B là đạo hàm của $2x$ chứ không phả
 
 ## Phần II: trắc nghiệm đúng/sai
 
-Mỗi câu cho một tình huống chung (một hàm số, một hình, một bảng số liệu) rồi đưa ra bốn ý. Ý sau thường khó hơn ý trước.
+Mỗi câu cho một tình huống chung (một hàm số, một hình, một bảng số liệu) rồi đưa ra bốn ý. Ý sau thường khó hơn ý trước. Vì vậy bạn nên đọc phần chung thật kĩ trước khi xét từng ý.
 
 :::tip Xét từng ý độc lập
-- Đọc kĩ phần dẫn chung, tính trước những thứ dùng nhiều lần (đạo hàm, nghiệm, giá trị tại các điểm).
-- Mỗi ý là một khẳng định riêng; ý này sai không có nghĩa ý kia sai. Không có quy luật "phải có ít nhất một ý sai".
-- Chú ý các chữ nhỏ quyết định đúng sai: "phân biệt", "trên khoảng", "chỉ", "lớn nhất", đơn vị đo.
+- Đọc kĩ phần dẫn chung, và tính trước những thứ sẽ dùng nhiều lần (đạo hàm, nghiệm, giá trị tại các điểm).
+- Mỗi ý là một khẳng định riêng: ý này sai không có nghĩa ý kia sai. Không có quy luật nào bảo rằng "phải có ít nhất một ý sai".
+- Chú ý những chữ nhỏ quyết định đúng sai: "phân biệt", "trên khoảng", "chỉ", "lớn nhất", đơn vị đo. Chỗ này nhiều bạn mất điểm vì đọc lướt.
 :::
 
 :::example Một câu đúng/sai về hàm số
@@ -106,7 +107,7 @@ d) **Sai**: phân tích $f(x)=(x-1)^2(x+2)$, phương trình chỉ có hai nghi�
 
 ## Phần III: trả lời ngắn và cách ghi 4 ô
 
-Đáp số mỗi câu là **một số**, ghi vào phiếu gồm $4$ ô. Dấu trừ và dấu phẩy thập phân **mỗi thứ chiếm một ô**.
+Mỗi câu Phần III có đáp số là **một số**, và phiếu trả lời có $4$ ô để ghi số đó. Chỗ này nhiều bạn hay nhầm: dấu trừ và dấu phẩy thập phân **mỗi thứ chiếm một ô**, giống như một chữ số.
 
 :::diagram Ghi đáp số $-0{,}5$ vào 4 ô
 alt: Bốn ô vuông liền nhau, lần lượt chứa dấu trừ, chữ số 0, dấu phẩy và chữ số 5
@@ -131,13 +132,13 @@ label 3.5,0.5 "5"
 :::
 
 :::note Quy tắc ghi đáp số
-- Làm tròn **đúng như đề yêu cầu** (hàng đơn vị, phần mười, phần trăm). Chỉ làm tròn ở bước cuối, các bước giữa giữ nhiều chữ số.
+- Làm tròn **đúng như đề yêu cầu** (hàng đơn vị, phần mười, phần trăm). Chỉ làm tròn ở bước cuối; các bước giữa nên giữ nhiều chữ số để sai số không dồn lại.
 - Ghi từ ô bên trái sang, mỗi kí tự một ô; ô thừa để trống.
 - Không ghi chữ số $0$ ở cuối phần thập phân: kết quả làm tròn được $1{,}10$ thì ghi 1,1, được $2{,}50$ thì ghi 2,5.
-- Đáp số đề ra luôn viết được trong $4$ ô. Nếu kết quả của bạn cần $5$ kí tự trở lên, gần như chắc chắn bạn đã tính sai hoặc làm tròn sai.
+- Đáp số của đề luôn viết vừa trong $4$ ô. Nếu kết quả của bạn cần $5$ kí tự trở lên, gần như chắc chắn bạn đã tính sai hoặc làm tròn sai, nên hãy tính lại.
 :::
 
-Ví dụ: $\dfrac{7}{4}=1{,}75$ ghi là 1,75 (đủ $4$ ô); $-\dfrac{2}{3}$ làm tròn đến hàng phần mười là $-0{,}7$ (đủ $4$ ô).
+Hai ví dụ cho dễ hình dung. $\dfrac{7}{4}=1{,}75$ ghi là 1,75, vừa đủ $4$ ô. $-\dfrac{2}{3}$ làm tròn đến hàng phần mười là $-0{,}7$, cũng vừa đủ $4$ ô.
 
 :::example Một câu trả lời ngắn có làm tròn
 Tính $\displaystyle\int_1^3\frac{1}{x}\,dx$ (làm tròn kết quả đến hàng phần trăm).
@@ -151,7 +152,7 @@ Làm tròn đến hàng phần trăm được $1{,}10$. Chữ số $0$ ở cuố
 
 ## Kế hoạch thời gian và kiểm tra
 
-$90$ phút cho $22$ câu là khá gấp. Một kế hoạch tham khảo:
+$90$ phút cho $22$ câu là khá gấp, nên có kế hoạch từ trước thì bạn sẽ đỡ cuống. Đây là một gợi ý để bạn tham khảo:
 
 | Việc | Thời gian gợi ý |
 |---|---|
@@ -160,9 +161,9 @@ $90$ phút cho $22$ câu là khá gấp. Một kế hoạch tham khảo:
 | Phần III ($6$ câu) | khoảng $25$–$30$ phút |
 | Kiểm tra, tô phiếu | khoảng $5$–$10$ phút |
 
-Thứ tự làm bài nên theo **độ dễ** chứ không nhất thiết theo số câu: làm lượt đầu tất cả các câu bạn chắc chắn, đánh dấu câu khó, rồi quay lại. Không dừng quá $5$ phút ở một câu Phần I.
+Bạn không nhất thiết làm theo thứ tự câu. Hãy làm theo **độ dễ**: lượt đầu làm hết những câu bạn chắc chắn, đánh dấu câu khó, rồi quay lại sau. Vì sao? Vì một câu khó có thể ngốn mất thời gian của vài câu dễ. Đừng dừng quá $5$ phút ở một câu Phần I.
 
-Dùng máy tính cầm tay để **kiểm tra**: tính giá trị hàm số tại các điểm, tính tích phân xác định, giải phương trình bậc hai, bậc ba. Máy tính giúp phát hiện sai sót, nhưng bạn vẫn cần lập luận để biết phải tính gì.
+Máy tính cầm tay là công cụ để **kiểm tra**: tính giá trị hàm số tại các điểm, tính tích phân xác định, giải phương trình bậc hai, bậc ba. Máy giúp bạn phát hiện sai sót, nhưng muốn biết phải tính gì thì vẫn cần lập luận của chính bạn.
 
 :::warning Những sai lầm thường gặp
 - **Bỏ trống câu trắc nghiệm.** Không bị trừ điểm khi sai, nên luôn chọn một phương án.
@@ -187,7 +188,7 @@ Dùng máy tính cầm tay để **kiểm tra**: tính giá trị hàm số tạ
 
 ## Bài tập
 
-Mỗi bài có phần kiến thức và gợi ý các bước. Hãy tự làm trước, rồi mới bấm xem lời giải.
+Mỗi bài có phần kiến thức và gợi ý các bước. Bạn hãy tự làm trước, rồi mới bấm xem lời giải. Làm xong, thử tự chấm điểm bài của mình theo bảng ở đầu bài.
 
 :::exercise Trắc nghiệm
 Trong một câu đúng/sai, bạn chọn đúng $3$ ý. Bạn được bao nhiêu điểm ở câu đó?

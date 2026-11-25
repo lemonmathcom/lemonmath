@@ -12,21 +12,21 @@ minutes: 15
 
 Nam has $38$ marbles. His friend Hung gives him $6$ more. How many marbles does Nam have altogether?
 
-You already know how to add across $10$ within $20$ from earlier lessons. This lesson uses the same idea for bigger numbers.
+Counting marbles one by one is slow, and it is easy to lose your place. There is a quicker way, and you already know it: in earlier lessons you added across $10$ within $20$. We will use the same idea for bigger numbers. The question for this lesson is: when the ones fill up, where does the extra go?
 
 ## Let's explore
 
-We split $38$ into $3$ tens and $8$ ones. The number $6$ has just $6$ ones.
+To add them, first look at what each number is made of. We split $38$ into $3$ tens and $8$ ones. The number $6$ has no tens at all, just $6$ ones.
 
-- Add the ones: $8+6=14$. So there are $14$ ones.
-- $14$ ones are $1$ ten and $4$ ones. We exchange $10$ ones for $1$ ten.
-- Add the tens: the $3$ tens we had plus the $1$ new ten make $4$ tens.
+- First add the ones: $8+6=14$. So there are $14$ ones.
+- That is too many ones to leave in the ones place. $14$ ones are $1$ ten and $4$ ones, because we exchange $10$ ones for $1$ ten.
+- Then add the tens: the $3$ tens we had plus the $1$ new ten make $4$ tens.
 
-So there are $4$ tens and $4$ ones, which is $44$.
+Put together, that is $4$ tens and $4$ ones, which is $44$ marbles. That answers the question about Nam's marbles.
 
 $$\begin{array}{r} 38\\ +\ \ 6\\ \hline 44 \end{array}$$
 
-You can also jump along a number line: from $38$ jump $2$ steps to $40$, then $4$ more steps to $44$.
+If you like to see it, you can also use a number line. From $38$ jump $2$ steps to $40$, which makes a round ten, then $4$ more steps to $44$. Both ways give the same answer.
 
 :::graph On a number line: from 38 jump 2 steps to 40, then 4 steps to 44
 alt: A number line from 36 to 46 with the points 38, 40 and 44 marked; the part from 38 to 44 is drawn in bold
@@ -45,11 +45,11 @@ To work out $38+6$:
 3. Add the tens: $3+1=4$. Write $4$ in the tens.
 :::
 
-This works because $14$ ones are the same as $1$ ten and $4$ ones. The new ten is not lost: you add it to the tens.
+Why does this work? Because $14$ ones are the same as $1$ ten and $4$ ones: we have only gathered them up more neatly. The new ten is not lost, so remember to add it to the tens. Many children forget this step, so look back at the tens before you finish.
 
 ## Examples
 
-We start with an addition where the ones make just a little more than $10$.
+Let us try a few more sums until the steps feel familiar. The first is a gentle one: the ones make only a little more than $10$.
 
 :::example Work out $27+5$
 **Solution.** Add the ones first: $7+5=12$, write $2$ and carry $1$ ten. Then add the tens: $2+1=3$:
@@ -57,7 +57,7 @@ $$\begin{array}{r} 27\\ +\ \ 5\\ \hline 32 \end{array}$$
 So $27+5=32$.
 :::
 
-The next sum works in exactly the same way, with different numbers.
+The next sum is done in exactly the same way, only with different numbers. Before you read the solution, see if you can tell whether the ones will need an exchange.
 
 :::example Work out $46+8$
 **Solution.** Ones: $6+8=14$, write $4$ and carry $1$. Tens: $4+1=5$:
@@ -65,7 +65,7 @@ $$\begin{array}{r} 46\\ +\ \ 8\\ \hline 54 \end{array}$$
 So $46+8=54$.
 :::
 
-Now the ones make a bigger total, but the method stays the same.
+This time the ones make a bigger total. No need to worry: the method stays exactly the same. When we have finished, we will check the answer in a different way.
 
 :::example Work out $69+7$
 **Solution.** Ones: $9+7=16$, write $6$ and carry $1$. Tens: $6+1=7$:
@@ -75,7 +75,7 @@ So $69+7=76$.
 **Check.** Split $7=1+6$: $69+1=70$, then $70+6=76$. The answers match.
 :::
 
-Now use addition to solve a problem from everyday life.
+Here is a problem from everyday life: Mum puts more apples into a basket. Ask yourself whether things are put together or taken away.
 
 :::example A basket of apples
 A basket holds $58$ apples. Mum puts in $6$ more apples. How many apples are in the basket altogether?
@@ -86,9 +86,9 @@ So there are $64$ apples in the basket altogether.
 :::
 
 :::warning Mistakes to watch out for
-- **Forgetting the carried ten.** Wrong: $38+6=34$. Why it is wrong: you wrote $4$ but forgot to add $1$ ten to the tens. Right: $38+6=44$.
-- **Writing all of $14$ in the ones.** Wrong: $38+6=314$. Why it is wrong: $14$ ones must be exchanged for $1$ ten and $4$ ones. Right: $38+6=44$.
-- **Leaving out the unit in a word problem.** Wrong: "Answer: $64$". Right: "Answer: $64$ apples".
+- **Forgetting the carried ten.** Wrong: $38+6=34$. Why it is wrong: many children write $4$ and stop, forgetting to add $1$ ten to the tens. Right: $38+6=44$.
+- **Writing all of $14$ in the ones.** Wrong: $38+6=314$. Why it is wrong: $14$ ones must be exchanged for $1$ ten and $4$ ones, so the ones place keeps only the leftover ones. Right: $38+6=44$.
+- **Leaving out the unit in a word problem.** Wrong: "Answer: $64$". Why it is wrong: a number on its own does not say what we are counting. Right: "Answer: $64$ apples".
 :::
 
 ## Key terms
@@ -107,13 +107,14 @@ So there are $64$ apples in the basket altogether.
 ## Summary
 
 - Add the ones first. If they make $10$ or more, exchange $10$ ones for $1$ ten.
-- Write the ones that are left in the ones place and carry $1$ ten to the tens.
-- Example: $38+6$: $8+6=14$, write $4$ carry $1$; $3+1=4$; the answer is $44$.
-- Word problems that ask "altogether" or "how many more are added" usually need an addition; remember to write the unit in the answer.
+- Write the ones that are left in the ones place, and carry $1$ ten to the tens.
+- Example: $38+6$: $8+6=14$, write $4$ and carry $1$; $3+1=4$; the answer is $44$.
+- A problem that asks "altogether", or says some more are added, usually needs an addition. Remember to write the unit in the answer.
+Remember the question at the start: when the ones fill up, where does the extra go? It is not lost. It becomes a ten and joins the tens. Try a few sums in Practice until the steps feel natural.
 
 ## Practice
 
-Each exercise comes with what you need and how to start. Try it yourself first, then open the solution.
+Each exercise comes with what you need to remember and a hint to help you start. Try it yourself first, and do not worry if the answer does not come at once. When you have finished, open the solution and compare.
 
 :::exercise
 Work out $35+7$.

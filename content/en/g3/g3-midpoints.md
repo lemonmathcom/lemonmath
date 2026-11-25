@@ -10,15 +10,15 @@ minutes: 15
 - Work out half of a segment, or the whole segment, when you know the midpoint.
 :::
 
-An's house, the school and Binh's house are on the same straight road. From An's house to the school is $3$ km, and from the school to Binh's house is also $3$ km. What is special about where the school stands?
+Picture a straight road with An's house, the school and Binh's house along it. From An's house to the school is $3$ km, and from the school to Binh's house is also $3$ km. Where does the school stand compared with the two houses? Is there anything special about that spot?
 
-This lesson helps you name that position and use it to work out lengths.
+That spot has a name of its own. Once you know it, you can work out a length without measuring the whole road. We will name it and then put it to use.
 
 ## Let's explore
 
-Points on the same straight line are called **three points in a straight line**. If $A$, $M$, $B$ are in a straight line and going from $A$ to $B$ means passing through $M$, then $M$ is **between** $A$ and $B$.
+Think of points sitting along one straight line. Three such points are called **three points in a straight line**. Now take $A$, $M$, $B$ in a straight line. If you must pass through $M$ on the way from $A$ to $B$, then $M$ is **between** $A$ and $B$.
 
-We draw An's house as point $A$, the school as point $M$ and Binh's house as point $B$:
+Let us draw the road. An's house is point $A$, the school is point $M$ and Binh's house is point $B$:
 
 :::diagram M is between A and B, and MA and MB are equal
 alt: A horizontal line segment AB with the point M in the middle; AM and MB each carry the same small tick mark, so they are equal
@@ -30,7 +30,7 @@ mark A M 1
 mark M B 1
 :::
 
-Point $M$ is between $A$ and $B$, and $MA=MB=3$ km. Point $M$ splits the line segment $AB$ into two equal parts. We call $M$ the **midpoint** of the line segment $AB$.
+Point $M$ is between $A$ and $B$, and $MA=MB=3$ km. So $M$ splits the line segment $AB$ into two equal parts. A point like that has its own name: we call $M$ the **midpoint** of the line segment $AB$.
 
 :::theorem The midpoint of a line segment
 Point $M$ is the midpoint of the line segment $AB$ when $M$ is between $A$ and $B$ and $MA=MB$.
@@ -38,11 +38,11 @@ Point $M$ is the midpoint of the line segment $AB$ when $M$ is between $A$ and $
 Then $AB=MA+MB=2\times MA$, so $MA=AB\div2$.
 :::
 
-This is true because $MA$ and $MB$ are equal, so each one is $\dfrac{1}{2}$ of $AB$. In the last lesson you saw that half of a number is that number divided by $2$.
+Why do we halve? Because $MA$ and $MB$ are equal, so each one is $\dfrac{1}{2}$ of $AB$. In the last lesson you saw that half of a number is that number divided by $2$. So finding half of a segment is just a division.
 
 ## Examples
 
-We start by finding points between.
+First, practise spotting points between: walk from one point to another and see which points you pass.
 
 :::example Points in between
 On a straight line there are four points $D$, $E$, $G$, $H$ in this order from left to right. Which points are between $D$ and $H$? Which point is between $E$ and $H$?
@@ -52,7 +52,7 @@ On a straight line there are four points $D$, $E$, $G$, $H$ in this order from l
 So $E$ and $G$ are between $D$ and $H$; $G$ is between $E$ and $H$.
 :::
 
-Now check whether a point is a midpoint.
+Being between is not enough to make a midpoint. Let us check whether a point is a midpoint.
 
 :::example Is it a midpoint?
 $M$ is between $A$ and $B$.
@@ -70,7 +70,7 @@ b) $AM=4$ cm is not equal to $MB=6$ cm, so $M$ is not the midpoint of $AB$.
 So a) yes; b) no.
 :::
 
-Next, work out half of a segment.
+Once we know the midpoint, we can work out half of a segment. Let us try it.
 
 :::example Find $AM$
 $M$ is the midpoint of the line segment $AB$, which is $12$ cm long. Find $AM$.
@@ -82,7 +82,7 @@ $$AM=12\div2=6\ \text{(cm)}.$$
 So $AM=6$ cm.
 :::
 
-Now go the other way and find the whole segment.
+Now go the other way: you know the half, and you find the whole segment.
 
 :::example Find $AB$
 $M$ is the midpoint of the line segment $AB$ and $MA=7$ cm. Find $AB$.
@@ -94,7 +94,7 @@ $$AB=7\times2=14\ \text{(cm)}.$$
 So $AB=14$ cm.
 :::
 
-Finally, the problem from the start, in a different setting.
+Back to An, Binh and the school, this time with different numbers.
 
 :::example The road to school
 An's house, the school and Binh's house are on a straight line. The school is the midpoint of the road from An's house to Binh's house, which is $8$ km long. How many kilometres is it from An's house to the school?
@@ -107,10 +107,11 @@ So it is $4$ km from An's house to the school.
 :::
 
 :::warning Mistakes to watch out for
-- **Between does not always mean midpoint.** Wrong: $M$ is between $A$ and $B$, so $M$ is the midpoint. Why it is wrong: if $AM=3$ cm and $MB=7$ cm, $M$ is still between $A$ and $B$ but the two parts are not equal. Right: we also need $MA=MB$.
+- **Between does not always mean midpoint.** Wrong: $M$ is between $A$ and $B$, so $M$ is the midpoint. Why it is wrong: suppose $AM=3$ cm and $MB=7$ cm. Then $M$ is still between $A$ and $B$, but the two parts are not equal. Right: we also need $MA=MB$.
 - **Forgetting to halve.** Wrong: $M$ is the midpoint of $AB=12$ cm so $AM=12$ cm. Why it is wrong: $AM$ is only half of $AB$. Right: $AM=12\div2=6$ cm.
 - **Forgetting to double.** Wrong: $MA=7$ cm so $AB=7$ cm. Why it is wrong: $AB$ is made of two parts, $MA$ and $MB$. Right: $AB=7\times2=14$ cm.
 - **Forgetting the unit.** Wrong: "Answer: $6$". Right: "Answer: $6$ cm".
+Many people slip up in these places, so don't worry if you do. Check your answer by putting the two parts back together and you will see it straight away.
 :::
 
 ## Key terms
@@ -133,10 +134,11 @@ So it is $4$ km from An's house to the school.
 - $M$ is the midpoint of $AB$ when $M$ is between $A$ and $B$ and $MA=MB$.
 - When $M$ is the midpoint: $MA=AB\div2$ and $AB=MA\times2$.
 - Write the unit of length in the answer.
+So what about the question at the start? The school is between the two houses and the same distance from both, so it is the midpoint of the road. Remember: to find half, halve; to find the whole, double. A few practice questions will make it feel natural.
 
 ## Practice
 
-Each exercise comes with what you need and how to start. Try it yourself first, then open the solution.
+Every exercise gives you the idea you need and a hint for getting started. Have a go on your own first. If you get stuck, read the hint, and only then open the solution to compare.
 
 :::exercise
 On a straight line there are four points $P$, $Q$, $R$, $S$ in this order from left to right.

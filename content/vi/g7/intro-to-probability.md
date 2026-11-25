@@ -13,17 +13,17 @@ minutes: 20
 
 Một hộp có $12$ viên bi cùng kích thước: $5$ viên đỏ, $4$ viên xanh và $3$ viên vàng. Minh nhắm mắt lấy ra một viên bi. Khả năng lấy được viên bi đỏ nhiều hay ít?
 
-Ta có thể nói "nhiều" hay "ít", nhưng như vậy chưa rõ ràng. Bài này giúp bạn đo khả năng đó bằng một con số. Con số ấy gọi là xác suất.
+Nói "nhiều" hay "ít" thì mỗi người hiểu một kiểu. Nếu có một con số đo khả năng ấy, ai cũng hiểu như nhau, và ta so sánh được khả năng của hai việc khác nhau. Con số ấy gọi là xác suất. Ta bắt đầu từ những phép thử thật đơn giản.
 
 ## Cùng khám phá
 
-Ta bắt đầu với phép thử đơn giản nhất: tung một đồng xu cân đối. Có hai kết quả có thể: mặt sấp (S) hoặc mặt ngửa (N). Đồng xu cân đối nên hai kết quả này có khả năng như nhau.
+Hãy bắt đầu với phép thử đơn giản nhất: tung một đồng xu cân đối. Đồng xu rơi xuống thì chỉ có hai kết quả có thể: mặt sấp (S) hoặc mặt ngửa (N). Đồng xu cân đối, nên không mặt nào dễ ra hơn mặt nào. Ta nói hai kết quả này có khả năng như nhau.
 
-Xét biến cố $A$: "Mặt sấp xuất hiện". Chỉ có $1$ kết quả làm cho $A$ xảy ra, trong tổng số $2$ kết quả. Ta nói khả năng của $A$ là $1$ trên $2$, tức là $\dfrac12$.
+Ta xét biến cố $A$: "Mặt sấp xuất hiện". Trong tổng số $2$ kết quả, chỉ có $1$ kết quả làm cho $A$ xảy ra. Vậy khả năng của $A$ là $1$ trên $2$, tức là $\dfrac12$.
 
-Bây giờ ta gieo một con xúc xắc cân đối. Có $6$ kết quả có thể: $1, 2, 3, 4, 5, 6$ chấm, và chúng có khả năng như nhau. Xét biến cố $B$: "Số chấm là số chẵn". Các kết quả làm cho $B$ xảy ra là $2, 4, 6$: có $3$ kết quả.
+Giờ ta gieo một con xúc xắc cân đối. Có $6$ kết quả có thể: $1, 2, 3, 4, 5, 6$ chấm, và chúng có khả năng như nhau vì xúc xắc cân đối. Ta xét biến cố $B$: "Số chấm là số chẵn". Muốn biết kết quả nào làm cho $B$ xảy ra, ta kiểm từng mặt: đó là $2, 4, 6$, tức là có $3$ kết quả.
 
-Ta ghi lại cả hai trường hợp trong một bảng:
+Ta ghi các trường hợp vừa xét vào một bảng, rồi xem có quy luật nào không:
 
 | Phép thử | Số kết quả có thể | Biến cố | Số kết quả thuận lợi | Khả năng |
 |---|---|---|---|---|
@@ -31,23 +31,23 @@ Ta ghi lại cả hai trường hợp trong một bảng:
 | Gieo xúc xắc | $6$ | Số chấm chẵn | $3$ | $\dfrac36=\dfrac12$ |
 | Gieo xúc xắc | $6$ | Mặt $6$ chấm | $1$ | $\dfrac16$ |
 
-Ở cả ba dòng, khả năng bằng số kết quả thuận lợi chia cho số kết quả có thể. Các kết quả có khả năng như nhau, nên mỗi kết quả chiếm đúng một phần như nhau trong tổng. Có $k$ kết quả thuận lợi thì chiếm $k$ phần trong $n$ phần.
+Bạn thấy gì ở cả ba dòng? Khả năng bằng số kết quả thuận lợi chia cho số kết quả có thể. Vì sao lại như vậy? Vì các kết quả có khả năng như nhau, nên mỗi kết quả chiếm đúng một phần như nhau trong tổng. Có $k$ kết quả thuận lợi thì chiếm $k$ phần trong $n$ phần. Ta đặt tên cho quy luật này.
 
 :::definition Xác suất của biến cố
 Giả sử một phép thử có $n$ kết quả có thể, các kết quả này có khả năng như nhau. Nếu có $k$ kết quả thuận lợi cho biến cố $A$ thì **xác suất của biến cố $A$** là
 $$P(A)=\dfrac{k}{n}.$$
 :::
 
-Trong đó "kết quả thuận lợi cho $A$" là kết quả làm cho $A$ xảy ra. Quay lại bài toán đầu: hộp có $12$ viên bi, trong đó $5$ viên đỏ. Mỗi viên bi có khả năng được lấy như nhau, nên xác suất lấy được bi đỏ là $\dfrac{5}{12}$.
+Ở đây, "kết quả thuận lợi cho $A$" nghĩa là kết quả làm cho $A$ xảy ra. Giờ ta quay lại câu hỏi đầu bài: hộp có $12$ viên bi, trong đó $5$ viên đỏ. Mỗi viên bi có khả năng được lấy như nhau, nên xác suất lấy được bi đỏ là $\dfrac{5}{12}$. Bạn thấy đấy, chuyện "nhiều hay ít" đã thành một con số cụ thể.
 
 ## Xác suất luôn từ 0 đến 1
 
-Số kết quả thuận lợi $k$ không thể âm và không thể lớn hơn tổng số kết quả $n$. Do đó $0\le k\le n$. Chia cả ba vế cho $n$ (số dương), ta được $0\le\dfrac{k}{n}\le1$.
+Có một điều đáng để ý: xác suất không bao giờ vượt ra ngoài một khoảng rất gọn. Vì sao? Số kết quả thuận lợi $k$ không thể âm và không thể lớn hơn tổng số kết quả $n$. Do đó $0\le k\le n$. Chia cả ba vế cho $n$ (số dương), ta được $0\le\dfrac{k}{n}\le1$.
 
-Hai trường hợp đặc biệt cần nhớ:
+Ở hai đầu của khoảng đó có hai trường hợp đặc biệt, bạn nên nhớ:
 
-- Nếu $k=0$ thì $P(A)=0$: không kết quả nào làm $A$ xảy ra, đó là biến cố không thể.
-- Nếu $k=n$ thì $P(A)=1$: mọi kết quả đều làm $A$ xảy ra, đó là biến cố chắc chắn.
+- Nếu $k=0$ thì $P(A)=0$: không kết quả nào làm $A$ xảy ra, nên biến cố không bao giờ xảy ra. Đó là biến cố không thể.
+- Nếu $k=n$ thì $P(A)=1$: mọi kết quả đều làm $A$ xảy ra, nên biến cố chắc chắn xảy ra. Đó là biến cố chắc chắn.
 
 :::theorem Giá trị của xác suất
 Với mọi biến cố $A$ ta có $0\le P(A)\le1$. Biến cố không thể có xác suất bằng $0$. Biến cố chắc chắn có xác suất bằng $1$.
@@ -63,11 +63,11 @@ point: (0.5, 0) "1/2" below
 point: (1, 0) "1" below
 :::
 
-Xác suất càng gần $1$ thì biến cố càng dễ xảy ra. Xác suất càng gần $0$ thì biến cố càng khó xảy ra.
+Từ đó, ta đọc xác suất như một thước đo: xác suất càng gần $1$ thì biến cố càng dễ xảy ra, càng gần $0$ thì biến cố càng khó xảy ra.
 
 ## Ví dụ
 
-Ta bắt đầu với bài toán lấy bi ở đầu bài.
+Ta bắt đầu bằng chính bài toán lấy bi ở đầu bài, giờ đã có công cụ để trả lời rồi.
 
 :::example Lấy bi trong hộp
 Một hộp có $12$ viên bi cùng kích thước: $5$ bi đỏ, $4$ bi xanh, $3$ bi vàng. Lấy ngẫu nhiên một viên bi. Tính xác suất của biến cố $A$: "Lấy được bi đỏ" và biến cố $B$: "Lấy được bi xanh".
@@ -81,7 +81,7 @@ $$P(A)=\dfrac{5}{12},\qquad P(B)=\dfrac{4}{12}=\dfrac13.$$
 **Kiểm tra.** Ba màu có $5+4+3=12$ viên, đúng bằng tổng số bi.
 :::
 
-Với xúc xắc, trước hết ta phải liệt kê đúng các kết quả thuận lợi.
+Với xúc xắc, việc quan trọng nhất là liệt kê đúng các kết quả thuận lợi. Sót hay thừa một kết quả là sai cả đáp số.
 
 :::example Gieo xúc xắc
 Gieo một con xúc xắc cân đối. Tính xác suất của biến cố $C$: "Số chấm xuất hiện là số nguyên tố".
@@ -93,7 +93,7 @@ $$P(C)=\dfrac{3}{6}=\dfrac12.$$
 Vậy xác suất để số chấm là số nguyên tố bằng $\dfrac12$.
 :::
 
-Khi có nhiều kết quả hơn, ta cần đếm cẩn thận.
+Khi có nhiều kết quả hơn, ta dễ đếm sót hơn, nên cần đếm có thứ tự và cẩn thận.
 
 :::example Rút thẻ
 Một túi có $20$ tấm thẻ ghi các số từ $1$ đến $20$. Rút ngẫu nhiên một thẻ. Tính xác suất của biến cố $D$: "Thẻ rút được ghi số chia hết cho $4$".
@@ -107,7 +107,7 @@ Vậy xác suất rút được thẻ ghi số chia hết cho $4$ là $\dfrac14$
 **Kiểm tra.** Cứ $4$ số liên tiếp thì có một số chia hết cho $4$, nên tỉ lệ $\dfrac14$ là hợp lí.
 :::
 
-Có khi biến cố được mô tả bằng cách "không phải", và ta vẫn đếm từng kết quả.
+Có khi biến cố được nói theo kiểu "không phải". Cách làm vẫn không đổi: ta đếm từng kết quả thuận lợi.
 
 :::example Vòng quay may mắn
 Một vòng quay được chia thành $8$ phần bằng nhau: $3$ phần đỏ, $2$ phần xanh, $2$ phần vàng, $1$ phần trắng. Quay vòng quay một lần, mũi tên dừng ở một phần. Tính xác suất của biến cố $E$: "Mũi tên dừng ở phần đỏ" và biến cố $G$: "Mũi tên không dừng ở phần đỏ".
@@ -121,7 +121,7 @@ Vậy xác suất dừng ở phần đỏ là $\dfrac38$, xác suất không d�
 **Kiểm tra.** Hai xác suất cộng lại bằng $\dfrac38+\dfrac58=1$, vì mũi tên hoặc dừng ở phần đỏ, hoặc không.
 :::
 
-Bây giờ ta xem hai trường hợp đặc biệt: xác suất bằng $0$ và bằng $1$.
+Giờ ta quay lại hai trường hợp đặc biệt vừa nói: xác suất bằng $0$ và xác suất bằng $1$. Chúng xảy ra khi nào trong một bài toán cụ thể?
 
 :::example Biến cố không thể và biến cố chắc chắn
 Một hộp có $4$ bi xanh và $3$ bi đỏ. Lấy ngẫu nhiên một viên bi. Tính xác suất của biến cố $H$: "Lấy được bi vàng" và biến cố $K$: "Lấy được bi xanh hoặc bi đỏ".
@@ -133,7 +133,7 @@ $$P(H)=\dfrac{0}{7}=0,\qquad P(K)=\dfrac{7}{7}=1.$$
 Vậy $H$ là biến cố không thể ($P=0$) và $K$ là biến cố chắc chắn ($P=1$).
 :::
 
-Ở ví dụ cuối, ta phải tự đếm số kết quả có thể.
+Ở ví dụ cuối, đề bài không cho sẵn số kết quả có thể. Bạn phải tự đếm.
 
 :::example Số có hai chữ số
 Chọn ngẫu nhiên một số tự nhiên có hai chữ số. Tính xác suất của biến cố $L$: "Số được chọn chia hết cho $10$".
@@ -146,9 +146,9 @@ Vậy xác suất chọn được số chia hết cho $10$ là $\dfrac{1}{10}$.
 :::
 
 :::warning Những sai lầm thường gặp
-- **Viết ngược tỉ số.** Sai: $P(\text{bi đỏ})=\dfrac{12}{5}$. Lí do sai: xác suất không thể lớn hơn $1$. Đúng: $\dfrac{5}{12}$, tức là số kết quả thuận lợi chia cho số kết quả có thể.
+- **Viết ngược tỉ số.** Chỗ này nhiều bạn hay nhầm. Sai: $P(\text{bi đỏ})=\dfrac{12}{5}$. Lí do sai: xác suất không thể lớn hơn $1$. Đúng: $\dfrac{5}{12}$, tức là số kết quả thuận lợi chia cho số kết quả có thể.
 - **Đếm nhầm kết quả thuận lợi.** Sai: số nguyên tố khi gieo xúc xắc là $1, 2, 3, 5$, nên $P=\dfrac46$. Lí do sai: $1$ không phải số nguyên tố. Đúng: $2, 3, 5$, nên $P=\dfrac36=\dfrac12$.
-- **Coi mọi màu có khả năng như nhau.** Sai: hộp có $3$ màu nên xác suất mỗi màu là $\dfrac13$. Lí do sai: các màu có số bi khác nhau. Đúng: coi mỗi viên bi là một kết quả, rồi đếm số bi của màu đó.
+- **Coi mọi màu có khả năng như nhau.** Sai: hộp có $3$ màu nên xác suất mỗi màu là $\dfrac13$. Lí do sai: các màu có số bi khác nhau, nên khả năng cũng khác nhau. Đúng: coi mỗi viên bi là một kết quả, rồi đếm số bi của màu đó.
 :::
 
 ## Thuật ngữ
@@ -172,10 +172,11 @@ Vậy xác suất chọn được số chia hết cho $10$ là $\dfrac{1}{10}$.
 - Cách làm: đếm $n$, đếm $k$, rồi lập tỉ số và rút gọn.
 - Luôn có $0\le P(A)\le1$. Biến cố không thể có $P=0$, biến cố chắc chắn có $P=1$.
 - Muốn dùng công thức, các kết quả phải có khả năng như nhau. Trong bài toán chọn bi, ta coi mỗi viên bi là một kết quả.
+Quay lại câu hỏi đầu bài: khả năng lấy được bi đỏ không còn là "nhiều" hay "ít" nữa, mà là một con số cụ thể, có được nhờ đếm số kết quả có thể, đếm số kết quả thuận lợi, rồi chia. Bạn làm thêm vài bài luyện tập để quen với việc đếm nhé.
 
 ## Luyện tập
 
-Mỗi bài có phần kiến thức và gợi ý các bước. Hãy tự làm trước, rồi mới bấm xem lời giải.
+Mỗi bài có phần nhắc kiến thức và gợi ý các bước. Bạn cứ tự làm trước, sai thì sửa cũng là một cách học, rồi mới bấm xem lời giải.
 
 :::exercise
 Gieo một con xúc xắc cân đối.

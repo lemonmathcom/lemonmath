@@ -10,9 +10,9 @@ minutes: 20
 - Dùng máy tính cầm tay để tính tỉ số lượng giác và tìm góc khi biết một tỉ số.
 :::
 
-Bác Tư dựng một chiếc thang dài $5$ m vào tường, chân thang cách chân tường $3$ m. Theo hướng dẫn an toàn, góc giữa thang và mặt đất nên vào khoảng $75^\circ$. Thang của bác Tư có đủ dốc không?
+Bác Tư dựng một chiếc thang dài $5$ m vào tường, chân thang cách chân tường $3$ m. Hướng dẫn an toàn nói góc giữa thang và mặt đất nên vào khoảng $75^\circ$. Nhìn bằng mắt thì khó biết thang dốc đến đâu. Vậy làm sao biết thang của bác Tư có đủ dốc không, khi ta chỉ đo được độ dài?
 
-Ta biết hai cạnh của tam giác vuông nhưng cần một **góc**. Công cụ nối cạnh với góc là các tỉ số lượng giác.
+Ta biết hai cạnh của tam giác vuông, nhưng thứ cần tìm lại là một **góc**. Ta cần một cầu nối giữa cạnh và góc, và cầu nối đó là các tỉ số lượng giác. Có chúng, ta tìm được góc mà không cần thước đo góc.
 
 :::diagram Chiếc thang dựa vào tường
 alt: Chiếc thang là cạnh huyền của tam giác vuông, chân thang cách tường 3 mét, thang dài 5 mét, góc giữa thang và mặt đất kí hiệu là alpha
@@ -30,14 +30,14 @@ angle T P H "α"
 
 ### Khám phá: tỉ số không phụ thuộc vào kích thước tam giác
 
-Xét hai tam giác vuông có cùng góc nhọn $\alpha$ ở đỉnh $B$: tam giác thứ nhất có các cạnh $3$, $4$, $5$; tam giác thứ hai có các cạnh $6$, $8$, $10$ (gấp đôi). Ta lập tỉ số giữa cạnh đối diện góc $\alpha$ và cạnh huyền:
+Trước hết, ta thử xem tỉ số các cạnh có phụ thuộc vào kích thước tam giác không. Lấy hai tam giác vuông có cùng góc nhọn $\alpha$ ở đỉnh $B$. Tam giác thứ nhất có các cạnh $3$, $4$, $5$. Tam giác thứ hai có các cạnh $6$, $8$, $10$, gấp đôi tam giác thứ nhất. Với mỗi tam giác, ta lập tỉ số giữa cạnh đối diện góc $\alpha$ và cạnh huyền:
 
 | Tam giác | cạnh đối | cạnh huyền | cạnh đối : cạnh huyền |
 |---|---|---|---|
 | thứ nhất | $3$ | $5$ | $0{,}6$ |
 | thứ hai | $6$ | $10$ | $0{,}6$ |
 
-Hai tam giác đồng dạng (lớp 8) nên tỉ số giống nhau. Tỉ số chỉ phụ thuộc vào góc $\alpha$, không phụ thuộc vào tam giác lớn hay nhỏ.
+Hai tam giác này đồng dạng (lớp 8), nên các tỉ số bằng nhau. Tỉ số chỉ phụ thuộc vào góc $\alpha$, không phụ thuộc vào tam giác to hay nhỏ. Vì thế ta có thể đặt tên cho tỉ số ấy theo góc.
 
 :::diagram Cạnh đối, cạnh kề và cạnh huyền của góc $\alpha$
 alt: Tam giác ABC vuông tại A, góc alpha ở đỉnh B, cạnh AC đối diện góc alpha, cạnh AB kề góc alpha, cạnh BC là cạnh huyền
@@ -57,7 +57,7 @@ Cho tam giác vuông có góc nhọn $\alpha$. Khi đó:
 $$\sin\alpha=\frac{\text{cạnh đối}}{\text{cạnh huyền}},\quad \cos\alpha=\frac{\text{cạnh kề}}{\text{cạnh huyền}},\quad \tan\alpha=\frac{\text{cạnh đối}}{\text{cạnh kề}},\quad \cot\alpha=\frac{\text{cạnh kề}}{\text{cạnh đối}}.$$
 :::
 
-Vì cạnh huyền dài nhất, ta luôn có $0<\sin\alpha<1$ và $0<\cos\alpha<1$. Mẹo nhớ quen thuộc: "**sin đi học, cos không hư, tan đoàn kết, cot kết đoàn**" (sin = đối : huyền, cos = kề : huyền, tan = đối : kề, cot = kề : đối).
+Cạnh huyền là cạnh dài nhất, nên tử số luôn nhỏ hơn mẫu số, và ta luôn có $0<\sin\alpha<1$ và $0<\cos\alpha<1$. Để nhớ bốn tỉ số, nhiều bạn đọc câu quen thuộc "**sin đi học, cos không hư, tan đoàn kết, cot kết đoàn**" (sin = đối : huyền, cos = kề : huyền, tan = đối : kề, cot = kề : đối). Khi lập tỉ số, bạn cứ hỏi trước: đâu là cạnh đối, đâu là cạnh kề của góc đang xét?
 
 :::example Tính bốn tỉ số
 Cho tam giác $ABC$ vuông tại $A$ có $AB=8$ cm, $AC=6$ cm. Tính các tỉ số lượng giác của góc $B$.
@@ -69,7 +69,7 @@ $$BC=\sqrt{8^2+6^2}=\sqrt{100}=10;\qquad \sin B=\frac{6}{10}=\frac35,\quad \cos 
 Vậy $\sin B=\dfrac35$, $\cos B=\dfrac45$, $\tan B=\dfrac34$, $\cot B=\dfrac43$.
 :::
 
-Cạnh đối và cạnh kề thay đổi khi ta xét góc nhọn còn lại, nên luôn xác định lại trước khi lập tỉ số.
+Cạnh đối và cạnh kề đổi vai khi ta chuyển sang góc nhọn còn lại. Vì thế, trước khi lập tỉ số, bạn hãy xác định lại hai cạnh đó. Ví dụ này lấy góc nhọn còn lại của một tam giác vuông.
 
 :::example Tỉ số của góc còn lại
 Cho tam giác $ABC$ vuông tại $A$ có $AB=5$, $AC=12$. Tính các tỉ số lượng giác của góc $C$.
@@ -83,7 +83,7 @@ Vậy $\sin C=\dfrac5{13}$, $\cos C=\dfrac{12}{13}$, $\tan C=\dfrac5{12}$, $\cot
 
 ## Tỉ số lượng giác của các góc đặc biệt
 
-Nửa hình vuông cạnh $1$ là tam giác vuông cân có hai góc $45^\circ$, cạnh huyền $\sqrt2$. Nửa tam giác đều cạnh $2$ là tam giác vuông có các góc $30^\circ$, $60^\circ$ và các cạnh $1$, $\sqrt3$, $2$. Từ hai tam giác này ta được bảng sau.
+Có những góc hay gặp đến mức ta nên thuộc luôn tỉ số của chúng, và ta tự tìm được chúng từ hai hình quen thuộc. Cắt đôi hình vuông cạnh $1$ theo đường chéo, ta được tam giác vuông cân có hai góc $45^\circ$, cạnh huyền $\sqrt2$. Cắt đôi tam giác đều cạnh $2$ theo đường cao, ta được tam giác vuông có các góc $30^\circ$, $60^\circ$ và các cạnh $1$, $\sqrt3$, $2$. Từ hai tam giác này ta được bảng sau.
 
 | $\alpha$ | $30^\circ$ | $45^\circ$ | $60^\circ$ |
 |---|---|---|---|
@@ -92,7 +92,7 @@ Nửa hình vuông cạnh $1$ là tam giác vuông cân có hai góc $45^\circ$,
 | $\tan\alpha$ | $\dfrac{\sqrt3}3$ | $1$ | $\sqrt3$ |
 | $\cot\alpha$ | $\sqrt3$ | $1$ | $\dfrac{\sqrt3}3$ |
 
-Chẳng hạn $\sin45^\circ=\dfrac{1}{\sqrt2}=\dfrac{\sqrt2}{2}$ (trục căn thức ở mẫu như ở chương trước).
+Chẳng hạn $\sin45^\circ=\dfrac{1}{\sqrt2}=\dfrac{\sqrt2}{2}$: lấy cạnh đối chia cho cạnh huyền, rồi trục căn thức ở mẫu như ở chương trước.
 
 :::example Tính giá trị biểu thức
 Tính: a) $A=\sin30^\circ+\cos60^\circ-\tan45^\circ$; b) $B=\sin60^\circ\cdot\cot30^\circ$.
@@ -106,7 +106,7 @@ Vậy $A=0$ và $B=\dfrac32$.
 
 ## Tỉ số lượng giác của hai góc phụ nhau
 
-Trong tam giác $ABC$ vuông tại $A$, hai góc $B$ và $C$ phụ nhau: $\widehat{B}+\widehat{C}=90^\circ$. Cạnh đối của góc $B$ chính là cạnh kề của góc $C$, nên $\sin B=\dfrac{AC}{BC}=\cos C$.
+Hai góc nhọn của một tam giác vuông có quan hệ đặc biệt với nhau. Trong tam giác $ABC$ vuông tại $A$, hai góc $B$ và $C$ phụ nhau: $\widehat{B}+\widehat{C}=90^\circ$. Cạnh đối của góc $B$ chính là cạnh kề của góc $C$, nên $\sin B=\dfrac{AC}{BC}=\cos C$. Vậy sin của góc này bằng cos của góc kia.
 
 :::theorem Hai góc phụ nhau
 Nếu $\alpha+\beta=90^\circ$ thì
@@ -124,7 +124,7 @@ $$\sin72^\circ=\cos18^\circ,\quad \tan65^\circ=\cot25^\circ;\qquad \frac{\sin25^
 Vậy a) $\cos18^\circ$ và $\cot25^\circ$; b) cả hai biểu thức đều bằng $1$.
 :::
 
-Với góc bất kì, ta dùng máy tính cầm tay (để ở chế độ độ, kí hiệu D). Phím `sin`, `cos`, `tan` cho tỉ số; tổ hợp `SHIFT` + `sin` (hoặc `cos`, `tan`) cho góc khi biết tỉ số. Không có phím cot, nên ta dùng $\cot\alpha=\dfrac{1}{\tan\alpha}$.
+Với những góc không đặc biệt, ta nhờ máy tính cầm tay. Trước hết, bạn kiểm tra máy đang ở chế độ độ, kí hiệu D. Phím `sin`, `cos`, `tan` cho ta tỉ số. Muốn làm ngược lại, tìm góc khi biết tỉ số, ta bấm `SHIFT` + `sin` (hoặc `cos`, `tan`). Máy không có phím cot, nên ta dùng $\cot\alpha=\dfrac{1}{\tan\alpha}$. Có công cụ này, ta quay lại câu hỏi về chiếc thang.
 
 :::example Trả lời câu hỏi chiếc thang
 Thang dài $5$ m, chân thang cách tường $3$ m. Tìm góc $\alpha$ giữa thang và mặt đất (làm tròn đến độ).
@@ -137,10 +137,10 @@ Vậy góc giữa thang và mặt đất chỉ khoảng $53^\circ$, nhỏ hơn n
 :::
 
 :::warning Những sai lầm thường gặp
-- **Nhầm cạnh đối và cạnh kề.** Sai: trong tam giác vuông tại $A$, $\sin C=\dfrac{AC}{BC}$. Lí do sai: cạnh đối diện góc $C$ là $AB$. Đúng: $\sin C=\dfrac{AB}{BC}$.
-- **Lập tỉ số với cạnh huyền ở tử.** Sai: $\cos B=\dfrac{BC}{AB}$. Lí do sai: tỉ số này lớn hơn $1$, mà $\cos B<1$. Đúng: $\cos B=\dfrac{AB}{BC}$.
-- **Nhầm giá trị đặc biệt.** Sai: $\sin60^\circ=\dfrac12$. Lí do sai: đó là $\sin30^\circ$ (cạnh đối góc $30^\circ$ ngắn nhất). Đúng: $\sin60^\circ=\dfrac{\sqrt3}2$.
-- **Để máy tính sai chế độ.** Sai: bấm $\sin30$ được $-0{,}988$. Lí do sai: máy đang ở chế độ radian. Đúng: chuyển sang chế độ độ, được $0{,}5$.
+- **Nhầm cạnh đối và cạnh kề.** Nhiều bạn viết, trong tam giác vuông tại $A$, $\sin C=\dfrac{AC}{BC}$. Chỗ này sai vì cạnh đối diện góc $C$ là $AB$. Đúng là $\sin C=\dfrac{AB}{BC}$.
+- **Lập tỉ số với cạnh huyền ở tử.** Có bạn viết $\cos B=\dfrac{BC}{AB}$. Tỉ số này lớn hơn $1$, trong khi $\cos B<1$. Đúng là $\cos B=\dfrac{AB}{BC}$.
+- **Nhầm giá trị đặc biệt.** Có bạn viết $\sin60^\circ=\dfrac12$. Đó là $\sin30^\circ$, vì cạnh đối góc $30^\circ$ ngắn nhất. Đúng là $\sin60^\circ=\dfrac{\sqrt3}2$.
+- **Để máy tính sai chế độ.** Bấm $\sin30$ mà ra $-0{,}988$ thì máy đang ở chế độ radian. Chuyển sang chế độ độ, bạn sẽ được $0{,}5$.
 :::
 
 ## Thuật ngữ
@@ -158,15 +158,16 @@ Vậy góc giữa thang và mặt đất chỉ khoảng $53^\circ$, nhỏ hơn n
 
 ## Tóm tắt
 
-- $\sin\alpha=\dfrac{\text{đối}}{\text{huyền}}$, $\cos\alpha=\dfrac{\text{kề}}{\text{huyền}}$, $\tan\alpha=\dfrac{\text{đối}}{\text{kề}}$, $\cot\alpha=\dfrac{\text{kề}}{\text{đối}}$.
-- Tỉ số chỉ phụ thuộc vào góc; $0<\sin\alpha<1$, $0<\cos\alpha<1$; $\tan\alpha\cdot\cot\alpha=1$.
-- $\sin30^\circ=\cos60^\circ=\dfrac12$, $\sin45^\circ=\cos45^\circ=\dfrac{\sqrt2}2$, $\sin60^\circ=\cos30^\circ=\dfrac{\sqrt3}2$, $\tan45^\circ=1$, $\tan60^\circ=\sqrt3$, $\tan30^\circ=\dfrac{\sqrt3}3$.
-- Hai góc phụ nhau: sin góc này bằng cos góc kia, tan góc này bằng cot góc kia.
-- Máy tính: chế độ độ; `SHIFT` + `sin`/`cos`/`tan` để tìm góc.
+- Bốn tỉ số của một góc nhọn: $\sin\alpha=\dfrac{\text{đối}}{\text{huyền}}$, $\cos\alpha=\dfrac{\text{kề}}{\text{huyền}}$, $\tan\alpha=\dfrac{\text{đối}}{\text{kề}}$, $\cot\alpha=\dfrac{\text{kề}}{\text{đối}}$.
+- Tỉ số chỉ phụ thuộc vào góc, không phụ thuộc vào kích thước tam giác; $0<\sin\alpha<1$, $0<\cos\alpha<1$; $\tan\alpha\cdot\cot\alpha=1$.
+- Các góc đặc biệt: $\sin30^\circ=\cos60^\circ=\dfrac12$, $\sin45^\circ=\cos45^\circ=\dfrac{\sqrt2}2$, $\sin60^\circ=\cos30^\circ=\dfrac{\sqrt3}2$, $\tan45^\circ=1$, $\tan60^\circ=\sqrt3$, $\tan30^\circ=\dfrac{\sqrt3}3$.
+- Hai góc phụ nhau: sin của góc này bằng cos của góc kia, tan của góc này bằng cot của góc kia.
+- Máy tính: để chế độ độ; dùng `SHIFT` + `sin`/`cos`/`tan` để tìm góc.
+Câu hỏi về chiếc thang đã có lời đáp: biết hai cạnh của tam giác vuông, ta tìm được góc, và thang của bác Tư quá thoải. Điều cần nhớ là xác định đúng cạnh đối, cạnh kề, cạnh huyền trước khi lập tỉ số.
 
 ## Luyện tập
 
-Mỗi bài có phần kiến thức và gợi ý các bước. Hãy tự làm trước, rồi mới bấm xem lời giải.
+Mỗi bài tập có phần kiến thức cần nhớ và gợi ý các bước. Bạn nên tự làm trước, vướng thì mới mở lời giải. Làm chậm mà chắc, các tỉ số sẽ quen dần.
 
 :::exercise
 Cho tam giác $ABC$ vuông tại $A$ có $AB=3$, $AC=4$. Tính các tỉ số lượng giác của góc $B$.

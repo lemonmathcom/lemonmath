@@ -11,13 +11,13 @@ minutes: 15
 - Điền số còn thiếu trong dãy số từ $0$ đến $10$.
 :::
 
-Trong hộp có một số viên bi. Mai đếm từng viên và nói: "Có $8$ viên bi." Làm sao Mai biết mình đếm đúng, và em viết số $8$ như thế nào?
+Trong hộp có một số viên bi. Mai đếm từng viên và nói: "Có $8$ viên bi." Làm sao Mai biết mình đếm đúng? Và em viết số $8$ như thế nào?
 
-Ở bài trước em đã biết các số từ $0$ đến $5$. Bài này em học thêm năm số mới: $6, 7, 8, 9, 10$.
+Em đã biết các số từ $0$ đến $5$. Nhưng hộp bi của Mai nhiều hơn thế, nên ta cần thêm số. Em sẽ làm quen với năm số mới: $6, 7, 8, 9, 10$.
 
 ## Cùng khám phá
 
-Em đếm các đồ vật, mỗi đồ vật một lần.
+Ta đếm như trước: chạm vào từng đồ vật, mỗi đồ vật chỉ đếm một lần.
 
 - Có sáu cái bút chì. Em đếm: "một, hai, ba, bốn, năm, sáu". Ta viết số $6$.
 - Có bảy chiếc lá. Ta viết số $7$.
@@ -25,9 +25,9 @@ Em đếm các đồ vật, mỗi đồ vật một lần.
 - Có chín quả trứng. Ta viết số $9$.
 - Hai bàn tay có mười ngón. Ta viết số $10$.
 
-Số $10$ được viết bằng hai chữ số: chữ số $1$ đứng trước, chữ số $0$ đứng sau.
+Số $10$ hơi khác các số trước, vì em viết nó bằng hai chữ số. Chữ số $1$ đứng trước, chữ số $0$ đứng sau.
 
-Em đếm thêm một sau số $5$ thì được số $6$. Ta nói $6$ là số liền sau của $5$.
+Đếm đến $5$ rồi đếm thêm một, em được $6$. Ta gọi $6$ là số liền sau của $5$. Số liền sau là số em gặp ngay sau đó khi đếm.
 
 :::graph Các số từ 0 đến 10 xếp thành hàng trên tia số
 alt: Tia số có các điểm từ 0 đến 10, các số 6, 7, 8, 9, 10 nằm bên phải số 5
@@ -48,11 +48,11 @@ point: (10, 0) "10" below
 3. Số $10$ viết bằng chữ số $1$ rồi đến chữ số $0$.
 :::
 
-Cách này đúng vì mỗi số đứng sau hơn số trước đúng một đồ vật. Em đếm đến đâu thì dừng ở số đó.
+Vì sao đếm thêm một lại ra số liền sau? Vì mỗi số hơn số đứng ngay trước nó đúng một đồ vật. Em đếm đến đâu thì dừng ở số đó, và số ấy cho biết có bao nhiêu đồ vật.
 
 ## Ví dụ
 
-Ta bắt đầu với việc đếm bút chì.
+Ta bắt đầu bằng việc đếm bút chì trong hộp, đếm từng cái một.
 
 :::example Đếm bút chì
 Trong hộp có sáu cái bút chì. Viết số bút chì.
@@ -64,7 +64,7 @@ Trong hộp có sáu cái bút chì. Viết số bút chì.
 Vậy có $6$ cái bút chì.
 :::
 
-Bây giờ em đếm các ngón tay.
+Em có sẵn ngón tay để đếm. Em thử xem nhé.
 
 :::example Đếm ngón tay
 Hai bàn tay của em có bao nhiêu ngón tay?
@@ -76,7 +76,7 @@ Hai bàn tay của em có bao nhiêu ngón tay?
 Vậy hai bàn tay có $10$ ngón tay.
 :::
 
-Tiếp theo em tìm số liền sau.
+Em vừa biết số liền sau là gì. Giờ em thử tìm số liền sau của một số khác.
 
 :::example Số liền sau
 Tìm số liền sau của số $8$.
@@ -86,7 +86,7 @@ Tìm số liền sau của số $8$.
 Vậy số liền sau của $8$ là $9$.
 :::
 
-Cuối cùng em điền số còn thiếu trong dãy.
+Biết số liền sau rồi, em sẽ tìm được số bị che trong một dãy số.
 
 :::example Điền số vào dãy
 Điền số thích hợp vào ô trống: $6, 7, \square, 9, 10$.
@@ -102,6 +102,7 @@ Vậy số cần điền là $8$.
 - **Đếm sót.** Sai: có $8$ cái ghế nhưng đếm "một, ..., sáu, tám". Vì sao sai: em quên số bảy. Đúng: đếm đủ "..., sáu, bảy, tám", được $8$ cái.
 - **Viết ngược số $10$.** Sai: viết $01$. Vì sao sai: chữ số $1$ phải đứng trước chữ số $0$. Đúng: viết $10$.
 - **Nhầm số liền sau với số liền trước.** Sai: số liền sau của $8$ là $7$. Vì sao sai: $7$ đứng trước $8$. Đúng: số liền sau của $8$ là $9$.
+Chỗ này nhiều bạn hay nhầm, nhất là khi vội. Em đếm chậm lại và đọc to từng số thì sẽ ít sai hơn.
 :::
 
 ## Thuật ngữ
@@ -123,10 +124,11 @@ Vậy số cần điền là $8$.
 - Thứ tự đếm: $0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10$.
 - Đếm thêm một thì được số liền sau.
 - Số $10$ viết bằng chữ số $1$ rồi chữ số $0$.
+Bạn Mai biết mình đếm đúng vì bạn chạm vào từng viên bi một lần, không sót, rồi dừng ở số cuối cùng. Em làm thêm bài tập để các số mới trở nên quen thuộc nhé.
 
 ## Luyện tập
 
-Mỗi bài có phần kiến thức và gợi ý. Em hãy tự làm trước, rồi mới bấm xem lời giải.
+Mỗi bài tập có phần kiến thức và một gợi ý để em bắt đầu. Em thử tự làm trước, rồi hãy bấm xem lời giải. Nếu chưa ra ngay cũng đừng lo, em cứ đếm từng bước một.
 
 :::exercise
 Trong đĩa có bảy quả táo. Viết số quả táo.

@@ -10,20 +10,21 @@ minutes: 15
 - Giải bài toán có lời văn về số trung bình cộng, kể cả tìm một số còn thiếu.
 :::
 
-Nam có $6$ viên bi, Lan có $8$ viên bi, Hà có $10$ viên bi. Ba bạn muốn chia lại để mỗi bạn có số bi bằng nhau. Mỗi bạn sẽ có bao nhiêu viên bi?
+Nam có $6$ viên bi, Lan có $8$ viên bi, Hà có $10$ viên bi. Ba bạn muốn chia lại để mỗi bạn có số bi bằng nhau. Em thử đoán xem, mỗi bạn sẽ có bao nhiêu viên bi?
 
-Em đã học phép chia ở các bài trước. Hôm nay em dùng phép cộng và phép chia để giải bài toán này.
+Em đã biết phép chia từ các bài trước. Nhưng ở đây chỉ chia thôi thì chưa đủ, vì ta còn phải gộp bi lại đã. Hôm nay em dùng phép cộng và phép chia cùng nhau, và cách này dùng được cho bất kì nhóm số nào, không riêng gì bi.
 
 ## Cùng khám phá
 
-Ta chia đều bằng cách chuyển bi từ bạn nhiều sang bạn ít.
+Trước hết, ta làm như ba bạn sẽ làm: bạn nào nhiều bi thì chuyển bớt cho bạn ít bi hơn.
 
 - Hà có $10$ viên, Nam có $6$ viên. Hà cho Nam $2$ viên.
 - Bây giờ Hà có $8$ viên, Nam có $8$ viên, Lan vẫn có $8$ viên.
+Chỉ cần chuyển một lần là cả ba bạn đã bằng nhau.
 
-Vậy mỗi bạn có $8$ viên bi. Ta nói $8$ là **số trung bình cộng** của $6$, $8$ và $10$.
+Vậy mỗi bạn có $8$ viên bi. Số này có một cái tên: ta nói $8$ là **số trung bình cộng** của $6$, $8$ và $10$. Nói đơn giản, đó là số mà mỗi bạn có khi bi được chia đều.
 
-Có cách làm nhanh hơn, không cần chuyển từng viên. Gộp hết bi lại: $6+8+10=24$ viên. Chia đều cho $3$ bạn: $24:3=8$ viên.
+Nếu có thật nhiều bạn thì chuyển từng viên sẽ rất lâu. Có cách nhanh hơn, không cần chuyển viên nào. Gộp hết bi lại: $6+8+10=24$ viên. Rồi chia đều cho $3$ bạn: $24:3=8$ viên. Kết quả vẫn y như lúc nãy.
 
 :::graph Trên trục số: ba số 6, 8, 10 và số trung bình cộng 8 nằm ở giữa
 alt: Trục số từ 0 đến 14, đánh dấu các điểm 6, 8 và 10; đoạn từ 6 đến 10 có điểm 8 ở giữa
@@ -41,11 +42,11 @@ Muốn tìm số trung bình cộng của nhiều số, em làm hai bước:
 2. Chia tổng đó cho số các số hạng.
 :::
 
-Cách này đúng vì gộp tất cả lại rồi chia đều cho mỗi số một phần bằng nhau. Đó chính là chia đều.
+Vì sao cách này đúng? Vì cộng lại là gom tất cả vào một đống, còn chia là đưa cho mỗi số một phần bằng nhau của đống ấy. Đó chính là chia đều, đúng như lúc nãy ta chuyển bi.
 
 ## Ví dụ
 
-Ta bắt đầu với ba số nhỏ.
+Ta thử với ba số nhỏ trước.
 
 :::example Tính số trung bình cộng của $4$, $6$ và $8$
 **Lời giải.** Có $3$ số, nên ta lấy tổng chia cho $3$:
@@ -53,7 +54,7 @@ $$(4+6+8):3=18:3=6.$$
 Vậy số trung bình cộng của $4$, $6$ và $8$ là $6$.
 :::
 
-Bây giờ em làm với bốn số. Chú ý số các số hạng đã đổi.
+Bây giờ đến bốn số. Chỗ này nhiều bạn hay nhầm: số các số hạng đã đổi, nên số để chia cũng phải đổi theo.
 
 :::example Tính số trung bình cộng của $12$, $15$, $9$ và $16$
 **Lời giải.** Có $4$ số, nên ta lấy tổng chia cho $4$:
@@ -61,7 +62,7 @@ $$(12+15+9+16):4=52:4=13.$$
 Vậy số trung bình cộng là $13$.
 :::
 
-Bây giờ em dùng cách này cho một bài toán trong cuộc sống.
+Cách này dùng được cả ngoài đời. Ta thử với chuyện các tổ đi trồng cây.
 
 :::example Trồng cây
 Bốn tổ trồng được số cây lần lượt là $7$, $9$, $5$ và $7$ cây. Hỏi trung bình mỗi tổ trồng được bao nhiêu cây?
@@ -71,7 +72,7 @@ $$(7+9+5+7):4=28:4=7\ \text{(cây)}.$$
 Vậy trung bình mỗi tổ trồng được $7$ cây.
 :::
 
-Đôi khi ta biết số trung bình cộng và cần tìm một số còn thiếu. Khi đó em tìm tổng trước.
+Có khi ta biết số trung bình cộng mà lại thiếu một số. Đừng lo nếu lần đầu thấy lạ. Em tìm tổng trước, rồi bớt đi những số đã biết.
 
 :::example Tìm số còn thiếu
 Trung bình cộng của ba số là $9$. Hai trong ba số là $7$ và $12$. Tìm số thứ ba.
@@ -84,8 +85,8 @@ Vậy số thứ ba là $8$.
 :::
 
 :::warning Những lỗi em hay gặp
-- **Quên chia.** Sai: số trung bình cộng của $6$, $8$, $10$ là $24$. Vì sao sai: $24$ mới là tổng. Đúng: $24:3=8$.
-- **Chia sai số lần.** Sai: $(4+6+8):2=9$. Vì sao sai: có $3$ số nên phải chia cho $3$. Đúng: $18:3=6$.
+- **Quên chia.** Sai: số trung bình cộng của $6$, $8$, $10$ là $24$. Vì sao sai: $24$ mới chỉ là tổng, ta còn phải chia đều. Đúng: $24:3=8$.
+- **Chia sai số lần.** Sai: $(4+6+8):2=9$. Vì sao sai: có $3$ số, nên phải chia cho $3$. Đúng: $18:3=6$.
 - **Quên đơn vị trong bài có lời văn.** Sai: "Đáp số: $7$". Đúng: "Đáp số: $7$ cây".
 :::
 
@@ -108,10 +109,11 @@ Vậy số thứ ba là $8$.
 - Ví dụ: $(4+6+8):3=18:3=6$.
 - Biết số trung bình cộng và số các số hạng thì tổng bằng số trung bình cộng nhân số các số hạng.
 - Bài toán có lời văn: nhớ ghi đơn vị.
+Quay lại câu hỏi về bi của Nam, Lan và Hà: gộp lại rồi chia đều, ta biết ngay mỗi bạn có bao nhiêu viên. Em chỉ cần nhớ: cộng trước, chia sau. Giờ em thử sức với phần luyện tập nhé.
 
 ## Luyện tập
 
-Mỗi bài có phần kiến thức và gợi ý. Em hãy tự làm trước, rồi mới bấm xem lời giải.
+Mỗi bài có phần kiến thức cần nhớ và gợi ý để bắt đầu. Em cứ tự làm trước, vướng chỗ nào thì mới bấm xem lời giải. Làm sai một lần cũng không sao, vì lúc đó em học được nhiều nhất.
 
 :::exercise
 Tìm số trung bình cộng của $5$, $7$ và $9$.

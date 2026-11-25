@@ -12,11 +12,11 @@ minutes: 50
 - Recognise extrapolation and the difference between association and causation.
 :::
 
-Regression is Unit 5 of the revised course and has its own set of three multiple-choice questions on the exam, so it is worth secure marks. The arithmetic is light; points come from interpretations written **in context**, with the right words: "predicted", "on average", "for each additional ...". This lesson covers what remains in the course; transformations to achieve linearity and inference for the slope have been removed.
+If you know how many hours each student revised, can you guess their test score? Not exactly, student by student. But you can describe the general trend, and regression is the tool for that. Regression is Unit 5 of the revised course and has its own set of three multiple-choice questions on the exam, so it is worth secure marks. The arithmetic is light. Points come from interpretations written **in context**, with the right words: "predicted", "on average", "for each additional ...". Here we cover only what remains in the course; transformations to achieve linearity and inference for the slope have been removed.
 
 ## Scatterplots and correlation
 
-A **scatterplot** shows two quantitative variables measured on the same individuals: the **explanatory** variable $x$ on the horizontal axis and the **response** variable $y$ on the vertical axis. Describe it with four features, in context:
+Every regression lesson starts with a picture. A **scatterplot** shows two quantitative variables measured on the same individuals: the **explanatory** variable $x$ on the horizontal axis and the **response** variable $y$ on the vertical axis. Looking at it, you should be able to say four things, always in context:
 
 | Feature | What to say |
 |---|---|
@@ -25,7 +25,7 @@ A **scatterplot** shows two quantitative variables measured on the same individu
 | Strength | strong, moderate or weak |
 | Unusual features | points far from the pattern, clusters |
 
-The **correlation** $r$ measures the direction and strength of a **linear** relationship. It satisfies $-1\le r\le1$, has no units, and is not changed by switching $x$ and $y$ or by changing units. A value near $0$ means no linear relationship, not necessarily no relationship.
+A picture is not enough; we also want one number that says how tightly the points follow a straight line. The **correlation** $r$ is that number: it measures the direction and strength of a **linear** relationship. It satisfies $-1\le r\le1$, has no units, and is not changed by switching $x$ and $y$ or by changing units. Many students trip over the next point: a value near $0$ means no linear relationship, not necessarily no relationship.
 
 :::graph Hours studied and test score for $11$ students, with the least-squares line
 alt: A scatterplot of 11 points rising from about (1, 52) to (8, 85), close to a straight line drawn through them
@@ -48,12 +48,13 @@ point: (8, 85)
 
 ## The least-squares regression line
 
-The **least-squares regression line** $\hat y=a+bx$ is the line that makes the sum of squared residuals as small as possible. From summary statistics,
+Many straight lines can be drawn through a cloud of points. Which one do we pick? The **least-squares regression line** $\hat y=a+bx$ is the line that makes the sum of squared residuals as small as possible. From the summary statistics of the data,
 $$b=r\,\frac{s_y}{s_x},\qquad a=\bar y-b\bar x,$$
-so the line always passes through $(\bar x,\bar y)$. The hat on $\hat y$ means **predicted** value.
+so the line always passes through the point $(\bar x,\bar y)$, the point of means. The hat on $\hat y$ means **predicted** value, not an actual one.
 
 - **Slope:** "For each additional [unit of $x$], the predicted [$y$] increases (decreases) by $b$ [units of $y$]."
-- **Intercept:** "The predicted [$y$] when [$x$] $=0$ is $a$." Interpret it only if $x=0$ makes sense.
+- **Intercept:** "The predicted [$y$] when [$x$] $=0$ is $a$." Say this only if $x=0$ makes sense in the situation.
+Practise saying these two sentences aloud, swapping in the names and units of each problem.
 
 :::example Interpreting the slope
 For the students in the graph, the least-squares line is $\widehat{\text{score}}=49.2+4.61\,(\text{hours})$. Which is the correct interpretation of $4.61$?
@@ -85,11 +86,11 @@ So the line is $\hat y=28+2.4x$, answer **A**. Option C uses $\dfrac{s_x}{s_y}$ 
 
 ## Residuals and $r^2$
 
-A **residual** is
+To see how far off a prediction is, we look at the residual. A **residual** is
 $$\text{residual}=y-\hat y=\text{actual}-\text{predicted}.$$
-A positive residual means the line underestimates that point. A **residual plot** (residuals against $x$) with no pattern supports a linear model; a curved pattern means a linear model is not appropriate.
+A positive residual means the line underestimates that point. A **residual plot** (residuals against $x$) lets us check the whole model: if the residuals are scattered with no pattern, a linear model is supported; if they curve, a linear model is not appropriate.
 
-The **coefficient of determination** $r^2$ is the proportion of the variation in $y$ that is accounted for by the linear model with $x$. The **standard deviation of the residuals** $s$ is the typical size of a prediction error.
+Two last numbers tell us how good the model is. The **coefficient of determination** $r^2$ is the proportion of the variation in $y$ that is accounted for by the linear model with $x$. The **standard deviation of the residuals** $s$ is the typical size of a prediction error, that is, how far off a prediction usually is.
 
 :::example Computing a residual
 A model for the price of a used car is $\hat y=24-1.8x$, where $x$ is the age in years and $y$ the price in thousands of dollars. A $5$-year-old car sells for $13.5$ thousand dollars. What is its residual?
@@ -117,9 +118,10 @@ So the correct statement is C, answer **C**. Since the association is positive, 
 
 ## Limits of regression
 
-- **Extrapolation:** predicting far outside the range of the $x$-values used to build the line is unreliable.
+- **Extrapolation:** predicting far outside the range of the $x$-values used to build the line is unreliable, because we do not know whether the pattern still holds there.
 - **Association is not causation:** an observational data set can show a strong correlation because of a **lurking variable** that affects both $x$ and $y$. Only a well-designed experiment can show cause and effect.
-- **Linear form:** $r$ and the least-squares line describe only linear patterns; always look at the scatterplot and the residual plot.
+- **Linear form:** $r$ and the least-squares line describe only linear patterns, so always look at the scatterplot and the residual plot.
+Regression gives us a prediction of the trend, and these three limits remind us not to ask more of it than that.
 
 :::warning Common traps
 - **"Predicted":** slope and intercept statements must say "predicted" or "on average".
@@ -127,6 +129,7 @@ So the correct statement is C, answer **C**. Since the association is positive, 
 - **$r$ versus $r^2$:** the sign of $r$ is the sign of the slope; $r^2$ is never negative.
 - **Context:** name both variables and their units in every interpretation.
 - **Removed topics:** inference for the slope and transformations are no longer tested.
+The opening question asked whether hours of revision can help us guess a score. Regression answers it, as long as you interpret in the right words and in context. If you remember one word, make it "predicted". Try the exercises below.
 :::
 
 :::terms

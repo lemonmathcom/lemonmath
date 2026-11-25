@@ -12,7 +12,7 @@ type: guide
 - Dùng sổ lỗi sai để quyết định nên học gì tiếp theo.
 :::
 
-Mỗi câu sai đều chứa một bài học, nhưng phần lớn học sinh vứt nó đi: xem đáp án, nghĩ "à, ra vậy", rồi làm tiếp. Một tuần sau lại sai đúng chỗ đó. Sổ lỗi sai là một cuốn vở, hoặc một trang trong điện thoại, nơi giữ lại các lỗi cho đến khi chúng được sửa. Đây là công cụ ôn thi đơn giản nhất, và là một trong những công cụ hiệu quả nhất, vì nó biến chính các lỗi của bạn thành một ngân hàng câu hỏi riêng, kiểm tra bạn đúng ở chỗ bạn yếu.
+Mỗi câu sai đều chứa một bài học, nhưng phần lớn học sinh bỏ nó đi: xem đáp án, nghĩ "à, ra vậy", rồi làm tiếp. Một tuần sau, lại sai đúng chỗ đó. Vậy làm sao để một lỗi chỉ xảy ra một lần? Sổ lỗi sai là câu trả lời. Đó là một cuốn vở, hoặc một trang trong điện thoại, giữ lại các lỗi cho đến khi chúng được sửa. Đây là công cụ ôn thi đơn giản nhất, và cũng là một trong những công cụ hiệu quả nhất, vì nó biến chính các lỗi của bạn thành một ngân hàng câu hỏi riêng, kiểm tra bạn đúng ở chỗ bạn còn yếu.
 
 ## Bốn dòng cho mỗi lỗi
 
@@ -23,11 +23,11 @@ Mỗi câu sai đều chứa một bài học, nhưng phần lớn học sinh v�
 | 3. Lời giải đúng | Tự viết lại, không chép | Bình phương, giải $x^2-11x+18=0$, thử cả hai giá trị: chỉ $x=9$ thoả mãn. |
 | 4. Dấu hiệu nhận biết lần sau | Một câu ngắn bạn nhận ra được | "Phương trình chứa căn → luôn thử lại vào phương trình ban đầu." |
 
-Dòng 4 quan trọng nhất. Nó biến một bài toán thành một quy tắc mà bạn sẽ nhận ra trong một bài khác vào ngày thi.
+Dòng 4 là dòng quan trọng nhất. Nó biến một bài toán cụ thể thành một quy tắc nhỏ, để đến ngày thi bạn nhận ra quy tắc đó trong một bài khác.
 
 ## Năm loại lỗi
 
-Không phải lỗi nào cũng sửa giống nhau. Hãy xếp mỗi lỗi vào một loại:
+Không phải lỗi nào cũng sửa giống nhau, nên trước hết ta cần biết lỗi thuộc loại nào. Bạn hãy xếp mỗi lỗi vào một loại:
 
 | Loại | Biểu hiện | Cách sửa |
 |---|---|---|
@@ -37,7 +37,7 @@ Không phải lỗi nào cũng sửa giống nhau. Hãy xếp mỗi lỗi vào m
 | **Đọc đề** | Trả lời một câu khác với câu được hỏi | Gạch chân câu hỏi cuối trước khi làm; đọc lại trước khi chọn đáp án |
 | **Thời gian** | Làm được nhưng hết giờ | Luyện bộ câu trộn bấm giờ; học cách bỏ qua rồi quay lại |
 
-Sau hai hoặc ba tuần, hãy đếm từng loại. Con số sẽ cho bạn biết cần làm gì tiếp theo. Nhiều bạn bất ngờ khi thấy một nửa số điểm bị mất là do lỗi **đọc đề** và **tính toán**, những lỗi mà học thêm bao nhiêu lí thuyết cũng không sửa được.
+Sau hai hoặc ba tuần, bạn hãy đếm từng loại. Con số sẽ cho bạn biết cần làm gì tiếp theo. Nhiều bạn ngạc nhiên khi thấy một nửa số điểm đã mất là do lỗi **đọc đề** và **tính toán**. Với hai loại này, học thêm bao nhiêu lí thuyết cũng không sửa được; cái cần luyện là thói quen.
 
 ## Hai ví dụ cụ thể
 
@@ -67,31 +67,31 @@ Sau hai hoặc ba tuần, hãy đếm từng loại. Con số sẽ cho bạn bi�
 
 ## Thói quen làm lại hằng tuần
 
-Mỗi tuần một lần, trong 20 đến 30 phút:
+Mỗi tuần một lần, bạn dành 20 đến 30 phút để làm việc sau:
 
 1. Che dòng 2 đến dòng 4 của mọi lỗi từ các tuần trước.
 2. Làm lại từng bài trên giấy trắng, không nhìn.
-3. Nếu làm đúng, đánh một dấu tích bên cạnh. Nếu lại sai, viết dòng 2 mới: có thể lỗi đã khác.
+3. Nếu làm đúng, đánh một dấu tích bên cạnh. Nếu lại sai, viết dòng 2 mới, vì có thể lần này lỗi đã khác.
 4. Khi một lỗi có **hai dấu tích ở hai tuần khác nhau**, gạch bỏ nó. Lỗi đó đã được sửa.
 
-Thói quen này áp dụng học giãn cách và tự kiểm tra, hai kĩ thuật được đánh giá hữu ích nhất trong tổng quan được nói đến ở bài [Ôn thi theo khoa học](lesson:evidence-based-revision). Khoảng cách một tuần làm cho dấu tích thứ hai có ý nghĩa: làm đúng một bài ngay sau khi đọc lời giải gần như không chứng minh được gì.
+Thói quen này dùng đến học giãn cách và tự kiểm tra, hai kĩ thuật được đánh giá hữu ích nhất trong tổng quan được nói đến ở bài [Ôn thi theo khoa học](lesson:evidence-based-revision). Vì sao phải cách một tuần? Vì làm đúng một bài ngay sau khi vừa đọc lời giải gần như không chứng minh được gì, còn làm đúng sau một tuần thì dấu tích thứ hai mới có ý nghĩa.
 
 :::tip Vở giấy hay điện thoại?
-Cách nào cũng được. Vở giấy dễ mang vào một phòng yên tĩnh và không có gì làm xao nhãng. Một album ảnh trên điện thoại, mỗi bài một ảnh và bốn dòng ghi ở phần chú thích, thì nhanh. Hãy chọn cách mà bạn sẽ thật sự duy trì.
+Cách nào cũng được. Vở giấy dễ mang vào một phòng yên tĩnh và không có gì làm xao nhãng. Còn một album ảnh trên điện thoại, mỗi bài một ảnh và bốn dòng ghi ở phần chú thích, thì làm rất nhanh. Bạn cứ chọn cách mà mình sẽ thật sự duy trì.
 :::
 
 ## Dùng sổ lỗi sai để lập kế hoạch
 
-Cuối mỗi tuần, nhìn sổ lỗi sai như một bộ dữ liệu:
+Cuối mỗi tuần, bạn thử nhìn sổ lỗi sai như một bộ dữ liệu và tự hỏi:
 
 - **Chủ đề nào xuất hiện nhiều nhất?** Đưa chúng lên đầu kế hoạch tuần sau.
-- **Loại lỗi nào xuất hiện nhiều nhất?** Lỗi khái niệm nghĩa là cần học bài thêm; lỗi tính toán và đọc đề nghĩa là cần thói quen chậm và cẩn thận hơn; lỗi thời gian nghĩa là cần luyện thêm bộ câu trộn bấm giờ.
+- **Loại lỗi nào xuất hiện nhiều nhất?** Lỗi khái niệm nghĩa là cần học lại bài; lỗi tính toán và đọc đề nghĩa là cần thói quen chậm lại và cẩn thận hơn; lỗi thời gian nghĩa là cần luyện thêm bộ câu trộn bấm giờ.
 - **Lỗi nào cứ quay lại?** Nhờ thầy cô hoặc bạn bè giải thích theo một cách khác.
 
 :::warning Những cái bẫy thường gặp
-- **Chép đáp án vào dòng 3.** Nếu chép, bạn chưa hề tự kiểm tra. Đóng đáp án lại và viết lời giải theo hiểu biết của mình.
-- **Chỉ ghi lỗi "to".** Sai một dấu cũng mất điểm như sai cả cách làm.
-- **Không bao giờ làm lại.** Một cuốn sổ chỉ viết mà không đọc lại chỉ là danh sách những kỉ niệm buồn.
+- **Chép đáp án vào dòng 3.** Chép thì bạn chưa hề tự kiểm tra. Hãy đóng đáp án lại và viết lời giải theo hiểu biết của mình.
+- **Chỉ ghi lỗi "to".** Chỗ này nhiều bạn hay nhầm: sai một dấu cũng mất điểm như sai cả cách làm.
+- **Không bao giờ làm lại.** Một cuốn sổ chỉ viết mà không đọc lại thì chỉ là danh sách những kỉ niệm buồn. Sổ lỗi sai chỉ có ích khi bạn mở nó ra mỗi tuần.
 :::
 
 ## Nguồn tham khảo

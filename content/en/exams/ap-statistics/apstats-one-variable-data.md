@@ -12,13 +12,13 @@ minutes: 50
 - Compare two distributions with comparative language.
 :::
 
-Every statistical investigation starts by looking at the data. On the AP exam this is the core of free-response question 2 and appears in almost every other question too. The calculations are short; what earns points is describing what you see **in the context of the data** and **comparing** with words like "greater than" and "about the same as".
+Every statistical investigation starts by looking at the data. Picture the test scores of two classes side by side: what can we say about them? That is the question of this lesson, and it is the core of free-response question 2 on the AP exam. It appears in almost every other question too. The calculations are short. What earns points is describing what you see **in the context of the data** and **comparing** with words like "greater than" and "about the same as".
 
 ## Variables and displays
 
-A **categorical** variable places each individual in a group (favourite sport, blood type); a **quantitative** variable takes numerical values for which arithmetic makes sense (height, time). Categorical data are shown with bar charts and summarised with counts or relative frequencies; quantitative data are shown with dotplots, stemplots, histograms and boxplots.
+First we check what kind of data we have, because the kind decides the display. A **categorical** variable places each individual in a group (favourite sport, blood type); a **quantitative** variable takes numerical values for which arithmetic makes sense (height, time). Categorical data are shown with bar charts and summarised with counts or relative frequencies. Quantitative data are shown with dotplots, stemplots, histograms and boxplots.
 
-To describe a quantitative distribution, cover four things, always in context:
+Looking at a display, what should you say? A full description covers four things, and each one must be tied to the context of the data:
 
 | Feature | What to say |
 |---|---|
@@ -29,13 +29,13 @@ To describe a quantitative distribution, cover four things, always in context:
 
 ## Measures of centre and variability
 
-For data $x_1,\dots,x_n$: the **mean** is $\bar x=\dfrac{\sum x_i}{n}$; the **median** is the middle value of the ordered data. The **sample standard deviation** is
+For data $x_1,\dots,x_n$ we can find the centre in two ways: the **mean** is $\bar x=\dfrac{\sum x_i}{n}$, and the **median** is the middle value of the ordered data. To measure variability we use the standard deviation. The **sample standard deviation** is
 $$s=\sqrt{\frac{\sum(x_i-\bar x)^2}{n-1}},$$
-roughly the typical distance of the values from the mean. The **quartiles** $Q_1$ and $Q_3$ are the medians of the lower and upper halves, and $\text{IQR}=Q_3-Q_1$.
+roughly the typical distance of the values from the mean. A small value means the data sit close together; a large value means they are spread out. The **quartiles** $Q_1$ and $Q_3$ are the medians of the lower and upper halves, and $\text{IQR}=Q_3-Q_1$ tells us how wide the middle half of the data is.
 
-The median and IQR are **resistant**: extreme values hardly affect them. The mean and standard deviation are not. In a right-skewed distribution the long tail pulls the mean above the median; in a left-skewed one, below it.
+Why do we sometimes choose the median instead of the mean? Because the median and IQR are **resistant**: one extreme value hardly moves them. The mean and standard deviation are not like that. In a right-skewed distribution the long tail pulls the mean above the median; in a left-skewed one, below it.
 
-A value is an **outlier** by the $1.5\times\text{IQR}$ rule if it is below $Q_1-1.5\,\text{IQR}$ or above $Q_3+1.5\,\text{IQR}$.
+How far out must a value be before we call it unusual? Statistics gives a clear rule. By the $1.5\times\text{IQR}$ rule, a value is an **outlier** if it is below $Q_1-1.5\,\text{IQR}$ or above $Q_3+1.5\,\text{IQR}$. Let us try it on an example.
 
 :::example Finding outliers
 The numbers of minutes $12$ students spent on homework one evening are
@@ -67,9 +67,9 @@ So the distribution is most likely skewed right, answer **B**. For such data the
 
 ## Position: z-scores and percentiles
 
-The **z-score** of a value says how many standard deviations it is from the mean:
+Whether a test score is high depends on how the whole class did. To measure that, we ask how far a value is from the mean, counted in standard deviations. The **z-score** of a value says how many standard deviations it is from the mean:
 $$z=\frac{x-\text{mean}}{\text{standard deviation}}.$$
-A negative z-score means below the mean. The **percentile** of a value is the percent of the data less than or equal to it. Z-scores let us compare values from different distributions.
+A negative z-score means the value is below the mean. Another way to describe position is the percentile. The **percentile** of a value is the percent of the data less than or equal to it. Z-scores have one more advantage: they let us compare values from different distributions, as in the next example.
 
 :::example Comparing with z-scores
 Minh scored $82$ on a mathematics test with mean $70$ and standard deviation $8$, and $75$ on a physics test with mean $65$ and standard deviation $4$. On which test did he do better relative to the other students?
@@ -83,7 +83,7 @@ So Minh did better on the physics test relative to the other students, even thou
 
 ## Comparing distributions
 
-When comparing two groups, address shape, centre, variability and unusual features, and use **comparative words**. Listing the two medians is not a comparison; "the median for A is greater than the median for B" is.
+Many students write down two numbers and think they have made a comparison. When comparing two groups, we address shape, centre, variability and unusual features, and use **comparative words**. Listing the two medians is not a comparison; "the median for A is greater than the median for B" is.
 
 :::example Two classes
 Five-number summaries of test scores are given for two classes.
@@ -108,6 +108,7 @@ So class A has a slightly higher typical score but much more variable scores tha
 - **Mean for skewed data:** with strong skew or outliers, describe centre with the median and variability with the IQR.
 - **Quartiles by hand:** exclude the median from both halves when $n$ is odd.
 - **Variance versus standard deviation:** the standard deviation has the same units as the data.
+If you remember one thing, remember this: every number needs its units and its context, and every comparison needs a comparative word. The exercises below are the place to practise until it feels natural.
 :::
 
 :::terms

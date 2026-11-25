@@ -11,7 +11,7 @@ minutes: 40
 - Tính đạo hàm của hàm lượng giác ngược và đạo hàm cấp hai.
 :::
 
-Unit 3 hoàn thiện bộ công cụ tính đạo hàm. Từ đây trở đi, quy tắc chuỗi có mặt trong gần như mọi câu AP Calculus, thường ẩn trong một bối cảnh hay một bảng giá trị, còn đạo hàm hàm ẩn là chìa khoá cho các bài tốc độ liên quan ở Unit 4. Đạo hàm của hàm ngược tại một điểm là câu trắc nghiệm được ưa chuộng mà nhiều bạn thấy lạ, nên đáng luyện đến mức thành phản xạ.
+Có những hàm không đứng một mình: một hàm nằm trong lòng hàm khác, hay hai biến quấn vào nhau trong một phương trình mà không tách ra được. Làm sao lấy đạo hàm khi đó? Unit 3 trả lời câu hỏi ấy và hoàn thiện bộ công cụ tính đạo hàm. Từ đây trở đi, quy tắc chuỗi có mặt trong gần như mọi câu AP Calculus, thường ẩn trong một bối cảnh hay một bảng giá trị. Đạo hàm hàm ẩn là chìa khoá cho các bài tốc độ liên quan ở Unit 4. Còn đạo hàm của hàm ngược tại một điểm là câu trắc nghiệm được ưa chuộng mà nhiều bạn thấy lạ lúc đầu. Đừng lo, luyện vài lần là thành phản xạ.
 
 ## Quy tắc chuỗi
 
@@ -44,7 +44,7 @@ Bảng cho giá trị của các hàm số có đạo hàm $f$ và $g$.
 
 ## Đạo hàm hàm ẩn
 
-Khi $y$ được xác định bởi một phương trình chứa $x$ và $y$, hãy lấy đạo hàm hai vế theo $x$, coi $y$ là hàm của $x$: mỗi lần lấy đạo hàm một biểu thức chứa $y$, nhân thêm $\dfrac{dy}{dx}$. Sau đó giải tìm $\dfrac{dy}{dx}$.
+Có những phương trình trộn $x$ và $y$ vào nhau, không thể tách $y$ ra để viết thành một hàm đơn giản. Ta vẫn tìm được độ dốc của đường cong: lấy đạo hàm hai vế theo $x$, coi $y$ là hàm của $x$. Vì sao phải nhân thêm $\dfrac{dy}{dx}$? Vì mọi biểu thức chứa $y$ đều nằm trong một hàm khác, nên quy tắc chuỗi đòi thêm một thừa số nữa. Cuối cùng, giải tìm $\dfrac{dy}{dx}$.
 
 :::example Hệ số góc trên đường tròn
 Tìm hệ số góc của tiếp tuyến với đường tròn $x^2+y^2=25$ tại điểm $(3, 4)$.
@@ -92,14 +92,15 @@ Với $y=x^4-2x^2$, tính $\dfrac{d^2y}{dx^2}$ tại $x=1$.
 :::
 
 :::warning Những cái bẫy thường gặp
-- **Quên đạo hàm hàm trong.** $\dfrac{d}{dx}\sin(5x)=5\cos(5x)$, không phải $\cos(5x)$.
-- **Tính đạo hàm hàm ngoài sai điểm.** $h'(1)=f'\big(g(1)\big)g'(1)$, không phải $f'(1)g'(1)$.
+- **Quên đạo hàm hàm trong.** $\dfrac{d}{dx}\sin(5x)=5\cos(5x)$, không phải $\cos(5x)$. Chỗ này nhiều bạn hay nhầm nhất.
+- **Tính đạo hàm hàm ngoài sai điểm.** $h'(1)=f'\big(g(1)\big)g'(1)$, không phải $f'(1)g'(1)$. Đạo hàm hàm ngoài phải được tính tại giá trị của hàm trong.
 - **Quên $\dfrac{dy}{dx}$ ở các số hạng chứa $y$** khi đạo hàm hàm ẩn: $\dfrac{d}{dx}y^2=2y\dfrac{dy}{dx}$.
-- **Đạo hàm hàm ngược sai đầu vào.** Với $\left(f^{-1}\right)'(b)$, trước hết giải $f(a)=b$, rồi dùng $f'(a)$.
+- **Đạo hàm hàm ngược sai đầu vào.** Với $\left(f^{-1}\right)'(b)$, trước hết giải $f(a)=b$, rồi mới dùng $f'(a)$.
+Đa số các lỗi này đến từ việc làm vội. Chậm lại một nhịp, viết ra từng bước, bạn sẽ tránh được hầu hết.
 :::
 
 :::tip Sắp xếp hàm hợp
-Trước khi lấy đạo hàm, hãy gọi tên các lớp: "ngoài là $\ln u$, trong là $u=x^2+1$". Viết hàm trong ra bên lề tốn ít thời gian hơn nhiều so với thời gian nó tiết kiệm được, và tránh được lỗi quy tắc chuỗi thường gặp nhất.
+Trước khi lấy đạo hàm, hãy dừng một nhịp và gọi tên các lớp, ví dụ: "ngoài là $\ln u$, trong là $u=x^2+1$". Ghi hàm trong ra bên lề chỉ mất vài giây, mà tiết kiệm được nhiều hơn thế, vì nó chặn đúng lỗi quy tắc chuỗi hay gặp nhất.
 :::
 
 :::terms

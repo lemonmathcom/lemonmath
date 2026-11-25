@@ -5,7 +5,7 @@ minutes: 120
 type: exam
 ---
 
-Đề luyện này theo cấu trúc **Paper 2** của IB Mathematics: Analysis and Approaches HL: 120 phút, **bắt buộc dùng máy tính vẽ đồ thị (GDC)**, 110 điểm, gồm các câu ngắn ở Section A và các câu dài ở Section B. Mọi câu hỏi đều do Lemonmath soạn; đây không phải câu hỏi IB thật, nhưng bám theo chương trình HL và phong cách đề thi. Cùng với [đề luyện SL](lesson:ibaa-practice-paper-sl) không dùng máy tính, bạn có đủ cả hai kiểu đề.
+Ngồi làm trọn một đề, có bấm giờ, là cách thật nhất để biết mình đã sẵn sàng chưa. Đề luyện này theo cấu trúc **Paper 2** của IB Mathematics: Analysis and Approaches HL: 120 phút, **bắt buộc dùng máy tính vẽ đồ thị (GDC)**, 110 điểm, gồm các câu ngắn ở Section A và các câu dài ở Section B. Mọi câu hỏi đều do Lemonmath soạn; đây không phải câu hỏi IB thật, nhưng bám theo chương trình HL và phong cách đề thi. Cùng với [đề luyện SL](lesson:ibaa-practice-paper-sl) không dùng máy tính, bạn sẽ làm quen được cả hai kiểu đề.
 
 | | Section A | Section B |
 |---|---|---|
@@ -13,7 +13,7 @@ type: exam
 | Số điểm | 50 | 60 |
 | Thời gian gợi ý | khoảng 55 phút | khoảng 65 phút |
 
-**Hướng dẫn.** Trả lời tất cả các câu. Ghi đáp số lấy ba chữ số có nghĩa trừ khi đề yêu cầu khác, và để GDC ở chế độ radian. Khi dùng GDC, hãy viết phương trình bạn giải hoặc tích phân bạn tính trước khi ghi kết quả. Dưới mỗi câu có một gợi ý ngắn: hãy che lại trừ khi bị tắc, và chỉ mở lời giải sau khi đã làm xong.
+**Hướng dẫn.** Trả lời tất cả các câu. Ghi đáp số lấy ba chữ số có nghĩa trừ khi đề yêu cầu khác, và để GDC ở chế độ radian. Khi dùng GDC, hãy viết phương trình bạn giải hoặc tích phân bạn tính trước khi ghi kết quả, vì điểm phương pháp nằm ở đó. Dưới mỗi câu có một gợi ý ngắn: hãy che lại trừ khi bị tắc, và chỉ mở lời giải sau khi đã làm xong. Làm đúng như vậy thì đề mới cho bạn thấy mình thật sự làm được đến đâu.
 
 ## Section A
 
@@ -411,4 +411,4 @@ Vậy về lâu dài số cá tiến tới $1000$ con, chính là sức chứa c
 
 ## Sau khi làm đề
 
-Cộng điểm trên 110, từng ý một: theo cách chấm của IB, điểm phương pháp vẫn được tính khi đáp số sai, và có điểm kéo theo khi bạn dùng đúng một đáp số sai ở ý trước. Ngưỡng điểm thay đổi theo từng kì thi, vì vậy hãy dùng điểm số để tìm chủ đề còn yếu. Với các điểm bị mất, hãy ôn lại: [Số và đại số](lesson:ibaa-number-algebra) (bài 1, 7), [Số phức, quy nạp và chứng minh](lesson:ibaa-hl-complex-proof) (bài 2), [Véc-tơ, đường thẳng và mặt phẳng](lesson:ibaa-hl-vectors) (bài 3, 10), [Thống kê và xác suất](lesson:ibaa-statistics-probability) (bài 4), [Giải tích](lesson:ibaa-calculus) (bài 5, 6, 9), [Hình học và lượng giác](lesson:ibaa-geometry-trigonometry) (bài 8), [Giải tích nâng cao](lesson:ibaa-hl-further-calculus) (bài 9, 11).
+Cộng điểm trên 110, từng ý một: theo cách chấm của IB, điểm phương pháp vẫn được tính khi đáp số sai, và có điểm kéo theo khi bạn dùng đúng một đáp số sai ở ý trước. Ngưỡng điểm thay đổi theo từng kì thi, vì vậy hãy dùng điểm số để tìm chủ đề còn yếu. Với các điểm bị mất, hãy ôn lại: [Số và đại số](lesson:ibaa-number-algebra) (bài 1, 7), [Số phức, quy nạp và chứng minh](lesson:ibaa-hl-complex-proof) (bài 2), [Véc-tơ, đường thẳng và mặt phẳng](lesson:ibaa-hl-vectors) (bài 3, 10), [Thống kê và xác suất](lesson:ibaa-statistics-probability) (bài 4), [Giải tích](lesson:ibaa-calculus) (bài 5, 6, 9), [Hình học và lượng giác](lesson:ibaa-geometry-trigonometry) (bài 8), [Giải tích nâng cao](lesson:ibaa-hl-further-calculus) (bài 9, 11). Đừng nản nếu điểm chưa như ý: đề luyện sinh ra để bạn tìm ra chỗ cần sửa. Sửa xong, hãy thử làm lại những câu đã sai.

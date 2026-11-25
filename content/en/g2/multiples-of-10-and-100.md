@@ -12,16 +12,16 @@ minutes: 15
 
 Each bag holds $1$ ten sweets. Mai has $6$ such bags. How many sweets does Mai have altogether?
 
-You already know that $1$ ten is $10$ ones. This lesson helps you name and write the number of sweets in many bags quickly.
+Counting sweets one by one is slow, especially when there are lots of bags. You already know that $1$ ten is $10$ ones. With that one idea, you can name and write the number of sweets in all the bags very quickly.
 
 ## Let's explore
 
-Count on one ten at a time: $1$ ten, $2$ tens, $3$ tens, ... Each time we add $1$ ten, we add $10$.
+Let us count the bags one at a time. Count on one ten at a time: $1$ ten, $2$ tens, $3$ tens, ... Each time we add $1$ ten, we add $10$.
 
 - $1$ ten is $10$, $2$ tens are $20$, $3$ tens are $30$.
-- Keep going to $9$ tens, which is $90$.
+- Keep counting like this and you reach $9$ tens, which is $90$.
 
-Numbers like $10, 20, 30, \dots, 90$ are called **multiples of 10**. Their last digit is always $0$.
+Look at the numbers $10, 20, 30, \dots, 90$. Each one ends in the digit $0$. Numbers like these are called **multiples of 10**.
 
 :::graph On the number line: the multiples of 10 from 0 to 100
 alt: A number line from 0 to 100 with the multiples of 10 marked: 0, 10, 20, ..., 100
@@ -41,18 +41,18 @@ point: (90, 0) "90" below
 point: (100, 0) "100" below
 :::
 
-Do the same with hundreds: $1$ hundred is $100$, $2$ hundreds are $200$, ..., $9$ hundreds are $900$. These are called **multiples of 100**. Their last two digits are always $0$.
+We do the same with hundreds: $1$ hundred is $100$, $2$ hundreds are $200$, ..., $9$ hundreds are $900$. The last two digits of these numbers are always $0$, and we call them **multiples of 100**.
 
 :::theorem Multiples of 10 and 100
 - $n$ tens is written as $n$ followed by one $0$. Example: $4$ tens is $40$.
 - $n$ hundreds is written as $n$ followed by two $0$s. Example: $4$ hundreds is $400$.
 :::
 
-This works because $4$ tens is $10+10+10+10=40$, and $4$ hundreds is $100+100+100+100=400$.
+Why does the rule work? Check it by adding: $4$ tens is $10+10+10+10=40$, and $4$ hundreds is $100+100+100+100=400$.
 
 ## Examples
 
-We start with multiples of 10.
+We begin with multiples of 10.
 
 :::example Writing multiples of 10
 Write the number for $3$ tens and for $8$ tens.
@@ -62,7 +62,7 @@ $$3\text{ tens}=30,\qquad 8\text{ tens}=80.$$
 So $3$ tens is $30$ and $8$ tens is $80$.
 :::
 
-Now you count on in tens to fill in a missing number.
+This list has some gaps in it. Count on in tens to find the missing numbers.
 
 :::example Counting on in tens
 Fill in the missing numbers: $20, 30, \square, 50, \square$.
@@ -72,7 +72,7 @@ $$20, 30, 40, 50, 60.$$
 So the missing numbers are $40$ and $60$.
 :::
 
-Next come the multiples of 100.
+Now for multiples of 100. The idea is the same.
 
 :::example Writing multiples of 100
 Write the number for $4$ hundreds. How many hundreds is $700$?
@@ -82,7 +82,7 @@ Write the number for $4$ hundreds. How many hundreds is $700$?
 So $4$ hundreds is $400$ and $700$ is $7$ hundreds.
 :::
 
-Finally you use a multiple of 10 in a problem.
+Finally, we go back to Mai's bags of sweets from the start, and use a multiple of 10 to solve the problem.
 
 :::example Bags of sweets
 Each bag holds $1$ ten sweets. Mai has $6$ bags. How many sweets does she have?
@@ -93,9 +93,9 @@ So Mai has $60$ sweets.
 :::
 
 :::warning Mistakes to watch out for
-- **Forgetting the $0$.** Wrong: "$4$ tens is $4$". Why it is wrong: $4$ tens is four groups of $10$. Right: $4$ tens is $40$.
-- **Mixing up tens and hundreds.** Wrong: "$6$ hundreds is $60$". Why it is wrong: $60$ is $6$ tens. Right: $6$ hundreds is $600$.
-- **Thinking every number is a multiple of 10.** Wrong: "$35$ is a multiple of 10". Why it is wrong: the last digit of $35$ is $5$, not $0$. Right: $35$ is not a multiple of 10.
+- **Forgetting the $0$.** Wrong: "$4$ tens is $4$". Why it is wrong: $4$ tens is four groups of $10$ put together. Right: $4$ tens is $40$.
+- **Mixing up tens and hundreds.** Wrong: "$6$ hundreds is $60$". Why it is wrong: $60$ is only $6$ tens. Right: $6$ hundreds is $600$.
+- **Thinking every number is a multiple of 10.** Wrong: "$35$ is a multiple of 10". Why it is wrong: $35$ ends in $5$, not $0$. Right: $35$ is not a multiple of 10.
 :::
 
 ## Key terms
@@ -117,9 +117,11 @@ So Mai has $60$ sweets.
 - $4$ tens is $40$; $4$ hundreds is $400$.
 - Counting on $10$ gives the next multiple of 10; counting on $100$ gives the next multiple of 100.
 
+Back to our opening question: the sweets in the bags make a number of whole tens. Count the tens, write that number, then put a zero after it. Have a go at the practice exercises to make it stick.
+
 ## Practice
 
-Each exercise comes with what you need and how to start. Try it yourself first, then open the solution.
+Each exercise has what you need to remember and a hint to start you off. Have a go on your own first, then open the solution to check.
 
 :::exercise
 Write the number.

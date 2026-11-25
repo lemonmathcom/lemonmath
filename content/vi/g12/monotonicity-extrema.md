@@ -11,24 +11,24 @@ minutes: 24
 - Áp dụng vào hàm bậc ba, bậc bốn, phân thức và bài toán thực tế.
 :::
 
-Một chiếc flycam bay trong $7$ phút. Độ cao của nó sau $t$ phút là $h(t)=t^3-12t^2+36t+10$ (mét). Lúc cất cánh từ nóc nhà nó ở độ cao $10$ m, sau $2$ phút ở $42$ m, sau $6$ phút lại xuống còn $10$ m, rồi lên $17$ m khi hết giờ. Vậy trong khoảng thời gian nào flycam đang lên cao, trong khoảng nào đang hạ xuống, và nó "đổi chiều" ở những thời điểm nào?
+Một chiếc flycam bay trong $7$ phút. Độ cao của nó sau $t$ phút là $h(t)=t^3-12t^2+36t+10$ (mét). Lúc cất cánh từ nóc nhà nó ở độ cao $10$ m, sau $2$ phút ở $42$ m, sau $6$ phút lại xuống còn $10$ m, rồi lên $17$ m khi hết giờ. Vậy trong khoảng thời gian nào flycam đang lên cao, trong khoảng nào đang hạ xuống, và nó "đổi chiều" ở những thời điểm nào? Ta sẽ trả lời mà không phải dò từng phút một.
 
-Để trả lời chính xác, ta không cần tính độ cao ở thật nhiều thời điểm. Chỉ cần biết dấu của đạo hàm $h'(t)$.
+Điều bất ngờ là để trả lời chính xác, ta không cần tính độ cao ở thật nhiều thời điểm. Chỉ cần biết dấu của đạo hàm $h'(t)$: dương thì flycam đang lên, âm thì đang xuống.
 
-Câu hỏi "đang lên hay đang xuống" gặp ở khắp nơi: mực nước sông đang dâng hay đang rút, nhiệt độ của người bệnh đã bắt đầu hạ chưa, giá một mặt hàng đang tăng hay giảm. Ở lớp 11, ta đã biết $h'(t)$ là vận tốc tức thời, tức là tốc độ thay đổi độ cao ngay tại thời điểm $t$. Bài này biến nhận xét đơn giản "vận tốc dương thì đang đi lên" thành một công cụ chính xác.
+Câu hỏi "đang lên hay đang xuống" gặp ở khắp nơi: mực nước sông đang dâng hay đang rút, nhiệt độ của người bệnh đã bắt đầu hạ chưa, giá một mặt hàng đang tăng hay giảm. Ở lớp 11, bạn đã biết $h'(t)$ là vận tốc tức thời, tức là tốc độ thay đổi độ cao ngay tại thời điểm $t$. Nhận xét "vận tốc dương thì đang đi lên" nghe có vẻ hiển nhiên, nhưng nó đủ mạnh để cho ta biết chính xác một hàm số tăng ở đâu, giảm ở đâu và đổi chiều ở đâu.
 
 ## Tính đơn điệu
 
 ### Khám phá: khi nào đồ thị đi lên?
 
-Ta tính độ cao tại các phút tròn và đạo hàm $h'(t)=3t^2-24t+36=3(t-2)(t-6)$:
+Ta ghi lại độ cao tại các phút tròn, cùng với đạo hàm $h'(t)=3t^2-24t+36=3(t-2)(t-6)$, rồi xem hai hàng số liệu đi cùng nhau thế nào:
 
 | $t$ | $0$ | $1$ | $2$ | $3$ | $4$ | $5$ | $6$ | $7$ |
 |---|---|---|---|---|---|---|---|---|
 | $h(t)$ | $10$ | $35$ | $42$ | $37$ | $26$ | $15$ | $10$ | $17$ |
 | $h'(t)$ | $36$ | $15$ | $0$ | $-9$ | $-12$ | $-9$ | $0$ | $15$ |
 
-Từ $t=0$ đến $t=2$ độ cao tăng và $h'>0$. Từ $t=2$ đến $t=6$ độ cao giảm và $h'<0$. Sau $t=6$ độ cao lại tăng và $h'>0$. Điều này hợp lí: $h'(t)$ là hệ số góc của tiếp tuyến, hệ số góc dương thì đồ thị đi lên.
+Nhìn bảng: từ $t=0$ đến $t=2$ độ cao tăng và $h'>0$. Từ $t=2$ đến $t=6$ độ cao giảm và $h'<0$. Sau $t=6$ độ cao lại tăng và $h'>0$. Hai hàng số liệu luôn đi cùng nhau, và lí do không khó đoán: $h'(t)$ là hệ số góc của tiếp tuyến, mà hệ số góc dương thì đồ thị đi lên.
 
 :::graph Độ cao của flycam $h(t)=t^3-12t^2+36t+10$
 alt: Đồ thị bậc ba trên đoạn từ 0 đến 7, đi lên đến điểm cao nhất tại t bằng 2 với độ cao 42, đi xuống đến điểm thấp tại t bằng 6 với độ cao 10, rồi đi lên lại
@@ -54,13 +54,13 @@ Cho $f$ có đạo hàm trên khoảng $K$.
 - Nếu $f'(x)\ge 0$ (hoặc $f'(x)\le 0$) với mọi $x\in K$ và $f'(x)=0$ chỉ tại hữu hạn điểm, thì $f$ vẫn đồng biến (nghịch biến) trên $K$.
 :::
 
-Vì sao định lí đúng? Đạo hàm $f'(x)$ là giới hạn của tỉ số $\dfrac{f(x_2)-f(x_1)}{x_2-x_1}$. Nếu đồ thị có tiếp tuyến dốc lên ở **mọi** điểm của $K$ thì nó không thể đi xuống ở đâu trong $K$. Một vài điểm có tiếp tuyến nằm ngang (như $y=x^3$ tại $x=0$) không làm đồ thị quay đầu.
+Vì sao định lí đúng? Đạo hàm $f'(x)$ là giới hạn của tỉ số $\dfrac{f(x_2)-f(x_1)}{x_2-x_1}$, tức là độ dốc của đồ thị. Nếu đồ thị có tiếp tuyến dốc lên ở **mọi** điểm của $K$ thì nó không thể đi xuống ở đâu trong $K$. Còn vài điểm có tiếp tuyến nằm ngang (như $y=x^3$ tại $x=0$) thì sao? Chúng không làm đồ thị quay đầu, vì ngay hai bên điểm đó đồ thị vẫn dốc lên.
 
-**Hiểu sâu hơn.** Định lí cho phép đi từ thông tin *tại từng điểm* (độ dốc) đến kết luận *trên cả khoảng*. Điều này chỉ đúng trên một khoảng liền. Hàm số $y=-\dfrac1x$ có $y'=\dfrac{1}{x^2}>0$ tại mọi điểm của tập xác định, nhưng $y(-1)=1>y(1)=-1$. Vì tập xác định bị "đứt" tại $x=0$ nên ta chỉ kết luận được hàm số đồng biến trên từng khoảng $(-\infty; 0)$ và $(0; +\infty)$.
+**Hiểu sâu hơn.** Định lí đi từ thông tin *tại từng điểm* (độ dốc) đến kết luận *trên cả khoảng*. Bước nhảy này chỉ đúng trên một khoảng liền, không bị đứt. Ví dụ, hàm số $y=-\dfrac1x$ có $y'=\dfrac{1}{x^2}>0$ tại mọi điểm của tập xác định, nhưng $y(-1)=1>y(1)=-1$. Vì tập xác định bị "đứt" tại $x=0$ nên ta chỉ kết luận được hàm số đồng biến trên từng khoảng $(-\infty; 0)$ và $(0; +\infty)$, chứ không phải trên hai khoảng gộp lại.
 
-**Kết nối.** Bài này dùng đạo hàm (lớp 11) và dấu của tam thức bậc hai (lớp 10). Khoảng đơn điệu và cực trị là nguyên liệu chính cho các bài tiếp theo: tìm giá trị lớn nhất, nhỏ nhất, khảo sát và vẽ đồ thị, giải các bài toán tối ưu trong thực tế.
+**Kết nối.** Ở đây bạn sẽ dùng đạo hàm (lớp 11) và dấu của tam thức bậc hai (lớp 10). Đổi lại, khoảng đơn điệu và cực trị là nguyên liệu chính cho những bài sau: tìm giá trị lớn nhất, nhỏ nhất, khảo sát và vẽ đồ thị, giải các bài toán tối ưu trong thực tế.
 
-Để xét tính đơn điệu, ta làm theo thứ tự:
+Để xét tính đơn điệu của một hàm số, ta làm theo bốn bước sau:
 
 1. Tìm tập xác định.
 2. Tính $f'(x)$, tìm các điểm làm $f'(x)=0$ hoặc $f'(x)$ không xác định.
@@ -84,7 +84,7 @@ Vì tam thức $y'$ có $a=3>0$ nên $y'$ dương ở ngoài hai nghiệm, âm �
 Vậy hàm số đồng biến trên các khoảng $(-\infty; 1)$ và $(3; +\infty)$, nghịch biến trên khoảng $(1; 3)$.
 :::
 
-Ví dụ tiếp theo cho thấy $f'(x_0)=0$ chưa chắc làm hàm số đổi chiều.
+Còn một điều dễ gây hiểu lầm: $f'(x_0)=0$ chưa chắc làm hàm số đổi chiều. Ví dụ sau cho thấy điều đó.
 
 :::example Đạo hàm bằng $0$ tại một điểm
 Chứng minh rằng hàm số $y=x^3-3x^2+3x+5$ đồng biến trên $\mathbb{R}$.
@@ -100,7 +100,7 @@ Vậy hàm số đồng biến trên $\mathbb{R}$.
 
 ## Cực trị của hàm số
 
-Trong bài toán flycam, thời điểm $t=2$ cho độ cao lớn hơn mọi thời điểm **lân cận**, dù chưa chắc là cao nhất trong cả chuyến bay. Ta gọi đó là một điểm cực đại.
+Quay lại chiếc flycam: tại thời điểm $t=2$, độ cao lớn hơn ở mọi thời điểm **lân cận**, dù chưa chắc đã là cao nhất trong cả chuyến bay. Một thời điểm như vậy gọi là một điểm cực đại.
 
 :::definition Cực đại, cực tiểu
 Cho $f$ xác định trên tập $D$ và $x_0\in D$.
@@ -115,7 +115,7 @@ Cho $f$ liên tục trên khoảng $(a; b)$ chứa $x_0$ và có đạo hàm tr�
 - Nếu $f'$ **đổi dấu từ $-$ sang $+$** khi $x$ đi qua $x_0$ thì $x_0$ là điểm cực tiểu.
 :::
 
-Lí do: đổi dấu từ $+$ sang $-$ nghĩa là đồ thị đi lên ngay trước $x_0$ và đi xuống ngay sau $x_0$, nên $f(x_0)$ lớn hơn các giá trị lân cận. Trong Ví dụ 1, $y'$ đổi dấu từ $+$ sang $-$ tại $x=1$, nên $x=1$ là điểm cực đại, $y_{\text{CĐ}}=5$; tương tự $x=3$ là điểm cực tiểu, $y_{\text{CT}}=1$.
+Lí do thì dễ hình dung: đổi dấu từ $+$ sang $-$ nghĩa là đồ thị đi lên ngay trước $x_0$ và đi xuống ngay sau $x_0$, nên $f(x_0)$ lớn hơn các giá trị lân cận. Trong Ví dụ 1, $y'$ đổi dấu từ $+$ sang $-$ tại $x=1$, nên $x=1$ là điểm cực đại, $y_{\text{CĐ}}=5$; tương tự $x=3$ là điểm cực tiểu, $y_{\text{CT}}=1$.
 
 :::example Hàm bậc bốn có ba cực trị
 Tìm cực trị của hàm số $y=x^4-2x^2+3$.
@@ -144,7 +144,7 @@ point: (0, 3) "(0; 3)" above
 point: (1, 2) "(1; 2)" below
 :::
 
-Với phân thức, điểm làm mẫu bằng $0$ không thuộc tập xác định, nhưng vẫn phải ghi vào bảng biến thiên để chia khoảng.
+Với phân thức có một chỗ hay bị quên: điểm làm mẫu bằng $0$ không thuộc tập xác định, nhưng ta vẫn phải ghi nó vào bảng biến thiên, vì đó là chỗ chia khoảng.
 
 :::example Hàm phân thức
 Tìm các khoảng đơn điệu và cực trị của hàm số $y=\dfrac{x^2+3}{x-1}$.
@@ -177,13 +177,13 @@ point: (3, 6) "(3; 6)" below-right
 
 ### Dùng đạo hàm cấp hai
 
-Khi xét dấu $f'$ khó (thường gặp với hàm lượng giác), ta có thể dùng đạo hàm cấp hai (lớp 11).
+Có lúc việc xét dấu $f'$ khá rắc rối, nhất là với hàm lượng giác. Khi đó ta có thể dùng đạo hàm cấp hai (lớp 11), vì dấu của nó cho biết đồ thị cong lên hay cong xuống.
 
 :::note Dấu hiệu dùng đạo hàm cấp hai
-Giả sử $f'(x_0)=0$ và $f$ có đạo hàm cấp hai tại $x_0$.
+Giả sử $f'(x_0)=0$ và $f$ có đạo hàm cấp hai tại $x_0$. Khi đó:
 - Nếu $f''(x_0)<0$ thì $x_0$ là điểm cực đại.
 - Nếu $f''(x_0)>0$ thì $x_0$ là điểm cực tiểu.
-- Nếu $f''(x_0)=0$ thì dấu hiệu này không kết luận được; hãy quay lại xét dấu $f'$.
+- Nếu $f''(x_0)=0$ thì dấu hiệu này chưa kết luận được; bạn hãy quay lại xét dấu $f'$.
 :::
 
 :::example Hàm lượng giác
@@ -200,7 +200,7 @@ $$f''\left(\frac{\pi}{3}\right)=\sqrt3>0,\qquad f''\left(\frac{5\pi}{3}\right)=-
 Vậy $f$ đạt cực tiểu tại $x=\dfrac{\pi}{3}$ với $f_{\text{CT}}=\dfrac{\pi}{3}-\sqrt3$, và đạt cực đại tại $x=\dfrac{5\pi}{3}$ với $f_{\text{CĐ}}=\dfrac{5\pi}{3}+\sqrt3$.
 :::
 
-Cuối cùng, ta trả lời câu hỏi về flycam ở đầu bài.
+Bây giờ ta đã đủ công cụ để trả lời câu hỏi về flycam ở đầu bài.
 
 :::example Flycam lên và xuống
 Độ cao của flycam là $h(t)=t^3-12t^2+36t+10$ (mét), $0\le t\le 7$ (phút). Tìm các khoảng thời gian flycam lên cao, các khoảng thời gian flycam hạ xuống và tìm các cực trị của độ cao.
@@ -219,8 +219,9 @@ Vậy flycam lên cao trong $2$ phút đầu và trong phút cuối (từ phút 
 :::warning Những sai lầm thường gặp
 - **Gộp hai khoảng bằng dấu hợp.** Sai: "$y=\dfrac{x+2}{x-1}$ nghịch biến trên $(-\infty; 1)\cup(1; +\infty)$". Lí do sai: $y(0)=-2<y(2)=4$ dù $0<2$. Đúng: hàm số nghịch biến trên **từng** khoảng $(-\infty; 1)$ và $(1; +\infty)$.
 - **Cho rằng $f'(x_0)=0$ là có cực trị.** Sai: "$y=x^3-3x^2+3x+5$ có $y'(1)=0$ nên đạt cực trị tại $x=1$". Lí do sai: $y'=3(x-1)^2$ không đổi dấu qua $x=1$. Đúng: hàm số không có cực trị.
-- **Nhầm điểm cực trị với giá trị cực trị.** Sai: "điểm cực đại của $y=x^4-2x^2+3$ là $3$". Lí do sai: điểm cực đại là giá trị của $x$. Đúng: điểm cực đại $x=0$, giá trị cực đại $y_{\text{CĐ}}=3$, điểm cực đại của đồ thị $(0; 3)$.
+- **Nhầm điểm cực trị với giá trị cực trị.** Sai: "điểm cực đại của $y=x^4-2x^2+3$ là $3$". Lí do sai: điểm cực đại là một giá trị của $x$. Đúng: điểm cực đại $x=0$, giá trị cực đại $y_{\text{CĐ}}=3$, điểm cực đại của đồ thị $(0; 3)$.
 - **Quên tập xác định.** Sai: lập bảng biến thiên của $y=\dfrac{x^2+3}{x-1}$ mà không ghi $x=1$. Lí do sai: dấu của $y'$ có thể đổi qua $x=1$ và hàm số không xác định tại đó. Đúng: luôn ghi các điểm không xác định vào bảng.
+Hai mục đầu là chỗ nhiều bạn hay nhầm nhất, nên đừng lo nếu lần đầu bạn cũng vậy. Trước khi kết luận, hãy nhìn lại tập xác định và dấu của đạo hàm.
 :::
 
 ## Thuật ngữ
@@ -245,10 +246,11 @@ Vậy flycam lên cao trong $2$ phút đầu và trong phút cuối (từ phút 
 - $f'$ đổi dấu $+\to-$ tại $x_0$: cực đại; $-\to+$: cực tiểu. Không đổi dấu: không có cực trị.
 - Dấu hiệu cấp hai: $f'(x_0)=0$ và $f''(x_0)<0$ thì cực đại, $f''(x_0)>0$ thì cực tiểu.
 - Phân biệt điểm cực trị $x_0$, giá trị cực trị $f(x_0)$ và điểm cực trị của đồ thị $(x_0; f(x_0))$.
+Quay lại chiếc flycam: chỉ cần dấu của đạo hàm, ta biết nó lên ở đâu, xuống ở đâu và đổi chiều lúc nào, mà không phải tính độ cao ở thật nhiều thời điểm. Bạn nhớ thêm rằng cực đại chỉ là "cao nhất ở gần", đừng vội coi đó là cao nhất cả chuyến bay.
 
 ## Luyện tập
 
-Mỗi bài có phần kiến thức và gợi ý các bước. Hãy tự làm trước, rồi mới bấm xem lời giải.
+Mỗi bài đều có phần kiến thức cần dùng và vài bước gợi ý để bạn bắt đầu. Hãy tự làm trước, đừng vội mở lời giải. Nếu bị kẹt, bạn xem gợi ý một chút, làm tiếp, rồi mới mở lời giải để đối chiếu.
 
 :::exercise
 Tìm các khoảng đơn điệu của hàm số $y=-x^3+3x^2+1$.

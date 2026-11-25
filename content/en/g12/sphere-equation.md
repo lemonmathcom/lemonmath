@@ -11,17 +11,17 @@ minutes: 22
 - Decide where a point or a plane lies relative to a sphere; write the equation of a tangent plane.
 :::
 
-A Wi-Fi router is placed at $I(2, 3, 1)$ in a hall (unit: metre). The signal is strong enough within $10$ m of the router. Does a phone at $M(8, 10, 3)$ get the signal? What about a speaker hanging from the ceiling at $N(2, 3, 12)$?
+You are sitting in a hall where a Wi-Fi router is placed at $I(2, 3, 1)$ (unit: metre). The signal is strong enough within $10$ m of the router. Does your phone at $M(8, 10, 3)$ get the signal? What about a speaker hanging from the ceiling at $N(2, 3, 12)$?
 
-The set of points exactly $10$ m from $I$ is a **sphere**. This lesson turns a sphere into an equation, so that every "inside or outside" question becomes a calculation.
+To answer, think of all the points exactly $10$ m from $I$. That set is a **sphere**. Once we can write a sphere as an equation, every "inside or outside" question becomes a calculation. The same idea works for the radar example at the end of the lesson.
 
 ## The equation of a sphere
 
 ### Exploring: distances from the router
 
-We find the distances from the router to the two points:
+We work out how far the phone and the speaker are from the router:
 $$IM=\sqrt{6^2+7^2+2^2}=\sqrt{89}\approx9.43<10,\qquad IN=\sqrt{0^2+0^2+11^2}=11>10.$$
-So the phone gets the signal, but the speaker is outside the coverage area. A point $P(x, y, z)$ lies **exactly** on the edge of the coverage area when $IP=10$, that is
+The phone is closer than the limit of the signal, so it gets the signal. The speaker is further away, so it is outside the coverage area. Now ask: when does a point $P(x, y, z)$ lie **exactly** on the edge of the coverage area? That happens when $IP=10$, that is
 $$(x-2)^2+(y-3)^2+(z-1)^2=100.$$
 
 :::diagram The sphere with centre $I$ and radius $R$
@@ -43,7 +43,7 @@ $$(x-a)^2+(y-b)^2+(z-c)^2=R^2.$$
 - The equation $x^2+y^2+z^2-2ax-2by-2cz+d=0$ is the equation of a sphere if and only if $a^2+b^2+c^2-d>0$. The sphere then has centre $I(a, b, c)$ and radius $R=\sqrt{a^2+b^2+c^2-d}$.
 :::
 
-**Why is it true?** $M(x, y, z)$ lies on the sphere exactly when $IM^2=R^2$, and $IM^2=(x-a)^2+(y-b)^2+(z-c)^2$. For the second form, complete the squares: the equation becomes $(x-a)^2+(y-b)^2+(z-c)^2=a^2+b^2+c^2-d$. The right-hand side must be positive to be $R^2$.
+**Why is it true?** A point $M(x, y, z)$ lies on the sphere exactly when $IM^2=R^2$, and $IM^2=(x-a)^2+(y-b)^2+(z-c)^2$. That gives the first form. For the second form, we complete the squares, and the equation becomes $(x-a)^2+(y-b)^2+(z-c)^2=a^2+b^2+c^2-d$. The right-hand side plays the part of $R^2$, so it must be positive for a sphere to exist.
 
 :::example Given the centre and radius; given a diameter
 a) Write the equation of the sphere with centre $I(1, -2, 3)$ and radius $4$, and check that $A(1, 2, 3)$ lies on it.
@@ -63,7 +63,7 @@ $$I(2, 1, 2),\qquad AB=\sqrt{2^2+(-4)^2+6^2}=\sqrt{56},\qquad R=\frac{\sqrt{56}}
 So a) $(x-1)^2+(y+2)^2+(z-3)^2=16$; b) $(x-2)^2+(y-1)^2+(z-2)^2=14$.
 :::
 
-When the equation is expanded, we read off $a$, $b$, $c$ by dividing the coefficients of $x$, $y$, $z$ by $-2$.
+An expanded equation looks different, but we can still read off the centre. Divide the coefficients of $x$, $y$, $z$ by $-2$ to get $a$, $b$, $c$. Why $-2$? In the expanded form, each of those coefficients is $-2$ times $a$, $b$ or $c$.
 
 :::example From the expanded form
 Is each equation the equation of a sphere? If so, find its centre and radius.
@@ -81,7 +81,7 @@ $$a^2+b^2+c^2-d=1+4+0-6=-1<0.$$
 So a) is a sphere with centre $I(2, -1, 3)$ and radius $4$; b) is not the equation of a sphere (no point satisfies it).
 :::
 
-Given four points on a sphere, the expanded form gives four linear equations in the four unknowns $a$, $b$, $c$, $d$.
+What if we are given four points on a sphere? We substitute each point into the expanded form. Each point gives one linear equation, so four points give four equations in the four unknowns $a$, $b$, $c$, $d$. That is a system we can solve.
 
 :::example The sphere through four points
 Write the equation of the sphere through $O(0, 0, 0)$, $A(2, 0, 0)$, $B(0, 4, 0)$, $C(0, 0, 6)$.
@@ -95,7 +95,7 @@ Then $R^2=1+4+9-0=14$. So the sphere is $x^2+y^2+z^2-2x-4y-6z=0$, with centre $I
 
 ## Planes and spheres
 
-We compare the distance $h$ from the centre $I$ to the plane with the radius $R$, just as we compare the distance from the centre to a line in plane geometry.
+A plane and a sphere can meet in a few different ways. To tell which, we compare the distance $h$ from the centre $I$ to the plane with the radius $R$. You have done something similar in plane geometry, comparing the distance from the centre to a line with the radius of a circle.
 
 :::theorem A plane and a sphere
 Let $(S)$ be a sphere with centre $I$ and radius $R$, let $(P)$ be a plane, and let $h=d(I, (P))$.
@@ -132,7 +132,7 @@ So the tangent plane is $2x+y+2z-11=0$.
 **Check.** $d(I, (P))=\dfrac{|2+2-2-11|}{3}=3=R$.
 :::
 
-The last example is a real problem with several steps, so we follow the four stages.
+The last example is a real problem with several steps, so we go one stage at a time: understand, plan, solve, look back. The picture below is a vertical cross-section of the radar zone, which helps us see what is going on.
 
 :::graph A vertical cross-section of the radar zone (unit: $10$ km)
 alt: A circle of radius 5 centred at the origin, a horizontal line at height 3 cutting the circle, a segment from the centre up to height 3 and a horizontal segment of length 4
@@ -169,10 +169,10 @@ So the aeroplane flies about $69.3$ km inside the radar zone.
 :::
 
 :::warning Common mistakes
-- **The wrong sign for the centre.** Wrong: $(x+1)^2+(y-2)^2+z^2=9$ has centre $(1, -2, 0)$. Why it is wrong: $x+1=x-(-1)$. Right: the centre is $I(-1, 2, 0)$.
-- **Confusing $R$ with $R^2$.** Wrong: the sphere with centre $I(1, -2, 3)$ and radius $4$ is $(x-1)^2+(y+2)^2+(z-3)^2=4$. Right: the right-hand side is $R^2=16$.
-- **Reading off the centre when the coefficient of $x^2$ is not $1$.** For $2x^2+2y^2+2z^2-4x+8y-2=0$, wrong: $a=2$, $b=-4$. Why it is wrong: the formula needs the coefficients of $x^2$, $y^2$, $z^2$ to be $1$. Right: divide by $2$ to get $x^2+y^2+z^2-2x+4y-1=0$, so $a=1$, $b=-2$, $c=0$ and $R=\sqrt{1+4+0+1}=\sqrt6$.
-- **Forgetting to check $a^2+b^2+c^2-d>0$.** Wrong: $x^2+y^2+z^2-2x+4y+6=0$ has $R=\sqrt{-1}$, "undefined but still a sphere". Right: the condition fails, so the equation describes no sphere at all.
+- **The wrong sign for the centre.** This one is easy to slip on. Wrong: $(x+1)^2+(y-2)^2+z^2=9$ has centre $(1, -2, 0)$. Why it is wrong: $x+1=x-(-1)$. Right: the centre is $I(-1, 2, 0)$.
+- **Confusing $R$ with $R^2$.** Wrong: the sphere with centre $I(1, -2, 3)$ and radius $4$ is $(x-1)^2+(y+2)^2+(z-3)^2=4$. Why it is wrong: the right-hand side is the square of the radius, not the radius itself. Right: the right-hand side is $R^2=16$.
+- **Reading off the centre when the coefficient of $x^2$ is not $1$.** For $2x^2+2y^2+2z^2-4x+8y-2=0$, wrong: $a=2$, $b=-4$. Why it is wrong: the formula only works when the coefficients of $x^2$, $y^2$, $z^2$ are $1$. Right: divide by $2$ to get $x^2+y^2+z^2-2x+4y-1=0$, so $a=1$, $b=-2$, $c=0$ and $R=\sqrt{1+4+0+1}=\sqrt6$.
+- **Forgetting to check $a^2+b^2+c^2-d>0$.** Wrong: $x^2+y^2+z^2-2x+4y+6=0$ has $R=\sqrt{-1}$, "undefined but still a sphere". Why it is wrong: a radius must be a positive real number. Right: the condition fails, so the equation describes no sphere at all.
 :::
 
 ## Key terms
@@ -193,13 +193,15 @@ So the aeroplane flies about $69.3$ km inside the radar zone.
 - Centre $I(a, b, c)$, radius $R$: $(x-a)^2+(y-b)^2+(z-c)^2=R^2$.
 - $x^2+y^2+z^2-2ax-2by-2cz+d=0$ is a sphere $\iff a^2+b^2+c^2-d>0$; then $R=\sqrt{a^2+b^2+c^2-d}$.
 - Diameter $AB$: the centre is the midpoint of $AB$ and $R=\dfrac{AB}{2}$.
-- A point $M$: $IM<R$ inside, $IM=R$ on, $IM>R$ outside the sphere.
-- A plane: $h=d(I, (P))$; $h>R$ no common point, $h=R$ tangent, $h<R$ a circle of radius $\sqrt{R^2-h^2}$.
+- A point $M$: $IM<R$ is inside, $IM=R$ is on, $IM>R$ is outside the sphere.
+- A plane: $h=d(I, (P))$; $h>R$ means no common point, $h=R$ means tangent, $h<R$ means a circle of radius $\sqrt{R^2-h^2}$.
 - The tangent plane at $M$: through $M$ with normal vector $\overrightarrow{IM}$.
+
+Back to the router: the phone is inside the coverage sphere and the speaker is outside, and we found that out just by comparing a distance from the centre with the radius. That one comparison is what to remember. Every "inside or outside" question comes down to it.
 
 ## Practice
 
-Each exercise comes with what you need and some steps to start. Try it yourself first, then open the solution.
+Each exercise comes with what you need and some steps to start. Try it yourself first, then open the solution. If you get stuck, go back to the nearest worked example and see how we did it.
 
 :::exercise
 Write the equation of the sphere with centre $I(-1, 2, 0)$ and radius $3$. Is the point $A(1, 3, 2)$ inside, on or outside the sphere?

@@ -11,9 +11,9 @@ minutes: 22
 - Trả lời đầy đủ, có đơn vị, và kiểm tra kết quả có hợp lí không.
 :::
 
-Một xưởng cần làm những chiếc thùng tôn **không nắp**, đáy hình vuông, chứa được đúng $32$ dm³ (tức $32$ lít). Thùng càng tốn ít tôn thì càng rẻ. Nếu đáy rộng $2$ dm thì thùng phải cao $8$ dm; nếu đáy rộng $6$ dm thì chỉ cần cao chưa đến $1$ dm. Nên chọn cạnh đáy bao nhiêu để tốn ít tôn nhất?
+Một xưởng làm những chiếc thùng tôn **không nắp**, đáy hình vuông, chứa đúng $32$ dm³ (tức $32$ lít). Thùng nào tốn ít tôn thì rẻ hơn. Thử hai cách làm: đáy rộng $2$ dm thì thùng phải cao $8$ dm; đáy rộng $6$ dm thì chỉ cần cao chưa đến $1$ dm. Hai chiếc thùng này trông rất khác nhau. Vậy nên chọn cạnh đáy bao nhiêu để tốn ít tôn nhất?
 
-"Làm thế nào cho tốt nhất" là câu hỏi của người kĩ sư, người bán hàng và cả người làm vườn: rào vườn sao cho tốn ít lưới nhất, định giá sao cho doanh thu cao nhất, chạy xe ở tốc độ nào cho chuyến đi đỡ tốn kém nhất. Đạo hàm biến những câu hỏi đời thường ấy thành bài toán tìm giá trị lớn nhất, nhỏ nhất mà ta đã biết cách giải.
+Câu hỏi "làm sao cho tốt nhất" không chỉ của người thợ tôn. Người làm vườn hỏi rào sao cho tốn ít lưới nhất, người bán hàng hỏi định giá sao cho doanh thu cao nhất, người lái xe hỏi chạy tốc độ nào thì chuyến đi đỡ tốn kém nhất. Đạo hàm cho ta một cách trả lời chắc chắn: biến những câu hỏi đời thường ấy thành bài toán tìm giá trị lớn nhất, nhỏ nhất, mà ta đã biết cách giải.
 
 ## Bài toán tối ưu
 
@@ -26,11 +26,11 @@ $$S(x)=x^2+4xh=x^2+\frac{128}{x}.$$
 |---|---|---|---|---|---|
 | $S(x)$ (dm²) | $68$ | $\approx51{,}67$ | $48$ | $50{,}6$ | $\approx57{,}33$ |
 
-Đáy nhỏ thì thành cao, tốn tôn ở mặt bên; đáy lớn thì tốn tôn ở đáy. Giá trị tốt nhất có vẻ ở gần $x=4$, nhưng bảng chưa chứng minh được điều đó. Đạo hàm sẽ trả lời chính xác.
+Đáy nhỏ thì thành thùng cao, mặt bên tốn nhiều tôn. Đáy lớn thì chính cái đáy tốn nhiều tôn. Hai điều ấy kéo ngược nhau, nên giá trị tốt nhất nằm đâu đó ở giữa, có vẻ gần $x=4$. Nhưng bảng chỉ cho ta đoán, chưa chứng minh được gì. Đạo hàm sẽ cho câu trả lời chính xác.
 
-**Hiểu sâu hơn.** Trong bài toán tối ưu thường có hai xu hướng ngược nhau: ở đây, thu nhỏ đáy thì tiết kiệm tôn ở đáy nhưng tốn thêm tôn ở thành. Điểm tốt nhất là nơi hai xu hướng "cân bằng", tức là nơi đạo hàm bằng $0$. Chẳng hạn tại $x=4$, phần đáy $x^2$ có đạo hàm $2x=8$, phần thành $\dfrac{128}{x}$ có đạo hàm $-\dfrac{128}{x^2}=-8$: tăng cạnh đáy thêm một chút thì phần tôn thêm ở đáy vừa bằng phần tôn bớt ở thành.
+**Hiểu sâu hơn.** Bài toán tối ưu thường có hai xu hướng kéo ngược nhau. Ở đây, thu nhỏ đáy thì tiết kiệm được tôn ở đáy nhưng phải thêm tôn ở thành. Điểm tốt nhất là nơi hai xu hướng cân bằng, tức là nơi đạo hàm bằng $0$. Hãy xem tại $x=4$: phần đáy $x^2$ có đạo hàm $2x=8$, phần thành $\dfrac{128}{x}$ có đạo hàm $-\dfrac{128}{x^2}=-8$. Tăng cạnh đáy thêm một chút thì phần tôn thêm ở đáy vừa bằng phần tôn bớt ở thành.
 
-**Kết nối.** Bài này dùng trực tiếp cách tìm giá trị lớn nhất, nhỏ nhất (bài trước) và ý nghĩa của đạo hàm là tốc độ thay đổi (lớp 11): vận tốc, gia tốc, chi phí tăng thêm khi làm thêm một sản phẩm. Ở chương sau, nguyên hàm và tích phân làm điều ngược lại: từ tốc độ thay đổi tìm lại đại lượng ban đầu.
+**Kết nối.** Bài này dùng lại hai điều bạn đã học: cách tìm giá trị lớn nhất, nhỏ nhất (bài trước) và ý nghĩa của đạo hàm là tốc độ thay đổi (lớp 11), chẳng hạn vận tốc, gia tốc, hay chi phí tăng thêm khi làm thêm một sản phẩm. Ở chương sau, nguyên hàm và tích phân đi theo chiều ngược lại: biết tốc độ thay đổi, ta tìm lại đại lượng ban đầu.
 
 :::note Các bước giải bài toán tối ưu
 1. **Chọn ẩn** (thường là một độ dài, một số lượng, một thời điểm) và nêu **điều kiện** của ẩn.
@@ -59,7 +59,7 @@ plot: x^2 + 128/x ; 1..10
 point: (4, 48) "(4; 48)" below
 :::
 
-Bài toán kinh doanh cũng có dạng này, nhưng miền của ẩn thường là một đoạn, nên phải so sánh cả hai đầu mút.
+Bài toán kinh doanh cũng có dạng này, chỉ khác một chỗ: ẩn thường chạy trên một đoạn, nên ngoài điểm tới hạn ta phải so sánh cả hai đầu mút. Ví dụ sau cho thấy điều đó.
 
 :::example Lợi nhuận lớn nhất
 Một công ty ước tính nếu sản xuất $x$ trăm sản phẩm mỗi tháng ($0\le x\le 15$) thì lợi nhuận là $P(x)=-x^3+9x^2+120x-200$ (triệu đồng). Hỏi công ty nên sản xuất bao nhiêu sản phẩm mỗi tháng để lợi nhuận lớn nhất?
@@ -77,10 +77,10 @@ Vậy công ty nên sản xuất $1000$ sản phẩm mỗi tháng ($x=10$); lợ
 
 ## Vận tốc, gia tốc và tốc độ thay đổi
 
-Đạo hàm $f'(t_0)$ là **tốc độ thay đổi tức thời** của đại lượng $f$ tại thời điểm $t_0$. Với một vật chuyển động trên đường thẳng có quãng đường $s(t)$:
+Đạo hàm $f'(t_0)$ cho biết đại lượng $f$ đang thay đổi nhanh đến mức nào đúng vào thời điểm $t_0$. Ta gọi đó là **tốc độ thay đổi tức thời**. Với một vật chuyển động trên đường thẳng có quãng đường $s(t)$, hai đại lượng quen thuộc là:
 
-- vận tốc là $v(t)=s'(t)$;
-- gia tốc là $a(t)=v'(t)=s''(t)$ (xem đạo hàm cấp hai ở lớp 11).
+- vận tốc là $v(t)=s'(t)$, tức tốc độ thay đổi của quãng đường;
+- gia tốc là $a(t)=v'(t)=s''(t)$, tức tốc độ thay đổi của vận tốc (xem đạo hàm cấp hai ở lớp 11).
 
 :::example Vận tốc lớn nhất
 Một chiếc xe thử nghiệm chạy trên đường thẳng với quãng đường $s(t)=-t^3+9t^2$ (mét) sau $t$ giây, $0\le t\le 6$. Tính gia tốc tại $t=1$ và tìm vận tốc lớn nhất của xe.
@@ -98,7 +98,7 @@ Ta thấy vận tốc lớn nhất đạt đúng lúc gia tốc bằng $0$: trư
 Vậy tại $t=1$ gia tốc là $12$ m/s²; vận tốc lớn nhất là $27$ m/s, đạt tại $t=3$ giây.
 :::
 
-Tốc độ thay đổi không chỉ dùng cho chuyển động. Ví dụ sau là nhiệt độ.
+Tốc độ thay đổi không chỉ dành cho chuyển động. Ví dụ sau là chuyện một cốc trà nguội dần.
 
 :::example Cốc trà nguội đi
 Nhiệt độ của một cốc trà sau $t$ phút là $T(t)=20+\dfrac{70}{1+0{,}1t}$ (°C). Tính nhiệt độ lúc đầu, và tốc độ thay đổi nhiệt độ tại thời điểm $t=10$ phút.
@@ -112,7 +112,7 @@ Vậy lúc đầu trà nóng $90$ °C; tại $t=10$ phút, nhiệt độ đang g
 
 ## Đường đi và chi phí nhỏ nhất
 
-Bài toán có nhiều dữ kiện nên ta giải theo bốn bước.
+Bài này có nhiều dữ kiện nên dễ rối. Vì vậy ta đi theo bốn bước: hiểu đề, tìm cách giải, giải, nhìn lại.
 
 :::diagram Đường ống từ trạm bơm $A$ đến nhà máy $F$
 alt: Bờ sông nằm ngang qua H, M, A; nhà máy F cách bờ 3 km phía trên H; đường ống đi dọc bờ từ A đến M rồi đi thẳng từ M đến F
@@ -180,10 +180,11 @@ Vậy chọn $M$ cách $H$ là $2{,}25$ km (cách $A$ là $5{,}75$ km); chi phí
 - Chuyển động: $v(t)=s'(t)$, $a(t)=v'(t)=s''(t)$; vận tốc lớn nhất thường đạt khi $a(t)=0$.
 - $f'(t_0)$ là tốc độ thay đổi tức thời của $f$ tại $t_0$; dấu âm nghĩa là đại lượng đang giảm.
 - Luôn kiểm tra kết quả: có thoả điều kiện không, có hợp lí với thực tế không.
+Quay lại câu hỏi đầu bài: chiếc thùng nào tốn ít tôn nhất? Ta không đoán qua bảng nữa, mà lập hàm số, tìm chỗ đạo hàm triệt tiêu rồi kiểm tra. Nhớ rằng bước cuối là nhìn lại kết quả.
 
 ## Luyện tập
 
-Mỗi bài có phần kiến thức và gợi ý các bước. Hãy tự làm trước, rồi mới bấm xem lời giải.
+Mỗi bài có phần kiến thức và gợi ý các bước. Bạn hãy tự làm trước, rồi mới bấm xem lời giải. Vướng ở đâu, cứ quay lại bốn bước ở trên.
 
 :::exercise
 Một vật chuyển động trên đường thẳng với quãng đường $s(t)=t^3-6t^2+9t$ (mét) sau $t$ giây. Tìm các thời điểm vận tốc bằng $0$, và tính gia tốc tại các thời điểm đó.

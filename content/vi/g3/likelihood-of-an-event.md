@@ -12,23 +12,24 @@ minutes: 15
 
 Mai có một chiếc hộp kín, trong hộp chỉ có $5$ viên bi đỏ. Mai nhắm mắt lấy ra một viên bi. Mai có thể lấy được viên bi xanh không? Mai có chắc chắn lấy được viên bi đỏ không?
 
-Bài này giúp em trả lời những câu hỏi như vậy, chỉ bằng cách nhìn xem trong hộp có gì.
+Những câu hỏi như vậy, em trả lời được chỉ bằng cách nhìn xem trong hộp có gì. Ta cùng làm quen với cách nghĩ ấy.
 
 ## Cùng khám phá
 
-Có ba chiếc hộp. Mỗi lần, ta nhắm mắt lấy ra một viên bi.
+Đây là ba chiếc hộp. Mỗi lần, ta nhắm mắt lấy ra một viên bi.
 
 ![Ba hộp A, B, C lần lượt chứa năm bi đỏ; ba bi đỏ và hai bi xanh; năm bi xanh](/assets/img/g3/g3-likelihood-of-an-event-01.svg)
 
 - **Hộp A:** $5$ viên bi đỏ.
 - **Hộp B:** $3$ viên bi đỏ và $2$ viên bi xanh.
 - **Hộp C:** $5$ viên bi xanh.
+Trước khi lấy, em thử đoán xem từ mỗi hộp có thể ra những màu nào.
 
-**Hộp A.** Trong hộp chỉ có bi đỏ. Dù lấy thế nào, ta cũng được bi đỏ. Ta nói: lấy được bi đỏ là **chắc chắn**. Lấy được bi xanh là **không thể**.
+**Hộp A.** Trong hộp chỉ toàn bi đỏ. Nhắm mắt lấy kiểu nào ta cũng được bi đỏ. Vì thế ta nói: lấy được bi đỏ là **chắc chắn**, còn lấy được bi xanh là **không thể**.
 
-**Hộp B.** Trong hộp có cả bi đỏ và bi xanh. Lần này ta có thể được bi đỏ, lần khác có thể được bi xanh. Ta nói: lấy được bi đỏ là **có thể**, lấy được bi xanh cũng là **có thể**.
+**Hộp B.** Hộp này có cả bi đỏ lẫn bi xanh. Lần này ta có thể được bi đỏ, lần sau lại có thể được bi xanh. Nên ta nói: lấy được bi đỏ là **có thể**, lấy được bi xanh cũng là **có thể**.
 
-**Hộp C.** Trong hộp chỉ có bi xanh. Lấy được bi xanh là **chắc chắn**, lấy được bi đỏ là **không thể**.
+**Hộp C.** Trong hộp chỉ toàn bi xanh. Lấy được bi xanh là **chắc chắn**, còn lấy được bi đỏ là **không thể**. Ba hộp cho ta ba mức khả năng khác nhau. Ta gọi tên từng mức như sau:
 
 :::theorem Ba mức khả năng
 - **Chắc chắn:** sự kiện luôn luôn xảy ra.
@@ -38,11 +39,11 @@ Có ba chiếc hộp. Mỗi lần, ta nhắm mắt lấy ra một viên bi.
 Muốn biết là mức nào, em nhìn xem trong hộp có những gì.
 :::
 
-Cách nghĩ này đúng vì em biết rõ mọi thứ trong hộp. Nếu thứ cần tìm không có, nó không thể xảy ra. Nếu mọi thứ trong hộp đều là thứ đó, nó chắc chắn xảy ra.
+Vì sao chỉ cần nhìn vào hộp? Vì em biết rõ mọi thứ trong hộp. Thứ cần tìm mà không có trong hộp thì không thể xảy ra. Nếu mọi thứ trong hộp đều là thứ đó thì chắc chắn xảy ra. Ở giữa hai trường hợp ấy là mức có thể.
 
 ## Ví dụ
 
-Ta bắt đầu với một hộp chỉ có một loại bóng.
+Trước hết là một hộp chỉ có một loại bóng.
 
 :::example Hộp bóng vàng
 Một hộp có $6$ quả bóng vàng. Nhắm mắt lấy ra một quả. Hãy nói khả năng của mỗi sự kiện:
@@ -56,7 +57,7 @@ a) Quả nào lấy ra cũng là bóng vàng, nên sự kiện này **chắc ch�
 b) Trong hộp không có bóng xanh, nên sự kiện này **không thể** xảy ra.
 :::
 
-Bây giờ hộp có hai loại kẹo.
+Lần này trong túi có hai loại kẹo. Ta xem điều đó thay đổi gì.
 
 :::example Túi kẹo
 Một túi có $4$ chiếc kẹo cam và $2$ chiếc kẹo dâu. Nhắm mắt lấy ra một chiếc. Hãy nói khả năng của:
@@ -73,7 +74,7 @@ b) Có thể lấy được kẹo dâu, nên sự kiện này cũng **có thể*
 c) Không có kẹo chanh, nên sự kiện này **không thể** xảy ra.
 :::
 
-Ta cũng có thể hỏi về các số trên thẻ.
+Cách nghĩ ấy cũng dùng được cho các số trên thẻ.
 
 :::example Thẻ số
 Một hộp có $3$ tấm thẻ ghi số $1$, $2$, $3$. Nhắm mắt lấy ra một tấm thẻ. Hãy nói khả năng của:
@@ -90,7 +91,7 @@ b) Cả ba số $1$, $2$, $3$ đều bé hơn $4$, nên **chắc chắn**.
 c) Thẻ số $2$ có trong hộp nhưng cũng có thẻ khác, nên **có thể**.
 :::
 
-Em cũng gặp những câu hỏi này ở ngoài đời.
+Những câu hỏi như vậy em gặp cả ở ngoài đời nữa.
 
 :::example Chuyện hằng ngày
 Hãy nói mỗi sự kiện là chắc chắn, có thể hay không thể xảy ra:
@@ -107,7 +108,7 @@ b) Không ai đi bộ nhanh như vậy, nên **không thể**.
 c) Có ngày mưa, có ngày không, nên **có thể**.
 :::
 
-Cuối cùng, ta thử thật và ghi kết quả vào bảng số liệu như ở bài trước.
+Cuối cùng, ta thử lấy bi thật, rồi ghi kết quả vào bảng số liệu như ở bài trước.
 
 :::example Thử lấy bi
 Hộp B có $3$ bi đỏ và $2$ bi xanh. Nam lấy một viên, ghi màu rồi bỏ lại vào hộp, làm $10$ lần. Kết quả: đỏ, xanh, đỏ, đỏ, xanh, đỏ, xanh, đỏ, đỏ, xanh. Hãy lập bảng số liệu.
@@ -123,9 +124,10 @@ Kiểm tra: $6+4=10$ lần. Cả hai màu đều xuất hiện, đúng với "c�
 :::
 
 :::warning Những lỗi em hay gặp
-- **Nhầm "có thể" với "chắc chắn".** Sai: hộp có $1$ bi đỏ và $9$ bi xanh, nói "chắc chắn lấy được bi xanh". Vì sao sai: bi đỏ vẫn nằm trong hộp nên có thể lấy được bi đỏ. Đúng: lấy được bi xanh là có thể.
+- **Nhầm "có thể" với "chắc chắn".** Sai: hộp có $1$ bi đỏ và $9$ bi xanh, nói "chắc chắn lấy được bi xanh". Vì sao sai: bi đỏ vẫn nằm trong hộp, nên vẫn có thể lấy được bi đỏ. Đúng: lấy được bi xanh là có thể.
 - **Nhầm "rất ít" với "không thể".** Sai: hộp có $1$ bi đỏ, nói "không thể lấy được bi đỏ". Vì sao sai: bi đỏ có trong hộp. Đúng: có thể lấy được bi đỏ.
 - **Không nhìn vào hộp.** Sai: trả lời mà không xem trong hộp có gì. Đúng: luôn xem trong hộp có những gì trước khi trả lời.
+Đừng lo nếu lúc đầu em còn lẫn. Cứ nhớ nhìn vào hộp trước, rồi mới trả lời.
 :::
 
 ## Thuật ngữ
@@ -147,10 +149,11 @@ Kiểm tra: $6+4=10$ lần. Cả hai màu đều xuất hiện, đúng với "c�
 - Nhìn xem trong hộp có gì: nếu thứ cần tìm không có thì không thể; nếu mọi thứ đều là thứ đó thì chắc chắn.
 - Trong hộp có nhiều loại thì mỗi loại đều có thể được lấy ra, dù loại đó ít.
 - Ghi kết quả thử nghiệm bằng vạch kiểm đếm và bảng số liệu.
+Quay lại chiếc hộp của Mai ở đầu bài: hộp chỉ có bi đỏ, nên lấy được bi xanh là không thể, còn lấy được bi đỏ là chắc chắn. Chỉ cần nhìn vào hộp là em trả lời được. Em làm thêm vài bài luyện tập cho quen nhé.
 
 ## Luyện tập
 
-Mỗi bài có phần kiến thức và gợi ý. Em hãy tự làm trước, rồi mới bấm xem lời giải.
+Mỗi bài có phần kiến thức cần nhớ và một gợi ý để em bắt đầu. Em thử tự làm trước đã. Nếu bí, em đọc gợi ý, rồi mới mở lời giải để so với bài của mình.
 
 :::exercise
 Một hộp có $5$ viên bi xanh. Nhắm mắt lấy ra một viên. Hãy nói khả năng của:

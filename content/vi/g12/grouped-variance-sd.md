@@ -11,28 +11,28 @@ minutes: 22
 - Hiểu ảnh hưởng của độ rộng nhóm và của việc đổi đơn vị.
 :::
 
-Một nhà máy có hai máy đóng gạo vào túi loại $1$ kg. Người ta cân $50$ túi của mỗi máy và ghép nhóm khối lượng (gam):
+Bạn cầm một túi gạo có ghi cân nặng trên bao bì. Túi nào cũng nặng đúng như ghi sao? Thường thì lệch một chút. Một nhà máy có hai máy đóng gạo vào túi loại $1$ kg. Người ta cân $50$ túi của mỗi máy và ghép nhóm khối lượng (gam):
 
 | Khối lượng (g) | $[990; 994)$ | $[994; 998)$ | $[998; 1002)$ | $[1002; 1006)$ | $[1006; 1010)$ |
 |---|---|---|---|---|---|
 | Máy A | $2$ | $8$ | $30$ | $8$ | $2$ |
 | Máy B | $6$ | $10$ | $18$ | $10$ | $6$ |
 
-Hai bảng đều đối xứng quanh $1000$ g, nên hai máy có cùng khối lượng trung bình. Máy nào đóng gói đều hơn, và đều hơn bao nhiêu?
+Hai bảng đều đối xứng quanh $1000$ g, nên hai máy có cùng khối lượng trung bình. Chỉ nhìn trung bình thì ta không phân biệt được hai máy. Nhưng máy nào đóng gói đều hơn, và đều hơn bao nhiêu? Đó là câu hỏi ta sẽ trả lời.
 
-Bài trước dùng khoảng tứ phân vị, chỉ nhìn vào nửa giữa của số liệu. Bài này dùng **mọi** giá trị, qua phương sai và độ lệch chuẩn.
+Bài trước ta dùng khoảng tứ phân vị, mà nó chỉ nhìn vào nửa giữa của số liệu. Lần này ta muốn một con số tính đến **mọi** giá trị, kể cả những túi lệch xa. Phương sai và độ lệch chuẩn làm được việc đó.
 
 ## Phương sai của mẫu số liệu ghép nhóm
 
 ### Khám phá: mỗi túi lệch bao nhiêu?
 
-Ta không biết khối lượng thật của từng túi, nên thay mỗi túi bằng **giá trị đại diện** của nhóm chứa nó, tức trung điểm của nhóm: $992$, $996$, $1000$, $1004$, $1008$. So với trung bình $1000$, các độ lệch là $-8$, $-4$, $0$, $4$, $8$.
+Ta không biết khối lượng thật của từng túi, vì bảng chỉ cho biết túi rơi vào nhóm nào. Vậy ta thay mỗi túi bằng **giá trị đại diện** của nhóm chứa nó, tức trung điểm của nhóm: $992$, $996$, $1000$, $1004$, $1008$. So với trung bình $1000$, các độ lệch là $-8$, $-4$, $0$, $4$, $8$.
 
 Với máy A, có $2$ túi lệch $-8$, $8$ túi lệch $-4$, … Bình phương các độ lệch (để dấu không triệt tiêu nhau), nhân với tần số rồi lấy trung bình:
 $$\frac{2\cdot64+8\cdot16+30\cdot0+8\cdot16+2\cdot64}{50}=\frac{512}{50}=10{,}24.$$
-Con số này đo mức độ các túi lệch khỏi $1000$ g. Nó chính là phương sai của mẫu ghép nhóm.
+Con số này đo mức độ các túi lệch khỏi $1000$ g: càng lớn thì các túi càng nằm xa mức chuẩn. Nó chính là phương sai của mẫu ghép nhóm.
 
-Trong bài, mẫu ghép nhóm có $k$ nhóm với giá trị đại diện $x_1$, …, $x_k$, tần số $n_1$, …, $n_k$, cỡ mẫu $n$ và số trung bình $\bar{x}=\dfrac{n_1x_1+\cdots+n_kx_k}{n}$ (lớp 11).
+Giờ ta viết điều vừa làm thành công thức chung. Trong bài, mẫu ghép nhóm có $k$ nhóm với giá trị đại diện $x_1$, …, $x_k$, tần số $n_1$, …, $n_k$, cỡ mẫu $n$ và số trung bình $\bar{x}=\dfrac{n_1x_1+\cdots+n_kx_k}{n}$ (lớp 11).
 
 :::definition Phương sai và độ lệch chuẩn
 Phương sai của mẫu số liệu ghép nhóm là
@@ -41,13 +41,13 @@ $$s^2=\frac{1}{n}\left[n_1(x_1-\bar{x})^2+n_2(x_2-\bar{x})^2+\cdots+n_k(x_k-\bar
 $$s^2=\frac{1}{n}\left(n_1x_1^2+n_2x_2^2+\cdots+n_kx_k^2\right)-\bar{x}^2.$$
 :::
 
-**Vì sao hai công thức bằng nhau?** Khai triển $(x_i-\bar{x})^2=x_i^2-2\bar{x}x_i+\bar{x}^2$, nhân với $n_i$, cộng lại rồi chia cho $n$. Vì $\dfrac{\sum n_ix_i}{n}=\bar{x}$ và $\dfrac{\sum n_i}{n}=1$, ta được $\dfrac{\sum n_ix_i^2}{n}-2\bar{x}^2+\bar{x}^2$, tức công thức thứ hai.
+**Vì sao hai công thức bằng nhau?** Khai triển $(x_i-\bar{x})^2=x_i^2-2\bar{x}x_i+\bar{x}^2$, nhân với $n_i$, cộng lại rồi chia cho $n$. Có hai tổng quen thuộc: $\dfrac{\sum n_ix_i}{n}=\bar{x}$ và $\dfrac{\sum n_i}{n}=1$. Thay vào, ta được $\dfrac{\sum n_ix_i^2}{n}-2\bar{x}^2+\bar{x}^2$, tức công thức thứ hai.
 
-Độ lệch chuẩn có cùng đơn vị với số liệu (ở đây là gam), nên dễ diễn giải hơn phương sai. Công thức thứ nhất thuận tiện khi $\bar{x}$ là số tròn; công thức thứ hai thuận tiện khi $\bar{x}$ lẻ.
+Độ lệch chuẩn có cùng đơn vị với số liệu (ở đây là gam), nên dễ hình dung hơn phương sai. Về cách chọn công thức: khi $\bar{x}$ là số tròn, dùng công thức thứ nhất cho tiện; khi $\bar{x}$ lẻ, công thức thứ hai đỡ vất vả hơn.
 
 ## Tính từng bước bằng bảng
 
-Khi $\bar{x}$ không tròn, ta lập bảng với các cột $x_i$, $n_i$, $n_ix_i$, $n_ix_i^2$ rồi dùng công thức thứ hai.
+Khi $\bar{x}$ không tròn, trừ từng giá trị cho $\bar{x}$ sẽ ra nhiều số lẻ và rất dễ nhầm. Lúc đó ta lập bảng với các cột $x_i$, $n_i$, $n_ix_i$, $n_ix_i^2$ rồi dùng công thức thứ hai. Ví dụ sau cho thấy cách làm.
 
 :::example Thời gian ngủ của học sinh
 Thời gian ngủ mỗi đêm (giờ) của $40$ học sinh được ghép nhóm như sau. Tính $\bar{x}$, $s^2$ và $s$.
@@ -74,7 +74,7 @@ $$\bar{x}=\frac{274}{40}=6{,}85,\qquad s^2=\frac{1922}{40}-6{,}85^2=48{,}05-46{,
 Vậy trung bình mỗi bạn ngủ $6{,}85$ giờ, với độ lệch chuẩn khoảng $1{,}06$ giờ.
 :::
 
-Khi $\bar{x}$ tròn, công thức định nghĩa cho các số nhỏ và dễ tính nhẩm hơn. Ví dụ sau hoàn thành phần Khám phá.
+Khi $\bar{x}$ tròn, công thức định nghĩa cho các số nhỏ và dễ tính nhẩm hơn. Ta quay lại hai máy đóng gạo: ví dụ sau hoàn thành phần Khám phá.
 
 :::example Máy A theo công thức định nghĩa
 Tính độ lệch chuẩn khối lượng túi gạo của máy A.
@@ -92,7 +92,7 @@ Vậy độ lệch chuẩn của máy A là $3{,}2$ g.
 
 ## So sánh hai mẫu số liệu
 
-Hai mẫu có trung bình gần nhau thì mẫu nào có độ lệch chuẩn nhỏ hơn sẽ đồng đều hơn. Bây giờ ta trả lời câu hỏi ở đầu bài.
+Hai mẫu có trung bình gần nhau thì mẫu nào có độ lệch chuẩn nhỏ hơn sẽ đồng đều hơn. Giờ ta trở lại câu hỏi ở đầu bài.
 
 :::example Máy nào đóng gói đều hơn?
 Tính độ lệch chuẩn của máy B và so sánh với máy A.
@@ -111,7 +111,7 @@ Vậy hai máy có cùng khối lượng trung bình, nhưng độ lệch chuẩ
 
 ## Ảnh hưởng của độ rộng nhóm
 
-Độ lệch chuẩn của mẫu ghép nhóm dùng trung điểm thay cho giá trị thật, nên chỉ là **giá trị xấp xỉ** của độ lệch chuẩn của mẫu gốc. Nhóm càng hẹp thì trung điểm càng gần giá trị thật.
+Độ lệch chuẩn của mẫu ghép nhóm dùng trung điểm thay cho giá trị thật, nên chỉ là **giá trị xấp xỉ** của độ lệch chuẩn của mẫu gốc. Nhóm càng hẹp thì trung điểm càng gần giá trị thật, và xấp xỉ càng tốt. Ví dụ sau cho thấy điều đó bằng số.
 
 :::example Cùng số liệu, hai cách ghép nhóm
 Thời gian đi học (phút) của $20$ học sinh (đã dùng ở bài trước):
@@ -134,6 +134,7 @@ Vậy ghép nhóm độ rộng $10$ cho $s\approx11{,}08$, độ rộng $5$ cho 
 - **Dùng đầu mút nhóm thay cho trung điểm.** Sai: lấy $x_1=4$ cho nhóm $[4; 5)$. Đúng: $x_1=\dfrac{4+5}{2}=4{,}5$.
 - **Trừ $\bar{x}$ thay cho $\bar{x}^2$.** Sai: $s^2=48{,}05-6{,}85=41{,}2$. Đúng: $s^2=48{,}05-6{,}85^2=1{,}1275$.
 - **Làm tròn $\bar{x}$ quá sớm.** Sai: lấy $\bar{x}\approx6{,}9$ rồi tính $48{,}05-6{,}9^2=0{,}44$, sai gần một nửa. Đúng: giữ $\bar{x}=6{,}85$ chính xác, chỉ làm tròn ở kết quả cuối.
+Làm xong, bạn nên liếc lại kết quả: phương sai không bao giờ âm.
 :::
 
 ## Thuật ngữ
@@ -156,10 +157,11 @@ Vậy ghép nhóm độ rộng $10$ cho $s\approx11{,}08$, độ rộng $5$ cho 
 - Lập bảng $x_i$, $n_i$, $n_ix_i$, $n_ix_i^2$; chỉ làm tròn ở kết quả cuối.
 - Hai mẫu có trung bình gần nhau: $s$ nhỏ hơn thì đồng đều hơn.
 - $s$ của mẫu ghép nhóm là giá trị xấp xỉ; nhóm hẹp hơn thường cho xấp xỉ tốt hơn.
+Quay lại câu hỏi đầu bài: máy nào có độ lệch chuẩn nhỏ hơn thì đóng gói đều hơn. Chỉ cần nhớ rằng độ lệch chuẩn đo mức các giá trị tản ra quanh trung bình. Giờ bạn thử sức ở phần luyện tập nhé.
 
 ## Luyện tập
 
-Mỗi bài có phần kiến thức và gợi ý các bước. Hãy tự làm trước, rồi mới bấm xem lời giải.
+Mỗi bài có phần kiến thức và gợi ý các bước. Bạn hãy tự làm trước, rồi mới bấm xem lời giải. Làm sai một lần cũng không sao, vì chính chỗ sai cho ta biết cần xem lại điều gì.
 
 :::exercise
 Thời gian dùng điện thoại mỗi ngày (giờ) của $20$ học sinh được cho trong bảng. Tính $s^2$ và $s$ bằng công thức định nghĩa.

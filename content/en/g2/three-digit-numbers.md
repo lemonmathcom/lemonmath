@@ -12,11 +12,11 @@ minutes: 15
 
 A library has $3$ crates of books with $100$ books in each, $4$ bundles of books with $10$ books in each, and $5$ loose books. How many books does the library have altogether?
 
-You already know hundreds, tens and ones. This lesson shows you how to put them together into a three-digit number.
+Books can come in crates, in bundles or loose. You already know hundreds, tens and ones. Now we put them together into a three-digit number, so we can say how many books there are without counting them one by one.
 
 ## Let's explore
 
-We put the groups of books into three columns:
+We put each kind of book in its own column of a table:
 
 | Hundreds | Tens | Ones |
 |---|---|---|
@@ -24,9 +24,9 @@ We put the groups of books into three columns:
 
 ![Three book crates marked 100, four stacks marked 10, and five loose books](/assets/img/g2/g2-three-digit-numbers-01.svg)
 
-There are $3$ hundreds, $4$ tens and $5$ ones. We write three digits side by side: the digit $3$ is in the hundreds place, the digit $4$ is in the tens place and the digit $5$ is in the ones place. The number is $345$.
+The library has $3$ hundreds, $4$ tens and $5$ ones. We write the digits side by side, from left to right. The digit $3$ is in the hundreds place, the digit $4$ is in the tens place and the digit $5$ is in the ones place. That gives the number $345$.
 
-We read $345$ as "three hundred and forty-five". So the library has $345$ books.
+We read $345$ as "three hundred and forty-five". So the library has $345$ books, and we did not have to count them one by one.
 
 :::theorem Three-digit numbers
 A three-digit number has:
@@ -37,11 +37,11 @@ A three-digit number has:
 If a place has nothing in it, we write the digit $0$ in that place.
 :::
 
-We must write the $0$ to keep the other digits in the right places. For example, $3$ hundreds and $7$ ones is $307$; if we leave out the $0$, then $37$ is only $3$ tens and $7$ ones.
+Why must we write the $0$? So that the other digits stay in their own places. For example, $3$ hundreds and $7$ ones is $307$. If we leave the $0$ out, $37$ is only $3$ tens and $7$ ones, which is much smaller.
 
 ## Examples
 
-We start by reading the digits of a number.
+Let's first see which place each digit of a number is in.
 
 :::example The digits of 345
 What are the hundreds digit, tens digit and ones digit of $345$?
@@ -55,7 +55,7 @@ What are the hundreds digit, tens digit and ones digit of $345$?
 So the hundreds digit is $3$, the tens digit is $4$ and the ones digit is $5$.
 :::
 
-Now you go the other way: write a number from groups.
+Now we go the other way: we are given the groups and we write the number.
 
 :::example Writing a number
 Write the number made of $6$ hundreds, $2$ tens and $8$ ones.
@@ -65,7 +65,7 @@ Write the number made of $6$ hundreds, $2$ tens and $8$ ones.
 So the number is $628$, read "six hundred and twenty-eight".
 :::
 
-Next comes a number with a $0$.
+There is one case that many people find tricky: a number with a $0$.
 
 :::example A number with a 0
 Write the number made of $3$ hundreds, $0$ tens and $7$ ones.
@@ -75,7 +75,7 @@ Write the number made of $3$ hundreds, $0$ tens and $7$ ones.
 So the number is $307$, read "three hundred and seven".
 :::
 
-Finally you use this in a problem.
+Finally, we use this way of writing numbers to answer a question about a pen shop.
 
 :::example A pen shop
 A shop has $5$ boxes of $100$ pens, $3$ bundles of $10$ pens and $6$ loose pens. How many pens does the shop have?
@@ -86,8 +86,8 @@ So the shop has $536$ pens.
 :::
 
 :::warning Mistakes to watch out for
-- **Leaving out the $0$.** Wrong: "$3$ hundreds $7$ ones is $37$". Why it is wrong: $37$ has only $3$ tens. Right: $3$ hundreds $0$ tens $7$ ones is $307$.
-- **Writing the digits in the wrong order.** Wrong: "$4$ hundreds $3$ tens $5$ ones is $435$ or $453$, either will do". Why it is wrong: swapping digits gives a different number. Right: only $435$.
+- **Leaving out the $0$.** This is an easy mistake to make. Wrong: "$3$ hundreds $7$ ones is $37$". Why it is wrong: $37$ has only $3$ tens. Right: $3$ hundreds $0$ tens $7$ ones is $307$.
+- **Writing the digits in the wrong order.** Wrong: "$4$ hundreds $3$ tens $5$ ones is $435$ or $453$, either will do". Why it is wrong: swapping digits gives a different number, because each digit counts for the place it stands in. Right: only $435$.
 - **Mixing up the place of a digit.** Wrong: "the digit $5$ in $450$ is $5$ ones". Why it is wrong: the $5$ is in the tens place. Right: the digit $5$ in $450$ is $5$ tens.
 :::
 
@@ -110,9 +110,11 @@ So the shop has $536$ pens.
 - If a place has nothing in it, write the digit $0$.
 - Swapping the digits gives a different number.
 
+So the library has $345$ books. Each digit tells us how many hundreds, tens or ones there are. Try a few questions in the practice section to get used to reading and writing numbers.
+
 ## Practice
 
-Each exercise comes with what you need and how to start. Try it yourself first, then open the solution.
+Each exercise gives you what you need to remember and a hint to get started. Try it yourself first, look at the hint if you are stuck, and open the solution only when you have finished. A wrong answer is not a problem; putting it right is how you learn.
 
 :::exercise
 Look at the number $482$. Find:

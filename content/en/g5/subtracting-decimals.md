@@ -12,16 +12,16 @@ minutes: 15
 
 Nam has a rope $5.6$ m long. He cuts off $2.3$ m to tie a gift box. How many metres of rope are left?
 
-Both lengths are decimals, so you cannot subtract them as whole numbers straight away. This lesson shows you how to set out the subtraction neatly and get it right.
+Both lengths are decimals, so you cannot simply subtract them as whole numbers. How can we set the subtraction out so that it is neat and we do not slip? We will find a way to set out decimals.
 
 ## Let's explore
 
-Change the metres into decimetres to make it easier. We have $5.6$ m $=56$ dm and $2.3$ m $=23$ dm.
+First, change the metres into decimetres, which makes the subtraction easier. We have $5.6$ m $=56$ dm and $2.3$ m $=23$ dm.
 
 - The rope left is $56-23=33$ (dm).
 - Change back to metres: $33$ dm $=3.3$ m.
 
-So $5.6-2.3=3.3$. You see: we subtract the whole numbers $56-23$, then put the decimal point back in the right place.
+So $5.6-2.3=3.3$. We subtracted the whole numbers $56-23$, then put the decimal point back in the right place. That works, but changing units every time is a lot of effort, so we want a shorter way.
 
 :::graph On the number line: from 5.6 go back 2.3 to reach 3.3
 alt: A number line from 0 to 7 with the points 3.3 and 5.6 marked; the stretch between them has length 2.3
@@ -33,7 +33,7 @@ point: (5.6, 0) "5.6" below
 label: (4.45, 0.5) "2.3"
 :::
 
-You write the subtraction in columns like this.
+The shorter way is to write the subtraction in columns, like this.
 
 $$\begin{array}{r} 5.6 \\ -\ 2.3 \\ \hline 3.3 \end{array}$$
 
@@ -44,11 +44,11 @@ To subtract two decimals:
 3. Put the decimal point in the answer in line with the decimal points above.
 :::
 
-This works because, with the digits in the same columns, you always subtract tenths from tenths and hundredths from hundredths. If the two numbers have different numbers of decimal places, add zeros at the end of the decimal part of the shorter one. This does not change the value: $5.4=5.40$.
+Why must the decimal points be in a line? With the digits in the same columns, you always subtract tenths from tenths and hundredths from hundredths. If the two numbers have different numbers of decimal places, add zeros at the end of the decimal part of the shorter one. This does not change the value: $5.4=5.40$.
 
 ## Examples
 
-We start with two numbers that have the same number of decimal places, and no regrouping.
+We start with two numbers that have the same number of decimal places, so no regrouping is needed.
 
 :::example Work out $7.85-3.24$
 **Solution.** Both numbers have two decimal places, so we line up the decimal points and subtract place by place:
@@ -56,7 +56,7 @@ $$\begin{array}{r} 7.85 \\ -\ 3.24 \\ \hline 4.61 \end{array}$$
 So $7.85-3.24=4.61$.
 :::
 
-Now the numbers have different numbers of decimal places, and we regroup.
+This time the numbers have different numbers of decimal places, and we regroup.
 
 :::example Work out $12.4-5.78$
 **Solution.** $5.78$ has two decimal places but $12.4$ has only one. We write $12.4=12.40$ and set it out; in the hundredths column $0$ cannot take away $8$, so we regroup:
@@ -66,7 +66,7 @@ So $12.4-5.78=6.62$.
 **Check.** $6.62+5.78=12.40$. Correct.
 :::
 
-When the first number is a whole number, we also add a decimal point and zeros.
+What if the first number is a whole number? We still add a decimal point and zeros.
 
 :::example Work out $9-3.45$
 **Solution.** Write $9$ as $9.00$ so that it has two decimal places like $3.45$:
@@ -74,7 +74,7 @@ $$\begin{array}{r} 9.00 \\ -\ 3.45 \\ \hline 5.55 \end{array}$$
 So $9-3.45=5.55$.
 :::
 
-Now use subtraction to answer a question from everyday life.
+Subtracting decimals is useful in daily life: measuring cloth, cutting rope, working out change. Here is a question about cutting cloth.
 
 :::example Cutting cloth
 A piece of cloth is $15.2$ m long. Ms Hoa uses $6.75$ m to make a shirt. How many metres of cloth are left?
@@ -85,8 +85,8 @@ So $8.45$ m of cloth are left.
 :::
 
 :::warning Mistakes to watch out for
-- **Decimal points not in a line.** Wrong: setting out $12.4-5.78$ with the digit $4$ above the digit $8$. Why it is wrong: $4$ is in the tenths place but $8$ is in the hundredths place. Right: decimal point under decimal point, $12.40-5.78=6.62$.
-- **Forgetting to add zeros.** Wrong: $9-3.45=6.45$. Why it is wrong: you only did $9-3=6$ and copied $45$. Right: $9.00-3.45=5.55$.
+- **Decimal points not in a line.** Wrong: setting out $12.4-5.78$ with the digit $4$ above the digit $8$. Why it is wrong: $4$ is in the tenths place, but $8$ is in the hundredths place. Right: decimal point under decimal point, $12.40-5.78=6.62$.
+- **Forgetting to add zeros.** Wrong: $9-3.45=6.45$. Why it is wrong: you only did $9-3=6$ and then copied $45$. Right: $9.00-3.45=5.55$.
 - **Forgetting the decimal point in the answer.** Wrong: $7.85-3.24=461$. Why it is wrong: the answer must be smaller than $7.85$. Right: $7.85-3.24=4.61$.
 - **Subtracting the wrong way round when you need to regroup.** Wrong: $5.2-1.7=4.5$ (taking $7-2$). Why it is wrong: $2$ cannot take away $7$, so you must regroup. Right: $5.2-1.7=3.5$.
 :::
@@ -112,10 +112,11 @@ So $8.45$ m of cloth are left.
 - Subtract as with whole numbers, then put the decimal point in the answer in line with the ones above.
 - Check: difference $+$ subtrahend $=$ minuend.
 - Questions with "left" or "taken away" usually need subtraction; remember the unit in the answer.
+The opening question asked how many metres of rope are left: that is one subtraction, and lining up the decimal points is all it takes. Remember to keep the points in a line, and practise a few more until it feels easy.
 
 ## Practice
 
-Each exercise comes with what you need and how to start. Try it yourself first, then open the solution.
+Each exercise gives you what you need and a way to start. Try it yourself first, and only then open the solution. A wrong first try is part of learning.
 
 :::exercise
 Set out and work out $8.95-4.32$.

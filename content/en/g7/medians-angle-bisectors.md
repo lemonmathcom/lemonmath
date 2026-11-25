@@ -13,15 +13,15 @@ minutes: 20
 
 Hoa cuts out a triangle of card and wants to hold it up on one fingertip so that it stays level without tipping. Where in the triangle is that point?
 
-Another question: Mr Nam wants to put a lamp post on a triangular plot of land so that the post is the same distance from all three sides of the plot. Where should the post go? These two questions have two different answers, and we will find both in this lesson.
+There is a second question. Mr Nam wants to put a lamp post on a triangular plot of land so that the post is the same distance from all three sides of the plot. Where should the post go? At first the two questions look alike, but their answers differ. We will find both points in this lesson.
 
 ## Medians and the centroid
 
 ### Explore: three segments that meet at one point
 
-You know from earlier lessons that a triangle has three sides and each side has a midpoint. Joining each vertex to the midpoint of the opposite side gives a segment called a **median**.
+You already know that a triangle has three sides and each side has a midpoint. Now join each vertex to the midpoint of the opposite side. The segment you get is called a **median**.
 
-On a square grid, triangle $ABC$ has $A(0; 0)$, $B(9; 0)$, $C(3; 6)$. Let $M$, $N$, $P$ be the midpoints of $BC$, $CA$, $AB$ respectively. We draw the three medians $AM$, $BN$, $CP$.
+Let's try it on a square grid. Triangle $ABC$ has $A(0; 0)$, $B(9; 0)$, $C(3; 6)$. Let $M$, $N$, $P$ be the midpoints of $BC$, $CA$, $AB$ respectively, and draw the three medians $AM$, $BN$, $CP$. How do these three segments meet?
 
 :::diagram The three medians of triangle $ABC$
 alt: Triangle ABC on a square grid with the three medians AM, BN, CP meeting at the point G
@@ -39,7 +39,7 @@ segment B N
 segment C P
 :::
 
-The three medians meet at the same point $G$. We count squares to compare the parts of the same median:
+The three medians meet at the same point, which we call $G$. To see where that point sits on each median, we count squares and compare the parts of the same median:
 
 | Segment | Across | Up or down |
 |---|---|---|
@@ -48,7 +48,7 @@ The three medians meet at the same point $G$. We count squares to compare the pa
 | $BG$ (from $B$ to $G$) | $5$ squares | $2$ squares |
 | $GN$ (from $G$ to $N$) | $2.5$ squares | $1$ square |
 
-The segment $AG$ covers twice as many squares as $GM$, so $AG=2GM$. The segment $BG$ also covers twice as many squares as $GN$, so $BG=2GN$.
+Look at the table. The segment $AG$ covers twice as many squares as $GM$, so $AG=2GM$. The segment $BG$ also covers twice as many squares as $GN$, so $BG=2GN$. These are two different medians, yet the pattern is the same. Let's name it and state it.
 
 :::definition Median and centroid
 A **median** of a triangle is the segment joining a vertex to the midpoint of the opposite side.
@@ -64,19 +64,19 @@ The same holds for the other two medians.
 
 We accept this property without proof. The grid example shows it is reasonable: the part from the vertex to $G$ is twice as long as the part from $G$ to the midpoint.
 
-So the centroid is the point Hoa is looking for. With her fingertip exactly at $G$, the card balances.
+So the centroid is exactly the point Hoa is looking for. With her fingertip at $G$, the card balances. Mr Nam's lamp post needs a different point, which we look at next.
 
 ## Angle bisectors and the point equidistant from the three sides
 
-You know that the bisector of an angle splits the angle into two equal angles. In triangle $ABC$, if the bisector of angle $A$ meets side $BC$ at $D$, the segment $AD$ is called the **angle bisector** from vertex $A$.
+Now for Mr Nam's question. You know that the bisector of an angle splits it into two equal angles. In triangle $ABC$, if the bisector of angle $A$ meets side $BC$ at $D$, the segment $AD$ is called the **angle bisector** from vertex $A$.
 
-A point on the bisector of an angle is equidistant from the two arms of the angle. "Equidistant" means the two distances are equal, and the distance from a point to a line is the length of the perpendicular from the point to the line.
+Here is a property we will use: a point on the bisector of an angle is equidistant from the two arms of the angle. "Equidistant" means the two distances are equal. The distance from a point to a line is the length of the perpendicular from the point to the line. What does this tell us about all three bisectors of a triangle?
 
 :::theorem Property of the three angle bisectors
 The three angle bisectors of a triangle pass through one point $I$. The point $I$ lies inside the triangle and is equidistant from the three sides of the triangle.
 :::
 
-Here is why $I$ is equidistant from the three sides. Let $IP$, $IQ$, $IR$ be the distances from $I$ to $AB$, $AC$, $BC$. Since $I$ lies on the bisector of angle $A$, $IP=IQ$. Since $I$ lies on the bisector of angle $B$, $IP=IR$. Therefore $IP=IQ=IR$.
+Why is $I$ equidistant from the three sides? Let $IP$, $IQ$, $IR$ be the distances from $I$ to $AB$, $AC$, $BC$. Since $I$ lies on the bisector of angle $A$, $IP=IQ$. Since $I$ lies on the bisector of angle $B$, $IP=IR$. Putting these together, $IP=IQ=IR$.
 
 :::diagram The three angle bisectors of triangle $ABC$ with a right angle at $A$
 alt: Triangle ABC with a right angle at A; the three angle bisectors meet at I, and the three perpendiculars from I to the sides have equal lengths
@@ -105,11 +105,11 @@ right I Q C
 right I R C
 :::
 
-The figure shows that the three perpendiculars from $I$ have the same length. So Mr Nam's lamp post should go at $I$, where the three angle bisectors meet.
+The figure shows that the three perpendiculars from $I$ have the same length. So Mr Nam's lamp post should go at $I$, where the three angle bisectors meet. The two opening questions have two different answers: the centroid gives balance, and the meeting point of the bisectors gives equal distances to the three sides.
 
 ## Examples
 
-We start with a simple length calculation.
+We start with a simple length calculation: we know a whole median and look for its two parts.
 
 :::example Find $AG$ and $GM$
 Triangle $ABC$ has centroid $G$ and median $AM=12$ cm. Find $AG$ and $GM$.
@@ -123,7 +123,7 @@ So $AG=8$ cm and $GM=4$ cm.
 **Check.** $AG+GM=8+4=12$ and $AG=2GM$.
 :::
 
-Now the question gives the short part and asks for the long part.
+This time the question gives the short part and asks for the long part. Remember that the part from the vertex to the centroid is the longer one.
 
 :::example Find $BG$ and $BN$
 Triangle $ABC$ has centroid $G$ and median $BN$. Given $GN=5$ cm, find $BG$ and $BN$.
@@ -135,7 +135,7 @@ $$BG=2\cdot5=10\ \text{(cm)},\qquad BN=BG+GN=10+5=15\ \text{(cm)}.$$
 So $BG=10$ cm and $BN=15$ cm.
 :::
 
-We use this property to answer Hoa's question.
+Now we use this property to answer Hoa's question: where should her fingertip go, and how far is that spot from the base?
 
 :::example Where to put the fingertip
 Hoa's card is an isosceles triangle $ABC$ with $AB=AC$ and base $BC=10$ cm. Let $M$ be the midpoint of $BC$; Hoa measures the median $AM=12$ cm. Her fingertip must go at the centroid $G$. How many centimetres is $G$ from the side $BC$?
@@ -147,7 +147,7 @@ $$GM=\frac13\cdot12=4\ \text{(cm)}.$$
 Since $AM\perp BC$, $GM$ is the distance from $G$ to $BC$. So $G$ is $4$ cm from $BC$.
 :::
 
-Turning to angle bisectors, we look at distances.
+Turning to angle bisectors. What to remember here is that the meeting point of the three bisectors is equidistant from the three sides, so those distances are equal.
 
 :::example Distances to the three sides
 In triangle $ABC$, the three angle bisectors meet at $I$. Draw $IH\perp AB$, $IK\perp BC$, $IL\perp CA$. Given $IH=3$ cm, find $IK$ and $IL$.
@@ -159,7 +159,7 @@ $$IH=IK=IL=3\ \text{(cm)}.$$
 So $IK=3$ cm and $IL=3$ cm.
 :::
 
-Last, we find an angle at the point $I$.
+Last, we find an angle at the point $I$. Here we need two things you already know: the angle sum of a triangle and the property of angle bisectors.
 
 :::example Find the angle $\widehat{BIC}$
 Triangle $ABC$ has $\widehat{A}=70^\circ$ and $\widehat{B}=50^\circ$. The bisectors of angles $B$ and $C$ meet at $I$. Find $\widehat{BIC}$.
@@ -180,7 +180,7 @@ So $\widehat{BIC}=125^\circ$.
 :::
 
 :::warning Common mistakes
-- **Mixing up $\dfrac13$ and $\dfrac23$.** Wrong: $G$ is the centroid and $AM=18$ cm, so $AG=\dfrac13\cdot18=6$ cm. Why it is wrong: $AG$ is the longer part, from the vertex to $G$. Right: $AG=\dfrac23\cdot18=12$ cm and $GM=6$ cm.
+- **Mixing up $\dfrac13$ and $\dfrac23$.** Many people slip here. Wrong: $G$ is the centroid and $AM=18$ cm, so $AG=\dfrac13\cdot18=6$ cm. Why it is wrong: $AG$ is the longer part, measured from the vertex to $G$. Right: $AG=\dfrac23\cdot18=12$ cm and $GM=6$ cm.
 - **Confusing the centroid with the point equidistant from the sides.** Wrong: "The centroid is equidistant from the three sides of the triangle". Why it is wrong: the point equidistant from the three sides is where the three angle bisectors meet. Right: the centroid is where the three medians meet.
 - **Halving a side versus halving an angle.** Wrong: a median halves the angle at the vertex. Why it is wrong: a median halves the opposite side. Right: it is the angle bisector that halves the angle.
 - **Forgetting to subtract from $180^\circ$.** Wrong: $\widehat{BIC}=\dfrac{\widehat B}{2}+\dfrac{\widehat C}{2}$. Why it is wrong: that is only the sum of two angles of triangle $IBC$. Right: $\widehat{BIC}=180^\circ-\dfrac{\widehat B}{2}-\dfrac{\widehat C}{2}$.
@@ -206,10 +206,11 @@ So $\widehat{BIC}=125^\circ$.
 - The three angle bisectors meet at $I$, a point equidistant from the three sides of the triangle.
 - The point $I$ lies inside the triangle and $\widehat{BIC}=180^\circ-\dfrac{\widehat B}{2}-\dfrac{\widehat C}{2}$.
 - The centroid gives balance; the meeting point of the three bisectors gives equal distances to the three sides.
+Back to the two opening questions: Hoa's fingertip goes at the centroid, and Mr Nam's lamp post goes where the three angle bisectors meet. The two points are easy to mix up, so remember this: a median halves a side, an angle bisector halves an angle. A few practice questions will help it stay with you.
 
 ## Practice
 
-Each exercise comes with what you need and hints. Try it yourself first, then open the solution.
+Each exercise comes with a reminder of what you need and hints for the steps. Try it yourself first, then open the solution.
 
 :::exercise
 Triangle $ABC$ has centroid $G$ and median $AM=15$ cm.

@@ -5,7 +5,7 @@ minutes: 100
 type: test
 ---
 
-This is a full multiple-choice section in the format of the AP Calculus AB exam from May 2027. All questions are written by Lemonmath; they are not real AP questions, but they follow the official units and question styles. The multiple-choice section is half of the AP score; for the other half, practise with released free-response questions and the guide [AP Calculus free-response types and how to write them](lesson:apcalc-frq-strategies).
+Before you walk into the real exam, it helps to know where you stand. This is a full multiple-choice section in the format of the AP Calculus AB exam from May 2027, so you can try it under conditions close to the real thing. All questions are written by Lemonmath: they are not real AP questions, but they follow the official units and question styles. The multiple-choice section is half of the AP score. For the other half, practise with released free-response questions and the guide [AP Calculus free-response types and how to write them](lesson:apcalc-frq-strategies).
 
 ## How to take this exam
 
@@ -19,6 +19,7 @@ This is a full multiple-choice section in the format of the AP Calculus AB exam 
 2. Then do Part B in 38 minutes with a graphing calculator, in radian mode.
 3. Answers in Part B are given to three decimal places, as on the real exam.
 4. Afterwards, read the solution of every question you missed and add it to your error log.
+Do not worry if your first score is lower than you hoped. A practice exam is there to show you what is still shaky.
 
 ## Part A: no calculator
 
@@ -408,7 +409,7 @@ $v(1.5)\approx0.179>0$ and $a(1.5)=\dfrac{3}{3.25}\approx0.923>0$: same signs, s
 
 ## After the exam
 
-Part A is marked out of 29 and Part B out of 13. The table shows which lesson to revise for each question you missed. As a rough guide, 30 or more correct out of 42 means your multiple-choice section is in good shape; below 20, go back to the lessons before taking another full exam.
+Once you have finished, the most useful job is to see where you slipped. Part A is marked out of 29 and Part B out of 13. The table shows which lesson to revise for each question you missed. As a rough guide, 30 or more correct out of 42 means your multiple-choice section is in good shape; below 20, go back to the lessons before taking another full exam.
 
 | Question | Lesson |
 |---|---|
@@ -455,4 +456,4 @@ Part A is marked out of 29 and Part B out of 13. The table shows which lesson to
 | 41 | [Related rates, motion and linear approximation](lesson:apcalc-contextual-applications) |
 | 42 | [Related rates, motion and linear approximation](lesson:apcalc-contextual-applications) |
 
-Review with the methods in [Revision that works](lesson:evidence-based-revision) before your next full exam.
+Every missed question is a spot you now know to fix. Before your next full exam, review with the methods in [Revision that works](lesson:evidence-based-revision), and come back when you feel steadier.

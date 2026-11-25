@@ -12,7 +12,7 @@ minutes: 45
 - (BC) Tính độ dài một đường cong.
 :::
 
-Unit 8 mang lại một trong những câu tự luận dễ đoán nhất của đề: một miền $R$ giới hạn bởi hai đường cong, rồi hỏi diện tích của nó, thể tích khối có đáy là $R$, và thể tích khi quay $R$ quanh một đường thẳng. Câu này thường nằm ở phần được dùng máy tính, nên điểm đến từ một tích phân đúng với cận đúng; máy tính lo phần tính toán. Bài này luyện kĩ năng thiết lập.
+Hãy nghĩ đến một mảnh đất có hai bờ cong: bên này là con mương, bên kia là lối đi uốn lượn. Muốn biết mảnh đất rộng bao nhiêu thì đo thế nào? Đề thi Unit 8 hay hỏi đúng kiểu đó. Họ cho một miền $R$ giới hạn bởi hai đường cong, rồi hỏi diện tích của nó, thể tích khối có đáy là $R$, và thể tích khi quay $R$ quanh một đường thẳng. Đây là một trong những câu tự luận dễ đoán nhất của đề, và thường nằm ở phần được dùng máy tính. Máy tính lo phần tính toán, nên điểm của bạn đến từ một tích phân đúng với cận đúng. Việc của ta trong bài này là tập thiết lập thật chắc tay.
 
 ## Giá trị trung bình
 
@@ -32,7 +32,7 @@ Tìm giá trị trung bình của $f(x)=x^2$ trên $[0,3]$ và một điểm mà
 
 ## Diện tích giữa hai đường cong
 
-Diện tích giữa $y=f(x)$ ở trên và $y=g(x)$ ở dưới, với $a\le x\le b$, là $\displaystyle\int_a^b\big(f(x)-g(x)\big)\,dx$: trên trừ dưới. Khi miền dễ mô tả hơn bằng đường bên phải $x=p(y)$ và đường bên trái $x=q(y)$, hãy dùng $\displaystyle\int_c^d\big(p(y)-q(y)\big)\,dy$: phải trừ trái.
+Muốn đo diện tích giữa hai đường cong, ta cắt miền thành những dải mỏng rồi cộng lại. Mỗi dải cao bằng khoảng cách giữa đường trên và đường dưới. Vì vậy diện tích giữa $y=f(x)$ ở trên và $y=g(x)$ ở dưới, với $a\le x\le b$, là $\displaystyle\int_a^b\big(f(x)-g(x)\big)\,dx$: trên trừ dưới. Có những miền chỉ mô tả gọn khi nhìn theo chiều ngang, với đường bên phải $x=p(y)$ và đường bên trái $x=q(y)$. Lúc đó ta cắt thành những dải nằm ngang và dùng $\displaystyle\int_c^d\big(p(y)-q(y)\big)\,dy$: phải trừ trái.
 
 :::graph Miền giữa $y=x$ và $y=x^2$
 alt: Đường thẳng y = x và parabol y = x bình phương cắt nhau tại (0, 0) và (1, 1); miền giữa chúng được tô màu, đường thẳng nằm phía trên
@@ -63,7 +63,7 @@ $$\int_{-1}^2\left(y+2-y^2\right)dy=\left[\frac{y^2}{2}+2y-\frac{y^3}{3}\right]_
 
 ## Thể tích khối có thiết diện đã biết
 
-Nếu thiết diện vuông góc với trục $x$ tại $x$ có diện tích $A(x)$ thì thể tích là $\displaystyle\int_a^bA(x)\,dx$. Bạn chỉ cần cạnh của thiết diện theo $x$, rồi dùng công thức diện tích: hình vuông $s^2$, nửa hình tròn đường kính $s$: $\dfrac{\pi}{8}s^2$, tam giác đều $\dfrac{\sqrt3}{4}s^2$.
+Hãy nghĩ đến một ổ bánh mì cắt thành những lát mỏng. Thể tích ổ bánh chính là tổng thể tích các lát. Với khối ta đang xét, nếu thiết diện vuông góc với trục $x$ tại $x$ có diện tích $A(x)$, thì cộng mọi lát lại cho ta thể tích $\displaystyle\int_a^bA(x)\,dx$. Việc còn lại là tìm $A(x)$. Bạn chỉ cần biết cạnh của thiết diện theo $x$, rồi dùng công thức diện tích của hình đó: hình vuông là $s^2$, nửa hình tròn đường kính $s$ là $\dfrac{\pi}{8}s^2$, tam giác đều là $\dfrac{\sqrt3}{4}s^2$.
 
 :::example Thiết diện là hình vuông
 Đáy của một khối là miền dưới $y=\sqrt x$ với $0\le x\le4$. Các thiết diện vuông góc với trục $x$ là hình vuông. Tính thể tích.
@@ -73,7 +73,7 @@ Nếu thiết diện vuông góc với trục $x$ tại $x$ có diện tích $A(
 
 ## Đĩa và vành khuyên
 
-Quay một miền quanh một đường thẳng thì mỗi lát cắt là hình tròn. Nếu miền chạm trục quay, lát cắt là **đĩa**: $V=\pi\displaystyle\int_a^bR(x)^2\,dx$. Nếu có khoảng hở, lát cắt là **vành khuyên**: $V=\pi\displaystyle\int_a^b\left(R(x)^2-r(x)^2\right)dx$, trong đó $R$ và $r$ là bán kính ngoài và trong, đo từ trục quay.
+Quay một miền quanh một đường thẳng rồi cắt khối vuông góc với trục quay: mỗi lát cắt là một hình tròn. Vậy ta chỉ cần biết bán kính của từng lát, rồi cộng lại. Nếu miền chạm sát trục quay thì lát cắt đặc, gọi là **đĩa**, và $V=\pi\displaystyle\int_a^bR(x)^2\,dx$. Nếu giữa miền và trục còn một khoảng hở thì lát cắt bị khoét một lỗ ở giữa, gọi là **vành khuyên**, và $V=\pi\displaystyle\int_a^b\left(R(x)^2-r(x)^2\right)dx$. Ở đây $R$ và $r$ là bán kính ngoài và bán kính trong, cả hai đều đo từ trục quay.
 
 :::example Vành khuyên quanh một đường nằm dưới miền
 Miền giữa $y=x$ và $y=x^2$ quay quanh đường thẳng $y=-1$. Tính thể tích.
@@ -84,15 +84,15 @@ Nếu quay quanh trục $x$ thì $R=x$, $r=x^2$ và $V=\dfrac{2\pi}{15}$.
 :::
 
 :::warning Những cái bẫy thường gặp
-- **Viết $(R-r)^2$ thay cho $R^2-r^2$.** Vành khuyên là đĩa lớn trừ đĩa nhỏ.
-- **Đo bán kính từ sai đường thẳng.** Quanh $y=-1$, bán kính ứng với đường cong $y=f(x)$ là $f(x)+1$; quanh $y=3$ là $3-f(x)$.
-- **Nhầm đường nằm trên.** Thử một giá trị để biết đường nào nằm trên trước khi lấy tích phân.
-- **Giá trị trung bình thiếu $\dfrac{1}{b-a}$.** Thiếu hệ số này thì bạn mới có tích phân, chưa phải trung bình.
+- **Viết $(R-r)^2$ thay cho $R^2-r^2$.** Chỗ này nhiều bạn hay nhầm. Vành khuyên là một đĩa lớn bị khoét mất đĩa nhỏ, nên ta trừ hai diện tích, chứ không bình phương hiệu của hai bán kính.
+- **Đo bán kính từ sai đường thẳng.** Bán kính luôn đo từ trục quay. Quanh $y=-1$, bán kính ứng với đường cong $y=f(x)$ là $f(x)+1$; quanh $y=3$ là $3-f(x)$.
+- **Nhầm đường nằm trên.** Trước khi lấy tích phân, hãy thử một giá trị để biết đường nào nằm trên.
+- **Giá trị trung bình thiếu $\dfrac{1}{b-a}$.** Thiếu hệ số này thì bạn mới có tích phân, chưa phải giá trị trung bình.
 :::
 
 ## Độ dài cung (BC)
 
-Độ dài đường cong $y=f(x)$ với $a\le x\le b$ là $L=\displaystyle\int_a^b\sqrt{1+\left(f'(x)\right)^2}\,dx$. Trong đề, tích phân này thường được tính bằng máy tính; viết đúng tích phân là được điểm.
+Muốn đo độ dài một đường cong, ta chia nó thành những đoạn thật ngắn, coi mỗi đoạn gần như thẳng rồi cộng lại. Kết quả là: đường cong $y=f(x)$ với $a\le x\le b$ có độ dài $L=\displaystyle\int_a^b\sqrt{1+\left(f'(x)\right)^2}\,dx$. Trong đề, tích phân này thường được tính bằng máy tính, và việc viết đúng tích phân là điều được chấm điểm.
 
 :::example Một độ dài tính được chính xác
 Tính độ dài của $y=\dfrac23x^{3/2}$ với $0\le x\le3$.

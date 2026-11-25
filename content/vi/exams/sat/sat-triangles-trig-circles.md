@@ -11,7 +11,7 @@ minutes: 40
 - Làm việc với radian, độ dài cung, diện tích hình quạt và phương trình đường tròn.
 :::
 
-Bài này bao quát nửa khó hơn của mảng Geometry and Trigonometry. Học sinh Việt Nam biết các tỉ số lượng giác từ lớp 9, nhưng SAT còn dùng radian và phương trình đường tròn $(x-h)^2+(y-k)^2=r^2$, những nội dung ở Việt Nam học vào lớp 10 và lớp 11. Bảng công thức trong Bluebook có ghi các tam giác vuông đặc biệt; mọi thứ khác trong bài này bạn nên thuộc lòng.
+Một chiếc thang dựa vào tường, một miếng bánh cắt từ chiếc pizza: cả hai đều là hình học quanh ta, và bài này cho bạn công cụ để tính chúng. Bài này bao quát nửa khó hơn của mảng Geometry and Trigonometry. Bạn biết các tỉ số lượng giác từ lớp 9, nhưng SAT còn dùng radian và phương trình đường tròn $(x-h)^2+(y-k)^2=r^2$, những nội dung ở Việt Nam học vào lớp 10 và lớp 11. Bảng công thức trong Bluebook có ghi các tam giác vuông đặc biệt; mọi thứ khác trong bài này bạn nên thuộc lòng.
 
 ## Tam giác vuông
 
@@ -34,7 +34,7 @@ D. $10\sqrt3$
 
 ## Tam giác đồng dạng
 
-Hai tam giác **đồng dạng** khi các góc tương ứng bằng nhau; khi đó các cạnh tương ứng tỉ lệ. Một đường thẳng song song với một cạnh của tam giác tạo ra một tam giác nhỏ đồng dạng với tam giác ban đầu.
+Hai tấm ảnh chụp cùng một cảnh, một tấm nhỏ một tấm to, có hình dáng giống hệt nhau, chỉ khác kích thước. Tam giác cũng có thể như vậy. Hai tam giác **đồng dạng** khi các góc tương ứng bằng nhau; khi đó các cạnh tương ứng tỉ lệ. Một đường thẳng song song với một cạnh của tam giác tạo ra một tam giác nhỏ đồng dạng với tam giác ban đầu.
 
 :::example Đoạn thẳng song song
 Trong tam giác $ABC$, điểm $D$ nằm trên $\overline{AB}$ và điểm $E$ nằm trên $\overline{AC}$, với $\overline{DE}$ song song với $\overline{BC}$. Nếu $AD=4$, $DB=6$ và $DE=5$ thì $\overline{BC}$ dài bao nhiêu?
@@ -82,7 +82,7 @@ D. $\dfrac{\pi}{9}$
 **Lời giải.** $s=r\theta=6\cdot\dfrac{2\pi}{3}=4\pi$. Đáp án là **B**. Phương án C là diện tích hình quạt, $\dfrac12\cdot36\cdot\dfrac{2\pi}{3}$.
 :::
 
-Đường tròn tâm $(h, k)$, bán kính $r$ có phương trình $(x-h)^2+(y-k)^2=r^2$. Nếu phương trình đã được khai triển, hãy thêm bớt để tạo bình phương theo $x$ và theo $y$.
+Mọi điểm trên đường tròn đều cách tâm một khoảng bằng bán kính. Từ ý đó, đường tròn tâm $(h, k)$, bán kính $r$ có phương trình $(x-h)^2+(y-k)^2=r^2$. Nếu phương trình đã được khai triển, ta thêm bớt để tạo bình phương theo $x$ và theo $y$, rồi đọc tâm và bán kính.
 
 :::example Tìm bán kính
 Phương trình một đường tròn trong mặt phẳng $xy$ là $x^2+y^2-6x+4y-12=0$. Bán kính của đường tròn bằng bao nhiêu?
@@ -110,10 +110,11 @@ label: (5.5, -1.4) "r = 5"
 - **Dấu trong phương trình đường tròn.** $(x+4)^2+(y-1)^2=9$ có tâm $(-4, 1)$, không phải $(4, -1)$.
 - **$r^2$ hay $r$.** Trong $(x-3)^2+(y+2)^2=25$, bán kính là $5$, không phải $25$.
 - **Độ hay radian.** Đọc kĩ đề. Với máy tính cầm tay, kiểm tra chế độ đo góc; với Desmos, kiểm tra phần cài đặt.
+Đây là những lỗi nhỏ nhưng mất điểm thật. Nhớ liếc qua danh sách này trước khi nộp bài.
 :::
 
 :::tip Lượng giác trong Desmos
-Desmos mặc định dùng radian; hãy bấm biểu tượng cờ lê để chuyển sang độ trước khi gõ `sin(30)`. Để kiểm tra một đường tròn, gõ phương trình đúng như đề cho: Desmos vẽ nó, và nếu gõ thêm dạng đã tạo bình phương thì bạn thấy ngay tâm.
+Chỗ này nhiều bạn hay quên: Desmos mặc định dùng radian. Hãy bấm biểu tượng cờ lê để chuyển sang độ trước khi gõ `sin(30)`. Để kiểm tra một đường tròn, gõ phương trình đúng như đề cho: Desmos vẽ nó, và nếu gõ thêm dạng đã tạo bình phương thì bạn thấy ngay tâm.
 :::
 
 :::terms

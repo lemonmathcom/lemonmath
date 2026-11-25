@@ -10,18 +10,19 @@ minutes: 15
 - Find the side lengths of a rectangle or a square when you know some of them.
 :::
 
-Lan cuts coloured paper into different shapes. Some shapes have $3$ sides and some have $4$ sides. Some have $4$ right angles. Can you help Lan name each shape?
+Lan cuts coloured paper into shapes. Some have $3$ sides, some have $4$ sides, and some have $4$ right angles. How can she tell which shape is which? Let's help her name them.
 
-To name a shape correctly, you only need to count the vertices, count the sides and check right angles with a set square.
+The method is simple. Count the vertices, count the sides, and use a set square to check whether an angle is a right angle. With those checks you can name any of these shapes.
 
 ## Let's explore
 
-Look at a shape and count:
+Pick up a shape and count how many vertices and how many sides it has:
 
 - A shape with $3$ vertices and $3$ sides is a **triangle**.
 - A shape with $4$ vertices and $4$ sides is a **quadrilateral**.
+The names help you remember: "tri" means three and "quad" means four.
 
-Two quadrilaterals are very special. Look at rectangle $ABCD$ below.
+Among the quadrilaterals, two come up again and again: the rectangle and the square. We look at rectangle $ABCD$ first.
 
 :::diagram Rectangle ABCD
 alt: Rectangle ABCD with four right angles; the long sides AB and CD have one tick each to show they are equal, and the short sides BC and AD have two ticks each
@@ -40,9 +41,9 @@ mark B C 2
 mark A D 2
 :::
 
-It has $4$ right angles. The opposite sides $AB$ and $CD$ are equal, and the opposite sides $BC$ and $AD$ are equal too.
+Try a set square in each corner: all $4$ angles are right angles. What about the sides? The opposite sides $AB$ and $CD$ are equal, and the opposite sides $BC$ and $AD$ are equal too.
 
-In square $MNPQ$, all $4$ sides are equal.
+Square $MNPQ$ goes one step further: all $4$ sides are equal, not just the opposite ones.
 
 :::diagram Square MNPQ
 alt: Square MNPQ with four right angles and four sides with the same tick, so they are all equal
@@ -68,11 +69,11 @@ mark Q M 1
 - **Square:** $4$ right angles, $4$ equal sides.
 :::
 
-You can check this yourself: fold a paper rectangle in half, and the opposite sides lie exactly on top of each other.
+You can check this yourself with a sheet of paper. Take a paper rectangle and fold it in half so that two opposite sides meet: they lie exactly on top of each other.
 
 ## Examples
 
-We start with finding the sides of a rectangle.
+First, we use opposite sides to find the lengths of the sides of a rectangle.
 
 :::example Sides of a rectangle
 Rectangle $ABCD$ has $AB=4$ cm and $BC=3$ cm. Find $CD$ and $AD$.
@@ -84,7 +85,7 @@ $$CD=AB=4\ \text{cm},\qquad AD=BC=3\ \text{cm}.$$
 So $CD=4$ cm and $AD=3$ cm.
 :::
 
-Now guess a shape from its features.
+Now we go the other way: we are given the features and have to say which shape it is.
 
 :::example Naming a shape
 A shape has $4$ vertices, $4$ right angles and $4$ sides that are each $5$ cm long. What shape is it?
@@ -94,7 +95,7 @@ A shape has $4$ vertices, $4$ right angles and $4$ sides that are each $5$ cm lo
 So it is a square with sides of $5$ cm.
 :::
 
-A square has $4$ equal sides, so we can use multiplication to find the total length of its sides.
+A square has $4$ equal sides. So instead of adding the same number four times, we can multiply.
 
 :::example Total length of the four sides
 Square $MNPQ$ has sides of $5$ cm. What is the total length of the four sides, in centimetres?
@@ -105,7 +106,7 @@ $$5\times4=20\ \text{(cm)}.$$
 So the four sides are $20$ cm long altogether.
 :::
 
-Finally, see which shapes a straight line can make inside another shape.
+One more question: if we draw a straight line inside a rectangle, what shapes do we get?
 
 :::example Cutting a rectangle
 Join the opposite vertices $A$ and $C$ of rectangle $ABCD$. Into how many triangles is the rectangle divided?
@@ -118,9 +119,10 @@ So the rectangle is divided into $2$ triangles.
 :::
 
 :::warning Mistakes to watch out for
-- **Calling a rectangle with unequal sides a square.** Wrong: a shape with two sides of $6$ cm and two sides of $2$ cm is a square. Why it is wrong: a square needs $4$ equal sides. Right: it is a rectangle.
-- **Mixing up opposite sides.** Wrong: $ABCD$ is a rectangle and $AB=4$ cm, so $BC=4$ cm. Why it is wrong: $BC$ is not opposite $AB$. Right: $CD=4$ cm.
-- **No unit.** Wrong: "Answer: $20$". Right: "Answer: $20$ cm".
+- **Calling a rectangle with unequal sides a square.** A lot of students mix this up. A shape with two sides of $6$ cm and two sides of $2$ cm is not a square, because a square needs $4$ equal sides. It is a rectangle.
+- **Mixing up opposite sides.** Suppose $ABCD$ is a rectangle and $AB=4$ cm. Writing $BC=4$ cm is wrong, because $BC$ is not opposite $AB$. The right answer is $CD=4$ cm. Find the opposite side before you write.
+- **No unit.** Writing "Answer: $20$" is not enough. Write "Answer: $20$ cm".
+Don't worry if you slip the first time. Count and check step by step, and it will get easier.
 :::
 
 ## Key terms
@@ -142,10 +144,11 @@ So the rectangle is divided into $2$ triangles.
 - A rectangle has $4$ right angles; opposite sides are equal.
 - A square has $4$ right angles and $4$ equal sides.
 - The total length of the four sides of a square with side $a$ is $a\times4$.
+Back to Lan's question: count the vertices, count the sides, check for right angles and compare the sides, and you can name each shape. A little practice will make it feel natural.
 
 ## Practice
 
-Each exercise comes with what you need and how to start. Try it yourself first, then open the solution.
+Every exercise has the key idea and a hint to get you started. Have a go on your own first, use the hint if you get stuck, and open the solution last to check.
 
 :::exercise
 Fill in the blanks: a triangle has $\ldots$ vertices and $\ldots$ sides; a quadrilateral has $\ldots$ vertices and $\ldots$ sides.

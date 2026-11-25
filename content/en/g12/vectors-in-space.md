@@ -11,19 +11,19 @@ minutes: 25
 - Find the angle and the scalar product (dot product) of two vectors, and use them to find lengths and angles and to prove perpendicularity.
 :::
 
-A classroom is a cuboid $5$ m long, $4$ m wide and $3$ m high. We want to stretch a straight decorative string from one floor corner to the opposite, farthest ceiling corner. In which direction does the string run, and how many metres long must it be?
+Picture a classroom shaped like a cuboid, $5$ m long, $4$ m wide and $3$ m high. We want to stretch a straight decorative string from one floor corner to the farthest corner of the ceiling, the one diagonally opposite. In which direction does the string run, and how many metres long must it be?
 
-In the plane we described "in which direction, how far" with vectors. This lesson takes vectors into three dimensions, and by the end we will find the length of the string using vector operations alone.
+In the plane, a vector tells us two things: which way to go and how far. A room has three dimensions, so we need vectors that work in space too. Once we have them, we can find the length of the string with vector operations alone, without measuring anything.
 
-The world around us has three dimensions: a drone flies east, then north, then up; three cables pull a heavy load in three different directions; a rafter slopes inside a roof frame. To describe and compute such movements and forces, we need one language for "direction" and "size" in space. Vectors are that language.
+The world around us has three dimensions. A drone flies east, then north, then up. Three cables pull a heavy load in three different directions. A rafter slopes inside a roof frame. To describe and work out movements and forces like these, we need one language for "direction" and "size" in space. Vectors are that language.
 
 ## Vectors in space
 
 ### Exploring: three journeys instead of one
 
-Call the classroom the cuboid $ABCD.A'B'C'D'$ with $AB=5$, $AD=4$, $AA'=3$ (metres). An ant walks from $A$ to $C'$ along the edges: $5$ m along $AB$, then $4$ m along $BC$, then $3$ m up $CC'$. The string goes straight from $A$ to $C'$.
+Call the classroom the cuboid $ABCD.A'B'C'D'$ with $AB=5$, $AD=4$, $AA'=3$ (metres). Imagine an ant walking from $A$ to $C'$ along the edges: $5$ m along $AB$, then $4$ m along $BC$, then $3$ m up $CC'$. The string, on the other hand, goes straight from $A$ to $C'$.
 
-The two routes have the same start and the same end, so they give **the same displacement**. If we describe each piece of the route by an arrow, the arrow $AC'$ must be the "sum" of the three arrows $AB$, $BC$, $CC'$. To say this precisely, we need vectors in space.
+The two routes have the same start and the same end, so they give **the same displacement**. Draw each piece of the route as an arrow, and the arrow $AC'$ must be the "sum" of the three arrows $AB$, $BC$, $CC'$. To say this precisely, we need vectors in space.
 
 :::diagram The cuboid $ABCD.A'B'C'D'$ and the diagonal $AC'$
 alt: A cuboid drawn in oblique projection with the hidden edges dashed and an arrow from vertex A to vertex C'
@@ -57,11 +57,11 @@ arrow A C'
 - The **zero vector** $\vec{0}$ has its initial point equal to its terminal point, for example $\overrightarrow{AA}$.
 :::
 
-Every idea is exactly as in the plane; the only difference is that the vectors may now lie in different planes.
+Nothing here is really new: every idea is exactly as in the plane. The only difference is that the vectors may now lie in different planes.
 
-**A closer look.** A vector is not "stuck" to its position: $\overrightarrow{AA'}$ and $\overrightarrow{CC'}$ are the same vector, because they describe the same movement "up $3$ m". That is why we may "slide" a vector to a convenient place and join it head to tail with others, just as the ant joined three stretches of its route into one. What is new compared with the plane: any two vectors can always be placed in one plane, but three vectors may not be (we then say that the three vectors are not coplanar).
+**A closer look.** A vector is not "stuck" to its position. $\overrightarrow{AA'}$ and $\overrightarrow{CC'}$ are the same vector, because both describe the same movement, "up $3$ m". That is why we may "slide" a vector to a convenient place and join it head to tail with others, just as the ant joined three stretches of its route into one. There is one new thing compared with the plane: any two vectors can always be placed in one plane, but three vectors may not be. We then say that the three vectors are not coplanar.
 
-**Connections.** This lesson extends the vectors and scalar product of grade 10 into space, and uses the cuboids and tetrahedra of grade 11. In the next lesson we attach vectors to the coordinate system $Oxyz$, so that every operation becomes arithmetic on numbers.
+**Connections.** This lesson takes the vectors and scalar product of grade 10 into space, and uses the cuboids and tetrahedra of grade 11. In the next lesson we attach vectors to the coordinate system $Oxyz$, so that every operation becomes arithmetic on numbers.
 
 :::example Spotting equal vectors in a parallelepiped
 Let $ABCD.A'B'C'D'$ be a parallelepiped. Name the vectors other than $\overrightarrow{AA'}$ that are equal to $\overrightarrow{AA'}$ and whose endpoints are vertices of the parallelepiped. Do the same for the vectors opposite to $\overrightarrow{AB}$.
@@ -79,7 +79,7 @@ So there are $3$ other vectors equal to $\overrightarrow{AA'}$ and $4$ vectors o
 
 ## Sum and difference of two vectors
 
-The sum of two vectors is defined as in the plane: place them tip to tail and join the first initial point to the last terminal point. Two vectors drawn from a common point always lie in one plane, so all the old rules still hold.
+Adding two vectors works as in the plane: place them tip to tail, then join the first initial point to the last terminal point. Why do the old rules still hold? Because two vectors drawn from a common point always lie in one plane, and in that plane we already know what to do.
 
 :::theorem Rules for adding vectors
 - **Triangle rule:** for any points $A$, $B$, $C$: $\overrightarrow{AB}+\overrightarrow{BC}=\overrightarrow{AC}$ and $\overrightarrow{AB}-\overrightarrow{AC}=\overrightarrow{CB}$.
@@ -88,9 +88,9 @@ The sum of two vectors is defined as in the plane: place them tip to tail and jo
 $$\overrightarrow{AB}+\overrightarrow{AD}+\overrightarrow{AA'}=\overrightarrow{AC'}.$$
 :::
 
-**Why is the parallelepiped rule true?** The face $ABCD$ is a parallelogram, so $\overrightarrow{AB}+\overrightarrow{AD}=\overrightarrow{AC}$. The section $ACC'A'$ is also a parallelogram, so $\overrightarrow{AC}+\overrightarrow{AA'}=\overrightarrow{AC'}$. Putting the two together finishes the proof. This is exactly the ant's route: $\overrightarrow{AB}+\overrightarrow{BC}+\overrightarrow{CC'}$, because $\overrightarrow{BC}=\overrightarrow{AD}$ and $\overrightarrow{CC'}=\overrightarrow{AA'}$.
+**Why is the parallelepiped rule true?** The face $ABCD$ is a parallelogram, so $\overrightarrow{AB}+\overrightarrow{AD}=\overrightarrow{AC}$. The section $ACC'A'$ is also a parallelogram, so $\overrightarrow{AC}+\overrightarrow{AA'}=\overrightarrow{AC'}$. Put the two together and the proof is done. It is exactly the ant's route: $\overrightarrow{AB}+\overrightarrow{BC}+\overrightarrow{CC'}$, because $\overrightarrow{BC}=\overrightarrow{AD}$ and $\overrightarrow{CC'}=\overrightarrow{AA'}$.
 
-The next example shows how to "replace a vector by an equal one" so that vectors join tip to tail.
+In the next example we do something we will use again and again: replace a vector by an equal one, so that the vectors join tip to tail.
 
 :::example Simplifying a vector sum
 Let $ABCD.A'B'C'D'$ be a parallelepiped. Simplify
@@ -110,12 +110,14 @@ So a) equals $\overrightarrow{AC'}$ and b) equals $\overrightarrow{BD'}$.
 
 ## Multiplying a vector by a number
 
-For a number $k\neq0$ and a vector $\vec{a}\neq\vec{0}$, the vector $k\vec{a}$ has the same direction as $\vec{a}$ if $k>0$, the opposite direction if $k<0$, and length $|k|\cdot|\vec{a}|$. The familiar properties still hold; the two used most often are:
+Take a number $k\neq0$ and a vector $\vec{a}\neq\vec{0}$. The vector $k\vec{a}$ has the same direction as $\vec{a}$ if $k>0$, the opposite direction if $k<0$, and length $|k|\cdot|\vec{a}|$. The familiar properties still hold. The two we use most often are:
 
-- If $I$ is the midpoint of $AB$ then for every point $M$: $\overrightarrow{MA}+\overrightarrow{MB}=2\overrightarrow{MI}$.
-- If $G$ is the centroid of triangle $ABC$ then $\overrightarrow{GA}+\overrightarrow{GB}+\overrightarrow{GC}=\vec{0}$, and for every $M$: $\overrightarrow{MA}+\overrightarrow{MB}+\overrightarrow{MC}=3\overrightarrow{MG}$.
+- If $I$ is the midpoint of $AB$ then for every point $M$ we have $\overrightarrow{MA}+\overrightarrow{MB}=2\overrightarrow{MI}$.
+- If $G$ is the centroid of triangle $ABC$ then $\overrightarrow{GA}+\overrightarrow{GB}+\overrightarrow{GC}=\vec{0}$, and for every point $M$ we have $\overrightarrow{MA}+\overrightarrow{MB}+\overrightarrow{MC}=3\overrightarrow{MG}$.
 
-In space the points need not lie in one plane, so we often "take a detour" through points we know.
+Both will come up many times, so they are worth remembering.
+
+In space the points need not lie in one plane. So we often have to "take a detour" through points we already know. The next example shows how.
 
 :::example The segment joining midpoints of opposite edges
 Let $ABCD$ be a tetrahedron and let $M$, $N$ be the midpoints of $AB$ and $CD$. Prove that
@@ -153,14 +155,14 @@ arrow M N
 :::
 
 :::note Three non-coplanar vectors
-Three vectors are **coplanar** if their lines are all parallel to one plane. The three vectors $\overrightarrow{AB}$, $\overrightarrow{AD}$, $\overrightarrow{AA'}$ of a parallelepiped are **not** coplanar. Every vector in space can be written in exactly one way as $x\overrightarrow{AB}+y\overrightarrow{AD}+z\overrightarrow{AA'}$. This is the idea that leads to coordinates in space in the next lesson.
+Three vectors are called **coplanar** if their lines are all parallel to one plane. The three vectors $\overrightarrow{AB}$, $\overrightarrow{AD}$, $\overrightarrow{AA'}$ of a parallelepiped are **not** coplanar. Every vector in space can be written, and in exactly one way, as $x\overrightarrow{AB}+y\overrightarrow{AD}+z\overrightarrow{AA'}$. That is the idea behind coordinates in space, which we meet in the next lesson.
 :::
 
 ## The scalar product of two vectors
 
 ### The angle between two vectors
 
-To measure the angle between $\vec{a}$ and $\vec{b}$ (both non-zero), take any point $O$ and draw $\overrightarrow{OA}=\vec{a}$, $\overrightarrow{OB}=\vec{b}$. Then $(\vec{a}, \vec{b})=\angle AOB$, an angle from $0^\circ$ to $180^\circ$. The key point is that **the two vectors must start at the same point**. For instance in a parallelepiped, $\overrightarrow{A'C'}=\overrightarrow{AC}$, so $(\overrightarrow{AB}, \overrightarrow{A'C'})=(\overrightarrow{AB}, \overrightarrow{AC})=\angle BAC$.
+To measure the angle between $\vec{a}$ and $\vec{b}$ (both non-zero), take any point $O$ and draw $\overrightarrow{OA}=\vec{a}$, $\overrightarrow{OB}=\vec{b}$. Then $(\vec{a}, \vec{b})=\angle AOB$, an angle from $0^\circ$ to $180^\circ$. Many students slip at this point, so remember: **the two vectors must start at the same point**. For instance in a parallelepiped, $\overrightarrow{A'C'}=\overrightarrow{AC}$, so $(\overrightarrow{AB}, \overrightarrow{A'C'})=(\overrightarrow{AB}, \overrightarrow{AC})=\angle BAC$.
 
 :::definition The scalar product
 The scalar product (also called the dot product) of two non-zero vectors $\vec{a}$, $\vec{b}$ is the **number**
@@ -168,10 +170,10 @@ $$\vec{a}\cdot\vec{b}=|\vec{a}|\cdot|\vec{b}|\cdot\cos(\vec{a}, \vec{b}).$$
 If one of the vectors is $\vec{0}$ then $\vec{a}\cdot\vec{b}=0$.
 :::
 
-The scalar product has the same properties as in the plane: it is commutative, distributes over addition, and
+The scalar product has the same properties as in the plane: it is commutative and it distributes over addition. The three facts below are the ones we use most.
 $$\vec{a}^2=|\vec{a}|^2,\qquad \vec{a}\perp\vec{b}\iff\vec{a}\cdot\vec{b}=0,\qquad \cos(\vec{a}, \vec{b})=\frac{\vec{a}\cdot\vec{b}}{|\vec{a}|\cdot|\vec{b}|}.$$
 
-Now we answer the opening question. The edges $AB$, $AD$, $AA'$ of a cuboid are pairwise perpendicular, so the scalar product of any two different edges is $0$.
+Now we can go back to the string at the start. The edges $AB$, $AD$, $AA'$ of a cuboid are pairwise perpendicular, so the scalar product of any two different edges is $0$. That is what makes the calculation below so short.
 
 :::example The length of the decorative string
 The cuboid $ABCD.A'B'C'D'$ has $AB=5$, $AD=4$, $AA'=3$ (metres). Find the length $AC'$.
@@ -189,7 +191,7 @@ So the string is about $7.07$ m long.
 **Look back.** If the room were twice as high ($6$ m), would the string be twice as long? Then $AC'^2=25+16+36=77$ and $AC'\approx8.77$ m, less than $2$ m longer. The length of the diagonal is not proportional to each dimension. The solution also shows that $AC'^2=AB^2+AD^2+AA'^2$ holds only because the three edges are perpendicular: for a slanted parallelepiped the three scalar products in the bracket are not $0$ and must be added.
 :::
 
-This method works even when the edges are not perpendicular, as long as we know the scalar products. The last example uses it to find an angle in a cube.
+This method still works when the edges are not perpendicular, as long as we know the scalar products. The last example uses the same idea to find an angle in a cube.
 
 :::example The angle between two face diagonals
 Let $ABCD.A'B'C'D'$ be a cube with edge $a$. Find the angle $(\overrightarrow{AC}, \overrightarrow{A'D})$.
@@ -212,10 +214,12 @@ So $(\overrightarrow{AC}, \overrightarrow{A'D})=60^\circ$.
 :::
 
 :::warning Common mistakes
-- **Adding lengths instead of vectors.** Wrong: $|\overrightarrow{AB}+\overrightarrow{AD}+\overrightarrow{AA'}|=5+4+3=12$. Why it is wrong: that is the distance the ant walks, not the displacement. Right: $|\overrightarrow{AC'}|=\sqrt{50}\approx7.07$.
-- **Measuring an angle before the vectors share a starting point.** Wrong: in a square $ABCD$, writing $(\overrightarrow{AB}, \overrightarrow{BD})=\angle ABD=45^\circ$. Why it is wrong: $\angle ABD$ is the angle between $\overrightarrow{BA}$ and $\overrightarrow{BD}$, and $\overrightarrow{BA}=-\overrightarrow{AB}$. Right: $(\overrightarrow{AB}, \overrightarrow{BD})=180^\circ-45^\circ=135^\circ$.
+- **Adding lengths instead of vectors.** Many students slip here. Wrong: $|\overrightarrow{AB}+\overrightarrow{AD}+\overrightarrow{AA'}|=5+4+3=12$. Why it is wrong: that is the distance the ant walks, not the displacement. Right: $|\overrightarrow{AC'}|=\sqrt{50}\approx7.07$.
+- **Measuring an angle before the vectors share a starting point.** Wrong: in a square $ABCD$, writing $(\overrightarrow{AB}, \overrightarrow{BD})=\angle ABD=45^\circ$. Why it is wrong: $\angle ABD$ is really the angle between $\overrightarrow{BA}$ and $\overrightarrow{BD}$, and $\overrightarrow{BA}=-\overrightarrow{AB}$ points the opposite way. Right: $(\overrightarrow{AB}, \overrightarrow{BD})=180^\circ-45^\circ=135^\circ$.
 - **One edge in the wrong direction in the parallelepiped rule.** Wrong: $\overrightarrow{AB}+\overrightarrow{AD}+\overrightarrow{A'A}=\overrightarrow{AC'}$. Why it is wrong: $\overrightarrow{A'A}=-\overrightarrow{AA'}$ points down, not up. Right: $\overrightarrow{AB}+\overrightarrow{AD}+\overrightarrow{A'A}=\overrightarrow{AC}-\overrightarrow{AA'}=\overrightarrow{A'C}$.
-- **Treating the scalar product as a vector.** $\vec{a}\cdot\vec{b}$ is a **number**; writing $\overrightarrow{AB}\cdot\overrightarrow{AD}=\overrightarrow{AC}$ is wrong.
+- **Treating the scalar product as a vector.** $\vec{a}\cdot\vec{b}$ is a **number**, not a vector, so writing $\overrightarrow{AB}\cdot\overrightarrow{AD}=\overrightarrow{AC}$ is wrong.
+
+Do not worry if you have made some of these slips: nearly everyone does at first. Writing down the starting point of each vector before you calculate prevents most of them.
 :::
 
 ## Key terms
@@ -234,16 +238,18 @@ So $(\overrightarrow{AC}, \overrightarrow{A'D})=60^\circ$.
 
 ## Summary
 
-- Vectors, length, equal and opposite vectors in space are defined as in the plane.
-- The triangle and parallelogram rules still hold; add the parallelepiped rule $\overrightarrow{AB}+\overrightarrow{AD}+\overrightarrow{AA'}=\overrightarrow{AC'}$.
+- Vectors, length, equal vectors and opposite vectors in space are defined as in the plane.
+- The triangle and parallelogram rules still hold; we add the parallelepiped rule $\overrightarrow{AB}+\overrightarrow{AD}+\overrightarrow{AA'}=\overrightarrow{AC'}$.
 - Midpoint $I$ of $AB$: $\overrightarrow{MA}+\overrightarrow{MB}=2\overrightarrow{MI}$; centroid $G$: $\overrightarrow{GA}+\overrightarrow{GB}+\overrightarrow{GC}=\vec{0}$.
 - Angle between two vectors: draw them from a common point; the angle is from $0^\circ$ to $180^\circ$.
 - $\vec{a}\cdot\vec{b}=|\vec{a}||\vec{b}|\cos(\vec{a}, \vec{b})$; $\vec{a}^2=|\vec{a}|^2$; $\vec{a}\perp\vec{b}\iff\vec{a}\cdot\vec{b}=0$.
 - To find a length: write the vector in terms of known edges, then square it.
 
+Back to the opening question: the string runs along the sum of the three edges from one corner, and its length comes from squaring that sum with the scalar product. The thing to remember is that the method still works when the edges are not perpendicular, as long as we know the scalar products. Try the exercises below to make it feel natural.
+
 ## Practice
 
-Each exercise comes with what you need and some steps to start. Try it yourself first, then open the solution.
+Each exercise comes with the facts you need and a few steps to get started. Try it yourself first, even if you are not sure, and only then open the solution. Fixing your own mistake usually teaches more than reading a finished solution straight away.
 
 :::exercise
 Let $ABCD.A'B'C'D'$ be a parallelepiped. Simplify

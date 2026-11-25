@@ -12,13 +12,13 @@ minutes: 45
 - Nhận ra mô hình đa thức từ sai phân hữu hạn không đổi.
 :::
 
-AP Precalculus mở đầu bằng một câu hỏi xuyên suốt cả môn học: một đại lượng đang thay đổi nhanh đến mức nào, và tốc độ đó đang tăng hay giảm? Đa thức là họ hàm số đầu tiên được nghiên cứu theo cách này. Phần lớn đại số đã quen thuộc từ chương trình Việt Nam; điểm mới là mô tả chính xác dáng điệu bằng lời, điều mà đề thi thưởng điểm ở cả phần trắc nghiệm lẫn tự luận.
+Hãy nghĩ đến một chiếc xe đang chạy trên đường. Ta thường không chỉ hỏi xe đi nhanh đến đâu, mà còn hỏi nó đang tăng tốc hay đang chậm lại. AP Precalculus xoay quanh đúng hai câu hỏi ấy: một đại lượng đang thay đổi nhanh đến mức nào, và tốc độ đó đang tăng hay giảm? Đa thức là họ hàm số đầu tiên ta xét theo cách này. Phần lớn đại số ở đây bạn đã quen từ chương trình Việt Nam. Điều mới là phải mô tả chính xác dáng điệu của hàm số bằng lời, và đề thi thưởng điểm cho việc đó ở cả phần trắc nghiệm lẫn tự luận.
 
 ## Tốc độ thay đổi trung bình
 
 **Tốc độ thay đổi trung bình (average rate of change)** của $f$ trên $[a,b]$ là
 $$\frac{f(b)-f(a)}{b-a},$$
-tức hệ số góc của cát tuyến đi qua $\big(a,f(a)\big)$ và $\big(b,f(b)\big)$. Đơn vị của nó là đơn vị đầu ra trên mỗi đơn vị đầu vào.
+tức hệ số góc của cát tuyến đi qua $\big(a,f(a)\big)$ và $\big(b,f(b)\big)$. Nói đơn giản, đó là độ dốc trung bình của đồ thị trên đoạn ấy. Ta chia cho độ dài của đoạn để biết trung bình mỗi đơn vị đầu vào làm đầu ra đổi bao nhiêu. Vì thế đơn vị của nó là đơn vị đầu ra trên mỗi đơn vị đầu vào: nếu đầu ra tính bằng mét và đầu vào tính bằng giây thì tốc độ tính bằng mét trên giây.
 
 :::example Tốc độ từ công thức
 Tốc độ thay đổi trung bình của $f(x)=x^3-2x$ trên $[1,3]$ là
@@ -35,7 +35,7 @@ Vậy tốc độ thay đổi trung bình là $11$, chọn đáp án **B**. Phư
 
 ## Tốc độ tăng dần và tính lồi lõm
 
-Nếu trên các đoạn liên tiếp có độ dài bằng nhau, tốc độ thay đổi trung bình **tăng dần** thì đồ thị **lõm lên (concave up)**; nếu **giảm dần** thì đồ thị **lõm xuống (concave down)**. Một hàm số có thể vừa đồng biến vừa lõm xuống: nó đang tăng, nhưng tăng ngày càng chậm.
+Hãy nhìn tốc độ thay đổi trung bình trên những đoạn liên tiếp có độ dài bằng nhau. Nếu nó **tăng dần**, đồ thị cong như lòng một chiếc bát, và ta gọi là **lõm lên (concave up)**. Nếu nó **giảm dần**, đồ thị **lõm xuống (concave down)**. Chỗ này nhiều bạn hay nhầm: một hàm số có thể vừa đồng biến vừa lõm xuống. Khi đó nó vẫn đang tăng, nhưng tăng ngày càng chậm.
 
 :::example Đọc bảng giá trị
 Bảng cho các giá trị của hàm số $f$.
@@ -60,7 +60,7 @@ Vậy khẳng định C đúng, chọn đáp án **C**.
 
 ## Dáng điệu ở vô cực của đa thức
 
-Khi $|x|$ lớn, đa thức có dáng điệu giống **số hạng bậc cao nhất (leading term)** $a_nx^n$ của nó. Nếu $n$ chẵn, hai đầu đồ thị đi cùng hướng: lên khi $a_n>0$, xuống khi $a_n<0$. Nếu $n$ lẻ, hai đầu đi ngược hướng. Viết bằng kí hiệu giới hạn, chẳng hạn $\displaystyle\lim_{x\to\infty}p(x)=-\infty$.
+Khi $|x|$ rất lớn, các số hạng nhỏ hơn gần như không còn tác dụng, và đa thức hành xử giống số hạng mạnh nhất của nó, gọi là **số hạng bậc cao nhất (leading term)** $a_nx^n$. Vì thế chỉ cần nhìn số hạng này là biết hai đầu đồ thị đi về đâu. Nếu $n$ chẵn, hai đầu đi cùng hướng: lên khi $a_n>0$, xuống khi $a_n<0$. Nếu $n$ lẻ, hai đầu đi ngược hướng. Ta ghi điều này bằng kí hiệu giới hạn, chẳng hạn $\displaystyle\lim_{x\to\infty}p(x)=-\infty$.
 
 :::example Dáng điệu ở vô cực
 Đâu là mô tả đúng dáng điệu ở vô cực của $p(x)=-2x^5+3x^2-1$?
@@ -76,7 +76,7 @@ Vậy $p(x)\to-\infty$ khi $x\to\infty$ và $p(x)\to\infty$ khi $x\to-\infty$, c
 
 ## Nghiệm và bội của nghiệm
 
-Nếu $(x-c)^m$ là một nhân tử của $p$ thì $c$ là nghiệm **bội $m$ (multiplicity)**. Tại nghiệm bội lẻ, đồ thị **cắt** trục $x$; tại nghiệm bội chẵn, đồ thị **tiếp xúc** với trục rồi quay lại. Đa thức bậc $n$ có nhiều nhất $n$ nghiệm thực và nhiều nhất $n-1$ điểm đổi chiều.
+Nghiệm là chỗ đồ thị gặp trục hoành, và cách nó gặp trục phụ thuộc vào một con số. Nếu $(x-c)^m$ là một nhân tử của $p$ thì $c$ là nghiệm **bội $m$ (multiplicity)**. Tại nghiệm bội lẻ, đồ thị **cắt** trục $x$ và đi sang phía bên kia. Tại nghiệm bội chẵn, đồ thị **tiếp xúc** với trục rồi quay lại phía cũ. Ngoài ra, đa thức bậc $n$ có nhiều nhất $n$ nghiệm thực và nhiều nhất $n-1$ điểm đổi chiều.
 
 :::graph Đồ thị của $p(x)=(x-1)^2(x+3)$
 alt: Một đường cong bậc ba cắt trục x tại x = -3 và tiếp xúc với trục tại x = 1, có một điểm cực đại ở giữa
@@ -113,7 +113,7 @@ Vậy $p(x)=2(x+2)(x-1)(x-4)$.
 
 ## Sai phân hữu hạn và mô hình đa thức
 
-Với các giá trị đầu vào cách đều: nếu sai phân cấp một của các giá trị đầu ra không đổi thì mô hình **tuyến tính** phù hợp; nếu sai phân cấp hai không đổi thì mô hình **bậc hai** phù hợp; nếu sai phân cấp ba không đổi thì mô hình **bậc ba** phù hợp.
+Giả sử ta chỉ có một bảng giá trị mà không có công thức. Làm sao biết nên dùng loại đa thức nào? Ta lấy hiệu của các giá trị đầu ra liên tiếp, gọi là sai phân. Điều kiện là các giá trị đầu vào phải cách đều nhau. Nếu sai phân cấp một của các giá trị đầu ra không đổi thì mô hình **tuyến tính** phù hợp. Nếu sai phân cấp hai không đổi thì mô hình **bậc hai** phù hợp. Nếu sai phân cấp ba không đổi thì mô hình **bậc ba** phù hợp.
 
 :::example Mô hình nào?
 Giá trị của một hàm số tại $x=0,1,2,3,4$ là $1, 4, 11, 22, 37$. Loại đa thức nào khớp hoàn toàn với dữ liệu này?
@@ -128,11 +128,11 @@ Vậy mô hình bậc hai khớp hoàn toàn với dữ liệu, chọn đáp án
 :::
 
 :::warning Những cái bẫy thường gặp
-- **Quên mẫu số** $b-a$ khi tính tốc độ thay đổi trung bình.
-- **Nhầm đồng biến với lõm lên:** hàm số có thể tăng trong khi tốc độ thay đổi của nó giảm.
-- **Xét dáng điệu ở vô cực bằng số hạng khác:** khi $|x|$ lớn chỉ số hạng bậc cao nhất quyết định.
-- **Bội của nghiệm:** chẵn là tiếp xúc, lẻ là cắt; đừng đếm nghiệm kép hai lần khi đề hỏi số nghiệm phân biệt.
-- **Bước đầu vào không đều:** sai phân hữu hạn chỉ dùng được khi các giá trị đầu vào cách đều.
+- **Quên mẫu số** $b-a$: mới tính hiệu hai giá trị của hàm số mà chưa chia cho độ dài đoạn thì chưa ra tốc độ thay đổi trung bình.
+- **Nhầm đồng biến với lõm lên:** hàm số có thể đang tăng trong khi tốc độ thay đổi của nó giảm dần.
+- **Xét dáng điệu ở vô cực bằng số hạng khác:** khi $|x|$ lớn, chỉ số hạng bậc cao nhất quyết định.
+- **Bội của nghiệm:** bội chẵn thì đồ thị tiếp xúc với trục, bội lẻ thì cắt trục. Khi đề hỏi số nghiệm phân biệt, đừng đếm nghiệm kép hai lần.
+- **Bước đầu vào không đều:** chỉ dùng sai phân hữu hạn khi các giá trị đầu vào cách đều nhau.
 :::
 
 :::terms

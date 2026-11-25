@@ -11,29 +11,29 @@ minutes: 20
 - Giải được một số bài toán thực tế gắn với hàm số $y=ax^2$.
 :::
 
-Trong khoảng những năm 1602–1604, ở Padova (Ý), Galileo Galilei cho các viên bi lăn trên máng nghiêng để làm chậm chuyển động rơi, nhờ đó đo được nó. Ông tìm ra một quy luật bất ngờ: quãng đường đi được không tỉ lệ với thời gian, mà tỉ lệ với **bình phương** của thời gian (theo MacTutor, Đại học St Andrews). Ở môn Vật lí lớp 10, quy luật rơi tự do được viết là $s=\dfrac12gt^2$ với $g\approx9{,}8$ m/s²; lấy tròn $g\approx10$ ta được $s\approx5t^2$ (mét).
+Khoảng những năm 1602–1604, ở Padova (Ý), Galileo Galilei cho các viên bi lăn trên máng nghiêng. Rơi tự do quá nhanh để đo, nên ông làm chậm chuyển động lại. Từ đó ông tìm ra một quy luật bất ngờ: quãng đường đi được không tỉ lệ với thời gian, mà tỉ lệ với **bình phương** của thời gian (theo MacTutor, Đại học St Andrews). Ở môn Vật lí lớp 10, quy luật rơi tự do được viết là $s=\dfrac12gt^2$ với $g\approx9{,}8$ m/s²; lấy tròn $g\approx10$ ta được $s\approx5t^2$ (mét).
 
-Giả sử bạn thả một viên bi từ sân thượng của một toà nhà cao $45$ m (khoảng $15$ tầng) và bỏ qua sức cản của không khí. Sau bao lâu thì viên bi chạm đất? Và vì sao giây thứ ba viên bi rơi được nhiều hơn hẳn giây thứ nhất?
+Hãy tưởng tượng bạn đứng trên sân thượng của một toà nhà cao $45$ m (khoảng $15$ tầng), thả một viên bi và bỏ qua sức cản của không khí. Sau bao lâu thì viên bi chạm đất? Và vì sao giây thứ ba viên bi rơi được nhiều hơn hẳn giây thứ nhất?
 
 ## Hàm số $y=ax^2$ ($a\neq0$)
 
 ### Khám phá: quãng đường rơi theo thời gian
 
-Ta tính $s=5t^2$ tại vài thời điểm:
+Để xem quy luật ấy trông thế nào, ta tính $s=5t^2$ tại vài thời điểm:
 
 | $t$ (giây) | $0$ | $1$ | $2$ | $3$ |
 |---|---|---|---|---|
 | $s$ (mét) | $0$ | $5$ | $20$ | $45$ |
 
-Thời gian tăng gấp đôi (từ $1$ lên $2$ giây) thì quãng đường tăng gấp bốn (từ $5$ lên $20$ m); thời gian gấp ba thì quãng đường gấp chín. Trong từng giây, viên bi rơi được $5$ m, rồi $15$ m, rồi $25$ m: nó rơi ngày càng nhanh. Mỗi giá trị của $t$ cho đúng một giá trị của $s$, nên $s$ là một hàm số của $t$.
+Nhìn bảng, ta thấy thời gian tăng gấp đôi (từ $1$ lên $2$ giây) thì quãng đường tăng gấp bốn (từ $5$ lên $20$ m); thời gian gấp ba thì quãng đường gấp chín. Trong từng giây, viên bi rơi được $5$ m, rồi $15$ m, rồi $25$ m: nó rơi ngày càng nhanh. Mỗi giá trị của $t$ cho đúng một giá trị của $s$, nên $s$ là một hàm số của $t$.
 
 :::definition Hàm số $y=ax^2$
 Hàm số có dạng $y=ax^2$, trong đó $a$ là một số thực khác $0$, xác định với mọi số thực $x$. Số $a$ gọi là **hệ số** của hàm số.
 :::
 
-**Hiểu sâu hơn.** Với hàm số bậc nhất $y=ax$ (lớp 8), $x$ gấp đôi thì $y$ gấp đôi. Với $y=ax^2$, $x$ gấp $k$ lần thì $y$ gấp $k^2$ lần, vì $a(kx)^2=k^2\cdot ax^2$. Đó là lí do diện tích hình vuông cạnh $x$ là $S=x^2$ ($a=1$) và diện tích hình tròn bán kính $R$ là $S=\pi R^2$ ($a=\pi$): phóng to hình gấp đôi thì diện tích gấp bốn.
+**Hiểu sâu hơn.** Với hàm số bậc nhất $y=ax$ (lớp 8), $x$ gấp đôi thì $y$ gấp đôi. Với $y=ax^2$ thì khác: $x$ gấp $k$ lần thì $y$ gấp $k^2$ lần, vì $a(kx)^2=k^2\cdot ax^2$. Bạn đã gặp điều này rồi: diện tích hình vuông cạnh $x$ là $S=x^2$ ($a=1$), diện tích hình tròn bán kính $R$ là $S=\pi R^2$ ($a=\pi$). Phóng to hình gấp đôi thì diện tích gấp bốn.
 
-Những hàm số như $y=x^2+1$ hay $y=(x-1)^2$ **không** có dạng $y=ax^2$: đồ thị của chúng không đi qua gốc $O$ (với $y=x^2+1$) hoặc không nhận $Oy$ làm trục đối xứng (với $y=(x-1)^2$). Ở lớp 10, bạn sẽ học các hàm số bậc hai tổng quát như vậy.
+Những hàm số như $y=x^2+1$ hay $y=(x-1)^2$ **không** có dạng $y=ax^2$. Đồ thị của $y=x^2+1$ không đi qua gốc $O$, còn đồ thị của $y=(x-1)^2$ không nhận $Oy$ làm trục đối xứng. Bạn chưa cần lo về chúng lúc này: ở lớp 10, bạn sẽ học các hàm số bậc hai tổng quát như vậy.
 
 :::example Tính giá trị của hàm số
 Cho hàm số $y=-2x^2$. Tính giá trị của $y$ khi $x=-3$; $x=\dfrac12$; $x=\sqrt2$.
@@ -54,7 +54,7 @@ Vậy các giá trị tương ứng của $y$ là $-18$; $-\dfrac12$; $-4$.
 | $y=x^2$ | $4$ | $1$ | $0$ | $1$ | $4$ |
 | $y=-x^2$ | $-4$ | $-1$ | $0$ | $-1$ | $-4$ |
 
-Hai giá trị đối nhau của $x$ cho cùng một giá trị của $y$, vì $(-x)^2=x^2$. Biểu diễn các điểm $(x; y)$ trên mặt phẳng toạ độ rồi nối bằng một đường cong trơn, ta được hình dưới đây.
+Hai giá trị đối nhau của $x$ cho cùng một giá trị của $y$, vì $(-x)^2=x^2$. Ta biểu diễn các điểm $(x; y)$ trên mặt phẳng toạ độ rồi nối chúng bằng một đường cong trơn, và được hình dưới đây.
 
 :::graph Đồ thị của $y=x^2$ và $y=-x^2$
 alt: Hai parabol cùng có đỉnh tại gốc toạ độ O; parabol y bằng x bình phương mở lên trên, parabol y bằng trừ x bình phương mở xuống dưới, đối xứng với nhau qua trục hoành
@@ -79,7 +79,7 @@ point: (1, -1)
 - Nếu $a<0$ thì đồ thị nằm phía dưới trục hoành, $O$ là điểm cao nhất của đồ thị.
 :::
 
-**Vì sao đối xứng qua $Oy$?** Nếu điểm $(x_0; y_0)$ thuộc đồ thị thì $y_0=ax_0^2=a(-x_0)^2$, nên điểm $(-x_0; y_0)$ cũng thuộc đồ thị. Hai điểm này đối xứng với nhau qua $Oy$. Ngoài ra $x^2\geq0$, nên $y=ax^2$ cùng dấu với $a$ khi $x\neq0$.
+**Vì sao đối xứng qua $Oy$?** Nếu điểm $(x_0; y_0)$ thuộc đồ thị thì $y_0=ax_0^2=a(-x_0)^2$, nên điểm $(-x_0; y_0)$ cũng thuộc đồ thị. Hai điểm này đối xứng với nhau qua $Oy$. Ngoài ra, vì $x^2\geq0$ nên $y=ax^2$ cùng dấu với $a$ khi $x\neq0$. Đó cũng là lí do đồ thị nằm hẳn về một phía của trục hoành.
 
 :::example Vẽ đồ thị
 Vẽ đồ thị của hàm số $y=\dfrac12x^2$.
@@ -109,7 +109,7 @@ point: (4, 8) "(4; 8)" right
 
 ## Điểm thuộc đồ thị và bài toán thực tế
 
-Điểm $M(x_0; y_0)$ thuộc đồ thị của hàm số $y=ax^2$ khi và chỉ khi $y_0=ax_0^2$. Nhờ đó, biết một điểm của đồ thị ta tìm được hệ số $a$.
+Điểm $M(x_0; y_0)$ thuộc đồ thị của hàm số $y=ax^2$ khi và chỉ khi $y_0=ax_0^2$. Nhờ vậy, chỉ cần biết một điểm của đồ thị là ta tìm được hệ số $a$.
 
 :::example Tìm hệ số $a$
 Cho hàm số $y=ax^2$ có đồ thị đi qua điểm $A(2; -12)$.
@@ -127,7 +127,7 @@ b) Với $y=-3x^2$, ta có $-3\cdot(-1)^2=-3$ nên $B$ thuộc đồ thị; $-3\
 Vậy $a=-3$; điểm $B$ thuộc đồ thị, điểm $C$ không thuộc đồ thị.
 :::
 
-Ngược lại, biết tung độ, ta tìm hoành độ bằng cách giải $ax^2=y_0$. Do tính đối xứng, thường có hai giá trị đối nhau của $x$.
+Ngược lại, nếu biết tung độ thì ta tìm hoành độ bằng cách giải $ax^2=y_0$. Vì đồ thị đối xứng, thường sẽ có hai giá trị đối nhau của $x$. Giờ ta quay lại với viên bi ở đầu bài.
 
 :::example Trả lời câu hỏi ở đầu bài
 Viên bi rơi từ độ cao $45$ m, quãng đường rơi là $s=5t^2$ (m). Sau bao lâu viên bi chạm đất? Sau $2$ giây, viên bi còn cách mặt đất bao nhiêu mét?
@@ -149,10 +149,10 @@ Vậy viên bi chạm đất sau $3$ giây; sau $2$ giây nó còn cách mặt �
 *Nhìn lại.* Kết quả có hợp lí không? Sau $2$ giây (hai phần ba thời gian) viên bi mới rơi được chưa đến một nửa độ cao, vì nó rơi ngày càng nhanh. Nếu toà nhà cao gấp bốn ($180$ m) thì thời gian rơi chỉ gấp đôi ($t^2=36$, $t=6$ giây), không gấp bốn.
 :::
 
-**Kết nối.** Bài này dựa trên hàm số, đồ thị (lớp 8) và căn bậc hai. Giải $ax^2=k$ là trường hợp đơn giản nhất của [phương trình bậc hai một ẩn](lesson:quadratic-equations). Parabol còn là quỹ đạo của quả bóng được ném xiên (khi bỏ qua sức cản không khí) và là đồ thị của hàm số bậc hai lớp 10.
+**Kết nối.** Bài này dựa trên hàm số, đồ thị (lớp 8) và căn bậc hai. Giải $ax^2=k$ là trường hợp đơn giản nhất của [phương trình bậc hai một ẩn](lesson:quadratic-equations). Parabol còn xuất hiện ở nhiều nơi khác: đó là quỹ đạo của quả bóng được ném xiên (khi bỏ qua sức cản không khí) và là đồ thị của hàm số bậc hai ở lớp 10.
 
 :::warning Những sai lầm thường gặp
-- **Bình phương cả hệ số.** Sai: với $y=-2x^2$, tại $x=-3$ tính $y=(-2\cdot(-3))^2=36$. Lí do sai: chỉ $x$ được bình phương. Đúng: $y=-2\cdot(-3)^2=-18$.
+- **Bình phương cả hệ số.** Sai: với $y=-2x^2$, tại $x=-3$ tính $y=(-2\cdot(-3))^2=36$. Lí do sai: chỉ $x$ được bình phương. Đúng: $y=-2\cdot(-3)^2=-18$. Chỗ này nhiều bạn hay nhầm.
 - **Bỏ sót một giá trị của $x$.** Sai: "$x^2=9$ nên $x=3$". Lí do sai: $(-3)^2=9$ cũng đúng. Đúng: $x=3$ hoặc $x=-3$, rồi đối chiếu điều kiện của bài toán (như $t>0$).
 - **Nối các điểm bằng đoạn thẳng.** Đồ thị là một đường cong trơn, ở gần đỉnh $O$ nó "tròn", không có góc nhọn.
 :::
@@ -177,10 +177,11 @@ Vậy viên bi chạm đất sau $3$ giây; sau $2$ giây nó còn cách mặt �
 - $a>0$: đồ thị ở phía trên trục hoành, $O$ thấp nhất; $a<0$: đồ thị ở phía dưới trục hoành, $O$ cao nhất.
 - $M(x_0; y_0)$ thuộc đồ thị $\Leftrightarrow y_0=ax_0^2$; dùng điều này để tìm $a$ hoặc tìm điểm.
 - Vẽ đồ thị: lập bảng giá trị với các cặp $x$ đối nhau, nối bằng đường cong trơn.
+Quay lại viên bi thả từ sân thượng: quãng đường rơi tỉ lệ với bình phương của thời gian, nên chỉ cần giải một phương trình đơn giản là biết lúc nó chạm đất. Điều cần nhớ là đồ thị luôn là một parabol nhận trục tung làm trục đối xứng. Hãy vẽ thêm vài đồ thị cho quen tay.
 
 ## Luyện tập
 
-Mỗi bài có phần kiến thức và gợi ý các bước. Hãy tự làm trước, rồi mới bấm xem lời giải.
+Mỗi bài có phần kiến thức cần nhớ và gợi ý các bước đầu tiên. Bạn hãy tự làm trước, vướng chỗ nào rồi hãy bấm xem lời giải. Làm vài bài, bạn sẽ thấy quen tay hơn mình nghĩ.
 
 :::exercise
 Cho hàm số $y=3x^2$. Tính giá trị của $y$ khi $x=-2$; $x=0$; $x=\dfrac13$; $x=\sqrt3$.

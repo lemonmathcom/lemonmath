@@ -12,34 +12,35 @@ type: guide
 - Practise on a worked question scored point by point.
 :::
 
-The free-response section is $37.5\%$ of your AP Precalculus score: four questions of $6$ points each. Every point is tied to something you write, so knowing what the graders look for is worth as much as knowing the mathematics. The advice here is based on the published scoring guidelines, student samples and chief reader reports on AP Central; reading two or three recent questions there yourself is the best preparation of all.
+Two answers can both be correct and still earn different scores. Why? Because the graders mark what you write down, not what you thought. The free-response section is $37.5\%$ of your AP Precalculus score: four questions of $6$ points each. Every point is tied to something you write, so knowing what the graders look for is worth as much as knowing the mathematics. The advice here is based on the published scoring guidelines, student samples and chief reader reports on AP Central. The best preparation is to read two or three recent questions there yourself.
 
 ## How the section works
 
-From the May 2027 exam, Section II lasts 1 hour 10 minutes and is written by hand.
+First, how is the section organised? From the May 2027 exam, Section II lasts 1 hour 10 minutes and is written by hand. The table shows the timing and when you may use a calculator.
 
 | Part | Time | Calculator | Questions |
 |---|---|---|---|
 | A | 35 minutes | graphing calculator required | FRQ 1 Function Concepts, FRQ 2 Modeling a Non-Periodic Context |
 | B | 35 minutes | not allowed | FRQ 3 Modeling a Periodic Context, FRQ 4 Symbolic Manipulations |
 
-Each question is worth $6$ points. In recent scoring guidelines, the points are labelled by part (for example A1, A2, B1, B2, C1, C2), and each point is decided on its own. A mistake in one part does not stop you earning points in the next, so never leave a later part blank because an earlier one went wrong.
+Each question is worth $6$ points. In recent scoring guidelines, the points are labelled by part (for example A1, A2, B1, B2, C1, C2), and each point is decided on its own. So a mistake in one part does not stop you earning points in the next. Never leave a later part blank because an earlier one went wrong.
 
 :::tip Three rules that cost points every year
-- **Decimals:** unless a question says otherwise, decimal answers must be accurate to **three places after the decimal point**, rounded or truncated. Do not round in intermediate steps: store values in the calculator.
+- **Decimals:** unless a question says otherwise, decimal answers must be accurate to **three places after the decimal point**, rounded or truncated. Do not round in intermediate steps: store values in the calculator, because early rounding can shift the final answer.
 - **Supporting work:** when a point requires supporting work, an answer alone earns nothing. Write the expression you evaluate, such as $g\big(f(1)\big)$, before the number.
 - **Exact values are fine:** a correct exact answer, such as $\ln5$ or $\dfrac{\sqrt3}{2}$, is acceptable where a decimal is requested.
+These three habits cost very little effort and protect a lot of points.
 :::
 
 ## The four question types
 
-**FRQ 1, Function Concepts (calculator).** Functions are given by a graph, a table or a formula, often several at once, without a real-world context. Typical tasks: evaluate a composition or an inverse, solve an equation with the calculator and report every solution, decide where a function is increasing, decreasing, concave up or down, and describe end behavior or asymptotes. End behavior must be written with **limit notation**, such as $\displaystyle\lim_{x\to\infty}f(x)=0$.
+The four questions have four different styles, so it helps to know in advance what each one usually asks. **FRQ 1, Function Concepts (calculator).** Functions are given by a graph, a table or a formula, often several at once, and there is no real-world context. Typical tasks: evaluate a composition or an inverse, solve an equation with the calculator and report every solution, decide where a function is increasing, decreasing, concave up or down, and describe end behavior or asymptotes. End behavior must be written with **limit notation**, such as $\displaystyle\lim_{x\to\infty}f(x)=0$.
 
-**FRQ 2, Modeling a Non-Periodic Context (calculator).** A situation with data, for example a population or a price. Typical tasks: write equations from data points to find parameters, use the model to estimate a value, interpret a rate of change or a parameter in context, and judge whether the model fits or where it stops being reasonable. Interpretations need **units and the context**.
+**FRQ 2, Modeling a Non-Periodic Context (calculator).** The question gives a situation with data, for example a population or a price. Typical tasks: write equations from data points to find parameters, use the model to estimate a value, interpret a rate of change or a parameter in context, and judge whether the model fits or where it stops being reasonable. Interpretations need **units and the context**.
 
-**FRQ 3, Modeling a Periodic Context (no calculator).** A situation that repeats, such as a wheel, a tide or a temperature, often with a graph. Typical tasks: find the period, amplitude, midline and phase shift, write the sinusoidal function, and describe where the function is increasing or decreasing and how its rate of change behaves.
+**FRQ 3, Modeling a Periodic Context (no calculator).** The question gives a situation that repeats, such as a wheel, a tide or a temperature, often with a graph. Typical tasks: find the period, amplitude, midline and phase shift, write the sinusoidal function, and describe where the function is increasing or decreasing and how its rate of change behaves.
 
-**FRQ 4, Symbolic Manipulations (no calculator).** Rewrite and solve: use exponent, logarithm and trigonometric identities to write an expression in a required form, solve equations on an interval, and find domains. Every step should show which rule is used.
+**FRQ 4, Symbolic Manipulations (no calculator).** This question is about rewriting and solving: use exponent, logarithm and trigonometric identities to write an expression in a required form, solve equations on an interval, and find domains. Every step should show which rule is used, because the grader needs to see it.
 
 ## Sentences that earn points
 
@@ -78,7 +79,7 @@ In context, the coffee's temperature gets closer and closer to $20^\circ$C, the 
 So $a=60$, $b\approx0.903$, $T(12)\approx37.608^\circ$C, the coffee reaches $40^\circ$C after about $10.753$ minutes, and the limit is $20^\circ$C.
 :::
 
-Notice where points would be lost: writing $b\approx0.9$ (not accurate to three places), rounding $b$ before computing $T(12)$, giving $10.753$ without the equation, or writing "it levels off" without limit notation and without the room temperature.
+Now let us read the model answer again as a grader would. Notice where points would be lost: writing $b\approx0.9$ (not accurate to three places), rounding $b$ before computing $T(12)$, giving $10.753$ without the equation, or writing "it levels off" without limit notation and without the room temperature.
 
 :::warning Common reasons for lost points
 - **Too few decimals** or rounding early.
@@ -86,6 +87,7 @@ Notice where points would be lost: writing $b\approx0.9$ (not accurate to three 
 - **Vague interpretations** with no units or no reference to the context.
 - **Calculator syntax** in place of mathematical notation in written work.
 - **Using the wrong mode:** Part B has no calculator, but on Part A keep the calculator in radian mode for trigonometric models.
+Most of these mistakes are fixed by habit, not by learning new mathematics.
 :::
 
 ## A plan for the 70 minutes
@@ -93,6 +95,7 @@ Notice where points would be lost: writing $b\approx0.9$ (not accurate to three 
 1. **Part A (35 minutes):** about $17$ minutes per question. Start each question by writing what is given: the data points, the domain, the units.
 2. **Part B (35 minutes):** read both questions first; the symbolic question often has quick parts worth doing early.
 3. **Check:** reread each part's verb. "Find" needs a value, "explain" needs a sentence, "justify" needs a reason tied to the function.
+Remember where we began: the points come from what you write on the page. Try a few past questions from AP Central under a timer, then mark yourself with the scoring guidelines.
 
 :::terms
 - free-response question (FRQ) | câu tự luận

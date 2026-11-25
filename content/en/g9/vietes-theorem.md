@@ -11,15 +11,15 @@ minutes: 20
 - Evaluate symmetric expressions in the two roots and find the signs of the roots without solving the equation.
 :::
 
-François Viète (1540–1603) was a lawyer, a royal counsellor to King Henry III of France and later worked for King Henry IV. He decoded secret letters sent to King Philip II of Spain, so that Henry IV learnt of his enemy's military plans. In mathematics, he introduced the first systematic algebraic notation: vowels for the unknowns and consonants for the known numbers, which let him write general rules for *every* equation (MacTutor, University of St Andrews). The link between roots and coefficients that we study today bears his name.
+François Viète (1540–1603) was a lawyer. He served as a royal counsellor to King Henry III of France and later worked for King Henry IV. He decoded secret letters sent to King Philip II of Spain, so Henry IV learnt of his enemy's military plans in advance. In mathematics he introduced the first systematic algebraic notation, with vowels for the unknowns and consonants for the known numbers. That let him write general rules for *every* equation (MacTutor, University of St Andrews). The link between roots and coefficients that we study today bears his name.
 
-Minh tells the class: "The equation $x^2-7x+12=0$ has roots $3$ and $4$. I knew at once, without working out $\Delta$, because $3+4=7$ and $3\cdot4=12$." Was Minh lucky, or is there a rule behind it? And if there is, what can that rule do for us?
+Minh tells the class: "The equation $x^2-7x+12=0$ has roots $3$ and $4$. I knew at once, without working out $\Delta$, because $3+4=7$ and $3\cdot4=12$." Was that luck, or is there a rule behind it? And if there is, what can it let us do without solving the equation first?
 
 ## Viète's theorem
 
 ### Explore: the sum and product of the roots
 
-We solve a few equations (with the quadratic formula) and work out the sum and product of the roots:
+Let us look for a pattern. We solve three equations with the quadratic formula, then work out the sum and the product of the roots in each case:
 
 | Equation | Roots | $x_1+x_2$ | $x_1x_2$ |
 |---|---|---|---|
@@ -27,18 +27,18 @@ We solve a few equations (with the quadratic formula) and work out the sum and p
 | $2x^2-7x+3=0$ | $3$; $\frac12$ | $\frac72$ | $\frac32$ |
 | $x^2+2x-8=0$ | $2$; $-4$ | $-2$ | $-8$ |
 
-In the second row the sum is $\dfrac72=\dfrac{-(-7)}{2}$ and the product is $\dfrac32$: the sum is always $-\dfrac{b}{a}$ and the product is always $\dfrac{c}{a}$.
+Look at the second row: the sum is $\dfrac72=\dfrac{-(-7)}{2}$ and the product is $\dfrac32$. The other rows follow the same pattern: the sum is always $-\dfrac{b}{a}$ and the product is always $\dfrac{c}{a}$. This pattern is Viète's theorem.
 
 :::theorem Viète's theorem
 If $x_1$, $x_2$ are the two roots of the equation $ax^2+bx+c=0$ ($a\neq0$), then
 $$x_1+x_2=-\frac{b}{a},\qquad x_1x_2=\frac{c}{a}.$$
 :::
 
-**Why?** When $\Delta\geq0$, add and multiply the two roots $\dfrac{-b\pm\sqrt\Delta}{2a}$ (lesson [quadratic equations](lesson:quadratic-equations)); the square roots cancel:
+**Why?** When $\Delta\geq0$, the roots are $\dfrac{-b\pm\sqrt\Delta}{2a}$ (lesson [quadratic equations](lesson:quadratic-equations)). Add them and the two square roots cancel. Multiply them and we get a difference of two squares, so the square root disappears too:
 
 $$x_1+x_2=\frac{-2b}{2a}=-\frac ba,\qquad x_1x_2=\frac{(-b)^2-(\sqrt\Delta)^2}{4a^2}=\frac{b^2-(b^2-4ac)}{4a^2}=\frac ca.$$
 
-**Going deeper.** If $x_1$, $x_2$ are the roots, then $(x-x_1)(x-x_2)=x^2-(x_1+x_2)x+x_1x_2$. Comparing this with $x^2+\dfrac bax+\dfrac ca$ (the equation divided by $a$), we see that Viète's theorem is very natural. But the theorem only talks about roots that **exist**: always check that $\Delta\geq0$ (or that $a$ and $c$ have opposite signs) before using it.
+**Going deeper.** If $x_1$, $x_2$ are the roots, then $(x-x_1)(x-x_2)=x^2-(x_1+x_2)x+x_1x_2$. Divide the equation by $a$ and we get $x^2+\dfrac bax+\dfrac ca$. Put the two expressions side by side and Viète's theorem looks very natural. One warning: the theorem only talks about roots that **exist**. So always check that $\Delta\geq0$ (or that $a$ and $c$ have opposite signs) before using it.
 
 :::example Sum and product without solving
 Without solving the equation, find the sum and the product of the roots of $2x^2-9x+4=0$.
@@ -52,7 +52,7 @@ So the sum of the roots is $\dfrac92$ and the product is $2$.
 **Check.** The roots are $4$ and $\dfrac12$: $4+\dfrac12=\dfrac92$ and $4\cdot\dfrac12=2$.
 :::
 
-From the sum $S$ and the product $P$ we can work out many "symmetric" expressions (swapping $x_1$ and $x_2$ does not change their value), for example $x_1^2+x_2^2=(x_1+x_2)^2-2x_1x_2=S^2-2P$.
+Once we have the sum $S$ and the product $P$, we can work out many "symmetric" expressions, meaning that swapping $x_1$ and $x_2$ does not change the value. For example, $x_1^2+x_2^2=(x_1+x_2)^2-2x_1x_2=S^2-2P$. The next example puts this to work.
 
 :::example Symmetric expressions in the roots
 Let $x_1$, $x_2$ be the roots of the equation $x^2-5x+3=0$. Without solving the equation, find $x_1^2+x_2^2$ and $\dfrac1{x_1}+\dfrac1{x_2}$.
@@ -68,7 +68,7 @@ So $x_1^2+x_2^2=19$ and $\dfrac1{x_1}+\dfrac1{x_2}=\dfrac53$.
 
 ## Finding the roots mentally
 
-Substituting $x=1$ into $ax^2+bx+c$ gives $a+b+c$; substituting $x=-1$ gives $a-b+c$. Together with the product $x_1x_2=\dfrac ca$, we find the other root at once.
+Sometimes we can find the roots with no calculation at all. Substituting $x=1$ into $ax^2+bx+c$ gives $a+b+c$, and substituting $x=-1$ gives $a-b+c$. If either result is zero, we already have one root. The product $x_1x_2=\dfrac ca$ then gives the other at once.
 
 :::theorem Finding roots mentally
 - If $a+b+c=0$, the equation $ax^2+bx+c=0$ has the roots $x_1=1$, $x_2=\dfrac ca$.
@@ -93,11 +93,11 @@ c) We have $a+b+c=1-2027+2026=0$, so $x_1=1$ and $x_2=2026$.
 So a) $x=1$, $x=\dfrac53$; b) $x=-1$, $x=-\dfrac52$; c) $x=1$, $x=2026$.
 :::
 
-Part c) shows the power of this method: with the quadratic formula you would have to work out $\Delta=2027^2-4\cdot2026=2025^2$.
+Part c) shows the power of this method. With the quadratic formula you would have to work out $\Delta=2027^2-4\cdot2026=2025^2$, which is slow. Here we only add up the three coefficients.
 
 ## Finding two numbers from their sum and product
 
-Viète's theorem also works backwards: if two numbers $u$, $v$ have $u+v=S$ and $uv=P$, then $(x-u)(x-v)=x^2-Sx+P$, so $u$ and $v$ are the roots of $x^2-Sx+P=0$.
+Now let us go the other way: if we know the sum and the product of two numbers, can we find the numbers? Yes, and the reason is short. Viète's theorem also works backwards: if two numbers $u$, $v$ have $u+v=S$ and $uv=P$, then $(x-u)(x-v)=x^2-Sx+P$, so $u$ and $v$ are the roots of $x^2-Sx+P=0$. Finding the two numbers becomes solving a quadratic equation.
 
 :::theorem Two numbers from their sum and product
 If two numbers have sum $S$ and product $P$, then they are the roots of the equation
@@ -147,12 +147,12 @@ label 6,2.5 "60 m²"
 
 ## The signs of the roots
 
-Without solving, $S$ and $P$ tell us the signs of the two roots (when the equation has roots):
+Often we only want to know whether the roots are positive or negative. $S$ and $P$ tell us that straight away, without solving (when the equation has roots):
 - $P<0$: the roots have opposite signs (then $a$ and $c$ have opposite signs, so the equation certainly has two roots);
 - $\Delta\geq0$, $P>0$, $S>0$: both roots are positive;
 - $\Delta\geq0$, $P>0$, $S<0$: both roots are negative.
 
-The reason: a negative product means the numbers have different signs; a positive product means the same sign, and the sum shows which sign.
+The reason is simple. A negative product means the two numbers have different signs. A positive product means they have the same sign, and the sum shows which sign that is.
 
 :::example The signs of the roots
 Without solving, find the signs of the roots of each equation:
@@ -173,12 +173,13 @@ So a) roots of opposite signs; b) two negative roots; c) two positive roots.
 :::
 
 :::warning Common mistakes
-- **Forgetting to check $\Delta$.** Wrong: for $x^2-2x+5=0$, writing $S=2$, $P=5$, so $x_1^2+x_2^2=4-10=-6$. Why it is wrong: $\Delta'=1-5<0$, so the equation has no solutions (and a sum of two squares cannot be negative anyway). Right: check that $\Delta\geq0$ first.
+- **Forgetting to check $\Delta$.** Wrong: for $x^2-2x+5=0$, writing $S=2$, $P=5$, so $x_1^2+x_2^2=4-10=-6$. Why is it wrong? Because $\Delta'=1-5<0$, so the equation has no solutions, and a sum of two squares cannot be negative anyway. Right: check that $\Delta\geq0$ first.
 - **Wrong sign of the sum.** Wrong: $2x^2-9x+4=0$ has $x_1+x_2=-\dfrac92$. Right: $x_1+x_2=-\dfrac ba=\dfrac92$.
 - **Mixing up the two mental rules.** When $a-b+c=0$, the second root is $-\dfrac ca$, not $\dfrac ca$.
+Many people slip up here. Each time you use the theorem, pause to check that the roots exist and watch the minus signs.
 :::
 
-**Connections.** Viète's theorem follows directly from the quadratic formula and gives a new point of view: instead of finding each root, we work with the pair $(S, P)$. This point of view is used a lot in [solving word problems by forming equations](lesson:g9-equation-word-problems) (rectangle problems), in factorising $ax^2+bx+c=a(x-x_1)(x-x_2)$, and it is a standard question type in the grade 10 entrance exam.
+**Connections.** Viète's theorem follows directly from the quadratic formula, yet it gives a new point of view: instead of finding each root, we work with the pair $(S, P)$. You will meet this point of view again in [solving word problems by forming equations](lesson:g9-equation-word-problems), especially rectangle problems; in factorising $ax^2+bx+c=a(x-x_1)(x-x_2)$; and in a standard question type in the grade 10 entrance exam.
 
 ## Key terms
 
@@ -200,10 +201,11 @@ So a) roots of opposite signs; b) two negative roots; c) two positive roots.
 - Two numbers with sum $S$ and product $P$ are the roots of $x^2-Sx+P=0$ (need $S^2-4P\geq0$).
 - $x_1^2+x_2^2=S^2-2P$; $\dfrac1{x_1}+\dfrac1{x_2}=\dfrac SP$.
 - $P<0$: opposite signs; $P>0$, $S>0$: both positive; $P>0$, $S<0$: both negative (when $\Delta\geq0$).
+Back to Minh's question: it was not luck. There is a real rule, and it lets us find sums, products, roots and signs without solving the equation first. The practice exercises are the best way to make it feel natural.
 
 ## Practice
 
-Each exercise comes with what you need and some steps to start. Try it yourself first, then open the solution.
+Each exercise comes with what you need and a few steps to start. Try it yourself first. If you get stuck, open the solution, then try again in your own way.
 
 :::exercise
 Without solving, find the sum and the product of the roots (if any) of each equation:

@@ -13,16 +13,16 @@ minutes: 15
 
 Lan có $6$ cái kẹo, Nam có $8$ cái kẹo. Ai có nhiều kẹo hơn? Em viết điều đó bằng kí hiệu như thế nào?
 
-Ở bài trước em ghép từng cặp để biết nhóm nào nhiều hơn. Bây giờ em so sánh ngay hai số, không cần ghép.
+Ở bài trước, em ghép từng cặp để biết nhóm nào nhiều hơn. Cách đó chắc chắn, nhưng hơi lâu. Khi đã biết số, em chỉ cần so hai số với nhau là xong, không cần ghép nữa.
 
 ## Cùng khám phá
 
-Em nhìn các số xếp hàng trên tia số.
+Ta nhìn các số đứng thành hàng trên tia số, giống như những người đứng xếp hàng.
 
 - Số đứng bên phải thì đếm sau, nên lớn hơn.
 - Số đứng bên trái thì đếm trước, nên bé hơn.
 
-Số $6$ đứng bên trái số $8$. Vậy $6$ bé hơn $8$, và $8$ lớn hơn $6$.
+Ta lấy hai số trong câu hỏi đầu bài. Số $6$ đứng bên trái số $8$. Vậy $6$ bé hơn $8$, và $8$ lớn hơn $6$.
 
 :::graph Trên tia số, số bên phải lớn hơn số bên trái
 alt: Tia số từ 0 đến 10, đánh dấu số 6 và số 8, số 8 nằm bên phải số 6
@@ -33,7 +33,7 @@ point: (6, 0) "6" below
 point: (8, 0) "8" below
 :::
 
-Em dùng các dấu sau. Mỗi dấu có miệng mở về phía số lớn hơn.
+Để viết gọn điều này, ta dùng các dấu. Miệng dấu lớn hơn và dấu bé hơn luôn mở về phía số lớn hơn.
 
 - $8>6$ đọc là "tám lớn hơn sáu".
 - $6<8$ đọc là "sáu bé hơn tám".
@@ -45,11 +45,11 @@ Em dùng các dấu sau. Mỗi dấu có miệng mở về phía số lớn hơn
 3. Dấu $>$ và $<$ luôn mở miệng về phía số lớn hơn.
 :::
 
-Cách này đúng vì khi đếm, mỗi số sau hơn số trước một đồ vật. Số đếm sau có nhiều đồ vật hơn.
+Vì sao số bên phải lại lớn hơn? Vì khi đếm, mỗi số sau hơn số trước một đồ vật. Số đếm sau có nhiều đồ vật hơn.
 
 ## Ví dụ
 
-Ta bắt đầu với câu hỏi ở đầu bài.
+Ta trả lời câu hỏi ở đầu bài trước: kẹo của Lan và Nam.
 
 :::example Kẹo của Lan và Nam
 Lan có $6$ cái kẹo, Nam có $8$ cái kẹo. So sánh $8$ và $6$.
@@ -61,7 +61,7 @@ Lan có $6$ cái kẹo, Nam có $8$ cái kẹo. So sánh $8$ và $6$.
 Vậy $8>6$, Nam có nhiều kẹo hơn.
 :::
 
-Có khi hai số giống nhau.
+Có khi hai số giống hệt nhau, chẳng số nào hơn số nào. Em xem dấu nào hợp với trường hợp này.
 
 :::example Hai số bằng nhau
 Điền dấu thích hợp: $4 \;\square\; 4$.
@@ -71,7 +71,7 @@ Có khi hai số giống nhau.
 Vậy $4=4$.
 :::
 
-Tiếp theo, số đầu bé hơn số sau.
+Còn khi số đứng trước bé hơn số đứng sau thì sao? Em nhìn tia số để chọn dấu cho đúng.
 
 :::example Điền dấu
 Điền dấu thích hợp: $3 \;\square\; 9$.
@@ -81,7 +81,7 @@ Tiếp theo, số đầu bé hơn số sau.
 Vậy $3<9$.
 :::
 
-Cuối cùng em sắp xếp ba số.
+Biết so sánh hai số rồi, em xếp được cả ba số theo thứ tự. Ta tìm số bé nhất trước.
 
 :::example Sắp xếp các số
 Sắp xếp các số $7, 2, 9$ theo thứ tự từ bé đến lớn.
@@ -94,9 +94,9 @@ Vậy thứ tự là $2, 7, 9$.
 :::
 
 :::warning Những lỗi em hay gặp
-- **Mở miệng dấu sai phía.** Sai: $4<2$. Vì sao sai: miệng dấu phải mở về số lớn hơn, mà $4$ lớn hơn $2$. Đúng: $4>2$.
+- **Mở miệng dấu sai phía.** Chỗ này nhiều bạn hay nhầm. Sai: $4<2$. Vì sao sai: miệng dấu phải mở về số lớn hơn, mà $4$ lớn hơn $2$. Đúng: $4>2$.
 - **Nghĩ số đứng trước thì lớn hơn.** Sai: $5>8$ vì $5$ đếm trước. Vì sao sai: số đếm sau mới lớn hơn. Đúng: $5<8$.
-- **Quên số $0$ là bé nhất.** Sai: số bé nhất trong $0, 3, 6$ là $3$. Vì sao sai: $0$ đứng đầu hàng. Đúng: số bé nhất là $0$.
+- **Quên số $0$ là bé nhất.** Sai: số bé nhất trong $0, 3, 6$ là $3$. Vì sao sai: $0$ đứng đầu hàng, nên $0$ bé hơn mọi số còn lại. Đúng: số bé nhất là $0$.
 :::
 
 ## Thuật ngữ
@@ -119,9 +119,11 @@ Vậy thứ tự là $2, 7, 9$.
 - Dấu $>$ và $<$ mở miệng về phía số lớn hơn.
 - Muốn sắp xếp từ bé đến lớn, tìm số bé nhất trước.
 
+Quay lại câu hỏi đầu bài: Nam có nhiều kẹo hơn Lan, vì số đứng bên phải trên tia số là số lớn hơn. Em nhớ miệng dấu mở về phía số lớn hơn, rồi làm thêm vài bài luyện tập nhé.
+
 ## Luyện tập
 
-Mỗi bài có phần kiến thức và gợi ý. Em hãy tự làm trước, rồi mới bấm xem lời giải.
+Mỗi bài có phần kiến thức và một gợi ý để em bắt đầu. Em thử tự làm trước, chưa ra thì xem gợi ý, rồi mới mở lời giải. Làm chậm một chút cũng không sao.
 
 :::exercise
 Điền dấu $>$, $<$ hoặc $=$: $7 \;\square\; 5$.

@@ -11,7 +11,7 @@ minutes: 35
 - Giải bất phương trình bậc nhất và kiểm tra một điểm với hệ bất phương trình.
 :::
 
-Sau phương trình và hệ phương trình, phần còn lại của mảng Algebra trong SAT nói về đường thẳng: phương trình của chúng, ý nghĩa các con số trong tình huống thực tế, và bất phương trình. Ở Việt Nam ta viết đường thẳng là $y=ax+b$; SAT viết $y=mx+b$ và gọi $m$ là **slope** (hệ số góc). Nhiều câu ở phần này không cần tính toán gì, chỉ cần đọc đúng $m$ và $b$.
+Một bể nước đang xả, một khoản tiết kiệm tăng đều mỗi tuần: ở cả hai, ta muốn biết đại lượng đổi nhanh đến đâu và bắt đầu từ đâu. Đường thẳng trả lời được cả hai câu hỏi ấy. Vì vậy, sau phương trình và hệ phương trình, phần còn lại của mảng Algebra trong SAT nói về đường thẳng: phương trình của chúng, ý nghĩa các con số trong tình huống thực tế, và bất phương trình. Ở Việt Nam ta viết đường thẳng là $y=ax+b$; SAT viết $y=mx+b$ và gọi $m$ là **slope** (hệ số góc). Nhiều câu ở phần này không cần tính toán gì, chỉ cần đọc đúng $m$ và $b$.
 
 ## Hệ số góc và phương trình $y=mx+b$
 
@@ -21,7 +21,7 @@ $$m=\frac{y_2-y_1}{x_2-x_1}.$$
 Trong $y=mx+b$, $m$ là hệ số góc và $b$ là tung độ gốc ($y$-intercept): đường thẳng cắt trục $y$ tại $(0, b)$. Hoành độ giao điểm với trục $x$ ($x$-intercept) là giá trị của $x$ khi $y=0$.
 :::
 
-Hệ số góc dương nghĩa là đường thẳng đi lên từ trái sang phải; hệ số góc âm nghĩa là đi xuống. Hệ số góc bằng $2$ nghĩa là: mỗi khi $x$ tăng $1$ thì $y$ tăng $2$.
+Hệ số góc cho ta biết đường thẳng dốc thế nào. Hệ số góc dương nghĩa là đường thẳng đi lên từ trái sang phải; hệ số góc âm nghĩa là đi xuống. Con số cụ thể nói lên độ dốc: hệ số góc bằng $2$ nghĩa là mỗi khi $x$ tăng $1$ thì $y$ tăng $2$.
 
 :::example Đường thẳng qua hai điểm
 Đường thẳng $\ell$ đi qua các điểm $(1, 3)$ và $(4, 9)$. Phương trình nào xác định đường thẳng $\ell$?
@@ -49,9 +49,9 @@ point: (0, 1) "b = 1" left
 
 ## Mô hình bậc nhất trong bối cảnh
 
-Hàm số bậc nhất $f(x)=mx+b$ mô tả một đại lượng thay đổi với tốc độ không đổi. SAT hỏi các con số có ý nghĩa gì:
+Hàm số bậc nhất $f(x)=mx+b$ mô tả một đại lượng thay đổi với tốc độ không đổi. Trong những câu có lời văn, SAT hỏi các con số có ý nghĩa gì:
 
-- $b$ là **giá trị ban đầu**, tức giá trị khi $x=0$;
+- $b$ là **giá trị ban đầu**, tức giá trị lúc mới bắt đầu, khi $x=0$;
 - $m$ là **tốc độ thay đổi** (rate of change), tức lượng thay đổi của đại lượng mỗi khi $x$ tăng $1$.
 
 :::example Giải thích một mô hình
@@ -64,7 +64,7 @@ D. Chiều cao của cây, tính bằng xăng-ti-mét, sau 3 tuần
 **Lời giải.** Số $3$ nhân với $t$, nên nó là tốc độ thay đổi: mỗi tuần cây cao thêm $3$ xăng-ti-mét. Đáp án là **C**. Phương án A mô tả số $12$, giá trị tại $t=0$.
 :::
 
-Khi biết một hàm số là bậc nhất, chỉ cần hai giá trị là tìm được mọi giá trị khác.
+Có một điều thuận lợi: khi biết một hàm số là bậc nhất, chỉ cần hai giá trị là tìm được mọi giá trị khác. Hai giá trị cho ta hệ số góc, và có hệ số góc thì từ điểm nào ta cũng đi được đến điểm khác.
 
 :::example Hàm số bậc nhất từ hai giá trị
 Hàm số $f$ là hàm bậc nhất, với $f(2)=7$ và $f(5)=16$. Giá trị của $f(10)$ bằng bao nhiêu?
@@ -92,7 +92,7 @@ Tung độ gốc là $3$. Bạn gõ **3**.
 
 ## Bất phương trình bậc nhất
 
-Giải bất phương trình giống như giải phương trình, thêm một quy tắc: **khi nhân hoặc chia hai vế với một số âm, phải đổi chiều bất đẳng thức.**
+Giải bất phương trình giống như giải phương trình, chỉ thêm một quy tắc. Vì sao cần quy tắc ấy? Vì nhân với một số âm làm đảo ngược thứ tự các số trên trục số: số nhỏ hơn thành số lớn hơn. Do đó: **khi nhân hoặc chia hai vế với một số âm, phải đổi chiều bất đẳng thức.**
 
 :::example Đổi chiều bất đẳng thức
 Mệnh đề nào sau đây mô tả tất cả các nghiệm của $-3x+7\le22$?
@@ -104,7 +104,7 @@ D. $x\ge5$
 **Lời giải.** Trừ $7$: $-3x\le15$. Chia cho $-3$ và đổi chiều: $x\ge-5$. Đáp án là **B**. Phương án A quên đổi chiều. Kiểm tra nhanh với $x=0$: $7\le22$ đúng, và $0\ge-5$.
 :::
 
-Với hai ẩn, tập nghiệm của một bất phương trình là một nửa mặt phẳng, và tập nghiệm của một hệ bất phương trình là phần chung của các nửa mặt phẳng đó. Để kiểm tra một điểm có là nghiệm hay không, hãy thay nó vào **mọi** bất phương trình.
+Với hai ẩn, mỗi bất phương trình chia mặt phẳng làm hai nửa. Tập nghiệm của nó là một nửa mặt phẳng, và tập nghiệm của một hệ bất phương trình là phần chung của các nửa mặt phẳng đó. Để kiểm tra một điểm có là nghiệm hay không, hãy thay nó vào **mọi** bất phương trình. Chỉ cần một bất phương trình sai là điểm ấy bị loại.
 
 :::example Hệ bất phương trình trong bối cảnh
 Vở giá 4 đô la một quyển và bút giá 2 đô la một chiếc. Minh có thể tiêu nhiều nhất 40 đô la và muốn mua ít nhất 12 món. Nếu $n$ là số quyển vở và $p$ là số chiếc bút thì cặp $(n, p)$ nào thoả mãn cả hai điều kiện?
@@ -136,15 +136,15 @@ point: (6, 8) "(6, 8)" above-right
 :::
 
 :::warning Những cái bẫy thường gặp
-- **Đảo ngược hệ số góc.** Hệ số góc là độ thay đổi của $y$ chia cho độ thay đổi của $x$, không bao giờ ngược lại.
+- **Đảo ngược hệ số góc.** Hãy nhớ: hệ số góc là độ thay đổi của $y$ chia cho độ thay đổi của $x$, không bao giờ ngược lại.
 - **Lẫn $m$ với $b$ trong bối cảnh.** Số nhân với biến là tốc độ thay đổi; số đứng một mình là giá trị ban đầu.
-- **Vuông góc không chỉ là "đổi dấu".** Hệ số góc vuông góc với $2$ là $-\dfrac12$, không phải $-2$.
-- **Quên đổi chiều** khi chia cho số âm.
+- **Vuông góc không chỉ là "đổi dấu".** Hệ số góc vuông góc với $2$ là $-\dfrac12$, không phải $-2$. Ta phải lấy nghịch đảo rồi mới đổi dấu.
+- **Quên đổi chiều** khi chia cho số âm. Đây là lỗi hay gặp khi làm vội.
 - **Từ ngữ của bất phương trình.** *At least* là $\ge$; *at most* và *no more than* là $\le$; *more than* là $>$; *fewer than* là $<$.
 :::
 
 :::tip Desmos cho đường thẳng và bất phương trình
-Gõ một bất phương trình như `4x+2y<=40`, Desmos sẽ tô nửa mặt phẳng của nó; gõ thêm bất phương trình thứ hai thì phần chồng lên nhau là miền nghiệm. Để thử các phương án, gõ từng điểm, ví dụ `(6,8)`, rồi xem nó có nằm trong phần chồng không.
+Desmos vẽ giúp bạn miền nghiệm. Gõ một bất phương trình như `4x+2y<=40`, Desmos sẽ tô nửa mặt phẳng của nó. Gõ thêm bất phương trình thứ hai thì phần chồng lên nhau là miền nghiệm. Để thử các phương án, hãy gõ từng điểm, ví dụ `(6,8)`, rồi xem nó có nằm trong phần chồng không.
 :::
 
 :::terms

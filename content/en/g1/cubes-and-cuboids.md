@@ -12,16 +12,16 @@ minutes: 15
 
 You have a dice and a box of chalk. Both are solid shapes, not flat like a sheet of paper. How are they different, and what do you call them?
 
-In the last lesson you learned addition and subtraction. In this lesson you meet solid shapes.
+You have already learned addition and subtraction. Now we turn to things you can hold in your hand, like a dice or a box of chalk. Once you know what these shapes are called and how to spot them, you will see them everywhere around you.
 
 ## Let's explore
 
-Hold the dice and feel its flat faces.
+Pick up the dice and run your fingers over each of its flat faces.
 
 - The dice has $6$ faces.
 - Each face is a square, and the squares are all the same.
 
-Hold the box of chalk and feel its flat faces.
+Now do the same with the box of chalk: pick it up and feel each face.
 
 - The chalk box also has $6$ faces.
 - Each face is a rectangle.
@@ -56,11 +56,11 @@ segment E H dashed
 3. Squares and rectangles are flat shapes, but cubes and cuboids are solid shapes.
 :::
 
-This works because you only need to look at the faces: square faces mean a cube, rectangle faces mean a cuboid.
+Why is looking at the faces enough? Because the shape of the faces tells you the name of the solid. Square faces mean a cube. Rectangle faces mean a cuboid.
 
 ## Examples
 
-We start with a familiar object.
+We start with something you have just held: the dice.
 
 :::example A dice
 What solid shape is a dice?
@@ -72,7 +72,7 @@ What solid shape is a dice?
 So the dice is a cube.
 :::
 
-Now name another solid shape.
+A milk carton is another solid shape you know well. Let us name it.
 
 :::example A milk carton
 A milk carton has $6$ faces. All the faces are rectangles. What solid shape is it?
@@ -84,7 +84,7 @@ A milk carton has $6$ faces. All the faces are rectangles. What solid shape is i
 So the milk carton is a cuboid.
 :::
 
-Next, count the faces.
+There is one more thing to find out: how many faces a cube has. Count slowly, one face at a time, so that none is missed.
 
 :::example Counting faces
 How many faces does a cube have?
@@ -94,7 +94,7 @@ How many faces does a cube have?
 So a cube has $6$ faces.
 :::
 
-Last, count some solid shapes.
+Here the solid shapes meet the addition you already know. Read the word "altogether" in the question carefully.
 
 :::example Stacking blocks
 You have $5$ cubes and $3$ cuboids. How many solid shapes do you have altogether?
@@ -105,9 +105,9 @@ So you have $8$ solid shapes.
 :::
 
 :::warning Mistakes to watch out for
-- **Mixing up a flat shape and a solid shape.** Wrong: a square drawn on paper is a cube. Why it is wrong: a square is flat, and you cannot hold it like a block. Right: a square is a flat shape; a dice is a cube.
-- **Mixing up a cuboid and a cube.** Wrong: a chalk box is a cube because it has $6$ faces. Why it is wrong: the faces of a chalk box are rectangles, not equal squares. Right: a chalk box is a cuboid.
-- **Missing some faces.** Wrong: a cube has $4$ faces. Why it is wrong: you forgot the top and the bottom. Right: it has $6$ faces.
+- **Mixing up a flat shape and a solid shape.** Many children mix these up at first. Wrong: a square drawn on paper is a cube. Why it is wrong: a square is flat, and you cannot hold it like a block. Right: a square is a flat shape; a dice is a cube.
+- **Mixing up a cuboid and a cube.** Wrong: a chalk box is a cube because it has $6$ faces. Why it is wrong: a cube has $6$ faces too, but the faces of a chalk box are rectangles, not equal squares. Right: a chalk box is a cuboid.
+- **Missing some faces.** Wrong: a cube has $4$ faces. Why it is wrong: you forgot the top and the bottom. Counting in order helps you not to miss any. Right: it has $6$ faces.
 :::
 
 ## Key terms
@@ -127,9 +127,11 @@ So you have $8$ solid shapes.
 - A cuboid has $6$ rectangle faces (a chalk box, a milk carton).
 - Squares and rectangles are flat shapes; cubes and cuboids are solid shapes.
 
+Back to the opening question: a dice is a cube and a chalk box is a cuboid, and the faces tell you which is which. Look around you and see how many of these solid shapes you can find.
+
 ## Practice
 
-Each exercise comes with what you need and how to start. Try it yourself first, then open the solution.
+Each exercise has the key idea and a hint to get you started. Try it yourself first, look at the hint if you are stuck, and open the solution last. Going slowly is fine.
 
 :::exercise
 What solid shape is a dice?

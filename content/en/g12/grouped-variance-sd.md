@@ -11,28 +11,28 @@ minutes: 22
 - Understand the effect of the class width and of changing units.
 :::
 
-A factory has two machines that fill $1$ kg bags of rice. Fifty bags from each machine were weighed and the masses (grams) were grouped:
+Open a bag of rice and the label gives a weight. Is every bag exactly that weight? Usually it is a little off. A factory has two machines that fill $1$ kg bags of rice. Fifty bags from each machine were weighed and the masses (grams) were grouped:
 
 | Mass (g) | $[990, 994)$ | $[994, 998)$ | $[998, 1002)$ | $[1002, 1006)$ | $[1006, 1010)$ |
 |---|---|---|---|---|---|
 | Machine A | $2$ | $8$ | $30$ | $8$ | $2$ |
 | Machine B | $6$ | $10$ | $18$ | $10$ | $6$ |
 
-Both tables are symmetric about $1000$ g, so the two machines have the same mean mass. Which machine fills more evenly, and by how much?
+Both tables are symmetric about $1000$ g, so the two machines have the same mean mass. The mean alone cannot tell them apart. So which machine fills more evenly, and by how much?
 
-The previous lesson used the interquartile range, which looks only at the middle half of the data. This lesson uses **every** value, through the variance and the standard deviation.
+The previous lesson used the interquartile range, which looks only at the middle half of the data. Here we want a number that takes **every** value into account, even the bags that stray far. The variance and the standard deviation do exactly that.
 
 ## The variance of grouped data
 
 ### Exploring: how far off is each bag?
 
-We do not know the true mass of each bag, so we replace each bag by the **class midpoint** of its class: $992$, $996$, $1000$, $1004$, $1008$. Compared with the mean $1000$, the deviations are $-8$, $-4$, $0$, $4$, $8$.
+We do not know the true mass of each bag, because the table only tells us which class it falls in. So we replace each bag by the **class midpoint** of its class: $992$, $996$, $1000$, $1004$, $1008$. Compared with the mean $1000$, the deviations are $-8$, $-4$, $0$, $4$, $8$.
 
 For machine A, $2$ bags deviate by $-8$, $8$ bags by $-4$, and so on. Square the deviations (so the signs do not cancel), multiply by the frequencies and take the mean:
 $$\frac{2\cdot64+8\cdot16+30\cdot0+8\cdot16+2\cdot64}{50}=\frac{512}{50}=10.24.$$
-This number measures how far the bags stray from $1000$ g. It is exactly the variance of the grouped data.
+This number measures how far the bags stray from $1000$ g: the bigger it is, the further they lie from the target. It is exactly the variance of the grouped data.
 
-In this lesson, grouped data have $k$ classes with midpoints $x_1$, …, $x_k$, frequencies $n_1$, …, $n_k$, sample size $n$ and mean $\bar{x}=\dfrac{n_1x_1+\cdots+n_kx_k}{n}$ (grade 11).
+Now we turn what we just did into a general formula. In this lesson, grouped data have $k$ classes with midpoints $x_1$, …, $x_k$, frequencies $n_1$, …, $n_k$, sample size $n$ and mean $\bar{x}=\dfrac{n_1x_1+\cdots+n_kx_k}{n}$ (grade 11).
 
 :::definition Variance and standard deviation
 The variance of grouped data is
@@ -41,13 +41,13 @@ The standard deviation is $s=\sqrt{s^2}$. The variance can also be found with th
 $$s^2=\frac{1}{n}\left(n_1x_1^2+n_2x_2^2+\cdots+n_kx_k^2\right)-\bar{x}^2.$$
 :::
 
-**Why are the two formulas equal?** Expand $(x_i-\bar{x})^2=x_i^2-2\bar{x}x_i+\bar{x}^2$, multiply by $n_i$, add up and divide by $n$. Since $\dfrac{\sum n_ix_i}{n}=\bar{x}$ and $\dfrac{\sum n_i}{n}=1$, we get $\dfrac{\sum n_ix_i^2}{n}-2\bar{x}^2+\bar{x}^2$, which is the second formula.
+**Why are the two formulas equal?** Expand $(x_i-\bar{x})^2=x_i^2-2\bar{x}x_i+\bar{x}^2$, multiply by $n_i$, add up and divide by $n$. Two sums are familiar: $\dfrac{\sum n_ix_i}{n}=\bar{x}$ and $\dfrac{\sum n_i}{n}=1$. Putting them in, we get $\dfrac{\sum n_ix_i^2}{n}-2\bar{x}^2+\bar{x}^2$, which is the second formula.
 
-The standard deviation has the same unit as the data (grams here), so it is easier to interpret than the variance. The first formula is convenient when $\bar{x}$ is a round number; the second is convenient when it is not.
+The standard deviation has the same unit as the data (grams here), so it is easier to picture than the variance. As for which formula to use: when $\bar{x}$ is a round number, the first is convenient; when it is not, the second saves effort.
 
 ## Step by step with a table
 
-When $\bar{x}$ is not round, we draw up a table with the columns $x_i$, $n_i$, $n_ix_i$, $n_ix_i^2$ and use the second formula.
+When $\bar{x}$ is not round, subtracting it from every value gives awkward decimals and it is easy to slip. Then we draw up a table with the columns $x_i$, $n_i$, $n_ix_i$, $n_ix_i^2$ and use the second formula. The next example shows how.
 
 :::example Students' sleep
 The nightly sleep (hours) of $40$ students is grouped as follows. Find $\bar{x}$, $s^2$ and $s$.
@@ -74,7 +74,7 @@ $$\bar{x}=\frac{274}{40}=6.85,\qquad s^2=\frac{1922}{40}-6.85^2=48.05-46.9225=1.
 So on average a student sleeps $6.85$ hours, with a standard deviation of about $1.06$ hours.
 :::
 
-When $\bar{x}$ is round, the definition gives small numbers that are easy to work with. The next example completes the exploration.
+When $\bar{x}$ is round, the definition gives small numbers that are easy to work with. Back to the two rice machines: the next example completes the exploration.
 
 :::example Machine A with the definition
 Find the standard deviation of the bag masses for machine A.
@@ -92,7 +92,7 @@ So the standard deviation for machine A is $3.2$ g.
 
 ## Comparing two data sets
 
-For two data sets with similar means, the one with the smaller standard deviation is more even. Now we answer the opening question.
+For two data sets with similar means, the one with the smaller standard deviation is more even. Now we return to the opening question.
 
 :::example Which machine fills more evenly?
 Find the standard deviation for machine B and compare it with machine A.
@@ -111,7 +111,7 @@ So the two machines have the same mean mass, but machine A has the smaller stand
 
 ## The effect of the class width
 
-The standard deviation of grouped data uses midpoints instead of the true values, so it is only an **approximate value** of the standard deviation of the raw data. The narrower the classes, the closer the midpoints are to the true values.
+The standard deviation of grouped data uses midpoints instead of the true values, so it is only an **approximate value** of the standard deviation of the raw data. The narrower the classes, the closer the midpoints are to the true values, and the better the approximation. The next example shows this with numbers.
 
 :::example The same data, grouped two ways
 The travel times (minutes) of $20$ students (used in the previous lesson):
@@ -134,6 +134,7 @@ So width $10$ gives $s\approx11.08$ and width $5$ gives $s\approx10.59$, closer 
 - **Using a class end instead of the midpoint.** Wrong: taking $x_1=4$ for the class $[4, 5)$. Right: $x_1=\dfrac{4+5}{2}=4.5$.
 - **Subtracting $\bar{x}$ instead of $\bar{x}^2$.** Wrong: $s^2=48.05-6.85=41.2$. Right: $s^2=48.05-6.85^2=1.1275$.
 - **Rounding $\bar{x}$ too early.** Wrong: taking $\bar{x}\approx6.9$ and computing $48.05-6.9^2=0.44$, off by almost a half. Right: keep $\bar{x}=6.85$ exactly and round only the final result.
+When you finish, glance back at your answer: a variance is never negative.
 :::
 
 ## Key terms
@@ -156,10 +157,11 @@ So width $10$ gives $s\approx11.08$ and width $5$ gives $s\approx10.59$, closer 
 - Draw up a table of $x_i$, $n_i$, $n_ix_i$, $n_ix_i^2$; round only the final result.
 - For two data sets with similar means: smaller $s$ means more even.
 - The $s$ of grouped data is an approximate value; narrower classes usually give a better approximation.
+Back to the opening question: the machine with the smaller standard deviation fills more evenly. The one thing to keep is that the standard deviation measures how widely the values spread around the mean. Now try the practice exercises.
 
 ## Practice
 
-Each exercise comes with what you need and some steps to start. Try it yourself first, then open the solution.
+Each exercise comes with what you need and some steps to start. Try it yourself first, then open the solution. A wrong first attempt is fine: the mistake shows you what to look at again.
 
 :::exercise
 The daily phone use (hours) of $20$ students is given in the table. Find $s^2$ and $s$ with the definition.

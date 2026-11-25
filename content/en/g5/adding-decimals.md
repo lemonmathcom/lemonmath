@@ -13,23 +13,23 @@ minutes: 15
 
 Mum buys $2.4$ kg of oranges and $1.35$ kg of mangoes. How many kilograms of fruit does she buy altogether?
 
-The two numbers have different numbers of decimal places, so they are hard to add in your head. This lesson shows you a neat way to add that avoids mistakes.
+Look at the two masses. One has one digit after the decimal point and the other has two, so they do not line up, and that makes them easy to get wrong. There is a way of setting out the sum that keeps every digit in its place. We will find it, and use it to answer Mum's question.
 
 ## Let's explore
 
-Change both masses to grams to make them easier to add. Remember $1\ \text{kg}=1000\ \text{g}$.
+First, let us try changing both masses to grams, because then we only have whole numbers to add. Remember $1\ \text{kg}=1000\ \text{g}$.
 
 - $2.4\ \text{kg}=2400\ \text{g}$, because $0.4\ \text{kg}=400\ \text{g}$.
 - $1.35\ \text{kg}=1350\ \text{g}$, because $0.35\ \text{kg}=350\ \text{g}$.
 - $2400+1350=3750$ (g), which is $3.75$ kg.
 
-Changing to grams works, but it is a bit long. Notice that $2.4=2.40$, so both numbers can be counted in hundredths. That is $240$ hundredths and $135$ hundredths, and $240+135=375$ hundredths, which is $3.75$.
+Changing to grams works, but it is a bit long. There is a shorter way. Since $2.4=2.40$, both numbers can be counted in hundredths: $240$ hundredths and $135$ hundredths. Then $240+135=375$ hundredths, which is $3.75$. When two numbers are counted in the same kind of part, we simply add them like whole numbers.
 
-Now set it out in columns, with the decimal point under the decimal point:
+That idea is exactly what the column method does. Write one number under the other, with the decimal point under the decimal point:
 
 $$\begin{array}{r} 2.40 \\ +\ 1.35 \\ \hline 3.75 \end{array}$$
 
-So Mum buys $3.75$ kg of fruit. You see: just **line up the decimal points** and add as with whole numbers.
+So Mum buys $3.75$ kg of fruit altogether, the same answer we got in grams. The key is to **line up the decimal points**: once the digits sit in the right columns, we add as with whole numbers.
 
 :::graph On the number line: from 2.4, jump 1 to reach 3.4, then jump 0.35 more to reach 3.75
 alt: A number line from 2 to 4 with the points 2.4, then 3.4, then 3.75 marked and the stretch from 2.4 to 3.75 highlighted
@@ -48,11 +48,11 @@ To add two decimals:
 3. Write the decimal point in the sum directly under the decimal points above.
 :::
 
-The rule works because digits of the same place sit in the same column. You add tenths to tenths and hundredths to hundredths. When a column makes $10$ or more, you regroup into the next column on the left, just as with whole numbers.
+Why must the decimal points line up? Because then digits of the same place sit in the same column, so we add tenths to tenths and hundredths to hundredths, just as we add tens to tens and ones to ones. When a column makes $10$ or more, we regroup into the next column on the left, exactly as with whole numbers.
 
 ## Examples
 
-We start with two numbers that have the same number of decimal places, and a regrouping.
+Let us begin with the easiest case: both numbers have the same number of decimal places. This one also has a regrouping, so watch that step.
 
 :::example Work out $4.6+2.9$
 **Solution.** Both numbers have one decimal place, so set them out with the decimal points lined up and add:
@@ -62,7 +62,7 @@ Tenths: $6+9=15$, write $5$ and regroup $1$. Ones: $4+2+1=7$.
 So $4.6+2.9=7.5$.
 :::
 
-When the numbers have different numbers of decimal places, add zeros to make them equal.
+What if the numbers have different numbers of decimal places? We add zeros to the shorter one until both have the same number. The value does not change, and the solution shows why.
 
 :::example Work out $8.45+3.7$
 **Solution.** Adding a $0$ at the end of the decimal part does not change the value, because $7$ tenths is the same as $70$ hundredths. Write $3.7=3.70$ and set out the sum:
@@ -72,7 +72,7 @@ Hundredths: $5+0=5$. Tenths: $4+7=11$, write $1$ and regroup $1$. Ones: $8+3+1=1
 So $8.45+3.7=12.15$.
 :::
 
-A whole number is also a decimal: just add a decimal point and zeros.
+A whole number can be added to a decimal too. Think of it as a decimal whose decimal part is all zeros: just add a decimal point and zeros.
 
 :::example Work out $27+4.85$
 **Solution.** Write $27=27.00$ so that it has two decimal places, then set out the sum:
@@ -82,7 +82,7 @@ Hundredths: $0+5=5$. Tenths: $0+8=8$. Ones: $7+4=11$, write $1$ and regroup $1$.
 So $27+4.85=31.85$.
 :::
 
-When you add three numbers, you can swap them and group them to make the sum easier.
+When we add three numbers, we do not have to go from left to right. We can swap them and group them. If two of them make a round number, the sum becomes much easier.
 
 :::example Work out in the easy way: $3.6+4.8+6.4$
 **Solution.** Since $3.6+6.4=10$ is a round number, use the commutative and associative properties to group these two together:
@@ -90,7 +90,7 @@ $$\begin{aligned} 3.6+4.8+6.4 &= (3.6+6.4)+4.8 \\ &= 10+4.8 \\ &= 14.8. \end{ali
 So $3.6+4.8+6.4=14.8$.
 :::
 
-Now use addition to answer a question from everyday life.
+Let us use addition for something that happens in a real shop: the owner wants to know how much rice was sold in all.
 
 :::example Selling rice
 On the first day a shop sold $45.6$ kg of rice, and on the second day it sold $38.75$ kg of rice. How many kilograms of rice did the shop sell in the two days altogether?
@@ -101,9 +101,9 @@ So the shop sold $84.35$ kg of rice in the two days.
 :::
 
 :::warning Mistakes to watch out for
-- **Decimal points not lined up.** Wrong: $2.4+1.35=1.59$. Why it is wrong: the digit $4$ (tenths) was put in the same column as the digit $5$ (hundredths), so $24$ was added to $135$. Right: $2.40+1.35=3.75$.
-- **Forgetting to regroup.** Wrong: $4.6+2.9=6.5$. Why it is wrong: $6+9=15$ tenths, but only $5$ was written and the $1$ was not regrouped into the ones. Right: $4.6+2.9=7.5$.
-- **No unit in a word problem.** Wrong: "Answer: $84.35$". Right: "Answer: $84.35$ kg".
+- **Decimal points not lined up.** Many pupils slip here. Wrong: $2.4+1.35=1.59$. Why it is wrong: the digit $4$ (tenths) was put in the same column as the digit $5$ (hundredths), so $24$ was added to $135$. Right: $2.40+1.35=3.75$.
+- **Forgetting to regroup.** Wrong: $4.6+2.9=6.5$. Why it is wrong: $6+9=15$ tenths, but only $5$ was written and the $1$ was not regrouped into the ones. Right: $4.6+2.9=7.5$. After each column, check whether anything needs regrouping.
+- **No unit in a word problem.** Wrong: "Answer: $84.35$". Right: "Answer: $84.35$ kg". A correct number with no unit is only half an answer.
 :::
 
 ## Key terms
@@ -129,9 +129,11 @@ So the shop sold $84.35$ kg of rice in the two days.
 - The commutative property $a+b=b+a$ and the associative property $(a+b)+c=a+(b+c)$ let you group numbers to make round totals, for example $3.6+6.4=10$.
 - Questions with "altogether" or "both" usually need addition; remember the unit in the answer.
 
+Back to the opening question: line up the decimal points, add zeros where they are needed, and you can add Mum's oranges and mangoes without worrying about mistakes. Try a few practice exercises so the column method becomes second nature.
+
 ## Practice
 
-Each exercise comes with what you need and how to start. Try it yourself first, then open the solution.
+Each exercise has a reminder of what you need and a hint for getting started. Try it yourself first, then open the solution. A little regular practice makes setting out the columns feel natural.
 
 :::exercise
 Set out in columns and work out: $5.8+3.6$.

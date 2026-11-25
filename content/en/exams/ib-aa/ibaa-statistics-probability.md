@@ -11,11 +11,11 @@ minutes: 45
 - Calculate binomial and normal probabilities, including inverse normal problems.
 :::
 
-Topic 4 is mostly a Paper 2 topic: the GDC does the arithmetic, and the marks go to choosing the right model, entering the right numbers and stating the answer in context. Two habits pay off. First, define the random variable in words and write its distribution, for example "$X\sim B(10, 0.3)$, where $X$ is the number of defective items". Second, write the probability statement you are calculating, such as $P(X\ge2)$, before the number.
+When the GDC does the arithmetic, what is left is whether you told it to do the right thing. Topic 4 is mostly a Paper 2 topic: the GDC does the arithmetic, and the marks go to choosing the right model, entering the right numbers and stating the answer in context. Two habits pay off. First, define the random variable in words and write its distribution, for example "$X\sim B(10, 0.3)$, where $X$ is the number of defective items". Second, write the probability statement you are calculating, such as $P(X\ge2)$, before the number. Both take very little time, and they save you from slips in the later steps.
 
 ## Data and regression
 
-Your GDC gives the mean, the standard deviation, the quartiles and the regression line. The **Pearson correlation coefficient** $r$ measures the strength of a linear relationship: close to $1$ or $-1$ means strong, close to $0$ means weak. Use the regression line of $y$ on $x$ to predict $y$ from $x$, and only within the range of the data: **interpolation** is reasonable, **extrapolation** is not.
+Your GDC gives the mean, the standard deviation, the quartiles and the regression line. The **Pearson correlation coefficient** $r$ measures the strength of a linear relationship: close to $1$ or $-1$ means strong, close to $0$ means weak. The regression line of $y$ on $x$ is for predicting $y$ from $x$, but you should only trust it within the range of the data. Why? Because outside that range we do not know whether the trend continues. A prediction inside the range is **interpolation**, and it is reasonable. A prediction outside it is **extrapolation**, and it is not.
 
 :::example A regression line
 | $x$ | $2$ | $4$ | $6$ | $8$ | $10$ |
@@ -36,7 +36,7 @@ Your GDC gives the mean, the standard deviation, the quartiles and the regressio
 ## Probability rules
 
 $$P(A\cup B)=P(A)+P(B)-P(A\cap B),\qquad P(A\mid B)=\frac{P(A\cap B)}{P(B)}.$$
-$A$ and $B$ are **mutually exclusive** if $P(A\cap B)=0$, and **independent** if $P(A\cap B)=P(A)P(B)$, equivalently $P(A\mid B)=P(A)$.
+These two ideas are easy to mix up. $A$ and $B$ are **mutually exclusive** if $P(A\cap B)=0$: they cannot both happen. $A$ and $B$ are **independent** if $P(A\cap B)=P(A)P(B)$, equivalently $P(A\mid B)=P(A)$: knowing $B$ has happened does not change the probability of $A$.
 
 :::example Testing for independence
 $P(A)=0.5$, $P(B)=0.4$ and $P(A\cup B)=0.7$.
@@ -61,7 +61,7 @@ A tree diagram makes the second-stage probabilities, with denominator $7$, easy 
 
 ## Discrete random variables
 
-A probability distribution lists each value $x$ with its probability; the probabilities add up to $1$. The **expected value** is $E(X)=\sum xP(X=x)$. A game is **fair** when the expected gain is $0$.
+A discrete random variable is described by a probability distribution: a list of each value $x$ with its probability, and the probabilities add up to $1$ because some value must happen. The **expected value** is the average we would expect over many repeats, found from $E(X)=\sum xP(X=x)$. A game is **fair** when the expected gain is $0$.
 
 :::example Finding k and the expected value
 $P(X=x)=kx$ for $x=1,2,3,4$.
@@ -75,9 +75,9 @@ $P(X=x)=kx$ for $x=1,2,3,4$.
 
 ## Binomial and normal distributions
 
-**Binomial:** $X\sim B(n,p)$ counts successes in $n$ independent trials with the same probability $p$. $E(X)=np$ and $\mathrm{Var}(X)=np(1-p)$. On the GDC, the probability of exactly $k$ successes is the binomial pdf, and the probability of at most $k$ is the binomial cdf. For "at least", use the complement.
+A seed either germinates or it does not, an item is either fine or defective: situations with just two outcomes, repeated many times, are modelled by the binomial distribution. **Binomial:** $X\sim B(n,p)$ counts successes in $n$ independent trials with the same probability $p$. $E(X)=np$ and $\mathrm{Var}(X)=np(1-p)$. On the GDC, the probability of exactly $k$ successes is the binomial pdf, and the probability of at most $k$ is the binomial cdf. For "at least", use the complement, since finding the opposite is usually shorter than adding up every case.
 
-**Normal:** $X\sim N\left(\mu,\sigma^2\right)$ is a symmetric bell curve. The GDC gives $P(a<X<b)$ directly; the **inverse normal** finds the value with a given probability below it.
+**Normal:** $X\sim N\left(\mu,\sigma^2\right)$ is a symmetric bell curve; heights, test scores and measurement errors often look roughly like this. The GDC gives $P(a<X<b)$ directly. The **inverse normal** works the other way round: you give it the probability below, and it finds the matching value.
 
 :::example A binomial model
 Each seed in a packet germinates with probability $0.3$, independently. Ten seeds are planted. Find the probability that:
@@ -105,7 +105,7 @@ The heights of students in a school are normally distributed with mean $170$ cm 
 
 :::warning Common traps
 - **Variance or standard deviation.** $N\left(170, 8^2\right)$ has $\sigma=8$; enter $8$ in the GDC, not $64$.
-- **"At least" and "more than".** For a binomial, $P(X>2)=1-P(X\le2)$, but $P(X\ge2)=1-P(X\le1)$.
+- **"At least" and "more than".** For a binomial, $P(X>2)=1-P(X\le2)$, but $P(X\ge2)=1-P(X\le1)$. Many students slip here, so look closely at the inequality sign in the question.
 - **Mutually exclusive is not independent.** Two events with positive probabilities that are mutually exclusive are never independent.
 - **Conditional probability upside down.** $P(A\mid B)$ divides by $P(B)$, the condition.
 - **Extrapolating** with a regression line, or using $y$ on $x$ to predict $x$.

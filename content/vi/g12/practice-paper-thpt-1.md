@@ -5,7 +5,7 @@ minutes: 90
 type: exam
 ---
 
-Đề gồm ba phần như đề thi tốt nghiệp THPT: 12 câu trắc nghiệm nhiều phương án, 4 câu đúng sai và 6 câu trả lời ngắn, làm trong 90 phút. Phần I mỗi câu 0,25 điểm; Phần II mỗi câu tối đa 1 điểm, tính theo số ý đúng; Phần III mỗi câu 0,5 điểm. Bạn hãy in phiếu và làm trên giấy trước, rồi nhập đáp án vào các ô dưới đây để được chấm trên thang điểm 10. Mỗi lời giải đều chỉ ra bài ôn tập cần xem lại nếu bạn làm sai.
+Đề này có ba phần giống đề thi tốt nghiệp THPT: 12 câu trắc nghiệm nhiều phương án, 4 câu đúng sai và 6 câu trả lời ngắn, làm trong 90 phút. Phần I mỗi câu 0,25 điểm. Phần II mỗi câu tối đa 1 điểm, và điểm phụ thuộc vào số ý bạn xét đúng. Phần III mỗi câu 0,5 điểm. Bạn nên in phiếu ra và làm trên giấy trước, như khi ngồi trong phòng thi, rồi mới nhập đáp án vào các ô bên dưới để được chấm trên thang điểm 10. Nếu có câu làm sai, bạn đừng vội nản: mỗi lời giải đều chỉ ra bài ôn tập để bạn quay lại xem. Sai một câu ở đây là cách nhẹ nhàng nhất để biết mình cần ôn gì.
 
 :::quiz exam
 ::mc NB

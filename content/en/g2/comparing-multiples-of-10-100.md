@@ -12,13 +12,13 @@ minutes: 15
 
 Lan has $30$ marbles. Nam has $50$ marbles. Who has more marbles?
 
-You know that $30$ is $3$ tens and $50$ is $5$ tens. This lesson helps you compare numbers like these quickly and surely.
+You know that $30$ is $3$ tens and $50$ is $5$ tens. So to see who has more, you do not need to count marble by marble. Looking at the tens is enough. We will see why that works, and how to write the answer neatly.
 
 ## Let's explore
 
-Lan has $3$ tens of marbles and Nam has $5$ tens. We compare the tens: $5$ is greater than $3$, so $5$ tens is greater than $3$ tens.
+Lan has $3$ tens of marbles and Nam has $5$ tens. Both are counted in tens, so we only need to compare the tens: $5$ is greater than $3$, and so $5$ tens is greater than $3$ tens.
 
-You can also see this on a number line: the number further to the right is greater.
+The number line shows the same thing. The number further to the right is the greater one, and the number further to the left is the smaller.
 
 :::graph On the number line: 70 is to the right of 30, so 70 is greater than 30
 alt: A number line from 0 to 100 with the points 0, 30, 70 and 100 marked; the point 70 is to the right of the point 30
@@ -31,13 +31,13 @@ point: (70, 0) "70" below
 point: (100, 0) "100" below
 :::
 
-We use signs to write the result of a comparison:
+To write the result neatly, we use signs. Here is how to write each one and how to read it:
 
 - $50>30$ is read "fifty is greater than thirty".
 - $30<50$ is read "thirty is less than fifty".
 - $50=50$ is read "fifty is equal to fifty".
 
-The pointed end of $>$ or $<$ always points to the smaller number.
+Many children mix up these signs, so here is a way to remember. The pointed end of $>$ or $<$ always points to the smaller number.
 
 :::theorem How to compare
 - Two multiples of 10: the one with more tens is greater.
@@ -45,11 +45,11 @@ The pointed end of $>$ or $<$ always points to the smaller number.
 - If the number of tens (or hundreds) is the same, the numbers are equal.
 :::
 
-This works because each ten has $10$ ones, so more tens means more ones. The same is true for hundreds.
+Why does comparing the tens work? Each ten has $10$ ones, so more tens means more ones. The same is true for hundreds.
 
 ## Examples
 
-We start with two multiples of 10.
+Let us try two multiples of 10, just like Lan and Nam's marbles.
 
 :::example Comparing multiples of 10
 Compare $30$ and $50$.
@@ -59,7 +59,7 @@ $$30<50.$$
 So $30<50$, which means Nam has more marbles than Lan.
 :::
 
-Now we compare two multiples of 100.
+With multiples of 100 we do the same thing, but we compare the hundreds.
 
 :::example Comparing multiples of 100
 Compare $600$ and $400$.
@@ -69,7 +69,7 @@ $$600>400.$$
 So $600>400$.
 :::
 
-Next we put several numbers in order.
+What if there are several numbers? Then we put them in order. Look at this example.
 
 :::example Smallest first
 Put the numbers $80, 20, 50$ in order, smallest first.
@@ -79,7 +79,7 @@ $$20<50<80.$$
 So the order from smallest to largest is $20, 50, 80$.
 :::
 
-Finally you use comparing in a problem.
+Last, we use comparing to answer a question, as we did with the marbles.
 
 :::example Boxes of pens
 Box A has $40$ pens and box B has $70$ pens. Which box has more pens?
@@ -90,9 +90,9 @@ So box B has more pens.
 :::
 
 :::warning Mistakes to watch out for
-- **Forgetting that the pointed end faces the smaller number.** Wrong: $30>50$. Why it is wrong: $30$ is less than $50$. Right: $30<50$.
-- **Comparing the first digits of a multiple of 10 and a multiple of 100.** Wrong: "$90>100$ because $9>1$". Why it is wrong: $100$ is $10$ tens, which is more than $9$ tens. Right: $90<100$.
-- **Thinking $50$ equals $500$ because both have a $5$.** Wrong: $50=500$. Why it is wrong: $50$ is $5$ tens and $500$ is $5$ hundreds. Right: $50<500$.
+- **Forgetting that the pointed end faces the smaller number.** Wrong: $30>50$. Why it is wrong: $30$ is less than $50$, and the pointed end must face the smaller number. Right: $30<50$.
+- **Comparing the first digits of a multiple of 10 and a multiple of 100.** Wrong: "$90>100$ because $9>1$". Why it is wrong: $100$ is $10$ tens, and $10$ tens is more than $9$ tens. Right: $90<100$.
+- **Thinking $50$ equals $500$ because both have a $5$.** Wrong: $50=500$. Why it is wrong: $50$ is $5$ tens and $500$ is $5$ hundreds. The digit is the same, but it sits in a different place. Right: $50<500$.
 :::
 
 ## Key terms
@@ -113,10 +113,11 @@ So box B has more pens.
 - $>$ is read greater than, $<$ is read less than, $=$ is read equal to; the pointed end faces the smaller number.
 - On a number line, the number further to the right is greater.
 - To order smallest first, start with the smallest number.
+Back to the opening question: who has more marbles, Lan or Nam? Comparing the tens answers it straight away. Remember that the pointed end faces the smaller number, and try the practice questions to get used to it.
 
 ## Practice
 
-Each exercise comes with what you need and how to start. Try it yourself first, then open the solution.
+Each exercise comes with what you need to know and a hint for how to start. Try it yourself first. If an answer is not right, that is fine: it shows you what to look at again. Then open the solution.
 
 :::exercise
 Write $>$, $<$ or $=$ in the box.

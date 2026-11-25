@@ -11,17 +11,17 @@ minutes: 40
 - Trình bày đáp số đúng đơn vị và đúng yêu cầu làm tròn.
 :::
 
-Bài toán thực tế là "đặc sản" của đề thi theo cấu trúc mới. Chúng thường xuất hiện ở Phần III (trả lời ngắn, đáp số là một con số có đơn vị), đôi khi thành cả một câu đúng/sai ở Phần II, tổng cộng thường khoảng $1$ đến $2$ điểm. Phần toán thường không khó; cái khó là **lập được hàm số** và **xác định đúng miền** của biến.
+Đề thi theo cấu trúc mới rất thích những bài toán thực tế. Chúng thường nằm ở Phần III (trả lời ngắn, đáp số là một con số có đơn vị), và đôi khi là cả một câu đúng/sai ở Phần II. Tổng cộng thường đáng khoảng $1$ đến $2$ điểm. Phần tính toán thường không khó. Cái khó nằm ở hai việc: **lập được hàm số** và **xác định đúng miền** của biến. Vậy làm sao để qua được hai chỗ khó ấy?
 
-Kiến thức nền nằm ở bài [giá trị lớn nhất và nhỏ nhất](lesson:max-min-values) và bài [đạo hàm và bài toán thực tế](lesson:derivative-real-problems).
+Cách qua hai chỗ khó đó là làm theo một quy trình rõ ràng, và ngay dưới đây ta ghi lại quy trình ấy. Phần kiến thức nền nằm ở bài [giá trị lớn nhất và nhỏ nhất](lesson:max-min-values) và bài [đạo hàm và bài toán thực tế](lesson:derivative-real-problems), bạn có thể xem lại khi cần.
 
 ## Quy trình giải bài toán tối ưu
 
 :::note Bốn bước
-1. **Chọn biến** $x$ (đại lượng có thể thay đổi), ghi đơn vị và **điều kiện** của $x$.
-2. **Lập hàm** cần tối ưu theo $x$ (dùng các ràng buộc để khử bớt biến).
-3. **Tìm giá trị lớn nhất, nhỏ nhất** của hàm trên miền đó: tính đạo hàm, so sánh với đầu mút hoặc lập bảng biến thiên.
-4. **Trả lời đúng câu hỏi**: đề hỏi $x$, hỏi giá trị lớn nhất, hay hỏi một đại lượng khác?
+1. **Chọn biến** $x$ (đại lượng có thể thay đổi), ghi đơn vị và **điều kiện** của $x$. Điều kiện này quyết định miền ta sẽ xét ở bước sau.
+2. **Lập hàm** cần tối ưu theo $x$ (dùng các ràng buộc để khử bớt biến), để cuối cùng chỉ còn một biến.
+3. **Tìm giá trị lớn nhất, nhỏ nhất** của hàm trên miền đó: tính đạo hàm, so sánh với đầu mút hoặc lập bảng biến thiên. Nhớ so với cả đầu mút, vì giá trị tối ưu có thể nằm ở đó.
+4. **Trả lời đúng câu hỏi**: đề hỏi $x$, hỏi giá trị lớn nhất, hay hỏi một đại lượng khác? Nhiều bạn làm đúng toán nhưng lại trả lời nhầm đại lượng.
 :::
 
 :::example Trả lời ngắn: hộp không nắp
@@ -46,7 +46,7 @@ Thể tích lớn nhất là $2000$ cm³ (cắt hình vuông cạnh $5$ cm).
 - Vận tốc và gia tốc cùng dấu thì vật đang nhanh dần; trái dấu thì vật đang chậm dần.
 :::
 
-Hai câu hỏi hay bị nhầm: "khi nào $Q$ lớn nhất" (giải $Q'=0$) và "khi nào $Q$ **tăng nhanh nhất**" (tìm giá trị lớn nhất của $Q'$, tức là xét $Q''$).
+Chỗ này nhiều bạn hay nhầm hai câu hỏi nghe rất giống nhau. "Khi nào $Q$ lớn nhất" nghĩa là đại lượng đạt đỉnh, nên ta giải $Q'=0$. Còn "khi nào $Q$ **tăng nhanh nhất**" hỏi về tốc độ tăng, và tốc độ tăng chính là đạo hàm. Vì vậy ta phải tìm giá trị lớn nhất của $Q'$, tức là xét $Q''$.
 
 :::example Trắc nghiệm: tăng nhanh nhất
 Số vi khuẩn trong một mẻ nuôi cấy sau $t$ giờ là $N(t)=1000+30t^2-t^3$, $0\le t\le20$. Số vi khuẩn tăng nhanh nhất tại thời điểm nào?
@@ -89,7 +89,7 @@ d) **Đúng**: $v(t)=3t(6-t)\ge0$ trên $[0; 6]$ nên vật không quay đầu, 
 :::note Ghi nhớ
 - Lợi nhuận = doanh thu − chi phí: $P(x)=R(x)-C(x)$.
 - Chi phí trung bình mỗi sản phẩm: $\overline{C}(x)=\dfrac{C(x)}{x}$.
-- Số sản phẩm $x$ thường là số tự nhiên, nhưng ta xét $x$ liên tục trên một đoạn rồi kiểm tra lại nghiệm.
+- Số sản phẩm $x$ thường là số tự nhiên, nhưng ta xét $x$ liên tục trên một đoạn rồi kiểm tra lại nghiệm, vì đạo hàm chỉ có nghĩa khi biến chạy liên tục.
 :::
 
 :::example Trắc nghiệm: sản lượng cho lợi nhuận lớn nhất
@@ -110,7 +110,7 @@ Vậy nên sản xuất $40$ sản phẩm mỗi ngày (lợi nhuận $56$ triệ
 
 ## Bài toán đường đi và lắp đặt
 
-Dạng này có một điểm $M$ chạy trên một đường thẳng; quãng đường hoặc chi phí gồm một đoạn xiên (dùng định lí Pythagore) và một đoạn thẳng.
+Dạng này kể về một điểm $M$ chạy trên một đường thẳng, và ta cần chọn vị trí nào cho tiết kiệm nhất. Quãng đường hoặc chi phí gồm hai phần: một đoạn xiên, mà ta tính bằng định lí Pythagore, và một đoạn thẳng. Hình vẽ dưới đây cho thấy một ví dụ.
 
 :::diagram Kéo dây điện từ nhà máy $A$ ra đảo $C$
 alt: Bờ biển nằm ngang với điểm B bên trái và nhà máy A bên phải cách B 8 km; đảo C nằm phía trên B cách bờ 3 km; dây đi trên bờ từ A đến M rồi dưới nước từ M đến C
@@ -141,11 +141,11 @@ So sánh: $T(0)=390$, $T\left(\frac94\right)=172{,}5+187{,}5=360$, $T(8)=50\sqrt
 :::
 
 :::warning Những sai lầm thường gặp
-- **Sai miền của biến.** Với hộp cạnh $30$ cm, $x$ phải nhỏ hơn $15$; nghiệm $x=15$ của $V'$ cho thể tích $0$.
-- **Trả lời nhầm đại lượng.** Đề hỏi "cách $B$ bao nhiêu km" mà ghi chi phí $360$, hoặc ngược lại.
-- **Nhầm "lớn nhất" với "tăng nhanh nhất".** Lớn nhất: $Q'=0$. Tăng nhanh nhất: $Q'$ lớn nhất.
-- **Quên đầu mút.** Giá trị tối ưu có thể nằm ở đầu mút, nhất là khi miền bị giới hạn bởi thực tế.
-- **Quên đổi đơn vị.** Phút và giờ, mét và kilômét, nghìn đồng và triệu đồng.
+- **Sai miền của biến.** Chỗ này nhiều bạn hay nhầm. Với hộp cạnh $30$ cm, $x$ phải nhỏ hơn $15$; nghiệm $x=15$ của $V'$ cho thể tích $0$, nên không thể là đáp số.
+- **Trả lời nhầm đại lượng.** Đề hỏi "cách $B$ bao nhiêu km" mà ghi chi phí $360$, hoặc ngược lại. Trước khi viết đáp số, hãy đọc lại câu hỏi một lần nữa.
+- **Nhầm "lớn nhất" với "tăng nhanh nhất".** Hai ý này khác nhau. Lớn nhất: $Q'=0$. Tăng nhanh nhất: $Q'$ lớn nhất.
+- **Quên đầu mút.** Giá trị tối ưu có thể nằm ở đầu mút, nhất là khi miền bị giới hạn bởi tình huống thực tế, nên ta luôn tính cả hai đầu.
+- **Quên đổi đơn vị.** Các cặp hay lẫn là phút và giờ, mét và kilômét, nghìn đồng và triệu đồng. Hãy đưa mọi đại lượng về cùng một đơn vị trước khi tính.
 :::
 
 ## Thuật ngữ
@@ -163,7 +163,7 @@ So sánh: $T(0)=390$, $T\left(\frac94\right)=172{,}5+187{,}5=360$, $T(8)=50\sqrt
 
 ## Bài tập
 
-Mỗi bài có phần kiến thức và gợi ý các bước. Hãy tự làm trước, rồi mới bấm xem lời giải.
+Mỗi bài có phần kiến thức cần dùng và vài bước gợi ý để bạn bắt đầu. Bạn thử tự làm trước, rồi hãy bấm xem lời giải. Sai một lần rồi tự tìm ra chỗ sai thường nhớ lâu hơn là đọc lời giải ngay.
 
 :::exercise Trắc nghiệm
 Một mảnh vườn hình chữ nhật có chu vi $40$ m. Diện tích lớn nhất của mảnh vườn là

@@ -12,11 +12,11 @@ minutes: 50
 - Khảo sát $g(x)=\displaystyle\int_a^x f(t)\,dt$ từ đồ thị của $f$.
 :::
 
-Unit 6 đặt câu hỏi ngược với đạo hàm: thay vì "đại lượng thay đổi nhanh đến mức nào?", ta hỏi "đã tích luỹ được bao nhiêu?". Ý tưởng này có mặt khắp đề AP. Gần như phần tự luận nào cũng mở đầu bằng một tốc độ cho dưới dạng bảng hoặc công thức, rồi hỏi một tổng Riemann, một lượng thay đổi toàn phần hay giá trị của đại lượng ở thời điểm sau. Bài này trình bày phần cốt lõi của unit; bài tiếp theo về kĩ thuật tính tích phân sẽ nói về phép đổi biến và các cách tìm nguyên hàm khác.
+Một chiếc bể đang được rót nước vào, và bạn chỉ biết nước chảy nhanh chậm thế nào ở từng lúc. Làm sao biết đến cuối trong bể có bao nhiêu nước? Đó là câu hỏi ngược với đạo hàm, và là chuyện của Unit 6: thay vì hỏi "đại lượng thay đổi nhanh đến mức nào?", ta hỏi "đã tích luỹ được bao nhiêu?". Ý tưởng này có mặt khắp đề AP. Gần như phần tự luận nào cũng mở đầu bằng một tốc độ cho dưới dạng bảng hoặc công thức, rồi hỏi một tổng Riemann, một lượng thay đổi toàn phần hay giá trị của đại lượng ở thời điểm sau. Bài này trình bày phần cốt lõi của unit; bài tiếp theo về kĩ thuật tính tích phân sẽ nói về phép đổi biến và các cách tìm nguyên hàm khác.
 
 ## Tổng Riemann từ bảng số
 
-Để xấp xỉ $\displaystyle\int_a^b f(x)\,dx$, chia $[a,b]$ thành các khoảng nhỏ rồi cộng các tích (độ rộng) × (chiều cao). Chiều cao lấy ở đầu mút trái, đầu mút phải hoặc điểm giữa; **tổng hình thang** lấy trung bình chiều cao bên trái và bên phải. Các khoảng nhỏ không cần bằng nhau: bảng số trong đề AP thường có các mốc thời gian không đều.
+Làm sao biết nước đã chảy vào bể bao nhiêu khi ta chỉ có vài số đo? Ta chia thời gian thành những khoảng nhỏ, coi trong mỗi khoảng tốc độ gần như không đổi, rồi cộng lại. Đó là ý của tổng Riemann. Để xấp xỉ $\displaystyle\int_a^b f(x)\,dx$, chia $[a,b]$ thành các khoảng nhỏ rồi cộng các tích (độ rộng) × (chiều cao). Chiều cao lấy ở đầu mút trái, đầu mút phải hoặc điểm giữa; **tổng hình thang** lấy trung bình chiều cao bên trái và bên phải. Các khoảng nhỏ không cần bằng nhau, và đây là chỗ nhiều bạn hay quên: bảng số trong đề AP thường có các mốc thời gian không đều.
 
 :::example Nước chảy vào bể
 Nước chảy vào một bể với tốc độ $R(t)$ lít mỗi phút. Bảng dưới cho một số giá trị.
@@ -100,7 +100,7 @@ b) $g'(x)=f(x)$, chỉ đổi dấu từ dương sang âm tại $x=3$. Các ứn
 
 ## Lượng thay đổi ròng và tổng quãng đường
 
-Nếu $r$ là tốc độ thay đổi của đại lượng $Q$ thì $\displaystyle\int_a^b r(t)\,dt=Q(b)-Q(a)$ là **lượng thay đổi ròng**, và $Q(b)=Q(a)+\displaystyle\int_a^b r(t)\,dt$. Với một hạt có vận tốc $v$: $\displaystyle\int_a^b v(t)\,dt$ là độ dời, còn $\displaystyle\int_a^b|v(t)|\,dt$ là tổng quãng đường.
+Đây là ý cốt lõi của unit: tích phân của một tốc độ cho ta biết đại lượng đã thay đổi bao nhiêu. Nếu $r$ là tốc độ thay đổi của đại lượng $Q$ thì $\displaystyle\int_a^b r(t)\,dt=Q(b)-Q(a)$ là **lượng thay đổi ròng**, và vì thế $Q(b)=Q(a)+\displaystyle\int_a^b r(t)\,dt$: lượng lúc sau bằng lượng lúc đầu cộng với phần đã thêm vào. Với một hạt có vận tốc $v$, cần phân biệt hai điều: $\displaystyle\int_a^b v(t)\,dt$ là độ dời, còn $\displaystyle\int_a^b|v(t)|\,dt$ là tổng quãng đường. Vì sao lại khác nhau? Vì khi hạt đi lùi, vận tốc âm làm độ dời giảm đi, còn quãng đường thì vẫn tăng.
 
 :::example Độ dời và quãng đường
 Một hạt có vận tốc $v(t)=t-2$ mét mỗi giây, $0\le t\le5$. Tìm độ dời và tổng quãng đường hạt đi được.
@@ -111,15 +111,15 @@ Quãng đường: $v<0$ trên $(0,2)$ và $v>0$ trên $(2,5)$, nên quãng đư�
 :::
 
 :::warning Những cái bẫy thường gặp
-- **Coi các khoảng bằng nhau.** Bảng có $t=0, 2, 5, 7, 10$ thì độ rộng là $2, 3, 2, 3$.
-- **Quên lượng ban đầu.** "Lúc $t=10$ trong bể có bao nhiêu nước?" nghĩa là lượng ban đầu cộng với tích phân.
+- **Coi các khoảng bằng nhau.** Bảng có $t=0, 2, 5, 7, 10$ thì độ rộng là $2, 3, 2, 3$, nên hãy trừ từng cặp mốc liền nhau chứ đừng chia đều.
+- **Quên lượng ban đầu.** "Lúc $t=10$ trong bể có bao nhiêu nước?" nghĩa là lượng ban đầu cộng với tích phân, vì bể có thể đã có nước từ trước.
 - **Diện tích dưới trục hoành.** Mang dấu âm trong $\displaystyle\int f$, nhưng mang dấu dương khi tính tổng quãng đường.
-- **Dùng Phần 1 mà quên quy tắc chuỗi.** $\dfrac{d}{dx}\displaystyle\int_0^{x^2}f(t)\,dt=f\left(x^2\right)\cdot2x$, không phải $f\left(x^2\right)$.
+- **Dùng Phần 1 mà quên quy tắc chuỗi.** $\dfrac{d}{dx}\displaystyle\int_0^{x^2}f(t)\,dt=f\left(x^2\right)\cdot2x$, không phải $f\left(x^2\right)$. Cận trên là một biểu thức chứ không phải chính biến, nên phải nhân thêm đạo hàm của cận ấy.
 - **Đơn vị.** Nếu $R$ tính bằng lít mỗi phút và $t$ tính bằng phút thì $\displaystyle\int R\,dt$ tính bằng lít.
 :::
 
 :::tip Ở phần được dùng máy tính
-Khi tốc độ cho bằng công thức trong phần được dùng máy tính, hãy viết tích phân kèm cận trước, ví dụ $\displaystyle\int_0^{10}R(t)\,dt$, rồi mới ghi giá trị chính xác đến ba chữ số thập phân. Riêng việc viết đúng tích phân đã được một điểm.
+Khi tốc độ cho bằng công thức trong phần được dùng máy tính, hãy viết tích phân kèm cận trước, ví dụ $\displaystyle\int_0^{10}R(t)\,dt$, rồi mới ghi giá trị chính xác đến ba chữ số thập phân. Riêng việc viết đúng tích phân đã được một điểm. Nhớ lại câu hỏi đầu bài: đã tích luỹ được bao nhiêu? Câu trả lời luôn là tích phân của tốc độ, kèm đơn vị đúng. Bạn hãy luyện tập ở phần bên dưới để việc viết cận và đơn vị thành thói quen.
 :::
 
 :::terms

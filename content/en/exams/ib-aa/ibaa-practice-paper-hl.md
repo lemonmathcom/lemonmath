@@ -5,7 +5,7 @@ minutes: 120
 type: exam
 ---
 
-This practice paper follows the format of IB Mathematics: Analysis and Approaches HL **Paper 2**: 120 minutes, **graphing calculator (GDC) required**, 110 marks, with short questions in Section A and long questions in Section B. All questions are written by Lemonmath; they are not real IB questions, but they follow the HL syllabus and the style of the papers. Together with the [SL practice paper](lesson:ibaa-practice-paper-sl), which has no calculator, it covers both kinds of paper.
+Sitting a full paper under timed conditions is the most honest way to find out whether you are ready. This practice paper follows the format of IB Mathematics: Analysis and Approaches HL **Paper 2**: 120 minutes, **graphing calculator (GDC) required**, 110 marks, with short questions in Section A and long questions in Section B. All questions are written by Lemonmath; they are not real IB questions, but they follow the HL syllabus and the style of the papers. Together with the [SL practice paper](lesson:ibaa-practice-paper-sl), which has no calculator, it covers both kinds of paper.
 
 | | Section A | Section B |
 |---|---|---|
@@ -13,7 +13,7 @@ This practice paper follows the format of IB Mathematics: Analysis and Approache
 | Marks | 50 | 60 |
 | Suggested time | about 55 minutes | about 65 minutes |
 
-**Instructions.** Answer all questions. Give answers correct to three significant figures unless a question says otherwise, and keep your GDC in radian mode. When you use the GDC, write down the equation you solve or the integral you evaluate before the result. Each question shows a short hint below it: cover it unless you are stuck, and open the solution only after you have finished.
+**Instructions.** Answer all questions. Give answers correct to three significant figures unless a question says otherwise, and keep your GDC in radian mode. When you use the GDC, write down the equation you solve or the integral you evaluate before the result, because that is where the method marks are earned. Each question shows a short hint below it: cover it unless you are stuck, and open the solution only after you have finished. Done this way, the paper shows you what you can really do.
 
 ## Section A
 
@@ -411,4 +411,4 @@ So in the long run the population approaches $1000$ fish, the carrying capacity 
 
 ## After the paper
 
-Add up your marks out of 110, part by part: in IB marking, method marks still count when an answer is wrong, and follow-through marks are given when you use a wrong earlier answer correctly. Grade boundaries change from session to session, so use the score to find weak topics. For lost marks, revise: [Number and algebra](lesson:ibaa-number-algebra) (questions 1, 7), [Complex numbers, induction and proof](lesson:ibaa-hl-complex-proof) (question 2), [Vectors, lines and planes](lesson:ibaa-hl-vectors) (questions 3, 10), [Statistics and probability](lesson:ibaa-statistics-probability) (question 4), [Calculus](lesson:ibaa-calculus) (questions 5, 6, 9), [Geometry and trigonometry](lesson:ibaa-geometry-trigonometry) (question 8), [Further calculus](lesson:ibaa-hl-further-calculus) (questions 9, 11).
+Add up your marks out of 110, part by part: in IB marking, method marks still count when an answer is wrong, and follow-through marks are given when you use a wrong earlier answer correctly. Grade boundaries change from session to session, so use the score to find weak topics. For lost marks, revise: [Number and algebra](lesson:ibaa-number-algebra) (questions 1, 7), [Complex numbers, induction and proof](lesson:ibaa-hl-complex-proof) (question 2), [Vectors, lines and planes](lesson:ibaa-hl-vectors) (questions 3, 10), [Statistics and probability](lesson:ibaa-statistics-probability) (question 4), [Calculus](lesson:ibaa-calculus) (questions 5, 6, 9), [Geometry and trigonometry](lesson:ibaa-geometry-trigonometry) (question 8), [Further calculus](lesson:ibaa-hl-further-calculus) (questions 9, 11). Do not be discouraged if the score is lower than you hoped: the paper exists to show you what to fix. Once you have fixed it, try the questions you missed again.

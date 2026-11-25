@@ -12,19 +12,19 @@ minutes: 20
 
 Bác Hùng muốn lát gạch một sân phơi hình vuông có diện tích $49$ m². Cạnh sân dài bao nhiêu mét? Nếu sân có diện tích $50$ m² thì cạnh dài bao nhiêu?
 
-Câu hỏi thứ nhất dễ: $7\cdot7=49$, nên cạnh dài $7$ m. Câu hỏi thứ hai cần một số mà bình phương lên được $50$. Bài này giúp ta gọi tên, viết và tính những số như vậy.
+Câu hỏi thứ nhất không khó: $7\cdot7=49$, nên cạnh dài $7$ m. Câu hỏi thứ hai thì lạ hơn, vì ta cần một số mà bình phương lên được $50$, và đó không phải là số nguyên quen thuộc. Những số như vậy có tên, có kí hiệu và có cách tính riêng. Ta làm quen với chúng ngay bây giờ.
 
 ## Căn bậc hai của một số không âm
 
 ### Khám phá: số nào bình phương lên bằng $16$?
 
-Ta thử bình phương vài số:
+Ta bắt đầu bằng cách bình phương thử vài số, cả số âm lẫn số dương, rồi quan sát bảng sau:
 
 | $x$ | $-5$ | $-4$ | $-3$ | $0$ | $3$ | $4$ | $5$ |
 |---|---|---|---|---|---|---|---|
 | $x^2$ | $25$ | $16$ | $9$ | $0$ | $9$ | $16$ | $25$ |
 
-Có hai số bình phương bằng $16$ là $4$ và $-4$. Chỉ có một số bình phương bằng $0$ là $0$. Không có số nào bình phương bằng $-9$, vì bình phương của mọi số đều không âm.
+Nhìn bảng, ta thấy có hai số bình phương bằng $16$, đó là $4$ và $-4$. Chỉ có một số bình phương bằng $0$, đó là $0$. Còn số nào bình phương bằng $-9$ thì không có, vì bình phương của mọi số đều không âm. Những tình huống này chính là nội dung của định nghĩa ngay dưới đây.
 
 :::definition Căn bậc hai
 **Căn bậc hai** của số thực không âm $a$ là số $x$ sao cho $x^2=a$.
@@ -35,7 +35,7 @@ Có hai số bình phương bằng $16$ là $4$ và $-4$. Chỉ có một số b
 Số $\sqrt{a}$ gọi là **căn bậc hai số học** của $a$. Ta có $\sqrt{a}\ge0$ và $\left(\sqrt{a}\right)^2=a$.
 :::
 
-Hình dưới cho thấy vì sao số dương có hai căn bậc hai: đường thẳng $y=5$ cắt đồ thị $y=x^2$ tại hai điểm có hoành độ đối nhau.
+Ta cũng có thể nhìn điều đó trên hình. Đường thẳng $y=5$ cắt đồ thị $y=x^2$ tại hai điểm, và hoành độ của hai điểm ấy đối nhau. Đó chính là lí do số dương có hai căn bậc hai.
 
 :::graph Hai căn bậc hai của $5$
 alt: Đồ thị y bằng x bình phương và đường thẳng nằm ngang y bằng 5 cắt nhau tại hai điểm có hoành độ là âm căn 5 và căn 5
@@ -57,7 +57,7 @@ $$9^2=81,\qquad \left(\frac34\right)^2=\frac{9}{16},\qquad 0{,}6^2=0{,}36.$$
 Vậy căn bậc hai của $81$ là $9$ và $-9$; của $\dfrac{9}{16}$ là $\dfrac34$ và $-\dfrac34$; của $0{,}36$ là $0{,}6$ và $-0{,}6$; số $-4$ không có căn bậc hai (vì $-4<0$).
 :::
 
-Với số như $50$, không có số hữu tỉ nào bình phương bằng $50$. Khi đó ta dùng máy tính cầm tay để lấy giá trị gần đúng.
+Với số như $50$, không có số hữu tỉ nào bình phương bằng $50$, nên ta không viết được căn của nó thành phân số hay số thập phân hữu hạn. Khi đó ta dùng máy tính cầm tay để lấy giá trị gần đúng. Đây cũng là cách trả lời nửa sau của câu hỏi đầu bài.
 
 :::example Dùng máy tính cầm tay
 Trả lời câu hỏi về sân phơi $50$ m² (làm tròn đến hàng phần trăm).
@@ -69,17 +69,17 @@ $$x=\sqrt{50}\approx7{,}0711\approx7{,}07.$$
 Vậy cạnh sân dài khoảng $7{,}07$ m.
 :::
 
-Để so sánh hai căn bậc hai số học, ta dùng tính chất: với $a$, $b$ không âm, $a<b \iff \sqrt{a}<\sqrt{b}$. Chẳng hạn $\sqrt{50}<\sqrt{64}=8$.
+Nếu cần so sánh hai căn bậc hai số học mà không muốn bấm máy, ta dùng tính chất sau: với $a$, $b$ không âm, $a<b \iff \sqrt{a}<\sqrt{b}$. Nghĩa là số nào lớn hơn thì căn của nó cũng lớn hơn. Chẳng hạn $\sqrt{50}<\sqrt{64}=8$.
 
 ## Hằng đẳng thức $\sqrt{A^2}=|A|$
 
-Ta có $\sqrt{3^2}=\sqrt9=3$. Nhưng $\sqrt{(-3)^2}=\sqrt9=3$, không phải $-3$. Kết quả luôn là số không âm, đúng bằng giá trị tuyệt đối.
+Có một chỗ nhiều bạn hay nhầm: bình phương rồi khai căn chưa chắc đưa ta về số ban đầu. Ta có $\sqrt{3^2}=\sqrt9=3$, đúng như mong đợi. Nhưng $\sqrt{(-3)^2}=\sqrt9=3$, chứ không phải $-3$. Kết quả luôn là số không âm, và đúng bằng giá trị tuyệt đối của số ban đầu.
 
 :::theorem Căn bậc hai của một bình phương
 Với mọi số thực $a$, ta có $\sqrt{a^2}=|a|$.
 :::
 
-Vì sao? Số $|a|$ không âm và $|a|^2=a^2$. Vậy $|a|$ chính là căn bậc hai số học của $a^2$.
+Vì sao lại là giá trị tuyệt đối? Vì số $|a|$ không âm và $|a|^2=a^2$. Một số không âm mà bình phương lên bằng số đã cho thì chính là căn bậc hai số học của số ấy. Vậy $|a|$ chính là căn bậc hai số học của $a^2$.
 
 :::example Tính căn của một bình phương
 Tính: a) $\sqrt{(-7)^2}$; b) $\sqrt{\left(2-\sqrt5\right)^2}$.
@@ -93,7 +93,7 @@ Vậy a) bằng $7$; b) bằng $\sqrt5-2$.
 
 ## Căn thức bậc hai
 
-Trong thực tế, ta thường gặp căn của một biểu thức chứa chữ. Chẳng hạn, một hòn sỏi rơi tự do từ độ cao $h$ mét chạm đất sau khoảng $t=\sqrt{\dfrac{h}{5}}$ giây.
+Căn bậc hai không chỉ đứng trước những số cụ thể. Trong thực tế, ta thường gặp căn của một biểu thức chứa chữ. Chẳng hạn, một hòn sỏi rơi tự do từ độ cao $h$ mét sẽ chạm đất sau khoảng $t=\sqrt{\dfrac{h}{5}}$ giây. Với công thức này, biết độ cao là tính được thời gian rơi.
 
 :::definition Căn thức bậc hai
 Với $A$ là một biểu thức đại số, ta gọi $\sqrt{A}$ là **căn thức bậc hai**, còn $A$ là **biểu thức lấy căn**.
@@ -113,9 +113,9 @@ $$h=45:\ t=\sqrt{\frac{45}{5}}=\sqrt9=3;\qquad h=20:\ t=\sqrt{\frac{20}{5}}=\sqr
 Vậy hòn sỏi chạm đất sau $3$ giây (từ độ cao $45$ m) và sau $2$ giây (từ độ cao $20$ m).
 :::
 
-Độ cao gấp hơn hai lần nhưng thời gian rơi chỉ tăng thêm $1$ giây.
+Hãy nhìn kết quả: độ cao gấp hơn hai lần, nhưng thời gian rơi chỉ tăng thêm $1$ giây. Căn bậc hai làm cho đại lượng tăng chậm lại, và ta hay gặp điều đó trong thực tế.
 
-Tìm điều kiện xác định chính là giải một bất phương trình bậc nhất một ẩn, như ở bài [bất phương trình bậc nhất một ẩn](lesson:linear-inequalities-one-unknown).
+Còn một việc nữa: biểu thức dưới dấu căn không được âm, nên trước khi tính ta phải tìm điều kiện để căn có nghĩa. Việc này chỉ là giải một bất phương trình bậc nhất một ẩn, như ở bài [bất phương trình bậc nhất một ẩn](lesson:linear-inequalities-one-unknown). Nếu cần, bạn hãy xem lại bài đó.
 
 :::example Điều kiện xác định
 Tìm điều kiện của $x$ để mỗi căn thức xác định: a) $\sqrt{2x-6}$; b) $\sqrt{5-x}$; c) $\sqrt{x^2+1}$.
@@ -127,7 +127,7 @@ $$\begin{aligned} \text{a) }& 2x-6\ge0\iff 2x\ge6\iff x\ge3;\\ \text{b) }& 5-x\g
 Vậy a) $x\ge3$; b) $x\le5$; c) căn thức xác định với mọi số thực $x$.
 :::
 
-Khi biểu thức lấy căn là một bình phương, ta bỏ căn nhờ giá trị tuyệt đối, rồi dùng điều kiện đã cho để bỏ dấu giá trị tuyệt đối.
+Khi biểu thức lấy căn là một bình phương, ta làm lần lượt thế này: bỏ dấu căn nhờ giá trị tuyệt đối, rồi dùng điều kiện đã cho để xét dấu và bỏ luôn dấu giá trị tuyệt đối. Bước sau là chỗ nhiều bạn hay quên, nên đừng bỏ qua điều kiện.
 
 :::example Rút gọn với điều kiện cho trước
 Rút gọn $P=\sqrt{(x-3)^2}+x-1$ với $x<3$.
@@ -140,10 +140,10 @@ Vậy $P=2$ với mọi $x<3$.
 :::
 
 :::warning Những sai lầm thường gặp
-- **Viết $\sqrt{16}=\pm4$.** Lí do sai: kí hiệu $\sqrt{16}$ chỉ căn bậc hai số học, luôn không âm. Đúng: $\sqrt{16}=4$; các căn bậc hai của $16$ là $4$ và $-4$.
-- **Viết $\sqrt{a^2}=a$ với mọi $a$.** Sai: $\sqrt{(-3)^2}=-3$. Lí do sai: căn bậc hai số học không âm. Đúng: $\sqrt{(-3)^2}=|-3|=3$.
-- **Tách căn của một tổng.** Sai: $\sqrt{9+16}=\sqrt9+\sqrt{16}=7$. Lí do sai: căn không "tách" được qua phép cộng. Đúng: $\sqrt{9+16}=\sqrt{25}=5$.
-- **Quên đổi chiều bất phương trình.** Sai: $\sqrt{4-2x}$ xác định khi $x\ge2$. Lí do sai: chia hai vế của $-2x\ge-4$ cho số âm phải đổi chiều. Đúng: $x\le2$.
+- **Viết $\sqrt{16}=\pm4$.** Chỗ này nhiều bạn hay lẫn giữa "các căn bậc hai" của một số và kí hiệu căn. Lí do sai: kí hiệu $\sqrt{16}$ chỉ căn bậc hai số học, mà số này luôn không âm. Đúng: $\sqrt{16}=4$; còn các căn bậc hai của $16$ là $4$ và $-4$.
+- **Viết $\sqrt{a^2}=a$ với mọi $a$.** Sai: $\sqrt{(-3)^2}=-3$. Lí do sai: căn bậc hai số học không bao giờ âm. Đúng: $\sqrt{(-3)^2}=|-3|=3$. Khi số bên trong âm, giá trị tuyệt đối đổi dấu nó để kết quả không âm.
+- **Tách căn của một tổng.** Sai: $\sqrt{9+16}=\sqrt9+\sqrt{16}=7$. Lí do sai: căn không "tách" được qua phép cộng. Bạn thử tính riêng từng vế sẽ thấy hai kết quả khác nhau. Đúng: $\sqrt{9+16}=\sqrt{25}=5$.
+- **Quên đổi chiều bất phương trình.** Sai: $\sqrt{4-2x}$ xác định khi $x\ge2$. Lí do sai: chia hai vế của $-2x\ge-4$ cho số âm phải đổi chiều. Đúng: $x\le2$. Mỗi khi nhân hoặc chia hai vế cho số âm, hãy nhớ đổi chiều.
 :::
 
 ## Thuật ngữ
@@ -166,10 +166,11 @@ Vậy $P=2$ với mọi $x<3$.
 - Với $a$, $b\ge0$: $a<b\iff\sqrt{a}<\sqrt{b}$.
 - $\sqrt{A^2}=|A|$: bằng $A$ khi $A\ge0$, bằng $-A$ khi $A<0$.
 - $\sqrt{A}$ xác định $\iff A\ge0$.
+Quay lại sân phơi đầu bài: khi diện tích là số chính phương quen thuộc như ở câu hỏi thứ nhất, cạnh sân là một số nguyên; còn khi không, ta dùng căn bậc hai và máy tính cầm tay để tìm giá trị gần đúng. Điều cần nhớ nhất là căn bậc hai số học không bao giờ âm. Bạn làm các bài luyện tập để quen tay nhé.
 
 ## Luyện tập
 
-Mỗi bài có phần kiến thức và gợi ý các bước. Hãy tự làm trước, rồi mới bấm xem lời giải.
+Mỗi bài có phần kiến thức cần dùng và vài bước gợi ý để bạn bắt đầu. Bạn hãy tự làm trước, rồi mới bấm xem lời giải. Nếu bí, cứ đọc lại phần gợi ý trước khi xem đáp án.
 
 :::exercise
 Tìm các căn bậc hai của mỗi số sau:

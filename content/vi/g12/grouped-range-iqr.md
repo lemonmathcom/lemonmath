@@ -18,17 +18,17 @@ Nhà trường khảo sát thời gian đi từ nhà đến trường của họ
 | Lớp 12A | $4$ | $12$ | $12$ | $8$ | $4$ |
 | Lớp 12B | $2$ | $6$ | $24$ | $6$ | $2$ |
 
-Ở cả hai lớp, thời gian trải từ $0$ đến $50$ phút. Vậy lớp nào có thời gian đi học đồng đều hơn, và ta đo điều đó bằng con số nào?
+Nhìn vào bảng, ở cả hai lớp thời gian đi học đều trải từ $0$ đến $50$ phút. Nhưng hai hàng số trông không giống nhau: lớp 12B dồn nhiều bạn vào giữa. Vậy lớp nào có thời gian đi học đồng đều hơn, và ta đo điều đó bằng con số nào?
 
-Ở lớp 10, ta đã đo độ phân tán của số liệu gốc. Bài này làm điều tương tự khi chỉ có bảng ghép nhóm.
+Ở lớp 10, ta đã đo độ phân tán của số liệu gốc, khi biết từng giá trị. Ở đây ta chỉ có bảng ghép nhóm, không biết giá trị chính xác của từng bạn. Bài này tìm cách đo độ phân tán trong hoàn cảnh ấy, và cho biết con số tìm được đáng tin đến đâu.
 
 ## Khoảng biến thiên của mẫu số liệu ghép nhóm
 
 ### Khám phá: ta biết gì về giá trị lớn nhất và nhỏ nhất?
 
-Từ bảng của lớp 12A, ta không biết chính xác thời gian của từng bạn. Ta chỉ biết bạn đi nhanh nhất nằm trong nhóm $[0; 10)$ và bạn đi lâu nhất nằm trong nhóm $[40; 50)$. Do đó hiệu giữa hai giá trị đó không vượt quá $50-0=50$ phút. Ta lấy con số $50$ làm khoảng biến thiên của mẫu ghép nhóm.
+Từ bảng của lớp 12A, ta không biết chính xác thời gian của từng bạn. Ta chỉ biết bạn đi nhanh nhất nằm trong nhóm $[0; 10)$ và bạn đi lâu nhất nằm trong nhóm $[40; 50)$. Vì vậy hiệu giữa hai giá trị ấy không thể vượt quá $50-0=50$ phút. Ta lấy con số $50$ làm khoảng biến thiên của mẫu ghép nhóm.
 
-Trong bài, mẫu số liệu ghép nhóm có $k$ nhóm $[u_1; u_2)$, $[u_2; u_3)$, …, $[u_k; u_{k+1})$ với tần số $n_1$, $n_2$, …, $n_k$ và cỡ mẫu $n=n_1+n_2+\cdots+n_k$. Ta giả sử nhóm đầu và nhóm cuối có tần số khác $0$.
+Từ đây, ta xét mẫu số liệu ghép nhóm có $k$ nhóm $[u_1; u_2)$, $[u_2; u_3)$, …, $[u_k; u_{k+1})$ với tần số $n_1$, $n_2$, …, $n_k$ và cỡ mẫu $n=n_1+n_2+\cdots+n_k$. Ta giả sử nhóm đầu và nhóm cuối có tần số khác $0$.
 
 :::definition Khoảng biến thiên
 Khoảng biến thiên của mẫu số liệu ghép nhóm là
@@ -36,11 +36,11 @@ $$R=u_{k+1}-u_1,$$
 tức là đầu mút phải của nhóm cuối trừ đầu mút trái của nhóm đầu.
 :::
 
-Với cả hai lớp, $R=50-0=50$ phút. Khoảng biến thiên **không** phân biệt được hai lớp, vì nó chỉ phụ thuộc vào hai nhóm ở hai đầu. Ta cần một số đo nhìn vào phần giữa của số liệu.
+Với cả hai lớp, $R=50-0=50$ phút. Khoảng biến thiên **không** phân biệt được hai lớp, vì nó chỉ phụ thuộc vào hai nhóm ở hai đầu, còn phần giữa thì nó bỏ qua. Vì vậy ta cần một số đo nhìn vào phần giữa của số liệu.
 
 ## Khoảng tứ phân vị
 
-Ở lớp 11, ta đã tính tứ phân vị của mẫu ghép nhóm bằng cách "chia đều" các giá trị trong nhóm chứa nó. Nhắc lại: tứ phân vị thứ nhất $Q_1$ nằm ở vị trí thứ $\frac n4$, tứ phân vị thứ ba $Q_3$ ở vị trí thứ $\frac{3n}{4}$.
+Ở lớp 11, ta đã tính tứ phân vị của mẫu ghép nhóm bằng cách "chia đều" các giá trị trong nhóm chứa nó. Ta nhắc lại: tứ phân vị thứ nhất $Q_1$ nằm ở vị trí thứ $\frac n4$, tứ phân vị thứ ba $Q_3$ nằm ở vị trí thứ $\frac{3n}{4}$. Hai điểm này đánh dấu hai đầu của phần giữa số liệu.
 
 :::theorem Tứ phân vị của mẫu số liệu ghép nhóm
 Gọi $[u_m; u_{m+1})$ là **nhóm đầu tiên có tần số tích luỹ lớn hơn hoặc bằng $\frac n4$**, $n_m$ là tần số của nó và $C=n_1+\cdots+n_{m-1}$ là tần số tích luỹ của các nhóm đứng trước. Khi đó
@@ -48,13 +48,13 @@ $$Q_1=u_m+\frac{\frac n4-C}{n_m}\cdot(u_{m+1}-u_m).$$
 $Q_3$ tính giống hệt, chỉ thay $\frac n4$ bằng $\frac{3n}{4}$ (và chọn nhóm theo $\frac{3n}{4}$).
 :::
 
-Phân số $\dfrac{\frac n4-C}{n_m}$ cho biết vị trí thứ $\frac n4$ đi được bao nhiêu phần của nhóm đó. Chẳng hạn nhóm có $12$ giá trị, cần đi thêm $6$ giá trị nữa, thì $Q_1$ nằm ở giữa nhóm.
+Phân số $\dfrac{\frac n4-C}{n_m}$ cho biết vị trí thứ $\frac n4$ đã đi được bao nhiêu phần của nhóm. Chẳng hạn nhóm có $12$ giá trị và ta cần đi thêm $6$ giá trị nữa, tức là đi được một nửa nhóm, thì $Q_1$ nằm ở giữa nhóm.
 
 :::definition Khoảng tứ phân vị
 Khoảng tứ phân vị của mẫu số liệu ghép nhóm là $\Delta_Q=Q_3-Q_1$. Khoảng từ $Q_1$ đến $Q_3$ chứa khoảng một nửa số liệu nằm ở giữa; $\Delta_Q$ càng nhỏ thì phần giữa của số liệu càng tập trung.
 :::
 
-Ví dụ đầu tiên tính đủ các số đo cho lớp 12A.
+Ta thử với lớp 12A và tính lần lượt từng số đo.
 
 :::example Lớp 12A
 Tính $R$, $Q_1$, $Q_3$ và $\Delta_Q$ cho thời gian đi học của lớp 12A.
@@ -72,7 +72,7 @@ $$Q_3=30+\frac{30-28}{8}\cdot10=30+2{,}5=32{,}5.$$
 Vậy $R=50$ phút, $Q_1=15$, $Q_3=32{,}5$ và $\Delta_Q=32{,}5-15=17{,}5$ phút. Khoảng một nửa số học sinh lớp 12A mất từ $15$ đến $32{,}5$ phút để đến trường.
 :::
 
-Làm tương tự cho lớp 12B, ta trả lời được câu hỏi ở đầu bài.
+Bây giờ làm tương tự cho lớp 12B rồi đặt hai kết quả cạnh nhau. Ta sẽ trả lời được câu hỏi ở đầu bài.
 
 :::example So sánh hai lớp
 Tính $\Delta_Q$ cho lớp 12B và so sánh với lớp 12A.
@@ -94,7 +94,7 @@ Do đó $\Delta_Q=\dfrac{55}{6}-\dfrac56=\dfrac{50}{6}\approx8{,}33$ phút.
 Hai lớp có cùng khoảng biến thiên, nhưng khoảng tứ phân vị của 12B chỉ bằng khoảng một nửa của 12A. Vậy thời gian đi học của lớp 12B đồng đều hơn.
 :::
 
-Khi $\frac n4$ không phải số nguyên, công thức vẫn dùng như cũ. Độ rộng nhóm cũng không nhất thiết bằng $10$.
+Đừng lo nếu $\frac n4$ không phải số nguyên: công thức vẫn dùng y như cũ. Độ rộng nhóm cũng không nhất thiết bằng $10$. Ví dụ sau có cả hai điều ấy.
 
 :::example Chiều cao cây giống
 Chiều cao (cm) của $50$ cây giống trong một vườn ươm được cho trong bảng. Tính $R$ và $\Delta_Q$.
@@ -117,12 +117,12 @@ Vậy $R=20$ cm và $\Delta_Q\approx23{,}83-16{,}6=7{,}23$ cm.
 :::
 
 :::note Giá trị bất thường
-Giống như ở lớp 10, có thể coi một giá trị là **bất thường** nếu nó nhỏ hơn $Q_1-1{,}5\,\Delta_Q$ hoặc lớn hơn $Q_3+1{,}5\,\Delta_Q$. Với vườn ươm trên, hai ngưỡng là khoảng $5{,}75$ cm và $34{,}68$ cm: một cây cao $36$ cm sẽ đáng được kiểm tra lại.
+Giống như ở lớp 10, ta có thể coi một giá trị là **bất thường** nếu nó nhỏ hơn $Q_1-1{,}5\,\Delta_Q$ hoặc lớn hơn $Q_3+1{,}5\,\Delta_Q$. Với vườn ươm ở trên, hai ngưỡng là khoảng $5{,}75$ cm và $34{,}68$ cm. Một cây cao $36$ cm vượt ngưỡng trên, nên đáng được kiểm tra lại.
 :::
 
 ## Số đo của mẫu ghép nhóm chỉ là xấp xỉ
 
-Khi ghép nhóm, ta mất thông tin về từng giá trị. Ví dụ sau so sánh số đo tính từ số liệu gốc với số đo tính từ bảng ghép nhóm.
+Khi ghép nhóm, ta đã bỏ đi thông tin về từng giá trị riêng lẻ. Vậy các số đo vừa tính sai lệch bao nhiêu so với thực tế? Ví dụ sau đặt cạnh nhau số đo tính từ số liệu gốc và số đo tính từ bảng ghép nhóm.
 
 :::example Số liệu gốc và số liệu ghép nhóm
 Thời gian đi học (phút) của $20$ học sinh, đã sắp xếp:
@@ -169,10 +169,11 @@ Vậy từ bảng ghép nhóm ta được $R=50$ (thật là $42$) và $\Delta_Q
 - $Q_1=u_m+\dfrac{\frac n4-C}{n_m}(u_{m+1}-u_m)$, với nhóm $m$ là nhóm đầu tiên có tần số tích luỹ $\ge\frac n4$, $C$ là tần số tích luỹ của các nhóm trước nó; $Q_3$: thay $\frac n4$ bằng $\frac{3n}{4}$.
 - $\Delta_Q=Q_3-Q_1$: độ rộng của nửa số liệu ở giữa; nhỏ hơn thì đồng đều hơn.
 - Đây là các giá trị xấp xỉ; $\Delta_Q$ ít bị ảnh hưởng bởi hai nhóm ở hai đầu hơn $R$.
+Quay lại câu hỏi đầu bài: hai lớp có cùng khoảng biến thiên, nhưng khoảng tứ phân vị mới cho biết lớp nào đồng đều hơn. Khi so sánh độ phân tán, bạn hãy nhìn cả hai số đo, và nhớ rằng với số liệu ghép nhóm chúng chỉ là xấp xỉ.
 
 ## Luyện tập
 
-Mỗi bài có phần kiến thức và gợi ý các bước. Hãy tự làm trước, rồi mới bấm xem lời giải.
+Mỗi bài có phần kiến thức và gợi ý các bước. Bạn hãy tự làm trước, rồi mới bấm xem lời giải. Chỗ nhiều bạn hay nhầm là chọn nhóm chứa tứ phân vị, nên hãy lập cột tần số tích luỹ trước khi tính.
 
 :::exercise
 Khối lượng (g) của $40$ quả táo được cho trong bảng. Tính $R$, $Q_1$, $Q_3$ và $\Delta_Q$.

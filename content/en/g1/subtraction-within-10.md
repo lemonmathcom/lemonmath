@@ -13,17 +13,18 @@ minutes: 15
 
 Lan has $7$ sweets. She eats $2$ of them. How many sweets does Lan have left?
 
-In the last lesson you put two groups together with addition. In this lesson you do the opposite: take away.
+In the last lesson you put two groups together with addition. But what if Lan eats some of her sweets, or gives a few toys away? Then you do the opposite: you take away, and see what is left.
 
 ## Let's explore
 
-Lan has $7$ sweets and eats $2$. You count back $2$ numbers starting from $7$.
+Back to Lan: she has $7$ sweets and eats $2$. To find out how many are left, you count back $2$ numbers, starting from $7$.
 
 - Say the number $7$ first: "seven".
 - Count back two: "six, five".
 - The last number is five.
+The number you land on is the number of sweets left.
 
-So Lan has $5$ sweets left. We write $7-2=5$ and read it "seven minus two equals five".
+So Lan has $5$ sweets left. We write it as a short line, $7-2=5$, and read it "seven minus two equals five".
 
 :::graph On the number line: from 7 count back 2 steps to 5
 alt: A number line with the points 7, 6, 5; the stretch from 7 back to 5 shows counting back two steps
@@ -43,11 +44,11 @@ point: (5, 0) "5" below
 5. Check with addition: $5+2=7$.
 :::
 
-This works because when you take away $2$ sweets, there are $2$ fewer sweets, and you just count the ones left.
+Why does counting back work? When you take away $2$ sweets, there are $2$ fewer sweets, and you only need to count the ones that are left.
 
 ## Examples
 
-We start with a very small subtraction.
+We try a very small subtraction first, to get used to counting back.
 
 :::example Work out $5-1$
 **Solution.** Say the first number "five", then count back one: "four".
@@ -55,7 +56,7 @@ We start with a very small subtraction.
 So $5-1=4$.
 :::
 
-Now count back more numbers.
+Now count back more steps. Many children count one too many here, so go slowly.
 
 :::example Work out $8-3$
 **Solution.** Say the first number "eight", then count back three: "seven, six, five".
@@ -65,7 +66,7 @@ So $8-3=5$.
 **Check.** $5+3=8$. Correct.
 :::
 
-Sometimes you take away the whole group.
+Sometimes you take away the whole group. What is left then?
 
 :::example Work out $6-6$
 **Solution.** Take away all $6$ things and nothing is left.
@@ -73,7 +74,7 @@ Sometimes you take away the whole group.
 So $6-6=0$.
 :::
 
-What about taking away $0$?
+And if you take away nothing, that is, take away $0$, what happens?
 
 :::example Work out $9-0$
 **Solution.** Taking away $0$ means taking away nothing, so the number stays the same.
@@ -81,7 +82,7 @@ What about taking away $0$?
 So $9-0=9$.
 :::
 
-Last, solve a word problem.
+Last, a real story: balloons blown away by the wind.
 
 :::example Balloons
 Binh has $9$ balloons. The wind blows $4$ of them away. How many balloons does Binh have left?
@@ -94,9 +95,10 @@ So Binh has $5$ balloons left.
 :::
 
 :::warning Mistakes to watch out for
-- **Counting the first number when going back.** Wrong: $8-3=6$ because you count "eight, seven, six". Why it is wrong: you only counted back $2$ numbers. Right: count back all $3$ numbers: seven, six, five. So $8-3=5$.
+- **Counting the first number when going back.** Wrong: $8-3=6$ because you count "eight, seven, six". Why it is wrong: you counted the first number too, so you only went back $2$ numbers. Right: count back all $3$ numbers: seven, six, five. So $8-3=5$.
 - **Swapping the two numbers.** Wrong: $2-5=3$. Why it is wrong: you cannot take $5$ away from $2$. Right: subtraction cannot be swapped.
-- **No unit in a word problem.** Wrong: "Answer: $5$". Right: "Answer: $5$ balloons".
+- **No unit in a word problem.** Wrong: "Answer: $5$". Why it is wrong: a number on its own does not say what it is a number of. Right: "Answer: $5$ balloons".
+Counting back needs a steady pace, so take your time.
 :::
 
 ## Key terms
@@ -117,10 +119,11 @@ So Binh has $5$ balloons left.
 - $9-0=9$ and $6-6=0$.
 - Check a subtraction with addition: $5+2=7$.
 - Words like "take away", "blown away" and "left" usually mean subtraction; remember the unit.
+Lan's question at the start is answered the same way: when things are taken away, you count back to see what is left. Practise a few more until it feels easy.
 
 ## Practice
 
-Each exercise comes with what you need and how to start. Try it yourself first, then open the solution.
+Each exercise comes with a reminder of what you need and a hint to start you off. Try it yourself first. If you get stuck, or when you have finished, open the solution.
 
 :::exercise
 Work out $5-2$.

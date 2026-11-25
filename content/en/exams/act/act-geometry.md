@@ -11,11 +11,11 @@ minutes: 45
 - Use sine, cosine and tangent in right triangles, and know key values on the unit circle.
 :::
 
-Geometry questions on the ACT are usually short: a diagram or a description, one or two facts to apply, and a number to find. Many students lose marks not because the geometry is hard but because they do not know a formula by heart or do not draw a quick sketch. This lesson gathers the facts you need and shows a clean solution for each type of question.
+A geometry question on the ACT is usually short: a diagram or a description, one or two facts to apply, and a number to find. So why do many students still lose marks? Usually not because the geometry is hard, but because a formula is not memorised, or because they did not draw a quick sketch. This lesson gathers the facts you need and shows a clean solution for each type of question.
 
 ## Right triangles and similar triangles
 
-In a right triangle with legs $a$, $b$ and hypotenuse $c$: $a^2+b^2=c^2$. Common triples such as $3,4,5$ and $5,12,13$ (and their multiples) save time. In **similar triangles**, corresponding sides are in the same ratio.
+The right triangle is the shape you will meet most often. If its legs are $a$, $b$ and its hypotenuse is $c$, then $a^2+b^2=c^2$. A few common triples are worth remembering, such as $3,4,5$ and $5,12,13$ (and their multiples), because spotting them saves a calculation. For **similar triangles**, the key idea is that corresponding sides are in the same ratio.
 
 :::example A ladder against a wall
 A $13$-meter ladder leans against a vertical wall. Its foot is $5$ meters from the wall. How high up the wall does the ladder reach?
@@ -48,9 +48,10 @@ So the tree is $12$ m tall, answer **C**. Option A uses the ratio upside down.
 ## Circles, areas and volumes
 
 :::note Formulas to know
-Circle: $C=2\pi r$, $A=\pi r^2$; an arc or sector with central angle $\theta^\circ$ is the fraction $\dfrac{\theta}{360}$ of the whole circle.
-Triangle: $A=\dfrac12bh$. Trapezoid: $A=\dfrac12(a+b)h$. Interior angles of an $n$-gon: $(n-2)\times180^\circ$.
+Circle: $C=2\pi r$, $A=\pi r^2$. An arc or sector with central angle $\theta^\circ$ is the fraction $\dfrac{\theta}{360}$ of the whole circle.
+Triangle: $A=\dfrac12bh$. Trapezium (called a trapezoid on the ACT): $A=\dfrac12(a+b)h$. Interior angles of an $n$-gon: $(n-2)\times180^\circ$.
 Rectangular box: $V=lwh$. Cylinder: $V=\pi r^2h$. Cone: $V=\dfrac13\pi r^2h$. Sphere: $V=\dfrac43\pi r^3$.
+There is no time to look these up during the test, so it pays to learn them beforehand.
 :::
 
 :::example From circumference to a sector
@@ -70,7 +71,7 @@ So the area of the sector is $5\pi$, answer **A**. Option C is the area of the w
 
 ## Coordinate geometry
 
-For points $(x_1,y_1)$ and $(x_2,y_2)$: the **distance** is $\sqrt{(x_2-x_1)^2+(y_2-y_1)^2}$, the **midpoint** is $\left(\dfrac{x_1+x_2}{2},\dfrac{y_1+y_2}{2}\right)$ and the **slope** is $\dfrac{y_2-y_1}{x_2-x_1}$. Parallel lines have equal slopes; perpendicular lines have slopes whose product is $-1$. A circle with center $(h,k)$ and radius $r$ has equation $(x-h)^2+(y-k)^2=r^2$.
+Every coordinate question starts from two points. For points $(x_1,y_1)$ and $(x_2,y_2)$: the **distance** is $\sqrt{(x_2-x_1)^2+(y_2-y_1)^2}$, the **midpoint** is $\left(\dfrac{x_1+x_2}{2},\dfrac{y_1+y_2}{2}\right)$ and the **slope** is $\dfrac{y_2-y_1}{x_2-x_1}$. Parallel lines have equal slopes; perpendicular lines have slopes whose product is $-1$. A circle with centre $(h,k)$ and radius $r$ has equation $(x-h)^2+(y-k)^2=r^2$. The next two examples put these formulas straight to work.
 
 :::example Midpoint and distance
 The endpoints of a segment are $(-2,5)$ and $(6,-1)$. What are the midpoint and the length of the segment?
@@ -105,7 +106,7 @@ So the equation is $y=-\dfrac12x+\dfrac72$, answer **B**. Option D uses $-2$ ins
 
 ## Right-triangle trigonometry
 
-In a right triangle with acute angle $\theta$: $\sin\theta=\dfrac{\text{opposite}}{\text{hypotenuse}}$, $\cos\theta=\dfrac{\text{adjacent}}{\text{hypotenuse}}$, $\tan\theta=\dfrac{\text{opposite}}{\text{adjacent}}$. Know the values for $30^\circ$, $45^\circ$ and $60^\circ$, and that $\sin^2\theta+\cos^2\theta=1$.
+In a right triangle with acute angle $\theta$, sine, cosine and tangent are just three ratios of sides: $\sin\theta=\dfrac{\text{opposite}}{\text{hypotenuse}}$, $\cos\theta=\dfrac{\text{adjacent}}{\text{hypotenuse}}$, $\tan\theta=\dfrac{\text{opposite}}{\text{adjacent}}$. Learn the values for $30^\circ$, $45^\circ$ and $60^\circ$, and the fact that $\sin^2\theta+\cos^2\theta=1$.
 
 :::example From sine to tangent
 In a right triangle, $\sin\theta=\dfrac35$ for an acute angle $\theta$. What is $\tan\theta$?
@@ -124,10 +125,11 @@ So $\tan\theta=\dfrac34$, answer **D**. Option A is $\cos\theta$.
 
 :::warning Common traps
 - **Adding instead of subtracting** in the Pythagorean theorem when the hypotenuse is known.
-- **Diameter or radius:** a question may give one and the formula needs the other.
+- **Diameter or radius:** a question may give one while the formula needs the other.
 - **Perpendicular slope:** take the negative reciprocal, not just the negative.
 - **Sector fractions:** use $\dfrac{\theta}{360}$ for degrees.
 - **Calculator mode:** ACT trigonometry questions use degrees unless radians are stated.
+A quick sketch and a check of the units catch most of these.
 :::
 
 :::terms

@@ -12,14 +12,14 @@ minutes: 50
 - Tìm bán kính và khoảng hội tụ của chuỗi luỹ thừa, kể cả hai đầu mút.
 :::
 
-Unit 10 là unit lớn nhất chỉ có ở BC, chiếm khoảng một phần sáu điểm BC, và gần như đề BC nào cũng có một câu tự luận về nó: lập đa thức Taylor, đánh giá sai số, tìm khoảng hội tụ. Điểm thuộc về học sinh nêu tên tiêu chuẩn mình dùng và viết ra việc kiểm tra điều kiện. Viết "hội tụ theo tiêu chuẩn tỉ số" kèm giới hạn được tính ra thì có điểm; chỉ viết "hội tụ" thì không.
+Nếu cộng mãi những số ngày càng nhỏ, tổng có dừng lại ở một con số nào đó không? Câu hỏi nghe lạ ấy chính là Unit 10. Đây là unit lớn nhất chỉ có ở BC, chiếm khoảng một phần sáu điểm BC, và gần như đề BC nào cũng có một câu tự luận về nó: lập đa thức Taylor, đánh giá sai số, tìm khoảng hội tụ. Điểm thuộc về người nêu tên tiêu chuẩn mình dùng và viết ra việc kiểm tra điều kiện. Viết "hội tụ theo tiêu chuẩn tỉ số" kèm giới hạn được tính ra thì có điểm; chỉ viết "hội tụ" thì không.
 
 ## Hội tụ: bộ công cụ cơ bản
 
 :::note Các chuỗi phải nhận ra ngay
-- **Chuỗi hình học:** $\displaystyle\sum_{n=0}^\infty ar^n$ hội tụ về $\dfrac{a}{1-r}$ khi $|r|<1$, và phân kì khi $|r|\ge1$.
-- **Chuỗi $p$:** $\displaystyle\sum_{n=1}^\infty\frac{1}{n^p}$ hội tụ khi $p>1$ và phân kì khi $p\le1$. **Chuỗi điều hoà** ($p=1$) phân kì.
-- **Tiêu chuẩn số hạng thứ $n$:** nếu $\displaystyle\lim_{n\to\infty}a_n\ne0$ thì chuỗi phân kì. Nếu giới hạn bằng $0$ thì tiêu chuẩn này không kết luận được gì.
+- **Chuỗi hình học:** $\displaystyle\sum_{n=0}^\infty ar^n$ hội tụ về $\dfrac{a}{1-r}$ khi $|r|<1$, và phân kì khi $|r|\ge1$. Nghĩa là các số hạng phải co lại đủ nhanh thì tổng mới dừng được.
+- **Chuỗi $p$:** $\displaystyle\sum_{n=1}^\infty\frac{1}{n^p}$ hội tụ khi $p>1$ và phân kì khi $p\le1$. **Chuỗi điều hoà** ($p=1$) phân kì, dù các số hạng nhỏ dần.
+- **Tiêu chuẩn số hạng thứ $n$:** nếu $\displaystyle\lim_{n\to\infty}a_n\ne0$ thì chuỗi phân kì. Nếu giới hạn bằng $0$ thì tiêu chuẩn này không kết luận được gì: chuỗi có thể hội tụ, cũng có thể không.
 :::
 
 :::example Tổng của chuỗi hình học
@@ -40,12 +40,12 @@ D. $\displaystyle\sum_{n=1}^\infty\left(\frac54\right)^n$
 
 ## Thêm các tiêu chuẩn, hội tụ tuyệt đối và có điều kiện
 
-- **Tiêu chuẩn tích phân:** nếu $f$ dương, liên tục, nghịch biến và $f(n)=a_n$ thì $\displaystyle\sum a_n$ và $\displaystyle\int_1^\infty f(x)\,dx$ cùng hội tụ hoặc cùng phân kì.
-- **So sánh và so sánh giới hạn:** so với một chuỗi hình học hoặc chuỗi $p$ đã biết tính chất.
+- **Tiêu chuẩn tích phân:** nếu $f$ dương, liên tục, nghịch biến và $f(n)=a_n$ thì $\displaystyle\sum a_n$ và $\displaystyle\int_1^\infty f(x)\,dx$ cùng hội tụ hoặc cùng phân kì. Chuỗi và diện tích dưới đồ thị đi cùng nhau.
+- **So sánh và so sánh giới hạn:** đặt chuỗi của ta cạnh một chuỗi hình học hoặc chuỗi $p$ đã biết tính chất, rồi xem chuỗi của ta cư xử giống chuỗi ấy hay không.
 - **Tiêu chuẩn tỉ số:** nếu $\displaystyle\lim_{n\to\infty}\left|\frac{a_{n+1}}{a_n}\right|=L$ thì chuỗi hội tụ tuyệt đối khi $L<1$ và phân kì khi $L>1$; $L=1$ thì không kết luận được.
-- **Tiêu chuẩn chuỗi đan dấu:** $\displaystyle\sum(-1)^nb_n$ với $b_n>0$ giảm dần và $b_n\to0$ thì hội tụ.
+- **Tiêu chuẩn chuỗi đan dấu:** $\displaystyle\sum(-1)^nb_n$ với $b_n>0$ giảm dần và $b_n\to0$ thì hội tụ. Các số hạng đổi dấu liên tục và nhỏ dần, nên tổng không thể chạy đi xa.
 
-Chuỗi **hội tụ tuyệt đối** nếu $\displaystyle\sum|a_n|$ hội tụ; chuỗi **hội tụ có điều kiện** nếu nó hội tụ nhưng $\displaystyle\sum|a_n|$ phân kì.
+Có chuỗi hội tụ nhờ các số hạng đổi dấu và bù trừ cho nhau; có chuỗi hội tụ ngay cả khi bỏ dấu đi. Hai trường hợp ấy khác nhau, nên ta đặt tên riêng. Chuỗi **hội tụ tuyệt đối** nếu $\displaystyle\sum|a_n|$ hội tụ; chuỗi **hội tụ có điều kiện** nếu nó hội tụ nhưng $\displaystyle\sum|a_n|$ phân kì.
 
 :::example Tiêu chuẩn tỉ số
 Chứng tỏ $\displaystyle\sum_{n=1}^\infty\frac{n^2}{3^n}$ hội tụ.
@@ -61,7 +61,7 @@ Phân loại $\displaystyle\sum_{n=1}^\infty\frac{(-1)^{n+1}}{n}$ và $\displays
 
 ## Đa thức Taylor và cận sai số
 
-Đa thức Taylor bậc $n$ của $f$ tại $x=a$ là
+Ý tưởng của đa thức Taylor là thay một hàm phức tạp bằng một đa thức, rồi chọn hệ số sao cho hai bên có cùng giá trị và cùng các đạo hàm tại một điểm. Đa thức Taylor bậc $n$ của $f$ tại $x=a$ là
 $$P_n(x)=f(a)+f'(a)(x-a)+\frac{f''(a)}{2!}(x-a)^2+\dots+\frac{f^{(n)}(a)}{n!}(x-a)^n.$$
 
 :::note Các chuỗi Maclaurin cần thuộc lòng
@@ -90,7 +90,7 @@ Tính gần đúng $\cos0{,}5$ bằng $1-\dfrac{x^2}{2}$ và đánh giá sai s�
 
 ## Chuỗi luỹ thừa và khoảng hội tụ
 
-Chuỗi luỹ thừa $\displaystyle\sum c_n(x-a)^n$ hội tụ trên một khoảng có tâm $a$. Dùng tiêu chuẩn tỉ số để tìm bán kính, rồi **xét riêng từng đầu mút**: tiêu chuẩn tỉ số không cho thông tin gì ở đó.
+Chuỗi luỹ thừa $\displaystyle\sum c_n(x-a)^n$ giống một đa thức dài vô hạn, và nó không hội tụ với mọi giá trị của biến. Câu hỏi là hội tụ ở đâu. Câu trả lời là một khoảng có tâm $a$. Ta dùng tiêu chuẩn tỉ số để tìm bán kính, rồi **xét riêng từng đầu mút**, vì ở đó tiêu chuẩn tỉ số không cho thông tin gì.
 
 :::example Khoảng hội tụ chứa một đầu mút
 Tìm khoảng hội tụ của $\displaystyle\sum_{n=1}^\infty\frac{(x-2)^n}{n\cdot3^n}$.
@@ -101,11 +101,11 @@ Tại $x=5$: $\displaystyle\sum\frac1n$, chuỗi điều hoà, phân kì. Tại 
 :::
 
 :::warning Những cái bẫy thường gặp
-- **Dùng tiêu chuẩn số hạng thứ $n$ để chứng minh hội tụ.** Chỉ có $a_n\to0$ thì chưa chứng minh được gì: chuỗi điều hoà là phản ví dụ.
-- **Bỏ qua hai đầu mút**, hoặc xét đầu mút bằng tiêu chuẩn tỉ số.
-- **Quên giai thừa** trong đa thức Taylor.
-- **Không nêu tên tiêu chuẩn.** Viết tên tiêu chuẩn, kiểm tra điều kiện, nêu kết luận.
-- **Nhầm hai cận sai số.** Cận của chuỗi đan dấu cần chuỗi đan dấu có số hạng giảm dần; cận Lagrange cần một chặn $M$ của đạo hàm cấp tiếp theo.
+- **Dùng tiêu chuẩn số hạng thứ $n$ để chứng minh hội tụ.** Tiêu chuẩn này chỉ chứng minh được phân kì. Chỉ có $a_n\to0$ thì chưa chứng minh được gì: chuỗi điều hoà là phản ví dụ.
+- **Bỏ qua hai đầu mút**, hoặc xét đầu mút bằng tiêu chuẩn tỉ số. Chỗ này nhiều bạn hay mất điểm: mỗi đầu mút phải thử riêng, bằng một tiêu chuẩn khác.
+- **Quên giai thừa** trong đa thức Taylor. Mỗi hệ số đều phải chia cho giai thừa tương ứng.
+- **Không nêu tên tiêu chuẩn.** Viết tên tiêu chuẩn, kiểm tra điều kiện, rồi nêu kết luận, đúng thứ tự đó.
+- **Nhầm hai cận sai số.** Cận của chuỗi đan dấu cần một chuỗi đan dấu có số hạng giảm dần; cận Lagrange cần một chặn $M$ của đạo hàm cấp tiếp theo.
 :::
 
 :::terms

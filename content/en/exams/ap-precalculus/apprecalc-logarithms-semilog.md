@@ -12,15 +12,15 @@ minutes: 50
 - Read a semi-log plot and turn a linear relation in $\log y$ into an exponential model.
 :::
 
-Logarithms answer the question exponentials ask in reverse: "to what power?" In AP Precalculus they appear in three ways: as inverse functions, as tools for solving equations where the unknown sits in an exponent, and as the scale behind semi-log plots. This lesson covers all three, building on the exponential models of the previous lesson.
+Suppose a sum of money grows exponentially and you want to know how long it takes to reach a target. An exponential gives you the amount when you know the time. This question runs the other way: you know the amount and want the time. That is the question "to what power?", and logarithms exist to answer it. In AP Precalculus they appear in three ways: as inverse functions, as tools for solving equations where the unknown sits in an exponent, and as the scale behind semi-log plots. We will look at all three, building on the exponential models of the previous lesson.
 
 ## Inverse functions and the meaning of a logarithm
 
-If $f$ maps input $x$ to output $y$, its **inverse** $f^{-1}$ maps $y$ back to $x$. To find it, write $y=f(x)$, swap $x$ and $y$, and solve for $y$. The graphs of $f$ and $f^{-1}$ are reflections in the line $y=x$, and the domain of one is the range of the other.
+Think of a function as a machine: put one number in, and another comes out. The inverse runs the machine backwards. If $f$ maps input $x$ to output $y$, its **inverse** $f^{-1}$ maps $y$ back to $x$. To find it, write $y=f(x)$, swap $x$ and $y$, and solve for $y$. Why swap? Because the roles of input and output have traded places. As a result, the graphs of $f$ and $f^{-1}$ are reflections in the line $y=x$, and the domain of one is the range of the other.
 
 The logarithm is the inverse of the exponential:
 $$y=\log_b x \iff b^y=x,\qquad b>0,\ b\ne1,\ x>0.$$
-So $\log_b x$ is the exponent that turns $b$ into $x$. The common log is $\log x=\log_{10}x$; the natural log is $\ln x=\log_e x$.
+Read the formula above in words: $\log_b x$ is the exponent that turns $b$ into $x$. It is just the question "to what power?" written compactly. Two bases come up so often that they have names of their own. The common log is $\log x=\log_{10}x$; the natural log is $\ln x=\log_e x$.
 
 :::example An inverse function
 For $f(x)=2x+6$, the inverse function is
@@ -38,7 +38,7 @@ So $f^{-1}(x)=\dfrac{x-6}{2}$, answer **B**. Option C is the reciprocal $\dfrac{
 
 ## Logarithm rules
 
-For $b>0$, $b\ne1$ and $M,N>0$:
+The four rules below hold when $b>0$, $b\ne1$ and $M,N>0$:
 
 | Rule | Formula |
 |---|---|
@@ -47,7 +47,7 @@ For $b>0$, $b\ne1$ and $M,N>0$:
 | Power | $\log_b M^k=k\log_b M$ |
 | Change of base | $\log_b M=\dfrac{\ln M}{\ln b}$ |
 
-These follow from the exponent rules: multiplying powers adds exponents, so logs of products add.
+Why does a product become a sum? Because a logarithm is an exponent, and multiplying powers adds exponents. So the log of a product is the sum of the logs. The other rules come from the exponent rules in the same way.
 
 :::example Combining logarithms
 The value of $\log_3 54-\log_3 2$ is
@@ -65,8 +65,9 @@ So the value is $3$, answer **A**. Option D wrongly divides the logs instead of 
 
 ## Solving exponential and logarithmic equations
 
-- **Unknown in an exponent:** isolate the power, then take a logarithm of both sides (or match bases).
-- **Unknown inside a logarithm:** combine into a single log, rewrite in exponential form, solve, and **check the domain**: every argument must be positive.
+- **Unknown in an exponent:** isolate the power, then take a logarithm of both sides (or match bases). The logarithm brings the exponent down to where you can reach it.
+- **Unknown inside a logarithm:** combine into a single log, rewrite in exponential form, solve, and **check the domain**: every argument must be positive. Many students forget this step.
+Start by looking at where the unknown sits, because that tells you which route to take.
 
 :::example Exponential equations
 Solve each equation.
@@ -95,7 +96,7 @@ So the only solution is $x=6$.
 
 ## Logarithmic graphs and semi-log plots
 
-The graph of $y=\log_b x$ with $b>1$ passes through $(1,0)$ and $(b,1)$, increases, is concave down, and has the vertical asymptote $x=0$. Transformations work as usual: $y=\log_b(x-h)+k$ has domain $x>h$ and asymptote $x=h$.
+A graph shows how a logarithm behaves. The graph of $y=\log_b x$ with $b>1$ passes through $(1,0)$ and $(b,1)$, increases, is concave down, and has the vertical asymptote $x=0$. It creeps towards the asymptote but never touches it. Transformations work as usual: $y=\log_b(x-h)+k$ has domain $x>h$ and asymptote $x=h$.
 
 :::graph The graph of $y=\log_2(x-3)+1$
 alt: An increasing curve that starts near a dashed vertical asymptote at x = 3, crosses the x-axis at 3.5 and passes through (4, 1) and (7, 3)
@@ -108,9 +109,9 @@ point: (4, 1) "(4, 1)" above-left
 point: (7, 3) "(7, 3)" above-left
 :::
 
-The graph above is $y=\log_2(x-3)+1$: domain $x>3$, asymptote $x=3$, and $x$-intercept $3.5$, because $\log_2(x-3)=-1$ gives $x-3=\tfrac12$.
+Now read the graph above. It is $y=\log_2(x-3)+1$: domain $x>3$ and asymptote $x=3$. To find where it crosses the horizontal axis, set the function equal to zero, which means $\log_2(x-3)=-1$, so $x-3=\tfrac12$. The $x$-intercept is therefore $3.5$.
 
-On a **semi-log plot** the vertical axis shows $\log y$. Exponential data $y=ab^x$ then lie on a straight line, because $\log y=\log a+x\log b$: the intercept is $\log a$ and the slope is $\log b$.
+Exponential data grow so fast that they are hard to read on an ordinary graph. A **semi-log plot** gets round this: the vertical axis shows $\log y$. Exponential data $y=ab^x$ then lie on a straight line, because $\log y=\log a+x\log b$. Reading off that line, the intercept is $\log a$ and the slope is $\log b$.
 
 :::example From a semi-log line to a model
 On a semi-log plot, data lie on the line $\log y=0.3x+1$. Which exponential model fits the data?
@@ -127,11 +128,12 @@ So the model is $y=10\cdot(1.995)^x$, answer **C**.
 :::
 
 :::warning Common traps
-- **$\log(M+N)$ is not $\log M+\log N$:** the product rule is about $\log(MN)$.
-- **Check the domain** after solving any log equation.
+- **$\log(M+N)$ is not $\log M+\log N$:** a very common slip. The product rule is about $\log(MN)$, not about a sum.
+- **Check the domain** after solving any log equation, because a solution may make an argument negative.
 - **The inverse is not the reciprocal:** $f^{-1}(x)\ne\dfrac{1}{f(x)}$.
-- **Semi-log slope:** the slope is $\log b$, so $b=10^{\text{slope}}$, not the slope itself.
-- **Calculator:** use parentheses, as in $\ln(7)/\ln(3)$.
+- **Semi-log slope:** the slope is $\log b$, so $b=10^{\text{slope}}$, not the slope itself. Convert back before you write the model.
+- **Calculator:** use parentheses, as in $\ln(7)/\ln(3)$, so the calculator divides one log by the other.
+If an answer looks wrong, check these five places first; most slips hide there.
 :::
 
 :::terms

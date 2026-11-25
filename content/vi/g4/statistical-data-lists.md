@@ -10,34 +10,36 @@ minutes: 15
 - Đếm số lần một số xuất hiện và so sánh các số liệu bằng phép trừ.
 :::
 
-Cô giáo hỏi sáu bạn trong tổ em đã đọc bao nhiêu quyển truyện trong tháng. Bạn Mai đọc $5$ quyển, Nam đọc $3$ quyển, Hà đọc $7$ quyển, Bình đọc $4$ quyển, Lan đọc $6$ quyển và Tú đọc $3$ quyển. Bạn nào đọc nhiều nhất? Bạn nào đọc ít nhất?
+Cô giáo hỏi sáu bạn trong tổ em đã đọc bao nhiêu quyển truyện trong tháng. Bạn Mai đọc $5$ quyển, Nam đọc $3$ quyển, Hà đọc $7$ quyển, Bình đọc $4$ quyển, Lan đọc $6$ quyển và Tú đọc $3$ quyển. Nhìn một loạt số như vậy, em có trả lời ngay được không: bạn nào đọc nhiều nhất? Bạn nào đọc ít nhất?
 
-Các số $5, 3, 7, 4, 6, 3$ là những thông tin ta thu thập được. Bài này dạy em cách đọc và so sánh chúng.
+Các số $5, 3, 7, 4, 6, 3$ là thông tin cô giáo thu thập được. Để lộn xộn thì rất dễ đọc nhầm. Nhưng khi biết đọc cả dãy số theo thứ tự, em trả lời những câu hỏi như trên chỉ trong ít giây. Ta cùng tập đọc và so sánh chúng nhé.
 
 ## Cùng khám phá
 
-Trước hết, ta ghi lại thông tin vào một bảng.
+Trước hết, ta ghi thông tin vào một bảng cho gọn, mỗi bạn một cột.
 
 | Bạn | Mai | Nam | Hà | Bình | Lan | Tú |
 |---|---|---|---|---|---|---|
 | Số quyển truyện | $5$ | $3$ | $7$ | $4$ | $6$ | $3$ |
 
-Chỉ lấy hàng số, ta được một dãy: $5, 3, 7, 4, 6, 3$. Em trả lời từng câu hỏi nhỏ:
+Chỉ lấy hàng số, ta được một dãy: $5, 3, 7, 4, 6, 3$. Ta hỏi dãy số này từng câu nhỏ, em trả lời nhé:
 
 - Có bao nhiêu số? Đếm từng số: có $6$ số, ứng với $6$ bạn.
 - Số nào lớn nhất? So sánh các số: $7$ lớn nhất, đó là bạn Hà.
 - Số nào nhỏ nhất? $3$ nhỏ nhất, đó là Nam và Tú.
 - Sắp xếp từ bé đến lớn: $3, 3, 4, 5, 6, 7$. Em chú ý số $3$ xuất hiện hai lần nên viết hai lần.
 
+Trả lời từng câu nhỏ như vậy thì không bỏ sót bạn nào.
+
 :::definition Dãy số liệu thống kê
 Những số ta thu thập được về cùng một việc (ví dụ số quyển truyện, số đo chiều cao) gọi là **số liệu**. Các số liệu viết thành một hàng gọi là **dãy số liệu thống kê**. Mỗi bạn hay mỗi lần đo cho một số liệu, nên số số liệu bằng số bạn hay số lần đo.
 :::
 
-Khi đọc dãy số liệu, em luôn làm theo ba việc: đếm xem có bao nhiêu số, tìm số lớn nhất và nhỏ nhất, rồi trả lời câu hỏi của đề.
+Mỗi khi gặp một dãy số liệu, em làm ba việc theo thứ tự: đếm xem có bao nhiêu số, tìm số lớn nhất và nhỏ nhất, rồi mới trả lời câu hỏi của đề. Làm đúng thứ tự thì ít khi bị nhầm.
 
 ## Ví dụ
 
-Ta bắt đầu với một dãy ngắn.
+Ta bắt đầu với một dãy ngắn: số bàn thắng của đội bóng lớp em.
 
 :::example Số bàn thắng
 Đội bóng lớp em ghi được số bàn thắng trong $7$ trận là: $2, 0, 3, 1, 3, 2, 4$. Hỏi: a) Đội đã đá mấy trận? b) Trận nhiều bàn thắng nhất có mấy bàn? c) Có mấy trận ghi đúng $2$ bàn?
@@ -51,7 +53,7 @@ b) Số lớn nhất là $4$, nên trận nhiều nhất có $4$ bàn.
 c) Số $2$ xuất hiện ở trận đầu và trận thứ sáu, nên có $2$ trận.
 :::
 
-Bây giờ ta sắp xếp số liệu và so sánh.
+Bây giờ ta sắp xếp số liệu rồi so sánh. Sắp xong, số bé nhất và lớn nhất nằm ở hai đầu.
 
 :::example Chiều cao
 Chiều cao của $5$ bạn (cm) là: $132, 128, 135, 130, 128$. Hãy sắp xếp từ bé đến lớn, rồi tìm bạn cao nhất hơn bạn thấp nhất bao nhiêu xăng-ti-mét.
@@ -63,7 +65,7 @@ $$135-128=7\ \text{(cm)}.$$
 Vậy bạn cao nhất hơn bạn thấp nhất $7$ cm.
 :::
 
-Dãy số liệu thường cho trong bảng. Ta đọc bảng rồi làm tiếp.
+Dãy số liệu thường được cho trong bảng. Em đọc bảng để lấy dãy số, rồi làm tiếp như trước.
 
 :::example Sĩ số các lớp
 Bảng cho sĩ số các lớp khối Bốn:
@@ -79,7 +81,7 @@ $$32+30+34+32=128\ \text{(học sinh)}.$$
 Vậy lớp $4$C đông nhất, cả khối có $128$ học sinh.
 :::
 
-Cuối cùng, ta đếm xem một số xuất hiện bao nhiêu lần.
+Cuối cùng, ta đếm xem một số xuất hiện mấy lần. Chỗ này cần cẩn thận, vì số lặp lại vẫn phải đếm đủ.
 
 :::example Số lần xuất hiện
 Cho dãy số liệu $6, 9, 4, 9, 7$. Có mấy số liệu? Số nào xuất hiện nhiều lần nhất?
@@ -93,6 +95,8 @@ Cho dãy số liệu $6, 9, 4, 9, 7$. Có mấy số liệu? Số nào xuất hi
 - **Bỏ số lặp lại.** Sai: dãy $6, 9, 4, 9, 7$ có $4$ số. Vì sao sai: mỗi bạn hay mỗi lần đo cho một số, số $9$ xuất hiện hai lần thì tính hai lần. Đúng: $5$ số.
 - **Nhầm số lớn nhất với số xuất hiện nhiều nhất.** Sai: dãy $3, 8, 3, 5$ có số xuất hiện nhiều nhất là $8$. Vì sao sai: $8$ chỉ là số lớn nhất, còn $3$ xuất hiện hai lần. Đúng: số $3$.
 - **Khi sắp xếp, làm mất số lặp lại.** Sai: sắp $7, 3, 9, 3$ thành $3, 7, 9$. Vì sao sai: dãy mới thiếu một số $3$. Đúng: $3, 3, 7, 9$.
+
+Ba chỗ này nhiều bạn hay nhầm. Em đếm chậm, từng số một, là tránh được.
 :::
 
 ## Thuật ngữ
@@ -115,9 +119,11 @@ Cho dãy số liệu $6, 9, 4, 9, 7$. Có mấy số liệu? Số nào xuất hi
 - Sắp xếp từ bé đến lớn: viết đủ mọi số, kể cả số lặp lại.
 - So sánh hai số liệu bằng phép trừ: $\text{lớn}-\text{bé}$.
 
+Quay lại câu hỏi đầu bài: sáu bạn cho sáu số, bạn Hà đọc nhiều nhất, còn Nam và Tú đọc ít nhất. Em nhớ đếm đủ mọi số, kể cả số lặp lại, rồi làm các bài luyện tập để quen dần nhé.
+
 ## Luyện tập
 
-Mỗi bài có phần kiến thức và gợi ý. Em hãy tự làm trước, rồi mới bấm xem lời giải.
+Mỗi bài có phần kiến thức và gợi ý để em bắt đầu. Em hãy tự làm trước, rồi mới bấm xem lời giải. Làm sai một lần cũng không sao, vì chỗ sai thường chỉ đúng chỗ cần nhớ.
 
 :::exercise
 Cho dãy số liệu $4, 8, 6, 9, 5$. Dãy có mấy số? Số lớn nhất và số nhỏ nhất là số nào?

@@ -10,36 +10,36 @@ minutes: 15
 - Compare and order numbers up to $100\,000$.
 :::
 
-Our school library has $36\,407$ books. How do you read this number? What is the value of the digit $6$? The library of the next school has $36\,470$ books. Which school has more books?
+Our school library has $36\,407$ books. How do you read this number? What is the value of the digit $6$? The library of the next school has $36\,470$ books. The two numbers look almost the same, so which school has more books?
 
-You learned these numbers in Grade 3. This lesson helps you remember them well before we meet bigger numbers.
+You learned these numbers in Grade 3. We go over them again so they feel solid, because bigger numbers are read, written and compared in exactly the same way.
 
 ## Let's explore
 
-Each digit in a number has a **place**. For the number $36\,407$, read from left to right:
+Each digit in a number sits in a **place**, and the place decides what the digit is worth. For the number $36\,407$, read from left to right:
 
 | Place | Ten thousands | Thousands | Hundreds | Tens | Ones |
 |---|---|---|---|---|---|
 | Digit | $3$ | $6$ | $4$ | $0$ | $7$ |
 | Value | $30\,000$ | $6\,000$ | $400$ | $0$ | $7$ |
 
-Add the values and you get the number back:
+Add the values in the bottom row and you get the number back:
 $$36\,407=30\,000+6\,000+400+0+7.$$
 
-So the digit $6$ is in the thousands place and has value $6\,000$. We read the number as: **thirty-six thousand, four hundred and seven**. The tens digit is $0$, so we say "and seven" with no tens.
+So the digit $6$ is in the thousands place, which makes its value $6\,000$. We read the number as: **thirty-six thousand, four hundred and seven**. The tens digit is $0$, so we say "and seven" with no tens.
 
-Now compare $36\,407$ and $36\,470$. Both have $5$ digits. The ten thousands, thousands and hundreds digits are the same ($3$, $6$, $4$). In the tens place we have $0$ and $7$. Since $0<7$, we get $36\,407<36\,470$. The next school has more books.
+Now compare $36\,407$ and $36\,470$. Both have $5$ digits. The ten thousands, thousands and hundreds digits are the same ($3$, $6$, $4$), so they cannot separate the two numbers. In the tens place we have $0$ and $7$. Since $0<7$, we get $36\,407<36\,470$. The next school has more books.
 
 :::theorem Reading, writing and comparing numbers
 - **Reading and writing:** read from the highest place to the lowest. Say "thousand" after the ten thousands and thousands part. If a place in the middle is $0$, skip it when reading, but write $0$ when writing.
 - **Comparing:** the number with more digits is greater. If two numbers have the same number of digits, compare place by place from the highest place; the first place where they differ decides, and the bigger digit gives the bigger number.
 :::
 
-This works because higher places are worth much more: $1$ ten thousand is $10\,000$, which is more than all the other four places can make together.
+Why does the first place that differs decide? Because higher places are worth much more: $1$ ten thousand is $10\,000$, which is more than all the other four places can make together.
 
 ## Examples
 
-We start by reading and partitioning a number.
+We start by reading a number and seeing which digit sits in which place.
 
 :::example Reading a number
 Read the number $52\,019$ and give the digit in each place.
@@ -53,7 +53,7 @@ Read the number $52\,019$ and give the digit in each place.
 The hundreds digit is $0$, so we skip hundreds. So $52\,019$ is read: **fifty-two thousand and nineteen**.
 :::
 
-From the places, we can write a number as a sum.
+Once we know the value of each place, we can write a number as a sum.
 
 :::example Writing as a sum
 Write $84\,350$ as a sum of its places.
@@ -64,7 +64,7 @@ $$84\,350=80\,000+4\,000+300+50.$$
 So $84\,350=80\,000+4\,000+300+50$.
 :::
 
-Next we compare two numbers.
+Now we compare two numbers. Look at the number of digits first, then compare place by place.
 
 :::example Comparing numbers
 Compare: a) $45\,678$ and $45\,687$; b) $9\,999$ and $10\,000$.
@@ -74,7 +74,7 @@ Compare: a) $45\,678$ and $45\,687$; b) $9\,999$ and $10\,000$.
 b) $9\,999$ has $4$ digits and $10\,000$ has $5$ digits. The number with more digits is greater. So $9\,999<10\,000$.
 :::
 
-With several numbers, we compare them one by one and then put them in order.
+With several numbers, we compare them two at a time and then put them in order.
 
 :::example Ordering numbers
 Put the numbers $23\,540$; $32\,450$; $23\,450$; $9\,999$ in order from least to greatest.
@@ -84,7 +84,7 @@ Put the numbers $23\,540$; $32\,450$; $23\,450$; $9\,999$ in order from least to
 So the order from least to greatest is: $9\,999$; $23\,450$; $23\,540$; $32\,450$.
 :::
 
-Finally, the number before and the number after.
+Finally, the number before and the number after: each is just one step away.
 
 :::example The number before and after
 Find the number after $69\,999$ and the number before $40\,000$.
@@ -99,6 +99,7 @@ So the number after $69\,999$ is $70\,000$, and the number before $40\,000$ is $
 - **Dropping a zero when reading.** Wrong: reading $30\,502$ as "thirty thousand, five hundred and twenty". Why it is wrong: that is $30\,520$. Right: "thirty thousand, five hundred and two".
 - **Comparing when the numbers of digits differ.** Wrong: $9\,999>10\,000$ because $9>1$. Why it is wrong: $10\,000$ has more digits. Right: $9\,999<10\,000$.
 - **Mixing up a digit and its value.** Wrong: the digit $6$ in $46\,280$ has value $6$. Why it is wrong: the $6$ is in the thousands place. Right: its value is $6\,000$.
+Don't worry if these slips look familiar. Each time you read or compare a number, ask yourself: which place is this digit in?
 :::
 
 ## Key terms
@@ -120,10 +121,11 @@ So the number after $69\,999$ is $70\,000$, and the number before $40\,000$ is $
 - Each digit has a value given by its place: $36\,407=30\,000+6\,000+400+7$.
 - Read from the highest place to the lowest; a middle $0$ is written but not read.
 - Comparing: more digits means greater; with the same number of digits, compare place by place from the highest place.
+Back to the question at the start: once you know which place each digit is in, you can read the number of books, say what a digit is worth, and compare two numbers. Remember that a higher place is worth much more. A few practice questions will make this feel natural.
 
 ## Practice
 
-Each exercise comes with what you need and how to start. Try it yourself first, then open the solution.
+Each exercise comes with the idea you need and a hint to get started. Try it yourself first, open the hint if you are stuck, and look at the solution last.
 
 :::exercise
 Read the number $41\,305$.

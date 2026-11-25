@@ -12,18 +12,18 @@ minutes: 15
 
 Mỗi hộp có $9$ cây bút màu. Hỏi $4$ hộp như vậy có tất cả bao nhiêu cây bút màu?
 
-Em có thể cộng $9+9+9+9$, nhưng cộng nhiều lần thì chậm. Bài này giúp em tính nhanh bằng bảng nhân $9$.
+Em có thể cộng $9+9+9+9$, và cách ấy đúng. Nhưng nếu có nhiều hộp hơn nữa thì sao? Cộng mãi sẽ rất lâu. Bảng nhân $9$ là đường tắt: thuộc rồi thì có đáp số ngay, và em còn có mẹo để nhớ nó.
 
 ## Cùng khám phá
 
-Mỗi hộp là một nhóm $9$ cây. Ta cộng dần từng hộp:
+Ta thử đếm dần, từng hộp một. Mỗi hộp là một nhóm $9$ cây:
 
 - $1$ hộp: $9$ cây.
 - $2$ hộp: $9+9=18$ cây.
 - $3$ hộp: $18+9=27$ cây.
 - $4$ hộp: $27+9=36$ cây.
 
-Vậy $4$ hộp có $36$ cây bút màu, tức là $9\times4=36$. Mỗi lần thêm một hộp, tích tăng thêm $9$.
+Vậy $4$ hộp có $36$ cây bút màu, tức là $9\times4=36$. Em thấy không: mỗi lần thêm một hộp, tích tăng thêm $9$. Quy luật này là nền của cả bảng.
 
 :::graph Trên tia số: mỗi bước nhảy 9 đơn vị
 alt: Tia số từ 0 đến 54 đánh dấu các điểm 0, 9, 18, 27, 36, 45 và 54, mỗi điểm cách điểm trước 9 đơn vị
@@ -39,7 +39,7 @@ point: (45, 0) "45" above
 point: (54, 0) "54" below
 :::
 
-Em còn một mẹo hay: $9=10-1$, nên $9\times4=10\times4-4=40-4=36$.
+Còn một cách nhanh hơn, và nó dựa trên một điều rất đơn giản: $9=10-1$. Số chín chỉ kém mười một đơn vị, nên $9\times4=10\times4-4=40-4=36$. Nhân với mười thì dễ, rồi bớt đi một nhóm là xong.
 
 :::theorem Bảng nhân 9
 Muốn tính $9\times n$, em lấy $10\times n$ rồi bớt đi $n$. Em cũng có thể lấy $9\times(n-1)$ rồi cộng thêm $9$.
@@ -53,13 +53,13 @@ Muốn tính $9\times n$, em lấy $10\times n$ rồi bớt đi $n$. Em cũng c�
 | $54$ | $63$ | $72$ | $81$ | $90$ |
 :::
 
-Em để ý: các tích có hai chữ số trong bảng nhân $9$ đều có tổng hai chữ số bằng $9$. Ví dụ $63$ có $6+3=9$.
+Bảng nhân $9$ còn giấu một quy luật nhỏ. Các tích có hai chữ số đều có tổng hai chữ số bằng $9$. Ví dụ $63$ có $6+3=9$. Em có thể dùng quy luật này để kiểm tra nhanh đáp số.
 
-Bảng chia $9$ suy ra từ bảng nhân $9$. Vì $9\times4=36$ nên $36:9=4$. Em chia $36$ cây bút thành các hộp $9$ cây thì được $4$ hộp.
+Biết nhân rồi thì em biết luôn chia. Bảng chia $9$ suy ra từ bảng nhân $9$. Vì $9\times4=36$ nên $36:9=4$. Nói bằng chuyện hộp bút: chia $36$ cây bút thành các hộp $9$ cây thì được $4$ hộp.
 
 ## Ví dụ
 
-Ta bắt đầu bằng mẹo lấy $10$ lần rồi bớt đi.
+Ta thử mẹo vừa rồi trước: lấy $10$ lần rồi bớt đi.
 
 :::example Tính $9\times4$
 **Lời giải.** $9$ nhỏ hơn $10$ một đơn vị, nên $9\times4$ bằng $10\times4$ bớt đi $4$:
@@ -67,7 +67,7 @@ $$9\times4=40-4=36.$$
 Vậy $9\times4=36$.
 :::
 
-Bây giờ em làm với số lớn hơn.
+Mẹo này có dùng được với số lớn hơn không? Em thử xem.
 
 :::example Tính $9\times7$
 **Lời giải.** Lấy $10\times7$ rồi bớt đi $7$:
@@ -77,7 +77,7 @@ $$9\times7=70-7=63.$$
 Vậy $9\times7=63$.
 :::
 
-Em cũng có thể lấy tích liền trước cộng thêm $9$.
+Còn một đường nữa: lấy tích liền trước rồi cộng thêm $9$. Cách này hợp khi em đã nhớ tích đứng ngay trước nó.
 
 :::example Tính $9\times8$
 **Lời giải.** Em biết $9\times7=63$. Thêm một nhóm $9$ nữa:
@@ -85,7 +85,7 @@ $$9\times8=9\times7+9=63+9=72.$$
 Vậy $9\times8=72$.
 :::
 
-Tiếp theo là phép chia.
+Biết nhân thì chia cũng không xa. Ta sang phép chia.
 
 :::example Tính $81:9$
 **Lời giải.** Em tìm số nào nhân $9$ bằng $81$. Trong bảng nhân $9$ ta có $9\times9=81$, nên
@@ -95,7 +95,7 @@ $$81:9=9.$$
 Vậy $81:9=9$.
 :::
 
-Cuối cùng, em giải một bài toán có lời văn.
+Cuối cùng, ta quay lại chuyện nhóm và hộp trong đời sống, nhưng lần này đề bài cho cả số học sinh và hỏi có bao nhiêu nhóm.
 
 :::example Chia nhóm học sinh
 Có $72$ học sinh chia thành các nhóm, mỗi nhóm $9$ em. Hỏi chia được bao nhiêu nhóm?
@@ -108,7 +108,7 @@ Vậy chia được $8$ nhóm.
 :::
 
 :::warning Những lỗi em hay gặp
-- **Lấy thiếu một nhóm.** Sai: $9\times6=45$. Vì sao sai: $45$ là $9\times5$, em chưa đủ $6$ nhóm. Đúng: $9\times6=45+9=54$.
+- **Lấy thiếu một nhóm.** Sai: $9\times6=45$. Vì sao sai: $45$ là $9\times5$, nghĩa là em chưa đủ $6$ nhóm. Đúng: $9\times6=45+9=54$.
 - **Cộng thay cho nhân.** Sai: $9\times3=12$. Vì sao sai: $9+3$ là phép cộng, còn $9\times3$ là $3$ nhóm $9$. Đúng: $9\times3=27$.
 - **Chia nhầm.** Sai: $81:9=8$. Vì sao sai: $9\times8=72$, không phải $81$. Đúng: $9\times9=81$ nên $81:9=9$.
 - **Quên đơn vị.** Sai: "Đáp số: $8$". Đúng: "Đáp số: $8$ nhóm".
@@ -134,10 +134,11 @@ Vậy chia được $8$ nhóm.
 - Các tích có hai chữ số trong bảng nhân $9$ có tổng hai chữ số bằng $9$.
 - Từ $9\times a=b$ ta có $b:9=a$ và $b:a=9$.
 - Ghi đơn vị trong đáp số; thử lại phép chia bằng phép nhân.
+Quay lại câu hỏi đầu bài: thay vì cộng từng hộp, em lấy mười lần rồi bớt đi, hoặc đọc thẳng từ bảng nhân. Mỗi ngày em đọc bảng nhân vài lần là sẽ thuộc dần.
 
 ## Luyện tập
 
-Mỗi bài có phần kiến thức và gợi ý. Em hãy tự làm trước, rồi mới bấm xem lời giải.
+Mỗi bài có phần kiến thức và gợi ý để em bắt đầu. Em cứ thử làm trước. Nếu vướng, hãy đọc gợi ý, rồi mới mở lời giải để so lại.
 
 :::exercise
 Tính:

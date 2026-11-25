@@ -11,15 +11,15 @@ minutes: 22
 - Find the volume of the solid of revolution formed by rotating a region about the $x$-axis.
 :::
 
-The front of a school gate is shaped like a parabola: $4$ m wide at the base and $4$ m high at the top. The whole front of the gate must be painted. What area, in square metres, needs paint?
+We walk under arches and past curved roofs every day without asking how much surface they cover. The front of a school gate is shaped like a parabola: $4$ m wide at the base and $4$ m high at the top. The whole front of the gate must be painted. What area, in square metres, needs paint? With a curved edge, we have no familiar formula to reach for.
 
-The rectangle around the gate has area $4\cdot4=16$ m², and the triangle inside the gate has area $\dfrac12\cdot4\cdot4=8$ m². So the answer lies between $8$ and $16$. An integral gives the exact number.
+Let us estimate first. The rectangle around the gate has area $4\cdot4=16$ m², and the triangle inside the gate has area $\dfrac12\cdot4\cdot4=8$ m². So the answer lies between $8$ and $16$. But "somewhere between" is a wide range, and an integral gives the exact number.
 
 ## Area of a plane region
 
 ### Explore: the parabolic gate
 
-We put the origin at the middle of the base of the gate, with the $y$-axis pointing up. The parabola passes through $(-2, 0)$ and $(2, 0)$ and has vertex $(0, 4)$, so its equation is $y=4-x^2$. The front of the gate is the region under the graph and above the $x$-axis, for $-2\le x\le2$.
+To use an integral we need a function that describes the edge of the gate. We put the origin at the middle of the base of the gate, with the $y$-axis pointing up. The parabola passes through $(-2, 0)$ and $(2, 0)$ and has vertex $(0, 4)$, so its equation is $y=4-x^2$. The front of the gate is the region under the graph and above the $x$-axis, for $-2\le x\le2$.
 
 :::graph The front of the gate, $y=4-x^2$
 alt: A downward parabola with vertex (0, 4), crossing the horizontal axis at -2 and 2; the region between the parabola and the axis is shaded
@@ -36,11 +36,11 @@ The function $4-x^2$ is non-negative on $[-2, 2]$, so by the geometric meaning o
 
 $$S=\int_{-2}^{2}(4-x^2)\,dx=\Big[4x-\frac{x^3}{3}\Big]_{-2}^{2}=\left(8-\frac83\right)-\left(-8+\frac83\right)=\frac{32}{3}\approx10.67.$$
 
-It is indeed between $8$ and $16$; it is $\dfrac23$ of the area of the surrounding rectangle.
+The result makes sense: it lies between $8$ and $16$, and it is $\dfrac23$ of the area of the surrounding rectangle.
 
 This number is also $\dfrac43\cdot8$, that is $\dfrac43$ of the area of the triangle with the same base and the same vertex as the gate. Archimedes proved exactly this ratio $\dfrac43$ for every "segment of a parabola" in his work *Quadrature of the Parabola*, more than $2000$ years ago, by filling the region with infinitely many small triangles (MacTutor History of Mathematics). Today an integral gives the same result in one line.
 
-When part of a graph lies **below** the $x$-axis, the integral over that part is negative, while an area is always positive. That is why the general formula has an absolute value.
+When part of a graph lies **below** the $x$-axis, the integral over that part is negative, while an area is always positive. That is why the general formula needs an absolute value. Here it is.
 
 :::theorem Area of a plane region
 - The region bounded by the graph of a continuous function $y=f(x)$, the $x$-axis and the lines $x=a$, $x=b$ $(a<b)$ has area
@@ -49,11 +49,11 @@ $$S=\int_a^b\lvert f(x)\rvert\,dx.$$
 $$S=\int_a^b\lvert f(x)-g(x)\rvert\,dx.$$
 :::
 
-**Why is it true?** If $f(x)\ge g(x)$ on $[a, b]$, we translate both graphs up by the same amount $k$ so that they lie above the $x$-axis. The region does not change, and its area is the area under $f+k$ minus the area under $g+k$, that is $\displaystyle\int_a^b(f-g)\,dx$. Wherever $f<g$ the two functions swap roles, so we use $\lvert f-g\rvert$.
+**Why is it true?** If $f(x)\ge g(x)$ on $[a, b]$, we translate both graphs up by the same amount $k$ so that they lie above the $x$-axis. The region does not change, and its area is the area under $f+k$ minus the area under $g+k$, that is $\displaystyle\int_a^b(f-g)\,dx$. Wherever $f<g$ the two functions swap places, so we use $\lvert f-g\rvert$.
 
-**Connections.** This lesson combines the geometric meaning of the integral (previous lesson) with reading graphs and finding intersection points (chapter I). The idea of "cutting into very thin slices and adding them up" is used again for volumes in the next section, and it explains the volume formulas for pyramids, cones and spheres that we used to take on trust.
+**Connections.** This lesson combines the geometric meaning of the integral (previous lesson) with reading graphs and finding intersection points (chapter I). The idea of "cutting into very thin slices and adding them up" returns for volumes in the next section. It also explains why the volume formulas for pyramids, cones and spheres are true, formulas we used to take on trust.
 
-**Method.** Solve $f(x)-g(x)=0$ to find the crossing points in $(a, b)$. On each piece, $f-g$ keeps one sign, so $\displaystyle\int\lvert f-g\rvert\,dx=\left\lvert\int(f-g)\,dx\right\rvert$. If the lines $x=a$, $x=b$ are not given, the limits are the $x$-coordinates of the intersection points.
+**Method.** Solve $f(x)-g(x)=0$ to find the crossing points in $(a, b)$. On each piece, $f-g$ keeps one sign, so $\displaystyle\int\lvert f-g\rvert\,dx=\left\lvert\int(f-g)\,dx\right\rvert$. If the lines $x=a$, $x=b$ are not given, the limits are simply the $x$-coordinates of the intersection points.
 
 :::example A graph that crosses the $x$-axis
 Find the area of the region bounded by the graph of $y=x^2-2x$, the $x$-axis and the lines $x=0$, $x=3$.
@@ -78,7 +78,7 @@ vline: 3 ; dashed
 point: (2, 0) "2" above-left
 :::
 
-When a region lies between two graphs, the limits are usually the $x$-coordinates of the intersection points.
+When a region lies between two graphs, the limits are usually the $x$-coordinates of the intersection points. The next example shows how.
 
 :::example Between two graphs
 Find the area of the region bounded by the parabola $y=x^2$ and the line $y=x+2$.
@@ -124,7 +124,7 @@ So the volume of the pyramid is $18$.
 
 ## Solids of revolution
 
-Rotating the region bounded by $y=f(x)$, the $x$-axis, $x=a$ and $x=b$ about the $x$-axis produces a **solid of revolution**. The cross-section at $x$ is a disc of radius $\lvert f(x)\rvert$, with area $S(x)=\pi f^2(x)$. Putting this into the volume formula:
+Rotating the region bounded by $y=f(x)$, the $x$-axis, $x=a$ and $x=b$ about the $x$-axis produces a **solid of revolution**. The cross-section at $x$ is a disc of radius $\lvert f(x)\rvert$, so its area is $S(x)=\pi f^2(x)$. Putting this into the volume formula, we get:
 
 :::theorem Volume of a solid of revolution
 $$V=\pi\int_a^b f^2(x)\,dx.$$
@@ -142,7 +142,7 @@ $$V=\pi\int_{-3}^{3}(9-x^2)\,dx=\pi\Big[9x-\frac{x^3}{3}\Big]_{-3}^{3}=\pi\big(1
 So the volume of the sphere is $36\pi$.
 :::
 
-The formula for solids of revolution also gives the volume of real curved objects.
+The formula for solids of revolution also gives the volume of real curved objects. The next example is a drinking glass.
 
 :::example The capacity of a glass
 The inside of a glass is the solid of revolution formed by rotating the region bounded by $y=\sqrt{2x}$, the $x$-axis and $x=8$ about the $x$-axis (units in cm; $x$ is the height above the bottom of the glass). How many millilitres of water does the glass hold?
@@ -161,6 +161,7 @@ The rim has radius $\sqrt{16}=4$ cm. Since $1$ cm³ $=1$ ml, the glass holds abo
 - **Subtracting the wrong way round with no absolute value.** Wrong: the area is $\displaystyle\int_{-1}^2\big(x^2-(x+2)\big)\,dx=-\frac92$. Why it is wrong: an area cannot be negative. Right: take the upper function minus the lower one to get $\dfrac92$.
 - **Forgetting the square or the $\pi$.** Wrong: the volume of the sphere is $\pi\displaystyle\int_{-3}^3\sqrt{9-x^2}\,dx$. Why it is wrong: each cross-section is a disc of area $\pi r^2=\pi f^2(x)$. Right: $\pi\displaystyle\int_{-3}^3(9-x^2)\,dx=36\pi$.
 - **Using the wrong limits.** Wrong: finding the area between $y=x^2$ and $y=x+2$ on $[0, 2]$. Why it is wrong: the region starts at the intersection point $x=-1$. Right: the limits are $-1$ and $2$.
+All four slips can be avoided by sketching the graphs before you calculate.
 :::
 
 ## Key terms
@@ -183,10 +184,11 @@ The rim has radius $\sqrt{16}=4$ cm. Since $1$ cm³ $=1$ ml, the glass holds abo
 - If $x=a$ and $x=b$ are not given, the limits are the $x$-coordinates of the intersection points.
 - Volume from cross-sections: $V=\displaystyle\int_a^bS(x)\,dx$.
 - Solid of revolution about the $x$-axis: $V=\pi\displaystyle\int_a^bf^2(x)\,dx$ (remember the square and the $\pi$).
+Back to the gate at the start: one integral replaces a rough estimate between two numbers with the exact answer. The idea to keep is to cut into thin slices and add them up. Now try the practice exercises.
 
 ## Practice
 
-Each exercise comes with what you need and some steps to start. Try it yourself first, then open the solution.
+Each exercise comes with what you need and some steps to start. Try it yourself first, then open the solution. A wrong first attempt is fine: the mistake shows you what to look at again.
 
 :::exercise
 Find the area of the region bounded by the graph of $y=x^2+1$, the $x$-axis and the lines $x=0$, $x=3$.

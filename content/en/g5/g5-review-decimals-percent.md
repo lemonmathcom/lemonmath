@@ -12,19 +12,19 @@ minutes: 25
 
 A bookshop gives a $15\%$ discount on a storybook that costs $80\,000$ dong. Lan has $70\,000$ dong. Does she have enough money to buy the book?
 
-To decide, you need both decimals and percentages. This lesson reviews them and shows how closely they are connected.
+To decide, we need to find out how much the book costs after the discount. That uses percentages, and decimals turn up along the way. They are really two ways of writing the same idea. We will review both, then come back and help Lan.
 
 ## Let's explore
 
-Lan's class has $40$ pupils, and $6$ of them wear glasses. We can write the part of the class that wears glasses in three ways:
+Let us start with a small example. Lan's class has $40$ pupils, and $6$ of them wear glasses. We can write the part of the class that wears glasses in three ways:
 
 - as a fraction: $\dfrac{6}{40}=\dfrac{3}{20}=\dfrac{15}{100}$;
 - as a decimal: $\dfrac{15}{100}=0.15$;
 - as a percentage: $\dfrac{15}{100}=15\%$.
 
-So $15\%$ means $15$ parts out of $100$ equal parts. All three ways of writing it have the same value. To change a fraction into a percentage, divide the numerator by the denominator and multiply by $100$: $\dfrac{3}{4}=0.75=75\%$.
+So $15\%$ means $15$ parts out of $100$ equal parts. The three ways of writing it have the same value, like one person with three names. To change a fraction into a percentage, we divide the numerator by the denominator and multiply by $100$: $\dfrac{3}{4}=0.75=75\%$.
 
-Look at a few familiar values on a number line:
+Let us look at a few familiar values on a number line, to see where they sit:
 
 :::graph Familiar values on the number line from $0$ to $1$
 alt: A number line from 0 to 1 with the points 0, 0.25, 0.5, 0.75 and 1 marked; the three middle points are labelled 25%, 50% and 75%
@@ -47,18 +47,18 @@ label: (0.75, 0.06) "75%"
 3. **Find the whole when $a\%$ of it is $c$:** work out $c\div a\times100$.
 :::
 
-Method 2 works because $a\%=\dfrac{a}{100}$, so $a\%$ of $b$ is $b\times\dfrac{a}{100}$. Method 3 goes backwards: $a$ parts are worth $c$, so $1$ part is worth $c\div a$ and $100$ parts are worth $c\div a\times100$.
+Why does method 2 work? Because $a\%=\dfrac{a}{100}$, so $a\%$ of $b$ is $b\times\dfrac{a}{100}$. Method 3 goes backwards: $a$ parts are worth $c$, so $1$ part is worth $c\div a$, and all $100$ parts are worth $c\div a\times100$.
 
 :::note Reminder: decimals
-- **Comparing:** compare the whole-number parts first; if they are equal, compare the tenths, then the hundredths, then the thousandths. Writing a $0$ at the end of the decimal part does not change the value: $4.6=4.60$.
+- **Comparing:** we compare the whole-number parts first; if they are equal, we compare the tenths, then the hundredths, then the thousandths. Writing a $0$ at the end of the decimal part does not change the value: $4.6=4.60$.
 - **Rounding:** look at the digit just after the place you are rounding to. If it is $5$ or more, add $1$ to the digit in that place; if it is less than $5$, leave it.
 - **Multiplying or dividing by $10$, $100$, $1\,000$:** move the decimal point right (multiply) or left (divide) by $1$, $2$, $3$ places.
-- **Dividing by a decimal:** multiply both numbers by $10$, $100$, $\dots$ until the divisor is a whole number. The quotient does not change.
+- **Dividing by a decimal:** multiply both numbers by $10$, $100$, $\dots$ until the divisor is a whole number. The quotient does not change, so the answer stays correct.
 :::
 
 ## Examples
 
-We start with decimals: comparing and rounding.
+We begin with decimals, and two jobs that come up all the time: comparing and rounding.
 
 :::example Sorting and rounding
 Put the numbers $5.08$, $5.8$, $5.075$ and $4.99$ in order, from smallest to largest. Then round $5.075$ to the nearest tenth.
@@ -70,7 +70,7 @@ $$4.99<5.075<5.08<5.8.$$
 To round $5.075$ to the nearest tenth, look at the hundredths digit: $7$ is more than $5$, so add $1$ to the tenths digit. So $5.075\approx5.1$.
 :::
 
-Next, the four operations with decimals in a real situation.
+The four operations with decimals often work together in one real problem, like this one about cutting cloth.
 
 :::example Cutting cloth
 A roll of cloth is $12.6$ m long. A shopkeeper cuts $4.75$ m, then $3.8$ m. The rest is cut into pieces $0.45$ m long. How many pieces are there?
@@ -84,7 +84,7 @@ So there are $9$ pieces of cloth.
 **Check.** $0.45\times9=4.05$. Correct.
 :::
 
-Now to percentages. We start with problem type 1: what percentage one number is of another.
+On to percentages. There are three types of problem to remember. Type 1 asks what percentage one number is of another.
 
 :::example Trees that survived
 Mr Hung planted $250$ trees and $215$ of them survived. What percentage of the trees survived? What percentage did not survive?
@@ -96,7 +96,7 @@ $$100\%-86\%=14\%.$$
 So $86\%$ of the trees survived and $14\%$ did not.
 :::
 
-Back to the opening question, which is type 2: finding a percentage of a number.
+Now we can go back to the opening question and help Lan. It is type 2: finding a percentage of a number.
 
 :::example A discounted storybook
 A storybook costs $80\,000$ dong and has a $15\%$ discount. Lan has $70\,000$ dong. Does she have enough money?
@@ -108,7 +108,7 @@ $$80\,000-12\,000=68\,000.$$
 Since $68\,000<70\,000$, Lan has enough money, with $2\,000$ dong left over.
 :::
 
-Finally, type 3: knowing a percentage of a number, find the number.
+Type 3 works the other way round: we know what a percentage of a number comes to, and we must find the whole number.
 
 :::example Rice in a warehouse
 A warehouse has sold $360$ kg of rice, which is $45\%$ of the rice it had at first. How many kilograms of rice did it have at first?
@@ -121,9 +121,9 @@ So the warehouse had $800$ kg of rice at first.
 :::
 
 :::warning Mistakes to watch out for
-- **Comparing decimals like whole numbers.** Wrong: $2.35>2.4$ because $35>4$. Why it is wrong: the tenths digit of $2.35$ is $3$, which is less than $4$. Right: $2.35<2.4$.
+- **Comparing decimals like whole numbers.** Many pupils slip here. Wrong: $2.35>2.4$ because $35>4$. Why it is wrong: the tenths digit of $2.35$ is $3$, which is less than $4$. Right: $2.35<2.4$.
 - **Forgetting to divide by $100$.** Wrong: $15\%$ of $80\,000$ is $80\,000\times15=1\,200\,000$. Why it is wrong: $15\%$ is only $\dfrac{15}{100}$. Right: $80\,000\times15\div100=12\,000$.
-- **Using the wrong whole.** Wrong: the price after a $20\%$ discount is $240\,000$ dong, so the original price is $240\,000+20\%\times240\,000=288\,000$ dong. Why it is wrong: $20\%$ is of the original price, not of the reduced price. Right: $240\,000$ dong is $80\%$ of the original price, so the original price is $240\,000\div80\times100=300\,000$ dong.
+- **Using the wrong whole.** Wrong: the price after a $20\%$ discount is $240\,000$ dong, so the original price is $240\,000+20\%\times240\,000=288\,000$ dong. Why it is wrong: $20\%$ is a percentage of the original price, not of the reduced price. Right: $240\,000$ dong is $80\%$ of the original price, so the original price is $240\,000\div80\times100=300\,000$ dong. Before you calculate, ask yourself: a percentage of which number?
 :::
 
 ## Key terms
@@ -148,9 +148,11 @@ So the warehouse had $800$ kg of rice at first.
 - Type 1: $(a\div b)\times100\%$. Type 2: $a\%$ of $b$ is $b\times a\div100$. Type 3: the whole with $a\%$ equal to $c$ is $c\div a\times100$.
 - After an $a\%$ discount the price is $(100-a)\%$ of the old price; after an $a\%$ increase it is $(100+a)\%$ of the old price. Each change is a percentage of the price just before it.
 
+Back to the opening question: to see whether Lan has enough money, we find the discount with type 2, subtract it, and compare with what she has. One thing to remember: a percentage is always a percentage of a particular number, so when you finish, check that you used the right whole.
+
 ## Practice
 
-Each exercise comes with what you need and how to start. Try it yourself first, then open the solution.
+Each exercise has a reminder of what you need and a hint for getting started. Try it yourself first, then open the solution. A little regular practice makes decimals and percentages feel familiar.
 
 :::exercise
 Write each fraction as a decimal and as a percentage: a) $\dfrac{3}{4}$; b) $\dfrac{7}{20}$.

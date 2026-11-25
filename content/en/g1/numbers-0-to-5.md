@@ -11,13 +11,13 @@ minutes: 15
 - Fill in the missing number in a row from $0$ to $5$.
 :::
 
-There is a plate of sweets on the table. Lan counts and says: "There are $4$ sweets." Then Lan eats all the sweets. How many sweets are on the plate now, and which number do you write?
+There is a plate of sweets on the table. Lan counts and says: "There are $4$ sweets." Then Lan eats every one of them. How many sweets are left on the plate now? And which number do you write for it?
 
-You already know how to count from nursery. This lesson helps you read and write those numbers neatly.
+You have been counting since nursery. Now let us write those numbers down neatly. We will also find out which number to write when the plate is empty.
 
 ## Let's explore
 
-Count each thing once.
+Let us count. Touch each thing once.
 
 - There is one bird on a branch. You count: "one". We write the number $1$.
 - There are two flowers in a vase. You count: "one, two". We write the number $2$.
@@ -25,8 +25,9 @@ Count each thing once.
 - There are four sweets on a plate. We write the number $4$.
 - There are five balloons. We write the number $5$.
 - There is no fish in the tank. We write the number $0$ and say "zero".
+Do not worry if zero looks odd at first. When there is nothing to count, we simply write zero.
 
-So when Lan eats all the sweets, there are $0$ sweets on the plate.
+Now you can answer Lan's question. The plate is empty, just like the tank with no fish, so there are $0$ sweets on the plate.
 
 :::graph The numbers from 0 to 5 in a row on a number line
 alt: A number line with the points 0, 1, 2, 3, 4, 5 from left to right
@@ -48,11 +49,11 @@ point: (5, 0) "5" below
 4. Count on one more and you get the number just after.
 :::
 
-This works because each time you count, you touch one thing and say one number. The last number you say is how many things there are.
+Why does counting like this work? Each time you touch one thing, you say one number. Every thing gets its own number, so none is missed and none is counted twice. That is why the last number you say is how many things there are.
 
 ## Examples
 
-We start with something very simple: counting birds.
+We begin with something you know well: counting birds on a branch.
 
 :::example Counting birds
 There are three birds in a tree. Write the number of birds.
@@ -64,7 +65,7 @@ There are three birds in a tree. Write the number of birds.
 So there are $3$ birds.
 :::
 
-Now count a group with more things.
+A bigger group needs a little more care. Count slowly so that you do not miss any.
 
 :::example Counting balloons
 Nam holds five balloons. Write the number of balloons.
@@ -76,7 +77,7 @@ Nam holds five balloons. Write the number of balloons.
 So there are $5$ balloons.
 :::
 
-Sometimes there is nothing to count.
+Here is a different case: sometimes there is nothing to count. What number do you write then?
 
 :::example An empty fish tank
 There is no fish in the tank. Write the number of fish.
@@ -88,7 +89,7 @@ There is no fish in the tank. Write the number of fish.
 So there are $0$ fish.
 :::
 
-Last, fill in the missing number in a row.
+You know the counting order now, so you can find a number hidden in a row. Have a go.
 
 :::example Fill in the row
 Fill in the box: $0, 1, \square, 3, 4, 5$.
@@ -104,6 +105,7 @@ So the missing number is $2$.
 - **Missing one when counting.** Wrong: there are $4$ balloons but you count "one, two, three, five". Why it is wrong: you forgot four. Right: count "one, two, three, four" and get $4$ balloons.
 - **Forgetting $0$.** Wrong: the vase has no flowers, but you write $1$. Why it is wrong: $1$ means one flower. Right: write $0$.
 - **Counting one thing twice.** Wrong: touching the same orange two times. Why it is wrong: the answer is too big. Right: count each thing once and mark it when counted.
+Many children slip up here. If you mark each thing as you count it, you can be sure of your answer.
 :::
 
 ## Key terms
@@ -126,10 +128,11 @@ So the missing number is $2$.
 - If there is nothing, write $0$.
 - Counting order: $0, 1, 2, 3, 4, 5$.
 - Count each thing once; the last number you say is the answer.
+Do you remember Lan's plate of sweets? When the sweets are gone there is nothing left to count, so we write zero. Practise a little more and counting and writing numbers will feel easy.
 
 ## Practice
 
-Each exercise comes with what you need and how to start. Try it yourself first, then open the solution.
+Each exercise comes with what you need to remember and a hint to start you off. Try it yourself first, then open the solution. If the answer does not come at once, do not worry. Count it one step at a time.
 
 :::exercise
 There are three oranges in a basket. Write the number of oranges.

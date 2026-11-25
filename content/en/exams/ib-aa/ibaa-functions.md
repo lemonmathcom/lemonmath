@@ -13,13 +13,13 @@ minutes: 45
 - Solve equations graphically on a GDC and write the answer correctly.
 :::
 
-Topic 2 is the language of the whole course. A calculus question in Section B nearly always opens with a function: you are asked for its domain, an intercept, an asymptote or an inverse before the derivatives begin. These first parts are worth easy marks, and they are lost mostly through careless notation and forgotten restrictions.
+Have you ever opened a long Section B question and not known where to start? Usually the start is a function. Topic 2 is the language of the whole course: a calculus question in Section B nearly always opens with a function, and you are asked for its domain, an intercept, an asymptote or an inverse before the derivatives begin. These first parts are worth easy marks, and they are lost mostly through careless notation and forgotten restrictions. Getting them right is the steadiest way to keep marks.
 
 ## Domain, range, composite and inverse functions
 
-The **domain** is the set of inputs; the **range** is the set of outputs. Two restrictions come up again and again: no division by zero, and (for real functions) no square root of a negative number or logarithm of a non-positive number.
+A function is like a machine: put one value in and it gives one value out. The **domain** is the set of inputs; the **range** is the set of outputs. Two restrictions come up again and again: no division by zero, and (for real functions) no square root of a negative number or logarithm of a non-positive number. At those values the calculation has no meaning, so the machine gives no output.
 
-The **composite** $(f\circ g)(x)=f\big(g(x)\big)$ applies $g$ first. The **inverse** $f^{-1}$ undoes $f$: to find it, write $y=f(x)$, swap $x$ and $y$, and solve for $y$. An inverse exists only if $f$ is one-to-one; the graph of $f^{-1}$ is the reflection of the graph of $f$ in the line $y=x$, and the domain and range swap.
+Join two machines, with the output of one becoming the input of the next, and we get a composite. The **composite** $(f\circ g)(x)=f\big(g(x)\big)$ applies $g$ first. To run a machine backwards we need an inverse. The **inverse** $f^{-1}$ undoes $f$: to find it, write $y=f(x)$, swap $x$ and $y$, and solve for $y$. An inverse exists only if $f$ is one-to-one, which means every output comes from just one input; the graph of $f^{-1}$ is the reflection of the graph of $f$ in the line $y=x$, and the domain and range swap.
 
 :::example Composite and inverse
 Let $f(x)=2x-3$ and $g(x)=x^2+1$.
@@ -57,7 +57,7 @@ Let $h(x)=(x-1)^2$ for $x\ge1$.
 | $y=-f(x)$ | reflection in the $x$-axis |
 | $y=f(-x)$ | reflection in the $y$-axis |
 
-Changes inside the bracket act on $x$ and do the "opposite" of what they look like: $f(x-3)$ moves the graph right, and $f(2x)$ squeezes it horizontally.
+This is where many students go wrong, so let us read it slowly. Changes inside the bracket act on $x$ and do the "opposite" of what they look like: $f(x-3)$ moves the graph right, and $f(2x)$ squeezes it horizontally. The reason is that the input has been changed before it reaches the function; to get the same output back, the input must make up for the change, so the graph moves the other way. The next example follows a single point through the transformations.
 
 :::example Following a point
 The point $(4,-2)$ lies on the graph of $y=f(x)$. Find the coordinates of the corresponding point on the graph of $y=2f(x-3)+1$. [3 marks]
@@ -67,7 +67,7 @@ The point $(4,-2)$ lies on the graph of $y=f(x)$. Find the coordinates of the co
 
 ## Quadratic functions
 
-A quadratic can be written in three forms: $f(x)=ax^2+bx+c$ (the $y$-intercept is $c$), $f(x)=a(x-h)^2+k$ (vertex $(h,k)$, axis of symmetry $x=h$) and $f(x)=a(x-p)(x-q)$ ($x$-intercepts $p$ and $q$). The **discriminant** $\Delta=b^2-4ac$ decides the number of real roots: two if $\Delta>0$, one (repeated) if $\Delta=0$, none if $\Delta<0$.
+The same parabola can be written in different ways, and each way shows something different at a glance. A quadratic can be written in three forms: $f(x)=ax^2+bx+c$ (the $y$-intercept is $c$), $f(x)=a(x-h)^2+k$ (vertex $(h,k)$, axis of symmetry $x=h$) and $f(x)=a(x-p)(x-q)$ ($x$-intercepts $p$ and $q$). Choose the form that matches the question. The **discriminant** $\Delta=b^2-4ac$ decides the number of real roots: two if $\Delta>0$, one (repeated) if $\Delta=0$, none if $\Delta<0$.
 
 :::example Vertex form and the discriminant
 (a) Write $f(x)=2x^2-8x+5$ in the form $a(x-h)^2+k$, and write down the vertex. [3 marks]
@@ -80,7 +80,7 @@ A quadratic can be written in three forms: $f(x)=ax^2+bx+c$ (the $y$-intercept i
 
 ## Rational functions
 
-For $f(x)=\dfrac{ax+b}{cx+d}$ with $c\ne0$: the **vertical asymptote** is where the denominator is zero, $x=-\dfrac dc$, and the **horizontal asymptote** is $y=\dfrac ac$, the value the function approaches as $x\to\pm\infty$.
+The graph of a rational function has lines that it keeps approaching, called asymptotes. For $f(x)=\dfrac{ax+b}{cx+d}$ with $c\ne0$: the **vertical asymptote** is where the denominator is zero, $x=-\dfrac dc$, and the **horizontal asymptote** is $y=\dfrac ac$, the value the function approaches as $x\to\pm\infty$. The graph below shows both.
 
 :::graph The graph of $y=\dfrac{2x+1}{x-3}$ with its asymptotes
 alt: A hyperbola with a vertical asymptote at x = 3 and a horizontal asymptote at y = 2; the left branch crosses the axes at x = -0.5 and y = -1/3
@@ -109,7 +109,7 @@ Let $f(x)=\dfrac{2x+1}{x-3}$, $x\ne3$.
 
 ## Solving equations with a GDC (Paper 2)
 
-Many Paper 2 equations cannot be solved algebraically. Graph both sides and find the intersections, then write the answers to three significant figures. Write which equation you solved, so that a wrong final answer can still earn the method mark.
+Many Paper 2 equations cannot be solved algebraically, however we rearrange them. The calculator is the right tool then: graph both sides and find the intersections, then write the answers to three significant figures. Write which equation you solved, so that a wrong final answer can still earn the method mark. Here is an example with two intersections.
 
 :::example Two intersections
 Solve $e^x=4-x^2$. [3 marks]
@@ -124,6 +124,7 @@ Solve $e^x=4-x^2$. [3 marks]
 - **Transformations inside the bracket:** $f(x+2)$ moves the graph left, not right.
 - **Asymptotes written as numbers.** Write equations: "$x=3$", not "$3$".
 - **Missing GDC solutions** outside the viewing window.
+At the start we said that a function is where every long question begins. Correct notation and remembered restrictions are what keep those early marks safe. The exercises below will help that become a habit.
 :::
 
 :::terms

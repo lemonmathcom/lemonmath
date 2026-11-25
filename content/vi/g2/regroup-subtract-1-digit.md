@@ -12,21 +12,21 @@ minutes: 15
 
 Cô giáo có $42$ cái bút chì. Cô phát cho các bạn $6$ cái. Hỏi cô còn lại bao nhiêu cái bút chì?
 
-Em đã học cộng có nhớ ở các bài trước. Bài này học phép trừ có nhớ, và em sẽ thấy hai phép tính "ngược" nhau.
+Hàng đơn vị của số bút chì không đủ để cô phát đi. Vậy bớt kiểu gì đây? Em đã biết cộng có nhớ: đơn vị nhiều quá thì gộp thành chục. Trừ có nhớ làm ngược lại: đơn vị thiếu thì đổi một chục ra đơn vị. Học xong, em sẽ trả lời được câu hỏi của cô giáo.
 
 ## Cùng khám phá
 
-Ta tách số $42$ thành $4$ chục và $2$ đơn vị. Ta cần bớt $6$ đơn vị.
+Ta thử xếp $42$ cái bút chì thành $4$ chục và $2$ đơn vị. Cô cần phát đi $6$ cái, tức là phải bớt $6$ đơn vị.
 
-- Hàng đơn vị chỉ có $2$ đơn vị, không đủ bớt $6$.
-- Ta đổi $1$ chục thành $10$ đơn vị. Còn $3$ chục, và hàng đơn vị là $2+10=12$ đơn vị.
-- Bớt đơn vị: $12-6=6$. Hàng chục còn $3$.
+- Hàng đơn vị chỉ có $2$ đơn vị, mà cần bớt $6$. Như vậy là không đủ để bớt.
+- Vậy ta lấy $1$ chục đổi thành $10$ đơn vị. Hàng chục còn $3$ chục, hàng đơn vị thành $2+10=12$ đơn vị.
+- Bây giờ bớt được rồi: $12-6=6$. Hàng chục vẫn còn $3$.
 
-Vậy còn $3$ chục và $6$ đơn vị, tức là $36$.
+Gộp lại, còn $3$ chục và $6$ đơn vị, tức là $36$. Đó cũng là câu trả lời cho cô giáo.
 
 $$\begin{array}{r} 42\\ -\ \ 6\\ \hline 36 \end{array}$$
 
-Em cũng có thể lùi trên tia số: từ $42$ lùi $2$ bước về $40$, rồi lùi thêm $4$ bước về $36$.
+Cách khác là đi lùi trên tia số. Từ $42$ lùi $2$ bước thì về $40$, rồi lùi thêm $4$ bước nữa về $36$. Hai cách cho cùng một kết quả.
 
 :::graph Trên tia số: từ 42 lùi 2 bước về 40, rồi lùi 4 bước về 36
 alt: Tia số từ 34 đến 44, đánh dấu các điểm 36, 40 và 42; đoạn từ 36 đến 42 được tô đậm
@@ -45,11 +45,11 @@ Muốn tính $42-6$:
 3. Hàng chục: $4$ bớt $1$ chục đã mượn còn $3$. Viết $3$.
 :::
 
-Cách này đúng vì $1$ chục bằng $10$ đơn vị. Ta chỉ đổi cách viết, không làm mất hay thêm bút chì nào.
+Vì sao đổi như vậy được? Vì $1$ chục bằng $10$ đơn vị. Ta chỉ đổi cách đếm, không làm mất đi hay thêm vào cái bút chì nào.
 
 ## Ví dụ
 
-Ta bắt đầu với một phép trừ mà hàng đơn vị thiếu ít.
+Ta thử với một phép trừ mà hàng đơn vị chỉ thiếu một chút.
 
 :::example Tính $32-5$
 **Lời giải.** Hàng đơn vị: $2$ không trừ được $5$, mượn $1$ chục được $12$. Tính $12-5=7$. Hàng chục: $3-1=2$:
@@ -57,7 +57,7 @@ $$\begin{array}{r} 32\\ -\ \ 5\\ \hline 27 \end{array}$$
 Vậy $32-5=27$.
 :::
 
-Phép tính sau làm giống hệt, chỉ đổi số.
+Phép tính này làm giống hệt, chỉ khác các số. Em thử đoán trước xem hàng đơn vị có đủ để bớt không.
 
 :::example Tính $54-8$
 **Lời giải.** Hàng đơn vị: mượn $1$ chục, $14-8=6$. Hàng chục: $5-1=4$:
@@ -65,7 +65,7 @@ $$\begin{array}{r} 54\\ -\ \ 8\\ \hline 46 \end{array}$$
 Vậy $54-8=46$.
 :::
 
-Bây giờ hàng đơn vị chỉ có $1$, nên phải mượn nhiều đơn vị hơn.
+Lần này hàng đơn vị chỉ có $1$, thiếu nhiều hơn các phép trước, nên ta phải đổi chục ra để có thêm đơn vị.
 
 :::example Tính $81-7$
 **Lời giải.** Hàng đơn vị: $1$ không trừ được $7$, mượn $1$ chục được $11$. Tính $11-7=4$. Hàng chục: $8-1=7$:
@@ -75,7 +75,7 @@ Vậy $81-7=74$.
 **Kiểm tra.** Thử lại bằng phép cộng: $74+7=81$. Đúng.
 :::
 
-Bây giờ em dùng phép trừ để giải một bài toán trong cuộc sống.
+Phép trừ có nhớ còn dùng được khi ta đếm hàng trong cửa hàng. Em thử với bài toán cửa hàng bán vở.
 
 :::example Cửa hàng bán vở
 Cửa hàng có $63$ quyển vở. Cửa hàng bán đi $8$ quyển vở. Hỏi cửa hàng còn lại bao nhiêu quyển vở?
@@ -86,9 +86,9 @@ Vậy cửa hàng còn lại $55$ quyển vở.
 :::
 
 :::warning Những lỗi em hay gặp
-- **Lấy số nhỏ trừ số lớn.** Sai: $42-6=44$. Vì sao sai: em lấy $6-2=4$ thay vì mượn chục để tính $12-6$. Đúng: $42-6=36$.
-- **Mượn chục mà không bớt ở hàng chục.** Sai: $42-6=46$. Vì sao sai: em tính $12-6=6$ nhưng vẫn giữ $4$ chục, quên bớt $1$ chục đã mượn. Đúng: $42-6=36$.
-- **Bài toán có lời văn quên đơn vị.** Sai: "Đáp số: $55$". Đúng: "Đáp số: $55$ quyển vở".
+- **Lấy số nhỏ trừ số lớn.** Chỗ này nhiều bạn hay nhầm. Sai: $42-6=44$. Vì sao sai: em lấy $6-2=4$, trong khi phải mượn chục để tính $12-6$. Đúng: $42-6=36$.
+- **Mượn chục mà không bớt ở hàng chục.** Sai: $42-6=46$. Vì sao sai: em tính $12-6=6$ nhưng vẫn giữ nguyên $4$ chục, quên bớt $1$ chục đã mượn. Mượn đi một chục thì hàng chục phải ít đi một chục. Đúng: $42-6=36$.
+- **Bài toán có lời văn quên đơn vị.** Sai: "Đáp số: $55$". Con số nào cũng cần đi kèm đơn vị. Đúng: "Đáp số: $55$ quyển vở".
 :::
 
 ## Thuật ngữ
@@ -106,14 +106,16 @@ Vậy cửa hàng còn lại $55$ quyển vở.
 
 ## Tóm tắt
 
-- Hàng đơn vị không đủ trừ: mượn $1$ chục, đổi thành $10$ đơn vị rồi trừ.
+- Hàng đơn vị không đủ trừ: mượn $1$ chục, đổi thành $10$ đơn vị rồi mới trừ.
 - Hàng chục: nhớ bớt $1$ chục đã mượn.
 - Ví dụ: $42-6$: $12-6=6$; $4-1=3$; kết quả $36$.
 - Thử lại bằng phép cộng: $36+6=42$.
 
+Vậy cô giáo còn lại $36$ cái bút chì. Khi hàng đơn vị thiếu, ta đổi một chục ra đơn vị rồi mới trừ. Em làm thêm vài bài ở phần luyện tập để quen tay nhé.
+
 ## Luyện tập
 
-Mỗi bài có phần kiến thức và gợi ý. Em hãy tự làm trước, rồi mới bấm xem lời giải.
+Mỗi bài đều có phần cần nhớ và gợi ý để em bắt đầu. Em cứ tự làm trước, chưa chắc thì xem gợi ý, làm xong rồi mới bấm xem lời giải. Sai một chút cũng không sao, vì mỗi lần sửa lại là một lần em hiểu rõ hơn.
 
 :::exercise
 Tính $53-7$.

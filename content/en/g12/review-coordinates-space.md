@@ -11,9 +11,9 @@ minutes: 40
 - Set up a coordinate system for a real-life situation (a room, an aircraft, a radar station).
 :::
 
-Coordinates in space is one of the "easy marks" topics of grade 12. Part I usually has two to four questions that are read straight from an equation: a normal vector, the centre and radius of a sphere, a distance. Part II or Part III usually has one mixed question, often set in a real-life context. Altogether this topic is usually worth about $1$ to $1.5$ marks.
+Open a grade 12 maths paper and you will find coordinates in space in several places. Part I usually has two to four questions that you can read straight off an equation: a normal vector, the centre and radius of a sphere, a distance. Part II or Part III usually has one mixed question, often set in a real-life context. Altogether this topic is usually worth about $1$ to $1.5$ marks, and they are marks you can win if you know the formulas well. So what do you need to have ready to collect all of them?
 
-The secret is to know the formulas thoroughly and to watch the signs. This revision lesson covers four areas: vectors, planes, lines, and spheres with real-life models.
+The answer is simple: know the formulas well, and watch every plus and minus sign. We will go through four areas in turn: vectors, planes, lines, and spheres with real-life models. Each area has the formulas to remember and one or two examples that show how they are used.
 
 :::diagram The coordinate system $Oxyz$ and the point $M(2, 3, 2)$
 alt: Three mutually perpendicular axes Ox, Oy, Oz in parallel projection; the point M lies above the plane Oxy, and its projection M' on the plane Oxy is joined to points on the x- and y-axes by dashed lines
@@ -109,7 +109,7 @@ So the answers are a) True, b) False, c) True, d) False.
 - The angle between two planes: $\cos\varphi=\dfrac{|\vec n\cdot\vec n'|}{|\vec n|\cdot|\vec n'|}$.
 :::
 
-A line perpendicular to a plane takes the plane's normal vector as its direction vector. This idea is behind many multiple-choice questions.
+Here is one idea worth remembering well. If a line is perpendicular to a plane, it points in the same direction as the plane's normal vector, so we simply take the normal vector as the direction vector. The reason is natural: a normal vector is, by definition, a vector perpendicular to the plane. Many multiple-choice questions rest on this idea, and the next example is one of them.
 
 :::example Multiple choice: a line perpendicular to a plane
 The line through $A(1, 2, -1)$ perpendicular to the plane $(P)\colon 2x-y+3z-5=0$ has parametric equations
@@ -140,9 +140,9 @@ So the angle is about $26^\circ$ (write $26$).
 :::
 
 :::warning Common traps
-- **Using $\cos$ instead of $\sin$** for the angle between a line and a plane. In the example above, $\cos$ would give about $64^\circ$, the complement of the correct answer.
-- **Forgetting the absolute value** for the angle between two lines or two planes: this angle is never more than $90^\circ$.
-- **Misreading coordinates from the Cartesian equations.** From $\dfrac{z+1}{2}$ we get $z_0=-1$, not $1$.
+- **Using $\cos$ instead of $\sin$** for the angle between a line and a plane. Many students slip here. In the example above, $\cos$ would give about $64^\circ$, the complement of the correct answer.
+- **Forgetting the absolute value** for the angle between two lines or two planes. These angles are never more than $90^\circ$, so the numerator must not be negative.
+- **Misreading coordinates from the Cartesian equations.** From $\dfrac{z+1}{2}$ we get $z_0=-1$, not $1$. A plus sign in the numerator gives a negative coordinate.
 :::
 
 ## Spheres and real-life coordinate models
@@ -153,7 +153,7 @@ So the angle is about $26^\circ$ (write $26$).
 - With $h=d(I, (P))$: if $h>R$ the plane $(P)$ misses the sphere; if $h=R$ it is tangent; if $h<R$ it cuts the sphere in a circle of radius $r=\sqrt{R^2-h^2}$.
 :::
 
-In a real-life problem we put the origin in a convenient place (a corner of a room, the foot of a tower, a radar station), choose a unit (m or km), and then translate the question into one about points, lines, planes or spheres.
+A real-life problem is told in words, so the first job is to turn the story into geometry. We put the origin in the most convenient place (a corner of a room, the foot of a tower, a radar station), choose a unit (m or km), and then translate the question into one about points, lines, planes or spheres. After that, what remains is the formulas you have just revised.
 
 :::example Short answer: an aircraft crossing radar coverage
 Choose axes $Oxyz$ (unit: km) with a radar station at the origin $O$. The radar detects every object within $5$ km of it. An aircraft flies in a straight line with position $M(1+2t, 2-t, 2)$. Find the length of the part of the flight path inside the radar's range (in km).
@@ -190,7 +190,7 @@ $$\sqrt5\cdot\frac{8}{\sqrt5}=8\ \text{(km)}.$$
 
 ## Exercises
 
-The exercises go from easy to hard, and each one states its exam format.
+The exercises go from easy to hard, and each one says which exam format it follows. Work through them in order, and if one type gives you trouble, go back to the matching section above and try again.
 
 :::exercise Multiple choice
 The plane through $M(1, -2, 3)$ with normal vector $\vec n=(2, -1, 1)$ has equation

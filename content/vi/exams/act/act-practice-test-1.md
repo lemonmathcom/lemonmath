@@ -5,7 +5,7 @@ minutes: 50
 type: test
 ---
 
-Đề luyện này theo cấu trúc ACT Math mới: **45 câu, 50 phút, 4 phương án, được dùng máy tính, trả lời sai không bị trừ điểm**. Mọi câu hỏi đều do Lemonmath soạn; đây không phải câu hỏi ACT thật, nhưng bao quát các mảng nội dung chính thức ở đúng mức độ của kì thi. Các câu khó dần, như trong đề thật.
+Đọc về một kì thi là một chuyện, ngồi làm trọn bài trong thời gian quy định lại là chuyện khác. Đề luyện này để bạn thử đúng cảm giác đó. Nó theo cấu trúc ACT Math mới: **45 câu, 50 phút, 4 phương án, được dùng máy tính, trả lời sai không bị trừ điểm**. Mọi câu hỏi đều do Lemonmath soạn; đây không phải câu hỏi ACT thật, nhưng bao quát các mảng nội dung chính thức ở đúng mức độ của kì thi. Các câu khó dần, như trong đề thật.
 
 ## Cách làm đề
 
@@ -425,7 +425,7 @@ Với hai số $x$ và $20-x$, tích $x(20-x)$ lớn nhất tại đỉnh $x=10$
 
 ## Sau khi làm đề
 
-Số câu đúng là điểm thô của bạn trên 45. ACT quy đổi điểm thô sang thang 1–36 bằng một bảng khác nhau theo từng đề, nên đề luyện này không đưa ra điểm quy đổi. Hãy dùng bảng dưới để biết mỗi câu sai cần ôn lại bài nào.
+Số câu đúng là điểm thô của bạn trên 45. ACT quy đổi điểm thô sang thang 1–36 bằng một bảng khác nhau theo từng đề, nên đề luyện này không đưa ra điểm quy đổi. Hãy dùng bảng dưới để biết mỗi câu sai cần ôn lại bài nào. Đừng nản nếu lần đầu chưa kịp làm hết đề: kịp giờ là một kĩ năng, và luyện vài lần sẽ khá hơn.
 
 | Câu | Bài cần ôn |
 |---|---|
@@ -475,4 +475,4 @@ Số câu đúng là điểm thô của bạn trên 45. ACT quy đổi điểm t
 | 44 | [Thống kê và xác suất](lesson:act-statistics-probability) |
 | 45 | [Mô hình hoá và bài tổng hợp](lesson:act-modelling-integrating) |
 
-Sau đó ôn lại bằng bài [ACT Math gồm những gì và cách ôn](lesson:act-overview), và ghi mọi lỗi sai vào sổ lỗi sai.
+Khi đã biết mình sai ở đâu, hãy ôn lại bằng bài [ACT Math gồm những gì và cách ôn](lesson:act-overview), và ghi mọi lỗi sai vào sổ lỗi sai. Lần làm đề sau, bạn so với lần này sẽ thấy rõ mình tiến bộ ở chỗ nào.

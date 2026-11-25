@@ -11,7 +11,7 @@ minutes: 40
 - Work with radians, arc length, sector area and the equation of a circle.
 :::
 
-This lesson covers the harder half of the Geometry and Trigonometry domain. Vietnamese students know the trigonometric ratios from grade 9, but the SAT also uses radians and the circle equation $(x-h)^2+(y-k)^2=r^2$, which in Vietnam come in grade 10 and 11. The reference sheet in Bluebook gives the special right triangles; everything else in this lesson you should know by heart.
+A ladder leaning against a wall, a slice cut from a pizza: both are geometry you meet every day, and this lesson gives you the tools to work with them. It covers the harder half of the Geometry and Trigonometry domain. Vietnamese students know the trigonometric ratios from grade 9, but the SAT also uses radians and the circle equation $(x-h)^2+(y-k)^2=r^2$, which in Vietnam come in grade 10 and 11. The reference sheet in Bluebook gives the special right triangles; everything else in this lesson you should know by heart.
 
 ## Right triangles
 
@@ -34,7 +34,7 @@ D. $10\sqrt3$
 
 ## Similar triangles
 
-Two triangles are **similar** when their angles are equal; then their corresponding sides are proportional. A line parallel to one side of a triangle cuts off a smaller similar triangle.
+Two photographs of the same scene, one small and one large, have exactly the same shape; only the size differs. Triangles can do the same. Two triangles are **similar** when their angles are equal; then their corresponding sides are proportional. A line parallel to one side of a triangle cuts off a smaller similar triangle.
 
 :::example A parallel segment
 In triangle $ABC$, point $D$ lies on $\overline{AB}$ and point $E$ lies on $\overline{AC}$, with $\overline{DE}$ parallel to $\overline{BC}$. If $AD=4$, $DB=6$ and $DE=5$, what is the length of $\overline{BC}$?
@@ -82,7 +82,7 @@ D. $\dfrac{\pi}{9}$
 **Solution.** $s=r\theta=6\cdot\dfrac{2\pi}{3}=4\pi$. The answer is **B**. Option C is the area of the sector, $\dfrac12\cdot36\cdot\dfrac{2\pi}{3}$.
 :::
 
-The circle with center $(h, k)$ and radius $r$ has equation $(x-h)^2+(y-k)^2=r^2$. If the equation is expanded, complete the square in $x$ and in $y$.
+Every point on a circle is the same distance from its centre, and that distance is the radius. From that one idea, the circle with center $(h, k)$ and radius $r$ has equation $(x-h)^2+(y-k)^2=r^2$. If the equation is expanded, complete the square in $x$ and in $y$, then read off the centre and the radius.
 
 :::example Finding the radius
 The equation of a circle in the $xy$-plane is $x^2+y^2-6x+4y-12=0$. What is the radius of the circle?
@@ -110,10 +110,11 @@ label: (5.5, -1.4) "r = 5"
 - **Signs in the circle equation.** $(x+4)^2+(y-1)^2=9$ has center $(-4, 1)$, not $(4, -1)$.
 - **$r^2$ versus $r$.** In $(x-3)^2+(y+2)^2=25$ the radius is $5$, not $25$.
 - **Degrees or radians.** Check the question. On a calculator, check the mode; in Desmos, check the settings.
+These slips are small, but they cost real marks. Glance at this list before you hand in your answers.
 :::
 
 :::tip Trigonometry in Desmos
-Desmos works in radians by default; switch to degrees with the wrench icon before typing `sin(30)`. To check a circle, type the equation exactly as given: Desmos draws it and shows the center if you also type the completed-square form.
+Many students forget this: Desmos works in radians by default. Switch to degrees with the wrench icon before typing `sin(30)`. To check a circle, type the equation exactly as given: Desmos draws it and shows the centre if you also type the completed-square form.
 :::
 
 :::terms

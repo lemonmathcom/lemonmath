@@ -11,11 +11,11 @@ minutes: 35
 - Decide what conclusions a survey or a study can support.
 :::
 
-Statistics questions on the SAT rarely ask for long calculations. Instead, they test whether you **understand** a statistic: what changes the mean but not the median, what a slope means in a scatterplot, or whether a survey can speak for a whole population. Vietnamese students learn most of these ideas between grades 6 and 10; the new part is the vocabulary, so the glossary at the end of this lesson matters.
+You see a chart, or hear a headline drawn from a survey. How do you know whether to trust it? Statistics questions on the SAT rarely ask for long calculations. Instead, they test whether you **understand** a statistic: what changes the mean but not the median, what a slope means in a scatterplot, or whether a survey can speak for a whole population. Vietnamese students learn most of these ideas between grades 6 and 10; the new part is the vocabulary, so the glossary at the end of this lesson matters.
 
 ## Mean, median and outliers
 
-The **mean** is the sum of the values divided by their number. The **median** is the middle value of the ordered data (the mean of the two middle values when the number of values is even). An **outlier** is a value far from the others: it pulls the mean toward itself but barely moves the median.
+To sum up a whole set of numbers with one number, you can use the mean or the median. The **mean** is the sum of the values divided by their number. The **median** is the middle value of the ordered data (the mean of the two middle values when the number of values is even). What happens when one value sits far from the rest? An **outlier** is a value far from the others: it pulls the mean toward itself but barely moves the median.
 
 :::example Finding a missing value
 The mean of Nam's first 6 test scores is 82. After his seventh test, the mean of all 7 scores is 84. What was his score on the seventh test?
@@ -33,7 +33,7 @@ D. The mean and the median do not change.
 **Solution.** The outlier is far above the other values, so removing it lowers the mean a lot. The median moves only from the 5th value to the average of the 4th and 5th values of the remaining 8, a small change. The answer is **B**.
 :::
 
-The **standard deviation** measures how spread out the values are around the mean. The SAT asks only to compare it: a data set whose values cluster closely around the mean has a smaller standard deviation than one whose values are spread far apart. The **range** is the largest value minus the smallest.
+Two data sets can have the same mean and still look very different: one tightly bunched, the other spread out. The **standard deviation** measures how spread out the values are around the mean. The SAT asks only to compare it: a data set whose values cluster closely around the mean has a smaller standard deviation than one whose values are spread far apart. The **range** is the largest value minus the smallest.
 
 ## Frequency tables and scatterplots
 
@@ -53,7 +53,7 @@ D. $2.65$
 **Solution.** With 20 values, the median is the mean of the 10th and 11th values. Counting up: values 1 to 3 are "1", values 4 to 8 are "2", values 9 to 16 are "3". Both the 10th and 11th values are $3$, so the median is $3$: answer **C**. Option D is the mean, $\dfrac{3+10+24+16}{20}=2.65$.
 :::
 
-A **scatterplot** shows pairs of data. A **line of best fit** $y=mx+b$ models the trend: the slope $m$ is the predicted change in $y$ for each increase of $1$ in $x$, and $b$ is the predicted value of $y$ when $x=0$.
+Each dot on the chart is a pair of data, such as one student's hours of study and test score. A **scatterplot** shows these pairs. When the dots follow a trend, we draw a straight line through the middle of them. A **line of best fit** $y=mx+b$ models that trend: the slope $m$ is the predicted change in $y$ for each increase of $1$ in $x$, and $b$ is the predicted value of $y$ when $x=0$.
 
 :::graph Hours of study and test scores, with the line of best fit $y=2.5x+40$
 alt: Eight data points rising from left to right around a straight line that starts at 40 on the y-axis
@@ -83,7 +83,7 @@ D. The score of every student increases by 2.5 points per hour.
 
 ## Two-way tables and probability
 
-The probability of an event, when all outcomes are equally likely, is $\dfrac{\text{number of favorable outcomes}}{\text{total number of outcomes}}$. In a two-way table, a **conditional probability** "given that…" restricts the total to one row or one column.
+Probability answers one question: out of everything that could happen, how much of it do we care about? When all outcomes are equally likely, the probability of an event is $\dfrac{\text{number of favorable outcomes}}{\text{total number of outcomes}}$. In a two-way table there is one place to be careful: a **conditional probability** "given that…" restricts the total to one row or one column. Whichever group the question says "given", that group is the total.
 
 :::example A two-way table
 The table shows the club choices of 80 students.
@@ -106,9 +106,10 @@ D. $\dfrac{5}{8}$
 ## Samples and studies
 
 :::note What can we conclude?
-- A **random sample** lets us generalize to the population it was chosen from, and only to that population.
+- A **random sample** lets us say something about the population it was chosen from, and only about that population.
 - A **margin of error** gives a range of plausible values for the population: an estimate of 64% with a margin of error of 5% suggests a true value between 59% and 69%.
-- Only a **randomized experiment** (subjects randomly assigned to treatments) supports a cause-and-effect conclusion. An observational study shows only an association.
+- To support a cause-and-effect conclusion you need a **randomized experiment** (subjects randomly assigned to treatments). An observational study shows only an association.
+Before accepting any conclusion, ask how the sample was chosen and whether the groups were assigned at random.
 :::
 
 :::warning Common traps
@@ -116,10 +117,11 @@ D. $\dfrac{5}{8}$
 - **Mean versus median with outliers.** Outliers move the mean much more than the median.
 - **Over-generalizing.** A sample of one school says nothing certain about all the schools in a country.
 - **Causation from observation.** "People who drink more coffee sleep less" does not show that coffee causes less sleep.
+Many students have fallen into each of these, so read every word of the question.
 :::
 
 :::tip Statistics in Desmos
-Type a list such as `L=[3,9,4,7,12,5]`, then `mean(L)`, `median(L)` or `stdev(L)`. For a line of best fit, enter the data in a table and type `y_1~mx_1+b`.
+When a list is long, let Desmos do the arithmetic. Type a list such as `L=[3,9,4,7,12,5]`, then `mean(L)`, `median(L)` or `stdev(L)`. For a line of best fit, enter the data in a table and type `y_1~mx_1+b`.
 :::
 
 :::terms

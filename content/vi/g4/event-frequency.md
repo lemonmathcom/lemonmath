@@ -10,35 +10,36 @@ minutes: 15
 - Kiểm tra: tổng số lần các sự kiện bằng số lần thử.
 :::
 
-Nam tung một đồng xu $10$ lần và ghi lại kết quả mỗi lần: mặt ngửa (N) hay mặt sấp (S). Kết quả là: N, S, S, N, N, S, N, N, S, N. Mặt ngửa xuất hiện bao nhiêu lần? Mặt sấp xuất hiện bao nhiêu lần?
+Nam tung một đồng xu $10$ lần và ghi lại kết quả mỗi lần: mặt ngửa (N) hay mặt sấp (S). Kết quả là: N, S, S, N, N, S, N, N, S, N. Nhìn dãy chữ dài như vậy, em có trả lời ngay được không: mặt ngửa xuất hiện bao nhiêu lần, mặt sấp xuất hiện bao nhiêu lần?
 
-Em đã biết đọc dãy số liệu và biểu đồ cột. Bài này dạy em cách đếm kết quả của những lần thử như thế.
+Đếm nhẩm một dãy dài rất dễ sót hoặc đếm trùng. Em đã biết đọc dãy số liệu và biểu đồ cột; giờ ta học một cách đếm gọn gàng, chắc chắn cho kết quả của những lần thử như thế.
 
 ## Cùng khám phá
 
-Mỗi lần tung đồng xu gọi là một **lần thử**. Mặt ngửa hay mặt sấp xuất hiện là một **sự kiện**. Ta đếm từng sự kiện bằng **vạch kiểm đếm**: mỗi lần xuất hiện, ta gạch một vạch. Cứ đủ $5$ vạch thì gom thành một nhóm cho dễ đếm.
+Trước hết, vài cái tên. Mỗi lần tung đồng xu gọi là một **lần thử**. Mặt ngửa hay mặt sấp xuất hiện gọi là một **sự kiện**. Để đếm không sót, ta dùng **vạch kiểm đếm**: sự kiện nào xuất hiện thì gạch thêm một vạch cho sự kiện đó. Cứ đủ $5$ vạch thì gom thành một nhóm, nhìn vào là đếm được ngay.
 
-Với dãy N, S, S, N, N, S, N, N, S, N, em đọc từng lần:
+Ta quay lại dãy N, S, S, N, N, S, N, N, S, N của Nam và đọc từng lần tung:
 
 - Lần $1$: N, lần $4$: N, lần $5$: N, lần $7$: N, lần $8$: N, lần $10$: N. Có $6$ lần ngửa.
 - Lần $2$, $3$, $6$, $9$ là S. Có $4$ lần sấp.
+Ta gom kết quả lại thành bảng kiểm đếm:
 
 | Sự kiện | Vạch kiểm đếm | Số lần |
 |---|---|---|
 | Mặt ngửa | $\mid\mid\mid\mid\mid\ \mid$ | $6$ |
 | Mặt sấp | $\mid\mid\mid\mid$ | $4$ |
 
-Em kiểm tra lại: $6+4=10$, đúng bằng số lần tung.
+Còn một việc nên làm là kiểm tra lại. Cộng hai số lần với nhau, $6+4=10$, đúng bằng số lần tung. Vậy là em không đếm sót, cũng không đếm trùng.
 
 :::definition Số lần xuất hiện của một sự kiện
 **Số lần xuất hiện** của một sự kiện là số lần sự kiện đó xảy ra trong tất cả các lần thử. Tổng số lần xuất hiện của mọi sự kiện bằng số lần thử.
 :::
 
-Điều này đúng vì mỗi lần thử cho đúng một kết quả. Nên đếm hết các kết quả thì ta được đúng số lần thử.
+Vì sao tổng luôn khớp? Vì mỗi lần thử cho đúng một kết quả, không nhiều hơn, không ít hơn. Nên đếm hết các kết quả thì ta được đúng số lần thử. Nếu tổng bị lệch, chắc chắn đã có chỗ đếm sai.
 
 ## Ví dụ
 
-Ta bắt đầu với bài toán đếm trực tiếp.
+Ta bắt đầu bằng cách đếm trực tiếp từ dãy kết quả của Nam.
 
 :::example Đếm từ dãy kết quả
 Tung đồng xu $10$ lần được: N, S, S, N, N, S, N, N, S, N. Hỏi mặt ngửa và mặt sấp mỗi mặt xuất hiện mấy lần?
@@ -48,7 +49,7 @@ $$\text{ngửa: } 6\ \text{lần},\qquad \text{sấp: } 4\ \text{lần}.$$
 Kiểm tra: $6+4=10$ lần tung. Vậy ngửa $6$ lần, sấp $4$ lần.
 :::
 
-Bây giờ có ba kết quả khác nhau thay vì hai.
+Lần này có ba kết quả khác nhau thay vì hai, nên em cần chú ý hơn để không lẫn màu.
 
 :::example Lấy bi
 Trong hộp có bi đỏ, bi xanh và bi vàng. Hà lấy một viên ra xem rồi bỏ lại, làm $12$ lần. Kết quả lần lượt là: Đ, X, Đ, Đ, V, X, Đ, V, Đ, X, Đ, Đ. Mỗi màu xuất hiện mấy lần?
@@ -58,7 +59,7 @@ $$\text{Đỏ: } 7\ \text{lần},\qquad \text{Xanh: } 3\ \text{lần},\qquad \te
 Kiểm tra: $7+3+2=12$ lần lấy. Vậy đỏ $7$ lần, xanh $3$ lần, vàng $2$ lần.
 :::
 
-Đôi khi kết quả đã cho trong bảng kiểm đếm. Ta đọc bảng rồi trả lời.
+Đôi khi người ta cho sẵn kết quả trong bảng chứ không cho cả dãy. Khi đó ta đọc bảng thật kĩ rồi mới trả lời, và việc đầu tiên nên làm là kiểm tra tổng.
 
 :::example Gieo xúc xắc
 Gieo một con xúc xắc $20$ lần, ta được số lần xuất hiện của từng mặt:
@@ -80,7 +81,7 @@ $$4+5+3=12\ \text{(lần)}.$$
 Vậy các mặt chẵn xuất hiện $12$ lần.
 :::
 
-Biết tổng số lần thử, ta có thể tìm số lần còn thiếu.
+Có khi ta chỉ biết tổng số lần thử và số lần của một sự kiện. Vậy số lần của sự kiện còn lại tìm thế nào?
 
 :::example Tìm số lần còn thiếu
 Tung đồng xu $15$ lần, mặt ngửa xuất hiện $9$ lần. Mặt sấp xuất hiện mấy lần?
@@ -91,9 +92,9 @@ $$15-9=6\ \text{(lần)}.$$
 :::
 
 :::warning Những lỗi em hay gặp
-- **Đếm sót hoặc đếm trùng.** Sai: dãy N, S, S, N, N có $2$ lần N. Vì sao sai: bỏ sót một lần N. Đúng: $3$ lần N. Em hãy đánh dấu từng kết quả khi đếm.
-- **Tổng không bằng số lần thử.** Sai: $6+5=11$ nhưng chỉ tung $10$ lần. Vì sao sai: có chỗ đếm trùng. Đúng: đếm lại cho đến khi tổng bằng $10$.
-- **Nhầm số lần với tên sự kiện.** Sai: "Mặt ngửa xuất hiện nhiều nhất là $6$" khi hỏi mặt nào. Vì sao sai: $6$ là số lần, còn câu hỏi cần tên mặt. Đúng: mặt ngửa, $6$ lần.
+- **Đếm sót hoặc đếm trùng.** Chỗ này nhiều bạn hay nhầm. Dãy N, S, S, N, N mà đếm được $2$ lần N là sai, vì đã bỏ sót một lần N. Đúng là $3$ lần N. Em hãy đánh dấu từng kết quả khi đếm.
+- **Tổng không bằng số lần thử.** Nếu cộng ra $6+5=11$ mà chỉ tung $10$ lần thì có chỗ đã đếm trùng. Em hãy đếm lại cho đến khi tổng bằng $10$.
+- **Nhầm số lần với tên sự kiện.** Khi câu hỏi là mặt nào xuất hiện nhiều nhất, trả lời "$6$" là chưa đúng, vì $6$ là số lần, còn câu hỏi cần tên mặt. Đúng là: mặt ngửa, $6$ lần.
 :::
 
 ## Thuật ngữ
@@ -115,10 +116,11 @@ $$15-9=6\ \text{(lần)}.$$
 - Vạch kiểm đếm: mỗi lần một vạch, đủ $5$ vạch thì gom thành nhóm.
 - Tổng số lần của mọi sự kiện bằng số lần thử.
 - Biết tổng và số lần của một sự kiện thì tìm số lần còn lại bằng phép trừ.
+Quay lại đồng xu của Nam: đếm kĩ, ta biết mặt ngửa xuất hiện sáu lần, mặt sấp bốn lần, và cộng lại đúng bằng số lần tung. Em nhớ luôn thử lại tổng, rồi làm các bài luyện tập cho quen tay.
 
 ## Luyện tập
 
-Mỗi bài có phần kiến thức và gợi ý. Em hãy tự làm trước, rồi mới bấm xem lời giải.
+Mỗi bài đều có phần kiến thức và gợi ý để em bắt đầu. Em cứ tự làm trước, chưa chắc thì xem gợi ý, rồi mới mở lời giải để đối chiếu.
 
 :::exercise
 Tung đồng xu $8$ lần được: N, N, S, N, S, S, N, N. Mỗi mặt xuất hiện mấy lần?

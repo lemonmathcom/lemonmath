@@ -11,11 +11,11 @@ minutes: 35
 - Solve multi-step problems with density, fuel use and mixtures.
 :::
 
-Problem-Solving and Data Analysis has about 5 to 7 questions on the test, and roughly half of them are about ratios, rates, percentages and units. These are the most "everyday" questions on the SAT: recipes, maps, prices, discounts and speeds. The math is from grades 6 and 7, but careless reading costs many points, so the habit to build here is to write every quantity **with its unit**.
+Have you ever read a map to work out how far away a place is, or worked out what a jacket costs in a sale? That is ratios, rates and percentages at work. Problem-Solving and Data Analysis has about 5 to 7 questions on the test, and roughly half of them are about ratios, rates, percentages and units. These are the most "everyday" questions on the SAT: recipes, maps, prices, discounts and speeds. The maths is from grades 6 and 7, but careless reading costs many points. So the habit to build here is to write every quantity **with its unit**.
 
 ## Ratios and proportions
 
-A ratio $a:b$ compares two quantities. If a total is split in the ratio $a:b$, the total is made of $a+b$ equal parts.
+When a total is shared out in a ratio, the first job is to count the parts. A ratio $a:b$ compares two quantities. If a total is split in the ratio $a:b$, the total is made of $a+b$ equal parts. After that, the only question left is how big one part is.
 
 :::example Splitting in a ratio
 In a class of 36 students, the ratio of boys to girls is $4:5$. How many girls are in the class?
@@ -27,7 +27,7 @@ D. $25$
 **Solution.** There are $4+5=9$ equal parts, so each part is $36\div9=4$ students. Girls: $5\cdot4=20$. The answer is **B**. Option A is the number of boys; option C is the number of parts.
 :::
 
-A **proportion** says that two ratios are equal: $\dfrac{a}{b}=\dfrac{c}{d}$, which gives $ad=bc$ (cross-multiplication).
+A **proportion** says that two ratios are equal: $\dfrac{a}{b}=\dfrac{c}{d}$. If you know three of the numbers, you can find the fourth. Why? Because cross-multiplication gives $ad=bc$, which is an ordinary equation. A map scale is the most familiar example.
 
 :::example A map scale
 On a map, 1 centimeter represents 2.5 kilometers. Two towns are 7.2 centimeters apart on the map. What is the actual distance between the towns, in kilometers?
@@ -37,7 +37,7 @@ On a map, 1 centimeter represents 2.5 kilometers. Two towns are 7.2 centimeters 
 
 ## Rates and unit conversion
 
-A rate is a ratio with units, such as kilometers per hour or dollars per kilogram. To convert units, multiply by fractions equal to $1$, such as $\dfrac{5{,}280\text{ feet}}{1\text{ mile}}$, arranged so that the unwanted units cancel. The SAT always gives the conversion factors for US units.
+Sometimes you are given a speed in one unit, but the question asks for another. A rate is a ratio with units, such as kilometres per hour or dollars per kilogram. To convert units, multiply by fractions equal to $1$, such as $\dfrac{5{,}280\text{ feet}}{1\text{ mile}}$. Multiplying by $1$ changes the units but not the value. Arrange the fractions so that the unwanted units cancel. The SAT always gives the conversion factors for US units.
 
 :::example Converting a speed
 A car travels at 60 miles per hour. What is its speed in feet per second? (1 mile = 5,280 feet)
@@ -67,7 +67,7 @@ D. $87\%$
 **Solution.** $\dfrac{92-80}{80}=\dfrac{12}{80}=0.15$, an increase of $15\%$. The answer is **C**. Option A uses the change in dollars as a percent; option B divides by $92$.
 :::
 
-To find an original value after a percent change, **divide** by the multiplier. Never subtract the percent from the new price.
+Many students slip here: the price has gone down, so surely you add the percent back? Not quite. The new price is the original multiplied by a factor, so to get back you undo that multiplication. To find an original value after a percent change, **divide** by the multiplier. Never subtract the percent from the new price.
 
 :::example Reverse percentage
 After a 20% discount, a jacket costs 64 dollars. What was the price before the discount, in dollars?
@@ -90,10 +90,11 @@ At a school, 30% of the students are in a sports club, and 40% of the club membe
 - **Dividing by the wrong number in a percent change.** Always divide by the original value.
 - **Undoing a percent by the same percent.** A 20% decrease followed by a 20% increase does not return to the start: $0.8\cdot1.2=0.96$.
 - **Dropping units.** Write units at each step; they show whether to multiply or divide.
+These are the places where questions like to set traps. Read slowly and you will keep clear of them.
 :::
 
 :::tip Fast percent checks
-$10\%$ of a number is easy (move the decimal point), and $5\%$ is half of that. So $15\%$ of $80$ is $8+4=12$. Use this to estimate before you calculate.
+Here is a quick way to check whether an answer is sensible. $10\%$ of a number is easy (move the decimal point), and $5\%$ is half of that. So $15\%$ of $80$ is $8+4=12$. Estimate like this before you calculate properly.
 :::
 
 :::terms

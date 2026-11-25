@@ -12,13 +12,13 @@ minutes: 15
 
 Nam has a dice and a box of chalk. Both have flat faces, but they are not the same shape. How are they different?
 
-To find out, pick up each object, count its faces and see what shape the faces are.
+Let's find out by picking up each object. Count its faces, then look at what shape the faces are. Those two things are enough to show the difference.
 
 ## Let's explore
 
-Look at the dice: it has $6$ faces, each face is a square, and all the faces are the same size. It is a **cube**.
+Look at the dice first. It has $6$ faces, each face is a square, and all the faces are the same size. A solid like this is called a **cube**.
 
-Look at the box of chalk: it also has $6$ faces, but each face is a rectangle. It is a **cuboid**.
+Now look at the box of chalk. It also has $6$ faces, but each face is a rectangle. This kind of solid is called a **cuboid**.
 
 :::diagram A cube
 alt: A cube ABCD.A'B'C'D' drawn in oblique style, with the hidden edges dashed
@@ -44,18 +44,18 @@ segment C C'
 segment D D' dashed
 :::
 
-In the picture you can count $8$ vertices. Each line segment is an edge, and there are $12$ edges.
+What about vertices and edges? In the picture you can count $8$ vertices, which are the corners of the solid. Each line segment joining two vertices is an edge, and there are $12$ edges.
 
 :::theorem Two kinds of solid
 - **Cube:** $6$ faces, all equal squares; $8$ vertices; $12$ equal edges.
 - **Cuboid:** $6$ faces that are rectangles; $8$ vertices; $12$ edges. Opposite faces are equal.
 :::
 
-The two solids are alike in the number of faces, vertices and edges. They differ in the shape of their faces.
+So the two solids are alike in the number of faces, vertices and edges. The difference is in the shape of the faces: all squares on one, rectangles on the other. That is the answer to Nam's question.
 
 ## Examples
 
-We start by counting the parts of a cube.
+We start by counting the parts of a cube, using Nam's dice.
 
 :::example Counting faces, vertices and edges
 How many faces, vertices and edges does a cube have?
@@ -65,7 +65,7 @@ How many faces, vertices and edges does a cube have?
 So a cube has $6$ faces, $8$ vertices and $12$ edges.
 :::
 
-Now name the solids for some everyday objects.
+Now let's name the solid for some everyday objects. The method is still the same: look at the faces.
 
 :::example Naming everyday objects
 What solid is each object: a dice, a brick, a Rubik's cube?
@@ -75,7 +75,7 @@ What solid is each object: a dice, a brick, a Rubik's cube?
 So the dice and the Rubik's cube are cubes; the brick is a cuboid.
 :::
 
-Opposite faces of a cuboid are equal. We use this to find sizes.
+Pick up a brick or a box of chalk: opposite faces of a cuboid are equal. So if you know the size of one face, you know the size of the face opposite it.
 
 :::example Opposite faces
 A cuboid has a base that is a rectangle $6$ cm long and $3$ cm wide. What shape and size is the top, which is opposite the base?
@@ -85,7 +85,7 @@ A cuboid has a base that is a rectangle $6$ cm long and $3$ cm wide. What shape 
 So the top is a rectangle $6$ cm long and $3$ cm wide.
 :::
 
-Finally, a problem about stacking blocks.
+Finally, a problem about stacking blocks. Picture the blocks in layers, and think about whether to add or multiply.
 
 :::example Stacking blocks
 Nam stacks small cubes in $3$ layers, with $4$ cubes in each layer. How many cubes does Nam use altogether?
@@ -100,8 +100,8 @@ So Nam uses $12$ cubes.
 
 :::warning Mistakes to watch out for
 - **Mixing up a flat shape and a solid.** Wrong: "a cube is a square". Why it is wrong: a square is a flat shape, while a cube has $6$ faces that are squares. Right: every face of a cube is a square.
-- **Mixing up vertices and edges.** Wrong: a cube has $12$ vertices. Why it is wrong: $12$ is the number of edges. Right: it has $8$ vertices and $12$ edges.
-- **No unit.** Wrong: "Answer: $12$". Right: "Answer: $12$ cubes".
+- **Mixing up vertices and edges.** These two numbers are easy to swap. Wrong: a cube has $12$ vertices. Why it is wrong: $12$ is the number of edges. Right: it has $8$ vertices and $12$ edges. Count the corners and the line segments separately and you will not mix them up.
+- **No unit.** Wrong: "Answer: $12$". Right: "Answer: $12$ cubes". The unit tells the reader what you counted.
 :::
 
 ## Key terms
@@ -123,9 +123,11 @@ So Nam uses $12$ cubes.
 - The faces of a cuboid are rectangles; opposite faces are equal.
 - $n$ layers with $m$ blocks in each layer make $m\times n$ blocks.
 
+Back to Nam's question: the dice and the box of chalk have the same number of faces, vertices and edges, but their faces are different shapes. Remember to look at the faces first, and then try the practice below.
+
 ## Practice
 
-Each exercise comes with what you need and how to start. Try it yourself first, then open the solution.
+Each exercise has a short reminder of what you need and a hint to get you started. Have a go on your own first, and don't worry if you get stuck. Then open the solution and compare.
 
 :::exercise
 Fill in the blanks: a cube has $\ldots$ faces, $\ldots$ vertices and $\ldots$ edges.

@@ -10,21 +10,21 @@ minutes: 15
 - Thử lại kết quả và giải bài toán có lời văn dạng "tìm số ban đầu".
 :::
 
-Lan có một số hình dán trong hộp. Mẹ cho Lan thêm $7$ hình nữa, bây giờ Lan có $15$ hình. Hỏi lúc đầu trong hộp có bao nhiêu hình dán?
+Lan có một số hình dán trong hộp. Mẹ cho Lan thêm $7$ hình nữa, bây giờ Lan có $15$ hình. Lúc đầu trong hộp có bao nhiêu hình dán?
 
-Em chưa biết số hình lúc đầu, nên ta viết $\square+7=15$. Bài này dạy em cách tìm số trong ô trống một cách chắc chắn, không cần đoán.
+Số hình lúc đầu thì ta chưa biết, nên ta để một ô trống và viết $\square+7=15$. Em có thể đoán thử, nhưng đoán thì dễ trật. Có một cách tìm số trong ô trống chắc chắn, không cần đoán. Ta cùng tìm cách ấy.
 
 ## Cùng khám phá
 
-Em nhớ lại bài trước: trong phép cộng $8+7=15$, các số $8$ và $7$ gọi là **số hạng**, số $15$ gọi là **tổng**.
+Em còn nhớ bài trước chứ? Trong phép cộng $8+7=15$, các số $8$ và $7$ gọi là **số hạng**, số $15$ gọi là **tổng**.
 
-Ta nhìn lại câu chuyện của Lan:
+Ta quay lại câu chuyện của Lan và xem từng phần:
 
-- Cả hộp có $15$ hình sau khi thêm.
+- Cả hộp có $15$ hình sau khi mẹ cho thêm.
 - Phần mẹ cho thêm là $7$ hình.
 - Phần có lúc đầu là phần còn lại, nên ta lấy $15$ bớt đi $7$.
 
-Vậy $15-7=8$. Lúc đầu Lan có $8$ hình dán.
+Vậy $15-7=8$. Lúc đầu Lan có $8$ hình dán. Trên tia số dưới đây, em cũng thấy đúng như vậy.
 
 :::graph Trên tia số: đi từ 7 đến 15 là đi thêm 8 bước
 alt: Tia số từ 0 đến 15 đánh dấu các điểm 0, 7 và 15; đoạn từ 7 đến 15 có dấu hỏi chấm
@@ -37,7 +37,7 @@ point: (15, 0) "15" below
 label: (11, 0.5) "?"
 :::
 
-Em thấy không: biết tổng và một số hạng, muốn tìm số hạng còn lại ta làm phép trừ.
+Em để ý chỗ này: biết tổng và một số hạng, muốn tìm số hạng còn lại thì ta làm phép trừ. Ta ghi nhớ như sau:
 
 :::theorem Tìm số hạng chưa biết
 Số hạng chưa biết bằng tổng trừ đi số hạng đã biết.
@@ -45,9 +45,9 @@ Số hạng chưa biết bằng tổng trừ đi số hạng đã biết.
 Nếu $\square+7=15$ thì $\square=15-7=8$.
 :::
 
-Bây giờ ta xem phép trừ. Trong $15-7=8$, số $15$ là **số bị trừ**, số $7$ là **số trừ**, số $8$ là **hiệu**.
+Phép trừ cũng có tên riêng cho từng số. Trong $15-7=8$, số $15$ là **số bị trừ**, số $7$ là **số trừ**, số $8$ là **hiệu**.
 
-Em hãy nhớ câu chuyện: có $15$ hình, lấy đi $7$ hình, còn $8$ hình. Nếu biết còn $8$ và đã lấy đi $7$ thì lúc đầu có $8+7=15$ hình. Nếu biết lúc đầu có $15$ và còn $8$ thì đã lấy đi $15-8=7$ hình.
+Ta kể lại một câu chuyện: có $15$ hình, lấy đi $7$ hình, còn $8$ hình. Nếu chỉ biết còn $8$ và đã lấy đi $7$, thì lúc đầu phải có $8+7=15$ hình. Nếu chỉ biết lúc đầu có $15$ và còn $8$, thì số đã lấy đi là $15-8=7$ hình. Từ đó ta rút ra hai cách làm nữa:
 
 :::theorem Tìm số bị trừ, số trừ chưa biết
 Số bị trừ bằng hiệu cộng số trừ.
@@ -57,11 +57,11 @@ Số trừ bằng số bị trừ trừ đi hiệu.
 Nếu $\square-7=8$ thì $\square=8+7=15$. Nếu $15-\square=8$ thì $\square=15-8=7$.
 :::
 
-Cách làm này đúng vì phép cộng và phép trừ "ngược nhau": cộng rồi trừ cùng một số thì về lại số ban đầu.
+Vì sao cách làm này đúng? Vì phép cộng và phép trừ "ngược nhau": cộng một số rồi trừ đi chính số ấy thì ta về lại số ban đầu. Vì thế người ta gọi đây là cách dùng phép tính ngược.
 
 ## Ví dụ
 
-Ta bắt đầu với số hạng chưa biết ở vị trí đầu.
+Trước hết là số hạng chưa biết ở vị trí đầu.
 
 :::example Tìm $\square$, biết $\square+6=14$
 **Lời giải.** $\square$ là số hạng chưa biết, nên ta lấy tổng trừ đi số hạng đã biết:
@@ -71,7 +71,7 @@ $$\square=14-6=8.$$
 Vậy $\square=8$.
 :::
 
-Số hạng chưa biết cũng có thể đứng ở vị trí thứ hai, cách làm vẫn như vậy.
+Số hạng chưa biết cũng có thể đứng ở vị trí thứ hai. Em đừng lo, cách làm không đổi.
 
 :::example Tìm $\square$, biết $9+\square=17$
 **Lời giải.** Lấy tổng trừ đi số hạng đã biết là $9$:
@@ -81,7 +81,7 @@ $$\square=17-9=8.$$
 Vậy $\square=8$.
 :::
 
-Bây giờ ta tìm số bị trừ.
+Giờ ta tìm số bị trừ. Em nhớ: lần này ta làm phép cộng.
 
 :::example Tìm $\square$, biết $\square-5=12$
 **Lời giải.** $\square$ là số bị trừ, nên ta lấy hiệu cộng với số trừ:
@@ -91,7 +91,7 @@ $$\square=12+5=17.$$
 Vậy $\square=17$.
 :::
 
-Tiếp theo là số trừ chưa biết.
+Còn số trừ chưa biết thì sao? Ta xem ví dụ sau.
 
 :::example Tìm $\square$, biết $20-\square=13$
 **Lời giải.** $\square$ là số trừ, nên ta lấy số bị trừ trừ đi hiệu:
@@ -101,7 +101,7 @@ $$\square=20-13=7.$$
 Vậy $\square=7$.
 :::
 
-Cuối cùng, em dùng cách này để giải một bài toán trong cuộc sống.
+Cuối cùng, ta dùng cách này cho một bài toán có lời văn, giống chuyện của Lan ở đầu bài.
 
 :::example Số viên bi
 Bình có một số viên bi. Bạn Nam cho Bình thêm $12$ viên, bây giờ Bình có $30$ viên. Hỏi lúc đầu Bình có bao nhiêu viên bi?
@@ -116,7 +116,8 @@ Vậy lúc đầu Bình có $18$ viên bi.
 :::warning Những lỗi em hay gặp
 - **Cộng thay vì trừ ở phép cộng.** Sai: $\square+6=14$ nên $\square=14+6=20$. Vì sao sai: $20+6=26$, không bằng $14$. Đúng: $\square=14-6=8$.
 - **Trừ thay vì cộng khi tìm số bị trừ.** Sai: $\square-5=12$ nên $\square=12-5=7$. Vì sao sai: $7-5=2$, không bằng $12$. Đúng: $\square=12+5=17$.
-- **Nhầm vị trí số trừ.** Sai: $20-\square=13$ nên $\square=20+13=33$. Vì sao sai: $20-33$ không làm được. Đúng: $\square=20-13=7$.
+- **Nhầm vị trí số trừ.** Sai: $20-\square=13$ nên $\square=20+13=33$. Vì sao sai: $20-33$ không làm được ở đây. Đúng: $\square=20-13=7$.
+Chỗ này nhiều bạn hay nhầm. Em thử lại bằng cách đặt kết quả vào ô trống là phát hiện ngay.
 :::
 
 ## Thuật ngữ
@@ -139,10 +140,11 @@ Vậy lúc đầu Bình có $18$ viên bi.
 - Số bị trừ chưa biết = hiệu + số trừ.
 - Số trừ chưa biết = số bị trừ − hiệu.
 - Luôn thử lại bằng cách đặt kết quả vào ô trống; ghi đơn vị khi giải bài toán có lời văn.
+Với chuyện của Lan ở đầu bài, ta lấy tổng trừ đi số hình mẹ cho thêm là ra số hình lúc đầu, không cần đoán nữa. Em nhớ thử lại, rồi làm thêm bài luyện tập cho quen tay nhé.
 
 ## Luyện tập
 
-Mỗi bài có phần kiến thức và gợi ý. Em hãy tự làm trước, rồi mới bấm xem lời giải.
+Mỗi bài có phần kiến thức cần nhớ và một gợi ý để em bắt đầu. Em thử tự làm trước đã. Nếu bí, em đọc gợi ý, rồi mới mở lời giải để so với bài của mình.
 
 :::exercise
 Tìm $\square$, biết $\square+8=15$.

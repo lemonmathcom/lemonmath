@@ -12,11 +12,11 @@ minutes: 15
 
 Mai xếp bánh vào hộp. Mỗi hộp có $3$ chiếc bánh. Mai xếp được $5$ hộp. Hỏi Mai có tất cả bao nhiêu chiếc bánh?
 
-Em có thể cộng $3+3+3+3+3$. Nhưng cộng nhiều lần như vậy khá dài và dễ nhầm. Bảng nhân $3$ giúp em tính nhanh hơn nhiều.
+Em có thể cộng $3+3+3+3+3$. Cách đó đúng, nhưng dài và dễ nhầm khi có nhiều hộp. Bảng nhân $3$ cho em đáp số ngay, không phải cộng lại từng lần.
 
 ## Cùng khám phá
 
-Em đếm số bánh khi Mai xếp thêm từng hộp.
+Ta cùng đếm số bánh khi Mai xếp thêm từng hộp, và để ý xem số bánh thay đổi thế nào.
 
 - $1$ hộp có $3$ chiếc bánh.
 - $2$ hộp có $3+3=6$ chiếc bánh.
@@ -24,9 +24,9 @@ Em đếm số bánh khi Mai xếp thêm từng hộp.
 - $4$ hộp có $9+3=12$ chiếc bánh.
 - $5$ hộp có $12+3=15$ chiếc bánh.
 
-Mỗi lần thêm một hộp, số bánh tăng thêm $3$. Vậy $5$ hộp có $15$ chiếc bánh. Ta viết $3\times 5=15$.
+Mỗi lần thêm một hộp, số bánh tăng thêm $3$. Vậy $5$ hộp có $15$ chiếc bánh, và ta viết $3\times 5=15$. Đó là phép nhân: gộp nhiều nhóm bằng nhau lại.
 
-Bây giờ em làm ngược lại. Mai có $15$ chiếc bánh, xếp mỗi hộp $3$ chiếc. Em đếm được $5$ hộp. Ta viết $15:3=5$.
+Bây giờ ta đi ngược lại. Mai có $15$ chiếc bánh, xếp mỗi hộp $3$ chiếc. Em đếm được $5$ hộp, và ta viết $15:3=5$. Phép chia trả lời câu hỏi: xếp được mấy hộp?
 
 :::graph Trên tia số: nhảy 5 lần, mỗi lần 3 đơn vị, đến 15
 alt: Tia số từ 0 đến 16, đánh dấu các điểm 0, 3, 6, 9, 12 và 15; đoạn từ 0 đến 15 được tô đậm
@@ -48,7 +48,7 @@ point: (15, 0) "15" below
 4. Trong $15:3=5$: $15$ là **số bị chia**, $3$ là **số chia**, $5$ là **thương**.
 :::
 
-Em hãy học thuộc bảng dưới đây. Mỗi dòng cho em một phép nhân và một phép chia.
+Bảng dưới đây gom cả phép nhân lẫn phép chia. Mỗi dòng cho em một phép nhân và một phép chia đi cùng nhau, nên học một dòng là được hai kết quả. Em đọc thành tiếng vài lần cho quen nhé.
 
 | Bảng nhân 3 | Bảng chia 3 |
 |---|---|
@@ -63,11 +63,11 @@ Em hãy học thuộc bảng dưới đây. Mỗi dòng cho em một phép nhân
 | $3\times 9=27$ | $27:3=9$ |
 | $3\times 10=30$ | $30:3=10$ |
 
-Em thấy không, đi xuống một dòng thì tích tăng thêm $3$. Muốn chia cho $3$, em chỉ cần nhớ phép nhân tương ứng.
+Em nhìn cột bên trái: đi xuống một dòng thì tích tăng thêm $3$. Còn muốn chia cho $3$, em không cần học thêm gì, chỉ cần nhớ phép nhân tương ứng ở cùng dòng.
 
 ## Ví dụ
 
-Ta bắt đầu với một phép nhân chưa thuộc. Em lấy kết quả của dòng ngay trên rồi cộng thêm $3$.
+Giả sử em chưa thuộc một phép nhân. Đừng lo: em lấy kết quả của dòng ngay trên rồi cộng thêm $3$ là xong.
 
 :::example Tính $3\times 7$
 **Lời giải.** Dòng ngay trên là $3\times 6=18$. Mỗi dòng tăng thêm $3$, nên:
@@ -75,7 +75,7 @@ $$3\times 7=3\times 6+3=18+3=21.$$
 Vậy $3\times 7=21$.
 :::
 
-Bây giờ em đi theo chiều ngược lại để chia.
+Giờ ta đi ngược lại để chia. Em nhớ: muốn chia, hãy tìm phép nhân tương ứng.
 
 :::example Tính $24:3$
 **Lời giải.** Em tìm số nhân với $3$ được $24$. Đếm thêm $3$: $3, 6, 9, 12, 15, 18, 21, 24$. Số $24$ đứng thứ $8$, nên $3\times 8=24$. Do đó:
@@ -83,7 +83,7 @@ $$24:3=8.$$
 Vậy $24:3=8$.
 :::
 
-Em dùng phép nhân để giải một bài toán trong cuộc sống.
+Đây là một bài toán trong cuộc sống: có nhiều nhóm bằng nhau, nên ta dùng phép nhân.
 
 :::example Làm bó hoa
 Mỗi bó có $3$ bông hoa. Cô Lan làm $9$ bó. Hỏi cô Lan có tất cả bao nhiêu bông hoa?
@@ -93,7 +93,7 @@ $$3\times 9=3\times 8+3=24+3=27\ \text{(bông)}.$$
 Vậy cô Lan có tất cả $27$ bông hoa.
 :::
 
-Còn khi biết tổng số và số phần mỗi nhóm, em dùng phép chia.
+Còn khi biết tổng số và số phần trong mỗi nhóm thì ta chia, để tìm xem có bao nhiêu nhóm.
 
 :::example Xếp cam vào đĩa
 Có $21$ quả cam xếp vào các đĩa, mỗi đĩa $3$ quả. Hỏi xếp được bao nhiêu đĩa?
@@ -107,6 +107,7 @@ Vậy xếp được $7$ đĩa cam.
 - **Nhầm phép nhân với phép cộng.** Sai: $3\times 4=7$. Vì sao sai: $7$ là kết quả của $3+4$. Đúng: $3\times 4=3+3+3+3=12$.
 - **Nhầm sang dòng bên cạnh.** Sai: $3\times 7=24$. Vì sao sai: $24$ là kết quả của $3\times 8$. Đúng: $3\times 7=21$.
 - **Nhầm phép chia với phép trừ.** Sai: $12:3=9$. Vì sao sai: em đã tính $12-3$. Đúng: $12:3=4$, vì $3\times 4=12$.
+Chỗ này nhiều bạn hay nhầm, nên em cứ yên tâm: kiểm tra lại một lượt là bắt được ngay.
 :::
 
 ## Thuật ngữ
@@ -130,10 +131,11 @@ Vậy xếp được $7$ đĩa cam.
 - $3\times 5=15$ nghĩa là $5$ nhóm, mỗi nhóm $3$.
 - Muốn chia cho $3$, em tìm phép nhân tương ứng: $3\times 8=24$ nên $24:3=8$.
 - Bài toán nhiều nhóm bằng nhau thì nhân; bài toán chia đều hoặc chia thành các nhóm thì chia. Nhớ ghi đơn vị trong đáp số.
+Quay lại bài toán của Mai: $5$ hộp, mỗi hộp $3$ chiếc bánh, là $3\times 5=15$ chiếc. Em nhớ: đi xuống một dòng thì thêm $3$, còn chia thì tìm phép nhân tương ứng. Các bài luyện tập bên dưới sẽ giúp em thuộc bảng nhân $3$.
 
 ## Luyện tập
 
-Mỗi bài có phần kiến thức và gợi ý. Em hãy tự làm trước, rồi mới bấm xem lời giải.
+Mỗi bài có kèm phần kiến thức cần nhớ và một gợi ý để em bắt đầu. Em cứ tự làm trước, chỗ nào vướng thì mới mở lời giải. Làm sai một lần cũng không sao, vì chính chỗ sai giúp em nhớ lâu.
 
 :::exercise
 Tính nhẩm: a) $3\times 5$; b) $3\times 8$.

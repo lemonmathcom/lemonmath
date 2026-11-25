@@ -10,18 +10,18 @@ minutes: 20
 - Tell apart choosing with replacement, without replacement and at the same time.
 :::
 
-An and Binh play a game with two coins: if the two coins land the same way up, An wins; if they land differently, Binh wins. Binh complains: "There are only three possibilities: two heads, two tails, or one head and one tail. An has two ways to win and I have only one. It's not fair!" Is Binh right? To answer, we must list *all* the possible outcomes, *correctly*: a job that looks simple but is very easy to get wrong.
+An and Binh play a game with two coins: if the two coins land the same way up, An wins; if they land differently, Binh wins. Binh complains: "There are only three possibilities: two heads, two tails, or one head and one tail. An has two ways to win and I have only one. It's not fair!" Is Binh right? To find out, we have to list every possible outcome, with nothing missing and nothing counted twice. That sounds easy, but it is very easy to get wrong, and listing outcomes correctly is the first step in every probability problem.
 
 ## Random experiments and sample spaces
 
-Rolling a dice, drawing lots, picking a student to come to the board: before we do it, we know which outcomes are *possible*, but not *which* one will happen.
+Think of rolling a dice, drawing lots, or picking a student to come to the board. Before we do any of these, we know which outcomes are *possible*. What we cannot know is *which* one will happen. Activities like this have a name, and so does the set of their outcomes.
 
 :::definition Random experiment and sample space
 - A **random experiment** (or simply an experiment) is an activity whose outcome cannot be known in advance.
 - The set of all possible outcomes of an experiment is called its **sample space**, written $\Omega$.
 :::
 
-**Going deeper.** Drawing a card from a box in which every card shows the number $5$ is not a random experiment: the outcome is known in advance. Also, an "outcome" depends on what we record: rolling a dice and recording the score gives $\Omega=\{1,2,3,4,5,6\}$, while recording only "even" or "odd" gives $\Omega=\{\text{even}, \text{odd}\}$. So before listing, ask: "What information makes up one outcome?"
+**Going deeper.** Two points are worth a moment. First, drawing a card from a box in which every card shows the number $5$ is not a random experiment, because the outcome is known in advance. Second, what counts as an "outcome" depends on what we choose to record. Roll a dice and record the score, and $\Omega=\{1,2,3,4,5,6\}$. Record only "even" or "odd", and $\Omega=\{\text{even}, \text{odd}\}$. So before listing anything, ask yourself: what information makes up one outcome?
 
 :::example Describing the sample space
 Describe the sample space of each experiment and state how many elements it has.
@@ -41,7 +41,7 @@ c) We have $\Omega=\{H, T\}$, with $2$ elements.
 
 ## Tree diagrams for two-step experiments
 
-When an experiment has two steps (tossing two coins, drawing two lots), each outcome is an **ordered pair**: the result of step 1, then the result of step 2. To miss nothing, we draw a **tree diagram**: from the root, draw one branch for each result of step 1; from the end of each of these, draw one branch for each result of step 2. Each path from the root to a tip gives one outcome.
+When an experiment has two steps, such as tossing two coins or drawing two lots, one outcome has two parts: the result of step 1, then the result of step 2. We call this an **ordered pair**. How do we list them all without missing any? We draw a **tree diagram**. From the root, draw one branch for each result of step 1. From the end of each of these, draw one branch for each result of step 2. Each path from the root to a tip gives exactly one outcome.
 
 :::diagram Tree diagram for tossing two coins
 alt: Tree diagram: the root splits into T and H (first coin), and each branch splits again into T and H (second coin), giving four outcomes (T, T), (T, H), (H, T), (H, H)
@@ -106,7 +106,7 @@ b) Each colour in the first draw is followed by all three colours in the second,
 
 ## Using a table for two-step experiments
 
-When each step has many results, a tree diagram becomes crowded; instead we use a **table**: rows for the results of step 1, columns for the results of step 2, and each cell is one outcome.
+When each step has many results, a tree diagram becomes crowded and hard to read. Then we switch to a **table**: rows for the results of step 1, columns for the results of step 2, and each cell is one outcome. The example with two dice below shows where a table beats a tree.
 
 :::example Rolling two dice
 Roll two dice (one green, one red). Describe the sample space and find how many outcomes have a total score of $7$.
@@ -128,12 +128,13 @@ So the sample space has $36$ elements, of which $6$ have a total of $7$.
 :::
 
 :::warning Common mistakes
-- **Merging different outcomes.** Wrong: tossing two coins has three outcomes. Right: it has four, because $(T, H)$ and $(H, T)$ are different.
-- **Forgetting the repeated outcomes with replacement**, such as $(R, R)$; or **including repeated outcomes without replacement**.
-- **Mixing up ordered and unordered pairs** (one after the other versus at the same time).
+- **Merging different outcomes.** Wrong: tossing two coins has three outcomes. Right: it has four, because $(T, H)$ and $(H, T)$ are two different outcomes.
+- **Forgetting the repeated outcomes with replacement**, such as $(R, R)$. The opposite slip is **including repeated outcomes without replacement**.
+- **Mixing up ordered and unordered pairs**: one after the other is not the same as at the same time.
+Many people slip here, so once you have listed the outcomes, check them again against a tree diagram or a table.
 :::
 
-**Connections.** In year 8 you found probabilities when rolling one dice. This lesson prepares for [the probability of an event](lesson:event-probability-experiments): to find a probability, we must first list the sample space correctly. Counting (branches at step 1) $\times$ (branches at step 2) becomes the multiplication rule in year 10.
+**Connections.** In year 8 you found probabilities when rolling one dice. This lesson prepares the ground for [the probability of an event](lesson:event-probability-experiments): to find a probability, we must first list the sample space correctly. And the way of counting, (branches at step 1) $\times$ (branches at step 2), becomes the multiplication rule in year 10.
 
 ## Key terms
 
@@ -152,10 +153,11 @@ So the sample space has $36$ elements, of which $6$ have a total of $7$.
 - Experiment: the outcome is not known in advance. Sample space $\Omega$: the set of all possible outcomes.
 - Two-step experiment: each outcome is an ordered pair; list them with a tree diagram or a table.
 - Number of elements $=$ (branches at step 1) $\times$ (branches at step 2).
+Back to An and Binh's game: once we list the outcomes correctly and completely, Binh turns out to have been mistaken. Whenever you meet a new experiment, draw the tree or the table before you count, and then try the practice exercises to make it familiar.
 
 ## Practice
 
-Each exercise comes with what you need and hints. Try it yourself first, then open the solution.
+Each exercise comes with what you need and some hints. Try it yourself first, then open the solution.
 
 :::exercise
 Describe the sample space of each experiment:

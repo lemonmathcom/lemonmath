@@ -11,17 +11,17 @@ minutes: 25
 - Use coordinates for midpoints, centroids, collinearity and a missing vertex of a parallelogram.
 :::
 
-On a map of a neighbourhood drawn on a square grid, Lan's house is at the point $(0, 0)$. A map app tells Lan "walk $3$ blocks east, then $2$ blocks north" to reach school. Minh's house is at the point $(1, 4)$, and Minh follows exactly the same two instructions. Where does Minh end up?
+On a map of a neighbourhood drawn on a square grid, Lan's house is at the point $(0, 0)$. A map app tells Lan "walk $3$ blocks east, then $2$ blocks north" to reach school. Minh's house is at the point $(1, 4)$, and Minh follows exactly the same two instructions. Where does Minh end up? We can answer without drawing the map, using only addition. That is the idea of this lesson: give every move a pair of numbers, then calculate with those pairs.
 
 ## Coordinates of a vector
 
-Let us compute. The move "$3$ to the right, $2$ up" adds $3$ to the $x$-coordinate and $2$ to the $y$-coordinate, wherever you start:
+Let us compute. Wherever you start, the move "$3$ to the right, $2$ up" adds $3$ to the $x$-coordinate and $2$ to the $y$-coordinate:
 
 $$\text{Lan: } (0+3,\ 0+2)=(3, 2),\qquad \text{Minh: } (1+3,\ 4+2)=(4, 6).$$
 
-The two friends follow arrows in different places, but the arrows are **equal**, and the pair $(3, 2)$ describes that arrow completely. So Minh ends up at $(4, 6)$. A pair such as $(3, 2)$ is called the coordinates of the vector.
+Lan and Minh walk along arrows in different places, but the two arrows are **equal**, and the pair $(3, 2)$ describes that arrow completely. So Minh ends up at $(4, 6)$. A pair such as $(3, 2)$ is called the coordinates of the vector.
 
-In the plane with axes $Ox$ and $Oy$, let $\vec{i}$ be the vector of length $1$ along $Ox$, pointing the way of the axis, and $\vec{j}$ the same kind of vector along $Oy$. These are the **unit vectors** of the axes.
+To say this neatly, we pick two vectors to serve as units for the whole plane. In the plane with axes $Ox$ and $Oy$, let $\vec{i}$ be the vector of length $1$ along $Ox$, pointing the way of the axis, and $\vec{j}$ the same kind of vector along $Oy$. These are the **unit vectors** of the axes.
 
 :::definition Coordinates of a vector
 Every vector $\vec{a}$ can be written in exactly one way as
@@ -42,15 +42,15 @@ segment X P dashed
 segment Y P dashed
 :::
 
-Two vectors are **equal** exactly when their coordinates are equal: $(x, y)=(x', y')$ means $x=x'$ and $y=y'$. The zero vector is $(0, 0)$.
+Every vector has exactly one pair of coordinates, so two vectors are **equal** exactly when their coordinates are equal: $(x, y)=(x', y')$ means $x=x'$ and $y=y'$. The zero vector is $(0, 0)$.
 
 ### From points to a vector
 
-If $A(x_A, y_A)$ and $B(x_B, y_B)$, then to go from $A$ to $B$ we move $x_B-x_A$ horizontally and $y_B-y_A$ vertically:
+What if we only know two points? If $A(x_A, y_A)$ and $B(x_B, y_B)$, then to go from $A$ to $B$ we move $x_B-x_A$ horizontally and $y_B-y_A$ vertically:
 $$\overrightarrow{AB}=(x_B-x_A,\ y_B-y_A).$$
-In short: **end point minus start point**.
+In short: **end point minus start point**. Many people subtract the wrong way round, so keep this phrase in mind.
 
-The first example applies this formula and shows that one vector can "sit" in many places.
+The first example applies this formula, and it shows that one vector can "sit" in many places.
 
 :::example A vector from two points
 Let $A(1, 2)$, $B(4, 6)$, $C(-2, 0)$, $D(1, 4)$. Find the coordinates of $\overrightarrow{AB}$ and $\overrightarrow{CD}$. Are the two vectors equal?
@@ -64,7 +64,7 @@ The two vectors have the same coordinates, so $\overrightarrow{AB}=\overrightarr
 
 ## Operations in coordinates
 
-Since $\vec{a}=x_1\vec{i}+y_1\vec{j}$ and $\vec{b}=x_2\vec{i}+y_2\vec{j}$, the rules from the previous lesson give $\vec{a}+\vec{b}=(x_1+x_2)\vec{i}+(y_1+y_2)\vec{j}$. The same works for differences and for multiples:
+Since $\vec{a}=x_1\vec{i}+y_1\vec{j}$ and $\vec{b}=x_2\vec{i}+y_2\vec{j}$, the rules from the previous lesson give $\vec{a}+\vec{b}=(x_1+x_2)\vec{i}+(y_1+y_2)\vec{j}$. In other words, first coordinates add to first coordinates, and second to second. Differences and multiples work the same way:
 
 :::theorem Operations on coordinates
 Let $\vec{a}=(x_1, y_1)$, $\vec{b}=(x_2, y_2)$ and $k$ a number. Then
@@ -73,7 +73,7 @@ Let $\vec{a}=(x_1, y_1)$, $\vec{b}=(x_2, y_2)$ and $k$ a number. Then
 - $k\vec{a}=(kx_1,\ ky_1)$.
 :::
 
-So we add, subtract and scale vectors **one coordinate at a time**.
+So we add, subtract and scale vectors **one coordinate at a time**. Do not worry if this feels unfamiliar at first: the next example is just the first coordinate, then the second.
 
 :::example Combining vectors
 Let $\vec{a}=(2, -1)$ and $\vec{b}=(-3, 4)$. Find $\vec{a}+\vec{b}$, $\vec{a}-\vec{b}$ and $3\vec{a}-2\vec{b}$.
@@ -91,12 +91,12 @@ So $\vec{a}+\vec{b}=(-1, 3)$, $\vec{a}-\vec{b}=(5, -5)$ and $3\vec{a}-2\vec{b}=(
 
 ## Length of a vector and distance
 
-In the figure above, $\vec{a}=(3, 2)$ is the hypotenuse of a right-angled triangle with legs $3$ and $2$. In general, by Pythagoras' theorem, the vector $\vec{a}=(x, y)$ has length
+In the figure above, $\vec{a}=(3, 2)$ is the hypotenuse of a right-angled triangle with legs $3$ and $2$. So the length of the vector is the length of that hypotenuse. In general, by Pythagoras' theorem, the vector $\vec{a}=(x, y)$ has length
 $$|\vec{a}|=\sqrt{x^2+y^2}.$$
-Since $AB$ is the length of $\overrightarrow{AB}$, the **distance between two points** is
+The length of the segment $AB$ is also the length of $\overrightarrow{AB}$. So the **distance between two points** is
 $$AB=\sqrt{(x_B-x_A)^2+(y_B-y_A)^2}.$$
 
-With the three side lengths, we can recognise a triangle without drawing it.
+With the three side lengths, we can recognise a triangle without drawing it. The next example uses this to spot a right-angled triangle.
 
 :::example A right-angled triangle
 Let $A(1, 2)$, $B(4, 6)$, $C(9, -4)$. Prove that triangle $ABC$ is right-angled.
@@ -116,7 +116,7 @@ Since $AB^2+AC^2=25+100=125=BC^2$, triangle $ABC$ has a right angle at $A$.
 
 ## Midpoint and centroid
 
-Use $\overrightarrow{OM}=\frac12(\overrightarrow{OA}+\overrightarrow{OB})$ and $\overrightarrow{OG}=\frac13(\overrightarrow{OA}+\overrightarrow{OB}+\overrightarrow{OC})$ with $O$ the origin. The coordinates of $\overrightarrow{OA}$ are exactly the coordinates of the point $A$, so we get coordinates by averaging.
+Why an average? We use $\overrightarrow{OM}=\frac12(\overrightarrow{OA}+\overrightarrow{OB})$ and $\overrightarrow{OG}=\frac13(\overrightarrow{OA}+\overrightarrow{OB}+\overrightarrow{OC})$ with $O$ the origin. The coordinates of $\overrightarrow{OA}$ are exactly the coordinates of the point $A$, so adding the vectors and dividing by the number of points is the same as averaging the coordinates.
 
 :::theorem Midpoint and centroid
 - The midpoint $M$ of $AB$ is $M\left(\dfrac{x_A+x_B}{2},\ \dfrac{y_A+y_B}{2}\right)$.
@@ -136,11 +136,11 @@ So the midpoint is $M(4, 2)$ and the centroid is $G(2, 3)$.
 
 ## Collinear vectors and collinear points
 
-Two non-zero vectors $\vec{a}=(x_1, y_1)$ and $\vec{b}=(x_2, y_2)$ are **collinear** when one is a multiple of the other, for example $(2, 4)$ and $(4, 8)=2(2, 4)$. In coordinates this is equivalent to
+When do three points lie on one line? First we need collinear vectors. Two non-zero vectors $\vec{a}=(x_1, y_1)$ and $\vec{b}=(x_2, y_2)$ are **collinear** when one is a multiple of the other, for example $(2, 4)$ and $(4, 8)=2(2, 4)$. In coordinates this is equivalent to
 $$x_1y_2-x_2y_1=0.$$
-We use this product test instead of the ratio $\frac{x_1}{x_2}=\frac{y_1}{y_2}$, because the ratio fails when a coordinate is $0$. Three points $A$, $B$, $C$ are collinear when $\overrightarrow{AB}$ and $\overrightarrow{AC}$ are collinear.
+We use this product test rather than the ratio $\frac{x_1}{x_2}=\frac{y_1}{y_2}$, for a good reason: the ratio fails when a coordinate is $0$. Three points $A$, $B$, $C$ are collinear when $\overrightarrow{AB}$ and $\overrightarrow{AC}$ are collinear.
 
-The next example uses the test twice: once to check, and once to find an unknown point.
+The next example uses the test twice: first to check that three points lie on a line, then to find an unknown point.
 
 :::example Three collinear points
 Let $A(-1, 1)$, $B(3, 3)$, $C(7, 5)$.
@@ -163,7 +163,7 @@ So $M(-3, 0)$.
 
 ## A missing vertex of a parallelogram
 
-$ABCD$ is a parallelogram exactly when $\overrightarrow{AB}=\overrightarrow{DC}$. Writing this equality in coordinates gives the fourth vertex.
+Given three vertices of a parallelogram, where is the fourth? We use one fact: $ABCD$ is a parallelogram exactly when $\overrightarrow{AB}=\overrightarrow{DC}$. Writing this equality in coordinates gives the fourth vertex.
 
 :::diagram Parallelogram $ABCD$
 alt: A parallelogram with vertices A(1, 1), B(4, 2), C(5, 5) and D(2, 4) drawn on a grid
@@ -192,6 +192,7 @@ So $D(2, 4)$.
 - **Adding coordinates instead of finding the length.** Wrong: $|(3, 4)|=3+4=7$. Right: $|(3, 4)|=\sqrt{9+16}=5$.
 - **Using the ratio when a coordinate is $0$.** For $(0, 2)$ and $(0, 5)$ the ratio $\frac{0}{0}$ means nothing, but $0\cdot5-0\cdot2=0$ shows the vectors are collinear.
 - **The wrong order of vertices.** $ABCD$ being a parallelogram needs $\overrightarrow{AB}=\overrightarrow{DC}$, not $\overrightarrow{AB}=\overrightarrow{CD}$.
+These are all places where many people slip. After each problem, check these four points once more.
 :::
 
 ## Key terms
@@ -216,10 +217,11 @@ So $D(2, 4)$.
 - Midpoint: average of two sets of coordinates; centroid: average of three.
 - $\vec{a}$, $\vec{b}$ collinear $\iff x_1y_2-x_2y_1=0$; three points are collinear when $\overrightarrow{AB}$, $\overrightarrow{AC}$ are collinear.
 - Fourth vertex of parallelogram $ABCD$: solve $\overrightarrow{AB}=\overrightarrow{DC}$.
+Back to the opening question: with nothing but addition, one coordinate at a time, we find where Minh ends up without drawing the map. The thing to remember is that every job with vectors comes down to calculating on each coordinate. A few practice exercises will make it feel natural.
 
 ## Practice
 
-Each exercise comes with what you need and some steps to start. Try it yourself first, then open the solution.
+Each exercise comes with what you need and a few steps to start. Try it yourself first. If you get stuck, open the solution.
 
 :::exercise
 Let $\vec{a}=(3, -2)$ and $\vec{b}=(-1, 5)$. Find the coordinates of $2\vec{a}+\vec{b}$ and $\vec{a}-3\vec{b}$.

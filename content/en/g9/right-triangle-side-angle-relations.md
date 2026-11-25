@@ -10,13 +10,13 @@ minutes: 20
 - Find real heights and distances without measuring them directly.
 :::
 
-Minh stands $15$ m from the foot of the school flagpole. He looks up at the top of the pole along a line that makes an angle of $35^\circ$ with the horizontal, and his eyes are $1.5$ m above the ground. Without climbing up, how can we find the height of the flagpole in metres?
+Minh stands $15$ m from the foot of the school flagpole. He looks up at the top of the pole along a line that makes an angle of $35^\circ$ with the horizontal, and his eyes are $1.5$ m above the ground. We want to find the height of the flagpole in metres without climbing up. Can it be done?
 
-In the right-angled triangle formed by Minh's eye, the top of the pole and the point on the pole level with his eye, we know one side ($15$ m) and one angle ($35^\circ$). This lesson shows how to find the other sides.
+Draw a right-angled triangle made of Minh's eye, the top of the pole and the point on the pole level with his eye. In that triangle we already know one side ($15$ m) and one angle ($35^\circ$). That is enough to find the other sides, and how to do it is exactly what we learn next.
 
 ## Relations between sides and angles
 
-Take triangle $ABC$ with a right angle at $A$, and write $BC=a$, $CA=b$, $AB=c$. The two sides that form the right angle, $b$ and $c$, are called the **legs**.
+Take triangle $ABC$ with a right angle at $A$, and name the sides $BC=a$, $CA=b$, $AB=c$. The two sides that form the right angle, $b$ and $c$, are called the **legs**.
 
 :::diagram The right-angled triangle $ABC$ with sides $a$, $b$, $c$
 alt: Triangle ABC with a right angle at A, hypotenuse BC labelled a, side CA labelled b and side AB labelled c
@@ -32,7 +32,7 @@ right B A C
 
 ### Explore
 
-From the definition, $\sin B=\dfrac{b}{a}$. Multiplying both sides by $a$ gives $b=a\sin B$. For example, if $a=10$ and $\angle B=30^\circ$, then $b=10\cdot\dfrac12=5$. Doing the same with the other ratios gives four relations.
+We start from the definition: $\sin B=\dfrac{b}{a}$. To get that side on its own, we multiply both sides by $a$ and obtain $b=a\sin B$. For example, if $a=10$ and $\angle B=30^\circ$, then $b=10\cdot\dfrac12=5$. Doing the same with the other ratios gives four relations.
 
 :::theorem Relations between sides and angles in a right-angled triangle
 In triangle $ABC$ with a right angle at $A$:
@@ -42,7 +42,7 @@ $$b=a\sin B=a\cos C,\qquad c=a\sin C=a\cos B.$$
 $$b=c\tan B=c\cot C,\qquad c=b\tan C=b\cot B.$$
 :::
 
-Why? Each equation is just a definition rewritten. For example, $\cos C=\dfrac{b}{a}$ (the side adjacent to $C$ is $b$), so $b=a\cos C$; and $\tan B=\dfrac bc$, so $b=c\tan B$.
+Why are these relations true? Because each equation is just a definition rewritten. For example, $\cos C=\dfrac{b}{a}$ (the side adjacent to $C$ is $b$), so $b=a\cos C$. In the same way, $\tan B=\dfrac bc$, so $b=c\tan B$. If you remember the definitions, you can work each one out yourself instead of learning every line by heart.
 
 :::example Given the hypotenuse and an acute angle
 Triangle $ABC$ has a right angle at $A$, $BC=12$ cm and $\angle B=40^\circ$. Find $AC$ and $AB$ (rounded to two decimal places).
@@ -54,7 +54,7 @@ $$AC=BC\sin B=12\sin40^\circ\approx7.71;\qquad AB=BC\cos B=12\cos40^\circ\approx
 So $AC\approx7.71$ cm and $AB\approx9.19$ cm.
 :::
 
-When we know a leg, we use the tangent or the cotangent.
+And when the side we know is a leg and we want the other leg, the tangent or the cotangent is the right tool.
 
 :::example Given a leg and an acute angle
 Triangle $ABC$ has a right angle at $A$, $AB=6$ cm and $\angle B=55^\circ$. Find $AC$ (rounded to two decimal places).
@@ -68,7 +68,7 @@ So $AC\approx8.57$ cm.
 
 ## Solving a right-angled triangle
 
-**Solving a right-angled triangle** means finding all the remaining sides and angles from two known facts, at least one of which is a side. We use three tools: Pythagoras' theorem, $\angle B+\angle C=90^\circ$, and the relations above.
+**Solving a right-angled triangle** means finding all the remaining sides and angles once we know two facts, at least one of which is a side. Why must one be a side? Because angles alone tell us the shape, but not the size. We have three tools: Pythagoras' theorem, $\angle B+\angle C=90^\circ$, and the relations above.
 
 :::example Given the two legs
 Solve triangle $ABC$ with a right angle at $A$, given $AB=5$ cm and $AC=7$ cm (angles to the nearest degree, sides to two decimal places).
@@ -92,7 +92,7 @@ So $\angle B=55^\circ$, $AB\approx11.47$ cm and $AC\approx16.38$ cm.
 
 ## Applications: measuring heights and distances
 
-When we look up at an object, the angle between the line of sight and the horizontal is called the **angle of elevation**. When we look down, it is called the **angle of depression**. We draw a right-angled triangle with one horizontal side, then use the relations.
+When we look up at an object, the angle between the line of sight and the horizontal is called the **angle of elevation**. When we look down, it is called the **angle of depression**. For real-life problems, we draw a right-angled triangle with one horizontal side, then use the relations we have just learnt.
 
 :::diagram Measuring the height of the flagpole
 alt: Minh's eye is at point M, 1.5 metres above the ground and 15 metres from the flagpole; the line of sight to the top D of the pole makes an angle of 35 degrees with the horizontal
@@ -124,6 +124,7 @@ So the flagpole is about $12.0$ m tall.
 - **Choosing the wrong ratio.** Wrong: $AC=BC\cos B$. Why it is wrong: $AC$ is opposite angle $B$, so it goes with sine. Right: $AC=BC\sin B$ (or $BC\cos C$).
 - **Dividing instead of multiplying.** Wrong: $AC=\dfrac{AB}{\tan B}$. Why it is wrong: $\tan B=\dfrac{AC}{AB}$, so $AC=AB\tan B$. Right: divide only when the side you want is in the denominator, for example $BC=\dfrac{AC}{\sin B}$.
 - **Rounding too early.** Wrong: in the kite problem, taking $\sin38^\circ\approx0.6$ and working out $50\cdot0.6=30$ (m). Why it is wrong: $50\sin38^\circ\approx30.78$, almost $0.8$ m more, and the error grows over several steps. Right: keep the full value on the calculator and round only the final answer.
+Anyone new to this can slip on these three, so before you calculate, pause and ask whether the side you want is opposite or adjacent to the given angle.
 :::
 
 ## Key terms
@@ -145,10 +146,11 @@ So the flagpole is about $12.0$ m tall.
 - $b=c\tan B=c\cot C$, $c=b\tan C=b\cot B$.
 - Solving a right-angled triangle: Pythagoras' theorem, $\angle B+\angle C=90^\circ$ and the relations; at least one side must be known.
 - Real-life problems: draw a picture, find the right-angled triangle, choose the ratio, round at the last step.
+Back to Minh's flagpole: one side, one acute angle and a right-angled triangle are enough to find the height. Try the practice exercises, and remember to draw the picture before you choose the ratio.
 
 ## Practice
 
-Each exercise comes with what you need and some steps to start. Try it yourself first, then open the solution.
+Each exercise comes with what you need to remember and some hints to get started. Try it yourself first, look at the hints if you get stuck, and open the solution last to compare.
 
 :::exercise
 Triangle $ABC$ has a right angle at $A$, $BC=8$ cm and $\angle C=30^\circ$. Find $AB$ and $AC$.

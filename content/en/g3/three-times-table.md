@@ -12,11 +12,11 @@ minutes: 15
 
 Mai puts cakes into boxes. Each box holds $3$ cakes. Mai fills $5$ boxes. How many cakes does Mai have altogether?
 
-You could add $3+3+3+3+3$. But adding so many times is long and easy to get wrong. The 3 times table helps you work much faster.
+You could add $3+3+3+3+3$. That works, but it is long and easy to get wrong when there are many boxes. The 3 times table gives you the answer straight away, with no need to add again and again.
 
 ## Let's explore
 
-Count the cakes as Mai fills one more box each time.
+We count the cakes as Mai fills one more box each time, and we watch how the number changes.
 
 - $1$ box has $3$ cakes.
 - $2$ boxes have $3+3=6$ cakes.
@@ -24,9 +24,9 @@ Count the cakes as Mai fills one more box each time.
 - $4$ boxes have $9+3=12$ cakes.
 - $5$ boxes have $12+3=15$ cakes.
 
-Each new box adds $3$ more cakes. So $5$ boxes hold $15$ cakes. We write $3\times 5=15$.
+Each new box adds $3$ more cakes. So $5$ boxes hold $15$ cakes, and we write $3\times 5=15$. That is multiplication: putting several equal groups together.
 
-Now go the other way. Mai has $15$ cakes and puts $3$ in each box. You count $5$ boxes. We write $15\div 3=5$.
+Now we go the other way. Mai has $15$ cakes and puts $3$ in each box. You count $5$ boxes, and we write $15\div 3=5$. Division answers the question: how many boxes can she fill?
 
 :::graph On the number line: 5 jumps of 3 reach 15
 alt: A number line from 0 to 16 with the points 0, 3, 6, 9, 12 and 15 marked and the stretch from 0 to 15 highlighted
@@ -48,7 +48,7 @@ point: (15, 0) "15" below
 4. In $15\div 3=5$, $15$ is the **dividend**, $3$ is the **divisor** and $5$ is the **quotient**.
 :::
 
-Learn the table below. Each row gives you one multiplication and one division.
+The table below puts multiplication and division side by side. Each row gives you one multiplication and one division that go together, so learning one row gives you two facts. Read it aloud a few times to make it familiar.
 
 | 3 times table | Division facts for 3 |
 |---|---|
@@ -63,11 +63,11 @@ Learn the table below. Each row gives you one multiplication and one division.
 | $3\times 9=27$ | $27\div 3=9$ |
 | $3\times 10=30$ | $30\div 3=10$ |
 
-You see: going down one row, the product goes up by $3$. To divide by $3$, you only need to remember the matching multiplication.
+Look at the left column: going down one row, the product goes up by $3$. And to divide by $3$ you need to learn nothing new. Just remember the matching multiplication in the same row.
 
 ## Examples
 
-We start with a multiplication you may not know yet. Take the answer from the row just above and add $3$.
+Suppose you do not know a multiplication yet. Do not worry: take the answer from the row just above and add $3$.
 
 :::example Work out $3\times 7$
 **Solution.** The row just above is $3\times 6=18$. Each row adds $3$, so:
@@ -75,7 +75,7 @@ $$3\times 7=3\times 6+3=18+3=21.$$
 So $3\times 7=21$.
 :::
 
-Now go the other way to divide.
+Now we go the other way to divide. Remember: to divide, look for the matching multiplication.
 
 :::example Work out $24\div 3$
 **Solution.** Find the number that times $3$ gives $24$. Count on in threes: $3, 6, 9, 12, 15, 18, 21, 24$. The number $24$ is the $8$th one, so $3\times 8=24$. Therefore:
@@ -83,7 +83,7 @@ $$24\div 3=8.$$
 So $24\div 3=8$.
 :::
 
-Use multiplication to solve a problem from everyday life.
+Here is a problem from everyday life: there are several equal groups, so we multiply.
 
 :::example Making bunches of flowers
 Each bunch has $3$ flowers. Mrs Lan makes $9$ bunches. How many flowers does Mrs Lan have altogether?
@@ -93,7 +93,7 @@ $$3\times 9=3\times 8+3=24+3=27\ \text{(flowers)}.$$
 So Mrs Lan has $27$ flowers altogether.
 :::
 
-When we know the total and the size of each group, we divide.
+When we know the total and how many are in each group, we divide, to find how many groups there are.
 
 :::example Oranges on plates
 There are $21$ oranges, put on plates with $3$ oranges on each plate. How many plates are needed?
@@ -107,6 +107,7 @@ So $7$ plates are needed.
 - **Adding instead of multiplying.** Wrong: $3\times 4=7$. Why it is wrong: $7$ is the answer to $3+4$. Right: $3\times 4=3+3+3+3=12$.
 - **Slipping to the next row.** Wrong: $3\times 7=24$. Why it is wrong: $24$ is the answer to $3\times 8$. Right: $3\times 7=21$.
 - **Subtracting instead of dividing.** Wrong: $12\div 3=9$. Why it is wrong: this is $12-3$. Right: $12\div 3=4$, because $3\times 4=12$.
+Many pupils slip up here, so do not worry. A quick check will catch it.
 :::
 
 ## Key terms
@@ -130,10 +131,11 @@ So $7$ plates are needed.
 - $3\times 5=15$ means $5$ groups with $3$ in each.
 - To divide by $3$, find the matching multiplication: $3\times 8=24$, so $24\div 3=8$.
 - Many equal groups: multiply. Sharing equally or making groups: divide. Remember the unit in the answer.
+Back to Mai's problem: $5$ boxes with $3$ cakes in each make $3\times 5=15$ cakes. Remember that each row down adds $3$, and that division means finding the matching multiplication. The practice below will help the $3$ times table stick.
 
 ## Practice
 
-Each exercise comes with what you need and how to start. Try it yourself first, then open the solution.
+Each exercise comes with what you need to remember and a hint to start you off. Try it yourself first, and open the solution only when you are stuck. A slip along the way is fine, because that is how the method sticks.
 
 :::exercise
 Work out in your head: a) $3\times 5$; b) $3\times 8$.

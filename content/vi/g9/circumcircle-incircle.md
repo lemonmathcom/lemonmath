@@ -10,21 +10,21 @@ minutes: 20
 - Vận dụng vào các bài toán thực tế.
 :::
 
-Giả sử ba bản làng $A$, $B$, $C$ ở vùng núi muốn đặt chung một trạm phát sóng sao cho khoảng cách từ trạm đến ba bản **bằng nhau**, để không bản nào bị "thiệt". Đặt trạm ở đâu?
+Ba bản làng $A$, $B$, $C$ ở vùng núi muốn dùng chung một trạm phát sóng. Bản nào cũng muốn trạm không xa mình hơn bản khác, nghĩa là khoảng cách từ trạm đến ba bản phải **bằng nhau**. Vậy trạm nên đặt ở đâu?
 
-Một bài toán khác: từ một tấm gỗ hình tam giác, người thợ muốn cắt ra một mặt bàn tròn **lớn nhất**. Mép bàn phải chạm cả ba cạnh tấm gỗ, vì nếu còn hở một cạnh thì vẫn nới rộng được. Hai bài toán, hai đường tròn đặc biệt của tam giác.
+Một bài toán khác: người thợ có một tấm gỗ hình tam giác và muốn cắt ra một mặt bàn tròn **lớn nhất**. Mép bàn phải chạm cả ba cạnh, vì nếu còn hở một cạnh thì ta vẫn nới rộng được mặt bàn. Hai bài toán này dẫn đến hai đường tròn đặc biệt của tam giác, và ta sẽ tìm cả hai.
 
 ## Đường tròn ngoại tiếp tam giác
 
 ### Khám phá: điểm cách đều ba đỉnh
 
-Điểm cách đều $A$ và $B$ nằm trên đường trung trực của $AB$; điểm cách đều $B$ và $C$ nằm trên đường trung trực của $BC$. Giao điểm $O$ của hai đường này có $OA=OB=OC$, nên $O$ cũng thuộc đường trung trực của $AC$. Đường tròn tâm $O$ bán kính $OA$ đi qua cả ba đỉnh.
+Ta thử tìm điểm cần tìm. Điểm cách đều $A$ và $B$ phải nằm trên đường trung trực của $AB$. Điểm cách đều $B$ và $C$ phải nằm trên đường trung trực của $BC$. Hai đường này cắt nhau tại $O$, nên $OA=OB=OC$. Từ đây, $O$ cũng cách đều $A$ và $C$, tức là $O$ thuộc đường trung trực của $AC$. Vậy đường tròn tâm $O$ bán kính $OA$ đi qua cả ba đỉnh.
 
 :::definition Đường tròn ngoại tiếp tam giác
 Đường tròn đi qua ba đỉnh của một tam giác gọi là **đường tròn ngoại tiếp** tam giác đó; tam giác gọi là **tam giác nội tiếp** đường tròn. Tâm của nó là giao điểm ba đường trung trực của tam giác.
 :::
 
-Mỗi tam giác có đúng một đường tròn ngoại tiếp. Tâm $O$ nằm trong tam giác nếu tam giác nhọn, nằm ngoài nếu tam giác tù, và nằm trên cạnh huyền nếu tam giác vuông.
+Mỗi tam giác có đúng một đường tròn ngoại tiếp. Vị trí của tâm $O$ phụ thuộc vào loại tam giác: tam giác nhọn thì $O$ nằm trong tam giác, tam giác tù thì $O$ nằm ngoài, còn tam giác vuông thì $O$ nằm trên cạnh huyền. Ta xem kĩ trường hợp tam giác vuông, vì ở đó có một kết quả rất gọn.
 
 :::diagram Đường tròn ngoại tiếp tam giác $ABC$
 alt: Tam giác ABC nội tiếp đường tròn tâm O; từ O kẻ các đoạn vuông góc tới trung điểm ba cạnh
@@ -47,7 +47,7 @@ right O P A
 
 ### Tam giác vuông
 
-Nếu tam giác $ABC$ vuông tại $A$ thì $\widehat{BAC}=90^\circ$ là góc nội tiếp, nên nó chắn nửa đường tròn (bài [Góc nội tiếp](lesson:inscribed-angles)). Do đó:
+Hãy nhìn tam giác $ABC$ vuông tại $A$. Góc $\widehat{BAC}=90^\circ$ là góc nội tiếp, và góc nội tiếp vuông thì chắn nửa đường tròn (bài [Góc nội tiếp](lesson:inscribed-angles)). Vì vậy cạnh huyền chính là một đường kính, và ta có kết quả sau:
 
 :::theorem Đường tròn ngoại tiếp tam giác vuông
 Tâm đường tròn ngoại tiếp tam giác vuông là trung điểm của cạnh huyền; bán kính bằng nửa cạnh huyền.
@@ -75,13 +75,13 @@ Vậy trạm đặt tại trung điểm của đoạn $BC$, cách mỗi bản $5
 
 ## Đường tròn nội tiếp tam giác
 
-Điểm nằm trên tia phân giác của một góc thì cách đều hai cạnh của góc (lớp 7). Giao điểm $I$ của hai đường phân giác trong (tại $B$ và $C$) cách đều cả ba cạnh, nên $I$ cũng nằm trên phân giác của góc $A$.
+Ở lớp 7 ta đã biết: điểm nằm trên tia phân giác của một góc thì cách đều hai cạnh của góc. Bây giờ vẽ hai đường phân giác trong của tam giác, tại $B$ và $C$; chúng cắt nhau tại $I$. Điểm $I$ cách đều hai cạnh qua $B$, và cách đều hai cạnh qua $C$, nên nó cách đều cả ba cạnh. Vì thế $I$ cũng nằm trên phân giác của góc $A$.
 
 :::definition Đường tròn nội tiếp tam giác
 Đường tròn tiếp xúc với ba cạnh của một tam giác gọi là **đường tròn nội tiếp** tam giác; tam giác gọi là **tam giác ngoại tiếp** đường tròn. Tâm của nó là giao điểm ba đường phân giác trong của tam giác, luôn nằm bên trong tam giác.
 :::
 
-Bán kính $r$ bằng khoảng cách từ $I$ đến mỗi cạnh. Các cạnh là tiếp tuyến, nên từ mỗi đỉnh hai đoạn tiếp tuyến bằng nhau (bài [Vị trí tương đối của đường thẳng và đường tròn](lesson:line-circle-positions)).
+Bán kính $r$ chính là khoảng cách từ $I$ đến mỗi cạnh. Ba cạnh đều là tiếp tuyến của đường tròn, nên từ mỗi đỉnh kẻ ra hai đoạn tiếp tuyến bằng nhau (bài [Vị trí tương đối của đường thẳng và đường tròn](lesson:line-circle-positions)). Ta sẽ dùng chính điều này để tính $r$ ở ví dụ dưới đây.
 
 :::diagram Đường tròn nội tiếp tam giác vuông $ABC$ có cạnh $3$, $4$, $5$
 alt: Tam giác ABC vuông tại A với AB bằng 4, AC bằng 3; đường tròn tâm I bán kính 1 tiếp xúc ba cạnh tại D, E, F
@@ -132,7 +132,7 @@ Vậy mặt bàn có bán kính $10$ cm và phần gỗ bỏ đi khoảng $286$ 
 
 ## Tam giác đều
 
-Trong tam giác đều, mỗi đường trung trực cũng là đường phân giác, đường trung tuyến và đường cao. Vì vậy tâm đường tròn ngoại tiếp và tâm đường tròn nội tiếp **trùng nhau** tại trọng tâm $G$. Trọng tâm nằm trên trung tuyến, cách đỉnh $\dfrac23$ trung tuyến (lớp 7).
+Tam giác đều có một điều đặc biệt: mỗi đường trung trực cũng là đường phân giác, đường trung tuyến và đường cao. Vì vậy hai tâm ta vừa tìm, tâm ngoại tiếp và tâm nội tiếp, **trùng nhau** tại trọng tâm $G$. Trọng tâm nằm trên mỗi trung tuyến và cách đỉnh $\dfrac23$ độ dài trung tuyến (lớp 7). Nhờ đó ta tính được cả hai bán kính từ độ dài đường cao.
 
 :::theorem Tam giác đều cạnh $a$
 Đường cao (cũng là trung tuyến) dài $h=\dfrac{a\sqrt3}{2}$, nên
@@ -150,12 +150,12 @@ Vậy $R=2\sqrt3$ cm và $r=\sqrt3$ cm.
 :::
 
 :::warning Những sai lầm thường gặp
-- **Nhầm hai loại tâm.** Tâm ngoại tiếp là giao các đường **trung trực** (cách đều ba đỉnh); tâm nội tiếp là giao các đường **phân giác** (cách đều ba cạnh).
-- **Lấy $R$ bằng cạnh huyền.** Sai: tam giác vuông có cạnh huyền $10$ cm nên $R=10$ cm. Đúng: $R=5$ cm (nửa cạnh huyền).
-- **Đảo $\dfrac23$ và $\dfrac13$ ở tam giác đều.** $R$ là đoạn từ tâm đến đỉnh (dài hơn), $r$ là đoạn từ tâm đến cạnh: $R=2r$.
+- **Nhầm hai loại tâm.** Chỗ này nhiều bạn hay nhầm. Tâm ngoại tiếp là giao các đường **trung trực** (cách đều ba đỉnh); tâm nội tiếp là giao các đường **phân giác** (cách đều ba cạnh).
+- **Lấy $R$ bằng cạnh huyền.** Sai: tam giác vuông có cạnh huyền $10$ cm nên $R=10$ cm. Đúng: $R=5$ cm, vì bán kính chỉ bằng nửa cạnh huyền.
+- **Đảo $\dfrac23$ và $\dfrac13$ ở tam giác đều.** $R$ là đoạn từ tâm đến đỉnh (dài hơn), $r$ là đoạn từ tâm đến cạnh (ngắn hơn), nên $R=2r$.
 :::
 
-**Kết nối.** Bài này gom nhiều kiến thức cũ: đường trung trực và phân giác (lớp 7), góc nội tiếp chắn nửa đường tròn, tính chất hai tiếp tuyến cắt nhau. Câu hỏi "đi qua ba điểm" sẽ mở rộng thành câu hỏi "bốn điểm có cùng nằm trên một đường tròn không?" ở bài [Tứ giác nội tiếp](lesson:cyclic-quadrilaterals), và tam giác đều là trường hợp đầu tiên của [đa giác đều](lesson:regular-polygons).
+**Kết nối.** Bài này gom lại nhiều điều bạn đã học: đường trung trực và phân giác (lớp 7), góc nội tiếp chắn nửa đường tròn, tính chất hai tiếp tuyến cắt nhau. Đường tròn đi qua ba điểm còn dẫn tới một câu hỏi mới: bốn điểm có cùng nằm trên một đường tròn không? Bạn sẽ gặp câu hỏi này ở bài [Tứ giác nội tiếp](lesson:cyclic-quadrilaterals). Còn tam giác đều là trường hợp đầu tiên của [đa giác đều](lesson:regular-polygons).
 
 ## Thuật ngữ
 
@@ -175,10 +175,11 @@ Vậy $R=2\sqrt3$ cm và $r=\sqrt3$ cm.
 - Tâm nội tiếp $I$: giao ba đường phân giác, cách đều ba cạnh một khoảng $r$.
 - Tam giác vuông: $O$ là trung điểm cạnh huyền, $R=\dfrac a2$; $r=\dfrac{b+c-a}{2}$.
 - Tam giác đều cạnh $a$: $R=\dfrac{a\sqrt3}{3}$, $r=\dfrac{a\sqrt3}{6}$, hai tâm trùng nhau.
+Quay lại hai bài toán đầu bài: trạm phát sóng đặt ở tâm đường tròn ngoại tiếp, còn mặt bàn tròn lớn nhất là hình tròn nội tiếp tam giác. Chỉ cần nhớ: trung trực cho đường tròn ngoại tiếp, phân giác cho đường tròn nội tiếp.
 
 ## Luyện tập
 
-Mỗi bài có phần kiến thức và gợi ý các bước. Hãy tự làm trước, rồi mới bấm xem lời giải.
+Mỗi bài có phần kiến thức cần nhớ và vài bước gợi ý. Bạn hãy thử tự làm trước, kẹt chỗ nào thì mới xem lời giải. Làm sai một lần cũng không sao, vì chính lúc sửa sai ta nhớ lâu nhất.
 
 :::exercise
 Cho tam giác $ABC$ vuông tại $A$ có $AB=5$ cm, $AC=12$ cm. Xác định tâm và tính bán kính đường tròn ngoại tiếp tam giác.

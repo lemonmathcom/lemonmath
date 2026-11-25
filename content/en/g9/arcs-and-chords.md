@@ -10,13 +10,13 @@ minutes: 20
 - Recognise angles at the centre, minor and major arcs, and find the measure of an arc.
 :::
 
-The classroom clock has a minute hand $15$ cm long. From $7{:}00$ to $7{:}20$, its tip moves along an arc from $A$ to $B$. What is the measure of that arc? How long is the segment $AB$?
+The classroom clock has a minute hand $15$ cm long. From $7{:}00$ to $7{:}20$, its tip moves along an arc from $A$ to $B$. We often watch a hand turn without noticing the shape it draws. What is the measure of that arc? How long is the segment $AB$?
 
 ## Chords of a circle
 
 ### Explore: which chord is the longest?
 
-On the circle $(O, 5\text{ cm})$, joining two points gives a **chord**. A chord $4$ cm from the centre is $6$ cm long, one $3$ cm from the centre is $8$ cm long, and one through the centre is $10$ cm long. The closer to the centre, the longer the chord.
+On the circle $(O, 5\text{ cm})$, joining two points gives a **chord**. Which chord is the longest? Try a few. A chord $4$ cm from the centre is $6$ cm long, one $3$ cm from the centre is $8$ cm long, and one through the centre is $10$ cm long. The closer to the centre, the longer the chord.
 
 :::definition Chord
 A segment joining two different points of a circle is called a **chord**. A chord through the centre is a diameter.
@@ -26,9 +26,9 @@ A segment joining two different points of a circle is called a **chord**. A chor
 Of all the chords of a circle, the longest is a diameter.
 :::
 
-**Why?** For a chord $AB$ not through the centre, the triangle $OAB$ gives $AB<OA+OB=2R$. If $AB$ passes through the centre, then $AB=2R$.
+**Why?** Take a chord $AB$ not through the centre. In the triangle $OAB$, one side is always shorter than the other two together, so $AB<OA+OB=2R$. If $AB$ passes through the centre, then $AB=2R$. So no chord can be longer than a diameter.
 
-The triangle $OAB$ is isosceles ($OA=OB=R$). Hence the foot $H$ of the perpendicular from $O$ to $AB$ is the midpoint of $AB$, and by Pythagoras' theorem:
+There is also a way to find a chord's length when we know how far it is from the centre. The triangle $OAB$ is isosceles ($OA=OB=R$). In an isosceles triangle, the height from the apex is also the median. Hence the foot $H$ of the perpendicular from $O$ to $AB$ is the midpoint of $AB$, and by Pythagoras' theorem:
 
 $$AB=2HA=2\sqrt{R^2-OH^2}.$$
 
@@ -60,7 +60,7 @@ So $AB=2HA=16$ cm.
 
 ## Angles at the centre and arcs
 
-Two points $A$, $B$ on a circle split it into two **arcs**, both written $\overset{\frown}{AB}$; to tell them apart, we name a point $M$ on one and write $\overset{\frown}{AMB}$.
+Now we look at the circle in another way: not the segment joining two points, but the part of the circle between them. Two points $A$, $B$ on a circle split it into two **arcs**, both written $\overset{\frown}{AB}$. To tell them apart, we name a point $M$ on one and write $\overset{\frown}{AMB}$.
 
 :::definition Angle at the centre, minor arc, major arc
 An angle whose vertex is the centre of the circle is called an **angle at the centre**. For an angle at the centre $\angle AOB$ ($0^\circ<\angle AOB<180^\circ$), the arc inside the angle is the **minor arc**, and the other arc is the **major arc**; the minor arc $AB$ is called the arc **subtended** by $\angle AOB$. If $AB$ is a diameter, each arc is a **semicircle**.
@@ -88,7 +88,7 @@ angle A O B "100°"
 We write $\overset{\frown}{AB}=100^\circ$ for "the arc $AB$ measures $100^\circ$". In one circle, two arcs are equal if they have the same measure.
 :::
 
-If a point $C$ lies on the arc $AB$, then $\overset{\frown}{AB}=\overset{\frown}{AC}+\overset{\frown}{CB}$ (the angle $\angle AOB$ splits into two angles).
+Arc measures add up, like pieces of a path joined together. If a point $C$ lies on the arc $AB$, then $\overset{\frown}{AB}=\overset{\frown}{AC}+\overset{\frown}{CB}$. The reason is that the angle $\angle AOB$ splits into two angles.
 
 :::example Minor arc and major arc
 In the figure above, $\angle AOB=100^\circ$. Find the measures of the minor arc $AB$ and the major arc $AMB$.
@@ -100,7 +100,7 @@ $$\overset{\frown}{AMB}=360^\circ-100^\circ=260^\circ.$$
 So the minor arc $AB$ measures $100^\circ$ and the major arc $AMB$ measures $260^\circ$.
 :::
 
-Now we answer the question about the clock from the start.
+With angles at the centre and arc measures, we can answer the clock question from the start. We need two things: the measure of the arc and the length of the chord.
 
 :::example The minute hand of a clock
 The minute hand $OA$ is $15$ cm long. From $7{:}00$ to $7{:}20$, its tip moves from $A$ to $B$. Find the measure of the arc $AB$ travelled by the tip and the length $AB$ (give your answer to 2 decimal places).
@@ -114,7 +114,7 @@ $$HA=OA\cdot\sin60^\circ=15\cdot\frac{\sqrt3}{2},\qquad AB=2HA=15\sqrt3\approx25
 So the arc measures $120^\circ$ and $AB\approx25.98$ cm.
 :::
 
-When three points split a circle into three arcs, we add the measures of arcs.
+When three points split a circle into three arcs, we put the arcs back together by adding their measures.
 
 :::example Three arcs of a circle
 Three points $A$, $B$, $C$ split the circle $(O)$ into three arcs $AB$, $BC$, $CA$, none containing the third point, with $\overset{\frown}{AB}=100^\circ$ and $\overset{\frown}{BC}=140^\circ$. Find the measures of the arc $CA$ and the arc $ACB$.
@@ -127,8 +127,8 @@ So the arc $CA$ measures $120^\circ$ and the arc $ACB$ measures $260^\circ$.
 :::
 
 :::warning Common mistakes
-- **Forgetting to double for a chord.** Wrong: a chord $6$ cm from the centre of $(O, 10\text{ cm})$ has length $\sqrt{100-36}=8$ cm. Why it is wrong: $8$ cm is only half the chord, $HA$. Right: $AB=16$ cm.
-- **Using the angle at the centre for the major arc.** Wrong: $\angle AOB=70^\circ$, so the major arc $AB$ measures $70^\circ$. Why it is wrong: the angle equals the minor arc only. Right: the major arc measures $290^\circ$.
+- **Forgetting to double for a chord.** Some people say a chord $6$ cm from the centre of $(O, 10\text{ cm})$ has length $\sqrt{100-36}=8$ cm. But $8$ cm is only half the chord, $HA$. Right: $AB=16$ cm.
+- **Using the angle at the centre for the major arc.** Some people write $\angle AOB=70^\circ$, so the major arc $AB$ measures $70^\circ$. The angle equals the minor arc only. Right: the major arc measures $290^\circ$.
 :::
 
 ## Key terms
@@ -149,10 +149,11 @@ So the arc $CA$ measures $120^\circ$ and the arc $ACB$ measures $260^\circ$.
 - If $OH\perp AB$, then $H$ is the midpoint of $AB$ and $AB=2\sqrt{R^2-OH^2}$.
 - A minor arc equals the angle at the centre subtending it; a major arc is $360^\circ$ minus the minor arc; a semicircle is $180^\circ$.
 - If $C$ lies on the arc $AB$, then $\overset{\frown}{AB}=\overset{\frown}{AC}+\overset{\frown}{CB}$.
+The clock question has its answer: the tip turns through as many degrees as the arc measures, and the chord comes from Pythagoras' theorem or a trigonometric ratio. The thing to remember is to find half the chord first, then double it.
 
 ## Practice
 
-Each exercise comes with what you need and some steps to start. Try it yourself first, then open the solution.
+Each exercise comes with what you need to know and some steps to start. Try it yourself first, and open the solution when you are stuck. A little patience now will make arcs and chords feel natural.
 
 :::exercise
 An angle at the centre has $\angle AOB=65^\circ$. Find the measures of the minor arc $AB$ and the major arc $AB$.

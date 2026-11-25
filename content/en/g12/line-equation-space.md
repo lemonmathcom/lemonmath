@@ -11,21 +11,21 @@ minutes: 26
 - Find the orthogonal projection of a point on a plane and on a line.
 :::
 
-A drone takes off from the point $M_0(1, 2, 0)$ in a school yard (unit: metre). It flies in a straight line, moving by the vector $\vec{u}=(2, 1, 2)$ every second. High above, a checkpoint ring is placed at $N(9, 6, 8)$. Does the drone fly through the ring, and if so, after how many seconds?
+A drone takes off from the point $M_0(1, 2, 0)$ in a school yard (unit: metre). It flies in a straight line, moving by the vector $\vec{u}=(2, 1, 2)$ every second. High above, a checkpoint ring is placed at $N(9, 6, 8)$. Does the drone fly through the ring, and if so, after how many seconds? We do not need a test flight. Once we write the flight path as an equation, we can answer both questions on paper.
 
-As in the plane, a line in space is fixed by **one point** and **one direction**. The only difference is that there are now three coordinates.
+In the plane you already know that a point and a direction are enough to draw a line. Space works the same way: a line is fixed by **one point** and **one direction**. The only difference is that every point now has three coordinates instead of two.
 
 ## Parametric equations of a line
 
 ### Exploring: the drone's positions
 
-After $t$ seconds the drone is at the point $M$ with $\overrightarrow{M_0M}=t\vec{u}$. We record a few positions:
+After $t$ seconds the drone is at the point $M$ with $\overrightarrow{M_0M}=t\vec{u}$. In other words, it has moved that many times its one-second step away from its take-off point. We record a few positions to see the pattern:
 
 | $t$ (seconds) | $0$ | $1$ | $2$ | $3$ |
 |---|---|---|---|---|
 | position | $(1, 2, 0)$ | $(3, 3, 2)$ | $(5, 4, 4)$ | $(7, 5, 6)$ |
 
-The position after $t$ seconds is $(1+2t, 2+t, 2t)$. To reach $N(9, 6, 8)$ we need $1+2t=9$, $2+t=6$, $2t=8$. All three give $t=4$, so the drone passes through the ring after $4$ seconds. The distance flown is $4|\vec{u}|=4\cdot3=12$ m.
+The position after $t$ seconds is $(1+2t, 2+t, 2t)$. The ring is at $N(9, 6, 8)$, so we ask whether a single moment makes all three coordinates match: $1+2t=9$, $2+t=6$, $2t=8$. All three give $t=4$. If they had given three different values, the drone would have missed the ring. So the drone passes through the ring after $4$ seconds. The distance flown is $4|\vec{u}|=4\cdot3=12$ m.
 
 :::diagram The line through $M_0$ with direction vector $\vec{u}$
 alt: A line d through the point M0, the arrow of the vector u drawn along the line, and another point M on d
@@ -47,7 +47,7 @@ $$\begin{cases}x=x_0+at\\ y=y_0+bt\\ z=z_0+ct\end{cases}\quad(t\in\mathbb{R}).$$
 $$\frac{x-x_0}{a}=\frac{y-y_0}{b}=\frac{z-z_0}{c}.$$
 :::
 
-**Why is it true?** A point $M(x, y, z)$ lies on $\Delta$ exactly when $\overrightarrow{M_0M}$ is parallel to $\vec{u}$, that is, when there is a number $t$ with $\overrightarrow{M_0M}=t\vec{u}$. Coordinate by coordinate: $x-x_0=at$, $y-y_0=bt$, $z-z_0=ct$. When $abc\neq0$, all three fractions equal $t$.
+**Why is it true?** A point $M(x, y, z)$ lies on $\Delta$ exactly when $\overrightarrow{M_0M}$ is parallel to $\vec{u}$, that is, when there is a number $t$ with $\overrightarrow{M_0M}=t\vec{u}$. This is just what the drone did: it moved some multiple of its step from its starting point. Coordinate by coordinate: $x-x_0=at$, $y-y_0=bt$, $z-z_0=ct$. When $abc\neq0$ we can divide each equation by its coefficient, and all three fractions equal $t$.
 
 :::example A point and a direction vector
 The line $\Delta$ passes through $M(1, -2, 3)$ and has direction vector $\vec{u}=(2, 0, -1)$. Write parametric equations of $\Delta$, find the point for $t=2$, and decide whether $A(-3, -2, 5)$ lies on $\Delta$.
@@ -61,7 +61,7 @@ For $t=2$ we get the point $(5, -2, 1)$. For $A$, the equation $1+2t=-3$ gives $
 So $A$ lies on $\Delta$ (for $t=-2$). This line has no Cartesian equations, because the second coordinate of $\vec{u}$ is $0$.
 :::
 
-Given two points, we take the vector joining them as a direction vector. When a line is perpendicular to a plane, the normal vector of the plane is a direction vector of the line.
+We are not always handed a direction vector, but we can often build one. Given two points, the vector joining them runs along the line, so we take it as a direction vector. When a line is perpendicular to a plane, it points the same way as the normal vector of the plane, so that normal vector is a direction vector of the line. The example below uses both ideas.
 
 :::example Through two points; perpendicular to a plane
 a) Write parametric and Cartesian equations of the line $AB$ with $A(1, 2, -1)$, $B(3, -1, 1)$.
@@ -81,7 +81,7 @@ So the equations are as above.
 
 ## Two lines in space
 
-In space, two lines have four possibilities. Unlike in the plane, two lines can fail to meet without being parallel: such lines are called **skew**.
+In space, two lines have four possibilities: parallel, coincident, intersecting, and one that the plane does not have. Picture a flyover crossing high above a road: the two never touch, yet they do not run side by side. Lines like these are called **skew**.
 
 :::theorem Deciding the position of two lines
 Let $d_1$ pass through $M_1$ with direction vector $\vec{u}_1$, and $d_2$ through $M_2$ with direction vector $\vec{u}_2$.
@@ -105,7 +105,7 @@ So $d_1$ meets $d_2$ at $(2, 2, 1)$, while $d_1$ and $d_3$ are skew.
 
 ## A line and a plane
 
-To decide how a line $d$ meets a plane $(P)$, we substitute the parametric equations of $d$ into the equation of $(P)$ and get a linear equation in $t$.
+A point of a line lies on a plane when its coordinates satisfy the equation of the plane. Every point of the line can be written using the parameter, so we substitute the parametric equations of $d$ into the equation of $(P)$ and get a linear equation in $t$. The number of solutions of that equation tells us how $d$ and $(P)$ meet.
 
 :::theorem A line and a plane
 Substitute $x$, $y$, $z$ of $d$ into the equation of $(P)$:
@@ -128,7 +128,7 @@ So $d$ meets $(P)$ at the point for $t=2$, that is $(5, 1, 0)$; $d$ lies in $(Q)
 
 ## Orthogonal projection of a point
 
-The projection $H$ of a point $M$ on a plane $(P)$ is where $(P)$ meets the line through $M$ perpendicular to $(P)$. The projection $H$ of $M$ on a line $d$ is the point $H\in d$ with $\overrightarrow{MH}\perp\vec{u}$.
+The point of a plane or a line that is nearest to a given point is where we drop a perpendicular from it. That point is called the orthogonal projection. The projection $H$ of a point $M$ on a plane $(P)$ is where $(P)$ meets the line through $M$ perpendicular to $(P)$. The projection $H$ of $M$ on a line $d$ is the point $H\in d$ with $\overrightarrow{MH}\perp\vec{u}$.
 
 :::diagram The projection $H$ of $M$ on the plane $(P)$
 alt: A plane drawn as a parallelogram, the point M above it, and the segment MH perpendicular to the plane at H
@@ -159,7 +159,7 @@ So the point nearest the drone is $H(1, -1, 3)$, $9$ m away.
 **Check.** The distance formula: $\dfrac{|4+10+18-5|}{3}=9$.
 :::
 
-The last example has more steps, so we follow the four stages.
+The last example has more steps, so we slow down and follow four stages: understand, plan, solve, look back.
 
 :::example The shortest rope to a pipe
 A straight water pipe lies along the line $d: x=1+t$, $y=-1+2t$, $z=2t$ (unit: metre). A rope as short as possible must run from a hook at $M(0, 0, 4)$ to the pipe. Find the point $H$ of the pipe where the rope is tied and the length of the rope.
@@ -180,10 +180,11 @@ So $H(2, 1, 2)$, $\overrightarrow{MH}=(2, 1, -2)$ and $MH=\sqrt{4+1+4}=3$. The r
 :::
 
 :::warning Common mistakes
-- **Using one parameter for both lines.** Wrong: solving for $d_1$, $d_2$ with the system $1+t=1+t$, $2t=3-t$, ... Why it is wrong: each line has its own parameter; a common point may correspond to different values of $t$ and $s$. Right: use $t$ for $d_1$ and $s$ for $d_2$.
-- **Concluding "parallel" just because the lines do not meet.** Wrong: $d_1$ and $d_3$ have no common point, so they are parallel. Why it is wrong: in space they can also be skew. Right: parallel lines also need $\vec{u}_1$, $\vec{u}_2$ to be parallel.
+- **Using one parameter for both lines.** Wrong: solving for $d_1$, $d_2$ with the system $1+t=1+t$, $2t=3-t$, ... Why it is wrong: each line has its own parameter, and a common point may correspond to different values of $t$ and $s$. Right: use $t$ for $d_1$ and $s$ for $d_2$.
+- **Concluding "parallel" just because the lines do not meet.** Wrong: $d_1$ and $d_3$ have no common point, so they are parallel. Why it is wrong: in space they can also be skew. Right: for parallel lines, $\vec{u}_1$, $\vec{u}_2$ must be parallel as well.
 - **Writing Cartesian equations when a coordinate is $0$.** Wrong: $\Delta$ from Example 1 written as $\dfrac{x-1}{2}=\dfrac{y+2}{0}=\dfrac{z-3}{-1}$. Why it is wrong: we cannot divide by $0$. Right: use the parametric equations.
 - **Using the normal vector as the direction of a line parallel to a plane.** Wrong: a line parallel to $(P)$ has direction vector $\vec{n}_P$. Why it is wrong: $\vec{n}_P$ is perpendicular to $(P)$. Right: $\vec{n}_P$ is a direction vector of a line **perpendicular** to $(P)$.
+Many people slip on these at first, so do not worry if you do too. Substituting your answer back into the problem usually catches the slip.
 :::
 
 ## Key terms
@@ -202,16 +203,17 @@ So $H(2, 1, 2)$, $\overrightarrow{MH}=(2, 1, -2)$ and $MH=\sqrt{4+1+4}=3$. The r
 
 ## Summary
 
-- The line through $M_0(x_0, y_0, z_0)$ with direction vector $\vec{u}=(a, b, c)$: $x=x_0+at$, $y=y_0+bt$, $z=z_0+ct$.
+- The line through $M_0(x_0, y_0, z_0)$ with direction vector $\vec{u}=(a, b, c)$ has equations $x=x_0+at$, $y=y_0+bt$, $z=z_0+ct$.
 - When $abc\neq0$: $\dfrac{x-x_0}{a}=\dfrac{y-y_0}{b}=\dfrac{z-z_0}{c}$.
 - Through two points $A$, $B$: $\vec{u}=\overrightarrow{AB}$. Perpendicular to $(P)$: $\vec{u}=\vec{n}_P$.
-- Two lines: if $\vec{u}_1$, $\vec{u}_2$ are parallel, the lines are parallel or coincide; if not, solve for $t$, $s$: a solution means they intersect, no solution means they are skew.
-- A line and a plane: substituting gives an equation in $t$; one solution means they meet, no solution means parallel, every $t$ means the line lies in the plane.
+- Two lines: if $\vec{u}_1$, $\vec{u}_2$ are parallel, the lines are parallel or coincide. If not, solve for $t$, $s$: a solution means they intersect, no solution means they are skew.
+- A line and a plane: substituting gives an equation in $t$. One solution means they meet, no solution means parallel, every $t$ means the line lies in the plane.
 - Projection on $(P)$: where $(P)$ meets the line through $M$ with direction $\vec{n}$. Projection on $d$: $H\in d$ with $\overrightarrow{MH}\cdot\vec{u}=0$.
+Back to the drone: one point and one direction vector were enough to write its whole flight path, and what remained was solving an equation in the parameter. Keep that in mind and you have the heart of the lesson.
 
 ## Practice
 
-Each exercise comes with what you need and some steps to start. Try it yourself first, then open the solution.
+Each exercise gives you what you need and a few steps to start. Try it yourself before you open the solution. If you get stuck, read a hint, carry on, and only then open the solution to compare.
 
 :::exercise
 Write parametric equations of the line through $A(2, -1, 3)$ with direction vector $\vec{u}=(1, 4, -2)$. Find the point for $t=-1$ and check whether $B(4, 7, -1)$ lies on the line.

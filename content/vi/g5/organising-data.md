@@ -14,11 +14,11 @@ Lớp 5A có $24$ bạn. Cô giáo hỏi: "Em thích ăn loại quả nào nhấ
 
 Cam, Xoài, Ổi, Cam, Chuối, Xoài, Cam, Dưa hấu, Cam, Xoài, Chuối, Ổi, Cam, Xoài, Cam, Dưa hấu, Chuối, Xoài, Cam, Ổi, Xoài, Chuối, Cam, Dưa hấu.
 
-Danh sách dài và lộn xộn. Loại quả nào được nhiều bạn chọn nhất?
+Danh sách dài và lộn xộn, đọc một lượt khó nhớ nổi mỗi loại quả có mấy bạn chọn. Vậy loại quả nào được nhiều bạn chọn nhất?
 
 ## Cùng khám phá
 
-Em kẻ một bảng, mỗi loại quả một dòng. Em đọc từng câu trả lời và gạch một vạch vào dòng của loại quả đó. Đủ $5$ vạch thì gom thành một nhóm cho dễ đếm. Cách làm này gọi là **kiểm đếm**.
+Ta thử làm gọn lại. Em kẻ một bảng, mỗi loại quả một dòng. Rồi em đọc lần lượt từng câu trả lời: bạn nào chọn quả gì thì gạch một vạch vào dòng của quả đó. Vạch nhiều thì khó đếm, nên cứ đủ $5$ vạch ta gom thành một nhóm. Cách ghi này gọi là **kiểm đếm**.
 
 | Loại quả | Kiểm đếm | Số bạn |
 |---|---|---|
@@ -29,7 +29,7 @@ Em kẻ một bảng, mỗi loại quả một dòng. Em đọc từng câu tr�
 | Dưa hấu | /// | 3 |
 | Tổng | | 24 |
 
-Cộng các số bạn: $8+6+4+3+3=24$. Tổng bằng số bạn được hỏi, nên em không bỏ sót và không đếm trùng bạn nào. Loại quả được chọn nhiều nhất là cam, với $8$ bạn.
+Bảng đã trả lời được câu hỏi đầu bài: loại quả được chọn nhiều nhất là cam, với $8$ bạn. Nhưng trước khi tin vào bảng, em cộng các số bạn lại: $8+6+4+3+3=24$. Vì sao phải cộng? Vì tổng này phải bằng số bạn được hỏi. Khi hai số khớp nhau, em biết mình không bỏ sót và không đếm trùng bạn nào.
 
 :::theorem Ba việc với số liệu
 1. **Thu thập:** hỏi, đo hoặc đếm, rồi ghi lại từng số liệu.
@@ -37,11 +37,11 @@ Cộng các số bạn: $8+6+4+3+3=24$. Tổng bằng số bạn được hỏi,
 3. **Sắp xếp:** xếp các số theo thứ tự **tăng dần** (từ bé đến lớn) hoặc **giảm dần** (từ lớn đến bé).
 :::
 
-Kiểm tra tổng là bước quan trọng. Nếu tổng khác số bạn được hỏi, em đã bỏ sót hoặc đếm trùng, nên cần đếm lại.
+Chỗ này nhiều bạn hay quên: kiểm tra tổng. Việc đó chỉ mất vài giây mà cho em biết ngay bảng có đúng không. Nếu tổng khác số bạn được hỏi, em đã bỏ sót hoặc đếm trùng một bạn nào đó, và cần đếm lại.
 
 ## Ví dụ
 
-Ta bắt đầu với số liệu là các con số: số anh chị em ruột của mỗi bạn.
+Số liệu không chỉ là tên các loại quả. Nó cũng có thể là những con số, như số anh chị em ruột của mỗi bạn. Cách làm vẫn vậy: chia nhóm, kiểm đếm, rồi kiểm tra tổng.
 
 :::example Số anh chị em
 Cô hỏi $12$ bạn: "Em có mấy anh chị em ruột?" Kết quả: $1, 2, 1, 0, 2, 1, 3, 1, 2, 1, 0, 2$. Hãy lập bảng số liệu.
@@ -59,7 +59,7 @@ Cô hỏi $12$ bạn: "Em có mấy anh chị em ruột?" Kết quả: $1, 2, 1,
 Kiểm tra: $2+5+4+1=12$, đúng bằng số bạn được hỏi. Vậy có $5$ bạn có đúng $1$ anh chị em ruột.
 :::
 
-Sau khi có số liệu, ta thường phải sắp xếp chúng.
+Có số liệu rồi, ta thường muốn biết ai thấp nhất, ai cao nhất. Muốn thấy ngay, ta sắp xếp các số theo thứ tự.
 
 :::example Sắp xếp chiều cao
 Chiều cao của $6$ bạn trong một tổ (đơn vị cm): $138, 145, 141, 150, 139, 143$. Hãy xếp theo thứ tự tăng dần. Bạn thấp nhất và bạn cao nhất cao bao nhiêu?
@@ -70,7 +70,7 @@ Xếp giảm dần thì viết ngược lại: $150, 145, 143, 141, 139, 138$.
 Vậy bạn thấp nhất cao $138$ cm và bạn cao nhất cao $150$ cm.
 :::
 
-Bây giờ em đọc một bảng số liệu và trả lời câu hỏi.
+Một bảng số liệu chứa nhiều thông tin hơn ta thấy trong lần nhìn đầu tiên. Em đọc kĩ bảng sau và trả lời từng câu hỏi nhé.
 
 :::example Mượn sách thư viện
 Bảng cho biết số quyển sách được mượn trong $5$ ngày:
@@ -90,7 +90,7 @@ $$41-28=13.$$
 Vậy thứ Tư mượn nhiều nhất; cả tuần mượn $170$ quyển; ngày nhiều nhất hơn ngày ít nhất $13$ quyển.
 :::
 
-Cuối cùng, em dùng tổng để tìm một số còn thiếu trong bảng.
+Biết tổng còn giúp ta làm thêm một việc nữa: tìm số bị thiếu. Khi đã biết tổng và các số còn lại, số thiếu sẽ hiện ra nhờ một phép trừ.
 
 :::example Cửa hàng bánh
 Một buổi sáng, cửa hàng bán được $60$ cái bánh: $18$ bánh mì, $12$ bánh bao, $14$ xôi và một số bánh rán. Hỏi bán được bao nhiêu bánh rán? Xếp các loại bánh theo số cái bán được, từ nhiều đến ít.
@@ -102,9 +102,11 @@ Vậy cửa hàng bán được $16$ cái bánh rán.
 :::
 
 :::warning Những lỗi em hay gặp
-- **Không kiểm tra tổng.** Sai: bảng tổng $23$ khi hỏi $24$ bạn mà không đếm lại. Vì sao sai: đã bỏ sót một bạn. Đúng: cộng lại và so với số bạn được hỏi.
-- **Nhầm tăng dần với giảm dần.** Sai: xếp $5, 9, 12$ là giảm dần. Vì sao sai: các số đang tăng. Đúng: $5<9<12$ là tăng dần.
-- **Xếp số mà bỏ tên.** Sai: xếp xong số thời gian chạy mà không nói bạn nào. Đúng: giữ tên đi kèm với từng số.
+- **Không kiểm tra tổng.** Sai: bảng cộng ra $23$ trong khi đã hỏi $24$ bạn, mà em không đếm lại. Vì sao sai: hai số lệch nhau nghĩa là đã bỏ sót một bạn. Đúng: cộng các số trong bảng rồi so với số bạn được hỏi.
+- **Nhầm tăng dần với giảm dần.** Sai: nói dãy $5, 9, 12$ là giảm dần. Vì sao sai: đi từ trái sang phải, các số đang to lên. Đúng: $5<9<12$ là tăng dần.
+- **Xếp số mà bỏ tên.** Sai: xếp xong các số thời gian chạy mà không ghi đó là bạn nào. Đúng: luôn để tên đi kèm với từng số.
+
+Làm bảng số liệu ai cũng có lúc nhầm. Em quen tay kiểm tra lại từng bước là sẽ tránh được những lỗi này.
 :::
 
 ## Thuật ngữ
@@ -123,15 +125,17 @@ Vậy cửa hàng bán được $16$ cái bánh rán.
 
 ## Tóm tắt
 
-- Thu thập số liệu bằng cách hỏi, đo hoặc đếm; ghi lại từng số liệu.
-- Phân loại vào bảng bằng **kiểm đếm**: mỗi lần gặp một vạch, đủ $5$ vạch thì gom nhóm.
-- Cộng các số trong bảng, tổng phải bằng số bạn được hỏi.
+- Thu thập số liệu bằng cách hỏi, đo hoặc đếm, và ghi lại từng số liệu.
+- Phân loại vào bảng bằng **kiểm đếm**: gặp một số liệu thì gạch một vạch, đủ $5$ vạch thì gom thành một nhóm.
+- Cộng các số trong bảng: tổng phải bằng số bạn được hỏi.
 - **Tăng dần:** từ bé đến lớn. **Giảm dần:** từ lớn đến bé.
-- Khi biết tổng, số còn thiếu bằng tổng trừ các số đã biết.
+- Khi đã biết tổng, số còn thiếu bằng tổng trừ đi các số đã biết.
+
+Quay lại câu hỏi đầu bài: nhờ bảng kiểm đếm, danh sách lộn xộn đã cho ta câu trả lời là cam. Em nhớ luôn cộng lại để kiểm tra tổng nhé.
 
 ## Luyện tập
 
-Mỗi bài có phần kiến thức và gợi ý. Em hãy tự làm trước, rồi mới bấm xem lời giải.
+Mỗi bài có phần kiến thức cần nhớ và một gợi ý để em bắt đầu. Em cứ tự làm trước, chưa ra thì xem gợi ý, rồi mới mở lời giải. Sai một lần cũng không sao, vì điều ta đang luyện là cách làm.
 
 :::exercise
 Xếp các số sau theo thứ tự tăng dần: $47, 39, 52, 40, 45$.

@@ -12,7 +12,7 @@ minutes: 45
 - Use residuals to judge how well a model fits.
 :::
 
-Unit 2 is about a single contrast: adding the same amount at each step (arithmetic, linear) versus multiplying by the same factor (geometric, exponential). Once you can tell the two apart and switch between their forms, most Unit 2 questions become routine. This lesson covers sequences and exponential functions; the next one covers their inverses, the logarithms.
+Picture two people saving money. One adds the same amount every month. The other puts money in a bank, where each year it is multiplied by a growth factor. Their savings grow in very different ways, and Unit 2 is about exactly that difference: adding the same amount at each step (arithmetic, linear), or multiplying by the same factor (geometric, exponential). Once you can tell the two apart and switch between their forms, most Unit 2 questions become routine. This lesson covers sequences and exponential functions; the next one covers their inverses, the logarithms.
 
 ## Arithmetic and geometric sequences
 
@@ -22,7 +22,7 @@ Unit 2 is about a single contrast: adding the same amount at each step (arithmet
 | $n$th term | $a_n=a_1+(n-1)d$ | $g_n=g_1r^{n-1}$ |
 | Function version | linear: $f(x)=b+mx$ | exponential: $f(x)=ab^x$ |
 
-An arithmetic sequence is a linear function restricted to whole-number inputs; a geometric sequence is an exponential function restricted in the same way.
+The table shows that these two families are relatives of functions we already know. An arithmetic sequence is a linear function restricted to whole-number inputs. A geometric sequence is an exponential function restricted in the same way. So everything we know about linear and exponential functions carries over to sequences.
 
 :::example A geometric sequence
 The first three terms of a geometric sequence are $5$, $15$, $45$. What is the sixth term?
@@ -51,7 +51,7 @@ So $a_n=3n+2$ and $a_{20}=3(20)+2=62$.
 
 ## Exponential functions and their forms
 
-For $f(x)=ab^x$ with $a>0$: if $b>1$ the function shows **growth**, if $0<b<1$ it shows **decay**. In both cases the graph is concave up, has the horizontal asymptote $y=0$, and the output is multiplied by $b$ whenever the input increases by $1$. Exponent rules let us rewrite a model: $b^{x+k}=b^k\cdot b^x$, and $b^{x/k}=\left(b^{1/k}\right)^x$.
+The exponential function $f(x)=ab^x$ with $a>0$ has one feature that is easy to remember: whenever the input increases by $1$, the output is multiplied by $b$. So if $b>1$ the function shows **growth**, and if $0<b<1$ it shows **decay**. In both cases the graph is concave up and has the horizontal asymptote $y=0$. Exponent rules let us rewrite a model in different forms: $b^{x+k}=b^k\cdot b^x$, and $b^{x/k}=\left(b^{1/k}\right)^x$.
 
 :::example Two points determine the model
 An exponential function $f(x)=ab^x$ passes through $(1,6)$ and $(3,24)$. Which is $f(x)$?
@@ -81,7 +81,7 @@ So the equivalent expression is $500\left(1.2^{1/12}\right)^{12t}$, answer **A**
 
 ## Linear or exponential, and residuals
 
-Use a linear model when a quantity changes by a **constant amount** per unit, and an exponential model when it changes by a **constant percentage**. To check a model against data, compute **residuals**: residual $=$ actual value $-$ predicted value. Residuals that are small and show no pattern suggest a good fit.
+How do we know which model to choose? We ask how the quantity changes. If it changes by a **constant amount** per unit, we use a linear model. If it changes by a **constant percentage**, we use an exponential model. Once we have chosen, we still need to check that the model fits the data. For that we compute **residuals**: residual $=$ actual value $-$ predicted value. Residuals that are small and show no pattern suggest a good fit.
 
 :::example Reading a residual
 A model predicts that a plant will be $50.4$ cm tall after $6$ weeks. The actual height is $52$ cm. What is the residual, and what does it mean?
@@ -99,10 +99,10 @@ So the residual is $1.6$ cm and the model underestimates the height, answer **B*
 :::
 
 :::warning Common traps
-- **The exponent $n-1$:** the first term has no factor $r$.
-- **Constant amount or constant percentage:** "increases by $4\%$" is exponential, "increases by $4$" is linear.
-- **Equivalent forms:** check by substituting a value of $t$ into both expressions.
-- **Sign of a residual:** actual minus predicted, not the other way.
+- **The exponent $n-1$:** the first term has no factor $r$, because it has not been multiplied yet.
+- **Constant amount or constant percentage:** "increases by $4\%$" is exponential, but "increases by $4$" is linear.
+- **Equivalent forms:** to check, substitute the same value of $t$ into both expressions.
+- **Sign of a residual:** actual minus predicted, never the other way round.
 - **Decay with $a>0$:** the graph is decreasing but still concave up.
 :::
 

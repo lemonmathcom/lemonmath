@@ -13,19 +13,19 @@ minutes: 15
 
 Class 5A collects old books for the school library. In the first week the class collects $235$ books, and in the second week $179$ books. The librarian shares all the books equally between $9$ boxes. How many books are in each box?
 
-This problem needs both addition and division. You will review the four operations and learn to join the steps into one expression.
+Reading the question, you can see two jobs: put the books from the two weeks together, then share them equally between the boxes. That needs addition and division, and the order matters. We will review the four operations and then learn to write both steps as one expression.
 
 ## Let's explore
 
-Solve it one step at a time:
+We solve it one step at a time, just as you would in your notebook:
 
 - Books in the two weeks: $235+179=414$.
 - Books in each box: $414\div9=46$.
 
-When you join the two steps, you must put in **brackets** so that the addition is done first:
+Now we join the two steps into one. The addition must come first, so we put it inside **brackets**:
 $$(235+179)\div9=414\div9=46.$$
 
-Without brackets, $235+179\div9$ would work out $179\div9$ first, and the answer would be wrong. You see: the order of the operations decides the answer.
+Try taking the brackets away. Then $235+179\div9$ would work out $179\div9$ first, and the answer would be wrong. Many people slip here: the same numbers in a different order give a different answer. So we need one rule for the order of the operations.
 
 :::theorem The order of operations
 1. Only addition and subtraction (or only multiplication and division): work from left to right.
@@ -33,7 +33,7 @@ Without brackets, $235+179\div9$ would work out $179\div9$ first, and the answer
 3. Brackets: work out **the brackets first**.
 :::
 
-The picture below shows the distributive law for $6\times(40+3)$.
+When can we regroup numbers to make a calculation easier? The picture below shows the distributive law for $6\times(40+3)$.
 
 :::diagram The distributive law: 6 × (40 + 3)
 alt: A rectangle of height 6 split into two parts: the part of width 40 has area 6 × 40 and the part of width 3 has area 6 × 3
@@ -52,7 +52,7 @@ label 4.8,-0.5 "3"
 label -0.5,1 "6"
 :::
 
-The whole rectangle has area $6\times(40+3)=6\times43=258$, which is also $6\times40+6\times3=240+18=258$.
+You can find the area of the whole rectangle in one go, or in parts and then add. The whole rectangle has area $6\times(40+3)=6\times43=258$, which is also $6\times40+6\times3=240+18=258$. Both ways give the same answer, and that is why the distributive law works.
 
 :::theorem Three laws of arithmetic
 - Commutative: $a+b=b+a$ and $a\times b=b\times a$.
@@ -62,7 +62,7 @@ The whole rectangle has area $6\times(40+3)=6\times43=258$, which is also $6\tim
 
 ## Examples
 
-We start with adding and subtracting.
+We start with adding and subtracting, where carrying and exchanging are the places most slips happen.
 
 :::example Adding and subtracting large numbers
 Work out a) $4\,586+3\,729$; b) $7\,002-3\,458$.
@@ -76,7 +76,7 @@ So $4\,586+3\,729=8\,315$ and $7\,002-3\,458=3\,544$.
 **Check.** $3\,544+3\,458=7\,002$. Correct.
 :::
 
-Next come multiplication and division.
+Multiplying and dividing also go step by step: multiply place by place and add the partial products, and divide from the left.
 
 :::example Multiplying and dividing
 Work out a) $537\times48$; b) $2\,184\div7$.
@@ -88,7 +88,7 @@ Part b: divide from the left: $21\div7=3$; bring down $8$, $8\div7=1$ remainder 
 **Check.** $312\times7=2\,184$. Correct.
 :::
 
-With many operations, you must watch the order.
+When an expression has many operations, pause and ask yourself which one must come first.
 
 :::example Working out an expression
 Work out a) $84-12\times5+36\div4$; b) $120\div(18-6)\times4$.
@@ -100,7 +100,7 @@ $$\begin{aligned}120\div(18-6)\times4&=120\div12\times4\\&=10\times4\\&=40.\end{
 So the two expressions have values $33$ and $40$.
 :::
 
-When the numbers are "friendly", use the laws to calculate quickly.
+Sometimes the numbers are "friendly". Look for numbers that make a round number together, then use the laws to calculate quickly.
 
 :::example Quick calculation
 Work out a) $25\times37\times4$; b) $6\times43+6\times57$.
@@ -113,8 +113,8 @@ So the answers are $3\,700$ and $600$.
 :::
 
 :::warning Mistakes to watch out for
-- **Going left to right when there is multiplication.** Wrong: $18+6\times4=24\times4=96$. Why it is wrong: multiply before you add. Right: $18+6\times4=18+24=42$.
-- **Forgetting to exchange when there is a $0$ digit.** Wrong: $7\,002-3\,458=4\,456$. Why it is wrong: you subtracted the smaller digit from the larger in each column. Right: $7\,002-3\,458=3\,544$.
+- **Going left to right when there is multiplication.** Wrong: $18+6\times4=24\times4=96$. Why it is wrong: multiplication must be done before addition. Right: $18+6\times4=18+24=42$.
+- **Forgetting to exchange when there is a $0$ digit.** Wrong: $7\,002-3\,458=4\,456$. Why it is wrong: in each column you took the smaller digit from the larger, instead of exchanging from the next column. Right: $7\,002-3\,458=3\,544$.
 - **Forgetting a $0$ in the quotient.** Wrong: $1\,260\div6=21$. Why it is wrong: $6\times21=126$, not $1\,260$. Right: $1\,260\div6=210$.
 :::
 
@@ -139,10 +139,11 @@ So the answers are $3\,700$ and $600$.
 - Without brackets: multiply and divide first, then add and subtract. With brackets: brackets first.
 - The commutative, associative and distributive laws make calculating quicker, for example $25\times37\times4=(25\times4)\times37$.
 - In a multi-step problem, work one step at a time and give the unit. If a division leaves a remainder but everyone still needs a place, you need one more group.
+The opening question asked how many books are in each box: add the books from the two weeks, then share them equally, or write it all at once with brackets. Remember that brackets come first, and keep practising until it feels natural.
 
 ## Practice
 
-Each exercise comes with what you need and how to start. Try it yourself first, then open the solution.
+Each exercise gives you what you need and a way to start. Try it yourself first, and only then open the solution. A wrong first try is part of learning.
 
 :::exercise
 Set out in columns and work out: a) $5\,274+3\,968$; b) $6\,005-2\,847$.

@@ -11,9 +11,9 @@ minutes: 40
 - Dùng tích phân cho bài toán thực tế: quãng đường từ vận tốc, tổng lượng từ tốc độ thay đổi.
 :::
 
-Nguyên hàm và tích phân thường chiếm hai đến ba câu ở Phần I (bảng nguyên hàm, tính chất), có thể một câu đúng/sai ở Phần II và một câu diện tích hoặc bài toán thực tế ở Phần III, tổng cộng thường khoảng $1$ đến $2$ điểm. Máy tính cầm tay tính được tích phân xác định, nên đây là phần dễ kiểm tra lại nhất.
+Trong đề thi, nguyên hàm và tích phân thường chiếm hai đến ba câu ở Phần I (bảng nguyên hàm, tính chất). Phần II có thể có một câu đúng/sai, và Phần III có thể có một câu về diện tích hoặc bài toán thực tế. Tổng cộng chủ đề này thường đáng khoảng $1$ đến $2$ điểm. Có một điều dễ chịu: máy tính cầm tay tính được tích phân xác định, nên đây là phần dễ kiểm tra lại nhất. Vậy cần nhớ gì để làm nhanh mà vẫn chắc?
 
-Chi tiết nằm ở các bài [nguyên hàm](lesson:antiderivatives), [tích phân](lesson:definite-integrals) và [ứng dụng của tích phân](lesson:integral-applications).
+Bài này gom lại những gì hay gặp nhất. Nếu chỗ nào còn lơ mơ, bạn quay lại các bài [nguyên hàm](lesson:antiderivatives), [tích phân](lesson:definite-integrals) và [ứng dụng của tích phân](lesson:integral-applications) để xem kĩ hơn.
 
 ## Nguyên hàm
 
@@ -32,7 +32,7 @@ Chi tiết nằm ở các bài [nguyên hàm](lesson:antiderivatives), [tích ph
 Tính chất: $\displaystyle\int\left[f(x)\pm g(x)\right]dx=\int f(x)\,dx\pm\int g(x)\,dx$ và $\displaystyle\int kf(x)\,dx=k\int f(x)\,dx$ ($k\ne0$).
 :::
 
-Cách kiểm tra nhanh nhất: lấy đạo hàm kết quả, phải được lại $f(x)$.
+Làm xong, bạn có thể tự kiểm tra rất nhanh: nguyên hàm là phép ngược của đạo hàm, nên lấy đạo hàm của kết quả thì phải được lại $f(x)$. Nên tập thành thói quen này.
 
 :::example Trắc nghiệm: nguyên hàm có điều kiện
 Biết $F(x)$ là một nguyên hàm của $f(x)=3x^2+2\sin x$ và $F(0)=1$. Khi đó $F(x)$ bằng
@@ -92,7 +92,7 @@ Làm tròn đến hàng phần trăm, đáp số là $7{,}39$.
 - Thể tích khối tròn xoay khi quay hình phẳng giới hạn bởi $y=f(x)$, trục $Ox$, $x=a$, $x=b$ quanh trục $Ox$: $V=\pi\displaystyle\int_a^b f^2(x)\,dx$.
 :::
 
-Để bỏ dấu giá trị tuyệt đối, ta tìm các nghiệm của $f(x)-g(x)=0$ trong $[a; b]$, chia đoạn tại các nghiệm đó, và trên mỗi đoạn con lấy "hàm trên trừ hàm dưới".
+Diện tích không bao giờ âm, nên nếu đồ thị hai hàm cắt nhau giữa chừng thì ta không thể tích phân một mạch được. Để bỏ dấu giá trị tuyệt đối, ta tìm các nghiệm của $f(x)-g(x)=0$ trong $[a; b]$ và chia đoạn tại các nghiệm đó. Trên mỗi đoạn con, một hàm nằm trên hàm kia, và ta lấy "hàm trên trừ hàm dưới".
 
 :::graph Hình phẳng giữa $y=2x$ và $y=x^2$
 alt: Parabol y bằng x bình phương và đường thẳng y bằng 2x cắt nhau tại gốc toạ độ và tại điểm (2; 4); phần giữa hai đường từ x bằng 0 đến x bằng 2 được tô màu, đường thẳng nằm trên
@@ -147,11 +147,11 @@ Vậy ô tô đi thêm $40$ m.
 :::
 
 :::warning Những sai lầm thường gặp
-- **Sai dấu với $\sin$, $\cos$.** $\displaystyle\int\sin x\,dx=-\cos x+C$, còn $\displaystyle\int\cos x\,dx=\sin x+C$.
-- **Dùng công thức luỹ thừa cho $\dfrac1x$ hoặc $e^x$.** $\dfrac1x=x^{-1}$ là trường hợp $\alpha=-1$, nguyên hàm là $\ln\lvert x\rvert$.
-- **Bỏ dấu giá trị tuyệt đối khi tính diện tích.** Sai: diện tích giữa $y=x^3-x$ và $Ox$ trên $[0; 2]$ là $\displaystyle\int_0^2(x^3-x)\,dx=2$. Đúng: chia tại $x=1$, được $\dfrac14+\dfrac94=\dfrac52$.
-- **Quên bình phương hoặc quên $\pi$ trong công thức thể tích.** $V=\pi\displaystyle\int_a^b f^2(x)\,dx$.
-- **Quên rằng tích phân của tích không bằng tích các tích phân.**
+- **Sai dấu với $\sin$, $\cos$.** Hai công thức này dễ lẫn nhau: $\displaystyle\int\sin x\,dx=-\cos x+C$, còn $\displaystyle\int\cos x\,dx=\sin x+C$. Trong hai công thức ấy, dấu trừ thuộc về nguyên hàm của hàm sin.
+- **Dùng công thức luỹ thừa cho $\dfrac1x$ hoặc $e^x$.** Công thức luỹ thừa không áp dụng cho hai hàm này. Với $\dfrac1x=x^{-1}$ thì $\alpha=-1$, đúng trường hợp bị loại trừ, và nguyên hàm là $\ln\lvert x\rvert$.
+- **Bỏ dấu giá trị tuyệt đối khi tính diện tích.** Sai: diện tích giữa $y=x^3-x$ và $Ox$ trên $[0; 2]$ là $\displaystyle\int_0^2(x^3-x)\,dx=2$. Đúng: chia tại $x=1$, được $\dfrac14+\dfrac94=\dfrac52$. Lí do là trên một đoạn con đồ thị nằm dưới trục hoành, tích phân ở đó âm và làm hụt mất một phần diện tích.
+- **Quên bình phương hoặc quên $\pi$ trong công thức thể tích.** Mỗi lát cắt là một hình tròn, nên công thức đúng là $V=\pi\displaystyle\int_a^b f^2(x)\,dx$.
+- **Quên rằng tích phân của tích không bằng tích các tích phân.** Chẳng hạn, ta không thể tích phân riêng từng thừa số rồi nhân các kết quả lại.
 :::
 
 ## Thuật ngữ
@@ -169,7 +169,7 @@ Vậy ô tô đi thêm $40$ m.
 
 ## Bài tập
 
-Mỗi bài có phần kiến thức và gợi ý các bước. Hãy tự làm trước, rồi mới bấm xem lời giải.
+Mỗi bài có phần kiến thức cần dùng và vài bước gợi ý để bạn bắt đầu. Bạn thử tự làm trước, rồi hãy bấm xem lời giải. Sai một lần rồi tự tìm ra chỗ sai thường nhớ lâu hơn là đọc lời giải ngay.
 
 :::exercise Trắc nghiệm
 $\displaystyle\int\left(4x^3-\frac{1}{x^2}\right)dx$ bằng

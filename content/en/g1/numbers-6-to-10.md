@@ -11,13 +11,13 @@ minutes: 15
 - Fill in the missing number in a row from $0$ to $10$.
 :::
 
-There are some marbles in a box. Mai counts each one and says: "There are $8$ marbles." How does Mai know she counted right, and how do you write the number $8$?
+There are some marbles in a box. Mai counts each one and says: "There are $8$ marbles." How does Mai know she counted right? And how do you write the number $8$?
 
-In the last lesson you learned the numbers from $0$ to $5$. Now you learn five new numbers: $6, 7, 8, 9, 10$.
+You already know the numbers from $0$ to $5$. But Mai's box holds more marbles than that, so we need more numbers. Now you meet five new numbers: $6, 7, 8, 9, 10$.
 
 ## Let's explore
 
-Count the things, one at a time.
+We count as before: touch each thing and count it only once.
 
 - There are six pencils. You count: "one, two, three, four, five, six". We write the number $6$.
 - There are seven leaves. We write the number $7$.
@@ -25,9 +25,9 @@ Count the things, one at a time.
 - There are nine eggs. We write the number $9$.
 - Two hands have ten fingers. We write the number $10$.
 
-The number $10$ is written with two digits: the digit $1$ first, then the digit $0$.
+The number $10$ looks a little different, because you write it with two digits. The digit $1$ comes first, then the digit $0$.
 
-Count on one more after $5$ and you get $6$. We say $6$ is the number after $5$.
+Count to $5$, then count on one more, and you get $6$. We say $6$ is the number after $5$. It is simply the next number you meet when you count.
 
 :::graph The numbers from 0 to 10 in a row on a number line
 alt: A number line with the points from 0 to 10; the numbers 6, 7, 8, 9, 10 are to the right of 5
@@ -48,11 +48,11 @@ point: (10, 0) "10" below
 3. The number $10$ is written with the digit $1$, then the digit $0$.
 :::
 
-This works because each number is exactly one more thing than the number before. You stop at the number where you finish counting.
+Why does counting on one more give the number after? Each number is exactly one more thing than the number just before it. You stop at the number where you finish counting, and that number tells you how many things there are.
 
 ## Examples
 
-We start with counting pencils.
+We begin by counting the pencils in a box, one at a time.
 
 :::example Counting pencils
 There are six pencils in a box. Write the number of pencils.
@@ -64,7 +64,7 @@ There are six pencils in a box. Write the number of pencils.
 So there are $6$ pencils.
 :::
 
-Now count fingers.
+You always have fingers to count. Try it.
 
 :::example Counting fingers
 How many fingers are on your two hands?
@@ -76,7 +76,7 @@ How many fingers are on your two hands?
 So two hands have $10$ fingers.
 :::
 
-Next, find the number after.
+Now you know what the number after is. Try finding it for another number.
 
 :::example The number after
 Find the number just after $8$.
@@ -86,7 +86,7 @@ Find the number just after $8$.
 So the number after $8$ is $9$.
 :::
 
-Last, fill in the missing number in a row.
+Once you know the number after, you can find a number hidden in a row. Have a go.
 
 :::example Fill in the row
 Fill in the box: $6, 7, \square, 9, 10$.
@@ -102,6 +102,7 @@ So the missing number is $8$.
 - **Missing one when counting.** Wrong: there are $8$ chairs but you count "one, ..., six, eight". Why it is wrong: you forgot seven. Right: count "..., six, seven, eight" and get $8$ chairs.
 - **Writing $10$ backwards.** Wrong: writing $01$. Why it is wrong: the digit $1$ must come first. Right: write $10$.
 - **Mixing up the number after and the number before.** Wrong: the number after $8$ is $7$. Why it is wrong: $7$ comes before $8$. Right: the number after $8$ is $9$.
+Many children slip up here, especially when they hurry. Count slowly and say each number aloud, and you will make fewer mistakes.
 :::
 
 ## Key terms
@@ -123,10 +124,11 @@ So the missing number is $8$.
 - Counting order: $0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10$.
 - Count on one more to get the number after.
 - The number $10$ is written with the digit $1$, then the digit $0$.
+Mai knows she counted right because she touched each marble once and stopped at the last one. Keep practising, and the new numbers will soon feel familiar.
 
 ## Practice
 
-Each exercise comes with what you need and how to start. Try it yourself first, then open the solution.
+Each exercise comes with what you need to remember and a hint to start you off. Try it yourself first, then open the solution. If the answer does not come at once, do not worry. Count it one step at a time.
 
 :::exercise
 There are seven apples on a plate. Write the number of apples.

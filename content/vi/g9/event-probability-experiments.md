@@ -10,11 +10,11 @@ minutes: 20
 - Dùng xác suất để đánh giá tính công bằng của trò chơi và giải bài toán thực tế.
 :::
 
-Giả sử trong một trò chơi, bạn được "xuất quân" khi gieo hai con xúc xắc mà có ít nhất một mặt 6 chấm. Nam lập luận: "Mỗi con có khả năng ra mặt 6 là $\dfrac16$, hai con thì $\dfrac16+\dfrac16=\dfrac13$." Nghe hợp lí. Nhưng theo cách đó, sáu con xúc xắc sẽ cho $1$, tức là *chắc chắn* có mặt 6, trong khi sáu con vẫn có thể không con nào ra 6. Vậy Nam sai ở đâu, và xác suất đúng là bao nhiêu? Bài này cho ta một công cụ chắc chắn: liệt kê không gian mẫu rồi đếm.
+Trong một trò chơi, bạn được "xuất quân" khi gieo hai con xúc xắc mà có ít nhất một mặt 6 chấm. Nam lập luận: "Mỗi con có khả năng ra mặt 6 là $\dfrac16$, hai con thì $\dfrac16+\dfrac16=\dfrac13$." Nghe có vẻ hợp lí. Nhưng nếu lập luận như vậy, sáu con xúc xắc sẽ cho $1$, tức là *chắc chắn* có mặt 6. Thế mà sáu con vẫn có thể không con nào ra 6. Vậy Nam sai ở đâu, và xác suất đúng là bao nhiêu? Muốn biết, ta cần một cách làm đáng tin: liệt kê không gian mẫu rồi đếm. Đó là việc của bài này.
 
 ## Biến cố và kết quả thuận lợi
 
-Ở bài [không gian mẫu](lesson:random-experiments-sample-space), ta đã liệt kê mọi kết quả có thể. Bây giờ ta xét các *sự kiện* gắn với phép thử, như "tổng số chấm bằng 7".
+Ở bài [không gian mẫu](lesson:random-experiments-sample-space), ta đã liệt kê mọi kết quả có thể của một phép thử. Nhưng điều ta quan tâm thường là một *sự kiện* gắn với phép thử, chẳng hạn "tổng số chấm bằng 7". Sự kiện ấy gồm những kết quả nào?
 
 :::definition Biến cố và kết quả thuận lợi
 - Một **biến cố** liên quan tới phép thử là một sự kiện mà việc nó xảy ra hay không xảy ra tuỳ thuộc vào kết quả của phép thử.
@@ -35,7 +35,7 @@ Vậy $A$ có $2$, $B$ có $3$ kết quả thuận lợi.
 
 ## Tính xác suất của biến cố
 
-Khi tung hai đồng xu cân đối, không có lí do gì để kết quả này dễ xảy ra hơn kết quả kia: bốn kết quả **đồng khả năng**, mỗi kết quả "chiếm" $\dfrac14$ cơ hội. Biến cố $A$ ở trên chiếm $2$ trong $4$ phần ấy, nên xác suất của $A$ là $\dfrac24=\dfrac12$.
+Hãy tung hai đồng xu cân đối. Không có lí do gì để kết quả này dễ xảy ra hơn kết quả kia, nên bốn kết quả là **đồng khả năng**. Mỗi kết quả "chiếm" $\dfrac14$ cơ hội. Biến cố $A$ ở trên chiếm $2$ trong $4$ phần ấy. Vì vậy xác suất của $A$ là $\dfrac24=\dfrac12$.
 
 :::theorem Công thức tính xác suất
 Giả sử các kết quả có thể của một phép thử là đồng khả năng. Khi đó, xác suất của biến cố $A$ là
@@ -43,7 +43,7 @@ $$P(A)=\frac{k}{n},$$
 trong đó $n$ là số phần tử của không gian mẫu, $k$ là số kết quả thuận lợi cho $A$.
 :::
 
-**Hiểu sâu hơn.** Vì $0\leq k\leq n$ nên $0\leq P(A)\leq1$: **biến cố không thể** (không có kết quả thuận lợi) có xác suất $0$, **biến cố chắc chắn** (mọi kết quả đều thuận lợi) có xác suất $1$. Công thức chỉ đúng khi các kết quả *đồng khả năng*. Nếu ghi "số mặt ngửa" khi tung hai đồng xu, ta có ba kết quả $0$, $1$, $2$, nhưng chúng không đồng khả năng ($1$ mặt ngửa ứng với hai kết quả $(S; N)$, $(N; S)$), nên xác suất của "1 mặt ngửa" không phải $\dfrac13$ mà là $\dfrac24=\dfrac12$. Đó là lí do ta luôn mô tả kết quả "đủ chi tiết", như cặp có thứ tự.
+**Hiểu sâu hơn.** Vì $0\leq k\leq n$ nên $0\leq P(A)\leq1$. Với **biến cố không thể** (không có kết quả thuận lợi), xác suất là $0$; còn với **biến cố chắc chắn** (mọi kết quả đều thuận lợi), xác suất là $1$. Công thức chỉ đúng khi các kết quả *đồng khả năng*, và chỗ này nhiều bạn hay nhầm. Thử ghi "số mặt ngửa" khi tung hai đồng xu: ta có ba kết quả $0$, $1$, $2$. Nhưng chúng không đồng khả năng, vì $1$ mặt ngửa ứng với hai kết quả $(S; N)$, $(N; S)$. Vì thế xác suất của "1 mặt ngửa" không phải $\dfrac13$ mà là $\dfrac24=\dfrac12$. Đó là lí do ta luôn mô tả kết quả "đủ chi tiết", như cặp có thứ tự.
 
 :::example Tổng 7 hay tổng 8?
 Gieo hai con xúc xắc cân đối. Tính xác suất của các biến cố $A$: "Tổng số chấm bằng $7$" và $B$: "Tổng số chấm bằng $8$". Biến cố nào có xác suất lớn hơn?
@@ -96,11 +96,11 @@ point: (6, 5)
 point: (6, 6) "(6; 6)" above-right
 :::
 
-Trên hình, trục $x$ là số chấm của xúc xắc thứ nhất, trục $y$ là của xúc xắc thứ hai. Hàng và cột được tô chồng lên nhau đúng ở ô $(6; 6)$: đó là chỗ Nam đã đếm hai lần.
+Hãy nhìn hình. Trục $x$ là số chấm của xúc xắc thứ nhất, trục $y$ là số chấm của xúc xắc thứ hai. Hàng và cột được tô chồng lên nhau đúng ở ô $(6; 6)$. Đó là chỗ Nam đã đếm hai lần.
 
 ## Vận dụng trong thực tế
 
-Công thức $P(A)=\dfrac kn$ dùng được cho mọi tình huống chọn ngẫu nhiên: bốc thăm, rút phiếu, chọn người.
+Công thức $P(A)=\dfrac kn$ không chỉ dành cho xúc xắc và đồng xu. Nó dùng được cho mọi tình huống chọn ngẫu nhiên: bốc thăm, rút phiếu, chọn người. Ví dụ sau là một cuộc rút phiếu.
 
 :::example Rút phiếu bốc thăm trúng thưởng
 Giả sử một cửa hàng có hộp đựng $5$ phiếu giống nhau, trong đó $2$ phiếu trúng thưởng. Mỗi khách rút ngẫu nhiên đồng thời $2$ phiếu. Tính xác suất để khách trúng ít nhất một phần thưởng.
@@ -117,11 +117,11 @@ Vậy xác suất khách trúng ít nhất một phần thưởng là $\dfrac{7}
 :::
 
 :::warning Những sai lầm thường gặp
-- **Dùng không gian mẫu không đồng khả năng.** Sai: khi tung hai đồng xu, $P(\text{1 mặt ngửa})=\dfrac13$. Đúng: $\dfrac24=\dfrac12$.
+- **Dùng không gian mẫu không đồng khả năng.** Sai: khi tung hai đồng xu, $P(\text{1 mặt ngửa})=\dfrac13$. Lí do sai: các kết quả "số mặt ngửa" không đồng khả năng. Đúng: $\dfrac24=\dfrac12$.
 - **Đếm trùng** (như Nam ở đầu bài). Sai: $P(\text{có ít nhất một mặt 6})=\dfrac{12}{36}$. Đúng: $(6; 6)$ chỉ đếm một lần, được $\dfrac{11}{36}$.
 :::
 
-**Kết nối.** Ở lớp 8, bạn đã thấy khi lặp lại phép thử nhiều lần, tần số tương đối của một biến cố gần với xác suất của nó. Bài này cho cách tính xác suất *trước* khi thí nghiệm. Ở lớp 10, hoán vị, chỉnh hợp, tổ hợp giúp tính xác suất khi không gian mẫu quá lớn để liệt kê.
+**Kết nối.** Ở lớp 8, bạn đã thấy: khi lặp lại phép thử nhiều lần, tần số tương đối của một biến cố gần với xác suất của nó. Bài này cho ta cách tính xác suất *trước* khi làm thí nghiệm. Ở lớp 10, hoán vị, chỉnh hợp, tổ hợp sẽ giúp ta tính xác suất khi không gian mẫu quá lớn để liệt kê.
 
 ## Thuật ngữ
 
@@ -141,10 +141,11 @@ Vậy xác suất khách trúng ít nhất một phần thưởng là $\dfrac{7}
 - Các kết quả đồng khả năng: $P(A)=\dfrac kn$ ($k$ kết quả thuận lợi, $n$ phần tử của $\Omega$); $0\leq P(A)\leq1$.
 - Mô tả kết quả đủ chi tiết (cặp có thứ tự, đặt tên các vật giống nhau) để chúng đồng khả năng.
 - Với "ít nhất một", có thể đếm các kết quả không thuận lợi rồi lấy $n$ trừ đi.
+Quay lại câu hỏi đầu bài: Nam sai vì đã đếm hai lần cùng một kết quả. Liệt kê rồi đếm cẩn thận là cách để không rơi vào bẫy ấy. Bạn hãy thử tự lập bảng các kết quả khi làm bài luyện tập.
 
 ## Luyện tập
 
-Mỗi bài có phần kiến thức và gợi ý các bước. Hãy tự làm trước, rồi mới bấm xem lời giải.
+Mỗi bài có phần kiến thức cần nhớ và gợi ý từng bước. Bạn nên tự làm trước, vướng thì xem gợi ý, cuối cùng mới mở lời giải để đối chiếu. Làm sai một lần cũng không sao, vì chỗ sai thường giúp ta nhớ lâu nhất.
 
 :::exercise
 Gieo một con xúc xắc cân đối. Tính xác suất của các biến cố:

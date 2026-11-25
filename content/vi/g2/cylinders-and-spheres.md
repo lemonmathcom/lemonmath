@@ -12,7 +12,7 @@ minutes: 15
 
 Lan đặt một quả bóng và một lon sữa lên mặt bàn hơi nghiêng. Quả bóng lăn đi rất nhanh. Lon sữa nằm ngang cũng lăn, nhưng khi dựng đứng lên thì đứng yên.
 
-Vì sao hai vật này khác nhau? Hôm nay em sẽ tìm câu trả lời qua hai loại khối mới.
+Vì sao quả bóng lăn đi rất nhanh còn lon sữa dựng đứng thì yên? Câu trả lời nằm ở hình dạng của chúng. Em sẽ làm quen với hai loại khối mới, rồi tự giải thích được chuyện trên bàn của Lan.
 
 ## Cùng khám phá
 
@@ -22,7 +22,7 @@ Em hãy cầm một lon sữa. Sờ vào hai đầu: đầu trên và đầu dư
 
 Bây giờ em cầm một quả bóng. Sờ khắp quả bóng: chỗ nào cũng cong, không có chỗ nào phẳng.
 
-Ta ghi lại những điều vừa thấy vào bảng:
+Ta ghi những điều vừa sờ thấy vào bảng để so sánh cho dễ:
 
 | | Lon sữa | Quả bóng |
 |---|---|---|
@@ -31,18 +31,18 @@ Ta ghi lại những điều vừa thấy vào bảng:
 | Đặt đứng, xếp chồng lên nhau | được | không vững |
 | Lăn | lăn theo một hướng | lăn theo mọi hướng |
 
-Lon sữa có dạng **khối trụ**. Quả bóng có dạng **khối cầu**.
+Bây giờ ta đặt tên cho hai hình dạng này. Lon sữa có dạng **khối trụ**. Quả bóng có dạng **khối cầu**.
 
 :::theorem Nhận biết khối trụ và khối cầu
 - **Khối trụ** có $2$ mặt phẳng hình tròn (gọi là hai đáy) và $1$ mặt cong xung quanh. Ví dụ: lon sữa, cái trống, hộp bánh tròn.
 - **Khối cầu** chỉ có mặt cong, không có mặt phẳng nào. Ví dụ: quả bóng, viên bi.
 :::
 
-Khối trụ xếp chồng được vì hai đáy của nó phẳng, đặt lên nhau không bị trượt. Khối cầu không có mặt phẳng nên dễ lăn đi.
+Giờ em đã giải thích được chuyện của Lan. Khối trụ xếp chồng được vì hai đáy của nó phẳng, đặt lên nhau không bị trượt. Khối cầu không có mặt phẳng nào để tựa vào, nên dễ lăn đi.
 
 ## Ví dụ
 
-Ta bắt đầu với việc nhận biết một đồ vật quen thuộc.
+Ta thử nhận ra hình dạng của một đồ vật quen thuộc trong lớp.
 
 :::example Cái trống
 Cái trống của lớp em là khối trụ hay khối cầu?
@@ -52,7 +52,7 @@ Cái trống của lớp em là khối trụ hay khối cầu?
 Vậy cái trống là khối trụ.
 :::
 
-Tiếp theo, em đếm các mặt của một khối trụ.
+Em đếm các mặt của một khối trụ, giống như lúc em sờ lon sữa.
 
 :::example Đếm mặt của lon sữa
 Một lon sữa có bao nhiêu mặt phẳng và bao nhiêu mặt cong?
@@ -62,7 +62,7 @@ Một lon sữa có bao nhiêu mặt phẳng và bao nhiêu mặt cong?
 Vậy lon sữa có $2$ mặt phẳng và $1$ mặt cong.
 :::
 
-Bây giờ ta phân loại nhiều đồ vật cùng lúc.
+Nhiều đồ vật lẫn vào nhau thì sao? Ta thử xếp chúng vào hai nhóm.
 
 :::example Phân loại đồ vật
 Trên bàn có: hộp bánh tròn, viên bi, cái cốc hình trụ, quả bóng đá, ống tre, quả bóng bàn. Có mấy khối trụ, mấy khối cầu?
@@ -77,7 +77,7 @@ Trên bàn có: hộp bánh tròn, viên bi, cái cốc hình trụ, quả bóng
 Vậy có $3$ khối trụ và $3$ khối cầu.
 :::
 
-Cuối cùng, em dùng hiểu biết này để chọn vật cho việc xếp tháp.
+Cuối cùng, ta dùng điều vừa học để giúp Nam chọn vật xếp tháp.
 
 :::example Xếp tháp
 Nam có $4$ lon sữa và $3$ quả bóng. Nam muốn xếp một cái tháp cao. Nam nên dùng loại nào? Vì sao?
@@ -90,9 +90,9 @@ Vậy Nam nên dùng $4$ lon sữa.
 :::
 
 :::warning Những lỗi em hay gặp
-- **Nghĩ quả bóng có mặt phẳng.** Sai: "Quả bóng có $1$ mặt phẳng". Vì sao sai: sờ khắp quả bóng chỗ nào cũng cong. Đúng: khối cầu có $0$ mặt phẳng.
-- **Quên khối trụ có mặt cong.** Sai: "Lon sữa chỉ có $2$ mặt phẳng". Vì sao sai: thân lon là mặt cong. Đúng: lon sữa có $2$ mặt phẳng và $1$ mặt cong.
-- **Nhầm hộp sữa hình hộp với khối trụ.** Sai: "Hộp sữa bốn góc vuông là khối trụ". Vì sao sai: khối trụ có hai đáy là hình tròn, không có góc. Đúng: chỉ vật có hai đáy tròn mới là khối trụ.
+- **Nghĩ quả bóng có mặt phẳng.** Sai: "Quả bóng có $1$ mặt phẳng". Vì sao sai: em sờ khắp quả bóng, chỗ nào cũng cong, không có chỗ nào phẳng. Đúng: khối cầu có $0$ mặt phẳng.
+- **Quên khối trụ có mặt cong.** Sai: "Lon sữa chỉ có $2$ mặt phẳng". Vì sao sai: sờ quanh thân lon, em thấy chỗ đó cong. Đúng: lon sữa có $2$ mặt phẳng và $1$ mặt cong.
+- **Nhầm hộp sữa hình hộp với khối trụ.** Sai: "Hộp sữa bốn góc vuông là khối trụ". Vì sao sai: hộp có góc, còn khối trụ có hai đáy là hình tròn, không có góc. Đúng: chỉ vật có hai đáy tròn mới là khối trụ.
 :::
 
 ## Thuật ngữ
@@ -113,10 +113,11 @@ Vậy Nam nên dùng $4$ lon sữa.
 - Khối cầu chỉ có $1$ mặt cong, không có mặt phẳng. Ví dụ: quả bóng, viên bi.
 - Khối trụ xếp chồng được vì có đáy phẳng; khối cầu dễ lăn nên không xếp chồng vững.
 - Muốn biết một vật là khối nào, em sờ xem vật có mặt phẳng không.
+Quay lại câu hỏi đầu bài: vì sao quả bóng và lon sữa khác nhau? Vì lon sữa có đáy phẳng còn quả bóng thì không. Lần sau cầm một đồ vật, em thử sờ xem nó có mặt phẳng không nhé, rồi làm phần luyện tập.
 
 ## Luyện tập
 
-Mỗi bài có phần kiến thức và gợi ý. Em hãy tự làm trước, rồi mới bấm xem lời giải.
+Mỗi bài có phần kiến thức cần nhớ và gợi ý cách bắt đầu. Em cứ tự làm trước. Làm chưa đúng cũng không sao, vì như thế em biết chỗ nào cần xem lại. Xong rồi hãy bấm xem lời giải.
 
 :::exercise
 Mỗi đồ vật có dạng khối trụ hay khối cầu?

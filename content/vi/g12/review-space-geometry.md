@@ -11,9 +11,9 @@ minutes: 40
 - Tính thể tích khối chóp, khối lăng trụ, kể cả trong bài toán thực tế.
 :::
 
-Hình học không gian lớp 11 vẫn có mặt trong đề thi tốt nghiệp. Ở Phần I (trắc nghiệm nhiều lựa chọn), thường có một đến hai câu hỏi về quan hệ vuông góc, góc hoặc thể tích. Ở Phần II hoặc Phần III, đề thường có một câu về khoảng cách, góc nhị diện hoặc thể tích trong tình huống thực tế. Tổng cộng chủ đề này thường chiếm khoảng $0{,}5$ đến $1$ điểm.
+Hình học không gian của lớp 11 vẫn chưa rời khỏi đề thi tốt nghiệp. Ở Phần I (trắc nghiệm nhiều lựa chọn), thường có một đến hai câu về quan hệ vuông góc, góc hoặc thể tích. Ở Phần II hoặc Phần III, đề thường có một câu về khoảng cách, góc nhị diện hoặc thể tích trong một tình huống thực tế. Cộng lại, chủ đề này thường đáng khoảng $0{,}5$ đến $1$ điểm, một phần điểm đáng để ôn cho kĩ.
 
-Bài ôn này đi qua bốn mảng: quan hệ vuông góc, góc, khoảng cách và thể tích. Mọi ví dụ được viết đúng như một câu trong đề thi. Hầu hết đều dùng chung một hình quen thuộc: hình chóp có cạnh bên vuông góc với đáy.
+Bài ôn đi qua bốn mảng: quan hệ vuông góc, góc, khoảng cách và thể tích. Cả bốn mảng cùng trả lời một câu hỏi: nhìn một hình trong không gian, làm sao tìm ra tam giác vuông cần dùng? Mọi ví dụ được viết đúng như một câu trong đề thi, và hầu hết dùng chung một hình quen thuộc: hình chóp có cạnh bên vuông góc với đáy.
 
 :::diagram Hình chóp $S.ABCD$ có $SA\perp(ABCD)$, đáy là hình vuông tâm $O$
 alt: Hình chóp S.ABCD vẽ theo phép chiếu song song, S ở ngay trên A, cạnh SA vuông góc với đáy; các đoạn khuất AD, AC, BD vẽ nét đứt, O là giao điểm của AC và BD
@@ -45,11 +45,11 @@ right S A B
 - **Song song:** nếu $d$ song song với một đường thẳng nằm trong $(P)$ và $d$ không nằm trong $(P)$ thì $d\parallel(P)$.
 :::
 
-Với hình chóp có $SA\perp(ABCD)$ và đáy là hình vuông, ta luôn có hai "cặp vuông góc" sau. Hãy nhớ cách suy ra chứ không học thuộc kết quả:
+Hình chóp có $SA\perp(ABCD)$ và đáy là hình vuông luôn cho ta hai "cặp vuông góc" dưới đây. Vì sao chúng đúng? Vì mỗi đường thẳng đều vuông góc với hai đường thẳng cắt nhau của mặt phẳng: một đường nằm trong đáy, đường kia là cạnh bên vuông góc với đáy. Bạn nên nhớ cách suy ra này hơn là học thuộc kết quả:
 
 $$BC\perp AB,\ BC\perp SA\ \Rightarrow\ BC\perp(SAB);\qquad BD\perp AC,\ BD\perp SA\ \Rightarrow\ BD\perp(SAC).$$
 
-Câu hỏi trắc nghiệm thường đưa ra bốn quan hệ và hỏi quan hệ nào đúng. Cách làm chắc chắn là tìm cho đường thẳng đó **hai** đường thẳng cắt nhau trong mặt phẳng mà nó vuông góc.
+Câu trắc nghiệm thường đưa ra bốn quan hệ và hỏi quan hệ nào đúng. Nhìn hình vẽ rất dễ bị đánh lừa, nên đừng đoán. Cách chắc chắn là tìm cho đường thẳng đó **hai** đường thẳng cắt nhau trong mặt phẳng mà nó vuông góc.
 
 :::example Trắc nghiệm: chọn quan hệ vuông góc đúng
 Cho hình chóp $S.ABCD$ có đáy $ABCD$ là hình vuông và $SA\perp(ABCD)$. Khẳng định nào sau đây đúng?
@@ -74,12 +74,12 @@ Vậy chọn **B**.
 ## Góc trong không gian
 
 :::note Cách xác định góc
-- **Góc giữa đường thẳng $d$ và mặt phẳng $(P)$:** là góc giữa $d$ và hình chiếu $d'$ của nó trên $(P)$. Với $SA\perp(ABCD)$, hình chiếu của $SC$ là $AC$, nên góc giữa $SC$ và $(ABCD)$ là $\widehat{SCA}$.
-- **Góc nhị diện $[S, BD, A]$:** lấy điểm $O$ trên cạnh $BD$, kẻ $OS\perp BD$ trong mặt $(SBD)$ và $OA\perp BD$ trong mặt $(ABD)$. Khi đó số đo góc nhị diện là $\widehat{SOA}$.
+- **Góc giữa đường thẳng $d$ và mặt phẳng $(P)$:** là góc giữa $d$ và hình chiếu $d'$ của nó trên $(P)$, tức là cái "bóng" của đường thẳng trên mặt phẳng. Với $SA\perp(ABCD)$, hình chiếu của $SC$ là $AC$, nên góc giữa $SC$ và $(ABCD)$ là $\widehat{SCA}$.
+- **Góc nhị diện $[S, BD, A]$:** lấy điểm $O$ trên cạnh $BD$, rồi trong mỗi mặt kẻ một đường vuông góc với cạnh: $OS\perp BD$ trong mặt $(SBD)$ và $OA\perp BD$ trong mặt $(ABD)$. Số đo góc nhị diện chính là $\widehat{SOA}$.
 - Góc giữa hai mặt phẳng cắt nhau là góc từ $0^\circ$ đến $90^\circ$; góc nhị diện có thể từ $0^\circ$ đến $180^\circ$.
 :::
 
-Để tính góc, ta đưa về một tam giác vuông rồi dùng $\tan$, $\sin$ hoặc $\cos$. Trong đề thi, câu Đúng/Sai về góc thường hỏi cả việc **xác định** góc và việc **tính** góc.
+Xác định được góc rồi thì phần còn lại quen thuộc: đưa góc đó về một tam giác vuông và dùng $\tan$, $\sin$ hoặc $\cos$. Câu Đúng/Sai trong đề thường hỏi cả hai việc, **xác định** góc và **tính** góc, nên ta cùng xem một câu như vậy.
 
 :::example Đúng/Sai: góc với mặt phẳng và góc nhị diện
 Cho hình chóp $S.ABCD$ có đáy là hình vuông cạnh $a$, tâm $O$, $SA\perp(ABCD)$ và $SA=a\sqrt2$.
@@ -112,9 +112,9 @@ Vậy đáp án là a) Đúng, b) Đúng, c) Sai, d) Đúng.
 :::
 
 :::warning Bẫy thường gặp về góc
-- **Lấy nhầm góc tại đỉnh $S$.** Góc giữa $SC$ và đáy là $\widehat{SCA}$ (đỉnh tại giao điểm của $SC$ với đáy), không phải $\widehat{CSA}$.
-- **Kẻ đường vuông góc sai chỗ.** Với góc nhị diện $[S, BC, A]$ khi đáy là hình vuông, chân đường vuông góc là $B$ (vì $BC\perp(SAB)$), góc là $\widehat{SBA}$; không phải trung điểm $BC$.
-- **Đoán góc là $60^\circ$ vì "trông giống".** Luôn tính $\tan$ trước; $\tan=2$ không cho góc đặc biệt.
+- **Lấy nhầm góc tại đỉnh $S$.** Chỗ này nhiều bạn hay nhầm: góc giữa $SC$ và đáy là $\widehat{SCA}$, có đỉnh tại giao điểm của $SC$ với đáy, chứ không phải $\widehat{CSA}$.
+- **Kẻ đường vuông góc sai chỗ.** Với góc nhị diện $[S, BC, A]$ khi đáy là hình vuông, chân đường vuông góc là $B$ (vì $BC\perp(SAB)$), và góc cần tìm là $\widehat{SBA}$. Đừng lấy trung điểm $BC$.
+- **Đoán góc là $60^\circ$ vì "trông giống".** Hình vẽ dễ đánh lừa mắt, nên hãy tính $\tan$ trước. Ở đây $\tan=2$, và giá trị này không cho một góc đặc biệt.
 :::
 
 ## Khoảng cách
@@ -126,7 +126,7 @@ $$\frac{1}{AH^2}=\frac{1}{SA^2}+\frac{1}{AK^2}.$$
 - **Hai đường thẳng chéo nhau $a$, $b$:** nếu $a\parallel(P)$ với $(P)\supset b$ thì $d(a, b)=d(a, (P))$.
 :::
 
-Với đáy là hình vuông hoặc hình chữ nhật, chân $K$ trùng $B$ vì $AB\perp BC$. Kĩ thuật đổi điểm giúp đưa khoảng cách từ một điểm "khó" ($D$, $C$, trung điểm...) về khoảng cách từ $A$.
+Khoảng cách từ một điểm "khó" ($D$, $C$, trung điểm...) thì không dễ tính thẳng. Kĩ thuật đổi điểm giúp ta đưa nó về khoảng cách từ $A$, là điểm dễ làm việc nhất. Còn chân $K$ thì dễ xác định: khi đáy là hình vuông hoặc hình chữ nhật, nó trùng $B$ vì $AB\perp BC$. Ví dụ dưới đây dùng đúng cách này.
 
 :::example Trả lời ngắn: khoảng cách đến một mặt bên
 Cho hình chóp $S.ABCD$ có đáy là hình vuông cạnh $3$, $SA\perp(ABCD)$ và $SA=4$. Tính khoảng cách từ điểm $D$ đến mặt phẳng $(SBC)$.
@@ -149,7 +149,7 @@ Vậy $d(D, (SBC))=2{,}4$. Trên phiếu trả lời ta ghi $2{,}4$.
 - Diện tích tam giác đều cạnh $a$: $\dfrac{a^2\sqrt3}{4}$.
 :::
 
-Trong khối chóp đều, chân đường cao là tâm của đáy. Vì vậy chiều cao thường tính bằng định lí Pythagore trong tam giác tạo bởi cạnh bên, đường cao và nửa đường chéo đáy.
+Khối chóp đều có một điểm rất tiện: chân đường cao rơi đúng tâm của đáy. Nhờ vậy cạnh bên, đường cao và nửa đường chéo đáy tạo thành một tam giác vuông, và ta tính chiều cao bằng định lí Pythagore. Ví dụ dưới đây là một chiếc lều như thế.
 
 :::example Trả lời ngắn: thể tích một chiếc lều
 Một chiếc lều cắm trại có dạng khối chóp tứ giác đều, đáy là hình vuông cạnh $6$ m, mỗi cạnh bên dài $5$ m. Tính thể tích không khí bên trong lều (đơn vị: m³, làm tròn kết quả đến hàng phần mười).
@@ -164,9 +164,9 @@ Vậy thể tích không khí trong lều khoảng $31{,}7$ m³ (ghi $31{,}7$).
 :::
 
 :::warning Bẫy thường gặp về khoảng cách và thể tích
-- **Quên hệ số $\dfrac13$** khi tính thể tích khối chóp, hoặc thêm $\dfrac13$ vào khối lăng trụ.
+- **Quên hệ số $\dfrac13$** khi tính thể tích khối chóp, hoặc lỡ thêm $\dfrac13$ vào khối lăng trụ.
 - **Nhầm cạnh bên với chiều cao.** Chỉ trong khối lăng trụ đứng thì cạnh bên mới là chiều cao.
-- **Lấy $AB$ hoặc $SB$ làm khoảng cách.** Khoảng cách từ $A$ đến $(SBC)$ là đường vuông góc $AH$, luôn ngắn hơn $AB$ và $SA$.
+- **Lấy $AB$ hoặc $SB$ làm khoảng cách.** Khoảng cách từ $A$ đến $(SBC)$ là đường vuông góc $AH$, và nó luôn ngắn hơn $AB$ và $SA$.
 :::
 
 ## Thuật ngữ
@@ -186,7 +186,7 @@ Vậy thể tích không khí trong lều khoảng $31{,}7$ m³ (ghi $31{,}7$).
 
 ## Bài tập
 
-Các bài được xếp từ dễ đến khó, mỗi bài ghi rõ dạng câu hỏi trong đề thi.
+Các bài xếp từ dễ đến khó, mỗi bài ghi rõ dạng câu hỏi trong đề thi. Bạn cứ vẽ hình trước rồi mới tính. Làm xong, thử hỏi: tam giác vuông cần dùng nằm ở đâu?
 
 :::exercise Trắc nghiệm
 Khối lăng trụ đứng $ABC.A'B'C'$ có đáy là tam giác vuông tại $A$, $AB=3$, $AC=4$ và $AA'=5$. Thể tích của khối lăng trụ là

@@ -10,11 +10,11 @@ minutes: 20
 - Use probability to judge whether a game is fair and to solve real-life problems.
 :::
 
-Suppose that in a board game you may "bring out a piece" when you roll two dice and get at least one six. Nam argues: "Each dice has a $\dfrac16$ chance of a six, so two dice give $\dfrac16+\dfrac16=\dfrac13$." It sounds reasonable. But by the same argument, six dice would give $1$, meaning a six is *certain*, whereas six dice can still all miss the six. So where did Nam go wrong, and what is the correct probability? This lesson gives a reliable tool: list the sample space and count.
+In a board game you may "bring out a piece" when you roll two dice and get at least one six. Nam argues: "Each dice has a $\dfrac16$ chance of a six, so two dice give $\dfrac16+\dfrac16=\dfrac13$." It sounds reasonable. But by the same argument, six dice would give $1$, which would mean a six is *certain*. Yet six dice can still all miss the six. So where did Nam go wrong, and what is the correct probability? To find out, we need a method we can trust: list the sample space and count. That is what this lesson is about.
 
 ## Events and favourable outcomes
 
-In the lesson on [sample spaces](lesson:random-experiments-sample-space), we listed all the possible outcomes. Now we look at *events* connected with an experiment, such as "the total score is 7".
+In the lesson on [sample spaces](lesson:random-experiments-sample-space), we listed all the possible outcomes of an experiment. But what we care about is often an *event*, such as "the total score is 7". Which outcomes make that event happen?
 
 :::definition Events and favourable outcomes
 - An **event** connected with an experiment is something that happens or does not happen depending on the outcome of the experiment.
@@ -35,7 +35,7 @@ So $A$ has $2$ and $B$ has $3$ favourable outcomes.
 
 ## Finding the probability of an event
 
-When two fair coins are tossed, there is no reason for one outcome to happen more easily than another: the four outcomes are **equally likely**, each with a $\dfrac14$ share of the chances. The event $A$ above takes $2$ of these $4$ shares, so the probability of $A$ is $\dfrac24=\dfrac12$.
+Toss two fair coins. There is no reason for one outcome to happen more easily than another, so the four outcomes are **equally likely**. Each has a $\dfrac14$ share of the chances. The event $A$ above takes $2$ of these $4$ shares. So the probability of $A$ is $\dfrac24=\dfrac12$.
 
 :::theorem Formula for probability
 Suppose the possible outcomes of an experiment are equally likely. Then the probability of an event $A$ is
@@ -43,7 +43,7 @@ $$P(A)=\frac{k}{n},$$
 where $n$ is the number of elements of the sample space and $k$ is the number of outcomes favourable to $A$.
 :::
 
-**Going deeper.** Since $0\leq k\leq n$, we have $0\leq P(A)\leq1$: an **impossible event** (no favourable outcome) has probability $0$, and a **certain event** (every outcome favourable) has probability $1$. The formula works only when the outcomes are *equally likely*. If we record "the number of heads" when tossing two coins, there are three results $0$, $1$, $2$, but they are not equally likely ($1$ head corresponds to the two outcomes $(T, H)$ and $(H, T)$), so the probability of "1 head" is not $\dfrac13$ but $\dfrac24=\dfrac12$. That is why we always describe outcomes "in enough detail", such as ordered pairs.
+**Going deeper.** Since $0\leq k\leq n$, we have $0\leq P(A)\leq1$. An **impossible event** (no favourable outcome) has probability $0$, and a **certain event** (every outcome favourable) has probability $1$. The formula works only when the outcomes are *equally likely*, and this is where many students slip. Suppose we record "the number of heads" when tossing two coins. There are three results $0$, $1$, $2$. But they are not equally likely, because $1$ head corresponds to the two outcomes $(T, H)$ and $(H, T)$. So the probability of "1 head" is not $\dfrac13$ but $\dfrac24=\dfrac12$. That is why we always describe outcomes "in enough detail", such as ordered pairs.
 
 :::example Total 7 or total 8?
 Roll two fair dice. Find the probabilities of the events $A$: "The total score is $7$" and $B$: "The total score is $8$". Which event has the higher probability?
@@ -96,11 +96,11 @@ point: (6, 5)
 point: (6, 6) "(6, 6)" above-right
 :::
 
-In the picture, the $x$-axis shows the score on the first dice and the $y$-axis the score on the second. The shaded row and column overlap exactly at $(6, 6)$: that is where Nam counted twice.
+Look at the picture. The $x$-axis shows the score on the first dice and the $y$-axis the score on the second. The shaded row and column overlap exactly at $(6, 6)$. That is where Nam counted twice.
 
 ## Applications
 
-The formula $P(A)=\dfrac kn$ works for any situation of random choice: drawing lots, drawing tickets, choosing people.
+The formula $P(A)=\dfrac kn$ is not only for dice and coins. It works for any situation of random choice: drawing lots, drawing tickets, choosing people. The next example is a prize draw.
 
 :::example A prize draw
 Suppose a shop has a box of $5$ identical tickets, $2$ of which win a prize. Each customer draws $2$ tickets at random at the same time. Find the probability that a customer wins at least one prize.
@@ -117,11 +117,11 @@ So the probability that a customer wins at least one prize is $\dfrac{7}{10}$.
 :::
 
 :::warning Common mistakes
-- **Using a sample space whose outcomes are not equally likely.** Wrong: when tossing two coins, $P(\text{1 head})=\dfrac13$. Right: $\dfrac24=\dfrac12$.
+- **Using a sample space whose outcomes are not equally likely.** Wrong: when tossing two coins, $P(\text{1 head})=\dfrac13$. Why it is wrong: the "number of heads" results are not equally likely. Right: $\dfrac24=\dfrac12$.
 - **Double counting** (as Nam did at the start). Wrong: $P(\text{at least one six})=\dfrac{12}{36}$. Right: $(6, 6)$ is counted once, giving $\dfrac{11}{36}$.
 :::
 
-**Connections.** In year 8 you saw that when an experiment is repeated many times, the relative frequency of an event gets close to its probability. This lesson shows how to find a probability *before* experimenting. In year 10, permutations, arrangements and combinations let us find probabilities when the sample space is too large to list.
+**Connections.** In year 8 you saw that when an experiment is repeated many times, the relative frequency of an event gets close to its probability. This lesson shows how to find a probability *before* experimenting. In year 10, permutations, arrangements and combinations will let us find probabilities when the sample space is too large to list.
 
 ## Key terms
 
@@ -141,10 +141,11 @@ So the probability that a customer wins at least one prize is $\dfrac{7}{10}$.
 - Equally likely outcomes: $P(A)=\dfrac kn$ ($k$ favourable outcomes, $n$ elements in $\Omega$); $0\leq P(A)\leq1$.
 - Describe outcomes in enough detail (ordered pairs, naming identical objects) so that they are equally likely.
 - For "at least one", count the unfavourable outcomes and subtract from $n$.
+Back to the opening question: Nam went wrong by counting one outcome twice. Listing the outcomes and counting them with care is how we avoid that trap. Try making a table of outcomes as you work through the practice problems.
 
 ## Practice
 
-Each exercise comes with what you need and hints. Try it yourself first, then open the solution.
+Each exercise starts with what you need to know, and gives a few steps to get going. Try it yourself first. If you get stuck, use the steps, and open the solution last to compare. A wrong attempt is not wasted: it often shows what to practise.
 
 :::exercise
 Roll a fair dice. Find the probabilities of the events:

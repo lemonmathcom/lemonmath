@@ -12,14 +12,14 @@ minutes: 50
 - Find the radius and interval of convergence of a power series, including the endpoints.
 :::
 
-Unit 10 is the largest BC-only unit, roughly a sixth of the BC score, and almost every BC exam has a free-response question on it: build a Taylor polynomial, bound the error, find an interval of convergence. The points go to students who name the test they use and check its conditions in writing. "It converges by the ratio test" with the limit shown earns credit; "it converges" alone does not.
+If you keep adding smaller and smaller numbers without end, does the total settle on a single value? That odd-sounding question is Unit 10. It is the largest BC-only unit, roughly a sixth of the BC score, and almost every BC exam has a free-response question on it: build a Taylor polynomial, bound the error, find an interval of convergence. The points go to students who name the test they use and check its conditions in writing. "It converges by the ratio test" with the limit shown earns credit; "it converges" alone does not.
 
 ## Convergence: the basic toolkit
 
 :::note Series you must recognize
-- **Geometric:** $\displaystyle\sum_{n=0}^\infty ar^n$ converges to $\dfrac{a}{1-r}$ when $|r|<1$, and diverges when $|r|\ge1$.
-- **$p$-series:** $\displaystyle\sum_{n=1}^\infty\frac{1}{n^p}$ converges when $p>1$ and diverges when $p\le1$. The **harmonic series** ($p=1$) diverges.
-- **$n$th term test:** if $\displaystyle\lim_{n\to\infty}a_n\ne0$, the series diverges. If the limit is $0$, this test says nothing.
+- **Geometric:** $\displaystyle\sum_{n=0}^\infty ar^n$ converges to $\dfrac{a}{1-r}$ when $|r|<1$, and diverges when $|r|\ge1$. The terms must shrink fast enough for the total to settle.
+- **$p$-series:** $\displaystyle\sum_{n=1}^\infty\frac{1}{n^p}$ converges when $p>1$ and diverges when $p\le1$. The **harmonic series** ($p=1$) diverges, even though its terms get smaller.
+- **$n$th term test:** if $\displaystyle\lim_{n\to\infty}a_n\ne0$, the series diverges. If the limit is $0$, this test says nothing: the series may or may not converge.
 :::
 
 :::example A geometric sum
@@ -40,12 +40,12 @@ D. $\displaystyle\sum_{n=1}^\infty\left(\frac54\right)^n$
 
 ## More tests, and absolute versus conditional
 
-- **Integral test:** if $f$ is positive, continuous and decreasing with $f(n)=a_n$, then $\displaystyle\sum a_n$ and $\displaystyle\int_1^\infty f(x)\,dx$ both converge or both diverge.
-- **Comparison and limit comparison:** compare with a geometric or $p$-series whose behavior you know.
+- **Integral test:** if $f$ is positive, continuous and decreasing with $f(n)=a_n$, then $\displaystyle\sum a_n$ and $\displaystyle\int_1^\infty f(x)\,dx$ both converge or both diverge. The series and the area under the graph go together.
+- **Comparison and limit comparison:** set your series beside a geometric or $p$-series whose behaviour you know, and see whether yours behaves like it.
 - **Ratio test:** if $\displaystyle\lim_{n\to\infty}\left|\frac{a_{n+1}}{a_n}\right|=L$, the series converges absolutely when $L<1$ and diverges when $L>1$; $L=1$ gives no conclusion.
-- **Alternating series test:** $\displaystyle\sum(-1)^nb_n$ with $b_n>0$ decreasing and $b_n\to0$ converges.
+- **Alternating series test:** $\displaystyle\sum(-1)^nb_n$ with $b_n>0$ decreasing and $b_n\to0$ converges. The terms keep changing sign and keep shrinking, so the total cannot run away.
 
-A series **converges absolutely** if $\displaystyle\sum|a_n|$ converges; it **converges conditionally** if it converges but $\displaystyle\sum|a_n|$ diverges.
+Some series converge because their terms cancel by changing sign; others converge even after the signs are dropped. The two cases are different, so we give them separate names. A series **converges absolutely** if $\displaystyle\sum|a_n|$ converges; it **converges conditionally** if it converges but $\displaystyle\sum|a_n|$ diverges.
 
 :::example The ratio test
 Show that $\displaystyle\sum_{n=1}^\infty\frac{n^2}{3^n}$ converges.
@@ -61,7 +61,7 @@ Classify $\displaystyle\sum_{n=1}^\infty\frac{(-1)^{n+1}}{n}$ and $\displaystyle
 
 ## Taylor polynomials and error bounds
 
-The Taylor polynomial of degree $n$ for $f$ about $x=a$ is
+The idea of a Taylor polynomial is to replace a complicated function by a polynomial, choosing the coefficients so that both have the same value and the same derivatives at one point. The Taylor polynomial of degree $n$ for $f$ about $x=a$ is
 $$P_n(x)=f(a)+f'(a)(x-a)+\frac{f''(a)}{2!}(x-a)^2+\dots+\frac{f^{(n)}(a)}{n!}(x-a)^n.$$
 
 :::note Maclaurin series to know by heart
@@ -90,7 +90,7 @@ Approximate $\cos0.5$ with $1-\dfrac{x^2}{2}$ and bound the error.
 
 ## Power series and intervals of convergence
 
-A power series $\displaystyle\sum c_n(x-a)^n$ converges on an interval centered at $a$. Use the ratio test to find the radius, then **test each endpoint separately**: the ratio test gives no information there.
+A power series $\displaystyle\sum c_n(x-a)^n$ is like a polynomial that never ends, and it does not converge for every value of the variable. The question is where. The answer is an interval centred at $a$. We use the ratio test to find the radius, then **test each endpoint separately**, because there the ratio test gives no information.
 
 :::example An interval with one endpoint
 Find the interval of convergence of $\displaystyle\sum_{n=1}^\infty\frac{(x-2)^n}{n\cdot3^n}$.
@@ -101,10 +101,10 @@ At $x=5$: $\displaystyle\sum\frac1n$, the harmonic series, diverges. At $x=-1$: 
 :::
 
 :::warning Common traps
-- **Using the $n$th term test to prove convergence.** $a_n\to0$ alone proves nothing: the harmonic series is the counterexample.
-- **Skipping the endpoints**, or testing them with the ratio test.
-- **Forgetting the factorials** in a Taylor polynomial.
-- **Not naming the test.** Write the test, check its conditions, state the conclusion.
+- **Using the $n$th term test to prove convergence.** It can only prove divergence. $a_n\to0$ alone proves nothing: the harmonic series is the counterexample.
+- **Skipping the endpoints**, or testing them with the ratio test. Many students lose marks here: each endpoint needs its own test, and it is not the ratio test.
+- **Forgetting the factorials** in a Taylor polynomial. Every coefficient is divided by its factorial.
+- **Not naming the test.** Write the test, check its conditions, then state the conclusion, in that order.
 - **Mixing up the two error bounds.** The alternating bound needs an alternating series with decreasing terms; Lagrange needs a bound $M$ on the next derivative.
 :::
 

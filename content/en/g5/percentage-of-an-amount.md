@@ -12,16 +12,16 @@ minutes: 15
 
 The school library has $200$ books. The librarian says that $35\%$ of the books are comics. How many comics does the library have?
 
-You already know that $35\%$ means $35$ parts out of $100$ equal parts. This lesson shows you how to find the number of books.
+You already know that $35\%$ means $35$ parts out of $100$ equal parts. But that gives only the share, not the number of books. We need to know how many books one part stands for. Once you can do that, you can also work out what you pay in a sale.
 
 ## Let's explore
 
-Think of all $200$ books as $100\%$ and split them into $100$ equal parts.
+Let us break it into small pieces. Think of all $200$ books as $100\%$ and split them into $100$ equal parts. How many books does one part hold?
 
-- One part is $1\%$: $200\div100=2$ (books).
-- $35\%$ is $35$ such parts: $2\times35=70$ (books).
+- Share the books out evenly and each part is $1\%$: $200\div100=2$ (books).
+- $35\%$ is made of $35$ such parts, so we multiply the books in one part by the number of parts: $2\times35=70$ (books).
 
-So $35\%$ of $200$ is $70$. The library has $70$ comics.
+So $35\%$ of $200$ is $70$. The library has $70$ comics, and our opening question has its answer.
 
 :::graph On the number line: $200$ books are $100\%$ and $70$ books are $35\%$
 alt: A number line from 0 to 200 with the points 0, 70 and 200 marked, matching 0%, 35% and 100%
@@ -42,11 +42,11 @@ To find $a\%$ of an amount $B$, use one of two methods:
 2. Multiply $B$ by $a$, then divide by $100$: $B\times a\div100$.
 :::
 
-Both methods work because $1\%$ of $B$ is $B\div100$, and $a\%$ is $a$ such parts. Multiplying by $a$ first or dividing by $100$ first gives the same result. Choose the method that makes the calculation easier.
+Why do both methods work? Because $1\%$ of $B$ is $B\div100$, and $a\%$ is made of $a$ such parts. Multiplying by $a$ first or dividing by $100$ first gives the same result. Choose whichever makes the calculation easier. The next examples show when each one is handy.
 
 ## Examples
 
-We start with $250$, because dividing it by $100$ gives a tidy decimal.
+Let us try $250$. Dividing it by $100$ gives a tidy decimal, so dividing first is comfortable here.
 
 :::example Work out $40\%$ of $250$
 **Solution.** Use method 1: divide $250$ by $100$ to find $1\%$, then multiply by $40$:
@@ -54,7 +54,7 @@ $$250\div100\times40=2.5\times40=100.$$
 So $40\%$ of $250$ is $100$.
 :::
 
-With $360$, it is better to multiply first and avoid decimals.
+The number $360$ is different. If we divide first, the answer has a decimal part and the multiplication that follows is clumsier. So here we multiply first.
 
 :::example Work out $15\%$ of $360$
 **Solution.** Use method 2: multiply $360$ by $15$, then divide by $100$ (remove two zeros at the end):
@@ -62,7 +62,7 @@ $$360\times15\div100=5\,400\div100=54.$$
 So $15\%$ of $360$ is $54$.
 :::
 
-Some percentages are so familiar that you can do them in your head.
+Some percentages are so familiar that you do not need every step: you can work them out in your head. Why is that? The example below shows.
 
 :::example Work out $50\%$ of $86$ and $25\%$ of $120$ in your head
 **Solution.** We have $50\%=\dfrac{50}{100}=\dfrac12$ and $25\%=\dfrac{25}{100}=\dfrac14$. Finding a half means dividing by $2$, and finding a quarter means dividing by $4$:
@@ -72,7 +72,7 @@ So $50\%$ of $86$ is $43$ and $25\%$ of $120$ is $30$.
 **Check.** $120\times25\div100=3\,000\div100=30$. Correct.
 :::
 
-Now use the method to solve a discount problem.
+Percentages turn up on sale signs. Once you can find a percentage of an amount, you can work out what you will pay.
 
 :::example A discount on a school bag
 A school bag costs $250\,000$ dong. The shop gives a $20\%$ discount. How much do you pay?
@@ -85,10 +85,12 @@ So you pay $200\,000$ dong.
 :::
 
 :::warning Mistakes to watch out for
-- **Forgetting to divide by $100$.** Wrong: $20\%$ of $150$ is $150\times20=3\,000$. Why it is wrong: $3\,000$ is far bigger than $150$, but a part of $150$ cannot be bigger than $150$. Right: $150\times20\div100=30$.
-- **Dividing by the percentage.** Wrong: $20\%$ of $150$ is $150\div20=7.5$. Why it is wrong: the whole amount is $100\%$, so you divide by $100$, not by $20$. Right: $150\div100\times20=30$.
+- **Forgetting to divide by $100$.** Wrong: $20\%$ of $150$ is $150\times20=3\,000$. Why it is wrong: $3\,000$ is far bigger than $150$, yet a part of $150$ cannot be bigger than $150$. Right: $150\times20\div100=30$.
+- **Dividing by the percentage.** Wrong: $20\%$ of $150$ is $150\div20=7.5$. Why it is wrong: the whole amount is $100\%$, so we divide by $100$, not by $20$. Right: $150\div100\times20=30$.
 - **Writing $\%$ in the answer.** Wrong: "$20\%$ of $150$ is $30\%$". Why it is wrong: the result is a number of books, a sum of money and so on, not a percentage. Right: $30$ (with its unit).
-- **Forgetting to subtract in a discount problem.** Wrong: the price to pay is $50\,000$ dong. Why it is wrong: $50\,000$ dong is the discount. Right: $250\,000-50\,000=200\,000$ dong.
+- **Forgetting to subtract in a discount problem.** Wrong: the price to pay is $50\,000$ dong. Why it is wrong: $50\,000$ dong is only the discount. Right: $250\,000-50\,000=200\,000$ dong.
+
+Many people slip here, so when you finish, ask yourself: does this answer make sense?
 :::
 
 ## Key terms
@@ -112,9 +114,11 @@ So you pay $200\,000$ dong.
 - Discount problems: the discount is a percentage of the original price; the amount to pay is the original price minus the discount.
 - The result is a number with a unit, so do not write $\%$ in it.
 
+Back to the question at the start: to find how many comics the library has, we find one part first and then take that many parts. Keep practising and both methods will soon feel natural.
+
 ## Practice
 
-Each exercise comes with what you need and how to start. Try it yourself first, then open the solution.
+Each exercise comes with what you need to remember and a hint to get you started. Try it yourself first, look at the hint if you are stuck, and open the solution last. A mistake along the way is fine: the method is what we are practising.
 
 :::exercise
 Work out $20\%$ of $350$.

@@ -5,7 +5,7 @@ minutes: 100
 type: test
 ---
 
-Đây là trọn phần trắc nghiệm theo cấu trúc đề AP Calculus AB từ tháng 5/2027. Mọi câu hỏi đều do Lemonmath soạn; đây không phải câu hỏi AP thật, nhưng bám theo các unit và kiểu câu chính thức. Phần trắc nghiệm chiếm một nửa điểm AP; với nửa còn lại, hãy luyện các câu tự luận đã công bố cùng bài [Các dạng câu tự luận AP Calculus và cách trình bày](lesson:apcalc-frq-strategies).
+Trước khi vào phòng thi thật, bạn nên biết mình đang đứng ở đâu. Đây là trọn phần trắc nghiệm theo cấu trúc đề AP Calculus AB từ tháng 5/2027, để bạn làm thử trong điều kiện gần giống thật. Mọi câu hỏi đều do Lemonmath soạn: đây không phải câu hỏi AP thật, nhưng bám theo các unit và kiểu câu chính thức. Phần trắc nghiệm chiếm một nửa điểm AP. Với nửa còn lại, hãy luyện các câu tự luận đã công bố cùng bài [Các dạng câu tự luận AP Calculus và cách trình bày](lesson:apcalc-frq-strategies).
 
 ## Cách làm đề
 
@@ -19,6 +19,7 @@ type: test
 2. Sau đó làm Part B trong 38 phút với máy tính vẽ đồ thị, để ở chế độ radian.
 3. Đáp số ở Part B cho đến ba chữ số thập phân, như trong đề thật.
 4. Làm xong, đọc lời giải của mọi câu sai và chép vào sổ lỗi sai.
+Đừng lo nếu lần đầu điểm chưa như ý. Đề luyện sinh ra để tìm ra chỗ còn yếu.
 
 ## Part A: không dùng máy tính
 
@@ -408,7 +409,7 @@ $v(1{,}5)\approx0{,}179>0$ và $a(1{,}5)=\dfrac{3}{3{,}25}\approx0{,}923>0$: cù
 
 ## Sau khi làm đề
 
-Part A tính trên 29 câu và Part B trên 13 câu. Bảng dưới cho biết mỗi câu sai cần ôn lại bài nào. Tạm tính, đúng từ 30 câu trở lên trên 42 câu cho thấy phần trắc nghiệm của bạn đã vững; dưới 20 câu, hãy quay lại các bài học trước khi làm đề mới.
+Làm xong rồi, việc quan trọng nhất là xem mình sai ở đâu. Part A tính trên 29 câu và Part B trên 13 câu. Bảng dưới cho biết mỗi câu sai cần ôn lại bài nào. Tạm tính, đúng từ 30 câu trở lên trên 42 câu cho thấy phần trắc nghiệm của bạn đã vững; dưới 20 câu, hãy quay lại các bài học trước khi làm đề mới.
 
 | Câu | Bài cần ôn |
 |---|---|
@@ -455,4 +456,4 @@ Part A tính trên 29 câu và Part B trên 13 câu. Bảng dưới cho biết m
 | 41 | [Đạo hàm trong ngữ cảnh, chuyển động và tốc độ liên quan](lesson:apcalc-contextual-applications) |
 | 42 | [Đạo hàm trong ngữ cảnh, chuyển động và tốc độ liên quan](lesson:apcalc-contextual-applications) |
 
-Ôn lại bằng các cách trong bài [Ôn thi theo khoa học](lesson:evidence-based-revision) trước khi làm đề đầy đủ tiếp theo.
+Mỗi câu sai là một chỗ ta đã biết cần sửa. Trước khi làm đề đầy đủ tiếp theo, hãy ôn lại bằng các cách trong bài [Ôn thi theo khoa học](lesson:evidence-based-revision), rồi quay lại làm đề khi đã vững hơn.

@@ -12,19 +12,19 @@ minutes: 15
 
 Lan has some stickers in a box. Her mum gives her $7$ more, and now Lan has $15$ stickers. How many stickers were in the box at the start?
 
-We do not know the starting number, so we write $\square+7=15$. This lesson shows you how to find the number in the box for sure, without guessing.
+We do not know the starting number, so we leave a box empty and write $\square+7=15$. You could guess, but guessing is easy to get wrong. There is a way to find the number in the box for sure, without guessing. Let us find it together.
 
 ## Let's explore
 
-Remember the last lesson: in the addition $8+7=15$, the numbers $8$ and $7$ are called **addends** and $15$ is called the **sum**.
+Do you remember the last lesson? In the addition $8+7=15$, the numbers $8$ and $7$ are called **addends** and $15$ is called the **sum**.
 
-Look again at Lan's story:
+Let us look again at Lan's story, part by part:
 
-- The box holds $15$ stickers after the new ones are added.
+- The box holds $15$ stickers after Mum gives the new ones.
 - Mum gave $7$ stickers.
 - The stickers Lan had at the start are the rest, so we take $7$ away from $15$.
 
-So $15-7=8$. Lan had $8$ stickers at the start.
+So $15-7=8$. Lan had $8$ stickers at the start. The number line below shows the same thing.
 
 :::graph On the number line: going from 7 to 15 is 8 steps
 alt: A number line from 0 to 15 with the points 0, 7 and 15 marked and a question mark on the stretch from 7 to 15
@@ -37,7 +37,7 @@ point: (15, 0) "15" below
 label: (11, 0.5) "?"
 :::
 
-You see: if we know the sum and one addend, we subtract to find the other addend.
+Notice this: if we know the sum and one addend, we subtract to find the other addend. We can keep it as a rule:
 
 :::theorem Finding a missing addend
 The missing addend is the sum minus the known addend.
@@ -45,9 +45,9 @@ The missing addend is the sum minus the known addend.
 If $\square+7=15$, then $\square=15-7=8$.
 :::
 
-Now look at subtraction. In $15-7=8$, the number $15$ is the **minuend**, $7$ is the **subtrahend** and $8$ is the **difference**.
+Subtraction has its own names too. In $15-7=8$, the number $15$ is the **minuend**, $7$ is the **subtrahend** and $8$ is the **difference**.
 
-Think of the story: there are $15$ stickers, we take away $7$, and $8$ are left. If we know $8$ are left and $7$ were taken away, then at the start there were $8+7=15$. If we know there were $15$ and $8$ are left, then $15-8=7$ were taken away.
+Think of the story: there are $15$ stickers, we take away $7$, and $8$ are left. If we only know that $8$ are left and $7$ were taken away, then at the start there must have been $8+7=15$. If we only know there were $15$ and $8$ are left, then $15-8=7$ were taken away. That gives us two more rules:
 
 :::theorem Finding a missing minuend or subtrahend
 The minuend is the difference plus the subtrahend.
@@ -57,11 +57,11 @@ The subtrahend is the minuend minus the difference.
 If $\square-7=8$, then $\square=8+7=15$. If $15-\square=8$, then $\square=15-8=7$.
 :::
 
-This works because addition and subtraction undo each other: add a number and then subtract it, and you are back where you started.
+Why do these rules work? Because addition and subtraction undo each other: add a number and then subtract it, and you are back where you started. That is why we call this the inverse operation.
 
 ## Examples
 
-We start with the missing addend in the first place.
+First, the missing addend in the first place.
 
 :::example Find $\square$ when $\square+6=14$
 **Solution.** $\square$ is an addend, so we subtract the known addend from the sum:
@@ -71,7 +71,7 @@ $$\square=14-6=8.$$
 So $\square=8$.
 :::
 
-The missing addend can also be in the second place. The method is the same.
+The missing addend can also be in the second place. Don't worry: the method does not change.
 
 :::example Find $\square$ when $9+\square=17$
 **Solution.** Subtract the known addend, $9$, from the sum:
@@ -81,7 +81,7 @@ $$\square=17-9=8.$$
 So $\square=8$.
 :::
 
-Now we find a missing minuend.
+Now a missing minuend. Remember, this time we add.
 
 :::example Find $\square$ when $\square-5=12$
 **Solution.** $\square$ is the minuend, so we add the subtrahend to the difference:
@@ -91,7 +91,7 @@ $$\square=12+5=17.$$
 So $\square=17$.
 :::
 
-Next, a missing subtrahend.
+And what about a missing subtrahend? Here is an example.
 
 :::example Find $\square$ when $20-\square=13$
 **Solution.** $\square$ is the subtrahend, so we subtract the difference from the minuend:
@@ -101,7 +101,7 @@ $$\square=20-13=7.$$
 So $\square=7$.
 :::
 
-Finally, use this method for a problem from everyday life.
+Finally, we use the method on a word problem, just like Lan's story at the start.
 
 :::example Marbles
 Binh has some marbles. Nam gives him $12$ more, and now Binh has $30$ marbles. How many marbles did Binh have at the start?
@@ -117,6 +117,7 @@ So Binh had $18$ marbles at the start.
 - **Adding instead of subtracting in an addition.** Wrong: $\square+6=14$ so $\square=14+6=20$. Why it is wrong: $20+6=26$, not $14$. Right: $\square=14-6=8$.
 - **Subtracting instead of adding for a minuend.** Wrong: $\square-5=12$ so $\square=12-5=7$. Why it is wrong: $7-5=2$, not $12$. Right: $\square=12+5=17$.
 - **Mixing up the subtrahend.** Wrong: $20-\square=13$ so $\square=20+13=33$. Why it is wrong: $20-33$ cannot be done here. Right: $\square=20-13=7$.
+Many people slip up in these places. Put your answer back in the box and you will spot a slip straight away.
 :::
 
 ## Key terms
@@ -139,10 +140,11 @@ So Binh had $18$ marbles at the start.
 - Missing minuend = difference + subtrahend.
 - Missing subtrahend = minuend − difference.
 - Always check by putting your answer in the box; write the unit in word problems.
+For Lan's stickers at the start, we take the number Mum gave away from the sum, and there is no guessing left. Remember to check, and a few practice questions will make it feel natural.
 
 ## Practice
 
-Each exercise comes with what you need and how to start. Try it yourself first, then open the solution.
+Every exercise gives you the idea you need and a hint for getting started. Have a go on your own first. If you get stuck, read the hint, and only then open the solution to compare.
 
 :::exercise
 Find $\square$ when $\square+8=15$.

@@ -12,11 +12,11 @@ minutes: 45
 - Model periodic situations with $y=a\sin\big(b(x-c)\big)+d$.
 :::
 
-Topic 3 mixes two kinds of questions. Paper 1 tests exact work: exact trigonometric values, identities and equations solved in an interval, with answers in terms of $\pi$. Paper 2 tests modeling: triangles in real contexts, bearings, heights, and periodic functions such as tides or a Ferris wheel. In both, a quick sketch is the first step that strong candidates never skip.
+Topic 3 has two faces. Paper 1 asks for exact work: exact trigonometric values, identities and equations solved in an interval, with answers in terms of $\pi$. Paper 2 asks you to model: triangles in real contexts, bearings, heights, and periodic functions such as tides or a Ferris wheel. How do you prepare for both? Start with one habit: a quick sketch before you write anything else. Strong candidates rarely skip it.
 
 ## Solids: volume and surface area
 
-The formula booklet gives the volume and surface area of a pyramid, a cone and a sphere. The usual difficulty is a missing length, found with Pythagoras in a right triangle inside the solid.
+The formula booklet already gives the volume and surface area of a pyramid, a cone and a sphere. So the hard part is usually a missing length. Look for a right triangle hidden inside the solid, then use Pythagoras to find that length. The example below does exactly this with a cone.
 
 :::example A cone
 A cone has base radius $6$ cm and slant height $10$ cm. Find, in terms of $\pi$:
@@ -31,7 +31,7 @@ A cone has base radius $6$ cm and slant height $10$ cm. Find, in terms of $\pi$:
 ## Triangles: sine rule, cosine rule, area
 
 $$\frac{a}{\sin A}=\frac{b}{\sin B}=\frac{c}{\sin C},\qquad c^2=a^2+b^2-2ab\cos C,\qquad\text{Area}=\frac12ab\sin C.$$
-Use the cosine rule when you know two sides and the angle between them (or all three sides); use the sine rule when you know a side and its opposite angle.
+When you meet a triangle, ask first: what do I know? If you know two sides and the angle between them (or all three sides), use the cosine rule. If you know a side and the angle opposite it, use the sine rule. The reason is simple: the sine rule needs a side and its opposite angle to compare, and the cosine rule does not.
 
 :::example Cosine rule and area, exactly
 In triangle $ABC$, $AB=7$, $AC=9$ and $\hat A=60^\circ$.
@@ -51,7 +51,7 @@ In triangle $ABC$, $a=8$, $b=10$ and $\hat A=40^\circ$. Find the two possible va
 
 ## Radians, arcs and sectors
 
-$\pi$ radians $=180^\circ$. For a sector with radius $r$ and angle $\theta$ in radians: arc length $l=r\theta$ and area $A=\dfrac12r^2\theta$.
+You already know degrees, but arc length and sector area are tidier in radians. The two are linked by one line: $\pi$ radians $=180^\circ$. For a sector with radius $r$ and angle $\theta$ in radians, the arc length is $l=r\theta$ and the area is $A=\dfrac12r^2\theta$.
 
 :::example A sector
 A sector has radius $5$ cm and angle $1.2$ radians. Find its arc length, area and perimeter. [4 marks]
@@ -84,7 +84,7 @@ All four solutions: $0$, $\dfrac{2\pi}{3}$, $\dfrac{4\pi}{3}$, $2\pi$. Check the
 
 ## Trigonometric models
 
-For $y=a\sin\big(b(x-c)\big)+d$ (or with cosine): the **amplitude** is $|a|$, the **period** is $\dfrac{2\pi}{b}$, the **principal axis** is $y=d$, the maximum is $d+|a|$ and the minimum is $d-|a|$.
+A Ferris wheel or the tides repeat again and again, and we describe them with $y=a\sin\big(b(x-c)\big)+d$ (or with cosine). Each letter in the formula tells you one thing about the graph. The **amplitude** is $|a|$: how far the graph swings from the middle. The **period** is $\dfrac{2\pi}{b}$: how long before the graph repeats. The **principal axis** is $y=d$, the line running through the middle of the graph. From these, the maximum is $d+|a|$ and the minimum is $d-|a|$.
 
 :::example A Ferris wheel
 The height, in meters, of a seat on a Ferris wheel $t$ seconds after it passes the lowest point is $h(t)=12-10\cos\left(\dfrac{\pi t}{15}\right)$.
@@ -97,11 +97,13 @@ The height, in meters, of a seat on a Ferris wheel $t$ seconds after it passes t
 :::
 
 :::warning Common traps
-- **Degree or radian mode.** Triangle questions are usually in degrees; calculus and periodic models in radians.
-- **The ambiguous case.** When the sine rule gives an angle, check whether $180^\circ$ minus it is also possible.
-- **Losing solutions.** Find every solution in the interval: sketch the graph or use the symmetry of the unit circle.
-- **Dividing by $\sin x$** in an equation such as $\sin2x=\sin x$ loses the solutions where $\sin x=0$. Factor instead.
-- **Sector formulas with degrees.** $l=r\theta$ and $A=\dfrac12r^2\theta$ need $\theta$ in radians.
+- **Degree or radian mode.** Triangle questions are usually in degrees; calculus and periodic models are in radians. Before you press a key, check which mode your calculator is in.
+- **The ambiguous case.** When the sine rule gives you an angle, ask yourself whether $180^\circ$ minus that angle also works.
+- **Losing solutions.** Find every solution in the interval: sketch the graph or use the symmetry of the unit circle so that none slips away.
+- **Dividing by $\sin x$** in an equation such as $\sin2x=\sin x$ loses the solutions where $\sin x=0$. Factor instead of dividing.
+- **Sector formulas with degrees.** $l=r\theta$ and $A=\dfrac12r^2\theta$ work only when $\theta$ is in radians.
+
+Many students slip on these, so it is worth pausing to check before you hand in your work. When you practise, run through this list once at the end.
 :::
 
 :::terms

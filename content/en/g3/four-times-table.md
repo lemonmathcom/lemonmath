@@ -12,11 +12,11 @@ minutes: 15
 
 In a kennel there are $5$ dogs, and each dog has $4$ legs. How many legs do the $5$ dogs have altogether?
 
-You could count every leg, but that is slow and easy to get wrong. This lesson helps you work it out quickly with the $4$ times table.
+You could count every leg one by one, but that is slow and easy to get wrong. And what if the kennel had even more dogs? The $4$ times table is a shortcut: once you know it, the answer comes straight away.
 
 ## Let's explore
 
-Each dog has $4$ legs, so we have groups of $4$ legs. We add one group at a time:
+Each dog has $4$ legs, so we have groups of $4$ legs. Let's add the dogs one at a time and watch the number of legs grow:
 
 - $1$ dog: $4$ legs.
 - $2$ dogs: $4+4=8$ legs.
@@ -24,7 +24,7 @@ Each dog has $4$ legs, so we have groups of $4$ legs. We add one group at a time
 - $4$ dogs: $12+4=16$ legs.
 - $5$ dogs: $16+4=20$ legs.
 
-So $5$ dogs have $20$ legs, that is $4\times5=20$. Each time we add a group, the product goes up by $4$.
+So $5$ dogs have $20$ legs, that is $4\times5=20$. Notice this: each time we add a dog, which is one more group, the product goes up by exactly $4$.
 
 :::graph On the number line: every jump is 4
 alt: A number line from 0 to 24 with the points 0, 4, 8, 12, 16, 20 and 24 marked, each $4$ more than the one before
@@ -40,7 +40,7 @@ point: (20, 0) "20" above
 point: (24, 0) "24" below
 :::
 
-Here is one more trick: $4$ is double $2$, so $4\times5$ is double $2\times5=10$, and $10+10=20$.
+Here is one more trick, if you already know the $2$ times table. Why does it work? Because $4$ is double $2$, so $4\times5$ is also double $2\times5=10$. You only need to work out $10+10=20$.
 
 :::theorem The 4 times table
 To work out $4\times n$, take $4\times(n-1)$ and add $4$. You can also take $2\times n$ and double it.
@@ -54,11 +54,11 @@ To work out $4\times n$, take $4\times(n-1)$ and add $4$. You can also take $2\t
 | $24$ | $28$ | $32$ | $36$ | $40$ |
 :::
 
-The division facts for $4$ come from the $4$ times table. Since $4\times5=20$, we have $20\div4=5$. If you share $20$ things into groups of $4$, you get $5$ groups.
+Once you know the $4$ times table, you know the division facts for $4$ too. Why? Because division undoes multiplication. Since $4\times5=20$, we have $20\div4=5$. In dog words: if you share $20$ legs into groups of $4$, you get $5$ groups, one for each dog.
 
 ## Examples
 
-We start by taking the product before and adding $4$.
+Let's try the first way: take the product before and add $4$.
 
 :::example Work out $4\times7$
 **Solution.** You know $4\times6=24$. Add one more group of $4$:
@@ -66,7 +66,7 @@ $$4\times7=4\times6+4=24+4=28.$$
 So $4\times7=28$.
 :::
 
-Now use the doubling trick.
+Now the doubling trick: if you know one product, doubling it gives you another.
 
 :::example Work out $4\times8$ by doubling
 **Solution.** We have $4\times4=16$. Since $8$ is double $4$, $4\times8$ is double $4\times4$:
@@ -74,7 +74,7 @@ $$4\times8=16+16=32.$$
 So $4\times8=32$.
 :::
 
-Next, division. Look in the $4$ times table for a product equal to the dividend.
+Now for division. Look in the $4$ times table for a product equal to the dividend. The number that is multiplied by $4$ to make it is your answer.
 
 :::example Work out $36\div4$
 **Solution.** Ask: which number times $4$ makes $36$? In the $4$ times table, $4\times9=36$, so
@@ -84,7 +84,7 @@ $$36\div4=9.$$
 So $36\div4=9$.
 :::
 
-Now solve a word problem with multiplication.
+Now a word problem that needs multiplication. Think about what one group is and how many groups there are.
 
 :::example Seats
 Each table seats $4$ children. How many children can sit at $6$ such tables?
@@ -94,7 +94,7 @@ $$4\times6=24\ \text{(children)}.$$
 So $24$ children can sit at $6$ tables.
 :::
 
-Finally, a word problem with division.
+Finally, a word problem that needs division. This time we know the total and the size of each group, and we want to find the number of groups.
 
 :::example Oranges on plates
 There are $28$ oranges to put on plates, $4$ oranges on each plate. How many plates can we fill?
@@ -107,10 +107,10 @@ So we can fill $7$ plates.
 :::
 
 :::warning Mistakes to watch out for
-- **Taking the wrong neighbour.** Wrong: $4\times7=24$. Why it is wrong: $24$ is $4\times6$; you forgot to add one more group of $4$. Right: $4\times7=24+4=28$.
+- **Taking the wrong neighbour.** This is an easy one to slip on. Wrong: $4\times7=24$. Why it is wrong: $24$ is $4\times6$; you forgot to add one more group of $4$. Right: $4\times7=24+4=28$.
 - **Adding instead of multiplying.** Wrong: $4\times6=10$. Why it is wrong: $4+6$ is an addition, but $4\times6$ means $6$ groups of $4$. Right: $4\times6=24$.
-- **Mixing up a nearby product.** Wrong: $36\div4=8$. Why it is wrong: $4\times8=32$, not $36$. Right: $4\times9=36$, so $36\div4=9$.
-- **Forgetting the unit.** Wrong: "Answer: $24$". Right: "Answer: $24$ children".
+- **Mixing up a nearby product.** Wrong: $36\div4=8$. Why it is wrong: $4\times8=32$, not $36$. Right: $4\times9=36$, so $36\div4=9$. Checking with a multiplication shows you straight away whether you are right.
+- **Forgetting the unit.** Wrong: "Answer: $24$". Right: "Answer: $24$ children". The unit tells the reader what you counted.
 :::
 
 ## Key terms
@@ -134,9 +134,11 @@ So we can fill $7$ plates.
 - From $4\times a=b$ we get $b\div4=a$ and $b\div a=4$.
 - Write the unit in the answer; check a division with a multiplication.
 
+Back to our opening question: with the table, you can find the legs of the whole kennel without counting each one. Remember that every new group adds exactly one group to the product, and practise until the table feels familiar.
+
 ## Practice
 
-Each exercise comes with what you need and how to start. Try it yourself first, then open the solution.
+Each exercise has a short reminder of what you need and a hint to get you started. Have a go on your own first, and don't worry if you get stuck. Then open the solution and compare.
 
 :::exercise
 Work out:

@@ -11,11 +11,11 @@ minutes: 45
 - Estimate values with a tangent line and evaluate $\dfrac00$ and $\dfrac{\infty}{\infty}$ limits with L'Hôpital's rule.
 :::
 
-Unit 4 is where calculus meets the real world, and it is one of the most visible units on the free-response section: almost every year at least one question asks you to explain what a derivative means in a context, to decide whether a particle is speeding up, or to estimate a value with a tangent line. The mathematics is light; the points are won or lost on clear language and correct units.
+A cup of tea is hot when it is poured, then it cools. But how fast is it cooling, right now? That is a question about a derivative, and Unit 4 is where calculus meets the real world. It is also one of the most visible units on the free-response section: almost every year at least one question asks you to explain what a derivative means in a context, to decide whether a particle is speeding up, or to estimate a value with a tangent line. The mathematics is light; the points are won or lost on clear language and correct units.
 
 ## The derivative as a rate of change
 
-If $Q(t)$ measures a quantity at time $t$, then $Q'(a)$ is the instantaneous rate of change of $Q$ at $t=a$. Its units are "units of $Q$ per unit of $t$". A complete interpretation answers three questions: what is changing, at what moment, and how fast (with the direction: increasing or decreasing).
+The derivative answers one question: how fast is something changing right now? If $Q(t)$ measures a quantity at time $t$, then $Q'(a)$ is the instantaneous rate of change of $Q$ at $t=a$. Its units are "units of $Q$ per unit of $t$". A complete interpretation answers three questions: what is changing, at what moment, and how fast (with the direction: increasing or decreasing).
 
 :::example Interpreting a derivative
 The temperature of a cup of tea is $W(t)$ degrees Celsius, $t$ minutes after it is poured. Which statement is the best interpretation of $W'(10)=-2.5$?
@@ -29,11 +29,11 @@ D. The tea needs $2.5$ more minutes to cool by $10$ degrees Celsius.
 
 ## Straight-line motion
 
-For a particle moving along a line with position $x(t)$: velocity $v(t)=x'(t)$, acceleration $a(t)=v'(t)=x''(t)$, and speed $|v(t)|$.
+Now let a particle run along a line. If we know its position $x(t)$, we know everything about the motion: velocity is how the position changes, $v(t)=x'(t)$; acceleration is how the velocity changes, $a(t)=v'(t)=x''(t)$; and speed is the size of the velocity, $|v(t)|$.
 
-- The particle moves right when $v>0$, left when $v<0$, and changes direction where $v$ changes sign.
-- It is **speeding up** when $v$ and $a$ have the same sign, and **slowing down** when they have opposite signs.
-- Total distance traveled adds the distances of each leg between turning points.
+- The particle moves right when $v>0$, left when $v<0$, and changes direction where $v$ changes sign. To find where it turns round, look for where the velocity is zero and changes sign.
+- It is **speeding up** when $v$ and $a$ have the same sign, and **slowing down** when they have opposite signs. Acceleration in the direction of motion pushes the particle faster; against it, the acceleration slows the particle down.
+- The total distance adds up the distance on each leg between turning points, because at a turning point the particle comes back the way it went.
 
 :::example Reading the motion
 A particle moves along the $x$-axis with position $x(t)=t^3-6t^2+9t$ for $t\ge0$.
@@ -51,7 +51,7 @@ c) It turns at $t=1$ and $t=3$. Positions: $x(0)=0$, $x(1)=4$, $x(3)=0$, $x(4)=4
 
 ## Related rates
 
-When two quantities are linked by an equation and both change with time, differentiate the equation with respect to $t$. A reliable routine: draw and label a picture, write the equation that holds at every moment, differentiate with respect to $t$, and only then substitute the values at the moment asked.
+When a balloon swells, its volume and its radius both grow, but not at the same speed. A formula ties them together, so the rate of one drags the rate of the other along. When two quantities are linked by an equation and both change with time, differentiate the equation with respect to $t$. A reliable routine: draw and label a picture, write the equation that holds at every moment, differentiate with respect to $t$, and only then substitute the values at the moment asked. Why substitute last? Because if you substitute early, a quantity that is changing turns into a constant, and its derivative disappears.
 
 :::example A balloon
 Air is pumped into a spherical balloon at $100$ cubic centimeters per second. How fast is the radius increasing when the radius is $5$ centimeters?
@@ -67,7 +67,7 @@ A ladder $5$ meters long leans against a wall. The bottom slides away from the w
 
 ## Local linearization and L'Hôpital's rule
 
-Near $x=a$, the tangent line gives the approximation $f(x)\approx f(a)+f'(a)(x-a)$. If $f$ is concave up near $a$, the tangent lies below the graph and the estimate is an **underestimate**; if concave down, it is an **overestimate**.
+Look very closely at one point of a graph and the curve looks almost straight. So near $x=a$ we can replace the curve by its tangent line: $f(x)\approx f(a)+f'(a)(x-a)$. Which side the estimate errs on depends on the concavity. If $f$ is concave up near $a$, the tangent lies below the graph and the estimate is an **underestimate**; if concave down, it is an **overestimate**.
 
 :::example Estimating a square root
 Using the tangent line to $f(x)=\sqrt x$ at $x=4$, the approximation of $\sqrt{4.1}$ is
@@ -94,15 +94,15 @@ D. The limit does not exist.
 :::
 
 :::warning Common traps
-- **Missing units or time.** "The rate is $-3$" earns nothing; "at $t=5$ minutes, the volume is decreasing at $3$ liters per minute" earns the point.
-- **Speeding up means $a>0$.** Wrong: compare the signs of $v$ and $a$.
-- **Substituting too early** in related rates. Differentiate first; plug in values only after.
-- **Displacement is not distance.** $x(4)-x(0)=4$ in the motion example, but the particle traveled $12$.
-- **L'Hôpital is not the quotient rule.** Differentiate the top and the bottom separately.
+- **Missing units or time.** Many students lose marks here. "The rate is $-3$" earns nothing; "at $t=5$ minutes, the volume is decreasing at $3$ litres per minute" earns the point.
+- **Speeding up means $a>0$.** Wrong: compare the signs of $v$ and $a$. A particle can be slowing down with positive acceleration if its velocity is negative.
+- **Substituting too early** in related rates. Differentiate first; plug in values only after, because early substitution turns a changing quantity into a constant.
+- **Displacement is not distance.** $x(4)-x(0)=4$ in the motion example, but the particle travelled $12$. Displacement only compares the start with the end; distance counts the trip out and the trip back.
+- **L'Hôpital is not the quotient rule.** Differentiate the top and the bottom separately, not the whole fraction.
 :::
 
 :::tip The sentence template
-For any "interpret" question, fill in: "At $t=$ ___ (units), the ___ is increasing/decreasing at a rate of ___ (units) per (units)." Readers of the AP exam look for exactly these pieces.
+When you meet an "interpret" question, you do not need to invent the wording from scratch. Fill in: "At $t=$ ___ (units), the ___ is increasing/decreasing at a rate of ___ (units) per (units)." Readers of the AP exam look for exactly these pieces, so filling them in earns the marks. Practise it a few times and it will fit almost any context.
 :::
 
 :::terms

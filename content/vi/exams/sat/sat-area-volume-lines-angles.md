@@ -11,15 +11,17 @@ minutes: 35
 - Dự đoán diện tích và thể tích thay đổi thế nào khi các độ dài được nhân lên.
 :::
 
-Mảng Geometry and Trigonometry có khoảng 5 đến 7 câu trong đề. Công thức diện tích và thể tích có trong bảng công thức của Bluebook, nên SAT không kiểm tra trí nhớ: đề kiểm tra xem bạn có **chọn** được đúng công thức, tách một hình thành các phần đơn giản và lập phương trình từ quan hệ giữa các góc hay không. Nhiều câu ở phần này là câu tự điền đáp số, nên cần tính toán cẩn thận.
+Nếu bạn lo phải nhớ thật nhiều công thức hình học thì có tin vui: không cần. Mảng Geometry and Trigonometry có khoảng 5 đến 7 câu trong đề, và công thức diện tích, thể tích đã có sẵn trong bảng công thức của Bluebook. Vì vậy SAT không kiểm tra trí nhớ. Đề kiểm tra xem bạn có **chọn** được đúng công thức, tách một hình thành các phần đơn giản và lập được phương trình từ quan hệ giữa các góc hay không. Nhiều câu ở phần này là câu tự điền đáp số, nên bạn cần tính toán cẩn thận.
 
 ## Đường thẳng và góc
 
 :::note Các tính chất về góc
-- Các góc trên một đường thẳng có tổng $180^\circ$; các góc quanh một điểm có tổng $360^\circ$.
-- Hai góc đối đỉnh bằng nhau.
+- Các góc nằm trên một đường thẳng có tổng $180^\circ$; các góc quanh một điểm có tổng $360^\circ$.
+- Hai góc đối đỉnh thì bằng nhau.
 - Khi một đường thẳng cắt hai đường thẳng **song song**: các góc đồng vị bằng nhau, các góc so le trong bằng nhau, và hai góc trong cùng phía có tổng $180^\circ$.
-- Tổng ba góc của tam giác là $180^\circ$; tổng các góc trong của đa giác $n$ cạnh là $(n-2)\cdot180^\circ$.
+- Ba góc của một tam giác có tổng $180^\circ$; tổng các góc trong của đa giác $n$ cạnh là $(n-2)\cdot180^\circ$.
+
+Bốn ý này là nền cho mọi câu về góc ở phần này. Thấy hai đường song song, bạn hãy nghĩ ngay đến góc so le trong và góc đồng vị.
 :::
 
 :::example Hai đường thẳng song song
@@ -40,7 +42,7 @@ D. $720^\circ$
 
 ## Diện tích và hình ghép
 
-Để tính diện tích một hình ghép, hãy tách nó thành các hình chữ nhật, tam giác và hình tròn, rồi cộng hoặc trừ.
+Hình ghép trông rối, nhưng thường chỉ gồm vài hình quen thuộc. Để tính diện tích, bạn tách nó thành các hình chữ nhật, tam giác và hình tròn, rồi cộng hoặc trừ các phần lại. Vì sao tách ra? Vì diện tích của từng hình đơn giản thì bạn đã biết cách tính.
 
 :::example Hình chữ nhật bị khoét nửa hình tròn
 Một khu vườn hình chữ nhật dài 12 mét, rộng 8 mét. Một hồ nước hình nửa hình tròn có đường kính 8 mét nằm sát một cạnh 8 mét, bên trong khu vườn. Diện tích phần vườn không có hồ là bao nhiêu mét vuông?
@@ -79,14 +81,14 @@ Hai khối đồng dạng có các cạnh tương ứng theo tỉ số $2:3$. Kh
 :::
 
 :::warning Những cái bẫy thường gặp
-- **Bán kính hay đường kính.** Đọc kĩ đề cho cái nào. Nhiều phương án sai dùng đường kính trong $\pi r^2$.
-- **Quên $\dfrac13$** trong thể tích hình nón hoặc hình chóp.
-- **Nhân theo tỉ lệ bậc nhất.** Gấp đôi bán kính hình tròn thì diện tích gấp $4$, không phải gấp $2$.
-- **Đáp án chứa $\pi$.** Nếu các phương án có $\pi$, hãy giữ $\pi$ là kí hiệu; đừng nhân với $3{,}14$.
+- **Bán kính hay đường kính.** Đọc kĩ đề cho cái nào. Chỗ này nhiều bạn hay nhầm, và nhiều phương án sai được tạo ra đúng từ lỗi dùng đường kính trong $\pi r^2$.
+- **Quên $\dfrac13$** trong thể tích hình nón hoặc hình chóp. Hai hình này chiếm ít chỗ hơn hình trụ hay hình hộp có cùng đáy và cùng chiều cao.
+- **Nhân theo tỉ lệ bậc nhất.** Gấp đôi bán kính hình tròn thì diện tích gấp $4$, không phải gấp $2$. Vì diện tích có hai chiều, hệ số tỉ lệ bị nhân với chính nó.
+- **Đáp án chứa $\pi$.** Nếu các phương án có $\pi$, hãy giữ $\pi$ là kí hiệu; đừng nhân với $3{,}14$. Các phương án đã được viết sẵn theo $\pi$, nên nhân số vào chỉ làm bạn khó so khớp.
 :::
 
 :::tip Dùng bảng công thức
-Bảng công thức còn ghi một vòng tròn có $360^\circ$ hay $2\pi$ radian và cho các tam giác vuông đặc biệt. Hãy mở bảng một lần trước ngày thi để biết chính xác nó có gì; trong phòng thi, chỉ mở khi cần đúng công thức đó.
+Ngoài công thức diện tích và thể tích, bảng công thức còn ghi rằng một vòng tròn có $360^\circ$ hay $2\pi$ radian, và cho các tam giác vuông đặc biệt. Hãy mở bảng ra xem kĩ một lần trước ngày thi, để biết chính xác trong đó có gì. Đến phòng thi, bạn chỉ mở khi cần đúng công thức đó, để khỏi mất thời gian.
 :::
 
 :::terms

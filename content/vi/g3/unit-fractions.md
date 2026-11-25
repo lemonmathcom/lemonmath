@@ -10,13 +10,13 @@ minutes: 15
 - Tìm một phần $n$ của một số bằng phép chia và giải bài toán có lời văn.
 :::
 
-Mẹ cắt một chiếc bánh thành các phần bằng nhau để chia cho $4$ bạn, mỗi bạn một phần. Hỏi mỗi bạn được một phần mấy của chiếc bánh?
+Mẹ cắt một chiếc bánh thành các phần bằng nhau, để chia cho $4$ bạn, mỗi bạn một phần. Em thử nghĩ xem: mỗi bạn được một phần mấy của chiếc bánh?
 
-Em có thể trả lời bằng lời, nhưng toán học có cách viết gọn cho "một phần mấy". Bài này dạy em cách đọc, cách viết và cách dùng nó.
+Em có thể trả lời bằng lời, nhưng nói đi nói lại thì hơi dài. Toán học có một cách viết rất gọn cho "một phần mấy". Học xong, em sẽ đọc được, viết được, và dùng nó để chia đều một số.
 
 ## Cùng khám phá
 
-Ta xem chiếc bánh là một hình chữ nhật và chia thành $4$ phần bằng nhau.
+Để dễ nhìn, ta vẽ chiếc bánh thành một hình chữ nhật rồi chia thành $4$ phần bằng nhau.
 
 :::diagram Hình chữ nhật chia thành 4 phần bằng nhau
 alt: Hình chữ nhật chia thành bốn phần bằng nhau bằng ba đoạn thẳng đứng, mỗi phần ghi 1/4
@@ -40,9 +40,9 @@ label 5,1 "1/4"
 label 7,1 "1/4"
 :::
 
-Hình được chia thành $4$ phần **bằng nhau**. Mỗi phần là **một phần bốn** của hình, viết là $\dfrac{1}{4}$. Vậy mỗi bạn được $\dfrac{1}{4}$ chiếc bánh.
+Em đếm xem: hình được chia thành $4$ phần **bằng nhau**. Mỗi phần như thế gọi là **một phần bốn** của hình, và viết là $\dfrac{1}{4}$. Vậy mỗi bạn được $\dfrac{1}{4}$ chiếc bánh.
 
-Nếu chia thành $2$ phần bằng nhau, mỗi phần là $\dfrac{1}{2}$ hình. Nếu chia thành $8$ phần bằng nhau, mỗi phần là $\dfrac{1}{8}$ hình. Chia thành càng nhiều phần bằng nhau thì mỗi phần càng nhỏ.
+Thử chia theo cách khác. Chia thành $2$ phần bằng nhau, mỗi phần là $\dfrac{1}{2}$ hình. Chia thành $8$ phần bằng nhau, mỗi phần là $\dfrac{1}{8}$ hình. Em để ý: chia thành càng nhiều phần bằng nhau thì mỗi phần càng nhỏ, giống như chia một chiếc bánh cho nhiều bạn thì mỗi bạn được ít hơn.
 
 :::theorem Một phần mấy
 Chia một hình (hoặc một số) thành $n$ phần bằng nhau, mỗi phần là **một phần $n$** của hình (của số đó), viết là $\dfrac{1}{n}$.
@@ -54,11 +54,11 @@ Chia một hình (hoặc một số) thành $n$ phần bằng nhau, mỗi phần
 Muốn tìm một phần $n$ của một số, ta lấy số đó chia cho $n$.
 :::
 
-Cách tìm này đúng vì chia số đó thành $n$ phần bằng nhau, mỗi phần chính là một phần $n$ của số đó. Ví dụ $12$ cái kẹo chia thành $3$ phần bằng nhau, mỗi phần có $12:3=4$ cái, nên $\dfrac{1}{3}$ của $12$ là $4$.
+Vì sao lại chia? Vì chia số đó thành $n$ phần bằng nhau thì mỗi phần chính là một phần $n$ của số đó. Ví dụ, $12$ cái kẹo chia thành $3$ phần bằng nhau, mỗi phần có $12:3=4$ cái, nên $\dfrac{1}{3}$ của $12$ là $4$.
 
 ## Ví dụ
 
-Ta bắt đầu bằng việc gọi tên một phần.
+Trước hết, ta tập gọi tên một phần của sợi dây.
 
 :::example Sợi dây
 Một sợi dây được cắt thành $3$ đoạn bằng nhau. Mỗi đoạn là một phần mấy của sợi dây?
@@ -70,7 +70,7 @@ $$\dfrac{1}{3}.$$
 Vậy mỗi đoạn là $\dfrac{1}{3}$ sợi dây.
 :::
 
-Bây giờ em tập đọc và viết.
+Giờ em tập đọc và viết. Cứ nhớ: số dưới cho biết đã chia thành bao nhiêu phần bằng nhau.
 
 :::example Đọc và viết
 a) Viết "một phần bảy" bằng chữ số.
@@ -84,7 +84,7 @@ a) Một phần bảy viết là $\dfrac{1}{7}$.
 b) $\dfrac{1}{8}$ đọc là một phần tám.
 :::
 
-Tiếp theo, em tìm một phần $n$ của một số.
+Giờ ta dùng phép chia để tìm một phần $n$ của một số.
 
 :::example Tìm $\dfrac{1}{4}$ của $20$
 **Lời giải.** Muốn tìm một phần bốn của $20$, ta chia $20$ cho $4$:
@@ -94,7 +94,7 @@ $$20:4=5.$$
 Vậy $\dfrac{1}{4}$ của $20$ là $5$.
 :::
 
-Làm tương tự với số lớn hơn.
+Cách làm vẫn thế, chỉ là số lớn hơn.
 
 :::example Tìm $\dfrac{1}{6}$ của $42$
 **Lời giải.** Ta chia $42$ cho $6$:
@@ -104,7 +104,7 @@ $$42:6=7.$$
 Vậy $\dfrac{1}{6}$ của $42$ là $7$.
 :::
 
-Cuối cùng, em dùng cách này để giải một bài toán trong cuộc sống.
+Cuối cùng, ta thử dùng cách này cho một chuyện hay gặp trong nhà: mẹ chia cam.
 
 :::example Chia cam
 Mẹ có $18$ quả cam, cho em $\dfrac{1}{3}$ số cam. Hỏi em được cho bao nhiêu quả cam?
@@ -117,10 +117,11 @@ Vậy em được cho $6$ quả cam.
 :::
 
 :::warning Những lỗi em hay gặp
-- **Các phần không bằng nhau.** Sai: hình chia thành $4$ phần to nhỏ khác nhau, mỗi phần là $\dfrac{1}{4}$. Vì sao sai: $\dfrac{1}{4}$ chỉ dùng khi $4$ phần bằng nhau. Đúng: phải chia thành $4$ phần bằng nhau.
-- **Nhân thay cho chia.** Sai: $\dfrac{1}{3}$ của $12$ là $12\times3=36$. Vì sao sai: một phần ba của $12$ không thể lớn hơn $12$. Đúng: $12:3=4$.
-- **Nhầm phần nhỏ, phần lớn.** Sai: $\dfrac{1}{8}$ lớn hơn $\dfrac{1}{4}$ vì $8>4$. Vì sao sai: chia thành $8$ phần thì mỗi phần nhỏ hơn khi chia thành $4$ phần. Đúng: $\dfrac{1}{4}$ lớn hơn $\dfrac{1}{8}$.
-- **Quên đơn vị.** Sai: "Đáp số: $6$". Đúng: "Đáp số: $6$ quả cam".
+- **Các phần không bằng nhau.** Chỗ này nhiều bạn hay nhầm. Hình chia thành $4$ phần to nhỏ khác nhau thì không thể nói mỗi phần là $\dfrac{1}{4}$, vì $\dfrac{1}{4}$ chỉ dùng khi $4$ phần bằng nhau. Phải chia thành $4$ phần bằng nhau.
+- **Nhân thay cho chia.** Viết $\dfrac{1}{3}$ của $12$ là $12\times3=36$ thì sai, vì một phần ba của $12$ không thể lớn hơn $12$. Phải chia: $12:3=4$.
+- **Nhầm phần nhỏ, phần lớn.** Cho rằng $\dfrac{1}{8}$ lớn hơn $\dfrac{1}{4}$ vì $8>4$ là sai. Chia thành $8$ phần thì mỗi phần nhỏ hơn khi chia thành $4$ phần. Vậy $\dfrac{1}{4}$ lớn hơn $\dfrac{1}{8}$.
+- **Quên đơn vị.** Viết "Đáp số: $6$" là thiếu. Phải viết "Đáp số: $6$ quả cam".
+Làm xong, em đọc lại đáp số xem đã hợp lí chưa nhé.
 :::
 
 ## Thuật ngữ
@@ -143,10 +144,11 @@ Vậy em được cho $6$ quả cam.
 - Chia càng nhiều phần bằng nhau thì mỗi phần càng nhỏ.
 - Một phần $n$ của một số bằng số đó chia cho $n$.
 - Thử lại bằng phép nhân; ghi đơn vị trong đáp số.
+Quay lại chiếc bánh của mẹ: chia đều cho bốn bạn thì mỗi bạn được một phần bốn. Em nhớ chia đều trước, rồi mới gọi tên phần, và làm thêm vài bài luyện tập cho quen tay.
 
 ## Luyện tập
 
-Mỗi bài có phần kiến thức và gợi ý. Em hãy tự làm trước, rồi mới bấm xem lời giải.
+Mỗi bài đều có phần kiến thức và gợi ý để em bắt đầu. Em cứ tự làm trước, chưa chắc thì xem gợi ý, rồi mới mở lời giải để đối chiếu.
 
 :::exercise
 Mỗi hình sau được chia thành các phần bằng nhau. Viết phân số chỉ một phần của hình:

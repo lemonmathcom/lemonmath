@@ -10,9 +10,9 @@ minutes: 20
 - Use a calculator to find trigonometric ratios, and to find an angle from a ratio.
 :::
 
-Mr Tư leans a $5$ m ladder against a wall, with its foot $3$ m from the bottom of the wall. Safety advice says the angle between a ladder and the ground should be about $75^\circ$. Is Mr Tư's ladder steep enough?
+Mr Tư leans a $5$ m ladder against a wall, with its foot $3$ m from the bottom of the wall. Safety advice says the angle between a ladder and the ground should be about $75^\circ$. It is hard to judge by eye how steep a ladder is. So how can we tell whether Mr Tư's ladder is steep enough, when all we can measure are lengths?
 
-We know two sides of a right-angled triangle, but we need an **angle**. This lesson gives us the tool that links sides to angles: the trigonometric ratios.
+We know two sides of a right-angled triangle, but what we need is an **angle**. We need a bridge between sides and angles, and the trigonometric ratios are that bridge. Once you have them, you can find an angle without a protractor.
 
 :::diagram The ladder against the wall
 alt: The ladder is the hypotenuse of a right-angled triangle, its foot is 3 metres from the wall, the ladder is 5 metres long, and the angle between the ladder and the ground is marked alpha
@@ -30,14 +30,14 @@ angle T P H "α"
 
 ### Explore: the ratio does not depend on the size of the triangle
 
-Take two right-angled triangles with the same acute angle $\alpha$ at vertex $B$: the first has sides $3$, $4$, $5$; the second has sides $6$, $8$, $10$ (twice as big). We work out the ratio of the side opposite $\alpha$ to the hypotenuse:
+First, let us test whether a ratio of sides depends on the size of the triangle. Take two right-angled triangles with the same acute angle $\alpha$ at vertex $B$. The first has sides $3$, $4$, $5$. The second has sides $6$, $8$, $10$, twice as big. For each triangle, work out the ratio of the side opposite $\alpha$ to the hypotenuse:
 
 | Triangle | opposite | hypotenuse | opposite : hypotenuse |
 |---|---|---|---|
 | first | $3$ | $5$ | $0.6$ |
 | second | $6$ | $10$ | $0.6$ |
 
-The two triangles are similar (grade 8), so the ratios are the same. The ratio depends only on the angle $\alpha$, not on how big the triangle is.
+The two triangles are similar (grade 8), so the ratios are equal. The ratio depends only on the angle $\alpha$, not on whether the triangle is big or small. That is why we can name the ratio after the angle.
 
 :::diagram The opposite side, adjacent side and hypotenuse for angle $\alpha$
 alt: Triangle ABC with a right angle at A and angle alpha at B; side AC is opposite alpha, side AB is adjacent to alpha, and BC is the hypotenuse
@@ -57,7 +57,7 @@ In a right-angled triangle with an acute angle $\alpha$:
 $$\sin\alpha=\frac{\text{opposite}}{\text{hypotenuse}},\quad \cos\alpha=\frac{\text{adjacent}}{\text{hypotenuse}},\quad \tan\alpha=\frac{\text{opposite}}{\text{adjacent}},\quad \cot\alpha=\frac{\text{adjacent}}{\text{opposite}}.$$
 :::
 
-Because the hypotenuse is the longest side, we always have $0<\sin\alpha<1$ and $0<\cos\alpha<1$. A well-known memory aid is **SOH CAH TOA** (Sine = Opposite : Hypotenuse, Cosine = Adjacent : Hypotenuse, Tangent = Opposite : Adjacent); the cotangent is the tangent turned upside down.
+The hypotenuse is the longest side, so the top of each fraction is smaller than the bottom, and we always have $0<\sin\alpha<1$ and $0<\cos\alpha<1$. To remember the ratios, many people use **SOH CAH TOA** (Sine = Opposite : Hypotenuse, Cosine = Adjacent : Hypotenuse, Tangent = Opposite : Adjacent). The cotangent is the tangent turned upside down. Before you write a ratio, always ask which side is opposite and which is adjacent.
 
 :::example Finding the four ratios
 Triangle $ABC$ has a right angle at $A$, $AB=8$ cm and $AC=6$ cm. Find the trigonometric ratios of angle $B$.
@@ -69,7 +69,7 @@ $$BC=\sqrt{8^2+6^2}=\sqrt{100}=10;\qquad \sin B=\frac{6}{10}=\frac35,\quad \cos 
 So $\sin B=\dfrac35$, $\cos B=\dfrac45$, $\tan B=\dfrac34$, $\cot B=\dfrac43$.
 :::
 
-The opposite and adjacent sides change when we look at the other acute angle, so always identify them again before writing a ratio.
+The opposite and adjacent sides swap roles when we look at the other acute angle. So identify them again before writing any ratio. This example takes the other acute angle of a right-angled triangle.
 
 :::example The ratios of the other angle
 Triangle $ABC$ has a right angle at $A$, $AB=5$ and $AC=12$. Find the trigonometric ratios of angle $C$.
@@ -83,7 +83,7 @@ So $\sin C=\dfrac5{13}$, $\cos C=\dfrac{12}{13}$, $\tan C=\dfrac5{12}$, $\cot C=
 
 ## The ratios of special angles
 
-Half of a square with side $1$ is a right-angled isosceles triangle with two $45^\circ$ angles and hypotenuse $\sqrt2$. Half of an equilateral triangle with side $2$ is a right-angled triangle with angles $30^\circ$ and $60^\circ$ and sides $1$, $\sqrt3$, $2$. These two triangles give the table below.
+Some angles come up so often that it is worth knowing their ratios by heart, and we can find them from two familiar shapes. Cut a square with side $1$ along a diagonal and you get a right-angled isosceles triangle with two $45^\circ$ angles and hypotenuse $\sqrt2$. Cut an equilateral triangle with side $2$ along a height and you get a right-angled triangle with angles $30^\circ$ and $60^\circ$ and sides $1$, $\sqrt3$, $2$. These two triangles give the table below.
 
 | $\alpha$ | $30^\circ$ | $45^\circ$ | $60^\circ$ |
 |---|---|---|---|
@@ -92,7 +92,7 @@ Half of a square with side $1$ is a right-angled isosceles triangle with two $45
 | $\tan\alpha$ | $\dfrac{\sqrt3}3$ | $1$ | $\sqrt3$ |
 | $\cot\alpha$ | $\sqrt3$ | $1$ | $\dfrac{\sqrt3}3$ |
 
-For example, $\sin45^\circ=\dfrac{1}{\sqrt2}=\dfrac{\sqrt2}{2}$ (rationalising the denominator as in the previous chapter).
+For example, $\sin45^\circ=\dfrac{1}{\sqrt2}=\dfrac{\sqrt2}{2}$: the opposite side over the hypotenuse, then we rationalise the denominator as in the previous chapter.
 
 :::example Evaluating expressions
 Evaluate: a) $A=\sin30^\circ+\cos60^\circ-\tan45^\circ$; b) $B=\sin60^\circ\cdot\cot30^\circ$.
@@ -106,7 +106,7 @@ So $A=0$ and $B=\dfrac32$.
 
 ## The ratios of complementary angles
 
-In triangle $ABC$ with a right angle at $A$, angles $B$ and $C$ are complementary: $\angle B+\angle C=90^\circ$. The side opposite $B$ is the side adjacent to $C$, so $\sin B=\dfrac{AC}{BC}=\cos C$.
+The two acute angles of a right-angled triangle are linked in a special way. In triangle $ABC$ with a right angle at $A$, angles $B$ and $C$ are complementary: $\angle B+\angle C=90^\circ$. The side opposite $B$ is the side adjacent to $C$, so $\sin B=\dfrac{AC}{BC}=\cos C$. So the sine of one angle is the cosine of the other.
 
 :::theorem Complementary angles
 If $\alpha+\beta=90^\circ$, then
@@ -124,7 +124,7 @@ $$\sin72^\circ=\cos18^\circ,\quad \tan65^\circ=\cot25^\circ;\qquad \frac{\sin25^
 So a) $\cos18^\circ$ and $\cot25^\circ$; b) both expressions equal $1$.
 :::
 
-For any other angle, we use a calculator (set to degree mode, shown as D). The `sin`, `cos` and `tan` keys give the ratio; `SHIFT` + `sin` (or `cos`, `tan`) gives the angle from a ratio. There is no cot key, so we use $\cot\alpha=\dfrac{1}{\tan\alpha}$.
+For angles that are not special, we use a calculator. First check that it is in degree mode, shown as D. The `sin`, `cos` and `tan` keys give the ratio. To go the other way and find the angle from a ratio, press `SHIFT` + `sin` (or `cos`, `tan`). There is no cot key, so we use $\cot\alpha=\dfrac{1}{\tan\alpha}$. With this tool we can return to the ladder question.
 
 :::example Answering the ladder question
 The ladder is $5$ m long and its foot is $3$ m from the wall. Find the angle $\alpha$ between the ladder and the ground (rounded to the nearest degree).
@@ -137,10 +137,10 @@ So the angle between the ladder and the ground is only about $53^\circ$, much le
 :::
 
 :::warning Common mistakes
-- **Mixing up opposite and adjacent.** Wrong: in a triangle with a right angle at $A$, $\sin C=\dfrac{AC}{BC}$. Why it is wrong: the side opposite $C$ is $AB$. Right: $\sin C=\dfrac{AB}{BC}$.
-- **Putting the hypotenuse on top.** Wrong: $\cos B=\dfrac{BC}{AB}$. Why it is wrong: this ratio is greater than $1$, but $\cos B<1$. Right: $\cos B=\dfrac{AB}{BC}$.
-- **Mixing up special values.** Wrong: $\sin60^\circ=\dfrac12$. Why it is wrong: that is $\sin30^\circ$ (the side opposite $30^\circ$ is the shortest). Right: $\sin60^\circ=\dfrac{\sqrt3}2$.
-- **Using the wrong calculator mode.** Wrong: $\sin30$ gives $-0.988$. Why it is wrong: the calculator is in radian mode. Right: switch to degree mode to get $0.5$.
+- **Mixing up opposite and adjacent.** Many people write, in a triangle with a right angle at $A$, $\sin C=\dfrac{AC}{BC}$. That is wrong, because the side opposite $C$ is $AB$. Right: $\sin C=\dfrac{AB}{BC}$.
+- **Putting the hypotenuse on top.** Some people write $\cos B=\dfrac{BC}{AB}$. This ratio is greater than $1$, but $\cos B<1$. Right: $\cos B=\dfrac{AB}{BC}$.
+- **Mixing up special values.** Some people write $\sin60^\circ=\dfrac12$. That is $\sin30^\circ$, because the side opposite $30^\circ$ is the shortest. Right: $\sin60^\circ=\dfrac{\sqrt3}2$.
+- **Using the wrong calculator mode.** If $\sin30$ gives $-0.988$, the calculator is in radian mode. Switch to degree mode and you will get $0.5$.
 :::
 
 ## Key terms
@@ -158,15 +158,16 @@ So the angle between the ladder and the ground is only about $53^\circ$, much le
 
 ## Summary
 
-- $\sin\alpha=\dfrac{\text{opp}}{\text{hyp}}$, $\cos\alpha=\dfrac{\text{adj}}{\text{hyp}}$, $\tan\alpha=\dfrac{\text{opp}}{\text{adj}}$, $\cot\alpha=\dfrac{\text{adj}}{\text{opp}}$.
-- The ratios depend only on the angle; $0<\sin\alpha<1$, $0<\cos\alpha<1$; $\tan\alpha\cdot\cot\alpha=1$.
-- $\sin30^\circ=\cos60^\circ=\dfrac12$, $\sin45^\circ=\cos45^\circ=\dfrac{\sqrt2}2$, $\sin60^\circ=\cos30^\circ=\dfrac{\sqrt3}2$, $\tan45^\circ=1$, $\tan60^\circ=\sqrt3$, $\tan30^\circ=\dfrac{\sqrt3}3$.
+- The four ratios of an acute angle: $\sin\alpha=\dfrac{\text{opp}}{\text{hyp}}$, $\cos\alpha=\dfrac{\text{adj}}{\text{hyp}}$, $\tan\alpha=\dfrac{\text{opp}}{\text{adj}}$, $\cot\alpha=\dfrac{\text{adj}}{\text{opp}}$.
+- The ratios depend only on the angle, not on the size of the triangle; $0<\sin\alpha<1$, $0<\cos\alpha<1$; $\tan\alpha\cdot\cot\alpha=1$.
+- The special angles: $\sin30^\circ=\cos60^\circ=\dfrac12$, $\sin45^\circ=\cos45^\circ=\dfrac{\sqrt2}2$, $\sin60^\circ=\cos30^\circ=\dfrac{\sqrt3}2$, $\tan45^\circ=1$, $\tan60^\circ=\sqrt3$, $\tan30^\circ=\dfrac{\sqrt3}3$.
 - Complementary angles: the sine of one is the cosine of the other, and the tangent of one is the cotangent of the other.
-- Calculator: degree mode; `SHIFT` + `sin`/`cos`/`tan` to find an angle.
+- Calculator: use degree mode; `SHIFT` + `sin`/`cos`/`tan` to find an angle.
+The ladder question has its answer: from two sides of a right-angled triangle we can find an angle, and Mr Tư's ladder is too shallow. The thing to remember is to name the opposite side, the adjacent side and the hypotenuse correctly before you write any ratio.
 
 ## Practice
 
-Each exercise comes with what you need and some steps to start. Try it yourself first, then open the solution.
+Each exercise comes with what you need to know and some steps to start. Try it yourself first, and open the solution when you are stuck. A little patience now will make the ratios feel natural.
 
 :::exercise
 Triangle $ABC$ has a right angle at $A$, $AB=3$ and $AC=4$. Find the trigonometric ratios of angle $B$.

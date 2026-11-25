@@ -11,9 +11,9 @@ minutes: 20
 - Check the roots against the condition and against reality before concluding.
 :::
 
-Suppose that at the start of spring, a youth volunteer team in a commune plans to plant $120$ trees along the road to the school, the same number every day. When the work begins, some students join in, so the team plants $4$ more trees per day than planned and finishes $1$ day early. How many trees per day did the team plan to plant?
+Imagine that at the start of spring, a youth volunteer team in a commune plans to plant $120$ trees along the road to the school, the same number every day. When the work begins, some students come to help, so the team plants $4$ more trees per day than planned and finishes $1$ day early. How many trees per day did the team plan to plant?
 
-Three quantities in this problem are tied together: trees per day, number of days and the total number of trees ($\text{total}=\text{per day}\times\text{days}$). Forming an equation means writing this link in the language of algebra, and then letting quadratic equations (lesson [quadratic equations in one unknown](lesson:quadratic-equations)) do the rest.
+Three quantities in this problem are tied together: trees per day, number of days and the total number of trees ($\text{total}=\text{per day}\times\text{days}$). Forming an equation just means writing that link in the language of algebra. The rest we hand over to quadratic equations (lesson [quadratic equations in one unknown](lesson:quadratic-equations)).
 
 ## The steps for solving a problem by forming an equation
 
@@ -28,7 +28,7 @@ Three quantities in this problem are tied together: trees per day, number of day
 **Step 3.** Check which roots of the equation satisfy the condition on the unknown, then conclude.
 :::
 
-**Going deeper.** An equation is a *model* of a real situation, and a model is often "wider" than reality: it can have a negative root even though no length is negative. So the condition in Step 1 is not a formality: it lets Step 3 filter the roots. We usually choose the quantity the problem asks for as the unknown; if the equation becomes messy, choose another quantity.
+**Going deeper.** An equation is a *model* of a real situation, and a model is often "wider" than reality: it can have a negative root even though no length is negative. So the condition in Step 1 is not a formality: it lets Step 3 filter the roots. We usually choose the quantity the problem asks for as the unknown. If the equation becomes messy, try choosing another quantity.
 
 :::example Two consecutive natural numbers
 Find two consecutive natural numbers whose product is $156$.
@@ -44,7 +44,7 @@ So the two numbers are $12$ and $13$.
 
 ## Geometry problems
 
-In geometry problems, perimeter, area and Pythagoras' theorem are the "bridges" between the unknown and the data; a figure with the dimensions written in terms of $x$ makes the equation quicker to form.
+In geometry problems, perimeter, area and Pythagoras' theorem are the "bridges" between the unknown and the data. Draw a figure and write the dimensions in terms of $x$: the equation will be quicker to form.
 
 :::example A path in a garden
 Suppose a rectangular garden is $20$ m long and $14$ m wide. A path of constant width runs along all four sides, inside the garden; the rest, used for vegetables, has area $160$ m². Find the width of the path.
@@ -78,7 +78,7 @@ label 10,1 "x"
 
 ## Rate of work and motion problems
 
-These two types have the same structure: $\text{amount of work}=\text{rate}\times\text{time}$ and $\text{distance}=\text{speed}\times\text{time}$. The time is written as a fraction, so the equation has the unknown in a denominator (lesson [equations reducible to linear equations](lesson:equations-reducible-to-linear)).
+These two types have the same structure: $\text{amount of work}=\text{rate}\times\text{time}$ and $\text{distance}=\text{speed}\times\text{time}$. Because the time is written as a fraction, the equation has the unknown in a denominator (lesson [equations reducible to linear equations](lesson:equations-reducible-to-linear)).
 
 :::example Answering the opening question
 Solve the tree-planting problem from the opening.
@@ -94,7 +94,7 @@ So the team planned to plant $20$ trees per day.
 **Check.** Planned: $120\div20=6$ days; actual: $120\div24=5$ days, which is $1$ day early.
 :::
 
-The next motion problem has more data, so we go through all four steps.
+The next motion problem has more data, so we go through all four steps, one at a time.
 
 :::example There and back at two speeds
 A motorcyclist rides from home to a city $60$ km away. On the way back, the rider goes $10$ km/h faster, so the return journey takes $30$ minutes less. Find the speed on the way there.
@@ -116,7 +116,7 @@ So the speed on the way there is $30$ km/h.
 
 ## Percentage growth problems
 
-If a quantity grows by $r$ (written as a decimal) each year, then each year it is multiplied by $1+r$; after two years it is multiplied by $(1+r)^2$. This is the common law behind compound interest, population growth and rising prices.
+Suppose a quantity grows by $r$ (written as a decimal) each year. After each year it is multiplied by $1+r$; after two years it is multiplied by $(1+r)^2$. Why multiplication? Because each year the new amount is the old amount plus a part of the old amount. This is the common law behind compound interest, population growth and rising prices.
 
 :::example The population of a commune
 Suppose the population of a commune grows from $10\,000$ to $10\,404$ people in $2$ years, at the same rate each year. Find the yearly growth rate of the population.
@@ -133,11 +133,11 @@ So the population grows by $2\%$ per year.
 :::
 
 :::warning Common mistakes
-- **Not checking the condition.** Wrong: "the speed is $30$ km/h or $-40$ km/h". Right: reject the roots that break the condition ($x>0$) before concluding.
+- **Not checking the condition.** Wrong: "the speed is $30$ km/h or $-40$ km/h". Right: reject the roots that break the condition ($x>0$) before concluding. Many people forget this.
 - **Subtracting the times the wrong way round.** "Finishes early" means the planned time is longer, so we need $\text{planned}-\text{actual}=1$, not the other way round.
 :::
 
-**Connections.** This lesson gathers the tools of the chapter: the quadratic formula, Viète's theorem and equations with the unknown in a denominator; it also links to forming simultaneous equations in chapter I. When you meet a problem, ask yourself: which quantities depend on each other, and which relation between them is an "equals"?
+**Connections.** This lesson gathers the tools of the chapter: the quadratic formula, Viète's theorem and equations with the unknown in a denominator; it also links to forming simultaneous equations in chapter I. When you meet a problem, ask yourself: which quantities depend on each other, and which relation between them is an "equals"? The tree-planting problem is the same: its answer was waiting inside one equation like that.
 
 ## Key terms
 
@@ -158,10 +158,11 @@ So the population grows by $2\%$ per year.
 - Geometry: use perimeter, area and Pythagoras' theorem; draw a figure with dimensions in terms of $x$.
 - Rate of work and motion: $\text{time}=\dfrac{\text{total}}{\text{rate}}$ or $\dfrac{\text{distance}}{\text{speed}}$; make the units consistent.
 - Growth: after two years a quantity is multiplied by $(1+r)^2$.
+Back to the tree-planting team: once we write the link between trees, days and the total correctly, the equation answers for us. One thing to remember: never skip the check against the condition.
 
 ## Practice
 
-Each exercise comes with what you need and some steps to start. Try it yourself first, then open the solution.
+Each exercise comes with what you need to remember and some steps to start. Try it yourself first, and open the solution only when you are stuck. After a few exercises it will feel much more familiar.
 
 :::exercise
 Find two consecutive even natural numbers whose product is $224$.

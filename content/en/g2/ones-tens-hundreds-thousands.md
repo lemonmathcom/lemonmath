@@ -12,11 +12,11 @@ minutes: 15
 
 Mai has $10$ loose marbles. She puts all $10$ into one bag. How many bags of ten marbles can $10$ loose marbles make?
 
-Counting one by one takes a long time. This lesson shows you how to count faster by making groups.
+Counting one by one takes a long time, especially when there are lots of marbles. To go faster, we put the marbles into groups and count the groups. Let us see how.
 
 ## Let's explore
 
-You already know how to count to $10$. When we have $10$ loose objects, we put them in one group called **one ten**.
+You already know how to count to $10$. Now think about this: when we have $10$ loose objects, we can pack them into one group to keep things tidy. Each group like this is called **one ten**.
 
 ![Four place-value blocks representing 1, 10, 100, and 1,000](/assets/img/g2/g2-ones-tens-hundreds-thousands-01.svg)
 
@@ -24,7 +24,7 @@ You already know how to count to $10$. When we have $10$ loose objects, we put t
 - $10$ of these bags (each is $1$ ten) make $1$ **hundred**.
 - $10$ of these boxes (each is $1$ hundred) make $1$ **thousand**.
 
-We write this in a table:
+We can record these exchanges in a table, so they are easy to see:
 
 | Exchange | Make |
 |---|---|
@@ -32,7 +32,7 @@ We write this in a table:
 | $10$ tens | $1$ hundred |
 | $10$ hundreds | $1$ thousand |
 
-So $10$ loose marbles make $1$ bag of ten marbles.
+Now we can answer the opening question: $10$ loose marbles make $1$ bag of ten marbles.
 
 :::theorem The exchange rule
 - $10$ ones $=1$ ten.
@@ -40,11 +40,11 @@ So $10$ loose marbles make $1$ bag of ten marbles.
 - $10$ hundreds $=1$ thousand.
 :::
 
-The rule works because each time we have $10$ equal groups, we put them into one bigger group, and nothing is lost.
+Why can we exchange like this? Each time we have $10$ equal groups, we simply put them together into one bigger group. Nothing is lost; we have just made counting shorter.
 
 ## Examples
 
-We start with the simplest exchange.
+Let us try the simplest exchange first.
 
 :::example From ones to tens
 Lan has $10$ loose sweets. How many tens of sweets can she make?
@@ -54,7 +54,7 @@ Lan has $10$ loose sweets. How many tens of sweets can she make?
 So Lan has $1$ ten of sweets.
 :::
 
-Now we exchange the other way, from tens back to ones.
+Now let us go the other way, from tens back to ones.
 
 :::example From tens to ones
 Nam has $2$ tens of marbles. How many marbles does he have?
@@ -64,7 +64,7 @@ $$10+10=20.$$
 So Nam has $20$ marbles.
 :::
 
-Next we go up one step: from tens to hundreds.
+Now we climb one step higher: from tens to hundreds.
 
 :::example From tens to hundreds
 There are $10$ tens of exercise books. How many hundreds is that? How many tens are in one hundred?
@@ -74,7 +74,7 @@ There are $10$ tens of exercise books. How many hundreds is that? How many tens 
 So it is $1$ hundred books, and $1$ hundred has $10$ tens.
 :::
 
-Finally we use the rule for an everyday problem.
+Finally, we use the rule in a shop, counting books.
 
 :::example Boxes of books
 One box holds $100$ exercise books. A shop has $10$ such boxes. How many books are there altogether?
@@ -85,9 +85,9 @@ So the shop has $1$ thousand books.
 :::
 
 :::warning Mistakes to watch out for
-- **Mixing up hundreds and tens.** Wrong: "$1$ hundred has $10$ ones". Why it is wrong: $10$ ones make only $1$ ten. Right: $1$ hundred has $10$ tens.
-- **Mixing up tens and ones.** Wrong: "$1$ ten is $1$ one". Why it is wrong: $1$ ten is one group of $10$ ones. Right: $1$ ten has $10$ ones.
-- **Mixing up thousands and hundreds.** Wrong: "$10$ hundreds make $1$ hundred". Why it is wrong: $10$ hundreds are ten big groups. Right: $10$ hundreds make $1$ thousand.
+- **Mixing up hundreds and tens.** Wrong: "$1$ hundred has $10$ ones". Why it is wrong: $10$ ones make only $1$ ten, no more. Right: $1$ hundred has $10$ tens.
+- **Mixing up tens and ones.** Wrong: "$1$ ten is $1$ one". Why it is wrong: $1$ ten is a whole group, and the group holds $10$ ones. Right: $1$ ten has $10$ ones.
+- **Mixing up thousands and hundreds.** Wrong: "$10$ hundreds make $1$ hundred". Why it is wrong: $10$ hundreds are ten big groups put together, not just one group. Right: $10$ hundreds make $1$ thousand.
 :::
 
 ## Key terms
@@ -109,9 +109,11 @@ So the shop has $1$ thousand books.
 - $10$ hundreds $=1$ thousand.
 - Making groups of $10$ helps you count faster.
 
+Back to our opening question: once we have ten loose marbles, we can put them in a bag, and that bag is one ten. Remember this way of making groups, then try the practice exercises.
+
 ## Practice
 
-Each exercise comes with what you need and how to start. Try it yourself first, then open the solution.
+Each exercise has what you need to remember and a hint to start you off. Have a go on your own first, then open the solution to check.
 
 :::exercise
 Write the right number in each box.

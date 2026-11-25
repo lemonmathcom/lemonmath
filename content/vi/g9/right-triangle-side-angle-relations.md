@@ -10,13 +10,13 @@ minutes: 20
 - Tính chiều cao, khoảng cách trong thực tế mà không cần đo trực tiếp.
 :::
 
-Bạn Minh đứng cách chân cột cờ của trường $15$ m. Minh nhìn lên đỉnh cột cờ theo một tia hợp với phương nằm ngang góc $35^\circ$, mắt Minh cách mặt đất $1{,}5$ m. Không cần trèo lên, làm sao biết cột cờ cao bao nhiêu mét?
+Bạn Minh đứng cách chân cột cờ của trường $15$ m. Minh nhìn lên đỉnh cột cờ theo một tia hợp với phương nằm ngang góc $35^\circ$, và mắt Minh cách mặt đất $1{,}5$ m. Ta muốn biết cột cờ cao bao nhiêu mét mà không cần trèo lên. Làm được không?
 
-Trong tam giác vuông tạo bởi mắt Minh, đỉnh cột và một điểm trên cột ngang tầm mắt, ta biết một cạnh ($15$ m) và một góc ($35^\circ$). Bài này cho ta cách tính các cạnh còn lại.
+Hãy vẽ một tam giác vuông gồm mắt Minh, đỉnh cột và một điểm trên cột ngang tầm mắt. Trong tam giác ấy ta đã biết một cạnh ($15$ m) và một góc ($35^\circ$). Biết chừng đó là đủ để tính các cạnh còn lại, và cách tính chính là điều ta học ngay sau đây.
 
 ## Hệ thức giữa cạnh và góc
 
-Cho tam giác $ABC$ vuông tại $A$, với $BC=a$, $CA=b$, $AB=c$.
+Ta lấy tam giác $ABC$ vuông tại $A$ và đặt tên cho ba cạnh: $BC=a$, $CA=b$, $AB=c$.
 
 :::diagram Tam giác vuông $ABC$ với các cạnh $a$, $b$, $c$
 alt: Tam giác ABC vuông tại A, cạnh huyền BC kí hiệu a, cạnh CA kí hiệu b, cạnh AB kí hiệu c
@@ -32,7 +32,7 @@ right B A C
 
 ### Khám phá
 
-Từ định nghĩa, $\sin B=\dfrac{b}{a}$. Nhân hai vế với $a$ ta được $b=a\sin B$. Chẳng hạn, nếu $a=10$ và $\widehat{B}=30^\circ$ thì $b=10\cdot\dfrac12=5$. Làm tương tự với các tỉ số khác, ta được bốn hệ thức.
+Ta bắt đầu từ định nghĩa: $\sin B=\dfrac{b}{a}$. Muốn có cạnh đó đứng một mình, ta nhân hai vế với $a$ và được $b=a\sin B$. Chẳng hạn, nếu $a=10$ và $\widehat{B}=30^\circ$ thì $b=10\cdot\dfrac12=5$. Làm tương tự với các tỉ số lượng giác khác, ta được bốn hệ thức.
 
 :::theorem Hệ thức giữa cạnh và góc trong tam giác vuông
 Trong tam giác $ABC$ vuông tại $A$:
@@ -42,7 +42,7 @@ $$b=a\sin B=a\cos C,\qquad c=a\sin C=a\cos B.$$
 $$b=c\tan B=c\cot C,\qquad c=b\tan C=b\cot B.$$
 :::
 
-Vì sao? Mỗi đẳng thức chỉ là định nghĩa viết lại. Ví dụ $\cos C=\dfrac{b}{a}$ (cạnh kề của góc $C$ là $b$), nên $b=a\cos C$; $\tan B=\dfrac bc$, nên $b=c\tan B$.
+Vì sao các hệ thức này đúng? Vì mỗi đẳng thức chỉ là định nghĩa được viết lại. Ví dụ, $\cos C=\dfrac{b}{a}$ (cạnh kề của góc $C$ là $b$), nên $b=a\cos C$. Tương tự, $\tan B=\dfrac bc$ nên $b=c\tan B$. Nhớ định nghĩa là bạn tự suy ra được, không cần học thuộc từng dòng.
 
 :::example Biết cạnh huyền và một góc nhọn
 Cho tam giác $ABC$ vuông tại $A$ có $BC=12$ cm, $\widehat{B}=40^\circ$. Tính $AC$ và $AB$ (làm tròn đến hàng phần trăm).
@@ -54,7 +54,7 @@ $$AC=BC\sin B=12\sin40^\circ\approx7{,}71;\qquad AB=BC\cos B=12\cos40^\circ\appr
 Vậy $AC\approx7{,}71$ cm và $AB\approx9{,}19$ cm.
 :::
 
-Khi biết một cạnh góc vuông, ta dùng tang hoặc côtang.
+Còn khi cạnh đã biết là một cạnh góc vuông và ta cần tìm cạnh góc vuông kia, tang hoặc côtang là công cụ vừa tay.
 
 :::example Biết một cạnh góc vuông và một góc nhọn
 Cho tam giác $ABC$ vuông tại $A$ có $AB=6$ cm, $\widehat{B}=55^\circ$. Tính $AC$ (làm tròn đến hàng phần trăm).
@@ -68,7 +68,7 @@ Vậy $AC\approx8{,}57$ cm.
 
 ## Giải tam giác vuông
 
-**Giải tam giác vuông** là tìm tất cả các cạnh và góc còn lại khi biết hai yếu tố, trong đó có ít nhất một cạnh. Ta dùng ba công cụ: định lí Pythagore, $\widehat{B}+\widehat{C}=90^\circ$, và các hệ thức ở trên.
+**Giải tam giác vuông** nghĩa là tìm tất cả các cạnh và góc còn lại, khi ta đã biết hai yếu tố, trong đó có ít nhất một cạnh. Vì sao phải có một cạnh? Vì chỉ biết các góc thì ta mới biết hình dạng, chưa biết to nhỏ ra sao. Ta có ba công cụ: định lí Pythagore, $\widehat{B}+\widehat{C}=90^\circ$, và các hệ thức ở trên.
 
 :::example Biết hai cạnh góc vuông
 Giải tam giác $ABC$ vuông tại $A$, biết $AB=5$ cm, $AC=7$ cm (góc làm tròn đến độ, cạnh đến hàng phần trăm).
@@ -92,7 +92,7 @@ Vậy $\widehat{B}=55^\circ$, $AB\approx11{,}47$ cm, $AC\approx16{,}38$ cm.
 
 ## Ứng dụng: đo chiều cao và khoảng cách
 
-Khi nhìn lên một vật, góc giữa tia nhìn và phương nằm ngang gọi là **góc nâng**. Khi nhìn xuống, góc đó gọi là **góc hạ**. Ta dựng một tam giác vuông có một cạnh nằm ngang, rồi dùng hệ thức.
+Khi ta nhìn lên một vật, góc giữa tia nhìn và phương nằm ngang gọi là **góc nâng**. Khi nhìn xuống, góc ấy gọi là **góc hạ**. Với các bài thực tế, ta dựng một tam giác vuông có một cạnh nằm ngang, rồi dùng các hệ thức vừa học.
 
 :::diagram Đo chiều cao cột cờ
 alt: Mắt Minh ở điểm M cao 1,5 mét so với mặt đất, cách cột cờ 15 mét, tia nhìn lên đỉnh cột D tạo với phương ngang góc 35 độ
@@ -124,6 +124,7 @@ Vậy cột cờ cao khoảng $12{,}0$ m.
 - **Chọn sai tỉ số.** Sai: $AC=BC\cos B$. Lí do sai: $AC$ đối diện góc $B$, nên đi với sin. Đúng: $AC=BC\sin B$ (hoặc $BC\cos C$).
 - **Chia thay vì nhân.** Sai: $AC=\dfrac{AB}{\tan B}$. Lí do sai: $\tan B=\dfrac{AC}{AB}$ nên $AC=AB\tan B$. Đúng: chỉ chia khi cần tìm cạnh ở mẫu, ví dụ $BC=\dfrac{AC}{\sin B}$.
 - **Làm tròn quá sớm.** Sai: ở bài thả diều, lấy $\sin38^\circ\approx0{,}6$ rồi tính $50\cdot0{,}6=30$ (m). Lí do sai: $50\sin38^\circ\approx30{,}78$, lệch gần $0{,}8$ m, và sai số còn lớn dần qua nhiều bước. Đúng: giữ nguyên trên máy, chỉ làm tròn kết quả cuối.
+Ba lỗi này ai mới học cũng dễ mắc, nên trước khi tính hãy dừng một nhịp xem cạnh cần tìm đối hay kề với góc đã cho.
 :::
 
 ## Thuật ngữ
@@ -145,10 +146,11 @@ Vậy cột cờ cao khoảng $12{,}0$ m.
 - $b=c\tan B=c\cot C$, $c=b\tan C=b\cot B$.
 - Giải tam giác vuông: Pythagore, $\widehat B+\widehat C=90^\circ$, các hệ thức; cần biết ít nhất một cạnh.
 - Bài thực tế: vẽ hình, tìm tam giác vuông, chọn tỉ số, làm tròn ở bước cuối.
+Quay lại cột cờ của bạn Minh: một cạnh, một góc nhọn và một tam giác vuông là đủ để tính chiều cao. Bạn hãy làm các bài luyện tập, và nhớ vẽ hình trước khi chọn tỉ số.
 
 ## Luyện tập
 
-Mỗi bài có phần kiến thức và gợi ý các bước. Hãy tự làm trước, rồi mới bấm xem lời giải.
+Mỗi bài đều có phần kiến thức cần nhớ và vài gợi ý để bắt đầu. Bạn cứ tự làm trước, vướng ở đâu thì đọc gợi ý, sau cùng mới mở lời giải để đối chiếu.
 
 :::exercise
 Cho tam giác $ABC$ vuông tại $A$ có $BC=8$ cm, $\widehat{C}=30^\circ$. Tính $AB$ và $AC$.

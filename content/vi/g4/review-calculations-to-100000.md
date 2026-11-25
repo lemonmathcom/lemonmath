@@ -10,25 +10,26 @@ minutes: 15
 - Thử lại kết quả và giải bài toán có lời văn bằng các phép tính này.
 :::
 
-Tháng Một, một cửa hàng bán được $23\,456$ quyển vở. Tháng Hai bán được $18\,749$ quyển. Cả hai tháng cửa hàng bán được bao nhiêu quyển vở?
+Tháng Một, một cửa hàng bán được $23\,456$ quyển vở, sang tháng Hai bán thêm $18\,749$ quyển nữa. Cả hai tháng, cửa hàng bán được bao nhiêu quyển vở?
 
-Em đã biết đặt tính từ lớp $3$. Bài này giúp em nhớ lại thật chắc cách làm cả bốn phép tính với số lớn.
+Em đã đặt tính từ lớp $3$ rồi. Nhưng với số lớn, chỉ sơ ý một chút là lệch cột hoặc quên số nhớ. Ta ôn lại cách làm cả bốn phép tính, từng bước một, để gặp số lớn em vẫn làm chắc tay.
 
 ## Cùng khám phá
 
-Muốn biết "cả hai tháng", em làm phép cộng. Em đặt tính sao cho các chữ số cùng hàng thẳng cột, rồi cộng từ phải sang trái:
+Chữ "cả hai tháng" cho em biết phải làm phép cộng. Ta đặt tính sao cho các chữ số cùng hàng thẳng cột, vì chỉ những chữ số cùng hàng mới cộng được với nhau. Rồi cộng từ phải sang trái:
 
 $$\begin{array}{r} 23\,456\\ +\ 18\,749\\ \hline 42\,205 \end{array}$$
 
-Từng hàng, từ phải sang trái:
+Ta đi qua từng hàng, từ phải sang trái:
 
 - Hàng đơn vị: $6+9=15$, viết $5$ nhớ $1$.
 - Hàng chục: $5+4+1=10$, viết $0$ nhớ $1$.
 - Hàng trăm: $4+7+1=12$, viết $2$ nhớ $1$.
 - Hàng nghìn: $3+8+1=12$, viết $2$ nhớ $1$.
 - Hàng chục nghìn: $2+1+1=4$, viết $4$.
+Ở mỗi hàng chỉ viết một chữ số, phần còn lại nhớ sang hàng bên trái.
 
-Vậy cả hai tháng bán được $42\,205$ quyển vở.
+Vậy cả hai tháng cửa hàng bán được $42\,205$ quyển vở. Đó là lời đáp cho câu hỏi đầu bài.
 
 :::theorem Bốn phép tính và cách thử lại
 - **Cộng, trừ:** đặt tính thẳng hàng, làm từ **phải sang trái**, nhớ khi cần. Thử lại phép cộng bằng phép trừ, thử lại phép trừ bằng phép cộng.
@@ -36,11 +37,11 @@ Vậy cả hai tháng bán được $42\,205$ quyển vở.
 - **Chia cho số có một chữ số:** chia từ **trái sang phải**, mỗi lần hạ một chữ số xuống. Thử lại bằng phép nhân.
 :::
 
-Các cách thử lại đúng vì phép cộng và phép trừ là hai phép ngược nhau, phép nhân và phép chia cũng vậy.
+Vì sao thử lại được? Vì phép cộng và phép trừ là hai phép ngược nhau: cộng vào rồi trừ đi thì về chỗ cũ. Phép nhân và phép chia cũng ngược nhau như vậy.
 
 ## Ví dụ
 
-Ta bắt đầu bằng một phép cộng có nhớ nhiều lần.
+Ta bắt đầu bằng một phép cộng phải nhớ nhiều lần. Em chú ý số nhớ ở mỗi hàng.
 
 :::example Phép cộng
 Tính $35\,628+24\,975$.
@@ -54,7 +55,7 @@ Các bước: $8+5=13$ (viết $3$ nhớ $1$); $2+7+1=10$ (viết $0$ nhớ $1$)
 Vậy $35\,628+24\,975=60\,603$.
 :::
 
-Phép trừ có khó hơn khi số bị trừ có nhiều chữ số $0$.
+Phép trừ sẽ khó hơn khi số bị trừ có nhiều chữ số $0$, vì hàng bên cạnh chẳng có gì để mượn. Ta xem cách xử lí.
 
 :::example Phép trừ
 Tính $70\,000-25\,438$.
@@ -70,7 +71,7 @@ Các bước: $10-8=2$; $9-3=6$; $9-4=5$; $9-5=4$; $6-2=4$.
 Vậy $70\,000-25\,438=44\,562$.
 :::
 
-Bây giờ đến phép nhân.
+Bây giờ đến phép nhân, cũng làm từ phải sang trái.
 
 :::example Phép nhân
 Tính $12\,405\times6$.
@@ -84,7 +85,7 @@ Các bước: $5\times6=30$ (viết $0$ nhớ $3$); $0\times6+3=3$ (viết $3$);
 Vậy $12\,405\times6=74\,430$.
 :::
 
-Phép chia làm từ trái sang phải.
+Phép chia thì làm ngược lại, từ trái sang phải. Vì sao? Vì ta chia hàng cao trước, phần chưa chia hết được chuyển xuống hàng thấp hơn.
 
 :::example Phép chia
 Tính $48\,372:6$.
@@ -103,7 +104,7 @@ Thương là $8\,062$ và dư $0$.
 Vậy $48\,372:6=8\,062$.
 :::
 
-Cuối cùng, ta dùng các phép tính trong một bài toán có lời văn.
+Cuối cùng, ta dùng các phép tính trong một bài toán có lời văn. Bài toán nhiều bước thì ta tìm trước điều cần biết, rồi mới trả lời câu hỏi chính.
 
 :::example Kho gạo
 Kho có $36\,000$ kg gạo. Mỗi ngày kho bán $4\,250$ kg, bán trong $5$ ngày. Hỏi kho còn lại bao nhiêu ki-lô-gam gạo?
@@ -121,6 +122,7 @@ Vậy kho còn lại $14\,750$ kg gạo.
 - **Đặt tính không thẳng hàng.** Sai: viết $9\,365$ lệch cột so với $25\,480$. Vì sao sai: cộng nhầm các hàng khác nhau. Đúng: viết đơn vị dưới đơn vị, chục dưới chục, …
 - **Quên chữ số $0$ trong thương.** Sai: $36\,054:6=609$. Vì sao sai: khi hạ $0$ và $5$ mà chưa chia được, phải viết $0$ vào thương. Đúng: $36\,054:6=6\,009$.
 - **Quên số nhớ.** Sai: $8+5=13$ rồi viết $13$ vào một hàng. Vì sao sai: mỗi hàng chỉ viết một chữ số. Đúng: viết $3$, nhớ $1$ sang hàng sau.
+Chỗ này nhiều bạn hay nhầm, nhất là ở phép chia. Em đặt tính ngay ngắn và đọc lại từng bước, lỗi sẽ ít đi nhiều.
 :::
 
 ## Thuật ngữ
@@ -145,10 +147,11 @@ Vậy kho còn lại $14\,750$ kg gạo.
 - Nhân với số có một chữ số: nhân từng chữ số từ phải sang trái, nhớ khi cần.
 - Chia cho số có một chữ số: làm từ trái sang phải, mỗi bước hạ một chữ số; nhớ viết $0$ vào thương khi chưa chia được.
 - Thử lại: cộng và trừ ngược nhau; nhân và chia ngược nhau.
+Vậy muốn biết cả hai tháng cửa hàng bán được bao nhiêu quyển vở, ta đặt tính cộng và làm từng hàng từ phải sang trái. Nhớ thử lại bằng phép ngược để chắc kết quả. Em làm thêm vài bài ở phần luyện tập nhé.
 
 ## Luyện tập
 
-Mỗi bài có phần kiến thức và gợi ý. Em hãy tự làm trước, rồi mới bấm xem lời giải.
+Mỗi bài có phần kiến thức cần dùng và một gợi ý để em bắt đầu. Em cứ thử tự làm trước, chưa ra thì mở gợi ý, cuối cùng mới xem lời giải.
 
 :::exercise
 Tính $46\,285+27\,639$.

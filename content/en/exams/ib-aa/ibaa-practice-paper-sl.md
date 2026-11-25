@@ -5,7 +5,7 @@ minutes: 90
 type: exam
 ---
 
-This practice paper follows the format of IB Mathematics: Analysis and Approaches SL **Paper 1**: 90 minutes, **no calculator**, 80 marks, with short questions in Section A and longer questions in Section B. All questions are written by Lemonmath; they are not real IB questions, but they follow the syllabus and the style of the papers, including the [n marks] after each part.
+With no calculator in your hand, you have to do every step yourself, and the only way to get used to that is to sit a full paper against the clock. This practice paper follows the format of IB Mathematics: Analysis and Approaches SL **Paper 1**: 90 minutes, **no calculator**, 80 marks, with short questions in Section A and longer questions in Section B. All questions are written by Lemonmath; they are not real IB questions, but they follow the syllabus and the style of the papers, including the [n marks] after each part.
 
 | | Section A | Section B |
 |---|---|---|
@@ -13,7 +13,7 @@ This practice paper follows the format of IB Mathematics: Analysis and Approache
 | Marks | 42 | 38 |
 | Suggested time | about 45 minutes | about 45 minutes |
 
-**Instructions.** Answer all questions. Show your working: a correct answer without working may not receive full marks. Give exact answers, such as fractions, surds or multiples of $\pi$, unless a question says otherwise. Work on paper with a timer. Each question shows a short hint below it: cover it unless you are stuck, and open the solution only after you have finished.
+**Instructions.** Answer all questions. Show your working, because a correct answer without working may not receive full marks. Give exact answers, such as fractions, surds or multiples of $\pi$, unless a question says otherwise. Work on paper with a timer. Each question shows a short hint below it: cover it unless you are stuck, and open the solution only after you have finished.
 
 ## Section A
 
@@ -193,4 +193,4 @@ In a game, the probability of winning a round is $\dfrac14$, independently of ot
 
 ## After the paper
 
-Add up your marks out of 80, part by part, as an examiner would: method marks still count when an answer is wrong. Grade boundaries change from session to session, so use the score to find weak topics rather than to predict a grade. For every lost mark, revise the matching lesson: [Number and algebra](lesson:ibaa-number-algebra) (questions 1, 3, 5), [Functions](lesson:ibaa-functions) (question 2), [Geometry and trigonometry](lesson:ibaa-geometry-trigonometry) (questions 4, 9), [Statistics and probability](lesson:ibaa-statistics-probability) (questions 6, 10), [Calculus](lesson:ibaa-calculus) (questions 7, 8).
+Add up your marks out of 80, part by part, as an examiner would: method marks still count when an answer is wrong. Grade boundaries change from session to session, so use the score to find weak topics rather than to predict a grade. For every lost mark, revise the matching lesson: [Number and algebra](lesson:ibaa-number-algebra) (questions 1, 3, 5), [Functions](lesson:ibaa-functions) (question 2), [Geometry and trigonometry](lesson:ibaa-geometry-trigonometry) (questions 4, 9), [Statistics and probability](lesson:ibaa-statistics-probability) (questions 6, 10), [Calculus](lesson:ibaa-calculus) (questions 7, 8). Finishing the paper is only half the job. The other half is going back to fix the gaps, then trying those questions again.

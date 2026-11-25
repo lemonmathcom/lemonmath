@@ -12,18 +12,18 @@ minutes: 15
 
 There are $40$ children in Class 5A, and $30$ of them can swim. The teacher asks: what percentage of the class can swim?
 
-Saying "per cent" means comparing with $100$ equal parts. This lesson shows you how to answer questions like this one.
+Saying "per cent" means comparing with $100$ equal parts, so our first job is to turn the teacher's question into that form. It takes three short steps, and you will see why each one works.
 
 ## Let's explore
 
-We compare the $30$ swimmers with all $40$ children in the class. The ratio of the two numbers is $30:40$, or $\dfrac{30}{40}$.
+First we compare the $30$ swimmers with all $40$ children in the class. The ratio of the two numbers is $30:40$, or $\dfrac{30}{40}$.
 
-Remember that $1\%=\dfrac{1}{100}$, so $75\%=\dfrac{75}{100}$. So we need to write the ratio as a fraction with denominator $100$. There are two ways.
+Remember that $1\%=\dfrac{1}{100}$, so, for example, $75\%=\dfrac{75}{100}$. That means we only need to write the ratio as a fraction with denominator $100$, and then we can read off the percentage. There are two ways.
 
 - **Method 1.** Simplify $\dfrac{30}{40}=\dfrac{3}{4}$, then multiply the numerator and the denominator by $25$: $\dfrac{3}{4}=\dfrac{75}{100}=75\%$.
 - **Method 2.** Divide: $30\div40=0.75$. And $0.75=\dfrac{75}{100}=75\%$.
 
-Method 2 works for any pair of numbers, so this is the one we use.
+The first method is neat, but not every pair of numbers is easy to turn into hundredths. Method 2 works for any pair of numbers, so from now on this is the one we use.
 
 :::graph $30$ out of $40$ children is $75\%$ of the class
 alt: A number line from 0% to 100% with the points 0%, 75% and 100% marked and the stretch from 0% to 75% highlighted
@@ -42,11 +42,11 @@ To express the first number as a percentage of the second:
 3. Write the $\%$ sign after the result.
 :::
 
-This works because $0.75=\dfrac{75}{100}$, and $\dfrac{75}{100}$ is exactly $75\%$. Multiplying by $100$ and writing $\%$ turns a decimal into "how many per cent".
+Why does this work? Because $0.75=\dfrac{75}{100}$, and $\dfrac{75}{100}$ is exactly $75\%$. Multiplying by $100$ and writing $\%$ turns a decimal into "how many per cent". So we divide to compare, and multiply by $100$ to count in hundredths.
 
 ## Examples
 
-We start with two small numbers.
+Let us try two small numbers first, to get used to the three steps.
 
 :::example Express $9$ as a percentage of $20$
 **Solution.** Divide $9$ by $20$, then multiply the quotient by $100$:
@@ -54,7 +54,7 @@ $$9\div20=0.45;\qquad 0.45\times100=45.$$
 So $9$ is $45\%$ of $20$.
 :::
 
-Some divisions give a quotient with three decimal places. You still follow the same three steps.
+Some divisions give a quotient with three decimal places. Do not worry if that looks unfamiliar: you still follow the same three steps.
 
 :::example Express $7$ as a percentage of $8$
 **Solution.** Dividing $7$ by $8$ gives $0.875$. Multiplying by $100$ moves the decimal point two places to the right:
@@ -62,7 +62,7 @@ $$7\div8=0.875;\qquad 0.875\times100=87.5.$$
 So $7$ is $87.5\%$ of $8$.
 :::
 
-In a word problem, "what percentage of B is A?" means comparing A with B. We divide A by B, so the "whole" is always the number we divide by.
+In a word problem, "what percentage of B is A?" means comparing A with B. We divide A by B, so the "whole", the number we compare with, is always the number we divide by. Many pupils mix this up, so ask yourself: which number is the whole?
 
 :::example Reading a book
 Nam's book has $90$ pages. He has read $36$ pages. What percentage of the book has Nam read?
@@ -72,7 +72,7 @@ $$36\div90=0.4;\qquad 0.4\times100=40.$$
 So Nam has read $40\%$ of the book.
 :::
 
-When the two numbers have different units, you must convert them to the same unit first.
+When the two numbers have different units, you must convert them to the same unit first. Why? Because we can only compare things of the same kind, such as metres with metres or centimetres with centimetres.
 
 :::example Cutting string
 A piece of string is $2$ m long. $50$ cm is cut off. What percentage of the string has been cut off?
@@ -85,8 +85,8 @@ So $25\%$ of the string has been cut off.
 :::
 
 :::warning Mistakes to watch out for
-- **Forgetting to multiply by $100$.** Wrong: $9\div20=0.45$, answer $0.45\%$. Why it is wrong: $0.45\%$ is less than one per cent. Right: $0.45\times100=45$, answer $45\%$.
-- **Dividing the wrong way round.** Wrong: $5$ as a percentage of $20$ is $20\div5=4$, so $400\%$. Why it is wrong: $5$ is smaller than $20$, so the result must be less than $100\%$. Right: $5\div20=0.25$, so $25\%$.
+- **Forgetting to multiply by $100$.** This step is easy to miss. Wrong: $9\div20=0.45$, answer $0.45\%$. Why it is wrong: $0.45\%$ is less than one per cent. Right: $0.45\times100=45$, answer $45\%$.
+- **Dividing the wrong way round.** Many pupils mix this up. Wrong: $5$ as a percentage of $20$ is $20\div5=4$, so $400\%$. Why it is wrong: $5$ is smaller than $20$, so the result must be less than $100\%$. Right: $5\div20=0.25$, so $25\%$.
 - **Forgetting to convert units.** Wrong: $50$ cm and $2$ m give $50\div2=25$, so $2500\%$. Why it is wrong: the two numbers have different units. Right: $50\div200=0.25$, so $25\%$.
 :::
 
@@ -111,9 +111,11 @@ So $25\%$ of the string has been cut off.
 - The "whole" (the number you compare with) comes second and is the one you divide by. Both numbers need the same unit.
 - If the first number is smaller than the second, the result is less than $100\%$; if it is larger, the result is more than $100\%$.
 
+Back to the teacher's question: divide, multiply by $100$, write $\%$, and you can say what percentage of the class can swim. One thing to remember: the whole is always the number you divide by. A few practice exercises will make this feel natural.
+
 ## Practice
 
-Each exercise comes with what you need and how to start. Try it yourself first, then open the solution.
+Each exercise has a reminder of what you need and a hint for getting started. Try it yourself first, then open the solution. A little regular practice turns these three steps into a habit.
 
 :::exercise
 Express $3$ as a percentage of $5$.

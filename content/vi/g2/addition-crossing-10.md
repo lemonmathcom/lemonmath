@@ -12,17 +12,18 @@ minutes: 15
 
 Lan có $8$ cái kẹo. Mẹ cho Lan thêm $5$ cái nữa. Hỏi Lan có tất cả bao nhiêu cái kẹo?
 
-Em có thể đếm thêm từng cái: $9, 10, 11, 12, 13$. Nhưng đếm như vậy dễ nhầm và chậm. Bài này dạy em một mẹo nhanh hơn nhiều.
+Em có thể đếm thêm từng cái: $9, 10, 11, 12, 13$. Cách đó đúng, nhưng chậm và dễ đếm lệch một số. Có một cách nhanh hơn: làm cho đủ một chục trước, rồi cộng nốt phần còn lại.
 
 ## Cùng khám phá
 
-Lan có một hộp đựng kẹo có đúng $10$ ô. Lan bỏ $8$ cái kẹo vào, hộp còn trống $2$ ô.
+Em hình dung một hộp đựng kẹo có đúng $10$ ô. Lan bỏ $8$ cái kẹo vào hộp, và hộp còn trống $2$ ô.
 
 - Lan lấy $2$ cái trong $5$ cái mẹ cho để lấp đầy hộp. Hộp đủ $10$ cái.
 - Số kẹo mẹ cho còn lại $3$ cái ở ngoài hộp.
 - $10$ cái trong hộp và $3$ cái ở ngoài là $13$ cái.
+Hộp đầy rồi, em chỉ còn đếm thêm phần ở ngoài.
 
-Vậy $8+5=13$. Em thấy không, chỉ cần **gộp cho đủ 10** là tính được ngay.
+Vậy $8+5=13$. Cách em vừa làm có tên là **gộp cho đủ 10**: lấp đầy hộp trước, rồi cộng phần còn lại ở ngoài hộp.
 
 :::graph Trên tia số: từ 8, nhảy 2 bước đến 10, rồi nhảy 3 bước đến 13
 alt: Tia số từ 0 đến 20, đánh dấu các điểm 8, 10 và 13; đoạn từ 8 đến 10 và từ 10 đến 13
@@ -41,11 +42,11 @@ Muốn tính $8+5$:
 3. Cộng: $8+2=10$, rồi $10+3=13$.
 :::
 
-Mẹo này đúng vì em không làm mất cái kẹo nào: em chỉ chuyển $2$ cái vào hộp cho đủ $10$, phần còn lại vẫn được đếm.
+Vì sao mẹo này đúng? Vì không có cái kẹo nào bị mất: em chỉ chuyển $2$ cái vào hộp cho đủ $10$, còn phần còn lại vẫn được đếm.
 
 ## Ví dụ
 
-Ta bắt đầu với một phép cộng có số $9$, vì $9$ chỉ cần thêm $1$ là đủ $10$.
+Ta thử với số $9$ trước, vì $9$ chỉ cần thêm $1$ là đủ $10$. Cách tách số khi đó khá đơn giản.
 
 :::example Tính $9+4$
 **Lời giải.** $9$ cần thêm $1$ để được $10$, nên em tách $4$ thành $1$ và $3$:
@@ -53,7 +54,7 @@ $$9+4=9+1+3=10+3=13.$$
 Vậy $9+4=13$.
 :::
 
-Với số $7$, em cần thêm nhiều hơn để đủ $10$.
+Với số $7$ thì khác: em cần thêm nhiều hơn mới đủ $10$. Em tự hỏi xem cần thêm mấy.
 
 :::example Tính $7+6$
 **Lời giải.** $7$ cần thêm $3$ để được $10$, nên em tách $6$ thành $3$ và $3$:
@@ -61,7 +62,7 @@ $$7+6=7+3+3=10+3=13.$$
 Vậy $7+6=13$.
 :::
 
-Khi số đứng trước nhỏ hơn, em có thể đổi chỗ hai số cho dễ tính.
+Có khi số đứng trước lại là số nhỏ hơn. Em cứ đổi chỗ hai số, vì tổng không thay đổi, rồi tính cho dễ.
 
 :::example Tính $6+8$
 **Lời giải.** Đổi chỗ hai số hạng thì tổng không đổi, nên $6+8=8+6$. Số $8$ chỉ cần thêm $2$ để được $10$, nên em tách $6$ thành $2$ và $4$:
@@ -69,7 +70,7 @@ $$8+6=8+2+4=10+4=14.$$
 Vậy $6+8=14$.
 :::
 
-Bây giờ em dùng phép cộng để trả lời một câu hỏi trong cuộc sống.
+Giờ em dùng phép cộng cho một việc quen thuộc: các tổ cùng trồng cây.
 
 :::example Trồng cây
 Tổ Một trồng được $9$ cây, tổ Hai trồng được $7$ cây. Hỏi cả hai tổ trồng được bao nhiêu cây?
@@ -82,7 +83,8 @@ Vậy cả hai tổ trồng được $16$ cây.
 :::warning Những lỗi em hay gặp
 - **Quên phần còn lại.** Sai: $8+5=10$. Vì sao sai: em mới cộng $2$ trong số $5$, còn quên $3$. Đúng: $8+5=10+3=13$.
 - **Tách sai.** Sai: tách $5$ thành $2$ và $2$. Vì sao sai: $2+2=4$, không bằng $5$. Đúng: $5=2+3$.
-- **Bài toán có lời văn quên đơn vị.** Sai: "Đáp số: $16$". Đúng: "Đáp số: $16$ cây".
+- **Bài toán có lời văn quên đơn vị.** Sai: "Đáp số: $16$". Vì sao sai: con số đứng một mình chưa cho biết đó là cái gì. Đúng: "Đáp số: $16$ cây".
+Chỗ này nhiều bạn hay nhầm, nên sau khi tách số, em hãy cộng lại hai phần để xem có đủ số cũ không.
 :::
 
 ## Thuật ngữ
@@ -103,10 +105,11 @@ Vậy cả hai tổ trồng được $16$ cây.
 - Ví dụ: $8+5=8+2+3=10+3=13$.
 - Đổi chỗ các số hạng thì tổng không đổi; em có thể cộng vào số lớn hơn cho dễ.
 - Bài toán hỏi "tất cả", "cả hai" thường là phép cộng; nhớ ghi đơn vị trong đáp số.
+Câu hỏi của Lan lúc đầu cũng giải theo cách ấy: lấp đầy hộp cho đủ một chục rồi cộng phần còn lại. Em luyện thêm vài phép tính để quen tay nhé.
 
 ## Luyện tập
 
-Mỗi bài có phần kiến thức và gợi ý. Em hãy tự làm trước, rồi mới bấm xem lời giải.
+Mỗi bài có phần nhắc kiến thức và một gợi ý để em bắt đầu. Em cứ tự làm trước. Làm xong, hoặc khi bí, hãy bấm xem lời giải.
 
 :::exercise
 Tính $9+3$.

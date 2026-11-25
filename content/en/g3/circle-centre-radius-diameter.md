@@ -12,11 +12,11 @@ minutes: 15
 
 Nam draws a circle with compasses. He puts the sharp point at a point $O$ and opens the compasses to $3$ cm. How many centimetres is the diameter of the circle he draws?
 
-This lesson helps you name the parts of a circle and answer that question.
+To answer that, we first need names for the parts of a circle. Once you know the names and how the parts are linked, you can find the diameter with one short calculation.
 
 ## Let's explore
 
-When we draw with compasses, the sharp point stays still at $O$ and the pencil turns all the way round. Every point on the line we draw is the same distance from $O$, equal to the opening of the compasses.
+Watch what happens when we draw with compasses. The sharp point stays still at $O$ and the pencil turns all the way round. So every point on the line is the same distance from $O$, equal to the opening of the compasses.
 
 :::diagram A circle with centre O: radii OA, OC and diameter AB
 alt: A circle with centre O and radius 3; the line AB lies across the circle through O with both ends on the circle; the line OC goes from O up to the point C on the circle
@@ -29,13 +29,13 @@ segment A B
 segment O C
 :::
 
-Look at the picture:
+Let's look at the picture and name each part:
 
-- Point $O$ is the **centre** of the circle.
-- A line segment from the centre $O$ to a point on the circle (such as $OA$, $OB$, $OC$) is a **radius**.
-- The line segment $AB$ passes through the centre $O$ and has both ends on the circle. It is a **diameter**.
+- Point $O$, where the sharp point stays still, is the **centre** of the circle.
+- A line segment from the centre $O$ to a point on the circle (such as $OA$, $OB$, $OC$) is called a **radius**.
+- The line segment $AB$ passes through the centre $O$ and has both ends on the circle. It is called a **diameter**.
 
-The diameter $AB$ is made of two radii, $OA$ and $OB$, so the diameter is double the radius. The centre $O$ is the midpoint of the diameter $AB$.
+Look closely: the diameter $AB$ is made of two radii, $OA$ and $OB$, end to end. So the diameter is double the radius. The centre $O$ sits exactly in the middle, so it is the midpoint of the diameter $AB$.
 
 :::theorem Radius and diameter
 In a circle:
@@ -45,13 +45,13 @@ In a circle:
 - The radius is half the diameter: radius $=$ diameter $\div2$.
 :::
 
-This is true because every point on the circle is the same distance from the centre, equal to the opening of the compasses, and the diameter is two radii end to end.
+Why is this true? Every point on the circle is the same distance from the centre, equal to the opening of the compasses, so all radii are equal. And the diameter is two radii end to end, so it is double the radius.
 
-With the compasses open to $3$ cm, the radius is $3$ cm, so the diameter is $3\times2=6$ cm.
+Back to Nam's question. With the compasses open to $3$ cm, the radius is $3$ cm, so the diameter is $3\times2=6$ cm.
 
 ## Examples
 
-We start by naming line segments.
+Let's start by naming line segments.
 
 :::example Naming
 In a circle with centre $O$, the points $A$, $B$, $C$ are on the circle and $O$ is on the line segment $AB$. Name the segments $OA$, $AB$ and $OC$.
@@ -61,7 +61,7 @@ In a circle with centre $O$, the points $A$, $B$, $C$ are on the circle and $O$ 
 So $OA$ and $OC$ are radii; $AB$ is a diameter.
 :::
 
-Now work out the diameter from the radius.
+If we know the radius, how do we find the diameter? We double it, as in this example.
 
 :::example From radius to diameter
 A circle has radius $5$ cm. Find the diameter.
@@ -73,7 +73,7 @@ $$5\times2=10\ \text{(cm)}.$$
 So the diameter is $10$ cm.
 :::
 
-Going the other way, find the radius from the diameter.
+And if we know the diameter? We go the other way and take half.
 
 :::example From diameter to radius
 A circle has diameter $14$ cm. Find the radius.
@@ -85,7 +85,7 @@ $$14\div2=7\ \text{(cm)}.$$
 So the radius is $7$ cm.
 :::
 
-Next, a problem from everyday life.
+Circles are everywhere, on a dinner plate for example. Try this problem.
 
 :::example A plate
 A round plate has radius $9$ cm. How many centimetres is the diameter of the plate?
@@ -97,7 +97,7 @@ $$9\times2=18\ \text{(cm)}.$$
 So the diameter of the plate is $18$ cm.
 :::
 
-Finally, use compasses to draw.
+Finally, back to the compasses: how far should we open them?
 
 :::example Drawing a circle
 To draw a circle with diameter $8$ cm, how many centimetres should you open the compasses?
@@ -110,10 +110,10 @@ So you open the compasses to $4$ cm.
 :::
 
 :::warning Mistakes to watch out for
-- **Mixing up radius and diameter.** Wrong: a circle with radius $5$ cm has diameter $5$ cm too. Why it is wrong: the diameter is made of two radii. Right: the diameter is $5\times2=10$ cm.
+- **Mixing up radius and diameter.** This is an easy mistake to make. Wrong: a circle with radius $5$ cm has diameter $5$ cm too. Why it is wrong: the diameter is made of two radii. Right: the diameter is $5\times2=10$ cm.
 - **Thinking any segment joining two points on the circle is a diameter.** Wrong: the segment $AC$ joins two points on the circle, so it is a diameter. Why it is wrong: a diameter must pass through the centre $O$. Right: only a segment joining two points on the circle and passing through the centre is a diameter.
-- **Forgetting to halve or double.** Wrong: diameter $14$ cm means radius $14$ cm. Why it is wrong: the radius is only half. Right: $14\div2=7$ cm.
-- **Forgetting the unit.** Wrong: "Answer: $10$". Right: "Answer: $10$ cm".
+- **Forgetting to halve or double.** Wrong: diameter $14$ cm means radius $14$ cm. Why it is wrong: the radius is only half. Ask yourself: the radius should be shorter than the diameter, so does the answer make sense? Right: $14\div2=7$ cm.
+- **Forgetting the unit.** Wrong: "Answer: $10$". A number always needs its unit. Right: "Answer: $10$ cm".
 :::
 
 ## Key terms
@@ -137,9 +137,11 @@ So you open the compasses to $4$ cm.
 - Diameter $=$ radius $\times2$; radius $=$ diameter $\div2$.
 - The opening of the compasses is the radius; write the unit in the answer.
 
+So Nam's question has an answer: the opening of the compasses is the radius, and the diameter is double it. Try a few questions in the practice section to remember it.
+
 ## Practice
 
-Each exercise comes with what you need and how to start. Try it yourself first, then open the solution.
+Each exercise gives you what you need to remember and a hint to get started. Try it yourself first, look at the hint if you are stuck, and open the solution only when you have finished. A wrong answer is not a problem; putting it right is how you learn.
 
 :::exercise
 In a circle with centre $O$, the points $A$ and $B$ are on the circle and $O$ is on the line segment $AB$.

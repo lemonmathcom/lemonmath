@@ -12,20 +12,20 @@ minutes: 15
 
 Trong thư viện lớp có $52$ quyển truyện. Các bạn đã mượn đi $27$ quyển. Hỏi thư viện còn lại bao nhiêu quyển truyện?
 
-Ở bài trước, em đã trừ một số có một chữ số và biết mượn $1$ chục. Bài này dùng đúng cách đó, chỉ trừ thêm số chục.
+Nếu có nhiều truyện được mượn đi, ta phải trừ cả chục lẫn đơn vị. Ở bài trước, em đã biết mượn $1$ chục khi hàng đơn vị không đủ trừ. Lần này ta dùng đúng cách đó, chỉ thêm một việc: bớt cả số chục của số trừ.
 
 ## Cùng khám phá
 
-Ta tách $52$ thành $5$ chục $2$ đơn vị, và $27$ thành $2$ chục $7$ đơn vị.
+Ta tách số quyển truyện ra: $52$ gồm $5$ chục $2$ đơn vị, còn $27$ quyển đã mượn đi gồm $2$ chục $7$ đơn vị.
 
-- Hàng đơn vị: $2$ không trừ được $7$. Ta đổi $1$ chục thành $10$ đơn vị, được $12$ đơn vị, rồi tính $12-7=5$.
-- Hàng chục: $5$ chục bớt $1$ chục đã mượn còn $4$ chục. Rồi bớt $2$ chục: $4-2=2$.
+- Hàng đơn vị: $2$ không trừ được $7$, nên ta đổi $1$ chục thành $10$ đơn vị. Có $12$ đơn vị rồi, ta tính $12-7=5$.
+- Hàng chục: $5$ chục bớt $1$ chục đã mượn thì còn $4$ chục. Sau đó mới bớt $2$ chục: $4-2=2$.
 
-Vậy còn $2$ chục và $5$ đơn vị, tức là $25$.
+Gộp lại, còn $2$ chục và $5$ đơn vị, tức là $25$. Đó là số quyển truyện còn lại trong thư viện.
 
 $$\begin{array}{r} 52\\ -\ 27\\ \hline 25 \end{array}$$
 
-Em cũng có thể lùi trên tia số: từ $52$ lùi $20$ về $32$, rồi lùi $7$ về $25$.
+Em cũng có thể đi lùi trên tia số. Từ $52$ lùi $20$ thì về $32$, rồi lùi thêm $7$ để về $25$. Cách nào cũng ra cùng một kết quả.
 
 :::graph Trên tia số: từ 52 lùi 20 về 32, rồi lùi 7 về 25
 alt: Tia số từ 20 đến 55, đánh dấu các điểm 25, 32 và 52; đoạn từ 25 đến 52 được tô đậm
@@ -44,11 +44,11 @@ Muốn tính $52-27$:
 3. Hàng chục: $5-1-2=2$ (bớt $1$ chục đã mượn, rồi bớt $2$ chục). Viết $2$.
 :::
 
-Cách này đúng vì $1$ chục bằng $10$ đơn vị. Ta chỉ đổi cách viết, tổng số quyển truyện không đổi.
+Vì sao mượn chục được? Vì $1$ chục bằng $10$ đơn vị. Ta chỉ đổi cách đếm, số quyển truyện vẫn không thay đổi.
 
 ## Ví dụ
 
-Ta bắt đầu với hai số nhỏ, hàng đơn vị thiếu ít.
+Ta thử với hai số nhỏ, hàng đơn vị chỉ thiếu một chút.
 
 :::example Tính $41-15$
 **Lời giải.** Hàng đơn vị: $1$ không trừ được $5$, mượn $1$ chục được $11$. Tính $11-5=6$. Hàng chục: $4-1-1=2$:
@@ -56,7 +56,7 @@ $$\begin{array}{r} 41\\ -\ 15\\ \hline 26 \end{array}$$
 Vậy $41-15=26$.
 :::
 
-Phép tính sau làm giống hệt, chỉ đổi số.
+Phép tính này làm giống hệt, chỉ khác các số. Em thử đoán trước xem hàng đơn vị có đủ để bớt không.
 
 :::example Tính $63-28$
 **Lời giải.** Hàng đơn vị: mượn $1$ chục, $13-8=5$. Hàng chục: $6-1-2=3$:
@@ -66,7 +66,7 @@ Vậy $63-28=35$.
 **Kiểm tra.** Thử lại bằng phép cộng: $35+28=63$. Đúng.
 :::
 
-Bây giờ số bị trừ có hàng đơn vị là $0$, nên cần cẩn thận hơn.
+Lần này hàng đơn vị của số bị trừ là $0$. Chỗ này cần chậm lại một chút, vì $0$ đơn vị thì chẳng còn gì để bớt cả.
 
 :::example Tính $80-34$
 **Lời giải.** Hàng đơn vị: $0$ không trừ được $4$, mượn $1$ chục được $10$. Tính $10-4=6$. Hàng chục: $8-1-3=4$:
@@ -74,7 +74,7 @@ $$\begin{array}{r} 80\\ -\ 34\\ \hline 46 \end{array}$$
 Vậy $80-34=46$.
 :::
 
-Bây giờ em dùng phép trừ để giải một bài toán trong cuộc sống.
+Phép trừ có nhớ còn dùng được khi ta đếm sách ở thư viện. Em thử với bài toán sau.
 
 :::example Thư viện
 Thư viện có $72$ quyển sách. Các bạn mượn đi $45$ quyển. Hỏi thư viện còn lại bao nhiêu quyển sách?
@@ -85,9 +85,9 @@ Vậy thư viện còn lại $27$ quyển sách.
 :::
 
 :::warning Những lỗi em hay gặp
-- **Lấy số nhỏ trừ số lớn.** Sai: $41-15=34$. Vì sao sai: em lấy $5-1=4$ thay vì mượn chục để tính $11-5$. Đúng: $41-15=26$.
-- **Mượn chục mà không bớt ở hàng chục.** Sai: $41-15=36$. Vì sao sai: em tính $11-5=6$ nhưng ở hàng chục chỉ làm $4-1$, quên bớt $1$ chục đã mượn. Đúng: $41-15=26$.
-- **Bài toán có lời văn quên đơn vị.** Sai: "Đáp số: $27$". Đúng: "Đáp số: $27$ quyển sách".
+- **Lấy số nhỏ trừ số lớn.** Chỗ này nhiều bạn hay nhầm. Sai: $41-15=34$. Vì sao sai: em lấy $5-1=4$, trong khi phải mượn chục để tính $11-5$. Đúng: $41-15=26$.
+- **Mượn chục mà không bớt ở hàng chục.** Sai: $41-15=36$. Vì sao sai: em tính $11-5=6$ nhưng ở hàng chục chỉ làm $4-1$, quên bớt $1$ chục đã mượn. Hàng chục phải bớt chục đã mượn trước, rồi mới bớt chục của số trừ. Đúng: $41-15=26$.
+- **Bài toán có lời văn quên đơn vị.** Sai: "Đáp số: $27$". Con số nào cũng cần đi kèm đơn vị. Đúng: "Đáp số: $27$ quyển sách".
 :::
 
 ## Thuật ngữ
@@ -106,13 +106,15 @@ Vậy thư viện còn lại $27$ quyển sách.
 ## Tóm tắt
 
 - Đặt tính thẳng cột, trừ từ hàng đơn vị sang hàng chục.
-- Hàng đơn vị không đủ trừ: mượn $1$ chục, đổi thành $10$ đơn vị rồi trừ.
+- Hàng đơn vị không đủ trừ: mượn $1$ chục, đổi thành $10$ đơn vị rồi mới trừ.
 - Hàng chục: bớt $1$ chục đã mượn, rồi bớt số chục của số trừ.
 - Ví dụ: $52-27$: $12-7=5$; $5-1-2=2$; kết quả $25$. Thử lại: $25+27=52$.
 
+Vậy thư viện còn lại $25$ quyển truyện. Điều cần nhớ là mượn một chục thì hàng chục phải bớt đi một chục. Em làm thêm vài bài ở phần luyện tập để quen dần nhé.
+
 ## Luyện tập
 
-Mỗi bài có phần kiến thức và gợi ý. Em hãy tự làm trước, rồi mới bấm xem lời giải.
+Mỗi bài đều có phần cần nhớ và gợi ý để em bắt đầu. Em cứ tự làm trước, chưa chắc thì xem gợi ý, làm xong rồi mới bấm xem lời giải. Sai một chút cũng không sao, vì mỗi lần sửa lại là một lần em hiểu rõ hơn.
 
 :::exercise
 Tính $74-36$.

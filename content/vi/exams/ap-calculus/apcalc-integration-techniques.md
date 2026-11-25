@@ -11,11 +11,11 @@ minutes: 45
 - (BC) Xét một tích phân suy rộng hội tụ hay phân kì, và tính giá trị khi nó hội tụ.
 :::
 
-Định lí cơ bản biến mọi tích phân xác định thành bài toán tìm nguyên hàm, vì vậy tốc độ và độ chính xác khi tìm nguyên hàm quyết định khá nhiều điểm trong đề. Ở phần trắc nghiệm không dùng máy tính, gần một phần ba số câu về tích phân cần đổi biến. Ở phần tự luận, thiết lập đúng đã được điểm, nhưng điểm đáp số cuối cùng cần nguyên hàm đúng. Học sinh AB cần hai mục đầu; học sinh BC cần cả bốn mục.
+Tìm nguyên hàm là việc bạn sẽ làm đi làm lại trong phòng thi. Điều gì khiến một tích phân khó, và ta có cách nào làm nó gọn hơn? Định lí cơ bản biến mọi tích phân xác định thành bài toán tìm nguyên hàm, nên tìm nhanh và đúng nguyên hàm quyết định khá nhiều điểm. Ở phần trắc nghiệm không dùng máy tính, gần một phần ba số câu về tích phân cần đổi biến. Ở phần tự luận, thiết lập đúng đã được điểm, nhưng điểm cho đáp số cuối cùng cần nguyên hàm đúng. Học sinh AB cần hai mục đầu; học sinh BC cần cả bốn mục.
 
 ## Phép đổi biến
 
-Đổi biến là quy tắc chuỗi đọc theo chiều ngược lại. Hãy tìm một hàm $u=g(x)$ mà đạo hàm $g'(x)$ của nó cũng xuất hiện (sai khác một hằng số) trong biểu thức dưới dấu tích phân. Khi đó $du=g'(x)\,dx$ và
+Đổi biến chính là quy tắc chuỗi đọc theo chiều ngược lại. Vì sao nó hiệu quả? Vì khi trong biểu thức có một hàm kèm đúng đạo hàm của nó, ta gom cả cụm ấy thành một biến mới và bài toán đơn giản hẳn đi. Hãy tìm một hàm $u=g(x)$ mà đạo hàm $g'(x)$ của nó cũng xuất hiện (sai khác một hằng số) trong biểu thức dưới dấu tích phân. Khi đó $du=g'(x)\,dx$ và
 $$\int f\big(g(x)\big)g'(x)\,dx=\int f(u)\,du.$$
 
 :::example Hàm bên trong và đạo hàm của nó
@@ -37,12 +37,12 @@ $$\frac12\int_1^2u^3\,du=\frac12\left[\frac{u^4}{4}\right]_1^2=\frac12\cdot\frac
 :::
 
 :::warning Giữ cận cho nhất quán
-Sau khi đổi biến, hoặc đổi cận sang giá trị của $u$, hoặc quay về biến $x$ rồi mới dùng cận cũ. Viết $\displaystyle\int_0^1u^3\,du$ với cận cũ là một trong những lỗi người chấm gặp nhiều nhất.
+Chỗ này nhiều bạn hay nhầm: đổi biến xong mà vẫn giữ cận cũ. Có hai cách làm đúng. Hoặc đổi cận sang giá trị của $u$, hoặc quay về biến $x$ rồi mới dùng cận cũ. Viết $\displaystyle\int_0^1u^3\,du$ với cận cũ là một trong những lỗi người chấm gặp nhiều nhất.
 :::
 
 ## Chia đa thức và đưa về bình phương đủ
 
-Khi hàm dưới dấu tích phân là phân thức có bậc tử không nhỏ hơn bậc mẫu, hãy chia đa thức trước. Khi mẫu là tam thức bậc hai vô nghiệm, hãy đưa về bình phương đủ và nhắm tới $\displaystyle\int\frac{du}{u^2+a^2}=\frac1a\arctan\frac ua+C$.
+Có hai kiểu tích phân nhìn thì lạ, nhưng chỉ cần một bước biến đổi là thấy quen. Khi hàm dưới dấu tích phân là phân thức có bậc tử không nhỏ hơn bậc mẫu, hãy chia đa thức trước, để chỉ còn những phần dễ lấy nguyên hàm. Khi mẫu là tam thức bậc hai vô nghiệm, hãy đưa về bình phương đủ và nhắm tới $\displaystyle\int\frac{du}{u^2+a^2}=\frac1a\arctan\frac ua+C$.
 
 :::example Hai cách biến đổi
 Tìm a) $\displaystyle\int\frac{x^2+1}{x+1}\,dx$ và b) $\displaystyle\int\frac{dx}{x^2+2x+5}$.
@@ -77,9 +77,9 @@ Tính $\displaystyle\int_1^2\frac{dx}{x(x+1)}$.
 
 ## Tích phân suy rộng (BC)
 
-Tích phân có cận vô cực, hoặc có hàm dưới dấu tích phân tiến ra vô cực bên trong khoảng, được định nghĩa bằng giới hạn:
+Diện tích dưới một đường cong kéo dài mãi về bên phải có thể là một số hữu hạn không? Nghe thì lạ, nhưng đôi khi câu trả lời là có. Tích phân có cận vô cực, hoặc có hàm dưới dấu tích phân tiến ra vô cực bên trong khoảng, được gọi là tích phân suy rộng, và ta định nghĩa nó bằng giới hạn:
 $$\int_1^{\infty}f(x)\,dx=\lim_{b\to\infty}\int_1^b f(x)\,dx.$$
-Nếu giới hạn là một số hữu hạn thì tích phân **hội tụ**; ngược lại thì **phân kì**. Hãy viết rõ giới hạn ra: người chấm tìm dòng đó.
+Nếu giới hạn là một số hữu hạn thì tích phân **hội tụ**; nếu không thì nó **phân kì**. Đừng bỏ qua dòng giới hạn khi trình bày, vì đó là dòng người chấm tìm. Ví dụ dưới đây cho thấy mỗi kiểu một cái.
 
 :::example Một cái hội tụ, một cái phân kì
 Tính $\displaystyle\int_1^{\infty}\frac{dx}{x^2}$ và $\displaystyle\int_1^{\infty}\frac{dx}{x}$.
@@ -90,7 +90,7 @@ $\displaystyle\lim_{b\to\infty}\Big[\ln x\Big]_1^b=\lim_{b\to\infty}\ln b=\infty
 :::
 
 :::tip Kiểm tra bằng đạo hàm
-Ở phần không dùng máy tính, hãy dành mười giây lấy đạo hàm của nguyên hàm bạn vừa tìm. Cách này bắt được hệ số $\dfrac12$ bị thiếu hay dấu bị sai, cũng chính là chỗ các phương án nhiễu trong câu trắc nghiệm được tạo ra.
+Ở phần không dùng máy tính, hãy dành mười giây lấy đạo hàm của nguyên hàm bạn vừa tìm. Vì sao đáng làm? Vì phép thử này bắt được hệ số $\dfrac12$ bị thiếu hay dấu bị sai, đúng là những chỗ người ra đề đặt phương án nhiễu. Thử xong, bạn sẽ yên tâm khoanh đáp án hơn nhiều.
 :::
 
 :::terms

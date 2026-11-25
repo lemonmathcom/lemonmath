@@ -11,13 +11,13 @@ minutes: 45
 - Find the area of a region bounded by one or two polar curves.
 :::
 
-Unit 9 is for BC only and carries about a tenth of the BC score. Its free-response question is usually a particle moving in the plane, or a region bounded by a polar curve, and both are built from a handful of formulas. The difficulty is not the calculus; it is keeping track of which variable you are differentiating with respect to.
+Picture an ant crawling across a table. Each second it is somewhere new, so its position depends on time, not on a single coordinate. To say which way it is heading and how fast, we need tools of our own, and Unit 9 supplies them. It is for BC only and carries about a tenth of the BC score. Its free-response question is usually a particle moving in the plane, or a region bounded by a polar curve, and both are built from a handful of formulas. The difficulty is not the calculus; it is keeping track of which variable you are differentiating with respect to.
 
 ## Parametric curves
 
-A curve given by $x=x(t)$, $y=y(t)$ has slope
+When both coordinates change with time, the slope of the path is the rate of rise divided by the rate of travel across. A curve given by $x=x(t)$, $y=y(t)$ has slope
 $$\frac{dy}{dx}=\frac{dy/dt}{dx/dt}\quad\text{when }\frac{dx}{dt}\ne0.$$
-The tangent is horizontal where $\dfrac{dy}{dt}=0$ and $\dfrac{dx}{dt}\ne0$, vertical where $\dfrac{dx}{dt}=0$ and $\dfrac{dy}{dt}\ne0$.
+The slope also tells us where the path is flat and where it is upright. The tangent is horizontal where $\dfrac{dy}{dt}=0$ and $\dfrac{dx}{dt}\ne0$: the point has stopped rising or falling and only moves across. It is vertical where $\dfrac{dx}{dt}=0$ and $\dfrac{dy}{dt}\ne0$: the point has stopped moving across and only rises or falls. Do not forget the second condition in each case.
 
 :::example Slope and tangents
 For $x=t^2$, $y=t^3-3t$:
@@ -47,11 +47,11 @@ D. $6$
 
 ## Motion with vectors
 
-A particle at position $\langle x(t),y(t)\rangle$ has velocity $\langle x'(t),y'(t)\rangle$ and acceleration $\langle x''(t),y''(t)\rangle$.
+Now let a particle move as time passes. At each moment it is somewhere, so its position is a pair of numbers that keeps changing: the particle is at $\langle x(t),y(t)\rangle$. Differentiate each component to see how fast the position changes, and you get the velocity $\langle x'(t),y'(t)\rangle$. Differentiate again and you get the acceleration $\langle x''(t),y''(t)\rangle$.
 
-- **Speed** is the length of the velocity vector: $\sqrt{x'(t)^2+y'(t)^2}$.
-- **Distance traveled** from $t=a$ to $t=b$ is $\displaystyle\int_a^b\sqrt{x'(t)^2+y'(t)^2}\,dt$; the same integral gives the arc length of the path.
-- **Position later:** $x(b)=x(a)+\displaystyle\int_a^bx'(t)\,dt$, and likewise for $y$.
+- **Speed** is the length of the velocity vector. It says how fast the particle moves, but not which way: $\sqrt{x'(t)^2+y'(t)^2}$.
+- **Distance traveled** from $t=a$ to $t=b$ is $\displaystyle\int_a^b\sqrt{x'(t)^2+y'(t)^2}\,dt$. Adding up the speed moment by moment gives the distance, so the same integral also gives the arc length of the path.
+- **Position later:** $x(b)=x(a)+\displaystyle\int_a^bx'(t)\,dt$, and likewise for $y$. The new position is the old position plus the change gathered since.
 
 :::example A particle in the plane
 A particle has velocity $v(t)=\left\langle2t,\ t^2-1\right\rangle$ and is at $(1,2)$ at $t=0$.
@@ -69,9 +69,9 @@ c) $4t^2+\left(t^2-1\right)^2=t^4+2t^2+1=\left(t^2+1\right)^2$, so the distance 
 
 ## Polar curves: slope and the meaning of dr/dθ
 
-A polar curve $r=f(\theta)$ is the parametric curve $x=r\cos\theta$, $y=r\sin\theta$ with parameter $\theta$. So its slope is
+Polar coordinates sound new, but we already have the tools. A polar curve $r=f(\theta)$ is the parametric curve $x=r\cos\theta$, $y=r\sin\theta$, where the parameter is $\theta$. So its slope comes from the parametric rule:
 $$\frac{dy}{dx}=\frac{dy/d\theta}{dx/d\theta}=\frac{r'\sin\theta+r\cos\theta}{r'\cos\theta-r\sin\theta}.$$
-The sign of $\dfrac{dr}{d\theta}$ tells you about distance from the origin: when $r>0$ and $\dfrac{dr}{d\theta}>0$, the point moves away from the origin; when $\dfrac{dr}{d\theta}<0$, toward it.
+What does $\dfrac{dr}{d\theta}$ tell us? Whether the point is moving away from the origin or towards it as the angle turns. When $r>0$ and $\dfrac{dr}{d\theta}>0$, the point moves away from the origin; when $\dfrac{dr}{d\theta}<0$, towards it.
 
 :::example Slope of a cardioid
 Find the slope of $r=1+\cos\theta$ at $\theta=\dfrac{\pi}{2}$.
@@ -99,11 +99,11 @@ D. $2\pi$
 :::
 
 :::warning Common traps
-- **Dividing second derivatives.** $\dfrac{d^2y}{dx^2}\ne\dfrac{y''(t)}{x''(t)}$.
-- **Speed is not velocity.** Speed is a number; velocity is a vector.
-- **Polar area without the $\dfrac12$, or with $r$ instead of $r^2$.**
-- **Washer-style mistake in polar.** Between two curves, use $r_{\text{out}}^2-r_{\text{in}}^2$, not $\left(r_{\text{out}}-r_{\text{in}}\right)^2$.
-- **Wrong limits.** Find where the curves meet by solving $f(\theta)=g(\theta)$, and check the region on a sketch or a graphing calculator.
+- **Dividing second derivatives.** It sounds reasonable but it is wrong: $\dfrac{d^2y}{dx^2}\ne\dfrac{y''(t)}{x''(t)}$.
+- **Speed is not velocity.** Speed is just a number; velocity also carries a direction, so it is a vector.
+- **Polar area without the $\dfrac12$, or with $r$ instead of $r^2$.** Each thin slice is a sector, and the area of a sector has the half and the square of the radius in it.
+- **Washer-style mistake in polar.** Between two curves we subtract areas: use $r_{\text{out}}^2-r_{\text{in}}^2$, not $\left(r_{\text{out}}-r_{\text{in}}\right)^2$.
+- **Wrong limits.** Find where the curves meet by solving $f(\theta)=g(\theta)$, then check the region on a sketch or a graphing calculator to be sure the limits are right.
 :::
 
 :::terms

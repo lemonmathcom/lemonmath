@@ -10,21 +10,21 @@ minutes: 20
 - Recognise a pair of simultaneous linear equations and check a solution of them.
 :::
 
-Lan has $60$ thousand đồng to spend on school supplies. Each pen costs $5$ thousand đồng, each exercise book costs $8$ thousand đồng, and Lan wants to spend all of it, with nothing left over. How many pens and how many books can she buy? And what if she wants to buy exactly $9$ items?
+Lan has $60$ thousand đồng to spend on school supplies. Each pen costs $5$ thousand đồng, each exercise book costs $8$ thousand đồng, and Lan wants to spend all of it, with nothing left over. How many pens and how many books can she buy? And what if she also wants to buy exactly $9$ items?
 
-The problem has two numbers we do not know: the number of pens and the number of books. We need a new kind of equation, one with **two unknowns**.
+The problem has two numbers we do not know: the number of pens and the number of books. An equation with one unknown has no room for both at once. We need a new kind of equation, one with **two unknowns**, to write down Lan's condition of spending exactly all her money.
 
 ## Linear equations in two unknowns
 
 ### Explore: ways to spend all the money
 
-Let $x$ be the number of pens and $y$ the number of books. The total cost is $5x+8y$ (thousand đồng), so "spending all the money" means $5x+8y=60$. We try a few values of $x$ and compute $y=\dfrac{60-5x}{8}$:
+Let $x$ be the number of pens and $y$ the number of books. The total cost is $5x+8y$ (thousand đồng), so "spending all the money" means $5x+8y=60$. To see which purchases work, we try a few values of $x$ and compute $y=\dfrac{60-5x}{8}$:
 
 | $x$ | $0$ | $4$ | $8$ | $12$ |
 |---|---|---|---|---|
 | $y$ | $7.5$ | $5$ | $2.5$ | $0$ |
 
-Each value of $x$ gives one value of $y$, so a great many pairs fit. But the numbers of pens and books must be whole numbers, so there are only two ways to shop: $4$ pens and $5$ books, or $12$ pens.
+Looking at the table: each value of $x$ gives exactly one value of $y$, so a great many pairs fit the equation. But pens and books come in whole items, so the numbers of pens and books must be whole numbers. That leaves only two ways to shop: $4$ pens and $5$ books, or $12$ pens. An equation of this kind has a name, given in the box below.
 
 :::definition Linear equation in two unknowns
 A **linear equation in two unknowns** $x$ and $y$ is an equation of the form
@@ -46,10 +46,11 @@ So $(1, -1)$ and $(-2, -3)$ are solutions, and $(3, 2)$ is not.
 
 ## Showing the solution set as a line
 
-A linear equation in two unknowns always has infinitely many solutions. Each solution $(x_0, y_0)$ is a point in the coordinate plane, and all these points lie on one straight line.
+A linear equation in two unknowns always has infinitely many solutions, far too many to list. Each solution $(x_0, y_0)$ is a point in the coordinate plane, and all these points lie on one straight line. Draw that line and we see every solution at once.
 
-- If $b\neq 0$: we write $y=-\dfrac{a}{b}x+\dfrac{c}{b}$. This is the graph of a linear function (or a constant function when $a=0$), which you met in Grade 8.
+- If $b\neq 0$: we solve for $y$ and write $y=-\dfrac{a}{b}x+\dfrac{c}{b}$. This is the graph of a linear function (or a constant function when $a=0$), which you met in Grade 8.
 - If $b=0$ (then $a\neq0$): the equation becomes $x=\dfrac{c}{a}$, a line parallel to the $y$-axis (or the $y$-axis itself when $c=0$).
+Either way, the solution set is a straight line. To draw it, we only need to find two points on it.
 
 :::example Drawing the line of solutions
 Show the solution set of each equation on the same coordinate plane: a) $x+2y=4$; b) $0x+y=3$; c) $2x+0y=-2$.
@@ -76,7 +77,7 @@ label: (-1.9, -1.4) "x = −1"
 
 ## Simultaneous linear equations
 
-Back to Lan's problem. If she wants to buy exactly $9$ items, then $x$ and $y$ must satisfy two equations **at the same time**: $5x+8y=60$ and $x+y=9$.
+Back to Lan's problem, the second question. If she wants to buy exactly $9$ items, then besides the money, $x$ and $y$ must also add up to the number of items. So they must satisfy two equations **at the same time**: $5x+8y=60$ and $x+y=9$. Two equations that go together like this form a pair of simultaneous equations, defined below.
 
 :::definition Simultaneous linear equations in two unknowns
 A pair of **simultaneous linear equations in two unknowns** has the form
@@ -84,7 +85,7 @@ $$\begin{cases} ax+by=c\\ a'x+b'y=c' \end{cases}$$
 where each equation is a linear equation in two unknowns. The pair $(x_0, y_0)$ is a **solution of the simultaneous equations** if it is a solution of **both** equations.
 :::
 
-Geometrically, the solution gives the coordinates of the point where the two lines meet.
+Each of the two equations is a line, so a pair of numbers that satisfies both is a point lying on both lines. Geometrically, the solution gives the coordinates of the point where the two lines meet.
 
 :::example Solutions of simultaneous equations
 Which of the pairs $(2, 1)$ and $(3, -1)$ is a solution of the simultaneous equations $\begin{cases} x+y=3\\ 2x-y=3 \end{cases}$?
@@ -96,7 +97,7 @@ $$\begin{aligned} (2, 1):&\quad 2+1=3,\quad 2\cdot2-1=3;\\ (3, -1):&\quad 3+(-1)
 So $(2, 1)$ is a solution; $(3, -1)$ is not, because it does not satisfy the first equation.
 :::
 
-Now we answer the second question from the start.
+Now we use simultaneous equations to answer the second question from the start: how can Lan spend all her money and buy exactly the right number of items?
 
 :::example Forming the equations for the shopping problem
 Lan wants to spend exactly $60$ thousand đồng and buy exactly $9$ items. Form the simultaneous equations and show that $(4, 5)$ is a solution.
@@ -111,7 +112,7 @@ So Lan buys $4$ pens and $5$ books. The next lesson shows how to find this solut
 :::warning Common mistakes
 - **Swapping the order in a pair.** Wrong: "$(5, 4)$ means $4$ pens and $5$ books". Why it is wrong: the first number is $x$ (the pens). Right: that purchase is $(4, 5)$.
 - **Checking only one of the equations.** Wrong: "$(3, -1)$ satisfies $2x-y=7$, so it solves the simultaneous equations $x+y=3$, $2x-y=7$". Why it is wrong: $3+(-1)=2\neq3$. Right: it must satisfy **both** equations.
-- **Thinking $0x+3y=6$ is not a linear equation in two unknowns.** Why it is wrong: we only need $a$ or $b$ to be non-zero. Right: it is a linear equation in two unknowns, and its solution set is the line $y=2$.
+- **Thinking $0x+3y=6$ is not a linear equation in two unknowns.** Why it is wrong: we only need $a$ or $b$ to be non-zero. Right: it is still a linear equation in two unknowns, and its solution set is the line $y=2$.
 :::
 
 ## Key terms
@@ -133,10 +134,11 @@ So Lan buys $4$ pens and $5$ books. The next lesson shows how to find this solut
 - $(x_0, y_0)$ is a solution when $ax_0+by_0=c$; the equation has infinitely many solutions.
 - The solution set is a straight line: $y=-\dfrac{a}{b}x+\dfrac{c}{b}$ if $b\neq0$; $x=\dfrac{c}{a}$ if $b=0$.
 - A solution of two simultaneous equations is a pair that satisfies **both** equations, that is, the point where the two lines meet.
+Back to Lan's question: each way of spending all the money is a solution of one equation in two unknowns, and once we add the condition on the number of items we need a solution of the pair. What to remember is that a solution of simultaneous equations must satisfy both equations. The practice exercises will make this familiar.
 
 ## Practice
 
-Each exercise comes with what you need and some steps to start. Try it yourself first, then open the solution.
+Each exercise gives you what you need and a few steps to start with. Try it yourself first, look at the steps if you get stuck, and open the solution only to check your work. A slip now and then is fine: it often shows us exactly what to remember.
 
 :::exercise
 Which of the following equations are linear equations in two unknowns?

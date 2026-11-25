@@ -10,9 +10,9 @@ minutes: 20
 - Xác định đường tròn ngoại tiếp hình chữ nhật, hình vuông, hình thang cân.
 :::
 
-Qua ba điểm không thẳng hàng luôn vẽ được đúng một đường tròn (bài [Đường tròn ngoại tiếp và nội tiếp](lesson:circumcircle-incircle)). Nhưng với **bốn** điểm thì khác: đường tròn qua ba điểm đầu đã cố định, điểm thứ tư chỉ "may mắn" mới nằm trên nó.
+Qua ba điểm không thẳng hàng, ta luôn vẽ được đúng một đường tròn (bài [Đường tròn ngoại tiếp và nội tiếp](lesson:circumcircle-incircle)). Với **bốn** điểm thì chuyện khác hẳn. Đường tròn qua ba điểm đầu đã được định sẵn, còn điểm thứ tư chỉ nằm trên nó khi "may mắn".
 
-Vậy làm sao biết bốn đỉnh của một tứ giác có cùng nằm trên một đường tròn hay không, mà không cần vẽ? Chẳng hạn, vì sao người ta dễ dàng làm một khung vòm tròn đi qua bốn góc của một ô cửa hình thang cân, nhưng không làm được với một ô cửa hình bình hành bất kì?
+Vậy làm sao biết bốn đỉnh của một tứ giác có cùng nằm trên một đường tròn hay không, mà không cần vẽ? Hãy nghĩ đến người thợ làm khung vòm tròn đi qua bốn góc của một ô cửa. Với ô cửa hình thang cân, việc đó làm được dễ dàng. Với ô cửa hình bình hành bất kì thì không làm được. Vì sao lại khác nhau? Biết được dấu hiệu nhận biết, ta chỉ cần nhìn các góc là kết luận, không phải vẽ.
 
 ## Tứ giác nội tiếp và tính chất
 
@@ -22,7 +22,7 @@ Tứ giác có bốn đỉnh nằm trên một đường tròn gọi là **tứ 
 
 ### Khám phá: hai góc đối
 
-Cho tứ giác $ABCD$ nội tiếp đường tròn $(O)$. Góc $\widehat{DAB}$ là góc nội tiếp chắn cung $BCD$; góc $\widehat{BCD}$ là góc nội tiếp chắn cung $BAD$. Hai cung này ghép lại thành cả đường tròn, nên (bài [Góc nội tiếp](lesson:inscribed-angles))
+Ta thử cộng hai góc đối của một tứ giác nội tiếp. Cho tứ giác $ABCD$ nội tiếp đường tròn $(O)$. Góc $\widehat{DAB}$ là góc nội tiếp chắn cung $BCD$. Góc $\widehat{BCD}$ là góc nội tiếp chắn cung $BAD$. Hai cung này ghép lại thành cả đường tròn. Vì góc nội tiếp có số đo bằng nửa số đo cung bị chắn (bài [Góc nội tiếp](lesson:inscribed-angles)), ta có
 
 $$\widehat{DAB}+\widehat{BCD}=\frac12\left(\text{sđ}\,\overset{\frown}{BCD}+\text{sđ}\,\overset{\frown}{BAD}\right)=\frac12\cdot360^\circ=180^\circ.$$
 
@@ -45,7 +45,7 @@ angle B A D
 angle D C B
 :::
 
-**Hiểu sâu hơn.** Hình bình hành có hai góc đối **bằng nhau**; muốn tổng của chúng là $180^\circ$ thì mỗi góc phải là $90^\circ$. Vậy hình bình hành nội tiếp được khi và chỉ khi nó là hình chữ nhật. Đó là lí do ô cửa hình bình hành "xiên" không có khung vòm tròn qua bốn góc.
+**Hiểu sâu hơn.** Thử áp dụng cho hình bình hành. Hai góc đối của nó **bằng nhau**. Muốn tổng của chúng là $180^\circ$ thì mỗi góc phải là $90^\circ$. Vậy hình bình hành nội tiếp được khi và chỉ khi nó là hình chữ nhật. Đó cũng là lời giải cho câu hỏi đầu bài: ô cửa hình bình hành "xiên" không có khung vòm tròn qua bốn góc.
 
 :::example Tính các góc của tứ giác nội tiếp
 Tứ giác $ABCD$ nội tiếp đường tròn có $\widehat{A}=70^\circ$, $\widehat{B}=105^\circ$. Tính $\widehat{C}$ và $\widehat{D}$.
@@ -59,9 +59,10 @@ Vậy $\widehat{C}=110^\circ$ và $\widehat{D}=75^\circ$.
 
 ## Chứng minh một tứ giác nội tiếp
 
-Có hai cách thường dùng ở lớp 9:
+Ở lớp 9, ta thường dùng hai cách để chứng minh một tứ giác nội tiếp:
 - Chỉ ra tổng hai góc đối bằng $180^\circ$ (định lí đảo).
-- Chỉ ra bốn đỉnh cách đều một điểm. Đặc biệt, nếu hai đỉnh cùng nhìn đoạn thẳng nối hai đỉnh còn lại dưới góc vuông thì bốn đỉnh nằm trên đường tròn có đường kính là đoạn thẳng đó (trung tuyến ứng với cạnh huyền bằng nửa cạnh huyền).
+- Chỉ ra bốn đỉnh cách đều một điểm. Đặc biệt, nếu hai đỉnh cùng nhìn đoạn thẳng nối hai đỉnh còn lại dưới góc vuông thì bốn đỉnh nằm trên đường tròn có đường kính là đoạn thẳng đó (vì trung tuyến ứng với cạnh huyền bằng nửa cạnh huyền).
+Tuỳ hình, cách nào tiện hơn thì ta dùng cách ấy. Ví dụ dưới đây dùng cả hai.
 
 :::example Hai tứ giác nội tiếp trong tam giác
 Cho tam giác $ABC$ có ba góc nhọn, hai đường cao $BE$, $CF$ cắt nhau tại $H$. Chứng minh rằng:
@@ -98,8 +99,8 @@ right A F C
 
 ## Hình chữ nhật, hình vuông, hình thang cân
 
-- Hình chữ nhật (và hình vuông) có bốn góc vuông, nên nội tiếp được; tâm đường tròn là giao điểm hai đường chéo, bán kính bằng nửa đường chéo.
-- Hình thang cân $ABCD$ ($AB\parallel CD$) có $\widehat{A}+\widehat{D}=180^\circ$ (hai góc trong cùng phía) và $\widehat{D}=\widehat{C}$, nên $\widehat{A}+\widehat{C}=180^\circ$: hình thang cân luôn nội tiếp được.
+- Hình chữ nhật (và hình vuông) có bốn góc vuông, nên nội tiếp được. Tâm đường tròn là giao điểm hai đường chéo, bán kính bằng nửa đường chéo.
+- Hình thang cân $ABCD$ ($AB\parallel CD$) có $\widehat{A}+\widehat{D}=180^\circ$ (hai góc trong cùng phía) và $\widehat{D}=\widehat{C}$. Từ đó $\widehat{A}+\widehat{C}=180^\circ$, nên hình thang cân luôn nội tiếp được.
 
 :::example Vận dụng: khung vòm của ô cửa
 Giả sử một ô cửa kính hình thang cân $ABCD$ có đáy dưới $AB=80$ cm, đáy trên $CD=60$ cm và chiều cao $70$ cm. Người thợ muốn làm một khung vòm tròn đi qua bốn góc của ô cửa. Tính bán kính khung vòm.
@@ -124,12 +125,12 @@ Vậy bán kính khung vòm là $50$ cm.
 :::
 
 :::warning Những sai lầm thường gặp
-- **Cộng hai góc kề.** Sai: "$\widehat{A}+\widehat{B}=180^\circ$ nên $ABCD$ nội tiếp". Lí do sai: định lí nói về hai góc **đối**. Đúng: xét $\widehat{A}+\widehat{C}$ hoặc $\widehat{B}+\widehat{D}$.
-- **Cho rằng hai góc đối bằng nhau.** Sai: "$ABCD$ nội tiếp, $\widehat{A}=70^\circ$ nên $\widehat{C}=70^\circ$". Đúng: $\widehat{C}=110^\circ$.
-- **Nghĩ mọi hình thang đều nội tiếp được.** Chỉ hình thang **cân** mới nội tiếp được.
+- **Cộng hai góc kề.** Sai: "$\widehat{A}+\widehat{B}=180^\circ$ nên $ABCD$ nội tiếp". Chỗ này nhiều bạn hay nhầm, vì lí do sai nằm ở chỗ định lí chỉ nói về hai góc **đối**. Đúng: xét $\widehat{A}+\widehat{C}$ hoặc $\widehat{B}+\widehat{D}$.
+- **Cho rằng hai góc đối bằng nhau.** Sai: "$ABCD$ nội tiếp, $\widehat{A}=70^\circ$ nên $\widehat{C}=70^\circ$". Hai góc đối chỉ bù nhau chứ không bằng nhau. Đúng: $\widehat{C}=110^\circ$.
+- **Nghĩ mọi hình thang đều nội tiếp được.** Không phải vậy: chỉ hình thang **cân** mới nội tiếp được.
 :::
 
-**Kết nối.** Tứ giác nội tiếp là nơi gặp nhau của góc nội tiếp, đường tròn ngoại tiếp tam giác và tam giác đồng dạng. Khi đã biết một tứ giác nội tiếp, ta "nhận" thêm nhiều cặp góc bằng nhau (cùng chắn một cung), từ đó chứng minh song song, vuông góc, đồng dạng. Đây là chuỗi suy luận quen thuộc trong bài hình học của đề thi vào lớp 10.
+**Kết nối.** Tứ giác nội tiếp là nơi góc nội tiếp, đường tròn ngoại tiếp tam giác và tam giác đồng dạng gặp nhau. Một khi biết tứ giác nội tiếp, ta có thêm nhiều cặp góc bằng nhau (cùng chắn một cung). Từ các cặp góc ấy, ta chứng minh được song song, vuông góc, đồng dạng. Chuỗi suy luận này rất quen thuộc trong bài hình học của đề thi vào lớp 10.
 
 ## Thuật ngữ
 
@@ -149,10 +150,11 @@ Vậy bán kính khung vòm là $50$ cm.
 - Tứ giác nội tiếp $\Leftrightarrow$ tổng hai góc đối bằng $180^\circ$.
 - Hai đỉnh cùng nhìn một đoạn thẳng dưới góc vuông: bốn điểm nằm trên đường tròn có đường kính là đoạn đó.
 - Hình chữ nhật, hình vuông (tâm là giao hai đường chéo) và hình thang cân luôn nội tiếp được.
+Quay lại câu hỏi đầu bài: ô cửa hình thang cân làm được khung vòm tròn vì hình thang cân luôn nội tiếp, còn ô cửa hình bình hành chỉ làm được khi nó là hình chữ nhật. Bạn hãy làm vài bài luyện tập để quen với hai dấu hiệu nhận biết này.
 
 ## Luyện tập
 
-Mỗi bài có phần kiến thức và gợi ý các bước. Hãy tự làm trước, rồi mới bấm xem lời giải.
+Mỗi bài có phần kiến thức cần nhớ và gợi ý từng bước. Bạn nên tự làm trước, vướng thì xem gợi ý, cuối cùng mới mở lời giải để đối chiếu. Làm sai một lần cũng không sao, vì chỗ sai thường giúp ta nhớ lâu nhất.
 
 :::exercise
 Tứ giác $ABCD$ nội tiếp đường tròn có $\widehat{A}=80^\circ$, $\widehat{B}=95^\circ$. Tính $\widehat{C}$ và $\widehat{D}$.

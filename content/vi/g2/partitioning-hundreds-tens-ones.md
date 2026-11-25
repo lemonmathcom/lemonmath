@@ -12,11 +12,11 @@ minutes: 15
 
 Thư viện có $345$ quyển sách. Cô thủ thư xếp sách thành các thùng $100$ quyển, các bó $10$ quyển và các quyển lẻ. Hỏi cô dùng mấy thùng, mấy bó và mấy quyển lẻ?
 
-Em đã biết số $345$ có $3$ trăm, $4$ chục, $5$ đơn vị. Bài này giúp em viết điều đó bằng một phép cộng.
+Em đã biết số $345$ có $3$ trăm, $4$ chục và $5$ đơn vị. Nếu viết điều đó thành một phép cộng, nhìn vào là biết số gồm những phần nào, và tính lại cũng dễ hơn.
 
 ## Cùng khám phá
 
-Số $345$ gồm $3$ trăm, $4$ chục và $5$ đơn vị. Ta tính giá trị của từng phần:
+Hãy nhìn số $345$ trong hình: có $3$ trăm, $4$ chục và $5$ đơn vị. Ta tìm giá trị của từng phần một:
 
 ![Khối đếm gồm ba tấm trăm, bốn thanh chục và năm khối đơn vị](/assets/img/g2/g2-partitioning-hundreds-tens-ones-01.svg)
 
@@ -27,7 +27,7 @@ Số $345$ gồm $3$ trăm, $4$ chục và $5$ đơn vị. Ta tính giá trị c
 Cộng ba phần lại được $300+40+5=345$. Vậy ta viết:
 $$345=300+40+5.$$
 
-Cô thủ thư dùng $3$ thùng, $4$ bó và $5$ quyển lẻ.
+Đến đây ta trả lời được câu hỏi đầu bài: cô thủ thư dùng $3$ thùng, $4$ bó và $5$ quyển lẻ.
 
 :::theorem Viết số thành tổng
 Số có ba chữ số $\overline{abc}$ viết thành tổng của số trăm, số chục và số đơn vị:
@@ -36,11 +36,11 @@ Số có ba chữ số $\overline{abc}$ viết thành tổng của số trăm, s
 - chữ số hàng đơn vị $c$ cho $c$ đơn vị (ví dụ $5$ thì được $5$).
 :::
 
-Cách làm này đúng vì mỗi chữ số đứng ở một hàng, hàng cho biết giá trị của chữ số đó: chữ số $4$ ở hàng chục là $40$ chứ không phải $4$.
+Vì sao phải làm như vậy? Vì mỗi chữ số đứng ở một hàng, và hàng cho biết giá trị của chữ số đó. Chỗ này nhiều bạn hay nhầm, em nhớ nhé: chữ số $4$ ở hàng chục là $40$ chứ không phải $4$.
 
 ## Ví dụ
 
-Ta bắt đầu với một số không có chữ số $0$.
+Ta thử với một số không có chữ số $0$ trước.
 
 :::example Viết số thành tổng
 Viết số $453$ thành tổng các trăm, chục, đơn vị.
@@ -50,7 +50,7 @@ $$453=400+50+3.$$
 Vậy $453=400+50+3$.
 :::
 
-Bây giờ em làm ngược lại: từ tổng ra số.
+Bây giờ em đi theo chiều ngược lại: có sẵn tổng, em viết ra số.
 
 :::example Từ tổng thành số
 Viết số $700+60+2$.
@@ -60,7 +60,7 @@ $$700+60+2=762.$$
 Vậy $700+60+2=762$.
 :::
 
-Tiếp theo là số có chữ số $0$.
+Còn khi trong số có chữ số $0$ thì sao? Ta xem ví dụ sau.
 
 :::example Số có chữ số 0
 Viết số $805$ thành tổng các trăm, chục, đơn vị.
@@ -70,7 +70,7 @@ $$805=800+5.$$
 Vậy $805=800+5$.
 :::
 
-Cuối cùng em dùng kiến thức này giải một bài toán.
+Cuối cùng, em dùng cách viết này để giải một bài toán ở cửa hàng, giống như chuyện thùng, bó và quyển lẻ ở thư viện.
 
 :::example Thùng, bó và quyển lẻ
 Cửa hàng có $5$ thùng bút loại $100$ chiếc, $1$ bó bút loại $10$ chiếc và $9$ chiếc bút lẻ. Viết số bút thành tổng rồi cho biết có bao nhiêu chiếc bút.
@@ -81,9 +81,9 @@ Vậy cửa hàng có $519$ chiếc bút, và $519=500+10+9$.
 :::
 
 :::warning Những lỗi em hay gặp
-- **Cộng các chữ số.** Sai: "$453=4+5+3$". Vì sao sai: $4+5+3=12$, không phải $453$. Đúng: $453=400+50+3$.
-- **Quên giá trị của hàng.** Sai: "$345=300+4+5$". Vì sao sai: chữ số $4$ ở hàng chục là $40$. Đúng: $345=300+40+5$.
-- **Viết sai khi có chữ số 0.** Sai: "$305=300+50$". Vì sao sai: $305$ có $0$ chục, $5$ là $5$ đơn vị. Đúng: $305=300+5$.
+- **Cộng các chữ số.** Sai: "$453=4+5+3$". Vì sao sai: $4+5+3=12$ chứ không phải $453$. Đúng: $453=400+50+3$.
+- **Quên giá trị của hàng.** Sai: "$345=300+4+5$". Vì sao sai: chữ số $4$ ở hàng chục có giá trị là $40$. Đúng: $345=300+40+5$.
+- **Viết sai khi có chữ số 0.** Sai: "$305=300+50$". Vì sao sai: $305$ có $0$ chục, nên không có phần chục. Còn $5$ là $5$ đơn vị. Đúng: $305=300+5$.
 :::
 
 ## Thuật ngữ
@@ -105,9 +105,11 @@ Vậy cửa hàng có $519$ chiếc bút, và $519=500+10+9$.
 - Hàng nào là $0$ thì có thể bỏ khỏi tổng: $305=300+5$.
 - Từ tổng $300+40+5$ viết ngược lại thành số $345$.
 
+Quay lại câu hỏi đầu bài: số sách của thư viện viết được thành tổng của số trăm, số chục và số đơn vị. Em nhớ nhìn đúng hàng của từng chữ số, rồi làm các bài luyện tập nhé.
+
 ## Luyện tập
 
-Mỗi bài có phần kiến thức và gợi ý. Em hãy tự làm trước, rồi mới bấm xem lời giải.
+Mỗi bài đều có phần kiến thức cần nhớ và một gợi ý để em bắt đầu. Em cứ thử tự làm trước, chưa chắc thì mới mở lời giải ra xem.
 
 :::exercise
 Viết thành tổng các trăm, chục, đơn vị.

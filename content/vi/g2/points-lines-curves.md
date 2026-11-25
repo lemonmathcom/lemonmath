@@ -12,13 +12,13 @@ minutes: 15
 
 Mai đứng ở cổng trường, nhìn thấy cột cờ ở xa. Mai muốn đi thẳng từ cổng đến cột cờ. Mai nên đi theo đường như thế nào, và làm sao vẽ đường đi đó lên giấy?
 
-Bài này giúp em gọi tên các hình rất quen thuộc quanh em: điểm, đoạn thẳng, đường thẳng và đường cong.
+Con đường Mai đi, nét em vẽ trên giấy, mép bàn học: đó là những hình em nhìn thấy mỗi ngày. Biết gọi tên chúng là điểm, đoạn thẳng, đường thẳng và đường cong, em sẽ vẽ và nói về chúng chính xác hơn.
 
 ## Cùng khám phá
 
-Em chấm hai chấm nhỏ lên giấy. Mỗi chấm nhỏ là một **điểm**. Ta đặt tên cho điểm bằng chữ cái in hoa, ví dụ điểm $A$ và điểm $B$.
+Ta bắt đầu từ hình đơn giản nhất. Em chấm hai chấm nhỏ lên giấy. Mỗi chấm nhỏ là một **điểm**. Ta đặt tên cho điểm bằng chữ cái in hoa, ví dụ điểm $A$ và điểm $B$.
 
-Em đặt thước thẳng sao cho mép thước đi qua cả hai điểm $A$ và $B$. Em dùng bút kẻ một nét từ $A$ đến $B$. Nét vẽ đó là **đoạn thẳng** $AB$. Hai điểm $A$ và $B$ là hai đầu của đoạn thẳng.
+Bây giờ em đặt thước thẳng sao cho mép thước đi qua cả hai điểm $A$ và $B$. Em dùng bút kẻ một nét từ $A$ đến $B$ theo mép thước. Nét vừa vẽ là **đoạn thẳng** $AB$. Hai điểm $A$ và $B$ là hai đầu của đoạn thẳng.
 
 :::diagram Đoạn thẳng AB
 alt: Đoạn thẳng AB nằm ngang với hai đầu là hai điểm A và B
@@ -27,9 +27,9 @@ point B 4,0 below
 segment A B
 :::
 
-Nếu em kéo dài nét thẳng đó mãi về hai phía, không có điểm dừng, ta được một **đường thẳng**. Đường thẳng không có hai đầu.
+Thử kéo nét thẳng đó dài mãi về hai phía, không dừng ở đâu cả. Ta được một **đường thẳng**. Đường thẳng không có hai đầu.
 
-Nếu nét vẽ không thẳng mà uốn lượn, ta gọi đó là **đường cong**.
+Còn nếu nét vẽ không thẳng mà uốn lượn thì sao? Ta gọi đó là **đường cong**.
 
 :::graph Một đường cong
 alt: Một đường cong uốn lượn lên xuống, không thẳng
@@ -45,11 +45,11 @@ plot: sin(x) ; 0..6
 - **Đường cong**: nét không thẳng, uốn lượn.
 :::
 
-Ta dùng thước để vẽ vì mép thước thẳng, nên nét vẽ theo mép thước sẽ thẳng.
+Vì sao ta phải dùng thước? Vì mép thước thẳng, nên nét kẻ theo mép thước cũng thẳng. Vẽ bằng tay không thì nét rất dễ bị cong.
 
 ## Ví dụ
 
-Ta bắt đầu với cách vẽ một đoạn thẳng.
+Ta thử vẽ một đoạn thẳng trước.
 
 :::example Vẽ đoạn thẳng $MN$
 **Lời giải.** Em làm theo từng bước:
@@ -60,7 +60,7 @@ Ta bắt đầu với cách vẽ một đoạn thẳng.
 Vậy nét thẳng đó là đoạn thẳng $MN$.
 :::
 
-Bây giờ em phân biệt các hình trong đời sống.
+Giờ em tìm những hình này ở quanh mình, trên chiếc bàn học và chiếc cốc.
 
 :::example Đoạn thẳng hay đường cong?
 Mép bàn học và vành miệng chiếc cốc tròn: hình nào gợi ra đoạn thẳng, hình nào gợi ra đường cong?
@@ -70,7 +70,7 @@ Mép bàn học và vành miệng chiếc cốc tròn: hình nào gợi ra đo�
 **Lời giải.** Mép bàn học là một nét thẳng có hai đầu, nên gợi ra đoạn thẳng. Vành miệng chiếc cốc tròn uốn quanh, không thẳng, nên gợi ra đường cong.
 :::
 
-Bây giờ ta xét ba điểm có nằm trên cùng một nét thẳng hay không.
+Còn ba điểm cho trước thì sao? Ta xét xem chúng có nằm trên cùng một nét thẳng hay không.
 
 :::diagram Ba điểm A, B, C và điểm D
 alt: Ba điểm A, B, C nằm trên cùng một nét thẳng đi lên, điểm D nằm lệch phía trên bên trái
@@ -98,9 +98,9 @@ Vậy có $3$ đoạn thẳng.
 :::
 
 :::warning Những lỗi em hay gặp
-- **Vẽ bằng tay không.** Sai: vẽ đoạn thẳng $AB$ mà không dùng thước, nét bị cong. Vì sao sai: nét cong không phải đoạn thẳng. Đúng: dùng thước kẻ theo mép thước.
-- **Nhầm đoạn thẳng với đường thẳng.** Sai: nói đoạn thẳng $AB$ kéo dài mãi. Vì sao sai: đoạn thẳng chỉ có hai đầu $A$ và $B$. Đúng: đường thẳng mới kéo dài mãi về hai phía.
-- **Gọi ba điểm là thẳng hàng khi một điểm lệch.** Sai: "$A$, $B$, $D$ thẳng hàng" ở hình trên. Vì sao sai: $D$ không nằm trên nét thẳng $AC$. Đúng: chỉ $A$, $B$, $C$ thẳng hàng.
+- **Vẽ bằng tay không.** Sai: vẽ đoạn thẳng $AB$ mà không dùng thước, nét bị cong. Vì sao sai: nét đã cong thì không còn là đoạn thẳng. Đúng: đặt thước rồi kẻ theo mép thước.
+- **Nhầm đoạn thẳng với đường thẳng.** Sai: nói đoạn thẳng $AB$ kéo dài mãi. Vì sao sai: đoạn thẳng chỉ có hai đầu $A$ và $B$, nên không kéo dài mãi được. Đúng: đường thẳng mới kéo dài mãi về hai phía.
+- **Gọi ba điểm là thẳng hàng khi một điểm lệch.** Sai: "$A$, $B$, $D$ thẳng hàng" ở hình trên. Vì sao sai: $D$ không nằm trên nét thẳng $AC$, nó lệch ra ngoài. Đúng: chỉ $A$, $B$, $C$ thẳng hàng.
 :::
 
 ## Thuật ngữ
@@ -122,9 +122,11 @@ Vậy có $3$ đoạn thẳng.
 - Đường thẳng kéo dài mãi về hai phía; đường cong thì không thẳng.
 - Ba điểm cùng nằm trên một đường thẳng là ba điểm thẳng hàng.
 
+Quay lại câu hỏi đầu bài: muốn đi thẳng từ cổng đến cột cờ, Mai đi theo một đoạn thẳng, và em vẽ đường đó bằng thước. Em nhớ rằng đoạn thẳng có hai đầu, còn đường thẳng thì kéo dài mãi. Em làm các bài luyện tập để quen tay nhé.
+
 ## Luyện tập
 
-Mỗi bài có phần kiến thức và gợi ý. Em hãy tự làm trước, rồi mới bấm xem lời giải.
+Mỗi bài đều có phần kiến thức cần nhớ và một gợi ý để em bắt đầu. Em cứ thử tự làm trước, chưa chắc thì mới mở lời giải ra xem.
 
 :::exercise
 Hình gồm hai điểm $P$, $Q$ và nét thẳng nối $P$ với $Q$ vẽ bằng thước. Hình đó là gì? Viết tên hình.

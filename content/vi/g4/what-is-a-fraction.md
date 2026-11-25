@@ -10,20 +10,22 @@ minutes: 15
 - Biểu diễn phân số bằng hình và trên trục số.
 :::
 
-Một chiếc bánh pizza được cắt thành $4$ phần bằng nhau. Lan ăn $1$ phần, Nam ăn $3$ phần. Mỗi bạn ăn mấy phần của chiếc bánh? Có phải ta viết được bằng một số không?
+Em thử nghĩ đến chuyện chia bánh pizza. Chiếc bánh này được cắt thành $4$ phần bằng nhau. Lan ăn $1$ phần, Nam ăn $3$ phần. Mỗi bạn ăn mấy phần của chiếc bánh? Có phải ta viết được phần ấy bằng một số không?
 
-Số tự nhiên không viết được "một phần tư" hay "ba phần tư". Bài này dạy em một loại số mới để viết các phần của một cái nguyên.
+Số tự nhiên không viết được "một phần tư" hay "ba phần tư". Số tự nhiên đếm những chiếc bánh nguyên thì tốt, nhưng một phần của chiếc bánh thì chưa có số nào để viết. Em sẽ học một loại số mới để viết các phần của một cái nguyên. Nhờ nó, ta nói được chính xác mỗi bạn đã ăn bao nhiêu.
 
 ## Cùng khám phá
 
-Ta làm từng bước nhỏ.
+Ta đi từng bước nhỏ, từ chiếc bánh của Lan và Nam.
 
 - Chiếc bánh được cắt thành $4$ phần **bằng nhau**. Số $4$ cho biết chiếc bánh có bao nhiêu phần bằng nhau.
 - Lan ăn $1$ phần. Ta viết số phần Lan ăn là $\dfrac{1}{4}$, đọc là "một phần tư".
 - Nam ăn $3$ phần. Ta viết $\dfrac{3}{4}$, đọc là "ba phần tư".
 - Lan và Nam ăn cả $4$ phần, tức ăn hết cả chiếc bánh. Ta viết $\dfrac{4}{4}=1$.
 
-Ta cũng đặt các phân số lên trục số. Đoạn từ $0$ đến $1$ được chia thành $4$ phần bằng nhau, mỗi phần là $\dfrac{1}{4}$.
+Bốn dòng này đều nói về cùng một chiếc bánh, chỉ khác số phần ta lấy.
+
+Ta cũng đặt các phân số lên trục số. Đoạn từ $0$ đến $1$ được chia thành $4$ phần bằng nhau, mỗi phần là $\dfrac{1}{4}$. Đoạn thẳng này chính là một cái nguyên, giống như cả chiếc bánh.
 
 :::graph Trục số: đoạn từ 0 đến 1 chia thành 4 phần bằng nhau
 alt: Trục số từ 0 đến 1 chia thành 4 phần bằng nhau, đánh dấu các điểm 0, 1/4, 2/4, 3/4 và 1
@@ -43,11 +45,11 @@ Chia một cái nguyên thành $b$ phần bằng nhau, lấy $a$ phần. Số ph
 Số $a$ ở trên gọi là **tử số**. Số $b$ ở dưới gọi là **mẫu số**. Mẫu số không bao giờ bằng $0$.
 :::
 
-Mẫu số cho biết cái nguyên được chia thành bao nhiêu phần bằng nhau. Tử số cho biết ta lấy bao nhiêu phần.
+Em chỉ cần nhớ hai điều. Mẫu số cho biết cái nguyên được chia thành bao nhiêu phần bằng nhau. Tử số cho biết ta lấy bao nhiêu phần. Số ở dưới đếm các phần của cả chiếc bánh, số ở trên đếm các phần ta lấy.
 
 ## Ví dụ
 
-Ta bắt đầu với việc viết phân số cho một hình.
+Ta bắt đầu với việc viết phân số cho một hình. Em nhìn hình, đếm tất cả các phần, rồi đếm số phần đã lấy.
 
 :::example Viết phân số từ hình
 Một chiếc bánh được cắt thành $8$ phần bằng nhau. Mai ăn $3$ phần. Viết phân số chỉ phần bánh Mai đã ăn.
@@ -59,7 +61,7 @@ $$\frac{3}{8}.$$
 Vậy Mai ăn $\dfrac{3}{8}$ chiếc bánh.
 :::
 
-Bây giờ em đọc phân số và chỉ ra tử số, mẫu số.
+Bây giờ em đọc phân số và chỉ ra tử số, mẫu số. Đừng lo nếu lần đầu thấy lạ. Em đọc to vài lần là quen.
 
 :::example Đọc phân số
 Đọc phân số $\dfrac{5}{6}$, rồi cho biết tử số và mẫu số. Viết phân số "bảy phần chín".
@@ -68,7 +70,7 @@ Bây giờ em đọc phân số và chỉ ra tử số, mẫu số.
 $$\frac{7}{9}.$$
 :::
 
-Ta cũng có thể viết phân số cho phần chưa lấy.
+Ta cũng có thể viết phân số cho phần chưa lấy. Phần còn lại cũng là một phần của cái nguyên.
 
 :::example Phần còn lại
 Một hình vuông được chia thành $6$ phần bằng nhau, tô màu $5$ phần. Viết phân số chỉ phần đã tô và phân số chỉ phần chưa tô.
@@ -80,7 +82,7 @@ $$\frac{5}{6}\ \text{(đã tô)},\qquad \frac{1}{6}\ \text{(chưa tô)}.$$
 **Kiểm tra.** $5$ phần và $1$ phần là $6$ phần, tức cả hình: $\dfrac{5}{6}$ và $\dfrac{1}{6}$ ghép lại thành cả hình.
 :::
 
-Cuối cùng, ta đánh dấu một phân số trên trục số.
+Cuối cùng, ta đánh dấu một phân số trên trục số, đếm từng phần một từ điểm gốc.
 
 :::example Phân số trên trục số
 Trên trục số, đoạn từ $0$ đến $1$ chia thành $4$ phần bằng nhau. Điểm nào biểu diễn $\dfrac{3}{4}$?
@@ -90,8 +92,10 @@ Trên trục số, đoạn từ $0$ đến $1$ chia thành $4$ phần bằng nha
 
 :::warning Những lỗi em hay gặp
 - **Các phần không bằng nhau.** Sai: cắt chiếc bánh thành $4$ phần to nhỏ khác nhau rồi nói mỗi phần là $\dfrac{1}{4}$. Vì sao sai: phân số chỉ đúng khi các phần bằng nhau. Đúng: chia thành $4$ phần bằng nhau.
-- **Viết ngược tử số và mẫu số.** Sai: ăn $3$ phần trong $4$ phần viết là $\dfrac{4}{3}$. Vì sao sai: mẫu số là số phần cả cái nguyên. Đúng: $\dfrac{3}{4}$.
+- **Viết ngược tử số và mẫu số.** Sai: ăn $3$ phần trong $4$ phần viết là $\dfrac{4}{3}$. Vì sao sai: mẫu số là số phần của cả cái nguyên. Đúng: $\dfrac{3}{4}$.
 - **Mẫu số bằng $0$.** Sai: $\dfrac{5}{0}$. Vì sao sai: không có cách chia thành $0$ phần. Đúng: mẫu số là số khác $0$.
+
+Chỗ ngược tử và mẫu nhiều bạn hay nhầm. Em tự hỏi: số nào đếm cả chiếc bánh, số nào đếm phần đã lấy?
 :::
 
 ## Thuật ngữ
@@ -114,9 +118,11 @@ Trên trục số, đoạn từ $0$ đến $1$ chia thành $4$ phần bằng nha
 - Ví dụ: $\dfrac{3}{4}$ đọc là "ba phần tư".
 - Phân số có thể biểu diễn bằng hình hoặc bằng điểm trên trục số.
 
+Quay lại chiếc pizza: Lan ăn một phần tư, Nam ăn ba phần tư, và hai bạn ăn hết cả chiếc bánh. Em nhớ: mẫu số đếm các phần của cả cái nguyên, tử số đếm các phần đã lấy. Em làm các bài luyện tập để quen cách đọc, cách viết nhé.
+
 ## Luyện tập
 
-Mỗi bài có phần kiến thức và gợi ý. Em hãy tự làm trước, rồi mới bấm xem lời giải.
+Mỗi bài có phần kiến thức và gợi ý để em bắt đầu. Em hãy tự làm trước, rồi mới bấm xem lời giải. Làm sai một lần cũng không sao, vì chỗ sai thường chỉ đúng chỗ cần nhớ.
 
 :::exercise
 Một hình chữ nhật được chia thành $5$ phần bằng nhau, tô màu $2$ phần. Viết phân số chỉ phần đã tô.

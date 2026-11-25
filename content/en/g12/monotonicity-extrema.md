@@ -11,24 +11,24 @@ minutes: 24
 - Apply these to cubics, quartics, rational functions and a real-life problem.
 :::
 
-A drone flies for $7$ minutes. Its height after $t$ minutes is $h(t)=t^3-12t^2+36t+10$ (metres). It takes off from a rooftop at a height of $10$ m, after $2$ minutes it is at $42$ m, after $6$ minutes it is back down at $10$ m, and it reaches $17$ m when time is up. So during which time intervals is the drone climbing, during which is it descending, and at which moments does it "turn round"?
+A drone flies for $7$ minutes. Its height after $t$ minutes is $h(t)=t^3-12t^2+36t+10$ (metres). It takes off from a rooftop at a height of $10$ m, after $2$ minutes it is at $42$ m, after $6$ minutes it is back down at $10$ m, and it reaches $17$ m when time is up. So during which time intervals is the drone climbing, during which is it descending, and at which moments does it "turn round"? We will answer without checking minute after minute.
 
-To answer exactly, we do not need the height at lots of moments. We only need the sign of the derivative $h'(t)$.
+Surprisingly, to answer exactly we do not need the height at lots of moments. We only need the sign of the derivative $h'(t)$: positive means the drone is climbing, negative means it is descending.
 
-The question "going up or going down?" appears everywhere: is the river level rising or falling, has a patient's temperature started to drop, is a price going up or down? In grade 11 we saw that $h'(t)$ is the instantaneous velocity, the rate at which the height changes at the moment $t$. This lesson turns the simple remark "positive velocity means going up" into a precise tool.
+The question "going up or going down?" appears everywhere: is the river level rising or falling, has a patient's temperature started to drop, is a price going up or down? In grade 11 you saw that $h'(t)$ is the instantaneous velocity, the rate at which the height changes at the moment $t$. The remark "positive velocity means going up" sounds obvious, but it is strong enough to tell us exactly where a function rises, where it falls and where it turns round.
 
 ## Monotonicity
 
 ### Explore: when does the graph go up?
 
-We compute the height at whole minutes, and the derivative $h'(t)=3t^2-24t+36=3(t-2)(t-6)$:
+We record the height at whole minutes, together with the derivative $h'(t)=3t^2-24t+36=3(t-2)(t-6)$, and look at how the two rows go together:
 
 | $t$ | $0$ | $1$ | $2$ | $3$ | $4$ | $5$ | $6$ | $7$ |
 |---|---|---|---|---|---|---|---|---|
 | $h(t)$ | $10$ | $35$ | $42$ | $37$ | $26$ | $15$ | $10$ | $17$ |
 | $h'(t)$ | $36$ | $15$ | $0$ | $-9$ | $-12$ | $-9$ | $0$ | $15$ |
 
-From $t=0$ to $t=2$ the height increases and $h'>0$. From $t=2$ to $t=6$ the height decreases and $h'<0$. After $t=6$ the height increases again and $h'>0$. This makes sense: $h'(t)$ is the gradient of the tangent, and a positive gradient means the graph is going up.
+Look at the table. From $t=0$ to $t=2$ the height increases and $h'>0$. From $t=2$ to $t=6$ the height decreases and $h'<0$. After $t=6$ the height increases again and $h'>0$. The two rows always go together, and the reason is not hard to see: $h'(t)$ is the gradient of the tangent, and a positive gradient means the graph is going up.
 
 :::graph Height of the drone $h(t)=t^3-12t^2+36t+10$
 alt: A cubic graph on the interval from 0 to 7, rising to a high point at t equal 2 with height 42, falling to a low point at t equal 6 with height 10, then rising again
@@ -54,13 +54,13 @@ Let $f$ be differentiable on an interval $K$.
 - If $f'(x)\ge 0$ (or $f'(x)\le 0$) for every $x\in K$ and $f'(x)=0$ only at finitely many points, then $f$ is still increasing (decreasing) on $K$.
 :::
 
-Why is it true? The derivative $f'(x)$ is the limit of the ratio $\dfrac{f(x_2)-f(x_1)}{x_2-x_1}$. If the graph has an upward-sloping tangent at **every** point of $K$, it cannot go down anywhere in $K$. A few points with a horizontal tangent (like $y=x^3$ at $x=0$) do not make the graph turn round.
+Why is it true? The derivative $f'(x)$ is the limit of the ratio $\dfrac{f(x_2)-f(x_1)}{x_2-x_1}$, which is the steepness of the graph. If the graph has an upward-sloping tangent at **every** point of $K$, it cannot go down anywhere in $K$. What about a few points with a horizontal tangent (like $y=x^3$ at $x=0$)? They do not make the graph turn round, because just either side of such a point the graph still slopes upwards.
 
-**A closer look.** The theorem takes information *at each point* (the gradient) to a conclusion *on a whole interval*. This works only on an unbroken interval. The function $y=-\dfrac1x$ has $y'=\dfrac{1}{x^2}>0$ at every point of its domain, yet $y(-1)=1>y(1)=-1$. Because the domain is "broken" at $x=0$, we can only conclude that the function is increasing on each interval $(-\infty, 0)$ and $(0, +\infty)$.
+**A closer look.** The theorem goes from information *at each point* (the gradient) to a conclusion *on a whole interval*. That step works only on an unbroken interval. For example, the function $y=-\dfrac1x$ has $y'=\dfrac{1}{x^2}>0$ at every point of its domain, yet $y(-1)=1>y(1)=-1$. Because the domain is "broken" at $x=0$, we can only conclude that the function is increasing on each interval $(-\infty, 0)$ and $(0, +\infty)$, not on the two joined together.
 
-**Connections.** This lesson uses the derivative (grade 11) and the sign of a quadratic expression (grade 10). Intervals of monotonicity and extrema are the raw material for the next lessons: maximum and minimum values, curve sketching, and optimisation problems in real life.
+**Connections.** Here you will use the derivative (grade 11) and the sign of a quadratic expression (grade 10). In return, intervals of monotonicity and extrema are the raw material for the lessons that follow: maximum and minimum values, curve sketching, and optimisation problems in real life.
 
-To study monotonicity, we work in this order:
+To study the monotonicity of a function, we work in four steps:
 
 1. Find the domain.
 2. Compute $f'(x)$ and find the points where $f'(x)=0$ (the stationary points) or $f'(x)$ is undefined.
@@ -84,7 +84,7 @@ Since the quadratic $y'$ has $a=3>0$, $y'$ is positive outside the roots and neg
 So the function is increasing on the intervals $(-\infty, 1)$ and $(3, +\infty)$, and decreasing on the interval $(1, 3)$.
 :::
 
-The next example shows that $f'(x_0)=0$ does not always make the function turn round.
+One thing often causes confusion: $f'(x_0)=0$ does not always make the function turn round. The next example shows this.
 
 :::example The derivative is zero at one point
 Prove that $y=x^3-3x^2+3x+5$ is increasing on $\mathbb{R}$.
@@ -100,7 +100,7 @@ So the function is increasing on $\mathbb{R}$.
 
 ## Extrema of a function
 
-In the drone problem, the moment $t=2$ gives a height greater than at all **nearby** moments, although it is not necessarily the highest of the whole flight. We say that $h$ has a local maximum at $t=2$.
+Back to the drone: at the moment $t=2$ the height is greater than at all **nearby** moments, although it is not necessarily the highest of the whole flight. We say that $h$ has a local maximum at $t=2$.
 
 :::definition Local maximum and local minimum
 Let $f$ be defined on a set $D$ and $x_0\in D$.
@@ -115,7 +115,7 @@ Let $f$ be continuous on an interval $(a, b)$ containing $x_0$ and differentiabl
 - If $f'$ **changes sign from $-$ to $+$** as $x$ passes through $x_0$, then $f$ has a local minimum at $x_0$.
 :::
 
-The reason: a change from $+$ to $-$ means the graph goes up just before $x_0$ and down just after it, so $f(x_0)$ is greater than the nearby values. In Example 1, $y'$ changes sign from $+$ to $-$ at $x=1$, so $f$ has a local maximum at $x=1$ with $y_{\text{max}}=5$; likewise $f$ has a local minimum at $x=3$ with $y_{\text{min}}=1$.
+The reason is easy to picture: a change from $+$ to $-$ means the graph goes up just before $x_0$ and down just after it, so $f(x_0)$ is greater than the nearby values. In Example 1, $y'$ changes sign from $+$ to $-$ at $x=1$, so $f$ has a local maximum at $x=1$ with $y_{\text{max}}=5$; likewise $f$ has a local minimum at $x=3$ with $y_{\text{min}}=1$.
 
 :::example A quartic with three extrema
 Find the extrema of $y=x^4-2x^2+3$.
@@ -144,7 +144,7 @@ point: (0, 3) "(0, 3)" above
 point: (1, 2) "(1, 2)" below
 :::
 
-For a rational function, a value that makes the denominator zero is not in the domain, but it must still be written in the table of variations to split the intervals.
+A rational function has one easily forgotten detail: a value that makes the denominator zero is not in the domain, but we must still write it in the table of variations, because it splits the intervals.
 
 :::example A rational function
 Find the intervals on which $y=\dfrac{x^2+3}{x-1}$ is increasing or decreasing, and its extrema.
@@ -177,10 +177,10 @@ point: (3, 6) "(3, 6)" below-right
 
 ### Using the second derivative
 
-When the sign of $f'$ is hard to find (often with trigonometric functions), we can use the second derivative (grade 11).
+Sometimes the sign of $f'$ is awkward to find, especially for trigonometric functions. Then we can use the second derivative (grade 11), whose sign tells us whether the graph bends upwards or downwards.
 
 :::note Second-derivative test
-Suppose $f'(x_0)=0$ and $f$ has a second derivative at $x_0$.
+Suppose $f'(x_0)=0$ and $f$ has a second derivative at $x_0$. Then:
 - If $f''(x_0)<0$, then $f$ has a local maximum at $x_0$.
 - If $f''(x_0)>0$, then $f$ has a local minimum at $x_0$.
 - If $f''(x_0)=0$, this test gives no conclusion; go back to the sign of $f'$.
@@ -200,7 +200,7 @@ $$f''\left(\frac{\pi}{3}\right)=\sqrt3>0,\qquad f''\left(\frac{5\pi}{3}\right)=-
 So $f$ has a local minimum at $x=\dfrac{\pi}{3}$ with $f_{\text{min}}=\dfrac{\pi}{3}-\sqrt3$, and a local maximum at $x=\dfrac{5\pi}{3}$ with $f_{\text{max}}=\dfrac{5\pi}{3}+\sqrt3$.
 :::
 
-Finally, we answer the question about the drone from the start of the lesson.
+We now have the tools to answer the question about the drone from the start of the lesson.
 
 :::example The drone goes up and down
 The height of the drone is $h(t)=t^3-12t^2+36t+10$ (metres), $0\le t\le 7$ (minutes). Find the time intervals during which the drone is climbing, the time intervals during which it is descending, and the extrema of its height.
@@ -221,6 +221,7 @@ So the drone climbs during the first $2$ minutes and during the last minute (fro
 - **Thinking $f'(x_0)=0$ means an extremum.** Wrong: "$y=x^3-3x^2+3x+5$ has $y'(1)=0$, so it has an extremum at $x=1$". Why it is wrong: $y'=3(x-1)^2$ does not change sign at $x=1$. Right: the function has no extremum.
 - **Mixing up the point and the value.** Wrong: "the local maximum point of $y=x^4-2x^2+3$ is $3$". Why it is wrong: the local maximum point is a value of $x$. Right: local maximum point $x=0$, local maximum value $y_{\text{max}}=3$, turning point of the graph $(0, 3)$.
 - **Forgetting the domain.** Wrong: drawing the table of variations of $y=\dfrac{x^2+3}{x-1}$ without $x=1$. Why it is wrong: the sign of $y'$ may change at $x=1$, and the function is undefined there. Right: always write the excluded points in the table.
+The first two are where most people slip, so do not worry if you do too. Before you conclude, check the domain and the sign of the derivative.
 :::
 
 ## Key terms
@@ -245,10 +246,11 @@ So the drone climbs during the first $2$ minutes and during the last minute (fro
 - $f'$ changes sign $+\to-$ at $x_0$: local maximum; $-\to+$: local minimum. No sign change: no extremum.
 - Second-derivative test: $f'(x_0)=0$ and $f''(x_0)<0$ gives a local maximum, $f''(x_0)>0$ a local minimum.
 - Distinguish the point $x_0$ where the extremum occurs, the extreme value $f(x_0)$, and the turning point of the graph $(x_0, f(x_0))$.
+Back to the drone: the sign of the derivative alone told us where it climbs, where it descends and when it turns round, without computing the height at many moments. Remember that a local maximum is only "highest nearby", so do not take it for the highest point of the whole flight.
 
 ## Practice
 
-Each exercise comes with what you need and some steps to start. Try it yourself first, then open the solution.
+Each exercise gives you what you need and a few steps to start. Try it yourself before you open the solution. If you get stuck, read a hint, carry on, and only then open the solution to compare.
 
 :::exercise
 Find the intervals on which $y=-x^3+3x^2+1$ is increasing or decreasing.

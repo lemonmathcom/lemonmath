@@ -10,7 +10,7 @@ minutes: 20
 - Rút gọn biểu thức chứa căn thức bậc hai theo các bước của đề thi vào lớp 10.
 :::
 
-Nhà bác Lan có ba mảnh đất hình vuông nằm liền nhau trên một hàng, diện tích lần lượt là $12$ m², $27$ m² và $48$ m². Bác muốn làm hàng rào dọc theo cạnh phía trước của cả ba mảnh. Hàng rào dài bao nhiêu mét? Có viết được độ dài đúng thật gọn không?
+Nhà bác Lan có ba mảnh đất hình vuông nằm liền nhau trên một hàng, diện tích lần lượt là $12$ m², $27$ m² và $48$ m². Bác muốn làm hàng rào dọc theo cạnh phía trước của cả ba mảnh. Hàng rào cần dài bao nhiêu mét? Ta có viết được độ dài ấy thật đúng và thật gọn, thay vì một số thập phân dài dằng dặc không?
 
 :::diagram Ba mảnh đất hình vuông xếp liền nhau
 alt: Ba hình vuông đặt cạnh nhau trên một đường thẳng, cạnh lần lượt là căn 12, căn 27 và căn 48 mét
@@ -32,17 +32,17 @@ segment B C "√27"
 segment C D "√48"
 :::
 
-Ba cạnh là $\sqrt{12}$, $\sqrt{27}$ và $\sqrt{48}$ m. Không có quy tắc cộng các căn, nhưng ta có thể biến đổi để chúng có chung một "phần căn".
+Cạnh của ba mảnh đất là $\sqrt{12}$, $\sqrt{27}$ và $\sqrt{48}$ m. Nhìn qua thì ba căn này chẳng giống nhau, mà cộng căn với căn cũng không có quy tắc nào sẵn. Nhưng nếu biến đổi để chúng có chung một "phần căn", ta sẽ cộng được. Đó là việc ta làm ngay sau đây.
 
 ## Đưa thừa số ra ngoài và vào trong dấu căn
 
 ### Khám phá
 
-Ta tách mỗi số dưới dấu căn thành tích của một số chính phương với một số khác, rồi dùng $\sqrt{ab}=\sqrt a\cdot\sqrt b$:
+Ta thử tách mỗi số dưới dấu căn thành tích của một số chính phương với một số khác. Số chính phương thì lấy căn được gọn, nên ta cho nó ra ngoài dấu căn, nhờ $\sqrt{ab}=\sqrt a\cdot\sqrt b$:
 
 $$\sqrt{12}=\sqrt{4\cdot3}=2\sqrt3,\qquad \sqrt{27}=\sqrt{9\cdot3}=3\sqrt3,\qquad \sqrt{48}=\sqrt{16\cdot3}=4\sqrt3.$$
 
-Ba căn bây giờ là các bội của cùng một số $\sqrt3$. Ta gọi chúng là các **căn thức đồng dạng**, và cộng được như cộng các đơn thức đồng dạng.
+Ba căn bây giờ đều là bội của cùng một số $\sqrt3$. Ta gọi chúng là các **căn thức đồng dạng**. Giống như các đơn thức đồng dạng, chúng cộng được với nhau bằng cách cộng các hệ số. Hai phép biến đổi vừa dùng được ghi lại trong khung dưới đây.
 
 :::definition Đưa thừa số ra ngoài và vào trong dấu căn
 Với $B\ge0$:
@@ -50,7 +50,7 @@ Với $B\ge0$:
 - **Đưa thừa số vào trong dấu căn:** $A\sqrt B=\sqrt{A^2B}$ nếu $A\ge0$; $A\sqrt B=-\sqrt{A^2B}$ nếu $A<0$.
 :::
 
-Công thức thứ nhất đúng vì $\sqrt{A^2B}=\sqrt{A^2}\cdot\sqrt B=|A|\sqrt B$. Công thức thứ hai là đọc ngược công thức thứ nhất; khi $A<0$ thì số $A\sqrt B$ âm, nên phải giữ dấu trừ bên ngoài.
+Vì sao công thức thứ nhất đúng? Vì căn của một tích bằng tích các căn, nên $\sqrt{A^2B}=\sqrt{A^2}\cdot\sqrt B=|A|\sqrt B$. Công thức thứ hai chỉ là công thức thứ nhất đọc ngược lại. Chỗ này nhiều bạn hay nhầm: khi $A<0$, số $A\sqrt B$ là số âm, mà căn bậc hai thì không âm, nên dấu trừ phải đứng ngoài dấu căn.
 
 :::example Cộng các căn thức đồng dạng
 Tính độ dài hàng rào $\sqrt{12}+\sqrt{27}+\sqrt{48}$ (viết gọn, rồi làm tròn đến hàng phần trăm).
@@ -62,7 +62,7 @@ $$\sqrt{12}+\sqrt{27}+\sqrt{48}=2\sqrt3+3\sqrt3+4\sqrt3=9\sqrt3\approx15{,}59.$$
 Vậy hàng rào dài đúng $9\sqrt3$ m, khoảng $15{,}59$ m.
 :::
 
-Khi dưới dấu căn có chữ, nhớ rằng $\sqrt{A^2}=|A|$ nên phải xét dấu của $A$.
+Khi dưới dấu căn có chữ, ta phải cẩn thận hơn một chút. Vì $\sqrt{A^2}=|A|$, nên trước khi đưa ra ngoài, ta xét dấu của $A$ để biết bỏ dấu giá trị tuyệt đối như thế nào.
 
 :::example Đưa thừa số chứa chữ ra ngoài
 Rút gọn: a) $\sqrt{50x^2}$ với $x<0$; b) $\sqrt{18a^3}$ với $a\ge0$.
@@ -74,7 +74,7 @@ $$\sqrt{50x^2}=\sqrt{(5x)^2\cdot2}=5|x|\sqrt2=-5x\sqrt2;\qquad \sqrt{18a^3}=\sqr
 Vậy a) bằng $-5x\sqrt2$; b) bằng $3a\sqrt{2a}$.
 :::
 
-Đưa thừa số vào trong dấu căn giúp so sánh hai số mà không cần máy tính.
+Đưa thừa số vào trong dấu căn còn có một công dụng nữa: so sánh hai số mà không cần máy tính. Khi cả hai số đã nằm gọn dưới một dấu căn, ta chỉ việc so sánh hai số dưới căn.
 
 :::example So sánh nhờ đưa vào trong dấu căn
 So sánh $3\sqrt5$ và $2\sqrt{11}$.
@@ -90,7 +90,7 @@ Vậy $3\sqrt5>2\sqrt{11}$.
 
 ## Khử mẫu và trục căn thức ở mẫu
 
-Những số như $\dfrac{6}{\sqrt3}$ khó ước lượng vì mẫu là số vô tỉ. Ta biến đổi để mẫu không còn căn.
+Một số như $\dfrac{6}{\sqrt3}$ khó hình dung là lớn hay bé, vì mẫu là số vô tỉ. Muốn ước lượng được, ta biến đổi sao cho mẫu không còn căn. Các phép biến đổi ấy nằm trong khung dưới đây.
 
 :::theorem Các phép biến đổi
 - **Khử mẫu của biểu thức lấy căn:** $\sqrt{\dfrac AB}=\dfrac{\sqrt{AB}}{|B|}$ với $AB\ge0$, $B\neq0$.
@@ -99,7 +99,7 @@ Những số như $\dfrac{6}{\sqrt3}$ khó ước lượng vì mẫu là số v�
 - Với $A$, $B\ge0$, $A\neq B$: $\dfrac{C}{\sqrt A+\sqrt B}=\dfrac{C\left(\sqrt A-\sqrt B\right)}{A-B}$ và $\dfrac{C}{\sqrt A-\sqrt B}=\dfrac{C\left(\sqrt A+\sqrt B\right)}{A-B}$.
 :::
 
-Ý tưởng chung: nhân cả tử và mẫu với một biểu thức để mẫu thành hằng đẳng thức $(m+n)(m-n)=m^2-n^2$, trong đó bình phương làm mất căn. Hai biểu thức $\sqrt A+\sqrt B$ và $\sqrt A-\sqrt B$ gọi là hai **biểu thức liên hợp**.
+Vì sao nhân với biểu thức ấy thì mất căn? Vì ta nhân cả tử và mẫu sao cho mẫu thành hằng đẳng thức $(m+n)(m-n)=m^2-n^2$, mà bình phương một căn thì căn biến mất. Hai biểu thức $\sqrt A+\sqrt B$ và $\sqrt A-\sqrt B$ gọi là hai **biểu thức liên hợp** của nhau.
 
 :::example Trục căn thức ở mẫu
 Trục căn thức ở mẫu: a) $\dfrac{6}{\sqrt3}$; b) $\dfrac{4}{\sqrt5-1}$; c) $\dfrac{1}{\sqrt7+\sqrt5}$.
@@ -113,7 +113,7 @@ Vậy a) $2\sqrt3$; b) $\sqrt5+1$; c) $\dfrac{\sqrt7-\sqrt5}{2}$.
 
 ## Rút gọn biểu thức chứa căn thức bậc hai
 
-Bài rút gọn trong đề thi vào lớp 10 thường đi theo các bước: tìm điều kiện xác định, phân tích tử và mẫu thành nhân tử, quy đồng và thu gọn.
+Bài rút gọn trong đề thi vào lớp 10 trông dài, nhưng thường đi theo cùng một lối: tìm điều kiện xác định, phân tích tử và mẫu thành nhân tử, quy đồng rồi thu gọn. Nắm được lối đi này thì đứng trước biểu thức nào ta cũng biết bắt đầu từ đâu.
 
 :::example Rút gọn một biểu thức chứa $\sqrt x$
 Rút gọn $A=\dfrac{x-\sqrt x}{\sqrt x-1}+\dfrac{x-4}{\sqrt x+2}$ với $x\ge0$, $x\neq1$.
@@ -126,9 +126,9 @@ Vậy $A=2\sqrt x-2$ với $x\ge0$, $x\neq1$.
 :::
 
 :::warning Những sai lầm thường gặp
-- **Cộng các căn không đồng dạng.** Sai: $\sqrt2+\sqrt3=\sqrt5$. Lí do sai: căn không cộng qua dấu cộng. Đúng: $\sqrt2+\sqrt3$ đã gọn; chỉ cộng được $a\sqrt3+b\sqrt3=(a+b)\sqrt3$.
-- **Đưa số âm vào trong dấu căn.** Sai: $-2\sqrt3=\sqrt{12}$. Lí do sai: vế trái âm, vế phải dương. Đúng: $-2\sqrt3=-\sqrt{12}$.
-- **Nhân liên hợp chỉ ở mẫu.** Sai: $\dfrac{4}{\sqrt5-1}=\dfrac{4}{4}=1$. Lí do sai: nhân mẫu với $\sqrt5+1$ thì phải nhân cả tử. Đúng: $\dfrac{4\left(\sqrt5+1\right)}{4}=\sqrt5+1$.
+- **Cộng các căn không đồng dạng.** Sai: $\sqrt2+\sqrt3=\sqrt5$. Lí do sai: căn của một tổng không bằng tổng các căn. Đúng: $\sqrt2+\sqrt3$ đã ở dạng gọn nhất; ta chỉ cộng được khi căn giống nhau, như $a\sqrt3+b\sqrt3=(a+b)\sqrt3$.
+- **Đưa số âm vào trong dấu căn.** Sai: $-2\sqrt3=\sqrt{12}$. Lí do sai: vế trái là số âm, còn vế phải là số dương. Đúng: $-2\sqrt3=-\sqrt{12}$.
+- **Nhân liên hợp chỉ ở mẫu.** Sai: $\dfrac{4}{\sqrt5-1}=\dfrac{4}{4}=1$. Lí do sai: đã nhân mẫu với $\sqrt5+1$ thì tử cũng phải nhân với biểu thức ấy. Đúng: $\dfrac{4\left(\sqrt5+1\right)}{4}=\sqrt5+1$.
 - **Quên điều kiện khi rút gọn.** Sai: rút gọn $\dfrac{x-\sqrt x}{\sqrt x-1}$ mà không ghi $x\neq1$. Lí do sai: tại $x=1$ mẫu bằng $0$. Đúng: ghi rõ $x\ge0$, $x\neq1$.
 :::
 
@@ -152,10 +152,11 @@ Vậy $A=2\sqrt x-2$ với $x\ge0$, $x\neq1$.
 - Căn đồng dạng: $a\sqrt c+b\sqrt c=(a+b)\sqrt c$.
 - $\dfrac{A}{\sqrt B}=\dfrac{A\sqrt B}{B}$; với mẫu $\sqrt A\pm B$ hoặc $\sqrt A\pm\sqrt B$, nhân cả tử và mẫu với biểu thức liên hợp.
 - Rút gọn: điều kiện xác định → phân tích nhân tử → quy đồng → thu gọn → kiểm tra bằng một giá trị.
+Quay lại hàng rào của bác Lan: nhờ đưa thừa số ra ngoài dấu căn, ba căn trở thành căn đồng dạng và độ dài hàng rào viết được thật gọn. Điều đáng nhớ là muốn cộng căn thì trước hết làm cho chúng đồng dạng. Bạn làm thêm vài bài luyện tập để quen tay nhé.
 
 ## Luyện tập
 
-Mỗi bài có phần kiến thức và gợi ý các bước. Hãy tự làm trước, rồi mới bấm xem lời giải.
+Mỗi bài có phần kiến thức cần dùng và vài bước gợi ý để bạn bắt đầu. Bạn cứ tự làm trước, vướng ở đâu thì xem gợi ý, rồi mới mở lời giải để đối chiếu. Sai một lần cũng không sao, vì chỗ sai thường chính là chỗ giúp ta nhớ lâu.
 
 :::exercise
 Đưa thừa số ra ngoài dấu căn:

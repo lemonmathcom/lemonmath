@@ -11,14 +11,16 @@ minutes: 45
 - Write equations of planes, and find intersections, angles and distances involving lines and planes.
 :::
 
-Vectors usually fill one long Section B question in HL Paper 1 or Paper 2: a few points in space, a line through two of them, a plane through three, then an intersection, an angle and a distance. Every step uses the same few tools, so the marks go to students who organize their work: label each vector, write each equation in full, and check a point by substituting it back.
+A long Section B question on HL Paper 1 or Paper 2 often looks like this. You are given a few points in space, then asked for a line through two of them, a plane through three, and after that an intersection, an angle and a distance. How do you get through the whole chain without getting lost? The good news is that every step uses the same few tools. So the marks go to the student who organises their work: label each vector, write each equation in full, and check a point by substituting it back.
 
 ## Scalar product and vector product
 
-For $\boldsymbol a=\begin{pmatrix}a_1\\a_2\\a_3\end{pmatrix}$ and $\boldsymbol b=\begin{pmatrix}b_1\\b_2\\b_3\end{pmatrix}$:
+Take two vectors in space, $\boldsymbol a=\begin{pmatrix}a_1\\a_2\\a_3\end{pmatrix}$ and $\boldsymbol b=\begin{pmatrix}b_1\\b_2\\b_3\end{pmatrix}$. There are two ways to multiply them, and they give very different results:
 
-- **Scalar product:** $\boldsymbol a\cdot\boldsymbol b=a_1b_1+a_2b_2+a_3b_3=|\boldsymbol a||\boldsymbol b|\cos\theta$. It is $0$ exactly when the vectors are perpendicular.
-- **Vector product:** $\boldsymbol a\times\boldsymbol b=\begin{pmatrix}a_2b_3-a_3b_2\\a_3b_1-a_1b_3\\a_1b_2-a_2b_1\end{pmatrix}$ is perpendicular to both, and $|\boldsymbol a\times\boldsymbol b|=|\boldsymbol a||\boldsymbol b|\sin\theta$ is the area of the parallelogram they span.
+- **Scalar product:** $\boldsymbol a\cdot\boldsymbol b=a_1b_1+a_2b_2+a_3b_3=|\boldsymbol a||\boldsymbol b|\cos\theta$. The result is a number, and it is $0$ exactly when the vectors are perpendicular.
+- **Vector product:** $\boldsymbol a\times\boldsymbol b=\begin{pmatrix}a_2b_3-a_3b_2\\a_3b_1-a_1b_3\\a_1b_2-a_2b_1\end{pmatrix}$ gives a new vector, perpendicular to both of the originals. Its length, $|\boldsymbol a\times\boldsymbol b|=|\boldsymbol a||\boldsymbol b|\sin\theta$, is the area of the parallelogram they span.
+
+A way to remember: the scalar product gives a number and measures angles; the vector product gives a vector and finds a direction perpendicular to both.
 
 :::example The angle between two vectors
 Find the angle between $\boldsymbol a=\begin{pmatrix}2\\1\\-2\end{pmatrix}$ and $\boldsymbol b=\begin{pmatrix}1\\3\\2\end{pmatrix}$. [4 marks]
@@ -34,7 +36,7 @@ Find the area of the triangle with vertices $A(1,0,0)$, $B(0,2,0)$ and $C(0,0,3)
 
 ## Lines in space
 
-A line through the point with position vector $\boldsymbol a$, with direction $\boldsymbol b$, has vector equation $\boldsymbol r=\boldsymbol a+\lambda\boldsymbol b$. Two lines in space are **parallel** (directions are multiples), **intersecting** (one common point), or **skew** (neither).
+To pin down a line in space, we only need to know where it passes through and which way it goes. A line through the point with position vector $\boldsymbol a$, with direction $\boldsymbol b$, has vector equation $\boldsymbol r=\boldsymbol a+\lambda\boldsymbol b$. In a plane, two lines that are not parallel must meet. In space they need not, so there are three possibilities: two lines are **parallel** (directions are multiples), **intersecting** (one common point), or **skew** (neither).
 
 :::example Intersecting or skew?
 $L_1:\boldsymbol r=\begin{pmatrix}1\\0\\2\end{pmatrix}+\lambda\begin{pmatrix}1\\1\\0\end{pmatrix}$ and $L_2:\boldsymbol r=\begin{pmatrix}2\\3\\1\end{pmatrix}+\mu\begin{pmatrix}0\\1\\1\end{pmatrix}$. Show that the lines are skew. [5 marks]
@@ -46,7 +48,7 @@ The values of $\mu$ disagree, so there is no common point. Not parallel and not 
 
 ## Planes
 
-A plane with normal vector $\boldsymbol n$ through the point $\boldsymbol a$ has equation $\boldsymbol r\cdot\boldsymbol n=\boldsymbol a\cdot\boldsymbol n$, or in Cartesian form $n_1x+n_2y+n_3z=d$. The normal is often found with a vector product of two directions in the plane.
+A plane is fixed by one point it passes through and one vector perpendicular to it, called the normal vector. A plane with normal vector $\boldsymbol n$ through the point $\boldsymbol a$ has equation $\boldsymbol r\cdot\boldsymbol n=\boldsymbol a\cdot\boldsymbol n$, or in Cartesian form $n_1x+n_2y+n_3z=d$. Why the vector product? Because the vector product of two directions in the plane is perpendicular to both, so it is a normal.
 
 :::example A plane through three points
 Find the Cartesian equation of the plane through $A(1,0,0)$, $B(0,2,0)$ and $C(0,0,3)$. [3 marks]
@@ -65,11 +67,13 @@ The line $\boldsymbol r=t\begin{pmatrix}1\\1\\1\end{pmatrix}$ meets the plane $6
 :::
 
 :::warning Common traps
-- **Using the same parameter for two lines.** Use $\lambda$ for one and $\mu$ for the other.
-- **Checking only two components** when testing for intersection; the third decides.
-- **Angle between a line and a plane** with cosine instead of sine.
-- **Obtuse angles.** Take the absolute value of the scalar product when the question asks for the acute angle.
-- **Order in the vector product.** $\boldsymbol b\times\boldsymbol a=-\boldsymbol a\times\boldsymbol b$; for a normal either sign works, but compute carefully.
+- **Using the same parameter for two lines.** Give each line its own letter: $\lambda$ for one and $\mu$ for the other.
+- **Checking only two components** when testing for intersection. The third is where the decision is made.
+- **Angle between a line and a plane** with cosine instead of sine. Many students slip here.
+- **Obtuse angles.** When the question asks for the acute angle, take the absolute value of the scalar product.
+- **Order in the vector product.** $\boldsymbol b\times\boldsymbol a=-\boldsymbol a\times\boldsymbol b$. For a normal either sign works, but compute carefully.
+
+Before you move on, try substituting one point back into your equation. A sign slip often shows up at this step.
 :::
 
 :::terms

@@ -12,18 +12,18 @@ type: guide
 - Plan your revision with a ten-week schedule.
 :::
 
-AP Statistics is a College Board course equivalent to a one-semester introductory college statistics course. For the 2026–27 school year the course was revised: nine units became five, several topics were removed, and the exam was redesigned. Students from the Vietnamese curriculum usually find the calculations easy; the real challenge is **writing**: explaining methods, checking conditions and stating conclusions in context. These lessons are written for the revised course, so older review books and practice tests will not match it exactly.
+Where do the marks in AP Statistics actually come from? To answer, it helps to see the whole course first. AP Statistics is a College Board course equivalent to a one-semester introductory college statistics course. For the 2026–27 school year the course was revised: nine units became five, several topics were removed, and the exam was redesigned. Students from the Vietnamese curriculum usually find the calculations easy. The real challenge is **writing**: explaining methods, checking conditions and stating conclusions in context. These lessons are written for the revised course, so older review books and practice tests will not match it exactly. Below you will find the whole exam laid out, so you know what to revise and in what order.
 
 ## The exam from May 2027
 
-The whole exam is taken in the **Bluebook** app. A graphing calculator is allowed, Desmos is built into Bluebook, and a formula sheet with tables is provided.
+First, how you will sit the exam. The whole exam is taken in the **Bluebook** app. A graphing calculator is allowed, Desmos is built into Bluebook, and a formula sheet with tables is provided. The table below shows the two sections.
 
 | Section | Questions | Time | Weight |
 |---|---|---|---|
 | I: multiple choice | 42, each with 4 options | 90 minutes | 50% |
 | II: free response | 4, each worth 10 points | 90 minutes | 50% |
 
-The multiple-choice section contains **two sets of three questions** that share a stimulus: one set on probability, random variables and distributions, and one on regression. Scores are reported on the AP scale from 1 to 5. Before 2027 the exam had 40 multiple-choice questions with 5 options and 6 free-response questions, including an "investigative task"; that task no longer exists.
+The multiple-choice section has one feature worth knowing about: **two sets of three questions** that share a stimulus. One set is on probability, random variables and distributions, and one is on regression. Scores are reported on the AP scale from 1 to 5. If you are using older papers, remember that before 2027 the exam had 40 multiple-choice questions with 5 options and 6 free-response questions, including an "investigative task". That task no longer exists.
 
 ## What is tested
 
@@ -35,18 +35,19 @@ The multiple-choice section contains **two sets of three questions** that share 
 | 4. Inference for Quantitative Data: Means | confidence intervals and tests for means | 10%–20% |
 | 5. Regression Analysis | scatterplots, correlation, least-squares regression, residuals | 10%–20% |
 
-**Removed from the course:** analysing departures from linearity (transforming data), combining random variables, the geometric distribution, the chi-square goodness-of-fit test, and inference for the slope of a regression line. Skip these in older books. **New:** writing and judging **statistical investigative questions**.
+**Removed from the course:** analysing departures from linearity (transforming data), combining random variables, the geometric distribution, the chi-square goodness-of-fit test, and inference for the slope of a regression line. If you meet these in older books, skip them and save your time. **New:** writing and judging **statistical investigative questions**.
 
-In this section the regression lesson comes right after one-variable data, because both describe data; on the exam regression is Unit 5.
+A small note on the order of the lessons: in this section the regression lesson comes right after one-variable data, because both describe data. On the exam, regression is Unit 5.
 
 ## The four free-response questions
 
-Each question is worth 10 points and has a fixed type:
+All four questions are worth 10 points each, and each has a fixed type, so you know in advance what to expect:
 
 1. **Formulating questions and collecting data:** investigative questions, sampling methods, experimental design.
 2. **Analysing data and interpreting results:** graphs and summary statistics, comparisons, regression output.
 3. **Statistical inference:** a confidence interval or a significance test, with conditions and a conclusion in context.
 4. **An integrated question** that combines several areas of the course.
+Question 3 asks for conditions and a conclusion in context, so practise writing out every part.
 
 ## Three sample questions
 
@@ -94,21 +95,23 @@ So the correct interpretation is D, answer **D**.
 ## A ten-week plan
 
 :::note Weeks before the exam
-1. **Weeks 1 to 2:** [Describing one-variable data](lesson:apstats-one-variable-data) and [Two-variable data and linear regression](lesson:apstats-two-variable-regression).
-2. **Week 3:** [Sampling, observational studies and experiments](lesson:apstats-collecting-data).
-3. **Weeks 4 to 5:** [Probability and random variables](lesson:apstats-probability-random-variables), then [Normal models and sampling distributions](lesson:apstats-sampling-distributions).
-4. **Weeks 6 to 8:** [Inference for proportions](lesson:apstats-inference-proportions), then [Inference for means](lesson:apstats-inference-means); practise writing full tests and intervals.
-5. **Weeks 9 to 10:** [the free-response questions](lesson:apstats-frq-strategies), then the timed [practice exam](lesson:apstats-practice-exam-1); review every mistake in an error log.
+1. **Weeks 1 to 2:** start with [Describing one-variable data](lesson:apstats-one-variable-data) and [Two-variable data and linear regression](lesson:apstats-two-variable-regression).
+2. **Week 3:** study [Sampling, observational studies and experiments](lesson:apstats-collecting-data).
+3. **Weeks 4 to 5:** study [Probability and random variables](lesson:apstats-probability-random-variables), then [Normal models and sampling distributions](lesson:apstats-sampling-distributions).
+4. **Weeks 6 to 8:** study [Inference for proportions](lesson:apstats-inference-proportions), then [Inference for means](lesson:apstats-inference-means), and practise writing full tests and intervals.
+5. **Weeks 9 to 10:** work through [the free-response questions](lesson:apstats-frq-strategies), then sit the timed [practice exam](lesson:apstats-practice-exam-1), and review every mistake in an error log.
+The plan is only a frame. If a week runs slow, don't worry: shift things a little and carry on.
 :::
 
 :::warning Common traps
-- **Old materials:** removed topics still appear in older books and past exams; skip them.
-- **Answers without context:** "reject $H_0$" alone earns little; say what it means for the situation.
+- **Old materials:** removed topics still appear in older books and past exams, so skip them when you meet them.
+- **Answers without context:** "reject $H_0$" alone earns little. Say what it means for the situation.
 - **Sample versus population:** inference is always about the population parameter.
-- **Conditions:** state and check them every time you build an interval or run a test.
+- **Conditions:** each time you build an interval or run a test, state the conditions and check them.
+Many students slip on these, so read the list again before each practice paper.
 :::
 
-AP Classroom and the AP Central course page offer official practice questions, the course and exam description and the formula sheet; use them alongside these lessons.
+Alongside these lessons, use the official materials. AP Classroom and the AP Central course page offer official practice questions, the course and exam description and the formula sheet. If you remember one thing, make it this: the marks are in the writing, so state your method, check your conditions and give conclusions in context. A little practice each week works better than cramming.
 
 :::terms
 - statistical investigative question | câu hỏi khảo sát thống kê

@@ -12,11 +12,11 @@ minutes: 20
 
 Archimedes (287–212 BC) made a great many discoveries, but he regarded his result on the sphere and the cylinder as the most important: the volume of a sphere is $\dfrac23$ of the volume of the cylinder circumscribed about it, and the surface area of the sphere is also $\dfrac23$ of the total surface area of that cylinder. He wanted a sphere inside a cylinder carved on his tomb; around 75 BC, Cicero found the tomb thanks to that figure (according to MacTutor, University of St Andrews).
 
-From footballs to the Earth, spheres are everywhere. How much material covers a ball? How much metal is in a ball bearing? This lesson answers with Archimedes' discovery.
+Spheres are all around us: a football, a marble, an orange, and the Earth itself. How much material does it take to cover a ball? How much metal is inside a ball bearing? Archimedes found a neat way to answer both, and once you know it, you can work them out from the radius alone.
 
 ## The sphere and its cross-sections
 
-Turn a semicircle with centre $O$ and radius $R$ through one full turn about its fixed diameter, and we get a **sphere** with centre $O$ and radius $R$. The semicircular arc sweeps out the **surface of the sphere**: every point of the surface is exactly $R$ from $O$.
+Picture a semicircle with centre $O$ and radius $R$, fixed on a rod along its diameter. Spin the rod through one full turn and the semicircle sweeps out a **sphere** with centre $O$ and radius $R$. Its curved edge sweeps out the **surface of the sphere**, the outer skin: every point of the surface is exactly $R$ from $O$.
 
 :::diagram A sphere with centre $O$ and radius $R$
 alt: A sphere with centre O and radius R, with a horizontal great circle drawn as an ellipse whose back half is dashed
@@ -53,7 +53,7 @@ label 1.5,0.25 "R"
 
 ### Explore: cutting a sphere with a plane
 
-Imagine cutting a sphere (say, a nearly round orange) with one straight cut: the cut face is a disc. A cut through the centre gives the largest disc, of radius $R$: its boundary is a **great circle** (like the Earth's equator). A cut at distance $d$ from the centre ($d<R$) gives a disc of radius $r=\sqrt{R^2-d^2}$, by Pythagoras' theorem in the triangle $OHM$, right-angled at $H$.
+Imagine cutting a sphere, say a nearly round orange, with one straight cut. Wherever you cut, the cut face is a disc. A cut through the centre gives the largest disc, of radius $R$, and its boundary is a **great circle**, like the Earth's equator. A cut at distance $d$ from the centre ($d<R$) gives a smaller disc of radius $r=\sqrt{R^2-d^2}$. Why? Because in the triangle $OHM$, right-angled at $H$, Pythagoras' theorem gives exactly that.
 
 :::diagram A cross-section at distance $d=OH$ from the centre $O$
 alt: Side view: a circle with centre O and radius R, a horizontal chord at distance d from O, half of the chord equal to r
@@ -85,13 +85,13 @@ So the cross-section is a disc of radius $12$ cm with area about $452.39$ cm².
 
 ## Surface area and volume of a sphere
 
-The cylinder circumscribed about a sphere of radius $R$ has base radius $R$ and height $2R$. Its curved surface area is $2\pi R\cdot2R=4\pi R^2$ and its volume is $\pi R^2\cdot2R=2\pi R^3$. Archimedes proved that the surface area of the sphere equals exactly the curved surface area of the circumscribed cylinder, and that the volume of the sphere is $\dfrac23$ of the volume of that cylinder.
+Let us compare the sphere with the cylinder that fits snugly around it. The cylinder circumscribed about a sphere of radius $R$ has base radius $R$ and height $2R$. Its curved surface area is $2\pi R\cdot2R=4\pi R^2$ and its volume is $\pi R^2\cdot2R=2\pi R^3$. Archimedes proved a fact worth remembering: the surface area of the sphere equals exactly the curved surface area of the circumscribed cylinder, and the volume of the sphere is $\dfrac23$ of the volume of that cylinder. So a cylinder we already know how to measure tells us about the sphere.
 
 :::theorem Sphere with radius $R$
 $$S=4\pi R^2,\qquad V=\frac43\pi R^3.$$
 :::
 
-**A deeper look.** $S=4\pi R^2$ means the surface of a sphere has exactly the area of $4$ great-circle discs. *Activity:* draw $4$ discs with the same radius as an orange, peel the orange in small pieces, try to cover the discs with them and compare with the formula (an orange is not a perfect sphere, so the result is only approximate). The volume is proportional to $R^3$: doubling the radius multiplies the volume by $8$.
+**A deeper look.** The formula $S=4\pi R^2$ says that the surface of a sphere has exactly the area of $4$ great-circle discs. You can test this with an orange. *Activity:* draw $4$ discs with the same radius as an orange, peel the orange in small pieces, try to cover the discs with them and compare with the formula. An orange is not a perfect sphere, so the result is only approximate; do not worry if it is a little off. The volume is proportional to $R^3$: doubling the radius multiplies the volume by $8$, because length, width and height all double.
 
 :::example Finding the surface area and volume
 Find the surface area and the volume of a sphere with radius $3$ cm.
@@ -136,12 +136,12 @@ So the equator is about $40\,030$ km long and the surface area of the Earth is a
 :::
 
 :::warning Common mistakes
-- **Using the diameter instead of the radius.** A ball with diameter $22$ cm has $R=11$ cm.
-- **Mixing up the two formulae.** Area has $R^2$ (units cm²), volume has $R^3$ (units cm³). Wrong: $V=4\pi R^2$.
-- **Thinking that doubling the radius doubles the volume.** Right: the volume is multiplied by $2^3=8$ and the area by $2^2=4$.
+- **Using the diameter instead of the radius.** Check whether the question gives the diameter or the radius before you substitute: a ball with diameter $22$ cm has $R=11$ cm.
+- **Mixing up the two formulae.** Area has $R^2$ (units cm²), volume has $R^3$ (units cm³). The units are a handy check: a volume measured in cm² cannot be right. Wrong: $V=4\pi R^2$.
+- **Thinking that doubling the radius doubles the volume.** Many people slip here. Right: the volume is multiplied by $2^3=8$ and the area by $2^2=4$. Every direction stretches at once, so the volume grows faster than you might expect.
 :::
 
-**Connections.** The sphere completes the chapter on solids in real life: the cylinder, the cone and the sphere all arise by turning a flat shape about an axis. Cross-sections use Pythagoras' theorem just like chords in [Arcs and chords](lesson:arcs-and-chords). The three volume formulae are beautifully linked: with the same radius $R$ and height $2R$, $V_{\text{cone}}:V_{\text{sphere}}:V_{\text{cylinder}}=1:2:3$ (lesson [Cylinders and cones](lesson:cylinders-and-cones)).
+**Connections.** The sphere completes the chapter on solids in real life: the cylinder, the cone and the sphere all arise by turning a flat shape about an axis. Cross-sections use Pythagoras' theorem just as chords do in [Arcs and chords](lesson:arcs-and-chords). The three volume formulae are linked in a lovely way: with the same radius $R$ and height $2R$, $V_{\text{cone}}:V_{\text{sphere}}:V_{\text{cylinder}}=1:2:3$ (lesson [Cylinders and cones](lesson:cylinders-and-cones)). If you remember that ratio, the formulae are easier to recall.
 
 ## Key terms
 
@@ -161,10 +161,11 @@ So the equator is about $40\,030$ km long and the surface area of the Earth is a
 - A plane at distance $d<R$ from the centre cuts the sphere in a disc of radius $\sqrt{R^2-d^2}$; through the centre it gives a great circle.
 - $S=4\pi R^2$ (four great-circle discs); $V=\dfrac43\pi R^3$.
 - A sphere is $\dfrac23$ of its circumscribed cylinder (both volume and total surface area).
+Back to the opening question: from the radius alone, we can find the material covering a ball and the metal inside a ball bearing. What to remember is that a sphere always sits snugly inside its circumscribed cylinder in a fixed proportion. A few practice problems will make it your own.
 
 ## Practice
 
-Each exercise comes with what you need and some steps to start. Try it yourself first, then open the solution.
+Each exercise comes with the facts you need and a few steps to get you started. Try it yourself first, and open the solution only when you are stuck. A wrong attempt is useful too: it shows you exactly where to look.
 
 :::exercise
 Find the surface area and the volume of a sphere with radius $5$ cm (give your answers to 2 decimal places).

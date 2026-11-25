@@ -10,17 +10,17 @@ minutes: 20
 - Nhận biết hệ vô nghiệm hoặc có vô số nghiệm, và dùng máy tính cầm tay để kiểm tra.
 :::
 
-Ở căng tin trường, bạn Mai mua $2$ cốc trà sữa và $1$ chiếc bánh hết $65$ nghìn đồng. Bạn Tú mua $1$ cốc trà sữa và $1$ chiếc bánh hết $40$ nghìn đồng. Mỗi cốc trà sữa giá bao nhiêu, mỗi chiếc bánh giá bao nhiêu?
+Ở căng tin trường, bạn Mai mua $2$ cốc trà sữa và $1$ chiếc bánh, hết $65$ nghìn đồng. Bạn Tú mua $1$ cốc trà sữa và $1$ chiếc bánh, hết $40$ nghìn đồng. Ta chỉ biết số tiền của mỗi hoá đơn, không biết giá từng món. Vậy mỗi cốc trà sữa giá bao nhiêu, mỗi chiếc bánh giá bao nhiêu?
 
-Đặt giá trà sữa là $x$, giá bánh là $y$ (nghìn đồng), ta có hệ $2x+y=65$, $x+y=40$. Bài trước ta chỉ **kiểm tra** được nghiệm; bài này ta học cách **tìm** nghiệm.
+Đặt giá trà sữa là $x$, giá bánh là $y$ (nghìn đồng), ta có hệ $2x+y=65$, $x+y=40$. Ở bài trước, ta mới chỉ **kiểm tra** được một cặp số có là nghiệm hay không. Biết cách **tìm** nghiệm thì ta không cần đoán nữa, và đó là việc ta làm ở bài này.
 
 ## Ý tưởng: bớt đi một ẩn
 
 ### Khám phá: so sánh hai hoá đơn
 
-Hai hoá đơn chỉ khác nhau đúng $1$ cốc trà sữa, và chênh nhau $65-40=25$ nghìn đồng. Vậy một cốc trà sữa giá $25$ nghìn đồng. Khi đó bánh giá $40-25=15$ nghìn đồng.
+Thử so sánh hai hoá đơn. Chúng chỉ khác nhau đúng $1$ cốc trà sữa, và số tiền chênh nhau là $65-40=25$ nghìn đồng. Vậy phần chênh ấy chính là giá của một cốc trà sữa: $25$ nghìn đồng. Biết giá trà sữa rồi, ta tính được giá bánh: $40-25=15$ nghìn đồng.
 
-Ta đã làm mất ẩn $y$ bằng cách trừ hai phương trình, để còn lại một phương trình một ẩn. Mọi cách giải hệ đều theo ý tưởng này: **biến đổi để được một phương trình chỉ còn một ẩn**. Có hai cách làm: phương pháp thế và phương pháp cộng đại số.
+Vừa rồi ta đã làm mất ẩn $y$ bằng cách trừ hai phương trình cho nhau, nên chỉ còn một phương trình một ẩn, và phương trình ấy giải được ngay. Mọi cách giải hệ đều theo ý tưởng này: **biến đổi để được một phương trình chỉ còn một ẩn**. Có hai cách làm quen thuộc: phương pháp thế và phương pháp cộng đại số. Ta xét từng cách một.
 
 ## Phương pháp thế
 
@@ -49,7 +49,7 @@ plot: 10 - 3x
 point: (3, 1) "(3; 1)" right
 :::
 
-Không phải hệ nào cũng có đúng một nghiệm. Khi thế, có thể cả hai ẩn cùng biến mất.
+Không phải hệ nào cũng có đúng một nghiệm. Đôi khi, thế xong, cả hai ẩn cùng biến mất, và ta phải nhìn phần còn lại để biết nó đúng hay sai. Đừng lo nếu lần đầu thấy lạ; ví dụ dưới đây cho thấy cả hai khả năng.
 
 :::example Hệ vô nghiệm và hệ có vô số nghiệm
 Giải các hệ: a) $\begin{cases} x+y=2\\ 2x+2y=5 \end{cases}$ b) $\begin{cases} x-y=1\\ 3x-3y=3 \end{cases}$
@@ -61,11 +61,11 @@ $$\begin{aligned} \text{a) }& y=2-x:\quad 2x+2(2-x)=5\iff 0x=1;\\ \text{b) }& y=
 Vậy a) vô nghiệm, vì không có $x$ nào để $0x=1$. Còn b) có vô số nghiệm, vì mọi $x$ đều thoả mãn $0x=0$; các nghiệm có dạng $(x; x-1)$ với $x$ tuỳ ý.
 :::
 
-Về hình học: ở câu a), hai đường thẳng $y=2-x$ và $y=2{,}5-x$ song song; ở câu b), hai phương trình cùng biểu diễn một đường thẳng.
+Nhìn bằng hình học sẽ thấy rõ hơn. Ở câu a), hai đường thẳng $y=2-x$ và $y=2{,}5-x$ song song nên không bao giờ gặp nhau, vì vậy hệ vô nghiệm. Ở câu b), hai phương trình cùng biểu diễn một đường thẳng, nên mọi điểm trên đường thẳng ấy đều là nghiệm.
 
 ## Phương pháp cộng đại số
 
-Khi hệ số của cùng một ẩn trong hai phương trình **bằng nhau** hoặc **đối nhau**, ta trừ hoặc cộng hai phương trình để ẩn đó biến mất.
+Phương pháp thứ hai dựa đúng vào cách ta đã làm với hai hoá đơn. Khi hệ số của cùng một ẩn trong hai phương trình **bằng nhau** hoặc **đối nhau**, ta trừ hoặc cộng hai phương trình để ẩn đó biến mất. Vì sao làm vậy được? Vì cộng (hay trừ) từng vế của hai đẳng thức đúng thì vẫn được một đẳng thức đúng.
 
 :::definition Phương pháp cộng đại số
 1. Nhân hai vế của mỗi phương trình với một số thích hợp (nếu cần) để hệ số của một ẩn bằng nhau hoặc đối nhau.
@@ -83,7 +83,7 @@ $$\begin{aligned} 8x&=16\iff x=2;\\ 3\cdot2+2y&=12\iff 2y=6\iff y=3. \end{aligne
 Vậy hệ có nghiệm $(2; 3)$.
 :::
 
-Nếu hệ số chưa bằng hoặc đối nhau, ta nhân trước. Nhớ nhân **cả hai vế**, kể cả vế phải.
+Nếu hệ số chưa bằng nhau hay đối nhau, ta nhân hai vế của phương trình với một số thích hợp trước đã. Chỗ này nhiều bạn hay quên: phải nhân **cả hai vế**, kể cả vế phải.
 
 :::example Nhân trước rồi cộng
 Giải hệ $\begin{cases} 2x+3y=8\\ 3x-2y=-1 \end{cases}$
@@ -97,7 +97,7 @@ Vậy hệ có nghiệm $(1; 2)$.
 **Kiểm tra.** $3\cdot1-2\cdot2=-1$, đúng với phương trình thứ hai.
 :::
 
-Bây giờ ta giải bài toán ở căng tin bằng phương pháp vừa học.
+Giờ ta quay lại căng tin và giải bài toán của Mai và Tú bằng phương pháp vừa học. Cách này cũng chính là phép trừ hai hoá đơn lúc đầu, chỉ là viết bằng phương trình.
 
 :::example Trà sữa và bánh
 Giải hệ $\begin{cases} 2x+y=65\\ x+y=40 \end{cases}$ với $x$, $y$ là giá trà sữa và giá bánh (nghìn đồng).
@@ -110,12 +110,12 @@ Vậy mỗi cốc trà sữa giá $25$ nghìn đồng, mỗi chiếc bánh giá 
 :::
 
 :::tip Dùng máy tính cầm tay để kiểm tra
-Nhiều máy tính cầm tay có chương trình giải hệ hai phương trình bậc nhất hai ẩn: chọn chương trình đó, nhập lần lượt $a$, $b$, $c$ của từng phương trình $ax+by=c$, máy cho $x$ và $y$. Hãy dùng máy để **kiểm tra**, nhưng vẫn trình bày lời giải bằng tay.
+Nhiều máy tính cầm tay có chương trình giải hệ hai phương trình bậc nhất hai ẩn. Bạn chọn chương trình đó, nhập lần lượt $a$, $b$, $c$ của từng phương trình $ax+by=c$, và máy cho ra $x$ và $y$. Hãy dùng máy để **kiểm tra** kết quả, nhưng vẫn trình bày lời giải bằng tay, vì điều ta cần học là cách giải, không chỉ là đáp số.
 :::
 
 :::warning Những sai lầm thường gặp
-- **Quên nhân vế phải.** Sai: nhân $2x+3y=8$ với $2$ được $4x+6y=8$. Lí do sai: phải nhân cả hai vế. Đúng: $4x+6y=16$.
-- **Trừ sai dấu.** Sai: $(5x-2y)-(3x+2y)=2x$. Lí do sai: $-2y-2y=-4y$. Đúng: $2x-4y$; khi hệ số đối nhau thì nên **cộng**.
+- **Quên nhân vế phải.** Sai: nhân $2x+3y=8$ với $2$ được $4x+6y=8$. Lí do sai: phải nhân cả hai vế, kể cả vế phải. Đúng: $4x+6y=16$.
+- **Trừ sai dấu.** Sai: $(5x-2y)-(3x+2y)=2x$. Lí do sai: $-2y-2y=-4y$, hai số hạng này không triệt tiêu nhau. Đúng: $2x-4y$; khi hệ số đối nhau thì nên **cộng**.
 - **Kết luận sai khi gặp $0x=1$.** Sai: "$0x=1$ nên $x=0$". Lí do sai: $0\cdot0=0\neq1$. Đúng: phương trình $0x=1$ vô nghiệm, nên hệ vô nghiệm.
 :::
 
@@ -138,10 +138,11 @@ Nhiều máy tính cầm tay có chương trình giải hệ hai phương trình
 - Phương pháp thế: rút một ẩn theo ẩn kia, thế vào phương trình còn lại.
 - Phương pháp cộng đại số: làm cho hệ số của một ẩn bằng nhau (thì trừ) hoặc đối nhau (thì cộng); nhân cả hai vế khi cần.
 - Gặp $0x=c$ với $c\neq0$: hệ vô nghiệm. Gặp $0x=0$: hệ có vô số nghiệm.
+Quay lại căng tin: chỉ cần làm một ẩn biến mất là ta tìm được giá của từng món. Điều đáng nhớ là mọi cách giải đều dẫn về một phương trình một ẩn. Bạn luyện tập thêm để chọn nhanh được cách thế hay cách cộng nhé.
 
 ## Luyện tập
 
-Mỗi bài có phần kiến thức và gợi ý các bước. Hãy tự làm trước, rồi mới bấm xem lời giải.
+Mỗi bài có phần kiến thức cần dùng và vài bước gợi ý để bạn bắt đầu. Bạn cứ tự làm trước, vướng ở đâu thì xem gợi ý, rồi mới mở lời giải để đối chiếu. Sai một lần cũng không sao, vì chỗ sai thường chính là chỗ giúp ta nhớ lâu.
 
 :::exercise
 Giải hệ $\begin{cases} x=2y\\ x+y=9 \end{cases}$ bằng phương pháp thế.

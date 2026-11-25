@@ -12,7 +12,7 @@ type: guide
 - Điều chỉnh kế hoạch khi bị chậm thay vì bỏ hẳn.
 :::
 
-Phần lớn học sinh thi không tốt không phải vì không chịu học. Các bạn thi không tốt vì công sức bị phân bổ sai: ba tuần cho chủ đề mình vốn đã thích, không phút nào cho chủ đề mình sợ, và mọi đề thi cũ dồn đến cuối tuần cuối cùng. Một kế hoạch sẽ sửa điều đó. Mười hai tuần là độ dài hợp lí cho một kì thi lớn như thi vào lớp 10, thi tốt nghiệp THPT, SAT hay AP; nếu ít thời gian hơn, hãy rút ngắn từng giai đoạn theo tỉ lệ.
+Bạn thử nhìn lại cách mình ôn: có khi nào bạn dành ba tuần cho chủ đề mình vốn thích, không phút nào cho chủ đề mình sợ, rồi dồn mọi đề thi cũ vào cuối tuần cuối cùng không? Nhiều học sinh thi không tốt không phải vì lười học, mà vì công sức bị phân bổ sai như vậy. Một kế hoạch sẽ sửa được điều đó. Mười hai tuần là độ dài hợp lí cho một kì thi lớn như thi vào lớp 10, thi tốt nghiệp THPT, SAT hay AP. Nếu có ít thời gian hơn, bạn rút ngắn từng giai đoạn theo tỉ lệ.
 
 ## Ba giai đoạn
 
@@ -23,12 +23,12 @@ Phần lớn học sinh thi không tốt không phải vì không chịu học. 
 | 8–10 | Trộn | Luyện các chủ đề lẫn với nhau, như đề thi trộn chúng | khoảng 30% |
 | 11–12 | Tổng duyệt | Làm đề bấm giờ trong điều kiện như thi thật | khoảng 60% |
 
-Hình dạng này dựa trên các nghiên cứu trong bài [Ôn thi theo khoa học](lesson:evidence-based-revision): mỗi chủ đề học một lần, quay lại nhiều lần với khoảng cách giữa các lần, và ngày càng dành nhiều thời gian hơn để **tự lấy kiến thức ra** trong điều kiện thi.
+Hình dạng ba giai đoạn này dựa trên các nghiên cứu trong bài [Ôn thi theo khoa học](lesson:evidence-based-revision). Ý chính là: mỗi chủ đề học một lần, rồi quay lại nhiều lần với khoảng cách giữa các lần, và càng gần ngày thi càng dành nhiều thời gian để **tự lấy kiến thức ra** trong điều kiện thi.
 
 ## Tuần 1: chẩn đoán
 
 1. Tìm mô tả chính thức của kì thi: các chủ đề, số câu và thời gian. Trên Lemonmath, mỗi kì thi có một bài tổng quan ghi đủ các thông tin này.
-2. Làm một đề trọn vẹn đúng thời gian thật, trước khi ôn bất cứ thứ gì. Dùng đề chính thức nếu có.
+2. Làm một đề trọn vẹn đúng thời gian thật, trước khi ôn bất cứ thứ gì. Có đề chính thức thì dùng đề chính thức.
 3. Chấm bài và ghi mọi điểm bị mất vào một bảng như sau:
 
 | Chủ đề | Tỉ trọng trong đề | Số điểm mất | Ưu tiên |
@@ -38,32 +38,33 @@ Hình dạng này dựa trên các nghiên cứu trong bài [Ôn thi theo khoa h
 | Hình học | trung bình | 1 | 4 |
 | Thống kê | thấp | 3 | 3 |
 
-Ưu tiên = tỉ trọng cao và mất nhiều điểm đứng trước. Chủ đề tỉ trọng thấp và ít mất điểm có thể để sau.
+Cách xếp ưu tiên là: chủ đề có tỉ trọng cao và mất nhiều điểm thì đứng trước. Chủ đề có tỉ trọng thấp và ít mất điểm thì để sau cũng được.
 
 :::tip Thành thật, nhưng đừng khắt khe
-Đề đầu tiên là để thấy lỗ hổng. Điểm thấp ở tuần 1 là thông tin, không phải bản án. Những bạn bỏ qua bước chẩn đoán thường dành cả mấy tuần cho những gì mình đã biết, vì học như vậy dễ chịu hơn.
+Đề đầu tiên chỉ để bạn thấy lỗ hổng nằm ở đâu. Điểm thấp ở tuần 1 là thông tin, không phải bản án, nên đừng nặng lòng. Những bạn bỏ qua bước chẩn đoán thường dành cả mấy tuần cho những gì mình đã biết, vì học như vậy dễ chịu hơn. Chỗ này nhiều bạn hay vướng.
 :::
 
 ## Tuần 2 đến tuần 7: học và vá lỗ hổng
 
-Học các chủ đề theo thứ tự ưu tiên. Nhịp học hợp lí là hai chủ đề mỗi tuần. Với mỗi chủ đề:
+Bây giờ ta học các chủ đề theo thứ tự ưu tiên. Nhịp học hợp lí là hai chủ đề mỗi tuần. Với mỗi chủ đề, ta làm như sau:
 
-- **Ngày 1:** học bài, làm theo các ví dụ mẫu, làm bài tập tương tự.
-- **Ngày 2 hoặc 3:** viết ra giấy trắng những gì nhớ được, rồi làm bài tập vận dụng và kiểm tra mini.
-- **Một tuần sau:** năm câu trộn về chủ đề đó, xen trong một buổi học sau.
+- **Ngày 1:** học bài, làm theo các ví dụ mẫu, rồi làm bài tập tương tự.
+- **Ngày 2 hoặc 3:** viết ra giấy trắng những gì nhớ được, sau đó làm bài tập vận dụng và kiểm tra mini.
+- **Một tuần sau:** làm năm câu trộn về chủ đề đó, xen trong một buổi học sau.
+Vì sao phải viết ra giấy trắng? Vì chỉ khi tự nhớ lại, bạn mới biết mình thật sự nhớ được gì.
 
-Ghi mọi lỗi sai vào [sổ lỗi sai](lesson:error-log) ngay từ tuần đầu. Đừng chờ "học xong chương trình" mới quay lại chủ đề cũ: từ tuần 3, 15 phút đầu mỗi buổi dành cho một chủ đề của các tuần trước.
+Ngay từ tuần đầu, hãy ghi mọi lỗi sai vào [sổ lỗi sai](lesson:error-log). Đừng đợi "học xong chương trình" rồi mới quay lại chủ đề cũ, vì khi đó kiến thức cũ đã phai bớt. Từ tuần 3, 15 phút đầu mỗi buổi dành cho một chủ đề của các tuần trước.
 
 ## Tuần 8 đến tuần 10: trộn
 
-Giờ đây, cấu trúc đề thi quan trọng hơn danh sách chủ đề. Mỗi buổi gồm các bộ câu trộn: 15 đến 25 câu thuộc nhiều chủ đề, thứ tự ngẫu nhiên, với thời gian ngắn hơn khoảng 10% so với nhịp thi thật. Mỗi tuần làm một đề trọn vẹn. Sau mỗi đề, dành thời gian xem lại ít nhất bằng thời gian làm bài.
+Đến giai đoạn này, cấu trúc đề thi quan trọng hơn danh sách chủ đề, vì đề thi thật trộn các chủ đề lẫn nhau. Mỗi buổi gồm các bộ câu trộn: 15 đến 25 câu thuộc nhiều chủ đề, thứ tự ngẫu nhiên, với thời gian ngắn hơn khoảng 10% so với nhịp thi thật. Mỗi tuần làm một đề trọn vẹn. Sau mỗi đề, hãy dành thời gian xem lại ít nhất bằng thời gian đã làm bài.
 
 ## Tuần 11 và 12: tổng duyệt
 
 - Mỗi tuần làm hai hoặc ba đề trọn vẹn, vào cùng giờ trong ngày với giờ thi thật.
 - Chỉ dùng những công cụ bạn sẽ có trong phòng thi: cùng một máy tính, cùng bảng công thức, không xem tài liệu.
-- Thời gian giữa các đề dùng để làm lại các bài trong sổ lỗi sai, không bắt đầu chủ đề mới.
-- Hai ngày cuối, dừng làm đề trọn vẹn. Xem lại danh sách công thức và sổ lỗi sai, ngủ như bình thường.
+- Thời gian giữa các đề dùng để làm lại các bài trong sổ lỗi sai, đừng bắt đầu chủ đề mới.
+- Hai ngày cuối, dừng làm đề trọn vẹn. Xem lại danh sách công thức và sổ lỗi sai, rồi ngủ như bình thường.
 
 ## Một tuần mẫu ở giai đoạn "học và vá lỗ hổng"
 
@@ -79,14 +80,14 @@ Giờ đây, cấu trúc đề thi quan trọng hơn danh sách chủ đề. M�
 
 ## Khi kế hoạch bị vỡ
 
-Kế hoạch nào cũng có lúc vỡ: ốm, đi dã ngoại, một tuần không như ý. Khi đó:
+Kế hoạch nào cũng có lúc vỡ: ốm, đi dã ngoại, một tuần không như ý. Chuyện này rất thường gặp, bạn đừng lo. Khi đó, ta làm như sau:
 
-1. **Đừng lùi mọi thứ lại.** Ngày thi không lùi. Thay vào đó, bỏ bớt chủ đề có ưu tiên thấp nhất trong bảng.
+1. **Đừng lùi mọi thứ lại.** Ngày thi không lùi. Thay vào đó, hãy bỏ bớt chủ đề có ưu tiên thấp nhất trong bảng.
 2. **Giữ nguyên giai đoạn trộn và tổng duyệt.** Nếu phải cắt, hãy rút ngắn tuần 2 đến 7, đừng rút tuần 8 đến 12.
 3. **Duy trì sổ lỗi sai.** Chỉ cần 20 phút mỗi ngày cho các lỗi cũ cũng giữ được tiến bộ.
 
 :::note Dành cho phụ huynh
-Kế hoạch của con hiệu quả nhất khi được viết ra và để ở chỗ dễ thấy, với các buổi học đủ ngắn để con hoàn thành. Câu hỏi có ích nhất phụ huynh có thể hỏi là "Tuần này con sai ở đâu, và con đã làm gì với lỗi đó?" hơn là "Hôm nay con học mấy tiếng?"
+Kế hoạch của con hiệu quả nhất khi được viết ra và để ở chỗ dễ thấy, với các buổi học đủ ngắn để con hoàn thành. Phụ huynh nên hỏi con "Tuần này con sai ở đâu, và con đã làm gì với lỗi đó?" hơn là "Hôm nay con học mấy tiếng?", vì đó là câu hỏi có ích nhất.
 :::
 
 ## Nguồn tham khảo

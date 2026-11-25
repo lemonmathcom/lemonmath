@@ -5,7 +5,7 @@ minutes: 40
 type: exam
 ---
 
-This paper takes $40$ minutes and is worth $10$ marks. Print it (or copy it into your exercise book) and do it on paper first. Then open each solution to mark yourself, and revise the topics you got wrong.
+This paper takes $40$ minutes and is worth $10$ marks, just like a real exam. Print it or copy it into your exercise book, and work through it in one go without peeking at the solutions. Then open each solution to mark yourself, and note down the questions you got wrong. Those questions tell you which topics to revise. Do not worry if a few are wrong: it is much better to find the weak spots now than in the exam hall.
 
 ## Part 1. Multiple choice (4 marks)
 

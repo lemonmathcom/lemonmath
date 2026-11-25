@@ -12,21 +12,21 @@ minutes: 15
 
 Lan has $46$ exercise-book labels. Mai has $38$ labels. How many labels do the two girls have altogether?
 
-In the last lesson you added a one-digit number to a two-digit number and carried $1$ ten. This lesson uses the same method, with one more number that has tens.
+Lan and Mai have a lot of labels, and counting them one by one would take a long time. You already have a better way. In the last lesson you added a one-digit number to a two-digit number and carried $1$ ten. We use the same method here, with one difference: the second number has tens too. So the question is: when both numbers have tens, where does the carried ten go?
 
 ## Let's explore
 
-We split $46$ into $4$ tens and $6$ ones, and $38$ into $3$ tens and $8$ ones.
+To add them, first see what each number is made of. We split $46$ into $4$ tens and $6$ ones, and $38$ into $3$ tens and $8$ ones. This time both numbers have tens.
 
-- Add the ones: $6+8=14$. That is $1$ ten and $4$ ones.
-- Write $4$ in the ones place and carry $1$ ten.
-- Add the tens: $4+3=7$, then add the carried $1$ ten to make $8$.
+- First add the ones: $6+8=14$. That is $1$ ten and $4$ ones.
+- Write $4$ in the ones place, and carry $1$ ten to add in a moment.
+- Then add the tens: $4+3=7$. Add the carried $1$ ten, and we make $8$.
 
-So there are $8$ tens and $4$ ones, which is $84$.
+Put together, that is $8$ tens and $4$ ones, which is $84$ labels. That is the number of labels the two girls have between them.
 
 $$\begin{array}{r} 46\\ +\ 38\\ \hline 84 \end{array}$$
 
-You can also jump on a number line: from $46$ add $30$ to reach $76$, then add $8$ to reach $84$.
+You can see the same sum on a number line. From $46$, add $30$ to reach $76$, which takes care of the tens. Then add $8$ to reach $84$. Both ways give the same answer.
 
 :::graph On the number line: from 46 add 30 to reach 76, then add 8 to reach 84
 alt: A number line from 40 to 90 with the points 46, 76 and 84 marked and the stretch from 46 to 84 highlighted
@@ -45,11 +45,11 @@ To work out $46+38$:
 3. Add the tens: $4+3+1=8$. Write $8$.
 :::
 
-This works because $14$ ones make $1$ ten and $4$ ones. The new ten is added to the tens, so it is not lost.
+Why does this work? Because $14$ ones make $1$ ten and $4$ ones: we have only gathered them up more neatly. The new ten is added to the tens, so it is not lost. Many children forget this step, so after the ones, look back for the carried ten.
 
 ## Examples
 
-We start with two small numbers whose ones make just a little more than $10$.
+Let us try a few more sums until the steps feel familiar. The first uses two small numbers, and their ones make just a little more than $10$.
 
 :::example Work out $27+15$
 **Solution.** Ones: $7+5=12$, write $2$ and carry $1$. Tens: $2+1+1=4$ (the tens of both numbers and the carried ten):
@@ -57,7 +57,7 @@ $$\begin{array}{r} 27\\ +\ 15\\ \hline 42 \end{array}$$
 So $27+15=42$.
 :::
 
-The next sum is done in exactly the same way, with different numbers.
+The next sum is done in exactly the same way, with different numbers. Before you read the solution, guess whether a ten will need to be carried.
 
 :::example Work out $48+36$
 **Solution.** Ones: $8+6=14$, write $4$ and carry $1$. Tens: $4+3+1=8$:
@@ -65,7 +65,7 @@ $$\begin{array}{r} 48\\ +\ 36\\ \hline 84 \end{array}$$
 So $48+36=84$.
 :::
 
-Now there is a $9$ in the ones, so the ones make more.
+This time there is a $9$ in the ones, so the ones make more. No need to worry: the method stays the same.
 
 :::example Work out $59+27$
 **Solution.** Ones: $9+7=16$, write $6$ and carry $1$. Tens: $5+2+1=8$:
@@ -75,7 +75,7 @@ So $59+27=86$.
 **Check.** Round $59$ up to $60$: $60+27=87$, then take away $1$ to get $86$. The answers match.
 :::
 
-Now use addition to solve a problem from everyday life.
+Here is a problem from everyday life: how many children are in a class? Ask yourself whether things are put together or taken away.
 
 :::example The class
 A class has $35$ boys and $48$ girls. How many children are in the class altogether?
@@ -86,9 +86,9 @@ So there are $83$ children in the class.
 :::
 
 :::warning Mistakes to watch out for
-- **Forgetting the carried ten.** Wrong: $46+38=74$. Why it is wrong: you wrote $4$ but forgot to add the carried $1$ ten to the tens. Right: $46+38=84$.
-- **Writing all of $14$ in the ones place.** Wrong: $46+38=714$. Why it is wrong: $14$ ones must be exchanged for $1$ ten and $4$ ones. Right: $46+38=84$.
-- **No unit in a word problem.** Wrong: "Answer: $83$". Right: "Answer: $83$ children".
+- **Forgetting the carried ten.** Wrong: $46+38=74$. Why it is wrong: many children write $4$ and stop, forgetting to add the carried $1$ ten to the tens. Right: $46+38=84$.
+- **Writing all of $14$ in the ones place.** Wrong: $46+38=714$. Why it is wrong: $14$ ones must be exchanged for $1$ ten and $4$ ones, so the ones place keeps only the leftover ones. Right: $46+38=84$.
+- **No unit in a word problem.** Wrong: "Answer: $83$". Why it is wrong: a number on its own does not say what we are counting. Right: "Answer: $83$ children".
 :::
 
 ## Key terms
@@ -106,14 +106,15 @@ So there are $83$ children in the class.
 
 ## Summary
 
-- Set out the column and add from the ones to the tens.
+- Set out the column, then add from the ones to the tens.
 - If the ones make $10$ or more, write the ones that are left and carry $1$ ten.
-- In the tens: add the two tens digits, then add the carried $1$ ten.
-- Example: $46+38$: $6+8=14$, write $4$ carry $1$; $4+3+1=8$; the answer is $84$.
+- In the tens, add the two tens digits, then add the carried $1$ ten.
+- Example: $46+38$: $6+8=14$, write $4$ and carry $1$; $4+3+1=8$; the answer is $84$.
+Remember the question at the start: when both numbers have tens, where does the carried ten go? It joins the tens, along with the tens of both numbers. Try a few sums in Practice until this feels natural, and remember the unit in word problems.
 
 ## Practice
 
-Each exercise comes with what you need and how to start. Try it yourself first, then open the solution.
+Each exercise comes with what you need to remember and a hint to help you start. Try it yourself first, and do not worry if the answer does not come at once. When you have finished, open the solution and compare.
 
 :::exercise
 Work out $24+18$.

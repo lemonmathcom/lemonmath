@@ -12,11 +12,11 @@ minutes: 50
 - Đọc đồ thị cực $r=f(\theta)$: khi nào $r$ tăng hay giảm, và điều đó cho biết gì về khoảng cách đến gốc toạ độ.
 :::
 
-Nửa sau của Unit 3 biến các hàm tuần hoàn của bài trước thành công cụ: hàm ngược để "gỡ" chúng, đồng nhất thức để biến đổi, và phương trình để giải. Bài kết thúc với toạ độ cực, nơi một hàm số mô tả khoảng cách đến gốc toạ độ khi góc quay. Câu tự luận FRQ 4 (Symbolic Manipulations) thường dùng các đồng nhất thức và phương trình trong bài này.
+Ở bài trước, ta làm quen với những hàm lặp đi lặp lại theo chu kì. Bây giờ thử hỏi ngược lại: biết kết quả rồi, làm sao tìm ra góc đã tạo ra nó? Nửa sau của Unit 3 trả lời câu hỏi đó. Hàm ngược giúp ta "gỡ" các hàm tuần hoàn, đồng nhất thức giúp ta biến đổi chúng, và phương trình là nơi ta dùng cả hai để tìm nghiệm. Bài kết thúc với toạ độ cực, nơi một hàm số mô tả khoảng cách đến gốc toạ độ khi góc quay. Câu tự luận FRQ 4 (Symbolic Manipulations) thường dùng các đồng nhất thức và phương trình trong bài này, nên đáng để bạn luyện kĩ.
 
 ## Hàm lượng giác ngược
 
-Một hàm tuần hoàn không phải là hàm một-một, nên để định nghĩa hàm ngược ta hạn chế tập xác định:
+Vì sao hàm lượng giác phải được "cắt" bớt thì mới có hàm ngược? Vì một hàm tuần hoàn lặp lại cùng một giá trị nhiều lần, tức là không phải hàm một-một, nên một đầu ra có thể đến từ vô số đầu vào. Hàm ngược cần mỗi đầu ra chỉ ứng với một đầu vào. Vì vậy ta hạn chế tập xác định vào một đoạn mà hàm không lặp lại, như bảng sau:
 
 | Hàm số | Đầu vào | Đầu ra (tập giá trị) |
 |---|---|---|
@@ -24,7 +24,7 @@ Một hàm tuần hoàn không phải là hàm một-một, nên để định n
 | $\arccos x=\cos^{-1}x$ | $-1\le x\le1$ | $0\le y\le\pi$ |
 | $\arctan x=\tan^{-1}x$ | mọi số thực $x$ | $-\dfrac\pi2<y<\dfrac\pi2$ |
 
-Máy tính chỉ trả về đúng một giá trị này; các nghiệm khác của phương trình suy ra từ tính đối xứng và tính tuần hoàn. Các hàm nghịch đảo là $\sec x=\dfrac{1}{\cos x}$, $\csc x=\dfrac{1}{\sin x}$ và $\cot x=\dfrac{1}{\tan x}$.
+Chỗ này nhiều bạn hay nhầm: máy tính chỉ trả về đúng một giá trị trong bảng trên, nhưng phương trình thường có nhiều nghiệm hơn. Các nghiệm còn lại ta tìm nhờ tính đối xứng và tính tuần hoàn. Ba hàm nghịch đảo thì viết gọn như sau: $\sec x=\dfrac{1}{\cos x}$, $\csc x=\dfrac{1}{\sin x}$ và $\cot x=\dfrac{1}{\tan x}$.
 
 :::example Giá trị hàm ngược
 Giá trị của $\arccos\left(-\dfrac12\right)$ là
@@ -42,11 +42,12 @@ Vậy $\arccos\left(-\dfrac12\right)=\dfrac{2\pi}{3}$, chọn đáp án **D**. P
 
 ## Giải phương trình lượng giác
 
-1. Cô lập hàm lượng giác, hoặc phân tích thành nhân tử; một phương trình bậc hai theo $\sin x$ hay $\cos x$ phân tích như mọi phương trình bậc hai.
-2. Tìm góc tham chiếu, rồi mọi góc trong khoảng đang xét có dấu phù hợp.
-3. Nếu biểu thức trong hàm là $bx$, giải theo $bx$ trên khoảng đã giãn trước.
+1. Trước hết, cô lập hàm lượng giác, hoặc phân tích thành nhân tử. Một phương trình bậc hai theo $\sin x$ hay $\cos x$ cứ phân tích như mọi phương trình bậc hai.
+2. Tìm góc tham chiếu, rồi lấy mọi góc trong khoảng đang xét có dấu phù hợp.
+3. Nếu biểu thức trong hàm là $bx$, hãy giải theo $bx$ trước, trên khoảng đã được giãn ra.
+Vì sao phải giãn khoảng ở bước cuối? Vì góc đã nhân lên sẽ quay nhiều vòng hơn, nên có nhiều nghiệm hơn bạn tưởng.
 
-Với **bất phương trình**, giải phương trình tương ứng rồi xét dấu trên các khoảng giữa các nghiệm, hoặc đọc từ đồ thị hay đường tròn lượng giác.
+Với **bất phương trình**, ta đi theo cùng con đường: giải phương trình tương ứng trước, vì các nghiệm đó chia trục thành những khoảng. Rồi xét dấu trên từng khoảng. Nếu thấy dễ hơn, bạn có thể đọc kết quả từ đồ thị hay từ đường tròn lượng giác.
 
 :::example Phương trình bậc hai theo cos
 Phương trình $2\cos^2x-\cos x-1=0$ có bao nhiêu nghiệm trên $[0;2\pi)$?
@@ -87,9 +88,9 @@ Vậy phương trình có các nghiệm $x=0$, $\dfrac\pi3$, $\pi$ và $\dfrac{5
 
 Điểm có toạ độ cực $(r,\theta)$ có toạ độ vuông góc
 $$x=r\cos\theta,\qquad y=r\sin\theta,$$
-và ngược lại $r^2=x^2+y^2$, $\tan\theta=\dfrac yx$, với $\theta$ chọn ở đúng góc phần tư.
+và ngược lại, từ toạ độ vuông góc ta tìm được toạ độ cực nhờ $r^2=x^2+y^2$ và $\tan\theta=\dfrac yx$, với $\theta$ chọn ở đúng góc phần tư. Hệ thức đầu chính là định lí Pythagore, vì khoảng cách từ điểm đến gốc toạ độ chính là bán kính. Chỗ nhiều bạn hay nhầm là góc phần tư: chỉ nhìn tỉ số của hai toạ độ thì chưa biết điểm nằm ở đâu, nên hãy nhìn thêm dấu của từng toạ độ.
 
-Đồ thị $r=f(\theta)$ cho biết khoảng cách đến gốc toạ độ thay đổi thế nào khi góc quay. Khi $r>0$ và $r$ tăng, các điểm đi **ra xa** gốc toạ độ; khi $r>0$ và $r$ giảm, chúng đi **lại gần** gốc. Tốc độ biến thiên trung bình của $r$ trên $[\alpha;\beta]$ là $\dfrac{f(\beta)-f(\alpha)}{\beta-\alpha}$.
+Đồ thị $r=f(\theta)$ cho ta biết điều gì? Nó cho biết khoảng cách đến gốc toạ độ thay đổi thế nào khi góc quay. Cứ hình dung bạn đứng ở gốc toạ độ và xoay người dần: khi $r>0$ và $r$ tăng, các điểm đi **ra xa** gốc toạ độ; khi $r>0$ và $r$ giảm, chúng đi **lại gần** gốc. Muốn đo sự thay đổi ấy trên một khoảng, ta dùng tốc độ biến thiên trung bình của $r$ trên $[\alpha;\beta]$, bằng $\dfrac{f(\beta)-f(\alpha)}{\beta-\alpha}$: độ thay đổi của khoảng cách chia cho độ thay đổi của góc.
 
 :::graph Đồ thị cực $r=2+2\cos\theta$
 alt: Một đường cong hình trái tim (đường cardioid) chạm gốc toạ độ ở bên trái và xa nhất về bên phải tại điểm (4, 0); đường cong đi qua (0, 2) và (0, -2)
@@ -188,11 +189,12 @@ Vậy các điểm đi lại gần gốc toạ độ, chọn đáp án **C**.
 :::
 
 :::warning Những cái bẫy thường gặp
-- **Thiếu nghiệm:** máy tính chỉ cho một góc; tìm đủ mọi nghiệm trong khoảng nhờ tính đối xứng.
-- **Chia cho một hàm lượng giác:** hãy phân tích thành nhân tử, nếu không sẽ mất nghiệm.
+- **Thiếu nghiệm:** máy tính chỉ cho một góc, nên đừng dừng ở đó; hãy tìm đủ mọi nghiệm trong khoảng nhờ tính đối xứng.
+- **Chia cho một hàm lượng giác:** chỗ này nhiều bạn hay nhầm. Hãy phân tích thành nhân tử, vì nếu chia thì ta làm mất nghiệm.
 - **Biểu thức đã giãn:** với $\sin3x=\dfrac12$ trên $[0;2\pi)$, giải theo $3x$ trên $[0;6\pi)$ trước: có sáu nghiệm, không phải hai.
 - **Tập giá trị hàm ngược:** $\arccos$ cho giá trị trong $[0;\pi]$, $\arcsin$ trong $\left[-\dfrac\pi2;\dfrac\pi2\right]$.
-- **Góc phần tư trong toạ độ cực:** chỉ dùng $\tan\theta=\dfrac yx$ thì không phân biệt được $(1,1)$ với $(-1,-1)$.
+- **Góc phần tư trong toạ độ cực:** chỉ dùng $\tan\theta=\dfrac yx$ thì không phân biệt được $(1,1)$ với $(-1,-1)$, vì hai điểm cho cùng một tỉ số.
+Gặp phương trình lượng giác, bạn hãy tự hỏi: mình đã tìm đủ nghiệm trong khoảng chưa? Đó là điều đáng nhớ nhất của bài. Rồi hãy luyện tập ở phần bài tập bên dưới.
 :::
 
 :::terms

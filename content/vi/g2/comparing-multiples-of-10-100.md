@@ -12,13 +12,13 @@ minutes: 15
 
 Lan có $30$ viên bi. Nam có $50$ viên bi. Ai có nhiều bi hơn?
 
-Em đã biết $30$ là $3$ chục và $50$ là $5$ chục. Bài này giúp em so sánh các số như vậy một cách nhanh và chắc chắn.
+Em đã biết $30$ là $3$ chục và $50$ là $5$ chục. Vậy muốn biết ai nhiều bi hơn, em chỉ cần nhìn số chục, không phải đếm từng viên. Ta cùng xem vì sao cách này đúng, và cách ghi kết quả cho gọn.
 
 ## Cùng khám phá
 
-Số bi của Lan là $3$ chục, số bi của Nam là $5$ chục. Em so sánh số chục: $5$ lớn hơn $3$, nên $5$ chục lớn hơn $3$ chục.
+Lan có $3$ chục viên bi, Nam có $5$ chục viên bi. Cùng đếm theo chục thì so sánh rất dễ: $5$ lớn hơn $3$, nên $5$ chục lớn hơn $3$ chục.
 
-Em cũng thấy điều này trên tia số: số nào đứng bên phải thì lớn hơn.
+Trên tia số em cũng thấy đúng như vậy. Số nào đứng bên phải thì lớn hơn, số nào đứng bên trái thì bé hơn.
 
 :::graph Trên tia số: 70 đứng bên phải 30 nên 70 lớn hơn 30
 alt: Tia số từ 0 đến 100, đánh dấu các điểm 0, 30, 70 và 100; điểm 70 nằm bên phải điểm 30
@@ -31,13 +31,13 @@ point: (70, 0) "70" below
 point: (100, 0) "100" below
 :::
 
-Ta dùng dấu để ghi kết quả so sánh:
+Để ghi kết quả cho gọn, ta dùng các dấu. Em xem cách viết và cách đọc nhé:
 
 - $50>30$ đọc là "năm mươi lớn hơn ba mươi".
 - $30<50$ đọc là "ba mươi bé hơn năm mươi".
 - $50=50$ đọc là "năm mươi bằng năm mươi".
 
-Đầu nhọn của dấu $>$ hoặc $<$ luôn quay về phía số bé hơn.
+Chỗ này nhiều bạn hay nhầm dấu. Em nhớ giúp: đầu nhọn của dấu $>$ hoặc $<$ luôn quay về phía số bé hơn.
 
 :::theorem Cách so sánh
 - Hai số tròn chục: số nào có nhiều chục hơn thì lớn hơn.
@@ -45,11 +45,11 @@ Ta dùng dấu để ghi kết quả so sánh:
 - Hai số có số chục (hoặc số trăm) bằng nhau thì bằng nhau.
 :::
 
-Cách này đúng vì mỗi chục có $10$ đơn vị, nên nhiều chục hơn thì có nhiều đơn vị hơn. Với trăm cũng vậy.
+Vì sao so số chục lại đúng? Vì mỗi chục có $10$ đơn vị, nên nhiều chục hơn thì có nhiều đơn vị hơn. Số trăm cũng như thế.
 
 ## Ví dụ
 
-Ta bắt đầu với hai số tròn chục.
+Ta thử với hai số tròn chục, đúng như chuyện của Lan và Nam.
 
 :::example So sánh số tròn chục
 So sánh $30$ và $50$.
@@ -59,7 +59,7 @@ $$30<50.$$
 Vậy $30<50$, tức là Nam có nhiều bi hơn Lan.
 :::
 
-Bây giờ ta so sánh hai số tròn trăm.
+Với số tròn trăm, ta làm y hệt, chỉ khác là so số trăm.
 
 :::example So sánh số tròn trăm
 So sánh $600$ và $400$.
@@ -69,7 +69,7 @@ $$600>400.$$
 Vậy $600>400$.
 :::
 
-Tiếp theo ta sắp xếp nhiều số theo thứ tự.
+Có nhiều số cùng lúc thì ta xếp thứ tự thế nào? Em xem ví dụ này.
 
 :::example Xếp từ bé đến lớn
 Xếp các số $80, 20, 50$ theo thứ tự từ bé đến lớn.
@@ -79,7 +79,7 @@ $$20<50<80.$$
 Vậy thứ tự từ bé đến lớn là $20, 50, 80$.
 :::
 
-Cuối cùng em dùng so sánh trong một bài toán.
+Cuối cùng, ta dùng cách so sánh để trả lời một câu hỏi quen thuộc, như chuyện hộp bút.
 
 :::example Hộp bút
 Hộp A có $40$ chiếc bút, hộp B có $70$ chiếc bút. Hộp nào có nhiều bút hơn?
@@ -90,9 +90,9 @@ Vậy hộp B có nhiều bút hơn.
 :::
 
 :::warning Những lỗi em hay gặp
-- **Quên đầu nhọn quay về số bé.** Sai: $30>50$. Vì sao sai: $30$ bé hơn $50$. Đúng: $30<50$.
-- **So sánh chữ số đầu của số tròn chục với số tròn trăm.** Sai: "$90>100$ vì $9>1$". Vì sao sai: $100$ là $10$ chục, nhiều hơn $9$ chục. Đúng: $90<100$.
-- **Nghĩ $50$ bằng $500$ vì cùng chữ số $5$.** Sai: $50=500$. Vì sao sai: $50$ là $5$ chục, $500$ là $5$ trăm. Đúng: $50<500$.
+- **Quên đầu nhọn quay về số bé.** Sai: $30>50$. Vì sao sai: $30$ bé hơn $50$, mà đầu nhọn phải chỉ về số bé. Đúng: $30<50$.
+- **So sánh chữ số đầu của số tròn chục với số tròn trăm.** Sai: "$90>100$ vì $9>1$". Vì sao sai: $100$ là $10$ chục, mà $10$ chục thì nhiều hơn $9$ chục. Đúng: $90<100$.
+- **Nghĩ $50$ bằng $500$ vì cùng chữ số $5$.** Sai: $50=500$. Vì sao sai: $50$ là $5$ chục, còn $500$ là $5$ trăm. Chữ số giống nhau nhưng đứng ở hàng khác nhau. Đúng: $50<500$.
 :::
 
 ## Thuật ngữ
@@ -113,10 +113,11 @@ Vậy hộp B có nhiều bút hơn.
 - Dấu $>$ đọc là lớn hơn, $<$ đọc là bé hơn, $=$ đọc là bằng; đầu nhọn quay về số bé.
 - Trên tia số, số đứng bên phải thì lớn hơn.
 - Sắp xếp từ bé đến lớn: bắt đầu từ số bé nhất.
+Quay lại câu hỏi đầu bài: Lan và Nam, ai có nhiều bi hơn? Chỉ cần so số chục là biết ngay. Em nhớ đầu nhọn quay về số bé, rồi làm vài bài luyện tập để quen tay nhé.
 
 ## Luyện tập
 
-Mỗi bài có phần kiến thức và gợi ý. Em hãy tự làm trước, rồi mới bấm xem lời giải.
+Mỗi bài có phần kiến thức cần nhớ và gợi ý cách bắt đầu. Em cứ tự làm trước. Làm chưa đúng cũng không sao, vì như thế em biết chỗ nào cần xem lại. Xong rồi hãy bấm xem lời giải.
 
 :::exercise
 Điền dấu $>$, $<$ hoặc $=$.

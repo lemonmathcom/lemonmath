@@ -5,7 +5,7 @@ minutes: 175
 type: test
 ---
 
-This practice exam follows the AP Precalculus format from May 2027. All questions are written by Lemonmath; they are not real AP questions, but they cover Units 1–3 in the official proportions and question styles.
+A full exam is different from a single lesson: you have to hold your concentration and keep a steady pace for nearly three hours. This practice exam follows the AP Precalculus format from May 2027, so you can practise that rhythm before the real day. All the questions are written by Lemonmath. They are not real AP questions, but they cover Units 1–3 in the official proportions and question styles.
 
 ## How to take this exam
 
@@ -15,9 +15,10 @@ This practice exam follows the AP Precalculus format from May 2027. All question
 | Time | 65 minutes | 40 minutes | 35 minutes | 35 minutes |
 | Calculator | not allowed | graphing calculator | graphing calculator | not allowed |
 
-1. Do each part with a timer and without looking at the solutions. Submit each multiple-choice part to see your score.
-2. In calculator parts, use radian mode and give decimals accurate to three places after the decimal point.
-3. Write the free-response answers on paper, then compare with the solutions point by point, using the guide [The four free-response types and how to score](lesson:apprecalc-frq-strategies).
+1. Time each part and keep the solutions closed while you work. When you finish a multiple-choice part, submit it to see your score.
+2. In the calculator parts, set your calculator to radian mode and give decimals accurate to three places after the decimal point. Many students forget this and lose marks they did not need to lose.
+3. Write the free-response answers on paper, then compare them with the solutions point by point. The guide [The four free-response types and how to score](lesson:apprecalc-frq-strategies) shows how the marks are given.
+Do not worry if your first score is lower than you hoped. A practice exam is most useful when you go back over the questions you missed.
 
 ## Section I, Part A: no calculator
 
@@ -407,7 +408,7 @@ $r(0)=5$ and $r\left(\dfrac\pi3\right)=3.5$, so $\dfrac{3.5-5}{\pi/3}\approx-1.4
 
 ## Section II: free response
 
-Write your answers on paper. Each question is worth $6$ points: $1$ point for each of (A)(i), (A)(ii), (B)(i), (B)(ii), (C)(i) and (C)(ii). Give decimal answers accurate to three places after the decimal point.
+Write your answers on paper, as you would in the real exam. Each question is worth $6$ points: $1$ point for each of (A)(i), (A)(ii), (B)(i), (B)(ii), (C)(i) and (C)(ii), so never leave a part blank; write down whatever you can do. Give decimal answers accurate to three places after the decimal point.
 
 ### Part A: graphing calculator (35 minutes)
 
@@ -538,7 +539,7 @@ So the answers are $x=5$; $3\left(e^2\right)^x$; $\dfrac\pi6,\dfrac\pi2,\dfrac{5
 
 ## After the exam
 
-Section I is marked out of 42 and Section II out of 24. On the real exam the multiple-choice section is $62.5\%$ of the score and the free-response section $37.5\%$; College Board converts the composite to the 1–5 scale, so this practice exam does not give an AP score. Use the table to find which lesson to revise for each multiple-choice question you missed.
+Once the exam is over, the most valuable thing is to find out where you went wrong. Section I is marked out of 42 and Section II out of 24. On the real exam the multiple-choice section is $62.5\%$ of the score and the free-response section $37.5\%$. College Board converts the composite to the 1–5 scale, so this practice exam does not give an AP score; your marks only show where you stand. For each multiple-choice question you missed, use the table to find which lesson to revise.
 
 | Question | Lesson |
 |---|---|

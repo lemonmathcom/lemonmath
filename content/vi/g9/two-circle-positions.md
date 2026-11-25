@@ -10,13 +10,13 @@ minutes: 20
 - Tính được độ dài dây chung, bán kính hoặc khoảng cách giữa hai tâm.
 :::
 
-Hai trạm phát sóng $O$ và $O'$ cách nhau $7$ km, phủ sóng trong bán kính lần lượt $5$ km và $3$ km. Hai vùng phủ sóng có chồng lên nhau không? Nếu dời trạm $O'$ ra xa để hai trạm cách nhau $8$ km thì sao?
+Hai trạm phát sóng $O$ và $O'$ cách nhau $7$ km, phủ sóng trong bán kính lần lượt $5$ km và $3$ km. Hai vùng phủ sóng có chồng lên nhau không? Nếu dời trạm $O'$ ra xa để hai trạm cách nhau $8$ km thì sao? Muốn trả lời, ta so khoảng cách giữa hai tâm với các bán kính, và bài này cho ta cách làm.
 
 ## Số điểm chung của hai đường tròn
 
 ### Khám phá: kéo hai đường tròn ra xa nhau
 
-Cho $(O; R)$ và $(O'; r)$ với $R\geq r$, $d=OO'$. Đặt đường tròn nhỏ trong đường tròn lớn rồi kéo dần ra: chúng chạm nhau từ bên trong khi $d=R-r$, rồi cắt nhau, chạm nhau từ bên ngoài khi $d=R+r$, cuối cùng rời xa nhau.
+Cho $(O; R)$ và $(O'; r)$ với $R\geq r$, $d=OO'$. Bạn hãy hình dung đường tròn nhỏ lúc đầu nằm gọn trong đường tròn lớn, rồi ta kéo nó ra xa dần. Chúng chạm nhau từ bên trong khi $d=R-r$, rồi cắt nhau, rồi chạm nhau từ bên ngoài khi $d=R+r$, và cuối cùng rời xa nhau. Mỗi lần số điểm chung thay đổi đều gắn với một giá trị đặc biệt của khoảng cách giữa hai tâm, và đó là điều ta cần ghi lại.
 
 :::theorem Vị trí tương đối của $(O; R)$ và $(O'; r)$, $R\geq r$, $d=OO'$
 - **Cắt nhau** ($2$ điểm chung): $R-r<d<R+r$.
@@ -26,7 +26,7 @@ Cho $(O; R)$ và $(O'; r)$ với $R\geq r$, $d=OO'$. Đặt đường tròn nh�
 - **Đựng nhau** ($0$ điểm chung): $d<R-r$; khi $d=0$ hai đường tròn **đồng tâm**.
 :::
 
-Đường thẳng $OO'$ gọi là **đường nối tâm**. Vì mỗi đường thẳng qua tâm là trục đối xứng của đường tròn, đường nối tâm là trục đối xứng chung của cả hai đường tròn.
+Đường thẳng $OO'$ gọi là **đường nối tâm**. Đường thẳng này rất hữu ích, vì nó là trục đối xứng chung của cả hai đường tròn. Vì sao? Vì mỗi đường thẳng đi qua tâm là một trục đối xứng của đường tròn, mà đường nối tâm đi qua tâm của cả hai.
 
 :::example Trả lời câu hỏi ở đầu bài
 Giải bài toán ở đầu bài.
@@ -45,9 +45,9 @@ Vậy lúc đầu hai vùng phủ sóng chồng lên nhau; khi hai trạm cách 
 - Nếu hai đường tròn tiếp xúc nhau tại $T$ thì $T$ nằm trên đường nối tâm.
 :::
 
-**Vì sao?** Ta có $OA=OB$ và $O'A=O'B$, nên $O$ và $O'$ cùng nằm trên đường trung trực của $AB$.
+**Vì sao?** Ta có $OA=OB$ và $O'A=O'B$ vì đều là bán kính. Điểm cách đều hai đầu một đoạn thẳng nằm trên đường trung trực của đoạn ấy, nên $O$ và $O'$ cùng nằm trên đường trung trực của $AB$.
 
-Nếu hai đường tròn tiếp xúc tại $T$ mà $T$ không nằm trên $OO'$ thì điểm đối xứng với $T$ qua $OO'$ cũng là một điểm chung (vì $OO'$ là trục đối xứng chung). Khi đó hai đường tròn có hai điểm chung, vô lí.
+Với hai đường tròn tiếp xúc nhau, ta chứng minh bằng phản chứng. Giả sử hai đường tròn tiếp xúc tại $T$ mà $T$ không nằm trên $OO'$. Khi đó điểm đối xứng với $T$ qua $OO'$ cũng là một điểm chung, vì $OO'$ là trục đối xứng chung của cả hai đường tròn. Như thế hai đường tròn có hai điểm chung, vô lí, vì tiếp xúc chỉ có một điểm chung. Vậy điểm tiếp xúc phải nằm trên đường nối tâm.
 
 :::diagram Hai đường tròn cắt nhau tại $A$ và $B$
 alt: Hai đường tròn tâm O, O' cắt nhau tại A, B; OO' vuông góc với AB tại trung điểm H
@@ -79,7 +79,7 @@ Vậy $AB=24$ cm.
 
 ## Hai đường tròn tiếp xúc nhau
 
-Khi hai đường tròn tiếp xúc ngoài tại $T$, điểm $T$ nằm giữa $O$ và $O'$, nên $OO'=OT+TO'=R+r$. Đường thẳng qua $T$ vuông góc với $OO'$ là tiếp tuyến chung của hai đường tròn tại $T$.
+Khi hai đường tròn tiếp xúc ngoài tại $T$, điểm $T$ nằm giữa $O$ và $O'$. Vì thế $OO'=OT+TO'=R+r$: khoảng cách giữa hai tâm đúng bằng tổng hai bán kính. Ngoài ra, đường thẳng qua $T$ vuông góc với $OO'$ là tiếp tuyến chung của hai đường tròn tại $T$.
 
 :::diagram Hai đường tròn tiếp xúc ngoài tại $T$
 alt: Hai đường tròn tâm O, O' tiếp xúc ngoài tại T trên OO', có tiếp tuyến chung tại T
@@ -106,8 +106,8 @@ Vậy bánh nhỏ có bán kính $5$ cm, bánh lớn có bán kính $10$ cm.
 :::
 
 :::warning Những sai lầm thường gặp
-- **Chỉ xét tiếp xúc ngoài.** Sai: "Hai đường tròn bán kính $7$ và $3$ tiếp xúc nhau nên $OO'=10$". Lí do sai: còn trường hợp tiếp xúc trong. Đúng: $OO'=10$ hoặc $OO'=4$.
-- **Nhầm "không giao nhau" với "ở ngoài nhau".** Sai: $d=1$, $R=5$, $r=3$ thì hai đường tròn ở ngoài nhau. Lí do sai: $d<R-r=2$. Đúng: hai đường tròn đựng nhau.
+- **Chỉ xét tiếp xúc ngoài.** Chỗ này nhiều bạn hay quên một trường hợp. Sai: "Hai đường tròn bán kính $7$ và $3$ tiếp xúc nhau nên $OO'=10$". Lí do sai: còn trường hợp tiếp xúc trong. Đúng: $OO'=10$ hoặc $OO'=4$.
+- **Nhầm "không giao nhau" với "ở ngoài nhau".** Không có điểm chung chưa có nghĩa là hai đường tròn ở ngoài nhau. Sai: $d=1$, $R=5$, $r=3$ thì hai đường tròn ở ngoài nhau. Lí do sai: $d<R-r=2$. Đúng: hai đường tròn đựng nhau.
 :::
 
 ## Thuật ngữ
@@ -127,10 +127,11 @@ Vậy bánh nhỏ có bán kính $5$ cm, bánh lớn có bán kính $10$ cm.
 - Cắt nhau: $R-r<d<R+r$; tiếp xúc ngoài: $d=R+r$; tiếp xúc trong: $d=R-r$; ở ngoài nhau: $d>R+r$; đựng nhau: $d<R-r$.
 - Đường nối tâm là trục đối xứng, là trung trực của dây chung và đi qua tiếp điểm.
 - Tính dây chung: đặt $OH=x$, viết $AH^2$ theo hai cách.
+Quay lại hai trạm phát sóng: chỉ cần so khoảng cách giữa hai tâm với tổng và hiệu hai bán kính là biết hai vùng phủ sóng chồng lên nhau, chạm nhau hay rời nhau. Hãy nhớ so với cả hai mốc ấy. Bạn làm thêm vài bài luyện tập để quen với từng trường hợp nhé.
 
 ## Luyện tập
 
-Mỗi bài có phần kiến thức và gợi ý các bước. Hãy tự làm trước, rồi mới bấm xem lời giải.
+Mỗi bài có phần kiến thức cần dùng và vài bước gợi ý để bạn bắt đầu. Bạn hãy tự làm trước, rồi mới bấm xem lời giải để đối chiếu.
 
 :::exercise
 Cho hai đường tròn $(O; 6\text{ cm})$ và $(O'; 4\text{ cm})$. Xác định vị trí tương đối của hai đường tròn trong mỗi trường hợp sau:

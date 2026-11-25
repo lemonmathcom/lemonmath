@@ -12,18 +12,18 @@ minutes: 15
 
 Lớp 5A có $40$ bạn, trong đó $30$ bạn biết bơi. Cô giáo hỏi: số bạn biết bơi chiếm bao nhiêu phần trăm số bạn cả lớp?
 
-Nói "phần trăm" là so sánh với $100$ phần bằng nhau. Bài này dạy em cách trả lời những câu hỏi như vậy.
+Nói "phần trăm" là so sánh với $100$ phần bằng nhau, nên việc đầu tiên là đưa câu hỏi của cô về đúng dạng đó. Việc này làm được bằng ba bước đơn giản, và em sẽ thấy vì sao mỗi bước đều đúng.
 
 ## Cùng khám phá
 
-Ta so sánh $30$ bạn biết bơi với $40$ bạn cả lớp. Tỉ số của hai số này là $30:40$, hay $\dfrac{30}{40}$.
+Việc đầu tiên là so $30$ bạn biết bơi với $40$ bạn cả lớp. Tỉ số của hai số này là $30:40$, hay $\dfrac{30}{40}$.
 
-Em nhớ lại: $1\%=\dfrac{1}{100}$, nên $75\%=\dfrac{75}{100}$. Vậy ta cần viết tỉ số trên dưới dạng phân số có mẫu số $100$. Có hai cách.
+Em nhớ lại: $1\%=\dfrac{1}{100}$, nên chẳng hạn $75\%=\dfrac{75}{100}$. Vì thế ta chỉ cần viết tỉ số trên dưới dạng phân số có mẫu số $100$, là đọc được ngay bao nhiêu phần trăm. Có hai cách.
 
 - **Cách 1.** Rút gọn $\dfrac{30}{40}=\dfrac{3}{4}$, rồi nhân cả tử số và mẫu số với $25$: $\dfrac{3}{4}=\dfrac{75}{100}=75\%$.
 - **Cách 2.** Chia $30:40=0{,}75$. Mà $0{,}75=\dfrac{75}{100}=75\%$.
 
-Cách 2 dùng được cho mọi cặp số, nên ta dùng cách này.
+Cách đầu tiên gọn, nhưng không phải cặp số nào cũng dễ đưa về mẫu số một trăm. Cách 2 thì dùng được cho mọi cặp số, nên từ giờ ta dùng cách này.
 
 :::graph $30$ trong $40$ bạn là $75\%$ cả lớp
 alt: Tia số từ 0% đến 100%, đánh dấu các điểm 0%, 75% và 100%; đoạn từ 0% đến 75% được tô đậm
@@ -42,11 +42,11 @@ Muốn tìm tỉ số phần trăm của số thứ nhất và số thứ hai:
 3. Viết thêm kí hiệu $\%$ vào bên phải kết quả.
 :::
 
-Cách làm này đúng vì $0{,}75=\dfrac{75}{100}$, mà $\dfrac{75}{100}$ chính là $75\%$. Nhân với $100$ rồi viết $\%$ là để đổi một số thập phân thành "bao nhiêu phần trăm".
+Vì sao cách làm này đúng? Vì $0{,}75=\dfrac{75}{100}$, mà $\dfrac{75}{100}$ chính là $75\%$. Nhân với $100$ rồi viết $\%$ là để đổi một số thập phân thành "bao nhiêu phần trăm". Em cứ nhớ: chia để so sánh, nhân với $100$ để đếm theo trăm.
 
 ## Ví dụ
 
-Ta bắt đầu với hai số nhỏ.
+Ta thử với hai số nhỏ trước, để làm quen ba bước.
 
 :::example Tìm tỉ số phần trăm của $9$ và $20$
 **Lời giải.** Em chia $9$ cho $20$, rồi nhân thương với $100$:
@@ -54,7 +54,7 @@ $$9:20=0{,}45;\qquad 0{,}45\times100=45.$$
 Vậy tỉ số phần trăm của $9$ và $20$ là $45\%$.
 :::
 
-Có phép chia cho thương có ba chữ số ở phần thập phân. Em vẫn làm đúng ba bước đó.
+Có những phép chia cho thương dài hơn, chẳng hạn ba chữ số ở phần thập phân. Đừng lo nếu lần đầu thấy lạ: em vẫn làm đúng ba bước đó.
 
 :::example Tìm tỉ số phần trăm của $7$ và $8$
 **Lời giải.** Chia $7$ cho $8$ được $0{,}875$. Nhân với $100$ là dịch dấu phẩy sang phải hai hàng:
@@ -62,7 +62,7 @@ $$7:8=0{,}875;\qquad 0{,}875\times100=87{,}5.$$
 Vậy tỉ số phần trăm của $7$ và $8$ là $87{,}5\%$.
 :::
 
-Trong bài toán có lời văn, câu "A chiếm bao nhiêu phần trăm B" nghĩa là so sánh A với B. Ta lấy A chia cho B, nên số "cả" luôn là số chia.
+Trong bài toán có lời văn, câu "A chiếm bao nhiêu phần trăm B" nghĩa là so sánh A với B. Ta lấy A chia cho B, nên số "cả", tức số ta so sánh với, luôn là số chia. Chỗ này nhiều bạn hay nhầm, nên em hãy tự hỏi: cái gì là "cả"?
 
 :::example Đọc truyện
 Cuốn truyện của Nam dày $90$ trang. Nam đã đọc được $36$ trang. Hỏi Nam đã đọc được bao nhiêu phần trăm cuốn truyện?
@@ -72,7 +72,7 @@ $$36:90=0{,}4;\qquad 0{,}4\times100=40.$$
 Vậy Nam đã đọc được $40\%$ cuốn truyện.
 :::
 
-Khi hai số có đơn vị đo khác nhau, em phải đổi về cùng một đơn vị trước.
+Khi hai số có đơn vị đo khác nhau, em phải đổi về cùng một đơn vị trước. Vì sao? Vì ta chỉ so sánh được những thứ cùng loại, như mét với mét, xăng-ti-mét với xăng-ti-mét.
 
 :::example Cắt dây
 Một sợi dây dài $2$ m. Người ta cắt đi $50$ cm. Hỏi đoạn dây đã cắt chiếm bao nhiêu phần trăm sợi dây?
@@ -85,8 +85,8 @@ Vậy đoạn dây đã cắt chiếm $25\%$ sợi dây.
 :::
 
 :::warning Những lỗi em hay gặp
-- **Quên nhân với $100$.** Sai: $9:20=0{,}45$, đáp số $0{,}45\%$. Vì sao sai: $0{,}45\%$ còn chưa đến một phần trăm. Đúng: $0{,}45\times100=45$, đáp số $45\%$.
-- **Chia ngược.** Sai: tỉ số phần trăm của $5$ và $20$ là $20:5=4$, tức $400\%$. Vì sao sai: $5$ nhỏ hơn $20$ nên kết quả phải nhỏ hơn $100\%$. Đúng: $5:20=0{,}25$, tức $25\%$.
+- **Quên nhân với $100$.** Bước này rất dễ bị bỏ sót. Sai: $9:20=0{,}45$, đáp số $0{,}45\%$. Vì sao sai: $0{,}45\%$ còn chưa đến một phần trăm. Đúng: $0{,}45\times100=45$, đáp số $45\%$.
+- **Chia ngược.** Chỗ này nhiều bạn hay nhầm. Sai: tỉ số phần trăm của $5$ và $20$ là $20:5=4$, tức $400\%$. Vì sao sai: $5$ nhỏ hơn $20$ nên kết quả phải nhỏ hơn $100\%$. Đúng: $5:20=0{,}25$, tức $25\%$.
 - **Quên đổi đơn vị.** Sai: $50$ cm và $2$ m cho $50:2=25$, tức $2500\%$. Vì sao sai: hai số khác đơn vị đo. Đúng: $50:200=0{,}25$, tức $25\%$.
 :::
 
@@ -111,9 +111,11 @@ Vậy đoạn dây đã cắt chiếm $25\%$ sợi dây.
 - Số "cả" (số em so sánh với) đứng sau và là số chia. Hai số phải cùng đơn vị đo.
 - Số thứ nhất nhỏ hơn số thứ hai thì kết quả nhỏ hơn $100\%$; số thứ nhất lớn hơn thì kết quả lớn hơn $100\%$.
 
+Quay lại câu hỏi của cô giáo: chỉ cần chia, nhân với $100$, rồi viết $\%$ là em trả lời được số bạn biết bơi chiếm bao nhiêu phần trăm cả lớp. Em nhớ một điều thôi: số "cả" luôn là số chia. Em hãy làm thêm vài bài luyện tập cho quen tay.
+
 ## Luyện tập
 
-Mỗi bài có phần kiến thức và gợi ý. Em hãy tự làm trước, rồi mới bấm xem lời giải.
+Mỗi bài có phần kiến thức cần nhớ và gợi ý để em bắt đầu. Em hãy tự làm trước, rồi mới bấm xem lời giải. Làm đều tay một chút thì ba bước này sẽ thành thói quen.
 
 :::exercise
 Tìm tỉ số phần trăm của $3$ và $5$.

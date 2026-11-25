@@ -11,18 +11,18 @@ minutes: 50
 - Lập mô hình dạng sin từ mô tả một tình huống tuần hoàn và dùng nó để trả lời câu hỏi.
 :::
 
-Unit 3 nói về sự thay đổi lặp lại. Công cụ trung tâm là hàm dạng sin, mô tả vòng đu quay, thuỷ triều, nhiệt độ trong ngày và mọi đại lượng lên xuống theo một chu kì đều đặn. Trong đề thi, FRQ 3 (Modeling Periodic Contexts) được xây dựng hoàn toàn từ nội dung bài này, nên luyện tập kĩ rất đáng công.
+Ngồi trên vòng đu quay, bạn lên cao rồi xuống thấp, hết vòng này đến vòng khác. Thuỷ triều lên xuống, nhiệt độ trong ngày tăng rồi giảm cũng lặp lại như vậy. Câu hỏi của bài là: làm sao viết sự lặp lại đều đặn ấy thành một công thức để dự đoán được? Công cụ ta cần là hàm dạng sin. Unit 3 nói về sự thay đổi lặp lại, và trong đề thi, FRQ 3 (Modeling Periodic Contexts) được xây dựng hoàn toàn từ nội dung bài này, nên luyện tập kĩ rất đáng công.
 
 ## Đường tròn lượng giác
 
-Góc $\theta$ ở vị trí chuẩn cắt đường tròn đơn vị tại điểm $(\cos\theta,\sin\theta)$. Trên đường tròn bán kính $r$ tâm gốc toạ độ, điểm đó là $(r\cos\theta,r\sin\theta)$. Các giá trị cần thuộc:
+Mọi thứ trong bài đều bắt đầu từ đường tròn lượng giác. Khi góc $\theta$ ở vị trí chuẩn quay, nó cắt đường tròn đơn vị tại điểm $(\cos\theta,\sin\theta)$: hoành độ là cos, tung độ là sin. Trên đường tròn bán kính $r$ tâm gốc toạ độ, mọi toạ độ chỉ việc nhân với bán kính, nên điểm đó là $(r\cos\theta,r\sin\theta)$. Dưới đây là các giá trị bạn cần thuộc:
 
 | $\theta$ | $0$ | $\dfrac\pi6$ | $\dfrac\pi4$ | $\dfrac\pi3$ | $\dfrac\pi2$ |
 |---|---|---|---|---|---|
 | $\sin\theta$ | $0$ | $\dfrac12$ | $\dfrac{\sqrt2}{2}$ | $\dfrac{\sqrt3}{2}$ | $1$ |
 | $\cos\theta$ | $1$ | $\dfrac{\sqrt3}{2}$ | $\dfrac{\sqrt2}{2}$ | $\dfrac12$ | $0$ |
 
-Các góc khác suy ra nhờ tính đối xứng, với dấu xác định theo góc phần tư: ở góc phần tư II, sin dương và cos âm.
+Những góc còn lại không cần học thêm: ta suy ra từ các góc trên nhờ tính đối xứng, rồi đặt dấu theo góc phần tư. Dấu là chỗ nhiều bạn hay nhầm, nên hãy nhớ một ví dụ: ở góc phần tư II, sin dương và cos âm.
 
 :::example Một điểm trên đường tròn
 Góc $\dfrac{2\pi}{3}$ ở vị trí chuẩn cắt đường tròn bán kính $4$ tâm gốc toạ độ tại
@@ -40,7 +40,7 @@ Vậy điểm đó là $\left(-2,2\sqrt3\right)$, chọn đáp án **C**. Phươ
 
 ## Đồ thị hàm dạng sin
 
-Với $y=a\sin\big(b(x-h)\big)+k$ hoặc $y=a\cos\big(b(x-h)\big)+k$, $b>0$:
+Công thức dạng sin trông dài, nhưng mỗi con số trong đó chỉ lo một việc: kéo giãn theo chiều cao, kéo giãn theo chiều ngang, dịch sang bên hoặc đẩy cả đồ thị lên xuống. Với $y=a\sin\big(b(x-h)\big)+k$ hoặc $y=a\cos\big(b(x-h)\big)+k$, $b>0$, ta đọc các đặc điểm của đồ thị như sau:
 
 | Đặc điểm | Giá trị |
 |---|---|
@@ -76,14 +76,14 @@ Vậy khẳng định A đúng, chọn đáp án **A**. Phương án B tính $2\
 
 ## Hàm tang
 
-Vì $\tan x=\dfrac{\sin x}{\cos x}$ nên hàm tang không xác định khi $\cos x=0$, cho các tiệm cận đứng $x=\dfrac\pi2+k\pi$. Nghiệm của nó là $x=k\pi$, nó đồng biến giữa hai tiệm cận liên tiếp, và chu kì là $\pi$ (không phải $2\pi$). Với $y=\tan(bx)$, chu kì là $\dfrac\pi b$.
+Hàm tang không giống sin và cos: đồ thị của nó bị "đứt" ở những chỗ nào, và vì sao? Vì $\tan x=\dfrac{\sin x}{\cos x}$ nên hàm tang không xác định khi $\cos x=0$, lúc đó mẫu số bằng không. Đó là các tiệm cận đứng $x=\dfrac\pi2+k\pi$. Nghiệm của nó là $x=k\pi$, nó đồng biến giữa hai tiệm cận liên tiếp, và chu kì là $\pi$. Chỗ này nhiều bạn nhầm với sin và cos: chu kì của tang không phải $2\pi$. Với $y=\tan(bx)$, chu kì là $\dfrac\pi b$.
 
 ## Lập mô hình dạng sin
 
-Để mô hình hoá một tình huống tuần hoàn:
-1. **Đường trung bình** $k=\dfrac{\max+\min}{2}$, **biên độ** $\lvert a\rvert=\dfrac{\max-\min}{2}$.
+1. **Đường trung bình** $k=\dfrac{\max+\min}{2}$, **biên độ** $\lvert a\rvert=\dfrac{\max-\min}{2}$. Đường trung bình nằm giữa điểm cao nhất và thấp nhất; biên độ là nửa khoảng cách giữa hai điểm ấy.
 2. **Chu kì** lấy từ tình huống, rồi $b=\dfrac{2\pi}{\text{chu kì}}$.
-3. **Điểm xuất phát:** cos bắt đầu ở cực đại, $-\cos$ ở cực tiểu, sin ở đường trung bình và đi lên. Chọn $h$ cho phù hợp.
+3. **Điểm xuất phát:** cos bắt đầu ở cực đại, $-\cos$ ở cực tiểu, sin ở đường trung bình và đi lên. Sau đó chọn $h$ cho phù hợp.
+Vì sao chỉ cần ba bước này? Vì mô hình chỉ có ba thứ để chỉnh cho khớp: độ cao, độ nhanh của chu kì và điểm bắt đầu. Đọc được chúng từ tình huống thì công thức gần như tự viết ra.
 
 :::example Vòng đu quay
 Một vòng đu quay có bán kính $14$ m, tâm cao $16$ m so với mặt đất và quay hết một vòng trong $40$ giây. Một người lên ở điểm thấp nhất tại thời điểm $t=0$. Hàm số nào cho độ cao (mét) của người đó sau $t$ giây?
@@ -113,11 +113,12 @@ Vậy $D(t)=2{,}2+1{,}6\cos\dfrac{2\pi(t-2)}{12{,}5}$. Kiểm tra: $D(2)=3{,}8$ 
 :::
 
 :::warning Những cái bẫy thường gặp
-- **Chu kì:** là $\dfrac{2\pi}{b}$, không phải $2\pi b$; với hàm tang là $\dfrac{\pi}{b}$.
-- **Độ dịch pha:** với $\cos(2x-\pi)$, đặt nhân tử chung trước: $\cos\big(2(x-\tfrac\pi2)\big)$, nên độ dịch là $\dfrac\pi2$, không phải $\pi$.
-- **Radian:** chuyển máy tính sang chế độ radian.
+- **Chu kì:** là $\dfrac{2\pi}{b}$, không phải $2\pi b$; với hàm tang là $\dfrac{\pi}{b}$. Hệ số nhân với biến càng lớn thì đồ thị càng nén lại, nên chu kì càng ngắn.
+- **Độ dịch pha:** với $\cos(2x-\pi)$, hãy đặt nhân tử chung trước: $\cos\big(2(x-\tfrac\pi2)\big)$, nên độ dịch là $\dfrac\pi2$, không phải $\pi$. Đây là chỗ nhiều bạn hay nhầm.
+- **Radian:** chuyển máy tính sang chế độ radian trước khi bấm.
 - **Điểm xuất phát của mô hình:** ở cực tiểu dùng $-\cos$; ở cực đại dùng $\cos$.
-- **Nửa chu kì:** từ cực đại đến cực tiểu kế tiếp là nửa chu kì.
+- **Nửa chu kì:** từ cực đại đến cực tiểu kế tiếp là nửa chu kì, nên đừng lấy nó làm chu kì.
+Nhớ lại câu hỏi đầu bài: muốn viết sự lặp lại thành công thức, ta cần đường trung bình, biên độ, chu kì và điểm xuất phát. Nắm chắc bốn thứ đó, rồi luyện tập ở phần bài tập bên dưới.
 :::
 
 :::terms

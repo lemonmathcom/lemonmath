@@ -12,7 +12,7 @@ minutes: 45
 - Dùng phần dư để đánh giá mô hình khớp với dữ liệu đến đâu.
 :::
 
-Unit 2 xoay quanh một sự đối lập: cộng thêm cùng một lượng sau mỗi bước (cấp số cộng, tuyến tính) và nhân với cùng một hệ số (cấp số nhân, hàm mũ). Khi đã phân biệt được hai loại và chuyển đổi được giữa các dạng viết của chúng, phần lớn câu hỏi Unit 2 trở nên quen thuộc. Bài này nói về dãy số và hàm mũ; bài sau nói về hàm ngược của chúng, tức logarit.
+Một người tiết kiệm đều đặn, mỗi tháng thêm cùng một khoản. Một người khác gửi tiền vào ngân hàng, và mỗi năm số tiền được nhân thêm một hệ số. Tiền của hai người tăng theo hai cách rất khác nhau, và Unit 2 xoay quanh đúng sự khác nhau ấy: cộng thêm cùng một lượng sau mỗi bước (cấp số cộng, tuyến tính), hay nhân với cùng một hệ số (cấp số nhân, hàm mũ). Khi đã phân biệt được hai loại và chuyển đổi được giữa các dạng viết của chúng, phần lớn câu hỏi Unit 2 trở nên quen thuộc. Bài này nói về dãy số và hàm mũ; bài sau nói về hàm ngược của chúng, tức logarit.
 
 ## Cấp số cộng và cấp số nhân
 
@@ -22,7 +22,7 @@ Unit 2 xoay quanh một sự đối lập: cộng thêm cùng một lượng sau
 | Số hạng thứ $n$ | $a_n=a_1+(n-1)d$ | $g_n=g_1r^{n-1}$ |
 | Dạng hàm số | bậc nhất: $f(x)=b+mx$ | hàm mũ: $f(x)=ab^x$ |
 
-Cấp số cộng là một hàm bậc nhất chỉ xét tại các đầu vào nguyên; cấp số nhân là một hàm mũ được hạn chế theo cùng cách.
+Bảng trên cho thấy hai họ này thực ra là họ hàng của những hàm số ta đã biết. Cấp số cộng chính là một hàm bậc nhất, chỉ xét tại các đầu vào nguyên. Cấp số nhân là một hàm mũ, cũng chỉ xét tại các đầu vào nguyên. Nhờ vậy, mọi điều ta biết về hàm bậc nhất và hàm mũ đều dùng được cho dãy số.
 
 :::example Một cấp số nhân
 Ba số hạng đầu của một cấp số nhân là $5$, $15$, $45$. Số hạng thứ sáu là
@@ -51,7 +51,7 @@ Vậy $a_n=3n+2$ và $a_{20}=3(20)+2=62$.
 
 ## Hàm mũ và các dạng viết của nó
 
-Với $f(x)=ab^x$, $a>0$: nếu $b>1$ thì hàm số **tăng trưởng**, nếu $0<b<1$ thì hàm số **suy giảm**. Trong cả hai trường hợp, đồ thị lõm lên, có tiệm cận ngang $y=0$, và giá trị đầu ra được nhân với $b$ mỗi khi đầu vào tăng $1$. Các quy tắc luỹ thừa cho phép viết lại mô hình: $b^{x+k}=b^k\cdot b^x$, và $b^{x/k}=\left(b^{1/k}\right)^x$.
+Hàm mũ $f(x)=ab^x$ với $a>0$ có một đặc điểm dễ nhớ: mỗi khi đầu vào tăng $1$, giá trị đầu ra được nhân với $b$. Vì vậy, nếu $b>1$ thì hàm số **tăng trưởng**, còn nếu $0<b<1$ thì hàm số **suy giảm**. Trong cả hai trường hợp, đồ thị lõm lên và có tiệm cận ngang $y=0$. Các quy tắc luỹ thừa cho phép ta viết lại mô hình dưới nhiều dạng: $b^{x+k}=b^k\cdot b^x$, và $b^{x/k}=\left(b^{1/k}\right)^x$.
 
 :::example Hai điểm xác định mô hình
 Hàm mũ $f(x)=ab^x$ đi qua $(1,6)$ và $(3,24)$. $f(x)$ là
@@ -81,7 +81,7 @@ Vậy biểu thức tương đương là $500\left(1{,}2^{1/12}\right)^{12t}$, c
 
 ## Tuyến tính hay hàm mũ, và phần dư
 
-Dùng mô hình tuyến tính khi đại lượng thay đổi **một lượng không đổi** trên mỗi đơn vị, và mô hình hàm mũ khi nó thay đổi **một tỉ lệ phần trăm không đổi**. Để kiểm tra mô hình với dữ liệu, hãy tính **phần dư (residual)**: phần dư $=$ giá trị thực tế $-$ giá trị dự đoán. Phần dư nhỏ và không có quy luật cho thấy mô hình khớp tốt.
+Làm sao biết nên chọn mô hình nào? Hãy hỏi xem đại lượng thay đổi theo kiểu nào. Nếu nó thay đổi **một lượng không đổi** trên mỗi đơn vị, ta dùng mô hình tuyến tính. Nếu nó thay đổi **một tỉ lệ phần trăm không đổi**, ta dùng mô hình hàm mũ. Chọn xong, ta còn phải kiểm tra mô hình có khớp với dữ liệu không. Việc đó cần đến **phần dư (residual)**: phần dư $=$ giá trị thực tế $-$ giá trị dự đoán. Phần dư nhỏ và không có quy luật cho thấy mô hình khớp tốt.
 
 :::example Đọc một phần dư
 Một mô hình dự đoán cây sẽ cao $50{,}4$ cm sau $6$ tuần. Chiều cao thực tế là $52$ cm. Phần dư là bao nhiêu và có ý nghĩa gì?
@@ -99,10 +99,10 @@ Vậy phần dư là $1{,}6$ cm và mô hình ước lượng thấp hơn thực
 :::
 
 :::warning Những cái bẫy thường gặp
-- **Số mũ $n-1$:** số hạng đầu tiên không có thừa số $r$.
-- **Lượng không đổi hay phần trăm không đổi:** "tăng $4\%$" là hàm mũ, "tăng $4$" là tuyến tính.
-- **Dạng tương đương:** kiểm tra bằng cách thay một giá trị của $t$ vào cả hai biểu thức.
-- **Dấu của phần dư:** lấy thực tế trừ dự đoán, không làm ngược lại.
+- **Số mũ $n-1$:** số hạng đầu tiên không có thừa số $r$, vì nó chưa được nhân lần nào.
+- **Lượng không đổi hay phần trăm không đổi:** "tăng $4\%$" là hàm mũ, còn "tăng $4$" là tuyến tính.
+- **Dạng tương đương:** muốn kiểm tra, hãy thay cùng một giá trị của $t$ vào cả hai biểu thức.
+- **Dấu của phần dư:** lấy thực tế trừ dự đoán, đừng làm ngược lại.
 - **Suy giảm với $a>0$:** đồ thị đi xuống nhưng vẫn lõm lên.
 :::
 

@@ -11,19 +11,19 @@ minutes: 20
 - Dùng đơn thức để viết gọn diện tích, thể tích trong bài toán thực tế.
 :::
 
-Một hộp quà có đáy là hình vuông cạnh $x$ cm và chiều cao gấp đôi cạnh đáy, tức là $2x$ cm. Thể tích của hộp là $x\cdot x\cdot2x$ (cm³). Biểu thức này có thể viết gọn thế nào, và nó thuộc loại biểu thức nào?
+Bạn thử nhìn một hộp quà có đáy là hình vuông cạnh $x$ cm. Chiều cao hộp gấp đôi cạnh đáy, tức là $2x$ cm. Thể tích hộp là $x\cdot x\cdot2x$ (cm³). Viết như vậy vừa dài vừa khó nhìn. Có cách nào viết gọn hơn không, và biểu thức này thuộc loại biểu thức nào?
 
-Ở lớp 7, bạn đã biết dùng chữ để thay cho số và biết quy tắc nhân hai lũy thừa cùng cơ số. Hôm nay ta dùng hai điều đó để làm quen với một loại biểu thức đơn giản nhất: đơn thức.
+Ở lớp 7, bạn đã biết dùng chữ thay cho số, và biết nhân hai lũy thừa cùng cơ số. Hai điều đó là đủ để ta làm quen với loại biểu thức đơn giản nhất, gọi là đơn thức. Biết đơn thức rồi, ta có thể gọi tên, so sánh và tính toán với những biểu thức như thể tích hộp quà một cách gọn gàng.
 
 ## Đơn thức và đơn thức thu gọn
 
 ### Khám phá: viết gọn thể tích hộp quà
 
-Ta thử với $x=3$. Đáy là hình vuông cạnh $3$ cm, chiều cao là $2\cdot3=6$ cm. Thể tích là $3\cdot3\cdot6=54$ cm³.
+Muốn hiểu biểu thức này, ta thử với một số cụ thể. Chọn $x=3$. Đáy là hình vuông cạnh $3$ cm, còn chiều cao là $2\cdot3=6$ cm. Thể tích là $3\cdot3\cdot6=54$ cm³.
 
-Bây giờ ta gộp các thừa số giống nhau. Số $2$ đứng riêng, còn $x\cdot x\cdot x=x^3$, nên thể tích là $2x^3$. Thử lại với $x=3$: $2\cdot3^3=2\cdot27=54$. Hai kết quả bằng nhau, vậy $x\cdot x\cdot2x=2x^3$.
+Nhìn lại biểu thức thể tích, ta thấy có nhiều thừa số giống nhau, nên ta gộp chúng lại. Số $2$ đứng riêng, còn $x\cdot x\cdot x=x^3$. Vậy thể tích là $2x^3$. Thử lại với $x=3$: $2\cdot3^3=2\cdot27=54$, đúng bằng kết quả vừa tính. Vậy $x\cdot x\cdot2x=2x^3$.
 
-Bảng dưới đây cho vài biểu thức và cho biết biểu thức nào "giống" $2x^3$.
+Vì $2x^3$ gọn và dễ đọc, ta muốn biết những biểu thức nào cùng "họ" với nó. Bảng dưới đây liệt kê vài biểu thức và cho biết biểu thức nào là đơn thức, vì sao.
 
 | Biểu thức | Có phải đơn thức? | Vì sao |
 |---|---|---|
@@ -38,7 +38,7 @@ Bảng dưới đây cho vài biểu thức và cho biết biểu thức nào "g
 **Đơn thức** là biểu thức chỉ gồm một số, hoặc một biến, hoặc một tích của các số và các biến (các biến có số mũ là số tự nhiên).
 :::
 
-Một đơn thức có thể có nhiều biến, ví dụ $-2xy$ có hai biến $x$ và $y$. Biểu thức $x\cdot x\cdot2x$ cũng là đơn thức, nhưng chưa gọn, vì biến $x$ xuất hiện nhiều lần.
+Đơn thức không nhất thiết chỉ có một biến. Chẳng hạn $-2xy$ có hai biến $x$ và $y$. Thể tích hộp quà $x\cdot x\cdot2x$ cũng là một đơn thức, nhưng chưa gọn, vì biến $x$ xuất hiện nhiều lần. Ta cần một cách viết chuẩn cho gọn.
 
 :::definition Đơn thức thu gọn, hệ số, phần biến, bậc
 Đơn thức **thu gọn** là đơn thức chỉ gồm một số nhân với các lũy thừa của các biến, và mỗi biến chỉ xuất hiện một lần.
@@ -49,15 +49,15 @@ Trong đơn thức thu gọn $-5x^2y$:
 - **bậc** của đơn thức là tổng các số mũ của các biến: $2+1=3$.
 :::
 
-Số mũ của $y$ là $1$ vì $y=y^1$. Số khác $0$ là đơn thức bậc $0$. Số $0$ cũng là đơn thức, gọi là đơn thức không, và nó không có bậc.
+Đừng lo nếu mấy quy ước này lúc đầu thấy lạ. Số mũ của $y$ là $1$ dù ta không viết ra, vì $y=y^1$. Một số khác $0$ là đơn thức bậc $0$. Còn số $0$ cũng là đơn thức, gọi là đơn thức không, và riêng nó thì không có bậc.
 
 ## Các phép tính với đơn thức
 
 ### Đơn thức đồng dạng, cộng và trừ
 
-Ta xét $3x^2+5x^2$. Mỗi $x^2$ giống như một "gói" giống nhau: có $3$ gói cộng $5$ gói là $8$ gói. Vậy $3x^2+5x^2=8x^2$. Thử với $x=2$: $3\cdot4+5\cdot4=32$ và $8\cdot4=32$.
+Hình dung $3$ gói kẹo cộng với $5$ gói kẹo giống hệt, ta có $8$ gói. Biểu thức $3x^2+5x^2$ cũng vậy: mỗi $x^2$ là một "gói" giống nhau. Vậy $3x^2+5x^2=8x^2$. Thử với $x=2$: $3\cdot4+5\cdot4=32$ và $8\cdot4=32$.
 
-Cách làm này đúng nhờ tính chất phân phối: $3x^2+5x^2=(3+5)x^2$. Nó chỉ dùng được khi hai đơn thức có cùng phần biến.
+Vì sao cách "đếm gói" này đúng? Nhờ tính chất phân phối: $3x^2+5x^2=(3+5)x^2$. Chỗ này nhiều bạn hay nhầm: cách làm chỉ dùng được khi hai đơn thức có cùng phần biến, vì chỉ khi đó các "gói" mới giống nhau. Những đơn thức như vậy có tên riêng, ta gọi tên ngay dưới đây.
 
 :::definition Đơn thức đồng dạng
 Hai đơn thức có hệ số khác $0$ và có **cùng phần biến** gọi là **đơn thức đồng dạng**.
@@ -67,7 +67,7 @@ Muốn cộng (trừ) các đơn thức đồng dạng, ta cộng (trừ) các h
 
 ### Nhân hai đơn thức
 
-Ta nhân $(2x^2)\cdot(3x^3)$. Ta đổi chỗ các thừa số rồi nhóm số với số, biến với biến: $2\cdot3\cdot x^2\cdot x^3$. Số đứng riêng cho $6$. Với biến, ta dùng quy tắc nhân lũy thừa cùng cơ số: $x^2\cdot x^3=x^{2+3}=x^5$. Vậy $(2x^2)(3x^3)=6x^5$.
+Giờ ta thử nhân hai đơn thức: $(2x^2)\cdot(3x^3)$. Trong một tích, ta có thể đổi chỗ các thừa số, nên ta nhóm số với số, biến với biến: $2\cdot3\cdot x^2\cdot x^3$. Các số cho ra $6$. Với biến, ta dùng quy tắc nhân lũy thừa cùng cơ số: $x^2\cdot x^3=x^{2+3}=x^5$. Vậy $(2x^2)(3x^3)=6x^5$.
 
 :::theorem Nhân hai đơn thức
 Muốn nhân hai đơn thức, ta nhân các hệ số với nhau và nhân các phần biến với nhau (với cùng một biến thì cộng các số mũ):
@@ -76,7 +76,7 @@ $$(a\,x^m y^n)\cdot(b\,x^p y^q)=ab\,x^{m+p}y^{n+q}.$$
 
 ## Ví dụ
 
-Ta bắt đầu bằng việc nhận biết đơn thức.
+Ta bắt đầu với câu hỏi cơ bản nhất: một biểu thức cho trước có phải là đơn thức không? Ví dụ dưới đây cho bạn cách kiểm tra từng biểu thức.
 
 :::example Nhận biết đơn thức
 Trong các biểu thức $5$, $-x^2y$, $2x+3$, $\dfrac{4}{y}$, $\dfrac{1}{3}xy^2$, biểu thức nào là đơn thức?
@@ -92,7 +92,7 @@ Trong các biểu thức $5$, $-x^2y$, $2x+3$, $\dfrac{4}{y}$, $\dfrac{1}{3}xy^2
 Vậy có ba đơn thức: $5$, $-x^2y$ và $\dfrac{1}{3}xy^2$.
 :::
 
-Tiếp theo, ta thu gọn một đơn thức và đọc hệ số, phần biến, bậc của nó.
+Một đơn thức viết dài thì ta thu gọn trước, rồi mới đọc được hệ số, phần biến và bậc. Ví dụ này làm đủ các bước đó.
 
 :::example Thu gọn đơn thức
 Thu gọn $A=4x\cdot\dfrac12y\cdot x^2y$ rồi chỉ ra hệ số, phần biến và bậc của $A$.
@@ -104,7 +104,7 @@ $$A=\left(4\cdot\frac12\right)\cdot(x\cdot x^2)\cdot(y\cdot y)=2x^3y^2.$$
 Vậy $A=2x^3y^2$ có hệ số là $2$, phần biến là $x^3y^2$ và bậc là $3+2=5$.
 :::
 
-Bây giờ ta đọc hệ số và bậc của vài đơn thức đã thu gọn.
+Khi đơn thức đã thu gọn, việc đọc hệ số và bậc rất nhanh. Ta luyện với vài đơn thức, trong đó có một đơn thức không viết số đứng đầu.
 
 :::example Hệ số và bậc
 Tìm hệ số và bậc của các đơn thức $-7x^2y$, $\dfrac34x^4$ và $xy^2z$.
@@ -118,7 +118,7 @@ Tìm hệ số và bậc của các đơn thức $-7x^2y$, $\dfrac34x^4$ và $xy
 | $xy^2z$ | $1$ | $1+2+1=4$ |
 :::
 
-Ta chuyển sang đơn thức đồng dạng.
+Giờ ta quay lại chuyện những "gói" giống nhau: trong một nhóm đơn thức, đơn thức nào đồng dạng với nhau, và cộng chúng lại thì được gì?
 
 :::example Đơn thức đồng dạng và cộng trừ
 Trong các đơn thức $2xy^2$, $-xy^2$, $3x^2y$, $5y^2x$, đơn thức nào đồng dạng với $xy^2$? Tính tổng các đơn thức đó.
@@ -132,7 +132,7 @@ $$2xy^2+(-xy^2)+5xy^2=(2-1+5)xy^2=6xy^2.$$
 Vậy tổng là $6xy^2$.
 :::
 
-Còn phép nhân thì không cần đồng dạng.
+Phép cộng cần đồng dạng, còn phép nhân thì không. Hai đơn thức bất kì đều nhân được với nhau.
 
 :::example Nhân hai đơn thức
 Tính $(-3x^2y)\cdot(2xy^3)$ và cho biết bậc của kết quả.
@@ -144,7 +144,7 @@ $$(-3x^2y)\cdot(2xy^3)=(-3\cdot2)\cdot x^{2+1}\cdot y^{1+3}=-6x^3y^4.$$
 Vậy kết quả là $-6x^3y^4$, có bậc $3+4=7$.
 :::
 
-Cuối cùng, ta dùng đơn thức trong bài toán thực tế mở đầu.
+Cuối cùng, ta trở lại hộp quà ở đầu bài, lần này với hai loại hộp. Đơn thức giúp ta viết tổng thể tích thật gọn.
 
 :::example Thể tích hai loại hộp
 Hộp A có đáy hình vuông cạnh $x$ cm và cao $2x$ cm. Hộp B là hình lập phương cạnh $x$ cm. Viết thể tích một hộp A cộng thể tích một hộp B dưới dạng đơn thức, rồi tính giá trị khi $x=4$.
@@ -159,10 +159,10 @@ Vậy tổng thể tích là $3x^3$ cm³, và bằng $192$ cm³ khi $x=4$.
 :::
 
 :::warning Những sai lầm thường gặp
-- **Cho rằng $x+y$ là đơn thức.** Sai: $x+y$ là đơn thức. Lí do sai: đơn thức chỉ có phép nhân giữa số và biến, không có phép cộng. Đúng: $x+y$ không phải đơn thức.
-- **Tính bậc bằng cách nhân số mũ.** Sai: bậc của $x^2y^3$ là $2\cdot3=6$. Lí do sai: bậc là tổng các số mũ. Đúng: $2+3=5$.
-- **Cộng cả số mũ khi cộng đơn thức.** Sai: $3x^2+5x^2=8x^4$. Lí do sai: cộng hệ số thì phần biến giữ nguyên, giống như $3$ gói cộng $5$ gói là $8$ gói. Đúng: $8x^2$. (Thử $x=2$: $3\cdot4+5\cdot4=32$, còn $8\cdot2^4=128$.)
-- **Nhân lũy thừa mà nhân số mũ.** Sai: $x^2\cdot x^3=x^6$. Lí do sai: $x^2\cdot x^3=(x\cdot x)(x\cdot x\cdot x)$ có $5$ thừa số $x$. Đúng: $x^5$.
+- **Cho rằng $x+y$ là đơn thức.** Nhiều bạn viết: $x+y$ là đơn thức. Chỗ này sai vì đơn thức chỉ có phép nhân giữa số và biến, không có phép cộng. Đúng là $x+y$ không phải đơn thức.
+- **Tính bậc bằng cách nhân số mũ.** Bạn dễ viết bậc của $x^2y^3$ là $2\cdot3=6$. Nhưng bậc là tổng các số mũ, nên đúng là $2+3=5$.
+- **Cộng cả số mũ khi cộng đơn thức.** Có bạn viết $3x^2+5x^2=8x^4$. Hãy nhớ chuyện các gói: cộng hệ số thì phần biến giữ nguyên, giống như $3$ gói cộng $5$ gói là $8$ gói. Đúng là $8x^2$. Thử $x=2$: $3\cdot4+5\cdot4=32$, còn $8\cdot2^4=128$.
+- **Nhân lũy thừa mà nhân số mũ.** Có bạn viết $x^2\cdot x^3=x^6$. Hãy viết ra: $x^2\cdot x^3=(x\cdot x)(x\cdot x\cdot x)$ có $5$ thừa số $x$. Đúng là $x^5$.
 :::
 
 ## Thuật ngữ
@@ -182,15 +182,16 @@ Vậy tổng thể tích là $3x^3$ cm³, và bằng $192$ cm³ khi $x=4$.
 
 ## Tóm tắt
 
-- Đơn thức là một số, một biến, hoặc tích của các số và các biến. Biểu thức có phép cộng, trừ hoặc biến ở mẫu không phải đơn thức.
-- Đơn thức thu gọn $ax^my^n$ có hệ số $a$, phần biến $x^my^n$, bậc là tổng các số mũ $m+n$.
-- Hai đơn thức đồng dạng nếu hệ số khác $0$ và cùng phần biến. Cộng, trừ chúng: cộng, trừ hệ số, giữ nguyên phần biến.
-- Nhân hai đơn thức: nhân hệ số với nhau, nhân phần biến với nhau (cộng số mũ của cùng một biến).
-- Có thể thử lại bằng cách thay biến bằng một số nhỏ, ví dụ $x=2$, rồi so sánh hai vế.
+- Đơn thức là một số, một biến, hoặc tích của các số và các biến. Biểu thức có phép cộng, trừ hoặc biến ở mẫu thì không phải đơn thức.
+- Đơn thức thu gọn $ax^my^n$ có hệ số $a$, phần biến $x^my^n$, và bậc bằng tổng các số mũ $m+n$.
+- Hai đơn thức đồng dạng nếu hệ số khác $0$ và cùng phần biến. Muốn cộng hay trừ chúng, ta cộng hay trừ các hệ số và giữ nguyên phần biến.
+- Muốn nhân hai đơn thức, ta nhân các hệ số với nhau và nhân các phần biến với nhau (cộng số mũ của cùng một biến).
+- Muốn kiểm tra kết quả, ta thay biến bằng một số nhỏ, ví dụ $x=2$, rồi so sánh hai vế.
+Câu hỏi đầu bài đã có lời đáp: thể tích hộp quà viết gọn được thành một đơn thức, và đơn thức cho ta cách gọi tên, so sánh, tính toán rất gọn. Điều cần nhớ nhất là cộng thì giữ nguyên phần biến, còn nhân thì cộng số mũ.
 
 ## Luyện tập
 
-Mỗi bài có phần kiến thức và gợi ý các bước. Hãy tự làm trước, rồi mới bấm xem lời giải.
+Mỗi bài tập có phần kiến thức cần nhớ và gợi ý các bước. Bạn nên tự làm trước, vướng thì mới mở lời giải. Làm chậm mà chắc, đơn thức nào rồi cũng quen dần.
 
 :::exercise
 Trong các biểu thức $-3$, $x^2y$, $x-2y$, $\dfrac{5}{x}$, $\dfrac{2}{3}ab$, $y^3$, biểu thức nào là đơn thức?

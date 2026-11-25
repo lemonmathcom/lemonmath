@@ -12,7 +12,7 @@ type: guide
 - Lập kế hoạch ôn 10 tuần xoay quanh các đề luyện chính thức.
 :::
 
-SAT là kì thi xét tuyển do College Board tổ chức, được các trường đại học ở Mỹ và nhiều nước khác chấp nhận. Từ năm 2024, SAT thi hoàn toàn trên máy: bạn làm bài trên laptop hoặc máy tính bảng bằng ứng dụng Bluebook. Tin vui cho học sinh học Toán ở Việt Nam là kiến thức hiếm khi vượt quá lớp 10. Cái mới là ngôn ngữ, tốc độ và cách đặt câu hỏi. Bài này cho bạn biết chính xác điều gì đang chờ mình.
+Bạn đang cân nhắc thi SAT, và nghe nói phần Toán thi trên máy, bằng tiếng Anh. Câu hỏi đầu tiên thường là: mình sẽ gặp những gì, và nên ôn thế nào? SAT là kì thi xét tuyển do College Board tổ chức, được các trường đại học ở Mỹ và nhiều nước khác chấp nhận. Từ năm 2024, SAT thi hoàn toàn trên máy: bạn làm bài trên laptop hoặc máy tính bảng bằng ứng dụng Bluebook. Tin vui cho học sinh học Toán ở Việt Nam là kiến thức hiếm khi vượt quá lớp 10. Cái mới là ngôn ngữ, tốc độ và cách đặt câu hỏi. Vậy nên trước hết, ta xem chính xác điều gì đang chờ bạn.
 
 ## Cấu trúc phần Toán
 
@@ -26,14 +26,14 @@ SAT là kì thi xét tuyển do College Board tổ chức, được các trườ
 | Bảng công thức | Các công thức hình học thông dụng có sẵn trong ứng dụng |
 | Thang điểm | 200–800 cho phần Toán |
 
-Có hai chi tiết quyết định chiến thuật làm bài.
+Ngoài các con số trong bảng, có hai chi tiết quyết định chiến thuật làm bài của bạn.
 
-**Bài thi thích ứng theo chặng.** Mọi thí sinh nhận module 1 gồm các câu dễ, trung bình và khó. Kết quả module 1 quyết định module 2 của bạn là bản khó hơn hay bản dễ hơn. Muốn đạt điểm cao thì phải vào được module 2 bản khó, nên ở module 1, làm chính xác quan trọng hơn làm nhanh.
+**Bài thi thích ứng theo chặng.** Mọi thí sinh nhận module 1 gồm các câu dễ, trung bình và khó. Kết quả module 1 quyết định module 2 của bạn là bản khó hơn hay bản dễ hơn. Điểm cao chỉ có được khi bạn vào module 2 bản khó. Vì vậy ở module 1, hãy ưu tiên làm chính xác hơn làm nhanh.
 
-**Làm sai không bị trừ điểm.** Đừng bao giờ bỏ trống câu nào. Mỗi module còn có 2 câu thử nghiệm không tính điểm, nhưng bạn không biết đó là câu nào, vì vậy hãy coi mọi câu đều tính điểm.
+**Làm sai không bị trừ điểm.** Vì vậy đừng bao giờ bỏ trống câu nào, cứ chọn một phương án hoặc điền một đáp số. Mỗi module còn có 2 câu thử nghiệm không tính điểm. Bạn không biết đó là câu nào, nên hãy coi mọi câu đều tính điểm.
 
 :::tip Phân bổ thời gian
-35 phút cho 22 câu là khoảng 95 giây một câu. Trong mỗi module, câu hỏi xếp từ dễ đến khó, nên hãy cố làm xong 10 câu đầu trong khoảng 12 phút và dành thời gian tiết kiệm được cho 6 câu cuối.
+35 phút cho 22 câu là khoảng 95 giây một câu. Câu hỏi trong mỗi module xếp từ dễ đến khó, nên những câu đầu thường làm nhanh được. Hãy cố làm xong 10 câu đầu trong khoảng 12 phút, rồi dành thời gian tiết kiệm được cho 6 câu cuối.
 :::
 
 ## Bốn mảng nội dung
@@ -45,16 +45,16 @@ Có hai chi tiết quyết định chiến thuật làm bài.
 | Problem-Solving and Data Analysis (Giải quyết vấn đề và phân tích dữ liệu) | khoảng 15% | 5–7 | Tỉ số, tốc độ, phần trăm, đơn vị, thống kê, xác suất, biểu đồ |
 | Geometry and Trigonometry (Hình học và lượng giác) | khoảng 15% | 5–7 | Diện tích và thể tích, đường thẳng và góc, tam giác, lượng giác trong tam giác vuông, đường tròn |
 
-Khoảng 30% số câu đặt trong bối cảnh thực tế, nên đọc hiểu đề bằng tiếng Anh cũng là một phần của kĩ năng.
+Khoảng 30% số câu đặt trong bối cảnh thực tế, nên đọc hiểu đề bằng tiếng Anh cũng là một phần của kĩ năng. Đừng lo nếu lúc đầu thấy lạ: đọc kĩ rồi tự viết phương trình là thói quen luyện được.
 
-Hãy bắt đầu với Algebra, vì mảng này nhiều câu nhất và là nền cho các mảng còn lại:
+Nên bắt đầu với Algebra, vì mảng này có nhiều câu nhất và là nền cho các mảng còn lại. Hai bài dưới đây là điểm khởi đầu:
 
-- [Phương trình và hệ phương trình bậc nhất](lesson:sat-linear-equations-systems)
-- [Hàm số bậc nhất và bất phương trình](lesson:sat-linear-functions-inequalities)
+- [Phương trình và hệ phương trình bậc nhất](lesson:sat-linear-equations-systems): giải phương trình, lập phương trình từ lời văn và giải hệ
+- [Hàm số bậc nhất và bất phương trình](lesson:sat-linear-functions-inequalities): đường thẳng, hệ số góc, mô hình trong bối cảnh và bất phương trình
 
 ## Nếu bạn học chương trình Việt Nam
 
-Phần lớn SAT Math nằm trong chương trình lớp 8 đến lớp 10 của Việt Nam, nhưng trọng tâm thì khác.
+Nếu bạn đang học chương trình Việt Nam, bạn không bắt đầu từ con số không. Phần lớn SAT Math nằm trong chương trình lớp 8 đến lớp 10, nhưng trọng tâm thì khác. Bảng dưới đây cho thấy bạn đã biết gì, cần luyện thêm gì và có thể gặp gì mới.
 
 | Bạn đã biết | Bạn cần luyện thêm | Có thể còn mới |
 |---|---|---|
@@ -63,11 +63,11 @@ Phần lớn SAT Math nằm trong chương trình lớp 8 đến lớp 10 của 
 | Tỉ số lượng giác trong tam giác vuông, hình học đường tròn | Phương trình đường tròn $(x-h)^2+(y-k)^2=r^2$, radian, độ dài cung | Biên sai số, chọn mẫu ngẫu nhiên và kết luận rút ra được từ một nghiên cứu |
 | Số trung bình, trung vị, bảng tần số | Đọc biểu đồ phân tán, đường khớp nhất và bảng hai chiều | Các đơn vị như foot, mile, pound, gallon |
 
-Kí hiệu cũng khác. SAT viết số thập phân bằng dấu chấm ($2.5$ chứ không phải $2{,}5$), dùng dấu phẩy để tách hàng nghìn ($12{,}000$), và kí hiệu hệ số góc là $m$ trong $y=mx+b$.
+Kí hiệu cũng khác, và chỗ này nhiều bạn hay nhầm lúc đầu. SAT viết số thập phân bằng dấu chấm ($2.5$ chứ không phải $2{,}5$), dùng dấu phẩy để tách hàng nghìn ($12{,}000$), và kí hiệu hệ số góc là $m$ trong $y=mx+b$. Quen sớm thì khi làm đề bạn sẽ không bị vấp.
 
 ## Ba câu hỏi mẫu
 
-Các câu dưới đây do Lemonmath tự soạn theo kiểu câu hỏi của đề thi.
+Trước khi ôn, bạn nên thử sức với vài câu để làm quen. Ba câu dưới đây do Lemonmath tự soạn theo kiểu câu hỏi của đề thi, mỗi câu thuộc một mảng. Hãy tự làm trước, rồi mới đọc lời giải.
 
 :::example Algebra, trắc nghiệm
 Nếu $3x+7=22$ thì giá trị của $6x+5$ bằng bao nhiêu?
@@ -108,14 +108,16 @@ D. $85$
 | 9 | Điểm yếu | Các bộ câu trộn bấm giờ thuộc hai mảng yếu nhất. |
 | 10 | Luyện đề cuối | Một hoặc hai đề trọn vẹn; xem lại, ngủ đủ, không học chủ đề mới. |
 
-Trong suốt quá trình, hãy dùng các cách học trong bài [Ôn thi theo khoa học](lesson:evidence-based-revision): tự kiểm tra thay cho đọc lại, mỗi tuần quay lại chủ đề cũ, và ghi sổ lỗi sai.
+Kế hoạch chỉ hiệu quả khi cách học cũng đúng. Trong suốt quá trình, hãy dùng các cách học trong bài [Ôn thi theo khoa học](lesson:evidence-based-revision): tự kiểm tra thay cho đọc lại, mỗi tuần quay lại chủ đề cũ, và ghi sổ lỗi sai. Sổ lỗi sai cho bạn biết nên ôn gì tiếp.
 
 :::note Tài nguyên chính thức miễn phí
-College Board phát hành các đề luyện trọn vẹn ngay trong ứng dụng Bluebook, và Khan Academy có chương trình Official Digital SAT Prep miễn phí, xây dựng cùng College Board. Hãy dùng các nguồn đó để làm đề trọn vẹn; dùng bài học trên Lemonmath để học và luyện từng chủ đề. Lịch thi, lệ phí và cách đăng kí thay đổi theo năm, nên hãy xem trang của College Board trước khi đăng kí.
+Có hai nguồn chính thức miễn phí rất đáng dùng. College Board phát hành các đề luyện trọn vẹn ngay trong ứng dụng Bluebook, và Khan Academy có chương trình Official Digital SAT Prep miễn phí, xây dựng cùng College Board. Hãy dùng các nguồn đó để làm đề trọn vẹn, còn bài học trên Lemonmath dùng để học và luyện từng chủ đề. Lịch thi, lệ phí và cách đăng kí thay đổi theo năm, nên hãy xem trang của College Board trước khi đăng kí.
 :::
 
 ## Việc cần làm tiếp theo
 
-1. Cài Bluebook và làm đề luyện đầu tiên ngay trong tuần này, trước khi học bất cứ thứ gì.
+1. Cài Bluebook và làm đề luyện đầu tiên ngay trong tuần này, trước khi học bất cứ thứ gì. Kết quả cho bạn biết mình đang đứng ở đâu.
 2. Bắt đầu các bài Algebra và ghi sổ lỗi sai từ ngày đầu.
 3. Dành mười phút khám phá Desmos: vẽ một đường thẳng, một parabol và tìm giao điểm của chúng.
+
+Vậy SAT Math gồm những gì, và ôn thế nào? Bài thi có cấu trúc rõ ràng, và kế hoạch ôn cũng vậy. Điều cần nhớ là làm đề thật sớm, ghi lại lỗi sai và quay lại chủ đề cũ đều đặn mỗi tuần. Bắt đầu từ việc đầu tiên trong danh sách là đủ.

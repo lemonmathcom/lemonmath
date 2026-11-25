@@ -13,17 +13,17 @@ minutes: 20
 
 A box holds $12$ marbles of the same size: $5$ red, $4$ blue and $3$ yellow. Minh closes his eyes and takes out one marble. Is he likely or unlikely to get a red marble?
 
-We could say "quite likely" or "not very likely", but that is not precise. This lesson helps you measure that chance with a number. That number is called the probability.
+Saying "quite likely" or "not very likely" means different things to different people. A number would mean the same to everyone, and it would let us compare the chances of two different things. That number is called the probability. We begin with some very simple experiments.
 
 ## Let's explore
 
-We start with the simplest experiment: tossing a fair coin. There are two possible outcomes: heads (H) or tails (T). The coin is fair, so these two outcomes are equally likely.
+Let's start with the simplest experiment: tossing a fair coin. When it lands, there are only two possible outcomes: heads (H) or tails (T). The coin is fair, so neither side is favoured. We say the two outcomes are equally likely.
 
-Consider the event $A$: "The coin lands heads". Only $1$ outcome makes $A$ happen, out of $2$ outcomes in total. We say the chance of $A$ is $1$ out of $2$, that is $\dfrac12$.
+Take the event $A$: "The coin lands heads". Out of $2$ outcomes in total, only $1$ makes $A$ happen. So the chance of $A$ is $1$ out of $2$, that is $\dfrac12$.
 
-Now roll a fair die. There are $6$ possible outcomes: $1, 2, 3, 4, 5, 6$ dots, and they are equally likely. Consider the event $B$: "The score is even". The outcomes that make $B$ happen are $2, 4, 6$: there are $3$ of them.
+Now roll a fair die. There are $6$ possible outcomes: $1, 2, 3, 4, 5, 6$ dots, and because the die is fair they are equally likely. Take the event $B$: "The score is even". To find the outcomes that make $B$ happen, check each face: they are $2, 4, 6$, so there are $3$ of them.
 
-We record these cases in a table:
+We record these cases in a table, then look for a pattern:
 
 | Experiment | Number of possible outcomes | Event | Number of favourable outcomes | Chance |
 |---|---|---|---|---|
@@ -31,23 +31,23 @@ We record these cases in a table:
 | Roll a die | $6$ | Even score | $3$ | $\dfrac36=\dfrac12$ |
 | Roll a die | $6$ | A score of $6$ | $1$ | $\dfrac16$ |
 
-In all three rows, the chance equals the number of favourable outcomes divided by the number of possible outcomes. The outcomes are equally likely, so each one takes exactly the same share of the total. With $k$ favourable outcomes, the event takes $k$ shares out of $n$.
+What do you notice in all three rows? The chance equals the number of favourable outcomes divided by the number of possible outcomes. Why? The outcomes are equally likely, so each one takes exactly the same share of the total. With $k$ favourable outcomes, the event takes $k$ shares out of $n$. Let's give this pattern a name.
 
 :::definition The probability of an event
 Suppose an experiment has $n$ possible outcomes and these outcomes are equally likely. If $k$ of them are favourable to the event $A$, then the **probability of the event $A$** is
 $$P(A)=\dfrac{k}{n}.$$
 :::
 
-Here an "outcome favourable to $A$" is an outcome that makes $A$ happen. Back to the opening problem: the box has $12$ marbles, $5$ of them red. Each marble is equally likely to be taken, so the probability of getting a red marble is $\dfrac{5}{12}$.
+Here an "outcome favourable to $A$" simply means an outcome that makes $A$ happen. Now back to the question at the start: the box has $12$ marbles, $5$ of them red. Each marble is equally likely to be taken, so the probability of getting a red marble is $\dfrac{5}{12}$. So "likely or unlikely" has become a definite number.
 
 ## A probability always lies between 0 and 1
 
-The number of favourable outcomes $k$ cannot be negative and cannot be greater than the total number of outcomes $n$. So $0\le k\le n$. Dividing all three parts by $n$ (a positive number) gives $0\le\dfrac{k}{n}\le1$.
+Something worth noticing is that a probability never leaves a small, fixed range. Why? The number of favourable outcomes $k$ cannot be negative and cannot be greater than the total number of outcomes $n$. So $0\le k\le n$. Dividing all three parts by $n$ (a positive number) gives $0\le\dfrac{k}{n}\le1$.
 
-Two special cases to remember:
+At the two ends of that range there are two special cases to remember:
 
-- If $k=0$ then $P(A)=0$: no outcome makes $A$ happen, so $A$ is an impossible event.
-- If $k=n$ then $P(A)=1$: every outcome makes $A$ happen, so $A$ is a certain event.
+- If $k=0$ then $P(A)=0$: no outcome makes $A$ happen, so $A$ can never happen. It is an impossible event.
+- If $k=n$ then $P(A)=1$: every outcome makes $A$ happen, so $A$ is sure to happen. It is a certain event.
 
 :::theorem The value of a probability
 For every event $A$, $0\le P(A)\le1$. An impossible event has probability $0$. A certain event has probability $1$.
@@ -63,11 +63,11 @@ point: (0.5, 0) "1/2" below
 point: (1, 0) "1" below
 :::
 
-The closer a probability is to $1$, the more likely the event is. The closer it is to $0$, the less likely the event is.
+So you can read a probability as a measure: the closer it is to $1$, the more likely the event is, and the closer it is to $0$, the less likely it is.
 
 ## Examples
 
-We start with the marble problem from the beginning of the lesson.
+We start with the marble problem from the opening, which we can now answer.
 
 :::example Marbles in a box
 A box holds $12$ marbles of the same size: $5$ red, $4$ blue and $3$ yellow. One marble is taken at random. Find the probability of the event $A$: "A red marble is taken" and of the event $B$: "A blue marble is taken".
@@ -81,7 +81,7 @@ For $B$ we simplify by dividing the numerator and the denominator by $4$. So the
 **Check.** The three colours have $5+4+3=12$ marbles, which is exactly the total.
 :::
 
-With a die, you must first list the favourable outcomes correctly.
+With a die, the key step is to list the favourable outcomes correctly. One outcome too many or too few gives a wrong answer.
 
 :::example Rolling a die
 Roll a fair die. Find the probability of the event $C$: "The score is a prime number".
@@ -93,7 +93,7 @@ $$P(C)=\dfrac{3}{6}=\dfrac12.$$
 So the probability that the score is a prime number is $\dfrac12$.
 :::
 
-With more outcomes, you need to count carefully.
+With more outcomes it is easier to miss one, so count carefully and in order.
 
 :::example Drawing a card
 A bag holds $20$ cards numbered from $1$ to $20$. One card is drawn at random. Find the probability of the event $D$: "The number on the card is divisible by $4$".
@@ -107,7 +107,7 @@ So the probability of drawing a card with a number divisible by $4$ is $\dfrac14
 **Check.** One in every $4$ consecutive numbers is divisible by $4$, so a ratio of $\dfrac14$ makes sense.
 :::
 
-Sometimes an event is described with "not", and we still count each outcome.
+Sometimes an event is described with "not". The method stays the same: we still count the favourable outcomes one by one.
 
 :::example A lucky spinner
 A spinner is divided into $8$ equal parts: $3$ red, $2$ blue, $2$ yellow and $1$ white. The spinner is spun once and the arrow stops on one part. Find the probability of the event $E$: "The arrow stops on red" and of the event $G$: "The arrow does not stop on red".
@@ -121,7 +121,7 @@ So the probability of stopping on red is $\dfrac38$ and the probability of not s
 **Check.** The two probabilities add up to $\dfrac38+\dfrac58=1$, because the arrow either stops on red or it does not.
 :::
 
-Now look at the two special cases: probability $0$ and probability $1$.
+Now we return to the two special cases: probability $0$ and probability $1$. When do they happen in a real problem?
 
 :::example An impossible event and a certain event
 A box holds $4$ blue marbles and $3$ red marbles. One marble is taken at random. Find the probability of the event $H$: "A yellow marble is taken" and of the event $K$: "A blue or a red marble is taken".
@@ -133,7 +133,7 @@ $$P(H)=\dfrac{0}{7}=0,\qquad P(K)=\dfrac{7}{7}=1.$$
 So $H$ is an impossible event ($P=0$) and $K$ is a certain event ($P=1$).
 :::
 
-In the last example, you have to count the possible outcomes yourself.
+In the last example, the number of possible outcomes is not given. You have to count it yourself.
 
 :::example Two-digit numbers
 A two-digit natural number is chosen at random. Find the probability of the event $L$: "The chosen number is divisible by $10$".
@@ -146,9 +146,9 @@ So the probability of choosing a number divisible by $10$ is $\dfrac{1}{10}$.
 :::
 
 :::warning Common mistakes
-- **Writing the ratio upside down.** Wrong: $P(\text{red})=\dfrac{12}{5}$. Why it is wrong: a probability cannot be greater than $1$. Right: $\dfrac{5}{12}$, the number of favourable outcomes divided by the number of possible outcomes.
+- **Writing the ratio upside down.** Many people slip here. Wrong: $P(\text{red})=\dfrac{12}{5}$. Why it is wrong: a probability cannot be greater than $1$. Right: $\dfrac{5}{12}$, the number of favourable outcomes divided by the number of possible outcomes.
 - **Miscounting the favourable outcomes.** Wrong: the prime scores on a die are $1, 2, 3, 5$, so $P=\dfrac46$. Why it is wrong: $1$ is not a prime number. Right: $2, 3, 5$, so $P=\dfrac36=\dfrac12$.
-- **Treating every colour as equally likely.** Wrong: the box has $3$ colours, so each colour has probability $\dfrac13$. Why it is wrong: the colours have different numbers of marbles. Right: treat each marble as one outcome and count the marbles of that colour.
+- **Treating every colour as equally likely.** Wrong: the box has $3$ colours, so each colour has probability $\dfrac13$. Why it is wrong: the colours have different numbers of marbles, so their chances differ. Right: treat each marble as one outcome and count the marbles of that colour.
 :::
 
 ## Key terms
@@ -172,10 +172,11 @@ So the probability of choosing a number divisible by $10$ is $\dfrac{1}{10}$.
 - Method: count $n$, count $k$, then form the ratio and simplify.
 - Always $0\le P(A)\le1$. An impossible event has $P=0$; a certain event has $P=1$.
 - To use the formula, the outcomes must be equally likely. When choosing marbles, treat each marble as one outcome.
+Back to the opening question: the chance of a red marble is no longer just "likely" or "unlikely". It is a definite number, found by counting the possible outcomes, counting the favourable ones, and dividing. Try a few practice questions to get used to the counting.
 
 ## Practice
 
-Each exercise comes with what you need and hints. Try it yourself first, then open the solution.
+Each exercise comes with a reminder of what you need and hints for the steps. Try it yourself first. Correcting a mistake is part of learning. Then open the solution.
 
 :::exercise
 Roll a fair die.

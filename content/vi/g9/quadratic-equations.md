@@ -11,9 +11,9 @@ minutes: 20
 - Vận dụng phương trình bậc hai vào các bài toán thực tế.
 :::
 
-Phương trình bậc hai là một trong những bài toán lâu đời nhất của loài người. Trên các tấm đất sét của người Babylon, có tấm đã khoảng $4000$ năm tuổi, đã có những bài toán kiểu "tìm cạnh của hình chữ nhật khi biết diện tích và hiệu hai cạnh". Khoảng năm $830$, nhà toán học al-Khwarizmi ở Baghdad giải những phương trình như vậy bằng cách ghép hình để "đưa về hình vuông", và từ tên cuốn sách của ông (*Hisab al-jabr w'al-muqabala*) mà có chữ "algebra", tức đại số (theo MacTutor, Đại học St Andrews).
+Phương trình bậc hai là một trong những bài toán lâu đời nhất của loài người. Trên các tấm đất sét của người Babylon, có tấm đã khoảng $4000$ năm tuổi, đã có những bài toán kiểu "tìm cạnh của hình chữ nhật khi biết diện tích và hiệu hai cạnh". Khoảng năm $830$, nhà toán học al-Khwarizmi ở Baghdad giải những phương trình như vậy bằng cách ghép hình để "đưa về hình vuông". Tên cuốn sách của ông (*Hisab al-jabr w'al-muqabala*) còn để lại cho ta chữ "algebra", tức đại số (theo MacTutor, Đại học St Andrews).
 
-Bài toán của người xưa vẫn rất gần với ta. Giả sử nhà bạn có một mảnh vườn hình chữ nhật, chiều dài hơn chiều rộng $3$ m và diện tích là $40$ m². Chiều rộng của mảnh vườn là bao nhiêu? Gọi chiều rộng là $x$ (m), ta có $x(x+3)=40$, tức là $x^2+3x-40=0$. Thử từng số thì mất công, và không phải lúc nào nghiệm cũng là số nguyên. Bài này cho bạn một công thức giải được mọi phương trình như vậy.
+Bài toán của người xưa vẫn rất gần với ta. Giả sử nhà bạn có một mảnh vườn hình chữ nhật, chiều dài hơn chiều rộng $3$ m và diện tích là $40$ m². Chiều rộng của mảnh vườn là bao nhiêu? Gọi chiều rộng là $x$ (m), ta có $x(x+3)=40$, tức là $x^2+3x-40=0$. Thử từng số thì mất công, mà nghiệm cũng không phải lúc nào cũng là số nguyên. Vậy có cách nào giải được mọi phương trình như thế không? Đến cuối bài, bạn sẽ có một công thức làm được việc đó.
 
 ## Phương trình bậc hai một ẩn
 
@@ -23,7 +23,7 @@ $$ax^2+bx+c=0,$$
 trong đó $x$ là ẩn; $a$, $b$, $c$ là những số cho trước gọi là các **hệ số** và $a\neq0$.
 :::
 
-**Hiểu sâu hơn.** Điều kiện $a\neq0$ là cốt lõi: nếu $a=0$ thì phương trình trở thành $bx+c=0$, là phương trình bậc nhất mà bạn đã biết giải. Các hệ số $b$, $c$ thì có thể bằng $0$. Phương trình $x^3-2x=0$ (bậc ba) hay $\dfrac1x+x=2$ (ẩn ở mẫu) không phải là phương trình bậc hai, dù có thể biến đổi về những dạng quen thuộc.
+**Hiểu sâu hơn.** Điều kiện $a\neq0$ là điều cốt lõi. Nếu $a=0$ thì phương trình chỉ còn $bx+c=0$, tức là phương trình bậc nhất mà bạn đã biết giải. Còn $b$ và $c$ thì được phép bằng $0$. Hai phương trình $x^3-2x=0$ (bậc ba) và $\dfrac1x+x=2$ (ẩn ở mẫu) không phải phương trình bậc hai, dù ta có thể biến đổi chúng về những dạng quen thuộc.
 
 :::example Nhận biết phương trình bậc hai
 Phương trình nào sau đây là phương trình bậc hai một ẩn? Chỉ rõ các hệ số $a$, $b$, $c$ của nó.
@@ -51,7 +51,7 @@ Vậy các phương trình a), b), c) là phương trình bậc hai.
 
 ## Giải phương trình bậc hai dạng đặc biệt
 
-Khi $c=0$, ta đặt nhân tử chung $x$ để đưa về phương trình tích. Khi $b=0$, ta đưa về dạng $x^2=k$ rồi dùng căn bậc hai.
+Dễ nhất là những phương trình thiếu một số hạng. Khi $c=0$, cả hai số hạng còn lại đều có $x$, nên ta đặt nhân tử chung $x$ để đưa về phương trình tích. Khi $b=0$, ta đưa về dạng $x^2=k$ rồi dùng căn bậc hai.
 
 :::example Hai dạng đặc biệt
 Giải các phương trình sau:
@@ -71,7 +71,7 @@ c) Ta có $(x-2)^2=5\Leftrightarrow x-2=\sqrt5$ hoặc $x-2=-\sqrt5$, suy ra $x=
 Vậy a) $x=0$, $x=4$; b) $x=3$, $x=-3$; c) $x=2\pm\sqrt5$.
 :::
 
-Phương trình $x^2=k$ có bao nhiêu nghiệm? Đó chính là số giao điểm của parabol $y=x^2$ (bài [hàm số $y=ax^2$](lesson:function-y-equals-ax2)) với đường thẳng nằm ngang $y=k$: hai giao điểm khi $k>0$, một khi $k=0$, không có khi $k<0$.
+Phương trình $x^2=k$ có bao nhiêu nghiệm? Hình dưới giúp ta nhìn ra: số nghiệm chính là số giao điểm của parabol $y=x^2$ (bài [hàm số $y=ax^2$](lesson:function-y-equals-ax2)) với đường thẳng nằm ngang $y=k$. Có hai giao điểm khi $k>0$, một giao điểm khi $k=0$, và không có giao điểm nào khi $k<0$.
 
 :::graph Số nghiệm của $x^2=k$
 alt: Parabol y bằng x bình phương; đường thẳng y bằng 4 cắt parabol tại hai điểm (-2; 4) và (2; 4); đường thẳng nét đứt y bằng -1 không cắt parabol
@@ -89,11 +89,11 @@ label: (-2.4, 5) "y = 4"
 
 ### Khám phá: đưa về bình phương
 
-Câu c) gợi ý một ý tưởng: nếu viết được vế trái thành một bình phương thì ta giải được. Thử với $x^2-6x+5=0$. Vì $(x-3)^2=x^2-6x+9$, ta thêm $4$ vào hai vế:
+Câu c) gợi cho ta một ý: nếu viết được vế trái thành một bình phương thì ta giải được ngay. Phương trình nào cũng làm được như vậy không? Ta thử với $x^2-6x+5=0$. Vì $(x-3)^2=x^2-6x+9$, nên ta thêm $4$ vào hai vế:
 
 $$x^2-6x+5=0\Leftrightarrow x^2-6x+9=4\Leftrightarrow(x-3)^2=4\Leftrightarrow x-3=\pm2.$$
 
-Do đó $x=5$ hoặc $x=1$. Đây cũng chính là cách al-Khwarizmi "ghép thành hình vuông". Làm như vậy với các hệ số bất kì, ta được công thức nghiệm.
+Vậy $x=5$ hoặc $x=1$. Đây cũng là cách al-Khwarizmi từng "ghép thành hình vuông". Nếu ta làm đúng như thế với các hệ số bất kì, công thức nghiệm sẽ hiện ra.
 
 ## Công thức nghiệm
 
@@ -104,11 +104,11 @@ Xét phương trình $ax^2+bx+c=0$ ($a\neq0$) và **biệt thức** $\Delta=b^2-
 - Nếu $\Delta<0$ thì phương trình vô nghiệm.
 :::
 
-**Vì sao?** Chia hai vế cho $a$, rồi thêm bớt như ở phần khám phá, ta được
+**Vì sao?** Ta chia hai vế cho $a$, rồi thêm cùng một số vào hai vế như ở phần khám phá. Kết quả là:
 
 $$\left(x+\frac{b}{2a}\right)^2=\frac{b^2-4ac}{4a^2}=\frac{\Delta}{4a^2}.$$
 
-Vế phải có mẫu $4a^2>0$, nên dấu của nó là dấu của $\Delta$. Đây đúng là dạng $X^2=k$ ở trên: $\Delta>0$ cho hai nghiệm, $\Delta=0$ cho một nghiệm, $\Delta<0$ thì vô nghiệm (vì bình phương không âm). Chữ "biệt thức" nghĩa là biểu thức giúp *phân biệt* ba trường hợp.
+Vế phải có mẫu $4a^2>0$, nên dấu của cả vế phải chính là dấu của $\Delta$. Đây lại là dạng $X^2=k$ ta đã gặp ở trên. Nếu $\Delta>0$ thì có hai nghiệm, nếu $\Delta=0$ thì có một nghiệm, còn nếu $\Delta<0$ thì vô nghiệm, vì bình phương không bao giờ âm. Chữ "biệt thức" nghĩa là biểu thức giúp *phân biệt* ba trường hợp đó.
 
 :::example Ba trường hợp của $\Delta$
 Giải các phương trình sau:
@@ -131,10 +131,10 @@ Vậy a) $x=2$, $x=\dfrac12$; b) $x=\dfrac12$; c) vô nghiệm.
 :::
 
 :::note Khi $a$ và $c$ trái dấu
-Nếu $a$ và $c$ trái dấu thì $ac<0$, nên $\Delta=b^2-4ac>0$: phương trình luôn có hai nghiệm phân biệt. Ví dụ, $3x^2-5x-7=0$ có hai nghiệm phân biệt mà không cần tính $\Delta$.
+Nếu $a$ và $c$ trái dấu thì $ac<0$, nên $\Delta=b^2-4ac>0$. Vì thế phương trình luôn có hai nghiệm phân biệt. Ví dụ, $3x^2-5x-7=0$ có hai nghiệm phân biệt mà ta không cần tính $\Delta$.
 :::
 
-Bây giờ ta trả lời câu hỏi ở đầu bài, đi đủ bốn bước của việc giải một bài toán.
+Đến lúc quay lại mảnh vườn ở đầu bài. Ta sẽ đi đủ bốn bước của việc giải một bài toán: hiểu đề, tìm cách giải, giải, rồi nhìn lại.
 
 :::example Mảnh vườn ở đầu bài
 Một mảnh vườn hình chữ nhật có chiều dài hơn chiều rộng $3$ m và diện tích là $40$ m². Tính chiều rộng và chiều dài của mảnh vườn.
@@ -156,7 +156,7 @@ Vì $x>0$ nên $x=5$. Vậy mảnh vườn rộng $5$ m và dài $8$ m.
 
 ## Công thức nghiệm thu gọn
 
-Khi $b$ là số chẵn, đặt $b=2b'$. Khi đó $\Delta=4b'^2-4ac=4(b'^2-ac)$, và các phân số trong công thức nghiệm rút gọn được cho $2$.
+Khi $b$ là số chẵn, ta đặt $b=2b'$ để phép tính nhẹ đi. Khi đó $\Delta=4b'^2-4ac=4(b'^2-ac)$, và các phân số trong công thức nghiệm rút gọn được cho $2$.
 
 :::theorem Công thức nghiệm thu gọn
 Xét phương trình $ax^2+bx+c=0$ ($a\neq0$) với $b=2b'$ và $\Delta'=b'^2-ac$.
@@ -180,16 +180,17 @@ Vậy a) $x=2$, $x=\dfrac23$; b) $x=-3+\sqrt5$, $x=-3-\sqrt5$.
 :::
 
 :::tip Kiểm tra bằng máy tính cầm tay
-Máy tính cầm tay có chế độ giải phương trình bậc hai: nhập $a$, $b$, $c$ là máy cho nghiệm. Hãy dùng nó để **kiểm tra**, còn trong bài làm vẫn trình bày $\Delta$ (hoặc $\Delta'$) và công thức nghiệm.
+Máy tính cầm tay có chế độ giải phương trình bậc hai: bạn nhập $a$, $b$, $c$ thì máy cho nghiệm. Hãy dùng máy để **kiểm tra** đáp số của mình. Trong bài làm, bạn vẫn trình bày $\Delta$ (hoặc $\Delta'$) và công thức nghiệm, vì chính những bước đó cho thấy bạn hiểu cách giải.
 :::
 
 :::warning Những sai lầm thường gặp
-- **Sai dấu của $b$.** Sai: với $2x^2-5x+2=0$, viết $x=\dfrac{-5\pm3}{4}$. Lí do sai: $-b=-(-5)=5$. Đúng: $x=\dfrac{5\pm3}{4}$.
+- **Sai dấu của $b$.** Sai: với $2x^2-5x+2=0$, viết $x=\dfrac{-5\pm3}{4}$. Vì sao sai? Vì $-b=-(-5)=5$. Đúng: $x=\dfrac{5\pm3}{4}$.
 - **Sai dấu khi tính $\Delta$ với $c<0$.** Sai: $x^2+3x-40=0$ có $\Delta=9-160$. Đúng: $\Delta=9-4\cdot1\cdot(-40)=9+160=169$.
-- **Chia hai vế cho $x$.** Sai: "$3x^2=12x\Rightarrow3x=12\Rightarrow x=4$". Lí do sai: chia cho $x$ làm mất nghiệm $x=0$. Đúng: $3x(x-4)=0$, nên $x=0$ hoặc $x=4$.
+- **Chia hai vế cho $x$.** Sai: "$3x^2=12x\Rightarrow3x=12\Rightarrow x=4$". Vì sao sai? Vì chia cho $x$ làm mất nghiệm $x=0$. Đúng: $3x(x-4)=0$, nên $x=0$ hoặc $x=4$.
+Đây là ba chỗ nhiều bạn hay nhầm. Cẩn thận với dấu là cách tốt nhất để tránh chúng.
 :::
 
-**Kết nối.** Phương trình bậc hai nối liền nhiều điều bạn đã học: hằng đẳng thức (để đưa về bình phương), căn bậc hai (để lấy nghiệm), phương trình tích (khi $c=0$) và parabol $y=x^2$ (để "nhìn thấy" số nghiệm). Tiếp theo, [định lí Viète](lesson:vietes-theorem) cho biết tổng và tích hai nghiệm mà không cần giải, và bài [giải bài toán bằng cách lập phương trình](lesson:g9-equation-word-problems) dùng công thức nghiệm cho nhiều tình huống thực tế.
+**Kết nối.** Phương trình bậc hai gom lại nhiều điều bạn đã học: hằng đẳng thức giúp đưa về bình phương, căn bậc hai giúp lấy nghiệm, phương trình tích dùng khi $c=0$, và parabol $y=x^2$ giúp ta "nhìn thấy" số nghiệm. Bài [định lí Viète](lesson:vietes-theorem) sẽ cho biết tổng và tích hai nghiệm mà không cần giải. Bài [giải bài toán bằng cách lập phương trình](lesson:g9-equation-word-problems) dùng công thức nghiệm cho nhiều tình huống thực tế.
 
 ## Thuật ngữ
 
@@ -213,10 +214,11 @@ Máy tính cầm tay có chế độ giải phương trình bậc hai: nhập $a
 - $b=2b'$: $\Delta'=b'^2-ac$, $x_{1,2}=\dfrac{-b'\pm\sqrt{\Delta'}}{a}$.
 - $a$, $c$ trái dấu thì luôn có hai nghiệm phân biệt.
 - Bài toán thực tế: đối chiếu nghiệm với điều kiện của ẩn.
+Vậy mảnh vườn ở đầu bài giải được bằng đúng ba việc: lập phương trình, tính $\Delta$, rồi chọn nghiệm hợp với bài toán. Điều đáng nhớ nhất là $\Delta$ cho ta biết trước phương trình có mấy nghiệm. Bạn hãy luyện thêm vài bài để quen tay.
 
 ## Luyện tập
 
-Mỗi bài có phần kiến thức và gợi ý các bước. Hãy tự làm trước, rồi mới bấm xem lời giải.
+Mỗi bài có phần kiến thức cần nhớ và vài gợi ý để bắt đầu. Bạn hãy tự làm trước, vướng thì xem gợi ý, rồi mới bấm xem lời giải. Sai một lần cũng không sao, vì chỗ sai thường dạy ta nhiều nhất.
 
 :::exercise
 Giải các phương trình sau:

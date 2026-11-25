@@ -10,21 +10,21 @@ minutes: 20
 - Nhận biết hệ hai phương trình bậc nhất hai ẩn và kiểm tra nghiệm của hệ.
 :::
 
-Bạn Lan có $60$ nghìn đồng để mua đồ dùng học tập. Mỗi chiếc bút giá $5$ nghìn đồng, mỗi quyển vở giá $8$ nghìn đồng, và Lan muốn tiêu vừa hết số tiền. Lan có thể mua bao nhiêu bút, bao nhiêu vở? Nếu Lan muốn mua đúng $9$ món đồ thì sao?
+Bạn Lan có $60$ nghìn đồng để mua đồ dùng học tập. Mỗi chiếc bút giá $5$ nghìn đồng, mỗi quyển vở giá $8$ nghìn đồng, và Lan muốn tiêu vừa hết số tiền, không thừa đồng nào. Lan có thể mua bao nhiêu bút, bao nhiêu vở? Nếu Lan còn muốn mua đúng $9$ món đồ thì sao?
 
-Bài toán có hai số chưa biết: số bút và số vở. Ta cần một loại phương trình mới, có **hai ẩn**.
+Trong bài toán có hai số mà ta chưa biết: số bút và số vở. Phương trình một ẩn quen thuộc không đủ chỗ cho cả hai số cùng lúc. Ta cần một loại phương trình mới, có **hai ẩn**, để viết được điều kiện "vừa hết tiền" của Lan.
 
 ## Phương trình bậc nhất hai ẩn
 
 ### Khám phá: những cách mua vừa hết tiền
 
-Gọi $x$ là số bút, $y$ là số vở. Tổng số tiền là $5x+8y$ (nghìn đồng), nên điều kiện "vừa hết tiền" là $5x+8y=60$. Ta thử vài giá trị của $x$ và tính $y=\dfrac{60-5x}{8}$:
+Gọi $x$ là số bút, $y$ là số vở. Số tiền phải trả là $5x+8y$ (nghìn đồng), nên điều kiện "vừa hết tiền" được viết là $5x+8y=60$. Để xem có những cách mua nào, ta thử vài giá trị của $x$ rồi tính $y=\dfrac{60-5x}{8}$:
 
 | $x$ | $0$ | $4$ | $8$ | $12$ |
 |---|---|---|---|---|
 | $y$ | $7{,}5$ | $5$ | $2{,}5$ | $0$ |
 
-Mỗi giá trị của $x$ cho một giá trị của $y$, nên có rất nhiều cặp số thoả mãn. Nhưng số bút, số vở phải là số tự nhiên, nên chỉ có hai cách mua: $4$ bút và $5$ vở, hoặc $12$ bút.
+Nhìn bảng: mỗi giá trị của $x$ cho đúng một giá trị của $y$, nên có rất nhiều cặp số thoả mãn phương trình. Nhưng bút và vở phải mua nguyên chiếc, tức là số bút và số vở phải là số tự nhiên. Vì vậy chỉ còn hai cách mua: $4$ bút và $5$ vở, hoặc $12$ bút. Loại phương trình này có tên riêng, ghi trong khung dưới đây.
 
 :::definition Phương trình bậc nhất hai ẩn
 **Phương trình bậc nhất hai ẩn** $x$ và $y$ là hệ thức dạng
@@ -46,10 +46,11 @@ Vậy $(1; -1)$ và $(-2; -3)$ là nghiệm, còn $(3; 2)$ không phải là ngh
 
 ## Biểu diễn tập nghiệm bằng đường thẳng
 
-Phương trình bậc nhất hai ẩn luôn có vô số nghiệm. Mỗi nghiệm $(x_0; y_0)$ là một điểm trong mặt phẳng toạ độ, và tất cả các điểm đó nằm trên một đường thẳng.
+Phương trình bậc nhất hai ẩn luôn có vô số nghiệm, nhiều đến mức không thể liệt kê hết. Mỗi nghiệm $(x_0; y_0)$ là toạ độ của một điểm trong mặt phẳng toạ độ, và tất cả các điểm ấy cùng nằm trên một đường thẳng. Vẽ được đường thẳng đó là ta thấy được tất cả các nghiệm trong một lần.
 
-- Nếu $b\neq 0$: ta viết $y=-\dfrac{a}{b}x+\dfrac{c}{b}$. Đây là đồ thị của hàm số bậc nhất (hoặc hàm hằng khi $a=0$) mà bạn đã học ở lớp 8.
+- Nếu $b\neq 0$: ta rút $y$ và viết $y=-\dfrac{a}{b}x+\dfrac{c}{b}$. Đây chính là đồ thị của hàm số bậc nhất (hoặc hàm hằng khi $a=0$) mà bạn đã học ở lớp 8.
 - Nếu $b=0$ (khi đó $a\neq0$): phương trình trở thành $x=\dfrac{c}{a}$, là một đường thẳng song song với trục tung (hoặc trùng với trục tung khi $c=0$).
+Dù trường hợp nào, tập nghiệm cũng là một đường thẳng. Muốn vẽ, ta chỉ cần tìm hai điểm thuộc đường thẳng ấy.
 
 :::example Vẽ đường thẳng biểu diễn tập nghiệm
 Biểu diễn tập nghiệm của mỗi phương trình trên cùng một mặt phẳng toạ độ: a) $x+2y=4$; b) $0x+y=3$; c) $2x+0y=-2$.
@@ -76,7 +77,7 @@ label: (-1.9, -1.4) "x = −1"
 
 ## Hệ hai phương trình bậc nhất hai ẩn
 
-Quay lại bài toán của Lan. Nếu Lan muốn mua đúng $9$ món đồ thì $x$ và $y$ phải thoả mãn **cùng lúc** hai phương trình: $5x+8y=60$ và $x+y=9$.
+Quay lại bài toán của Lan, câu hỏi thứ hai. Nếu Lan muốn mua đúng $9$ món đồ thì ngoài điều kiện về tiền, $x$ và $y$ còn phải có tổng bằng số món đồ. Tức là $x$ và $y$ phải thoả mãn **cùng lúc** hai phương trình: $5x+8y=60$ và $x+y=9$. Hai phương trình đi cùng nhau như thế gọi là một hệ, được định nghĩa dưới đây.
 
 :::definition Hệ hai phương trình bậc nhất hai ẩn
 **Hệ hai phương trình bậc nhất hai ẩn** có dạng
@@ -84,7 +85,7 @@ $$\begin{cases} ax+by=c\\ a'x+b'y=c' \end{cases}$$
 trong đó mỗi phương trình là một phương trình bậc nhất hai ẩn. Cặp số $(x_0; y_0)$ là **nghiệm của hệ** nếu nó là nghiệm của **cả hai** phương trình.
 :::
 
-Về hình học, nghiệm của hệ là toạ độ giao điểm của hai đường thẳng biểu diễn hai phương trình.
+Mỗi phương trình của hệ là một đường thẳng, nên một cặp số thoả mãn cả hai phương trình chính là một điểm nằm trên cả hai đường thẳng. Nói theo hình học, nghiệm của hệ là toạ độ giao điểm của hai đường thẳng biểu diễn hai phương trình.
 
 :::example Nghiệm của hệ
 Cặp số nào trong hai cặp $(2; 1)$ và $(3; -1)$ là nghiệm của hệ $\begin{cases} x+y=3\\ 2x-y=3 \end{cases}$?
@@ -96,7 +97,7 @@ $$\begin{aligned} (2; 1):&\quad 2+1=3,\quad 2\cdot2-1=3;\\ (3; -1):&\quad 3+(-1)
 Vậy $(2; 1)$ là nghiệm của hệ; $(3; -1)$ không phải là nghiệm vì không thoả mãn phương trình thứ nhất.
 :::
 
-Bây giờ ta trả lời câu hỏi thứ hai ở đầu bài.
+Bây giờ ta dùng hệ để trả lời câu hỏi thứ hai ở đầu bài: Lan có thể mua thế nào để vừa hết tiền và đúng số món đồ?
 
 :::example Lập hệ từ bài toán mua đồ
 Lan muốn tiêu vừa hết $60$ nghìn đồng và mua đúng $9$ món đồ. Lập hệ phương trình và chứng tỏ $(4; 5)$ là nghiệm của hệ.
@@ -109,9 +110,9 @@ Vậy Lan mua $4$ bút và $5$ vở. Bài sau sẽ chỉ cách tìm nghiệm nà
 :::
 
 :::warning Những sai lầm thường gặp
-- **Đảo thứ tự trong cặp số.** Sai: "$(5; 4)$ là cách mua $4$ bút, $5$ vở". Lí do sai: số đứng trước là $x$ (số bút). Đúng: cách mua đó là $(4; 5)$.
+- **Đảo thứ tự trong cặp số.** Sai: "$(5; 4)$ là cách mua $4$ bút, $5$ vở". Lí do sai: số đứng trước là $x$, tức là số bút. Đúng: cách mua đó là $(4; 5)$.
 - **Chỉ kiểm tra một phương trình của hệ.** Sai: "$(3; -1)$ thoả mãn $2x-y=7$ nên là nghiệm của hệ $x+y=3$, $2x-y=7$". Lí do sai: $3+(-1)=2\neq3$. Đúng: phải thoả mãn **cả hai** phương trình.
-- **Cho rằng $0x+3y=6$ không phải phương trình bậc nhất hai ẩn.** Lí do sai: chỉ cần $a$ hoặc $b$ khác $0$. Đúng: đây là phương trình bậc nhất hai ẩn, tập nghiệm là đường thẳng $y=2$.
+- **Cho rằng $0x+3y=6$ không phải phương trình bậc nhất hai ẩn.** Lí do sai: chỉ cần $a$ hoặc $b$ khác $0$. Đúng: đây vẫn là phương trình bậc nhất hai ẩn, tập nghiệm là đường thẳng $y=2$.
 :::
 
 ## Thuật ngữ
@@ -133,10 +134,11 @@ Vậy Lan mua $4$ bút và $5$ vở. Bài sau sẽ chỉ cách tìm nghiệm nà
 - $(x_0; y_0)$ là nghiệm khi $ax_0+by_0=c$; phương trình có vô số nghiệm.
 - Tập nghiệm là một đường thẳng: $y=-\dfrac{a}{b}x+\dfrac{c}{b}$ nếu $b\neq0$; $x=\dfrac{c}{a}$ nếu $b=0$.
 - Nghiệm của hệ hai phương trình là cặp số thoả mãn **cả hai** phương trình, tức là giao điểm của hai đường thẳng.
+Quay lại câu hỏi của Lan: mỗi cách mua vừa hết tiền là một nghiệm của một phương trình hai ẩn, còn khi thêm điều kiện về số món đồ thì ta cần nghiệm của cả hệ. Điều đáng nhớ là nghiệm của hệ phải thoả mãn cả hai phương trình. Bạn làm phần luyện tập để quen tay nhé.
 
 ## Luyện tập
 
-Mỗi bài có phần kiến thức và gợi ý các bước. Hãy tự làm trước, rồi mới bấm xem lời giải.
+Mỗi bài có phần kiến thức cần dùng và vài bước gợi ý để bạn bắt đầu. Bạn cứ tự làm trước, vướng ở đâu thì xem gợi ý, rồi mới mở lời giải để đối chiếu. Sai một lần cũng không sao, vì chỗ sai thường chính là chỗ giúp ta nhớ lâu.
 
 :::exercise
 Trong các phương trình sau, phương trình nào là phương trình bậc nhất hai ẩn?

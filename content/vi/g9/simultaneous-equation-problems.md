@@ -10,17 +10,17 @@ minutes: 20
 - Giải các bài toán về số, chuyển động, phần trăm và pha trộn dung dịch.
 :::
 
-Một trang trại nuôi gà và bò, tổng cộng $50$ con. Bạn Nam đếm được tất cả $140$ cái chân. Trang trại có bao nhiêu con gà, bao nhiêu con bò?
+Một trang trại nuôi gà và bò, tổng cộng $50$ con. Bạn Nam đếm được tất cả $140$ cái chân. Chỉ từ hai con số ấy, ta có biết được trang trại có bao nhiêu con gà, bao nhiêu con bò không?
 
-Bài toán có hai số chưa biết và hai điều kiện. Đó là dấu hiệu để lập một hệ hai phương trình.
+Bài toán này có hai số chưa biết là số gà và số bò, cùng hai điều kiện là tổng số con và tổng số chân. Hai ẩn, hai điều kiện: đó là dấu hiệu cho thấy ta nên lập một hệ hai phương trình. Biết cách làm này, bạn giải được cả những bài mà đoán mò khó ra.
 
 ## Ba bước giải bài toán
 
 ### Khám phá: thử giả sử
 
-Giả sử cả $50$ con đều là gà, thì có $50\cdot2=100$ chân, thiếu $140-100=40$ chân. Mỗi lần đổi một con gà thành một con bò, số chân tăng $2$. Vậy cần đổi $40:2=20$ con, tức là có $20$ con bò và $30$ con gà.
+Trước hết ta thử bằng cách giả sử. Nếu cả $50$ con đều là gà thì có $50\cdot2=100$ chân, mà thực tế nhiều hơn, nên còn thiếu $140-100=40$ chân. Mỗi lần đổi một con gà thành một con bò, số chân tăng $2$, vì bò nhiều hơn gà hai chân. Vậy cần đổi $40:2=20$ con, tức là có $20$ con bò và $30$ con gà.
 
-Cách giả sử rất khéo nhưng khó nghĩ ra với bài phức tạp. Lập hệ phương trình là cách làm chung cho mọi bài.
+Cách giả sử rất khéo, nhưng với bài phức tạp hơn thì khó nghĩ ra lắm. Vì thế ta cần một cách làm chung, dùng được cho mọi bài: lập hệ phương trình. Cách này đi theo ba bước, ghi trong khung dưới đây.
 
 :::definition Các bước giải bài toán bằng cách lập hệ phương trình
 1. **Lập hệ phương trình:** chọn hai ẩn và đặt điều kiện cho ẩn; biểu diễn các đại lượng chưa biết theo ẩn; lập hai phương trình từ hai điều kiện của đề.
@@ -51,7 +51,7 @@ label: (58, 9) "2x + 4y = 140"
 
 ## Bài toán về số và bài toán chuyển động
 
-Trong bài toán về chữ số, số có hai chữ số với chữ số hàng chục $a$ và hàng đơn vị $b$ được viết là $\overline{ab}=10a+b$.
+Trong bài toán về chữ số, ta cần viết số qua các chữ số của nó. Số có hai chữ số, với chữ số hàng chục $a$ và chữ số hàng đơn vị $b$, được viết là $\overline{ab}=10a+b$. Hàng chục có giá trị gấp mười lần hàng đơn vị, nên chữ số hàng chục được nhân với mười.
 
 :::example Đổi chỗ hai chữ số
 Một số có hai chữ số, tổng hai chữ số bằng $11$. Nếu đổi chỗ hai chữ số thì được số mới lớn hơn số cũ $27$ đơn vị. Tìm số đó.
@@ -65,7 +65,7 @@ Vậy số cần tìm là $47$.
 **Kiểm tra.** $74-47=27$.
 :::
 
-Bài toán chuyển động trên sông nhiều dữ kiện hơn, nên ta làm theo bốn bước.
+Bài toán chuyển động trên sông có nhiều dữ kiện hơn, nên ta đi chậm lại một chút và làm theo bốn bước: hiểu đề, tìm cách giải, giải, rồi nhìn lại. Điều cần nhớ ở loại bài này là dòng nước lúc giúp, lúc cản ca nô.
 
 :::example Ca nô xuôi dòng, ngược dòng
 Một ca nô đi xuôi dòng $48$ km mất $2$ giờ, đi ngược dòng $48$ km mất $3$ giờ. Tìm vận tốc của ca nô khi nước yên lặng và vận tốc của dòng nước.
@@ -85,7 +85,7 @@ $$\begin{cases} x+y=24\\ x-y=16 \end{cases}\Rightarrow 2x=40,\ x=20,\ y=4.$$
 
 ## Bài toán về phần trăm
 
-Khi một đại lượng $x$ tăng $15\%$, phần tăng thêm là $0{,}15x$ và giá trị mới là $1{,}15x$ (không phải $x+15$).
+Bài toán phần trăm hay bị nhầm ở chỗ này. Khi một đại lượng $x$ tăng $15\%$, phần tăng thêm là một phần của chính đại lượng ấy, cụ thể là $0{,}15x$. Giá trị mới là $1{,}15x$, chứ không phải $x+15$.
 
 :::example Hai tổ sản xuất
 Tháng trước, hai tổ sản xuất làm được $800$ sản phẩm. Tháng này, so với tháng trước, tổ I làm vượt mức $15\%$, tổ II làm vượt mức $20\%$, nên cả hai tổ làm được $945$ sản phẩm. Tháng trước mỗi tổ làm được bao nhiêu sản phẩm?
@@ -100,7 +100,7 @@ Vậy tháng trước tổ I làm $300$ sản phẩm, tổ II làm $500$ sản p
 :::
 
 :::warning Những sai lầm thường gặp
-- **Không đặt điều kiện cho ẩn.** Số con vật, số người phải là số tự nhiên; vận tốc phải dương. Nếu giải ra $y=-3$ hay $x=12{,}5$ con gà thì phải xem lại cách lập hệ.
+- **Không đặt điều kiện cho ẩn.** Số con vật và số người phải là số tự nhiên, vận tốc phải dương. Nếu giải ra $y=-3$, hay $x=12{,}5$ con gà, thì ta nên xem lại cách lập hệ.
 - **Hiểu sai phần trăm.** Sai: "tăng $15\%$" thành $x+15$. Lí do sai: $15\%$ là $15\%$ **của $x$**. Đúng: $x+0{,}15x=1{,}15x$.
 - **Lẫn đơn vị.** Sai: đi $12$ km/h trong $30$ phút được $12\cdot30=360$ km. Lí do sai: vận tốc tính theo giờ. Đúng: $30$ phút $=0{,}5$ giờ, được $6$ km.
 :::
@@ -124,10 +124,11 @@ Vậy tháng trước tổ I làm $300$ sản phẩm, tổ II làm $500$ sản p
 - Bước 2: giải hệ (phương pháp thế hoặc cộng đại số).
 - Bước 3: đối chiếu điều kiện rồi trả lời, có đơn vị.
 - Số $\overline{ab}=10a+b$; xuôi dòng $x+y$, ngược dòng $x-y$; tăng $p\%$ thì nhân với $1+\dfrac{p}{100}$.
+Quay lại câu hỏi về trang trại: hai ẩn, hai điều kiện, lập hệ rồi giải là ra số gà và số bò. Điều cần nhớ là luôn đặt điều kiện cho ẩn và kiểm tra lại ở cuối. Bạn thử sức với phần luyện tập nhé.
 
 ## Luyện tập
 
-Mỗi bài có phần kiến thức và gợi ý các bước. Hãy tự làm trước, rồi mới bấm xem lời giải.
+Mỗi bài có phần kiến thức cần dùng và vài bước gợi ý để bạn bắt đầu. Bạn cứ tự làm trước, vướng ở đâu thì xem gợi ý, rồi mới mở lời giải để đối chiếu. Sai một lần cũng không sao, vì chỗ sai thường chính là chỗ giúp ta nhớ lâu.
 
 :::exercise
 Vừa gà vừa thỏ có $36$ con, đếm được $100$ chân. Hỏi có bao nhiêu con gà, bao nhiêu con thỏ?

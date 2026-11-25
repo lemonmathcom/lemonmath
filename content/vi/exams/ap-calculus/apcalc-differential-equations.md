@@ -12,11 +12,11 @@ minutes: 45
 - (BC) Xấp xỉ nghiệm bằng phương pháp Euler và phân tích tăng trưởng logistic.
 :::
 
-Unit 7 gần như năm nào cũng có trong phần tự luận, thường là trọn một câu: vẽ trường hướng tại vài điểm, tìm xấp xỉ bằng tiếp tuyến, rồi giải phương trình bằng cách tách biến. Phần tách biến đáng nhiều điểm và được chấm rất chặt từng bước. Tin vui là các bước lúc nào cũng giống nhau.
+Có những đại lượng mà ta không biết công thức của chúng, chỉ biết chúng đang thay đổi nhanh hay chậm. Từ đó, ta có tìm lại được chính đại lượng ấy không? Phương trình vi phân trả lời đúng câu hỏi này. Unit 7 gần như năm nào cũng có trong phần tự luận, thường là trọn một câu: vẽ trường hướng tại vài điểm, tìm xấp xỉ bằng tiếp tuyến, rồi giải phương trình bằng cách tách biến. Phần tách biến được nhiều điểm và chấm rất chặt từng bước. Tin vui là các bước lúc nào cũng giống nhau, nên học kĩ một lần là dùng được nhiều lần.
 
 ## Nghiệm và trường hướng
 
-**Phương trình vi phân** liên hệ một hàm chưa biết với các đạo hàm của nó. Một hàm số là **nghiệm** nếu thay vào thì phương trình đúng. **Trường hướng** vẽ tại mỗi điểm $(x,y)$ một đoạn thẳng ngắn có hệ số góc $\dfrac{dy}{dx}$ cho bởi phương trình; các đường cong nghiệm đi theo hướng của những đoạn này.
+Ta bắt đầu với vài cái tên. **Phương trình vi phân** là một phương trình nói về một hàm số chưa biết, thông qua các đạo hàm của nó. Thử thay một hàm số vào phương trình: nếu hai vế bằng nhau thì hàm số đó là một **nghiệm**. Vậy làm sao nhìn được các nghiệm mà chưa cần giải? **Trường hướng** làm được việc đó. Tại mỗi điểm $(x,y)$, phương trình cho biết hệ số góc $\dfrac{dy}{dx}$, và ta vẽ một đoạn thẳng ngắn có đúng hệ số góc đó. Một đường cong nghiệm cứ thế đi theo hướng của những đoạn nó đi qua.
 
 :::example Kiểm tra nghiệm
 Hàm số nào thoả mãn $\dfrac{dy}{dx}=2y$?
@@ -77,12 +77,13 @@ c) $\dfrac{d^2y}{dx^2}=1-\dfrac{dy}{dx}=1-(x-y)=1-x+y$. Đường cong lõm lên
 ## Tách biến
 
 :::note Các bước người chấm kiểm tra
-1. **Tách biến:** mọi $y$ một vế cùng $dy$, mọi $x$ vế kia cùng $dx$.
-2. **Lấy tích phân hai vế**, có hằng số $C$.
-3. **Dùng điều kiện ban đầu** để tìm $C$ ngay.
-4. **Rút $y$ ra.**
+1. **Tách biến:** gom mọi $y$ về một vế cùng với $dy$, mọi $x$ về vế kia cùng với $dx$.
+2. **Lấy tích phân hai vế**, và nhớ viết hằng số $C$.
+3. **Dùng điều kiện ban đầu** để tìm $C$ ngay lúc này, đừng để đến cuối.
+4. **Rút $y$ ra.** Làm bước này khi đã biết $C$.
+Người chấm đọc bài của bạn theo đúng thứ tự này, nên bạn cũng cứ viết theo thứ tự ấy.
 
-Thiếu hằng số tích phân thường làm cả câu bị chặn điểm, nên hãy viết $+C$ ngay khi lấy tích phân.
+Chỗ này nhiều bạn hay quên: hằng số tích phân. Thiếu nó, cả câu thường bị chặn điểm, dù các bước sau có đúng đến đâu. Vì vậy hãy viết $+C$ ngay khi lấy tích phân, đừng định bụng thêm sau.
 :::
 
 :::example Một phương trình tách biến kinh điển
@@ -99,7 +100,7 @@ Giải $\dfrac{dy}{dx}=\dfrac{2x}{y}$ với $y(0)=-2$.
 
 ## Tăng trưởng và suy giảm theo hàm mũ
 
-Nếu một đại lượng thay đổi với tốc độ tỉ lệ với chính nó, $\dfrac{dy}{dt}=ky$, thì $y=y_0e^{kt}$. Tăng trưởng khi $k>0$, suy giảm khi $k<0$.
+Có những đại lượng càng nhiều thì càng tăng nhanh, như vi khuẩn sinh sôi. Có những đại lượng càng nhiều thì càng giảm nhanh, như chất phóng xạ phân rã. Khi tốc độ thay đổi tỉ lệ với chính đại lượng đó, ta viết $\dfrac{dy}{dt}=ky$, và nghiệm là $y=y_0e^{kt}$. Tăng trưởng khi $k>0$, suy giảm khi $k<0$, nên dấu của hằng số tỉ lệ cho biết chiều thay đổi.
 
 :::example Thời gian nhân đôi
 Một quần thể vi khuẩn tăng với tốc độ tỉ lệ với số lượng của nó. Lúc $t=0$ có $500$ vi khuẩn và lúc $t=3$ giờ có $1000$. Tìm số vi khuẩn lúc $t=6$ và hằng số $k$.
@@ -109,7 +110,7 @@ Một quần thể vi khuẩn tăng với tốc độ tỉ lệ với số lư�
 
 ## Phương pháp Euler và tăng trưởng logistic (BC)
 
-**Phương pháp Euler** đi theo trường hướng bằng các bước thẳng có độ dài $h$: $y_{\text{mới}}=y_{\text{cũ}}+h\cdot\dfrac{dy}{dx}\Big|_{(x_{\text{cũ}},\,y_{\text{cũ}})}$.
+Không phải phương trình nào cũng giải được bằng một công thức gọn. Khi đó ta vẫn có thể đi theo trường hướng từng đoạn nhỏ, như người đi bộ nhìn biển chỉ đường ở chỗ mình đứng rồi mới bước tiếp. **Phương pháp Euler** làm đúng như vậy: đi các bước thẳng có độ dài $h$, mỗi bước theo hệ số góc tại điểm đang đứng. Công thức là $y_{\text{mới}}=y_{\text{cũ}}+h\cdot\dfrac{dy}{dx}\Big|_{(x_{\text{cũ}},\,y_{\text{cũ}})}$.
 
 :::example Hai bước Euler
 Với $\dfrac{dy}{dx}=x+y$ và $y(0)=1$, dùng phương pháp Euler với hai bước độ dài $0{,}5$ để xấp xỉ $y(1)$.
@@ -124,10 +125,11 @@ Một quần thể thoả mãn $\dfrac{dP}{dt}=0{,}2P\left(1-\dfrac{P}{1000}\rig
 :::
 
 :::warning Những cái bẫy thường gặp
-- **Không có hằng số, hoặc thêm hằng số quá muộn.** Viết $+C$ khi lấy tích phân và tìm nó trước khi rút $y$.
-- **Chọn sai nhánh.** Sau khi có $y^2=\dots$, điều kiện ban đầu quyết định dấu của căn.
-- **Chia cho không.** Tách biến $\dfrac{dy}{dx}=xy$ phải chia cho $y$; nghiệm hằng $y=0$ bị mất, điều này không sao khi $y(0)\ne0$.
-- **Tập xác định.** Nghiệm $y=\dfrac{1}{1-x}$ đi qua $(0,1)$ chỉ tồn tại khi $x<1$.
+- **Không có hằng số, hoặc thêm hằng số quá muộn.** Hãy viết $+C$ ngay khi lấy tích phân, và tìm nó trước khi rút $y$.
+- **Chọn sai nhánh.** Khi đã có $y^2=\dots$, đừng vội lấy căn dương: điều kiện ban đầu mới quyết định dấu của căn.
+- **Chia cho không.** Để tách biến $\dfrac{dy}{dx}=xy$, ta phải chia cho $y$, nên nghiệm hằng $y=0$ bị bỏ sót. Điều này không sao khi $y(0)\ne0$.
+- **Tập xác định.** Nghiệm $y=\dfrac{1}{1-x}$ đi qua $(0,1)$ chỉ tồn tại khi $x<1$, nên nhớ rằng nghiệm chỉ sống trên một khoảng.
+Mục tiêu từ đầu đến cuối vẫn là một: từ tốc độ thay đổi, tìm lại chính đại lượng. Giữ đúng các bước ở trên và làm thêm bài tập bên dưới cho quen tay.
 :::
 
 :::terms

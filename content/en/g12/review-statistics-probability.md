@@ -11,9 +11,9 @@ minutes: 40
 - Use tree diagrams, the law of total probability and Bayes' theorem in real-life problems.
 :::
 
-Statistics and probability is certain to appear in the graduation exam. Part I usually has two or three questions that ask for a quick measure from a grouped frequency table or a probability. Part II or Part III usually has one real-life question on conditional probability or Bayes' theorem. Altogether this topic is usually worth about $1$ to $1.5$ marks.
+A test comes back positive: how likely is it that the person really has the disease? Statistics and probability give us a way to answer, and this area is certain to appear in the graduation exam. Part I usually has two or three questions that ask for a quick measure from a grouped frequency table or a probability. Part II or Part III usually has one real-life question on conditional probability or Bayes' theorem, like the question above. Altogether this topic is usually worth about $1$ to $1.5$ marks. By the end of the lesson we will come back to the test, with a tree diagram.
 
-The statistics part of this lesson uses one data set throughout. The daily phone use (minutes) of $40$ students is grouped as follows:
+For the statistics part we use one data set throughout, so you only need to get to know it once. It is the daily phone use (minutes) of $40$ students, grouped as follows:
 
 | Time (minutes) | $[0, 30)$ | $[30, 60)$ | $[60, 90)$ | $[90, 120)$ | $[120, 150)$ |
 |---|---|---|---|---|---|
@@ -30,7 +30,7 @@ The data has classes $[u_1, u_2)$, …, $[u_k, u_{k+1})$, frequencies $n_1$, …
 - Mode: if $[u_m, u_{m+1})$ is the class with the highest frequency, then $M_o=u_m+\dfrac{n_m-n_{m-1}}{(n_m-n_{m-1})+(n_m-n_{m+1})}(u_{m+1}-u_m)$.
 :::
 
-For the table above, $\dfrac n2=20$ lies in the class $[60, 90)$ (because $14<20\le28$), so $M_e=60+\dfrac{20-14}{14}\cdot30\approx72.86$. The class with the highest frequency is also $[60, 90)$, so $M_o=60+\dfrac{4}{4+6}\cdot30=72$.
+Let us try it on the table above. Half of the students corresponds to $\dfrac n2=20$. The cumulative frequencies show that this falls in the class $[60, 90)$, because $14<20\le28$: the classes before it do not yet reach half, and by the end of this class we have passed it. So $M_e=60+\dfrac{20-14}{14}\cdot30\approx72.86$. The class with the highest frequency is also $[60, 90)$, so $M_o=60+\dfrac{4}{4+6}\cdot30=72$.
 
 :::example Multiple choice: the mean of grouped data
 The mean of the phone-use data above is
@@ -89,9 +89,9 @@ So the answers are a) True, b) True, c) False, d) True.
 :::
 
 :::warning Common traps in statistics
-- **Choosing the class with the highest frequency** instead of using the cumulative frequency to find the class containing $Q_1$, $M_e$ or $Q_3$.
-- **Including the class itself in $C$.** $C$ is only the cumulative frequency of the classes **before** it.
-- **Forgetting to subtract $\bar x^2$** in the variance formula, or giving the variance when the question asks for the standard deviation.
+- **Choosing the class with the highest frequency** instead of using the cumulative frequency to find the class containing $Q_1$, $M_e$ or $Q_3$. The highest frequency is only used to find the mode.
+- **Including the class itself in $C$.** Many students slip here: $C$ is only the cumulative frequency of the classes **before** it.
+- **Forgetting to subtract $\bar x^2$** in the variance formula, or giving the variance when the question asks for the standard deviation. Read what is being asked before you write the answer.
 :::
 
 ## Conditional probability and the multiplication rule
@@ -190,8 +190,8 @@ So the answers are a) True, b) True, c) False, d) True.
 :::
 
 :::warning Common traps in probability
-- **Confusing $P(A\mid B)$ with $P(B\mid A)$.** The word "given" tells you which event goes after the bar $\mid$.
-- **Confusing mutually exclusive with independent.** For mutually exclusive events add the probabilities; for independent events multiply them.
+- **Confusing $P(A\mid B)$ with $P(B\mid A)$.** This is an easy slip to make. Read the word "given": the event after "given" is the event after the bar $\mid$.
+- **Confusing mutually exclusive with independent.** The two ideas are different: for mutually exclusive events add the probabilities; for independent events multiply them.
 :::
 
 ## Key terms
@@ -213,7 +213,7 @@ So the answers are a) True, b) True, c) False, d) True.
 
 ## Exercises
 
-The exercises go from easy to hard, and each one states its exam format.
+The exercises go from easy to hard, and each one states its exam format. Afterwards, go back to the opening question and remember: Bayes' theorem is the branch you want divided by the sum of the branches.
 
 :::exercise Multiple choice
 The waiting times (minutes) of $10$ customers are grouped: the class $[0, 4)$ has $3$ people, $[4, 8)$ has $5$ people and $[8, 12)$ has $2$ people. The mean of the data is

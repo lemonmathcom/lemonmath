@@ -11,11 +11,11 @@ minutes: 45
 - (BC) Decide whether an improper integral converges, and find its value when it does.
 :::
 
-The fundamental theorem turns every definite integral into an antiderivative problem, so the speed and accuracy of your antidifferentiation decide many points on the exam. On the multiple-choice part without a calculator, almost a third of the integral questions need a substitution. In the free-response part, a correct setup earns points, but the final answer point needs the right antiderivative. AB students need the first two sections; BC students need all four.
+Finding antiderivatives is something you will do again and again in the exam room. What makes an integral hard, and how can we make it easier? The fundamental theorem turns every definite integral into an antiderivative problem, so the speed and accuracy of your antidifferentiation decide many points. On the multiple-choice part without a calculator, almost a third of the integral questions need a substitution. In the free-response part, a correct setup earns points, but the final answer point needs the right antiderivative. AB students need the first two sections; BC students need all four.
 
 ## Substitution
 
-Substitution is the chain rule read backwards. Look for a function $u=g(x)$ whose derivative $g'(x)$ also appears (up to a constant factor) in the integrand. Then $du=g'(x)\,dx$ and
+Substitution is the chain rule read backwards. Why does it work? When an inside function and its derivative both appear in an integral, we can treat the whole cluster as one new variable, and the problem becomes much simpler. Look for a function $u=g(x)$ whose derivative $g'(x)$ also appears (up to a constant factor) in the integrand. Then $du=g'(x)\,dx$ and
 $$\int f\big(g(x)\big)g'(x)\,dx=\int f(u)\,du.$$
 
 :::example An inside function and its derivative
@@ -37,12 +37,12 @@ Answer **B**. Option A forgets the factor $\dfrac12$.
 :::
 
 :::warning Keep the limits consistent
-After the substitution, either change the limits to values of $u$, or go back to $x$ before using the old limits. Writing $\displaystyle\int_0^1u^3\,du$ with the old limits is one of the most common errors graders see.
+This is where many students slip: changing the variable but keeping the old limits. There are two correct ways. Either change the limits to values of $u$, or go back to $x$ before using the old limits. Writing $\displaystyle\int_0^1u^3\,du$ with the old limits is one of the most common errors graders see.
 :::
 
 ## Long division and completing the square
 
-When the integrand is a fraction whose numerator has degree at least that of the denominator, divide first. When the denominator is a quadratic with no real roots, complete the square and aim for $\displaystyle\int\frac{du}{u^2+a^2}=\frac1a\arctan\frac ua+C$.
+Two kinds of integral look strange at first, but one rewriting step makes them familiar. When the integrand is a fraction whose numerator has degree at least that of the denominator, divide first, so that only easy pieces remain. When the denominator is a quadratic with no real roots, complete the square and aim for $\displaystyle\int\frac{du}{u^2+a^2}=\frac1a\arctan\frac ua+C$.
 
 :::example Two rewrites
 Find a) $\displaystyle\int\frac{x^2+1}{x+1}\,dx$ and b) $\displaystyle\int\frac{dx}{x^2+2x+5}$.
@@ -77,9 +77,9 @@ AP BC only uses non-repeated linear factors in the denominator, like this one.
 
 ## Improper integrals (BC)
 
-An integral with an infinite limit, or with an integrand that blows up inside the interval, is defined as a limit:
+Can the area under a curve that stretches on without end to the right be a finite number? It sounds odd, but sometimes it can. An integral with an infinite limit, or with an integrand that blows up inside the interval, is called an improper integral, and we define it as a limit:
 $$\int_1^{\infty}f(x)\,dx=\lim_{b\to\infty}\int_1^b f(x)\,dx.$$
-If the limit is a finite number, the integral **converges**; otherwise it **diverges**. Write the limit explicitly: graders look for it.
+If the limit is a finite number, the integral **converges**; otherwise it **diverges**. Do not skip the line with the limit when you write your answer, because that is the line graders look for. The example below shows one of each.
 
 :::example One converges, one diverges
 Evaluate $\displaystyle\int_1^{\infty}\frac{dx}{x^2}$ and $\displaystyle\int_1^{\infty}\frac{dx}{x}$.
@@ -90,7 +90,7 @@ $\displaystyle\lim_{b\to\infty}\Big[\ln x\Big]_1^b=\lim_{b\to\infty}\ln b=\infty
 :::
 
 :::tip Check by differentiating
-On the no-calculator part, spend ten seconds differentiating your antiderivative. It catches a missing $\dfrac12$ or a wrong sign, which is exactly where the wrong options in multiple-choice questions come from.
+On the no-calculator part, spend ten seconds differentiating your antiderivative. Why is it worth it? Because the check catches a missing $\dfrac12$ or a wrong sign, which is exactly where the wrong options in multiple-choice questions come from. Once it passes, you can mark the answer with confidence.
 :::
 
 :::terms

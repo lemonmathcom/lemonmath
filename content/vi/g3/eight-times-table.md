@@ -12,17 +12,17 @@ minutes: 15
 
 Mỗi con nhện có $8$ cái chân. Hỏi $3$ con nhện có tất cả bao nhiêu cái chân?
 
-Em có thể cộng $8+8+8$, nhưng với nhiều con nhện thì cộng sẽ chậm. Bài này giúp em tính nhanh bằng bảng nhân $8$.
+Em có thể cộng $8+8+8$, và cách đó đúng. Nhưng nếu có mười con nhện, hay hai mươi con thì sao? Cộng mãi sẽ rất lâu. Bảng nhân $8$ là một đường tắt: thuộc rồi, em tìm ra đáp số ngay.
 
 ## Cùng khám phá
 
-Mỗi con nhện là một nhóm $8$ chân. Ta cộng dần từng con:
+Mỗi con nhện là một nhóm $8$ chân. Ta thêm từng con nhện một và xem số chân thay đổi thế nào:
 
 - $1$ con: $8$ chân.
 - $2$ con: $8+8=16$ chân.
 - $3$ con: $16+8=24$ chân.
 
-Vậy $3$ con nhện có $24$ chân, tức là $8\times3=24$. Mỗi lần thêm một nhóm, tích tăng thêm $8$.
+Vậy $3$ con nhện có $24$ chân, tức là $8\times3=24$. Em để ý chỗ này: mỗi lần thêm một con nhện, tức là thêm một nhóm, thì tích tăng thêm đúng $8$.
 
 :::graph Trên tia số: mỗi bước nhảy 8 đơn vị
 alt: Tia số từ 0 đến 48 đánh dấu các điểm 0, 8, 16, 24, 32, 40 và 48, mỗi điểm cách điểm trước 8 đơn vị
@@ -38,7 +38,7 @@ point: (40, 0) "40" above
 point: (48, 0) "48" below
 :::
 
-Em còn một mẹo nữa: $8$ gấp đôi $4$, nên $8\times3$ gấp đôi $4\times3=12$, và $12+12=24$.
+Còn một mẹo nữa, nếu em đã thuộc bảng nhân $4$. Vì sao mẹo này đúng? Vì $8$ gấp đôi $4$, nên $8\times3$ cũng gấp đôi $4\times3=12$. Em chỉ cần tính $12+12=24$.
 
 :::theorem Bảng nhân 8
 Muốn tính $8\times n$, em lấy $8\times(n-1)$ rồi cộng thêm $8$. Em cũng có thể lấy $4\times n$ rồi gấp đôi.
@@ -52,11 +52,11 @@ Muốn tính $8\times n$, em lấy $8\times(n-1)$ rồi cộng thêm $8$. Em cũ
 | $48$ | $56$ | $64$ | $72$ | $80$ |
 :::
 
-Bảng chia $8$ suy ra từ bảng nhân $8$. Vì $8\times3=24$ nên $24:8=3$. Em chia $24$ chân thành các nhóm $8$ chân thì được $3$ nhóm.
+Biết bảng nhân $8$ rồi, em có luôn cả bảng chia $8$. Vì sao? Vì phép chia là làm ngược lại phép nhân. Ta có $8\times3=24$ nên $24:8=3$. Nói bằng chuyện nhện: chia $24$ chân thành các nhóm $8$ chân thì được $3$ nhóm, mỗi nhóm là một con nhện.
 
 ## Ví dụ
 
-Ta bắt đầu bằng mẹo gấp đôi bảng nhân $4$.
+Ta thử mẹo gấp đôi bảng nhân $4$ trước.
 
 :::example Tính $8\times6$ bằng cách gấp đôi
 **Lời giải.** Ta có $4\times6=24$. Mà $8$ gấp đôi $4$ nên $8\times6$ gấp đôi $4\times6$:
@@ -64,7 +64,7 @@ $$8\times6=24+24=48.$$
 Vậy $8\times6=48$.
 :::
 
-Bây giờ em lấy tích liền trước cộng thêm $8$.
+Cách thứ hai: em lấy tích liền trước rồi cộng thêm $8$.
 
 :::example Tính $8\times7$
 **Lời giải.** Em biết $8\times6=48$. Thêm một nhóm $8$ nữa:
@@ -72,7 +72,7 @@ $$8\times7=8\times6+8=48+8=56.$$
 Vậy $8\times7=56$.
 :::
 
-Có khi em lấy tích liền sau rồi bớt đi $8$ sẽ dễ hơn.
+Có khi đi lùi từ tích liền sau lại dễ hơn. Em lấy tích liền sau rồi bớt đi $8$.
 
 :::example Tính $8\times9$
 **Lời giải.** Em biết $8\times10=80$. Bớt đi một nhóm $8$:
@@ -80,7 +80,7 @@ $$8\times9=8\times10-8=80-8=72.$$
 Vậy $8\times9=72$.
 :::
 
-Tiếp theo là phép chia.
+Giờ ta dùng bảng nhân để chia. Em tự hỏi: số nào nhân với số chia thì ra số bị chia?
 
 :::example Tính $64:8$
 **Lời giải.** Em tìm số nào nhân $8$ bằng $64$. Trong bảng nhân $8$ ta có $8\times8=64$, nên
@@ -90,7 +90,7 @@ $$64:8=8.$$
 Vậy $64:8=8$.
 :::
 
-Cuối cùng, em giải một bài toán có lời văn.
+Cuối cùng là một bài toán có lời văn. Em đọc kĩ đề, nghĩ xem phải nhân hay chia, rồi mới tính.
 
 :::example Chia bánh vào hộp
 Có $40$ cái bánh, chia vào các hộp, mỗi hộp $8$ cái. Hỏi chia được bao nhiêu hộp?
@@ -103,9 +103,9 @@ Vậy chia được $5$ hộp.
 :::
 
 :::warning Những lỗi em hay gặp
-- **Lấy nhầm tích gần đúng.** Sai: $8\times7=54$. Vì sao sai: $54$ không có trong bảng nhân $8$. Đúng: $8\times7=48+8=56$.
-- **Cộng thay cho nhân.** Sai: $8\times8=16$. Vì sao sai: $8+8=16$ là phép cộng, còn $8\times8$ là $8$ nhóm $8$. Đúng: $8\times8=64$.
-- **Chia nhầm.** Sai: $64:8=7$. Vì sao sai: $8\times7=56$, không phải $64$. Đúng: $8\times8=64$ nên $64:8=8$.
+- **Lấy nhầm tích gần đúng.** Chỗ này nhiều bạn hay nhầm vì các số đứng gần nhau. Sai: $8\times7=54$. Vì sao sai: $54$ không có trong bảng nhân $8$. Đúng: $8\times7=48+8=56$.
+- **Cộng thay cho nhân.** Sai: $8\times8=16$. Vì sao sai: $8+8=16$ là phép cộng, còn $8\times8$ là $8$ nhóm $8$. Đúng: $8\times8=64$. Em nhớ nhé: nhân là lấy nhiều nhóm bằng nhau.
+- **Chia nhầm.** Sai: $64:8=7$. Vì sao sai: $8\times7=56$, không phải $64$. Đúng: $8\times8=64$ nên $64:8=8$. Em luôn có thể thử lại phép chia bằng phép nhân.
 - **Quên đơn vị.** Sai: "Đáp số: $5$". Đúng: "Đáp số: $5$ hộp".
 :::
 
@@ -130,9 +130,11 @@ Vậy chia được $5$ hộp.
 - Từ $8\times a=b$ ta có $b:8=a$ và $b:a=8$.
 - Ghi đơn vị trong đáp số; thử lại phép chia bằng phép nhân.
 
+Quay lại câu hỏi đầu bài: có bảng nhân, em biết ngay số chân của bao nhiêu con nhện cũng được, không phải cộng từng lần. Điều đáng nhớ là thuộc bảng nhân thì bảng chia cũng đến theo, nên em hãy luyện tập thêm nhé.
+
 ## Luyện tập
 
-Mỗi bài có phần kiến thức và gợi ý. Em hãy tự làm trước, rồi mới bấm xem lời giải.
+Mỗi bài có phần kiến thức cần nhớ và một gợi ý để em bắt đầu. Em cứ tự làm trước, sai cũng không sao, rồi hãy bấm xem lời giải để đối chiếu.
 
 :::exercise
 Tính:

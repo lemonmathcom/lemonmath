@@ -10,7 +10,7 @@ minutes: 20
 - Áp dụng hai quy tắc cho căn thức chứa chữ và cho bài toán thực tế.
 :::
 
-Một mảnh vườn hình chữ nhật có chiều dài $\sqrt{50}$ m và chiều rộng $\sqrt8$ m. Diện tích mảnh vườn là $\sqrt{50}\cdot\sqrt8$ m². Bấm máy, ta được $7{,}07\ldots\cdot2{,}82\ldots$, một phép nhân khá rối. Có cách nào tính đúng diện tích mà không cần máy tính không?
+Một mảnh vườn hình chữ nhật có chiều dài $\sqrt{50}$ m và chiều rộng $\sqrt8$ m. Muốn biết diện tích, ta nhân hai cạnh: $\sqrt{50}\cdot\sqrt8$ m². Nếu bấm máy, ta được $7{,}07\ldots\cdot2{,}82\ldots$, một phép nhân với những số thập phân dài dằng dặc. Có cách nào tính ra đúng diện tích mà không cần máy tính không? Có, và câu trả lời nằm ở cách ta nhân hai căn bậc hai.
 
 :::diagram Mảnh vườn hình chữ nhật
 alt: Hình chữ nhật ABCD có cạnh AB dài căn 50 mét và cạnh BC dài căn 8 mét
@@ -28,7 +28,7 @@ right D A B
 
 ### Khám phá: so sánh $\sqrt{ab}$ với $\sqrt a\cdot\sqrt b$
 
-Ta tính hai cách với vài cặp số chính phương:
+Trước khi nói đến quy tắc, ta thử tính hai cách với vài cặp số chính phương, vì những số này khai căn rất dễ. Bạn hãy so hai cột kết quả:
 
 | $a$, $b$ | $\sqrt{ab}$ | $\sqrt a\cdot\sqrt b$ |
 |---|---|---|
@@ -36,16 +36,16 @@ Ta tính hai cách với vài cặp số chính phương:
 | $16$, $25$ | $\sqrt{400}=20$ | $4\cdot5=20$ |
 | $1$, $49$ | $\sqrt{49}=7$ | $1\cdot7=7$ |
 
-Hai cách luôn cho cùng một kết quả.
+Hai cột giống hệt nhau ở mọi hàng, và đó không phải trùng hợp.
 
 :::theorem Căn bậc hai và phép nhân
 Với hai số không âm $a$ và $b$, ta có
 $$\sqrt{ab}=\sqrt a\cdot\sqrt b.$$
 :::
 
-Vì sao? Số $\sqrt a\cdot\sqrt b$ không âm, và $\left(\sqrt a\cdot\sqrt b\right)^2=\left(\sqrt a\right)^2\cdot\left(\sqrt b\right)^2=ab$. Vậy $\sqrt a\cdot\sqrt b$ chính là căn bậc hai số học của $ab$.
+Vì sao quy tắc này đúng? Số $\sqrt a\cdot\sqrt b$ không âm, và khi bình phương lên ta được $\left(\sqrt a\cdot\sqrt b\right)^2=\left(\sqrt a\right)^2\cdot\left(\sqrt b\right)^2=ab$. Bình phương ra đúng số dưới căn, lại không âm: vậy $\sqrt a\cdot\sqrt b$ chính là căn bậc hai số học của $ab$.
 
-Đọc quy tắc từ trái sang phải, ta **khai căn một tích**: khai căn từng thừa số rồi nhân lại.
+Đọc quy tắc từ trái sang phải, ta có cách **khai căn một tích**: khai căn từng thừa số rồi nhân các kết quả lại. Cách này có ích khi từng thừa số là số chính phương quen thuộc, còn cả tích thì khó nhìn ra.
 
 :::example Khai căn một tích
 Tính: a) $\sqrt{49\cdot1{,}44}$; b) $\sqrt{810\cdot40}$.
@@ -57,7 +57,7 @@ $$\sqrt{49\cdot1{,}44}=\sqrt{49}\cdot\sqrt{1{,}44}=7\cdot1{,}2=8{,}4;\qquad \sqr
 Vậy a) bằng $8{,}4$; b) bằng $180$.
 :::
 
-Đọc quy tắc từ phải sang trái, ta **nhân các căn bậc hai**: nhân các số dưới dấu căn rồi khai căn kết quả. Đây chính là cách trả lời câu hỏi mảnh vườn.
+Bây giờ đọc quy tắc theo chiều ngược lại, từ phải sang trái. Ta **nhân các căn bậc hai**: nhân các số dưới dấu căn với nhau rồi khai căn kết quả. Đây chính là chìa khoá cho câu hỏi về mảnh vườn.
 
 :::example Nhân các căn bậc hai
 Tính: a) $\sqrt2\cdot\sqrt{32}$; b) diện tích mảnh vườn $\sqrt{50}\cdot\sqrt8$.
@@ -69,7 +69,7 @@ $$\sqrt2\cdot\sqrt{32}=\sqrt{64}=8;\qquad \sqrt{50}\cdot\sqrt8=\sqrt{400}=20.$$
 Vậy a) bằng $8$; b) mảnh vườn có diện tích đúng $20$ m².
 :::
 
-Quy tắc vẫn đúng khi $a$, $b$ là các biểu thức không âm: $\sqrt{AB}=\sqrt A\cdot\sqrt B$ với $A\ge0$, $B\ge0$.
+Quy tắc không chỉ dành cho số. Nó vẫn đúng khi $a$, $b$ là các biểu thức không âm: $\sqrt{AB}=\sqrt A\cdot\sqrt B$ với $A\ge0$, $B\ge0$. Điều kiện không âm vẫn là thứ ta phải để mắt tới, vì căn của số âm không có nghĩa.
 
 :::example Nhân căn thức chứa chữ
 Rút gọn $\sqrt{3a}\cdot\sqrt{12a}$ với $a\ge0$.
@@ -83,14 +83,14 @@ Vậy $\sqrt{3a}\cdot\sqrt{12a}=6a$.
 
 ## Khai căn bậc hai một thương
 
-Ta có $\sqrt{\dfrac{36}{4}}=\sqrt9=3$ và $\dfrac{\sqrt{36}}{\sqrt4}=\dfrac62=3$. Phép chia cũng "đi qua" dấu căn giống như phép nhân.
+Phép chia có hành xử giống phép nhân không? Ta thử một ví dụ: $\sqrt{\dfrac{36}{4}}=\sqrt9=3$ và $\dfrac{\sqrt{36}}{\sqrt4}=\dfrac62=3$. Hai cách cho cùng kết quả. Phép chia cũng "đi qua" dấu căn giống như phép nhân.
 
 :::theorem Căn bậc hai và phép chia
 Với số $a$ không âm và số $b$ dương, ta có
 $$\sqrt{\frac ab}=\frac{\sqrt a}{\sqrt b}.$$
 :::
 
-Lí do tương tự: $\dfrac{\sqrt a}{\sqrt b}\ge0$ và $\left(\dfrac{\sqrt a}{\sqrt b}\right)^2=\dfrac ab$. Số $b$ phải dương vì nó nằm ở mẫu.
+Lí do giống như ở phép nhân. Ta có $\dfrac{\sqrt a}{\sqrt b}\ge0$, và bình phương nó lên thì được $\left(\dfrac{\sqrt a}{\sqrt b}\right)^2=\dfrac ab$. Vậy nó đúng là căn bậc hai số học của thương. Còn về điều kiện, số $b$ phải dương, vì nó nằm ở mẫu mà mẫu thì không được bằng không.
 
 :::example Khai căn một thương
 Tính: a) $\sqrt{\dfrac{25}{144}}$; b) $\sqrt{1\dfrac{9}{16}}$.
@@ -102,7 +102,7 @@ $$\sqrt{\frac{25}{144}}=\frac{\sqrt{25}}{\sqrt{144}}=\frac{5}{12};\qquad \sqrt{\
 Vậy a) bằng $\dfrac5{12}$; b) bằng $\dfrac54$.
 :::
 
-Ngược lại, muốn chia hai căn, ta chia hai số dưới dấu căn rồi khai căn.
+Đọc ngược lại, ta có cách chia hai căn bậc hai: chia hai số dưới dấu căn cho nhau rồi mới khai căn. Khi hai số chia hết cho nhau, cách này gọn hơn nhiều so với khai căn từng số.
 
 :::example Chia hai căn bậc hai
 Tính: a) $\dfrac{\sqrt{80}}{\sqrt5}$; b) $\dfrac{\sqrt{2{,}7}}{\sqrt{0{,}3}}$; c) rút gọn $\dfrac{\sqrt{18x^3}}{\sqrt{2x}}$ với $x>0$.
@@ -115,14 +115,14 @@ Vậy a) bằng $4$; b) bằng $3$; c) bằng $3x$.
 :::
 
 :::warning Những sai lầm thường gặp
-- **Tách căn khi các thừa số âm.** Sai: $\sqrt{(-4)\cdot(-9)}=\sqrt{-4}\cdot\sqrt{-9}$. Lí do sai: quy tắc chỉ dùng cho số không âm; $\sqrt{-4}$ không xác định. Đúng: $\sqrt{(-4)\cdot(-9)}=\sqrt{36}=6$.
-- **Áp dụng cho phép cộng.** Sai: $\sqrt{16+9}=\sqrt{16}+\sqrt9$. Lí do sai: quy tắc chỉ dành cho phép nhân và phép chia. Đúng: $\sqrt{25}=5$.
-- **Quên giá trị tuyệt đối.** Sai: $\sqrt{9a^2}=3a$ với mọi $a$. Lí do sai: với $a=-1$ vế trái bằng $3$, vế phải bằng $-3$. Đúng: $\sqrt{9a^2}=3|a|$.
+- **Tách căn khi các thừa số âm.** Chỗ này nhiều bạn hay nhầm vì tích hai số âm lại là số dương. Sai: $\sqrt{(-4)\cdot(-9)}=\sqrt{-4}\cdot\sqrt{-9}$. Lí do sai: quy tắc chỉ dùng cho số không âm, còn $\sqrt{-4}$ thì không xác định. Đúng: $\sqrt{(-4)\cdot(-9)}=\sqrt{36}=6$.
+- **Áp dụng cho phép cộng.** Sai: $\sqrt{16+9}=\sqrt{16}+\sqrt9$. Lí do sai: quy tắc chỉ dành cho phép nhân và phép chia, dấu căn không "đi qua" được phép cộng. Bạn thử tính hai vế sẽ thấy chúng khác nhau. Đúng: $\sqrt{25}=5$.
+- **Quên giá trị tuyệt đối.** Sai: $\sqrt{9a^2}=3a$ với mọi $a$. Lí do sai: với $a=-1$ vế trái bằng $3$, vế phải bằng $-3$. Đúng: $\sqrt{9a^2}=3|a|$. Mỗi khi khai căn một bình phương, hãy tự hỏi dấu của biểu thức bên trong.
 :::
 
 ## Ứng dụng trong thực tế
 
-Nhiều công thức trong khoa học có dạng căn. Hai quy tắc giúp ta tính nhanh và đúng.
+Căn bậc hai xuất hiện trong nhiều công thức khoa học, và ta phải biết xử lí những số nằm dưới dấu căn. Hai quy tắc vừa học giúp ta tính nhanh mà vẫn chính xác. Ta thử với sóng biển ở vùng nước nông.
 
 :::example Sóng ở vùng nước nông
 Ở vùng nước nông, tốc độ (m/s) của sóng biển xấp xỉ $v=\sqrt{10d}$, với $d$ là độ sâu của nước (mét). Tính tốc độ của sóng khi $d=3{,}6$ m.
@@ -153,10 +153,11 @@ Vậy tốc độ của sóng khoảng $6$ m/s, tức khoảng $21{,}6$ km/h.
 - Hai quy tắc đúng cho cả biểu thức không âm $A$, $B$ (mẫu dương).
 - Mẹo: nhóm các thừa số để được số chính phương, như $810\cdot40=81\cdot400$.
 - Không có quy tắc như vậy cho phép cộng và phép trừ.
+Quay lại mảnh vườn đầu bài: nhân hai căn thành một căn đã cho ta diện tích đúng mà không cần bấm máy. Chỉ cần nhớ rằng hai quy tắc dành cho nhân và chia, còn cộng và trừ thì không. Bạn luyện tập vài bài để quen tay nhé.
 
 ## Luyện tập
 
-Mỗi bài có phần kiến thức và gợi ý các bước. Hãy tự làm trước, rồi mới bấm xem lời giải.
+Mỗi bài có phần kiến thức cần dùng và vài bước gợi ý để bạn bắt đầu. Bạn hãy tự làm trước, rồi mới bấm xem lời giải để đối chiếu.
 
 :::exercise
 Tính:

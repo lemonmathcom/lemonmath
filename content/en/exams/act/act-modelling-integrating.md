@@ -11,11 +11,11 @@ minutes: 45
 - Solve multi-step problems that combine rates, units, volume, percentages and cost.
 :::
 
-ACT labels some questions **Modeling** and groups others as **Integrating Essential Skills**. In practice they look alike: a realistic situation, several pieces of information, and a question that needs two or three steps. The mathematics is rarely harder than in other questions; what makes them hard is organizing the information. A good routine is: name the quantities, write the model or the chain of calculations, compute, and check that the answer makes sense in context.
+A realistic situation, several pieces of information, and a question that needs two or three steps: that is what ACT labels **Modeling**, or groups under **Integrating Essential Skills**. In practice the two look alike. The mathematics is rarely harder than in other questions; what makes them hard is organising the information. So how do you avoid getting tangled? A good routine has four parts: name the quantities, write the model or the chain of calculations, compute, and check that the answer makes sense in context.
 
 ## Linear models
 
-A quantity that changes by the **same amount** for each unit step is linear: $y=mx+b$, where $m$ is the rate of change and $b$ is the starting value (the value when $x=0$).
+Think of a fixed fee plus a charge for each item. A quantity that changes by the **same amount** for each unit step is linear: $y=mx+b$. Here $m$ is the rate of change and $b$ is the starting value (the value when $x=0$).
 
 :::example A linear model from a table
 The table shows the cost $C$, in dollars, of printing $n$ T-shirts.
@@ -40,7 +40,7 @@ So printing $18$ T-shirts costs $130$ dollars, answer **A**. Option C forgets th
 
 ## Exponential models
 
-A quantity that changes by the **same percentage** each period is exponential: $y=a\cdot b^t$, where $a$ is the starting value and $b=1+r$ for growth or $b=1-r$ for decay at rate $r$.
+When a quantity changes by the **same percentage** each period, such as interest or a growing culture of bacteria, it is exponential: $y=a\cdot b^t$. Here $a$ is the starting value, and $b=1+r$ for growth or $b=1-r$ for decay at rate $r$.
 
 :::example Compound growth
 Linh invests $2000$ dollars at $4\%$ interest compounded once a year. To the nearest dollar, what is the investment worth after $10$ years?
@@ -71,7 +71,7 @@ So the model is $y=3\cdot2^x$, answer **C**.
 
 ## Interpreting a model
 
-In a modeling question, every number in the formula has a meaning. The constant term is usually a starting value, a coefficient of $x$ is usually a rate, and the base of an exponential is a growth factor.
+In a modelling question, every number in the formula tells you something about the situation. The constant term is usually a starting value, a coefficient of $x$ is usually a rate, and the base of an exponential is a growth factor. Questions often ask for exactly these meanings, so practise reading a formula like a short story.
 
 :::example What does the 2 mean?
 The height, in meters, of a ball $t$ seconds after it is thrown is $h(t)=-4.9t^2+14.7t+2$. What does the number $2$ represent?
@@ -87,7 +87,7 @@ So the number $2$ represents the height from which the ball is thrown, answer **
 
 ## Multi-step problems
 
-Integrated questions chain several simple steps. Write each step with its units so that you can see where you are.
+Integrated questions chain several simple steps, and the easiest place to get lost is between the steps. The cure is to write each step with its units, so that you always know what number you are holding.
 
 :::example Filling a tank
 A rectangular tank measures $2$ m by $1.5$ m by $1$ m. Water flows in at $50$ liters per minute. How long does it take to fill the empty tank? ($1$ m³ $=1000$ liters.)
@@ -120,11 +120,12 @@ So the fuel for the trip costs $26.52$ dollars, answer **B**. Option A is the nu
 :::
 
 :::warning Common traps
-- **Linear or exponential:** look at differences (linear) and ratios (exponential).
+- **Linear or exponential:** look at the differences (linear) and the ratios (exponential).
 - **Simple and compound interest:** "compounded" means multiply each period.
-- **Units:** convert before you compute: m³ to liters, minutes to hours.
+- **Units:** convert before you compute: m³ to litres, minutes to hours.
 - **Rounding too early** in a chain of steps; round only the final answer.
-- **Answering an intermediate quantity:** a question about cost does not end at the number of liters.
+- **Answering an intermediate quantity:** a question about cost does not end at the number of litres.
+When in doubt, ask: which quantity is the question after, and have I reached it?
 :::
 
 :::terms

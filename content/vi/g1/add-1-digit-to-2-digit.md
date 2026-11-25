@@ -12,17 +12,18 @@ minutes: 15
 
 Nam có $23$ viên bi. Bạn Minh cho Nam thêm $4$ viên bi nữa. Hỏi Nam có tất cả bao nhiêu viên bi?
 
-Em có thể đếm thêm từng viên: $24, 25, 26, 27$. Nhưng nếu thêm nhiều viên thì đếm rất lâu. Bài này giúp em cộng nhanh bằng hàng chục và hàng đơn vị.
+Em có thể đếm thêm từng viên: $24, 25, 26, 27$. Cách đó đúng, nhưng nếu Minh cho thêm thật nhiều viên bi thì đếm mãi mới xong. Có cách nào nhanh hơn không? Có, nếu em nhìn số bi của Nam theo hàng chục và hàng đơn vị.
 
 ## Cùng khám phá
 
-Em đã học ở bài trước: mỗi số có hai chữ số gồm hàng chục và hàng đơn vị. Số $23$ có $2$ chục và $3$ đơn vị.
+Nhớ lại bài trước nhé: mỗi số có hai chữ số gồm hàng chục và hàng đơn vị. Số $23$ của Nam có $2$ chục và $3$ đơn vị. Em giữ hai hàng này trong đầu, vì ta sẽ làm việc với từng hàng một.
 
 - Nam có $2$ chục viên bi và $3$ viên bi lẻ.
-- Minh cho thêm $4$ viên bi lẻ. Các viên bi lẻ bây giờ là $3+4=7$ viên.
+- Minh cho thêm $4$ viên, toàn là bi lẻ. Các viên bi lẻ bây giờ là $3+4=7$ viên.
 - Số chục vẫn là $2$ chục, vì Nam không được thêm bó chục nào.
+Hàng chục đứng yên, chỉ có hàng đơn vị thay đổi.
 
-Vậy $2$ chục và $7$ đơn vị là $27$. Ta có $23+4=27$.
+Ghép hai hàng lại: $2$ chục và $7$ đơn vị là $27$. Vậy Nam có $27$ viên bi, và ta viết $23+4=27$.
 
 :::graph Trên tia số: từ 23, nhảy thêm 4 bước đến 27
 alt: Tia số từ 20 đến 30, đánh dấu điểm 23 và điểm 27; đoạn từ 23 đến 27 được tô đậm
@@ -40,11 +41,11 @@ Muốn tính $23+4$:
 3. Viết kết quả: $2$ chục và $7$ đơn vị là $27$.
 :::
 
-Cách này đúng vì em chỉ thêm các viên bi lẻ. Số chục không đổi, nên em giữ nguyên hàng chục.
+Vì sao ta giữ nguyên hàng chục? Vì Minh chỉ cho thêm bi lẻ, không cho thêm bó chục nào. Số chục không đổi, nên em chỉ cần cộng ở hàng đơn vị.
 
 ## Ví dụ
 
-Ta bắt đầu với một phép cộng đơn giản nhất.
+Ta thử lại với bi của Nam, lần này viết thành phép tính.
 
 :::example Tính $23+4$
 **Lời giải.** $23$ có $2$ chục và $3$ đơn vị. Ta cộng hàng đơn vị: $3+4=7$. Hàng chục giữ nguyên là $2$:
@@ -52,7 +53,7 @@ $$23+4=27.$$
 Vậy $23+4=27$.
 :::
 
-Bây giờ ta làm một phép tính giống như vậy, nhưng đổi số.
+Em thử với những số khác nhé. Cách làm vẫn y như vậy.
 
 :::example Tính $52+6$
 **Lời giải.** $52$ có $5$ chục và $2$ đơn vị. Cộng hàng đơn vị: $2+6=8$. Hàng chục giữ nguyên là $5$:
@@ -60,7 +61,7 @@ $$52+6=58.$$
 Vậy $52+6=58$.
 :::
 
-Khi hàng đơn vị là $0$, phép tính còn dễ hơn.
+Có một trường hợp hơi đặc biệt: hàng đơn vị là $0$. Khi đó phép tính còn dễ hơn nữa.
 
 :::example Tính $40+5$
 **Lời giải.** $40$ có $4$ chục và $0$ đơn vị. Cộng hàng đơn vị: $0+5=5$. Hàng chục giữ nguyên là $4$:
@@ -68,7 +69,7 @@ $$40+5=45.$$
 Vậy $40+5=45$.
 :::
 
-Khi số có một chữ số đứng trước, em có thể đổi chỗ hai số hạng cho dễ tính.
+Đôi khi số có một chữ số lại đứng ở đầu phép tính. Đừng lo nếu lần đầu thấy lạ, em chỉ cần đổi chỗ hai số hạng cho dễ tính.
 
 :::example Tính $6+31$
 **Lời giải.** Đổi chỗ hai số hạng thì tổng không đổi, nên $6+31=31+6$. Cộng hàng đơn vị: $1+6=7$. Hàng chục giữ nguyên là $3$:
@@ -76,7 +77,7 @@ $$31+6=37.$$
 Vậy $6+31=37$.
 :::
 
-Bây giờ em dùng phép cộng để trả lời một câu hỏi trong cuộc sống.
+Phép cộng này cũng giúp em tính số trang truyện đã đọc. Em xem bài của Hà nhé.
 
 :::example Đọc sách
 Hà đã đọc $35$ trang truyện. Hôm nay Hà đọc thêm $3$ trang. Hỏi Hà đã đọc tất cả bao nhiêu trang?
@@ -89,9 +90,9 @@ Vậy Hà đã đọc tất cả $38$ trang.
 :::
 
 :::warning Những lỗi em hay gặp
-- **Cộng nhầm vào hàng chục.** Sai: $23+4=63$. Vì sao sai: em cộng $4$ vào $2$ chục. Đúng: $4$ là $4$ đơn vị, nên $23+4=27$.
-- **Quên hàng chục.** Sai: $23+4=7$. Vì sao sai: em mới tính $3+4$ mà quên $2$ chục. Đúng: $23+4=27$.
-- **Bài toán có lời văn quên đơn vị.** Sai: "Đáp số: $38$". Đúng: "Đáp số: $38$ trang".
+- **Cộng nhầm vào hàng chục.** Chỗ này nhiều bạn hay nhầm. Sai: $23+4=63$, vì em cộng $4$ vào $2$ chục. Đúng: $4$ là $4$ đơn vị, nên $23+4=27$.
+- **Quên hàng chục.** Sai: $23+4=7$, vì em mới tính $3+4$ mà quên $2$ chục. Đúng: $23+4=27$.
+- **Bài toán có lời văn quên đơn vị.** Sai: "Đáp số: $38$". Đúng: "Đáp số: $38$ trang". Em nhớ ghi đơn vị sau con số nhé.
 :::
 
 ## Thuật ngữ
@@ -113,10 +114,11 @@ Vậy Hà đã đọc tất cả $38$ trang.
 - Ví dụ: $23+4=27$ vì $3+4=7$ và hàng chục vẫn là $2$.
 - Đổi chỗ các số hạng thì tổng không đổi: $6+31=31+6$.
 - Bài toán hỏi "thêm", "tất cả" thường là phép cộng; nhớ ghi đơn vị trong đáp số.
+Vậy là em đã trả lời được câu hỏi đầu bài: số bi của Nam là kết quả của việc cộng hàng đơn vị và giữ nguyên hàng chục. Em làm thêm vài bài luyện tập để quen tay nhé.
 
 ## Luyện tập
 
-Mỗi bài có phần kiến thức và gợi ý. Em hãy tự làm trước, rồi mới bấm xem lời giải.
+Mỗi bài đều có phần kiến thức cần nhớ và một gợi ý để em bắt đầu. Em cứ tự làm trước, chỗ nào chưa chắc thì mới bấm xem lời giải.
 
 :::exercise
 Tính $36+2$.

@@ -12,7 +12,7 @@ minutes: 15
 
 Lan puts a ball and a tin of milk on a slightly sloping table. The ball rolls away fast. The tin rolls when it lies on its side, but when it stands up it stays still.
 
-Why are the two objects different? Today you will find the answer with two new solid shapes.
+Why does the ball roll away fast while the tin stands still? The answer is in their shapes. You will meet two new solid shapes, and then you will be able to explain what happened on Lan's table.
 
 ## Let's explore
 
@@ -22,7 +22,7 @@ Pick up a tin of milk. Feel both ends: the top and the bottom are flat. Feel aro
 
 Now pick up a ball. Feel all over it: it is curved everywhere, with no flat part at all.
 
-We write down what we found in a table:
+We write down what we found in a table, so we can compare the two side by side:
 
 | | Tin of milk | Ball |
 |---|---|---|
@@ -31,18 +31,18 @@ We write down what we found in a table:
 | Stands up and stacks | yes | not steadily |
 | Rolling | rolls in one direction | rolls in every direction |
 
-The tin has the shape of a **cylinder**. The ball has the shape of a **sphere**.
+Now we give these shapes their names. The tin has the shape of a **cylinder**. The ball has the shape of a **sphere**.
 
 :::theorem Recognising cylinders and spheres
 - A **cylinder** has $2$ flat circular faces (called the two bases) and $1$ curved surface around the side. Examples: a tin of milk, a drum, a round cake tin.
 - A **sphere** has only a curved surface and no flat faces. Examples: a ball, a marble.
 :::
 
-A cylinder can be stacked because its bases are flat, so one sits on another without sliding. A sphere has no flat face, so it rolls away easily.
+Now you can explain what happened on Lan's table. A cylinder can be stacked because its bases are flat, so one sits on another without sliding. A sphere has no flat face to rest on, so it rolls away easily.
 
 ## Examples
 
-We start by recognising a familiar object.
+Let us try recognising the shape of a familiar object from your classroom.
 
 :::example The drum
 Is the drum in your classroom a cylinder or a sphere?
@@ -52,7 +52,7 @@ Is the drum in your classroom a cylinder or a sphere?
 So the drum is a cylinder.
 :::
 
-Next, you count the faces of a cylinder.
+You count the faces of a cylinder, just as you felt them on the tin.
 
 :::example Counting the faces of a tin
 How many flat faces and how many curved surfaces does a tin of milk have?
@@ -62,7 +62,7 @@ How many flat faces and how many curved surfaces does a tin of milk have?
 So the tin has $2$ flat faces and $1$ curved surface.
 :::
 
-Now we sort many objects at once.
+What if many objects are mixed up together? We sort them into two groups.
 
 :::example Sorting objects
 On the table there are: a round cake tin, a marble, a cylinder-shaped cup, a football, a bamboo tube and a table-tennis ball. How many cylinders and how many spheres are there?
@@ -77,7 +77,7 @@ On the table there are: a round cake tin, a marble, a cylinder-shaped cup, a foo
 So there are $3$ cylinders and $3$ spheres.
 :::
 
-Finally, you use what you know to choose objects for building a tower.
+Finally, we use what we have learned to help Nam choose objects for his tower.
 
 :::example Building a tower
 Nam has $4$ tins of milk and $3$ balls. He wants to build a tall tower. Which should he use? Why?
@@ -90,9 +90,9 @@ So Nam should use the $4$ tins of milk.
 :::
 
 :::warning Mistakes to watch out for
-- **Thinking a ball has a flat face.** Wrong: "A ball has $1$ flat face." Why it is wrong: a ball is curved everywhere you touch it. Right: a sphere has $0$ flat faces.
-- **Forgetting the curved surface of a cylinder.** Wrong: "A tin has only $2$ flat faces." Why it is wrong: the side of the tin is a curved surface. Right: a tin has $2$ flat faces and $1$ curved surface.
-- **Mixing up a box with a cylinder.** Wrong: "A box with square corners is a cylinder." Why it is wrong: a cylinder has two round bases and no corners. Right: only an object with two round bases is a cylinder.
+- **Thinking a ball has a flat face.** Wrong: "A ball has $1$ flat face." Why it is wrong: feel all over a ball and it is curved everywhere, with no flat part at all. Right: a sphere has $0$ flat faces.
+- **Forgetting the curved surface of a cylinder.** Wrong: "A tin has only $2$ flat faces." Why it is wrong: run your hand round the side of the tin and you feel a curved surface. Right: a tin has $2$ flat faces and $1$ curved surface.
+- **Mixing up a box with a cylinder.** Wrong: "A box with square corners is a cylinder." Why it is wrong: a box has corners, but a cylinder has two round bases and no corners. Right: only an object with two round bases is a cylinder.
 :::
 
 ## Key terms
@@ -113,10 +113,11 @@ So Nam should use the $4$ tins of milk.
 - A sphere has only $1$ curved surface and no flat faces. Examples: a ball, a marble.
 - A cylinder can be stacked because it has flat bases; a sphere rolls, so it does not stack steadily.
 - To tell which solid an object is, feel whether it has a flat face.
+Back to the opening question: why are the ball and the tin different? The tin has flat bases and the ball has none. Next time you pick up an object, feel for a flat face, and then try the practice questions.
 
 ## Practice
 
-Each exercise comes with what you need and how to start. Try it yourself first, then open the solution.
+Each exercise comes with what you need to know and a hint for how to start. Try it yourself first. If an answer is not right, that is fine: it shows you what to look at again. Then open the solution.
 
 :::exercise
 Is each object a cylinder or a sphere?

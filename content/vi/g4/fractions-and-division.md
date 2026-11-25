@@ -10,19 +10,20 @@ minutes: 15
 - Giải bài toán chia đều mà kết quả là một phân số.
 :::
 
-Cô giáo chia đều $3$ chiếc bánh cho $4$ bạn. Mỗi bạn được bao nhiêu phần của một chiếc bánh?
+Cô giáo chia đều $3$ chiếc bánh cho $4$ bạn. Mỗi bạn được bao nhiêu phần của một chiếc bánh? Số bánh ít hơn số bạn, nên mỗi bạn sẽ không được trọn một chiếc. Vậy các bạn được bao nhiêu?
 
-Em đã biết $12:4=3$. Nhưng $3:4$ thì không chia hết, và em cần một loại số mới để viết thương. Đó chính là phân số mà em vừa học.
+Em đã biết $12:4=3$, một phép chia chia hết. Nhưng $3:4$ thì không chia hết, và ta cần một loại số mới để viết thương. Đó chính là phân số mà em vừa học. Nhờ nó, những phép chia không chia hết cũng có thương để viết ra.
 
 ## Cùng khám phá
 
-Ta chia đều từng bước.
+Ta chia từng bước, đúng như cô giáo sẽ làm.
 
 - Cắt mỗi chiếc bánh thành $4$ phần bằng nhau. Mỗi phần là $\dfrac{1}{4}$ chiếc bánh.
 - Mỗi bạn lấy $1$ phần của chiếc bánh thứ nhất, $1$ phần của chiếc bánh thứ hai và $1$ phần của chiếc bánh thứ ba.
 - Vậy mỗi bạn có $3$ phần, mỗi phần là $\dfrac{1}{4}$ chiếc bánh.
+Em thấy không, cắt đều rồi chia đều thì ai cũng được số phần như nhau.
 
-Mỗi bạn được $\dfrac{3}{4}$ chiếc bánh. Ta thấy $3:4=\dfrac{3}{4}$.
+Mỗi bạn được $\dfrac{3}{4}$ chiếc bánh. Em để ý: $3:4=\dfrac{3}{4}$. Phép chia và phân số là hai cách viết của cùng một điều.
 
 :::graph Trên trục số: 3 : 4 là điểm 3/4, nằm giữa 0 và 1
 alt: Trục số từ 0 đến 1 chia thành 4 phần bằng nhau, đánh dấu các điểm 0, 3/4 và 1
@@ -39,7 +40,7 @@ Thương của phép chia số tự nhiên $a$ cho số tự nhiên $b$ (khác $
 $$a:b=\frac{a}{b}.$$
 :::
 
-Điều này đúng vì chia đều $a$ cái bánh cho $b$ bạn thì mỗi bạn được $a$ phần, mỗi phần là $\dfrac{1}{b}$ chiếc bánh, tức $\dfrac{a}{b}$.
+Vì sao lại như vậy? Vì chia đều $a$ cái bánh cho $b$ bạn thì mỗi bạn được $a$ phần, mà mỗi phần là $\dfrac{1}{b}$ chiếc bánh. Gộp lại, mỗi bạn có $\dfrac{a}{b}$ chiếc bánh.
 
 ## Ví dụ
 
@@ -53,7 +54,7 @@ $$2:5=\frac{2}{5}.$$
 Vậy mỗi bạn được $\dfrac{2}{5}$ chiếc bánh.
 :::
 
-Khi số bị chia lớn hơn số chia, phân số có tử số lớn hơn mẫu số. Điều đó vẫn đúng.
+Còn nếu số bị chia lớn hơn số chia thì sao? Khi đó phân số có tử số lớn hơn mẫu số. Điều đó vẫn đúng, em đừng thấy lạ.
 
 :::example Chia ruy-băng
 Chia đều $5$ m ruy-băng cho $4$ bạn. Mỗi bạn được bao nhiêu mét?
@@ -64,7 +65,7 @@ Vậy mỗi bạn được $\dfrac{5}{4}$ m. Trên trục số, $\dfrac{5}{4}$ n
 
 :::
 
-Mọi số tự nhiên cũng viết được dưới dạng phân số.
+Số tự nhiên cũng viết được dưới dạng phân số. Ta xem cách làm.
 
 :::example Viết số tự nhiên thành phân số
 Viết số $6$ và số $1$ dưới dạng phân số.
@@ -76,7 +77,7 @@ Chia $8$ cho $8$ được $1$, nên $1=\dfrac{8}{8}$. Ta có thể viết số $
 **Kiểm tra.** $\dfrac{6}{1}$ là $6$ phần, mỗi phần là một cái nguyên: được $6$ cái nguyên. Đúng.
 :::
 
-Ta cũng đi theo chiều ngược lại: đọc một phân số như một phép chia.
+Ta cũng đi theo chiều ngược lại: nhìn một phân số và đọc nó như một phép chia.
 
 :::example Phân số là một phép chia
 Một sợi dây dài $9$ m được cắt thành $4$ đoạn bằng nhau. Mỗi đoạn dài bao nhiêu mét? Phân số $\dfrac{9}{4}$ là thương của phép chia nào?
@@ -111,10 +112,11 @@ Vậy mỗi đoạn dài $\dfrac{9}{4}$ m, và phân số $\dfrac{9}{4}$ là th�
 - Phân số có thể có tử số lớn hơn mẫu số, ví dụ $5:4=\dfrac{5}{4}$.
 - Số tự nhiên $a$ viết được thành $\dfrac{a}{1}$; số $1$ viết được thành $\dfrac{b}{b}$.
 - Không chia cho $0$.
+Quay lại câu hỏi về những chiếc bánh: khi chia không hết, thương không biến mất mà nằm ngay trong phân số. Em nhớ số bị chia ở trên, số chia ở dưới. Em làm thêm phần luyện tập để quen tay nhé.
 
 ## Luyện tập
 
-Mỗi bài có phần kiến thức và gợi ý. Em hãy tự làm trước, rồi mới bấm xem lời giải.
+Mỗi bài có phần kiến thức cần nhớ và gợi ý để bắt đầu. Em cứ tự làm trước, vướng chỗ nào thì mới bấm xem lời giải. Làm sai một lần cũng không sao, vì lúc đó em học được nhiều nhất.
 
 :::exercise
 Viết thương của phép chia $3:5$ dưới dạng phân số.

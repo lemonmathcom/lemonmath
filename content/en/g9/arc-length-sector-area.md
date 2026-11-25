@@ -10,13 +10,13 @@ minutes: 20
 - Use the formulas in real-life problems (wheels, clocks, windscreen wipers).
 :::
 
-A car's windscreen wiper turns about a pivot $O$. The rubber blade is fixed on the arm from the point $10$ cm from $O$ to the point $50$ cm from $O$. On each sweep the arm turns through $120^\circ$. How many square centimetres of glass does one sweep clean?
+On a rainy day, a car's windscreen wiper sweeps across the glass. The wiper turns about a pivot $O$. The rubber blade is fixed on the arm from the point $10$ cm from $O$ to the point $50$ cm from $O$. On each sweep the arm turns through $120^\circ$. What shape is the cleaned part of the glass, and how many square centimetres does one sweep clean?
 
 ## Arc length
 
 ### Explore: split the circle into $360$ parts
 
-A circle of radius $R$ has circumference $C=2\pi R$. The whole circle corresponds to $360^\circ$, so an arc of $1^\circ$ has length $\dfrac{2\pi R}{360}=\dfrac{\pi R}{180}$. An arc of $n^\circ$ is $n$ times as long as an arc of $1^\circ$.
+To measure a curve, we cut it into equal small pieces. A circle of radius $R$ has circumference $C=2\pi R$. The whole circle corresponds to $360^\circ$, so an arc of $1^\circ$ has length $\dfrac{2\pi R}{360}=\dfrac{\pi R}{180}$. An arc of $n^\circ$ is made of $n$ such pieces, so it is $n$ times as long as an arc of $1^\circ$.
 
 :::theorem Arc length
 On a circle of radius $R$, an arc of $n^\circ$ has length
@@ -33,7 +33,7 @@ $$l=\frac{\pi\cdot6\cdot60}{180}=2\pi\approx6.28\ \text{(cm)}.$$
 So the arc is about $6.28$ cm long.
 :::
 
-From the formula, when we know $l$ and $R$ we can find $n$.
+The formula works both ways. When we know $l$ and $R$, we can find $n$.
 
 :::example Finding the measure of an arc
 An arc of a circle of radius $9$ cm has length $5\pi$ cm. Find the measure of the arc.
@@ -47,7 +47,7 @@ So the arc measures $100^\circ$.
 
 ## Area of a sector
 
-A sector is the part of a disc bounded by an arc and the two radii through its end points. A disc of area $\pi R^2$ corresponds to $360^\circ$, so a sector of $n^\circ$ has area $\dfrac{n}{360}$ of the area of the disc.
+Think of a slice cut from a round cake. A sector is like that: the part of a disc bounded by an arc and the two radii through its end points. It is found in the same way as an arc. A disc of area $\pi R^2$ corresponds to $360^\circ$, so a sector of $n^\circ$ has area $\dfrac{n}{360}$ of the area of the disc.
 
 :::theorem Area of a sector
 A sector of radius $R$ with an arc of $n^\circ$ has area
@@ -80,7 +80,7 @@ So the area of the sector is about $62.83$ cm².
 
 ## Area of an annulus
 
-An annulus is the region between two concentric circles. Its area is the area of the large disc minus the area of the small disc.
+An annulus is the region between two concentric circles, like the face of a flat ring. To find its area, take the whole large disc and remove the small disc inside. So its area is the area of the large disc minus the area of the small disc.
 
 :::theorem Area of an annulus
 The annulus between the circles $(O, R)$ and $(O, r)$, with $R>r$, has area
@@ -108,7 +108,7 @@ $$S=\pi\left(32^2-30^2\right)=\pi(1024-900)=124\pi\approx389.56\ \text{(m}^2\tex
 So the area of the path is about $389.56$ m².
 :::
 
-The glass cleaned in the opening problem is the part of an annulus inside an angle of $120^\circ$.
+The glass cleaned in the opening problem is the part of an annulus inside an angle of $120^\circ$. We put the two ideas together: the sector and the annulus.
 
 :::example The windscreen wiper
 Solve the opening problem (give your answer to the nearest whole number).
@@ -121,8 +121,8 @@ So one sweep cleans about $2513$ cm² of glass.
 :::
 
 :::warning Common mistakes
-- **Mixing up the two formulas.** Wrong: an arc of $90^\circ$ on a circle of radius $4$ has length $\dfrac{\pi\cdot4^2\cdot90}{360}=4\pi$. Why it is wrong: that is the area of the sector. Right: $l=\dfrac{\pi\cdot4\cdot90}{180}=2\pi$.
-- **Using the difference of the radii for an annulus.** Wrong: $S=\pi(R-r)^2$. Why it is wrong: we must subtract two areas. Right: $S=\pi\left(R^2-r^2\right)$.
+- **Mixing up the two formulas.** Some people write that an arc of $90^\circ$ on a circle of radius $4$ has length $\dfrac{\pi\cdot4^2\cdot90}{360}=4\pi$. That is the formula for the area of a sector, not for arc length. Right: $l=\dfrac{\pi\cdot4\cdot90}{180}=2\pi$.
+- **Using the difference of the radii for an annulus.** Some people write $S=\pi(R-r)^2$. We must subtract two areas, not two radii. Right: $S=\pi\left(R^2-r^2\right)$.
 - **Using the diameter instead of the radius.** Read carefully: a wheel "of diameter $70$ cm" has $R=35$ cm.
 :::
 
@@ -140,13 +140,14 @@ So one sweep cleans about $2513$ cm² of glass.
 ## Summary
 
 - Circumference $C=2\pi R$; area of a disc $\pi R^2$.
-- Arc of $n^\circ$: $l=\dfrac{\pi Rn}{180}$.
-- Sector of $n^\circ$: $S=\dfrac{\pi R^2n}{360}=\dfrac{lR}{2}$.
-- Annulus: $S=\pi\left(R^2-r^2\right)$.
+- An arc of $n^\circ$ has length $l=\dfrac{\pi Rn}{180}$.
+- A sector of $n^\circ$ has area $S=\dfrac{\pi R^2n}{360}=\dfrac{lR}{2}$.
+- An annulus has area $S=\pi\left(R^2-r^2\right)$.
+The wiper question has its answer: the cleaned glass is the difference of two sectors, and we can find its area. The thing to remember is to decide whether you are finding a length or an area before you choose a formula.
 
 ## Practice
 
-Each exercise comes with what you need and some steps to start. Try it yourself first, then open the solution.
+Each exercise comes with what you need to know and some steps to start. Try it yourself first, and open the solution when you are stuck. A little patience now will make the formulas feel natural.
 
 :::exercise
 Find the length of an arc of $45^\circ$ on a circle of radius $12$ cm (give your answer to 2 decimal places).

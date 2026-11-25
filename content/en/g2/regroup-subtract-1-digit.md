@@ -12,21 +12,21 @@ minutes: 15
 
 The teacher has $42$ pencils. She gives $6$ pencils to the children. How many pencils does she have left?
 
-You have learnt addition with regrouping in the last lessons. This lesson is about subtraction with regrouping, and you will see that the two are "opposites".
+Look at the ones: there are not enough of them for the teacher to give away. So how can she take them away? You have already added with regrouping: when there are too many ones, we gather them into a ten. Subtraction with regrouping works the other way round: when there are too few ones, we exchange a ten for ones. By the end you will be able to answer the teacher's question.
 
 ## Let's explore
 
-We split $42$ into $4$ tens and $2$ ones. We need to take away $6$ ones.
+Let's split the $42$ pencils into $4$ tens and $2$ ones. The teacher gives away $6$, so we need to take away $6$ ones.
 
-- The ones place has only $2$ ones, which is not enough to take away $6$.
-- We exchange $1$ ten for $10$ ones. Now there are $3$ tens, and the ones are $2+10=12$ ones.
-- Take away the ones: $12-6=6$. The tens are still $3$.
+- The ones place has only $2$ ones, but we need to take away $6$. There are not enough.
+- So we exchange $1$ ten for $10$ ones. That leaves $3$ tens, and the ones become $2+10=12$ ones.
+- Now we can take away: $12-6=6$. The tens are still $3$.
 
-So there are $3$ tens and $6$ ones, which is $36$.
+Put together, that is $3$ tens and $6$ ones, which is $36$. That answers the teacher's question.
 
 $$\begin{array}{r} 42\\ -\ \ 6\\ \hline 36 \end{array}$$
 
-You can also jump back on a number line: from $42$ jump back $2$ to reach $40$, then jump back $4$ more to reach $36$.
+There is another way. On a number line, jump back $2$ from $42$ to reach $40$, then jump back $4$ more to reach $36$. Both ways give the same answer.
 
 :::graph On the number line: from 42 jump back 2 to reach 40, then jump back 4 to reach 36
 alt: A number line from 34 to 44 with the points 36, 40 and 42 marked and the stretch from 36 to 42 highlighted
@@ -45,11 +45,11 @@ To work out $42-6$:
 3. Tens: $4$ take away the $1$ ten you borrowed leaves $3$. Write $3$.
 :::
 
-This works because $1$ ten is the same as $10$ ones. We only change how the number is written; no pencil is lost or added.
+Why are we allowed to do this? Because $1$ ten is the same as $10$ ones. We only change how we count the pencils; none is lost and none is added.
 
 ## Examples
 
-We start with a subtraction where the ones are only a little too small.
+Let's try one where the ones are only a little too small.
 
 :::example Work out $32-5$
 **Solution.** Ones: $2$ is too small to take away $5$, so borrow $1$ ten to make $12$. Work out $12-5=7$. Tens: $3-1=2$:
@@ -57,7 +57,7 @@ $$\begin{array}{r} 32\\ -\ \ 5\\ \hline 27 \end{array}$$
 So $32-5=27$.
 :::
 
-The next subtraction is done in exactly the same way, with different numbers.
+This one is done in exactly the same way, with different numbers. Before you read on, ask yourself: are there enough ones to take away?
 
 :::example Work out $54-8$
 **Solution.** Ones: borrow $1$ ten, $14-8=6$. Tens: $5-1=4$:
@@ -65,7 +65,7 @@ $$\begin{array}{r} 54\\ -\ \ 8\\ \hline 46 \end{array}$$
 So $54-8=46$.
 :::
 
-Now the ones are only $1$, so we need to borrow more ones.
+This time there is only $1$ one, so we are further short than before and the borrowed ten has to give us more ones.
 
 :::example Work out $81-7$
 **Solution.** Ones: $1$ is too small to take away $7$, so borrow $1$ ten to make $11$. Work out $11-7=4$. Tens: $8-1=7$:
@@ -75,7 +75,7 @@ So $81-7=74$.
 **Check.** Check with addition: $74+7=81$. Correct.
 :::
 
-Now use subtraction to solve a problem from everyday life.
+Subtraction with regrouping also turns up when we count things in a shop. Try this problem about exercise books.
 
 :::example A shop selling exercise books
 A shop has $63$ exercise books. It sells $8$ of them. How many exercise books does the shop have left?
@@ -86,9 +86,9 @@ So the shop has $55$ exercise books left.
 :::
 
 :::warning Mistakes to watch out for
-- **Taking the smaller digit from the bigger one.** Wrong: $42-6=44$. Why it is wrong: you worked out $6-2=4$ instead of borrowing a ten to work out $12-6$. Right: $42-6=36$.
-- **Borrowing a ten but not reducing the tens.** Wrong: $42-6=46$. Why it is wrong: you worked out $12-6=6$ but kept $4$ tens and forgot to take away the borrowed ten. Right: $42-6=36$.
-- **No unit in a word problem.** Wrong: "Answer: $55$". Right: "Answer: $55$ exercise books".
+- **Taking the smaller digit from the bigger one.** This is an easy slip to make. Wrong: $42-6=44$. Why it is wrong: you worked out $6-2=4$ instead of borrowing a ten to work out $12-6$. Right: $42-6=36$.
+- **Borrowing a ten but not reducing the tens.** Wrong: $42-6=46$. Why it is wrong: you worked out $12-6=6$ but kept $4$ tens and forgot to take away the borrowed ten. If a ten has gone over to the ones, there is one ten fewer in the tens. Right: $42-6=36$.
+- **No unit in a word problem.** Wrong: "Answer: $55$". A number always needs its unit. Right: "Answer: $55$ exercise books".
 :::
 
 ## Key terms
@@ -111,9 +111,11 @@ So the shop has $55$ exercise books left.
 - Example: $42-6$: $12-6=6$; $4-1=3$; the answer is $36$.
 - Check with addition: $36+6=42$.
 
+So the teacher has $36$ pencils left. When the ones are too few, exchange a ten for ones and then subtract. Try a few questions in the practice section to make the method your own.
+
 ## Practice
 
-Each exercise comes with what you need and how to start. Try it yourself first, then open the solution.
+Each exercise gives you what you need to remember and a hint to get started. Try it yourself first, look at the hint if you are stuck, and open the solution only when you have finished. A wrong answer is not a problem; putting it right is how you learn.
 
 :::exercise
 Work out $53-7$.

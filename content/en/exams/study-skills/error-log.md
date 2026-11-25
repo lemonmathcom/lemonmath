@@ -12,7 +12,7 @@ type: guide
 - Use the log to decide what to study next.
 :::
 
-Every wrong answer contains a lesson, but most students throw it away: they check the answer key, think "oh, I see", and move on. A week later they make the same mistake. An error log is a notebook, or a page in your phone, where mistakes are kept until they are fixed. It is the simplest revision tool there is, and one of the most effective, because it turns your own mistakes into a personal question bank that tests you exactly where you are weak.
+Every wrong answer contains a lesson, but most students throw it away: they check the answer key, think "oh, I see", and move on. A week later they make the same mistake. So how do you make a mistake happen only once? Keep an error log. It is a notebook, or a page in your phone, where mistakes are kept until they are fixed. It is the simplest revision tool there is, and one of the most effective, because it turns your own mistakes into a personal question bank that tests you exactly where you are weak.
 
 ## Four lines for each mistake
 
@@ -23,11 +23,11 @@ Every wrong answer contains a lesson, but most students throw it away: they chec
 | 3. The correct solution | Rewritten by you, not copied | Square, solve $x^2-11x+18=0$, check both values: only $x=9$ works. |
 | 4. The signal for next time | One short sentence you can recognize | "Square root equation → always check in the original." |
 
-Line 4 is the most important. It turns one problem into a rule that you will recognize in a different problem on exam day.
+Line 4 is the most important. It turns one problem into a small rule that you will recognise in a different problem on exam day.
 
 ## Five types of mistake
 
-Not all mistakes need the same fix. Sort each one into a type:
+Not all mistakes need the same fix, so first we need to know what kind of mistake it is. Sort each one into a type:
 
 | Type | What it looks like | The fix |
 |---|---|---|
@@ -37,7 +37,7 @@ Not all mistakes need the same fix. Sort each one into a type:
 | **Reading** | You answered a different question from the one asked | Underline the final question before starting; reread it before answering |
 | **Time** | You could have done it but ran out of time | Practise mixed timed sets; learn when to skip and come back |
 
-After two or three weeks, count the types. The counts tell you what to do next. Many students are surprised to find that half their lost marks are **reading** and **calculation** mistakes, which no amount of new theory will fix.
+After two or three weeks, count the types. The counts tell you what to do next. Many students are surprised to find that half their lost marks are **reading** and **calculation** mistakes. For these two types, no amount of new theory will help; what you need to practise is a habit.
 
 ## Two worked examples
 
@@ -67,22 +67,22 @@ After two or three weeks, count the types. The counts tell you what to do next. 
 
 ## The weekly redo routine
 
-Once a week, for 20 to 30 minutes:
+Once a week, spend 20 to 30 minutes on this:
 
 1. Cover lines 2 to 4 of every entry from the past weeks.
 2. Redo each problem on a blank sheet, without looking.
-3. If you get it right, put a tick next to it. If it is wrong again, write a new line 2: the mistake may have changed.
+3. If you get it right, put a tick next to it. If it is wrong again, write a new line 2, because the mistake may have changed.
 4. When an entry has **two ticks in two different weeks**, cross it out. It is fixed.
 
-This routine applies spaced practice and self-testing, the two techniques rated most useful in the review described in [Revision that works](lesson:evidence-based-revision). The gap of a week is what makes the second tick meaningful: getting a problem right straight after reading its solution proves very little.
+This routine uses spaced practice and self-testing, the two techniques rated most useful in the review described in [Revision that works](lesson:evidence-based-revision). Why leave a gap of a week? Because getting a problem right straight after reading its solution proves very little, while getting it right a week later makes the second tick meaningful.
 
 :::tip Paper or phone?
-Either works. A paper notebook is easy to carry into a quiet room and has no distractions. A phone album with photos of each problem, and the four lines written as a caption, is fast. Choose the one you will actually keep using.
+Either works. A paper notebook is easy to carry into a quiet room and has no distractions. A phone album with a photo of each problem, and the four lines written as a caption, is very quick. Choose the one you will actually keep using.
 :::
 
 ## Using the log to plan
 
-At the end of each week, look at the log as data:
+At the end of each week, look at the log as data and ask yourself:
 
 - **Which topics appear most often?** They go to the top of next week's plan.
 - **Which types appear most often?** Concept mistakes mean more lessons; calculation and reading mistakes mean slower, more careful habits; time mistakes mean more mixed timed practice.
@@ -90,8 +90,8 @@ At the end of each week, look at the log as data:
 
 :::warning Common traps
 - **Copying the answer key into line 3.** If you copy, you have not tested yourself. Close the key and write the solution from your understanding.
-- **Logging only "big" mistakes.** Small sign errors cost the same marks as big ones.
-- **Never redoing the problems.** A log that is only written and never reread is just a list of bad memories.
+- **Logging only "big" mistakes.** Many students slip here: small sign errors cost the same marks as big ones.
+- **Never redoing the problems.** A log that is only written and never reread is just a list of bad memories. It helps only when you open it every week.
 :::
 
 ## References

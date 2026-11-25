@@ -10,15 +10,17 @@ minutes: 15
 - Solve problems that ask how many units we can get for a given amount.
 :::
 
-Mum buys $4$ exercise books for $24\,000$ dong. How much do $7$ books of the same kind cost?
+Mum buys $4$ exercise books for $24\,000$ dong. How much do $7$ books of the same kind cost? This happens in shops all the time: we know the price of a few things and want the price of a different number.
 
-You cannot see the price of $7$ books straight away. But if you know the price of one book, the problem becomes much easier.
+You cannot see the price of $7$ books straight away. But if you know the price of one book, the problem becomes much easier. So the first job is to find the price of one book. We start the same way for every problem of this kind.
 
 ## Let's explore
 
-We go step by step.
+We go step by step. Try each one in your head first.
 
-- Step 1: $4$ books cost $24\,000$ dong. Shared equally, how much is one book?
+- Step 1: $4$ books cost $24\,000$ dong. If we share that money equally, how much is one book?
+
+The table below records each step.
 
 | Number of books | Cost |
 |---|---|
@@ -28,7 +30,9 @@ We go step by step.
 
 - Step 2: one book costs $6\,000$ dong, so $7$ books cost $7$ times as much.
 
-So $7$ books cost $42\,000$ dong. This is called the **unitary method**: we go down to the cost of one book first.
+Every book costs the same, so each extra book adds one more lot of that price.
+
+So $7$ books cost $42\,000$ dong. This is called the **unitary method**: we go down to the cost of one book first, then build up to what the question asks.
 
 :::theorem The unitary method
 We know the value of several units and want the value of a different number of units:
@@ -36,11 +40,11 @@ We know the value of several units and want the value of a different number of u
 2. Find the value asked for: multiply the value of one unit by the number of units needed.
 :::
 
-This works because every book costs the same. So $7$ books cost $7$ times as much as one book.
+Why does this work? Every book costs the same. So $7$ books cost $7$ times as much as one book. If the books had different prices, it would not work, so look out for words such as "of the same kind" or "identical" in the question.
 
 ## Examples
 
-We start with a problem about amounts.
+We start with a problem about amounts: sweets in packets.
 
 :::example Packets of sweets
 $6$ identical packets hold $48$ sweets. How many sweets are in $9$ packets like these?
@@ -50,7 +54,7 @@ $$48\div6=8\ \text{(sweets)},\qquad 8\times9=72\ \text{(sweets)}.$$
 So $9$ packets hold $72$ sweets.
 :::
 
-Problems about travelling work in the same way.
+Problems about travelling work in exactly the same way. Here the "one unit" is one hour.
 
 :::example Cycling
 A child cycles at a steady speed and goes $36$ km in $4$ hours. How far does the child go in $7$ hours?
@@ -60,7 +64,7 @@ $$36\div4=9\ \text{(km)},\qquad 9\times7=63\ \text{(km)}.$$
 So in $7$ hours the child goes $63$ km.
 :::
 
-Now a problem with bigger sums of money.
+Now a problem with bigger sums of money. The steps are just the same.
 
 :::example Buying rice
 $5$ kg of rice cost $75\,000$ dong. How much do $8$ kg of the same rice cost?
@@ -70,7 +74,7 @@ $$75\,000\div5=15\,000\ \text{(dong)},\qquad 15\,000\times8=120\,000\ \text{(don
 So $8$ kg of rice cost $120\,000$ dong.
 :::
 
-There is another kind: we know the money and ask how many we can buy. Then step 2 is a division.
+There is another kind: we know the money and ask how many we can buy. The first step is still to find the cost of one unit. The second step is now a division, because we are asking how many times that cost fits into the money we have.
 
 :::example Buying oranges
 $12$ oranges cost $60\,000$ dong. How many oranges of the same kind can we buy with $45\,000$ dong?
@@ -86,6 +90,8 @@ So $45\,000$ dong buys $9$ oranges.
 - **Multiplying straight away.** Wrong: $24\,000\times7$. Why it is wrong: $24\,000$ is the cost of $4$ books, not $1$. Right: divide by $4$ first.
 - **Dividing by the wrong number.** Wrong: $24\,000\div7$. Why it is wrong: divide by the number of books we know the cost of, which is $4$. Right: $24\,000\div4=6\,000$.
 - **Forgetting the unit.** Wrong: "Answer: $42\,000$". Right: "Answer: $42\,000$ dong".
+
+Many pupils slip here, especially when hurrying. Read the question again and check which number goes with how many books before you calculate.
 :::
 
 ## Key terms
@@ -108,9 +114,11 @@ So $45\,000$ dong buys $9$ oranges.
 - Example: $24\,000\div4=6\,000$, then $6\,000\times7=42\,000$.
 - Write the unit in every calculation and in the answer.
 
+Back to Mum's problem: to find the price of several books, find the price of one book first. That is the thing to remember, because you will meet it again in many other problems. Try the practice questions to get used to it.
+
 ## Practice
 
-Each exercise comes with what you need and how to start. Try it yourself first, then open the solution.
+Each exercise comes with what you need and how to start. Try it yourself first, then open the solution. Getting one wrong is fine, because a mistake usually shows you exactly what to remember.
 
 :::exercise
 $3$ exercise books cost $18\,000$ dong. How much does one book cost?

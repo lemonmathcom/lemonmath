@@ -12,16 +12,16 @@ minutes: 15
 
 Trường A có $428$ học sinh. Trường B có $482$ học sinh. Trường nào đông học sinh hơn?
 
-Em đã biết cách viết số có ba chữ số thành tổng. Bài này giúp em so sánh hai số có ba chữ số một cách nhanh và đúng.
+Em đã biết viết số có ba chữ số thành tổng các trăm, chục và đơn vị. Nhờ vậy, so sánh hai số như thế cũng không khó: ta chỉ cần biết nhìn vào đâu trước. Em sẽ thấy vì sao phải bắt đầu từ hàng trăm.
 
 ## Cùng khám phá
 
 Ta viết hai số thành tổng:
 $$428=400+20+8,\qquad 482=400+80+2.$$
 
-Hai số có cùng $4$ trăm. Ta so sánh tiếp hàng chục: $2$ chục bé hơn $8$ chục. Vậy $428<482$.
+Hai số đều có $4$ trăm nên hàng trăm chưa phân biệt được. Ta so sánh tiếp hàng chục: $2$ chục bé hơn $8$ chục. Vậy $428<482$, tức là trường B đông học sinh hơn.
 
-Trên tia số, số nào đứng bên phải thì lớn hơn:
+Tia số cũng cho ta thấy điều đó. Số nào đứng bên phải thì lớn hơn:
 
 :::graph Trên tia số: 378 đứng bên phải 352 nên 378 lớn hơn 352
 alt: Tia số từ 340 đến 390, đánh dấu các điểm 352 và 378; điểm 378 nằm bên phải điểm 352
@@ -40,11 +40,11 @@ So sánh từng hàng từ trái sang phải:
 4. Nếu cả ba hàng bằng nhau thì hai số bằng nhau.
 :::
 
-Ta bắt đầu từ hàng trăm vì một trăm lớn hơn bất kì số chục hay đơn vị nào đi kèm: $1$ trăm là $10$ chục, nhiều hơn $9$ chục.
+Vì sao phải xét hàng trăm trước? Vì hàng trăm có giá trị lớn nhất. Chỉ riêng $1$ trăm đã là $10$ chục, nhiều hơn $9$ chục. Vì thế khi hàng trăm đã khác nhau, số chục và số đơn vị đi kèm không làm đổi được kết quả.
 
 ## Ví dụ
 
-Ta bắt đầu với hai số khác nhau ở hàng trăm.
+Trước hết, hai số khác nhau ngay ở hàng trăm. Chỉ cần nhìn hàng trăm là xong.
 
 :::example So sánh hàng trăm
 So sánh $476$ và $534$.
@@ -54,7 +54,7 @@ $$476<534.$$
 Vậy $476<534$.
 :::
 
-Bây giờ hai số có cùng hàng trăm.
+Nếu hai số có cùng hàng trăm thì sao? Ta so tiếp hàng chục.
 
 :::example So sánh hàng chục
 So sánh $352$ và $378$.
@@ -64,7 +64,7 @@ $$352<378.$$
 Vậy $352<378$.
 :::
 
-Tiếp theo hai số có cùng hàng trăm và hàng chục.
+Còn khi hàng trăm và hàng chục đều giống nhau, ta phải nhìn đến hàng đơn vị.
 
 :::example So sánh hàng đơn vị
 So sánh $641$ và $647$.
@@ -74,7 +74,7 @@ $$641<647.$$
 Vậy $641<647$.
 :::
 
-Cuối cùng em sắp xếp nhiều số theo thứ tự.
+Với nhiều số, ta cũng so sánh từng hàng như vậy để xếp thứ tự.
 
 :::example Xếp thứ tự
 Xếp các số $325, 235, 253$ từ bé đến lớn.
@@ -85,9 +85,9 @@ Vậy thứ tự từ bé đến lớn là $235, 253, 325$.
 :::
 
 :::warning Những lỗi em hay gặp
-- **So sánh hàng đơn vị trước.** Sai: "$349>351$ vì $9>1$". Vì sao sai: phải so sánh hàng trăm trước. Hàng trăm $3$ và $3$ bằng nhau, hàng chục $4<5$. Đúng: $349<351$.
-- **Quên so sánh hàng tiếp theo khi hàng trước bằng nhau.** Sai: "$352=358$ vì cùng $35$". Vì sao sai: hàng đơn vị $2<8$. Đúng: $352<358$.
-- **Quay sai đầu nhọn của dấu.** Sai: $476>534$. Vì sao sai: đầu nhọn quay về số bé hơn. Đúng: $476<534$.
+- **So sánh hàng đơn vị trước.** Sai: "$349>351$ vì $9>1$". Vì sao sai: ta luôn bắt đầu từ hàng trăm. Hàng trăm $3$ và $3$ bằng nhau, nên xét tiếp hàng chục: $4<5$. Đúng: $349<351$.
+- **Quên so sánh hàng tiếp theo khi hàng trước bằng nhau.** Sai: "$352=358$ vì cùng $35$". Vì sao sai: hai hàng đầu giống nhau, nhưng hàng đơn vị thì khác: $2<8$. Đúng: $352<358$.
+- **Quay sai đầu nhọn của dấu.** Sai: $476>534$. Vì sao sai: số đứng trước là số bé hơn, mà đầu nhọn phải quay về số bé hơn. Đúng: $476<534$.
 :::
 
 ## Thuật ngữ
@@ -108,10 +108,11 @@ Vậy thứ tự từ bé đến lớn là $235, 253, 325$.
 - Hàng nào khác nhau đầu tiên thì quyết định số nào lớn hơn.
 - Đầu nhọn của dấu $>$ hoặc $<$ quay về số bé hơn.
 - Xếp từ bé đến lớn: bắt đầu từ số bé nhất.
+Quay lại câu hỏi đầu bài: trường nào đông học sinh hơn? Chỉ cần so từng hàng, bắt đầu từ hàng trăm, là có câu trả lời. Em nhớ hàng khác nhau đầu tiên sẽ quyết định, rồi thử sức ở phần luyện tập nhé.
 
 ## Luyện tập
 
-Mỗi bài có phần kiến thức và gợi ý. Em hãy tự làm trước, rồi mới bấm xem lời giải.
+Mỗi bài có phần kiến thức cần nhớ và gợi ý cách bắt đầu. Em cứ tự làm trước. Làm chưa đúng cũng không sao, vì như thế em biết chỗ nào cần xem lại. Xong rồi hãy bấm xem lời giải.
 
 :::exercise
 Điền dấu $>$, $<$ hoặc $=$.

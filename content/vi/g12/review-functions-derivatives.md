@@ -11,9 +11,9 @@ minutes: 40
 - Đọc bảng biến thiên, đồ thị; đếm số nghiệm của phương trình $f(x)=k$; nhận dạng hàm số từ đồ thị.
 :::
 
-Chủ đề này thường có mặt ở cả ba phần của đề: vài câu ngắn ở Phần I (đọc bảng biến thiên, tìm tiệm cận), thường một câu đúng/sai về một hàm số ở Phần II, và một hai câu giá trị lớn nhất, nhỏ nhất ở Phần III, tổng cộng thường khoảng $1{,}5$ đến $2{,}5$ điểm.
+Hàm số và đạo hàm có mặt ở cả ba phần của đề, nên ôn chắc chỗ này có lợi cho cả bài thi. Phần I có vài câu ngắn (đọc bảng biến thiên, tìm tiệm cận). Phần II thường có một câu đúng/sai về một hàm số. Phần III có một hai câu về giá trị lớn nhất, nhỏ nhất. Cộng lại, chủ đề này thường đáng khoảng $1{,}5$ đến $2{,}5$ điểm. Vậy cần nắm những gì để câu nào về hàm số cũng làm được?
 
-Chi tiết nằm ở các bài [cực trị](lesson:monotonicity-extrema), [giá trị lớn nhất, nhỏ nhất](lesson:max-min-values), [tiệm cận](lesson:asymptotes) và [khảo sát hàm số](lesson:graphing-functions).
+Bài này không dạy lại từ đầu, mà gom những gì hay gặp nhất vào một chỗ. Nếu chỗ nào còn lơ mơ, bạn có thể quay lại các bài [cực trị](lesson:monotonicity-extrema), [giá trị lớn nhất, nhỏ nhất](lesson:max-min-values), [tiệm cận](lesson:asymptotes) và [khảo sát hàm số](lesson:graphing-functions) để xem kĩ hơn.
 
 ## Tính đơn điệu và cực trị
 
@@ -23,7 +23,7 @@ Chi tiết nằm ở các bài [cực trị](lesson:monotonicity-extrema), [giá
 - Nghiệm bội chẵn của $f'$ (như $(x-2)^2$) làm $f'$ bằng $0$ nhưng **không đổi dấu**, nên không phải điểm cực trị.
 :::
 
-Dạng câu hỏi thường gặp: cho $f'(x)$ dạng tích, hỏi khoảng đồng biến, nghịch biến hoặc số điểm cực trị; cho hàm bậc ba, bậc bốn, hỏi giá trị cực đại, cực tiểu.
+Ở phần này, đề thường cho $f'(x)$ dưới dạng tích rồi hỏi khoảng đồng biến, nghịch biến hoặc số điểm cực trị. Cũng có khi đề cho hàm bậc ba, bậc bốn và hỏi giá trị cực đại, cực tiểu. Với dạng thứ nhất, mọi việc quy về một thao tác: xét dấu của đạo hàm. Vì sao? Vì đạo hàm dương thì hàm đi lên, đạo hàm âm thì hàm đi xuống, nên chỗ đạo hàm đổi dấu chính là chỗ hàm đổi chiều.
 
 :::example Trắc nghiệm: đọc dấu của đạo hàm
 Hàm số $y=f(x)$ có đạo hàm $f'(x)=(x+1)(x-2)^2$ với mọi $x\in\mathbb{R}$. Hàm số nghịch biến trên khoảng nào dưới đây?
@@ -39,7 +39,7 @@ $$f'(x)<0\iff x<-1,\qquad f'(x)\ge0\ \text{khi}\ x\ge-1.$$
 Vậy hàm số nghịch biến trên $(-\infty; -1)$, chọn **A**. Hàm số chỉ có một điểm cực trị là $x=-1$; tại $x=2$ đạo hàm không đổi dấu.
 :::
 
-Với câu đúng/sai, ta tính đạo hàm và các giá trị cực trị một lần cho cả bốn ý.
+Câu đúng/sai có bốn ý, nhưng thường chỉ xoay quanh một hàm số. Vì vậy ta tính đạo hàm và các giá trị cực trị một lần, rồi dùng chung cho cả bốn ý.
 
 :::example Đúng/sai: một hàm bậc ba
 Cho hàm số $f(x)=-x^3+3x^2+9x-2$.
@@ -72,7 +72,7 @@ d) **Đúng**: hai điểm cực trị là $(-1; -7)$ và $(3; 25)$, hệ số g
 2. Tính $f$ tại các điểm đó và tại $a$, $b$.
 3. Số lớn nhất là $\max\limits_{[a; b]}f$, số nhỏ nhất là $\min\limits_{[a; b]}f$.
 
-Trên một **khoảng**, ta lập bảng biến thiên.
+Còn trên một **khoảng** thì không có đầu mút để so sánh, nên ta lập bảng biến thiên để xem hàm tăng giảm ra sao.
 :::
 
 :::example Trả lời ngắn: tổng giá trị lớn nhất và nhỏ nhất
@@ -98,7 +98,7 @@ Vậy $M=10$, $m=-22$ và $M+m=-12$. Đáp số ghi vào phiếu: $-12$.
 - Với $y=\dfrac{ax+b}{cx+d}$ ($c\ne0$, $ad-bc\ne0$): tiệm cận đứng $x=-\dfrac dc$, tiệm cận ngang $y=\dfrac ac$.
 :::
 
-Bẫy hay gặp: mẫu số bằng $0$ tại $x_0$ nhưng tử số cũng bằng $0$ tại đó; sau khi rút gọn, $x_0$ có thể không còn là tiệm cận đứng.
+Chỗ này nhiều bạn hay nhầm: mẫu số bằng $0$ tại $x_0$ chưa chắc đã cho tiệm cận đứng. Nếu tử số cũng bằng $0$ tại đó, ta phải rút gọn trước. Sau khi rút gọn, $x_0$ có thể không còn là tiệm cận đứng.
 
 :::example Trắc nghiệm: đếm tiệm cận
 Đồ thị hàm số $y=\dfrac{x^2-1}{x^2-3x+2}$ có tất cả bao nhiêu đường tiệm cận đứng và tiệm cận ngang?
@@ -118,7 +118,7 @@ Vậy có $2$ đường tiệm cận, chọn **A**. Phương án B tính nhầm 
 
 ## Bảng biến thiên và đọc đồ thị
 
-Từ bảng biến thiên hoặc đồ thị, ta đọc được khoảng đơn điệu, cực trị, giá trị lớn nhất, nhỏ nhất và **số nghiệm** của phương trình $f(x)=k$: đó là số giao điểm của đồ thị với đường thẳng nằm ngang $y=k$.
+Bảng biến thiên và đồ thị cho ta khá nhiều thông tin: khoảng đơn điệu, cực trị, giá trị lớn nhất, nhỏ nhất. Riêng **số nghiệm** của phương trình $f(x)=k$ thì cần nghĩ thêm một chút. Nghiệm của phương trình là hoành độ giao điểm, nên số nghiệm chính là số giao điểm của đồ thị với đường thẳng nằm ngang $y=k$. Bạn cứ hình dung kéo một thanh ngang lên xuống và đếm xem nó cắt đồ thị ở mấy chỗ.
 
 :::example Đúng/sai: đọc bảng biến thiên
 Cho hàm số $y=f(x)$ liên tục trên $\mathbb{R}$ và có bảng biến thiên:
@@ -144,7 +144,7 @@ d) **Sai**: đường thẳng $y=3$ chỉ chạm đồ thị tại điểm cực
 Đáp án: Đ S Đ S.
 :::
 
-Để nhận dạng hàm bậc ba $y=ax^3+bx^2+cx+d$ từ đồ thị, ta kiểm tra lần lượt: nhánh phải đi lên thì $a>0$; giao điểm với trục tung là $(0; d)$; hoành độ hai điểm cực trị là nghiệm của $y'$.
+Muốn biết một đồ thị cho trước là của hàm bậc ba $y=ax^3+bx^2+cx+d$ nào, ta lần lượt hỏi đồ thị ba câu. Nhánh bên phải đi lên hay đi xuống? Nếu đi lên thì $a>0$. Đồ thị cắt trục tung ở đâu? Giao điểm là $(0; d)$, nên ta đọc ngay được hệ số tự do. Hai điểm cực trị có hoành độ bằng bao nhiêu? Hai hoành độ ấy là nghiệm của $y'$.
 
 :::graph Đồ thị của một hàm bậc ba
 alt: Đồ thị hàm bậc ba đi lên đến điểm cực đại (1; 3), đi xuống đến điểm cực tiểu (3; -1) rồi đi lên, cắt trục tung tại (0; -1)
@@ -169,10 +169,10 @@ Kiểm tra A: $y'=3(x-1)(x-3)$, $y(1)=3$, $y(3)=-1$, khớp với hình. Chọn 
 :::
 
 :::warning Những sai lầm thường gặp
-- **Coi mọi nghiệm của $f'$ là cực trị.** Sai: "$f'=(x+1)(x-2)^2$ nên có $2$ điểm cực trị". Đúng: tại $x=2$, $f'$ không đổi dấu; chỉ có $1$ điểm cực trị.
-- **Nhầm điểm cực trị với giá trị cực trị.** Điểm cực đại là $x_0$, giá trị cực đại là $f(x_0)$, điểm cực đại của đồ thị là $(x_0; f(x_0))$. Đọc kĩ đề hỏi cái nào.
-- **Quên đầu mút.** Giá trị lớn nhất trên đoạn có thể đạt tại đầu mút, không nhất thiết tại điểm cực đại.
-- **Không rút gọn trước khi tìm tiệm cận đứng.** Nghiệm chung của tử và mẫu có thể không phải tiệm cận.
+- **Coi mọi nghiệm của $f'$ là cực trị.** Chỗ này nhiều bạn hay nhầm. Sai: "$f'=(x+1)(x-2)^2$ nên có $2$ điểm cực trị". Đúng: tại $x=2$, $f'$ không đổi dấu, nên chỉ có $1$ điểm cực trị.
+- **Nhầm điểm cực trị với giá trị cực trị.** Điểm cực đại là $x_0$, giá trị cực đại là $f(x_0)$, điểm cực đại của đồ thị là $(x_0; f(x_0))$. Ba thứ này khác nhau, nên hãy đọc kĩ đề đang hỏi cái nào.
+- **Quên đầu mút.** Trên một đoạn, giá trị lớn nhất có thể nằm ở đầu mút chứ không nhất thiết ở điểm cực đại, nên ta luôn tính cả hai đầu.
+- **Không rút gọn trước khi tìm tiệm cận đứng.** Nghiệm chung của tử và mẫu có thể không cho tiệm cận nào cả, vì sau khi rút gọn nó biến mất khỏi mẫu.
 :::
 
 ## Thuật ngữ
@@ -191,7 +191,7 @@ Kiểm tra A: $y'=3(x-1)(x-3)$, $y(1)=3$, $y(3)=-1$, khớp với hình. Chọn 
 
 ## Bài tập
 
-Mỗi bài có phần kiến thức và gợi ý các bước. Hãy tự làm trước, rồi mới bấm xem lời giải.
+Mỗi bài có phần kiến thức cần dùng và vài bước gợi ý để bạn bắt đầu. Bạn thử tự làm trước, rồi hãy bấm xem lời giải. Sai một lần rồi tự tìm ra chỗ sai thường nhớ lâu hơn là đọc lời giải ngay.
 
 :::exercise Trắc nghiệm
 Hàm số $y=x^4-2x^2+1$ có bao nhiêu điểm cực trị?

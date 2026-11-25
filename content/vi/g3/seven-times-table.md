@@ -10,13 +10,13 @@ minutes: 15
 - Giải bài toán có lời văn bằng một phép nhân hoặc một phép chia.
 :::
 
-Một tuần lễ có $7$ ngày. Hỏi $5$ tuần lễ có bao nhiêu ngày?
+Khi chờ một việc gì đó, ta hay đếm theo tuần chứ ít khi đếm từng ngày. Một tuần lễ có $7$ ngày. Hỏi $5$ tuần lễ có bao nhiêu ngày?
 
-Em có thể cộng $7+7+7+7+7$, nhưng cộng nhiều lần thì dễ nhầm. Bài này giúp em tính nhanh bằng bảng nhân $7$.
+Em có thể cộng $7+7+7+7+7$ và sẽ ra đáp số. Chỉ có điều cộng nhiều lần thì chậm, lại dễ nhầm. Bảng nhân $7$ là đường tắt: thuộc rồi, em có đáp số ngay.
 
 ## Cùng khám phá
 
-Mỗi tuần là một nhóm $7$ ngày. Ta cộng dần từng tuần:
+Mỗi tuần là một nhóm $7$ ngày. Ta cộng dần từng tuần để xem các số hiện ra thế nào:
 
 - $1$ tuần: $7$ ngày.
 - $2$ tuần: $7+7=14$ ngày.
@@ -24,7 +24,7 @@ Mỗi tuần là một nhóm $7$ ngày. Ta cộng dần từng tuần:
 - $4$ tuần: $21+7=28$ ngày.
 - $5$ tuần: $28+7=35$ ngày.
 
-Vậy $5$ tuần có $35$ ngày, tức là $7\times5=35$. Mỗi lần thêm một tuần, tích tăng thêm $7$.
+Vậy $5$ tuần có $35$ ngày, ta viết $7\times5=35$. Em để ý: mỗi lần thêm một tuần, tích tăng thêm $7$. Bảng nhân $7$ được xây lên đúng như thế, mỗi nhóm thêm một lần.
 
 :::graph Trên tia số: mỗi bước nhảy 7 đơn vị
 alt: Tia số từ 0 đến 42 đánh dấu các điểm 0, 7, 14, 21, 28, 35 và 42, mỗi điểm cách điểm trước 7 đơn vị
@@ -40,7 +40,7 @@ point: (35, 0) "35" above
 point: (42, 0) "42" below
 :::
 
-Em còn một mẹo nữa: $7=5+2$, nên $7\times4=5\times4+2\times4=20+8=28$.
+Em còn một cách nữa để nhớ. Ta tách $7=5+2$, hai số nhỏ mà em đã quen tay. Khi đó $7\times4=5\times4+2\times4=20+8=28$.
 
 :::theorem Bảng nhân 7
 Muốn tính $7\times n$, em lấy $7\times(n-1)$ rồi cộng thêm $7$. Em cũng có thể tách $7=5+2$ rồi cộng $5\times n$ với $2\times n$.
@@ -54,11 +54,11 @@ Muốn tính $7\times n$, em lấy $7\times(n-1)$ rồi cộng thêm $7$. Em cũ
 | $42$ | $49$ | $56$ | $63$ | $70$ |
 :::
 
-Bảng chia $7$ suy ra từ bảng nhân $7$. Vì $7\times5=35$ nên $35:7=5$. Em chia $35$ ngày thành các tuần $7$ ngày thì được $5$ tuần.
+Bảng chia $7$ không cần học riêng, vì nó suy ra từ bảng nhân $7$. Vì $7\times5=35$ nên $35:7=5$. Nghĩa là chia $35$ ngày thành các tuần $7$ ngày, em được $5$ tuần.
 
 ## Ví dụ
 
-Ta bắt đầu bằng cách lấy tích liền trước cộng thêm $7$.
+Ta bắt đầu bằng cách lấy tích liền trước rồi cộng thêm $7$.
 
 :::example Tính $7\times6$
 **Lời giải.** Em biết $7\times5=35$. Thêm một nhóm $7$ nữa:
@@ -66,7 +66,7 @@ $$7\times6=7\times5+7=35+7=42.$$
 Vậy $7\times6=42$.
 :::
 
-Bây giờ em dùng mẹo tách $7=5+2$.
+Bây giờ ta thử cách tách $7=5+2$.
 
 :::example Tính $7\times8$ bằng cách tách $7=5+2$
 **Lời giải.** $8$ nhóm $7$ gồm $8$ nhóm $5$ và $8$ nhóm $2$:
@@ -74,7 +74,7 @@ $$7\times8=5\times8+2\times8=40+16=56.$$
 Vậy $7\times8=56$.
 :::
 
-Có khi em lấy tích liền sau rồi bớt đi $7$ sẽ dễ hơn.
+Có khi đi từ tích liền sau rồi bớt đi $7$ lại dễ hơn, nhất là với những phép nhân gần tròn chục.
 
 :::example Tính $7\times9$
 **Lời giải.** Em biết $7\times10=70$. Bớt đi một nhóm $7$:
@@ -82,7 +82,7 @@ $$7\times9=7\times10-7=70-7=63.$$
 Vậy $7\times9=63$.
 :::
 
-Tiếp theo là phép chia.
+Giờ đến phép chia. Em sẽ thấy bảng nhân giúp được ngay.
 
 :::example Tính $56:7$
 **Lời giải.** Em tìm số nào nhân $7$ bằng $56$. Trong bảng nhân $7$ ta có $7\times8=56$, nên
@@ -92,7 +92,7 @@ $$56:7=8.$$
 Vậy $56:7=8$.
 :::
 
-Cuối cùng, em giải một bài toán có lời văn.
+Cuối cùng, ta dùng bảng nhân vào một bài toán có lời văn. Chỗ cần nghĩ là bài này nhân hay chia.
 
 :::example Đổi ngày ra tuần
 Một chuyến du lịch dài $49$ ngày. Hỏi chuyến du lịch dài bao nhiêu tuần lễ?
@@ -105,10 +105,11 @@ Vậy chuyến du lịch dài $7$ tuần.
 :::
 
 :::warning Những lỗi em hay gặp
-- **Lấy thiếu một nhóm.** Sai: $7\times6=36$. Vì sao sai: $36$ là $6\times6$, em chưa đủ $7$ nhóm. Đúng: $7\times6=35+7=42$.
+- **Lấy thiếu một nhóm.** Sai: $7\times6=36$. Vì sao sai: $36$ là $6\times6$, nên em vẫn thiếu một nhóm, chưa đủ $7$ nhóm. Đúng: $7\times6=35+7=42$.
 - **Cộng thay cho nhân.** Sai: $7\times3=10$. Vì sao sai: $7+3$ là phép cộng, còn $7\times3$ là $3$ nhóm $7$. Đúng: $7\times3=21$.
 - **Chia nhầm.** Sai: $56:7=7$. Vì sao sai: $7\times7=49$, không phải $56$. Đúng: $7\times8=56$ nên $56:7=8$.
 - **Quên đơn vị.** Sai: "Đáp số: $7$". Đúng: "Đáp số: $7$ tuần".
+Chỗ này nhiều bạn hay nhầm, nên em cứ yên tâm: kiểm tra lại một lượt là bắt được ngay.
 :::
 
 ## Thuật ngữ
@@ -131,10 +132,11 @@ Vậy chuyến du lịch dài $7$ tuần.
 - Mẹo: $7=5+2$ nên $7\times n=5\times n+2\times n$.
 - Từ $7\times a=b$ ta có $b:7=a$ và $b:a=7$.
 - Một tuần lễ có $7$ ngày; ghi đơn vị trong đáp số và thử lại phép chia bằng phép nhân.
+Quay lại câu hỏi đầu bài: số ngày của năm tuần lễ, em tìm được ngay nhờ bảng nhân $7$ mà không phải cộng lại. Em nhớ mỗi nhóm thêm một lần $7$, và phép chia luôn dựa vào bảng nhân. Em làm các bài luyện tập bên dưới để bảng nhân $7$ thuộc dần nhé.
 
 ## Luyện tập
 
-Mỗi bài có phần kiến thức và gợi ý. Em hãy tự làm trước, rồi mới bấm xem lời giải.
+Mỗi bài có kèm phần kiến thức cần nhớ và một gợi ý để em bắt đầu. Em cứ tự làm trước, chỗ nào vướng thì mới mở lời giải. Làm sai một lần cũng không sao, vì chính chỗ sai giúp em nhớ lâu.
 
 :::exercise
 Tính:

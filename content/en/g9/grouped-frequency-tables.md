@@ -10,23 +10,23 @@ minutes: 20
 - Draw and read histograms and frequency polygons for grouped data.
 :::
 
-Suppose the PE teacher measures the heights (in cm) of the 20 students in the athletics team:
+Suppose the PE teacher has just measured the heights (in cm) of the 20 students in the athletics team and written them down:
 
 $$154,\ 161,\ 164,\ 151,\ 161,\ 155,\ 153,\ 163,\ 159,\ 159,\ 154,\ 149,\ 155,\ 146,\ 158,\ 168,\ 169,\ 159,\ 152,\ 157.$$
 
-A frequency table as in the previous lessons would have 15 different values, most appearing only once: a long table that shows nothing. Yet the teacher only needs to know "how many students are from 155 cm up to 160 cm" to choose shirt sizes. How can a table be short and still say what we need?
+A frequency table as in the previous lessons would have 15 different values, most appearing only once. Such a long table shows us nothing. Yet to choose shirt sizes, the teacher only needs to know "how many students are from 155 cm up to 160 cm". How can a table be short and still say what we need?
 
 ## Grouping data
 
 ### Explore: counting in 5 cm steps
 
-We split the heights into intervals 5 cm wide and count:
+Let us try another way: we split the heights into intervals 5 cm wide and count how many students fall in each:
 
 | Height (cm) | $[145, 150)$ | $[150, 155)$ | $[155, 160)$ | $[160, 165)$ | $[165, 170)$ |
 |---|---|---|---|---|---|
 | Number of students | $2$ | $5$ | $7$ | $4$ | $2$ |
 
-The notation $[155, 160)$ means the numbers $x$ with $155\leq x<160$: a student 155 cm tall belongs to this class, while one 160 cm tall belongs to the next. Now we see at once: the class $[155, 160)$ is the largest, with $7$ students.
+The notation $[155, 160)$ means the numbers $x$ with $155\leq x<160$. So a student 155 cm tall belongs to this class, while one 160 cm tall belongs to the next. Now the table tells us what we need: the class $[155, 160)$ is the largest, with $7$ students.
 
 :::definition Grouped data
 - Grouping means sorting the data into **classes** $[a_1, a_2), [a_2, a_3), \ldots, [a_k, a_{k+1})$, so that each data value belongs to exactly one class. For the class $[a, b)$: $a$ is the **lower boundary**, $b$ is the **upper boundary**, $b-a$ is the **class width** and $\dfrac{a+b}{2}$ is the **midpoint** of the class (in Vietnamese textbooks, its representative value).
@@ -34,7 +34,7 @@ The notation $[155, 160)$ means the numbers $x$ with $155\leq x<160$: a student 
 - A **grouped frequency table** (**grouped relative frequency table**) lists the classes and their frequencies (relative frequencies).
 :::
 
-**Going deeper.** Grouping is "looking from a distance": we drop some detail (we no longer know who is $151$ or $153$ cm tall) to see the overall picture. Classes usually have equal widths and follow on from each other; the half-open form $[a, b)$ makes sure a value on a boundary is counted only once. Too few classes lose information, too many are as messy as the original table; 5 to 8 classes is usual.
+**Going deeper.** Grouping is "looking from a distance": we drop some detail (we no longer know who is $151$ or $153$ cm tall) to see the overall picture. Classes usually have equal widths and follow on from each other. The half-open form $[a, b)$ makes sure a value on a boundary is counted only once. Too few classes lose a lot of information, and too many are as messy as the original table; 5 to 8 classes is usual.
 
 :::example Grouped relative frequency table
 Suppose the heights of the 40 students in class 9A have this grouped frequency table:
@@ -58,7 +58,7 @@ So $45\%$ of the students are 160 cm tall or more.
 
 ### Histograms
 
-In a **histogram** (grouped frequency bar chart), each bar stands on a whole class $[a, b)$ on the horizontal axis, so **the bars touch each other**: the data run continuously, with no "gap" between $149.9$ cm and $150$ cm.
+In a **histogram** (grouped frequency bar chart), each bar stands on a whole class $[a, b)$ on the horizontal axis. So **the bars touch each other**: the data run continuously, with no "gap" between $149.9$ cm and $150$ cm.
 
 :::graph Heights of the 40 students in class 9A
 alt: Histogram with touching bars: classes from 145 to 175 cm, each 5 cm wide, with bar heights 3, 7, 12, 10, 6, 2
@@ -77,11 +77,11 @@ segment: (165, 0) (165, 10) ; dashed
 segment: (170, 0) (170, 6) ; dashed
 :::
 
-A relative frequency histogram is drawn in exactly the same way, with bar heights equal to the relative frequencies.
+A relative frequency histogram is drawn in exactly the same way; only the bar heights change, and they equal the relative frequencies.
 
 ### Frequency polygons
 
-To draw a **relative frequency polygon** for grouped data, for each class we mark the point whose $x$-coordinate is the class midpoint and whose $y$-coordinate is the relative frequency, then join consecutive points. For class 9A the midpoints are $147.5$, $152.5$, …, $172.5$.
+To draw a **relative frequency polygon** for grouped data, each class gives us one point: its $x$-coordinate is the class midpoint and its $y$-coordinate is the relative frequency. Then we join consecutive points. For class 9A the midpoints are $147.5$, $152.5$, …, $172.5$.
 
 :::graph Relative frequency (%) against class midpoints
 alt: A broken line joining the points (147.5, 7.5), (152.5, 17.5), (157.5, 30), (162.5, 25), (167.5, 15), (172.5, 5)
@@ -94,7 +94,7 @@ segment: (162.5, 25) (167.5, 15)
 segment: (167.5, 15) (172.5, 5)
 :::
 
-The broken line shows that heights cluster around the class $[155, 160)$ and thin out on both sides.
+Looking at the broken line, we see that heights cluster around the class $[155, 160)$ and thin out on both sides.
 
 :::example Reading a grouped table
 Using the grouped frequency table of class 9A above, find:
@@ -131,11 +131,11 @@ So the company's claim is true ($65\%$), but the number of passengers waiting le
 :::
 
 :::warning Common mistakes
-- **Overlapping classes.** Wrong: $[150, 155]$, $[155, 160]$ (the value $155$ is counted twice). Right: $[150, 155)$, $[155, 160)$.
+- **Overlapping classes.** Wrong: $[150, 155]$, $[155, 160]$ (the value $155$ is counted twice). Right: $[150, 155)$, $[155, 160)$. Many people slip here.
 - **Leaving gaps between bars.** For grouped data, the bars must touch.
 :::
 
-**Connections.** Grouping continues [frequency tables](lesson:frequency-tables-charts) and [relative frequency](lesson:relative-frequency-tables): the same idea of counting, with "value" replaced by "class". In years 11 and 12, we use grouped tables and class midpoints to estimate the mean, the median and the standard deviation.
+**Connections.** Grouping continues [frequency tables](lesson:frequency-tables-charts) and [relative frequency](lesson:relative-frequency-tables): it is the same idea of counting, with "value" replaced by "class". In years 11 and 12, we use grouped tables and class midpoints to estimate the mean, the median and the standard deviation.
 
 ## Key terms
 
@@ -156,10 +156,11 @@ So the company's claim is true ($65\%$), but the number of passengers waiting le
 - Relative frequency of a class: $f_i=\dfrac{m_i}{n}\cdot100\%$.
 - Histogram: the bars touch. Frequency polygon: join the points (midpoint, $f_i$).
 - Grouping loses the information inside each class.
+Back to the opening question: a grouped table tells the teacher at once how many students are in each height range, enough to choose shirt sizes, and the price is the detail lost inside each class. One thing to remember: classes are written as half-open intervals, and the bars must touch.
 
 ## Practice
 
-Each exercise comes with what you need and hints. Try it yourself first, then open the solution.
+Each exercise comes with what you need to remember and some hints. Try it yourself first, and open the solution only when you are stuck. After a few exercises it will feel much more familiar.
 
 :::exercise
 Suppose the daily private study times (in minutes) of 20 students are:

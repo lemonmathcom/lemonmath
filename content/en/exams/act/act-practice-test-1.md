@@ -5,7 +5,7 @@ minutes: 50
 type: test
 ---
 
-This practice test follows the enhanced ACT Math format: **45 questions, 50 minutes, 4 answer options, calculator allowed, no penalty for wrong answers**. All questions are written by Lemonmath; they are not real ACT questions, but they cover the official content areas at the level of the test. The questions get gradually harder, as on the real test.
+Reading about a test is one thing; sitting through it against the clock is another. This practice test lets you try exactly that. It follows the enhanced ACT Math format: **45 questions, 50 minutes, 4 answer options, calculator allowed, no penalty for wrong answers**. All questions are written by Lemonmath; they are not real ACT questions, but they cover the official content areas at the level of the test. The questions get gradually harder, as on the real test.
 
 ## How to take this test
 
@@ -425,7 +425,7 @@ With numbers $x$ and $20-x$, the product $x(20-x)$ is greatest at the vertex $x=
 
 ## After the test
 
-The number of correct answers is your raw score out of 45. ACT converts raw scores to the 1–36 scale with a table that differs from test to test, so this practice test does not give a scaled score. Use the table below to find which lesson to revise for each question you missed.
+The number of correct answers is your raw score out of 45. ACT converts raw scores to the 1–36 scale with a table that differs from test to test, so this practice test does not give a scaled score. Use the table below to find which lesson to revise for each question you missed. Do not be discouraged if you do not finish the first time: finishing in time is a skill, and it improves with a few attempts.
 
 | Question | Lesson |
 |---|---|
@@ -475,4 +475,4 @@ The number of correct answers is your raw score out of 45. ACT converts raw scor
 | 44 | [Statistics and probability](lesson:act-statistics-probability) |
 | 45 | [Modelling and integrating skills](lesson:act-modelling-integrating) |
 
-Then review with [What ACT Math tests and how to prepare](lesson:act-overview), and keep an error log of every mistake.
+Once you know where you went wrong, review with [What ACT Math tests and how to prepare](lesson:act-overview), and keep an error log of every mistake. When you take the next test, compare it with this one and you will see where you have improved.

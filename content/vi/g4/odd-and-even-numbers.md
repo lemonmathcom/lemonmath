@@ -10,20 +10,21 @@ minutes: 15
 - Giải bài toán đơn giản về số chẵn, số lẻ.
 :::
 
-Lớp $4$A có $18$ bạn xếp hàng đôi. Các bạn ghép thành từng cặp và không ai bị lẻ. Lớp $4$B có $19$ bạn xếp hàng đôi thì thừa một bạn. Số bạn của lớp nào xếp đủ cặp?
+Giờ xếp hàng, lớp $4$A có $18$ bạn đứng thành các cặp và không ai bị lẻ. Lớp $4$B có $19$ bạn thì thừa một bạn đứng một mình. Số bạn của lớp nào xếp vừa đủ cặp?
 
-Hai con số $18$ và $19$ khác nhau ở chỗ nào? Bài này sẽ giúp em trả lời.
+Hai số $18$ và $19$ đứng sát nhau mà lại khác nhau ở một điểm quan trọng. Điểm đó là gì? Biết rồi, chỉ cần liếc qua một số là em nói được nó chẵn hay lẻ.
 
 ## Cùng khám phá
 
-Ta chia số bạn cho $2$, vì mỗi cặp có $2$ bạn:
+Muốn biết có xếp đủ cặp không, ta chia số bạn cho $2$, vì mỗi cặp có $2$ bạn:
 
 - $18:2=9$, dư $0$. Có $9$ cặp, không thừa ai.
 - $19:2=9$, dư $1$. Có $9$ cặp và thừa $1$ bạn.
+Số dư chính là chỗ khác nhau giữa hai lớp.
 
-Số $18$ chia hết cho $2$, ta gọi là **số chẵn**. Số $19$ chia cho $2$ dư $1$, ta gọi là **số lẻ**.
+Số $18$ chia hết cho $2$, ta gọi là **số chẵn**. Số $19$ chia cho $2$ dư $1$, ta gọi là **số lẻ**. Nói cách khác, số chẵn xếp đủ cặp, còn số lẻ luôn thừa một.
 
-Bây giờ em nhìn các chữ số tận cùng. Các số chẵn nhỏ: $0$, $2$, $4$, $6$, $8$, $10$, $12$, $14$. Các số lẻ nhỏ: $1$, $3$, $5$, $7$, $9$, $11$, $13$. Em thấy chữ số hàng đơn vị của số chẵn luôn là $0$, $2$, $4$, $6$ hoặc $8$; của số lẻ luôn là $1$, $3$, $5$, $7$ hoặc $9$.
+Bây giờ em nhìn các chữ số tận cùng. Các số chẵn nhỏ: $0$, $2$, $4$, $6$, $8$, $10$, $12$, $14$. Các số lẻ nhỏ: $1$, $3$, $5$, $7$, $9$, $11$, $13$. Em có thấy quy luật không? Chữ số hàng đơn vị của số chẵn luôn là $0$, $2$, $4$, $6$ hoặc $8$; của số lẻ luôn là $1$, $3$, $5$, $7$ hoặc $9$.
 
 :::theorem Số chẵn và số lẻ
 - **Số chẵn** là số chia hết cho $2$. Chữ số tận cùng là $0$, $2$, $4$, $6$ hoặc $8$.
@@ -31,11 +32,11 @@ Bây giờ em nhìn các chữ số tận cùng. Các số chẵn nhỏ: $0$, $2
 - Hai số chẵn liên tiếp hơn kém nhau $2$ đơn vị. Hai số lẻ liên tiếp cũng hơn kém nhau $2$ đơn vị.
 :::
 
-Chỉ cần nhìn chữ số tận cùng vì mọi hàng khác (chục, trăm, nghìn, …) đều chia hết cho $2$. Phần còn lại chỉ do hàng đơn vị quyết định.
+Vì sao chỉ cần nhìn chữ số tận cùng? Vì mọi hàng khác (chục, trăm, nghìn, …) đều chia hết cho $2$. Phần còn lại, tức là chẵn hay lẻ, chỉ do hàng đơn vị quyết định.
 
 ## Ví dụ
 
-Ta bắt đầu bằng việc nhận biết số chẵn, số lẻ.
+Ta bắt đầu bằng việc nhận biết số chẵn, số lẻ. Em chỉ cần nhìn chữ số tận cùng.
 
 :::example Nhận biết
 Trong các số $3\,406$; $5\,719$; $80\,000$; $99\,997$, số nào là số chẵn, số nào là số lẻ?
@@ -50,7 +51,7 @@ Trong các số $3\,406$; $5\,719$; $80\,000$; $99\,997$, số nào là số ch�
 Vậy số chẵn là $3\,406$ và $80\,000$; số lẻ là $5\,719$ và $99\,997$.
 :::
 
-Tiếp theo, em viết số theo điều kiện cho trước.
+Bây giờ ta viết số theo điều kiện cho trước. Em sẽ thấy chữ số tận cùng giúp ta rất nhiều.
 
 :::example Số chẵn lớn nhất, số lẻ nhỏ nhất
 Tìm số chẵn lớn nhất có ba chữ số và số lẻ nhỏ nhất có bốn chữ số.
@@ -62,7 +63,7 @@ Số nhỏ nhất có bốn chữ số là $1\,000$, nhưng $1\,000$ là số ch
 Vậy số chẵn lớn nhất có ba chữ số là $998$, số lẻ nhỏ nhất có bốn chữ số là $1\,001$.
 :::
 
-Em cũng viết được dãy số chẵn, số lẻ liên tiếp.
+Số chẵn, số lẻ còn cho ta viết được cả một dãy số liên tiếp.
 
 :::example Các số liên tiếp
 Viết ba số chẵn liên tiếp bắt đầu từ $48$.
@@ -73,7 +74,7 @@ $$48,\quad 48+2=50,\quad 50+2=52.$$
 Vậy ba số chẵn liên tiếp là $48$, $50$, $52$.
 :::
 
-Bây giờ ta lập số từ các chữ số cho trước.
+Có khi đề cho sẵn các chữ số và ta phải lập số chẵn từ chúng. Chữ số tận cùng là chỗ cần nghĩ đến đầu tiên.
 
 :::example Lập số chẵn
 Từ ba chữ số $1$, $2$, $5$ (mỗi chữ số dùng một lần), lập tất cả các số chẵn có ba chữ số.
@@ -83,7 +84,7 @@ Từ ba chữ số $1$, $2$, $5$ (mỗi chữ số dùng một lần), lập t�
 Vậy có hai số chẵn là $152$ và $512$.
 :::
 
-Cuối cùng là một bài toán gần với đời sống.
+Cuối cùng là một bài toán gần với đời sống: số nhà trên một con đường.
 
 :::example Số nhà
 Các nhà bên phải đường Hoa Lan được đánh số chẵn liên tiếp: $2$, $4$, $6$, … Nhà thứ $10$ có số mấy?
@@ -98,6 +99,7 @@ Số thứ $10$ trong dãy là $20$. Vậy nhà thứ $10$ có số $20$.
 - **Nhìn chữ số ở giữa.** Sai: "$1\,250$ là số lẻ vì có chữ số $5$". Vì sao sai: chỉ chữ số tận cùng mới quyết định. Đúng: $1\,250$ tận cùng $0$ nên là số chẵn.
 - **Nhìn chữ số đầu tiên.** Sai: "$8\,371$ là số chẵn vì bắt đầu bằng $8$". Vì sao sai: chỉ xem chữ số hàng đơn vị. Đúng: $8\,371$ tận cùng $1$ nên là số lẻ.
 - **Hai số lẻ liên tiếp hơn kém $1$.** Sai: sau $7$ là $8$. Vì sao sai: $8$ là số chẵn. Đúng: sau $7$ là $9$.
+Đừng lo nếu em từng nhầm ở đây. Em cứ nhớ chỉ nhìn hàng đơn vị là tránh được các lỗi này.
 :::
 
 ## Thuật ngữ
@@ -119,10 +121,11 @@ Số thứ $10$ trong dãy là $20$. Vậy nhà thứ $10$ có số $20$.
 - Số lẻ chia cho $2$ dư $1$; chữ số tận cùng là $1$, $3$, $5$, $7$, $9$.
 - Hai số chẵn (hoặc hai số lẻ) liên tiếp hơn kém nhau $2$ đơn vị.
 - Muốn biết một số là chẵn hay lẻ, chỉ cần nhìn chữ số tận cùng.
+Vậy hai lớp ở đầu bài khác nhau ở số dư: lớp xếp đủ cặp có số bạn là số chẵn, lớp thừa một bạn có số bạn là số lẻ. Em chỉ cần nhớ một điều: nhìn chữ số tận cùng. Luyện tập vài bài, em sẽ thấy quen ngay.
 
 ## Luyện tập
 
-Mỗi bài có phần kiến thức và gợi ý. Em hãy tự làm trước, rồi mới bấm xem lời giải.
+Mỗi bài có phần kiến thức cần dùng và một gợi ý để em bắt đầu. Em cứ thử tự làm trước, chưa ra thì mở gợi ý, cuối cùng mới xem lời giải.
 
 :::exercise
 Trong các số $7\,482$; $6\,135$; $20\,508$; $9\,999$, những số nào là số chẵn?

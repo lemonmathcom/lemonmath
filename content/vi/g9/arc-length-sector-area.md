@@ -10,13 +10,13 @@ minutes: 20
 - Vận dụng các công thức vào bài toán thực tế (bánh xe, đồng hồ, cần gạt nước).
 :::
 
-Cần gạt nước của một ô tô quay quanh trục $O$. Lưỡi cao su gắn trên thanh gạt, từ điểm cách $O$ là $10$ cm đến điểm cách $O$ là $50$ cm. Mỗi lần gạt, thanh quay một góc $120^\circ$. Mỗi lần gạt lau được bao nhiêu xăng-ti-mét vuông kính?
+Khi trời mưa, cần gạt nước của ô tô quét qua mặt kính. Cần gạt quay quanh trục $O$. Lưỡi cao su gắn trên thanh gạt, từ điểm cách $O$ là $10$ cm đến điểm cách $O$ là $50$ cm. Mỗi lần gạt, thanh quay một góc $120^\circ$. Phần kính được lau có dạng gì, và mỗi lần gạt lau được bao nhiêu xăng-ti-mét vuông kính?
 
 ## Độ dài cung tròn
 
 ### Khám phá: chia đường tròn thành $360$ phần
 
-Đường tròn bán kính $R$ có độ dài $C=2\pi R$. Cả đường tròn ứng với $360^\circ$, nên cung $1^\circ$ dài $\dfrac{2\pi R}{360}=\dfrac{\pi R}{180}$. Cung $n^\circ$ dài gấp $n$ lần cung $1^\circ$.
+Muốn đo một đoạn cong, ta chia nó thành những phần nhỏ bằng nhau. Đường tròn bán kính $R$ có độ dài $C=2\pi R$. Cả đường tròn ứng với $360^\circ$, nên cung $1^\circ$ dài $\dfrac{2\pi R}{360}=\dfrac{\pi R}{180}$. Cung $n^\circ$ gồm $n$ phần như thế, nên dài gấp $n$ lần cung $1^\circ$.
 
 :::theorem Độ dài cung tròn
 Trên đường tròn bán kính $R$, cung $n^\circ$ có độ dài
@@ -33,7 +33,7 @@ $$l=\frac{\pi\cdot6\cdot60}{180}=2\pi\approx6{,}28\ \text{(cm)}.$$
 Vậy cung dài khoảng $6{,}28$ cm.
 :::
 
-Từ công thức, khi biết $l$ và $R$ ta tìm được $n$.
+Công thức này dùng được theo hai chiều. Khi biết $l$ và $R$, ta tìm ngược lại được $n$.
 
 :::example Tìm số đo cung
 Một cung của đường tròn bán kính $9$ cm có độ dài $5\pi$ cm. Tính số đo của cung đó.
@@ -47,7 +47,7 @@ Vậy cung có số đo $100^\circ$.
 
 ## Diện tích hình quạt tròn
 
-Hình quạt tròn là phần hình tròn giới hạn bởi một cung và hai bán kính đi qua hai đầu mút của cung. Hình tròn có diện tích $\pi R^2$ ứng với $360^\circ$, nên hình quạt $n^\circ$ có diện tích bằng $\dfrac{n}{360}$ diện tích hình tròn.
+Hãy nghĩ đến một miếng bánh cắt ra từ chiếc bánh tròn. Hình quạt tròn cũng vậy: đó là phần hình tròn giới hạn bởi một cung và hai bán kính đi qua hai đầu mút của cung. Cách tính cũng giống như với cung. Hình tròn có diện tích $\pi R^2$ ứng với $360^\circ$, nên hình quạt $n^\circ$ có diện tích bằng $\dfrac{n}{360}$ diện tích hình tròn.
 
 :::theorem Diện tích hình quạt tròn
 Hình quạt tròn bán kính $R$, cung $n^\circ$ có diện tích
@@ -80,7 +80,7 @@ Vậy diện tích hình quạt khoảng $62{,}83$ cm².
 
 ## Diện tích hình vành khuyên
 
-Hình vành khuyên là phần nằm giữa hai đường tròn đồng tâm. Diện tích của nó bằng diện tích hình tròn lớn trừ diện tích hình tròn nhỏ.
+Hình vành khuyên là phần nằm giữa hai đường tròn đồng tâm, giống như mặt của một chiếc vòng phẳng. Muốn tính diện tích, ta lấy cả hình tròn lớn rồi bỏ đi phần hình tròn nhỏ bên trong. Vậy diện tích của nó bằng diện tích hình tròn lớn trừ diện tích hình tròn nhỏ.
 
 :::theorem Diện tích hình vành khuyên
 Hình vành khuyên giới hạn bởi hai đường tròn $(O; R)$ và $(O; r)$ với $R>r$ có diện tích
@@ -108,7 +108,7 @@ $$S=\pi\left(32^2-30^2\right)=\pi(1024-900)=124\pi\approx389{,}56\ \text{(m}^2\t
 Vậy diện tích lối đi khoảng $389{,}56$ m².
 :::
 
-Phần kính được lau ở đầu bài là phần của hình vành khuyên nằm trong góc $120^\circ$.
+Phần kính được lau ở đầu bài là phần của hình vành khuyên nằm trong góc $120^\circ$. Ta ghép hai ý vừa học: hình quạt và hình vành khuyên.
 
 :::example Cần gạt nước
 Giải bài toán ở đầu bài (làm tròn kết quả đến hàng đơn vị).
@@ -121,9 +121,9 @@ Vậy mỗi lần gạt lau được khoảng $2513$ cm² kính.
 :::
 
 :::warning Những sai lầm thường gặp
-- **Nhầm hai công thức.** Sai: cung $90^\circ$ của đường tròn bán kính $4$ dài $\dfrac{\pi\cdot4^2\cdot90}{360}=4\pi$. Lí do sai: đó là diện tích hình quạt. Đúng: $l=\dfrac{\pi\cdot4\cdot90}{180}=2\pi$.
-- **Tính vành khuyên bằng hiệu bán kính.** Sai: $S=\pi(R-r)^2$. Lí do sai: phải trừ hai diện tích. Đúng: $S=\pi\left(R^2-r^2\right)$.
-- **Dùng đường kính thay cho bán kính.** Đọc kĩ đề: bánh xe "đường kính $70$ cm" có $R=35$ cm.
+- **Nhầm hai công thức.** Có bạn viết cung $90^\circ$ của đường tròn bán kính $4$ dài $\dfrac{\pi\cdot4^2\cdot90}{360}=4\pi$. Đó là công thức diện tích hình quạt, không phải độ dài cung. Đúng là $l=\dfrac{\pi\cdot4\cdot90}{180}=2\pi$.
+- **Tính vành khuyên bằng hiệu bán kính.** Có bạn viết $S=\pi(R-r)^2$. Chỗ này phải trừ hai diện tích, chứ không trừ hai bán kính. Đúng là $S=\pi\left(R^2-r^2\right)$.
+- **Dùng đường kính thay cho bán kính.** Hãy đọc kĩ đề: bánh xe "đường kính $70$ cm" có $R=35$ cm.
 :::
 
 ## Thuật ngữ
@@ -140,13 +140,14 @@ Vậy mỗi lần gạt lau được khoảng $2513$ cm² kính.
 ## Tóm tắt
 
 - Độ dài đường tròn $C=2\pi R$; diện tích hình tròn $\pi R^2$.
-- Cung $n^\circ$: $l=\dfrac{\pi Rn}{180}$.
-- Hình quạt $n^\circ$: $S=\dfrac{\pi R^2n}{360}=\dfrac{lR}{2}$.
-- Hình vành khuyên: $S=\pi\left(R^2-r^2\right)$.
+- Cung $n^\circ$ có độ dài $l=\dfrac{\pi Rn}{180}$.
+- Hình quạt $n^\circ$ có diện tích $S=\dfrac{\pi R^2n}{360}=\dfrac{lR}{2}$.
+- Hình vành khuyên có diện tích $S=\pi\left(R^2-r^2\right)$.
+Câu hỏi về cần gạt nước đã có lời đáp: phần kính được lau là hiệu của hai hình quạt, và ta tính được diện tích của nó. Điều cần nhớ là trước khi chọn công thức, hãy biết mình đang tính độ dài hay diện tích.
 
 ## Luyện tập
 
-Mỗi bài có phần kiến thức và gợi ý các bước. Hãy tự làm trước, rồi mới bấm xem lời giải.
+Mỗi bài tập có phần kiến thức cần nhớ và gợi ý các bước. Bạn nên tự làm trước, vướng thì mới mở lời giải. Làm chậm mà chắc, các công thức sẽ quen dần.
 
 :::exercise
 Tính độ dài cung $45^\circ$ của đường tròn bán kính $12$ cm (làm tròn kết quả đến hàng phần trăm).

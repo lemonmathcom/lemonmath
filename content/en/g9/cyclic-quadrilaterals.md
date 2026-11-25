@@ -10,9 +10,9 @@ minutes: 20
 - Find the circle through the vertices of a rectangle, a square and an isosceles trapezium.
 :::
 
-Through three points that are not collinear we can always draw exactly one circle (lesson [The circumcircle and incircle](lesson:circumcircle-incircle)). With **four** points it is different: the circle through the first three is already fixed, and the fourth point lies on it only by "luck".
+Through three points that are not collinear we can always draw exactly one circle (lesson [The circumcircle and incircle](lesson:circumcircle-incircle)). With **four** points, things change. The circle through the first three is already fixed, and the fourth point lies on it only by "luck".
 
-So how can we tell whether the four vertices of a quadrilateral lie on one circle, without drawing? For example, why is it easy to make a round arch through the four corners of a window shaped like an isosceles trapezium, but impossible for a window shaped like an arbitrary parallelogram?
+So how can we tell whether the four vertices of a quadrilateral lie on one circle, without drawing? Think of a craftsman making a round arch through the four corners of a window. If the window is an isosceles trapezium, that is easy. If it is an arbitrary parallelogram, it cannot be done. Why the difference? Once we know the test, we can decide just by looking at the angles.
 
 ## Cyclic quadrilaterals and their property
 
@@ -22,7 +22,7 @@ A quadrilateral whose four vertices lie on a circle is called a **cyclic quadril
 
 ### Explore: two opposite angles
 
-Let $ABCD$ be inscribed in the circle $(O)$. The angle $\angle DAB$ is an inscribed angle subtending the arc $BCD$; the angle $\angle BCD$ is an inscribed angle subtending the arc $BAD$. Together these two arcs make the whole circle, so (lesson [Inscribed angles](lesson:inscribed-angles))
+Let us add up two opposite angles of a cyclic quadrilateral. Let $ABCD$ be inscribed in the circle $(O)$. The angle $\angle DAB$ is an inscribed angle subtending the arc $BCD$. The angle $\angle BCD$ is an inscribed angle subtending the arc $BAD$. Together, these two arcs make the whole circle. An inscribed angle is half the arc it subtends (lesson [Inscribed angles](lesson:inscribed-angles)), so
 
 $$\angle DAB+\angle BCD=\frac12\left(\overset{\frown}{BCD}+\overset{\frown}{BAD}\right)=\frac12\cdot360^\circ=180^\circ.$$
 
@@ -45,7 +45,7 @@ angle B A D
 angle D C B
 :::
 
-**A deeper look.** A parallelogram has **equal** opposite angles; for their sum to be $180^\circ$, each must be $90^\circ$. So a parallelogram is cyclic exactly when it is a rectangle. That is why a "slanted" parallelogram window has no round arch through its four corners.
+**A deeper look.** Try a parallelogram. Its opposite angles are **equal**, so for their sum to be $180^\circ$, each must be $90^\circ$. A parallelogram is therefore cyclic exactly when it is a rectangle. That answers our opening question: a "slanted" parallelogram window has no round arch through its four corners.
 
 :::example Finding the angles of a cyclic quadrilateral
 The quadrilateral $ABCD$ is cyclic with $\angle A=70^\circ$ and $\angle B=105^\circ$. Find $\angle C$ and $\angle D$.
@@ -59,9 +59,10 @@ So $\angle C=110^\circ$ and $\angle D=75^\circ$.
 
 ## Proving that a quadrilateral is cyclic
 
-Two methods are common in grade 9:
+In grade 9, two methods are common:
 - Show that a pair of opposite angles adds up to $180^\circ$ (the converse).
-- Show that the four vertices are equidistant from one point. In particular, if two vertices both see the segment joining the other two at a right angle, the four vertices lie on the circle with that segment as diameter (the median to the hypotenuse is half the hypotenuse).
+- Show that the four vertices are equidistant from one point. In particular, if two vertices both see the segment joining the other two at a right angle, the four vertices lie on the circle with that segment as diameter (because the median to the hypotenuse is half the hypotenuse).
+Which one is easier depends on the figure. The example below uses both.
 
 :::example Two cyclic quadrilaterals in a triangle
 The triangle $ABC$ is acute, and its altitudes $BE$ and $CF$ meet at $H$. Prove that:
@@ -98,8 +99,8 @@ right A F C
 
 ## Rectangles, squares and isosceles trapezia
 
-- A rectangle (and a square) has four right angles, so it is cyclic; the centre of the circle is where the diagonals meet, and the radius is half a diagonal.
-- An isosceles trapezium $ABCD$ ($AB\parallel CD$) has $\angle A+\angle D=180^\circ$ (co-interior angles) and $\angle D=\angle C$, so $\angle A+\angle C=180^\circ$: an isosceles trapezium is always cyclic.
+- A rectangle (and a square) has four right angles, so it is cyclic. The centre of the circle is where the diagonals meet, and the radius is half a diagonal.
+- An isosceles trapezium $ABCD$ ($AB\parallel CD$) has $\angle A+\angle D=180^\circ$ (co-interior angles) and $\angle D=\angle C$. So $\angle A+\angle C=180^\circ$, and an isosceles trapezium is always cyclic.
 
 :::example Application: the arch of a window
 Suppose a glass window is an isosceles trapezium $ABCD$ with lower base $AB=80$ cm, upper base $CD=60$ cm and height $70$ cm. A craftsman wants to make a round arch through the four corners of the window. Find the radius of the arch.
@@ -124,12 +125,12 @@ So the radius of the arch is $50$ cm.
 :::
 
 :::warning Common mistakes
-- **Adding two adjacent angles.** Wrong: "$\angle A+\angle B=180^\circ$, so $ABCD$ is cyclic". Why it is wrong: the theorem is about **opposite** angles. Right: look at $\angle A+\angle C$ or $\angle B+\angle D$.
-- **Thinking opposite angles are equal.** Wrong: "$ABCD$ is cyclic and $\angle A=70^\circ$, so $\angle C=70^\circ$". Right: $\angle C=110^\circ$.
-- **Thinking every trapezium is cyclic.** Only an **isosceles** trapezium is.
+- **Adding two adjacent angles.** Wrong: "$\angle A+\angle B=180^\circ$, so $ABCD$ is cyclic". Many students slip here. Why it is wrong: the theorem is about **opposite** angles. Right: look at $\angle A+\angle C$ or $\angle B+\angle D$.
+- **Thinking opposite angles are equal.** Wrong: "$ABCD$ is cyclic and $\angle A=70^\circ$, so $\angle C=70^\circ$". Opposite angles are supplementary, not equal. Right: $\angle C=110^\circ$.
+- **Thinking every trapezium is cyclic.** Not so: only an **isosceles** trapezium is.
 :::
 
-**Connections.** Cyclic quadrilaterals are where inscribed angles, the circumcircle of a triangle and similar triangles meet. Once we know a quadrilateral is cyclic, we "receive" many pairs of equal angles (on the same arc), and from them we prove parallel lines, perpendicular lines and similar triangles. This chain of reasoning is the usual shape of the geometry question in the grade 10 entrance exam.
+**Connections.** Cyclic quadrilaterals are where inscribed angles, the circumcircle of a triangle and similar triangles meet. Once we know a quadrilateral is cyclic, we gain many pairs of equal angles (on the same arc). From them we can prove that lines are parallel or perpendicular, and that triangles are similar. This chain of reasoning is the usual shape of the geometry question in the grade 10 entrance exam.
 
 ## Key terms
 
@@ -149,10 +150,11 @@ So the radius of the arch is $50$ cm.
 - Cyclic $\Leftrightarrow$ a pair of opposite angles adds up to $180^\circ$.
 - Two vertices seeing a segment at right angles: the four points lie on the circle with that segment as diameter.
 - Rectangles, squares (centre where the diagonals meet) and isosceles trapezia are always cyclic.
+Back to the opening question: the trapezium window can have a round arch because an isosceles trapezium is always cyclic, while a parallelogram window can have one only when it is a rectangle. A few practice problems will make the two tests feel natural.
 
 ## Practice
 
-Each exercise comes with what you need and some steps to start. Try it yourself first, then open the solution.
+Each exercise starts with what you need to know, and gives a few steps to get going. Try it yourself first. If you get stuck, use the steps, and open the solution last to compare. A wrong attempt is not wasted: it often shows what to practise.
 
 :::exercise
 The quadrilateral $ABCD$ is cyclic with $\angle A=80^\circ$ and $\angle B=95^\circ$. Find $\angle C$ and $\angle D$.

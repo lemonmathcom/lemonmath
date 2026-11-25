@@ -18,17 +18,17 @@ A school surveyed how long students in classes 12A and 12B take to travel from h
 | Class 12A | $4$ | $12$ | $12$ | $8$ | $4$ |
 | Class 12B | $2$ | $6$ | $24$ | $6$ | $2$ |
 
-In both classes the times stretch from $0$ to $50$ minutes. So which class has the more even travel times, and which number measures that?
+Looking at the table, in both classes the times stretch from $0$ to $50$ minutes. But the two rows of numbers do not look alike: class 12B has many students bunched in the middle. So which class has the more even travel times, and which number measures that?
 
-In grade 10 we measured the spread of raw data. This lesson does the same when we only have a grouped table.
+In grade 10 we measured the spread of raw data, where we knew every value. Here we only have a grouped table, and we do not know each student's exact time. This lesson finds a way to measure spread in that situation, and shows how far we can trust the result.
 
 ## The range of grouped data
 
 ### Exploring: what do we know about the largest and smallest values?
 
-From the table for class 12A we do not know each student's exact time. We only know that the quickest student is in the class $[0, 10)$ and the slowest is in the class $[40, 50)$. So the difference between those two values is at most $50-0=50$ minutes. We take the number $50$ as the range of the grouped data.
+From the table for class 12A we do not know each student's exact time. We only know that the quickest student is in the class $[0, 10)$ and the slowest is in the class $[40, 50)$. So the difference between those two values cannot be more than $50-0=50$ minutes. We take $50$ as the range of the grouped data.
 
-In this lesson, grouped data have $k$ classes $[u_1, u_2)$, $[u_2, u_3)$, …, $[u_k, u_{k+1})$ with frequencies $n_1$, $n_2$, …, $n_k$ and sample size $n=n_1+n_2+\cdots+n_k$. We assume that the first and last classes have non-zero frequency.
+From here on, we work with grouped data that have $k$ classes $[u_1, u_2)$, $[u_2, u_3)$, …, $[u_k, u_{k+1})$ with frequencies $n_1$, $n_2$, …, $n_k$ and sample size $n=n_1+n_2+\cdots+n_k$. We assume that the first and last classes have non-zero frequency.
 
 :::definition Range
 The range of grouped data is
@@ -36,11 +36,11 @@ $$R=u_{k+1}-u_1,$$
 that is, the right end of the last class minus the left end of the first class.
 :::
 
-For both classes, $R=50-0=50$ minutes. The range **cannot** tell the two classes apart, because it depends only on the two classes at the ends. We need a measure that looks at the middle of the data.
+For both classes, $R=50-0=50$ minutes. The range **cannot** tell the two classes apart, because it depends only on the two classes at the ends and ignores the middle. So we need a measure that looks at the middle of the data.
 
 ## The interquartile range
 
-In grade 11 we found the quartiles of grouped data by "spreading out" the values evenly inside the class that contains them. Recall: the first quartile $Q_1$ is at position $\frac n4$, the third quartile $Q_3$ at position $\frac{3n}{4}$.
+In grade 11 we found the quartiles of grouped data by "spreading out" the values evenly inside the class that contains them. Recall: the first quartile $Q_1$ is at position $\frac n4$, and the third quartile $Q_3$ is at position $\frac{3n}{4}$. These two points mark the two ends of the middle part of the data.
 
 :::theorem Quartiles of grouped data
 Let $[u_m, u_{m+1})$ be **the first class whose cumulative frequency is greater than or equal to $\frac n4$**, let $n_m$ be its frequency and $C=n_1+\cdots+n_{m-1}$ the cumulative frequency of the classes before it. Then
@@ -48,13 +48,13 @@ $$Q_1=u_m+\frac{\frac n4-C}{n_m}\cdot(u_{m+1}-u_m).$$
 $Q_3$ is found in exactly the same way, with $\frac n4$ replaced by $\frac{3n}{4}$ (and the class chosen using $\frac{3n}{4}$).
 :::
 
-The fraction $\dfrac{\frac n4-C}{n_m}$ tells us how far into the class position $\frac n4$ lies. For example, if the class holds $12$ values and we need $6$ more of them, then $Q_1$ is in the middle of the class.
+The fraction $\dfrac{\frac n4-C}{n_m}$ tells us how far into the class position $\frac n4$ lies. For example, if the class holds $12$ values and we need $6$ more of them, we are halfway through the class, so $Q_1$ is in the middle of the class.
 
 :::definition Interquartile range
 The interquartile range of grouped data is $\Delta_Q=Q_3-Q_1$. The interval from $Q_1$ to $Q_3$ holds about the middle half of the data; the smaller $\Delta_Q$, the more concentrated the middle of the data.
 :::
 
-The first example finds all these measures for class 12A.
+Let us try class 12A and find each measure in turn.
 
 :::example Class 12A
 Find $R$, $Q_1$, $Q_3$ and $\Delta_Q$ for the travel times of class 12A.
@@ -72,7 +72,7 @@ $$Q_3=30+\frac{30-28}{8}\cdot10=30+2.5=32.5.$$
 So $R=50$ minutes, $Q_1=15$, $Q_3=32.5$ and $\Delta_Q=32.5-15=17.5$ minutes. About half the students of class 12A take between $15$ and $32.5$ minutes to get to school.
 :::
 
-Doing the same for class 12B answers the opening question.
+Now we do the same for class 12B and put the two results side by side. This will answer the opening question.
 
 :::example Comparing the two classes
 Find $\Delta_Q$ for class 12B and compare it with class 12A.
@@ -94,7 +94,7 @@ Hence $\Delta_Q=\dfrac{55}{6}-\dfrac56=\dfrac{50}{6}\approx8.33$ minutes.
 The two classes have the same range, but the interquartile range of 12B is only about half that of 12A. So the travel times of class 12B are more even.
 :::
 
-When $\frac n4$ is not a whole number, the formula is used in the same way. The class width need not be $10$ either.
+Do not worry if $\frac n4$ is not a whole number: the formula is used in just the same way. The class width need not be $10$ either. The next example has both.
 
 :::example Heights of seedlings
 The heights (cm) of $50$ seedlings in a nursery are given in the table. Find $R$ and $\Delta_Q$.
@@ -117,12 +117,12 @@ So $R=20$ cm and $\Delta_Q\approx23.83-16.6=7.23$ cm.
 :::
 
 :::note Outliers
-As in grade 10, a value is regarded as an **outlier** (an unusual value) if it is less than $Q_1-1.5\,\Delta_Q$ or greater than $Q_3+1.5\,\Delta_Q$. For the nursery above, the two limits are about $5.75$ cm and $34.68$ cm: a seedling $36$ cm tall would deserve a second look.
+As in grade 10, we can regard a value as an **outlier** (an unusual value) if it is less than $Q_1-1.5\,\Delta_Q$ or greater than $Q_3+1.5\,\Delta_Q$. For the nursery above, the two limits are about $5.75$ cm and $34.68$ cm. A seedling $36$ cm tall is above the upper limit, so it would deserve a second look.
 :::
 
 ## Measures of grouped data are approximations
 
-Grouping loses information about the individual values. The next example compares the measures from the raw data with those from the grouped table.
+Grouping throws away information about the individual values. So how far off are the measures we just found? The next example puts side by side the measures from the raw data and those from the grouped table.
 
 :::example Raw data and grouped data
 The travel times (minutes) of $20$ students, sorted:
@@ -169,10 +169,11 @@ So the grouped table gives $R=50$ (really $42$) and $\Delta_Q=15$ (really $13.5$
 - $Q_1=u_m+\dfrac{\frac n4-C}{n_m}(u_{m+1}-u_m)$, where class $m$ is the first class with cumulative frequency $\ge\frac n4$ and $C$ is the cumulative frequency of the classes before it; $Q_3$: replace $\frac n4$ by $\frac{3n}{4}$.
 - $\Delta_Q=Q_3-Q_1$: the width of the middle half of the data; smaller means more even.
 - These are approximate values; $\Delta_Q$ is less affected by the two end classes than $R$.
+Back to the opening question: the two classes have the same range, but it is the interquartile range that shows which class is more even. When you compare spread, look at both measures, and remember that for grouped data they are only approximate.
 
 ## Practice
 
-Each exercise comes with what you need and some steps to start. Try it yourself first, then open the solution.
+Each exercise comes with what you need and some steps to start. Try it yourself first, then open the solution. Many students slip when choosing the class that holds a quartile, so build the cumulative frequency row before you calculate.
 
 :::exercise
 The masses (g) of $40$ apples are given in the table. Find $R$, $Q_1$, $Q_3$ and $\Delta_Q$.

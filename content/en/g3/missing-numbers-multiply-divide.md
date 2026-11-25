@@ -12,15 +12,15 @@ minutes: 15
 
 Each box holds $6$ pens. A teacher has some such boxes, with $24$ pens altogether. How many boxes of pens does the teacher have?
 
-We do not know the number of boxes, so we write $6\times\square=24$. This lesson shows you how to find the number in the box for sure.
+We do not know how many boxes there are, so we leave a gap and write $6\times\square=24$. How can we find the number that belongs in the gap without guessing? Once you know the method, you can find it quickly and then check it.
 
 ## Let's explore
 
-Remember the $6$ times table: $6\times4=24$. In this multiplication, $6$ and $4$ are **factors** and $24$ is the **product**.
+Let us recall the $6$ times table: $6\times4=24$. In this multiplication, $6$ and $4$ are the numbers we multiply together, and we call them **factors**. The answer, $24$, is the **product**.
 
-From $6\times4=24$ we also get $24\div6=4$ and $24\div4=6$. In the division $24\div6=4$, the number $24$ is the **dividend**, $6$ is the **divisor** and $4$ is the **quotient**.
+From $6\times4=24$ we can also write the divisions $24\div6=4$ and $24\div4=6$. Look at $24\div6=4$. The number $24$ is the **dividend**, $6$ is the **divisor** and $4$ is the **quotient**. Each number has its own name, and knowing the names helps you see which one you are looking for.
 
-In the teacher's story: there are $24$ pens altogether and $6$ in each box, so the number of boxes is $24\div6=4$.
+Back to the teacher's story. There are $24$ pens altogether, shared equally into boxes with $6$ in each. To find the number of boxes, we ask how many times the pens in one box fit into all the pens. That is $24\div6=4$, and it answers the teacher's question.
 
 :::theorem Finding a missing factor
 The missing factor is the product divided by the known factor.
@@ -28,10 +28,11 @@ The missing factor is the product divided by the known factor.
 If $6\times\square=24$, then $\square=24\div6=4$.
 :::
 
-Now look at the division $24\div6=4$ when one part is missing.
+Now look at $24\div6=4$ again, but with one number hidden. How do we find the hidden number? Let us look at each case.
 
-- We know the divisor $6$ and the quotient $4$: each group is $6$, there are $4$ groups, so the dividend is $4\times6=24$.
-- We know the dividend $24$ and the quotient $4$: split $24$ into $4$ equal groups, each group has $24\div4=6$, so the divisor is $6$.
+- If we know the divisor $6$ and the quotient $4$: each group has $6$, there are $4$ groups, so together they make the dividend, $4\times6=24$.
+- If we know the dividend $24$ and the quotient $4$: we split $24$ into $4$ equal groups, each group has $24\div4=6$, so the divisor is $6$.
+Notice that to find a dividend we multiply, and to find a divisor we divide.
 
 :::theorem Finding a missing dividend or divisor
 The dividend is the quotient times the divisor.
@@ -41,11 +42,11 @@ The divisor is the dividend divided by the quotient.
 If $\square\div6=4$, then $\square=4\times6=24$. If $24\div\square=4$, then $\square=24\div4=6$.
 :::
 
-This works because multiplication and division undo each other: multiply by a number and then divide by it, and you are back where you started.
+Why does this work? Multiplication and division undo each other. Multiply by a number and then divide by it, and you are back where you started. That is why we use the inverse operation to find a hidden number.
 
 ## Examples
 
-We start with the missing factor in the first place.
+We start with an example where the missing factor comes first. Name each number, then choose the operation.
 
 :::example Find $\square$ when $\square\times7=35$
 **Solution.** $\square$ is a missing factor, so we divide the product by the known factor:
@@ -55,7 +56,7 @@ $$\square=35\div7=5.$$
 So $\square=5$.
 :::
 
-The missing factor can also be in the second place.
+The missing factor can also come second. The method does not change: divide the product by the known factor.
 
 :::example Find $\square$ when $8\times\square=56$
 **Solution.** Divide the product by the known factor, $8$:
@@ -65,7 +66,7 @@ $$\square=56\div8=7.$$
 So $\square=7$.
 :::
 
-Now we find a missing dividend.
+This time the hidden number is the dividend. Should we multiply or divide? Have a think before you read the solution.
 
 :::example Find $\square$ when $\square\div4=9$
 **Solution.** $\square$ is the dividend, so we multiply the quotient by the divisor:
@@ -75,7 +76,7 @@ $$\square=9\times4=36.$$
 So $\square=36$.
 :::
 
-Next, a missing divisor.
+Now for a missing divisor. This is a spot where many learners slip, so we go slowly.
 
 :::example Find $\square$ when $42\div\square=6$
 **Solution.** $\square$ is the divisor, so we divide the dividend by the quotient:
@@ -85,7 +86,7 @@ $$\square=42\div6=7.$$
 So $\square=7$.
 :::
 
-Finally, use this method for a problem from everyday life.
+Now let us use the method on something from school life: standing in rows. We know how many pupils there are and how many stand in each row, and we need to find the number of rows.
 
 :::example Standing in rows
 $45$ pupils stand in equal rows of $9$. How many rows are there?
@@ -98,9 +99,10 @@ So there are $5$ rows.
 :::
 
 :::warning Mistakes to watch out for
-- **Multiplying instead of dividing for a factor.** Wrong: $\square\times7=35$ so $\square=35\times7=245$. Why it is wrong: $245\times7$ is far bigger than $35$. Right: $\square=35\div7=5$.
+- **Multiplying instead of dividing for a factor.** It is easy to see a times sign and multiply straight away. Wrong: $\square\times7=35$ so $\square=35\times7=245$. Why it is wrong: $245\times7$ is far bigger than $35$. Right: $\square=35\div7=5$.
 - **Dividing instead of multiplying for a dividend.** Wrong: $\square\div4=9$ so $\square=9\div4$. Why it is wrong: $9$ does not divide by $4$ exactly, and $9\div4$ is not the number we want. Right: $\square=9\times4=36$.
 - **Multiplying for a divisor.** Wrong: $42\div\square=6$ so $\square=42\times6$. Why it is wrong: $42\div252$ does not equal $6$. Right: $\square=42\div6=7$.
+A good habit is to check: put your answer in the gap and see whether the calculation is true.
 :::
 
 ## Key terms
@@ -123,10 +125,11 @@ So there are $5$ rows.
 - Missing dividend $=$ quotient $\times$ divisor.
 - Missing divisor $=$ dividend $\div$ quotient.
 - Use the times tables and division facts; always check by putting your answer in the box.
+The question at the start was how many boxes the teacher has. Now you know how to find any missing number: name each number, use the inverse operation, then check.
 
 ## Practice
 
-Each exercise comes with what you need and how to start. Try it yourself first, then open the solution.
+Each exercise gives you what you need to remember and a hint to get you started. Have a go on your own first, look at the hint if you are stuck, and open the solution last. Getting something wrong is fine: putting it right is how the method sticks.
 
 :::exercise
 Find $\square$:

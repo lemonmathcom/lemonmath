@@ -12,13 +12,13 @@ minutes: 50
 - So sánh hai phân phối bằng ngôn ngữ so sánh.
 :::
 
-Mọi cuộc khảo sát thống kê đều bắt đầu bằng việc nhìn vào dữ liệu. Trong đề AP, đây là trọng tâm của câu tự luận số 2 và xuất hiện trong hầu hết các câu khác. Phần tính toán ngắn; điều mang lại điểm là mô tả những gì bạn thấy **gắn với tình huống của dữ liệu** và **so sánh** bằng những từ như "lớn hơn", "gần bằng".
+Mọi cuộc khảo sát thống kê đều bắt đầu bằng việc nhìn vào dữ liệu. Thử hình dung điểm kiểm tra của hai lớp đặt cạnh nhau: ta nói được gì về chúng? Đó là câu hỏi của bài này, và cũng là trọng tâm của câu tự luận số 2 trong đề AP, rồi còn xuất hiện trong hầu hết các câu khác. Phần tính toán khá ngắn. Điểm đến từ việc mô tả những gì bạn thấy **gắn với tình huống của dữ liệu** và **so sánh** bằng những từ như "lớn hơn", "gần bằng".
 
 ## Biến và biểu đồ
 
-**Biến định tính** (categorical) xếp mỗi cá thể vào một nhóm (môn thể thao yêu thích, nhóm máu); **biến định lượng** (quantitative) nhận giá trị số mà phép tính có ý nghĩa (chiều cao, thời gian). Dữ liệu định tính được biểu diễn bằng biểu đồ cột và tóm tắt bằng tần số hoặc tần số tương đối; dữ liệu định lượng biểu diễn bằng biểu đồ chấm, biểu đồ thân lá, biểu đồ tần số (histogram) và biểu đồ hộp.
+Trước hết, ta xem dữ liệu thuộc loại nào, vì loại dữ liệu quyết định cách vẽ. **Biến định tính** (categorical) xếp mỗi cá thể vào một nhóm (môn thể thao yêu thích, nhóm máu); **biến định lượng** (quantitative) nhận giá trị số mà phép tính có ý nghĩa (chiều cao, thời gian). Dữ liệu định tính được biểu diễn bằng biểu đồ cột và tóm tắt bằng tần số hoặc tần số tương đối. Dữ liệu định lượng biểu diễn bằng biểu đồ chấm, biểu đồ thân lá, biểu đồ tần số (histogram) và biểu đồ hộp.
 
-Để mô tả một phân phối định lượng, hãy nói đủ bốn điều, luôn gắn với tình huống:
+Nhìn một biểu đồ, bạn nên nói gì? Một mô tả đầy đủ cần bốn điều, và điều nào cũng phải gắn với tình huống của dữ liệu:
 
 | Đặc điểm | Cần nói gì |
 |---|---|
@@ -29,13 +29,13 @@ Mọi cuộc khảo sát thống kê đều bắt đầu bằng việc nhìn và
 
 ## Số đo trung tâm và độ phân tán
 
-Với dữ liệu $x_1,\dots,x_n$: **trung bình** là $\bar x=\dfrac{\sum x_i}{n}$; **trung vị** là giá trị đứng giữa của dữ liệu đã sắp xếp. **Độ lệch chuẩn mẫu** là
+Với dữ liệu $x_1,\dots,x_n$, ta tìm trung tâm bằng một trong hai cách: **trung bình** là $\bar x=\dfrac{\sum x_i}{n}$, còn **trung vị** là giá trị đứng giữa của dữ liệu đã sắp xếp. Để đo độ phân tán, ta dùng độ lệch chuẩn. **Độ lệch chuẩn mẫu** là
 $$s=\sqrt{\frac{\sum(x_i-\bar x)^2}{n-1}},$$
-xấp xỉ khoảng cách điển hình từ các giá trị đến trung bình. **Tứ phân vị** $Q_1$ và $Q_3$ là trung vị của nửa dưới và nửa trên, và $\text{IQR}=Q_3-Q_1$.
+xấp xỉ khoảng cách điển hình từ các giá trị đến trung bình. Con số nhỏ nghĩa là dữ liệu tụm gần nhau, con số lớn nghĩa là dữ liệu rải rộng. **Tứ phân vị** $Q_1$ và $Q_3$ là trung vị của nửa dưới và nửa trên, và $\text{IQR}=Q_3-Q_1$ cho biết nửa giữa của dữ liệu trải rộng đến đâu.
 
-Trung vị và IQR là số đo **bền vững** (resistant): giá trị cực đoan hầu như không ảnh hưởng đến chúng. Trung bình và độ lệch chuẩn thì không. Trong phân phối lệch phải, đuôi dài kéo trung bình lên trên trung vị; trong phân phối lệch trái thì kéo xuống dưới.
+Vì sao có lúc ta chọn trung vị thay cho trung bình? Vì trung vị và IQR là số đo **bền vững** (resistant): một giá trị cực đoan hầu như không làm chúng nhúc nhích. Trung bình và độ lệch chuẩn thì không được như vậy. Trong phân phối lệch phải, đuôi dài kéo trung bình lên trên trung vị; trong phân phối lệch trái thì kéo xuống dưới.
 
-Theo quy tắc $1{,}5\times\text{IQR}$, một giá trị là **giá trị ngoại lai** nếu nó nhỏ hơn $Q_1-1{,}5\,\text{IQR}$ hoặc lớn hơn $Q_3+1{,}5\,\text{IQR}$.
+Bao xa thì một giá trị được coi là lạ so với phần còn lại? Thống kê có một quy tắc cụ thể. Theo quy tắc $1{,}5\times\text{IQR}$, một giá trị là **giá trị ngoại lai** nếu nó nhỏ hơn $Q_1-1{,}5\,\text{IQR}$ hoặc lớn hơn $Q_3+1{,}5\,\text{IQR}$. Ta thử áp dụng vào một ví dụ.
 
 :::example Tìm giá trị ngoại lai
 Số phút làm bài tập về nhà trong một buổi tối của $12$ học sinh là
@@ -67,9 +67,9 @@ Vậy phân phối nhiều khả năng lệch phải, chọn đáp án **B**. V�
 
 ## Vị trí: điểm z và bách phân vị
 
-**Điểm z** của một giá trị cho biết nó cách trung bình bao nhiêu độ lệch chuẩn:
+Một điểm kiểm tra cao hay thấp còn tùy cả lớp làm bài ra sao. Để đo điều đó, ta xem giá trị cách trung bình bao xa, tính bằng độ lệch chuẩn. **Điểm z** của một giá trị cho biết nó cách trung bình bao nhiêu độ lệch chuẩn:
 $$z=\frac{x-\text{trung bình}}{\text{độ lệch chuẩn}}.$$
-Điểm z âm nghĩa là nhỏ hơn trung bình. **Bách phân vị** (percentile) của một giá trị là phần trăm dữ liệu nhỏ hơn hoặc bằng nó. Điểm z cho phép so sánh các giá trị thuộc những phân phối khác nhau.
+Điểm z âm nghĩa là giá trị nhỏ hơn trung bình. Một cách khác để nói về vị trí là dùng bách phân vị. **Bách phân vị** (percentile) của một giá trị là phần trăm dữ liệu nhỏ hơn hoặc bằng nó. Điểm z còn có thêm một lợi thế: nó cho phép so sánh các giá trị thuộc những phân phối khác nhau, như trong ví dụ sau.
 
 :::example So sánh bằng điểm z
 Minh được $82$ điểm bài kiểm tra toán có trung bình $70$, độ lệch chuẩn $8$, và $75$ điểm bài kiểm tra vật lí có trung bình $65$, độ lệch chuẩn $4$. So với các bạn, Minh làm bài nào tốt hơn?
@@ -83,7 +83,7 @@ Vậy so với các bạn, Minh làm bài vật lí tốt hơn, dù điểm thô
 
 ## So sánh hai phân phối
 
-Khi so sánh hai nhóm, hãy nói về hình dạng, trung tâm, độ phân tán và đặc điểm bất thường, và dùng **từ so sánh**. Liệt kê hai trung vị chưa phải là so sánh; "trung vị của A lớn hơn trung vị của B" mới là so sánh.
+Chỗ này nhiều bạn hay nhầm: viết ra hai con số rồi tưởng là đã so sánh. Khi so sánh hai nhóm, ta nói về hình dạng, trung tâm, độ phân tán và đặc điểm bất thường, và dùng **từ so sánh**. Liệt kê hai trung vị chưa phải là so sánh; "trung vị của A lớn hơn trung vị của B" mới là so sánh.
 
 :::example Hai lớp học
 Bộ năm số tóm tắt điểm kiểm tra của hai lớp như sau.
@@ -104,10 +104,11 @@ Vậy lớp A có điểm điển hình cao hơn một chút nhưng điểm phâ
 
 :::warning Những cái bẫy thường gặp
 - **Thiếu tình huống:** "trung vị là $68$" nên viết "trung vị điểm của lớp A là $68$ điểm".
-- **Liệt kê thay vì so sánh:** dùng "lớn hơn", "nhỏ hơn", "gần bằng".
+- **Liệt kê thay vì so sánh:** hãy dùng "lớn hơn", "nhỏ hơn", "gần bằng".
 - **Dùng trung bình cho dữ liệu lệch:** khi lệch mạnh hoặc có ngoại lai, mô tả trung tâm bằng trung vị và độ phân tán bằng IQR.
-- **Tính tứ phân vị bằng tay:** khi $n$ lẻ, bỏ trung vị ra khỏi cả hai nửa.
+- **Tính tứ phân vị bằng tay:** khi $n$ lẻ, hãy bỏ trung vị ra khỏi cả hai nửa.
 - **Phương sai và độ lệch chuẩn:** độ lệch chuẩn có cùng đơn vị với dữ liệu.
+Nếu chỉ nhớ một điều, hãy nhớ điều này: mỗi con số cần có đơn vị và tình huống đi kèm, và mỗi so sánh cần một từ so sánh. Các bài tập bên dưới là chỗ để bạn luyện cho quen tay.
 :::
 
 :::terms
