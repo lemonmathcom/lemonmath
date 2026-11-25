@@ -31,7 +31,7 @@ b) Nằm ngang khi $3t^2-3=0$, tức $t=\pm1$ (khi đó $2t\ne0$): các điểm 
 :::
 
 :::note Đạo hàm cấp hai
-$\dfrac{d^2y}{dx^2}$ **không** bằng $\dfrac{d^2y/dt^2}{d^2x/dt^2}$. Hãy lấy đạo hàm của $\dfrac{dy}{dx}$ theo $t$, rồi chia cho $\dfrac{dx}{dt}$:
+Chỗ này nhiều bạn hay nhầm: $\dfrac{d^2y}{dx^2}$ **không** bằng $\dfrac{d^2y/dt^2}{d^2x/dt^2}$. Vì sao? Vì hệ số góc thay đổi theo hoành độ, không phải theo tham số. Nên ta làm hai bước: lấy đạo hàm của $\dfrac{dy}{dx}$ theo $t$, rồi chia cho $\dfrac{dx}{dt}$ để đổi về theo hoành độ:
 $$\frac{d^2y}{dx^2}=\frac{\dfrac{d}{dt}\left(\dfrac{dy}{dx}\right)}{dx/dt}.$$
 :::
 

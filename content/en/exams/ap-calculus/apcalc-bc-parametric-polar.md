@@ -31,7 +31,7 @@ b) Horizontal where $3t^2-3=0$, at $t=\pm1$ (there $2t\ne0$): the points $(1,-2)
 :::
 
 :::note The second derivative
-$\dfrac{d^2y}{dx^2}$ is **not** $\dfrac{d^2y/dt^2}{d^2x/dt^2}$. Differentiate $\dfrac{dy}{dx}$ with respect to $t$, then divide by $\dfrac{dx}{dt}$:
+Many students slip here: $\dfrac{d^2y}{dx^2}$ is **not** $\dfrac{d^2y/dt^2}{d^2x/dt^2}$. Why? Because the slope changes along the horizontal direction, not along the parameter. So we work in two steps: differentiate $\dfrac{dy}{dx}$ with respect to $t$, then divide by $\dfrac{dx}{dt}$ to convert back:
 $$\frac{d^2y}{dx^2}=\frac{\dfrac{d}{dt}\left(\dfrac{dy}{dx}\right)}{dx/dt}.$$
 :::
 

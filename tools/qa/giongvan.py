@@ -321,11 +321,14 @@ def cmd_apply(args):
             if not new_lines:
                 errs.append(tag + ': đoạn trống, bỏ qua'); continue
             if blank_ok:
-                dup = [l for l in new_lines if re.match(r'^\s*\$\$.*\$\$\s*$', l) and l.strip() in text]
+                oldl = set(x.strip() for x in old.split('\n'))
+                dup = [l for l in new_lines if re.match(r'^\s*\$\$.*\$\$\s*$', l) and l.strip() in text and l.strip() not in oldl]
                 for l in dup:
                     notes.append(tag + ': bỏ dòng công thức chép trùng (%s)' % l.strip()[:40]); new_lines.remove(l)
                 while new_lines and not new_lines[-1].strip(): new_lines.pop()
-            if blank_ok and any(not l.strip() for l in new_lines):
+            if blank_ok and not any(not l.strip() for l in new_lines):
+                bad = [l for l in new_lines if re.match(r'^\s*(:::|::|#|\||\$\$|!\[)', l) and l.strip() not in oldl]
+            elif blank_ok:
                 parts, cur = [], []
                 for l in new_lines:
                     if l.strip(): cur.append(l)
@@ -339,12 +342,14 @@ def cmd_apply(args):
                             notes.append(tag + ': bỏ phần chép trùng sau dòng trống (%s)' % first[:40]); continue
                     keep.append(part)
                 new_lines = [l for i, part in enumerate(keep) for l in ([''] if i else []) + part]
-                bad = [l for l in new_lines if re.match(r'^\s*(:::|::|#|\||\$\$|!\[)', l)]
+                bad = [l for l in new_lines if re.match(r'^\s*(:::|::|#|\||\$\$|!\[)', l) and l.strip() not in oldl]
             else:
                 bad = [l for l in new_lines if re.match(r'^\s*(:::|::|#|\||\$\$|!\[)', l) or not l.strip()]
             if bad:
                 errs.append(tag + ': có dòng không hợp lệ (%r), bỏ qua' % bad[0][:40]); continue
             newt = '\n'.join(new_lines)
+            if newt.strip() and newt.strip() in text:
+                continue  # đã ghép từ trước (chạy lại cùng một file): bỏ qua, tránh chèn trùng
             om, nm = collections.Counter(MATH.findall(old)), collections.Counter(MATH.findall(newt))
             if om != nm:
                 miss = list((om - nm).elements()); extra = list((nm - om).elements())

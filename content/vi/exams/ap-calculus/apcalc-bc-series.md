@@ -65,9 +65,10 @@ Phân loại $\displaystyle\sum_{n=1}^\infty\frac{(-1)^{n+1}}{n}$ và $\displays
 $$P_n(x)=f(a)+f'(a)(x-a)+\frac{f''(a)}{2!}(x-a)^2+\dots+\frac{f^{(n)}(a)}{n!}(x-a)^n.$$
 
 :::note Các chuỗi Maclaurin cần thuộc lòng
+Bốn chuỗi này gặp lại liên tục, nên thuộc chúng sẽ đỡ mất thời gian rất nhiều:
 $$e^x=\sum_{n=0}^\infty\frac{x^n}{n!},\qquad\sin x=\sum_{n=0}^\infty\frac{(-1)^nx^{2n+1}}{(2n+1)!},\qquad\cos x=\sum_{n=0}^\infty\frac{(-1)^nx^{2n}}{(2n)!},$$
 $$\frac{1}{1-x}=\sum_{n=0}^\infty x^n\quad(|x|<1).$$
-Các chuỗi mới được tạo từ những chuỗi này bằng cách thế biến, nhân với một luỹ thừa của $x$, đạo hàm hoặc lấy tích phân từng số hạng.
+Các chuỗi mới được tạo từ những chuỗi này bằng cách thế biến, nhân với một luỹ thừa của $x$, đạo hàm hoặc lấy tích phân từng số hạng. Nhờ vậy, thuộc bốn chuỗi này là ta viết được rất nhiều chuỗi khác mà không phải tính lại đạo hàm.
 :::
 
 :::example Đa thức Taylor từ các đạo hàm cho trước

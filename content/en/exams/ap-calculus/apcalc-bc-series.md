@@ -65,9 +65,10 @@ The idea of a Taylor polynomial is to replace a complicated function by a polyno
 $$P_n(x)=f(a)+f'(a)(x-a)+\frac{f''(a)}{2!}(x-a)^2+\dots+\frac{f^{(n)}(a)}{n!}(x-a)^n.$$
 
 :::note Maclaurin series to know by heart
+These four turn up again and again, so knowing them saves a great deal of time:
 $$e^x=\sum_{n=0}^\infty\frac{x^n}{n!},\qquad\sin x=\sum_{n=0}^\infty\frac{(-1)^nx^{2n+1}}{(2n+1)!},\qquad\cos x=\sum_{n=0}^\infty\frac{(-1)^nx^{2n}}{(2n)!},$$
 $$\frac{1}{1-x}=\sum_{n=0}^\infty x^n\quad(|x|<1).$$
-New series come from these by substituting, multiplying by a power of $x$, differentiating or integrating term by term.
+New series come from these by substituting, multiplying by a power of $x$, differentiating or integrating term by term. So once you know these four, you can write down many others without recomputing a single derivative.
 :::
 
 :::example A Taylor polynomial from given derivatives
