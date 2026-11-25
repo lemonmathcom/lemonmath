@@ -48,6 +48,7 @@
     msg.textContent = '…';
     fb('GET', p + '/meta').then(function (m) {
       if (!m || !m.ids) { msg.textContent = T.noRoom; return; }
+      if (m.kind === 'arena') { location.href = (app.getAttribute('data-arena') || '../') + '?r=' + p; return; }   // a room of Lemon Arena, not a class
       pin = p;
       var old = null; try { old = JSON.parse(localStorage.getItem('lm-live:' + pin) || 'null'); } catch (e2) {}
       if (m.state === 'end' && !old) { msg.textContent = T.over; return; }

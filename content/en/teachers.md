@@ -21,6 +21,8 @@ Besides the two tools above, the whole site can be used in class or set as homew
 - **Printable self-study sheets.** Every lesson has an A4 sheet with a summary, exercises and space for the working. Open a lesson and press the print-sheet button at the top.
 - **A mini test at the end of every lesson.** Students take it at home and it is marked on submit, with feedback, likely causes of lost marks and next steps. You only need to send the class the link.
 - **Past papers and exam prep.** Timed papers with automatic marking of the objective part and a printable version with answers. See the [exam prep section](exam:).
+- **Lemon Arena on the projector.** In the [Arena](../arena/), press "Open a room", untick "I play too" and put the screen up: the class joins with a 6-digit code, everyone answers the same mental-maths or grade-knowledge questions, and the scoreboard runs live. Good for a five-minute warm-up. A quick wrong answer loses points, so students learn to be sure first and fast second.
+- **Study groups.** Suggest that each table starts a [study group](../study-groups/) with a shared weekly goal; students cheer each other on without you having to manage anything.
 - **Lessons in two languages.** Every lesson exists in English and in Vietnamese, which helps classes that teach maths in English.
 
 ## Lemonmath and independent study

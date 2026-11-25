@@ -26,6 +26,12 @@ Trang [Hành trình học](../hanh-trinh/) cho biết con nên học gì tiếp,
 
 Nếu muốn xem trên điện thoại của mình, bố mẹ cùng con bấm "Lưu bằng mã học tập" trên máy con. Sau đó, trên điện thoại của bố mẹ, mở trang Hành trình học, chọn "Bố mẹ xem tiến độ của con" và nhập mã. Trang chỉ cho xem, không làm thay đổi gì của con.
 
+## Lập nhóm học tập cho cả nhà
+
+Trẻ học bền hơn khi có người cùng đi. Ở trang [Nhóm học tập](../nhom-hoc/), bố mẹ lập một nhóm cho anh chị em trong nhà (hoặc cho con và vài bạn cùng lớp), đặt biệt danh "Mẹ", "Bố" để vào cùng. Cả nhóm có một mục tiêu chung mỗi tuần; mỗi bài test, mỗi trận ở [Đấu trường Lemon](../dau-truong/) của các con đều được cộng vào. Bố mẹ thấy hôm nay con đã học chưa, chuỗi ngày học dài bao nhiêu, và bấm 👏 💪 🌟 🍋 để cổ vũ con ngay trên điện thoại của mình.
+
+Nhóm không có ô chat và không có bảng xếp hạng công khai; chỉ người có mã nhóm mới vào được. Một lời khen nhỏ mỗi tối thường có tác dụng hơn một lời nhắc dài.
+
 ## Chọn lớp của con
 
 - **Tiểu học:** [lớp 1](grade:1) · [lớp 2](grade:2) · [lớp 3](grade:3) · [lớp 4](grade:4) · [lớp 5](grade:5)

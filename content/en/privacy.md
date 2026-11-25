@@ -3,9 +3,9 @@ title: Privacy policy
 description: What data Lemonmath keeps, why, for how long, who else can reach it, and how you can see, correct or delete your own. Written plainly for students, parents and teachers.
 ---
 
-*In force from 24 November 2026.*
+*In force from 25 November 2026.* (Previous version: 24 November 2026. Adds Lemon Arena and study groups.)
 
-In short: you can learn on Lemonmath **without signing up for anything**. When you only read lessons, take the tests and tick lessons as complete, everything stays on your own device and Lemonmath never receives it. Lemonmath keeps a little data only when you use a learning code, a teacher account or a class, and only what that feature needs. It deletes it once it is no longer needed.
+In short: you can learn on Lemonmath **without signing up for anything**. When you only read lessons, take the tests and tick lessons as complete, everything stays on your own device and Lemonmath never receives it. Lemonmath keeps a little data only when you use a learning code, a study group, an arena room, a teacher account or a class, and only what that feature needs. It deletes it once it is no longer needed.
 
 This page follows Vietnam's Personal Data Protection Law 2025 and Decree 356/2025/ND-CP.
 
@@ -23,17 +23,20 @@ Lemonmath (lemonmath.com) is set up and run by **Nguyen Van Chanh**, a private i
 
 - **Reading lessons, taking tests, ticking lessons as complete, opening My progress:** lessons done, scores, dates, weekly goal, a nickname if you choose one. Used to suggest what to learn next and what to review.
 - **Saving lessons for offline study:** the lesson pages, so you can read without an internet connection.
+- **Playing Lemon Arena on your own or taking today's challenge:** scores, best scores, games played, your nickname and picture. Used to show your best score and stars for each deck.
 - **Building a test or analysing class scores in the Teachers' corner:** the names and scores the teacher pastes in are worked out on the teacher's own device.
 
 ### On Lemonmath's server
 
 - **Saving your journey with a learning code:** your nickname, lessons done, scores, dates. **No** full name, email or phone number. Used to carry on from another device and let parents follow along.
+- **Study groups:** the group name, and for each member a nickname and a picture (one of 16 ready-made ones), practice sessions this week and last week, days practised this week, streak, today's challenge score, and the cheers and nudges members send each other. **No** full names, emails, phone numbers or messages (groups have no chat). Used so the group can follow its shared goal and cheer each other on; only members of the same group see it.
 - **Teacher accounts:** email, display name, school (if given). The password and recovery code are kept only in one-way encrypted form. Used to log in and to send the recovery code and password reset codes.
 - **Work a teacher sets for a class:** students' names (typed by the teacher or by the student), 4-digit personal codes, answers, scores, hand-in times; for tests, also how many times the student left the page while working. Used to mark the work and report to the teacher.
 
 ### With our service providers
 
 - **Joining a live class test on the projector:** the name you type and your answers, kept on Firebase (servers in Singapore), to show the class's results on the screen.
+- **Arena rooms:** each player's nickname, picture, score and number of questions answered, kept on Firebase (servers in Singapore), to show the room's scoreboard.
 - **Visiting any page:** totals only (page views, which pages, country, type of device) through Cloudflare Web Analytics, so we know which lessons are used and can write the next ones well.
 - **Emailing us or reporting a mistake:** what you send, so we can reply and fix the lesson.
 
@@ -46,7 +49,8 @@ Lemonmath uses data only for the purposes listed above. Lemonmath **does not sel
 Most people learning on Lemonmath are under 18, so we keep to three rules:
 
 - **No account is needed to learn.** Lessons, tests and My progress all work without sending any data anywhere.
-- **A learning code needs a parent's agreement.** Before creating a code, the student has to tick a box confirming they have asked and their parent or guardian agrees. The code is not linked to a name, email or phone number.
+- **Learning codes and study groups need a parent's agreement.** Before creating a learning code, or starting or joining a group, the student has to tick a box confirming that both they and their parent or guardian agree. Codes and groups are not linked to a name, email or phone number.
+- **No room for strangers.** Study groups and arena rooms have no chat, no public leaderboard and no matching with strangers; only people with the code can join. Cheers are a few ready-made emojis. A group leader can remove anyone they do not know.
 - **Class data is the teacher's decision.** When setting work, the teacher decides what to enter and what it is for; Lemonmath stores and marks it as the teacher asks. Teachers agree to this when they create an account. Teachers should let students and parents know, and enter only names: no dates of birth, phone numbers or addresses.
 
 Parents who want to see or delete their child's data can follow "See, correct or delete your data" below, or ask the child's teacher to delete it from the class.
@@ -62,14 +66,16 @@ Parents who want to see or delete their child's data can follow "See, correct or
 | Password reset codes sent by email | Expire after 15 minutes, deleted after 1 day |
 | A journey saved with a learning code | Until you delete it; deleted automatically after **12 months** without use |
 | Live class tests | Deleted when the teacher presses **Close class**; classes left open are cleared out regularly |
+| Study groups | A member's numbers are deleted as soon as they leave or are removed; members leave automatically after **60 days** without opening the page; a group is deleted after **90 days** without activity or when its leader deletes it |
+| Arena rooms | Deleted when the host presses **Close the room**; rooms left open are cleared out regularly |
 | Data on your own device | Yours to keep; clear it by deleting this site's data in your browser |
 
 ## Who else can reach the data?
 
 Lemonmath does not share your data with anyone for their own use. To run the site we rely on a few service providers, who handle data only for the job they do for us:
 
-- **Cloudflare**: servers, the database for classes and learning codes, visitor statistics.
-- **Google Firebase**: live class tests (servers in Singapore).
+- **Cloudflare**: servers, the database for classes, learning codes and study groups, visitor statistics.
+- **Google Firebase**: live class tests and arena rooms (servers in Singapore).
 - **Resend**: sending teachers their recovery code and password reset codes.
 - **GitHub**: hosting the web pages; receiving mistake reports if you send them there.
 
@@ -78,8 +84,8 @@ These providers' servers may be outside Vietnam, so data may be stored in or tra
 ## How do we protect it?
 
 - Every connection to Lemonmath is encrypted (HTTPS).
-- A teacher's password is encrypted in the browser before it is sent; the server keeps only a version encrypted once more. Recovery codes and learning codes are also stored only in encrypted form, so not even the person running the site can read them.
-- Too many wrong logins lock an account for a while, and the number of new learning codes per day from one network is limited. To count that limit, the server keeps an encrypted trace of the network address for 2 days and then deletes it; it never stores the address itself.
+- A teacher's password is encrypted in the browser before it is sent; the server keeps only a version encrypted once more. Recovery codes, learning codes, group codes and group member keys are also stored only in encrypted form, so not even the person running the site can read them.
+- Too many wrong logins lock an account for a while, and the number of new learning codes, new groups, group joins and wrong group codes per day from one network is limited. To count that limit, the server keeps an encrypted trace of the network address for 2 days and then deletes it; it never stores the address itself.
 - Data is kept only as long as it is needed and then deleted automatically, as in the table above.
 
 If personal data is ever exposed, Lemonmath will tell the people affected and the competent authorities as the law requires.
@@ -94,10 +100,11 @@ You can do most of this yourself, straight away:
 
 - **Data on your device:** open your browser settings and delete the data for lemonmath.com.
 - **Learning code:** the [My progress](../my-progress/) page has a button that deletes the whole journey saved with your code.
+- **Study groups:** on the [Study groups](../study-groups/) page, press **Leave the group** to delete your numbers in it; the leader has a **Delete the group** button. An arena room is deleted when its host presses **Close the room**.
 - **Teacher account:** delete single assignments, whole classes or the entire account on the [My classes](../classroom/) page. To change your email or display name, email Lemonmath.
 - **Students and parents:** ask the teacher to remove the child's name or work from the class, or contact Lemonmath.
 
-For anything you cannot do yourself, email **[support@lemonmath.com](mailto:support@lemonmath.com)** with your request and a way to find your data (learning code, account email, class name and assignment code). Lemonmath replies within **7 working days**. To protect you, we may ask a few questions to make sure the request comes from the person the data belongs to.
+For anything you cannot do yourself, email **[support@lemonmath.com](mailto:support@lemonmath.com)** with your request and a way to find your data (learning code, group code, account email, class name and assignment code). Lemonmath replies within **7 working days**. To protect you, we may ask a few questions to make sure the request comes from the person the data belongs to.
 
 ## When this policy changes
 

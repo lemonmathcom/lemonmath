@@ -26,6 +26,12 @@ The [My progress](../my-progress/) page shows what your child should learn next,
 
 To follow along on your own phone, press "Save with a learning code" together on your child's device. Then, on your phone, open My progress, choose "Parents: follow my child" and type the code. You can only look; nothing of your child's changes.
 
+## Start a family study group
+
+Children keep going when someone goes with them. On the [Study groups](../study-groups/) page, start a group for the brothers and sisters at home (or for your child and a few classmates) and join it yourself as "Mum" or "Dad". The group has one shared goal each week; every test and every [Lemon Arena](../arena/) game your children play counts towards it. You can see whether your child has practised today and how long their streak is, and send 👏 💪 🌟 🍋 from your own phone.
+
+Groups have no chat and no public leaderboard; only people with the group code can join. A small word of praise each evening often does more than a long reminder.
+
 ## Choose your child's grade
 
 - **Primary:** [grade 1](grade:1) · [grade 2](grade:2) · [grade 3](grade:3) · [grade 4](grade:4) · [grade 5](grade:5)

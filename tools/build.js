@@ -99,8 +99,8 @@ if (!/^https:\/\/[^\s/]+$/.test(site.url)) fail('data/curriculum.json: "url" ph�
 
 const LANGS = ['en', 'vi'];
 const LANG = {
-  en: { prefix: '', gradeSlug: (n) => 'grade-' + n, about: 'about', privacy: 'privacy', contact: 'contact', paper: 'learn-on-paper', parents: 'parents', week: 'this-week', offline: 'offline', exams: 'exams', teachers: 'teachers', join: 'join', classroom: 'classroom', homework: 'homework', journey: 'my-progress', formulas: 'formulas', levels: { primary: 'primary', middle: 'middle-school', high: 'high-school' }, htmlLang: 'en', locale: 'en-US', name: 'English' },
-  vi: { prefix: 'vi', gradeSlug: (n) => 'lop-' + n, about: 'gioi-thieu', privacy: 'bao-mat', contact: 'lien-he', paper: 'hoc-tren-giay', parents: 'phu-huynh', week: 'bai-cua-tuan', offline: 'hoc-offline', exams: 'on-thi', teachers: 'giao-vien', join: 'vao-lop', classroom: 'lop-hoc', homework: 'lam-bai', journey: 'hanh-trinh', formulas: 'cong-thuc', levels: { primary: 'tieu-hoc', middle: 'thcs', high: 'thpt' }, htmlLang: 'vi', locale: 'vi-VN', name: 'Tiếng Việt' }
+  en: { prefix: '', gradeSlug: (n) => 'grade-' + n, about: 'about', privacy: 'privacy', contact: 'contact', paper: 'learn-on-paper', parents: 'parents', week: 'this-week', offline: 'offline', exams: 'exams', teachers: 'teachers', join: 'join', classroom: 'classroom', homework: 'homework', journey: 'my-progress', formulas: 'formulas', arena: 'arena', groups: 'study-groups', levels: { primary: 'primary', middle: 'middle-school', high: 'high-school' }, htmlLang: 'en', locale: 'en-US', name: 'English' },
+  vi: { prefix: 'vi', gradeSlug: (n) => 'lop-' + n, about: 'gioi-thieu', privacy: 'bao-mat', contact: 'lien-he', paper: 'hoc-tren-giay', parents: 'phu-huynh', week: 'bai-cua-tuan', offline: 'hoc-offline', exams: 'on-thi', teachers: 'giao-vien', join: 'vao-lop', classroom: 'lop-hoc', homework: 'lam-bai', journey: 'hanh-trinh', formulas: 'cong-thuc', arena: 'dau-truong', groups: 'nhom-hoc', levels: { primary: 'tieu-hoc', middle: 'thcs', high: 'thpt' }, htmlLang: 'vi', locale: 'vi-VN', name: 'Tiếng Việt' }
 };
 const LEVEL = (n) => (n <= 5 ? 'primary' : n <= 9 ? 'middle' : 'high');
 const ID_RE = /^[a-z0-9]+(?:-[a-z0-9]+)*$/;
@@ -169,6 +169,8 @@ const classroomDir = (lang) => px.join(LANG[lang].prefix, LANG[lang].classroom);
 const homeworkDir = (lang) => px.join(LANG[lang].prefix, LANG[lang].homework);
 const journeyDir = (lang) => px.join(LANG[lang].prefix, LANG[lang].journey);
 const formulasDir = (lang) => px.join(LANG[lang].prefix, LANG[lang].formulas);
+const arenaDir = (lang) => px.join(LANG[lang].prefix, LANG[lang].arena);
+const groupsDir = (lang) => px.join(LANG[lang].prefix, LANG[lang].groups);
 const abs = (dir) => site.url + '/' + (dir ? dir + '/' : '');
 const other = (lang) => (lang === 'en' ? 'vi' : 'en');
 
@@ -400,7 +402,12 @@ function shell(o) {
 
   const switchLink = '<a class="lang-btn" href="' + relDir(d, o.altDir) + '" hreflang="' + altLang + '" lang="' + altLang + '" data-lang="' + altLang + '" title="' + esc(T.switchTitle) + '">' + icon('globe', 18) + '<span>' + LANG[altLang].name + '</span><b class="lang-short" aria-hidden="true">' + altLang.toUpperCase() + '</b></a>';
 
-  const mainLinks = '<a href="' + relDir(d, homeDir(lang)) + '#grades">' + esc(T.allGrades) + '</a><a href="' + relDir(d, examsDir(lang)) + '">' + esc(T.examsNav) + '</a><a href="' + relDir(d, paperDir(lang)) + '">' + esc(T.paper) + '</a><a href="' + relDir(d, offlineDir(lang)) + '">' + esc(T.offlineNav) + '</a><a href="' + relDir(d, parentsDir(lang)) + '">' + esc(T.parents) + '</a><a href="' + relDir(d, teachersDir(lang)) + '">' + esc(T.teachers) + '</a><a href="' + relDir(d, journeyDir(lang)) + '">' + esc(T.jrNav) + '</a>';   // "About" stays in the footer
+  // the top menu shows the main places and keeps the rest under "More"; the drawer (phones, tablets) lists everything
+  const NL = (dir, text, extra) => '<a href="' + relDir(d, dir) + (extra || '') + '">' + esc(text) + '</a>';
+  const more = [NL(paperDir(lang), T.paper), NL(offlineDir(lang), T.offlineNav), API_URL ? NL(groupsDir(lang), T.grNav) : '', NL(formulasDir(lang), T.fcTitle)].filter(Boolean);
+  const topLinks = NL(homeDir(lang), T.allGrades, '#grades') + NL(examsDir(lang), T.examsNav) + NL(arenaDir(lang), T.arNav) + NL(parentsDir(lang), T.parents) + NL(teachersDir(lang), T.teachers) + NL(journeyDir(lang), T.jrNav) +
+    '<details class="nav-more"><summary>' + esc(T.navMore) + '</summary><div class="nav-pop">' + more.join('') + '</div></details>';   // "About" stays in the footer
+  const mainLinks = NL(homeDir(lang), T.allGrades, '#grades') + NL(examsDir(lang), T.examsNav) + NL(arenaDir(lang), T.arNav) + (API_URL ? NL(groupsDir(lang), T.grNav) : '') + NL(paperDir(lang), T.paper) + NL(offlineDir(lang), T.offlineNav) + NL(parentsDir(lang), T.parents) + NL(teachersDir(lang), T.teachers) + NL(journeyDir(lang), T.jrNav);
   // the drawer (phones, tablets held upright): the main menu first, then the lessons of this grade
   const drawerTop = '<div class="side-top"><span>Menu</span><button id="menu-close" class="icon-btn side-close" type="button" aria-label="' + esc(T.closeMenu) + '" hidden>✕</button></div>\n<nav class="side-main" aria-label="' + esc(T.mainNav) + '">' + mainLinks + '</nav>\n';
   const side = (o.side
@@ -414,7 +421,7 @@ function shell(o) {
     '<header class="topbar">\n' +
     '  <button id="menu-btn" class="icon-btn" type="button" aria-label="' + esc(o.side ? T.menu : T.openMenu) + '" aria-expanded="false" aria-controls="sidebar" hidden>☰</button>\n' +
     '  <a class="brand" href="' + relDir(d, homeDir(lang)) + '">' + mascot({ cls: 'brand-mark' }) + '<span>Lemon<b>math</b></span></a>\n' +
-    '  <nav class="topnav" aria-label="' + esc(T.mainNav) + '">' + mainLinks + '</nav>\n' +
+    '  <nav class="topnav" aria-label="' + esc(T.mainNav) + '">' + topLinks + '</nav>\n' +
     '  <div class="spacer"></div>\n' +
     '  <button id="search-btn" class="icon-btn" type="button" aria-label="' + esc(T.search) + '" aria-expanded="false" hidden>' + icon('search', 20) + '</button>\n' +
     '  <div class="searchbox" hidden><label class="sr" for="q">' + esc(T.search) + '</label>' + icon('search', 18) + '<input id="q" type="search" placeholder="' + esc(T.searchPh) + '" autocomplete="off" aria-controls="results"><ul id="results" class="results" hidden></ul></div>\n' +
@@ -527,6 +534,9 @@ function homePage(lang) {
     '<section id="grades" class="grades" aria-labelledby="grades-h"><h2 id="grades-h">' + esc(T.pickGrade) + '</h2>\n' + ['primary', 'middle', 'high'].map(levelBlock).join('\n') + '<p class="lead fc-home">📐 <a href="' + relDir(d, formulasDir(lang)) + '">' + esc(T.fcTitle) + '</a>: ' + esc(T.fcHome) + '</p></section>\n' +
     '<section class="features pillars" aria-labelledby="pillars-h"><h2 id="pillars-h">' + esc(T.pillarsH) + '</h2><div class="feat-grid">' +
     T.pillars.map((f, i) => '<div class="feat"><span class="feat-ico loop-n">' + (i + 1) + '</span><h3>' + esc(f[1]) + '</h3><p>' + esc(f[2]) + '</p></div>').join('') + '</div></section>\n' +
+    '<section class="features together" aria-labelledby="tg-h"><h2 id="tg-h">' + esc(T.togetherH) + '</h2><p class="lead">' + esc(T.togetherLead) + '</p><div class="cards tg-cards">' +
+    '<a class="card" href="' + relDir(d, arenaDir(lang)) + '"><span class="cicon tg-ico" aria-hidden="true">🏟️</span><h3>' + esc(T.arTitle) + '</h3><p>' + esc(T.togetherAr) + '</p></a>' +
+    (API_URL ? '<a class="card" href="' + relDir(d, groupsDir(lang)) + '"><span class="cicon tg-ico" aria-hidden="true">👥</span><h3>' + esc(T.grTitle) + '</h3><p>' + esc(T.togetherGr) + '</p></a>' : '') + '</div></section>\n' +
     '<section id="exams" class="grades" aria-labelledby="exams-h"><h2 id="exams-h">' + esc(T.examsHome) + '</h2>\n<p class="lead">' + esc(T.examsHomeLead) + ' <a href="' + relDir(d, examsDir(lang)) + '">' + esc(T.examsAll) + ' →</a></p>\n<div class="cards">' + exams.map((e) => examCard(lang, d, e)).join('\n') + '</div></section>\n' +
     '<section class="features loop" aria-labelledby="loop-h"><h2 id="loop-h">' + esc(T.loopH) + '</h2><p class="lead">' + esc(T.loopLead) + '</p><ol class="feat-grid loop-grid">' +
     T.loop.map((f, i) => '<li class="feat"><span class="feat-ico loop-n">' + (i + 1) + '</span><h3>' + esc(f[0]) + '</h3><p>' + esc(f[1]) + '</p></li>').join('') + '</ol>' +
@@ -766,7 +776,7 @@ function teachersPage(lang, page) {
 function joinPage(lang) {
   const T = UI[lang], d = joinDir(lang), alt = joinDir(other(lang));
   const body = '<article class="lesson about join"><h1>' + esc(T.joinTitle) + '</h1>\n<noscript><p class="soon-note">' + esc(T.noJs) + '</p></noscript>\n' +
-    '<div id="jn-app" data-db="' + esc(LIVE_DB) + '" data-bank-en="' + relDir(d, teachersDir('en')) + 'bank/" data-bank-vi="' + relDir(d, teachersDir('vi')) + 'bank/" hidden></div></article>';
+    '<div id="jn-app" data-db="' + esc(LIVE_DB) + '" data-arena="' + relDir(d, arenaDir(lang)) + '" data-bank-en="' + relDir(d, teachersDir('en')) + 'bank/" data-bank-vi="' + relDir(d, teachersDir('vi')) + 'bank/" hidden></div></article>';
   put(lang, d, alt, shell({ lang, dir: d, altDir: alt, title: T.joinTitle + ' | ' + site.name, description: T.joinDesc, body, math: true, noindex: true, scripts: ['assets/katex/katex.min.js', 'assets/live.js'] }), null, true);
 }
 
@@ -800,9 +810,30 @@ function journeyPage(lang) {
   })) };
   fs.mkdirSync(path.join(OUT, d), { recursive: true });
   fs.writeFileSync(path.join(OUT, d, 'lessons.json'), JSON.stringify(data));
-  const body = '<article class="lesson about journey"><h1>' + esc(T.jrTitle) + '</h1>\n<p class="lead">' + esc(T.jrLead) + '</p>\n<noscript><p class="soon-note">' + esc(T.noJs) + '</p></noscript>\n' +
+  const body = '<article class="lesson about journey"><h1>' + esc(T.jrTitle) + '</h1>\n<p class="lead">' + esc(T.jrLead) + '</p>\n<p class="jr-more">🏟️ <a href="' + relDir(d, arenaDir(lang)) + '">' + esc(T.arTitle) + '</a>' + (API_URL ? ' · 👥 <a href="' + relDir(d, groupsDir(lang)) + '">' + esc(T.grTitle) + '</a>' : '') + '</p>\n<noscript><p class="soon-note">' + esc(T.noJs) + '</p></noscript>\n' +
     '<div id="jr-app" data-api="' + esc(API_URL) + '" data-home="' + relDir(d, homeDir(lang)) + '" data-parents="' + relDir(d, parentsDir(lang)) + '" hidden></div></article>';
   put(lang, d, alt, shell({ lang, dir: d, altDir: alt, title: T.jrTitle + ' | ' + site.name, description: T.jrDesc, body, noindex: true, scripts: ['assets/journey.js'] }), null, true);
+}
+
+/* Lemon Arena: quick maths games, today's challenge, rooms with friends (assets/arena.js). Rooms use the live-class
+   Firebase database (LIVE_DB); without it the page still works on its own. The page sits at the same depth as the
+   teachers' corner, so the question bank's relative links work the same here. */
+function arenaPage(lang) {
+  const T = UI[lang], d = arenaDir(lang), alt = arenaDir(other(lang));
+  const body = '<article class="lesson about arena"><h1>' + esc(T.arTitle) + '</h1>\n<p class="lead">' + esc(T.arLead) + '</p>\n<noscript><p class="soon-note">' + esc(T.noJs) + '</p></noscript>\n' +
+    '<div id="ar-app" data-db="' + esc(LIVE_DB) + '" data-api="' + esc(API_URL) + '" data-bank="' + relDir(d, teachersDir(lang)) + 'bank/" data-groups="' + (API_URL ? relDir(d, groupsDir(lang)) : '') + '" data-join="' + (LIVE_DB ? relDir(d, joinDir(lang)) : '') + '" hidden></div>\n' +
+    '<template id="ar-qr">' + qrSvg(abs(d)) + '</template></article>';
+  put(lang, d, alt, shell({ lang, dir: d, altDir: alt, title: T.arTitle + ' | ' + site.name, description: T.arDesc, body, math: true, scripts: ['assets/katex/katex.min.js', 'assets/arena.js'],
+    jsonld: [crumbLD([{ name: T.home, url: abs(homeDir(lang)) }, { name: T.arTitle, url: abs(d) }])] }), null);
+}
+
+/* Study groups: a weekly goal for a group of friends, cheers, today's challenge (assets/groups.js, API /v1/groups/*). */
+function groupsPage(lang) {
+  const T = UI[lang], d = groupsDir(lang), alt = groupsDir(other(lang));
+  const body = '<article class="lesson about groups"><h1>' + esc(T.grTitle) + '</h1>\n<p class="lead">' + esc(T.grLead) + '</p>\n<noscript><p class="soon-note">' + esc(T.noJs) + '</p></noscript>\n' +
+    '<div id="gr-app" data-arena="' + relDir(d, arenaDir(lang)) + '" data-privacy="' + relDir(d, privacyDir(lang)) + '" data-journey="' + relDir(d, journeyDir(lang)) + '" hidden></div></article>';
+  put(lang, d, alt, shell({ lang, dir: d, altDir: alt, title: T.grTitle + ' | ' + site.name, description: T.grDesc, body, scripts: ['assets/groups.js'],
+    jsonld: [crumbLD([{ name: T.home, url: abs(homeDir(lang)) }, { name: T.grTitle, url: abs(d) }])] }), null);
 }
 
 function searchIndex(lang) {
@@ -812,6 +843,8 @@ function searchIndex(lang) {
   rows.push({ t: T.teachTitle, s: T.teachers, u: teachersDir(lang).slice(LANG[lang].prefix ? LANG[lang].prefix.length + 1 : 0) });
   if (API_URL) rows.push({ t: T.crTitle, s: T.teachers, u: classroomDir(lang).slice(LANG[lang].prefix ? LANG[lang].prefix.length + 1 : 0) });
   rows.push({ t: T.jrTitle, s: T.jrNav, u: journeyDir(lang).slice(LANG[lang].prefix ? LANG[lang].prefix.length + 1 : 0) });
+  rows.push({ t: T.arTitle, s: T.arNav, u: arenaDir(lang).slice(LANG[lang].prefix ? LANG[lang].prefix.length + 1 : 0) });
+  if (API_URL) rows.push({ t: T.grTitle, s: T.grNav, u: groupsDir(lang).slice(LANG[lang].prefix ? LANG[lang].prefix.length + 1 : 0) });
   tracks.forEach((g) => {
     const full = g.status === 'full' && g.chapters.some((c) => c.lessons.length);
     rows.push({ t: gName(lang, g), s: T.levels[g.level][0], u: gradeDir(lang, g).slice(LANG[lang].prefix ? LANG[lang].prefix.length + 1 : 0) });
@@ -1039,6 +1072,8 @@ function main() {
     if (teach[lang] && LIVE_DB) joinPage(lang);
     if (teach[lang] && API_URL) { classroomPage(lang); homeworkPage(lang); }
     journeyPage(lang);
+    arenaPage(lang);
+    if (API_URL) groupsPage(lang);
     formulasPage(lang);
     if (offline[lang]) offlinePage(lang, offline[lang]);
     searchIndex(lang);

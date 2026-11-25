@@ -158,6 +158,7 @@
       if (log.length > 2000) log = log.slice(-2000);
       lsSet('lm-log', JSON.stringify(log));
       sync();
+      if (window.lmGroups) window.lmGroups.later();      // study groups see this week's count go up
     }
     function tick(id, on) { var at = read('lm-done-at', {}); at[id] = on ? Date.now() : -Date.now(); lsSet('lm-done-at', JSON.stringify(at)); sync(); }
     // a device linked to a code picks up what was done on the others, at most every 15 minutes
@@ -165,6 +166,63 @@
     return { add: add, tick: tick, doc: doc, apply: apply, sync: sync, api: API, lesson: LESSON, read: read };
   })();
   window.lmJournal = journal;
+
+  /* ---------- study groups (assets/groups.js shows them): the weekly summary this device shares with its groups ----------
+     lm-groups      [{ code, mid, key, name }]   the groups this device is in (the member key never leaves this device but for the API)
+     lm-group:<code> the last copy of a group, so its page opens at once (and offline)
+     lm-groups-at   when the summary was last sent. Sent 5 seconds after a test is marked, after an arena game, and when a
+                    page opens if the last time was more than 15 minutes ago. Weeks and days follow Vietnam time, like the server. */
+  var groups = (function () {
+    var API = journal.api, later0 = 0, VN = 7 * 3600e3, DAY = 864e5;
+    var day = function (t) { return new Date(t + VN).toISOString().slice(0, 10); };
+    var dow = function (t) { return (new Date(t + VN).getUTCDay() + 6) % 7; };
+    function list() { var g = journal.read('lm-groups', []); return Array.isArray(g) ? g.filter(function (x) { return x && x.code && x.mid && x.key; }) : []; }
+    function keep(l) { lsSet('lm-groups', JSON.stringify(l)); }
+    function stats(now) {
+      now = now || Date.now();
+      var log = journal.read('lm-log', []), ar = journal.read('lm-arena', {}) || {}, runs = Array.isArray(ar.runs) ? ar.runs : [];
+      var ts = (Array.isArray(log) ? log : []).map(function (e) { return +e.t; }).concat(runs.map(function (r) { return +r.t; })).filter(function (t) { return t > 0 && t <= now + 6e4; });
+      var wk = day(now - dow(now) * DAY), lwk = day(now - (dow(now) + 7) * DAY), days = '0000000'.split(''), n = 0, lw = 0, seen = {}, ld = '';
+      ts.forEach(function (t) { var k = day(t), w = day(t - dow(t) * DAY); seen[k] = 1; if (k > ld) ld = k; if (w === wk) { n++; days[dow(t)] = '1'; } else if (w === lwk) lw++; });
+      var st = 0, t = now; if (!seen[day(t)]) t -= DAY; while (seen[day(t)]) { st++; t -= DAY; }
+      var out = { wk: wk, n: n, days: days.join(''), lw: lw, st: st, ld: ld }, today = day(now), dc = ar.dc || {}, best = null;
+      Object.keys(dc).forEach(function (k) { if (k.slice(0, 10) === today && (!best || dc[k] > best.s)) best = { d: today, k: k.slice(11), s: dc[k] }; });
+      if (best) out.dc = best;           // today's challenge: the first go on each deck; the best deck is shown
+      return out;
+    }
+    function call(path, body) {
+      return fetch(API + '/v1/groups/' + path, { method: 'POST', headers: { 'Content-Type': 'text/plain' }, body: JSON.stringify(body) })
+        .then(function (r) { return r.json().then(function (j) { return { s: r.status, j: j }; }); });
+    }
+    function cache(code, grp) { lsSet('lm-group:' + code, JSON.stringify(grp)); var l = list(); l.forEach(function (g) { if (g.code === code) g.name = grp.name; }); keep(l); }
+    function forget(code) { keep(list().filter(function (g) { return g.code !== code; })); try { localStorage.removeItem('lm-group:' + code); } catch (e) {} }
+    function one(g, extra) {
+      var body = { code: g.code, mid: g.mid, key: g.key, st: stats() };
+      Object.keys(extra || {}).forEach(function (k) { body[k] = extra[k]; });
+      return call('sync', body).then(function (x) {
+        if (x.s === 404 || x.s === 403) { forget(g.code); return { gone: x.j.error || 'gone' }; }   // deleted, or the leader removed this member
+        if (x.s === 200 && x.j.group) { cache(g.code, x.j.group); return x.j; }
+        return { error: x.j.error || 'server' };
+      });
+    }
+    function sync() {
+      if (!API || !window.fetch) return Promise.resolve([]);
+      lsSet('lm-groups-at', String(Date.now()));
+      return Promise.all(list().map(function (g) { return one(g).catch(function () { return null; }); }));
+    }
+    function later(ms) { clearTimeout(later0); if (!list().length || !API) return; later0 = setTimeout(sync, ms || 5000); }
+    function room(g, pin, deck) { if (!g || !API) return Promise.resolve(null); return call('room', { code: g.code, mid: g.mid, key: g.key, room: pin, deck: deck }).catch(function () { return null; }); }
+    if (API && list().length && !d.getElementById('gr-app') && Date.now() - +(lsGet('lm-groups-at') || 0) > 15 * 60e3) setTimeout(sync, 2500);
+    return { list: list, keep: keep, stats: stats, call: call, one: one, sync: sync, later: later, room: room, forget: forget, cache: cache, api: API };
+  })();
+  window.lmGroups = groups;
+
+  /* the "More" menu closes when you click elsewhere or press Escape */
+  var moreMenu = $('.nav-more');
+  if (moreMenu) {
+    d.addEventListener('click', function (e) { if (moreMenu.open && !moreMenu.contains(e.target)) moreMenu.open = false; });
+    d.addEventListener('keydown', function (e) { if (e.key === 'Escape' && moreMenu.open) { moreMenu.open = false; $('summary', moreMenu).focus(); } });
+  }
 
   function paint() {
     $$('a[data-lesson]').forEach(function (a) {

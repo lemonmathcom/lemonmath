@@ -17,12 +17,14 @@
  *   GET  /v1/hw/:code      POST /v1/hw/:code/start   PUT /v1/hw/:code/save   POST /v1/hw/:code/submit   POST /v1/hw/:code/result
  *   POST /v1/hw/:code/join (a student types their own name, when the class allows it)
  *   POST /v1/journey/new | /sync | /view | /delete (a student's "learning code": progress kept without an account)
+ *   POST /v1/groups/new | /peek | /join | /sync | /cheer | /room | /admin | /leave | /delete (study groups, no accounts)
  *   GET  /v1/info (is e-mail switched on?)   POST /v1/auth/reset-request | /v1/auth/reset (6-digit code by e-mail)   POST /v1/me/recovery (new recovery code)
  * Two kinds of assignment: homework (mode "home", any window, time limit optional) and tests (mode "test": a start time,
  * a time limit, a few minutes to come in late, personal code and shuffling always on, answers shown after closing).
  * E-mail (welcome mail with the recovery code, password reset codes) goes through Resend when the secret RESEND_API_KEY
  * is set; without it everything else works and the recovery code is the only way back in.
- * A daily cron removes assignments 30 days after they close, with their answers, and expired sessions.
+ * A daily cron removes assignments 30 days after they close, with their answers, and expired sessions,
+ * and tidies study groups (members away 60 days, groups quiet for 90 days).
  */
 
 const MIN = 60e3, DAY = 864e5;
@@ -93,6 +95,17 @@ async function route(req, env, ctx) {
     if (b === 'sync') return journeySync(req, env);
     if (b === 'view') return journeyView(req, env);
     if (b === 'delete') return journeyDelete(req, env);
+  }
+  if (a === 'groups' && m === 'POST') {
+    if (b === 'new') return groupNew(req, env);
+    if (b === 'peek') return groupPeek(req, env);
+    if (b === 'join') return groupJoin(req, env);
+    if (b === 'sync') return groupSync(req, env);
+    if (b === 'cheer') return groupCheer(req, env);
+    if (b === 'room') return groupRoom(req, env);
+    if (b === 'admin') return groupAdmin(req, env);
+    if (b === 'leave') return groupLeave(req, env);
+    if (b === 'delete') return groupDelete(req, env);
   }
   if (a === 'info' && !b && m === 'GET') return json({ email: !!env.RESEND_API_KEY, now: Date.now() });
   if (a === 'me' && b === 'recovery' && m === 'POST') return newRecovery(req, env, ctx);
@@ -818,6 +831,185 @@ async function journeyDelete(req, env) {
   return json({ ok: true });
 }
 
+/* ------------------------------------------------------------------ study groups (no accounts) */
+/* A group is opened by its 8-character code; each member holds a member key on their device. Members see nicknames,
+   avatars, practice counts for the week and today's challenge score of the others; nothing else, and no free text but
+   the group name and nicknames. Cheers are four fixed emojis and a nudge. The page sends its own summary ("stats"). */
+const G_MAX = 30, G_NEW_PER_DAY = 30, G_JOIN_PER_DAY = 300, G_BAD_PER_DAY = 60;
+const G_MEMBER_IDLE = 60 * DAY, G_IDLE = 90 * DAY, G_ROOM_MIN = 30, G_INBOX = 20;
+const AVATARS = ['🍋', '🦊', '🐼', '🐯', '🐸', '🐧', '🦉', '🐳', '🦄', '🐝', '🐢', '🐙', '🌻', '🚀', '⭐', '🎈'];
+const CHEERS = ['👏', '💪', '🌟', '🍋'], NUDGE = '🔔';
+const DECK_RE = /^[a-z0-9-]{2,24}$/, DAY_RE = /^\d{4}-\d{2}-\d{2}$/;
+const VN = 7 * 3600e3;   // weeks and days follow Vietnam time (Monday to Sunday)
+const vnDay = (t) => new Date(t + VN).toISOString().slice(0, 10);
+const vnDow = (t) => (new Date(t + VN).getUTCDay() + 6) % 7;
+const weekOf = (t) => vnDay(t - vnDow(t) * DAY);
+const safeJson = (s, d) => { try { const x = JSON.parse(s); return x == null ? d : x; } catch (e) { return d; } };
+
+async function rateKey(env, req, kind, max, now) {
+  const ip = await hmac(env, 'ip:' + (req.headers.get('CF-Connecting-IP') || '')), k = kind + ':' + ip.slice(0, 20) + ':' + Math.floor(now / DAY);
+  const r = await env.DB.prepare('SELECT n FROM rate WHERE k = ?').bind(k).first();
+  if (r && r.n >= max) fail(429, 'too_many');
+  return k;
+}
+const rateBump = (env, k, now) => env.DB.prepare('INSERT INTO rate (k, n, until) VALUES (?, 1, ?) ON CONFLICT (k) DO UPDATE SET n = n + 1').bind(k, now + 2 * DAY).run();
+
+function cleanStats(s) {
+  s = s && typeof s === 'object' ? s : {};
+  const out = { wk: DAY_RE.test(s.wk) ? s.wk : '', n: num(s.n, 0, 999, 0), days: /^[01]{7}$/.test(s.days) ? s.days : '0000000', lw: num(s.lw, 0, 999, 0), st: num(s.st, 0, 9999, 0), ld: DAY_RE.test(s.ld) ? s.ld : '' };
+  if (s.dc && typeof s.dc === 'object' && DAY_RE.test(s.dc.d) && DECK_RE.test(s.dc.k)) out.dc = { d: s.dc.d, k: s.dc.k, s: num(s.dc.s, 0, 2000, 0) };
+  return out;
+}
+function cleanMember(b) {
+  const nick = clean(b.nick, 20), av = AVATARS.includes(b.av) ? b.av : AVATARS[0];
+  if (!nick) fail(400, 'bad_nick');
+  return { nick, av };
+}
+async function groupOf(env, code) {
+  const c = codeOf(code);
+  if (c.length !== 8) fail(400, 'bad_code');
+  const id = await hmac(env, 'gr:' + c);
+  return { id, c, g: await env.DB.prepare('SELECT * FROM groups WHERE id = ?').bind(id).first() };
+}
+/* A wrong code counts against the network (at most G_BAD_PER_DAY a day), so codes cannot be guessed by trying. */
+async function groupOrFail(env, req, code, now) {
+  const k = await rateKey(env, req, 'gbad', G_BAD_PER_DAY, now), x = await groupOf(env, code);
+  if (!x.g) { await rateBump(env, k, now); fail(404, 'no_group'); }
+  return x;
+}
+async function memberOf(env, req, b, now) {
+  const x = await groupOrFail(env, req, b.code, now), mid = typeof b.mid === 'string' && /^[a-z0-9]{8,24}$/.test(b.mid) ? b.mid : '';
+  const m = mid ? await env.DB.prepare('SELECT * FROM group_members WHERE gid = ? AND mid = ?').bind(x.id, mid).first() : null;
+  if (!m || !same(m.key, await hmac(env, 'gm:' + x.id + ':' + String(b.key || '')))) fail(403, 'not_member');
+  return Object.assign(x, { m });
+}
+async function addMember(env, gid, b, now) {
+  const { nick, av } = cleanMember(b), mid = randId(12), key = randId(24);
+  await env.DB.prepare('INSERT INTO group_members (gid, mid, key, nick, av, stats, inbox, joined_at, seen_at) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?)')
+    .bind(gid, mid, await hmac(env, 'gm:' + gid + ':' + key), nick, av, JSON.stringify(cleanStats(b.st)), '[]', now, now).run();
+  return { mid, key };
+}
+/* What a member sees. Counts from an old week are shown as zero; a streak not kept up to yesterday is zero. */
+async function groupView(env, x, meId, now) {
+  const { id, c } = x, g = await env.DB.prepare('SELECT * FROM groups WHERE id = ?').bind(id).first();
+  const rows = (await env.DB.prepare('SELECT mid, nick, av, stats, inbox, joined_at FROM group_members WHERE gid = ? ORDER BY joined_at, mid').bind(id).all()).results || [];
+  const wk = weekOf(now), lwk = weekOf(now - 7 * DAY), today = vnDay(now), yday = vnDay(now - DAY), di = vnDow(now);
+  const who = {}, sent = {};
+  let total = 0, last = 0;
+  const members = rows.map((r) => {
+    const s = cleanStats(safeJson(r.stats, {})), cur = s.wk === wk, days = cur ? s.days : '0000000';
+    who[r.mid] = { nick: r.nick, av: r.av };
+    total += cur ? s.n : 0; last += cur ? s.lw : s.wk === lwk ? s.n : 0;
+    const o = { id: r.mid, nick: r.nick, av: r.av, n: cur ? s.n : 0, days, today: days.charAt(di) === '1', st: s.ld === today || s.ld === yday ? s.st : 0 };
+    if (s.dc && s.dc.d === today) o.dc = { k: s.dc.k, s: s.dc.s };
+    if (r.mid === g.owner) o.lead = true;
+    safeJson(r.inbox, []).forEach((e) => { if (e.f === meId && vnDay(e.t) === today) (sent[r.mid] = sent[r.mid] || []).push(e.e === NUDGE ? 'n' : 'c'); });
+    return o;
+  });
+  const me = rows.find((r) => r.mid === meId);
+  const inbox = me ? safeJson(me.inbox, []).filter((e) => e.t > now - 7 * DAY).map((e) => ({ by: who[e.f] || null, e: e.e, t: e.t })) : [];
+  return {
+    code: c.match(/.{4}/g).join('-'), name: g.name, goal: g.goal || Math.max(3, 3 * rows.length), auto: !g.goal, wk, today, total, last,
+    me: meId, lead: g.owner === meId, members, inbox, sent, max: G_MAX,
+    room: g.room && g.room_until > now ? { code: g.room, deck: g.room_deck || '', until: g.room_until } : null, now
+  };
+}
+async function groupNew(req, env) {
+  const b = await readBody(req), now = Date.now();
+  if (b.consent !== true) fail(400, 'consent');
+  const name = clean(b.name, 40);
+  if (!name) fail(400, 'bad_name');
+  cleanMember(b);
+  const k = await rateKey(env, req, 'gnew', G_NEW_PER_DAY, now);
+  const c = randCode(8), id = await hmac(env, 'gr:' + c);
+  const goal = b.goal == null ? 0 : num(b.goal, 0, 999, 0);
+  await env.DB.prepare('INSERT INTO groups (id, name, goal, owner, created_at, updated_at) VALUES (?, ?, ?, ?, ?, ?)').bind(id, name, goal, '-', now, now).run();
+  const mem = await addMember(env, id, b, now);
+  await env.DB.prepare('UPDATE groups SET owner = ? WHERE id = ?').bind(mem.mid, id).run();
+  await rateBump(env, k, now);
+  return json(Object.assign(mem, { group: await groupView(env, { id, c }, mem.mid, now) }));
+}
+async function groupPeek(req, env) {
+  const b = await readBody(req), now = Date.now(), x = await groupOrFail(env, req, b.code, now);
+  const n = (await env.DB.prepare('SELECT COUNT(*) AS n FROM group_members WHERE gid = ?').bind(x.id).first()).n;
+  return json({ code: x.c.match(/.{4}/g).join('-'), name: x.g.name, n, full: n >= G_MAX, max: G_MAX });
+}
+async function groupJoin(req, env) {
+  const b = await readBody(req), now = Date.now();
+  if (b.consent !== true) fail(400, 'consent');
+  cleanMember(b);
+  const k = await rateKey(env, req, 'gjoin', G_JOIN_PER_DAY, now), x = await groupOrFail(env, req, b.code, now);
+  const n = (await env.DB.prepare('SELECT COUNT(*) AS n FROM group_members WHERE gid = ?').bind(x.id).first()).n;
+  if (n >= G_MAX) fail(409, 'full', { max: G_MAX });
+  const mem = await addMember(env, x.id, b, now);
+  await env.DB.prepare('UPDATE groups SET updated_at = ? WHERE id = ?').bind(now, x.id).run();
+  await rateBump(env, k, now);
+  return json(Object.assign(mem, { group: await groupView(env, x, mem.mid, now) }));
+}
+/* The page reports its summary (and may change the member's nickname or avatar), then gets the group back. */
+async function groupSync(req, env) {
+  const b = await readBody(req), now = Date.now(), x = await memberOf(env, req, b, now);
+  const set = ['seen_at = ?'], val = [now];
+  if (b.st) { set.push('stats = ?'); val.push(JSON.stringify(cleanStats(b.st))); }
+  if (b.nick != null || b.av != null) { const p = cleanMember({ nick: b.nick == null ? x.m.nick : b.nick, av: b.av == null ? x.m.av : b.av }); set.push('nick = ?', 'av = ?'); val.push(p.nick, p.av); }
+  await env.DB.batch([
+    env.DB.prepare('UPDATE group_members SET ' + set.join(', ') + ' WHERE gid = ? AND mid = ?').bind(...val, x.id, x.m.mid),
+    env.DB.prepare('UPDATE groups SET updated_at = ? WHERE id = ?').bind(now, x.id)
+  ]);
+  return json({ group: await groupView(env, x, x.m.mid, now) });
+}
+/* One cheer and one nudge a day from one member to another. */
+async function groupCheer(req, env) {
+  const b = await readBody(req), now = Date.now(), x = await memberOf(env, req, b, now);
+  const e = b.e === NUDGE || CHEERS.includes(b.e) ? b.e : '';
+  if (!e) fail(400, 'bad_cheer');
+  if (b.to === x.m.mid) fail(400, 'self');
+  const to = typeof b.to === 'string' ? await env.DB.prepare('SELECT inbox FROM group_members WHERE gid = ? AND mid = ?').bind(x.id, b.to).first() : null;
+  if (!to) fail(404, 'no_member');
+  const box = safeJson(to.inbox, []), today = vnDay(now), kind = (y) => (y === NUDGE ? 'n' : 'c');
+  if (box.some((y) => y.f === x.m.mid && vnDay(y.t) === today && kind(y.e) === kind(e))) fail(429, 'already');
+  box.push({ f: x.m.mid, e, t: now });
+  await env.DB.prepare('UPDATE group_members SET inbox = ? WHERE gid = ? AND mid = ?').bind(JSON.stringify(box.slice(-G_INBOX)), x.id, b.to).run();
+  return json({ group: await groupView(env, x, x.m.mid, now) });
+}
+/* An arena room opened for the group: its code stays on the group page for G_ROOM_MIN minutes ("" removes it). */
+async function groupRoom(req, env) {
+  const b = await readBody(req), now = Date.now(), x = await memberOf(env, req, b, now);
+  const room = /^\d{6}$/.test(String(b.room || '')) ? String(b.room) : '', deck = DECK_RE.test(b.deck) ? b.deck : '';
+  await env.DB.prepare('UPDATE groups SET room = ?, room_deck = ?, room_until = ?, updated_at = ? WHERE id = ?').bind(room || null, room ? deck : null, room ? now + G_ROOM_MIN * MIN : null, now, x.id).run();
+  return json({ group: await groupView(env, x, x.m.mid, now) });
+}
+/* The group leader renames the group, sets the weekly goal (0 = automatic) or removes a member. */
+async function groupAdmin(req, env) {
+  const b = await readBody(req), now = Date.now(), x = await memberOf(env, req, b, now);
+  if (x.g.owner !== x.m.mid) fail(403, 'not_lead');
+  const q = [];
+  if (b.name != null) { const name = clean(b.name, 40); if (!name) fail(400, 'bad_name'); q.push(env.DB.prepare('UPDATE groups SET name = ? WHERE id = ?').bind(name, x.id)); }
+  if (b.goal != null) q.push(env.DB.prepare('UPDATE groups SET goal = ? WHERE id = ?').bind(num(b.goal, 0, 999, 0), x.id));
+  if (b.remove != null) {
+    if (b.remove === x.m.mid) fail(400, 'self');
+    q.push(env.DB.prepare('DELETE FROM group_members WHERE gid = ? AND mid = ?').bind(x.id, String(b.remove)));
+  }
+  if (q.length) await env.DB.batch(q);
+  return json({ group: await groupView(env, x, x.m.mid, now) });
+}
+/* Leaving removes the member and what they sent; a leader who leaves hands the group to the longest-standing member,
+   and the last one out deletes the group. */
+async function groupLeave(req, env) {
+  const b = await readBody(req), now = Date.now(), x = await memberOf(env, req, b, now);
+  await env.DB.prepare('DELETE FROM group_members WHERE gid = ? AND mid = ?').bind(x.id, x.m.mid).run();
+  const next = await env.DB.prepare('SELECT mid FROM group_members WHERE gid = ? ORDER BY joined_at, mid LIMIT 1').bind(x.id).first();
+  if (!next) await env.DB.prepare('DELETE FROM groups WHERE id = ?').bind(x.id).run();
+  else if (x.g.owner === x.m.mid) await env.DB.prepare('UPDATE groups SET owner = ? WHERE id = ?').bind(next.mid, x.id).run();
+  return json({ ok: true });
+}
+async function groupDelete(req, env) {
+  const b = await readBody(req), now = Date.now(), x = await memberOf(env, req, b, now);
+  if (x.g.owner !== x.m.mid) fail(403, 'not_lead');
+  await env.DB.batch([env.DB.prepare('DELETE FROM group_members WHERE gid = ?').bind(x.id), env.DB.prepare('DELETE FROM groups WHERE id = ?').bind(x.id)]);
+  return json({ ok: true });
+}
+
 /* ------------------------------------------------------------------ daily cleanup */
 async function cleanup(env) {
   const now = Date.now();
@@ -828,8 +1020,13 @@ async function cleanup(env) {
     env.DB.prepare('DELETE FROM resets WHERE expires_at < ?').bind(now - DAY),
     env.DB.prepare('DELETE FROM mail_log WHERE at < ?').bind(now - 2 * DAY),
     env.DB.prepare('DELETE FROM journeys WHERE updated_at < ?').bind(now - J_IDLE),
-    env.DB.prepare('DELETE FROM rate WHERE until < ?').bind(now)
+    env.DB.prepare('DELETE FROM rate WHERE until < ?').bind(now),
+    // study groups: members away for 60 days leave, quiet groups go after 90 days, a group without its leader gets a new one
+    env.DB.prepare('DELETE FROM group_members WHERE seen_at < ?').bind(now - G_MEMBER_IDLE),
+    env.DB.prepare('DELETE FROM group_members WHERE gid IN (SELECT id FROM groups WHERE updated_at < ?)').bind(now - G_IDLE),
+    env.DB.prepare('DELETE FROM groups WHERE updated_at < ? OR id NOT IN (SELECT DISTINCT gid FROM group_members)').bind(now - G_IDLE),
+    env.DB.prepare('UPDATE groups SET owner = (SELECT mid FROM group_members WHERE gid = groups.id ORDER BY joined_at, mid LIMIT 1) WHERE owner NOT IN (SELECT mid FROM group_members WHERE gid = groups.id)')
   ]);
 }
 
-export const _test = { cleanDoc, mergeDocs, mark, makeFrame, toCanon, toDisp, studentItems, pts, nickOf, cleanNames };
+export const _test = { cleanStats, weekOf, vnDay, cleanDoc, mergeDocs, mark, makeFrame, toCanon, toDisp, studentItems, pts, nickOf, cleanNames };

@@ -21,6 +21,8 @@ Ngoài hai công cụ ở trên, cả website này đều có thể dùng trên 
 - **Phiếu tự học để in.** Mỗi bài học có một phiếu A4 gồm tóm tắt kiến thức, bài tập và chỗ để học sinh viết lời giải. Thầy cô mở bài học, bấm nút in phiếu ở đầu trang.
 - **Bài kiểm tra mini cuối mỗi bài.** Học sinh tự làm ở nhà, nộp bài là được chấm ngay kèm nhận xét, nguyên nhân mất điểm và việc cần làm tiếp. Thầy cô chỉ cần gửi đường dẫn bài học cho lớp.
 - **Kho đề thi và mục Ôn thi.** Đề có bấm giờ, chấm tự động phần trắc nghiệm, có bản in kèm đáp án. Xem tại [mục Ôn thi](exam:).
+- **Đấu trường Lemon trên màn chiếu.** Ở [Đấu trường](../dau-truong/), thầy cô bấm "Tạo phòng", bỏ chọn "Tôi cùng chơi" và chiếu màn hình lên: cả lớp vào bằng mã 6 số, cùng giải một bộ câu tính nhẩm hoặc câu kiến thức của lớp, bảng điểm chạy trực tiếp. Hợp cho 5 phút khởi động đầu giờ. Trả lời vội mà sai bị trừ điểm, nên các em quen làm chắc tay rồi mới nhanh.
+- **Nhóm học tập.** Thầy cô gợi ý mỗi tổ lập một [nhóm học tập](../nhom-hoc/) với mục tiêu chung mỗi tuần; các em tự cổ vũ nhau, không cần thầy cô quản lí.
 - **Bài giảng song ngữ.** Mỗi bài có bản tiếng Việt và bản tiếng Anh, tiện cho lớp học Toán bằng tiếng Anh.
 
 ## Lemonmath và việc tự học của học sinh
