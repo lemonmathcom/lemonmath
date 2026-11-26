@@ -59,3 +59,10 @@ Lời giải chi tiết, ghi điểm từng bước theo hướng dẫn chấm, 
 Chủ dự án thu hồi phần đã giao ChatGPT Plus (12 gói GOI-*, gói NC-06, 25 gói giọng văn GV-*) và bỏ các gói NC cũ của tài khoản Free. Toàn bộ lời giải còn vắn tắt (trừ lớp 6, lớp 9 do Pro đã làm) và 210 bài giọng văn chia lại theo dải lớp liền nhau, mỗi bài học chỉ một tài khoản làm (cả lời giải lẫn giọng văn). Bảng giao: `giao-viec/dot3/BANG-GIAO.md`; bài trong từng file: `giao-viec/dot3/CHI-TIET.md`; tạo lại: `python3 tools/qa/dot3.py`.
 
 Khi nhận: file `*-LG-ketqua.md` → `python3 tools/qa/upgrade.py apply <file>`; `*-GV-ketqua.md` → `python3 tools/qa/giongvan.py apply <file>`; `*-MD-ketqua.txt` → `python3 tools/qa/mucdo.py apply <file>`; đề Kho đề thi `<mã đề>.vi.md` / `.en.md` → chép vào content/<lang>/exams/kho-de-thi/, thêm vào chương trong curriculum.json. Rồi check.js + build + push.
+
+
+## Từ 26/11/2026: chuyển sang ChatGPT Plus, nguồn lấy từ kho TaiLieuToan
+
+Chủ dự án giao phần số hoá đề cho ChatGPT Plus (gói `GPT-KD-01…16`, xem `giao-viec/chatgpt-kho/HUONG-DAN.md`). Đề nguồn lấy thẳng từ `C:\TaiLieuToan` (đã có sẵn bản PDF), chủ dự án không cần tải từ toanmath.com. 15 gói KD của tài khoản Free (đợt 3, giai đoạn 4) **tạm hoãn** để không làm trùng.
+Ghi công: trang đề ghi `source` = tên đơn vị ra đề giữ nguyên, `author` nếu có người biên soạn, và dòng "Số hoá và lời giải: lemonmath.com". Phần Lemonmath làm (bản số hoá, lời giải, bản tiếng Anh) theo CC BY-NC 4.0. Đơn vị/tác giả yêu cầu gỡ thì gỡ trong 7 ngày (support@lemonmath.com).
+Mỗi câu của đề thật gắn mức độ và bài học (phần `=== NHAN ===` của file nộp về) để thống kê dạng bài hay ra theo lớp × chủ đề × mức.

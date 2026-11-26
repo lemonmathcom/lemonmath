@@ -57,11 +57,11 @@ LOAI = [
     ('ts6', 'Đề vào lớp 6', r'\b(vao lop 6|tuyen sinh (vao )?lop 6)\b'),
     ('hsg', 'Đề, tài liệu học sinh giỏi', r'\b(hoc sinh gioi|hsg|olympic|chon doi tuyen|giao luu toan|toan nang cao|boi duong)\b'),
     ('kscl', 'Đề khảo sát chất lượng', r'\b(khao sat chat luong|kscl|khao sat)\b'),
+    ('de-cuong', 'Đề cương ôn tập', r'\bde cuong\b'),
     ('giua-hk1', 'Đề giữa học kì 1', r'\bgiua (hoc )?(ki|ky|hk) ?(1|i)\b|\bgiua hk ?1\b|\bgk ?1\b'),
     ('giua-hk2', 'Đề giữa học kì 2', r'\bgiua (hoc )?(ki|ky|hk) ?(2|ii)\b|\bgiua hk ?2\b|\bgk ?2\b'),
     ('cuoi-hk1', 'Đề cuối học kì 1', r'\b(cuoi )?(hoc )?(ki|ky|hk) ?(1|i)\b|\bhk ?1\b'),
     ('cuoi-hk2', 'Đề cuối học kì 2', r'\b(cuoi )?(hoc )?(ki|ky|hk) ?(2|ii)\b|\bhk ?2\b|\bcuoi nam\b'),
-    ('de-cuong', 'Đề cương ôn tập', r'\bde cuong\b'),
     ('phieu', 'Phiếu bài tập', r'\b(phieu bai tap|phieu hoc tap|bai tap cuoi tuan|phieu)\b'),
     ('chuyen-de', 'Chuyên đề, bài giảng, phương pháp', r'\b(chuyen de|cac dang|dang toan|phuong phap|bai giang|ly thuyet|tom tat|tai lieu|ky thuat|ki thuat|kien thuc)\b'),
     ('bo-de', 'Bộ đề, đề ôn luyện', r'\b(bo de|tuyen tap|tuyen chon|de on|de kiem tra|de thi|de luyen|cau trac nghiem|bai toan)\b'),
@@ -70,7 +70,12 @@ LOAI_NAME = {k: v for k, v, _ in LOAI}
 LOAI_NAME['khac'] = 'Khác'
 LOAI_RE = [(k, re.compile(p)) for k, _, p in LOAI]
 EXAMS = {'tn-chinh-thuc', 'tn-minh-hoa', 'tn-thi-thu', 'dgnl', 'ts10', 'ts6', 'hsg', 'kscl', 'giua-hk1', 'giua-hk2', 'cuoi-hk1', 'cuoi-hk2'}
-TERM = {'giua-hk1': 'HK1', 'cuoi-hk1': 'HK1', 'giua-hk2': 'HK2', 'cuoi-hk2': 'HK2'}
+TERM_RE = [('giữa HK1', r'\bgiua (hoc )?(ki|ky|hk) ?(1|i)\b|\bgiua hk ?1\b|\bgk ?1\b'), ('giữa HK2', r'\bgiua (hoc )?(ki|ky|hk) ?(2|ii)\b|\bgiua hk ?2\b|\bgk ?2\b'),
+           ('cuối HK1', r'\b(hoc )?(ki|ky|hk) ?(1|i)\b|\bhk ?1\b'), ('cuối HK2', r'\b(hoc )?(ki|ky|hk) ?(2|ii)\b|\bhk ?2\b|\bcuoi nam\b')]
+
+
+def term_of(t):
+    return next((k for k, p in TERM_RE if re.search(p, t)), '')
 
 BOOKS = [('KNTT', r'\b(ket noi tri thuc|kntt|kntt ?vcs)\b'), ('CTST', r'\b(chan troi sang tao|ctst)\b'), ('CD', r'\bcanh dieu\b'),
          ('SGK thống nhất', r'\b(sgk|sach giao khoa) thong nhat\b|\bthong nhat sgk\b')]
@@ -222,7 +227,7 @@ def classify(row):
         tang = 'C'
     return dict(
         nguon=nguon, thu_muc=folder, file=name, ten=title, dinh_dang=ext.lower().lstrip('.'),
-        cap=cap, lop=g or '', chu_de=chu_de, chu_de_id=chu_de_id, loai=loai, loai_ten=LOAI_NAME[loai], hoc_ki=TERM.get(loai, ''),
+        cap=cap, lop=g or '', chu_de=chu_de, chu_de_id=chu_de_id, loai=loai, loai_ten=LOAI_NAME[loai], hoc_ki=term_of(tn) or term_of(fn),
         nam_hoc=nam, don_vi=don_vi, tinh=tinh, tac_gia=tac_gia, bo_sach=bo,
         co_dap_an='có' if re.search(r'\b(dap an|loi giai|huong dan giai|hdg|giai chi tiet)\b', tn) else '',
         co_ma_tran='có' if re.search(r'\b(ma tran|dac ta)\b', tn) else '',

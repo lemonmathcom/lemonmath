@@ -208,6 +208,8 @@ Bảng theo dõi nhanh (một dòng mỗi tài khoản, tích ô khi xong): `BAN
 
 ## Giai đoạn 4: Chuyển đề thi thật thành trang Kho đề thi (thư mục `4-KHO-DE`)
 
+**TẠM HOÃN từ 26/11/2026:** Kho đề chuyển sang ChatGPT Plus (gói GPT-KD, nguồn lấy từ kho TaiLieuToan), xem `giao-viec/chatgpt-kho/HUONG-DAN.md`. Không giao các file dưới đây cho tới khi có thông báo mới.
+
 | Tài khoản | File giao | File nộp về | Nội dung | Cỡ | Xong |
 |---|---|---|---|---|---|
 | Kinangtoan | Kinangtoan-KD-1.txt | Kinangtoan-KD-1-ketqua.vi.md + .en.md | Đề thi tốt nghiệp THPT 2025 môn Toán chính thức (một mã đề) | 8 KB | ☐ |
