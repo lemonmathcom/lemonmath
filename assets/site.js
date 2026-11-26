@@ -66,6 +66,7 @@
       if (box && k.getBoundingClientRect().width > box.clientWidth + 1) k.classList.add('katex-wide');
     });
   };
+  window.lmFitMath = fitMath; // assets/math.js calls it again after drawing the formulas the build left as TeX
   /* answer options that do not fit side by side: four per row -> two per row -> one per row */
   var optsOverflow = function (g) {
     var kids = g.children, i, j, c, w, r, parts;
@@ -910,6 +911,7 @@
   function lazy() { return [].slice.call(document.querySelectorAll('img[loading="lazy"]')); }
   window.addEventListener('beforeprint', function () { lazy().forEach(function (i) { i.loading = 'eager'; }); });
   window.lmPrint = function () {
+    if (window.lmMathAll) window.lmMathAll(); // formulas not drawn yet (assets/math.js)
     var imgs = lazy();
     imgs.forEach(function (i) { i.loading = 'eager'; });
     var waits = imgs.filter(function (i) { return !i.complete; }).map(function (i) {

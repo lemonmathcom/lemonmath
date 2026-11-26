@@ -26,6 +26,7 @@ const { render, esc, parseQuiz, optCols } = require('./render.js');
 const { mascot, icon } = require('./art.js');
 const { UI } = require('./ui.js');
 const { worksheet, qrSvg, WS_DIR, WS_LABEL } = require('./worksheet.js');
+const { slim, addScripts } = require('./slim-math.js');
 
 const ROOT = path.resolve(__dirname, '..');
 const OUT = path.resolve(ROOT, process.env.OUT_DIR || 'dist');
@@ -173,6 +174,19 @@ const arenaDir = (lang) => px.join(LANG[lang].prefix, LANG[lang].arena);
 const groupsDir = (lang) => px.join(LANG[lang].prefix, LANG[lang].groups);
 const abs = (dir) => site.url + '/' + (dir ? dir + '/' : '');
 const other = (lang) => (lang === 'en' ? 'vi' : 'en');
+
+/*
+ * How formulas reach the reader (26/11/2026), "site" → "math" in data/curriculum.json:
+ *   "mode": "prerender"  every formula drawn at build time (as before)
+ *   "mode": "hybrid"     only the first "keep" formulas of each page are drawn at build time; the rest stay as TeX
+ *                        and assets/math.js draws them in the browser (tools/slim-math.js). Pages ~6× smaller.
+ *   "pilot": [10]        also writes a hybrid copy of those grades at <grade folder>-thu (noindex, not in the
+ *                        sitemap), to compare with the normal pages on a real phone before switching.
+ */
+const MATH = Object.assign({ mode: 'prerender', keep: 25, pilot: [] }, cfg.site.math || {});
+const HYBRID = MATH.mode === 'hybrid';
+/* Size fuse: GitHub Pages officially takes sites up to 1 GB. Warn from 800 MB; stop at 950 MB (the site online stays as it was). */
+const SIZE_WARN_MB = 800, SIZE_STOP_MB = 950;
 
 const missing = [];
 function loadLessons() {
@@ -965,7 +979,7 @@ function writePwa() {
   LANGS.forEach((lang) => {
     tracks.filter(isFull).forEach((g) => {
       const key = packKey(lang, g), h = crypto.createHash('sha1');
-      const assets = new Set(katexFonts);
+      const assets = new Set(HYBRID ? katexFonts.concat(['/assets/katex/katex.min.js', '/assets/math.js']) : katexFonts);
       let wire = 0;
       const take = (dir) => {
         const u = '/' + dir + '/', f = fileOf(u);
@@ -1002,6 +1016,7 @@ function writePwa() {
     '/assets/fonts/nunito-latin-wght-normal.woff2', '/assets/fonts/nunito-vietnamese-wght-normal.woff2',
     '/assets/fonts/baloo-2-latin-800-normal.woff2', '/assets/fonts/baloo-2-vietnamese-800-normal.woff2',
     '/assets/icons/icon-192.png', '/search-index.json', '/vi/search-index.json'];
+  if (HYBRID) core.push('/assets/katex/katex.min.js', '/assets/math.js'); // pages draw part of their formulas in the browser, also offline
   const h = crypto.createHash('sha1');
   const tpl = fs.readFileSync(path.join(__dirname, 'sw.template.js'), 'utf8');
   h.update(tpl);
@@ -1011,6 +1026,72 @@ function writePwa() {
     h.update(u); h.update(fs.readFileSync(f));
   });
   fs.writeFileSync(path.join(OUT, 'sw.js'), tpl.replace('__VERSION__', h.digest('hex').slice(0, 10)).replace('__CORE__', JSON.stringify(core)));
+}
+
+/* ------------------------------------------------------------------ */
+/* Lighter pages: formulas drawn in the browser (tools/slim-math.js)   */
+/* ------------------------------------------------------------------ */
+
+function htmlFiles(dir) {
+  const out = [];
+  (function walk(d) {
+    fs.readdirSync(d, { withFileTypes: true }).forEach((e) => {
+      const p = path.join(d, e.name);
+      if (e.isDirectory()) walk(p); else if (e.name.endsWith('.html')) out.push(p);
+    });
+  })(dir);
+  return out;
+}
+/* Slims one page in place; returns [bytes before, bytes after, formulas left as TeX]. */
+function slimFile(file, noindex) {
+  let html = fs.readFileSync(file, 'utf8');
+  const before = Buffer.byteLength(html);
+  const r = slim(html, MATH.keep);
+  html = r.html;
+  if (r.left) html = addScripts(html, relDir(px.dirname(path.relative(OUT, file).split(path.sep).join('/')), ''));
+  if (noindex && html.indexOf('name="robots"') < 0) html = html.replace('<head>\n', '<head>\n<meta name="robots" content="noindex,follow">\n');
+  fs.writeFileSync(file, html);
+  return [before, Buffer.byteLength(html), r.left];
+}
+function slimPages() {
+  const sum = (rows) => rows.reduce((a, r) => [a[0] + r[0], a[1] + r[1], a[2] + r[2]], [0, 0, 0]);
+  const mb = (b) => (b / 1048576).toFixed(1) + ' MB';
+  if (HYBRID) {
+    const t = sum(htmlFiles(OUT).map((f) => slimFile(f)));
+    console.log('Công thức vẽ trên trình duyệt (math: hybrid): trang HTML ' + mb(t[0]) + ' -> ' + mb(t[1]) + ', ' + t[2] + ' công thức để trình duyệt vẽ.');
+    return;
+  }
+  // pilot: a hybrid copy of some grades next to the normal pages, e.g. /grade-10-thu/ and /vi/lop-10-thu/
+  (MATH.pilot || []).forEach((n) => {
+    const g = grades.find((x) => x.n === n);
+    if (!g || !isFull(g)) { warn('"math" → "pilot": lớp ' + n + ' chưa có bài, bỏ qua.'); return; }
+    LANGS.forEach((lang) => {
+      const src = path.join(OUT, gradeDir(lang, g)), dst = src + '-thu';
+      if (!fs.existsSync(src)) return;
+      fs.cpSync(src, dst, { recursive: true });
+      const t = sum(htmlFiles(dst).map((f) => slimFile(f, true)));
+      console.log('Bản thử ' + path.relative(OUT, dst) + '/: trang HTML ' + mb(t[0]) + ' -> ' + mb(t[1]) + ' (' + t[2] + ' công thức để trình duyệt vẽ).');
+    });
+  });
+}
+/* Size fuse: returns the size of the built site in MB. */
+function sizeFuse() {
+  let bytes = 0;
+  (function walk(d) {
+    fs.readdirSync(d, { withFileTypes: true }).forEach((e) => {
+      const p = path.join(d, e.name);
+      if (e.isDirectory()) walk(p); else bytes += fs.statSync(p).size;
+    });
+  })(OUT);
+  const mb = bytes / 1048576;
+  if (mb > SIZE_STOP_MB) {
+    fail('website nặng ' + mb.toFixed(0) + ' MB, vượt ngưỡng dừng ' + SIZE_STOP_MB + ' MB (GitHub Pages nhận tối đa 1 GB). Bản đang chạy trên mạng được giữ nguyên. Bật "math": { "mode": "hybrid" } hoặc chuyển file lớn ra ngoài trước khi đăng tiếp.');
+  } else if (mb > SIZE_WARN_MB) {
+    const m = 'website nặng ' + mb.toFixed(0) + ' MB, đã quá ngưỡng cảnh báo ' + SIZE_WARN_MB + ' MB (GitHub Pages nhận tối đa 1 GB). Cần chuyển sang giai đoạn 2 (Cloudflare) sớm.';
+    warn(m);
+    if (process.env.GITHUB_ACTIONS) console.log('::warning::' + m);
+  }
+  return mb;
 }
 
 function writeSitemap() {
@@ -1080,10 +1161,12 @@ function main() {
   });
 
   fs.writeFileSync(path.join(OUT, '404.html'), notFoundHtml());
+  slimPages(); // before writePwa: offline packs measure and hash the pages as they will be served
   writePwa();
   writeSitemap();
+  const sizeMb = sizeFuse();
   report();
-  console.log('Dựng xong: ' + lessons.length + ' bài × 2 ngôn ngữ, ' + grades.length + ' lớp, ' + exams.length + ' kì thi -> ' + path.relative(process.cwd(), OUT) + '/');
+  console.log('Dựng xong: ' + lessons.length + ' bài × 2 ngôn ngữ, ' + grades.length + ' lớp, ' + exams.length + ' kì thi -> ' + path.relative(process.cwd(), OUT) + '/ (' + sizeMb.toFixed(0) + ' MB)');
 }
 
 main();
