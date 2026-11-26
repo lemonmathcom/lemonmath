@@ -23,6 +23,8 @@ We write $51=50+1$ and multiply two polynomials as in the last lesson:
 $$(50+1)^2=(50+1)(50+1)=50\cdot50+50\cdot1+1\cdot50+1\cdot1=2500+100+1=2601.$$
 The two cross products $50\cdot1$ and $1\cdot50$ are equal, so together they make $2\cdot50\cdot1=100$. The same happens for any two numbers $a$ and $b$.
 
+![Algebraic identities using area. Lengths in the diagram satisfy a > b > 0.](/assets/img/lemonmath80/en/LM-038-g8-squares-identities.svg)
+
 :::theorem Square of a sum
 For any two numbers (or expressions) $a$ and $b$,
 $$(a+b)^2=a^2+2ab+b^2.$$

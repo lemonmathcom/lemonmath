@@ -145,6 +145,9 @@ Tấm bìa của Hoa là tam giác cân $ABC$ với $AB=AC$ và đáy $BC=10$ cm
 $$GM=\frac13\cdot12=4\ \text{(cm)}.$$
 
 Vì $AM\perp BC$ nên $GM$ chính là khoảng cách từ $G$ đến $BC$. Vậy $G$ cách $BC$ là $4$ cm.
+
+![Đỡ tấm bìa tam giác tại trọng tâm. Tam giác cân có đáy 10 cm, trung tuyến AM = 12 cm.](/assets/img/lemonmath80/vi/LM-035-g7-medians-angle-bisectors.svg)
+
 :::
 
 Chuyển sang đường phân giác. Điều cần nhớ ở đây là giao điểm của ba phân giác cách đều ba cạnh, nên các khoảng cách đó bằng nhau.

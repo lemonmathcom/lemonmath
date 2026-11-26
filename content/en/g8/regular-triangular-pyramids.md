@@ -142,6 +142,9 @@ $$S_{\text{lat}}=8\cdot2.5=20\ (\text{m}^2),\qquad V=\frac13\cdot4^2\cdot1.5=8\ 
 So $20$ m² of fabric is needed and the tent holds $8$ m³ of air.
 
 *Look back.* Is there another method? Each lateral face has area $\dfrac12\cdot4\cdot2.5=5$ m², and four faces give $20$ m², the same result. Is the result reasonable? A box with the same base and height would hold $4^2\cdot1.5=24$ m³; the pyramid holds only $\dfrac13$ of that, which is $8$ m³. If $10\%$ of the fabric is lost in cutting and joining, we need $20\cdot1.1=22$ m².
+
+![A tent: vertical height and slant height. Square base of side 4 m, height 1.5 m; cover the four side faces.](/assets/img/lemonmath80/en/LM-042-g8-regular-triangular-pyramids.svg)
+
 :::
 
 When the lateral edge is given instead of the height, we find the slant height first.

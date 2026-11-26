@@ -103,6 +103,9 @@ b) The height of the submarine is $-120$ m.
 c) Take money An has as positive and money An owes as negative. An's money with respect to Binh is $-20$ thousand dong.
 
 So the quantities are recorded as $+1250$ m; $-120$ m; $-20$ thousand dong.
+
+![Integers and the zero reference. Above sea level is positive; below sea level is negative.](/assets/img/lemonmath80/en/LM-032-g6-set-of-integers.svg)
+
 :::
 
 Next we get used to set notation.

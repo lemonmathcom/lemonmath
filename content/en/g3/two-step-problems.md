@@ -108,6 +108,9 @@ $$8+24=32\ \text{(birds)}.$$
 **Answer:** $32$ birds.
 
 **Look back.** The hens are $1$ part and the ducks are $3$ parts, so there are $4$ equal parts altogether, each of $8$ birds: $8\times 4=32$. The result matches the first method. Can you think why the two methods give the same number?
+
+![A two-step problem: chickens and ducks. Lan has 8 chickens and three times as many ducks.](/assets/img/lemonmath80/en/LM-016-g3-two-step-problems.svg)
+
 :::
 
 :::warning Mistakes to watch out for

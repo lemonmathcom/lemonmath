@@ -30,6 +30,9 @@ Dùng tổng hình thang với bốn khoảng trong bảng để xấp xỉ $\di
 **Lời giải.** Độ rộng các khoảng là $2$, $3$, $2$, $3$.
 $$2\cdot\frac{4+7}{2}+3\cdot\frac{7+9}{2}+2\cdot\frac{9+6}{2}+3\cdot\frac{6+5}{2}=11+24+15+16{,}5=66{,}5.$$
 Khoảng $66{,}5$ lít nước chảy vào bể trong $10$ phút đầu. Để so sánh, tổng trái bằng $65$ và tổng phải bằng $68$.
+
+![Xấp xỉ lượng nước bằng bốn hình thang. Các khoảng thời gian không đều: 2, 3, 2, 3 phút.](/assets/img/lemonmath80/vi/LM-072-exams-apcalc-accumulation-ftc.svg)
+
 :::
 
 :::example Lớn hơn hay nhỏ hơn?

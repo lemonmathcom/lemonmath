@@ -21,6 +21,8 @@ Theo định nghĩa, hai tam giác đồng dạng khi có ba cặp góc bằng n
 
 Đó không phải ngẫu nhiên: với tam giác, chỉ cần ba tỉ số cạnh bằng nhau là các góc tự động bằng nhau. Tương tự, chỉ cần hai cặp góc bằng nhau là cặp góc thứ ba cũng bằng nhau, vì tổng ba góc là $180^\circ$. Ta phát biểu những điều này thành ba trường hợp đồng dạng.
 
+![Ba trường hợp đồng dạng của tam giác. Màu đánh dấu các cạnh hoặc góc tương ứng.](/assets/img/lemonmath80/vi/LM-040-g8-triangle-similarity-conditions.svg)
+
 ## Trường hợp thứ nhất: cạnh – cạnh – cạnh (c.c.c)
 
 :::theorem Trường hợp đồng dạng c.c.c

@@ -28,6 +28,8 @@ $$1.2\times0.5=\dfrac{12}{10}\times\dfrac{5}{10}=\dfrac{12\times5}{100}=\dfrac{6
 
 This time $12\times5=60$, and the product has two decimal places, the total number of decimal places in the two factors ($1+1$).
 
+![Multiplying decimals using area. A 1.2 m by 0.5 m card; each small square has side 0.1 m.](/assets/img/lemonmath80/en/LM-024-g5-multiplying-decimals.svg)
+
 :::theorem Multiplying decimals
 To multiply two numbers (decimals or whole numbers):
 1. Ignore the decimal points in the factors and multiply as with whole numbers.

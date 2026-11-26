@@ -86,6 +86,8 @@ Vậy a) $37{,}68$ cm; b) $31{,}4$ m.
 
 Bây giờ đến diện tích; chú ý đổi đường kính ra bán kính.
 
+![Vì sao diện tích hình tròn bằng πr²? Chia thành các hình quạt, rồi xếp xen kẽ.](/assets/img/lemonmath80/vi/LM-027-g5-circumference-area-circle.svg)
+
 :::example Tính diện tích
 a) Hình tròn có bán kính $5$ cm. b) Hình tròn có đường kính $8$ dm.
 

@@ -122,6 +122,9 @@ $$d(AA',BD)=d(AA',(BDD'B'))=d(A,(BDD'B')).$$
 Let $O$ be the centre of the base $ABCD$. We have $AO\perp BD$ and $AO\perp BB'$ (since $BB'\perp(ABCD)$). The lines $BD$, $BB'$ intersect in $(BDD'B')$, so $AO\perp(BDD'B')$. Thus $d(A,(BDD'B'))=AO=\dfrac{a\sqrt2}{2}$.
 
 So $d(AA',BD)=\dfrac{a\sqrt2}{2}$.
+
+![The distance between AA′ and BD. O is the centre of the base ABCD; AO is the common perpendicular.](/assets/img/lemonmath80/en/LM-058-g11-distances-space.svg)
+
 :::
 
 Now we return to the pipe and cable from the start, in four steps.

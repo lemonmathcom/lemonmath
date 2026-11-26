@@ -51,6 +51,9 @@ Now a division with a remainder.
 **Solution.** Find the largest number that $5$ can be multiplied by without going over $23$. We have $5\times 4=20$ and $23-20=3$, so
 $$23\div5=4\ (\text{remainder }3).$$
 The remainder $3$ is less than the divisor $5$. Check: $5\times 4+3=23$.
+
+![23 ÷ 5: how many full groups? Each group has 5 dots; the remainder must be less than 5.](/assets/img/lemonmath80/en/LM-012-g3-division-with-remainders.svg)
+
 :::
 
 The remainder tells you how much is left over.

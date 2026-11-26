@@ -69,6 +69,9 @@ $$24-6=18\ \text{(m)}.$$
 The second question asks "how many times as long", so divide:
 $$24\div6=4\ \text{(times)}.$$
 **Answer:** $18$ m longer; $4$ times as long.
+
+![How much longer? How many times as long? The blue string is 6 m; the red string is 24 m.](/assets/img/lemonmath80/en/LM-014-g3-how-many-times-larger.svg)
+
 :::
 
 The next problem is a little harder, so we use four steps: understand, plan, solve, look back.

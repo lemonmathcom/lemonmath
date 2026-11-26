@@ -92,6 +92,9 @@ Do đó $\Delta_Q=\dfrac{55}{6}-\dfrac56=\dfrac{50}{6}\approx8{,}33$ phút.
 | Lớp 12B | $50$ | $20{,}83$ | $29{,}17$ | $8{,}33$ |
 
 Hai lớp có cùng khoảng biến thiên, nhưng khoảng tứ phân vị của 12B chỉ bằng khoảng một nửa của 12A. Vậy thời gian đi học của lớp 12B đồng đều hơn.
+
+![So sánh khoảng tứ phân vị của hai lớp. Các tứ phân vị là giá trị ước lượng từ mẫu ghép nhóm.](/assets/img/lemonmath80/vi/LM-066-g12-grouped-range-iqr.svg)
+
 :::
 
 Đừng lo nếu $\frac n4$ không phải số nguyên: công thức vẫn dùng y như cũ. Độ rộng nhóm cũng không nhất thiết bằng $10$. Ví dụ sau có cả hai điều ấy.

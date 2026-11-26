@@ -103,6 +103,9 @@ Hemisphere: half of a sphere, $\tfrac12\times\tfrac43\pi\times3^3=18\pi$.
 The total volume is $90\pi+18\pi=108\pi\approx339.3\text{ cm}^3$.
 
 So the volume is about $339\text{ cm}^3$. Keeping the answer in terms of $\pi$ until the last line avoids rounding errors.
+
+![Volume of a cylinder with a hemisphere. Both parts have radius 3 cm; the cylinder is 10 cm high.](/assets/img/lemonmath80/en/LM-079-exams-igcse-mensuration.svg)
+
 :::
 
 ## Units

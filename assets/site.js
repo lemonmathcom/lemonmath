@@ -902,3 +902,20 @@
     if (h) hub(h, idx);
   }, function () {});
 })();
+
+/* Print with every picture (26/11/2026). Pictures load lazily, so ones the reader has not scrolled to
+   yet would be missing on paper. The print buttons call lmPrint(): load them all, then print
+   (at most 4 s wait). Ctrl+P only gets the best-effort switch in 'beforeprint'. */
+(function () {
+  function lazy() { return [].slice.call(document.querySelectorAll('img[loading="lazy"]')); }
+  window.addEventListener('beforeprint', function () { lazy().forEach(function (i) { i.loading = 'eager'; }); });
+  window.lmPrint = function () {
+    var imgs = lazy();
+    imgs.forEach(function (i) { i.loading = 'eager'; });
+    var waits = imgs.filter(function (i) { return !i.complete; }).map(function (i) {
+      return new Promise(function (r) { i.addEventListener('load', r); i.addEventListener('error', r); });
+    });
+    if (!waits.length || !window.Promise) { window.print(); return; }
+    Promise.race([Promise.all(waits), new Promise(function (r) { setTimeout(r, 4000); })]).then(function () { window.print(); });
+  };
+})();

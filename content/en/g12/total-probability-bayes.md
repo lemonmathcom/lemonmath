@@ -145,6 +145,9 @@ $$P(A)=0.01\cdot0.95+0.99\cdot0.05=0.0095+0.0495=0.059,$$
 $$P(B\mid A)=\frac{0.0095}{0.059}=\frac{19}{118}\approx0.161.$$
 
 **Look back.** The result agrees with the count $\dfrac{95}{590}$. The probability is low because the healthy people outnumber the sick ones $99$ to $1$: $5\%$ of a very large group ($0.0495$) is more than $95\%$ of a very small group ($0.0095$).
+
+![Bayes with 10 000 hypothetical people. Prevalence 1%; test positive: 95% with disease, 5% without disease.](/assets/img/lemonmath80/en/LM-065-g12-total-probability-bayes.svg)
+
 :::
 
 The chance of the disease after one positive test is still low. That is why, after a positive screening test, doctors usually order a second test. What happens after the second one?

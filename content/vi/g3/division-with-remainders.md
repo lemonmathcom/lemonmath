@@ -51,6 +51,9 @@ Bây giờ là một phép chia có dư.
 **Lời giải.** Em tìm số lớn nhất mà $5$ nhân với số đó không vượt quá $23$. Ta có $5\times 4=20$ và $23-20=3$, nên
 $$23:5=4\ (\text{dư }3).$$
 Số dư $3$ bé hơn số chia $5$. Em thử lại: $5\times 4+3=23$.
+
+![23 : 5 — chia được mấy nhóm đầy? Mỗi nhóm có đúng 5 chấm; số dư phải bé hơn 5.](/assets/img/lemonmath80/vi/LM-012-g3-division-with-remainders.svg)
+
 :::
 
 Số dư cho em biết còn thừa bao nhiêu.

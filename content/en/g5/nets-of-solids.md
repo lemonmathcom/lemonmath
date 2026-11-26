@@ -102,6 +102,9 @@ A cuboid has length $5$ cm, width $3$ cm and height $2$ cm. Find the total area 
 The total area of the faces is $30+20+12=62\ \text{cm}^2$.
 
 So the total area of the faces is $62\ \text{cm}^2$.
+
+![A net of a 5 × 3 × 2 cuboid. The three pairs of opposite faces have matching sizes and colours.](/assets/img/lemonmath80/en/LM-030-g5-nets-of-solids.svg)
+
 :::
 
 Now a cylinder. Find the size of the rectangle in the net.

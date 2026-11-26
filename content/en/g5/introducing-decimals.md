@@ -69,6 +69,9 @@ b) $\dfrac{35}{100}$ is $3$ tenths and $5$ hundredths, so $\dfrac{35}{100}=0.35$
 c) $12\dfrac{8}{100}=12+\dfrac{8}{100}$. There are no tenths, so we write the digit $0$ in that place: $12\dfrac{8}{100}=12.08$.
 
 So a) $0.7$; b) $0.35$; c) $12.08$.
+
+![Tenths and hundredths. Each large square represents one whole.](/assets/img/lemonmath80/en/LM-023-g5-introducing-decimals.svg)
+
 :::
 
 Next, reading a number and giving the value of each digit.

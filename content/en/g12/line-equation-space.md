@@ -177,6 +177,9 @@ $$\overrightarrow{MH}\cdot\vec{u}=(1+t)+2(-1+2t)+2(2t-4)=9t-9=0\iff t=1.$$
 So $H(2, 1, 2)$, $\overrightarrow{MH}=(2, 1, -2)$ and $MH=\sqrt{4+1+4}=3$. The rope is $3$ m long.
 
 *Look back.* A single perpendicularity condition is enough to find $t$. The length $MH$ is the distance from $M$ to the line $d$.
+
+![The shortest cable to a water pipe. M(0; 0; 4); the pipe follows d: (x; y; z) = (1 + t; −1 + 2t; 2t).](/assets/img/lemonmath80/en/LM-068-g12-line-equation-space.svg)
+
 :::
 
 :::warning Common mistakes

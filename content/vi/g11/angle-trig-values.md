@@ -221,6 +221,9 @@ Một vòng đu quay có bán kính $10$ m, tâm cách mặt đất $12$ m. Cabi
 Với $\theta=\dfrac\pi3$: $h=12-10\cdot\dfrac12=7$ (m). Với $\theta=\pi$: $h=12-10\cdot(-1)=22$ (m).
 
 Vậy cabin ở độ cao $7$ m khi $\theta=\dfrac\pi3$ và ở độ cao $22$ m (điểm cao nhất) khi $\theta=\pi$.
+
+![Từ góc quay đến độ cao cabin. Vòng đu quay bán kính 10 m; tâm cao 12 m so với mặt đất.](/assets/img/lemonmath80/vi/LM-054-g11-angle-trig-values.svg)
+
 :::
 
 :::warning Những sai lầm thường gặp

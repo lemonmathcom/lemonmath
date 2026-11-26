@@ -62,6 +62,9 @@ Có $10$ bạn chạy chung kết $100$ m. Có bao nhiêu kết quả cho ba gi�
 $$A_{10}^3=10\cdot9\cdot8=720.$$
 
 Vậy có $720$ kết quả. Tương tự, câu lạc bộ có $A_6^3=6\cdot5\cdot4=120$ cách bầu chủ nhiệm, phó chủ nhiệm và thủ quỹ.
+
+![Có thứ tự hay không có thứ tự? Cùng ba người A, B, C: đổi vị trí giải thưởng tạo kết quả khác.](/assets/img/lemonmath80/vi/LM-052-g10-permutations-combinations.svg)
+
 :::
 
 ## Tổ hợp

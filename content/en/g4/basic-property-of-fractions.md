@@ -55,6 +55,9 @@ Find the missing number: $\dfrac{2}{3}=\dfrac{?}{6}$.
 **Solution.** The denominator $3$ became $6$, so it was multiplied by $2$, because $3\times2=6$. We multiply the numerator by $2$ as well:
 $$\frac{2}{3}=\frac{2\times2}{3\times2}=\frac{4}{6}.$$
 So the missing number is $4$.
+
+![Two fractions representing the same amount. Split each third in two: the shaded amount stays the same.](/assets/img/lemonmath80/en/LM-017-g4-basic-property-of-fractions.svg)
+
 :::
 
 This time the multiplier is not so easy to spot. Ask yourself: what do we multiply the old denominator by to get the new one?

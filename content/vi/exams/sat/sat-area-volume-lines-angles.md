@@ -52,6 +52,9 @@ C. $96-32\pi$
 D. $96-4\pi$
 
 **Lời giải.** Hình chữ nhật có diện tích $12\cdot8=96$. Hồ là nửa hình tròn bán kính $4$: $\dfrac12\pi\cdot4^2=8\pi$. Phần còn lại có diện tích $96-8\pi$: đáp án **B**. Phương án A dùng cả hình tròn; phương án C dùng đường kính làm bán kính.
+
+![Khu vườn bị khoét nửa hình tròn. Hình chữ nhật 12 m × 8 m; đường kính hồ bằng cạnh 8 m.](/assets/img/lemonmath80/vi/LM-069-exams-sat-area-volume-lines-angles.svg)
+
 :::
 
 ## Thể tích và diện tích toàn phần

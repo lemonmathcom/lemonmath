@@ -66,6 +66,9 @@ A triangle has vertices $(2,\ 2)$, $(4,\ 2)$ and $(2,\ 6)$. It is enlarged with 
 The original is a right-angled triangle with legs $2$ and $4$, area $4$; the image has legs $1$ and $2$, area $1$. The area has been multiplied by $\left(\tfrac12\right)^2=\tfrac14$.
 
 So the image is $(1,\ 1)$, $(2,\ 1)$, $(1,\ 3)$, and its area is a quarter of the original.
+
+![Enlargement about O with scale factor 1/2. Multiply each coordinate by 1/2 and each area by (1/2)².](/assets/img/lemonmath80/en/LM-080-exams-igcse-transformations-vectors.svg)
+
 :::
 
 ## Column vectors

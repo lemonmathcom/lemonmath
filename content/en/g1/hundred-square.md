@@ -62,6 +62,9 @@ $$41,\ 42,\ 43,\ 44,\ 45,\ 46,\ \mathbf{47},\ 48,\ 49,\ 50.$$
 So 47 is in the row with the numbers from 41 to 50, in the seventh square from the left.
 
 **Remark.** You do not need to count from 1: the tens tell you the row and the last digit tells you the square.
+
+![Finding 47 on a hundred square. One step right adds 1. One step down adds 10.](/assets/img/lemonmath80/en/LM-003-g1-hundred-square.svg)
+
 :::
 
 Next, find the numbers beside a given number. Take care when it is at the end of a row.

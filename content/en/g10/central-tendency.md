@@ -135,6 +135,9 @@ Without $500$, six values remain:
 $$\bar{x}=\frac{410}{6}\approx68.33,\qquad M=\frac{60+70}{2}=65.$$
 
 So one outlier raises the mean by about $62$ thousand dong but the median by only $5$ thousand dong. With all seven students, $130$ thousand dong is more than six of them receive, so the median $70$ describes a "typical student" better.
+
+![An outlier pulls the mean away. Pocket money in thousands of dong; both plots use the same scale.](/assets/img/lemonmath80/en/LM-053-g10-central-tendency.svg)
+
 :::
 
 :::tip Which measure to use

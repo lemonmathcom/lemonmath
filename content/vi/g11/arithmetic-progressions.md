@@ -99,6 +99,9 @@ $$S_{25}=\dfrac{25\cdot(20+68)}{2}=\dfrac{25\cdot88}{2}=1100.$$
 Vậy cả rạp có $1100$ ghế.
 
 **Nhìn lại.** Dùng dạng thứ hai: $S_{25}=\dfrac{25\left[2\cdot20+24\cdot2\right]}{2}=\dfrac{25\cdot88}{2}=1100$, cùng kết quả. Số ghế trung bình mỗi hàng là $\dfrac{1100}{25}=44$, đúng bằng số ghế của hàng giữa (hàng thứ $13$: $20+12\cdot2=44$) và cũng bằng trung bình của hàng đầu và hàng cuối: $\dfrac{20+68}{2}=44$. Điều này đúng với mọi cấp số cộng có số số hạng lẻ.
+
+![Số ghế trong rạp là một cấp số cộng. Hàng đầu có 20 ghế; mỗi hàng sau thêm 2 ghế; có 25 hàng.](/assets/img/lemonmath80/vi/LM-056-g11-arithmetic-progressions.svg)
+
 :::
 
 Tiếp theo là ví dụ dùng tính chất ba số hạng liên tiếp.

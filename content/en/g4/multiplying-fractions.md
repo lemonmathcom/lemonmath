@@ -152,6 +152,9 @@ $$\dfrac{3}{4}\div\dfrac{1}{8}=\dfrac{3}{4}\times\dfrac{8}{1}=\dfrac{24}{4}=6\ \
 **Answer:** $6$ cups.
 
 **Look back.** Check by multiplying: $6\times\dfrac{1}{8}=\dfrac{6}{8}=\dfrac{3}{4}$ (litres), exactly the water in the jug. If each cup held $\dfrac{1}{4}$ of a litre, how many cups could be filled?
+
+![Dividing fractions: filling cups. There are 3/4 L of water; each cup holds 1/8 L.](/assets/img/lemonmath80/en/LM-020-g4-multiplying-fractions.svg)
+
 :::
 
 :::warning Mistakes to watch out for

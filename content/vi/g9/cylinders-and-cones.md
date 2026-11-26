@@ -200,6 +200,9 @@ $$S_{xq}=\pi\cdot20\cdot25=500\pi\approx1571\ \text{(cm}^2).$$
 Hình quạt bán kính $25$ cm có độ dài cung bằng chu vi đáy $40\pi$ cm. Gọi $n^\circ$ là số đo cung, ta có $\dfrac{\pi\cdot25\cdot n}{180}=40\pi$, suy ra $n=288$.
 
 Vậy cần khoảng $1571$ cm² lá cho một lớp, và hình quạt trải phẳng có số đo cung $288^\circ$.
+
+![Chiếc nón và hình quạt khai triển. Bán kính đáy 20 cm, chiều cao 15 cm, đường sinh 25 cm.](/assets/img/lemonmath80/vi/LM-044-g9-cylinders-and-cones.svg)
+
 :::
 
 :::warning Những sai lầm thường gặp

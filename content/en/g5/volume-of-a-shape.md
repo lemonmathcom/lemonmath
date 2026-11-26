@@ -39,6 +39,9 @@ A cuboid is exactly filled with cubes of volume $1\ \text{cm}^3$ in $2$ layers, 
 **Solution.** Each layer has $4\times3=12$ cubes. Two layers have $12\times2=24$ cubes.
 
 So the volume of the cuboid is $24\ \text{cm}^3$.
+
+![Counting volume in rows and layers. 2 layers, each with 3 rows of 4 unit cubes.](/assets/img/lemonmath80/en/LM-028-g5-volume-of-a-shape.svg)
+
 :::
 
 Now go back to the question at the start, solved in four steps.

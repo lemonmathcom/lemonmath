@@ -173,6 +173,9 @@ giá gốc, còn cửa hàng thứ nhất giảm $25\%$. Vì $25\%>21{,}4\%$ nê
 Vậy a) mỗi cửa hàng giảm $60$ nghìn đồng, áo ở cửa hàng thứ nhất rẻ hơn; b) cửa hàng thứ nhất giảm nhiều phần trăm hơn.
 
 *Nhìn lại.* Cùng một khoản tiền $60$ nghìn, nhưng trên giá gốc nhỏ hơn thì là phần trăm lớn hơn. Đó là lí do người bán hàng thích ghi "giảm $25\%$" trên món rẻ và "giảm $60$ nghìn" trên món đắt: con số nào trông lớn hơn thì họ ghi con số ấy.
+
+![Cùng giảm 60 nghìn, phần trăm có bằng nhau? Mỗi thanh biểu diễn 100% giá gốc của chính cửa hàng đó.](/assets/img/lemonmath80/vi/LM-033-g6-ratio-percentage-problems.svg)
+
 :::
 
 :::warning Những chỗ hay nhầm

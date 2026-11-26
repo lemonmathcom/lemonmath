@@ -35,6 +35,9 @@ D. $r_s=1$; hai giám khảo đồng thuận hoàn toàn
 Khi đó $r_s=1-\dfrac{6(4)}{5(25-1)}=1-\dfrac{24}{120}=0{,}8$.
 
 Vậy $r_s=0{,}8$: thứ hạng của hai giám khảo khá đồng thuận, chọn đáp án **A**.
+
+![Hai giám khảo có đồng thuận về thứ hạng? Năm ca sĩ A, B, C, D, E được xếp hạng bởi cùng hai giám khảo.](/assets/img/lemonmath80/vi/LM-078-exams-ibai-statistics-tests.svg)
+
 :::
 
 ## Kiểm định $\chi^2$ về tính độc lập

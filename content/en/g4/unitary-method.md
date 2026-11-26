@@ -52,6 +52,9 @@ $6$ identical packets hold $48$ sweets. How many sweets are in $9$ packets like 
 **Solution.** First find the sweets in one packet, then multiply by $9$:
 $$48\div6=8\ \text{(sweets)},\qquad 8\times9=72\ \text{(sweets)}.$$
 So $9$ packets hold $72$ sweets.
+
+![The unitary method: bags of sweets. 6 equal bags contain 48 sweets. How many are in 9 bags?](/assets/img/lemonmath80/en/LM-022-g4-unitary-method.svg)
+
 :::
 
 Problems about travelling work in exactly the same way. Here the "one unit" is one hour.

@@ -125,6 +125,9 @@ Gieo hai con xúc xắc (một xanh, một đỏ). Mô tả không gian mẫu v�
 Do đó $\Omega$ gồm $6\cdot6=36$ phần tử. Các kết quả có tổng bằng $7$ nằm trên đường chéo từ $(1; 6)$ đến $(6; 1)$.
 
 Vậy không gian mẫu có $36$ phần tử, trong đó có $6$ kết quả có tổng bằng $7$.
+
+![Hai con xúc xắc: 36 kết quả có thứ tự. Tô các cặp có tổng số chấm bằng 7.](/assets/img/lemonmath80/vi/LM-045-g9-random-experiments-sample-space.svg)
+
 :::
 
 :::warning Những sai lầm thường gặp

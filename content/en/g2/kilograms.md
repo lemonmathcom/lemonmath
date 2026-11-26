@@ -62,6 +62,8 @@ So a) $15$ kg; b) $8$ kg.
 
 Water, milk and cooking oil are liquids. To find out how much liquid a bottle or a can holds, use the **litre**.
 
+![Measuring water in litres. Litres measure the amount of liquid, not mass.](/assets/img/lemonmath80/en/LM-008-g2-kilograms.svg)
+
 :::definition The litre
 The **litre** is a unit for measuring the amount of a liquid (water, milk, cooking oil, …). The litre is written **l**.
 :::

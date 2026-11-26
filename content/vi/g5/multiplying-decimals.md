@@ -28,6 +28,8 @@ $$1{,}2\times0{,}5=\dfrac{12}{10}\times\dfrac{5}{10}=\dfrac{12\times5}{100}=\dfr
 
 Lần này $12\times5=60$, và tích có hai chữ số ở phần thập phân, bằng tổng số chữ số thập phân của hai thừa số ($1+1$).
 
+![Nhân số thập phân bằng diện tích. Tấm bìa dài 1,2 m, rộng 0,5 m; mỗi ô có cạnh 0,1 m.](/assets/img/lemonmath80/vi/LM-024-g5-multiplying-decimals.svg)
+
 :::theorem Nhân số thập phân
 Muốn nhân hai số (số thập phân hoặc số tự nhiên):
 1. Bỏ dấu phẩy ở các thừa số, nhân như nhân số tự nhiên.

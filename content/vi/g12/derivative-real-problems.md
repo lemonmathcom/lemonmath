@@ -49,6 +49,9 @@ $$S'(x)=2x-\frac{128}{x^2}=\frac{2(x^3-64)}{x^2},\qquad S'(x)=0\iff x^3=64\iff x
 Vì $S'<0$ khi $0<x<4$ và $S'>0$ khi $x>4$ nên $S$ nhỏ nhất tại $x=4$, với $S(4)=16+32=48$. Khi đó $h=\dfrac{32}{16}=2$. Ta thấy thể tích $4\cdot4\cdot2=32$ dm³, thoả mãn yêu cầu.
 
 Vậy nên làm thùng có đáy $4\times4$ dm và cao $2$ dm; lượng tôn ít nhất là $48$ dm².
+
+![Thùng không nắp: tôn nằm ở những mặt nào? Đáy vuông cạnh x, chiều cao h; thể tích cố định 32 dm³.](/assets/img/lemonmath80/vi/LM-063-g12-derivative-real-problems.svg)
+
 :::
 
 :::graph Diện tích tôn $S(x)=x^2+\dfrac{128}{x}$

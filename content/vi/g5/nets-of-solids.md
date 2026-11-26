@@ -102,6 +102,9 @@ Một hình hộp chữ nhật có chiều dài $5$ cm, chiều rộng $3$ cm v�
 Tổng diện tích các mặt là $30+20+12=62\ \text{cm}^2$.
 
 Vậy tổng diện tích các mặt là $62\ \text{cm}^2$.
+
+![Khai triển hình hộp chữ nhật 5 × 3 × 2. Ba cặp mặt đối diện có cùng kích thước và cùng màu.](/assets/img/lemonmath80/vi/LM-030-g5-nets-of-solids.svg)
+
 :::
 
 Bây giờ là hình trụ. Em tìm kích thước của hình chữ nhật trong hình khai triển.

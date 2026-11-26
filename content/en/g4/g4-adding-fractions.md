@@ -62,6 +62,9 @@ $$\dfrac{1}{2}=\dfrac{1\times3}{2\times3}=\dfrac{3}{6},\qquad \dfrac{1}{3}=\dfra
 Then add: $\dfrac{3}{6}+\dfrac{2}{6}=\dfrac{5}{6}$.
 
 So $\dfrac{1}{2}+\dfrac{1}{3}=\dfrac{5}{6}$.
+
+![Why do fractions need a common denominator? Rewrite 1/2 and 1/3 using equal-sized parts.](/assets/img/lemonmath80/en/LM-019-g4-g4-adding-fractions.svg)
+
 :::
 
 The sum of two fractions can be greater than $1$.

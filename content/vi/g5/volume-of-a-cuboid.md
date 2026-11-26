@@ -26,6 +26,8 @@ Mai xếp hộp theo từng lớp, từ dưới lên:
 
 Vậy hộp có thể tích $24$ cm³. Em để ý nhé: $24=4\times3\times2$. Số khối chính là ba kích thước của hộp nhân với nhau. Đây không phải chuyện trùng hợp, và ta sẽ thấy vì sao ngay sau đây.
 
+![Thể tích hình hộp chữ nhật. Tách các lớp ra để thấy cả những khối bị khuất.](/assets/img/lemonmath80/vi/LM-029-g5-volume-of-a-cuboid.svg)
+
 :::diagram Hộp dài 4 cm, rộng 3 cm, cao 2 cm
 alt: Hình hộp chữ nhật vẽ phối cảnh, các cạnh khuất vẽ nét đứt; chiều dài 4 cm, chiều rộng 3 cm, chiều cao 2 cm
 point A 0,0 ""

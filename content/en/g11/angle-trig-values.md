@@ -221,6 +221,9 @@ A Ferris wheel has radius $10$ m and its centre is $12$ m above the ground. A ca
 For $\theta=\dfrac\pi3$: $h=12-10\cdot\dfrac12=7$ (m). For $\theta=\pi$: $h=12-10\cdot(-1)=22$ (m).
 
 So the cabin is at height $7$ m when $\theta=\dfrac\pi3$ and at height $22$ m (the highest point) when $\theta=\pi$.
+
+![From angle of rotation to cabin height. Ferris wheel radius 10 m; its centre is 12 m above the ground.](/assets/img/lemonmath80/en/LM-054-g11-angle-trig-values.svg)
+
 :::
 
 :::warning Common mistakes

@@ -24,6 +24,8 @@ $$\dfrac{3}{12}=\dfrac{3:3}{12:3}=\dfrac{1}{4}.$$
 
 Em thấy: chia cả tử số và mẫu số cho cùng số $3$ thì giá trị của phân số không đổi. Ngược lại, nhân cả tử số và mẫu số với cùng một số cũng không làm đổi giá trị: $\dfrac{1}{4}=\dfrac{1\times3}{4\times3}=\dfrac{3}{12}$.
 
+![Rút gọn và quy đồng mẫu số. Đổi cách chia phần, giữ nguyên lượng đã tô.](/assets/img/lemonmath80/vi/LM-018-g4-simplifying-fractions.svg)
+
 :::theorem Tính chất cơ bản của phân số
 Khi nhân cả tử số và mẫu số của một phân số với cùng một số tự nhiên khác $0$ thì được một phân số bằng phân số đã cho.
 

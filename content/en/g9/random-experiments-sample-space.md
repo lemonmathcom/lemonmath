@@ -125,6 +125,9 @@ Roll two dice (one green, one red). Describe the sample space and find how many 
 Hence $\Omega$ has $6\cdot6=36$ elements. The outcomes with total $7$ lie on the diagonal from $(1, 6)$ to $(6, 1)$.
 
 So the sample space has $36$ elements, of which $6$ have a total of $7$.
+
+![Two dice: 36 ordered outcomes. Shade the ordered pairs whose sum is 7.](/assets/img/lemonmath80/en/LM-045-g9-random-experiments-sample-space.svg)
+
 :::
 
 :::warning Common mistakes

@@ -60,6 +60,9 @@ Roll a fair die. Let $A$ be "the number is even" and $B$ be "the number is at le
 $$P(A\cup B)=\frac46=\frac23,\qquad P(A\cap B)=\frac26=\frac13.$$
 
 So $P(A\cup B)=\dfrac23$ and $P(A\cap B)=\dfrac13$.
+
+![Union, intersection and mutually exclusive events. Dice example: A = {2; 4; 6}, B = {4; 5; 6}.](/assets/img/lemonmath80/en/LM-060-g11-union-intersection-events.svg)
+
 :::
 
 Next, a deck of cards.

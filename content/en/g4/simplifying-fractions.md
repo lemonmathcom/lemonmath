@@ -24,6 +24,8 @@ $$\dfrac{3}{12}=\dfrac{3\div3}{12\div3}=\dfrac{1}{4}.$$
 
 Notice: dividing the numerator and denominator by the same number $3$ does not change the value of the fraction. The other way round, multiplying the numerator and denominator by the same number does not change the value either: $\dfrac{1}{4}=\dfrac{1\times3}{4\times3}=\dfrac{3}{12}$.
 
+![Simplifying and finding a common denominator. Change the partition, not the shaded amount.](/assets/img/lemonmath80/en/LM-018-g4-simplifying-fractions.svg)
+
 :::theorem The basic property of fractions
 When the numerator and denominator of a fraction are both multiplied by the same natural number other than $0$, we get a fraction equal to the original.
 

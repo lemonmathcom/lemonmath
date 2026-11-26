@@ -54,6 +54,9 @@ Solve $z^3=8i$, giving your answers in the form $a+bi$. [6 marks]
 **Solution.** $8i=8e^{i\pi/2}$, so $z=2e^{i(\pi/6+2k\pi/3)}$ for $k=0,1,2$:
 
 $k=0$: $2e^{i\pi/6}=\sqrt3+i$. $k=1$: $2e^{i5\pi/6}=-\sqrt3+i$. $k=2$: $2e^{i3\pi/2}=-2i$.
+
+![The three cube roots of 8i on an Argand diagram. The roots have modulus 2 and are 120° apart.](/assets/img/lemonmath80/en/LM-076-exams-ibaa-hl-complex-proof.svg)
+
 :::
 
 :::example A cubic with a complex root

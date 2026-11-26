@@ -49,6 +49,9 @@ $$S'(x)=2x-\frac{128}{x^2}=\frac{2(x^3-64)}{x^2},\qquad S'(x)=0\iff x^3=64\iff x
 Since $S'<0$ for $0<x<4$ and $S'>0$ for $x>4$, $S$ is smallest at $x=4$, with $S(4)=16+32=48$. Then $h=\dfrac{32}{16}=2$. We see that the volume is $4\cdot4\cdot2=32$ dm³, as required.
 
 So the tank should have a $4\times4$ dm base and be $2$ dm tall; the least amount of metal is $48$ dm².
+
+![An open box: which surfaces need sheet metal? Square base of side x, height h; fixed volume 32 dm³.](/assets/img/lemonmath80/en/LM-063-g12-derivative-real-problems.svg)
+
 :::
 
 :::graph Area of metal $S(x)=x^2+\dfrac{128}{x}$

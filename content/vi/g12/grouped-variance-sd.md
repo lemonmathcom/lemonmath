@@ -107,6 +107,9 @@ $$s^2=\frac{6\cdot64+10\cdot16+18\cdot0+10\cdot16+6\cdot64}{50}=\frac{1088}{50}=
 | Máy B | $1000$ | $21{,}76$ | $4{,}66$ |
 
 Vậy hai máy có cùng khối lượng trung bình, nhưng độ lệch chuẩn của máy A nhỏ hơn ($3{,}2$ g so với khoảng $4{,}66$ g): máy A đóng gói đều hơn.
+
+![Máy nào đóng gói đều hơn? Cùng trung bình 1 000 g, nhưng độ phân tán khác nhau.](/assets/img/lemonmath80/vi/LM-067-g12-grouped-variance-sd.svg)
+
 :::
 
 ## Ảnh hưởng của độ rộng nhóm

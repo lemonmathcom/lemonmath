@@ -58,6 +58,9 @@ Now change some money.
 How many $5\,000$ dong notes can you change one $10\,000$ dong note for?
 
 **Solution.** We have $5\,000+5\,000=10\,000$, so one $10\,000$ dong note can be changed for 2 notes of $5\,000$ dong.
+
+![Exchanging money without changing its value. One 10 000 dong note equals two 5 000 dong notes.](/assets/img/lemonmath80/en/LM-010-g2-vietnamese-money.svg)
+
 :::
 
 Now compare two amounts.

@@ -158,6 +158,9 @@ $$7\times1\,000\,000=7\,000\,000\ \text{(cm)}.$$
 Đổi ra ki-lô-mét: $7\,000\,000:100\,000=70$ km.
 
 Đáp số: $70$ km.
+
+![Tỉ lệ bản đồ: 1 : 1 000 000. 7 cm trên bản đồ tương ứng bao nhiêu ki-lô-mét thực tế?](/assets/img/lemonmath80/vi/LM-026-g5-ratios-and-percentages.svg)
+
 :::
 
 :::example Khoảng cách trên bản đồ và tỉ lệ bản đồ

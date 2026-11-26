@@ -145,6 +145,9 @@ Hoa's card is an isosceles triangle $ABC$ with $AB=AC$ and base $BC=10$ cm. Let 
 $$GM=\frac13\cdot12=4\ \text{(cm)}.$$
 
 Since $AM\perp BC$, $GM$ is the distance from $G$ to $BC$. So $G$ is $4$ cm from $BC$.
+
+![Balancing a triangular card at its centroid. An isosceles triangle has base 10 cm and median AM = 12 cm.](/assets/img/lemonmath80/en/LM-035-g7-medians-angle-bisectors.svg)
+
 :::
 
 Turning to angle bisectors. What to remember here is that the meeting point of the three bisectors is equidistant from the three sides, so those distances are equal.

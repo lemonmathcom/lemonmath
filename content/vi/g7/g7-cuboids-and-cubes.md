@@ -192,6 +192,9 @@ Thời gian bơm đầy là $375:25=15$ (giờ).
 Vậy bể chứa $375\,000$ lít nước và cần $15$ giờ để bơm đầy.
 
 *Nhìn lại.* Có cách khác không? Độ sâu trung bình là $\dfrac{1+2}{2}=1{,}5$ m, và $25\cdot10\cdot1{,}5=375\ \text{m}^3$, khớp với kết quả trên. Nếu bể có đáy phẳng sâu $2$ m thì thể tích là $500\ \text{m}^3$, lớn hơn $375\ \text{m}^3$, nên kết quả hợp lí vì bể thực tế nông hơn.
+
+![Bể bơi có đáy dốc. Dài 25 m, rộng 10 m; độ sâu tăng đều từ 1 m đến 2 m.](/assets/img/lemonmath80/vi/LM-037-g7-g7-cuboids-and-cubes.svg)
+
 :::
 
 :::warning Những sai lầm thường gặp

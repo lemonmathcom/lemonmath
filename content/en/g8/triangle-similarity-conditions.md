@@ -21,6 +21,8 @@ By definition, two triangles are similar when they have three pairs of equal ang
 
 This is not a coincidence: for triangles, equal ratios of the three sides are enough to force equal angles. Similarly, two pairs of equal angles are enough to make the third pair equal, because the angles of a triangle add up to $180^\circ$. We state these facts as three similarity conditions.
 
+![Three triangle similarity criteria. Matching colours show corresponding sides or angles.](/assets/img/lemonmath80/en/LM-040-g8-triangle-similarity-conditions.svg)
+
 ## First condition: side–side–side (SSS)
 
 :::theorem Similarity condition SSS

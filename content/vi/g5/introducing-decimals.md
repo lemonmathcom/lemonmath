@@ -69,6 +69,9 @@ b) $\dfrac{35}{100}$ là $3$ phần mười và $5$ phần trăm, nên $\dfrac{3
 c) $12\dfrac{8}{100}=12+\dfrac{8}{100}$. Hàng phần mười không có gì nên ta viết chữ số $0$ ở hàng đó: $12\dfrac{8}{100}=12{,}08$.
 
 Vậy a) $0{,}7$; b) $0{,}35$; c) $12{,}08$.
+
+![Phần mười và phần trăm. Mỗi hình vuông lớn được coi là một đơn vị.](/assets/img/lemonmath80/vi/LM-023-g5-introducing-decimals.svg)
+
 :::
 
 Tiếp theo, em đọc số và nêu giá trị từng chữ số.

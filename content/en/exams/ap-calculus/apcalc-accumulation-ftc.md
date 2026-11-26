@@ -30,6 +30,9 @@ Use a trapezoidal sum with the four subintervals in the table to approximate $\d
 **Solution.** The widths are $2$, $3$, $2$, $3$.
 $$2\cdot\frac{4+7}{2}+3\cdot\frac{7+9}{2}+2\cdot\frac{9+6}{2}+3\cdot\frac{6+5}{2}=11+24+15+16.5=66.5.$$
 About $66.5$ liters of water flow into the tank during the first $10$ minutes. For comparison, the left sum is $65$ and the right sum is $68$.
+
+![Approximating water inflow with four trapezoids. Unequal time intervals: 2, 3, 2, 3 minutes.](/assets/img/lemonmath80/en/LM-072-exams-apcalc-accumulation-ftc.svg)
+
 :::
 
 :::example Over or under?

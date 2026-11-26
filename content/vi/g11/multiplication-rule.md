@@ -80,6 +80,9 @@ Nếu không hoàn lại, có $5\cdot4=20$ cặp thẻ khác nhau có thứ tự
 $$P(A\cap B)=\frac6{20}=\frac3{10}\ne\frac35\cdot\frac35=\frac9{25}.$$
 
 Vậy $A$ và $B$ không độc lập khi không hoàn lại.
+
+![Có hoàn lại và không hoàn lại. Hộp có 3 thẻ đỏ, 2 thẻ xanh. Đ = đỏ; X = xanh.](/assets/img/lemonmath80/vi/LM-061-g11-multiplication-rule.svg)
+
 :::
 
 Chỗ này nhiều bạn hay nhầm: không được dùng công thức nhân chỉ vì đề bài có từ “và”. Trước hết phải xét xem hai biến cố có độc lập hay không.

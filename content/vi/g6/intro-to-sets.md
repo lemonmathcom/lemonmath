@@ -77,6 +77,9 @@ Gọi $M$ là tập hợp các tháng dương lịch có đúng $30$ ngày (mỗ
 *Giải.* Các tháng có $31$ ngày là $1$, $3$, $5$, $7$, $8$, $10$, $12$. Tháng $2$ có $28$ hoặc $29$ ngày. Các tháng còn lại có đúng $30$ ngày là tháng $4$, $6$, $9$, $11$. Vậy $M=\{4;6;9;11\}$ và $M$ có $4$ phần tử.
 
 *Nhìn lại.* Tháng $2$ có thuộc $M$ không? Không, vì tháng $2$ không có đúng $30$ ngày. Kiểm tra: $7$ tháng có $31$ ngày, $4$ tháng có $30$ ngày và tháng $2$ cộng lại là $7+4+1=12$ tháng. Đủ cả năm.
+
+![Tập hợp các tháng có đúng 30 ngày. M = {4; 6; 9; 11}.](/assets/img/lemonmath80/vi/LM-031-g6-intro-to-sets.svg)
+
 :::
 
 :::example Chữ số lặp lại

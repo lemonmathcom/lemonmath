@@ -35,6 +35,9 @@ D. $r_s=1$; the judges agree exactly
 Then $r_s=1-\dfrac{6(4)}{5(25-1)}=1-\dfrac{24}{120}=0.8$.
 
 So $r_s=0.8$: the two judges' rankings agree fairly strongly, answer **A**.
+
+![Do the two judges agree on the rankings? The same five singers A, B, C, D, E are ranked by both judges.](/assets/img/lemonmath80/en/LM-078-exams-ibai-statistics-tests.svg)
+
 :::
 
 ## The $\chi^2$ test for independence

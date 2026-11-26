@@ -103,6 +103,9 @@ Nửa hình cầu: một nửa khối cầu, $\tfrac12\times\tfrac43\pi\times3^3
 Tổng thể tích là $90\pi+18\pi=108\pi\approx339{,}3\text{ cm}^3$.
 
 Vậy thể tích khoảng $339\text{ cm}^3$. Giữ kết quả theo $\pi$ đến dòng cuối giúp tránh sai số làm tròn.
+
+![Thể tích khối ghép: trụ và nửa cầu. Hai phần có cùng bán kính 3 cm; phần trụ cao 10 cm.](/assets/img/lemonmath80/vi/LM-079-exams-igcse-mensuration.svg)
+
 :::
 
 ## Đơn vị

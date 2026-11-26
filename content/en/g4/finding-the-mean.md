@@ -52,6 +52,9 @@ We start with three small numbers.
 **Solution.** There are $3$ numbers, so we divide the sum by $3$:
 $$(4+6+8)\div3=18\div3=6.$$
 So the mean of $4$, $6$ and $8$ is $6$.
+
+![The mean as equal sharing. Move blocks between columns, keeping the total at 18.](/assets/img/lemonmath80/en/LM-021-g4-finding-the-mean.svg)
+
 :::
 
 Now try four numbers. Here is where many people slip: how many numbers there are has changed, so what we divide by changes too.

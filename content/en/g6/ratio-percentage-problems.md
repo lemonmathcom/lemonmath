@@ -173,6 +173,9 @@ of the original price, while the first shop takes off $25\%$. Since $25\%>21.4\%
 So a) each shop takes off $60$ thousand dong, and the first shop's jacket is cheaper; b) the first shop takes off a larger percentage.
 
 *Look back.* The same $60$ thousand dong is a larger percentage of a smaller original price. That is why sellers like to write "$25\%$ off" on cheaper items and "$60$ thousand off" on dearer ones: they show whichever number looks bigger.
+
+![Same discount, different percentages? Each bar represents 100% of that shop's original price.](/assets/img/lemonmath80/en/LM-033-g6-ratio-percentage-problems.svg)
+
 :::
 
 :::warning Common mistakes

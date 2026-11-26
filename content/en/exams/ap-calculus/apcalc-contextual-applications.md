@@ -63,6 +63,9 @@ Air is pumped into a spherical balloon at $100$ cubic centimeters per second. Ho
 A ladder $5$ meters long leans against a wall. The bottom slides away from the wall at $0.6$ meters per second. How fast is the top sliding down when the bottom is $3$ meters from the wall?
 
 **Solution.** With $x$ the distance from the wall to the bottom and $y$ the height of the top, $x^2+y^2=25$, so $2x\dfrac{dx}{dt}+2y\dfrac{dy}{dt}=0$. When $x=3$, $y=4$: $3(0.6)+4\dfrac{dy}{dt}=0$, so $\dfrac{dy}{dt}=-0.45$. The top slides down at $0.45$ meters per second. The negative sign means $y$ is decreasing; say so in words.
+
+![Related rates: a sliding ladder. A 5 m ladder; the foot moves out at 0.6 m/s. Consider x = 3 m.](/assets/img/lemonmath80/en/LM-071-exams-apcalc-contextual-applications.svg)
+
 :::
 
 ## Local linearization and L'Hôpital's rule

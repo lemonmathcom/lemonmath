@@ -79,6 +79,9 @@ The value $x=2$ satisfies the condition. The distance AB is $50\cdot2=100$ (km).
 Check: on the way back $40\cdot2.5=100$ km.
 
 So the distance AB is $100$ km.
+
+![An equation for an outward and return trip. Outward speed 50 km/h, return speed 40 km/h; returning takes 30 minutes longer.](/assets/img/lemonmath80/en/LM-041-g8-g8-equation-word-problems.svg)
+
 :::
 
 :::example A work-rate problem

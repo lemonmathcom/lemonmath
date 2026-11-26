@@ -52,6 +52,9 @@ Có $6$ gói kẹo như nhau chứa $48$ viên kẹo. Hỏi $9$ gói kẹo như 
 **Lời giải.** Trước hết tìm số kẹo trong một gói, rồi nhân với $9$:
 $$48:6=8\ \text{(viên)},\qquad 8\times9=72\ \text{(viên)}.$$
 Vậy $9$ gói kẹo chứa $72$ viên kẹo.
+
+![Rút về một đơn vị: gói kẹo. 6 gói như nhau chứa 48 viên. 9 gói chứa bao nhiêu viên?](/assets/img/lemonmath80/vi/LM-022-g4-unitary-method.svg)
+
 :::
 
 Bài toán chuyển động cũng giải đúng theo cách ấy, chỉ khác là "một đơn vị" bây giờ là một giờ.

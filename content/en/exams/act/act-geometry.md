@@ -43,6 +43,9 @@ $$\frac{h}{15}=\frac{1.6}{2},$$
 so $h=15\times0.8=12$.
 
 So the tree is $12$ m tall, answer **C**. Option A uses the ratio upside down.
+
+![Measuring a tree using its shadow. At the same time: a 1.6 m person has a 2 m shadow; the tree's shadow is 15 m.](/assets/img/lemonmath80/en/LM-070-exams-act-geometry.svg)
+
 :::
 
 ## Circles, areas and volumes

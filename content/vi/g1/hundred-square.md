@@ -62,6 +62,9 @@ $$41,\ 42,\ 43,\ 44,\ 45,\ 46,\ \mathbf{47},\ 48,\ 49,\ 50.$$
 Vậy số 47 nằm ở hàng có các số từ 41 đến 50, ở ô thứ bảy tính từ trái sang.
 
 **Nhận xét.** Em không cần đếm từ 1: số chục cho biết hàng, chữ số cuối cho biết ô.
+
+![Tìm số 47 trong bảng 1–100. Đi ngang: thêm 1. Đi xuống: thêm 10.](/assets/img/lemonmath80/vi/LM-003-g1-hundred-square.svg)
+
 :::
 
 Tiếp theo, em tìm số ở bên cạnh một số cho trước. Chú ý khi số đó ở cuối hàng.

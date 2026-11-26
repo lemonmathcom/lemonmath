@@ -103,6 +103,9 @@ b) Độ cao của tàu ngầm là $-120$ m.
 c) Coi số tiền An có là dương, số tiền An nợ là âm. Số tiền của An đối với Bình là $-20$ nghìn đồng.
 
 Vậy các đại lượng được ghi là $+1250$ m; $-120$ m; $-20$ nghìn đồng.
+
+![Số nguyên và mốc 0. Phía trên mực nước biển là dương, phía dưới là âm.](/assets/img/lemonmath80/vi/LM-032-g6-set-of-integers.svg)
+
 :::
 
 Tiếp theo, ta làm quen với kí hiệu tập hợp.

@@ -37,6 +37,8 @@ Hình $B$ gồm $2$ hàng, mỗi hàng $4$ ô:
 
 Hình $A$ có $6$ ô, hình $B$ có $8$ ô. Vì $6<8$ nên hình $B$ có diện tích lớn hơn hình $A$.
 
+![Đếm ô vuông để hiểu diện tích. Các ô đều là hình vuông cùng kích thước.](/assets/img/lemonmath80/vi/LM-011-g3-area-square-centimetres.svg)
+
 :::theorem Diện tích
 - Diện tích của một hình là phần mặt phẳng mà hình đó chiếm.
 - Để so sánh diện tích hai hình, em đếm số ô vuông bằng nhau mà mỗi hình gồm.

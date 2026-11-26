@@ -25,6 +25,8 @@ The box is full, so you only need to count the ones outside.
 
 So $8+5=13$. What you just did has a name: **make 10**. Fill the box first, then add what is left outside.
 
+![Making ten: 8 + 5. Move 2 sweets into the frame to make ten.](/assets/img/lemonmath80/en/LM-004-g2-addition-crossing-10.svg)
+
 :::graph On the number line: from 8, jump 2 to reach 10, then jump 3 to reach 13
 alt: A number line from 0 to 20 with the points 8, 10 and 13 marked and the stretch from 8 to 13 highlighted
 x: 0..20

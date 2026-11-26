@@ -43,6 +43,9 @@ $$\frac{h}{15}=\frac{1{,}6}{2},$$
 nên $h=15\times0{,}8=12$.
 
 Vậy cái cây cao $12$ m, chọn đáp án **C**. Phương án A dùng tỉ số bị đảo ngược.
+
+![Đo chiều cao cây bằng bóng nắng. Cùng thời điểm: người cao 1,6 m có bóng 2 m; cây có bóng 15 m.](/assets/img/lemonmath80/vi/LM-070-exams-act-geometry.svg)
+
 :::
 
 ## Đường tròn, diện tích và thể tích

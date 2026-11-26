@@ -72,6 +72,9 @@ A bus company claims that $90\%$ of its buses arrive on time. A random sample of
 *Do:* $\hat p=\dfrac{170}{200}=0.85$, the standard deviation under $H_0$ is $\sqrt{\dfrac{0.9(0.1)}{200}}\approx0.02121$, so $z=\dfrac{0.85-0.9}{0.02121}\approx-2.357$ and the P-value is $P(Z<-2.357)\approx0.0092$.
 
 *Conclude:* since $0.0092<0.05$, we reject $H_0$. There is convincing evidence that fewer than $90\%$ of the company's buses arrive on time.
+
+![A one-proportion test: the p-value region. H₀: p = 0.90; Hₐ: p < 0.90. The sample has 170/200 on-time trips.](/assets/img/lemonmath80/en/LM-075-exams-apstats-inference-proportions.svg)
+
 :::
 
 ## Two proportions

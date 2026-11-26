@@ -137,6 +137,9 @@ We have $h(t+12)=3+2\sin\left(\dfrac{\pi t}{6}+2\pi\right)=h(t)$, and $12$ is th
 So the highest level is $5$ m (at $3$ o'clock and $15$ o'clock), the lowest is $1$ m (at $9$ o'clock and $21$ o'clock), and the pattern repeats every $12$ hours.
 
 **Look back.** A ship needs a water level of at least $4$ m to enter the port. We need $h(t)\ge4$, that is $\sin\dfrac{\pi t}{6}\ge\dfrac12$. On the graph of $\sin$, this happens when $\dfrac{\pi t}{6}$ lies in $\left[\dfrac{\pi}{6}, \dfrac{5\pi}{6}\right]$ within one period, that is $t\in[1, 5]$. So in each $12$-hour period the ship can enter for only $4$ hours (from $1$ to $5$ o'clock, then from $13$ to $17$ o'clock). This is reasonable: $4$ m lies between the lowest level $1$ m and the highest level $5$ m, so the window does not fill the whole period.
+
+![A tide model: h(t) = 3 + 2 sin(πt/6). t is measured in hours and h in metres.](/assets/img/lemonmath80/en/LM-055-g11-trig-function-graphs.svg)
+
 :::
 
 Next we look at parity and period.

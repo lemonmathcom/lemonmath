@@ -26,6 +26,8 @@ Mai builds it up one layer at a time, starting from the bottom:
 
 So the box has a volume of $24$ cm³. Notice that $24=4\times3\times2$. The number of cubes is just the three measurements of the box multiplied together. That is no accident, and we will see why in a moment.
 
+![The volume of a cuboid. Separate the layers to reveal the hidden cubes.](/assets/img/lemonmath80/en/LM-029-g5-volume-of-a-cuboid.svg)
+
 :::diagram A box 4 cm long, 3 cm wide and 2 cm high
 alt: A cuboid drawn in perspective with the hidden edges dashed; length 4 cm, width 3 cm, height 2 cm
 point A 0,0 ""

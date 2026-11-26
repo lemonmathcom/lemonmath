@@ -60,6 +60,9 @@ Gieo một con xúc xắc cân đối. Gọi $A$: "số chấm chẵn", $B$: "s�
 $$P(A\cup B)=\frac46=\frac23,\qquad P(A\cap B)=\frac26=\frac13.$$
 
 Vậy $P(A\cup B)=\dfrac23$ và $P(A\cap B)=\dfrac13$.
+
+![Nhìn rõ biến cố hợp, giao và xung khắc. Ví dụ xúc xắc: A = {2; 4; 6}, B = {4; 5; 6}.](/assets/img/lemonmath80/vi/LM-060-g11-union-intersection-events.svg)
+
 :::
 
 Tiếp theo là bộ bài tây.

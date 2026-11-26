@@ -164,6 +164,9 @@ From a point $C$ on the shore, $CA=120$ m, $CB=95$ m and $\angle ACB=70^\circ$. 
 $$AB^2=120^2+95^2-2\cdot120\cdot95\cos70^\circ=23425-22800\cos70^\circ\approx15627.$$
 
 So $AB\approx125$ m.
+
+![Measuring across a pond with the cosine rule. CA = 120 m, CB = 95 m, angle ACB = 70°.](/assets/img/lemonmath80/en/LM-049-g10-triangle-relations.svg)
+
 :::
 
 :::warning Common mistakes

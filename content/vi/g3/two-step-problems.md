@@ -108,6 +108,9 @@ $$8+24=32\ \text{(con)}.$$
 **Đáp số:** $32$ con.
 
 **Nhìn lại.** Số gà là $1$ phần, số vịt là $3$ phần, nên tất cả có $4$ phần bằng nhau, mỗi phần $8$ con: $8\times 4=32$. Kết quả trùng với cách trên. Em thử nghĩ xem vì sao hai cách ra cùng một số.
+
+![Bài toán hai bước: gà và vịt. Nhà Lan có 8 con gà; số vịt gấp 3 lần số gà.](/assets/img/lemonmath80/vi/LM-016-g3-two-step-problems.svg)
+
 :::
 
 :::warning Những lỗi em hay gặp

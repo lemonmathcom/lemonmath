@@ -41,6 +41,9 @@ We answer the opening question first, about Lan's and Nam's marbles.
 **Solution.** Tens digits: $3$ and $4$. Since $4>3$, we have $42>35$.
 
 So $35<42$.
+
+![Comparing 35 and 42. Compare the tens first, then the ones.](/assets/img/lemonmath80/en/LM-001-g1-comparing-two-digit-numbers.svg)
+
 :::
 
 What if the tens digits are the same? Then the tens cannot tell the two numbers apart, so we look at the ones.

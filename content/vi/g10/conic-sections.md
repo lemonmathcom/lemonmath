@@ -184,6 +184,9 @@ $$0{,}6^2=2p\cdot0{,}18\iff 0{,}36=0{,}36p\iff p=1.$$
 Tiêu điểm là $\left(\dfrac p2; 0\right)=(0{,}5; 0)$.
 
 Vậy bộ thu đặt cách đáy chảo $0{,}5$ m.
+
+![Bộ thu của chảo ăn-ten đặt tại tiêu điểm. Mặt cắt parabol y² = 2x; miệng rộng 1,2 m, lòng sâu 0,18 m.](/assets/img/lemonmath80/vi/LM-050-g10-conic-sections.svg)
+
 :::
 
 :::warning Những sai lầm thường gặp

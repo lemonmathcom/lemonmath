@@ -51,6 +51,9 @@ Gieo hai con xúc xắc cân đối. Biết tổng số chấm bằng $8$, tính
 $$B=\{(2; 6), (3; 5), (4; 4), (5; 3), (6; 2)\},\qquad A\cap B=\{(2; 6), (6; 2)\}.$$
 
 Vậy $P(A\mid B)=\dfrac{n(A\cap B)}{n(B)}=\dfrac25$.
+
+![Xác suất có điều kiện: thu hẹp không gian mẫu. Biết tổng bằng 8. Trong các ô còn lại, có bao nhiêu ô có mặt 6?](/assets/img/lemonmath80/vi/LM-064-g12-conditional-probability-intro.svg)
+
 :::
 
 Thứ tự hai biến cố trong $P(A\mid B)$ rất quan trọng. Đổi chỗ chúng là hỏi một câu hỏi khác hẳn, như ví dụ sau cho thấy.

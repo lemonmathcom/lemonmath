@@ -107,6 +107,9 @@ $$s^2=\frac{6\cdot64+10\cdot16+18\cdot0+10\cdot16+6\cdot64}{50}=\frac{1088}{50}=
 | Machine B | $1000$ | $21.76$ | $4.66$ |
 
 So the two machines have the same mean mass, but machine A has the smaller standard deviation ($3.2$ g against about $4.66$ g): machine A fills more evenly.
+
+![Which machine fills bags more consistently? Both have mean 1 000 g, but different spreads.](/assets/img/lemonmath80/en/LM-067-g12-grouped-variance-sd.svg)
+
 :::
 
 ## The effect of the class width

@@ -154,6 +154,9 @@ $$V=\pi\int_0^8 2x\,dx=\pi\Big[x^2\Big]_0^8=64\pi\approx201.$$
 Miệng ly có bán kính $\sqrt{16}=4$ cm. Vì $1$ cm³ $=1$ ml nên ly chứa được khoảng $201$ ml nước.
 
 **Nhìn lại.** Rót nước đến nửa chiều cao của ly ($x=4$ cm) thì ly đã "đầy một nửa" chưa? Ta có $\pi\displaystyle\int_0^4 2x\,dx=16\pi\approx50$ ml, chỉ bằng một phần tư dung tích, vì phần dưới của ly hẹp. Muốn có nửa dung tích ($32\pi$ ml) thì cần $\pi x^2=32\pi$, tức là rót đến độ cao $x=4\sqrt2\approx5{,}66$ cm. Ở những chiếc ly loe miệng, "nửa ly" theo mắt nhìn ít hơn nhiều so với nửa dung tích.
+
+![Từ mặt cắt đến dung tích chiếc ly. Quay miền dưới y = √(2x), 0 ≤ x ≤ 8, quanh trục Ox.](/assets/img/lemonmath80/vi/LM-062-g12-integral-applications.svg)
+
 :::
 
 :::warning Những sai lầm thường gặp

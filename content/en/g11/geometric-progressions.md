@@ -137,6 +137,9 @@ $$S_n=\dfrac{1\cdot\left(3^n-1\right)}{3-1}=\dfrac{3^n-1}{2}.$$
 For $n=6$: $S_6=\dfrac{729-1}{2}=364$. Solving $\dfrac{3^n-1}{2}>1000$ requires $3^n>2001$. Since $3^6=729<2001<2187=3^7$, we get $n=7$ and $S_7=\dfrac{2187-1}{2}=1093$.
 
 So after $6$ rounds $364$ people have shared, and after $7$ rounds the total first exceeds $1000$.
+
+![Sharing a post in a geometric sequence. Each person generates 3 new sharers in the next round.](/assets/img/lemonmath80/en/LM-057-g11-geometric-progressions.svg)
+
 :::
 
 **Connections.** A geometric progression is a sequence given by the recurrence relation $u_{n+1}=u_nq$ from the lesson on sequences, and it has both a formula for the general term and a formula for the sum, as arithmetic progressions do. It is the discrete version of an exponential function: $u_n=\dfrac{u_1}{q}\cdot q^n$ is an exponential function of $n$. When $|q|<1$ the terms shrink towards $0$ and the sum $S_n$ approaches a definite value; this idea leads to the limit of a sequence in later lessons.

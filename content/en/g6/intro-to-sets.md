@@ -77,6 +77,9 @@ Let $M$ be the set of calendar months with exactly $30$ days (each month written
 *Solve.* The months with $31$ days are $1$, $3$, $5$, $7$, $8$, $10$, $12$. Month $2$ has $28$ or $29$ days. The remaining months, with exactly $30$ days, are months $4$, $6$, $9$, $11$. So $M=\{4,6,9,11\}$ and $M$ has $4$ elements.
 
 *Look back.* Does month $2$ belong to $M$? No, because month $2$ does not have exactly $30$ days. Check: $7$ months with $31$ days, $4$ months with $30$ days and month $2$ make $7+4+1=12$ months. That is the whole year.
+
+![The set of months with exactly 30 days. M = {4; 6; 9; 11}.](/assets/img/lemonmath80/en/LM-031-g6-intro-to-sets.svg)
+
 :::
 
 :::example Repeated digits

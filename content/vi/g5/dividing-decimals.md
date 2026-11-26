@@ -21,6 +21,8 @@ Em đổi $8{,}4$ m $=84$ dm. Chia $84$ dm thành $4$ phần bằng nhau, mỗi 
 
 Ta có thể chia luôn không cần đổi: chia phần nguyên $8:4=2$, viết dấu phẩy ở thương, rồi chia chữ số hàng phần mười $4:4=1$. Thương là $2{,}1$.
 
+![Chia số thập phân: thương không đổi. Cùng nhân số bị chia và số chia với 10.](/assets/img/lemonmath80/vi/LM-025-g5-dividing-decimals.svg)
+
 :::theorem Chia số thập phân cho số tự nhiên
 1. Chia phần nguyên của số bị chia cho số chia.
 2. Viết dấu phẩy vào bên phải thương, trước khi lấy chữ số đầu tiên ở phần thập phân để chia tiếp.

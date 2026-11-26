@@ -96,6 +96,8 @@ Remember two marks for water under normal conditions: water starts to freeze at 
 
 Outside in the yard the thermometer shows $30\ ^\circ\text{C}$ and in the fridge it shows $5\ ^\circ\text{C}$. Since $5<30$, it is colder in the fridge than in the yard.
 
+![Reading a measuring jug and a thermometer. Read the correct scale mark and write the unit.](/assets/img/lemonmath80/en/LM-015-g3-millilitres.svg)
+
 :::theorem Temperature
 - A thermometer measures temperature.
 - The unit of temperature is the degree Celsius, written $^\circ\text{C}$.

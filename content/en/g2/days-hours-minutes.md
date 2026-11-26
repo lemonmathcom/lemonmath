@@ -119,6 +119,9 @@ $$24-11=13\ \text{(days)}.$$
 So there are 13 more days until Mai's birthday.
 
 **Look back.** Check with addition: $11+13=24$, which is correct. You can also use the calendar: the 11th is a Wednesday, the 18th is also a Wednesday (7 days later), and 6 more days takes you to the 24th, which is a Tuesday. So from the 11th to the 24th is $7+6=13$ days.
+
+![How many days until Mai's birthday? November 2026: from the 11th to the 24th.](/assets/img/lemonmath80/en/LM-009-g2-days-hours-minutes.svg)
+
 :::
 
 :::warning Mistakes to watch out for

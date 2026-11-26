@@ -55,6 +55,9 @@ Tìm số thích hợp: $\dfrac{2}{3}=\dfrac{?}{6}$.
 **Lời giải.** Mẫu số $3$ thành $6$ nên đã nhân với $2$, vì $3\times2=6$. Ta nhân cả tử số với $2$:
 $$\frac{2}{3}=\frac{2\times2}{3\times2}=\frac{4}{6}.$$
 Vậy số cần tìm là $4$.
+
+![Hai phân số, cùng một lượng. Chia nhỏ mỗi phần ba thành hai phần: lượng tô không đổi.](/assets/img/lemonmath80/vi/LM-017-g4-basic-property-of-fractions.svg)
+
 :::
 
 Lần này số nhân không còn dễ thấy ngay. Em tự hỏi: mẫu số cũ nhân với mấy thì ra mẫu số mới?

@@ -62,6 +62,9 @@ $$\dfrac{1}{2}=\dfrac{1\times3}{2\times3}=\dfrac{3}{6},\qquad \dfrac{1}{3}=\dfra
 Rồi cộng: $\dfrac{3}{6}+\dfrac{2}{6}=\dfrac{5}{6}$.
 
 Vậy $\dfrac{1}{2}+\dfrac{1}{3}=\dfrac{5}{6}$.
+
+![Cộng phân số: vì sao cần quy đồng? Đưa 1/2 và 1/3 về các phần cùng kích thước.](/assets/img/lemonmath80/vi/LM-019-g4-g4-adding-fractions.svg)
+
 :::
 
 Tổng của hai phân số có thể lớn hơn $1$.

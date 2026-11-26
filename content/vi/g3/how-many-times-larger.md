@@ -69,6 +69,9 @@ $$24-6=18\ \text{(m)}.$$
 Câu thứ hai hỏi "gấp mấy lần", nên em chia:
 $$24:6=4\ \text{(lần)}.$$
 **Đáp số:** hơn $18$ m; gấp $4$ lần.
+
+![“Hơn bao nhiêu” khác “gấp mấy lần”. Dây xanh dài 6 m, dây đỏ dài 24 m.](/assets/img/lemonmath80/vi/LM-014-g3-how-many-times-larger.svg)
+
 :::
 
 Bài toán sau khó hơn một chút, nên em làm theo bốn bước: hiểu đề, tìm cách giải, giải, nhìn lại.

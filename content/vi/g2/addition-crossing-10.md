@@ -25,6 +25,8 @@ Hộp đầy rồi, em chỉ còn đếm thêm phần ở ngoài.
 
 Vậy $8+5=13$. Cách em vừa làm có tên là **gộp cho đủ 10**: lấp đầy hộp trước, rồi cộng phần còn lại ở ngoài hộp.
 
+![Gộp cho đủ 10: 8 + 5. Chuyển 2 cái kẹo sang hộp để làm đầy 10 ô.](/assets/img/lemonmath80/vi/LM-004-g2-addition-crossing-10.svg)
+
 :::graph Trên tia số: từ 8, nhảy 2 bước đến 10, rồi nhảy 3 bước đến 13
 alt: Tia số từ 0 đến 20, đánh dấu các điểm 8, 10 và 13; đoạn từ 8 đến 10 và từ 10 đến 13
 x: 0..20

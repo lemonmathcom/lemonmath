@@ -39,6 +39,9 @@ Một hình hộp chữ nhật được xếp vừa kín bằng các khối lậ
 **Lời giải.** Mỗi lớp có $4\times3=12$ khối. Hai lớp có $12\times2=24$ khối.
 
 Vậy thể tích của hình là $24\ \text{cm}^3$.
+
+![Đếm thể tích theo hàng, lớp và tầng. Hình hộp gồm 2 lớp; mỗi lớp có 3 hàng, mỗi hàng 4 khối.](/assets/img/lemonmath80/vi/LM-028-g5-volume-of-a-shape.svg)
+
 :::
 
 Bây giờ em quay lại câu hỏi ở đầu bài, và làm theo bốn bước.

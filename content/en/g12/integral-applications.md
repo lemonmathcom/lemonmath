@@ -154,6 +154,9 @@ $$V=\pi\int_0^8 2x\,dx=\pi\Big[x^2\Big]_0^8=64\pi\approx201.$$
 The rim has radius $\sqrt{16}=4$ cm. Since $1$ cm³ $=1$ ml, the glass holds about $201$ ml of water.
 
 **Look back.** If we pour water up to half the height of the glass ($x=4$ cm), is the glass "half full"? We have $\pi\displaystyle\int_0^4 2x\,dx=16\pi\approx50$ ml, only a quarter of the capacity, because the lower part of the glass is narrow. For half the capacity ($32\pi$ ml) we need $\pi x^2=32\pi$, that is a height of $x=4\sqrt2\approx5.66$ cm. In a glass that widens towards the top, "half a glass" by eye is much less than half the capacity.
+
+![From a cross-section to the volume of a glass. Rotate the region under y = √(2x), 0 ≤ x ≤ 8, about Ox.](/assets/img/lemonmath80/en/LM-062-g12-integral-applications.svg)
+
 :::
 
 :::warning Common mistakes

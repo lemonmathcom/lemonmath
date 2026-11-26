@@ -146,6 +146,9 @@ Triangle $ABC$ is right-angled at $A$. Find its orthocentre.
 The altitudes $BA$ and $CA$ meet at $A$. The third altitude, from $A$, also passes through $A$ because it starts there, so the three altitudes meet at $A$.
 
 So the orthocentre of the right-angled triangle $ABC$ is the vertex $A$.
+
+![The orthocentre of a right triangle. The two perpendicular sides are also altitudes.](/assets/img/lemonmath80/en/LM-036-g7-perpendicular-bisectors-altitudes.svg)
+
 :::
 
 The concurrency theorem gives a short argument.

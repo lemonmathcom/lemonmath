@@ -135,6 +135,9 @@ Bỏ giá trị $500$, còn sáu giá trị:
 $$\bar{x}=\frac{410}{6}\approx68{,}33,\qquad M_e=\frac{60+70}{2}=65.$$
 
 Vậy một giá trị bất thường làm số trung bình cộng tăng khoảng $62$ nghìn đồng, còn trung vị chỉ tăng $5$ nghìn đồng. Với cả bảy bạn, $130$ nghìn đồng lớn hơn tiền của sáu bạn, nên trung vị $70$ mô tả "bạn điển hình" tốt hơn.
+
+![Một giá trị ngoại lai kéo trung bình đi xa. Tiền tiêu vặt, đơn vị nghìn đồng; hai hình dùng cùng thang đo.](/assets/img/lemonmath80/vi/LM-053-g10-central-tendency.svg)
+
 :::
 
 :::tip Nên dùng số đặc trưng nào

@@ -131,6 +131,9 @@ Thứ Ba mượn bao nhiêu quyển? Cả ba ngày mượn bao nhiêu quyển?
 Số quyển truyện mượn trong cả ba ngày là:
 $$6+8+4=18\ \text{(quyển)}.$$
 **Đáp số:** Thứ Ba mượn $8$ quyển; cả ba ngày mượn $18$ quyển.
+
+![Biểu đồ tranh: mượn truyện. Đọc chú giải trước khi đếm số quyển.](/assets/img/lemonmath80/vi/LM-006-g2-collecting-sorting-tallying.svg)
+
 :::
 
 Bài toán sau khó hơn một chút, nên em làm theo bốn bước: hiểu đề, tìm cách giải, giải, nhìn lại.

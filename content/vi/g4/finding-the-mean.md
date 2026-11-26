@@ -52,6 +52,9 @@ Ta thử với ba số nhỏ trước.
 **Lời giải.** Có $3$ số, nên ta lấy tổng chia cho $3$:
 $$(4+6+8):3=18:3=6.$$
 Vậy số trung bình cộng của $4$, $6$ và $8$ là $6$.
+
+![Trung bình cộng là chia đều. Giữ nguyên tổng 18 khối khi chuyển từ cột cao sang cột thấp.](/assets/img/lemonmath80/vi/LM-021-g4-finding-the-mean.svg)
+
 :::
 
 Bây giờ đến bốn số. Chỗ này nhiều bạn hay nhầm: số các số hạng đã đổi, nên số để chia cũng phải đổi theo.

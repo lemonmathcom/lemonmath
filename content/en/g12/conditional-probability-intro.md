@@ -51,6 +51,9 @@ Two fair dice are rolled. Given that the total is $8$, find the probability that
 $$B=\{(2, 6), (3, 5), (4, 4), (5, 3), (6, 2)\},\qquad A\cap B=\{(2, 6), (6, 2)\}.$$
 
 So $P(A\mid B)=\dfrac{n(A\cap B)}{n(B)}=\dfrac25$.
+
+![Conditional probability: restrict the sample space. Given that the sum is 8, how many remaining cells contain a 6?](/assets/img/lemonmath80/en/LM-064-g12-conditional-probability-intro.svg)
+
 :::
 
 The order of the two events in $P(A\mid B)$ matters a great deal. Swapping them asks a completely different question, as the next example shows.

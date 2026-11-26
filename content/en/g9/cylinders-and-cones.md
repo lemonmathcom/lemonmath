@@ -200,6 +200,9 @@ $$S_{\text{curved}}=\pi\cdot20\cdot25=500\pi\approx1571\ \text{(cm}^2).$$
 The sector of radius $25$ cm has arc length equal to the circumference of the base, $40\pi$ cm. Let the arc measure $n^\circ$; then $\dfrac{\pi\cdot25\cdot n}{180}=40\pi$, so $n=288$.
 
 So about $1571$ cm² of leaf is needed for one layer, and the flat sector has an arc of $288^\circ$.
+
+![A conical hat and its sector net. Base radius 20 cm, vertical height 15 cm, slant height 25 cm.](/assets/img/lemonmath80/en/LM-044-g9-cylinders-and-cones.svg)
+
 :::
 
 :::warning Common mistakes

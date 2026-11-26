@@ -184,6 +184,9 @@ $$0.6^2=2p\cdot0.18\iff 0.36=0.36p\iff p=1.$$
 The focus is $\left(\dfrac p2, 0\right)=(0.5, 0)$.
 
 So the receiver is $0.5$ m from the bottom of the dish.
+
+![The receiver of a dish sits at the focus. Parabolic cross-section y² = 2x; opening 1.2 m, depth 0.18 m.](/assets/img/lemonmath80/en/LM-050-g10-conic-sections.svg)
+
 :::
 
 :::warning Common mistakes

@@ -79,6 +79,9 @@ Giá trị $x=2$ thoả mãn điều kiện. Quãng đường AB là $50\cdot2=1
 Kiểm tra: lúc về $40\cdot2{,}5=100$ km.
 
 Vậy quãng đường AB dài $100$ km.
+
+![Lập phương trình cho chuyến đi và về. Đi 50 km/h, về 40 km/h; thời gian về nhiều hơn 30 phút.](/assets/img/lemonmath80/vi/LM-041-g8-g8-equation-word-problems.svg)
+
 :::
 
 :::example Bài toán năng suất

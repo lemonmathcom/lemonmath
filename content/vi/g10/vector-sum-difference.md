@@ -148,6 +148,9 @@ Hai đường chéo của hình chữ nhật bằng nhau, và theo định lí P
 $$AC = DB = \sqrt{6^2 + 8^2} = 10.$$
 
 Vậy $|\overrightarrow{AB} + \overrightarrow{AD}| = |\overrightarrow{AB} - \overrightarrow{AD}| = 10$. Hai vectơ $\overrightarrow{AC}$ và $\overrightarrow{DB}$ khác nhau (khác hướng) nhưng cùng độ dài.
+
+![Tổng và hiệu vectơ trong hình chữ nhật. AB = 6, AD = 8. Hai đường chéo có cùng độ dài nhưng khác hướng.](/assets/img/lemonmath80/vi/LM-047-g10-vector-sum-difference.svg)
+
 :::
 
 Đến đây bạn đã có đủ công cụ để chứng minh các đẳng thức vectơ. Cách làm quen thuộc: chọn một vế để biến đổi, rồi "chèn" thêm điểm bằng quy tắc ba điểm cho đến khi ra vế kia.
@@ -189,6 +192,9 @@ $$\overrightarrow{GB} + \overrightarrow{GC} = \overrightarrow{GD}.$$
 Trọng tâm nằm trên trung tuyến $AM$ với $GA = 2GM = GD$, và $A$, $D$ nằm về hai phía của $G$. Vậy $\overrightarrow{GD}=-\overrightarrow{GA}$, và:
 
 $$\overrightarrow{GA} + \overrightarrow{GB} + \overrightarrow{GC} = \overrightarrow{GA} + \overrightarrow{GD} = \vec{0}.$$
+
+![Hệ thức trọng tâm bằng hình bình hành. M là trung điểm của BC và GD; G là trọng tâm tam giác ABC.](/assets/img/lemonmath80/vi/LM-048-g10-vector-sum-difference.svg)
+
 :::
 
 ## Lực và vận tốc

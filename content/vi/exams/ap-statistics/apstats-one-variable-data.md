@@ -63,6 +63,9 @@ D. Đều
 **Lời giải.** Trung bình lớn hơn trung vị khá nhiều. Điều này xảy ra khi vài giá trị rất lớn, ở đây là vài mức lương cao, kéo trung bình lên, trong khi trung vị vẫn nằm cùng phần lớn dữ liệu.
 
 Vậy phân phối nhiều khả năng lệch phải, chọn đáp án **B**. Với dữ liệu như vậy, trung vị mô tả mức lương điển hình tốt hơn.
+
+![Trung bình, trung vị và hình dạng phân bố. Ba phác họa thường gặp; không tái tạo một bộ dữ liệu cụ thể.](/assets/img/lemonmath80/vi/LM-074-exams-apstats-one-variable-data.svg)
+
 :::
 
 ## Vị trí: điểm z và bách phân vị

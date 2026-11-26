@@ -145,6 +145,9 @@ $$P(A)=0{,}01\cdot0{,}95+0{,}99\cdot0{,}05=0{,}0095+0{,}0495=0{,}059,$$
 $$P(B\mid A)=\frac{0{,}0095}{0{,}059}=\frac{19}{118}\approx0{,}161.$$
 
 **Nhìn lại.** Kết quả trùng với cách đếm $\dfrac{95}{590}$. Xác suất thấp vì người khoẻ đông gấp $99$ lần người bệnh: $5\%$ của một nhóm rất lớn ($0{,}0495$) lớn hơn $95\%$ của một nhóm rất nhỏ ($0{,}0095$).
+
+![Bayes qua 10 000 người giả định. Tỉ lệ bệnh 1%; dương tính: 95% ở người bệnh, 5% ở người không bệnh.](/assets/img/lemonmath80/vi/LM-065-g12-total-probability-bayes.svg)
+
 :::
 
 Vì xác suất mắc bệnh sau một lần dương tính vẫn còn thấp, nên khi xét nghiệm sàng lọc dương tính, bác sĩ thường cho xét nghiệm lại. Điều gì xảy ra ở lần thứ hai?

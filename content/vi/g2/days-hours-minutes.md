@@ -123,6 +123,9 @@ $$24-11=13\ \text{(ngày)}.$$
 Đáp số: 13 ngày.
 
 **Nhìn lại.** Em thử lại bằng phép cộng: $11+13=24$, đúng. Em còn xem lịch: ngày 11 là thứ tư, ngày 18 cũng là thứ tư (sau 7 ngày), rồi thêm 6 ngày nữa là ngày 24, một ngày thứ ba. Vậy từ ngày 11 đến ngày 24 là $7+6=13$ ngày.
+
+![Còn bao nhiêu ngày đến sinh nhật Mai? Tháng 11 năm 2026: từ ngày 11 đến ngày 24.](/assets/img/lemonmath80/vi/LM-009-g2-days-hours-minutes.svg)
+
 :::
 
 :::warning Những lỗi em hay gặp

@@ -82,6 +82,9 @@ Without replacement, there are $5\cdot4=20$ ordered pairs of different cards, of
 $$P(A\cap B)=\frac6{20}=\frac3{10}\ne\frac35\cdot\frac35=\frac9{25}.$$
 
 Thus $A$ and $B$ are not independent without replacement.
+
+![With and without replacement. 3 red and 2 blue cards. R = red; B = blue.](/assets/img/lemonmath80/en/LM-061-g11-multiplication-rule.svg)
+
 :::
 
 This is a place where many people slip: we cannot use the multiplication rule merely because a question contains the word “and”. We must first decide whether the events are independent.

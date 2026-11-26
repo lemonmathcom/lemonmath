@@ -99,6 +99,9 @@ $$\frac x{63}=\frac27.$$
 By the property of a proportion, we have $7x=63\cdot2=126$. Hence $x=126\div7=18$. So Mr Hùng needs $18$ bags of cement.
 
 *Look back.* Check: $\dfrac{18}{63}=\dfrac27$ (divide top and bottom by $9$). Is there another way? Yes: $63$ bags of sand make $9$ groups of $7$ bags, and each group needs $2$ bags of cement, so he needs $9\cdot2=18$ bags. Both methods agree, but cross-multiplication also works when the numbers do not divide so neatly. What if he has only $20$ bags of cement? Then $\dfrac{20}y=\dfrac27$, so $2y=140$ and $y=70$: he needs $70$ bags of sand.
+
+![Mixing mortar in the ratio 2 : 7. There are 63 bags of sand; each part contains the same number of bags.](/assets/img/lemonmath80/en/LM-034-g7-proportions.svg)
+
 :::
 
 ## Properties of a chain of equal ratios

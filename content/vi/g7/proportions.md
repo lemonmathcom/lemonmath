@@ -99,6 +99,9 @@ $$\frac x{63}=\frac27.$$
 Theo tính chất của tỉ lệ thức, ta có $7x=63\cdot2=126$. Suy ra $x=126:7=18$. Vậy bác Hùng cần $18$ bao xi măng.
 
 *Nhìn lại.* Thử lại: $\dfrac{18}{63}=\dfrac27$ (rút gọn cho $9$). Có cách khác không? Có: $63$ bao cát gồm $9$ nhóm, mỗi nhóm $7$ bao, mà mỗi nhóm cần $2$ bao xi măng nên cần $9\cdot2=18$ bao. Hai cách cho cùng kết quả, nhưng cách nhân chéo dùng được cả khi số liệu không chia hết gọn như thế. Nếu bác chỉ có $20$ bao xi măng thì sao? Khi đó $\dfrac{20}y=\dfrac27$, suy ra $2y=140$, $y=70$: bác cần $70$ bao cát.
+
+![Trộn vữa theo tỉ lệ 2 : 7. Biết có 63 bao cát; mỗi phần ứng với cùng một số bao.](/assets/img/lemonmath80/vi/LM-034-g7-proportions.svg)
+
 :::
 
 ## Tính chất của dãy tỉ số bằng nhau

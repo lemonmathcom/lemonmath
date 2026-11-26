@@ -192,6 +192,9 @@ The filling time is $375\div25=15$ (hours).
 So the pool holds $375\,000$ litres and takes $15$ hours to fill.
 
 *Look back.* Is there another way? The average depth is $\dfrac{1+2}{2}=1.5$ m, and $25\cdot10\cdot1.5=375\ \text{m}^3$, which agrees. If the pool had a flat floor $2$ m deep, the volume would be $500\ \text{m}^3$, more than $375\ \text{m}^3$, so our answer is reasonable because the real pool is shallower.
+
+![A swimming pool with a sloping floor. Length 25 m, width 10 m; depth increases uniformly from 1 m to 2 m.](/assets/img/lemonmath80/en/LM-037-g7-g7-cuboids-and-cubes.svg)
+
 :::
 
 :::warning Mistakes to watch out for

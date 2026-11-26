@@ -148,6 +148,9 @@ The diagonals of a rectangle are equal, and by Pythagoras' theorem:
 $$AC = DB = \sqrt{6^2 + 8^2} = 10.$$
 
 So $|\overrightarrow{AB} + \overrightarrow{AD}| = |\overrightarrow{AB} - \overrightarrow{AD}| = 10$. The vectors $\overrightarrow{AC}$ and $\overrightarrow{DB}$ are different (they point different ways) but have the same length.
+
+![Vector sums and differences in a rectangle. AB = 6, AD = 8. The diagonals have equal lengths but different directions.](/assets/img/lemonmath80/en/LM-047-g10-vector-sum-difference.svg)
+
 :::
 
 You now have enough tools to prove vector identities. The usual method: pick one side to work on, then "insert" points with the triangle rule until you reach the other side.
@@ -189,6 +192,9 @@ $$\overrightarrow{GB} + \overrightarrow{GC} = \overrightarrow{GD}.$$
 The centroid lies on the median $AM$ with $GA = 2GM = GD$, and $A$, $D$ are on opposite sides of $G$. So $\overrightarrow{GD}=-\overrightarrow{GA}$, and:
 
 $$\overrightarrow{GA} + \overrightarrow{GB} + \overrightarrow{GC} = \overrightarrow{GA} + \overrightarrow{GD} = \vec{0}.$$
+
+![The centroid identity using a parallelogram. M is the midpoint of BC and GD; G is the centroid of triangle ABC.](/assets/img/lemonmath80/en/LM-048-g10-vector-sum-difference.svg)
+
 :::
 
 ## Forces and velocities

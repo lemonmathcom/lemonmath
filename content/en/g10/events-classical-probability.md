@@ -90,6 +90,9 @@ A total of $7$ appears $6$ times (the anti-diagonal). Totals $10$, $11$, $12$ ap
 $$P(\text{total}=7)=\frac{6}{36}=\frac16,\qquad P(\text{total}\ge10)=\frac{6}{36}=\frac16.$$
 
 So both events have probability $\dfrac16$.
+
+![Dice sums are not equally likely. Each cell is an ordered outcome; both grids contain 36 cells.](/assets/img/lemonmath80/en/LM-051-g10-events-classical-probability.svg)
+
 :::
 
 ## Counting with combinations

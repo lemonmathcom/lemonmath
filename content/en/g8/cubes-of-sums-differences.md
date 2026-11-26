@@ -24,6 +24,8 @@ $$(a+b)^3=(a+b)^2(a+b)=(a^2+2ab+b^2)(a+b).$$
 Multiplying term by term:
 $$\begin{aligned} (a^2+2ab+b^2)(a+b)&=a^3+a^2b+2a^2b+2ab^2+ab^2+b^3\\ &=a^3+3a^2b+3ab^2+b^3. \end{aligned}$$
 
+![The cube of a sum using volume. Split a cube of side a + b into 8 pieces; a, b > 0.](/assets/img/lemonmath80/en/LM-039-g8-cubes-of-sums-differences.svg)
+
 :::theorem Cube of a sum
 For any two numbers (or expressions) $a$ and $b$,
 $$(a+b)^3=a^3+3a^2b+3ab^2+b^3.$$

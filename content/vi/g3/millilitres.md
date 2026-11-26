@@ -96,6 +96,8 @@ Em cần nhớ hai mốc của nước ở điều kiện bình thường: nư�
 
 Ngoài sân nhiệt kế chỉ $30\ ^\circ\text{C}$ còn trong tủ lạnh chỉ $5\ ^\circ\text{C}$. Vì $5<30$ nên trong tủ lạnh lạnh hơn ngoài sân.
 
+![Đọc bình chia độ và nhiệt kế. Nhìn đúng vạch số và viết đúng đơn vị.](/assets/img/lemonmath80/vi/LM-015-g3-millilitres.svg)
+
 :::theorem Nhiệt độ
 - Nhiệt kế dùng để đo nhiệt độ.
 - Đơn vị đo nhiệt độ là độ C, viết là $^\circ\text{C}$.

@@ -21,6 +21,8 @@ Change $8.4$ m $=84$ dm. Dividing $84$ dm into $4$ equal parts gives $84\div4=21
 
 We can also divide straight away without changing units: divide the whole-number part $8\div4=2$, write the decimal point in the quotient, then divide the tenths digit $4\div4=1$. The quotient is $2.1$.
 
+![Dividing decimals: the quotient stays the same. Multiply both the dividend and divisor by 10.](/assets/img/lemonmath80/en/LM-025-g5-dividing-decimals.svg)
+
 :::theorem Dividing a decimal by a whole number
 1. Divide the whole-number part of the dividend by the divisor.
 2. Write the decimal point to the right of the quotient, before bringing down the first digit of the decimal part to carry on dividing.

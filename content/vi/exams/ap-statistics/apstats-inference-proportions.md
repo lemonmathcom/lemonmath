@@ -72,6 +72,9 @@ Một công ty xe buýt khẳng định $90\%$ chuyến xe đến đúng giờ. 
 *Thực hiện:* $\hat p=\dfrac{170}{200}=0{,}85$, độ lệch chuẩn khi $H_0$ đúng là $\sqrt{\dfrac{0{,}9(0{,}1)}{200}}\approx0{,}02121$, nên $z=\dfrac{0{,}85-0{,}9}{0{,}02121}\approx-2{,}357$ và giá trị P là $P(Z<-2{,}357)\approx0{,}0092$.
 
 *Kết luận:* vì $0{,}0092<0{,}05$ nên ta bác bỏ $H_0$. Có bằng chứng thuyết phục rằng dưới $90\%$ số chuyến xe của công ty đến đúng giờ.
+
+![Kiểm định một tỉ lệ: tô vùng p-value. H₀: p = 0,90; Hₐ: p < 0,90. Mẫu có 170/200 chuyến đúng giờ.](/assets/img/lemonmath80/vi/LM-075-exams-apstats-inference-proportions.svg)
+
 :::
 
 ## Hai tỉ lệ

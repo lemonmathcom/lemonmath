@@ -59,6 +59,9 @@ $6$ is made of $2$ and $\square$. Find the missing number.
 So $6$ is made of $2$ and $4$.
 
 **Check.** $6$ is made of $4$ and $2$ (swapped). Correct.
+
+![6 is 2 and how many more? One whole is split into two parts.](/assets/img/lemonmath80/en/LM-002-g1-number-bonds.svg)
+
 :::
 
 You may already know one way to split a number. Then just swap the two parts.

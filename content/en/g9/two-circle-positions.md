@@ -18,6 +18,8 @@ Two phone masts $O$ and $O'$ are $7$ km apart and cover radii of $5$ km and $3$ 
 
 Take $(O, R)$ and $(O', r)$ with $R\geq r$, and $d=OO'$. Picture the small circle sitting inside the large one at first, and slowly pull it out. They touch from inside when $d=R-r$, then intersect, touch from outside when $d=R+r$, and finally move apart. Each time the number of common points changes, the distance between the centres has a special value, and that is what we want to record.
 
+![Relative positions of two circles. d is the distance between centres; in the first five cases R > r > 0.](/assets/img/lemonmath80/en/LM-043-g9-two-circle-positions.svg)
+
 :::theorem Relative position of $(O, R)$ and $(O', r)$, $R\geq r$, $d=OO'$
 - **Intersect** ($2$ common points): $R-r<d<R+r$.
 - **Touch externally** ($1$ common point): $d=R+r$.

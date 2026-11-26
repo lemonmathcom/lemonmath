@@ -49,6 +49,9 @@ b) You pick a red marble.
 a) You pick a yellow marble every time, so this event is **certain**.
 
 b) There is no red marble in the box, so this event is **impossible**.
+
+![A box containing only 8 yellow balls. Choose one ball at random from this box.](/assets/img/lemonmath80/en/LM-007-g2-certain-possible-impossible.svg)
+
 :::
 
 Now look at number cards.

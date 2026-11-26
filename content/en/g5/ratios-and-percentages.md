@@ -158,6 +158,9 @@ $$7\times1\,000\,000=7\,000\,000\ \text{(cm)}.$$
 Change to kilometres: $7\,000\,000\div100\,000=70$ km.
 
 So the real road is $70$ km long.
+
+![Map scale: 1 : 1 000 000. How many real kilometres does 7 cm on the map represent?](/assets/img/lemonmath80/en/LM-026-g5-ratios-and-percentages.svg)
+
 :::
 
 :::example Distance on a map and the scale of a map

@@ -152,6 +152,9 @@ $$\dfrac{3}{4}:\dfrac{1}{8}=\dfrac{3}{4}\times\dfrac{8}{1}=\dfrac{24}{4}=6\ \tex
 **Đáp số:** $6$ cốc.
 
 **Nhìn lại.** Thử lại bằng phép nhân: $6\times\dfrac{1}{8}=\dfrac{6}{8}=\dfrac{3}{4}$ (lít), đúng bằng số nước trong can. Nếu mỗi cốc đựng $\dfrac{1}{4}$ lít thì rót được bao nhiêu cốc?
+
+![Chia phân số: rót nước vào cốc. Có 3/4 lít nước; mỗi cốc đựng 1/8 lít.](/assets/img/lemonmath80/vi/LM-020-g4-multiplying-fractions.svg)
+
 :::
 
 :::warning Những lỗi em hay gặp

@@ -62,6 +62,9 @@ $10$ runners take part in a $100$ m final. How many results are possible for fir
 $$P(10, 3)=10\cdot9\cdot8=720.$$
 
 So there are $720$ possible results. In the same way, the club can elect a president, a vice-president and a treasurer in $P(6, 3)=6\cdot5\cdot4=120$ ways.
+
+![Does the order matter? For the same people A, B, C, swapping prize places changes the outcome.](/assets/img/lemonmath80/en/LM-052-g10-permutations-combinations.svg)
+
 :::
 
 ## Combinations

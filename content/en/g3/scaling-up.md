@@ -25,6 +25,8 @@ Add the $3$ groups: $4+4+4=12$. Adding equal numbers is done by multiplication:
 $$4\times 3=12.$$
 So Nam has $12$ marbles.
 
+![Scaling up and scaling down. Equal parts help us see multiplication and division.](/assets/img/lemonmath80/en/LM-013-g3-scaling-up.svg)
+
 :::theorem Making a number several times larger
 To make a number $n$ times larger, multiply that number by $n$.
 :::

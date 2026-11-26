@@ -25,6 +25,8 @@ Em cộng $3$ nhóm đó: $4+4+4=12$. Cộng các số bằng nhau thì làm ph�
 $$4\times 3=12.$$
 Vậy Nam có $12$ viên bi.
 
+![Gấp lên và giảm đi một số lần. Một phần bằng nhau giúp ta nhìn thấy phép nhân và phép chia.](/assets/img/lemonmath80/vi/LM-013-g3-scaling-up.svg)
+
 :::theorem Gấp một số lên một số lần
 Muốn gấp một số lên $n$ lần, ta lấy số đó nhân với $n$.
 :::

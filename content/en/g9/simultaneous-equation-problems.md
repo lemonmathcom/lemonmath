@@ -81,6 +81,9 @@ A motor boat travels $48$ km downstream in $2$ hours and $48$ km upstream in $3$
 $$\begin{cases} x+y=24\\ x-y=16 \end{cases}\Rightarrow 2x=40,\ x=20,\ y=4.$$
 
 *Look back.* $x=20>y=4>0$, so the conditions hold. The boat travels at $20$ km/h in still water and the current flows at $4$ km/h.
+
+![A boat travelling downstream and upstream. Both trips are 48 km: 2 hours downstream, 3 hours upstream.](/assets/img/lemonmath80/en/LM-046-g9-simultaneous-equation-problems.svg)
+
 :::
 
 ## Percentage problems

@@ -122,6 +122,9 @@ $$d(AA',BD)=d(AA',(BDD'B'))=d(A,(BDD'B')).$$
 Gọi $O$ là tâm của đáy $ABCD$. Ta có $AO\perp BD$ và $AO\perp BB'$ (vì $BB'\perp(ABCD)$). Hai đường thẳng $BD$, $BB'$ cắt nhau trong $(BDD'B')$ nên $AO\perp(BDD'B')$. Vậy $d(A,(BDD'B'))=AO=\dfrac{a\sqrt2}{2}$.
 
 Vậy $d(AA',BD)=\dfrac{a\sqrt2}{2}$.
+
+![Khoảng cách giữa AA′ và BD. O là tâm đáy ABCD; AO là đoạn vuông góc chung.](/assets/img/lemonmath80/vi/LM-058-g11-distances-space.svg)
+
 :::
 
 Giờ ta quay lại đường ống và sợi cáp ở đầu bài, đi đủ bốn bước.

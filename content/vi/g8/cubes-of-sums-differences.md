@@ -24,6 +24,8 @@ $$(a+b)^3=(a+b)^2(a+b)=(a^2+2ab+b^2)(a+b).$$
 Nhân từng hạng tử:
 $$\begin{aligned} (a^2+2ab+b^2)(a+b)&=a^3+a^2b+2a^2b+2ab^2+ab^2+b^3\\ &=a^3+3a^2b+3ab^2+b^3. \end{aligned}$$
 
+![Lập phương của một tổng qua thể tích. Tách khối cạnh a + b thành 8 khối nhỏ; a, b > 0.](/assets/img/lemonmath80/vi/LM-039-g8-cubes-of-sums-differences.svg)
+
 :::theorem Lập phương của một tổng
 Với hai số (hoặc hai biểu thức) $a$ và $b$ bất kì,
 $$(a+b)^3=a^3+3a^2b+3ab^2+b^3.$$

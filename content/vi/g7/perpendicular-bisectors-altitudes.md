@@ -146,6 +146,9 @@ Cho tam giác $ABC$ vuông tại $A$. Tìm trực tâm của tam giác $ABC$.
 Hai đường cao $BA$ và $CA$ cắt nhau tại $A$. Đường cao thứ ba kẻ từ $A$ cũng đi qua $A$ vì nó xuất phát từ $A$, nên ba đường cao đồng quy tại $A$.
 
 Vậy trực tâm của tam giác vuông $ABC$ là đỉnh $A$.
+
+![Trực tâm của tam giác vuông. Hai cạnh góc vuông cũng chính là hai đường cao.](/assets/img/lemonmath80/vi/LM-036-g7-perpendicular-bisectors-altitudes.svg)
+
 :::
 
 Định lí đồng quy cho ta một cách lập luận gọn.

@@ -164,6 +164,9 @@ Từ điểm $C$ trên bờ, $CA=120$ m, $CB=95$ m và $\widehat{ACB}=70^\circ$.
 $$AB^2=120^2+95^2-2\cdot120\cdot95\cos70^\circ=23425-22800\cos70^\circ\approx15627.$$
 
 Vậy $AB\approx125$ m.
+
+![Đo khoảng cách qua ao bằng định lí côsin. CA = 120 m, CB = 95 m, góc ACB = 70°.](/assets/img/lemonmath80/vi/LM-049-g10-triangle-relations.svg)
+
 :::
 
 :::warning Những lỗi thường gặp

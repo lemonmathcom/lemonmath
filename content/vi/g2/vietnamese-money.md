@@ -58,6 +58,9 @@ Bây giờ em đổi tiền.
 Một tờ $10\,000$ đồng đổi được mấy tờ $5\,000$ đồng?
 
 **Lời giải.** Ta có $5\,000+5\,000=10\,000$, nên một tờ $10\,000$ đồng đổi được 2 tờ $5\,000$ đồng.
+
+![Đổi tiền: giá trị không đổi. Một tờ 10 000 đồng đổi được hai tờ 5 000 đồng.](/assets/img/lemonmath80/vi/LM-010-g2-vietnamese-money.svg)
+
 :::
 
 Em so sánh hai số tiền.

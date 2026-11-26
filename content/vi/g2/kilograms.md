@@ -62,6 +62,8 @@ Vậy a) $15$ kg; b) $8$ kg.
 
 Nước, sữa, dầu ăn là những chất lỏng. Để biết một chai hay một can đựng được bao nhiêu chất lỏng, em dùng **lít**.
 
+![Đong lượng nước bằng lít. Lít đo lượng chất lỏng, không đo khối lượng.](/assets/img/lemonmath80/vi/LM-008-g2-kilograms.svg)
+
 :::definition Lít
 **Lít** là đơn vị dùng để đo lượng chất lỏng (nước, sữa, dầu ăn, …). Lít viết tắt là **l**.
 :::

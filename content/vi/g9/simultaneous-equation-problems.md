@@ -81,6 +81,9 @@ Một ca nô đi xuôi dòng $48$ km mất $2$ giờ, đi ngược dòng $48$ km
 $$\begin{cases} x+y=24\\ x-y=16 \end{cases}\Rightarrow 2x=40,\ x=20,\ y=4.$$
 
 *Nhìn lại.* $x=20>y=4>0$, thoả mãn điều kiện. Vậy ca nô đi $20$ km/h khi nước yên lặng, dòng nước chảy $4$ km/h.
+
+![Ca nô xuôi dòng và ngược dòng. Cùng đi 48 km: xuôi mất 2 giờ, ngược mất 3 giờ.](/assets/img/lemonmath80/vi/LM-046-g9-simultaneous-equation-problems.svg)
+
 :::
 
 ## Bài toán về phần trăm

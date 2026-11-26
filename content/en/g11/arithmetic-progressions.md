@@ -99,6 +99,9 @@ $$S_{25}=\dfrac{25\cdot(20+68)}{2}=\dfrac{25\cdot88}{2}=1100.$$
 So the cinema has $1100$ seats.
 
 **Look back.** Using the second form: $S_{25}=\dfrac{25\left[2\cdot20+24\cdot2\right]}{2}=\dfrac{25\cdot88}{2}=1100$, the same result. The average number of seats per row is $\dfrac{1100}{25}=44$, which is exactly the number of seats in the middle row (row $13$: $20+12\cdot2=44$) and also the mean of the first and last rows: $\dfrac{20+68}{2}=44$. This is true for every arithmetic progression with an odd number of terms.
+
+![Theatre seats form an arithmetic sequence. The first row has 20 seats; add 2 seats per row; there are 25 rows.](/assets/img/lemonmath80/en/LM-056-g11-arithmetic-progressions.svg)
+
 :::
 
 Next, an example using the property of three consecutive terms.

@@ -340,7 +340,7 @@ const urls = []; // for the sitemap: {dir, alt:{en,vi}, lastmod}
 function pageActions(lang, d, o) {
   const T = UI[lang]; o = o || {};
   return '<p class="ws-link">' + (o.before || '') +
-    '<button type="button" class="btn btn-outline print-lesson" onclick="window.print()">' + (o.before ? '📄 ' : '🖨 ') + esc(o.lesson ? T.printLesson : T.printPage) + '</button> ' +
+    '<button type="button" class="btn btn-outline print-lesson" onclick="window.lmPrint?lmPrint():print()">' + (o.before ? '📄 ' : '🖨 ') + esc(o.lesson ? T.printLesson : T.printPage) + '</button> ' +
     '<button type="button" class="btn btn-outline share-lesson" data-copied="' + esc(T.copied) + '">🔗 ' + esc(T.share) + '</button>' +
     (o.why ? ' <a class="ws-why" href="' + relDir(d, paperDir(lang)) + '">' + esc(T.paperWhy) + '</a>' : '') + '</p>\n';
 }
@@ -433,7 +433,7 @@ function shell(o) {
     '  <main id="main" class="main" tabindex="-1">\n    <div class="page' + (o.wide ? ' wide' : '') + '">\n' + o.body + '\n    </div>\n  </main>\n</div>\n' +
     spreadHtml(lang, canonical, o.title) +
     '<footer class="footer">\n  ' + mascot({ cls: 'foot-mark' }) + '\n  <p>© ' + YEAR + ' ' + esc(site.name) + ' · ' + esc(T.footer) + '</p>\n' +
-    '  <nav aria-label="' + esc(T.aboutNav) + '"><a href="' + relDir(d, aboutDir(lang)) + '">' + esc(T.about) + '</a> · <a href="' + relDir(d, contactDir(lang)) + '">' + esc(T.contact) + '</a> · <a href="' + relDir(d, privacyDir(lang)) + '">' + esc(T.privacy) + '</a> · <a href="' + relDir(d, formulasDir(lang)) + '">' + esc(T.fcTitle) + '</a> · <a href="https://github.com/lemonmathcom/lemonmath/issues">' + esc(T.report) + '</a> · <button type="button" class="foot-print" onclick="window.print()">🖨 ' + esc(T.printPage) + '</button></nav>\n</footer>\n' +
+    '  <nav aria-label="' + esc(T.aboutNav) + '"><a href="' + relDir(d, aboutDir(lang)) + '">' + esc(T.about) + '</a> · <a href="' + relDir(d, contactDir(lang)) + '">' + esc(T.contact) + '</a> · <a href="' + relDir(d, privacyDir(lang)) + '">' + esc(T.privacy) + '</a> · <a href="' + relDir(d, formulasDir(lang)) + '">' + esc(T.fcTitle) + '</a> · <a href="https://github.com/lemonmathcom/lemonmath/issues">' + esc(T.report) + '</a> · <button type="button" class="foot-print" onclick="window.lmPrint?lmPrint():print()">🖨 ' + esc(T.printPage) + '</button></nav>\n</footer>\n' +
     '<script src="' + A('assets/site.js') + '" defer></script>\n' + (o.scripts || []).map((f) => '<script src="' + A(f) + '" defer></script>\n').join('') + ANALYTICS + '</body>\n</html>\n';
 }
 

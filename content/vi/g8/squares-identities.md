@@ -23,6 +23,8 @@ Ta viết $51=50+1$ và nhân hai đa thức như bài trước:
 $$(50+1)^2=(50+1)(50+1)=50\cdot50+50\cdot1+1\cdot50+1\cdot1=2500+100+1=2601.$$
 Hai tích chéo $50\cdot1$ và $1\cdot50$ bằng nhau, nên cộng lại là $2\cdot50\cdot1=100$. Với hai số bất kì $a$, $b$ cũng vậy.
 
+![Hằng đẳng thức qua diện tích. Các độ dài trong hình: a > b > 0.](/assets/img/lemonmath80/vi/LM-038-g8-squares-identities.svg)
+
 :::theorem Bình phương của một tổng
 Với hai số (hoặc hai biểu thức) $a$ và $b$ bất kì,
 $$(a+b)^2=a^2+2ab+b^2.$$

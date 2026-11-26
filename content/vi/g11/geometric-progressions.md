@@ -137,6 +137,9 @@ $$S_n=\dfrac{1\cdot\left(3^n-1\right)}{3-1}=\dfrac{3^n-1}{2}.$$
 Với $n=6$: $S_6=\dfrac{729-1}{2}=364$. Giải $\dfrac{3^n-1}{2}>1000$ ta cần $3^n>2001$. Vì $3^6=729<2001<2187=3^7$, nên $n=7$ và $S_7=\dfrac{2187-1}{2}=1093$.
 
 Vậy sau $6$ vòng có $364$ người đã chia sẻ, và sau $7$ vòng tổng số người lần đầu tiên vượt $1000$.
+
+![Chia sẻ bài đăng theo cấp số nhân. Mỗi người ở một vòng tạo ra 3 người mới ở vòng tiếp theo.](/assets/img/lemonmath80/vi/LM-057-g11-geometric-progressions.svg)
+
 :::
 
 **Kết nối.** Cấp số nhân là dãy số cho bằng hệ thức truy hồi $u_{n+1}=u_nq$ ở bài về dãy số, và nó có cả công thức tổng quát lẫn công thức tổng giống cấp số cộng. Nó là phiên bản rời rạc của hàm số mũ: $u_n=\dfrac{u_1}{q}\cdot q^n$ là một hàm số mũ của $n$. Khi $|q|<1$, các số hạng nhỏ dần về $0$ và tổng $S_n$ tiến đến một giá trị xác định; ý tưởng này dẫn đến giới hạn của dãy số ở các bài sau.

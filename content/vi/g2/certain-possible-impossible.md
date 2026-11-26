@@ -49,6 +49,9 @@ b) Lấy được viên bi đỏ.
 a) Lần nào cũng lấy được bi vàng, nên sự kiện này là **chắc chắn**.
 
 b) Hộp không có bi đỏ, nên sự kiện này là **không thể**.
+
+![Hộp chỉ có 8 viên bi vàng. Lấy ngẫu nhiên một viên bi từ chiếc hộp này.](/assets/img/lemonmath80/vi/LM-007-g2-certain-possible-impossible.svg)
+
 :::
 
 Bây giờ em xét các thẻ số.

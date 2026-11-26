@@ -37,6 +37,8 @@ Shape $B$ has $2$ rows with $4$ squares in each row:
 
 Shape $A$ has $6$ squares and shape $B$ has $8$ squares. Since $6<8$, shape $B$ has a greater area than shape $A$.
 
+![Understanding area by counting squares. All the unit squares have the same size.](/assets/img/lemonmath80/en/LM-011-g3-area-square-centimetres.svg)
+
 :::theorem Area
 - The area of a shape is the part of a flat surface that the shape covers.
 - To compare the areas of two shapes, count the equal squares each is made of.

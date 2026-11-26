@@ -52,6 +52,9 @@ C. $96-32\pi$
 D. $96-4\pi$
 
 **Solution.** The rectangle has area $12\cdot8=96$. The pond is half a circle of radius $4$: $\dfrac12\pi\cdot4^2=8\pi$. The remaining area is $96-8\pi$: answer **B**. Option A uses the whole circle; option C uses the diameter as the radius.
+
+![A garden with a semicircular pond. A 12 m by 8 m rectangle; the pond's diameter is 8 m.](/assets/img/lemonmath80/en/LM-069-exams-sat-area-volume-lines-angles.svg)
+
 :::
 
 ## Volume and surface area

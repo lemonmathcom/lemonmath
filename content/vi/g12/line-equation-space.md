@@ -177,6 +177,9 @@ $$\overrightarrow{MH}\cdot\vec{u}=(1+t)+2(-1+2t)+2(2t-4)=9t-9=0\iff t=1.$$
 Vậy $H(2; 1; 2)$, $\overrightarrow{MH}=(2; 1; -2)$ và $MH=\sqrt{4+1+4}=3$. Sợi dây dài $3$ m.
 
 *Nhìn lại.* Chỉ cần một điều kiện vuông góc là tìm được $t$. Độ dài $MH$ chính là khoảng cách từ $M$ đến đường thẳng $d$.
+
+![Đoạn dây ngắn nhất tới một ống nước. M(0; 0; 4); ống nằm trên d: (x; y; z) = (1 + t; −1 + 2t; 2t).](/assets/img/lemonmath80/vi/LM-068-g12-line-equation-space.svg)
+
 :::
 
 :::warning Những sai lầm thường gặp

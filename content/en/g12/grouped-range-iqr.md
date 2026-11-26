@@ -92,6 +92,9 @@ Hence $\Delta_Q=\dfrac{55}{6}-\dfrac56=\dfrac{50}{6}\approx8.33$ minutes.
 | Class 12B | $50$ | $20.83$ | $29.17$ | $8.33$ |
 
 The two classes have the same range, but the interquartile range of 12B is only about half that of 12A. So the travel times of class 12B are more even.
+
+![Comparing the interquartile ranges of two classes. The quartiles are estimates calculated from grouped data.](/assets/img/lemonmath80/en/LM-066-g12-grouped-range-iqr.svg)
+
 :::
 
 Do not worry if $\frac n4$ is not a whole number: the formula is used in just the same way. The class width need not be $10$ either. The next example has both.

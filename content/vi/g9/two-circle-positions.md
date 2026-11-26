@@ -18,6 +18,8 @@ Hai trạm phát sóng $O$ và $O'$ cách nhau $7$ km, phủ sóng trong bán k�
 
 Cho $(O; R)$ và $(O'; r)$ với $R\geq r$, $d=OO'$. Bạn hãy hình dung đường tròn nhỏ lúc đầu nằm gọn trong đường tròn lớn, rồi ta kéo nó ra xa dần. Chúng chạm nhau từ bên trong khi $d=R-r$, rồi cắt nhau, rồi chạm nhau từ bên ngoài khi $d=R+r$, và cuối cùng rời xa nhau. Mỗi lần số điểm chung thay đổi đều gắn với một giá trị đặc biệt của khoảng cách giữa hai tâm, và đó là điều ta cần ghi lại.
 
+![Vị trí tương đối của hai đường tròn. Ký hiệu d là khoảng cách hai tâm; ở năm hình đầu R > r > 0.](/assets/img/lemonmath80/vi/LM-043-g9-two-circle-positions.svg)
+
 :::theorem Vị trí tương đối của $(O; R)$ và $(O'; r)$, $R\geq r$, $d=OO'$
 - **Cắt nhau** ($2$ điểm chung): $R-r<d<R+r$.
 - **Tiếp xúc ngoài** ($1$ điểm chung): $d=R+r$.

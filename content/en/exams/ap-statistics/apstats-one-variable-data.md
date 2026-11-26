@@ -63,6 +63,9 @@ D. Uniform
 **Solution.** The mean is well above the median. That happens when a few very large values, here a few high salaries, pull the mean upward while the median stays with the bulk of the data.
 
 So the distribution is most likely skewed right, answer **B**. For such data the median is the better measure of a typical salary.
+
+![Mean, median and distribution shape. Three typical sketches, not reconstructions of a particular dataset.](/assets/img/lemonmath80/en/LM-074-exams-apstats-one-variable-data.svg)
+
 :::
 
 ## Position: z-scores and percentiles

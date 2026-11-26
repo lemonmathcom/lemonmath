@@ -90,6 +90,9 @@ Tổng bằng $7$ xuất hiện $6$ lần (đường chéo phụ). Tổng $10$, 
 $$P(\text{tổng}=7)=\frac{6}{36}=\frac16,\qquad P(\text{tổng}\ge10)=\frac{6}{36}=\frac16.$$
 
 Vậy cả hai biến cố đều có xác suất $\dfrac16$.
+
+![Tổng số chấm không đồng khả năng. Mỗi ô là một cặp kết quả; hai bảng có cùng 36 ô.](/assets/img/lemonmath80/vi/LM-051-g10-events-classical-probability.svg)
+
 :::
 
 ## Dùng tổ hợp để đếm

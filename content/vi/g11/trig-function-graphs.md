@@ -137,6 +137,9 @@ Ta có $h(t+12)=3+2\sin\left(\dfrac{\pi t}{6}+2\pi\right)=h(t)$, và $12$ là s�
 Vậy mực nước cao nhất là $5$ m (lúc $3$ giờ và $15$ giờ), thấp nhất là $1$ m (lúc $9$ giờ và $21$ giờ), và cứ $12$ giờ thì lặp lại.
 
 **Nhìn lại.** Một tàu cần mực nước ít nhất $4$ m để vào cảng. Ta cần $h(t)\ge4$, tức $\sin\dfrac{\pi t}{6}\ge\dfrac12$. Trên đồ thị $\sin$, điều này xảy ra khi $\dfrac{\pi t}{6}$ thuộc $\left[\dfrac{\pi}{6}; \dfrac{5\pi}{6}\right]$ trong một chu kì, tức $t\in[1; 5]$. Vậy trong mỗi chu kì $12$ giờ, tàu chỉ vào được trong $4$ giờ (từ $1$ đến $5$ giờ rồi từ $13$ đến $17$ giờ). Kết quả hợp lí: $4$ m nằm giữa mực thấp nhất $1$ m và cao nhất $5$ m, nên khoảng thời gian không chiếm cả chu kì.
+
+![Mô hình thủy triều h(t) = 3 + 2 sin(πt/6). Đơn vị: t tính bằng giờ, h tính bằng mét.](/assets/img/lemonmath80/vi/LM-055-g11-trig-function-graphs.svg)
+
 :::
 
 Tiếp theo, ta xét tính chẵn lẻ và chu kì.

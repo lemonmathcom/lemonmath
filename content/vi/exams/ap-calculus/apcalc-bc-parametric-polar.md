@@ -96,6 +96,9 @@ C. $\dfrac{3\pi}{2}$
 D. $2\pi$
 
 **Lời giải.** $\dfrac12\displaystyle\int_0^{2\pi}\left(1+2\cos\theta+\cos^2\theta\right)d\theta=\dfrac12\left(2\pi+0+\pi\right)=\dfrac{3\pi}{2}$. Đáp án **C**. Phương án B quên hệ số $\dfrac12$.
+
+![Diện tích bên trong đường hình tim. Toạ độ cực: r = 1 + cosθ, một vòng 0 ≤ θ ≤ 2π.](/assets/img/lemonmath80/vi/LM-073-exams-apcalc-bc-parametric-polar.svg)
+
 :::
 
 :::warning Những cái bẫy thường gặp

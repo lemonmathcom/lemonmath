@@ -54,6 +54,9 @@ Giải $z^3=8i$, viết đáp số dưới dạng $a+bi$. [6 marks]
 **Lời giải.** $8i=8e^{i\pi/2}$, nên $z=2e^{i(\pi/6+2k\pi/3)}$ với $k=0,1,2$:
 
 $k=0$: $2e^{i\pi/6}=\sqrt3+i$. $k=1$: $2e^{i5\pi/6}=-\sqrt3+i$. $k=2$: $2e^{i3\pi/2}=-2i$.
+
+![Ba căn bậc ba của 8i trên mặt phẳng Argand. Các nghiệm có môđun 2 và cách nhau một góc 120°.](/assets/img/lemonmath80/vi/LM-076-exams-ibaa-hl-complex-proof.svg)
+
 :::
 
 :::example Phương trình bậc ba có nghiệm phức

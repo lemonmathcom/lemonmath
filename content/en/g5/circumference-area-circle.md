@@ -86,6 +86,8 @@ So a) $37.68$ cm; b) $31.4$ m.
 
 Now the area; remember to change the diameter into the radius.
 
+![Why is the area of a circle πr²? Cut into sectors and arrange them alternately.](/assets/img/lemonmath80/en/LM-027-g5-circumference-area-circle.svg)
+
 :::example Finding the area
 a) A circle with radius $5$ cm. b) A circle with diameter $8$ dm.
 

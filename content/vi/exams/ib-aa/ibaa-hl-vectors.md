@@ -44,6 +44,9 @@ $L_1:\boldsymbol r=\begin{pmatrix}1\\0\\2\end{pmatrix}+\lambda\begin{pmatrix}1\\
 **Lời giải.** Hai véc-tơ chỉ phương không cùng phương, nên hai đường không song song. Cho các thành phần bằng nhau:
 $x$: $1+\lambda=2$, nên $\lambda=1$. $y$: $\lambda=3+\mu$, nên $\mu=-2$. $z$: $2=1+\mu$, nên $\mu=1$.
 Hai giá trị của $\mu$ mâu thuẫn, nên không có điểm chung. Không song song và không cắt nhau: hai đường thẳng chéo nhau.
+
+![Hai đường thẳng chéo nhau trong không gian. Giao nhau trên hình chiếu Oxy chưa đủ để có điểm chung trong không gian.](/assets/img/lemonmath80/vi/LM-077-exams-ibaa-hl-vectors.svg)
+
 :::
 
 ## Mặt phẳng

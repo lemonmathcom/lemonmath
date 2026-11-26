@@ -55,6 +55,9 @@ Let's try one where the ones are only a little too small.
 **Solution.** Ones: $2$ is too small to take away $5$, so borrow $1$ ten to make $12$. Work out $12-5=7$. Tens: $3-1=2$:
 $$\begin{array}{r} 32\\ -\ \ 5\\ \hline 27 \end{array}$$
 So $32-5=27$.
+
+![Regrouping a ten to work out 32 − 5. 32 = 3 tens + 2 ones = 2 tens + 12 ones.](/assets/img/lemonmath80/en/LM-005-g2-regroup-subtract-1-digit.svg)
+
 :::
 
 This one is done in exactly the same way, with different numbers. Before you read on, ask yourself: are there enough ones to take away?

@@ -131,6 +131,9 @@ How many books were borrowed on Tuesday? How many books were borrowed in the thr
 The number of books borrowed in the three days is:
 $$6+8+4=18\ \text{(books)}.$$
 **Answer:** $8$ books on Tuesday; $18$ books in the three days.
+
+![A pictogram of books borrowed. Read the key before counting the books.](/assets/img/lemonmath80/en/LM-006-g2-collecting-sorting-tallying.svg)
+
 :::
 
 The next problem is a little harder, so we use four steps: understand, plan, solve, look back.

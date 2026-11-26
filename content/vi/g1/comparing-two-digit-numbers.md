@@ -41,6 +41,9 @@ Ta trả lời câu hỏi ở đầu bài trước, về số bi của Lan và N
 **Lời giải.** Hàng chục: $3$ và $4$. Vì $4>3$ nên $42>35$.
 
 Vậy $35<42$.
+
+![So sánh 35 và 42. So sánh hàng chục trước, rồi mới đến hàng đơn vị.](/assets/img/lemonmath80/vi/LM-001-g1-comparing-two-digit-numbers.svg)
+
 :::
 
 Nếu hai số có hàng chục bằng nhau thì sao? Lúc đó so chục chưa cho biết số nào lớn hơn, nên em phải so tiếp hàng đơn vị.

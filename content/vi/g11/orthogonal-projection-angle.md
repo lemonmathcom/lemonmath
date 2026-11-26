@@ -132,6 +132,9 @@ $$\cos\widehat{SAH}=\frac{AH}{SA}=\frac{1{,}5}{4}=0{,}375\Rightarrow\widehat{SAH
 Vậy thang nghiêng khoảng $68{,}0^\circ$ so với mặt đất.
 
 *Nhìn lại.* Kết quả có hợp lí không? Chân thang cách tường chưa bằng nửa chiều dài thang nên thang dựng khá dốc, góc lớn hơn $60^\circ$ là hợp lí (nếu chân cách tường đúng $2$ m, tức nửa chiều dài thì $\cos=0{,}5$ và góc $60^\circ$). Ta cũng kiểm tra chiều cao đầu thang: $SH=\sqrt{16-2{,}25}=\sqrt{13{,}75}\approx3{,}7$ m, và $\sin\widehat{SAH}=\dfrac{3{,}7}{4}\approx0{,}93$, khớp với góc $68^\circ$.
+
+![Góc giữa chiếc thang và mặt đất. Thang dài 4 m; chân thang cách tường 1,5 m.](/assets/img/lemonmath80/vi/LM-059-g11-orthogonal-projection-angle.svg)
+
 :::
 
 :::warning Những sai lầm thường gặp

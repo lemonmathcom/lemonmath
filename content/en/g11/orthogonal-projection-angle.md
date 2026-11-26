@@ -132,6 +132,9 @@ $$\cos\angle SAH=\frac{AH}{SA}=\frac{1.5}{4}=0.375\Rightarrow\angle SAH\approx68
 So the ladder leans at about $68.0^\circ$ to the ground.
 
 *Look back.* Is the result reasonable? The foot is less than half the ladder's length from the wall, so the ladder is fairly steep and an angle above $60^\circ$ makes sense (if the foot were exactly $2$ m away, half the length, then $\cos=0.5$ and the angle would be $60^\circ$). We can also check the height of the top: $SH=\sqrt{16-2.25}=\sqrt{13.75}\approx3.7$ m, and $\sin\angle SAH=\dfrac{3.7}{4}\approx0.93$, which matches an angle of $68^\circ$.
+
+![The angle between a ladder and the ground. The ladder is 4 m long; its foot is 1.5 m from the wall.](/assets/img/lemonmath80/en/LM-059-g11-orthogonal-projection-angle.svg)
+
 :::
 
 :::warning Common mistakes

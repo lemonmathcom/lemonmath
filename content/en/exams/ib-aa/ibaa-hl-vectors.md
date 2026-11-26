@@ -44,6 +44,9 @@ $L_1:\boldsymbol r=\begin{pmatrix}1\\0\\2\end{pmatrix}+\lambda\begin{pmatrix}1\\
 **Solution.** The directions are not multiples of each other, so the lines are not parallel. Equate components:
 $x$: $1+\lambda=2$, so $\lambda=1$. $y$: $\lambda=3+\mu$, so $\mu=-2$. $z$: $2=1+\mu$, so $\mu=1$.
 The values of $\mu$ disagree, so there is no common point. Not parallel and not intersecting: the lines are skew.
+
+![Skew lines in three dimensions. An intersection in the xy-projection need not be an intersection in space.](/assets/img/lemonmath80/en/LM-077-exams-ibaa-hl-vectors.svg)
+
 :::
 
 ## Planes

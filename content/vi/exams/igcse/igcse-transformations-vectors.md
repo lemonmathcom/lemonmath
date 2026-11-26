@@ -66,6 +66,9 @@ Một tam giác có các đỉnh $(2;\ 2)$, $(4;\ 2)$ và $(2;\ 6)$. Thực hi�
 Tam giác ban đầu vuông với hai cạnh góc vuông $2$ và $4$, diện tích $4$; ảnh có hai cạnh góc vuông $1$ và $2$, diện tích $1$. Diện tích đã được nhân với $\left(\tfrac12\right)^2=\tfrac14$.
 
 Vậy ảnh là $(1;\ 1)$, $(2;\ 1)$, $(1;\ 3)$, diện tích bằng một phần tư ban đầu.
+
+![Vị tự tâm O với tỉ số 1/2. Mỗi tọa độ được nhân với 1/2; diện tích nhân với (1/2)².](/assets/img/lemonmath80/vi/LM-080-exams-igcse-transformations-vectors.svg)
+
 :::
 
 ## Véc-tơ cột

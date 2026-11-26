@@ -142,6 +142,9 @@ $$S_{xq}=8\cdot2{,}5=20\ (\text{m}^2),\qquad V=\frac13\cdot4^2\cdot1{,}5=8\ (\te
 Vậy cần $20$ m² vải và lều chứa được $8$ m³ không khí.
 
 *Nhìn lại.* Có cách khác không? Mỗi mặt bên có diện tích $\dfrac12\cdot4\cdot2{,}5=5$ m², bốn mặt là $20$ m², cùng kết quả. Kết quả có hợp lí không? Lều cao $1{,}5$ m và đáy $4\times4$ m, nếu là hình hộp thì chứa $4^2\cdot1{,}5=24$ m³; hình chóp chỉ chứa $\dfrac13$ của số đó, tức $8$ m³. Nếu hao hụt $10\%$ vải khi cắt và nối thì cần $20\cdot1{,}1=22$ m² vải.
+
+![Chiếc lều: chiều cao khác trung đoạn. Đáy vuông cạnh 4 m, chiều cao 1,5 m; cần che bốn mặt bên.](/assets/img/lemonmath80/vi/LM-042-g8-regular-triangular-pyramids.svg)
+
 :::
 
 Khi đề cho cạnh bên thay vì chiều cao, ta tìm trung đoạn trước.

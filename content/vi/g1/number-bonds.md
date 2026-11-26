@@ -59,6 +59,9 @@ $6$ gồm $2$ và $\square$. Tìm số còn thiếu.
 Vậy $6$ gồm $2$ và $4$.
 
 **Kiểm tra.** $6$ gồm $4$ và $2$ (đổi chỗ). Đúng.
+
+![6 gồm 2 và mấy? Một nhóm được tách thành hai phần.](/assets/img/lemonmath80/vi/LM-002-g1-number-bonds.svg)
+
 :::
 
 Đôi khi em đã biết sẵn một cách tách, thì không cần đếm lại. Em chỉ việc đổi chỗ hai phần. Ta xem nó dùng thế nào.

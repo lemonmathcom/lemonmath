@@ -96,6 +96,9 @@ C. $\dfrac{3\pi}{2}$
 D. $2\pi$
 
 **Solution.** $\dfrac12\displaystyle\int_0^{2\pi}\left(1+2\cos\theta+\cos^2\theta\right)d\theta=\dfrac12\left(2\pi+0+\pi\right)=\dfrac{3\pi}{2}$. Answer **C**. Option B forgets the $\dfrac12$.
+
+![Area inside a cardioid. Polar coordinates: r = 1 + cosθ, one turn 0 ≤ θ ≤ 2π.](/assets/img/lemonmath80/en/LM-073-exams-apcalc-bc-parametric-polar.svg)
+
 :::
 
 :::warning Common traps

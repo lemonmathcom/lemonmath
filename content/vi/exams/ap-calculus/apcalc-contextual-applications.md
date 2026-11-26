@@ -63,6 +63,9 @@ Người ta bơm khí vào một quả bóng hình cầu với tốc độ $100$
 Một chiếc thang dài $5$ mét dựa vào tường. Chân thang trượt ra xa tường với tốc độ $0{,}6$ mét mỗi giây. Đầu thang trượt xuống nhanh đến mức nào khi chân thang cách tường $3$ mét?
 
 **Lời giải.** Gọi $x$ là khoảng cách từ tường đến chân thang, $y$ là độ cao đầu thang: $x^2+y^2=25$, nên $2x\dfrac{dx}{dt}+2y\dfrac{dy}{dt}=0$. Khi $x=3$ thì $y=4$: $3(0{,}6)+4\dfrac{dy}{dt}=0$, nên $\dfrac{dy}{dt}=-0{,}45$. Đầu thang trượt xuống với tốc độ $0{,}45$ mét mỗi giây. Dấu âm nghĩa là $y$ đang giảm; hãy nói rõ điều đó bằng lời.
+
+![Related rates: chiếc thang đang trượt. Thang dài 5 m; chân trượt ra 0,6 m/s. Xét lúc x = 3 m.](/assets/img/lemonmath80/vi/LM-071-exams-apcalc-contextual-applications.svg)
+
 :::
 
 ## Xấp xỉ tuyến tính và quy tắc L'Hôpital

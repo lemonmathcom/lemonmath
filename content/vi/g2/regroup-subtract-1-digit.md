@@ -55,6 +55,9 @@ Ta thử với một phép trừ mà hàng đơn vị chỉ thiếu một chút.
 **Lời giải.** Hàng đơn vị: $2$ không trừ được $5$, mượn $1$ chục được $12$. Tính $12-5=7$. Hàng chục: $3-1=2$:
 $$\begin{array}{r} 32\\ -\ \ 5\\ \hline 27 \end{array}$$
 Vậy $32-5=27$.
+
+![Đổi 1 chục để tính 32 − 5. 32 = 3 chục + 2 đơn vị = 2 chục + 12 đơn vị.](/assets/img/lemonmath80/vi/LM-005-g2-regroup-subtract-1-digit.svg)
+
 :::
 
 Phép tính này làm giống hệt, chỉ khác các số. Em thử đoán trước xem hàng đơn vị có đủ để bớt không.
