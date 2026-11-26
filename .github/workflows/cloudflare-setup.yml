@@ -80,7 +80,14 @@ jobs:
             echo "== Bản ghi DNS"
             cf GET "/zones/$ZID/dns_records?per_page=100" | jq -r '.result[] | "\(.type)\t\(.name)\t\(.content[0:60])\t\(if .proxied then "proxied" else "DNS only" end)"' || echo "(token chưa có quyền DNS Read)"
           fi
-          echo "== workers.dev"; cf GET "/accounts/$CLOUDFLARE_ACCOUNT_ID/workers/subdomain" | jq -r '.result.subdomain + ".workers.dev"' || echo "(không đọc được)"
+          echo "== workers.dev"; SUB=$(cf GET "/accounts/$CLOUDFLARE_ACCOUNT_ID/workers/subdomain" | jq -r '.result.subdomain') || SUB=""
+          if [ -n "$SUB" ]; then
+            B="https://$SITE_WORKER.$SUB.workers.dev"; echo "$B"
+            for P in / /vi/ /vi/lop-10 /vi/lop-10/vectors/scalar-multiplication/ /pagefind/pagefind.js /sw.js /khong-co-trang-nay/; do
+              echo "  $(curl -s -o /dev/null -w '%{http_code} %{content_type} %{size_download}B' "$B$P")  $P"
+            done
+            curl -s "$B/vi/" | grep -o '<title>[^<]*</title>' | head -1
+          fi
           echo "== Tên miền gắn với Worker"; cf GET "/accounts/$CLOUDFLARE_ACCOUNT_ID/workers/domains" | jq -r '.result[] | "\(.hostname) -> \(.service)"' || echo "(không đọc được)"
           echo "== R2"; R=$(cf GET "/accounts/$CLOUDFLARE_ACCOUNT_ID/r2/buckets") && echo "$R" | jq -r '.result.buckets[]?.name' || { echo -n "chưa dùng được R2: "; echo "$R" | errors; }
 
