@@ -129,17 +129,38 @@ jobs:
           if [ "$CODE" != "200" ]; then echo "::error::https://$SITE_WORKER.$SUB.workers.dev/vi/ trả $CODE: chưa đổi tên miền."; exit 1; fi
           # www redirect worker
           (cd api && npx wrangler deploy --config ../site/www/wrangler.jsonc)
-          # remove the GitHub Pages records for lemonmath.com and www (only A/AAAA/CNAME on these two names)
+          # if anything below fails, put the GitHub Pages records back so the site never stays down
+          restore() {
+            echo "::warning::Có lỗi: trả lại bản ghi GitHub Pages để web không gián đoạn."
+            for IP in 185.199.108.153 185.199.109.153 185.199.110.153 185.199.111.153; do
+              cf POST "/zones/$ZID/dns_records" "{\"type\":\"A\",\"name\":\"$ZONE\",\"content\":\"$IP\",\"proxied\":false,\"ttl\":1}" > /dev/null || true
+            done
+            cf POST "/zones/$ZID/dns_records" "{\"type\":\"CNAME\",\"name\":\"www\",\"content\":\"lemonmathcom.github.io\",\"proxied\":false,\"ttl\":1}" > /dev/null || true
+            exit 1
+          }
+          # check first that the token may delete records (read them; a token without DNS Edit fails here, before any change)
+          cf GET "/zones/$ZID/dns_records?name=$ZONE&type=A" > /dev/null || { echo "::error::Token chưa có quyền DNS (Zone → DNS → Edit)."; exit 1; }
+          # remove the GitHub Pages records for lemonmath.com and www (only A/AAAA/CNAME on these two names; email records untouched)
           for NAME in "$ZONE" "www.$ZONE"; do
-            cf GET "/zones/$ZID/dns_records?name=$NAME&per_page=100" | jq -r '.result[] | select(.type=="A" or .type=="AAAA" or .type=="CNAME") | "\(.id) \(.type) \(.content)"' | while read -r ID TYPE CONTENT; do
-              echo "Xoá $TYPE $NAME -> $CONTENT"
-              cf DELETE "/zones/$ZID/dns_records/$ID" > /dev/null || { echo "::error::Không xoá được $TYPE $NAME (token cần quyền DNS Edit)."; exit 1; }
+            for REC in $(cf GET "/zones/$ZID/dns_records?name=$NAME&per_page=100" | jq -r '.result[] | select(.type=="A" or .type=="AAAA" or .type=="CNAME") | "\(.id)|\(.type)|\(.content)"'); do
+              ID=${REC%%|*}; echo "Xoá $NAME: ${REC#*|}"
+              cf DELETE "/zones/$ZID/dns_records/$ID" > /dev/null || restore
             done
           done
           # attach: Cloudflare creates the DNS records and the certificates itself
           for PAIR in "$ZONE:$SITE_WORKER" "www.$ZONE:$WWW_WORKER"; do
             H=${PAIR%%:*}; S=${PAIR##*:}
             OUT=$(cf PUT "/accounts/$CLOUDFLARE_ACCOUNT_ID/workers/domains" "{\"hostname\":\"$H\",\"service\":\"$S\",\"zone_id\":\"$ZID\",\"environment\":\"production\"}") \
-              && echo "Đã gắn $H -> $S" || { echo "::error::Không gắn được $H: $(echo "$OUT" | errors)"; exit 1; }
+              && echo "Đã gắn $H -> $S" || { echo "::error::Không gắn được $H: $(echo "$OUT" | errors)"; restore; }
+          done
+          # wait for the certificate and the site, asking Cloudflare's resolver directly (the runner's may still cache GitHub's IPs)
+          ip() { curl -s -H 'accept: application/dns-json' "https://1.1.1.1/dns-query?name=$1&type=A" | jq -r '[.Answer[]? | select(.type==1) | .data][0] // empty'; }
+          for i in $(seq 1 40); do
+            A1=$(ip "$ZONE"); A2=$(ip "www.$ZONE")
+            C=$( [ -n "$A1" ] && curl -s -o /dev/null -w '%{http_code} %header{server}' --resolve "$ZONE:443:$A1" "https://$ZONE/vi/" || echo "-")
+            W=$( [ -n "$A2" ] && curl -s -o /dev/null -w '%{http_code} -> %{redirect_url}' --resolve "www.$ZONE:443:$A2" "https://www.$ZONE/vi/" || echo "-")
+            echo "lần $i: $ZONE ($A1) $C · www ($A2) $W"
+            case "$C" in "200 cloudflare"*) break;; esac
+            sleep 15
           done
           echo "Xong. Kiểm tra: https://$ZONE/ và https://www.$ZONE/ (chứng chỉ có thể mất vài phút)."
