@@ -316,7 +316,7 @@
       active = -1;
       if (!q || !index) { list.hidden = true; return; }
       var words = q.split(/\s+/);
-      var hits = index.filter(function (r) { return words.every(function (w) { return r.k.indexOf(w) !== -1; }); }).slice(0, 8);
+      var hits = index.filter(function (r) { return words.every(function (w) { return r.k.indexOf(w) !== -1; }); }).slice(0, 6);
       if (!hits.length) {
         var none = d.createElement('li'); none.className = 'none';
         none.textContent = isVi ? 'Không tìm thấy kết quả' : 'Nothing found';
@@ -327,6 +327,72 @@
         a.href = prefix + r.u + '/'; a.textContent = r.t; s.textContent = r.s; a.appendChild(s); li.appendChild(a); list.appendChild(li);
       });
       list.hidden = false;
+      clearTimeout(textT);
+      if (q.length >= 3) textT = setTimeout(function () { inText(input.value.trim()); }, 250);
+    };
+    /* Full-text search (Pagefind, dist/pagefind/, 26/11/2026): "in lesson text" results under the title matches,
+       only while online; offline the title search above still works. Pagefind ignores accents but not đ, so for
+       Vietnamese every word typed with a plain "d" is also tried with "đ" ("dao ham" finds "đạo hàm"). */
+    var textT = 0, textSeq = 0, pf = null;
+    var pagefind = function () {
+      if (!pf) {
+        pf = new Function('u', 'return import(u)')('/pagefind/pagefind.js').then(function (m) {
+          return m.options({ excerptLength: 16 }).then(function () { return m.init(); }).then(function () { return m; });
+        });
+        pf.catch(function () { pf = null; }); // try again next time (the network may be back)
+      }
+      return pf;
+    };
+    var variants = function (q) {
+      var w = q.toLowerCase().split(/\s+/), out = [w.join(' ')];
+      if (!isVi) return out;
+      w.forEach(function (x, i) {
+        if (x.charAt(0) !== 'd' || out.length >= 8) return;
+        out = out.concat(out.map(function (v) { var p = v.split(' '); p[i] = 'đ' + p[i].slice(1); return p.join(' '); }));
+      });
+      return out.slice(0, 8);
+    };
+    var inText = function (raw) {
+      var seq = ++textSeq;
+      if (!raw || navigator.onLine === false) return;
+      pagefind().then(function (m) {
+        return Promise.all(variants(raw).map(function (v) { return m.search(v); }));
+      }).then(function (all) {
+        var best = {};
+        all.forEach(function (s) { (s && s.results || []).forEach(function (r) { if (!best[r.id] || best[r.id].score < r.score) best[r.id] = r; }); });
+        var top = Object.keys(best).map(function (k) { return best[k]; }).sort(function (a, b) { return b.score - a.score; }).slice(0, 20);
+        return Promise.all(top.map(function (r) { return r.data(); }));
+      }).then(function (pages) {
+        if (seq !== textSeq || list.hidden) return;
+        var shown = {}, want = fold(raw).split(/\s+/);
+        var plain = function (h) { return String(h || '').replace(/<[^>]*>/g, ''); };
+        $$('a', list).forEach(function (a) { shown[a.pathname.replace(/\/?$/, '/')] = 1; });
+        pages = pages.filter(function (p) {
+          var u = new URL(p.url, location.href).pathname.replace(/\/?$/, '/');
+          if (shown[u]) return false;
+          // the "đ" variants and the accent folding cast a wide net: keep a page only if every word typed is really there
+          var k = fold((p.meta && p.meta.title || '') + ' ' + plain(p.excerpt));
+          if (!want.every(function (w) { return k.indexOf(w) !== -1; })) return false;
+          shown[u] = 1; return true;
+        }).slice(0, 5);
+        if (!pages.length) return;
+        var none = $('.none', list); if (none) none.remove();
+        var head = d.createElement('li'); head.className = 'sec'; head.textContent = isVi ? 'Trong nội dung bài' : 'In lesson text'; list.appendChild(head);
+        pages.forEach(function (p) {
+          var li = d.createElement('li'), a = d.createElement('a'), s = d.createElement('small');
+          a.href = p.url; a.textContent = p.meta && p.meta.title || p.url;
+          // the excerpt is our own lesson text; keep only Pagefind's <mark> highlights
+          var ex = String(p.excerpt || '').replace(/<(?!\/?mark>)[^>]*>/g, '').replace(/([.,;:!?])<\/mark>/g, '</mark>$1').replace(/\s+([,.;:)])/g, '$1').replace(/\(\s*\)/g, '');
+          var cut = ex.indexOf('. '); // the excerpt often starts with the end of the title: drop that piece
+          if (cut > 0 && fold(a.textContent).indexOf(fold(plain(ex.slice(0, cut))).trim()) !== -1) ex = ex.slice(cut + 2);
+          s.innerHTML = ex;
+          // which grade and chapter, as in the title results (from search-index.json)
+          var key = new URL(p.url, location.href).pathname.replace(/^\//, '').replace(/\/$/, '');
+          var row = index && index.filter(function (r) { return r.u === key || 'vi/' + r.u === key; })[0];
+          if (row) { var c = d.createElement('span'); c.className = 'ctx'; c.textContent = row.s; s.insertBefore(c, s.firstChild); }
+          a.appendChild(s); li.appendChild(a); list.appendChild(li);
+        });
+      }).catch(function () {});
     };
     input.addEventListener('input', function () { load(show); });
     input.addEventListener('focus', function () { load(show); });

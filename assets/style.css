@@ -88,6 +88,9 @@ img { max-width: 100%; height: auto; }
 .results li a:hover, .results li a.active { background: var(--surface2); }
 .results small { display: block; color: var(--muted); font-size: .85rem; }
 .results .none { padding: 10px 12px; color: var(--muted); }
+.results .sec { padding: 10px 12px 2px; margin-top: 4px; border-top: 1px solid var(--line); color: var(--muted); font-size: .8rem; font-weight: 800; text-transform: uppercase; letter-spacing: .04em; }
+.results mark { background: var(--lemon); color: inherit; border-radius: 3px; padding: 0 1px; }
+.results .ctx { display: block; font-weight: 700; }
 
 /* ---------- layout ---------- */
 .layout { display: block; }

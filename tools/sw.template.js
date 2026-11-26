@@ -63,6 +63,7 @@ self.addEventListener('fetch', function (e) {
   if (req.method !== 'GET') return;
   var url = new URL(req.url);
   if (url.origin !== self.location.origin) return;
+  if (url.pathname.indexOf('/pagefind/') === 0) return; /* full-text search: online only, never kept (it would crowd out pictures and fonts) */
 
   if (req.mode === 'navigate') {
     e.respondWith(saved(req).then(function (hit) {

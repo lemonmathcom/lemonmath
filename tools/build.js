@@ -653,7 +653,7 @@ function lessonPage(lang, ls) {
     (prev ? '<a class="pager-prev" href="' + link(lessonDir(lang, prev)) + '"><small>← ' + esc(T.prev) + '</small><span>' + esc(prev.content[lang].meta.title) + '</span></a>' : '<span></span>') + '\n' +
     (next ? '<a class="pager-next" href="' + link(lessonDir(lang, next)) + '"><small>' + esc(T.next) + ' →</small><span>' + esc(next.content[lang].meta.title) + '</span></a>'
       : '<a class="pager-next" href="' + link(gradeDir(lang, g)) + '"><small>' + esc(T.end) + '</small><span>' + esc(T.backToGrade) + '</span></a>') + '\n</nav>';
-  const body = '<article class="lesson">\n<nav class="crumbs" aria-label="' + esc(T.breadcrumb) + '"><a href="' + link(homeDir(lang)) + '">' + esc(T.home) + '</a><span aria-hidden="true">›</span><a href="' + link(gradeDir(lang, g)) + '">' + esc(gName(lang, g)) + '</a><span aria-hidden="true">›</span><a href="' + link(chapterDir(lang, ch)) + '">' + esc(T.chapterN(ch.number) + ': ' + ch[lang]) + '</a></nav>\n' +
+  const body = '<article class="lesson" data-pagefind-body>\n<nav class="crumbs" aria-label="' + esc(T.breadcrumb) + '"><a href="' + link(homeDir(lang)) + '">' + esc(T.home) + '</a><span aria-hidden="true">›</span><a href="' + link(gradeDir(lang, g)) + '">' + esc(gName(lang, g)) + '</a><span aria-hidden="true">›</span><a href="' + link(chapterDir(lang, ch)) + '">' + esc(T.chapterN(ch.number) + ': ' + ch[lang]) + '</a></nav>\n' +
     '<h1>' + esc(meta.title) + '</h1>\n<p class="meta">' + metaLine + '</p>\n' + (meta.type === 'paper' ? paperHead(lang, meta) : '') +
     pageActions(lang, d, { lesson: true, why: true, before: ls.ws && ls.ws[lang] ? '<a class="btn btn-outline" href="' + WS_DIR[lang] + '/">🖨 ' + esc(isPaper ? WS_LABEL.paper[lang] : WS_LABEL[lang]) + '</a> ' : '' }) + toc + '\n' +
     '<div class="prose">\n' + resolveLinks(r.html, d, lang, C.rel) + '\n</div>\n' +
@@ -761,7 +761,10 @@ function writeBank(lang) {
     if (!out.items.length) return;
     const key = g.exam ? g.id : 'g' + g.n;
     fs.mkdirSync(path.join(OUT, dir, 'bank'), { recursive: true });
-    fs.writeFileSync(path.join(OUT, dir, 'bank', key + '.json'), JSON.stringify(out));
+    const json = JSON.stringify(out);
+    fs.writeFileSync(path.join(OUT, dir, 'bank', key + '.json'), json);
+    // a teacher's tool downloads the whole file of a grade: past 1 MB it is time to split it by chapter or serve it from D1 (stage 2)
+    if (lang === 'vi' && Buffer.byteLength(json) > 1048576) warn('ngân hàng câu hỏi ' + key + '.json nặng ' + (Buffer.byteLength(json) / 1048576).toFixed(1) + ' MB (trên 1 MB): nên chia theo chương hoặc đưa vào D1.');
     index.push({ id: key, name: out.name, n: out.items.length });
   });
   fs.mkdirSync(path.join(OUT, dir, 'bank'), { recursive: true });
@@ -1075,6 +1078,31 @@ function slimPages() {
     });
   });
 }
+/*
+ * Full-text search (26/11/2026): Pagefind indexes the text of every lesson (the <article data-pagefind-body>
+ * of lessonPage) into dist/pagefind/, split into small pieces so a search downloads only a few KB. One index per
+ * language (from <html lang>); accents are ignored (đ is handled in assets/site.js). The quick title search
+ * (search-index.json) stays: it is instant and works offline; site.js adds "in lesson text" results under it when
+ * the network is there. Formulas, buttons and page furniture are left out of the index.
+ */
+const SEARCH_SKIP = ['.katex', '.lm-m', '.crumbs', '.meta', '.ws-link', '.ws-why', '.toc', '.lesson-actions', '.off-box', '.btn', 'button', '.box-title', '.box-kind'];
+async function fullTextSearch() {
+  try {
+    const pagefind = await import('pagefind');
+    const { index, errors: e1 } = await pagefind.createIndex({ excludeSelectors: SEARCH_SKIP });
+    if (!index) throw new Error((e1 || []).join('; '));
+    const r = await index.addDirectory({ path: OUT });
+    if (r.errors && r.errors.length) throw new Error(r.errors.join('; '));
+    const w = await index.writeFiles({ outputPath: path.join(OUT, 'pagefind') });
+    if (w.errors && w.errors.length) throw new Error(w.errors.join('; '));
+    await pagefind.close();
+    const frag = path.join(OUT, 'pagefind', 'fragment');
+    console.log('Tìm kiếm toàn văn (Pagefind): ' + (fs.existsSync(frag) ? fs.readdirSync(frag).length : 0) + ' trang bài học được đưa vào chỉ mục.');
+  } catch (e) {
+    warn('không dựng được chỉ mục tìm kiếm toàn văn (Pagefind): ' + e.message + '. Ô tìm kiếm vẫn tìm theo tên bài.');
+  }
+}
+
 /* Size fuse: returns the size of the built site in MB. */
 function sizeFuse() {
   let bytes = 0;
@@ -1122,7 +1150,7 @@ function report() {
   }
 }
 
-function main() {
+async function main() {
   loadLessons();
   const about = {}, privacy = {}, contact = {};
   const paper = {}, parents = {}, week = {}, teach = {}, offline = {};
@@ -1163,6 +1191,7 @@ function main() {
 
   fs.writeFileSync(path.join(OUT, '404.html'), notFoundHtml());
   slimPages(); // before writePwa: offline packs measure and hash the pages as they will be served
+  await fullTextSearch();
   writePwa();
   writeSitemap();
   const sizeMb = sizeFuse();
@@ -1170,4 +1199,4 @@ function main() {
   console.log('Dựng xong: ' + lessons.length + ' bài × 2 ngôn ngữ, ' + grades.length + ' lớp, ' + exams.length + ' kì thi -> ' + path.relative(process.cwd(), OUT) + '/ (' + sizeMb.toFixed(0) + ' MB)');
 }
 
-main();
+main().catch((e) => { console.error('LỖI: ' + (e && e.stack || e)); process.exit(1); });
