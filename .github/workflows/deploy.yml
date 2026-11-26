@@ -44,6 +44,30 @@ jobs:
         with:
           path: dist
 
+      # Stage 2 of the hosting plan (26/11/2026): the same dist/ also goes to Cloudflare Workers as static files
+      # (site/wrangler.jsonc, wrangler pinned in api/package.json). Until lemonmath.com points to Cloudflare this copy
+      # only answers at lemonmath-site.<account>.workers.dev. A failure here never stops the GitHub Pages deploy.
+      - name: Cloudflare secrets
+        id: cf
+        env:
+          CF_TOKEN_RAW: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+          CF_ACCOUNT_RAW: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
+        run: |
+          T=$(printf %s "$CF_TOKEN_RAW" | tr -d "[:space:]\"'")
+          A=$(printf %s "$CF_ACCOUNT_RAW" | tr -d "[:space:]\"'")
+          if [ -z "$T" ] || [ -z "$A" ]; then echo "ok=false" >> "$GITHUB_OUTPUT"; exit 0; fi
+          echo "::add-mask::$T"
+          echo "CLOUDFLARE_API_TOKEN=$T" >> "$GITHUB_ENV"
+          echo "CLOUDFLARE_ACCOUNT_ID=$A" >> "$GITHUB_ENV"
+          echo "ok=true" >> "$GITHUB_OUTPUT"
+
+      - name: Deploy to Cloudflare Workers
+        if: steps.cf.outputs.ok == 'true'
+        continue-on-error: true
+        run: |
+          cd api && npm ci --silent
+          npx wrangler deploy --config ../site/wrangler.jsonc || { echo "::warning::Chưa đăng được bản web lên Cloudflare Workers (GitHub Pages vẫn đăng bình thường)."; exit 1; }
+
   deploy:
     needs: build
     runs-on: ubuntu-latest

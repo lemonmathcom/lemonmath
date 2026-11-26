@@ -1,0 +1,20 @@
+// Lemonmath website on Cloudflare Workers: static files only, no code (stage 2 of the hosting plan, 26/11/2026).
+// Deployed by .github/workflows/deploy.yml right after the build (same dist/ as GitHub Pages), with the wrangler
+// pinned in api/package.json. Limits on the free plan: 20,000 files per version, 25 MiB per file; requests to
+// static files are free and unlimited. tools/build.js stops before the file limit (see "hosting" in curriculum.json).
+// Address before the domain moves: https://lemonmath-site.<account>.workers.dev
+// The custom domains lemonmath.com / www.lemonmath.com are attached once the zone is active on Cloudflare
+// (.github/workflows/cloudflare-setup.yml), not here, so a deploy never touches DNS.
+{
+  "name": "lemonmath-site",
+  "compatibility_date": "2026-11-01",
+  "workers_dev": true,
+  "preview_urls": false,
+  "assets": {
+    "directory": "../dist",
+    // /vi/lop-10 -> /vi/lop-10/ and /vi/lop-10/index.html served for /vi/lop-10/, as on GitHub Pages
+    "html_handling": "auto-trailing-slash",
+    // a missing page gets 404.html with status 404, as on GitHub Pages
+    "not_found_handling": "404-page"
+  }
+}

@@ -1,0 +1,132 @@
+name: Cloudflare setup (stage 2)
+
+# Run by hand (Actions → "Cloudflare setup (stage 2)" → Run workflow) or by Claude with `gh workflow run`.
+# Steps, in order (26/11/2026, giao-viec/CLOUDFLARE.md):
+#   kiem-tra  read only: token, zone lemonmath.com (status, nameservers, DNS records), Workers, R2. Safe any time.
+#   r2        create the R2 bucket for downloadable documents and give it the address tai-lieu.lemonmath.com.
+#   ten-mien  serve lemonmath.com from the Worker "lemonmath-site" (the GitHub Pages A records and the www CNAME are
+#             replaced) and redirect www.lemonmath.com to it. Only when the zone is active on Cloudflare and the
+#             site at lemonmath-site.<account>.workers.dev has been checked. Email records (MX, SPF, DKIM, DMARC,
+#             send/rsend) are never touched.
+# Uses the secrets CLOUDFLARE_API_TOKEN and CLOUDFLARE_ACCOUNT_ID (same as api.yml). The token needs: Account →
+# Workers Scripts Edit, Workers R2 Storage Edit; Zone (lemonmath.com) → Zone Read, DNS Edit, Workers Routes Edit.
+
+on:
+  workflow_dispatch:
+    inputs:
+      buoc:
+        description: 'Bước: kiem-tra, r2 hoặc ten-mien'
+        required: true
+        default: kiem-tra
+        type: choice
+        options: [kiem-tra, r2, ten-mien]
+
+permissions:
+  contents: read
+
+concurrency:
+  group: cloudflare-setup
+  cancel-in-progress: false
+
+env:
+  ZONE: lemonmath.com
+  SITE_WORKER: lemonmath-site
+  WWW_WORKER: lemonmath-www
+  BUCKET: lemonmath-tailieu
+  DOCS_HOST: tai-lieu.lemonmath.com
+
+jobs:
+  setup:
+    runs-on: ubuntu-latest
+    env:
+      CF_TOKEN_RAW: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+      CF_ACCOUNT_RAW: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
+    steps:
+      - name: Secrets
+        run: |
+          T=$(printf %s "$CF_TOKEN_RAW" | tr -d "[:space:]\"'")
+          A=$(printf %s "$CF_ACCOUNT_RAW" | tr -d "[:space:]\"'")
+          if [ -z "$T" ] || [ -z "$A" ]; then echo "::error::Thiếu CLOUDFLARE_API_TOKEN hoặc CLOUDFLARE_ACCOUNT_ID."; exit 1; fi
+          echo "::add-mask::$T"
+          echo "CLOUDFLARE_API_TOKEN=$T" >> "$GITHUB_ENV"
+          echo "CLOUDFLARE_ACCOUNT_ID=$A" >> "$GITHUB_ENV"
+
+      - name: Checkout
+        uses: actions/checkout@v6
+
+      - name: Helpers
+        run: |
+          cat > "$RUNNER_TEMP/cf.sh" <<'SH'
+          # cf METHOD PATH [JSON] -> prints the response; returns 1 when "success" is not true
+          cf() {
+            local out
+            out=$(curl -sS -X "$1" "https://api.cloudflare.com/client/v4$2" -H "Authorization: Bearer $CLOUDFLARE_API_TOKEN" -H 'Content-Type: application/json' ${3:+--data "$3"})
+            printf '%s' "$out"
+            [ "$(printf '%s' "$out" | jq -r '.success')" = "true" ]
+          }
+          errors() { jq -r '[.errors[]? | "\(.code): \(.message)"] | join("; ")'; }
+          zone_id() { cf GET "/zones?name=$ZONE" | jq -r '.result[0].id // empty'; }
+          SH
+
+      - name: Kiểm tra (chỉ đọc)
+        run: |
+          . "$RUNNER_TEMP/cf.sh"
+          echo "== Token";   cf GET /user/tokens/verify | jq -r '.result.status // "?"' || echo "(không đọc được)"
+          echo "== Vùng $ZONE"
+          Z=$(cf GET "/zones?name=$ZONE") || true
+          echo "$Z" | jq -r '.result[0] | if . == null then "chưa có (hoặc token không có quyền Zone Read)" else "trạng thái: \(.status) · nameserver Cloudflare: \(.name_servers | join(", ")) · đang dùng: \(.original_name_servers // [] | join(", "))" end' 2>/dev/null || echo "$Z" | errors
+          ZID=$(echo "$Z" | jq -r '.result[0].id // empty' 2>/dev/null)
+          if [ -n "$ZID" ]; then
+            echo "== Bản ghi DNS"
+            cf GET "/zones/$ZID/dns_records?per_page=100" | jq -r '.result[] | "\(.type)\t\(.name)\t\(.content[0:60])\t\(if .proxied then "proxied" else "DNS only" end)"' || echo "(token chưa có quyền DNS Read)"
+          fi
+          echo "== workers.dev"; cf GET "/accounts/$CLOUDFLARE_ACCOUNT_ID/workers/subdomain" | jq -r '.result.subdomain + ".workers.dev"' || echo "(không đọc được)"
+          echo "== Tên miền gắn với Worker"; cf GET "/accounts/$CLOUDFLARE_ACCOUNT_ID/workers/domains" | jq -r '.result[] | "\(.hostname) -> \(.service)"' || echo "(không đọc được)"
+          echo "== R2"; R=$(cf GET "/accounts/$CLOUDFLARE_ACCOUNT_ID/r2/buckets") && echo "$R" | jq -r '.result.buckets[]?.name' || { echo -n "chưa dùng được R2: "; echo "$R" | errors; }
+
+      - name: Install wrangler
+        if: inputs.buoc != 'kiem-tra'
+        working-directory: api
+        run: npm ci --silent
+
+      - name: R2 cho tài liệu
+        if: inputs.buoc == 'r2'
+        working-directory: api
+        run: |
+          . "$RUNNER_TEMP/cf.sh"
+          if npx wrangler r2 bucket list 2>/dev/null | grep -q "name:\s*$BUCKET\b"; then echo "Đã có bucket $BUCKET."
+          else npx wrangler r2 bucket create "$BUCKET" --location apac; fi
+          ZID=$(zone_id)
+          if [ -z "$ZID" ]; then echo "::warning::Vùng $ZONE chưa có trên Cloudflare (hoặc token thiếu Zone Read): chưa gắn được $DOCS_HOST."; exit 0; fi
+          npx wrangler r2 bucket domain list "$BUCKET" | grep -q "$DOCS_HOST" && { echo "Đã gắn $DOCS_HOST."; exit 0; }
+          npx wrangler r2 bucket domain add "$BUCKET" --domain "$DOCS_HOST" --zone-id "$ZID" --min-tls 1.2 --force
+          echo "Xong: https://$DOCS_HOST/<tên file>"
+
+      - name: Tên miền lemonmath.com cho Worker
+        if: inputs.buoc == 'ten-mien'
+        run: |
+          . "$RUNNER_TEMP/cf.sh"
+          Z=$(cf GET "/zones?name=$ZONE") || { echo "$Z" | errors; exit 1; }
+          ZID=$(echo "$Z" | jq -r '.result[0].id // empty'); ST=$(echo "$Z" | jq -r '.result[0].status // empty')
+          if [ -z "$ZID" ]; then echo "::error::Vùng $ZONE chưa có trên Cloudflare."; exit 1; fi
+          if [ "$ST" != "active" ]; then echo "::error::Vùng $ZONE đang '$ST', chưa active: đợi đổi nameserver xong rồi chạy lại."; exit 1; fi
+          # the site must answer on workers.dev first
+          SUB=$(cf GET "/accounts/$CLOUDFLARE_ACCOUNT_ID/workers/subdomain" | jq -r '.result.subdomain')
+          CODE=$(curl -s -o /dev/null -w '%{http_code}' "https://$SITE_WORKER.$SUB.workers.dev/vi/")
+          if [ "$CODE" != "200" ]; then echo "::error::https://$SITE_WORKER.$SUB.workers.dev/vi/ trả $CODE: chưa đổi tên miền."; exit 1; fi
+          # www redirect worker
+          (cd api && npx wrangler deploy --config ../site/www/wrangler.jsonc)
+          # remove the GitHub Pages records for lemonmath.com and www (only A/AAAA/CNAME on these two names)
+          for NAME in "$ZONE" "www.$ZONE"; do
+            cf GET "/zones/$ZID/dns_records?name=$NAME&per_page=100" | jq -r '.result[] | select(.type=="A" or .type=="AAAA" or .type=="CNAME") | "\(.id) \(.type) \(.content)"' | while read -r ID TYPE CONTENT; do
+              echo "Xoá $TYPE $NAME -> $CONTENT"
+              cf DELETE "/zones/$ZID/dns_records/$ID" > /dev/null || { echo "::error::Không xoá được $TYPE $NAME (token cần quyền DNS Edit)."; exit 1; }
+            done
+          done
+          # attach: Cloudflare creates the DNS records and the certificates itself
+          for PAIR in "$ZONE:$SITE_WORKER" "www.$ZONE:$WWW_WORKER"; do
+            H=${PAIR%%:*}; S=${PAIR##*:}
+            OUT=$(cf PUT "/accounts/$CLOUDFLARE_ACCOUNT_ID/workers/domains" "{\"hostname\":\"$H\",\"service\":\"$S\",\"zone_id\":\"$ZID\",\"environment\":\"production\"}") \
+              && echo "Đã gắn $H -> $S" || { echo "::error::Không gắn được $H: $(echo "$OUT" | errors)"; exit 1; }
+          done
+          echo "Xong. Kiểm tra: https://$ZONE/ và https://www.$ZONE/ (chứng chỉ có thể mất vài phút)."

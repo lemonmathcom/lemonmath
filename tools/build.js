@@ -187,6 +187,16 @@ const MATH = Object.assign({ mode: 'prerender', keep: 25, pilot: [] }, cfg.site.
 const HYBRID = MATH.mode === 'hybrid';
 /* Size fuse: GitHub Pages officially takes sites up to 1 GB. Warn from 800 MB; stop at 950 MB (the site online stays as it was). */
 const SIZE_WARN_MB = 800, SIZE_STOP_MB = 950;
+/*
+ * Hosting ("site" → "hosting" in data/curriculum.json, 26/11/2026). The same dist/ goes to GitHub Pages and to
+ * Cloudflare Workers (site/wrangler.jsonc). "pages": false once lemonmath.com is served by Cloudflare and GitHub
+ * Pages is switched off: the 1 GB fuse above then no longer applies. Cloudflare Workers takes "maxFiles" files per
+ * version (20,000 on the free plan, 100,000 on Workers Paid, 5 USD/month) and 25 MiB per file. Stage 3 starts when the
+ * build warns at 75% of maxFiles: switch to Workers Paid (set maxFiles to 100000) or build the exam pages from data on
+ * request instead of as files.
+ */
+const HOST = Object.assign({ pages: true, maxFiles: 20000 }, cfg.site.hosting || {});
+const FILE_MAX_BYTES = 25 * 1048576;
 
 const missing = [];
 function loadLessons() {
@@ -1105,22 +1115,32 @@ async function fullTextSearch() {
 
 /* Size fuse: returns the size of the built site in MB. */
 function sizeFuse() {
-  let bytes = 0;
+  let bytes = 0, files = 0;
+  const big = [];
   (function walk(d) {
     fs.readdirSync(d, { withFileTypes: true }).forEach((e) => {
       const p = path.join(d, e.name);
-      if (e.isDirectory()) walk(p); else bytes += fs.statSync(p).size;
+      if (e.isDirectory()) return walk(p);
+      const n = fs.statSync(p).size;
+      bytes += n; files++;
+      if (n > FILE_MAX_BYTES) big.push(path.relative(OUT, p) + ' (' + (n / 1048576).toFixed(1) + ' MB)');
     });
   })(OUT);
   const mb = bytes / 1048576;
-  if (mb > SIZE_STOP_MB) {
+  const note = (m) => { warn(m); if (process.env.GITHUB_ACTIONS) console.log('::warning::' + m); };
+  if (HOST.pages && mb > SIZE_STOP_MB) {
     fail('website nặng ' + mb.toFixed(0) + ' MB, vượt ngưỡng dừng ' + SIZE_STOP_MB + ' MB (GitHub Pages nhận tối đa 1 GB). Bản đang chạy trên mạng được giữ nguyên. Bật "math": { "mode": "hybrid" } hoặc chuyển file lớn ra ngoài trước khi đăng tiếp.');
-  } else if (mb > SIZE_WARN_MB) {
-    const m = 'website nặng ' + mb.toFixed(0) + ' MB, đã quá ngưỡng cảnh báo ' + SIZE_WARN_MB + ' MB (GitHub Pages nhận tối đa 1 GB). Cần chuyển sang giai đoạn 2 (Cloudflare) sớm.';
-    warn(m);
-    if (process.env.GITHUB_ACTIONS) console.log('::warning::' + m);
+  } else if (HOST.pages && mb > SIZE_WARN_MB) {
+    note('website nặng ' + mb.toFixed(0) + ' MB, đã quá ngưỡng cảnh báo ' + SIZE_WARN_MB + ' MB (GitHub Pages nhận tối đa 1 GB). Cần chuyển hẳn sang Cloudflare ("hosting": { "pages": false }).');
   }
-  return mb;
+  // Cloudflare Workers: number of files per version, size of one file
+  if (big.length) fail('file quá 25 MB (Cloudflare Workers không nhận): ' + big.join(', ') + '. Đưa file lớn lên R2 (tai-lieu.lemonmath.com).');
+  if (files > HOST.maxFiles * 0.975) {
+    fail('website có ' + files + ' file, sát giới hạn ' + HOST.maxFiles + ' file mỗi phiên bản của Cloudflare Workers. Bản đang chạy được giữ nguyên. Giai đoạn 3: nâng Workers Paid rồi đặt "hosting": { "maxFiles": 100000 }, hoặc sinh trang đề từ dữ liệu.');
+  } else if (files > HOST.maxFiles * 0.75) {
+    note('website có ' + files + ' file (giới hạn ' + HOST.maxFiles + ' file của Cloudflare Workers): đã đến lúc chuẩn bị giai đoạn 3.');
+  }
+  return { mb, files };
 }
 
 function writeSitemap() {
@@ -1194,9 +1214,9 @@ async function main() {
   await fullTextSearch();
   writePwa();
   writeSitemap();
-  const sizeMb = sizeFuse();
+  const size = sizeFuse();
   report();
-  console.log('Dựng xong: ' + lessons.length + ' bài × 2 ngôn ngữ, ' + grades.length + ' lớp, ' + exams.length + ' kì thi -> ' + path.relative(process.cwd(), OUT) + '/ (' + sizeMb.toFixed(0) + ' MB)');
+  console.log('Dựng xong: ' + lessons.length + ' bài × 2 ngôn ngữ, ' + grades.length + ' lớp, ' + exams.length + ' kì thi -> ' + path.relative(process.cwd(), OUT) + '/ (' + size.mb.toFixed(0) + ' MB, ' + size.files + ' file)');
 }
 
 main().catch((e) => { console.error('LỖI: ' + (e && e.stack || e)); process.exit(1); });
