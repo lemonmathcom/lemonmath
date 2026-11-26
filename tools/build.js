@@ -1003,7 +1003,8 @@ function writePwa() {
         rows.push({ id: ch.id, t: T_ch(lang, ch), w: ok.reduce((a, x) => a + x.w, 0), n: ch.lessons.length });
       });
       let aw = 0;
-      [...assets].forEach((a) => { const f = fileOf(a); if (fs.existsSync(f)) aw += fs.statSync(f).size; else assets.delete(a); });
+      // bytes over the wire: scripts and SVG travel compressed; fonts and photos are already compressed
+      [...assets].forEach((a) => { const f = fileOf(a); if (fs.existsSync(f)) aw += /\.(js|svg)$/.test(a) ? gz(f) : fs.statSync(f).size; else assets.delete(a); });
       const v = h.digest('hex').slice(0, 10);
       fs.writeFileSync(path.join(OUT, 'offline-data', key + '.json'), JSON.stringify({ v, base: base.concat([...assets]), c }));
       index[key] = { t: g.exam ? g[lang] : (lang === 'vi' ? 'Toán lớp ' + g.n : 'Grade ' + g.n + ' maths'), u: '/' + gradeDir(lang, g) + '/', v, w: wire + aw, a: aw, n: rows.reduce((a, r) => a + r.n, 0), c: rows };
