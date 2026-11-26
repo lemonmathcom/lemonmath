@@ -100,8 +100,8 @@ if (!/^https:\/\/[^\s/]+$/.test(site.url)) fail('data/curriculum.json: "url" ph�
 
 const LANGS = ['en', 'vi'];
 const LANG = {
-  en: { prefix: '', gradeSlug: (n) => 'grade-' + n, about: 'about', privacy: 'privacy', contact: 'contact', paper: 'learn-on-paper', parents: 'parents', week: 'this-week', offline: 'offline', exams: 'exams', teachers: 'teachers', join: 'join', classroom: 'classroom', homework: 'homework', journey: 'my-progress', formulas: 'formulas', arena: 'arena', groups: 'study-groups', levels: { primary: 'primary', middle: 'middle-school', high: 'high-school' }, htmlLang: 'en', locale: 'en-US', name: 'English' },
-  vi: { prefix: 'vi', gradeSlug: (n) => 'lop-' + n, about: 'gioi-thieu', privacy: 'bao-mat', contact: 'lien-he', paper: 'hoc-tren-giay', parents: 'phu-huynh', week: 'bai-cua-tuan', offline: 'hoc-offline', exams: 'on-thi', teachers: 'giao-vien', join: 'vao-lop', classroom: 'lop-hoc', homework: 'lam-bai', journey: 'hanh-trinh', formulas: 'cong-thuc', arena: 'dau-truong', groups: 'nhom-hoc', levels: { primary: 'tieu-hoc', middle: 'thcs', high: 'thpt' }, htmlLang: 'vi', locale: 'vi-VN', name: 'Tiếng Việt' }
+  en: { prefix: '', gradeSlug: (n) => 'grade-' + n, about: 'about', privacy: 'privacy', contact: 'contact', paper: 'learn-on-paper', parents: 'parents', week: 'this-week', offline: 'offline', exams: 'exams', teachers: 'teachers', join: 'join', classroom: 'classroom', homework: 'homework', journey: 'my-progress', formulas: 'formulas', arena: 'arena', groups: 'study-groups', tools: 'tools', levels: { primary: 'primary', middle: 'middle-school', high: 'high-school' }, htmlLang: 'en', locale: 'en-US', name: 'English' },
+  vi: { prefix: 'vi', gradeSlug: (n) => 'lop-' + n, about: 'gioi-thieu', privacy: 'bao-mat', contact: 'lien-he', paper: 'hoc-tren-giay', parents: 'phu-huynh', week: 'bai-cua-tuan', offline: 'hoc-offline', exams: 'on-thi', teachers: 'giao-vien', join: 'vao-lop', classroom: 'lop-hoc', homework: 'lam-bai', journey: 'hanh-trinh', formulas: 'cong-thuc', arena: 'dau-truong', groups: 'nhom-hoc', tools: 'tien-ich', levels: { primary: 'tieu-hoc', middle: 'thcs', high: 'thpt' }, htmlLang: 'vi', locale: 'vi-VN', name: 'Tiếng Việt' }
 };
 const LEVEL = (n) => (n <= 5 ? 'primary' : n <= 9 ? 'middle' : 'high');
 const ID_RE = /^[a-z0-9]+(?:-[a-z0-9]+)*$/;
@@ -172,6 +172,8 @@ const journeyDir = (lang) => px.join(LANG[lang].prefix, LANG[lang].journey);
 const formulasDir = (lang) => px.join(LANG[lang].prefix, LANG[lang].formulas);
 const arenaDir = (lang) => px.join(LANG[lang].prefix, LANG[lang].arena);
 const groupsDir = (lang) => px.join(LANG[lang].prefix, LANG[lang].groups);
+const toolsDir = (lang) => px.join(LANG[lang].prefix, LANG[lang].tools);
+const toolDir = (lang, t) => px.join(toolsDir(lang), t.slug[lang]);
 const abs = (dir) => site.url + '/' + (dir ? dir + '/' : '');
 const other = (lang) => (lang === 'en' ? 'vi' : 'en');
 
@@ -410,6 +412,7 @@ function shell(o) {
     '<link rel="stylesheet" href="' + A('assets/fonts.css') + '">',
     '<link rel="stylesheet" href="' + A('assets/style.css') + '">',
     o.math ? '<link rel="stylesheet" href="' + A('assets/katex/katex.min.css') + '">' : '',
+    (o.styles || []).map((f) => '<link rel="stylesheet" href="' + A(f) + '">').join('\n'),   // extra CSS only some pages need (the maths tools)
     o.side ? '<style>@page :right { @bottom-center { content: "Step by step"; font: italic 600 9pt "Nunito Variable", "Nunito", sans-serif; color: #555; } } @page :left { @bottom-center { content: "' + T.motto + '"; font: italic 600 9pt "Nunito Variable", "Nunito", sans-serif; color: #555; } }</style>' : '',
     '<script>(function(){var r=document.documentElement;r.classList.add("js");try{var t=localStorage.getItem("lm-theme");if(t)r.setAttribute("data-theme",t)}catch(e){}})()</script>'
   ].concat((o.jsonld || []).map(ldTag)).filter(Boolean).join('\n');
@@ -418,10 +421,10 @@ function shell(o) {
 
   // the top menu shows the main places and keeps the rest under "More"; the drawer (phones, tablets) lists everything
   const NL = (dir, text, extra) => '<a href="' + relDir(d, dir) + (extra || '') + '">' + esc(text) + '</a>';
-  const more = [NL(paperDir(lang), T.paper), NL(offlineDir(lang), T.offlineNav), API_URL ? NL(groupsDir(lang), T.grNav) : '', NL(formulasDir(lang), T.fcTitle)].filter(Boolean);
+  const more = [TOOLS ? NL(toolsDir(lang), T.tlNav) : '', NL(paperDir(lang), T.paper), NL(offlineDir(lang), T.offlineNav), API_URL ? NL(groupsDir(lang), T.grNav) : '', NL(formulasDir(lang), T.fcTitle)].filter(Boolean);
   const topLinks = NL(homeDir(lang), T.allGrades, '#grades') + NL(examsDir(lang), T.examsNav) + NL(arenaDir(lang), T.arNav) + NL(parentsDir(lang), T.parents) + NL(teachersDir(lang), T.teachers) + NL(journeyDir(lang), T.jrNav) +
     '<details class="nav-more"><summary>' + esc(T.navMore) + '</summary><div class="nav-pop">' + more.join('') + '</div></details>';   // "About" stays in the footer
-  const mainLinks = NL(homeDir(lang), T.allGrades, '#grades') + NL(examsDir(lang), T.examsNav) + NL(arenaDir(lang), T.arNav) + (API_URL ? NL(groupsDir(lang), T.grNav) : '') + NL(paperDir(lang), T.paper) + NL(offlineDir(lang), T.offlineNav) + NL(parentsDir(lang), T.parents) + NL(teachersDir(lang), T.teachers) + NL(journeyDir(lang), T.jrNav);
+  const mainLinks = NL(homeDir(lang), T.allGrades, '#grades') + NL(examsDir(lang), T.examsNav) + NL(arenaDir(lang), T.arNav) + (API_URL ? NL(groupsDir(lang), T.grNav) : '') + (TOOLS ? NL(toolsDir(lang), T.tlNav) : '') + NL(paperDir(lang), T.paper) + NL(offlineDir(lang), T.offlineNav) + NL(parentsDir(lang), T.parents) + NL(teachersDir(lang), T.teachers) + NL(journeyDir(lang), T.jrNav);
   // the drawer (phones, tablets held upright): the main menu first, then the lessons of this grade
   const drawerTop = '<div class="side-top"><span>Menu</span><button id="menu-close" class="icon-btn side-close" type="button" aria-label="' + esc(T.closeMenu) + '" hidden>✕</button></div>\n<nav class="side-main" aria-label="' + esc(T.mainNav) + '">' + mainLinks + '</nav>\n';
   const side = (o.side
@@ -447,7 +450,7 @@ function shell(o) {
     '  <main id="main" class="main" tabindex="-1">\n    <div class="page' + (o.wide ? ' wide' : '') + '">\n' + o.body + '\n    </div>\n  </main>\n</div>\n' +
     spreadHtml(lang, canonical, o.title) +
     '<footer class="footer">\n  ' + mascot({ cls: 'foot-mark' }) + '\n  <p>© ' + YEAR + ' ' + esc(site.name) + ' · ' + esc(T.footer) + '</p>\n' +
-    '  <nav aria-label="' + esc(T.aboutNav) + '"><a href="' + relDir(d, aboutDir(lang)) + '">' + esc(T.about) + '</a> · <a href="' + relDir(d, contactDir(lang)) + '">' + esc(T.contact) + '</a> · <a href="' + relDir(d, privacyDir(lang)) + '">' + esc(T.privacy) + '</a> · <a href="' + relDir(d, formulasDir(lang)) + '">' + esc(T.fcTitle) + '</a> · <a href="https://github.com/lemonmathcom/lemonmath/issues">' + esc(T.report) + '</a> · <button type="button" class="foot-print" onclick="window.lmPrint?lmPrint():print()">🖨 ' + esc(T.printPage) + '</button></nav>\n</footer>\n' +
+    '  <nav aria-label="' + esc(T.aboutNav) + '"><a href="' + relDir(d, aboutDir(lang)) + '">' + esc(T.about) + '</a> · <a href="' + relDir(d, contactDir(lang)) + '">' + esc(T.contact) + '</a> · <a href="' + relDir(d, privacyDir(lang)) + '">' + esc(T.privacy) + '</a> · <a href="' + relDir(d, formulasDir(lang)) + '">' + esc(T.fcTitle) + '</a>' + (TOOLS ? ' · <a href="' + relDir(d, toolsDir(lang)) + '">' + esc(T.tlNav) + '</a>' : '') + ' · <a href="https://github.com/lemonmathcom/lemonmath/issues">' + esc(T.report) + '</a> · <button type="button" class="foot-print" onclick="window.lmPrint?lmPrint():print()">🖨 ' + esc(T.printPage) + '</button></nav>\n</footer>\n' +
     '<script src="' + A('assets/site.js') + '" defer></script>\n' + (o.scripts || []).map((f) => '<script src="' + A(f) + '" defer></script>\n').join('') + ANALYTICS + '</body>\n</html>\n';
 }
 
@@ -853,6 +856,87 @@ function groupsPage(lang) {
     jsonld: [crumbLD([{ name: T.home, url: abs(homeDir(lang)) }, { name: T.grTitle, url: abs(d) }])] }), null);
 }
 
+/* ------------------------------------------------------------------ */
+/* LemonMath Tools (26/11/2026): the hub /tools/ (vi: /vi/tien-ich/) and one page per live tool.            */
+/* Registry: data/tools.json. Guide under each tool: content/<lang>/tools/<id>.md (optional).               */
+/* Scripts: assets/tools/core.js (shared: fair random, class lists, saving on the device, fullscreen, sound) */
+/* and assets/tools/<id>.js, loaded only on that tool's page. Plan and rules: giao-viec/TIEN-ICH.md.         */
+/* ------------------------------------------------------------------ */
+const TOOLS = (function () {
+  const file = path.join(ROOT, 'data', 'tools.json');
+  if (!fs.existsSync(file)) return null;
+  let reg;
+  try { reg = JSON.parse(fs.readFileSync(file, 'utf8')); } catch (e) { fail('data/tools.json: ' + e.message); return null; }
+  const cats = reg.categories || [], all = reg.tools || [], seen = {};
+  all.forEach((t) => {
+    const who = 'data/tools.json, tiện ích "' + t.id + '"';
+    if (!ID_RE.test(t.id || '')) fail(who + ': id không hợp lệ.');
+    if (seen[t.id]) fail(who + ': trùng id.');
+    seen[t.id] = true;
+    if (!cats.some((c) => c.id === t.cat)) fail(who + ': danh mục "' + t.cat + '" không có trong "categories".');
+    LANGS.forEach((l) => { if (!t.name || !t.name[l] || !t.short || !t.short[l]) fail(who + ': thiếu "name" hoặc "short" bản ' + l + '.'); });
+    if (t.status !== 'live') return;
+    LANGS.forEach((l) => { if (!t.slug || !ID_RE.test(t.slug[l] || '')) fail(who + ': thiếu "slug" bản ' + l + ' (chữ thường, số, gạch ngang).'); });
+    if (!fs.existsSync(path.join(ROOT, 'assets', 'tools', t.id + '.js'))) fail(who + ': thiếu file assets/tools/' + t.id + '.js.');
+    (t.related || []).forEach((r) => { if (!all.some((x) => x.id === r)) fail(who + ': "related" trỏ tới tiện ích không có "' + r + '".'); });
+  });
+  return { cats, all, live: all.filter((t) => t.status === 'live') };
+})();
+const NEW_DAYS = 45; // a tool shows the "New" badge for this many days after "added"
+
+function toolCard(lang, d, t) {
+  const T = UI[lang], c = TOOLS.cats.find((x) => x.id === t.cat);
+  const kw = [t.name[lang], t.short[lang], c.name[lang]].concat((t.kw && t.kw[lang]) || []).join(' ');
+  const fresh = t.added && Date.now() - Date.parse(t.added) < NEW_DAYS * 864e5;
+  return '<article class="tl-card" data-id="' + t.id + '" data-cat="' + t.cat + '" data-kw="' + esc(kw) + '"><span class="tl-ico" aria-hidden="true">' + esc(t.icon) + '</span>' +
+    '<div class="tl-body"><h3><a href="' + relDir(d, toolDir(lang, t)) + '">' + esc(t.name[lang]) + '</a>' + (fresh ? ' <span class="tl-new">' + esc(T.tlNew) + '</span>' : '') + '</h3>' +
+    '<p>' + esc(t.short[lang]) + '</p><span class="tl-cat">' + esc(c.icon + ' ' + c.name[lang]) + '</span></div>' +
+    '<button type="button" class="tl-star" aria-pressed="false" aria-label="' + esc(T.tlFavAdd + ': ' + t.name[lang]) + '" hidden>☆</button></article>';
+}
+
+function toolsHubPage(lang) {
+  const T = UI[lang], d = toolsDir(lang), alt = toolsDir(other(lang));
+  const live = TOOLS.live, soon = TOOLS.all.filter((t) => t.status !== 'live');
+  const chips = '<div class="tl-chips" role="group" aria-label="' + esc(T.tlFilter) + '" hidden><button type="button" class="tl-chip" data-cat="" aria-pressed="true">' + esc(T.tlAll) + ' <span>' + live.length + '</span></button>' +
+    TOOLS.cats.map((c) => { const n = live.filter((t) => t.cat === c.id).length; return n ? '<button type="button" class="tl-chip" data-cat="' + c.id + '" aria-pressed="false">' + esc(c.icon + ' ' + c.name[lang]) + ' <span>' + n + '</span></button>' : ''; }).join('') + '</div>';
+  const sections = TOOLS.cats.map((c) => {
+    const ts = live.filter((t) => t.cat === c.id);
+    return ts.length ? '<section class="tl-sec tl-catsec" data-cat="' + c.id + '" aria-labelledby="tl-c-' + c.id + '"><h2 id="tl-c-' + c.id + '">' + esc(c.icon + ' ' + c.name[lang]) + '</h2><p class="tl-catdesc">' + esc(c.desc[lang]) + '</p><div class="tl-grid">' + ts.map((t) => toolCard(lang, d, t)).join('') + '</div></section>' : '';
+  }).join('\n');
+  const body = '<article class="lesson about tl-hub"><nav class="crumbs" aria-label="' + esc(T.breadcrumb) + '"><a href="' + relDir(d, homeDir(lang)) + '">' + esc(T.home) + '</a></nav>\n' +
+    '<h1>' + esc(T.tlTitle) + '</h1>\n<p class="lead">' + esc(T.tlLead) + '</p>\n<p class="tl-motto">' + T.tlMotto.map((x) => esc(x)).join(' <span aria-hidden="true">·</span> ') + '</p>\n' +
+    '<div class="tl-find" hidden><label class="sr" for="tl-q">' + esc(T.tlSearch) + '</label>' + icon('search', 18) + '<input id="tl-q" type="search" placeholder="' + esc(T.tlSearchPh) + '" autocomplete="off"></div>\n' + chips + '\n' +
+    '<section id="tl-favs" class="tl-sec" hidden><h2>⭐ ' + esc(T.tlFavs) + '</h2><div class="tl-grid"></div></section>\n' +
+    '<section id="tl-recent" class="tl-sec" hidden><h2>🕘 ' + esc(T.tlRecent) + '</h2><div class="tl-grid"></div></section>\n' +
+    '<div id="tl-all">\n' + sections + '\n</div>\n<p id="tl-none" class="tl-none" hidden>' + esc(T.tlNone) + '</p>\n' +
+    (soon.length ? '<section class="tl-sec tl-soon"><h2>🛠 ' + esc(T.tlSoon) + '</h2><ul>' + soon.map((t) => '<li><span aria-hidden="true">' + esc(t.icon) + '</span> <b>' + esc(t.name[lang]) + '</b>: ' + esc(t.short[lang]) + '</li>').join('') + '</ul>' +
+      '<p>' + esc(T.tlIdea) + ' <a href="' + relDir(d, contactDir(lang)) + '">' + esc(T.tlIdeaLink) + '</a></p></section>\n' : '') +
+    '<p class="tl-privacy">🔒 ' + esc(T.tlPrivacy) + ' <button type="button" class="tl-clear" data-scope="" hidden>' + esc(T.tlClearAll) + '</button></p>\n</article>';
+  put(lang, d, alt, shell({ lang, dir: d, altDir: alt, title: seoTitle(T.tlTitle), description: T.tlDesc, body, wide: true, styles: ['assets/tools/tools.css'], scripts: ['assets/tools/core.js', 'assets/tools/hub.js'],
+    jsonld: [crumbLD([{ name: T.home, url: abs(homeDir(lang)) }, { name: T.tlTitle, url: abs(d) }])] }), isoDay(gitDate('data/tools.json')));
+}
+
+function toolPage(lang, t) {
+  const T = UI[lang], d = toolDir(lang, t), alt = toolDir(other(lang), t);
+  const guideRel = 'content/' + lang + '/tools/' + t.id + '.md';
+  const guide = fs.existsSync(path.join(ROOT, guideRel)) ? loadPage(lang, 'tools/' + t.id) : null;
+  const related = (t.related || []).map((id) => TOOLS.live.find((x) => x.id === id)).filter(Boolean);
+  const body = '<article class="lesson about tl-page"><nav class="crumbs" aria-label="' + esc(T.breadcrumb) + '"><a href="' + relDir(d, homeDir(lang)) + '">' + esc(T.home) + '</a> › <a href="' + relDir(d, toolsDir(lang)) + '">' + esc(T.tlNav) + '</a></nav>\n' +
+    '<header class="tl-head"><span class="tl-ico" aria-hidden="true">' + esc(t.icon) + '</span><div><h1>' + esc(t.name[lang]) + '</h1><p class="lead">' + esc(t.short[lang]) + '</p></div>' +
+    '<button type="button" id="tl-fav" class="btn btn-outline tl-favbtn" aria-pressed="false" data-on="' + esc(T.tlFavOn) + '" data-off="' + esc(T.tlFavAdd) + '" hidden>☆ ' + esc(T.tlFavAdd) + '</button></header>\n' +
+    '<noscript><p class="soon-note">' + esc(T.noJs) + '</p></noscript>\n' +
+    '<section id="tl-app" class="tl-app" data-tool="' + t.id + '" aria-label="' + esc(t.name[lang]) + '" hidden></section>\n' +
+    (guide ? '<div class="prose tl-guide">\n' + resolveLinks(guide.rendered.html, d, lang, guideRel) + '\n</div>\n' : '') +
+    (related.length ? '<section class="tl-sec tl-related"><h2>' + esc(T.tlRelated) + '</h2><div class="tl-grid">' + related.map((x) => toolCard(lang, d, x)).join('') + '</div>' +
+      '<p><a href="' + relDir(d, toolsDir(lang)) + '">' + esc(T.tlAllLink) + ' →</a></p></section>\n' : '') +
+    '<p class="tl-privacy">🔒 ' + esc(T.tlPrivacy) + ' <button type="button" class="tl-clear" data-scope="' + t.id + '" hidden>' + esc(T.tlClear) + '</button></p>\n</article>';
+  const title = (guide && guide.meta.title) || t.name[lang];
+  const description = (guide && guide.meta.description) || t.short[lang];
+  put(lang, d, alt, shell({ lang, dir: d, altDir: alt, title: seoTitle(title), description, body, wide: true, styles: ['assets/tools/tools.css'], scripts: ['assets/tools/core.js', 'assets/tools/' + t.id + '.js'],
+    jsonld: [crumbLD([{ name: T.home, url: abs(homeDir(lang)) }, { name: T.tlTitle, url: abs(toolsDir(lang)) }, { name: t.name[lang], url: abs(d) }])] }),
+  maxDay([isoDay(gitDate('assets/tools/' + t.id + '.js')), guide && guide.modified]));
+}
+
 function searchIndex(lang) {
   const T = UI[lang];
   const rows = [];
@@ -862,6 +946,11 @@ function searchIndex(lang) {
   rows.push({ t: T.jrTitle, s: T.jrNav, u: journeyDir(lang).slice(LANG[lang].prefix ? LANG[lang].prefix.length + 1 : 0) });
   rows.push({ t: T.arTitle, s: T.arNav, u: arenaDir(lang).slice(LANG[lang].prefix ? LANG[lang].prefix.length + 1 : 0) });
   if (API_URL) rows.push({ t: T.grTitle, s: T.grNav, u: groupsDir(lang).slice(LANG[lang].prefix ? LANG[lang].prefix.length + 1 : 0) });
+  if (TOOLS) {
+    const cut = (dir) => dir.slice(LANG[lang].prefix ? LANG[lang].prefix.length + 1 : 0);
+    rows.push({ t: T.tlTitle, s: T.tlNav, u: cut(toolsDir(lang)) });
+    TOOLS.live.forEach((t) => rows.push({ t: t.name[lang], s: T.tlNav, u: cut(toolDir(lang, t)) }));
+  }
   tracks.forEach((g) => {
     const full = g.status === 'full' && g.chapters.some((c) => c.lessons.length);
     rows.push({ t: gName(lang, g), s: T.levels[g.level][0], u: gradeDir(lang, g).slice(LANG[lang].prefix ? LANG[lang].prefix.length + 1 : 0) });
@@ -1185,6 +1274,7 @@ async function main() {
     arenaPage(lang);
     if (API_URL) groupsPage(lang);
     formulasPage(lang);
+    if (TOOLS) { toolsHubPage(lang); TOOLS.live.forEach((t) => toolPage(lang, t)); }
     if (offline[lang]) offlinePage(lang, offline[lang]);
     searchIndex(lang);
   });

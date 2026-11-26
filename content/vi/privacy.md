@@ -3,7 +3,7 @@ title: Chính sách bảo mật
 description: Lemonmath thu những dữ liệu nào, để làm gì, lưu bao lâu, ai được tiếp cận, và bạn xem, sửa, xoá dữ liệu của mình như thế nào. Viết rõ ràng cho học sinh, phụ huynh và thầy cô.
 ---
 
-*Có hiệu lực từ ngày 25/11/2026.* (Bản trước: 24/11/2026. Thêm Đấu trường Lemon và Nhóm học tập.)
+*Có hiệu lực từ ngày 26/11/2026.* (Bản trước: 25/11/2026. Thêm Tiện ích toán, chỉ lưu trên máy của bạn.)
 
 Nói ngắn gọn: bạn học trên Lemonmath mà **không cần đăng kí gì cả**. Khi chỉ đọc bài, làm bài test và đánh dấu bài đã học, mọi thứ nằm trên chính máy của bạn, Lemonmath không nhận được. Chỉ khi bạn dùng mã học tập, nhóm học tập, phòng đấu, tài khoản giáo viên hay lớp học, Lemonmath mới lưu một ít dữ liệu, đúng phần cần cho việc đó, và tự xoá khi hết cần.
 
@@ -25,6 +25,7 @@ Lemonmath (lemonmath.com) do cá nhân **Nguyễn Văn Chanh** thiết lập và
 - **Tải bài để học offline:** nội dung bài học, để đọc khi không có mạng.
 - **Chơi ở Đấu trường Lemon một mình hoặc làm Thử thách hôm nay:** điểm, kỷ lục, các trận đã chơi, biệt danh và hình đại diện. Dùng để hiện kỷ lục và sao của từng bộ câu.
 - **Tạo đề, phân tích điểm ở Góc giáo viên:** danh sách tên và điểm thầy cô dán vào chỉ được tính ngay trên máy của thầy cô.
+- **Tiện ích toán (đồng hồ bấm giờ, gọi tên ngẫu nhiên, chia nhóm…):** danh sách lớp, lịch sử gọi tên, các nhóm đã chia, cài đặt, tiện ích yêu thích. Dùng để lần sau mở ra là có sẵn. Xoá bằng nút “Xoá dữ liệu” ngay trong từng tiện ích.
 
 ### Lưu trên máy chủ Lemonmath
 

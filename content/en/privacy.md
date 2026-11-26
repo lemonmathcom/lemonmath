@@ -3,7 +3,7 @@ title: Privacy policy
 description: What data Lemonmath keeps, why, for how long, who else can reach it, and how you can see, correct or delete your own. Written plainly for students, parents and teachers.
 ---
 
-*In force from 25 November 2026.* (Previous version: 24 November 2026. Adds Lemon Arena and study groups.)
+*In force from 26 November 2026.* (Previous version: 25 November 2026. Adds the maths tools, which keep everything on your device.)
 
 In short: you can learn on Lemonmath **without signing up for anything**. When you only read lessons, take the tests and tick lessons as complete, everything stays on your own device and Lemonmath never receives it. Lemonmath keeps a little data only when you use a learning code, a study group, an arena room, a teacher account or a class, and only what that feature needs. It deletes it once it is no longer needed.
 
@@ -25,6 +25,7 @@ Lemonmath (lemonmath.com) is set up and run by **Nguyen Van Chanh**, a private i
 - **Saving lessons for offline study:** the lesson pages, so you can read without an internet connection.
 - **Playing Lemon Arena on your own or taking today's challenge:** scores, best scores, games played, your nickname and picture. Used to show your best score and stars for each deck.
 - **Building a test or analysing class scores in the Teachers' corner:** the names and scores the teacher pastes in are worked out on the teacher's own device.
+- **Maths tools (classroom timer, random name picker, group maker and others):** class lists, who has been picked, the groups you made, settings and favourite tools. Used so they are ready next time. Delete them with the “Delete what this tool saved” button in each tool.
 
 ### On Lemonmath's server
 

@@ -1,0 +1,40 @@
+{
+  "_about": "LemonMath Tools registry. tools/build.js makes the hub page (/tools/, /vi/tien-ich/) and one page per tool with status \"live\" from this file; tools with status \"soon\" only appear in the hub's \"coming next\" list. Guide text of each tool: content/<lang>/tools/<id>.md. The tool's script: assets/tools/<id>.js (loaded only on its own page). Plan and rules: giao-viec/TIEN-ICH.md.",
+  "categories": [
+    { "id": "calculate", "icon": "🧮", "name": { "en": "Calculate", "vi": "Tính toán" }, "desc": { "en": "Calculators that show the steps, not just the answer.", "vi": "Máy tính có lời giải từng bước, không chỉ đáp số." } },
+    { "id": "visualize", "icon": "📈", "name": { "en": "Visualize", "vi": "Trực quan" }, "desc": { "en": "See the maths move: graphs, shapes, number lines.", "vi": "Nhìn thấy toán chuyển động: đồ thị, hình, trục số." } },
+    { "id": "practice", "icon": "✏️", "name": { "en": "Practice", "vi": "Luyện tập" }, "desc": { "en": "Endless practice with instant feedback.", "vi": "Luyện không giới hạn, chấm ngay." } },
+    { "id": "teach", "icon": "📝", "name": { "en": "Teach", "vi": "Giảng dạy" }, "desc": { "en": "Make worksheets, graph paper and tables in minutes.", "vi": "Soạn phiếu bài tập, giấy kẻ, bảng biến thiên trong vài phút." } },
+    { "id": "classroom", "icon": "🏫", "name": { "en": "Classroom", "vi": "Lớp học" }, "desc": { "en": "Run the lesson: timers, fair name picking, groups.", "vi": "Điều hành tiết học: bấm giờ, gọi tên công bằng, chia nhóm." } },
+    { "id": "play", "icon": "🎲", "name": { "en": "Play", "vi": "Trò chơi" }, "desc": { "en": "Puzzles and games that make you think.", "vi": "Câu đố và trò chơi rèn tư duy." } }
+  ],
+  "tools": [
+    {
+      "id": "classroom-timer", "cat": "classroom", "icon": "⏱️", "status": "live", "added": "2026-11-26",
+      "slug": { "en": "classroom-timer", "vi": "dong-ho-bam-gio" },
+      "name": { "en": "Classroom Timer", "vi": "Đồng hồ bấm giờ" },
+      "short": { "en": "Big countdown or stopwatch for the projector, with a progress bar and a gentle alarm.", "vi": "Đếm ngược hoặc bấm giờ chữ số lớn cho màn chiếu, có thanh tiến trình và chuông báo nhẹ." },
+      "kw": { "en": ["countdown", "stopwatch", "timer", "clock", "projector", "fullscreen"], "vi": ["đếm ngược", "bấm giờ", "đồng hồ", "hẹn giờ", "màn chiếu", "toàn màn hình"] },
+      "related": ["random-name-picker", "random-group-maker"]
+    },
+    {
+      "id": "random-name-picker", "cat": "classroom", "icon": "🎯", "status": "live", "added": "2026-11-26",
+      "slug": { "en": "random-name-picker", "vi": "goi-ten-ngau-nhien" },
+      "name": { "en": "Random Name Picker", "vi": "Gọi tên ngẫu nhiên" },
+      "short": { "en": "Fair random picks from your class list, with a spinning wheel, no repeats and a history.", "vi": "Gọi tên công bằng từ danh sách lớp, có vòng quay, không gọi trùng và lưu lịch sử." },
+      "kw": { "en": ["name picker", "random", "wheel", "spin", "class list", "student"], "vi": ["gọi tên", "ngẫu nhiên", "vòng quay", "bốc thăm", "danh sách lớp", "học sinh"] },
+      "related": ["random-group-maker", "classroom-timer"]
+    },
+    {
+      "id": "random-group-maker", "cat": "classroom", "icon": "👥", "status": "live", "added": "2026-11-26",
+      "slug": { "en": "random-group-maker", "vi": "chia-nhom-ngau-nhien" },
+      "name": { "en": "Random Group Maker", "vi": "Chia nhóm ngẫu nhiên" },
+      "short": { "en": "Split the class into balanced random groups, rename them and move students around.", "vi": "Chia lớp thành các nhóm ngẫu nhiên cân bằng, đặt tên nhóm và đổi chỗ học sinh." },
+      "kw": { "en": ["groups", "teams", "split", "random", "group work"], "vi": ["chia nhóm", "chia đội", "nhóm ngẫu nhiên", "hoạt động nhóm"] },
+      "related": ["random-name-picker", "classroom-timer"]
+    },
+    { "id": "graph-paper-generator", "cat": "teach", "icon": "📐", "status": "soon", "name": { "en": "Graph Paper Generator", "vi": "Tạo giấy kẻ ô, hệ trục" }, "short": { "en": "Square, dot and coordinate grids to print, as sharp SVG.", "vi": "Giấy kẻ ô, giấy chấm, hệ trục Oxy để in, nét sắc." } },
+    { "id": "equation-editor", "cat": "teach", "icon": "∑", "status": "soon", "name": { "en": "Math Equation Editor", "vi": "Soạn công thức toán" }, "short": { "en": "Type formulas with a maths keyboard, copy LaTeX or save a picture.", "vi": "Gõ công thức bằng bàn phím toán, chép mã LaTeX hoặc lưu thành ảnh." } },
+    { "id": "fraction-calculator", "cat": "calculate", "icon": "½", "status": "soon", "name": { "en": "Fraction Calculator", "vi": "Máy tính phân số" }, "short": { "en": "Add, subtract, multiply and divide fractions, step by step.", "vi": "Cộng, trừ, nhân, chia phân số, có lời giải từng bước." } }
+  ]
+}
