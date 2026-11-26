@@ -649,7 +649,20 @@ body.menu-open .install-bar { display: none; }
 .tool small { font-weight: 600; color: var(--muted); }
 .tool-set { margin: .8em 0; padding: 8px 14px 10px; border: 2px solid var(--line); border-radius: 14px; min-width: 0; } .tool-set legend { padding: 0 6px; font-weight: 800; }
 .tool-check { display: inline-flex; align-items: baseline; gap: 8px; font-weight: 600; cursor: pointer; } .tool-check input { width: 18px; height: 18px; flex: none; transform: translateY(3px); }
-.tool-mini { margin: 0 0 .4em; font-size: .92rem; } .tool-link { border: 0; padding: 4px 2px; background: none; color: var(--link); font: 700 .92rem var(--font); text-decoration: underline; cursor: pointer; }
+.tool-mini { margin: 0 0 .4em; font-size: .92rem; }
+/* test builder: 4-level matrix (NB/TH/VD/VDC) and level counts per chapter */
+.tq-mxon { margin: .6em 0 .3em; }
+.tq-mxwrap { overflow-x: auto; margin: .3em 0 .4em; }
+.tq-mx { border-collapse: collapse; font-size: .92rem; min-width: 480px; }
+.tq-mx th, .tq-mx td { border: 1px solid var(--line); padding: 5px 7px; text-align: center; vertical-align: top; }
+.tq-mx thead th small { display: block; font-weight: 600; font-size: .78rem; color: var(--muted, #666); }
+.tq-mx tbody th { text-align: left; font-weight: 700; min-width: 7.5em; }
+.tq-mx input { width: 4.2em; text-align: center; }
+.tq-mx td small { display: block; font-size: .78rem; color: var(--muted, #666); margin-top: 2px; }
+.tq-ch summary { flex-wrap: wrap; } .tq-lvc { flex-basis: 100%; padding-left: 2.7em; font-size: .8rem; color: var(--muted); font-weight: 600; }
+@media (max-width: 560px) { .tq-mx input { width: 3.2em; } .tq-mx th, .tq-mx td { padding: 4px 4px; } }
+.tq-kv { font-size: .72em; color: var(--muted); font-weight: 600; }
+ .tool-link { border: 0; padding: 4px 2px; background: none; color: var(--link); font: 700 .92rem var(--font); text-decoration: underline; cursor: pointer; }
 #tq-tree { max-height: 340px; overflow: auto; } .tq-ch { border-top: 1px solid var(--line); padding: 4px 0; } .tq-ch summary { cursor: pointer; display: flex; align-items: baseline; gap: 6px; list-style: none; } .tq-ch summary::-webkit-details-marker { display: none; } .tq-ch summary::before { content: '▸'; flex: none; width: .8em; color: var(--muted); } .tq-ch[open] > summary::before { content: '▾'; } .tq-ch ul { list-style: none; margin: .2em 0 .4em; padding-left: 1.9em; } .tq-ch li { margin: .15em 0; }
 .tool-actions { display: flex; flex-wrap: wrap; gap: 10px; margin: .8em 0 .3em; } .tool-msg { margin: .4em 0 0; font-weight: 700; color: var(--lvl-ink); }
 .sc-stats { display: grid; grid-template-columns: repeat(auto-fit, minmax(105px, 1fr)); gap: 8px; margin: .8em 0; }

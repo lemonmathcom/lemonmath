@@ -20,7 +20,7 @@
     });
   }
   var T = vi ? {
-    tqH: 'Tạo đề kiểm tra từ ngân hàng câu hỏi', tqLead: function (n) { return 'Ngân hàng hiện có ' + n + ' câu hỏi lấy từ các bài kiểm tra mini của Lemonmath, câu nào cũng có đáp án và lời giải thích. Thầy cô chọn bài, chọn số câu, rồi in.'; },
+    tqH: 'Tạo đề kiểm tra từ ngân hàng câu hỏi', tqLead: function (n) { return 'Ngân hàng hiện có ' + n + ' câu hỏi lấy từ các bài kiểm tra mini của Lemonmath, câu nào cũng có đáp án và lời giải thích. Thầy cô chọn bài, chọn số câu (hoặc chia theo ma trận 4 mức độ), rồi in.'; },
     grade: 'Lớp hoặc kì thi', pick: 'Chọn…', lessons: 'Chọn bài học', all: 'Chọn tất cả', none: 'Bỏ chọn', count: 'Số câu hỏi', mc: 'Phần I. Nhiều lựa chọn', tf: 'Phần II. Đúng sai', sa: 'Phần III. Trả lời ngắn',
     have: 'có', codes: 'Số mã đề', shuf: 'Trộn thứ tự các phương án A, B, C, D ở mỗi mã đề', expl: 'In kèm lời giải thích trong phần đáp án (khi đó không trộn phương án, vì lời giải thích có nhắc tới các chữ A, B, C, D)',
     title: 'Tên bài kiểm tra', titleV: 'ĐỀ KIỂM TRA', sub: 'Dòng phụ (môn, lớp, thời gian)', subV: function (g) { return 'Môn Toán · ' + g + ' · Thời gian làm bài: 45 phút'; },
@@ -31,9 +31,12 @@
     scH: 'Phân tích điểm của lớp', scLead: 'Dán danh sách điểm vào ô dưới đây, mỗi học sinh một dòng (tên rồi đến điểm, hoặc chỉ điểm). Điểm chỉ được tính ngay trên máy của thầy cô.',
     scPh: 'Nguyễn Văn An 7,5\nTrần Thị Bình 4\nLê Minh Châu 9,25', max: 'Thang điểm', run: 'Phân tích', none2: 'Chưa đọc được điểm nào. Mỗi dòng cần kết thúc bằng một con số.',
     n: 'Sĩ số', mean: 'Điểm trung bình', med: 'Trung vị', hi: 'Cao nhất', lo: 'Thấp nhất', pass: 'Từ 5 trở lên', good: 'Từ 8 trở lên', dist: 'Phân bố theo mức', notes: 'Gợi ý cho thầy cô', each: 'Nhận xét gửi phụ huynh từng học sinh', copy: 'Sao chép tất cả nhận xét', copied: 'Đã sao chép', student: 'Học sinh', pts: 'điểm', outOf: 'quy ra thang 10',
-    bad: function (l) { return 'Bỏ qua ' + l + ' dòng không đọc được điểm hoặc điểm vượt thang.'; }
+    bad: function (l) { return 'Bỏ qua ' + l + ' dòng không đọc được điểm hoặc điểm vượt thang.'; },
+    mxOn: 'Chia số câu theo mức độ (ma trận Nhận biết – Thông hiểu – Vận dụng – Vận dụng cao)', mxAny: 'Mức bất kì', lvN: { NB: 'Nhận biết', TH: 'Thông hiểu', VD: 'Vận dụng', VDC: 'Vận dụng cao' },
+    mxHint: 'Mỗi ô là số câu cần lấy ở mức đó; số nhỏ bên dưới là số câu đang có trong các bài đã chọn. Câu đúng sai xếp theo ý khó nhất trong 4 ý. Tổng của mỗi hàng tự điền vào ô Số câu hỏi ở trên.',
+    mxShort: function (k, lv, w, h) { return k + ', ' + lv + ': chỉ có ' + h + ' câu (cần ' + w + ').'; }, mxLine: 'Ma trận', lvOf: 'mức'
   } : {
-    tqH: 'Build a test from the question bank', tqLead: function (n) { return 'The bank holds ' + n + ' questions from Lemonmath’s mini tests, each with its answer and an explanation. Choose lessons, choose how many questions, then print.'; },
+    tqH: 'Build a test from the question bank', tqLead: function (n) { return 'The bank holds ' + n + ' questions from Lemonmath’s mini tests, each with its answer and an explanation. Choose lessons, choose how many questions (or split them with a 4-level matrix), then print.'; },
     grade: 'Grade or exam', pick: 'Choose…', lessons: 'Choose lessons', all: 'Select all', none: 'Clear', count: 'Number of questions', mc: 'Part I. Multiple choice', tf: 'Part II. True or false', sa: 'Part III. Short answer',
     have: 'available', codes: 'Versions', shuf: 'Shuffle options A, B, C, D in each version', expl: 'Print explanations with the answer key (options are then not shuffled, because explanations refer to the letters A, B, C, D)',
     title: 'Test title', titleV: 'MATHS TEST', sub: 'Subtitle (subject, class, time)', subV: function (g) { return 'Mathematics · ' + g + ' · Time allowed: 45 minutes'; },
@@ -44,12 +47,16 @@
     scH: 'Analyse class scores', scLead: 'Paste the scores below, one student per line (name then score, or just the score). The scores are processed on your device only.',
     scPh: 'Anna Nguyen 7.5\nBinh Tran 4\nChau Le 9.25', max: 'Maximum score', run: 'Analyse', none2: 'No scores could be read. Each line should end with a number.',
     n: 'Students', mean: 'Mean', med: 'Median', hi: 'Highest', lo: 'Lowest', pass: '5 or above', good: '8 or above', dist: 'Distribution by level', notes: 'Suggestions for the teacher', each: 'A note to each student’s parents', copy: 'Copy all comments', copied: 'Copied', student: 'Student', pts: 'points', outOf: 'on the 10-point scale',
-    bad: function (l) { return l + (l === 1 ? ' line was' : ' lines were') + ' skipped: no score found, or the score is above the maximum.'; }
+    bad: function (l) { return l + (l === 1 ? ' line was' : ' lines were') + ' skipped: no score found, or the score is above the maximum.'; },
+    mxOn: 'Split the questions by cognitive level (a Recall – Understanding – Application – Advanced application matrix)', mxAny: 'Any level', lvN: { NB: 'Recall', TH: 'Understanding', VD: 'Application', VDC: 'Advanced application' },
+    mxHint: 'Each box is the number of questions to take at that level; the small number under it is how many the chosen lessons hold. A true/false question counts at the level of its hardest statement. Each row’s total fills the Number of questions box above.',
+    mxShort: function (k, lv, w, h) { return k + ', ' + lv + ': only ' + h + ' available (you asked for ' + w + ').'; }, mxLine: 'Matrix', lvOf: 'level'
   };
 
   /* ================= 1. test builder ================= */
   var app = $('#tq-app'), out = $('#tq-out');
   if (app && out) (function () {
+    var LV = ['NB', 'TH', 'VD', 'VDC'];
     var bankUrl = app.getAttribute('data-bank'), siteName = app.getAttribute('data-site') || 'Lemonmath', bank = null, cache = {};
     app.hidden = false;
     if (location.hash === '#tq-app') setTimeout(function () { app.scrollIntoView({ block: 'start' }); }, 0);   // "create a test now" links
@@ -58,6 +65,10 @@
       '<fieldset id="tq-lessons" class="tool-set" hidden><legend>' + T.lessons + '</legend><p class="tool-mini"><button type="button" class="tool-link" id="tq-all">' + T.all + '</button> · <button type="button" class="tool-link" id="tq-none">' + T.none + '</button></p><div id="tq-tree"></div></fieldset>' +
       '<fieldset id="tq-opts" class="tool-set" hidden><legend>' + T.count + '</legend><div class="tool-row">' +
       ['mc', 'tf', 'sa'].map(function (k, i) { return '<label>' + T[k] + ' <input type="number" id="tq-n-' + k + '" min="0" max="60" value="' + [10, 0, 0][i] + '" inputmode="numeric"> <small id="tq-h-' + k + '"></small></label>'; }).join('') + '</div>' +
+      '<p class="tq-mxon"><label class="tool-check"><input type="checkbox" id="tq-mx"> ' + T.mxOn + '</label></p>' +
+      '<div id="tq-mxbox" hidden><div class="tq-mxwrap"><table class="tq-mx"><thead><tr><th></th>' + LV.map(function (l) { return '<th>' + l + '<small>' + T.lvN[l] + '</small></th>'; }).join('') + '<th>' + T.mxAny + '</th></tr></thead><tbody>' +
+      ['mc', 'tf', 'sa'].map(function (k) { return '<tr><th>' + T[k] + '</th>' + LV.concat(['*']).map(function (l) { return '<td><input type="number" min="0" max="60" value="0" inputmode="numeric" data-mk="' + k + '" data-ml="' + l + '" aria-label="' + esc(T[k] + ' · ' + (l === '*' ? T.mxAny : T.lvN[l])) + '"><small data-mh="' + k + l + '"></small></td>'; }).join('') + '</tr>'; }).join('') +
+      '</tbody></table></div><p class="tool-mini">' + T.mxHint + '</p></div>' +
       '<div class="tool-row"><label>' + T.codes + ' <select id="tq-codes"><option>1</option><option>2</option><option>3</option><option>4</option></select></label></div>' +
       '<p><label class="tool-check"><input type="checkbox" id="tq-shuf" checked> ' + T.shuf + '</label><br><label class="tool-check"><input type="checkbox" id="tq-expl"> ' + T.expl + '</label></p>' +
       '<div class="tool-row"><label class="grow">' + T.title + ' <input type="text" id="tq-title" maxlength="80" value="' + T.titleV + '"></label><label class="grow">' + T.sub + ' <input type="text" id="tq-sub" maxlength="120"></label></div>' +
@@ -68,17 +79,25 @@
       list.forEach(function (g) { var o = el('option', '', esc(g.name) + ' (' + g.n + ')'); o.value = g.id; gradeSel.appendChild(o); });
     }).catch(function () { app.appendChild(el('p', 'tool-msg', T.loadErr)); });
 
+    /* cognitive level of a bank item: NB, TH, VD, VDC; a true/false question counts at its hardest statement */
+    function lvOf(it) { var v = it.v; if (!v) return ''; if (typeof v === 'string') return v; var b = ''; v.forEach(function (x) { if (LV.indexOf(x) > LV.indexOf(b)) b = x; }); return b; }
+    function mxOn() { return $('#tq-mx').checked; }
+    function mxWant(k) { var w = {}; $$('input[data-mk="' + k + '"]', app).forEach(function (i) { w[i.getAttribute('data-ml')] = Math.max(0, Math.min(60, parseInt(i.value, 10) || 0)); }); return w; }
+    function mxSync() { ['mc', 'tf', 'sa'].forEach(function (k) { var w = mxWant(k), t = 0; Object.keys(w).forEach(function (l) { t += w[l]; }); $('#tq-n-' + k).value = t; }); }
     function chosen() { return $$('input[data-l]:checked', tree).map(function (i) { return +i.getAttribute('data-l'); }); }
     function avail() {
       var ids = chosen(), n = { mc: 0, tf: 0, sa: 0 };
-      if (bank) bank.items.forEach(function (it) { if (ids.indexOf(it.l) !== -1) n[it.y]++; });
-      ['mc', 'tf', 'sa'].forEach(function (k) { $('#tq-h-' + k).textContent = '(' + T.have + ' ' + n[k] + ')'; });
+      var nl = {};
+      if (bank) bank.items.forEach(function (it) { if (ids.indexOf(it.l) !== -1) { n[it.y]++; var key = it.y + (lvOf(it) || '?'); nl[key] = (nl[key] || 0) + 1; } });
+      ['mc', 'tf', 'sa'].forEach(function (k) { $('#tq-h-' + k).textContent = '(' + T.have + ' ' + n[k] + ')'; LV.forEach(function (l) { $('[data-mh="' + k + l + '"]', app).textContent = T.have + ' ' + (nl[k + l] || 0); }); $('[data-mh="' + k + '*"]', app).textContent = T.have + ' ' + n[k]; });
       return n;
     }
     function drawTree() {
       tree.innerHTML = '';
       bank.chapters.forEach(function (ch, ci) {
-        var det = el('details', 'tq-ch'), sum = el('summary', '', '<label class="tool-check"><input type="checkbox" data-ch="' + ci + '"> <b>' + esc(ch.t) + '</b></label>');
+        var ls = ch.lessons.map(function (x) { return x.i; }), cnt = {};
+        bank.items.forEach(function (it) { if (ls.indexOf(it.l) !== -1) { var l = lvOf(it); if (l) cnt[l] = (cnt[l] || 0) + 1; } });
+        var det = el('details', 'tq-ch'), sum = el('summary', '', '<label class="tool-check"><input type="checkbox" data-ch="' + ci + '"> <b>' + esc(ch.t) + '</b></label> <small class="tq-lvc">' + LV.map(function (l) { return l + ' ' + (cnt[l] || 0); }).join(' · ') + '</small>');
         det.appendChild(sum);
         var ul = el('ul');
         ch.lessons.forEach(function (ls) { ul.appendChild(el('li', '', '<label class="tool-check"><input type="checkbox" data-l="' + ls.i + '" data-c="' + ci + '"> ' + esc(ls.t) + ' <small>(' + (ls.n[0] + ls.n[1] + ls.n[2]) + ')</small></label>')); });
@@ -95,6 +114,8 @@
     var setAll = function (on) { $$('input[type=checkbox]', tree).forEach(function (i) { i.checked = on; }); avail(); };
     $('#tq-all').addEventListener('click', function () { setAll(true); });
     $('#tq-none').addEventListener('click', function () { setAll(false); });
+    $('#tq-mx').addEventListener('change', function () { var on = mxOn(); $('#tq-mxbox').hidden = !on; ['mc', 'tf', 'sa'].forEach(function (k) { $('#tq-n-' + k).readOnly = on; }); if (on) mxSync(); });
+    app.addEventListener('input', function (e) { if (e.target.hasAttribute('data-mk')) mxSync(); });
     gradeSel.addEventListener('change', function () {
       var id = gradeSel.value; bank = null; out.hidden = true; out.innerHTML = ''; $('#tq-print').hidden = true; $('#tq-printq').hidden = true; msg.textContent = '';
       $('#tq-lessons').hidden = $('#tq-opts').hidden = !id;
@@ -106,9 +127,9 @@
     });
 
     /* take n questions of one kind, spread as evenly as possible over the chosen lessons */
-    function take(kind, n, ids) {
+    function take(kind, n, ids, lv, skip) {
       var by = {}, order = [], res = [];
-      bank.items.forEach(function (it) { if (it.y === kind && ids.indexOf(it.l) !== -1) { if (!by[it.l]) { by[it.l] = []; order.push(it.l); } by[it.l].push(it); } });
+      bank.items.forEach(function (it) { if (it.y === kind && ids.indexOf(it.l) !== -1 && (!lv || lvOf(it) === lv) && !(skip && skip.indexOf(it) !== -1)) { if (!by[it.l]) { by[it.l] = []; order.push(it.l); } by[it.l].push(it); } });
       order.forEach(function (l) { by[l] = shuffle(by[l]); });
       order = shuffle(order);
       while (res.length < n) {
@@ -118,15 +139,22 @@
       }
       return res.sort(function (a, b) { return a.l - b.l; });
     }
+    /* the questions of one part: either n of any level, or the matrix row of this part (levels first, then "any level" from what is left) */
+    function pick(kind, ids, cap, notes) {
+      if (!mxOn()) { var n = Math.max(0, Math.min(cap, parseInt($('#tq-n-' + kind).value, 10) || 0)), r = n ? take(kind, n, ids) : []; if (notes && r.length < n) notes.push(T.short(T[kind], n, r.length)); return r; }
+      var w = mxWant(kind), res = [];
+      LV.forEach(function (l) { if (!w[l]) return; var r = take(kind, w[l], ids, l); if (notes && r.length < w[l]) notes.push(T.mxShort(T[kind], T.lvN[l], w[l], r.length)); res = res.concat(r); });
+      if (w['*']) { var r2 = take(kind, w['*'], ids, '', res); if (notes && r2.length < w['*']) notes.push(T.mxShort(T[kind], T.mxAny, w['*'], r2.length)); res = res.concat(r2); }
+      return res.slice(0, cap).sort(function (a, b) { return a.l - b.l || LV.indexOf(lvOf(a)) - LV.indexOf(lvOf(b)); });
+    }
     function lessonTitle(i) { var t = ''; bank.chapters.forEach(function (c) { c.lessons.forEach(function (l) { if (l.i === i) t = l.t; }); }); return t; }
 
     function build() {
       var ids = chosen(), want = {}, picked = {}, notes = [], total = 0;
       if (!bank || !ids.length) { msg.textContent = T.needLesson; return; }
+      if (mxOn()) mxSync();
       ['mc', 'tf', 'sa'].forEach(function (k) {
-        want[k] = Math.max(0, Math.min(60, parseInt($('#tq-n-' + k).value, 10) || 0));
-        picked[k] = want[k] ? take(k, want[k], ids) : [];
-        if (picked[k].length < want[k]) notes.push(T.short(T[k], want[k], picked[k].length));
+        picked[k] = pick(k, ids, 60, notes);
         total += picked[k].length;
       });
       if (!total) { msg.textContent = notes.length ? notes.join(' ') : T.needCount; return; }
@@ -155,7 +183,7 @@
               ans = it.k.split('').map(function (x, n) { return 'abcd'[n] + ') ' + (x === 'T' ? T.T : T.F); }).join('; ');
             } else body += '<p class="tq-ans">' + T.ans + ': <i></i></p>';
             box.innerHTML = body; sheet.appendChild(box);
-            kp.rows.push({ n: qi + 1, a: ans, e: it.e, from: lessonTitle(it.l), wide: k !== 'mc' });
+            kp.rows.push({ n: qi + 1, a: ans, e: it.e, from: lessonTitle(it.l), wide: k !== 'mc', v: lvOf(it) });
           });
           key.parts.push(kp);
         });
@@ -169,9 +197,11 @@
         key.parts.forEach(function (kp) {
           ks.appendChild(el('p', 'tq-kt', '<b>' + kp.title + '</b>'));
           if (withExpl) ks.appendChild(el('ol', 'tq-kx', kp.rows.map(function (r) { return '<li><b>' + r.a + '.</b> ' + (r.e || '') + '</li>'; }).join('')));
-          else ks.appendChild(el('div', 'tq-kg' + (kp.rows[0].wide ? ' wide' : ''), kp.rows.map(function (r) { return '<span><b>' + r.n + '.</b> ' + r.a + '</span>'; }).join('')));
+          else ks.appendChild(el('div', 'tq-kg' + (kp.rows[0].wide ? ' wide' : ''), kp.rows.map(function (r) { return '<span><b>' + r.n + '.</b> ' + r.a + (r.v ? ' <small class="tq-kv">' + r.v + '</small>' : '') + '</span>'; }).join('')));
         });
       });
+      var mxc = {}; keys[0].parts.forEach(function (kp) { kp.rows.forEach(function (r) { if (r.v) mxc[r.v] = (mxc[r.v] || 0) + 1; }); });
+      if (Object.keys(mxc).length) ks.appendChild(el('p', 'tq-src', '<b>' + T.mxLine + ':</b> ' + LV.filter(function (l) { return mxc[l]; }).map(function (l) { return T.lvN[l] + ' ' + mxc[l]; }).join(' · ') + '.'));
       var src = [];
       keys[0].parts.forEach(function (kp) { kp.rows.forEach(function (r) { if (src.indexOf(r.from) === -1) src.push(r.from); }); });
       ks.appendChild(el('p', 'tq-src', '<b>' + T.from + ':</b> ' + src.map(esc).join('; ') + '.'));
@@ -231,7 +261,8 @@
         var ids = chosen();
         if (!bank || !ids.length) { msg.textContent = T.needLesson; return; }
         var caps = { mc: 30, tf: 10, sa: 12 }, list = [];
-        ['mc', 'tf', 'sa'].forEach(function (k) { var n = Math.max(0, Math.min(caps[k], parseInt($('#tq-n-' + k).value, 10) || 0)); if (n) list = list.concat(take(k, n, ids)); });
+        if (mxOn()) mxSync();
+        ['mc', 'tf', 'sa'].forEach(function (k) { list = list.concat(pick(k, ids, caps[k])); });
         if (!list.length) { msg.textContent = L.noMc; return; }
         var bankId = gradeSel.value, title = ($('#tq-title').value || '').trim().slice(0, 80);
         btn.disabled = true;
