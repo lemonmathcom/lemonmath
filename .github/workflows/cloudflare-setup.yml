@@ -91,10 +91,16 @@ jobs:
           echo "== Tên miền gắn với Worker"; cf GET "/accounts/$CLOUDFLARE_ACCOUNT_ID/workers/domains" | jq -r '.result[] | "\(.hostname) -> \(.service)"' || echo "(không đọc được)"
           echo "== R2"; R=$(cf GET "/accounts/$CLOUDFLARE_ACCOUNT_ID/r2/buckets") && echo "$R" | jq -r '.result.buckets[]?.name' || { echo -n "chưa dùng được R2: "; echo "$R" | errors; }
 
+      - name: Setup Node
+        if: inputs.buoc != 'kiem-tra'
+        uses: actions/setup-node@v7
+        with:
+          node-version: '22'
+
       - name: Install wrangler
         if: inputs.buoc != 'kiem-tra'
         working-directory: api
-        run: npm ci --silent
+        run: npm ci --no-audit --no-fund
 
       - name: R2 cho tài liệu
         if: inputs.buoc == 'r2'
