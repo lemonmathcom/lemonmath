@@ -1159,4 +1159,4 @@ a.off-miss { opacity: .45; }
 .ar-pt.up { background: #DCFCE7; color: #166534; } .ar-pt.down { background: #FFE4E6; color: #9F1239; }
 .gr-mem > li.me .jr-days li:not(.on) { background: var(--surface); }
 /* the brand name hides until the full menu has room beside it (measured 25/11/2026: 1061–1160px overflowed) */
-@media (min-width: 1061px) and (max-width: 1160px) { .brand span { display: none; } }
+@media (min-width: 1061px) and (max-width: 1240px) { .brand span { display: none; } }
