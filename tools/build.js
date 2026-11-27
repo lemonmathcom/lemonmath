@@ -549,7 +549,7 @@ function libraryPage(lang) {
   const body = '<nav class="crumbs" aria-label="' + esc(T.breadcrumb) + '"><a href="' + relDir(d, homeDir(lang)) + '">' + esc(T.home) + '</a></nav>\n' +
     renderLibrary(lang);
   put(lang, d, alt, shell({
-    lang, dir: d, altDir: alt, title: L.title + ' | ' + site.name, description: L.lead, body, wide: true, level: 'middle',
+    lang, dir: d, altDir: alt, title: seoTitle(L.title), description: L.lead, body, wide: true, level: 'middle',
     scripts: ['assets/library.js'], styles: ['assets/library.css'],
     jsonld: [crumbLD([{ name: T.home, url: abs(homeDir(lang)) }, { name: L.nav, url: abs(d) }])]
   }), isoDay(gitDate('data/library.json')));
