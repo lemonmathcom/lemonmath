@@ -11,6 +11,7 @@ from time import sleep
 from urllib.error import HTTPError
 from urllib.parse import quote, urlsplit
 from urllib.request import Request, urlopen
+from uuid import uuid4
 from zipfile import ZipFile
 
 ROOT = Path(__file__).resolve().parent
@@ -29,11 +30,11 @@ def require(condition, message):
     if not condition:
         raise RuntimeError(message)
 
-def pdf_url(item):
-    return f"https://{DOWNLOAD_HOST}/" + quote(item["key"], safe="/") + "?download=1"
-
-def verify_pdf(item):
-    url = pdf_url(item)
+def verify_pdf(item, download=True):
+    # A lookup before upload must use a different cache key from the public
+    # download URL. Otherwise a cached 404 can outlive the object upload.
+    query = "?download=1" if download else f"?lm-check={uuid4().hex}"
+    url = f"https://{DOWNLOAD_HOST}/" + quote(item["key"], safe="/") + query
     try:
         with urlopen(Request(url,headers={"User-Agent":USER_AGENT,"Cache-Control":"no-cache"}),timeout=15) as response:
             require(urlsplit(response.url).hostname == DOWNLOAD_HOST, "Unexpected PDF host")
@@ -42,7 +43,7 @@ def verify_pdf(item):
                     sha256(payload).hexdigest() == item["sha256"] and len(payload) == item["bytes"],
                     f"Unexpected PDF bytes for {item['key']}")
             require(response.headers.get_content_type() == "application/pdf" and
-                    response.headers.get("Content-Disposition","").lower().startswith("attachment"),
+                    (not download or response.headers.get("Content-Disposition","").lower().startswith("attachment")),
                     f"Missing PDF download headers for {item['key']}")
             return True
     except HTTPError as error:
@@ -129,15 +130,18 @@ def publish():
     verify_bucket()
 
     for item in manifest:
-        if not verify_pdf(item):
+        if not verify_pdf(item,download=False):
             wrangler("r2","object","put",f"{BUCKET}/{item['key']}","--file",
                      str(ROOT/"r2"/item["key"]),"--remote","--content-type","application/pdf")
-        for wait in (0, 2, 4, 8):
-            sleep(wait)
-            if verify_pdf(item):
-                break
-        else:
-            raise RuntimeError(f"PDF did not reach the download host: {item['key']}")
+    pending = manifest
+    for wait in (0, 3, 6, 12, 24, 45, 60, 60):
+        sleep(wait)
+        with ThreadPoolExecutor(max_workers=6) as pool:
+            pending = [item for item,available in zip(pending,pool.map(verify_pdf,pending)) if not available]
+        if not pending:
+            break
+        print(f"Waiting for {len(pending)} download URLs to reach the CDN",flush=True)
+    require(not pending, "PDF download URLs did not reach the CDN")
     print(f"Verified {len(manifest)} downloadable PDFs before deploying QR links")
 
     config = str(ROOT/"wrangler.jsonc")
