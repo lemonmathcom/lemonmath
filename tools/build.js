@@ -26,6 +26,7 @@ const { render, esc, parseQuiz, optCols } = require('./render.js');
 const { mascot, icon } = require('./art.js');
 const { UI } = require('./ui.js');
 const { worksheet, qrSvg, WS_DIR, WS_LABEL } = require('./worksheet.js');
+const { libraryDir, libraryText, renderLibrary } = require('./library.js');
 const { slim, addScripts } = require('./slim-math.js');
 
 const ROOT = path.resolve(__dirname, '..');
@@ -419,6 +420,7 @@ function shell(o) {
     '<link rel="preload" as="font" type="font/woff2" crossorigin href="' + A('assets/fonts/nunito-latin-wght-normal.woff2') + '">',
     '<link rel="stylesheet" href="' + A('assets/fonts.css') + '">',
     '<link rel="stylesheet" href="' + A('assets/style.css') + '">',
+    ...(o.styles || []).map((file) => '<link rel="stylesheet" href="' + A(file) + '">'),
     o.math ? '<link rel="stylesheet" href="' + A('assets/katex/katex.min.css') + '">' : '',
     o.side ? '<style>@page :right { @bottom-center { content: "Step by step"; font: italic 600 9pt "Nunito Variable", "Nunito", sans-serif; color: #555; } } @page :left { @bottom-center { content: "' + T.motto + '"; font: italic 600 9pt "Nunito Variable", "Nunito", sans-serif; color: #555; } }</style>' : '',
     '<script>(function(){var r=document.documentElement;r.classList.add("js");try{var t=localStorage.getItem("lm-theme");if(t)r.setAttribute("data-theme",t)}catch(e){}})()</script>'
@@ -429,9 +431,10 @@ function shell(o) {
   // the top menu shows the main places and keeps the rest under "More"; the drawer (phones, tablets) lists everything
   const NL = (dir, text, extra) => '<a href="' + relDir(d, dir) + (extra || '') + '">' + esc(text) + '</a>';
   const more = [NL(paperDir(lang), T.paper), NL(offlineDir(lang), T.offlineNav), API_URL ? NL(groupsDir(lang), T.grNav) : '', NL(formulasDir(lang), T.fcTitle)].filter(Boolean);
-  const topLinks = NL(homeDir(lang), T.allGrades, '#grades') + NL(examsDir(lang), T.examsNav) + NL(arenaDir(lang), T.arNav) + NL(parentsDir(lang), T.parents) + NL(teachersDir(lang), T.teachers) + NL(journeyDir(lang), T.jrNav) +
+  const libraryLink = NL(libraryDir(lang), libraryText[lang].nav);
+  const topLinks = NL(homeDir(lang), T.allGrades, '#grades') + libraryLink + NL(examsDir(lang), T.examsNav) + NL(arenaDir(lang), T.arNav) + NL(parentsDir(lang), T.parents) + NL(teachersDir(lang), T.teachers) + NL(journeyDir(lang), T.jrNav) +
     '<details class="nav-more"><summary>' + esc(T.navMore) + '</summary><div class="nav-pop">' + more.join('') + '</div></details>';   // "About" stays in the footer
-  const mainLinks = NL(homeDir(lang), T.allGrades, '#grades') + NL(examsDir(lang), T.examsNav) + NL(arenaDir(lang), T.arNav) + (API_URL ? NL(groupsDir(lang), T.grNav) : '') + NL(paperDir(lang), T.paper) + NL(offlineDir(lang), T.offlineNav) + NL(parentsDir(lang), T.parents) + NL(teachersDir(lang), T.teachers) + NL(journeyDir(lang), T.jrNav);
+  const mainLinks = NL(homeDir(lang), T.allGrades, '#grades') + libraryLink + NL(examsDir(lang), T.examsNav) + NL(arenaDir(lang), T.arNav) + (API_URL ? NL(groupsDir(lang), T.grNav) : '') + NL(paperDir(lang), T.paper) + NL(offlineDir(lang), T.offlineNav) + NL(parentsDir(lang), T.parents) + NL(teachersDir(lang), T.teachers) + NL(journeyDir(lang), T.jrNav);
   // the drawer (phones, tablets held upright): the main menu first, then the lessons of this grade
   const drawerTop = '<div class="side-top"><span>Menu</span><button id="menu-close" class="icon-btn side-close" type="button" aria-label="' + esc(T.closeMenu) + '" hidden>✕</button></div>\n<nav class="side-main" aria-label="' + esc(T.mainNav) + '">' + mainLinks + '</nav>\n';
   const side = (o.side
@@ -541,6 +544,17 @@ function examsPage(lang, intro) {
   }), intro.modified);
 }
 
+function libraryPage(lang) {
+  const T = UI[lang], L = libraryText[lang], d = libraryDir(lang), alt = libraryDir(other(lang));
+  const body = '<nav class="crumbs" aria-label="' + esc(T.breadcrumb) + '"><a href="' + relDir(d, homeDir(lang)) + '">' + esc(T.home) + '</a></nav>\n' +
+    renderLibrary(lang);
+  put(lang, d, alt, shell({
+    lang, dir: d, altDir: alt, title: L.title + ' | ' + site.name, description: L.lead, body, wide: true, level: 'middle',
+    scripts: ['assets/library.js'], styles: ['assets/library.css'],
+    jsonld: [crumbLD([{ name: T.home, url: abs(homeDir(lang)) }, { name: L.nav, url: abs(d) }])]
+  }), isoDay(gitDate('data/library.json')));
+}
+
 function homePage(lang) {
   const T = UI[lang], d = homeDir(lang), alt = homeDir(other(lang));
   const g10 = grades.find((g) => g.n === 10);
@@ -550,7 +564,7 @@ function homePage(lang) {
       '<div class="gtiles">' + gs.map((g) => gradeTile(lang, d, g)).join('') + '</div></section>';
   };
   const body = '<section class="hero">\n<div class="hero-text">\n<h1 class="sr">' + esc(T.h1) + '</h1>\n' +
-    '<p class="hero-actions"><a class="btn" href="#grades">' + esc(T.pickGrade) + '</a></p>\n<nav class="level-jump" aria-label="' + esc(T.pickGrade) + '">' + ['primary', 'middle', 'high'].map((l) => '<a class="btn btn-ghost" href="' + relDir(d, levelDir(lang, l)) + '">' + esc(T.levels[l][0]) + '</a>').join('') + '</nav>\n</div>\n' +
+    '<p class="hero-actions"><a class="btn" href="#grades">' + esc(T.pickGrade) + '</a> <a class="btn btn-ghost" href="' + relDir(d, libraryDir(lang)) + '">' + esc(libraryText[lang].nav) + '</a></p>\n<nav class="level-jump" aria-label="' + esc(T.pickGrade) + '">' + ['primary', 'middle', 'high'].map((l) => '<a class="btn btn-ghost" href="' + relDir(d, levelDir(lang, l)) + '">' + esc(T.levels[l][0]) + '</a>').join('') + '</nav>\n</div>\n' +
     '<div class="hero-art" aria-hidden="true">' + mascot({ cls: 'hero-mascot', mood: 'wow' }) + '<span class="float f1">x²</span><span class="float f2">π</span><span class="float f3">∑</span><span class="float f4">√</span></div>\n</section>\n' +
     '<section class="off-promo" aria-labelledby="off-h"><div class="off-promo-text"><p class="eyebrow">' + esc(T.offEyebrow) + '</p><h2 id="off-h">' + esc(T.offH) + '</h2><p>' + esc(T.offLead) + '</p>' +
     '<ul>' + T.offPoints.map((x) => '<li>' + esc(x) + '</li>').join('') + '</ul>' +
@@ -1185,6 +1199,7 @@ async function main() {
 
   LANGS.forEach((lang) => {
     homePage(lang);
+    libraryPage(lang);
     examsPage(lang, examsIntro[lang]);
     ['primary', 'middle', 'high'].forEach((l) => levelPage(lang, l));
     tracks.forEach((g) => {
