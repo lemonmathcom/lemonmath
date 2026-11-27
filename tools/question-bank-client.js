@@ -31,7 +31,7 @@
   }
 
   function card(question, tags) {
-    const { code, grade, type, title, anchor, prompt, options, answers, explanation } = question;
+    const { code, grade, type, title, anchor, prompt, options, answers, answerHtml, explanation, sourceHref } = question;
     const headingId = `${code}-${anchor}`;
     const choiceLabels = type === 'tf' ? ['a)', 'b)', 'c)', 'd)'] : ['A.', 'B.', 'C.', 'D.'];
     const optionList = options.map((option, i) => `<li><b>${choiceLabels[i]}</b><div>${option}</div></li>`).join('');
@@ -41,7 +41,11 @@
       return `<li><a href="${esc(item.links[lang])}">${esc(item.title[lang])}</a> ${labels}
         <span lang="vi">${esc(marker)} · ${esc(skill)}</span></li>`;
     }).join('');
-    const sourceUrl = `/d/${code}#${anchor}`;
+    const sourceUrl = sourceHref || `/d/${code}#${anchor}`;
+    const sourceLabel = sourceHref && T.sourceDocument ? T.sourceDocument : T.source;
+    const answer = answerHtml || (answers.length > 1
+      ? `<ul lang="vi">${answers.map((value) => `<li>${esc(value)}</li>`).join('')}</ul>`
+      : `<p lang="vi">${esc(answers[0])}</p>`);
     const article = document.createElement('article');
     article.className = 'card qb-card';
     article.setAttribute('aria-labelledby', headingId);
@@ -52,10 +56,10 @@
       <ul class="qb-tags" aria-label="${esc(T.lesson)}">${classification}</ul>
       <details class="qb-solution"><summary>${esc(T.reveal)}</summary>
         <div class="qb-worked prose"><h3>${esc(T.answer)}</h3>
-          ${answers.length > 1 ? `<ul lang="vi">${answers.map((value) => `<li>${esc(value)}</li>`).join('')}</ul>` : `<p lang="vi">${esc(answers[0])}</p>`}
+          <div lang="vi">${answer}</div>
           <h3>${esc(T.solution)}</h3><div lang="vi">${explanation}</div></div>
       </details>
-      <p class="qb-source"><a href="${sourceUrl}">${esc(T.source)}</a><span lang="vi">${esc(bank.papers[code])}</span></p>`;
+      <p class="qb-source"><a href="${esc(sourceUrl)}">${esc(sourceLabel)}</a><span lang="vi">${esc(bank.papers[code])}</span></p>`;
     return article;
   }
 

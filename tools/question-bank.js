@@ -7,30 +7,33 @@ const { esc, LEVELS, parseQuiz, render } = require('./render.js');
 const { mascot } = require('./art.js');
 const library = require('../data/library.json');
 const sources = require('./question-bank-sources.json');
+const review = require('./question-bank-review.json');
 
 const sections = { mc: 'I', tf: 'II', sa: 'III' };
 const roman = { I: '1', II: '2', III: '3', IV: '4', V: '5' };
 const questionBankDir = (lang) => lang === 'vi' ? 'vi/ngan-hang-cau-hoi' : 'question-bank';
 const questionBankText = {
   vi: {
-    title: 'Ngân hàng câu hỏi', lead: (count) => `Câu hỏi từ ${count} đề thi Toán cuối học kì 1 lớp 6–12, năm học 2025–2026.`,
+    title: 'Ngân hàng câu hỏi', lead: (count) => `Câu hỏi từ ${count} đề thi, đề cương và phiếu ôn tập Toán cuối học kì 1 lớp 6–12, năm học 2025–2026.`,
     grade: 'Lớp', lesson: 'Bài học', type: 'Dạng câu', level: 'Mức độ', all: 'Tất cả',
     types: { mc: 'Trắc nghiệm', tf: 'Đúng/sai', sa: 'Trả lời ngắn', tl: 'Tự luận' },
     levels: { NB: 'Nhận biết', TH: 'Thông hiểu', VD: 'Vận dụng', VDC: 'Vận dụng cao' },
     clear: 'Xóa bộ lọc', loading: 'Đang tải câu hỏi…', error: 'Chưa tải được câu hỏi. Hãy thử lại.', retry: 'Thử lại',
     count: '{count} câu/bài', empty: 'Không có câu phù hợp với bộ lọc.', more: 'Xem thêm câu',
-    source: 'Xem đề gốc', reveal: 'Xem đáp án và lời giải', answer: 'Đáp án', solution: 'Lời giải',
-    noScript: 'Bật JavaScript để dùng bộ lọc câu hỏi.', library: 'Mở đề thi trong Thư viện'
+    source: 'Xem đề gốc', sourceDocument: 'Xem tài liệu gốc',
+    reveal: 'Xem đáp án và lời giải', answer: 'Đáp án', solution: 'Lời giải',
+    noScript: 'Bật JavaScript để dùng bộ lọc câu hỏi.', library: 'Mở Thư viện'
   },
   en: {
-    title: 'Question bank', lead: (count) => `Vietnamese questions from ${count} end-of-term maths papers for grades 6–12, 2025–2026.`,
+    title: 'Question bank', lead: (count) => `Vietnamese questions from ${count} end-of-term maths papers, revision guides and worksheets for grades 6–12, 2025–2026.`,
     grade: 'Grade', lesson: 'Lesson', type: 'Question type', level: 'Difficulty', all: 'All',
     types: { mc: 'Multiple choice', tf: 'True or false', sa: 'Short answer', tl: 'Written response' },
     levels: { NB: 'Recall', TH: 'Understanding', VD: 'Application', VDC: 'Advanced application' },
     clear: 'Clear filters', loading: 'Loading questions…', error: 'The questions could not load. Try again.', retry: 'Try again',
     count: '{count} questions', empty: 'No questions match these filters.', more: 'Show more questions',
-    source: 'Original paper', reveal: 'Show answer and solution', answer: 'Answer', solution: 'Solution',
-    noScript: 'Enable JavaScript to filter questions.', library: 'Browse the exam papers in the library'
+    source: 'Original paper', sourceDocument: 'Original document',
+    reveal: 'Show answer and solution', answer: 'Answer', solution: 'Solution',
+    noScript: 'Enable JavaScript to filter questions.', library: 'Browse the library'
   }
 };
 
@@ -40,7 +43,12 @@ function essayNumber(label) {
   return [roman[match[1]] || match[1], match[2]].filter(Boolean).join('.');
 }
 
-const tex = { renderToString: (value, options) => '<span class="tex"' + (options.displayMode ? ' data-d="1"' : '') + '>' + esc(value) + '</span>' };
+const tex = {
+  renderToString(value, { displayMode }) {
+    const formula = value.replaceAll('\\mathrm{ƯCLN}', '\\text{ƯCLN}');
+    return '<span class="tex"' + (displayMode ? ' data-d="1"' : '') + '>' + esc(formula) + '</span>';
+  }
+};
 
 function markup(value, code) {
   const html = render(value, { marked, katex: tex, lang: 'vi', paper: true,
@@ -124,6 +132,55 @@ function paperQuestions(source, paper) {
   return questions;
 }
 
+function solvedReview(question, { answer, solution }) {
+  const { code } = question;
+  if (!answer?.trim() || !solution?.trim()) {
+    throw new Error(`Thiếu đáp án hoặc lời giải ${code}/${question.title}`);
+  }
+  return { ...question, answers: [answer], answerHtml: markup(answer, code), explanation: markup(solution, code) };
+}
+
+function reviewQuestions(exams, libraryByCode) {
+  const outlines = [];
+  for (const [code, entries] of Object.entries(review.outlines)) {
+    const document = libraryByCode.get(code);
+    if (document?.loai !== 'de-cuong' || !entries.length) throw new Error('Đề cương chưa khớp Thư viện: ' + code);
+
+    const anchors = new Set();
+    for (const entry of entries) {
+      const { anchor, page, title, type, prompt, options = [], labels } = entry;
+      const tags = [...parseLabels({ code, labels }).values()];
+      const expectedOptions = type === 'mc' || type === 'tf' ? 4 : 0;
+      if (!/^[a-z0-9-]+$/.test(anchor) || anchors.has(anchor) || !Number.isInteger(page) || page < 1 ||
+          ![...Object.keys(sections), 'tl'].includes(type) || !title?.trim() || !prompt?.trim() ||
+          options.length !== expectedOptions || options.some((option) => !option.trim()) || !tags.length) {
+        throw new Error(`Câu đề cương chưa hợp lệ ${code}/${anchor}`);
+      }
+      anchors.add(anchor);
+      outlines.push(solvedReview({ code, grade: document.lop, type, title: `${title} · Trang ${page}`, anchor, tags,
+        sourceHref: `/d/${code}#muc-luc`, prompt: markup(prompt, code), options: options.map((option) => markup(option, code)) }, entry));
+    }
+  }
+
+  const byReference = new Map([...exams, ...outlines].map((row) => [`${row.code}#${row.anchor}`, row]));
+  const worksheets = [];
+  for (const [code, entries] of Object.entries(review.worksheets)) {
+    const document = libraryByCode.get(code);
+    if (document?.loai !== 'phieu-on-tap' || !entries.length) throw new Error('Phiếu ôn tập chưa khớp Thư viện: ' + code);
+
+    for (const [index, entry] of entries.entries()) {
+      const original = byReference.get(entry.ref);
+      if (original?.grade !== document.lop) throw new Error(`Chưa khớp câu nguồn ${code}/${entry.ref}`);
+      const number = index + 1;
+      const anchor = `cau-${number}`;
+      const { grade, type, tags, prompt, options } = original;
+      worksheets.push(solvedReview({ code, grade, type, title: `Câu ${number} · Phiếu ôn tập`, anchor, tags,
+        sourceHref: `/d/${code}#${anchor}`, prompt, options }, entry));
+    }
+  }
+  return [...outlines, ...worksheets];
+}
+
 function buildQuestionBank(grades) {
   const papers = Object.fromEntries(library.filter((row) => row.loai === 'de-thi').map((paper) => [paper.ma, paper]));
   const codes = new Set(sources.map((source) => source.code));
@@ -140,7 +197,9 @@ function buildQuestionBank(grades) {
       }
     }
   }
-  const questions = sources.flatMap((source) => paperQuestions(source, papers[source.code]));
+  const exams = sources.flatMap((source) => paperQuestions(source, papers[source.code]));
+  const libraryByCode = new Map(library.map((row) => [row.ma, row]));
+  const questions = [...exams, ...reviewQuestions(exams, libraryByCode)].sort((a, b) => a.grade - b.grade);
   const lessons = {};
   for (const question of questions) {
     for (const tag of question.tags) {
@@ -149,7 +208,9 @@ function buildQuestionBank(grades) {
       lessons[tag.lesson] = lesson;
     }
   }
-  return { papers: Object.fromEntries(Object.entries(papers).map(([code, paper]) => [code, paper.tieu_de])), questions, lessons };
+  const titles = Object.fromEntries([...new Set(questions.map((row) => row.code))]
+    .map((code) => [code, libraryByCode.get(code).tieu_de]));
+  return { papers: titles, questions, lessons };
 }
 
 function writeQuestionBank(out, grades) {
