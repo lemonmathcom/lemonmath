@@ -1,0 +1,44 @@
+.qb-filters {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) minmax(0, 2fr) repeat(2, minmax(0, 1.35fr));
+  align-items: end;
+  gap: 12px;
+  padding: 16px;
+  margin: 18px 0 12px;
+}
+.qb-filters[hidden] { display: none; }
+.qb-filters label { display: grid; min-width: 0; gap: 4px; font-weight: 700; }
+.qb-filters select { min-width: 0; width: 100%; min-height: 44px; }
+.qb-filters .btn { justify-self: start; min-height: 44px; padding: 7px 13px; font-size: .9rem; }
+.qb-filters .btn:disabled { box-shadow: none; color: var(--muted); cursor: default; transform: none; }
+.qb-status { color: var(--muted); font-size: .95rem; font-weight: 700; margin: 12px 0; }
+.qb-card { align-items: stretch; min-width: 0; gap: 12px; margin: 0 0 16px; }
+.qb-card h2 { margin: 0; font-size: 1.19rem; }
+.qb-meta { display: flex; flex-wrap: wrap; gap: 6px 8px; }
+.qb-meta span { background: var(--surface2); border-radius: 999px; padding: 3px 9px; font-size: .83rem; font-weight: 700; }
+.qb-card .qb-prompt p, .qb-card .qb-worked p, .qb-card .qb-worked li { color: var(--ink); font-size: 1rem; line-height: 1.6; }
+.qb-card .qb-prompt img, .qb-card .qb-worked img { max-width: min(100%, 660px); max-height: 480px; object-fit: contain; }
+.qb-card .katex-display { max-width: 100%; overflow: auto hidden; }
+.qb-options, .qb-tags { display: grid; gap: 8px; padding: 0; margin: 8px 0 0; list-style: none; }
+.qb-options { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+.qb-options li { display: flex; align-items: start; gap: 8px; background: var(--bg); border-radius: 10px; padding: 7px 10px; }
+.qb-options li div { min-width: 0; overflow-x: auto; }
+.qb-options li p:last-child { margin: 0; }
+.qb-tags { gap: 6px; font-size: .89rem; margin: 0; }
+.qb-tags span { color: var(--muted); display: block; }
+.qb-tags abbr { display: inline-block; border-radius: 6px; padding: 0 5px; background: var(--surface2); font-weight: 800; text-decoration: none; }
+.qb-solution { border-top: 1px solid var(--line); padding-top: 10px; }
+.qb-solution summary { cursor: pointer; font-weight: 800; }
+.qb-worked h3 { margin: 12px 0 5px; }
+.qb-card .qb-source { margin: 0; font-size: .88rem; }
+.qb-source a { font-weight: 800; }
+.qb-source span { display: block; }
+.qb-more { margin-top: 5px; }
+
+@media (max-width: 740px) {
+  .qb-filters { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+  .qb-filters .qb-lesson { grid-column: 1 / -1; }
+}
+@media (max-width: 520px) {
+  .qb-options { grid-template-columns: minmax(0, 1fr); }
+}
