@@ -68,9 +68,10 @@ function libraryCard(row, lang) {
 
 const option = (value, label) => `<option value="${esc(value)}">${esc(label)}</option>`;
 
-function renderLibrary(lang) {
+function renderLibrary(lang, bankUrl, bankTitle) {
   const T = libraryText[lang];
-  return `<header class="gradehead library-head"><div><h1>${esc(T.title)}</h1><p class="lead">${esc(T.lead)}</p></div>
+  return `<header class="gradehead library-head"><div><h1>${esc(T.title)}</h1><p class="lead">${esc(T.lead)}</p>
+    <p class="hero-actions"><a class="btn btn-ghost" href="${esc(bankUrl)}">${esc(bankTitle)}</a></p></div>
     ${mascot({ cls: 'grade-mascot', mood: 'happy' })}</header>
   <form class="library-filters" aria-label="${esc(T.filters)}" data-library-filters hidden>
     <label>${esc(T.grade)} <select name="lop" aria-controls="library-results">

@@ -27,6 +27,7 @@ const { mascot, icon } = require('./art.js');
 const { UI } = require('./ui.js');
 const { worksheet, qrSvg, WS_DIR, WS_LABEL } = require('./worksheet.js');
 const { libraryDir, libraryText, renderLibrary } = require('./library.js');
+const { questionBankDir, questionBankText, writeQuestionBank, renderQuestionBank } = require('./question-bank.js');
 const { slim, addScripts } = require('./slim-math.js');
 
 const ROOT = path.resolve(__dirname, '..');
@@ -430,11 +431,12 @@ function shell(o) {
 
   // the top menu shows the main places and keeps the rest under "More"; the drawer (phones, tablets) lists everything
   const NL = (dir, text, extra) => '<a href="' + relDir(d, dir) + (extra || '') + '">' + esc(text) + '</a>';
-  const more = [NL(paperDir(lang), T.paper), NL(offlineDir(lang), T.offlineNav), API_URL ? NL(groupsDir(lang), T.grNav) : '', NL(formulasDir(lang), T.fcTitle)].filter(Boolean);
+  const questionBankLink = NL(questionBankDir(lang), questionBankText[lang].title);
+  const more = [questionBankLink, NL(paperDir(lang), T.paper), NL(offlineDir(lang), T.offlineNav), API_URL ? NL(groupsDir(lang), T.grNav) : '', NL(formulasDir(lang), T.fcTitle)].filter(Boolean);
   const libraryLink = NL(libraryDir(lang), libraryText[lang].nav);
   const topLinks = NL(homeDir(lang), T.allGrades, '#grades') + libraryLink + NL(examsDir(lang), T.examsNav) + NL(arenaDir(lang), T.arNav) + NL(parentsDir(lang), T.parents) + NL(teachersDir(lang), T.teachers) + NL(journeyDir(lang), T.jrNav) +
     '<details class="nav-more"><summary>' + esc(T.navMore) + '</summary><div class="nav-pop">' + more.join('') + '</div></details>';   // "About" stays in the footer
-  const mainLinks = NL(homeDir(lang), T.allGrades, '#grades') + libraryLink + NL(examsDir(lang), T.examsNav) + NL(arenaDir(lang), T.arNav) + (API_URL ? NL(groupsDir(lang), T.grNav) : '') + NL(paperDir(lang), T.paper) + NL(offlineDir(lang), T.offlineNav) + NL(parentsDir(lang), T.parents) + NL(teachersDir(lang), T.teachers) + NL(journeyDir(lang), T.jrNav);
+  const mainLinks = NL(homeDir(lang), T.allGrades, '#grades') + libraryLink + questionBankLink + NL(examsDir(lang), T.examsNav) + NL(arenaDir(lang), T.arNav) + (API_URL ? NL(groupsDir(lang), T.grNav) : '') + NL(paperDir(lang), T.paper) + NL(offlineDir(lang), T.offlineNav) + NL(parentsDir(lang), T.parents) + NL(teachersDir(lang), T.teachers) + NL(journeyDir(lang), T.jrNav);
   // the drawer (phones, tablets held upright): the main menu first, then the lessons of this grade
   const drawerTop = '<div class="side-top"><span>Menu</span><button id="menu-close" class="icon-btn side-close" type="button" aria-label="' + esc(T.closeMenu) + '" hidden>✕</button></div>\n<nav class="side-main" aria-label="' + esc(T.mainNav) + '">' + mainLinks + '</nav>\n';
   const side = (o.side
@@ -547,12 +549,24 @@ function examsPage(lang, intro) {
 function libraryPage(lang) {
   const T = UI[lang], L = libraryText[lang], d = libraryDir(lang), alt = libraryDir(other(lang));
   const body = '<nav class="crumbs" aria-label="' + esc(T.breadcrumb) + '"><a href="' + relDir(d, homeDir(lang)) + '">' + esc(T.home) + '</a></nav>\n' +
-    renderLibrary(lang);
+    renderLibrary(lang, relDir(d, questionBankDir(lang)), questionBankText[lang].title);
   put(lang, d, alt, shell({
     lang, dir: d, altDir: alt, title: seoTitle(L.title), description: L.lead, body, wide: true, level: 'middle',
     scripts: ['assets/library.js'], styles: ['assets/library.css'],
     jsonld: [crumbLD([{ name: T.home, url: abs(homeDir(lang)) }, { name: L.nav, url: abs(d) }])]
   }), isoDay(gitDate('data/library.json')));
+}
+
+function questionBankPage(lang, bank) {
+  const T = UI[lang], Q = questionBankText[lang], d = questionBankDir(lang), alt = questionBankDir(other(lang));
+  const library = relDir(d, libraryDir(lang));
+  const body = '<nav class="crumbs" aria-label="' + esc(T.breadcrumb) + '"><a href="' + relDir(d, homeDir(lang)) + '">' + esc(T.home) + '</a><span aria-hidden="true">›</span><a href="' + library + '">' + esc(libraryText[lang].nav) + '</a></nav>\n' +
+    renderQuestionBank(lang, bank, relFile(d, 'assets/question-bank-data.json'), library);
+  put(lang, d, alt, shell({
+    lang, dir: d, altDir: alt, title: seoTitle(Q.title), description: Q.lead(Object.keys(bank.papers).length), body, wide: true, level: 'middle', math: true,
+    scripts: ['assets/katex/katex.min.js', 'assets/question-bank.js'], styles: ['assets/question-bank.css'],
+    jsonld: [crumbLD([{ name: T.home, url: abs(homeDir(lang)) }, { name: libraryText[lang].nav, url: abs(libraryDir(lang)) }, { name: Q.title, url: abs(d) }])]
+  }), isoDay(gitDate('tools/question-bank-sources.json')));
 }
 
 function homePage(lang) {
@@ -1196,10 +1210,12 @@ async function main() {
   fs.rmSync(OUT, { recursive: true, force: true });
   fs.mkdirSync(OUT, { recursive: true });
   copyAssets();
+  const questionBank = writeQuestionBank(OUT, grades);
 
   LANGS.forEach((lang) => {
     homePage(lang);
     libraryPage(lang);
+    questionBankPage(lang, questionBank);
     examsPage(lang, examsIntro[lang]);
     ['primary', 'middle', 'high'].forEach((l) => levelPage(lang, l));
     tracks.forEach((g) => {
