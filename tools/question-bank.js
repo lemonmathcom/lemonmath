@@ -150,10 +150,11 @@ function reviewQuestions(exams, libraryByCode) {
     for (const entry of entries) {
       const { anchor, page, title, type, prompt, options = [], labels } = entry;
       const tags = [...parseLabels({ code, labels }).values()];
-      const expectedOptions = type === 'mc' || type === 'tf' ? 4 : 0;
+      const optionCount = options.length;
+      const validOptions = type === 'tf' ? optionCount >= 1 && optionCount <= 4 : optionCount === (type === 'mc' ? 4 : 0);
       if (!/^[a-z0-9-]+$/.test(anchor) || anchors.has(anchor) || !Number.isInteger(page) || page < 1 ||
           ![...Object.keys(sections), 'tl'].includes(type) || !title?.trim() || !prompt?.trim() ||
-          options.length !== expectedOptions || options.some((option) => !option.trim()) || !tags.length) {
+          !validOptions || options.some((option) => !option.trim()) || !tags.length) {
         throw new Error(`Câu đề cương chưa hợp lệ ${code}/${anchor}`);
       }
       anchors.add(anchor);
