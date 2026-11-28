@@ -2,6 +2,7 @@
 
 const fs = require('fs');
 const path = require('path');
+const { createHash } = require('node:crypto');
 const { marked } = require('marked');
 const { esc, LEVELS, parseQuiz, render } = require('./render.js');
 const { mascot } = require('./art.js');
@@ -9,13 +10,15 @@ const library = require('../data/library.json');
 const sources = require('./question-bank-sources.json');
 const review = require('./question-bank-review.json');
 const practicalWorksheets = require('./question-bank-practical-worksheets.json');
+const archive = require('../data/question-bank-archive.json');
+const package1300 = require('../data/question-bank-package.json');
 
 const sections = { mc: 'I', tf: 'II', sa: 'III' };
 const roman = { I: '1', II: '2', III: '3', IV: '4', V: '5' };
 const questionBankDir = (lang) => lang === 'vi' ? 'vi/ngan-hang-cau-hoi' : 'question-bank';
 const questionBankText = {
   vi: {
-    title: 'Ngân hàng câu hỏi', lead: (count) => `Câu hỏi từ ${count} đề thi, đề cương và phiếu ôn tập Toán lớp 6–12, năm học 2025–2026.`,
+    title: 'Ngân hàng câu hỏi', lead: (count) => `Câu hỏi từ ${count} đề thi và tài liệu Toán lớp 6–12.`,
     grade: 'Lớp', lesson: 'Bài học', type: 'Dạng câu', level: 'Mức độ', all: 'Tất cả',
     types: { mc: 'Trắc nghiệm', tf: 'Đúng/sai', sa: 'Trả lời ngắn', tl: 'Tự luận' },
     levels: { NB: 'Nhận biết', TH: 'Thông hiểu', VD: 'Vận dụng', VDC: 'Vận dụng cao' },
@@ -26,7 +29,7 @@ const questionBankText = {
     noScript: 'Bật JavaScript để dùng bộ lọc câu hỏi.', library: 'Mở Thư viện', worksheets: 'Phiếu ôn tập'
   },
   en: {
-    title: 'Question bank', lead: (count) => `Vietnamese questions from ${count} end-of-term maths papers, revision guides and worksheets for grades 6–12, 2025–2026.`,
+    title: 'Question bank', lead: (count) => `Vietnamese questions from ${count} maths papers and resources for grades 6–12.`,
     grade: 'Grade', lesson: 'Lesson', type: 'Question type', level: 'Difficulty', all: 'All',
     types: { mc: 'Multiple choice', tf: 'True or false', sa: 'Short answer', tl: 'Written response' },
     levels: { NB: 'Recall', TH: 'Understanding', VD: 'Application', VDC: 'Advanced application' },
@@ -253,6 +256,40 @@ function practicalQuestions(exams, libraryByCode) {
   });
 }
 
+function sourceQuestions({ documents, questions }, sourceKind) {
+  const used = new Set();
+  return questions.map((entry) => {
+    const { code, type, title, anchor, prompt, options, answer, solution, lesson, skill, levels, originalSource } = entry;
+    const source = documents[code];
+    const ref = code + '#' + anchor;
+    const expectedOptions = type === 'mc' || type === 'tf' ? 4 : 0;
+    const root = 'https://tai-lieu.lemonmath.com/';
+    const gradeDir = source && 'lop-' + String(source.grade).padStart(2, '0') + '/';
+    const sourcePath = sourceKind === 'archive'
+      ? root + 'kho-de-thi/nguon-ngan-hang/' + gradeDir + code + '/de-goc.docx'
+      : root + 'tai-lieu/' + gradeDir + 'phieu-bai-tap/2025-2026/' + code + '/lemonmath_L' + source?.grade + '_' + code + '_de.pdf';
+    if (!source?.title?.trim() || !/^[a-z2-7]{6}$/.test(code) || source.href !== sourcePath ||
+        !/^[a-z0-9-]+$/.test(anchor) || used.has(ref) || !title?.trim() ||
+        !['mc', 'tf', 'sa', 'tl'].includes(type) || options.length !== expectedOptions ||
+        options.some((item) => !item.trim()) || !prompt?.trim() || !solution?.trim() || !answer?.trim() ||
+        !lesson.startsWith('g' + source.grade + '/') || !skill?.trim() ||
+        !levels.length || levels.some((level) => !LEVELS.includes(level)) ||
+        (type === 'mc' && !/^[A-D]$/.test(answer)) || (type === 'tf' && !/^[TF]{4}$/.test(answer))) {
+      throw new Error('Câu trích từ tài liệu gốc chưa hợp lệ ' + ref);
+    }
+    used.add(ref);
+    const response = type === 'tf'
+      ? [...answer].map((value, i) => 'abcd'[i] + ') ' + (value === 'T' ? 'Đúng' : 'Sai')).join(' · ')
+      : answer;
+    return {
+      code, grade: source.grade, type, title, anchor, tags: [{ marker: title, lesson, skill, levels }],
+      prompt: markup(prompt, code), options: options.map((option) => optionMarkup(option, code)),
+      answers: [response], answerHtml: type === 'sa' || type === 'tl' ? optionMarkup(response, code) : undefined,
+      explanation: markup(solution, code), sourceHref: source.href, sourceKind, originalSource
+    };
+  });
+}
+
 function buildQuestionBank(grades) {
   const papers = Object.fromEntries(library.filter((row) => row.loai === 'de-thi').map((paper) => [paper.ma, paper]));
   const codes = new Set(sources.map((source) => source.code));
@@ -272,7 +309,8 @@ function buildQuestionBank(grades) {
   const exams = sources.flatMap((source) => paperQuestions(source, papers[source.code]));
   const libraryByCode = new Map(library.map((row) => [row.ma, row]));
   const questions = [...practicalQuestions(exams, libraryByCode), ...challengeQuestions(libraryByCode),
-    ...exams, ...reviewQuestions(exams, libraryByCode)]
+    ...exams, ...reviewQuestions(exams, libraryByCode),
+    ...sourceQuestions(archive, 'archive'), ...sourceQuestions(package1300, 'worksheet')]
     .sort((a, b) => a.grade - b.grade);
   const lessons = {};
   for (const question of questions) {
@@ -283,14 +321,29 @@ function buildQuestionBank(grades) {
     }
   }
   const titles = Object.fromEntries([...new Set(questions.map((row) => row.code))]
-    .map((code) => [code, libraryByCode.get(code).tieu_de]));
+    .map((code) => [code, libraryByCode.get(code)?.tieu_de ||
+      archive.documents[code]?.title || package1300.documents[code].title]));
   return { papers: titles, questions, lessons };
 }
 
 function writeQuestionBank(out, grades) {
   const bank = buildQuestionBank(grades);
   const assets = path.join(out, 'assets');
-  fs.writeFileSync(path.join(assets, 'question-bank-data.json'), JSON.stringify(bank));
+  const data = JSON.stringify(bank);
+  if (Buffer.byteLength(data) <= 8 * 1024 * 1024) {
+    fs.writeFileSync(path.join(assets, 'question-bank-data.json'), data);
+  } else {
+    const { questions, ...index } = bank;
+    const questionFiles = [];
+    for (let i = 0; i < questions.length; i += 500) {
+      const group = JSON.stringify(questions.slice(i, i + 500));
+      const digest = createHash('sha256').update(group).digest('hex').slice(0, 16);
+      const filename = 'question-bank-data-' + digest + '.json';
+      fs.writeFileSync(path.join(assets, filename), group);
+      questionFiles.push(filename);
+    }
+    fs.writeFileSync(path.join(assets, 'question-bank-data.json'), JSON.stringify({ ...index, questionFiles }));
+  }
   fs.copyFileSync(path.join(__dirname, 'question-bank-client.js'), path.join(assets, 'question-bank.js'));
   fs.copyFileSync(path.join(__dirname, 'question-bank.css'), path.join(assets, 'question-bank.css'));
   return bank;

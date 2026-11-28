@@ -31,7 +31,7 @@
   }
 
   function card(question, tags) {
-    const { code, grade, type, title, anchor, prompt, options, answers, answerHtml, explanation, sourceHref, sourceKind } = question;
+    const { code, grade, type, title, anchor, prompt, options, answers, answerHtml, explanation, sourceHref, sourceKind, originalSource } = question;
     const headingId = `${code}-${anchor}`;
     const choiceLabels = type === 'tf' ? ['a)', 'b)', 'c)', 'd)'] : ['A.', 'B.', 'C.', 'D.'];
     const optionList = options.map((option, i) => `<li><b>${choiceLabels[i]}</b><div>${option}</div></li>`).join('');
@@ -61,7 +61,7 @@
           <div lang="vi">${answer}</div>
           <h3>${esc(T.solution)}</h3><div lang="vi">${explanation}</div></div>
       </details>
-      <p class="qb-source"><a href="${esc(sourceUrl)}">${esc(sourceLabel)}</a><span lang="vi">${esc(bank.papers[code])}</span></p>`;
+      <p class="qb-source"><a href="${esc(sourceUrl)}">${esc(sourceLabel)}</a><span lang="vi">${esc(originalSource || bank.papers[code])}</span></p>`;
     return article;
   }
 
@@ -132,6 +132,14 @@
       const response = await fetch(root.dataset.questionBank);
       if (!response.ok) throw new Error(response.status);
       bank = await response.json();
+      if (bank.questionFiles) {
+        const groups = await Promise.all(bank.questionFiles.map(async (filename) => {
+          const group = await fetch(new URL(filename, response.url));
+          if (!group.ok) throw new Error(group.status);
+          return group.json();
+        }));
+        bank.questions = groups.flat();
+      }
     } catch {
       status.textContent = T.error;
       retry.hidden = false;
