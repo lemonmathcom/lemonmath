@@ -1,4 +1,228 @@
 {
+  "zvjvk4": [
+    {
+      "ref": "kwb5eg#cau-iii-3",
+      "title": "Tính nhiệt độ phòng ướp lạnh"
+    },
+    {
+      "ref": "jfk7r6#tu-luan-1",
+      "title": "Tính lãi lỗ của cửa hàng",
+      "prompt": "Tháng 11, một cửa hàng nhập 200 sản phẩm cùng loại với giá 80.000 đồng một sản phẩm. Trong tháng đó, cửa hàng bán 160 sản phẩm với giá gấp đôi giá nhập và bán số còn lại theo giá nhập. Chi phí vận hành trong tháng là 5.000.000 đồng. Hỏi sau khi bán hết hàng và trừ các chi phí, cửa hàng lãi hay lỗ bao nhiêu tiền?",
+      "answer": "Lãi 7.800.000 đồng.",
+      "solution": "Tổng chi phí là $200\\cdot80\\,000+5\\,000\\,000=21\\,000\\,000$ đồng.\n\nGiá bán của 160 sản phẩm đầu là $2\\cdot80\\,000=160\\,000$ đồng một sản phẩm. Còn $200-160=40$ sản phẩm được bán theo giá nhập. Tổng tiền bán hàng là $160\\cdot160\\,000+40\\cdot80\\,000=28\\,800\\,000$ đồng.\n\nDoanh thu lớn hơn chi phí, nên cửa hàng lãi $28\\,800\\,000-21\\,000\\,000=7\\,800\\,000$ đồng.",
+      "markers": [
+        "Bài 1c"
+      ]
+    },
+    {
+      "ref": "aqp6me#tu-luan-4",
+      "title": "Tìm số học sinh khi xếp nhiều kiểu hàng",
+      "prompt": "Khối 6 của một trường có từ 400 đến 600 học sinh. Khi xếp khối thành 12 hàng, 15 hàng hoặc 18 hàng, mỗi lần xếp các hàng đều có số học sinh bằng nhau và không thừa em nào. Tính số học sinh khối 6 của trường."
+    },
+    {
+      "ref": "sejlxh#tu-luan-5",
+      "title": "Ước lượng xác suất từ các lượt gieo xúc xắc"
+    },
+    {
+      "ref": "3ndjva#tu-luan-3",
+      "title": "Tính số học sinh theo từng mức xếp loại"
+    },
+    {
+      "ref": "uzgrah#tu-luan-4",
+      "title": "Tính diện tích bồn hoa và chi phí mua cây"
+    }
+  ],
+  "ykwcnv": [
+    {
+      "ref": "zw7vgc#cau-i-5",
+      "title": "Tính khối lượng muối trong nước biển"
+    },
+    {
+      "ref": "j4eb2m#tu-luan-1",
+      "title": "Nhận dạng dữ liệu cân nặng",
+      "prompt": "Cân nặng của năm bạn trong lớp 7A lần lượt là 43 kg, 41 kg, 48 kg, 45 kg và 52 kg. Dãy số liệu này thuộc loại dữ liệu nào?"
+    },
+    {
+      "ref": "khumou#tu-luan-1",
+      "title": "Chia tiền bán cá theo số cá câu được",
+      "prompt": "An câu được 12 con cá, Bảo câu được 10 con. Hai bạn bán chung được 880.000 đồng và chia số tiền theo tỉ lệ số cá mỗi người câu được. Hỏi An và Bảo nhận được bao nhiêu tiền?",
+      "answer": "An nhận 480.000 đồng. Bảo nhận 400.000 đồng.",
+      "solution": "Tổng số cá là $12+10=22$ con. Số tiền chia theo mỗi con là $880\\,000:22=40\\,000$ đồng. An nhận $12\\cdot40\\,000=480\\,000$ đồng và Bảo nhận $10\\cdot40\\,000=400\\,000$ đồng.",
+      "markers": [
+        "Bài 7b"
+      ]
+    },
+    {
+      "ref": "wbanqx#cau-iii-4",
+      "title": "Tính chiều cao của bể nước"
+    },
+    {
+      "ref": "hjy6y5#tu-luan-4",
+      "title": "Tính diện tích cần sơn của một chiếc hộp",
+      "answer": "6.600 cm²."
+    },
+    {
+      "ref": "j4eb2m#tu-luan-2",
+      "title": "Ước tính số học sinh đi xe đạp đến trường",
+      "prompt": "Lớp 7B có 40 học sinh. Biểu đồ cho biết tỉ lệ học sinh đi đến trường bằng từng phương tiện.\n\n![Biểu đồ tỉ lệ học sinh lớp 7B đi đến trường bằng các phương tiện](hinh/phuong-tien.png)\n\na) Có bao nhiêu học sinh đi xe máy đến trường?\n\nb) Nếu lớp có thêm 20 học sinh và tỉ lệ đi xe đạp giữ nguyên như biểu đồ, lớp sẽ có bao nhiêu học sinh đi xe đạp đến trường?",
+      "answer": "a) 20 học sinh. b) 15 học sinh.",
+      "solution": "a) Đọc biểu đồ, tỉ lệ đi xe máy là $50\\%$. Vậy có $40\\cdot50\\%=20$ học sinh.\n\nb) Sĩ số mới là $40+20=60$ học sinh. Tỉ lệ đi xe đạp giữ nguyên ở $25\\%$, nên sẽ có $60\\cdot25\\%=15$ học sinh đi xe đạp."
+    }
+  ],
+  "koe2uh": [
+    {
+      "ref": "ejhv4z#cau-i-10",
+      "title": "Đọc bảng nhiệt độ các tháng",
+      "prompt": "Bảng ghi nhiệt độ trung bình từng tháng trong một năm của một quốc gia.\n\n| Tháng | 1 | 2 | 3 | 4 | 5 | 6 |\n| --- | --- | --- | --- | --- | --- | --- |\n| Nhiệt độ (°C) | 2 | 3 | 5 | 15 | 20 | 30 |\n\n| Tháng | 7 | 8 | 9 | 10 | 11 | 12 |\n| --- | --- | --- | --- | --- | --- | --- |\n| Nhiệt độ (°C) | 29 | 27 | 20 | 15 | 12 | 7 |\n\nBiểu đồ nào trong các lựa chọn thích hợp nhất để thấy mức tăng giảm nhiệt độ theo thời gian?"
+    },
+    {
+      "ref": "uctv3y#tu-luan-4",
+      "title": "So sánh xác suất thực nghiệm khi tung đồng xu"
+    },
+    {
+      "ref": "ozbgpp#cau-i-4",
+      "title": "Lập công thức tính thời gian tàu chạy"
+    },
+    {
+      "ref": "utsqzz#tu-luan-1",
+      "title": "Đọc biểu đồ kết quả học tập",
+      "prompt": "Biểu đồ cho biết số học sinh của từng lớp khối 8 trường THCS Chúc Sơn đạt từ 7 điểm trở lên trong bài kiểm tra Toán học kì II.\n\n![Biểu đồ số học sinh đạt từ 7 điểm trở lên theo từng lớp 8](hinh/bai-1.png)\n\na) Lớp nào có nhiều học sinh đạt từ 7 điểm trở lên nhất?\n\nb) Cả khối có bao nhiêu học sinh đạt từ 7 điểm trở lên?",
+      "answer": "a) Lớp 8C, 32 học sinh. b) 161 học sinh.",
+      "solution": "a) Đọc biểu đồ thấy lớp 8C có cột cao nhất, ứng với 32 học sinh.\n\nb) Cộng số học sinh ở sáu lớp, ta được $30+22+32+25+28+24=161$ học sinh.",
+      "markers": [
+        "Bài 1.1a",
+        "Bài 1.1b"
+      ]
+    },
+    {
+      "ref": "3fj5bx#tu-luan-2",
+      "title": "Ước tính thể tích và diện tích vải lều",
+      "prompt": "Một chiếc lều có dạng hình chóp tứ giác đều. Đáy lều là tấm thảm hình vuông cạnh 1 m. Mỗi mặt bên là một tấm vải hình tam giác cân có đường cao 1,5 m. Số đo gần đúng của chiều cao từ đáy đến đỉnh lều là 1,4 m.\n\n![Mô hình lều dạng hình chóp tứ giác đều](hinh/leu.png)\n\na) Dùng chiều cao gần đúng 1,4 m để ước tính thể tích không khí trong lều. Làm tròn đến hàng phần trăm mét khối.\n\nb) Tính diện tích vải của bốn mặt bên.",
+      "answer": "a) Khoảng 0,47 m³. b) 3 m².",
+      "solution": "a) Đáy có diện tích $1\\cdot1=1\\,\\mathrm{m}^2$. Dùng số đo chiều cao 1,4 m, thể tích ước tính là $\\frac13\\cdot1\\cdot1{,}4\\approx0{,}47\\,\\mathrm{m}^3$.\n\nb) Diện tích một mặt bên bằng $\\frac12\\cdot1\\cdot1{,}5=0{,}75\\,\\mathrm{m}^2$. Bốn mặt bên có tổng diện tích $4\\cdot0{,}75=3\\,\\mathrm{m}^2$."
+    },
+    {
+      "ref": "qw3wev#tu-luan-2",
+      "title": "Tính quãng đường của một chuyến đi"
+    }
+  ],
+  "wj5gaf": [
+    {
+      "ref": "kvqood#cau-i-9",
+      "title": "Đếm cách đăng ký cùng ngày tại thư viện"
+    },
+    {
+      "ref": "fukr3a#cau-iii-1",
+      "title": "Tính diện tích phần vành của đĩa CD"
+    },
+    {
+      "ref": "ig7uyp#tu-luan-3",
+      "title": "Đọc số liệu giải điền kinh"
+    },
+    {
+      "ref": "gdqtpi#cau-iii-34",
+      "title": "Tính số học sinh quyên góp ở mức cao nhất"
+    },
+    {
+      "ref": "kvqood#tu-luan-1",
+      "title": "Tính lực gió tác dụng lên cánh diều"
+    },
+    {
+      "ref": "fukr3a#cau-ii-3",
+      "title": "Kiểm tra số liệu về hai chặng đi ô tô"
+    }
+  ],
+  "p4h46x": [
+    {
+      "ref": "kr34dg#cau-iii-3",
+      "title": "Tính trung vị giá giày"
+    },
+    {
+      "ref": "gykbp5#cau-i-4",
+      "title": "Tính thời gian chạy 50 m trung bình"
+    },
+    {
+      "ref": "anbcmq#cau-ii-13",
+      "title": "Chọn thành viên của câu lạc bộ Toán"
+    },
+    {
+      "ref": "kr34dg#cau-iii-2",
+      "title": "Xác định hướng chuyển động của đĩa khi được thả"
+    },
+    {
+      "ref": "snorg2#tu-luan-2",
+      "title": "Tính khoảng cách từ cột điện đến bờ hồ",
+      "prompt": "Mặt hồ có dạng hình thang $ABCD$ vuông tại $A$ và $B$, với $AB=180$ m, $BC=140$ m, $AD=200$ m. Người ta dự định đặt bốn cột điện thẳng hàng, cách đều nhau, để kéo dây qua hồ. Cột thứ nhất nằm trên bờ $AB$ và cách $A$ một đoạn 60 m. Cột thứ tư nằm chính giữa bờ $CD$. Tính khoảng cách từ cột thứ ba tới bờ $AD$.",
+      "answer": "80 m.",
+      "solution": "Chọn hệ trục theo đơn vị mét, với $A(0;0)$, $B(180;0)$, $D(0;200)$ và $C(180;140)$. Cột thứ nhất ở $P(60;0)$, cột thứ tư ở trung điểm $Q(90;170)$ của $CD$.\n\nGọi $R$ là vị trí cột thứ ba. Do bốn cột cách đều, $\\overrightarrow{PR}=\\frac23\\overrightarrow{PQ}$. Hoành độ của $R$ là $60+\\frac23(90-60)=80$, còn tung độ là $\\frac23\\cdot170$.\n\nHình chiếu của $R$ lên đường thẳng $AD$ nằm giữa $A$ và $D$ vì tung độ thuộc khoảng từ 0 đến 200. Khoảng cách tới bờ $AD$ bằng 80 m.",
+      "markers": [
+        "Bài 2b"
+      ]
+    },
+    {
+      "ref": "yiki36#cau-iii-17",
+      "title": "Tính giờ đến trường qua hai sườn dốc",
+      "prompt": "Lúc 6 giờ sáng, bạn Trí đi từ nhà $A$ qua đỉnh dốc $C$ rồi xuống trường $B$. Đoạn $AB$ dài 800 m. Trong tam giác $ABC$, góc ở $A$ bằng $7^\\circ$ và góc ở $B$ bằng $5^\\circ$. Tốc độ lên dốc là 4 km/h, tốc độ xuống dốc là 19 km/h.\n\n![Đường từ A lên đỉnh dốc C rồi xuống B](hinh/len-doc.png)\n\nLàm tròn thời gian đi đến giây. Nếu Trí đến trường lúc 6 giờ $a$ phút $b$ giây, tính $a+b$.",
+      "solution": "Ta có $\\angle C=180^\\circ-7^\\circ-5^\\circ=168^\\circ$. Định lí sin cho\n$$AC=\\frac{800\\sin5^\\circ}{\\sin168^\\circ}\\approx335{,}36\\,\\mathrm{m},$$\n$$BC=\\frac{800\\sin7^\\circ}{\\sin168^\\circ}\\approx468{,}93\\,\\mathrm{m}.$$\n\nDùng vận tốc theo mét mỗi giờ, tổng thời gian theo giây là $3600\\left(\\frac{AC}{4000}+\\frac{BC}{19000}\\right)\\approx390{,}67$. Làm tròn được 391 giây, tức 6 phút 31 giây. Vậy $a+b=37$."
+    }
+  ],
+  "ea7l57": [
+    {
+      "ref": "u6kuvd#cau-i-4",
+      "title": "Nhận dạng các phần bánh sau khi cắt",
+      "prompt": "Một chiếc bánh chưng có dạng hình hộp chữ nhật. Người ta dùng hai nhát cắt thẳng đứng đi qua hai đường chéo của mặt trên. Các phần bánh thu được có dạng hình gì?"
+    },
+    {
+      "ref": "r26dly#cau-i-7",
+      "title": "Đọc bảng thời gian truy cập Internet"
+    },
+    {
+      "ref": "irxj63#cau-iii-3",
+      "title": "Dự báo mực nước sông theo thủy triều"
+    },
+    {
+      "ref": "wyo5zl#cau-iii-4",
+      "title": "Ước tính thời gian để sức mua giảm một nửa",
+      "prompt": "Giả sử sức mua của một khoản tiền giảm 4% mỗi năm so với năm trước. Mô hình cho sức mua sau $n$ năm là $A=P(1-0{,}04)^n$, với $P$ là sức mua ban đầu. Theo mô hình, sau khoảng bao nhiêu năm sức mua còn một nửa? Làm tròn đến hàng đơn vị."
+    },
+    {
+      "ref": "rstzba#tu-luan-2",
+      "title": "Tính xác suất ném bóng rổ trúng",
+      "prompt": "Các lần ném bóng rổ độc lập và xác suất ném trúng mỗi lần là 0,6.\n\na) Một học sinh được ném tối đa hai lần và dừng nếu trúng ở lần thứ nhất. Tính xác suất học sinh trúng ở lần thứ hai.\n\nb) Trong lượt khác, học sinh ném đủ hai lần vào rổ A và một lần vào rổ B. Tính xác suất trúng rổ A ít nhất một lần và trúng rổ B.",
+      "answer": "a) 0,24. b) 0,504.",
+      "solution": "a) Muốn trúng ở lần thứ hai, học sinh phải trượt lần thứ nhất và trúng lần thứ hai. Xác suất là $0{,}4\\cdot0{,}6=0{,}24$.\n\nb) Xác suất trượt cả hai lần ở rổ A là $0{,}4^2=0{,}16$. Vậy xác suất trúng A ít nhất một lần là $1-0{,}16=0{,}84$. Lượt ném rổ B độc lập, nên xác suất cần tìm là $0{,}84\\cdot0{,}6=0{,}504$."
+    },
+    {
+      "ref": "a5qfs2#cau-ii-4",
+      "title": "Theo dõi khoản đóng góp vào quỹ từ thiện"
+    }
+  ],
+  "bfiyhi": [
+    {
+      "ref": "pcfpz6#cau-iii-6",
+      "title": "Tính xác suất mua hàng sau khi xem quảng cáo"
+    },
+    {
+      "ref": "y5yix3#cau-iii-1",
+      "title": "Tính khoảng tứ phân vị của lương tháng"
+    },
+    {
+      "ref": "hnlqgp#cau-iii-3",
+      "title": "Xác định tọa độ của máy bay khi cất cánh"
+    },
+    {
+      "ref": "ozyl4t#cau-iii-5",
+      "title": "Tính góc nghiêng của mái nhà"
+    },
+    {
+      "ref": "35heli#cau-ii-2",
+      "title": "Tính vận tốc và quãng đường từ gia tốc"
+    },
+    {
+      "ref": "adrh34#tu-luan-2",
+      "title": "Chọn kích thước trang sách để tăng phần in"
+    }
+  ],
   "bijhls": [
     {
       "ref": "uzgrah#cau-i-5",

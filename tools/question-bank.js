@@ -226,10 +226,14 @@ function practicalQuestions(exams, libraryByCode) {
     if (worksheet?.loai !== 'phieu-on-tap' || !entries.length) {
       throw new Error('Phiếu bài toán thực tế chưa khớp Thư viện: ' + code);
     }
-    return entries.map(({ ref, title, prompt, answer, solution }, index) => {
+    return entries.map(({ ref, title, prompt, answer, solution, markers }, index) => {
       const original = originalByRef.get(ref);
       if (original?.grade !== worksheet.lop || !title?.trim()) {
         throw new Error(`Chưa khớp câu nguồn của phiếu thực tế ${code}/${ref}`);
+      }
+      const tags = markers ? original.tags.filter((tag) => markers.includes(tag.marker)) : original.tags;
+      if (markers && (!tags.length || tags.length !== markers.length || !prompt?.trim() || !answer?.trim() || !solution?.trim())) {
+        throw new Error(`Thiếu nội dung hoặc nhãn của ý đã chọn ${code}/${ref}`);
       }
       const anchor = `cau-${index + 1}`;
       const writtenAnswers = original.answers.map((value) =>
@@ -238,7 +242,7 @@ function practicalQuestions(exams, libraryByCode) {
           return marker ? marker + ') ' : '';
         }));
       return {
-        ...original, code, anchor, title, sourceHref: `/d/${code}#${anchor}`, sourceKind: 'worksheet',
+        ...original, code, anchor, title, tags, sourceHref: `/d/${code}#${anchor}`, sourceKind: 'worksheet',
         prompt: prompt ? markup(prompt, original.code) : original.prompt
           .replace(/^(<p>)(?:Câu \d+[a-z]?\. |Bài [IVX]+ trong đề in\. )/, '$1'),
         answers: answer ? [answer] : writtenAnswers,

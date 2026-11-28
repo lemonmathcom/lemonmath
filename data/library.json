@@ -1,5 +1,54 @@
 [
   {
+    "ma": "zvjvk4",
+    "lop": 6,
+    "loai": "phieu-on-tap",
+    "tieu_de": "Phiếu bài toán thực tế Toán 6 - Bộ 2 - Nhiệt độ, chi phí và số liệu ở trường",
+    "tep_pdf": "tai-lieu/lop-06/phieu-bai-tap/2025-2026/zvjvk4/lemonmath_L06_bai-toan-thuc-te_bo-2_2025-2026_de.pdf"
+  },
+  {
+    "ma": "ykwcnv",
+    "lop": 7,
+    "loai": "phieu-on-tap",
+    "tieu_de": "Phiếu bài toán thực tế Toán 7 - Bộ 2 - Tỉ lệ, dữ liệu và dung tích",
+    "tep_pdf": "tai-lieu/lop-07/phieu-bai-tap/2025-2026/ykwcnv/lemonmath_L07_bai-toan-thuc-te_bo-2_2025-2026_de.pdf"
+  },
+  {
+    "ma": "koe2uh",
+    "lop": 8,
+    "loai": "phieu-on-tap",
+    "tieu_de": "Phiếu bài toán thực tế Toán 8 - Bộ 2 - Đi lại, đo đạc và đọc số liệu",
+    "tep_pdf": "tai-lieu/lop-08/phieu-bai-tap/2025-2026/koe2uh/lemonmath_L08_bai-toan-thuc-te_bo-2_2025-2026_de.pdf"
+  },
+  {
+    "ma": "wj5gaf",
+    "lop": 9,
+    "loai": "phieu-on-tap",
+    "tieu_de": "Phiếu bài toán thực tế Toán 9 - Bộ 2 - Thể thao, chuyển động và quyên góp",
+    "tep_pdf": "tai-lieu/lop-09/phieu-bai-tap/2025-2026/wj5gaf/lemonmath_L09_bai-toan-thuc-te_bo-2_2025-2026_de.pdf"
+  },
+  {
+    "ma": "p4h46x",
+    "lop": 10,
+    "loai": "phieu-on-tap",
+    "tieu_de": "Phiếu bài toán thực tế Toán 10 - Bộ 2 - Số liệu, xác suất và đo đường đi",
+    "tep_pdf": "tai-lieu/lop-10/phieu-bai-tap/2025-2026/p4h46x/lemonmath_L10_bai-toan-thuc-te_bo-2_2025-2026_de.pdf"
+  },
+  {
+    "ma": "ea7l57",
+    "lop": 11,
+    "loai": "phieu-on-tap",
+    "tieu_de": "Phiếu bài toán thực tế Toán 11 - Bộ 2 - Thủy triều, quỹ từ thiện và xác suất",
+    "tep_pdf": "tai-lieu/lop-11/phieu-bai-tap/2025-2026/ea7l57/lemonmath_L11_bai-toan-thuc-te_bo-2_2025-2026_de.pdf"
+  },
+  {
+    "ma": "bfiyhi",
+    "lop": 12,
+    "loai": "phieu-on-tap",
+    "tieu_de": "Phiếu bài toán thực tế Toán 12 - Bộ 2 - Thiết kế, chuyển động và phân tích dữ liệu",
+    "tep_pdf": "tai-lieu/lop-12/phieu-bai-tap/2025-2026/bfiyhi/lemonmath_L12_bai-toan-thuc-te_bo-2_2025-2026_de.pdf"
+  },
+  {
     "ma": "bijhls",
     "lop": 6,
     "loai": "phieu-on-tap",
