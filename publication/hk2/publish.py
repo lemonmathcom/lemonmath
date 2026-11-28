@@ -143,9 +143,106 @@ def wrangler(*args, capture=False):
     return subprocess.run(["npx","--no-install","wrangler",*args],cwd=API_DIR,check=True,
                           text=True, stdout=subprocess.PIPE if capture else None,timeout=150)
 
+WORD = "application/vnd.openxmlformats-officedocument.wordprocessingml.document"
+SOURCE_TYPES = {"docx": WORD, "png": "image/png", "jpeg": "image/jpeg", "jpg": "image/jpeg"}
+SOURCE_KEY = re.compile(
+    r"kho-de-thi/nguon-ngan-hang/lop-(0[1-9]|1[0-2])/(?P<code>[a-z2-7]{6})/"
+    r"(?:de-goc\.docx|hinh/[a-z0-9-]+\.(?:png|jpe?g))"
+)
+
+
+def source_files():
+    items = json.loads((ROOT/"r2-manifest.json").read_bytes())
+    keys, documents, codes = set(), set(), set()
+    for item in items:
+        key = item["key"]
+        match = SOURCE_KEY.fullmatch(key)
+        require(match and match["code"] == item["code"] and key not in keys, f"Unexpected source key {key}")
+        keys.add(key)
+        codes.add(item["code"])
+        mime = SOURCE_TYPES[key.rsplit(".", 1)[1]]
+        require(item["contentType"] == mime, f"Wrong type for {key}")
+        data = (ROOT/"r2"/key).read_bytes()
+        require(len(data) == item["bytes"] and sha256(data).hexdigest() == item["sha256"],
+                f"Source digest mismatch for {key}")
+        if mime == WORD:
+            documents.add(item["code"])
+            require(data.startswith(b"PK\x03\x04"), f"Wrong Word container for {key}")
+        elif mime == "image/png":
+            require(data.startswith(b"\x89PNG\r\n\x1a\n"), f"Wrong PNG image for {key}")
+        else:
+            require(data.startswith(b"\xff\xd8"), f"Wrong JPEG image for {key}")
+    require(codes == documents and documents, "Each source group needs its original Word file")
+    return items
+
+
+def source_available(item, fresh=False):
+    key = item["key"]
+    query = f"?lm-check={uuid4().hex}" if fresh else ""
+    url = f"https://{DOWNLOAD_HOST}/" + quote(key, safe="/") + query
+    try:
+        with urlopen(Request(url, headers={"User-Agent": USER_AGENT, "Cache-Control": "no-cache"}),
+                     timeout=30) as response:
+            require(urlsplit(response.url).hostname == DOWNLOAD_HOST and response.status == 200,
+                    f"Wrong source response for {key}")
+            digest = sha256()
+            length = 0
+            for data in iter(lambda: response.read(1 << 20), b""):
+                digest.update(data)
+                length += len(data)
+            require(length == item["bytes"] and digest.hexdigest() == item["sha256"],
+                    f"Public copy differs from source {key}")
+            require(response.headers.get_content_type() == item["contentType"], f"Wrong public MIME for {key}")
+            return True
+    except HTTPError as error:
+        if error.code == 404:
+            return False
+        raise
+
+
+def publish_word_sources(counts):
+    items = source_files()
+    require(len(items) == counts["objects"] and
+            sum(item["contentType"] == WORD for item in items) == counts["documents"],
+            "Source objects do not match release counts")
+    if "--check" in sys.argv:
+        print(f"Verified {len(items)} source objects locally", flush=True)
+        return
+    verify_bucket()
+
+    def upload(item):
+        key = item["key"]
+        if not source_available(item, fresh=True):
+            for attempt in range(3):
+                try:
+                    wrangler("r2", "object", "put", f"{BUCKET}/{key}", "--file", str(ROOT/"r2"/key),
+                             "--remote", "--content-type", item["contentType"], capture=True)
+                    break
+                except (subprocess.CalledProcessError, subprocess.TimeoutExpired):
+                    if attempt == 2:
+                        raise
+                    sleep(3 * (attempt + 1))
+
+    with ThreadPoolExecutor(max_workers=8) as pool:
+        for i, _ in enumerate(pool.map(upload, items), 1):
+            if i % 50 == 0 or i == len(items):
+                print(f"Prepared {i}/{len(items)} original source objects", flush=True)
+        pending = items
+        for wait in (0, 4, 8, 16):
+            sleep(wait)
+            pending = [item for item, available in zip(pending, pool.map(source_available, pending)) if not available]
+            if not pending:
+                break
+    require(not pending, "Some original source objects are still unavailable")
+    print(f"Verified {len(items)} original source objects on {DOWNLOAD_HOST}", flush=True)
+
+
 def publish():
     counts = json.loads((ROOT/"release-counts.json").read_bytes())
     kind = counts.get("kind", "exam")
+    if kind == "word-sources":
+        publish_word_sources(counts)
+        return
     manifest, release_codes = expected_pdfs(counts["grades"], kind)
     previous = counts.get("previous_page_sha256", {})
     new_codes = release_codes - previous.keys()
