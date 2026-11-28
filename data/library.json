@@ -1,5 +1,54 @@
 [
   {
+    "ma": "djtj7l",
+    "lop": 6,
+    "loai": "phieu-on-tap",
+    "tieu_de": "Phiếu vận dụng cao Toán 6 - Số học và bài toán nhiều bước",
+    "tep_pdf": "tai-lieu/lop-06/phieu-bai-tap/2025-2026/djtj7l/lemonmath_L06_van-dung-cao_de.pdf"
+  },
+  {
+    "ma": "zse6bt",
+    "lop": 7,
+    "loai": "phieu-on-tap",
+    "tieu_de": "Phiếu vận dụng cao Toán 7 - Tỉ lệ, hình học và bài toán tối ưu",
+    "tep_pdf": "tai-lieu/lop-07/phieu-bai-tap/2025-2026/zse6bt/lemonmath_L07_van-dung-cao_de.pdf"
+  },
+  {
+    "ma": "7hzjpi",
+    "lop": 8,
+    "loai": "phieu-on-tap",
+    "tieu_de": "Phiếu vận dụng cao Toán 8 - Mô hình hóa và tìm giá trị tối ưu",
+    "tep_pdf": "tai-lieu/lop-08/phieu-bai-tap/2025-2026/7hzjpi/lemonmath_L08_van-dung-cao_de.pdf"
+  },
+  {
+    "ma": "ebohok",
+    "lop": 9,
+    "loai": "phieu-on-tap",
+    "tieu_de": "Phiếu vận dụng cao Toán 9 - Tối ưu thời gian, đường đi và chi phí",
+    "tep_pdf": "tai-lieu/lop-09/phieu-bai-tap/2025-2026/ebohok/lemonmath_L09_van-dung-cao_de.pdf"
+  },
+  {
+    "ma": "afu2z2",
+    "lop": 10,
+    "loai": "phieu-on-tap",
+    "tieu_de": "Phiếu vận dụng cao Toán 10 - Vectơ, tọa độ và tối ưu trong thực tế",
+    "tep_pdf": "tai-lieu/lop-10/phieu-bai-tap/2025-2026/afu2z2/lemonmath_L10_van-dung-cao_de.pdf"
+  },
+  {
+    "ma": "geqjuh",
+    "lop": 11,
+    "loai": "phieu-on-tap",
+    "tieu_de": "Phiếu vận dụng cao Toán 11 - Dữ liệu, xác suất và hình không gian",
+    "tep_pdf": "tai-lieu/lop-11/phieu-bai-tap/2025-2026/geqjuh/lemonmath_L11_van-dung-cao_de.pdf"
+  },
+  {
+    "ma": "6vo7rg",
+    "lop": 12,
+    "loai": "phieu-on-tap",
+    "tieu_de": "Phiếu vận dụng cao Toán 12 - Tối ưu, tích phân và tọa độ trong thực tế",
+    "tep_pdf": "tai-lieu/lop-12/phieu-bai-tap/2025-2026/6vo7rg/lemonmath_L12_van-dung-cao_de.pdf"
+  },
+  {
     "ma": "paqmrn",
     "lop": 6,
     "loai": "phieu-on-tap",
