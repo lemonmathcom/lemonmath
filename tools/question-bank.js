@@ -22,7 +22,7 @@ const questionBankText = {
     count: '{count} câu/bài', empty: 'Không có câu phù hợp với bộ lọc.', more: 'Xem thêm câu',
     source: 'Xem đề gốc', sourceDocument: 'Xem tài liệu gốc',
     reveal: 'Xem đáp án và lời giải', answer: 'Đáp án', solution: 'Lời giải',
-    noScript: 'Bật JavaScript để dùng bộ lọc câu hỏi.', library: 'Mở Thư viện'
+    noScript: 'Bật JavaScript để dùng bộ lọc câu hỏi.', library: 'Mở Thư viện', worksheets: 'Phiếu ôn tập'
   },
   en: {
     title: 'Question bank', lead: (count) => `Vietnamese questions from ${count} end-of-term maths papers, revision guides and worksheets for grades 6–12, 2025–2026.`,
@@ -33,7 +33,7 @@ const questionBankText = {
     count: '{count} questions', empty: 'No questions match these filters.', more: 'Show more questions',
     source: 'Original paper', sourceDocument: 'Original document',
     reveal: 'Show answer and solution', answer: 'Answer', solution: 'Solution',
-    noScript: 'Enable JavaScript to filter questions.', library: 'Browse the library'
+    noScript: 'Enable JavaScript to filter questions.', library: 'Browse the library', worksheets: 'Worksheets'
   }
 };
 
@@ -61,6 +61,11 @@ function markup(value, code) {
     throw new Error('Nội dung HTML cần kiểm tra trong ' + code);
   }
   return html;
+}
+
+function optionMarkup(value, code) {
+  // A bare option such as "500." is a number with punctuation, which Markdown reads as an empty list.
+  return markup(value.replace(/^(\s*\d+)([.)])(?=\s*$)/, '$1\\$2'), code);
 }
 
 function parseLabels(source) {
@@ -101,7 +106,7 @@ function paperQuestions(source, paper) {
       const answer = type === 'tf' ? [...item.key].map((value, i) => 'abcd'[i] + ') ' + (value === 'T' ? 'Đúng' : 'Sai')).join(' · ') : item.key;
       questions.push({ code, grade: paper.lop, type, title: `Câu ${number} · Phần ${section}`,
         anchor: `cau-${section.toLowerCase()}-${number}`, tags: [label], prompt: markup(item.q, code),
-        options: item.opts.map((option) => markup(option, code)), answers: [answer], explanation: markup(item.expl, code) });
+        options: item.opts.map((option) => optionMarkup(option, code)), answers: [answer], explanation: markup(item.expl, code) });
       labels.delete(marker);
     }
   }
@@ -163,7 +168,7 @@ function reviewQuestions(exams, libraryByCode) {
       }
       anchors.add(anchor);
       outlines.push(solvedReview({ code, grade: document.lop, type, title: `${title} · Trang ${page}`, anchor, tags,
-        sourceHref: `/d/${code}#muc-luc`, prompt: markup(prompt, code), options: options.map((option) => markup(option, code)) }, entry));
+        sourceHref: `/d/${code}#muc-luc`, prompt: markup(prompt, code), options: options.map((option) => optionMarkup(option, code)) }, entry));
     }
   }
 
@@ -232,7 +237,8 @@ function renderQuestionBank(lang, bank, dataUrl, libraryUrl) {
   const grades = [...new Set(bank.questions.map((row) => row.grade))].sort((a, b) => a - b);
   const option = (value, title) => `<option value="${esc(value)}">${esc(title)}</option>`;
   const options = (values) => option('', T.all) + values.map(([value, text]) => option(value, text)).join('');
-  return `<header class="gradehead"><div><h1>${esc(T.title)}</h1><p class="lead">${esc(T.lead(Object.keys(bank.papers).length))}</p></div>
+  return `<header class="gradehead"><div><h1>${esc(T.title)}</h1><p class="lead">${esc(T.lead(Object.keys(bank.papers).length))}</p>
+  <p class="hero-actions"><a class="btn btn-ghost" href="${esc(libraryUrl + '?loai=phieu-on-tap')}">${esc(T.worksheets)}</a></p></div>
   ${mascot({ cls: 'grade-mascot', mood: 'happy' })}</header>
   <noscript><p class="soon-note">${esc(T.noScript)} <a href="${esc(libraryUrl)}">${esc(T.library)}</a></p></noscript>
   <section class="qb" data-question-bank="${esc(dataUrl)}" data-text="${esc(JSON.stringify(T))}">

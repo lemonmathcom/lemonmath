@@ -1,5 +1,54 @@
 [
   {
+    "ma": "paqmrn",
+    "lop": 6,
+    "loai": "phieu-on-tap",
+    "tieu_de": "Phiếu luyện Toán 6 - Tỉ số, phần trăm và đọc biểu đồ",
+    "tep_pdf": "tai-lieu/lop-06/phieu-bai-tap/2025-2026/paqmrn/lemonmath_L06_ti-so-phan-tram-va-bieu-do_2025-2026_de.pdf"
+  },
+  {
+    "ma": "ifrhdo",
+    "lop": 7,
+    "loai": "phieu-on-tap",
+    "tieu_de": "Phiếu luyện Toán 7 - Đa thức một biến và ứng dụng",
+    "tep_pdf": "tai-lieu/lop-07/phieu-bai-tap/2025-2026/ifrhdo/lemonmath_L07_da-thuc-mot-bien_2025-2026_de.pdf"
+  },
+  {
+    "ma": "dqu7qw",
+    "lop": 8,
+    "loai": "phieu-on-tap",
+    "tieu_de": "Phiếu luyện Toán 8 - Tam giác đồng dạng và đo gián tiếp",
+    "tep_pdf": "tai-lieu/lop-08/phieu-bai-tap/2025-2026/dqu7qw/lemonmath_L08_tam-giac-dong-dang_2025-2026_de.pdf"
+  },
+  {
+    "ma": "ytn22c",
+    "lop": 9,
+    "loai": "phieu-on-tap",
+    "tieu_de": "Phiếu luyện Toán 9 - Diện tích và thể tích trong thực tế",
+    "tep_pdf": "tai-lieu/lop-09/phieu-bai-tap/2025-2026/ytn22c/lemonmath_L09_dien-tich-va-the-tich_2025-2026_de.pdf"
+  },
+  {
+    "ma": "u5bbgn",
+    "lop": 10,
+    "loai": "phieu-on-tap",
+    "tieu_de": "Phiếu luyện Toán 10 - Quy tắc đếm, tổ hợp và xác suất",
+    "tep_pdf": "tai-lieu/lop-10/phieu-bai-tap/2025-2026/u5bbgn/lemonmath_L10_to-hop-va-xac-suat_2025-2026_de.pdf"
+  },
+  {
+    "ma": "5z3hgi",
+    "lop": 11,
+    "loai": "phieu-on-tap",
+    "tieu_de": "Phiếu luyện Toán 11 - Đạo hàm, tiếp tuyến và chuyển động",
+    "tep_pdf": "tai-lieu/lop-11/phieu-bai-tap/2025-2026/5z3hgi/lemonmath_L11_dao-ham-tiep-tuyen-chuyen-dong_2025-2026_de.pdf"
+  },
+  {
+    "ma": "pau6uh",
+    "lop": 12,
+    "loai": "phieu-on-tap",
+    "tieu_de": "Phiếu luyện Toán 12 - Tích phân, diện tích và thể tích",
+    "tep_pdf": "tai-lieu/lop-12/phieu-bai-tap/2025-2026/pau6uh/lemonmath_L12_tich-phan-dien-tich-the-tich_2025-2026_de.pdf"
+  },
+  {
     "ma": "anbcmq",
     "lop": 10,
     "loai": "de-thi",
