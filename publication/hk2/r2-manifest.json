@@ -1,86 +1,26 @@
 [
   {
-    "code": "dgenkb",
-    "key": "tai-lieu/lop-06/phieu-bai-tap/2025-2026/dgenkb/lemonmath_L06_bai-toan-thuc-te_bo-3_2025-2026_de.pdf",
-    "sha256": "1bf44b4ea6315dcb8bb7bcd299d056d98b4d8426d52e4a0f537dc028c62f6a36",
-    "bytes": 1490963
+    "code": "py3gqz",
+    "key": "kho-de-thi/lop-11/cuoi-hk1/2025-2026/py3gqz/lemonmath_L11_cuoi-hk1_2025-2026_truong-thpt-hoa-vang-da-nang_de.pdf",
+    "sha256": "94974a862ac5ecc783168798c7dfcfd01ecde983945578e593ad521ff3cfebee",
+    "bytes": 351870
   },
   {
-    "code": "dgenkb",
-    "key": "tai-lieu/lop-06/phieu-bai-tap/2025-2026/dgenkb/lemonmath_L06_bai-toan-thuc-te_bo-3_2025-2026_loi-giai.pdf",
-    "sha256": "0a55afc397731bd5db55813806aca44f2a9d90234bb4a5c74ec8bc474055db66",
-    "bytes": 922650
+    "code": "py3gqz",
+    "key": "kho-de-thi/lop-11/cuoi-hk1/2025-2026/py3gqz/lemonmath_L11_cuoi-hk1_2025-2026_truong-thpt-hoa-vang-da-nang_dap-an.pdf",
+    "sha256": "6205c10226c492c92bf8ee3bade863784020d489ebd13f3c2762af23dc7127bd",
+    "bytes": 122203
   },
   {
-    "code": "z4eoxq",
-    "key": "tai-lieu/lop-07/phieu-bai-tap/2025-2026/z4eoxq/lemonmath_L07_bai-toan-thuc-te_bo-3_2025-2026_de.pdf",
-    "sha256": "ffa9641b1c3044ab96118a8276f59597a6c380fd0caf5f59af216a787af83110",
-    "bytes": 1205864
+    "code": "dca74v",
+    "key": "kho-de-thi/ky-thi/tn-thpt/de-chinh-thuc/2025-2026/dca74v/lemonmath_L12_tn-chinh-thuc_2025-2026_bo-giao-duc-va-dao-tao_de.pdf",
+    "sha256": "34d1cd650f20d9225c858813d8a68b8dec39b409b48e1c31f0540942941b7ad4",
+    "bytes": 288922
   },
   {
-    "code": "z4eoxq",
-    "key": "tai-lieu/lop-07/phieu-bai-tap/2025-2026/z4eoxq/lemonmath_L07_bai-toan-thuc-te_bo-3_2025-2026_loi-giai.pdf",
-    "sha256": "f1721cdc7dae646b9754947751ff9aebae3e1b993efe78693afe2b1aa0d062a0",
-    "bytes": 929080
-  },
-  {
-    "code": "k3kcsv",
-    "key": "tai-lieu/lop-08/phieu-bai-tap/2025-2026/k3kcsv/lemonmath_L08_bai-toan-thuc-te_bo-3_2025-2026_de.pdf",
-    "sha256": "818fb9f23faa02362b8ae4c3b1e87ab7b05be41a159ad98dca21ad48e4864bc5",
-    "bytes": 1114340
-  },
-  {
-    "code": "k3kcsv",
-    "key": "tai-lieu/lop-08/phieu-bai-tap/2025-2026/k3kcsv/lemonmath_L08_bai-toan-thuc-te_bo-3_2025-2026_loi-giai.pdf",
-    "sha256": "09cc6f8d0736f10d6442f6b600e7e0e4c1f9d2a4030eefd139629204309fcc51",
-    "bytes": 927090
-  },
-  {
-    "code": "afwq5o",
-    "key": "tai-lieu/lop-09/phieu-bai-tap/2025-2026/afwq5o/lemonmath_L09_bai-toan-thuc-te_bo-3_2025-2026_de.pdf",
-    "sha256": "3c1a3fd42cd32ea50870649cb9b500ef88b8b76a12ae45f11decbcb86379a666",
-    "bytes": 1082491
-  },
-  {
-    "code": "afwq5o",
-    "key": "tai-lieu/lop-09/phieu-bai-tap/2025-2026/afwq5o/lemonmath_L09_bai-toan-thuc-te_bo-3_2025-2026_loi-giai.pdf",
-    "sha256": "4cdee6505192a0f15a7e64a5084e116f3e2a2c9826b9c3be1b04e4e87ffe9ec0",
-    "bytes": 942341
-  },
-  {
-    "code": "4b2j6h",
-    "key": "tai-lieu/lop-10/phieu-bai-tap/2025-2026/4b2j6h/lemonmath_L10_bai-toan-thuc-te_bo-3_2025-2026_de.pdf",
-    "sha256": "f171e087a1760272f94f4c0b9162b3d2bab0ea9a932fbbc9f96fcf5187f9f51c",
-    "bytes": 935909
-  },
-  {
-    "code": "4b2j6h",
-    "key": "tai-lieu/lop-10/phieu-bai-tap/2025-2026/4b2j6h/lemonmath_L10_bai-toan-thuc-te_bo-3_2025-2026_loi-giai.pdf",
-    "sha256": "f23994654bf5dd8cb3ae09e79981f7b6725e1bb609dafbe1f393ebaf16f83bf0",
-    "bytes": 932705
-  },
-  {
-    "code": "bljjdk",
-    "key": "tai-lieu/lop-11/phieu-bai-tap/2025-2026/bljjdk/lemonmath_L11_bai-toan-thuc-te_bo-3_2025-2026_de.pdf",
-    "sha256": "cd7ce89436f2a47586209a653b789c85da0b4fbfb31d5eba8541e2adceda2c9c",
-    "bytes": 941830
-  },
-  {
-    "code": "bljjdk",
-    "key": "tai-lieu/lop-11/phieu-bai-tap/2025-2026/bljjdk/lemonmath_L11_bai-toan-thuc-te_bo-3_2025-2026_loi-giai.pdf",
-    "sha256": "fd1e1e43991ebcdda4676fe6c9c15e31321a0ee9da8c2c68bf8728035f655d56",
-    "bytes": 935720
-  },
-  {
-    "code": "j4lcv6",
-    "key": "tai-lieu/lop-12/phieu-bai-tap/2025-2026/j4lcv6/lemonmath_L12_bai-toan-thuc-te_bo-3_2025-2026_de.pdf",
-    "sha256": "807be6ac724a91d5e7a834113aaabde38bb243f40f93446dd7a7043927e6b619",
-    "bytes": 1129894
-  },
-  {
-    "code": "j4lcv6",
-    "key": "tai-lieu/lop-12/phieu-bai-tap/2025-2026/j4lcv6/lemonmath_L12_bai-toan-thuc-te_bo-3_2025-2026_loi-giai.pdf",
-    "sha256": "9a93abc147fd221ae644f9919a35a53d69042f8dc981dc7f6e5bce0c85a7e54f",
-    "bytes": 935988
+    "code": "dca74v",
+    "key": "kho-de-thi/ky-thi/tn-thpt/de-chinh-thuc/2025-2026/dca74v/lemonmath_L12_tn-chinh-thuc_2025-2026_bo-giao-duc-va-dao-tao_dap-an.pdf",
+    "sha256": "dae31e3ced07f33d1d590517665bd3154816b462b30989c8e4d129a8ebb4ce0d",
+    "bytes": 119015
   }
 ]

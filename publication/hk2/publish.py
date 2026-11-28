@@ -76,10 +76,18 @@ def expected_pdfs(grade_counts, kind):
         "exam": ("kho-de-thi", "cuoi-hk2", "dap-an"),
         "worksheet": ("tai-lieu", "phieu-bai-tap", "loi-giai"),
     }
-    require(kind in folders, f"Unknown release kind {kind}")
-    area, folder, answer_role = folders[kind]
+    require(kind == "archive-exam" or kind in folders, f"Unknown release kind {kind}")
+    if kind == "archive-exam":
+        prefix = (
+            r"kho-de-thi/(?:lop-(?P<grade>\d{2})/(?:giua-hk[12]|cuoi-hk[12])"
+            r"|ky-thi/tn-thpt/de-(?:chinh-thuc|minh-hoa|thi-thu))/\d{4}-\d{4}"
+        )
+        answer_role = "dap-an"
+    else:
+        area, folder, answer_role = folders[kind]
+        prefix = rf"{area}/lop-(?P<grade>\d{{2}})/{folder}/2025-2026"
     pattern = re.compile(
-        rf"{area}/lop-(\d{{2}})/{folder}/2025-2026/([a-z2-7]{{6}})/(lemonmath_[a-zA-Z0-9_-]+)_(de|{answer_role})\.pdf"
+        rf"{prefix}/(?P<code>[a-z2-7]{{6}})/lemonmath_L(?P<file_grade>\d{{2}})_[a-zA-Z0-9_-]+_(?P<role>de|{answer_role})\.pdf"
     )
     require(len(manifest) == 2 * sum(grade_counts.values()), "Expected two PDFs per document")
     seen = set()
@@ -87,10 +95,12 @@ def expected_pdfs(grade_counts, kind):
     for item in manifest:
         key = item["key"]
         match = pattern.fullmatch(key)
-        require(match and match[2] == item["code"], f"Unexpected R2 target {key}")
-        require(codes.setdefault(match[2], match[1].lstrip("0")) == match[1].lstrip("0"),
-                f"Conflicting grades for {match[2]}")
-        seen.add((match[2],match[4]))
+        require(match and match["code"] == item["code"], f"Unexpected R2 target {key}")
+        grade = match["grade"] or "12"
+        require(1 <= int(grade) <= 12 and match["file_grade"] == grade, f"Invalid grade for {key}")
+        require(codes.setdefault(match["code"], str(int(grade))) == str(int(grade)),
+                f"Conflicting grades for {match['code']}")
+        seen.add((match["code"], match["role"]))
         data = (ROOT/"r2"/key).read_bytes()
         require(data.startswith(b"%PDF-") and len(data)==item["bytes"] and sha256(data).hexdigest()==item["sha256"],
                 f"PDF integrity check failed for {key}")

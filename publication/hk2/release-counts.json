@@ -1,14 +1,9 @@
 {
-  "kind": "worksheet",
+  "kind": "archive-exam",
   "grades": {
-    "6": 1,
-    "7": 1,
-    "8": 1,
-    "9": 1,
-    "10": 1,
     "11": 1,
     "12": 1
   },
-  "previous_qr_count": 112,
-  "total_qr_count": 119
+  "previous_qr_count": 119,
+  "total_qr_count": 121
 }
