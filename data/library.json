@@ -1,5 +1,54 @@
 [
   {
+    "ma": "bijhls",
+    "lop": 6,
+    "loai": "phieu-on-tap",
+    "tieu_de": "Phiếu bài toán thực tế Toán 6 - Số liệu, sinh hoạt và mua sắm",
+    "tep_pdf": "tai-lieu/lop-06/phieu-bai-tap/2025-2026/bijhls/lemonmath_L06_bai-toan-thuc-te_2025-2026_de.pdf"
+  },
+  {
+    "ma": "syy5u2",
+    "lop": 7,
+    "loai": "phieu-on-tap",
+    "tieu_de": "Phiếu bài toán thực tế Toán 7 - Đọc biểu đồ, tính tỉ lệ và đo thể tích",
+    "tep_pdf": "tai-lieu/lop-07/phieu-bai-tap/2025-2026/syy5u2/lemonmath_L07_bai-toan-thuc-te_2025-2026_de.pdf"
+  },
+  {
+    "ma": "jg4upd",
+    "lop": 8,
+    "loai": "phieu-on-tap",
+    "tieu_de": "Phiếu bài toán thực tế Toán 8 - Đi lại, mua sắm và đo đạc",
+    "tep_pdf": "tai-lieu/lop-08/phieu-bai-tap/2025-2026/jg4upd/lemonmath_L08_bai-toan-thuc-te_2025-2026_de.pdf"
+  },
+  {
+    "ma": "55vcof",
+    "lop": 9,
+    "loai": "phieu-on-tap",
+    "tieu_de": "Phiếu bài toán thực tế Toán 9 - Chuyển động, đo khoảng cách và lập kế hoạch",
+    "tep_pdf": "tai-lieu/lop-09/phieu-bai-tap/2025-2026/55vcof/lemonmath_L09_bai-toan-thuc-te_2025-2026_de.pdf"
+  },
+  {
+    "ma": "mizh7z",
+    "lop": 10,
+    "loai": "phieu-on-tap",
+    "tieu_de": "Phiếu bài toán thực tế Toán 10 - Đo đạc, mô hình và xác suất",
+    "tep_pdf": "tai-lieu/lop-10/phieu-bai-tap/2025-2026/mizh7z/lemonmath_L10_bai-toan-thuc-te_2025-2026_de.pdf"
+  },
+  {
+    "ma": "zuqgkn",
+    "lop": 11,
+    "loai": "phieu-on-tap",
+    "tieu_de": "Phiếu bài toán thực tế Toán 11 - Thống kê, sản xuất và đo lường",
+    "tep_pdf": "tai-lieu/lop-11/phieu-bai-tap/2025-2026/zuqgkn/lemonmath_L11_bai-toan-thuc-te_2025-2026_de.pdf"
+  },
+  {
+    "ma": "oryxwp",
+    "lop": 12,
+    "loai": "phieu-on-tap",
+    "tieu_de": "Phiếu bài toán thực tế Toán 12 - Sản xuất, chuyển động và không gian",
+    "tep_pdf": "tai-lieu/lop-12/phieu-bai-tap/2025-2026/oryxwp/lemonmath_L12_bai-toan-thuc-te_2025-2026_de.pdf"
+  },
+  {
     "ma": "djtj7l",
     "lop": 6,
     "loai": "phieu-on-tap",

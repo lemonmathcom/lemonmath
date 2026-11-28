@@ -8,6 +8,7 @@ const { mascot } = require('./art.js');
 const library = require('../data/library.json');
 const sources = require('./question-bank-sources.json');
 const review = require('./question-bank-review.json');
+const practicalWorksheets = require('./question-bank-practical-worksheets.json');
 
 const sections = { mc: 'I', tf: 'II', sa: 'III' };
 const roman = { I: '1', II: '2', III: '3', IV: '4', V: '5' };
@@ -218,6 +219,36 @@ function challengeQuestions(libraryByCode) {
   return questions;
 }
 
+function practicalQuestions(exams, libraryByCode) {
+  const originalByRef = new Map(exams.map((q) => [`${q.code}#${q.anchor}`, q]));
+  return Object.entries(practicalWorksheets).flatMap(([code, entries]) => {
+    const worksheet = libraryByCode.get(code);
+    if (worksheet?.loai !== 'phieu-on-tap' || !entries.length) {
+      throw new Error('Phiếu bài toán thực tế chưa khớp Thư viện: ' + code);
+    }
+    return entries.map(({ ref, title, prompt, answer, solution }, index) => {
+      const original = originalByRef.get(ref);
+      if (original?.grade !== worksheet.lop || !title?.trim()) {
+        throw new Error(`Chưa khớp câu nguồn của phiếu thực tế ${code}/${ref}`);
+      }
+      const anchor = `cau-${index + 1}`;
+      const writtenAnswers = original.answers.map((value) =>
+        value.replace(/^Bài (?:\d+|[IVX]+)(?:\.(\d+))?([a-z])?:\s*/, (_, part, letter) => {
+          const marker = (part || '') + (letter || '');
+          return marker ? marker + ') ' : '';
+        }));
+      return {
+        ...original, code, anchor, title, sourceHref: `/d/${code}#${anchor}`, sourceKind: 'worksheet',
+        prompt: prompt ? markup(prompt, original.code) : original.prompt
+          .replace(/^(<p>)(?:Câu \d+[a-z]?\. |Bài [IVX]+ trong đề in\. )/, '$1'),
+        answers: answer ? [answer] : writtenAnswers,
+        explanation: solution ? markup(solution, original.code) : original.explanation
+          .replace(/\s*\([\d,]+ điểm\)/g, ''),
+      };
+    });
+  });
+}
+
 function buildQuestionBank(grades) {
   const papers = Object.fromEntries(library.filter((row) => row.loai === 'de-thi').map((paper) => [paper.ma, paper]));
   const codes = new Set(sources.map((source) => source.code));
@@ -236,7 +267,8 @@ function buildQuestionBank(grades) {
   }
   const exams = sources.flatMap((source) => paperQuestions(source, papers[source.code]));
   const libraryByCode = new Map(library.map((row) => [row.ma, row]));
-  const questions = [...challengeQuestions(libraryByCode), ...exams, ...reviewQuestions(exams, libraryByCode)]
+  const questions = [...practicalQuestions(exams, libraryByCode), ...challengeQuestions(libraryByCode),
+    ...exams, ...reviewQuestions(exams, libraryByCode)]
     .sort((a, b) => a.grade - b.grade);
   const lessons = {};
   for (const question of questions) {

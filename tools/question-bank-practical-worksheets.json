@@ -1,0 +1,197 @@
+{
+  "bijhls": [
+    {
+      "ref": "uzgrah#cau-i-5",
+      "title": "So sánh nhiệt độ ở bốn địa danh"
+    },
+    {
+      "ref": "z2ti3o#cau-i-8",
+      "title": "Tính góc giữa hai kim đồng hồ"
+    },
+    {
+      "ref": "jfk7r6#tu-luan-5",
+      "title": "Đọc bảng chiều cao của một tổ"
+    },
+    {
+      "ref": "kwb5eg#tu-luan-3",
+      "title": "Chia đều đội văn nghệ"
+    },
+    {
+      "ref": "sejlxh#tu-luan-3",
+      "title": "Tính số trang sách đã đọc"
+    },
+    {
+      "ref": "t6gndl#tu-luan-4",
+      "title": "Mua gạch theo thùng để lát sân"
+    }
+  ],
+  "syy5u2": [
+    {
+      "ref": "wbanqx#cau-i-6",
+      "title": "Tính xác suất trúng thưởng"
+    },
+    {
+      "ref": "j4eb2m#cau-iii-16a",
+      "title": "Đọc biểu đồ lượt khách quốc tế",
+      "prompt": "Biểu đồ cho biết số lượt khách quốc tế đến Việt Nam trong giai đoạn 2015–2020, tính bằng triệu lượt. Năm 2017 có bao nhiêu triệu lượt khách quốc tế đến Việt Nam?\n\n![Số lượt khách quốc tế đến Việt Nam từ năm 2015 đến 2020](hinh/luot-khach-2015-2020.png)"
+    },
+    {
+      "ref": "hjy6y5#tu-luan-3",
+      "title": "Chia cây theo tỉ lệ cho ba lớp"
+    },
+    {
+      "ref": "ssczjl#tu-luan-7",
+      "title": "Tính diện tích trồng rau và hoa"
+    },
+    {
+      "ref": "we3wn5#tu-luan-3",
+      "title": "Tính lượng bìa làm hộp quà"
+    },
+    {
+      "ref": "wbanqx#cau-ii-2",
+      "title": "Tính lượng kính và nước cho bể cá"
+    }
+  ],
+  "jg4upd": [
+    {
+      "ref": "m5z5pq#tu-luan-4",
+      "title": "Thống kê sở thích thể thao"
+    },
+    {
+      "ref": "m5z5pq#tu-luan-5",
+      "title": "Tính diện tích mặt bên của chóp inox Fansipan"
+    },
+    {
+      "ref": "5jokqw#tu-luan-1",
+      "title": "Tìm vận tốc ô tô trên đường đi"
+    },
+    {
+      "ref": "ejhv4z#tu-luan-2",
+      "title": "Tính tỉ lệ giảm lượt hành khách qua hai năm",
+      "prompt": "Bảng cho biết số lượt hành khách vận chuyển bằng đường bộ ở Khánh Hòa, tính bằng triệu lượt.\n\n| Năm | 2015 | 2018 | 2019 | 2020 |\n| --- | --- | --- | --- | --- |\n| Số lượt hành khách | 36,4 | 53,7 | 58,8 | 19,1 |\n\nSố lượt hành khách năm 2020 giảm bao nhiêu phần trăm so với năm 2019? Làm tròn đến hàng phần mười. Nguồn số liệu là Niên giám thống kê 2021.",
+      "answer": "Giảm khoảng 67,5%.",
+      "solution": "Từ 2019 đến 2020, số lượt giảm $58{,}8-19{,}1=39{,}7$ triệu lượt. Tính mức giảm theo số lượt của năm 2019, ta được\n$$\\frac{39{,}7}{58{,}8}\\cdot100\\%\\approx67{,}5\\%.$$"
+    },
+    {
+      "ref": "m5z5pq#tu-luan-6",
+      "title": "Đo chiều dài cầu trượt"
+    },
+    {
+      "ref": "ozbgpp#tu-luan-2",
+      "title": "Lập phân thức để tính số bút chì"
+    }
+  ],
+  "55vcof": [
+    {
+      "ref": "gdqtpi#cau-i-18",
+      "title": "Ước lượng khoảng cách từ nhà đến xe"
+    },
+    {
+      "ref": "qeiga6#tu-luan-3",
+      "title": "Tính quãng đường đầu con lắc đi qua",
+      "prompt": "Một chiếc đồng hồ quả lắc có thanh treo $OA$ dài 60 cm. Khi hoạt động ổn định, đầu con lắc đi qua lại giữa hai vị trí biên $A$ và $B$ trên một cung tròn tâm $O$. Góc $\\angle AOB=30^\\circ$. Phương thẳng đứng qua $O$ đi qua điểm $C$ ở giữa cung $AB$ như hình.\n\n1) Tính quãng đường đầu con lắc đi từ $A$ đến $B$, lấy $\\pi\\approx3{,}14$.\n\n2) Đầu con lắc bắt đầu từ $A$ và đi được 339,12 cm thì dừng ở $D$. Tính góc lệch của thanh treo so với phương thẳng đứng lúc đó.\n\n![Hình con lắc từ đề gốc, với điểm treo O và cung đi qua A, C, D, B](hinh/con-lac-day-du.png)"
+    },
+    {
+      "ref": "tdfe6x#tu-luan-4",
+      "title": "Thống kê món ăn yêu thích",
+      "solution": "a) Chia số học sinh chọn từng món cho 40 rồi đổi sang phần trăm.\n\n| Món ăn | Bánh mì | Cơm cuộn | Pizza | Gà rán |\n| --- | --- | --- | --- | --- |\n| Tần số tương đối | 25% | 45% | 20% | 10% |\n\nb) Trục ngang ghi tên món ăn, trục đứng ghi tần số tương đối (%). Vẽ bốn cột có cùng độ rộng với chiều cao lần lượt là 25%, 45%, 20% và 10%.\n\n![Biểu đồ cột tần số tương đối: bánh mì 25%, cơm cuộn 45%, pizza 20%, gà rán 10%](hinh/tan-so-mon-an.png)"
+    },
+    {
+      "ref": "kvqood#tu-luan-4",
+      "title": "Tính xác suất chọn khu tình nguyện",
+      "prompt": "Trong ngày hội Sống xanh, một trường THCS tổ chức ba khu vực tình nguyện. Khu A trồng cây, khu B phân loại rác tái chế và khu C tặng sách cũ. Giang và Ngân mỗi bạn chọn một khu. Hai lựa chọn độc lập và mỗi khu có cùng khả năng được chọn.\n\na) Mô tả phép thử.\n\nb) Viết không gian mẫu.\n\nc) Gọi $M$ là biến cố hai bạn cùng chọn một khu, và $N$ là biến cố ít nhất một bạn chọn khu trồng cây. Tính $P(M)$ và $P(N)$.",
+      "solution": "a) Cho Giang và Ngân mỗi bạn chọn một khu. Ghi cặp kết quả theo thứ tự Giang, Ngân.\n\nb) Xếp các kết quả theo khu do Giang chọn.\n\n- Giang chọn A thì có $(A,A)$, $(A,B)$ và $(A,C)$.\n- Giang chọn B thì có $(B,A)$, $(B,B)$ và $(B,C)$.\n- Giang chọn C thì có $(C,A)$, $(C,B)$ và $(C,C)$.\n\nHai lựa chọn độc lập và các khu có cùng khả năng được chọn, nên 9 kết quả đồng khả năng.\n\nc) Biến cố $M$ gồm $(A,A)$, $(B,B)$ và $(C,C)$, nên $P(M)=\\frac39=\\frac13$. Với biến cố $N$, có 3 kết quả khi Giang chọn A và 3 kết quả khi Ngân chọn A. Cặp $(A,A)$ được tính hai lần, nên có $3+3-1=5$ kết quả thuận lợi. Vậy $P(N)=\\frac59$."
+    },
+    {
+      "ref": "gdqtpi#cau-i-20",
+      "title": "Chia tiền gửi giữa hai ngân hàng"
+    },
+    {
+      "ref": "kvqood#tu-luan-2",
+      "title": "Tìm vận tốc dự kiến của người chạy bộ"
+    }
+  ],
+  "mizh7z": [
+    {
+      "ref": "snorg2#cau-iii-4",
+      "title": "Tính khoảng biến thiên chiều cao cây bạch đàn"
+    },
+    {
+      "ref": "b46aan#cau-i-7",
+      "title": "Đếm cách phân công ban cán sự lớp"
+    },
+    {
+      "ref": "gykbp5#tu-luan-1",
+      "title": "Tính xác suất lấy được ba bóng đèn tốt",
+      "solution": "Có $\\binom{12}{3}=220$ cách chọn 3 bóng từ cả hộp và $\\binom73=35$ cách chỉ chọn bóng tốt. Các bộ ba có cùng khả năng được chọn. Xác suất cần tìm là $\\dfrac{35}{220}=\\dfrac7{44}$."
+    },
+    {
+      "ref": "kr34dg#cau-iii-4",
+      "title": "Tính chiều cao tại một điểm dưới mái vòm"
+    },
+    {
+      "ref": "l3ykrf#cau-iii-2",
+      "title": "Tìm chiều rộng đủ để trồng rau"
+    },
+    {
+      "ref": "7hxgmw#cau-iii-4",
+      "title": "Tính khoảng cách giữa hai máy bay"
+    }
+  ],
+  "zuqgkn": [
+    {
+      "ref": "r26dly#cau-i-8",
+      "title": "Xác định nhóm tuổi có nhiều khách nhất"
+    },
+    {
+      "ref": "4aty47#cau-iii-3",
+      "title": "Tính xác suất tham gia đúng một môn thể thao"
+    },
+    {
+      "ref": "6zsuhg#tu-luan-1",
+      "title": "Tính độ cao một thửa ruộng bậc thang",
+      "prompt": "Thửa thấp nhất của một ruộng bậc thang nằm ở độ cao 950 m so với mực nước biển. Trong mô hình, hai thửa liền kề chênh nhau 1,4 m về độ cao. Đánh số bậc từ thấp lên cao, bắt đầu từ 1. Hỏi thửa ở bậc thứ 12 nằm ở độ cao bao nhiêu mét?\n\n![Ruộng bậc thang minh họa các bậc nối tiếp nhau](hinh/ruong-bac-thang.png)",
+      "solution": "Theo mô hình, độ cao các bậc tạo thành cấp số cộng có số hạng đầu $950$ m và công sai $1{,}4$ m. Từ bậc 1 đến bậc 12 có 11 lần tăng, nên độ cao cần tìm là $950+11\\cdot1{,}4=965{,}4$ m."
+    },
+    {
+      "ref": "wyo5zl#cau-iii-2",
+      "title": "Tính lượng nước làm đầy các khay đá"
+    },
+    {
+      "ref": "a5qfs2#cau-iii-2",
+      "title": "Tính chi phí sản xuất trung bình khi tăng sản lượng"
+    },
+    {
+      "ref": "rstzba#tu-luan-3",
+      "title": "Kiểm tra tường bằng dây dọi và tìm vận tốc nhỏ nhất"
+    }
+  ],
+  "oryxwp": [
+    {
+      "ref": "wlb4r7#cau-iii-1",
+      "title": "Tính khoảng cách từ góc sàn tới đèn"
+    },
+    {
+      "ref": "pcfpz6#cau-iii-5",
+      "title": "Tính độ cao của cabin trên đường cáp",
+      "prompt": "Trong hệ tọa độ $Oxyz$ theo đơn vị mét, mặt đất là $(Oxy)$ và trục $Oz$ hướng lên. Cabin xuất phát tại $A(7;-3;4)$ và chuyển động đều trên đường cáp theo chiều vectơ $\\vec u=(2;-2;1)$ với tốc độ 4,5 m/s. Tính độ cao của cabin sau 10 giây.\n\n![Cabin đi trên đường cáp trong không gian](hinh/cap-treo.png)",
+      "solution": "Cabin đi được $4{,}5\\cdot10=45$ m. Vì $\\lVert\\vec u\\rVert=\\sqrt{2^2+(-2)^2+1^2}=3$, vectơ độ dời là $\\dfrac{45}{3}\\vec u=15\\vec u$. Thành phần theo trục $Oz$ là $15\\cdot1=15$ m. Độ cao mới là $4+15=19$ m."
+    },
+    {
+      "ref": "35heli#cau-iii-2",
+      "title": "Tìm nguồn gốc phế phẩm theo xác suất"
+    },
+    {
+      "ref": "adrh34#cau-ii-2",
+      "title": "So sánh số liệu tăng trưởng của hai nhóm cây"
+    },
+    {
+      "ref": "u5gtmc#cau-iii-2",
+      "title": "Tìm vị trí xa nhất của cá hồi"
+    },
+    {
+      "ref": "n7r7fh#cau-iii-3",
+      "title": "Tìm số máy tính bảng cho lợi nhuận lớn nhất"
+    }
+  ]
+}
