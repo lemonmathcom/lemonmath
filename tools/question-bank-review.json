@@ -173,6 +173,35 @@
         "answer": "Xác suất A thắng là $\\frac7{19}$. Xác suất cuộc thi kéo dài quá ba lượt khi biết A thắng là $0{,}238328$.",
         "solution": "Mỗi lượt, A thắng với xác suất $0{,}7\\cdot0{,}2=0{,}14$. Xác suất hòa là $0{,}7\\cdot0{,}8+0{,}3\\cdot0{,}2=0{,}62$.\n\na) Gọi $p$ là xác suất A thắng chung cuộc. Nếu hòa ở lượt đầu, cuộc thi trở về tình huống ban đầu, nên $p=0{,}14+0{,}62p$. Suy ra $p=\\frac{0{,}14}{1-0{,}62}=\\frac7{19}$.\n\nb) Cuộc thi kéo dài quá ba lượt khi cả ba lượt đầu cùng hòa, có xác suất $0{,}62^3$. Sau đó xác suất A thắng vẫn là $p$ do tính độc lập. Chia xác suất đồng thời $0{,}62^3p$ cho $p$ được $0{,}62^3=0{,}238328$."
       }
+    ],
+    "6vo7rg": [
+      {
+        "number": 1,
+        "title": "Giảm chi phí làm lối đi qua mép ao",
+        "lesson": "g12/derivative-real-problems",
+        "skill": "Lập hàm chi phí và tối ưu trên đoạn có giới hạn",
+        "prompt": "Trong mặt bằng theo đơn vị mét, hai bờ thẳng là đoạn $AD$ trên $x=0$ với $0\\le y\\le40$ và đoạn $DC$ trên $y=40$ với $0\\le x\\le60$. Điểm nối $E$ phải nằm trên phần mép ao $y=100-x-\\frac{1200}{x}$ với $18\\le x\\le45$. Một lối đi gồm đoạn thẳng $ME$ từ $M$ trên $AD$ và đoạn thẳng $EF$ tới $F$ trên $DC$. Đoạn $ME$ giá 2 triệu đồng/m, đoạn $EF$ giá 1 triệu đồng/m.\n\na) Tìm vị trí $E$ cho chi phí thấp nhất và tính chi phí đó.\n\nb) Nếu phải chừa dải bảo trì khiến $E$ cách $AD$ ít nhất 24 m, vị trí tối ưu và chi phí thay đổi thế nào?",
+        "answer": "a) $E(20;20)$, chi phí 60 triệu đồng. b) $E(24;26)$, chi phí 62 triệu đồng.",
+        "solution": "Với mỗi $E=(x;y)$ đã chọn, hai hình chiếu $(0;y)$ và $(x;40)$ nằm trên đúng hai bờ. Chọn chúng làm $M,F$ thì từng đoạn đạt độ dài nhỏ nhất, lần lượt là $x$ và $40-y$. Chi phí nhỏ nhất ứng với $x$, theo triệu đồng, là\n$$C(x)=2x+40-y=3x+\\frac{1200}{x}-60.$$\n\na) $C'(x)=3-\\frac{1200}{x^2}$ âm khi $18\\le x<20$, bằng 0 tại $x=20$ và dương khi $20<x\\le45$. Do đó $C$ nhỏ nhất tại $x=20$, cho $y=20$ và $C(20)=60$.\n\nb) Khoảng cách từ $E$ tới $AD$ bằng $x$, nên ràng buộc mới thu hẹp miền xét thành $[24;45]$. Trên đoạn này $C$ tăng, vì vậy chọn $x=24$. Khi đó $y=100-24-50=26$ và $C(24)=62$, tăng 2 triệu đồng."
+      },
+      {
+        "number": 2,
+        "title": "Chọn vạch chia màu để giảm chi phí sơn",
+        "lesson": "g12/integral-applications",
+        "skill": "Tính diện tích bằng tích phân rồi xét ngưỡng mua nguyên hộp",
+        "prompt": "Một bức tường rộng 8 m, cao 4 m được sơn trắng ở dưới và xanh ở trên. Đường phân màu có phương trình $y=2+\\frac{x(x-2)(x-8)}{35}+h$ với $0\\le x\\le8$. Được dịch đường này lên $h$ mét, $0\\le h\\le0{,}5$. Trong khoảng dịch đó đường cong luôn nằm giữa hai cạnh ngang. Mỗi hộp sơn phủ tối đa $4\\,\\text{m}^2$. Hộp trắng giá 160.000 đồng, hộp xanh giá 230.000 đồng và chỉ bán nguyên hộp.\n\na) Nếu được chọn $h$ tùy ý trong khoảng cho phép, tìm $h$ và chi phí thấp nhất.\n\nb) Nếu chỉ được dịch theo số nguyên xentimét, chi phí thấp nhất là bao nhiêu? Nêu một độ dịch đạt được mức đó.",
+        "answer": "a) Dịch $\\frac{23}{210}$ m, hết 1.630.000 đồng. b) Có thể dịch 11 cm, hết 1.790.000 đồng.",
+        "solution": "Gọi $W$ là diện tích phần trắng. Ta có\n$$W=\\int_0^8\\left(2+\\frac{x(x-2)(x-8)}{35}+h\\right)\\,dx=\\frac{1168}{105}+8h.$$\nPhần xanh có diện tích $32-W$. Trên miền cho phép, $W$ nằm giữa 8 và $16\\,\\text{m}^2$, còn $32-W$ nằm giữa 16 và $24\\,\\text{m}^2$. Vậy chỉ có ba trường hợp, tùy theo $W$ so với $12\\,\\text{m}^2$.\n\n- Nếu $W<12$, cần 3 hộp trắng và 6 hộp xanh, hết 1.860.000 đồng.\n- Nếu $W=12$, cần 3 hộp trắng và 5 hộp xanh, hết 1.630.000 đồng.\n- Nếu $W>12$, cần 4 hộp trắng và 5 hộp xanh, hết 1.790.000 đồng.\n\na) Mức thấp nhất đạt khi $W=12$, tức $h=\\frac{12-1168/105}{8}=\\frac{23}{210}$ m.\n\nb) Độ dịch đó bằng khoảng $10{,}952$ cm, nằm giữa hai vạch nguyên 10 cm và 11 cm. Không thể đạt $W=12$ khi chọn nguyên xentimét. Trong hai mức chi phí còn lại, 1.790.000 đồng thấp hơn và đạt được khi dịch 11 cm."
+      },
+      {
+        "number": 5,
+        "title": "Chọn trạm tiếp tế cho hai drone trên bờ kè",
+        "lesson": "g12/coordinate-system-space",
+        "skill": "Chiếu lên đường thẳng và dùng đối xứng để tối ưu tổng khoảng cách",
+        "prompt": "Hai drone cứu trợ đang ở hai vị trí tính từ mốc $O$ trên mặt đất. Drone thứ nhất ở 1,5 km về phía đông, 2,5 km về phía nam và cao 60 m. Drone thứ hai ở 2,5 km về phía tây, 3 km về phía bắc và cao 40 m. Trạm tiếp tế chỉ được đặt trên đoạn bờ kè thẳng theo hướng đông tây qua $O$, kéo dài 2 km về mỗi phía. Coi mặt đất nằm ngang.\n\nHãy chọn vị trí trên bờ kè để tổng hai khoảng cách theo đường thẳng từ trạm tới hai drone nhỏ nhất. Tính khoảng cách từ trạm tới $O$, nêu hướng, và tính tổng nhỏ nhất. Làm tròn các khoảng cách đến 0,01 km.",
+        "answer": "Trạm cách O khoảng 0,32 km về phía tây. Tổng khoảng cách nhỏ nhất khoảng 6,80 km.",
+        "solution": "Chọn trục $Ox$ hướng đông dọc bờ kè, $Oy$ hướng bắc và $Oz$ hướng lên. Tính theo kilômét, trạm có dạng $P=(s;0;0)$ với $-2\\le s\\le2$. Khoảng cách vuông góc từ hai drone đến đường thẳng $Ox$ lần lượt là\n$$a=\\sqrt{2{,}5^2+0{,}06^2},\\qquad b=\\sqrt{3^2+0{,}04^2}.$$\n\nTrong mặt phẳng phụ, đặt $U=(1{,}5;a)$, $V=(-2{,}5;-b)$ và $S=(s;0)$. Theo định lí Pythagore, $SU$ và $SV$ đúng bằng hai khoảng cách từ trạm tới hai drone. Bất đẳng thức tam giác cho $SU+SV\\ge UV$, với dấu bằng khi $S$ là giao của đoạn $UV$ với trục ngang.\n\nĐi dọc đoạn từ $U$ đến $V$ phải đi qua tỉ phần $\\frac{a}{a+b}$ mới tới trục ngang. Vì vậy hoành độ giao điểm là $s=1{,}5-4\\frac{a}{a+b}\\approx-0{,}31838$, thuộc đoạn bờ kè. Dấu âm cho biết trạm ở phía tây, cách $O$ khoảng $0{,}32$ km. Tổng nhỏ nhất là $UV=\\sqrt{4^2+(a+b)^2}\\approx6{,}80$ km."
+      }
     ]
   },
   "outlines": {
