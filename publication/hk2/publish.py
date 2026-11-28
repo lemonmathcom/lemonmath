@@ -1,4 +1,5 @@
 """Publish exactly this batch to the existing Lemonmath Cloudflare resources."""
+from collections import Counter
 from concurrent.futures import ThreadPoolExecutor
 from hashlib import sha256
 import json
@@ -19,7 +20,6 @@ API_DIR = ROOT.parents[1] / "api"
 BUCKET = "lemonmath-assets"
 DOWNLOAD_HOST = "tai-lieu.lemonmath.com"
 SITE = "https://lemonmath.com"
-CODES = dict(enumerate(("z2ti3o", "5qxkeb", "qw3wev", "kvqood", "gykbp5", "4aty47", "35heli"), start=6))
 USER_AGENT = "Lemonmath deployment verifier"
 BEACON = re.compile(
     rb'<script\b[^>]*\bsrc="https://static\.cloudflareinsights\.com/beacon\.min\.js[^"]*"'
@@ -70,25 +70,29 @@ def verify_bucket():
             for domain in data["result"]["domains"]), "Expected active download domain on lemonmath-assets")
     print(f"Verified {DOWNLOAD_HOST} is on {BUCKET}")
 
-def expected_pdfs():
+def expected_pdfs(grade_counts):
     manifest = json.loads((ROOT/"r2-manifest.json").read_bytes())
-    require(len(manifest) == 14, "Expected two PDFs per grade")
+    require(len(manifest) == 2 * sum(grade_counts.values()), "Expected two PDFs per exam")
     seen = set()
+    codes = {}
     for item in manifest:
         key = item["key"]
         match = re.fullmatch(
             r"kho-de-thi/lop-(\d{2})/cuoi-hk2/2025-2026/([a-z2-7]{6})/(lemonmath_[a-zA-Z0-9_-]+)_(de|dap-an)\.pdf",
             key,
         )
-        require(match and CODES.get(int(match[1])) == match[2] == item["code"], f"Unexpected R2 target {key}")
+        require(match and match[2] == item["code"], f"Unexpected R2 target {key}")
+        require(codes.setdefault(match[2], match[1].lstrip("0")) == match[1].lstrip("0"),
+                f"Conflicting grades for {match[2]}")
         seen.add((match[2],match[4]))
         data = (ROOT/"r2"/key).read_bytes()
         require(data.startswith(b"%PDF-") and len(data)==item["bytes"] and sha256(data).hexdigest()==item["sha256"],
                 f"PDF integrity check failed for {key}")
-    require(len(seen)==14, "Duplicate or missing PDF role")
-    return manifest
+    require(Counter(codes.values()) == grade_counts, "Exam counts by grade differ from the release")
+    require(len(seen)==len(manifest), "Duplicate or missing PDF role")
+    return manifest, set(codes)
 
-def unpack_qr():
+def unpack_qr(total, new_codes):
     pages = {}
     with ZipFile(ROOT/"qr-pages.zip") as archive:
         require(archive.testzip() is None, "Invalid QR archive")
@@ -102,11 +106,11 @@ def unpack_qr():
             target.write_bytes(payload)
             if re.fullmatch(r"d/[a-z2-7]{6}\.html",name):
                 pages[name[2:-5]] = sha256(payload).hexdigest()
-    require(len(pages)==56 and set(CODES.values()) <= pages.keys(), "Expected 56 QR pages")
+    require(len(pages)==total and new_codes <= pages.keys(), f"Expected {total} QR pages")
     return pages
 
-def verify_pages(pages, only_existing=False):
-    sample = {code:digest for code,digest in pages.items() if not only_existing or code not in CODES.values()}
+def verify_pages(pages, exclude=()):
+    sample = {code:digest for code,digest in pages.items() if code not in exclude}
     def check(entry):
         code,digest = entry
         url = f"{SITE}/d/{code}"
@@ -123,8 +127,11 @@ def wrangler(*args, capture=False):
                           text=True, stdout=subprocess.PIPE if capture else None,timeout=150)
 
 def publish():
-    manifest, pages = expected_pdfs(), unpack_qr()
-    verify_pages(pages,only_existing=True)
+    counts = json.loads((ROOT/"release-counts.json").read_bytes())
+    manifest, new_codes = expected_pdfs(counts["grades"])
+    require(counts["total_qr_count"] - counts["previous_qr_count"] == len(new_codes), "Unexpected QR count change")
+    pages = unpack_qr(counts["total_qr_count"], new_codes)
+    verify_pages(pages,exclude=new_codes)
     if "--check" in sys.argv:
         return
     verify_bucket()
@@ -146,7 +153,7 @@ def publish():
 
     config = str(ROOT/"wrangler.jsonc")
     upload = wrangler("versions","upload","--config",config,"--message",
-                      "Add seven semester II exam pages",capture=True)
+                      f"Add {len(new_codes)} semester II exam pages",capture=True)
     print(upload.stdout,flush=True)
     version = re.search(r"\bVersion ID:\s*([a-f0-9-]{36})\b",upload.stdout,re.I)
     require(version, "Wrangler did not return the new QR version ID")
