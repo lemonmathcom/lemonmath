@@ -10,7 +10,7 @@ const lookupUrl = (code) => '/d/' + code;
 const libraryText = {
   en: {
     nav: 'Library', title: 'Maths resource library',
-    lead: 'Vietnamese exam papers, revision guides and practice worksheets for grades 6–12.',
+    lead: 'Vietnamese first- and second-semester maths papers, revision guides and practice worksheets for grades 6–12.',
     filters: 'Filter the library', grade: 'Grade', gradeName: (n) => 'Grade ' + n,
     allGrades: 'All grades', type: 'Resource type', allTypes: 'All types', clear: 'Clear filters',
     count: (shown, total) => `${shown} of ${total} resources`,
@@ -20,7 +20,7 @@ const libraryText = {
   },
   vi: {
     nav: 'Thư viện', title: 'Thư viện tài liệu Toán',
-    lead: 'Đề thi, đề cương và phiếu ôn tập cuối học kì 1 cho lớp 6–12.',
+    lead: 'Đề thi cuối học kì I và II, đề cương và phiếu ôn tập Toán lớp 6–12.',
     filters: 'Lọc tài liệu', grade: 'Lớp', gradeName: (n) => 'Lớp ' + n,
     allGrades: 'Tất cả', type: 'Loại tài liệu', allTypes: 'Tất cả', clear: 'Xóa bộ lọc',
     count: (shown, total) => `${shown} trên ${total} tài liệu`,

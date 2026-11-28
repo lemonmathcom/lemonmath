@@ -14,7 +14,7 @@ const roman = { I: '1', II: '2', III: '3', IV: '4', V: '5' };
 const questionBankDir = (lang) => lang === 'vi' ? 'vi/ngan-hang-cau-hoi' : 'question-bank';
 const questionBankText = {
   vi: {
-    title: 'Ngân hàng câu hỏi', lead: (count) => `Câu hỏi từ ${count} đề thi, đề cương và phiếu ôn tập Toán cuối học kì 1 lớp 6–12, năm học 2025–2026.`,
+    title: 'Ngân hàng câu hỏi', lead: (count) => `Câu hỏi từ ${count} đề thi, đề cương và phiếu ôn tập Toán lớp 6–12, năm học 2025–2026.`,
     grade: 'Lớp', lesson: 'Bài học', type: 'Dạng câu', level: 'Mức độ', all: 'Tất cả',
     types: { mc: 'Trắc nghiệm', tf: 'Đúng/sai', sa: 'Trả lời ngắn', tl: 'Tự luận' },
     levels: { NB: 'Nhận biết', TH: 'Thông hiểu', VD: 'Vận dụng', VDC: 'Vận dụng cao' },
@@ -126,7 +126,11 @@ function paperQuestions(source, paper) {
     if (!tags.length || !answers.length || !pieces[0].trim() || solution < 0 || !pieces[solution + 1]?.trim()) {
       throw new Error(`Thiếu đề bài, đáp số hoặc lời giải ${code}/${title}`);
     }
-    questions.push({ code, grade: paper.lop, type: 'tl', title, anchor: `tu-luan-${index + 1}`, tags,
+    // Some printed short answers require a symbolic expression and are self-checked in the source.
+    const shortNumber = /^Câu III\.(\d+)\b/.exec(title)?.[1];
+    questions.push({ code, grade: paper.lop, type: shortNumber ? 'sa' : 'tl',
+      title: shortNumber ? `Câu ${shortNumber} · Phần III` : title, anchor: `tu-luan-${index + 1}`,
+      tags: shortNumber ? tags.map((tag) => ({ ...tag, marker: `III.${shortNumber}` })) : tags,
       prompt: markup(pieces[0], code), options: [], answers, explanation: markup(pieces[solution + 1], code) });
   }
   return questions;
