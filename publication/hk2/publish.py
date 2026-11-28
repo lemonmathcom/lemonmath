@@ -70,17 +70,23 @@ def verify_bucket():
             for domain in data["result"]["domains"]), "Expected active download domain on lemonmath-assets")
     print(f"Verified {DOWNLOAD_HOST} is on {BUCKET}")
 
-def expected_pdfs(grade_counts):
+def expected_pdfs(grade_counts, kind):
     manifest = json.loads((ROOT/"r2-manifest.json").read_bytes())
-    require(len(manifest) == 2 * sum(grade_counts.values()), "Expected two PDFs per exam")
+    folders = {
+        "exam": ("kho-de-thi", "cuoi-hk2", "dap-an"),
+        "worksheet": ("tai-lieu", "phieu-bai-tap", "loi-giai"),
+    }
+    require(kind in folders, f"Unknown release kind {kind}")
+    area, folder, answer_role = folders[kind]
+    pattern = re.compile(
+        rf"{area}/lop-(\d{{2}})/{folder}/2025-2026/([a-z2-7]{{6}})/(lemonmath_[a-zA-Z0-9_-]+)_(de|{answer_role})\.pdf"
+    )
+    require(len(manifest) == 2 * sum(grade_counts.values()), "Expected two PDFs per document")
     seen = set()
     codes = {}
     for item in manifest:
         key = item["key"]
-        match = re.fullmatch(
-            r"kho-de-thi/lop-(\d{2})/cuoi-hk2/2025-2026/([a-z2-7]{6})/(lemonmath_[a-zA-Z0-9_-]+)_(de|dap-an)\.pdf",
-            key,
-        )
+        match = pattern.fullmatch(key)
         require(match and match[2] == item["code"], f"Unexpected R2 target {key}")
         require(codes.setdefault(match[2], match[1].lstrip("0")) == match[1].lstrip("0"),
                 f"Conflicting grades for {match[2]}")
@@ -88,7 +94,7 @@ def expected_pdfs(grade_counts):
         data = (ROOT/"r2"/key).read_bytes()
         require(data.startswith(b"%PDF-") and len(data)==item["bytes"] and sha256(data).hexdigest()==item["sha256"],
                 f"PDF integrity check failed for {key}")
-    require(Counter(codes.values()) == grade_counts, "Exam counts by grade differ from the release")
+    require(Counter(codes.values()) == grade_counts, "Document counts by grade differ from the release")
     require(len(seen)==len(manifest), "Duplicate or missing PDF role")
     return manifest, set(codes)
 
@@ -109,15 +115,16 @@ def unpack_qr(total, new_codes):
     require(len(pages)==total and new_codes <= pages.keys(), f"Expected {total} QR pages")
     return pages
 
-def verify_pages(pages, exclude=()):
+def verify_pages(pages, exclude=(), previous=None):
     sample = {code:digest for code,digest in pages.items() if code not in exclude}
+    previous = previous or {}
     def check(entry):
         code,digest = entry
         url = f"{SITE}/d/{code}"
         with urlopen(Request(url,headers={"User-Agent":USER_AGENT}),timeout=15) as response:
             body = BEACON.sub(b"",response.read())
             require(urlsplit(response.url).path.rstrip("/") == f"/d/{code}" and
-                    sha256(body).hexdigest()==digest, f"Unexpected public QR page {code}")
+                    sha256(body).hexdigest() in {digest, previous.get(code)}, f"Unexpected public QR page {code}")
     with ThreadPoolExecutor(max_workers=6) as pool:
         list(pool.map(check,sample.items()))
     print(f"Verified {len(sample)} published QR pages")
@@ -128,10 +135,15 @@ def wrangler(*args, capture=False):
 
 def publish():
     counts = json.loads((ROOT/"release-counts.json").read_bytes())
-    manifest, new_codes = expected_pdfs(counts["grades"])
+    kind = counts.get("kind", "exam")
+    manifest, new_codes = expected_pdfs(counts["grades"], kind)
     require(counts["total_qr_count"] - counts["previous_qr_count"] == len(new_codes), "Unexpected QR count change")
     pages = unpack_qr(counts["total_qr_count"], new_codes)
-    verify_pages(pages,exclude=new_codes)
+    previous = counts.get("previous_page_sha256", {})
+    require(previous.keys() <= pages.keys() - new_codes and
+            all(re.fullmatch(r"[a-f0-9]{64}", digest) for digest in previous.values()),
+            "Invalid hash for a revised QR page")
+    verify_pages(pages,exclude=new_codes,previous=previous)
     if "--check" in sys.argv:
         return
     verify_bucket()
@@ -153,7 +165,7 @@ def publish():
 
     config = str(ROOT/"wrangler.jsonc")
     upload = wrangler("versions","upload","--config",config,"--message",
-                      f"Add {len(new_codes)} semester II exam pages",capture=True)
+                      f"Add {len(new_codes)} semester II {kind} pages",capture=True)
     print(upload.stdout,flush=True)
     version = re.search(r"\bVersion ID:\s*([a-f0-9-]{36})\b",upload.stdout,re.I)
     require(version, "Wrangler did not return the new QR version ID")
