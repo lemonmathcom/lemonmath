@@ -1,4 +1,239 @@
 {
+  "dgenkb": [
+    {
+      "ref": "t6gndl#cau-i-1",
+      "title": "Biểu diễn độ cao của tàu ngầm",
+      "prompt": "Lấy mặt biển làm mốc độ cao 0. Một tàu ngầm ở độ sâu 1.200 m dưới mặt biển. Độ cao của tàu ngầm so với mốc bằng bao nhiêu?"
+    },
+    {
+      "ref": "jfk7r6#cau-i-5",
+      "title": "Nhận ra mặt đồng hồ hình lục giác đều"
+    },
+    {
+      "ref": "jfk7r6#cau-i-7",
+      "title": "Phát hiện số liệu không hợp lí trong bảng"
+    },
+    {
+      "ref": "z2ti3o#cau-i-6a",
+      "title": "Đếm số buổi đi học bằng xe đạp",
+      "prompt": "Biểu đồ tranh ghi số buổi bạn Hùng sử dụng từng phương tiện để đến trường trong tháng tư. Mỗi chấm tròn ● ứng với 2 buổi học.\n\n| Phương tiện | Biểu đồ tranh |\n| --- | --- |\n| Xe đạp | ● ● ● |\n| Xe máy (bố mẹ chở) | ● ● ● ● ● |\n| Phương tiện khác | ● ● |\n\nHùng đi xe đạp đến trường bao nhiêu buổi trong tháng tư?"
+    },
+    {
+      "ref": "t6gndl#tu-luan-3",
+      "title": "Tính số học sinh đi tham quan"
+    },
+    {
+      "ref": "kwb5eg#tu-luan-4",
+      "title": "Tính diện tích và chi phí trồng cỏ"
+    }
+  ],
+  "z4eoxq": [
+    {
+      "ref": "we3wn5#cau-i-4",
+      "title": "Đếm các kết quả khi rút bút theo màu"
+    },
+    {
+      "ref": "j4eb2m#cau-iii-16b",
+      "title": "Đọc mức tăng lượt khách quốc tế",
+      "prompt": "Biểu đồ ghi số lượt khách quốc tế đến Việt Nam, tính bằng triệu lượt. Từ năm 2015 đến năm 2019, số lượt khách quốc tế tăng bao nhiêu triệu lượt?\n\n![Biểu đồ số lượt khách quốc tế đến Việt Nam từ năm 2015 đến 2020](hinh/luot-khach-2015-2020.png)",
+      "solution": "Năm 2015 có 8 triệu lượt và năm 2019 có 18 triệu lượt. Lấy số năm 2019 trừ số năm 2015 được $18-8=10$ triệu lượt."
+    },
+    {
+      "ref": "5qxkeb#tu-luan-2",
+      "title": "Tính sĩ số hai lớp theo tỉ lệ",
+      "prompt": "Hai lớp 7A và 7B có tổng cộng 69 học sinh. Số học sinh của hai lớp lần lượt tỉ lệ với 11 và 12. Tính sĩ số mỗi lớp.",
+      "answer": "Lớp 7A có 33 học sinh. Lớp 7B có 36 học sinh.",
+      "solution": "Ta chia 69 học sinh thành $11+12=23$ phần bằng nhau. Mỗi phần có $69:23=3$ học sinh. Lớp 7A có $11\\cdot3=33$ học sinh và lớp 7B có $12\\cdot3=36$ học sinh.",
+      "markers": [
+        "Bài 1b"
+      ]
+    },
+    {
+      "ref": "wbanqx#tu-luan-2",
+      "title": "Tìm số bóng vàng từ xác suất rút bóng",
+      "prompt": "Một hộp có 6 bóng đỏ và $x$ bóng vàng, với $x$ là số nguyên dương. Các bóng có cùng kích thước và khối lượng.\n\na) Rút ngẫu nhiên hai bóng cùng lúc. Biến cố rút được một bóng đỏ và một bóng vàng là chắc chắn, không thể hay ngẫu nhiên?\n\nb) Với chiếc hộp ban đầu, rút ngẫu nhiên một bóng. Biết xác suất rút được bóng vàng là 0,25. Tìm $x$.",
+      "solution": "a) Rút một bóng đỏ và một bóng vàng có thể xảy ra. Cũng có thể rút hai bóng đỏ. Vậy đây là biến cố ngẫu nhiên.\n\nb) Có $x$ bóng vàng trong tổng số $6+x$ bóng. Ta có $\\frac{x}{6+x}=\\frac14$, hay $4x=6+x$. Suy ra $3x=6$ và $x=2$."
+    },
+    {
+      "ref": "ssczjl#tu-luan-4",
+      "title": "Đo thể tích hộp đựng khẩu trang"
+    },
+    {
+      "ref": "2oy65e#tu-luan-3",
+      "title": "Tính dung tích hộp sữa và diện tích bình kính"
+    }
+  ],
+  "k3kcsv": [
+    {
+      "ref": "qw3wev#cau-i-3",
+      "title": "Tính tuổi của người con"
+    },
+    {
+      "ref": "ejhv4z#cau-i-11",
+      "title": "Phát hiện số liệu sai về các câu lạc bộ",
+      "prompt": "Mỗi câu lạc bộ của Trường THCS Kim Đồng có đúng 15 học sinh. Bảng dưới đây ghi số học sinh nam và nữ của ba câu lạc bộ.\n\n| Câu lạc bộ | Nam | Nữ |\n| --- | --- | --- |\n| Cầu lông | 10 | 5 |\n| Bóng bàn | 7 | 9 |\n| Cờ vua | 6 | 9 |\n\nSố liệu của câu lạc bộ nào chưa chính xác?",
+      "solution": "Cầu lông có $10+5=15$ bạn, cờ vua có $6+9=15$ bạn. Bảng ghi bóng bàn có $7+9=16$ bạn, nhiều hơn sĩ số đã cho đúng 1 bạn."
+    },
+    {
+      "ref": "ozbgpp#cau-i-7",
+      "title": "Lập biểu thức diện tích gỗ làm vách chậu",
+      "prompt": "Một thợ mộc làm vách trang trí quanh chậu cây theo dạng ba mặt bên của một hình chóp tam giác đều. Cạnh đáy dài $x$ cm, chiều cao hình chóp là $x+2$ cm và trung đoạn dài $y+1$ cm, với $x>0$, $y>0$. Biểu thức nào cho biết diện tích gỗ cần dùng?\n\n![Ba vách gỗ tạo thành các mặt bên của một hình chóp tam giác đều](hinh/chau.png)",
+      "solution": "Ba mặt gỗ là ba tam giác bằng nhau. Mỗi tam giác có đáy $x$ và chiều cao $y+1$, nên diện tích là $\\frac12x(y+1)$. Diện tích gỗ là $\\dfrac{3x(y+1)}2$ cm²."
+    },
+    {
+      "ref": "imjkrx#tu-luan-2",
+      "title": "Tìm kích thước mảnh đất từ phần diện tích giảm",
+      "prompt": "Một mảnh đất hình chữ nhật có chiều dài hơn chiều rộng 8 m. Nếu thu ngắn chiều dài 3 m và giữ nguyên chiều rộng, diện tích giảm 168 m². Lập phương trình để tìm chiều rộng và chiều dài ban đầu.",
+      "answer": "Chiều rộng 56 m. Chiều dài 64 m.",
+      "solution": "Gọi chiều rộng là $w>0$ m. Chiều dài ban đầu là $w+8$ m và chiều dài sau khi thu ngắn là $w+5$ m.\n\nPhần diện tích giảm là $w(w+8)-w(w+5)=3w$. Do đó $3w=168$ và $w=56$. Chiều dài ban đầu bằng $56+8=64$ m.",
+      "markers": [
+        "Bài 2.2"
+      ]
+    },
+    {
+      "ref": "utsqzz#tu-luan-4",
+      "title": "Tính tiền sơn các mặt bên của vật trang trí",
+      "prompt": "Một vật trang trí hình chóp tứ giác đều có cạnh đáy 6 cm và trung đoạn 5 cm.\n\n![Hình chóp tứ giác đều trong đề](hinh/bai-4.png)\n\na) Tính chu vi đáy.\n\nb) Sơn bốn mặt bên với giá 500 đồng mỗi centimét vuông. Tính tổng tiền sơn.",
+      "answer": "a) 24 cm. b) 30.000 đồng.",
+      "solution": "a) Đáy là hình vuông nên chu vi bằng $4\\cdot6=24$ cm.\n\nb) Diện tích bốn mặt bên bằng $\\frac12\\cdot24\\cdot5=60$ cm². Tiền sơn là $60\\cdot500=30\\,000$ đồng.",
+      "markers": [
+        "Bài 4.1a",
+        "Bài 4.1b"
+      ]
+    },
+    {
+      "ref": "ejhv4z#tu-luan-3",
+      "title": "Tính mức tăng vốn từ biểu đồ niên giám",
+      "prompt": "Theo Niên giám thống kê 2021, biểu đồ sau ghi vốn sản xuất kinh doanh bình quân của doanh nghiệp nhà nước ở Việt Nam trong năm năm được khảo sát. Đơn vị là nghìn tỉ đồng.\n\n![Vốn sản xuất kinh doanh bình quân của doanh nghiệp nhà nước qua các năm](hinh/von.png)\n\na) Xác định loại biểu đồ và cho biết dữ liệu được thu thập trực tiếp hay gián tiếp.\n\nb) Vốn năm 2020 tăng bao nhiêu phần trăm so với năm 2015?\n\nc) Vốn năm 2020 bằng bao nhiêu phần trăm tổng vốn của bốn năm còn lại trong biểu đồ?\n\nLàm tròn các tỉ số phần trăm đến hàng phần mười.",
+      "solution": "a) Đây là biểu đồ đoạn thẳng. Số liệu lấy từ niên giám nên được thu thập gián tiếp.\n\nb) Tỉ lệ tăng là $\\dfrac{10\\,284{,}2-6\\,944{,}9}{6\\,944{,}9}\\cdot100\\%\\approx48{,}1\\%$.\n\nc) Bốn số liệu tương ứng là $6\\,944{,}9$, $9\\,087{,}3$, $9\\,465{,}6$ và $9\\,357{,}8$. Tổng bằng $34\\,855{,}6$ nghìn tỉ đồng. Vốn năm 2020 bằng $\\dfrac{10\\,284{,}2}{34\\,855{,}6}\\cdot100\\%\\approx29{,}5\\%$ của tổng đó."
+    }
+  ],
+  "afwq5o": [
+    {
+      "ref": "fukr3a#cau-i-1",
+      "title": "Đọc giới hạn khối lượng xe qua cầu",
+      "prompt": "Biển đặt trước cầu cho biết khối lượng tối đa của toàn bộ xe được phép qua cầu. Gọi $P$ là khối lượng thực tế của xe, tính bằng tấn. Theo biển trong hình, điều kiện nào đúng?\n\n![Biển hạn chế khối lượng toàn bộ xe ghi 10 tấn](hinh/bien-bao.png)"
+    },
+    {
+      "ref": "kvqood#cau-i-7a",
+      "title": "Tính số đại biểu từ biểu đồ độ tuổi",
+      "prompt": "Biểu đồ cho biết tỉ lệ đại biểu của một hội nghị theo từng nhóm tuổi. Có 54 đại biểu từ 25 đến dưới 35 tuổi. Hội nghị có tất cả bao nhiêu đại biểu?\n\n![Biểu đồ tỉ lệ đại biểu dự hội nghị theo nhóm tuổi](hinh/cau-7.png)"
+    },
+    {
+      "ref": "fukr3a#cau-iii-5",
+      "title": "Tìm điểm tối thiểu theo hệ số"
+    },
+    {
+      "ref": "gdqtpi#cau-i-25",
+      "title": "Lập phương trình chu vi khu vườn"
+    },
+    {
+      "ref": "apfb6a#tu-luan-3",
+      "title": "Tìm vận tốc của hai xe",
+      "prompt": "Hai xe đi cùng quãng đường dài 80 km với vận tốc không đổi. Xe thứ nhất nhanh hơn xe thứ hai 10 km/h, nên thời gian đi ít hơn 24 phút. Tính vận tốc của mỗi xe.",
+      "answer": "Xe thứ nhất 50 km/h. Xe thứ hai 40 km/h.",
+      "solution": "Gọi $v>0$ là vận tốc xe thứ hai tính bằng km/h. Xe thứ nhất chạy với vận tốc $v+10$ km/h. Đổi 24 phút bằng $\\frac25$ giờ, ta có\n$$\\frac{80}{v}-\\frac{80}{v+10}=\\frac25.$$\nQuy đồng, được $v(v+10)=2\\,000$, hay $(v-40)(v+50)=0$. Chọn $v=40$ vì vận tốc dương. Hai vận tốc lần lượt là 50 km/h và 40 km/h.",
+      "markers": [
+        "Bài 3.1"
+      ]
+    },
+    {
+      "ref": "qr33hp#tu-luan-2",
+      "title": "Lập bảng tần số và biểu đồ điểm kiểm tra"
+    }
+  ],
+  "4b2j6h": [
+    {
+      "ref": "anbcmq#cau-iii-15",
+      "title": "Đếm cách chọn một quyển sách"
+    },
+    {
+      "ref": "gykbp5#cau-i-3",
+      "title": "Tìm cỡ áo bán được nhiều nhất"
+    },
+    {
+      "ref": "kr34dg#cau-ii-1",
+      "title": "So sánh độ đồng đều của hai nhóm cây hoa"
+    },
+    {
+      "ref": "gykbp5#cau-iii-3",
+      "title": "Tính xác suất khách chọn cùng quầy",
+      "prompt": "Có 4 khách đến một cửa hàng có 5 quầy. Mỗi khách chọn đúng một quầy, độc lập với những khách khác và với xác suất như nhau cho cả 5 quầy. Tính xác suất đúng 3 khách chọn cùng một quầy, còn khách thứ tư chọn quầy khác. Làm tròn kết quả đến hàng phần trăm.",
+      "solution": "Có $5^4=625$ cách phân 4 khách vào 5 quầy và mọi cách đều có cùng khả năng. Với trường hợp thuận lợi, có 5 cách chọn quầy có 3 khách, 4 cách chọn vị khách đi riêng và 4 cách chọn quầy của vị khách đó. Xác suất là $\\dfrac{5\\cdot4\\cdot4}{625}=0{,}128\\approx0{,}13$."
+    },
+    {
+      "ref": "gykbp5#tu-luan-4",
+      "title": "Tìm đường ngắn nhất vào vùng phủ sóng"
+    },
+    {
+      "ref": "snorg2#tu-luan-3",
+      "title": "So sánh kết quả học tập qua hai chỉ số"
+    }
+  ],
+  "bljjdk": [
+    {
+      "ref": "z56eq3#cau-iii-1",
+      "title": "Tính thời gian để quần thể tăng đến 3.200 cá thể"
+    },
+    {
+      "ref": "6zsuhg#cau-iii-4",
+      "title": "Tính trung vị chiều cao cây dừa giống",
+      "prompt": "Bảng cho biết chiều cao của 25 cây dừa giống.\n\n| Chiều cao (cm) | $[0;10)$ | $[10;20)$ | $[20;30)$ | $[30;40)$ | $[40;50)$ |\n| --- | --- | --- | --- | --- | --- |\n| Số cây | 4 | 6 | 7 | 5 | 3 |\n\nViết trung vị của mẫu số liệu ghép nhóm dưới dạng phân số tối giản $M_e=\\dfrac ab$ với $b>0$. Tính $a+5b$."
+    },
+    {
+      "ref": "rstzba#tu-luan-1",
+      "title": "Tính xác suất sử dụng ứng dụng mạng xã hội"
+    },
+    {
+      "ref": "wyo5zl#tu-luan-1",
+      "title": "Tìm khoảng cách trong mô hình tốc độ gió",
+      "prompt": "Trong một mô hình tốc độ gió, $S=65+93\\log_{10}d$, với $S$ đo bằng dặm/giờ và khoảng cách $d>0$ đo bằng dặm. Nếu $S=150$ dặm/giờ, tìm $d$ theo mô hình. Làm tròn đến hàng phần mười.",
+      "answer": "Khoảng 8,2 dặm.",
+      "solution": "Thay $S=150$, ta có $\\log_{10}d=\\dfrac{150-65}{93}=\\dfrac{85}{93}$. Vậy $d=10^{85/93}\\approx8{,}2$ dặm.",
+      "markers": [
+        "Bài 1b"
+      ]
+    },
+    {
+      "ref": "r26dly#cau-iii-2",
+      "title": "Đếm số lần huyết áp đạt đỉnh trong mô hình",
+      "prompt": "Giả sử huyết áp trong một mô hình biến thiên theo công thức $p(t)=100+20\\sin\\left(\\frac{7\\pi}{3}t\\right)$, với $t$ tính bằng giây và $p(t)$ tính bằng mmHg. Trong khoảng $0\\le t\\le3$, có bao nhiêu thời điểm mà $p(t)=120$ mmHg?",
+      "solution": "Ta cần $\\sin\\left(\\frac{7\\pi}{3}t\\right)=1$. Do đó $\\dfrac{7\\pi}{3}t=\\dfrac\\pi2+2k\\pi$ với $k\\in\\mathbb Z$, hay $t=\\dfrac3{14}+\\dfrac{6k}7$. Điều kiện $0\\le t\\le3$ cho $k=0,1,2,3$. Có 4 thời điểm thỏa mãn."
+    },
+    {
+      "ref": "u6kuvd#cau-iii-18",
+      "title": "Tính giới hạn lượng chất đánh dấu trong bể",
+      "prompt": "Trong một mô hình bể trộn, người ta bổ sung 300 mg chất đánh dấu mỗi ngày. Trước lần bổ sung kế tiếp, bể còn lại 2% lượng chất có trong bể ngay sau lần bổ sung trước. Ban đầu bể chưa có chất đánh dấu.\n\nKhi số ngày rất lớn, lượng chất trong bể ngay sau mỗi lần bổ sung tiến đến bao nhiêu miligam? Làm tròn đến hàng đơn vị.",
+      "solution": "Gọi $u_n$ là lượng chất ngay sau lần bổ sung thứ $n$, tính bằng miligam. Ta có $u_1=300$ và $u_{n+1}=300+0{,}02u_n$.\n\nDo đó $u_n=300(1+0{,}02+\\ldots+0{,}02^{n-1})$. Vì $0{,}02<1$, tổng này tiến đến $\\dfrac{300}{1-0{,}02}\\approx306{,}12$. Làm tròn được 306 mg."
+    }
+  ],
+  "j4lcv6": [
+    {
+      "ref": "pcfpz6#cau-ii-4",
+      "title": "Tính xác suất đèn hỏng theo từng màu"
+    },
+    {
+      "ref": "n7r7fh#tu-luan-2",
+      "title": "Phân tích cự li ném tạ bằng số liệu ghép nhóm"
+    },
+    {
+      "ref": "zzbxb4#tu-luan-2",
+      "title": "Tính góc giữa hai mặt bên của kim tự tháp"
+    },
+    {
+      "ref": "adrh34#cau-ii-4",
+      "title": "Xác định vị trí hai khinh khí cầu",
+      "solution": "a) Sai. 4 km về tây, 3 km về nam và cao 1,5 km cho $A=(4;3;1{,}5)$.\n\nb) Đúng. Đông và bắc đều ngược chiều dương đã chọn, nên $B=(-2;-5;2)$.\n\nc) Sai. Ta tính được $AB=\\sqrt{(-6)^2+(-8)^2+(\\frac12)^2}=\\dfrac{\\sqrt{401}}2$ km.\n\nd) Sai. Tọa độ đề nêu có cao độ khác 0. Phản xạ $A$ qua mặt đất được $A'=(4;3;-1{,}5)$. Với mọi $M$ trên mặt đất, $MA+MB=MA'+MB\\ge A'B$. Dấu bằng xảy ra tại giao của đoạn $A'B$ với mặt đất.\n\nĐiểm giao ứng với tham số $\\dfrac{1{,}5}{1{,}5+2}=\\dfrac37$ tính từ $A'$, cho $M=(\\dfrac{10}7;-\\dfrac37;0)$."
+    },
+    {
+      "ref": "adrh34#cau-iii-4",
+      "title": "Chọn chiều dài hàng rào để có diện tích lớn nhất"
+    },
+    {
+      "ref": "hnlqgp#cau-ii-3",
+      "title": "So sánh chi phí và lợi nhuận khi sản xuất giày"
+    }
+  ],
   "zvjvk4": [
     {
       "ref": "kwb5eg#cau-iii-3",
