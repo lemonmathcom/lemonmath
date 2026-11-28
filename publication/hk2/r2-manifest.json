@@ -1,86 +1,14 @@
 [
   {
-    "code": "djtj7l",
-    "key": "tai-lieu/lop-06/phieu-bai-tap/2025-2026/djtj7l/lemonmath_L06_van-dung-cao_de.pdf",
-    "sha256": "a13196a46f2d336ef573740e755d4889ca1224dfbe5d7411ab9f8e97c193096a",
-    "bytes": 993352
-  },
-  {
-    "code": "djtj7l",
-    "key": "tai-lieu/lop-06/phieu-bai-tap/2025-2026/djtj7l/lemonmath_L06_van-dung-cao_loi-giai.pdf",
-    "sha256": "3dc9192425862d462714097d9266f732dc6aea02cc0291b3a85cff3e57da7ff1",
-    "bytes": 940165
-  },
-  {
-    "code": "zse6bt",
-    "key": "tai-lieu/lop-07/phieu-bai-tap/2025-2026/zse6bt/lemonmath_L07_van-dung-cao_de.pdf",
-    "sha256": "f17066c86ca06c4b8167bebec5b1416cebeff835c2ec7cd060a8f9bc3fbd4869",
-    "bytes": 1018329
-  },
-  {
-    "code": "zse6bt",
-    "key": "tai-lieu/lop-07/phieu-bai-tap/2025-2026/zse6bt/lemonmath_L07_van-dung-cao_loi-giai.pdf",
-    "sha256": "a24b701e5a7ca6973f4a3e8d33ae5114ca8656c7360d76895c7e5c48d86b262a",
-    "bytes": 937714
-  },
-  {
-    "code": "7hzjpi",
-    "key": "tai-lieu/lop-08/phieu-bai-tap/2025-2026/7hzjpi/lemonmath_L08_van-dung-cao_de.pdf",
-    "sha256": "8de7fe271e445b0e8d3a35bfee61cba85cadf36171650a8a5950ccffaf5249db",
-    "bytes": 1069217
-  },
-  {
-    "code": "7hzjpi",
-    "key": "tai-lieu/lop-08/phieu-bai-tap/2025-2026/7hzjpi/lemonmath_L08_van-dung-cao_loi-giai.pdf",
-    "sha256": "10ba107bf96f0f8e3a6b7a7f891822fb531417e5c2effd32d3e243f60569c549",
-    "bytes": 957505
-  },
-  {
-    "code": "ebohok",
-    "key": "tai-lieu/lop-09/phieu-bai-tap/2025-2026/ebohok/lemonmath_L09_van-dung-cao_de.pdf",
-    "sha256": "dfd5069a2ba4b66aa107ad14b4b9497e80b7adc90cb246559ab6c2f0022c0cc2",
-    "bytes": 997339
-  },
-  {
-    "code": "ebohok",
-    "key": "tai-lieu/lop-09/phieu-bai-tap/2025-2026/ebohok/lemonmath_L09_van-dung-cao_loi-giai.pdf",
-    "sha256": "e59f524a3ca7cc2d6d430d80af9bc9995a1f9bf51878c4ee0f63f7194c792e6f",
-    "bytes": 934600
-  },
-  {
-    "code": "afu2z2",
-    "key": "tai-lieu/lop-10/phieu-bai-tap/2025-2026/afu2z2/lemonmath_L10_van-dung-cao_de.pdf",
-    "sha256": "0f78ee3b72105c50aa9783945cdd56a8a74cd28fa57254405b19e656016f8201",
-    "bytes": 1088321
-  },
-  {
-    "code": "afu2z2",
-    "key": "tai-lieu/lop-10/phieu-bai-tap/2025-2026/afu2z2/lemonmath_L10_van-dung-cao_loi-giai.pdf",
-    "sha256": "69e2b70511cb94fb60b11c06bfd19191a2bf14b4696862b713ef912a7efcfeed",
-    "bytes": 942144
-  },
-  {
-    "code": "geqjuh",
-    "key": "tai-lieu/lop-11/phieu-bai-tap/2025-2026/geqjuh/lemonmath_L11_van-dung-cao_de.pdf",
-    "sha256": "e47c625a3ffac767d01d58dac244c22e5f778ec7d9dc5d38034ac370516cbb31",
-    "bytes": 996837
-  },
-  {
-    "code": "geqjuh",
-    "key": "tai-lieu/lop-11/phieu-bai-tap/2025-2026/geqjuh/lemonmath_L11_van-dung-cao_loi-giai.pdf",
-    "sha256": "519fa8bde39e2c4c2f395b48088dfab0fb859a7562e3486521100372ae46328e",
-    "bytes": 942843
+    "code": "6vo7rg",
+    "key": "tai-lieu/lop-12/phieu-bai-tap/2025-2026/6vo7rg/lemonmath_L12_van-dung-cao_p2_de.pdf",
+    "sha256": "af85fe0824bac9ebe9d51ca56c1c80188d3dae2e43fafda7a74f451ad8d32b19",
+    "bytes": 1153851
   },
   {
     "code": "6vo7rg",
-    "key": "tai-lieu/lop-12/phieu-bai-tap/2025-2026/6vo7rg/lemonmath_L12_van-dung-cao_de.pdf",
-    "sha256": "0185eedb469a20fc5cd8e66d7b716cf709b20e0f4995b8412f34867d7d97de23",
-    "bytes": 1148210
-  },
-  {
-    "code": "6vo7rg",
-    "key": "tai-lieu/lop-12/phieu-bai-tap/2025-2026/6vo7rg/lemonmath_L12_van-dung-cao_loi-giai.pdf",
-    "sha256": "6490b98de34db3e7f03b36ec12987f9a7db841c8f4ea3d5f109da61a1316f74b",
-    "bytes": 945102
+    "key": "tai-lieu/lop-12/phieu-bai-tap/2025-2026/6vo7rg/lemonmath_L12_van-dung-cao_p2_loi-giai.pdf",
+    "sha256": "1355d8fcdef89e4f9f8abac41ab5c43efe444128ca79b822823fa9b0a37a638f",
+    "bytes": 957178
   }
 ]

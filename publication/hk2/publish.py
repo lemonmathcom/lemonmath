@@ -136,11 +136,12 @@ def wrangler(*args, capture=False):
 def publish():
     counts = json.loads((ROOT/"release-counts.json").read_bytes())
     kind = counts.get("kind", "exam")
-    manifest, new_codes = expected_pdfs(counts["grades"], kind)
-    require(counts["total_qr_count"] - counts["previous_qr_count"] == len(new_codes), "Unexpected QR count change")
-    pages = unpack_qr(counts["total_qr_count"], new_codes)
+    manifest, release_codes = expected_pdfs(counts["grades"], kind)
     previous = counts.get("previous_page_sha256", {})
-    require(previous.keys() <= pages.keys() - new_codes and
+    new_codes = release_codes - previous.keys()
+    require(counts["total_qr_count"] - counts["previous_qr_count"] == len(new_codes), "Unexpected QR count change")
+    pages = unpack_qr(counts["total_qr_count"], release_codes)
+    require(previous.keys() <= pages.keys() and
             all(re.fullmatch(r"[a-f0-9]{64}", digest) for digest in previous.values()),
             "Invalid hash for a revised QR page")
     verify_pages(pages,exclude=new_codes,previous=previous)
@@ -165,7 +166,7 @@ def publish():
 
     config = str(ROOT/"wrangler.jsonc")
     upload = wrangler("versions","upload","--config",config,"--message",
-                      f"Add {len(new_codes)} semester II {kind} pages",capture=True)
+                      f"Publish {len(release_codes)} semester II {kind} pages",capture=True)
     print(upload.stdout,flush=True)
     version = re.search(r"\bVersion ID:\s*([a-f0-9-]{36})\b",upload.stdout,re.I)
     require(version, "Wrangler did not return the new QR version ID")
