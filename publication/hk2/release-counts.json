@@ -1,10 +1,9 @@
 {
   "grades": {
-    "9": 4,
-    "8": 4,
-    "7": 4,
-    "6": 4
+    "11": 4,
+    "10": 4,
+    "12": 4
   },
-  "previous_qr_count": 56,
-  "total_qr_count": 72
+  "previous_qr_count": 72,
+  "total_qr_count": 84
 }
