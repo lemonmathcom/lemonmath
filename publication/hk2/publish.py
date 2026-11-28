@@ -149,6 +149,10 @@ SOURCE_KEY = re.compile(
     r"kho-de-thi/nguon-ngan-hang/lop-(0[1-9]|1[0-2])/(?P<code>[a-z2-7]{6})/"
     r"(?:de-goc\.docx|hinh/[a-z0-9-]+\.(?:png|jpe?g))"
 )
+PACKAGE_PDF_KEY = re.compile(
+    r"tai-lieu/lop-(?P<grade>07|1[012])/phieu-bai-tap/2025-2026/"
+    r"(?P<code>[a-z2-7]{6})/lemonmath_L(?P<file_grade>7|1[012])_(?P=code)_de\.pdf"
+)
 
 
 def source_files():
@@ -200,11 +204,23 @@ def source_available(item, fresh=False):
         raise
 
 
-def publish_word_sources(counts):
-    items = source_files()
-    require(len(items) == counts["objects"] and
-            sum(item["contentType"] == WORD for item in items) == counts["documents"],
-            "Source objects do not match release counts")
+def package_pdfs(counts):
+    items = json.loads((ROOT/"r2-manifest.json").read_bytes())
+    keys = set()
+    for item in items:
+        key = item["key"]
+        match = PACKAGE_PDF_KEY.fullmatch(key)
+        require(match and match["code"] == item["code"] and int(match["grade"]) == int(match["file_grade"])
+                and key not in keys and item["contentType"] == "application/pdf", f"Unexpected question source PDF {key}")
+        keys.add(key)
+        data = (ROOT/"r2"/key).read_bytes()
+        require(data.startswith(b"%PDF-") and len(data) == item["bytes"]
+                and sha256(data).hexdigest() == item["sha256"], f"Source PDF digest mismatch for {key}")
+    require(len(items) == counts["documents"] == counts["objects"], "Source PDFs do not match package count")
+    return items
+
+
+def publish_source_files(items):
     if "--check" in sys.argv:
         print(f"Verified {len(items)} source objects locally", flush=True)
         return
@@ -241,7 +257,14 @@ def publish():
     counts = json.loads((ROOT/"release-counts.json").read_bytes())
     kind = counts.get("kind", "exam")
     if kind == "word-sources":
-        publish_word_sources(counts)
+        items = source_files()
+        require(len(items) == counts["objects"] and
+                sum(item["contentType"] == WORD for item in items) == counts["documents"],
+                "Source objects do not match release counts")
+        publish_source_files(items)
+        return
+    if kind == "question-package-pdfs":
+        publish_source_files(package_pdfs(counts))
         return
     manifest, release_codes = expected_pdfs(counts["grades"], kind)
     previous = counts.get("previous_page_sha256", {})
