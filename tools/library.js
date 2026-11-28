@@ -5,6 +5,7 @@ const { mascot } = require('./art.js');
 const documents = require('../data/library.json');
 
 const PDF_ORIGIN = 'https://tai-lieu.lemonmath.com';
+const validPdf = /^(kho-de-thi|tai-lieu)\/[A-Za-z0-9_/-]+\.pdf$/;
 const libraryDir = (lang) => lang === 'vi' ? 'vi/tai-lieu' : 'resources';
 const lookupUrl = (code) => '/d/' + code;
 const libraryText = {
@@ -37,10 +38,10 @@ const documentsByCode = new Map(documents.map((row) => [row.ma, row]));
 if (documentsByCode.size !== documents.length) throw new Error('data/library.json contains duplicate document codes');
 for (const row of documents) {
   if (!/^[a-z2-7]{6}$/.test(row.ma) || !Object.hasOwn(libraryText.vi.types, row.loai) ||
-      !/^(kho-de-thi|tai-lieu)\/[A-Za-z0-9_/-]+\.pdf$/.test(row.tep_pdf)) {
+      !validPdf.test(row.tep_pdf) || (row.tep_loi_giai && !validPdf.test(row.tep_loi_giai))) {
     throw new Error('Invalid library entry in data/library.json: ' + row.ma);
   }
-  if (row.loai === 'de-cuong') {
+  if (row.loai === 'de-cuong' && !row.tep_loi_giai) {
     const related = documentsByCode.get(row.phieu_on_cung_lop);
     if (related?.loai !== 'phieu-on-tap' || related.lop !== row.lop) {
       throw new Error('Revision guide has no matching worksheet: ' + row.ma);
@@ -52,8 +53,10 @@ function libraryCard(row, lang) {
   const T = libraryText[lang];
   const titleId = 'library-' + row.ma;
   const lookup = lookupUrl(row.ma);
-  const related = row.loai === 'de-cuong';
-  const solutions = related ? lookupUrl(row.phieu_on_cung_lop) + '#loi-giai' : lookup;
+  const related = row.loai === 'de-cuong' && !row.tep_loi_giai;
+  const solutions = related
+    ? lookupUrl(row.phieu_on_cung_lop) + '#loi-giai'
+    : lookup + (row.tep_loi_giai ? '#loi-giai' : '');
   const pdf = PDF_ORIGIN + '/' + row.tep_pdf + '?download=1';
 
   return `<article class="card library-card" data-library-grade="${esc(row.lop)}" data-library-type="${esc(row.loai)}" aria-labelledby="${titleId}">

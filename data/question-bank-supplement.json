@@ -1,0 +1,1327 @@
+[
+  {
+    "code": "fa65e2",
+    "grade": 6,
+    "type": "tl",
+    "title": "L6-01",
+    "anchor": "L6-01",
+    "sourceHref": "/d/fa65e2#L6-01",
+    "tags": [
+      {
+        "marker": "L6-01",
+        "lesson": "g6/g6-multiply-divide-fractions",
+        "skill": "Phép nhân và phép chia phân số",
+        "levels": [
+          "VD"
+        ]
+      }
+    ],
+    "prompt": "<p>Tính A = (3 + 1/10) : [4·(−3)² − 2³ : (8/5)].</p>",
+    "options": [],
+    "answers": [
+      "1/10"
+    ],
+    "explanation": "<p>Trong ngoặc vuông ta có 36 − 5 = 31. Do đó A = (31/10) : 31 = 1/10.</p><p>Nguồn: 70 ĐỀ HSG TOÁN 6 NĂM HỌC 2023-2024.rar → 001_HSG môn Toán 6_Tứ Kỳ_23-24.docx, trang 1 · 1.1a</p>",
+    "sourceKind": "worksheet"
+  },
+  {
+    "code": "fa65e2",
+    "grade": 6,
+    "type": "tl",
+    "title": "L6-02",
+    "anchor": "L6-02",
+    "sourceHref": "/d/fa65e2#L6-02",
+    "tags": [
+      {
+        "marker": "L6-02",
+        "lesson": "g6/g6-multiply-divide-fractions",
+        "skill": "Phép nhân và phép chia phân số",
+        "levels": [
+          "VD"
+        ]
+      }
+    ],
+    "prompt": "<p>Tính B = (1 + 1/3)(1 + 1/8)(1 + 1/15)…(1 + 1/99).</p>",
+    "options": [],
+    "answers": [
+      "20/11"
+    ],
+    "explanation": "<p>Các mẫu là k² − 1, với k từ 2 đến 10. Mỗi thừa số bằng [k/(k−1)]·[k/(k+1)]. Hai tích rút gọn lần lượt thành 10 và 2/11.</p><p>Nguồn: 70 ĐỀ HSG TOÁN 6 NĂM HỌC 2023-2024.rar → 001_HSG môn Toán 6_Tứ Kỳ_23-24.docx, trang 1 · 1.1b</p>",
+    "sourceKind": "worksheet"
+  },
+  {
+    "code": "fa65e2",
+    "grade": 6,
+    "type": "tl",
+    "title": "L6-03",
+    "anchor": "L6-03",
+    "sourceHref": "/d/fa65e2#L6-03",
+    "tags": [
+      {
+        "marker": "L6-03",
+        "lesson": "g6/g6-add-subtract-fractions",
+        "skill": "Phép cộng và phép trừ phân số",
+        "levels": [
+          "VD"
+        ]
+      }
+    ],
+    "prompt": "<p>Cho C = 5/(2·7) + 16/(7·9) − 2/(9·11) − 29/(11·18). So sánh C với 1/3.</p>",
+    "options": [],
+    "answers": [
+      "C = 4/9 > 1/3"
+    ],
+    "explanation": "<p>Quy đồng mẫu 1386, tổng tử số là 495 + 352 − 28 − 203 = 616. Rút gọn 616/1386 = 4/9, lớn hơn 3/9.</p><p>Nguồn: 70 ĐỀ HSG TOÁN 6 NĂM HỌC 2023-2024.rar → 001_HSG môn Toán 6_Tứ Kỳ_23-24.docx, trang 1 · 1.2</p>",
+    "sourceKind": "worksheet"
+  },
+  {
+    "code": "fa65e2",
+    "grade": 6,
+    "type": "tl",
+    "title": "L6-04",
+    "anchor": "L6-04",
+    "sourceHref": "/d/fa65e2#L6-04",
+    "tags": [
+      {
+        "marker": "L6-04",
+        "lesson": "g6/divisibility-and-properties",
+        "skill": "Quan hệ chia hết và tính chất. Dấu hiệu chia hết",
+        "levels": [
+          "VD"
+        ]
+      }
+    ],
+    "prompt": "<p>Tìm các chữ số x, y để số có các chữ số lần lượt là 1, 8, x, 2, y chia hết cho 45.</p>",
+    "options": [],
+    "answers": [
+      "(7, 0) và (2, 5)"
+    ],
+    "explanation": "<p>Chia hết cho 45 tương đương chia hết cho 5 và 9. Nếu y = 0 thì 11 + x chia hết cho 9, được x = 7. Nếu y = 5 thì 16 + x chia hết cho 9, được x = 2.</p><p>Nguồn: 70 ĐỀ HSG TOÁN 6 NĂM HỌC 2023-2024.rar → 001_HSG môn Toán 6_Tứ Kỳ_23-24.docx, trang 1 · 2.1</p>",
+    "sourceKind": "worksheet"
+  },
+  {
+    "code": "fa65e2",
+    "grade": 6,
+    "type": "tl",
+    "title": "L6-05",
+    "anchor": "L6-05",
+    "sourceHref": "/d/fa65e2#L6-05",
+    "tags": [
+      {
+        "marker": "L6-05",
+        "lesson": "g6/prime-numbers",
+        "skill": "Số nguyên tố",
+        "levels": [
+          "VD"
+        ]
+      }
+    ],
+    "prompt": "<p>Tìm số nguyên tố a để a + 10 và a + 14 cũng là số nguyên tố.</p>",
+    "options": [],
+    "answers": [
+      "a = 3"
+    ],
+    "explanation": "<p>Ba số a, a + 10, a + 14 có ba số dư khác nhau khi chia cho 3. Một số phải bằng 3 vì cả ba đều nguyên tố. Hai số sau lớn hơn 3 nên a = 3. Kiểm tra 3, 13 và 17 đều nguyên tố.</p><p>Nguồn: 70 ĐỀ HSG TOÁN 6 NĂM HỌC 2023-2024.rar → 001_HSG môn Toán 6_Tứ Kỳ_23-24.docx, trang 1 · 3.2</p>",
+    "sourceKind": "worksheet"
+  },
+  {
+    "code": "spm4dj",
+    "grade": 6,
+    "type": "tl",
+    "title": "L6-06",
+    "anchor": "L6-06",
+    "sourceHref": "/d/spm4dj#L6-06",
+    "tags": [
+      {
+        "marker": "L6-06",
+        "lesson": "g6/points-and-lines",
+        "skill": "Điểm và đường thẳng. Điểm nằm giữa hai điểm. Tia",
+        "levels": [
+          "VD"
+        ]
+      }
+    ],
+    "prompt": "<p>Có 100 điểm, không có ba điểm thẳng hàng. Qua mỗi cặp điểm vẽ một đường thẳng. Hỏi vẽ được bao nhiêu đường thẳng?</p>",
+    "options": [],
+    "answers": [
+      "4 950"
+    ],
+    "explanation": "<p>Mỗi điểm ghép được với 99 điểm khác. Mỗi cặp được tính hai lần, nên số đường là 100·99/2 = 4 950.</p><p>Nguồn: DC5_TÁCH CHUYÊN ĐỀ TỪ ĐỀ THI HSG TOÁN 6-SIÊU HAY-20240919T073455Z-001.zip → TACH DE HSG 6 CHU DE 9 HINH HOC- PHAN 1.pdf, trang 1 · Bài 1 · THCS Việt Tiến 2021–2022</p>",
+    "sourceKind": "worksheet"
+  },
+  {
+    "code": "spm4dj",
+    "grade": 6,
+    "type": "tl",
+    "title": "L6-07",
+    "anchor": "L6-07",
+    "sourceHref": "/d/spm4dj#L6-07",
+    "tags": [
+      {
+        "marker": "L6-07",
+        "lesson": "g6/points-and-lines",
+        "skill": "Điểm và đường thẳng. Điểm nằm giữa hai điểm. Tia",
+        "levels": [
+          "VD"
+        ]
+      }
+    ],
+    "prompt": "<p>Có n đường thẳng đôi một cắt nhau, không có ba đường đồng quy. Biết có 465 giao điểm, tìm n.</p>",
+    "options": [],
+    "answers": [
+      "31"
+    ],
+    "explanation": "<p>Đếm theo từng cặp đường được n(n−1)/2 = 465. Vì 31·30 = 930 và n(n−1) tăng khi n ≥ 1, suy ra n = 31.</p><p>Nguồn: DC5_TÁCH CHUYÊN ĐỀ TỪ ĐỀ THI HSG TOÁN 6-SIÊU HAY-20240919T073455Z-001.zip → TACH DE HSG 6 CHU DE 9 HINH HOC- PHAN 1.pdf, trang 1 · Bài 2 · Hậu Lộc 2022–2023</p>",
+    "sourceKind": "worksheet"
+  },
+  {
+    "code": "spm4dj",
+    "grade": 6,
+    "type": "tl",
+    "title": "L6-08",
+    "anchor": "L6-08",
+    "sourceHref": "/d/spm4dj#L6-08",
+    "tags": [
+      {
+        "marker": "L6-08",
+        "lesson": "g6/points-and-lines",
+        "skill": "Điểm và đường thẳng. Điểm nằm giữa hai điểm. Tia",
+        "levels": [
+          "VD"
+        ]
+      }
+    ],
+    "prompt": "<p>Qua từng cặp trong 25 điểm, không có ba điểm thẳng hàng, vẽ một đường thẳng. Tính số đường. Tổng quát với n điểm (n ≥ 2).</p>",
+    "options": [],
+    "answers": [
+      "300 và n(n−1)/2"
+    ],
+    "explanation": "<p>Với mỗi điểm có n−1 cách chọn điểm thứ hai. Đổi thứ tự hai điểm vẫn cho cùng đường thẳng. Chia số lượt đếm cho 2. Khi n = 25, kết quả là 25·24/2 = 300.</p><p>Nguồn: DC5_TÁCH CHUYÊN ĐỀ TỪ ĐỀ THI HSG TOÁN 6-SIÊU HAY-20240919T073455Z-001.zip → TACH DE HSG 6 CHU DE 9 HINH HOC- PHAN 1.pdf, trang 1 · Bài 3 · Hiệp Hòa 2021–2022</p>",
+    "sourceKind": "worksheet"
+  },
+  {
+    "code": "spm4dj",
+    "grade": 6,
+    "type": "tl",
+    "title": "L6-09",
+    "anchor": "L6-09",
+    "sourceHref": "/d/spm4dj#L6-09",
+    "tags": [
+      {
+        "marker": "L6-09",
+        "lesson": "g6/points-and-lines",
+        "skill": "Điểm và đường thẳng. Điểm nằm giữa hai điểm. Tia",
+        "levels": [
+          "VD"
+        ]
+      }
+    ],
+    "prompt": "<p>Trong 30 điểm có đúng 5 điểm cùng thuộc một đường thẳng. Ngoài nhóm đó không có ba điểm thẳng hàng. Có bao nhiêu đường thẳng qua ít nhất hai điểm?</p>",
+    "options": [],
+    "answers": [
+      "426"
+    ],
+    "explanation": "<p>Có 30·29/2 = 435 cặp. Trong đó 5·4/2 = 10 cặp chỉ cho một đường. Kết quả là 435 − 10 + 1 = 426.</p><p>Nguồn: DC5_TÁCH CHUYÊN ĐỀ TỪ ĐỀ THI HSG TOÁN 6-SIÊU HAY-20240919T073455Z-001.zip → TACH DE HSG 6 CHU DE 9 HINH HOC- PHAN 1.pdf, trang 1 · Bài 4 · THCS Nghĩa Đồng 2021–2022, tr. 1–2</p>",
+    "sourceKind": "worksheet"
+  },
+  {
+    "code": "4rwunc",
+    "grade": 7,
+    "type": "tl",
+    "title": "L7-01",
+    "anchor": "L7-01",
+    "sourceHref": "/d/4rwunc#L7-01",
+    "tags": [
+      {
+        "marker": "L7-01",
+        "lesson": "g7/set-of-real-numbers",
+        "skill": "Tập hợp các số thực",
+        "levels": [
+          "VD"
+        ]
+      }
+    ],
+    "prompt": "<p>Tính (1·2 + 2·3 + … + 19·20)(√169 − 3)(√169 − 4)…(√169 − 20).</p>",
+    "options": [],
+    "answers": [
+      "0"
+    ],
+    "explanation": "<p>Vì √169 = 13 nên trong tích có thừa số √169 − 13 = 0.</p><p>Nguồn: Hồ Khắc Vũ, Tuyển tập 74 đề thi học sinh giỏi Toán 7 chương trình mới năm học 2024–2025, PDF 455 trang · tr. 2 · 1.1a</p>",
+    "sourceKind": "worksheet"
+  },
+  {
+    "code": "4rwunc",
+    "grade": 7,
+    "type": "tl",
+    "title": "L7-02",
+    "anchor": "L7-02",
+    "sourceHref": "/d/4rwunc#L7-02",
+    "tags": [
+      {
+        "marker": "L7-02",
+        "lesson": "g7/powers-of-rational-numbers",
+        "skill": "Lũy thừa với số mũ tự nhiên của một số hữu tỉ",
+        "levels": [
+          "VD"
+        ]
+      }
+    ],
+    "prompt": "<p>Tính (5·4¹⁵·9⁹ − 4·3²⁰·8⁹)/(5·2¹⁰·6¹⁹ − 7·2²⁹·27⁶).</p>",
+    "options": [],
+    "answers": [
+      "1/8"
+    ],
+    "explanation": "<p>Tử bằng 2²⁷·3¹⁸·(40−36). Mẫu bằng 2²⁹·3¹⁸·(15−7). Chia hai kết quả được 4/(4·8) = 1/8.</p><p>Nguồn: Hồ Khắc Vũ, Tuyển tập 74 đề thi học sinh giỏi Toán 7 chương trình mới năm học 2024–2025, PDF 455 trang · tr. 2 · 1.1b</p>",
+    "sourceKind": "worksheet"
+  },
+  {
+    "code": "4rwunc",
+    "grade": 7,
+    "type": "tl",
+    "title": "L7-05",
+    "anchor": "L7-05",
+    "sourceHref": "/d/4rwunc#L7-05",
+    "tags": [
+      {
+        "marker": "L7-05",
+        "lesson": "g7/algebraic-expressions",
+        "skill": "Biểu thức đại số. Đa thức một biến",
+        "levels": [
+          "VD"
+        ]
+      }
+    ],
+    "prompt": "<p>Biết giá trị tuyệt đối của x − 3 nâng lũy thừa 2023 cộng với (3y − 1)²⁰²⁴ nhỏ hơn hoặc bằng 0. Tính M = 2x²y + 9xy².</p>",
+    "options": [],
+    "answers": [
+      "9"
+    ],
+    "explanation": "<p>Hai số hạng ở vế trái đều không âm nên cùng bằng 0. Khi đó x = 3, y = 1/3, và M = 6 + 3 = 9.</p><p>Nguồn: Hồ Khắc Vũ, Tuyển tập 74 đề thi học sinh giỏi Toán 7 chương trình mới năm học 2024–2025, PDF 455 trang · tr. 2 · 2.2</p>",
+    "sourceKind": "worksheet"
+  },
+  {
+    "code": "m2gd6j",
+    "grade": 7,
+    "type": "tl",
+    "title": "L7-03",
+    "anchor": "L7-03",
+    "sourceHref": "/d/m2gd6j#L7-03",
+    "tags": [
+      {
+        "marker": "L7-03",
+        "lesson": "g7/proportions",
+        "skill": "Tỉ lệ thức. Tính chất của dãy tỉ số bằng nhau",
+        "levels": [
+          "VD"
+        ]
+      }
+    ],
+    "prompt": "<p>Tìm x, y, z biết x/3 = y/4 = z/5 và 2x² + 2y² − 3z² = −100.</p>",
+    "options": [],
+    "answers": [
+      "(6, 8, 10) hoặc (−6, −8, −10)"
+    ],
+    "explanation": "<p>Đặt t là tỉ số chung. Thay x = 3t, y = 4t, z = 5t được (18 + 32 − 75)t² = −100. Vậy t² = 4 và t = ±2.</p><p>Nguồn: Hồ Khắc Vũ, Tuyển tập 74 đề thi học sinh giỏi Toán 7 chương trình mới năm học 2024–2025, PDF 455 trang · tr. 2 · 1.2</p>",
+    "sourceKind": "worksheet"
+  },
+  {
+    "code": "m2gd6j",
+    "grade": 7,
+    "type": "tl",
+    "title": "L7-06",
+    "anchor": "L7-06",
+    "sourceHref": "/d/m2gd6j#L7-06",
+    "tags": [
+      {
+        "marker": "L7-06",
+        "lesson": "g7/algebraic-expressions",
+        "skill": "Biểu thức đại số. Đa thức một biến",
+        "levels": [
+          "VD"
+        ]
+      }
+    ],
+    "prompt": "<p>Tìm các số nguyên x, y thỏa mãn 2xy − 3 = x − y.</p>",
+    "options": [],
+    "answers": [
+      "(0, 3), (2, 1), (−1, −2), (−3, 0)"
+    ],
+    "explanation": "<p>Nhân phương trình đã chuyển vế với 2 rồi trừ 1 cho hai vế, được (2x + 1)(2y − 1) = 5. Thử đủ bốn cặp ước nguyên có tích bằng 5.</p><p>Nguồn: Hồ Khắc Vũ, Tuyển tập 74 đề thi học sinh giỏi Toán 7 chương trình mới năm học 2024–2025, PDF 455 trang · tr. 3 · 3.1</p>",
+    "sourceKind": "worksheet"
+  },
+  {
+    "code": "45aqrk",
+    "grade": 7,
+    "type": "tl",
+    "title": "L7-04",
+    "anchor": "L7-04",
+    "sourceHref": "/d/45aqrk#L7-04",
+    "tags": [
+      {
+        "marker": "L7-04",
+        "lesson": "g7/intro-to-probability",
+        "skill": "Làm quen với xác suất của biến cố",
+        "levels": [
+          "VD"
+        ]
+      }
+    ],
+    "prompt": "<p>Mỗi hộp trong hai hộp đều chứa bốn thẻ mang số 1, 2, 3, 4. Rút ngẫu nhiên một thẻ từ mỗi hộp. Tính xác suất để hai số trùng nhau.</p>",
+    "options": [],
+    "answers": [
+      "1/4"
+    ],
+    "explanation": "<p>Xét 16 cặp kết quả đồng khả năng. Có bốn cặp trùng số, nên xác suất bằng 4/16.</p><p>Nguồn: Hồ Khắc Vũ, Tuyển tập 74 đề thi học sinh giỏi Toán 7 chương trình mới năm học 2024–2025, PDF 455 trang · tr. 2 · 2.1</p>",
+    "sourceKind": "worksheet"
+  },
+  {
+    "code": "k4wapb",
+    "grade": 8,
+    "type": "tl",
+    "title": "L8-01",
+    "anchor": "L8-01",
+    "sourceHref": "/d/k4wapb#L8-01",
+    "tags": [
+      {
+        "marker": "L8-01",
+        "lesson": "g8/intro-algebraic-fractions",
+        "skill": "Phân thức đại số. Tính chất cơ bản của phân thức đại số",
+        "levels": [
+          "TH"
+        ]
+      }
+    ],
+    "prompt": "<p>Rút gọn (x² − 8x + 16)/(16 − 4x).</p>",
+    "options": [],
+    "answers": [
+      "(4 − x)/4, x ≠ 4"
+    ],
+    "explanation": "<p>Tử bằng (x − 4)², mẫu bằng −4(x − 4). Khử nhân tử chung sau khi đặt điều kiện x ≠ 4.</p><p>Nguồn: Hồ Khắc Vũ, Tuyển tập 160 đề thi giữa kỳ II Toán 8 năm học 2024–2025, PDF 241 trang · tr. 2 · Câu 2</p>",
+    "sourceKind": "worksheet"
+  },
+  {
+    "code": "k4wapb",
+    "grade": 8,
+    "type": "tl",
+    "title": "L8-02",
+    "anchor": "L8-02",
+    "sourceHref": "/d/k4wapb#L8-02",
+    "tags": [
+      {
+        "marker": "L8-02",
+        "lesson": "g8/add-subtract-algebraic-fractions",
+        "skill": "Phép cộng và phép trừ phân thức đại số",
+        "levels": [
+          "TH"
+        ]
+      }
+    ],
+    "prompt": "<p>Tính tổng 1/(x + 3) và 3/(x² + 6x + 9).</p>",
+    "options": [],
+    "answers": [
+      "(x + 6)/(x + 3)², x ≠ −3"
+    ],
+    "explanation": "<p>Mẫu thứ hai bằng (x + 3)². Quy đồng mẫu, cộng tử được x + 3 + 3 = x + 6.</p><p>Nguồn: Hồ Khắc Vũ, Tuyển tập 160 đề thi giữa kỳ II Toán 8 năm học 2024–2025, PDF 241 trang · tr. 2 · Câu 3</p>",
+    "sourceKind": "worksheet"
+  },
+  {
+    "code": "k4wapb",
+    "grade": 8,
+    "type": "tl",
+    "title": "L8-03",
+    "anchor": "L8-03",
+    "sourceHref": "/d/k4wapb#L8-03",
+    "tags": [
+      {
+        "marker": "L8-03",
+        "lesson": "g8/multiply-divide-algebraic-fractions",
+        "skill": "Phép nhân và phép chia phân thức đại số",
+        "levels": [
+          "TH"
+        ]
+      }
+    ],
+    "prompt": "<p>Thực hiện phép tính −3/x + (2/x²) : (−1/x).</p>",
+    "options": [],
+    "answers": [
+      "−5/x, x ≠ 0"
+    ],
+    "explanation": "<p>Thực hiện phép chia trước: (2/x²)·(−x) = −2/x. Sau đó cộng với −3/x.</p><p>Nguồn: Hồ Khắc Vũ, Tuyển tập 160 đề thi giữa kỳ II Toán 8 năm học 2024–2025, PDF 241 trang · tr. 2 · Câu 4</p>",
+    "sourceKind": "worksheet"
+  },
+  {
+    "code": "k4wapb",
+    "grade": 8,
+    "type": "tl",
+    "title": "L8-04",
+    "anchor": "L8-04",
+    "sourceHref": "/d/k4wapb#L8-04",
+    "tags": [
+      {
+        "marker": "L8-04",
+        "lesson": "g8/multiply-divide-algebraic-fractions",
+        "skill": "Phép nhân và phép chia phân thức đại số",
+        "levels": [
+          "TH"
+        ]
+      }
+    ],
+    "prompt": "<p>Tìm đa thức M trong đẳng thức [(x² − 4)/(4x)] : M = (5x − 2)/x − 4.</p>",
+    "options": [],
+    "answers": [
+      "M = (x + 2)/4"
+    ],
+    "explanation": "<p>Vế phải rút gọn thành (x − 2)/x. Nhân chéo và dùng x² − 4 = (x − 2)(x + 2) để suy ra đa thức M. Với M này đẳng thức ban đầu có nghĩa khi x ≠ 0 và x ≠ −2. Thay x = 2 cũng thỏa mãn.</p><p>Nguồn: Hồ Khắc Vũ, Tuyển tập 160 đề thi giữa kỳ II Toán 8 năm học 2024–2025, PDF 241 trang · tr. 2 · Câu 5</p>",
+    "sourceKind": "worksheet"
+  },
+  {
+    "code": "yxidiw",
+    "grade": 8,
+    "type": "tl",
+    "title": "L8-05",
+    "anchor": "L8-05",
+    "sourceHref": "/d/yxidiw#L8-05",
+    "tags": [
+      {
+        "marker": "L8-05",
+        "lesson": "g8/similar-triangles",
+        "skill": "Hai tam giác đồng dạng",
+        "levels": [
+          "TH"
+        ]
+      }
+    ],
+    "prompt": "<p>Tam giác ABC đồng dạng với DEF theo tỉ số 2. Tam giác DEF đồng dạng với MNP cũng theo tỉ số 2. Góc A bằng 30°. Tính góc M.</p>",
+    "options": [],
+    "answers": [
+      "30°"
+    ],
+    "explanation": "<p>Theo thứ tự đỉnh tương ứng, góc A bằng góc D và góc D bằng góc M. Tỉ số đồng dạng chỉ tác động tới độ dài.</p><p>Nguồn: Hồ Khắc Vũ, Tuyển tập 160 đề thi giữa kỳ II Toán 8 năm học 2024–2025, PDF 241 trang · tr. 3 · Câu 7</p>",
+    "sourceKind": "worksheet"
+  },
+  {
+    "code": "yxidiw",
+    "grade": 8,
+    "type": "tl",
+    "title": "L8-06",
+    "anchor": "L8-06",
+    "sourceHref": "/d/yxidiw#L8-06",
+    "tags": [
+      {
+        "marker": "L8-06",
+        "lesson": "g8/pythagoras-theorem",
+        "skill": "Định lí Pythagore và ứng dụng",
+        "levels": [
+          "TH"
+        ]
+      }
+    ],
+    "prompt": "<p>Trong các bộ độ dài (cm) sau, bộ nào là ba cạnh của một tam giác vuông: (3, 5, 6), (2, 4, 6), (5, 1, 2), (5, 12, 13)?</p>",
+    "options": [],
+    "answers": [
+      "(5, 12, 13)"
+    ],
+    "explanation": "<p>5² + 12² = 25 + 144 = 169 = 13². Bộ (3, 5, 6) không thỏa đẳng thức. Hai bộ còn lại không tạo được tam giác.</p><p>Nguồn: Hồ Khắc Vũ, Tuyển tập 160 đề thi giữa kỳ II Toán 8 năm học 2024–2025, PDF 241 trang · tr. 3 · Câu 8</p>",
+    "sourceKind": "worksheet"
+  },
+  {
+    "code": "yxidiw",
+    "grade": 8,
+    "type": "tl",
+    "title": "L8-07",
+    "anchor": "L8-07",
+    "sourceHref": "/d/yxidiw#L8-07",
+    "tags": [
+      {
+        "marker": "L8-07",
+        "lesson": "g8/pythagoras-theorem",
+        "skill": "Định lí Pythagore và ứng dụng",
+        "levels": [
+          "TH"
+        ]
+      }
+    ],
+    "prompt": "<p>Thang AB dài 2,6 m tựa vào tường. A cao 2,4 m so với chân tường H. Tính khoảng cách BH từ chân thang đến chân tường, biết tường vuông góc với mặt đất.</p>",
+    "options": [],
+    "answers": [
+      "1 m"
+    ],
+    "explanation": "<p>Áp dụng định lí Pythagore cho tam giác vuông tại H: BH² = 2,6² − 2,4² = (2,6 − 2,4)(2,6 + 2,4) = 1.</p><p>Nguồn: Hồ Khắc Vũ, Tuyển tập 160 đề thi giữa kỳ II Toán 8 năm học 2024–2025, PDF 241 trang · tr. 3 · Câu 9</p>",
+    "sourceKind": "worksheet"
+  },
+  {
+    "code": "jf3wwm",
+    "grade": 8,
+    "type": "tl",
+    "title": "L8-08",
+    "anchor": "L8-08",
+    "sourceHref": "/d/jf3wwm#L8-08",
+    "tags": [
+      {
+        "marker": "L8-08",
+        "lesson": "g8/g8-equation-word-problems",
+        "skill": "Giải bài toán bằng cách lập phương trình",
+        "levels": [
+          "VD"
+        ]
+      }
+    ],
+    "prompt": "<p>Một tổ dự kiến sản xuất 20 sản phẩm mỗi ngày. Thực tế mỗi ngày tổ làm 25 sản phẩm, hoàn thành trước kế hoạch 1 ngày và làm vượt 5 sản phẩm. Tính tổng sản phẩm theo kế hoạch.</p>",
+    "options": [],
+    "answers": [
+      "120 sản phẩm"
+    ],
+    "explanation": "<p>Gọi x là số ngày dự kiến, x &gt; 1 và nguyên. Ta có 25(x − 1) = 20x + 5, suy ra x = 6. Kế hoạch là 20·6 = 120 sản phẩm. Thực tế là 25·5 = 125 sản phẩm.</p><p>Nguồn: Cù Minh Quảng, 2 GIẢI TOÁN LẬP PHƯƠNG TRÌNH 2024 TRANG 27 -52.docx · tr. 1 · Ví dụ 1</p>",
+    "sourceKind": "worksheet"
+  },
+  {
+    "code": "vq4ojj",
+    "grade": 9,
+    "type": "tl",
+    "title": "L9-01",
+    "anchor": "L9-01",
+    "sourceHref": "/d/vq4ojj#L9-01",
+    "tags": [
+      {
+        "marker": "L9-01",
+        "lesson": "g9/equations-reducible-to-linear",
+        "skill": "Phương trình quy về phương trình bậc nhất một ẩn",
+        "levels": [
+          "TH"
+        ]
+      }
+    ],
+    "prompt": "<p>Giải phương trình (x − 2)(x − 3) = 0.</p>",
+    "options": [],
+    "answers": [
+      "x = 2 hoặc x = 3"
+    ],
+    "explanation": "<p>Tích bằng 0 khi x − 2 = 0 hoặc x − 3 = 0.</p><p>Nguồn: 47 Đề thi vào 10 năm 25-26.docx · tr. 1 · Câu 1</p>",
+    "sourceKind": "worksheet"
+  },
+  {
+    "code": "vq4ojj",
+    "grade": 9,
+    "type": "tl",
+    "title": "L9-02",
+    "anchor": "L9-02",
+    "sourceHref": "/d/vq4ojj#L9-02",
+    "tags": [
+      {
+        "marker": "L9-02",
+        "lesson": "g9/linear-inequalities-one-unknown",
+        "skill": "Bất phương trình bậc nhất một ẩn",
+        "levels": [
+          "TH"
+        ]
+      }
+    ],
+    "prompt": "<p>Giải bất phương trình 12 − 3x ≤ 0.</p>",
+    "options": [],
+    "answers": [
+      "x ≥ 4"
+    ],
+    "explanation": "<p>Chuyển vế được −3x ≤ −12. Chia cho −3 và đổi chiều bất phương trình.</p><p>Nguồn: 47 Đề thi vào 10 năm 25-26.docx · tr. 1 · Câu 2</p>",
+    "sourceKind": "worksheet"
+  },
+  {
+    "code": "vq4ojj",
+    "grade": 9,
+    "type": "tl",
+    "title": "L9-03",
+    "anchor": "L9-03",
+    "sourceHref": "/d/vq4ojj#L9-03",
+    "tags": [
+      {
+        "marker": "L9-03",
+        "lesson": "g9/square-roots-radicals",
+        "skill": "Căn bậc hai và căn thức bậc hai",
+        "levels": [
+          "TH"
+        ]
+      }
+    ],
+    "prompt": "<p>Tìm điều kiện xác định của √(2x − 4).</p>",
+    "options": [],
+    "answers": [
+      "x ≥ 2"
+    ],
+    "explanation": "<p>Căn bậc hai có nghĩa trong tập số thực khi 2x − 4 ≥ 0.</p><p>Nguồn: 47 Đề thi vào 10 năm 25-26.docx · tr. 1 · Câu 3</p>",
+    "sourceKind": "worksheet"
+  },
+  {
+    "code": "vq4ojj",
+    "grade": 9,
+    "type": "tl",
+    "title": "L9-04",
+    "anchor": "L9-04",
+    "sourceHref": "/d/vq4ojj#L9-04",
+    "tags": [
+      {
+        "marker": "L9-04",
+        "lesson": "g9/simplifying-root-expressions",
+        "skill": "Biến đổi đơn giản và rút gọn biểu thức chứa căn thức bậc hai",
+        "levels": [
+          "TH"
+        ]
+      }
+    ],
+    "prompt": "<p>Tính 1/(2 − √3) + 1/(2 + √3).</p>",
+    "options": [],
+    "answers": [
+      "4"
+    ],
+    "explanation": "<p>Mẫu chung bằng (2 − √3)(2 + √3) = 4 − 3 = 1. Tổng hai tử sau quy đồng bằng 4.</p><p>Nguồn: 47 Đề thi vào 10 năm 25-26.docx · tr. 1 · Câu 4</p>",
+    "sourceKind": "worksheet"
+  },
+  {
+    "code": "6xw7ma",
+    "grade": 9,
+    "type": "tl",
+    "title": "L9-05",
+    "anchor": "L9-05",
+    "sourceHref": "/d/6xw7ma#L9-05",
+    "tags": [
+      {
+        "marker": "L9-05",
+        "lesson": "g9/right-triangle-side-angle-relations",
+        "skill": "Một số hệ thức giữa cạnh, góc trong tam giác vuông và ứng dụng",
+        "levels": [
+          "TH"
+        ]
+      }
+    ],
+    "prompt": "<p>Tam giác ABC vuông tại A, AB = 3, AC = 4. Tính BC.</p>",
+    "options": [],
+    "answers": [
+      "5"
+    ],
+    "explanation": "<p>BC² = AB² + AC² = 9 + 16 = 25, nên BC = 5.</p><p>Nguồn: 47 Đề thi vào 10 năm 25-26.docx · tr. 1 · Câu 7</p>",
+    "sourceKind": "worksheet"
+  },
+  {
+    "code": "6xw7ma",
+    "grade": 9,
+    "type": "tl",
+    "title": "L9-06",
+    "anchor": "L9-06",
+    "sourceHref": "/d/6xw7ma#L9-06",
+    "tags": [
+      {
+        "marker": "L9-06",
+        "lesson": "g9/acute-angle-trig-ratios",
+        "skill": "Tỉ số lượng giác của góc nhọn",
+        "levels": [
+          "TH"
+        ]
+      }
+    ],
+    "prompt": "<p>Cho α = 25°, β = 65°. Chọn khẳng định sai trong bốn hệ thức: sin α = cos β, tan α = cot β, cos α = sin β, sin α = sin β.</p>",
+    "options": [],
+    "answers": [
+      "sin α = sin β là khẳng định sai"
+    ],
+    "explanation": "<p>Hai góc phụ nhau nên ba hệ thức đầu đúng. Vì 25° &lt; 65° và sin tăng trên khoảng từ 0° đến 90°, hai giá trị sin khác nhau.</p><p>Nguồn: 47 Đề thi vào 10 năm 25-26.docx · tr. 1 · Câu 8</p>",
+    "sourceKind": "worksheet"
+  },
+  {
+    "code": "6xw7ma",
+    "grade": 9,
+    "type": "tl",
+    "title": "L9-07",
+    "anchor": "L9-07",
+    "sourceHref": "/d/6xw7ma#L9-07",
+    "tags": [
+      {
+        "marker": "L9-07",
+        "lesson": "g9/spheres",
+        "skill": "Hình cầu",
+        "levels": [
+          "TH"
+        ]
+      }
+    ],
+    "prompt": "<p>Tính thể tích hình cầu bán kính 3 cm.</p>",
+    "options": [],
+    "answers": [
+      "36π cm³"
+    ],
+    "explanation": "<p>V = (4/3)πR³ = (4/3)π·27 = 36π cm³.</p><p>Nguồn: 47 Đề thi vào 10 năm 25-26.docx · tr. 1 · Câu 9</p>",
+    "sourceKind": "worksheet"
+  },
+  {
+    "code": "kpb46w",
+    "grade": 8,
+    "type": "tl",
+    "title": "PT8-01",
+    "anchor": "PT8-01",
+    "sourceHref": "/d/kpb46w#PT8-01",
+    "tags": [
+      {
+        "marker": "PT8-01",
+        "lesson": "g8/g8-equation-word-problems",
+        "skill": "Giải bài toán bằng cách lập phương trình",
+        "levels": [
+          "VD"
+        ]
+      }
+    ],
+    "prompt": "<p>Hai lớp có tổng cộng 80 học sinh. Mỗi bạn lớp thứ nhất góp 2 quyển sách, mỗi bạn lớp thứ hai góp 3 quyển. Cả hai lớp góp 198 quyển. Tính sĩ số từng lớp.</p>",
+    "options": [],
+    "answers": [
+      "42 và 38 học sinh"
+    ],
+    "explanation": "<p>Gọi x là sĩ số lớp thứ hai. Ta có 2(80 − x) + 3x = 198, suy ra x = 38. Lớp thứ nhất có 42 học sinh. Kiểm tra: 84 + 114 = 198.</p><p>Nguồn: Cù Minh Quảng, 2 GIẢI TOÁN LẬP PHƯƠNG TRÌNH 2024 TRANG 27 -52.docx, trang in 34 · Thêm bớt 1</p>",
+    "sourceKind": "worksheet"
+  },
+  {
+    "code": "kpb46w",
+    "grade": 8,
+    "type": "tl",
+    "title": "PT8-02",
+    "anchor": "PT8-02",
+    "sourceHref": "/d/kpb46w#PT8-02",
+    "tags": [
+      {
+        "marker": "PT8-02",
+        "lesson": "g8/g8-equation-word-problems",
+        "skill": "Giải bài toán bằng cách lập phương trình",
+        "levels": [
+          "VD"
+        ]
+      }
+    ],
+    "prompt": "<p>Hai thư viện có tổng cộng 15 000 cuốn sách. Sau khi thư viện thứ nhất chuyển 3 000 cuốn sang thư viện thứ hai, hai bên có số sách bằng nhau. Ban đầu mỗi thư viện có bao nhiêu cuốn?</p>",
+    "options": [],
+    "answers": [
+      "10 500 và 4 500 cuốn"
+    ],
+    "explanation": "<p>Mỗi thư viện có 7 500 cuốn sau khi chuyển. Đảo ngược thao tác, thư viện thứ nhất có 7 500 + 3 000 = 10 500 cuốn, thư viện thứ hai có 7 500 − 3 000 = 4 500 cuốn.</p><p>Nguồn: Cù Minh Quảng, 2 GIẢI TOÁN LẬP PHƯƠNG TRÌNH 2024 TRANG 27 -52.docx, trang in 34 · Thêm bớt 6</p>",
+    "sourceKind": "worksheet"
+  },
+  {
+    "code": "kpb46w",
+    "grade": 8,
+    "type": "tl",
+    "title": "PT8-03",
+    "anchor": "PT8-03",
+    "sourceHref": "/d/kpb46w#PT8-03",
+    "tags": [
+      {
+        "marker": "PT8-03",
+        "lesson": "g8/g8-equation-word-problems",
+        "skill": "Giải bài toán bằng cách lập phương trình",
+        "levels": [
+          "VD"
+        ]
+      }
+    ],
+    "prompt": "<p>Kho thứ nhất có lượng lúa gấp đôi kho thứ hai. Lấy ra 750 tạ ở kho thứ nhất và nhập thêm 350 tạ vào kho thứ hai thì hai kho có lượng lúa bằng nhau. Tính lượng lúa ban đầu ở mỗi kho.</p>",
+    "options": [],
+    "answers": [
+      "2 200 và 1 100 tạ"
+    ],
+    "explanation": "<p>Gọi lượng lúa ban đầu ở kho thứ hai là x tạ. Từ 2x − 750 = x + 350 suy ra x = 1 100. Kho thứ nhất có 2 200 tạ. Sau điều chỉnh, mỗi kho có 1 450 tạ.</p><p>Nguồn: Cù Minh Quảng, 2 GIẢI TOÁN LẬP PHƯƠNG TRÌNH 2024 TRANG 27 -52.docx, trang in 34 · Thêm bớt 7</p>",
+    "sourceKind": "worksheet"
+  },
+  {
+    "code": "kpb46w",
+    "grade": 8,
+    "type": "tl",
+    "title": "PT8-04",
+    "anchor": "PT8-04",
+    "sourceHref": "/d/kpb46w#PT8-04",
+    "tags": [
+      {
+        "marker": "PT8-04",
+        "lesson": "g8/g8-equation-word-problems",
+        "skill": "Giải bài toán bằng cách lập phương trình",
+        "levels": [
+          "VD"
+        ]
+      }
+    ],
+    "prompt": "<p>Một trang sách có số chữ ở các dòng bằng nhau. Bớt 4 dòng và bớt 3 chữ ở mỗi dòng còn lại thì trang giảm 136 chữ. Thêm 3 dòng và thêm 2 chữ ở mỗi dòng thì trang tăng 109 chữ. Tìm số dòng và số chữ mỗi dòng ban đầu.</p>",
+    "options": [],
+    "answers": [
+      "32 dòng, 13 chữ mỗi dòng"
+    ],
+    "explanation": "<p>Gọi r là số dòng, c là số chữ mỗi dòng. Từ rc − (r − 4)(c − 3) = 136 suy ra 3r + 4c = 148. Từ (r + 3)(c + 2) − rc = 109 suy ra 2r + 3c = 103. Lấy ba lần phương trình đầu trừ bốn lần phương trình sau được r = 32, rồi c = 13. Kiểm tra: 416 − 280 = 136 và 525 − 416 = 109.</p><p>Nguồn: Cù Minh Quảng, 2 GIẢI TOÁN LẬP PHƯƠNG TRÌNH 2024 TRANG 27 -52.docx, trang in 34 · Thêm bớt 5</p>",
+    "sourceKind": "worksheet"
+  },
+  {
+    "code": "gztrif",
+    "grade": 8,
+    "type": "tl",
+    "title": "PT8-05",
+    "anchor": "PT8-05",
+    "sourceHref": "/d/gztrif#PT8-05",
+    "tags": [
+      {
+        "marker": "PT8-05",
+        "lesson": "g8/g8-equation-word-problems",
+        "skill": "Giải bài toán bằng cách lập phương trình",
+        "levels": [
+          "VD"
+        ]
+      }
+    ],
+    "prompt": "<p>Tổng hai số là 80 và hiệu của số lớn với số bé là 14. Tìm hai số.</p>",
+    "options": [],
+    "answers": [
+      "33 và 47"
+    ],
+    "explanation": "<p>Gọi số bé là x. Từ x + (x + 14) = 80 suy ra x = 33. Số lớn là 47.</p><p>Nguồn: Cù Minh Quảng, 2 GIẢI TOÁN LẬP PHƯƠNG TRÌNH 2024 TRANG 27 -52.docx, trang in 36 · Tìm số 19</p>",
+    "sourceKind": "worksheet"
+  },
+  {
+    "code": "gztrif",
+    "grade": 8,
+    "type": "tl",
+    "title": "PT8-06",
+    "anchor": "PT8-06",
+    "sourceHref": "/d/gztrif#PT8-06",
+    "tags": [
+      {
+        "marker": "PT8-06",
+        "lesson": "g8/g8-equation-word-problems",
+        "skill": "Giải bài toán bằng cách lập phương trình",
+        "levels": [
+          "VD"
+        ]
+      }
+    ],
+    "prompt": "<p>Hai số có tổng bằng 90. Một số gấp đôi số kia. Tìm hai số.</p>",
+    "options": [],
+    "answers": [
+      "30 và 60"
+    ],
+    "explanation": "<p>Gọi số bé là x. Ta có x + 2x = 90 nên x = 30. Số còn lại là 60.</p><p>Nguồn: Cù Minh Quảng, 2 GIẢI TOÁN LẬP PHƯƠNG TRÌNH 2024 TRANG 27 -52.docx, trang in 36 · Tìm số 20</p>",
+    "sourceKind": "worksheet"
+  },
+  {
+    "code": "gztrif",
+    "grade": 8,
+    "type": "tl",
+    "title": "PT8-07",
+    "anchor": "PT8-07",
+    "sourceHref": "/d/gztrif#PT8-07",
+    "tags": [
+      {
+        "marker": "PT8-07",
+        "lesson": "g8/g8-equation-word-problems",
+        "skill": "Giải bài toán bằng cách lập phương trình",
+        "levels": [
+          "VD"
+        ]
+      }
+    ],
+    "prompt": "<p>Tìm hai số tự nhiên liên tiếp sao cho ba lần số nhỏ trừ năm lần số lớn bằng −45.</p>",
+    "options": [],
+    "answers": [
+      "20 và 21"
+    ],
+    "explanation": "<p>Viết 3x − 5(x + 1) = −45. Rút gọn được −2x − 5 = −45 nên x = 20. Hai số là 20 và 21.</p><p>Nguồn: Cù Minh Quảng, 2 GIẢI TOÁN LẬP PHƯƠNG TRÌNH 2024 TRANG 27 -52.docx, trang in 36 · Tìm số 14</p>",
+    "sourceKind": "worksheet"
+  },
+  {
+    "code": "gztrif",
+    "grade": 8,
+    "type": "tl",
+    "title": "PT8-08",
+    "anchor": "PT8-08",
+    "sourceHref": "/d/gztrif#PT8-08",
+    "tags": [
+      {
+        "marker": "PT8-08",
+        "lesson": "g8/g8-equation-word-problems",
+        "skill": "Giải bài toán bằng cách lập phương trình",
+        "levels": [
+          "VD"
+        ]
+      }
+    ],
+    "prompt": "<p>Ba số tự nhiên liên tiếp có tích hai số sau lớn hơn tích hai số đầu 50 đơn vị. Tìm ba số.</p>",
+    "options": [],
+    "answers": [
+      "24, 25, 26"
+    ],
+    "explanation": "<p>Gọi số ở giữa là x. Hiệu hai tích là x(x + 1) − (x − 1)x = 2x = 50. Vậy ba số là 24, 25, 26.</p><p>Nguồn: Cù Minh Quảng, 2 GIẢI TOÁN LẬP PHƯƠNG TRÌNH 2024 TRANG 27 -52.docx, trang in 34 · Tìm số 3</p>",
+    "sourceKind": "worksheet"
+  },
+  {
+    "code": "gztrif",
+    "grade": 8,
+    "type": "tl",
+    "title": "PT8-09",
+    "anchor": "PT8-09",
+    "sourceHref": "/d/gztrif#PT8-09",
+    "tags": [
+      {
+        "marker": "PT8-09",
+        "lesson": "g8/g8-equation-word-problems",
+        "skill": "Giải bài toán bằng cách lập phương trình",
+        "levels": [
+          "VD"
+        ]
+      }
+    ],
+    "prompt": "<p>Mẫu của một phân số gấp bốn lần tử. Thêm 2 vào cả tử và mẫu thì phân số mới bằng 1/2. Tìm tử và mẫu ban đầu.</p>",
+    "options": [],
+    "answers": [
+      "1/4"
+    ],
+    "explanation": "<p>Gọi tử là x, mẫu là 4x với x khác 0. Từ 2(x + 2) = 4x + 2 suy ra x = 1. Phân số ban đầu là 1/4. Kiểm tra: 3/6 = 1/2.</p><p>Nguồn: Cù Minh Quảng, 2 GIẢI TOÁN LẬP PHƯƠNG TRÌNH 2024 TRANG 27 -52.docx, trang in 34 · Tìm số 4</p>",
+    "sourceKind": "worksheet"
+  },
+  {
+    "code": "gztrif",
+    "grade": 8,
+    "type": "tl",
+    "title": "PT8-10",
+    "anchor": "PT8-10",
+    "sourceHref": "/d/gztrif#PT8-10",
+    "tags": [
+      {
+        "marker": "PT8-10",
+        "lesson": "g8/g8-equation-word-problems",
+        "skill": "Giải bài toán bằng cách lập phương trình",
+        "levels": [
+          "VD"
+        ]
+      }
+    ],
+    "prompt": "<p>Tử của một phân số nhỏ hơn mẫu 8 đơn vị. Tăng tử thêm 2 và giảm mẫu đi 3 thì được phân số bằng 3/4. Tìm phân số ban đầu.</p>",
+    "options": [],
+    "answers": [
+      "7/15"
+    ],
+    "explanation": "<p>Gọi tử là x, mẫu là x + 8. Từ 4(x + 2) = 3(x + 5) suy ra x = 7. Mẫu bằng 15. Thay lại được 9/12 = 3/4.</p><p>Nguồn: Cù Minh Quảng, 2 GIẢI TOÁN LẬP PHƯƠNG TRÌNH 2024 TRANG 27 -52.docx, trang in 34 · Tìm số 5</p>",
+    "sourceKind": "worksheet"
+  },
+  {
+    "code": "gztrif",
+    "grade": 8,
+    "type": "tl",
+    "title": "PT8-11",
+    "anchor": "PT8-11",
+    "sourceHref": "/d/gztrif#PT8-11",
+    "tags": [
+      {
+        "marker": "PT8-11",
+        "lesson": "g8/g8-equation-word-problems",
+        "skill": "Giải bài toán bằng cách lập phương trình",
+        "levels": [
+          "VD"
+        ]
+      }
+    ],
+    "prompt": "<p>Hai số hơn kém nhau 12 đơn vị. Thương của số bé với 7 nhỏ hơn thương của số lớn với 5 là 4. Tìm hai số.</p>",
+    "options": [],
+    "answers": [
+      "28 và 40"
+    ],
+    "explanation": "<p>Gọi số bé là x. Ta có (x + 12)/5 − x/7 = 4. Nhân với 35 được 7x + 84 − 5x = 140, suy ra x = 28. Số lớn bằng 40.</p><p>Nguồn: Cù Minh Quảng, 2 GIẢI TOÁN LẬP PHƯƠNG TRÌNH 2024 TRANG 27 -52.docx, trang in 35 · Tìm số 6</p>",
+    "sourceKind": "worksheet"
+  },
+  {
+    "code": "gztrif",
+    "grade": 8,
+    "type": "tl",
+    "title": "PT8-12",
+    "anchor": "PT8-12",
+    "sourceHref": "/d/gztrif#PT8-12",
+    "tags": [
+      {
+        "marker": "PT8-12",
+        "lesson": "g8/g8-equation-word-problems",
+        "skill": "Giải bài toán bằng cách lập phương trình",
+        "levels": [
+          "VD"
+        ]
+      }
+    ],
+    "prompt": "<p>Thương của hai số là 3. Tăng số bị chia thêm 10 và giảm số chia còn một nửa thì số bị chia mới lớn hơn số chia mới 30 đơn vị. Tìm hai số ban đầu.</p>",
+    "options": [],
+    "answers": [
+      "Số bị chia 24, số chia 8"
+    ],
+    "explanation": "<p>Nếu số chia là x thì số bị chia là 3x. Từ 3x + 10 − x/2 = 30 suy ra 5x = 40 nên x = 8. Số bị chia là 24. Thử lại: 34 − 4 = 30.</p><p>Nguồn: Cù Minh Quảng, 2 GIẢI TOÁN LẬP PHƯƠNG TRÌNH 2024 TRANG 27 -52.docx, trang in 36 · Tìm số 18</p>",
+    "sourceKind": "worksheet"
+  },
+  {
+    "code": "gztrif",
+    "grade": 8,
+    "type": "tl",
+    "title": "PT8-13",
+    "anchor": "PT8-13",
+    "sourceHref": "/d/gztrif#PT8-13",
+    "tags": [
+      {
+        "marker": "PT8-13",
+        "lesson": "g8/g8-equation-word-problems",
+        "skill": "Giải bài toán bằng cách lập phương trình",
+        "levels": [
+          "VD"
+        ]
+      }
+    ],
+    "prompt": "<p>Bốn số có tổng bằng 45. Cộng 2 vào số thứ nhất, trừ 2 ở số thứ hai, nhân đôi số thứ ba và chia đôi số thứ tư thì bốn kết quả bằng nhau. Tìm bốn số theo thứ tự.</p>",
+    "options": [],
+    "answers": [
+      "8, 12, 5, 20"
+    ],
+    "explanation": "<p>Bốn số ban đầu là x − 2, x + 2, x/2 và 2x. Tổng bằng 9x/2 = 45 nên x = 10. Bốn số lần lượt là 8, 12, 5 và 20.</p><p>Nguồn: Cù Minh Quảng, 2 GIẢI TOÁN LẬP PHƯƠNG TRÌNH 2024 TRANG 27 -52.docx, trang in 36–37 · Tìm số 23</p>",
+    "sourceKind": "worksheet"
+  },
+  {
+    "code": "a43e7f",
+    "grade": 8,
+    "type": "tl",
+    "title": "PT8-14",
+    "anchor": "PT8-14",
+    "sourceHref": "/d/a43e7f#PT8-14",
+    "tags": [
+      {
+        "marker": "PT8-14",
+        "lesson": "g8/g8-equation-word-problems",
+        "skill": "Giải bài toán bằng cách lập phương trình",
+        "levels": [
+          "VD"
+        ]
+      }
+    ],
+    "prompt": "<p>Một số có hai chữ số với tổng hai chữ số bằng 14. Đảo vị trí hai chữ số thì số mới nhỏ hơn số ban đầu 36 đơn vị. Tìm số ban đầu.</p>",
+    "options": [],
+    "answers": [
+      "95"
+    ],
+    "explanation": "<p>Gọi a, b lần lượt là chữ số hàng chục và hàng đơn vị. Ta có a + b = 14 và 9(a − b) = 36. Vậy a − b = 4, suy ra a = 9, b = 5. Kiểm tra: 95 − 59 = 36.</p><p>Nguồn: Cù Minh Quảng, 2 GIẢI TOÁN LẬP PHƯƠNG TRÌNH 2024 TRANG 27 -52.docx, trang in 34 · Tìm số 1</p>",
+    "sourceKind": "worksheet"
+  },
+  {
+    "code": "a43e7f",
+    "grade": 8,
+    "type": "tl",
+    "title": "PT8-15",
+    "anchor": "PT8-15",
+    "sourceHref": "/d/a43e7f#PT8-15",
+    "tags": [
+      {
+        "marker": "PT8-15",
+        "lesson": "g8/g8-equation-word-problems",
+        "skill": "Giải bài toán bằng cách lập phương trình",
+        "levels": [
+          "VD"
+        ]
+      }
+    ],
+    "prompt": "<p>Hai lần chữ số hàng chục lớn hơn chữ số hàng đơn vị 7 đơn vị. Khi đổi chỗ hai chữ số, số mới có hai chữ số và nhỏ hơn số ban đầu 27. Tìm số ban đầu.</p>",
+    "options": [],
+    "answers": [
+      "41"
+    ],
+    "explanation": "<p>Gọi a là chữ số hàng chục, b là chữ số hàng đơn vị. Khi đó 2a − b = 7 và 9(a − b) = 27. Lấy 2a − b trừ a − b = 3 được a = 4, suy ra b = 1. Số cần tìm là 41.</p><p>Nguồn: Cù Minh Quảng, 2 GIẢI TOÁN LẬP PHƯƠNG TRÌNH 2024 TRANG 27 -52.docx, trang in 36 · Tìm số 8</p>",
+    "sourceKind": "worksheet"
+  },
+  {
+    "code": "a43e7f",
+    "grade": 8,
+    "type": "tl",
+    "title": "PT8-16",
+    "anchor": "PT8-16",
+    "sourceHref": "/d/a43e7f#PT8-16",
+    "tags": [
+      {
+        "marker": "PT8-16",
+        "lesson": "g8/g8-equation-word-problems",
+        "skill": "Giải bài toán bằng cách lập phương trình",
+        "levels": [
+          "VD"
+        ]
+      }
+    ],
+    "prompt": "<p>Một số có hai chữ số với tổng hai chữ số là 12. Đổi chỗ hai chữ số thì số mới lớn hơn số cũ 36 đơn vị. Tìm số cũ.</p>",
+    "options": [],
+    "answers": [
+      "48"
+    ],
+    "explanation": "<p>Gọi a là chữ số hàng chục, b là chữ số hàng đơn vị. Ta có a + b = 12 và 9(b − a) = 36. Do đó b − a = 4, suy ra b = 8 và a = 4. Số ban đầu là 48.</p><p>Nguồn: Cù Minh Quảng, 2 GIẢI TOÁN LẬP PHƯƠNG TRÌNH 2024 TRANG 27 -52.docx, trang in 36 · Tìm số 9</p>",
+    "sourceKind": "worksheet"
+  },
+  {
+    "code": "a43e7f",
+    "grade": 8,
+    "type": "tl",
+    "title": "PT8-17",
+    "anchor": "PT8-17",
+    "sourceHref": "/d/a43e7f#PT8-17",
+    "tags": [
+      {
+        "marker": "PT8-17",
+        "lesson": "g8/g8-equation-word-problems",
+        "skill": "Giải bài toán bằng cách lập phương trình",
+        "levels": [
+          "VD"
+        ]
+      }
+    ],
+    "prompt": "<p>Chữ số hàng đơn vị cộng với hai lần chữ số hàng chục bằng 10. Đảo hai chữ số thì số mới nhỏ hơn số ban đầu 18 đơn vị. Tìm hai chữ số.</p>",
+    "options": [],
+    "answers": [
+      "Hàng chục 4, hàng đơn vị 2"
+    ],
+    "explanation": "<p>Từ 9(a − b) = 18 suy ra b = a − 2. Thay vào 2a + b = 10 được 3a − 2 = 10, nên a = 4 và b = 2. Số ban đầu là 42.</p><p>Nguồn: Cù Minh Quảng, 2 GIẢI TOÁN LẬP PHƯƠNG TRÌNH 2024 TRANG 27 -52.docx, trang in 36 · Tìm số 10</p>",
+    "sourceKind": "worksheet"
+  },
+  {
+    "code": "a6ykdr",
+    "grade": 8,
+    "type": "tl",
+    "title": "PT8-18",
+    "anchor": "PT8-18",
+    "sourceHref": "/d/a6ykdr#PT8-18",
+    "tags": [
+      {
+        "marker": "PT8-18",
+        "lesson": "g8/g8-equation-word-problems",
+        "skill": "Giải bài toán bằng cách lập phương trình",
+        "levels": [
+          "VD"
+        ]
+      }
+    ],
+    "prompt": "<p>Hiện nay bố gấp bốn lần tuổi Hoàng. Năm năm nữa bố sẽ gấp ba lần tuổi Hoàng. Hỏi hiện nay Hoàng bao nhiêu tuổi?</p>",
+    "options": [],
+    "answers": [
+      "10 tuổi"
+    ],
+    "explanation": "<p>Gọi tuổi hiện nay của Hoàng là x. Sau 5 năm ta có 4x + 5 = 3(x + 5), suy ra x = 10. Khi ấy bố 40 tuổi. Năm năm sau, 45 = 3 × 15.</p><p>Nguồn: Cù Minh Quảng, 2 GIẢI TOÁN LẬP PHƯƠNG TRÌNH 2024 TRANG 27 -52.docx, trang in 38 · Tuổi 1</p>",
+    "sourceKind": "worksheet"
+  },
+  {
+    "code": "a6ykdr",
+    "grade": 8,
+    "type": "tl",
+    "title": "PT8-19",
+    "anchor": "PT8-19",
+    "sourceHref": "/d/a6ykdr#PT8-19",
+    "tags": [
+      {
+        "marker": "PT8-19",
+        "lesson": "g8/g8-equation-word-problems",
+        "skill": "Giải bài toán bằng cách lập phương trình",
+        "levels": [
+          "VD"
+        ]
+      }
+    ],
+    "prompt": "<p>Cách đây 5 năm, tuổi Dung bằng một nửa tuổi của Dung sau 4 năm nữa. Tính tuổi Dung hiện nay.</p>",
+    "options": [],
+    "answers": [
+      "14 tuổi"
+    ],
+    "explanation": "<p>Gọi tuổi hiện nay là x, với x ≥ 5. Ta có 2(x − 5) = x + 4, suy ra x = 14. Kiểm tra: 9 bằng một nửa của 18.</p><p>Nguồn: Cù Minh Quảng, 2 GIẢI TOÁN LẬP PHƯƠNG TRÌNH 2024 TRANG 27 -52.docx, trang in 38 · Tuổi 3</p>",
+    "sourceKind": "worksheet"
+  },
+  {
+    "code": "a6ykdr",
+    "grade": 8,
+    "type": "tl",
+    "title": "PT8-20",
+    "anchor": "PT8-20",
+    "sourceHref": "/d/a6ykdr#PT8-20",
+    "tags": [
+      {
+        "marker": "PT8-20",
+        "lesson": "g8/g8-equation-word-problems",
+        "skill": "Giải bài toán bằng cách lập phương trình",
+        "levels": [
+          "VD"
+        ]
+      }
+    ],
+    "prompt": "<p>Mười năm trước, người thứ nhất gấp ba lần tuổi người thứ hai. Hai năm nữa, người thứ hai bằng nửa tuổi người thứ nhất. Tìm tuổi hiện nay của mỗi người.</p>",
+    "options": [],
+    "answers": [
+      "46 và 22 tuổi"
+    ],
+    "explanation": "<p>Gọi tuổi người thứ hai cách đây 10 năm là x, tuổi người thứ nhất khi đó là 3x. Từ 3x + 12 = 2(x + 12) suy ra x = 12. Hiện nay người thứ nhất 46 tuổi, người thứ hai 22 tuổi.</p><p>Nguồn: Cù Minh Quảng, 2 GIẢI TOÁN LẬP PHƯƠNG TRÌNH 2024 TRANG 27 -52.docx, trang in 38 · Tuổi 2</p>",
+    "sourceKind": "worksheet"
+  },
+  {
+    "code": "oyt2jk",
+    "grade": 8,
+    "type": "tl",
+    "title": "PT8-21",
+    "anchor": "PT8-21",
+    "sourceHref": "/d/oyt2jk#PT8-21",
+    "tags": [
+      {
+        "marker": "PT8-21",
+        "lesson": "g8/g8-equation-word-problems",
+        "skill": "Giải bài toán bằng cách lập phương trình",
+        "levels": [
+          "VD"
+        ]
+      }
+    ],
+    "prompt": "<p>Hai tổ được giao sản xuất tổng cộng 700 sản phẩm. Tổ thứ nhất vượt kế hoạch 15%, tổ thứ hai vượt 20%, nên tổng sản lượng thực tế đạt 820 sản phẩm. Tính chỉ tiêu ban đầu của từng tổ.</p>",
+    "options": [],
+    "answers": [
+      "400 và 300 sản phẩm"
+    ],
+    "explanation": "<p>Gọi chỉ tiêu tổ thứ nhất là x sản phẩm. Hai tổ vượt 120 sản phẩm, nên 0,15x + 0,20(700 − x) = 120. Suy ra x = 400. Tổ thứ hai được giao 300. Thử lại: 460 + 360 = 820.</p><p>Nguồn: Cù Minh Quảng, 2 GIẢI TOÁN LẬP PHƯƠNG TRÌNH 2024 TRANG 27 -52.docx, trang in 30 · Ví dụ 6</p>",
+    "sourceKind": "worksheet"
+  },
+  {
+    "code": "oyt2jk",
+    "grade": 8,
+    "type": "tl",
+    "title": "PT8-22",
+    "anchor": "PT8-22",
+    "sourceHref": "/d/oyt2jk#PT8-22",
+    "tags": [
+      {
+        "marker": "PT8-22",
+        "lesson": "g8/g8-equation-word-problems",
+        "skill": "Giải bài toán bằng cách lập phương trình",
+        "levels": [
+          "VD"
+        ]
+      }
+    ],
+    "prompt": "<p>Hai tổ làm chung thì hoàn thành một công việc trong 12 giờ. Sau 4 giờ làm chung, tổ thứ nhất chuyển đi. Tổ thứ hai làm thêm 10 giờ thì xong. Mỗi tổ làm riêng sẽ mất bao lâu nếu năng suất giữ nguyên?</p>",
+    "options": [],
+    "answers": [
+      "60 giờ và 15 giờ"
+    ],
+    "explanation": "<p>Bốn giờ làm chung hoàn thành 4/12 = 1/3 công việc. Tổ thứ hai làm 2/3 công việc trong 10 giờ nên mỗi giờ làm được 1/15. Tổ thứ nhất mỗi giờ làm được 1/12 − 1/15 = 1/60. Vậy tổ thứ nhất cần 60 giờ, tổ thứ hai cần 15 giờ.</p><p>Nguồn: Cù Minh Quảng, 2 GIẢI TOÁN LẬP PHƯƠNG TRÌNH 2024 TRANG 27 -52.docx, trang in 32–33 · Ví dụ 8</p>",
+    "sourceKind": "worksheet"
+  },
+  {
+    "code": "oyt2jk",
+    "grade": 8,
+    "type": "tl",
+    "title": "PT8-23",
+    "anchor": "PT8-23",
+    "sourceHref": "/d/oyt2jk#PT8-23",
+    "tags": [
+      {
+        "marker": "PT8-23",
+        "lesson": "g8/g8-equation-word-problems",
+        "skill": "Giải bài toán bằng cách lập phương trình",
+        "levels": [
+          "VD"
+        ]
+      }
+    ],
+    "prompt": "<p>Một người đi xe đạp trên cùng một quãng đường, lúc đi với vận tốc 12 km/h, lúc về 18 km/h. Thời gian về ngắn hơn thời gian đi 45 phút. Tính độ dài quãng đường một chiều.</p>",
+    "options": [],
+    "answers": [
+      "27 km"
+    ],
+    "explanation": "<p>Gọi quãng đường một chiều là d km. Ta có d/12 − d/18 = 3/4, tức d/36 = 3/4. Suy ra d = 27. Thời gian đi là 2 giờ 15 phút, về là 1 giờ 30 phút, chênh nhau đúng 45 phút.</p><p>Nguồn: Cù Minh Quảng, 2 GIẢI TOÁN LẬP PHƯƠNG TRÌNH 2024 TRANG 27 -52.docx, trang in 38 · Chuyển động 4</p>",
+    "sourceKind": "worksheet"
+  }
+]

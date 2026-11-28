@@ -12,6 +12,7 @@ const review = require('./question-bank-review.json');
 const practicalWorksheets = require('./question-bank-practical-worksheets.json');
 const archive = require('../data/question-bank-archive.json');
 const package1300 = require('../data/question-bank-package.json');
+const worksheetSupplement = require('../data/question-bank-supplement.json');
 
 const sections = { mc: 'I', tf: 'II', sa: 'III' };
 const roman = { I: '1', II: '2', III: '3', IV: '4', V: '5' };
@@ -290,6 +291,25 @@ function sourceQuestions({ documents, questions }, sourceKind) {
   });
 }
 
+function supplementQuestions(libraryByCode) {
+  const refs = new Set();
+  return worksheetSupplement.map((question) => {
+    const { code, anchor, grade, sourceHref, prompt, explanation, answers, type, options, tags } = question;
+    const ref = code + '#' + anchor;
+    const source = libraryByCode.get(code);
+    if (source?.loai !== 'phieu-on-tap' || grade !== source.lop || refs.has(ref) ||
+        !/^(?:L[6-9]|PT8)-\d{2}$/.test(anchor) || sourceHref !== '/d/' + ref ||
+        type !== 'tl' || options.length || !prompt?.trim() || !explanation?.trim() ||
+        !answers.length || answers.some((answer) => !answer.trim()) ||
+        !tags.length || tags.some((tag) => !tag.skill || !tag.lesson.startsWith('g' + grade + '/') ||
+          !tag.levels.length || tag.levels.some((level) => !LEVELS.includes(level)))) {
+      throw new Error('Câu hỏi bổ sung chưa khớp phiếu nguồn ' + ref);
+    }
+    refs.add(ref);
+    return { ...question, prompt: markup(prompt, code), explanation: markup(explanation, code) };
+  });
+}
+
 function buildQuestionBank(grades) {
   const papers = Object.fromEntries(library.filter((row) => row.loai === 'de-thi').map((paper) => [paper.ma, paper]));
   const codes = new Set(sources.map((source) => source.code));
@@ -310,7 +330,8 @@ function buildQuestionBank(grades) {
   const libraryByCode = new Map(library.map((row) => [row.ma, row]));
   const questions = [...practicalQuestions(exams, libraryByCode), ...challengeQuestions(libraryByCode),
     ...exams, ...reviewQuestions(exams, libraryByCode),
-    ...sourceQuestions(archive, 'archive'), ...sourceQuestions(package1300, 'worksheet')]
+    ...sourceQuestions(archive, 'archive'), ...sourceQuestions(package1300, 'worksheet'),
+    ...supplementQuestions(libraryByCode)]
     .sort((a, b) => a.grade - b.grade);
   const lessons = {};
   for (const question of questions) {

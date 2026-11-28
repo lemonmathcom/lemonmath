@@ -866,5 +866,1493 @@
     "loai": "phieu-on-tap",
     "tieu_de": "Phiếu ôn tập cuối học kì 1 Toán 12 năm học 2025–2026",
     "tep_pdf": "tai-lieu/lop-12/phieu-bai-tap/2025-2026/wl7iag/Toan-12_on-cuoi-HK1_2025-2026_de.pdf"
+  },
+  {
+    "ma": "fa65e2",
+    "lop": 6,
+    "loai": "phieu-on-tap",
+    "tieu_de": "Toán 6 · Số học",
+    "tep_pdf": "tai-lieu/lop-06/phieu-bai-tap/2026-2027/fa65e2/lemonmath_L06_fa65e2_de.pdf",
+    "tep_loi_giai": "tai-lieu/lop-06/phieu-bai-tap/2026-2027/fa65e2/lemonmath_L06_fa65e2_loi-giai.pdf"
+  },
+  {
+    "ma": "spm4dj",
+    "lop": 6,
+    "loai": "phieu-on-tap",
+    "tieu_de": "Toán 6 · Đếm đường thẳng và giao điểm",
+    "tep_pdf": "tai-lieu/lop-06/phieu-bai-tap/2026-2027/spm4dj/lemonmath_L06_spm4dj_de.pdf",
+    "tep_loi_giai": "tai-lieu/lop-06/phieu-bai-tap/2026-2027/spm4dj/lemonmath_L06_spm4dj_loi-giai.pdf"
+  },
+  {
+    "ma": "suymum",
+    "lop": 6,
+    "loai": "phieu-on-tap",
+    "tieu_de": "Toán 6 · Đề ôn tập Toán 6",
+    "tep_pdf": "tai-lieu/lop-06/phieu-bai-tap/2026-2027/suymum/lemonmath_L06_suymum_de.pdf",
+    "tep_loi_giai": "tai-lieu/lop-06/phieu-bai-tap/2026-2027/suymum/lemonmath_L06_suymum_loi-giai.pdf"
+  },
+  {
+    "ma": "4rwunc",
+    "lop": 7,
+    "loai": "phieu-on-tap",
+    "tieu_de": "Toán 7 · Biến đổi biểu thức",
+    "tep_pdf": "tai-lieu/lop-07/phieu-bai-tap/2026-2027/4rwunc/lemonmath_L07_4rwunc_de.pdf",
+    "tep_loi_giai": "tai-lieu/lop-07/phieu-bai-tap/2026-2027/4rwunc/lemonmath_L07_4rwunc_loi-giai.pdf"
+  },
+  {
+    "ma": "m2gd6j",
+    "lop": 7,
+    "loai": "phieu-on-tap",
+    "tieu_de": "Toán 7 · Tìm số và mô hình hóa",
+    "tep_pdf": "tai-lieu/lop-07/phieu-bai-tap/2026-2027/m2gd6j/lemonmath_L07_m2gd6j_de.pdf",
+    "tep_loi_giai": "tai-lieu/lop-07/phieu-bai-tap/2026-2027/m2gd6j/lemonmath_L07_m2gd6j_loi-giai.pdf"
+  },
+  {
+    "ma": "45aqrk",
+    "lop": 7,
+    "loai": "phieu-on-tap",
+    "tieu_de": "Toán 7 · Xác suất",
+    "tep_pdf": "tai-lieu/lop-07/phieu-bai-tap/2026-2027/45aqrk/lemonmath_L07_45aqrk_de.pdf",
+    "tep_loi_giai": "tai-lieu/lop-07/phieu-bai-tap/2026-2027/45aqrk/lemonmath_L07_45aqrk_loi-giai.pdf"
+  },
+  {
+    "ma": "ayqgyy",
+    "lop": 7,
+    "loai": "phieu-on-tap",
+    "tieu_de": "Toán 7 · Đề ôn tập Toán 7",
+    "tep_pdf": "tai-lieu/lop-07/phieu-bai-tap/2026-2027/ayqgyy/lemonmath_L07_ayqgyy_de.pdf",
+    "tep_loi_giai": "tai-lieu/lop-07/phieu-bai-tap/2026-2027/ayqgyy/lemonmath_L07_ayqgyy_loi-giai.pdf"
+  },
+  {
+    "ma": "k4wapb",
+    "lop": 8,
+    "loai": "phieu-on-tap",
+    "tieu_de": "Toán 8 · Phân thức đại số",
+    "tep_pdf": "tai-lieu/lop-08/phieu-bai-tap/2026-2027/k4wapb/lemonmath_L08_k4wapb_de.pdf",
+    "tep_loi_giai": "tai-lieu/lop-08/phieu-bai-tap/2026-2027/k4wapb/lemonmath_L08_k4wapb_loi-giai.pdf"
+  },
+  {
+    "ma": "yxidiw",
+    "lop": 8,
+    "loai": "phieu-on-tap",
+    "tieu_de": "Toán 8 · Tam giác đồng dạng và vuông",
+    "tep_pdf": "tai-lieu/lop-08/phieu-bai-tap/2026-2027/yxidiw/lemonmath_L08_yxidiw_de.pdf",
+    "tep_loi_giai": "tai-lieu/lop-08/phieu-bai-tap/2026-2027/yxidiw/lemonmath_L08_yxidiw_loi-giai.pdf"
+  },
+  {
+    "ma": "jf3wwm",
+    "lop": 8,
+    "loai": "phieu-on-tap",
+    "tieu_de": "Toán 8 · Lập phương trình từ năng suất",
+    "tep_pdf": "tai-lieu/lop-08/phieu-bai-tap/2026-2027/jf3wwm/lemonmath_L08_jf3wwm_de.pdf",
+    "tep_loi_giai": "tai-lieu/lop-08/phieu-bai-tap/2026-2027/jf3wwm/lemonmath_L08_jf3wwm_loi-giai.pdf"
+  },
+  {
+    "ma": "izawto",
+    "lop": 8,
+    "loai": "phieu-on-tap",
+    "tieu_de": "Toán 8 · Đề ôn lập phương trình số 1 · 35 phút",
+    "tep_pdf": "tai-lieu/lop-08/phieu-bai-tap/2026-2027/izawto/lemonmath_L08_izawto_de.pdf",
+    "tep_loi_giai": "tai-lieu/lop-08/phieu-bai-tap/2026-2027/izawto/lemonmath_L08_izawto_loi-giai.pdf"
+  },
+  {
+    "ma": "p4sf6r",
+    "lop": 8,
+    "loai": "phieu-on-tap",
+    "tieu_de": "Toán 8 · Đề ôn lập phương trình số 2 · 35 phút",
+    "tep_pdf": "tai-lieu/lop-08/phieu-bai-tap/2026-2027/p4sf6r/lemonmath_L08_p4sf6r_de.pdf",
+    "tep_loi_giai": "tai-lieu/lop-08/phieu-bai-tap/2026-2027/p4sf6r/lemonmath_L08_p4sf6r_loi-giai.pdf"
+  },
+  {
+    "ma": "qfqxz4",
+    "lop": 8,
+    "loai": "phieu-on-tap",
+    "tieu_de": "Toán 8 · Đề ôn tập Toán 8",
+    "tep_pdf": "tai-lieu/lop-08/phieu-bai-tap/2026-2027/qfqxz4/lemonmath_L08_qfqxz4_de.pdf",
+    "tep_loi_giai": "tai-lieu/lop-08/phieu-bai-tap/2026-2027/qfqxz4/lemonmath_L08_qfqxz4_loi-giai.pdf"
+  },
+  {
+    "ma": "kpb46w",
+    "lop": 8,
+    "loai": "phieu-on-tap",
+    "tieu_de": "Toán 8 · Thêm bớt và chuyển lượng",
+    "tep_pdf": "tai-lieu/lop-08/phieu-bai-tap/2026-2027/kpb46w/lemonmath_L08_kpb46w_de.pdf",
+    "tep_loi_giai": "tai-lieu/lop-08/phieu-bai-tap/2026-2027/kpb46w/lemonmath_L08_kpb46w_loi-giai.pdf"
+  },
+  {
+    "ma": "gztrif",
+    "lop": 8,
+    "loai": "phieu-on-tap",
+    "tieu_de": "Toán 8 · Tìm số và phân số",
+    "tep_pdf": "tai-lieu/lop-08/phieu-bai-tap/2026-2027/gztrif/lemonmath_L08_gztrif_de.pdf",
+    "tep_loi_giai": "tai-lieu/lop-08/phieu-bai-tap/2026-2027/gztrif/lemonmath_L08_gztrif_loi-giai.pdf"
+  },
+  {
+    "ma": "a43e7f",
+    "lop": 8,
+    "loai": "phieu-on-tap",
+    "tieu_de": "Toán 8 · Số có hai chữ số",
+    "tep_pdf": "tai-lieu/lop-08/phieu-bai-tap/2026-2027/a43e7f/lemonmath_L08_a43e7f_de.pdf",
+    "tep_loi_giai": "tai-lieu/lop-08/phieu-bai-tap/2026-2027/a43e7f/lemonmath_L08_a43e7f_loi-giai.pdf"
+  },
+  {
+    "ma": "a6ykdr",
+    "lop": 8,
+    "loai": "phieu-on-tap",
+    "tieu_de": "Toán 8 · Tuổi ở các thời điểm",
+    "tep_pdf": "tai-lieu/lop-08/phieu-bai-tap/2026-2027/a6ykdr/lemonmath_L08_a6ykdr_de.pdf",
+    "tep_loi_giai": "tai-lieu/lop-08/phieu-bai-tap/2026-2027/a6ykdr/lemonmath_L08_a6ykdr_loi-giai.pdf"
+  },
+  {
+    "ma": "oyt2jk",
+    "lop": 8,
+    "loai": "phieu-on-tap",
+    "tieu_de": "Toán 8 · Năng suất và chuyển động",
+    "tep_pdf": "tai-lieu/lop-08/phieu-bai-tap/2026-2027/oyt2jk/lemonmath_L08_oyt2jk_de.pdf",
+    "tep_loi_giai": "tai-lieu/lop-08/phieu-bai-tap/2026-2027/oyt2jk/lemonmath_L08_oyt2jk_loi-giai.pdf"
+  },
+  {
+    "ma": "vq4ojj",
+    "lop": 9,
+    "loai": "phieu-on-tap",
+    "tieu_de": "Toán 9 · Phương trình, bất phương trình và căn thức",
+    "tep_pdf": "tai-lieu/lop-09/phieu-bai-tap/2026-2027/vq4ojj/lemonmath_L09_vq4ojj_de.pdf",
+    "tep_loi_giai": "tai-lieu/lop-09/phieu-bai-tap/2026-2027/vq4ojj/lemonmath_L09_vq4ojj_loi-giai.pdf"
+  },
+  {
+    "ma": "6xw7ma",
+    "lop": 9,
+    "loai": "phieu-on-tap",
+    "tieu_de": "Toán 9 · Hình học và đo lường",
+    "tep_pdf": "tai-lieu/lop-09/phieu-bai-tap/2026-2027/6xw7ma/lemonmath_L09_6xw7ma_de.pdf",
+    "tep_loi_giai": "tai-lieu/lop-09/phieu-bai-tap/2026-2027/6xw7ma/lemonmath_L09_6xw7ma_loi-giai.pdf"
+  },
+  {
+    "ma": "5jbtlp",
+    "lop": 9,
+    "loai": "phieu-on-tap",
+    "tieu_de": "Toán 9 · Đề ôn tập Toán 9",
+    "tep_pdf": "tai-lieu/lop-09/phieu-bai-tap/2026-2027/5jbtlp/lemonmath_L09_5jbtlp_de.pdf",
+    "tep_loi_giai": "tai-lieu/lop-09/phieu-bai-tap/2026-2027/5jbtlp/lemonmath_L09_5jbtlp_loi-giai.pdf"
+  },
+  {
+    "ma": "wedaxe",
+    "lop": 6,
+    "loai": "phieu-on-tap",
+    "tieu_de": "Toán 6 · Chia hết, ước chung và bội chung",
+    "tep_pdf": "tai-lieu/lop-06/phieu-bai-tap/2026-2027/wedaxe/lemonmath_L06_wedaxe_de.pdf",
+    "tep_loi_giai": "tai-lieu/lop-06/phieu-bai-tap/2026-2027/wedaxe/lemonmath_L06_wedaxe_loi-giai.pdf"
+  },
+  {
+    "ma": "3wkrrh",
+    "lop": 6,
+    "loai": "phieu-on-tap",
+    "tieu_de": "Toán 6 · Số nguyên và phép tính có dấu",
+    "tep_pdf": "tai-lieu/lop-06/phieu-bai-tap/2026-2027/3wkrrh/lemonmath_L06_3wkrrh_de.pdf",
+    "tep_loi_giai": "tai-lieu/lop-06/phieu-bai-tap/2026-2027/3wkrrh/lemonmath_L06_3wkrrh_loi-giai.pdf"
+  },
+  {
+    "ma": "7kn2wa",
+    "lop": 6,
+    "loai": "phieu-on-tap",
+    "tieu_de": "Toán 6 · Phân số và bài toán về phần của một lượng",
+    "tep_pdf": "tai-lieu/lop-06/phieu-bai-tap/2026-2027/7kn2wa/lemonmath_L06_7kn2wa_de.pdf",
+    "tep_loi_giai": "tai-lieu/lop-06/phieu-bai-tap/2026-2027/7kn2wa/lemonmath_L06_7kn2wa_loi-giai.pdf"
+  },
+  {
+    "ma": "vx5end",
+    "lop": 6,
+    "loai": "phieu-on-tap",
+    "tieu_de": "Toán 6 · Số thập phân và tỉ số phần trăm",
+    "tep_pdf": "tai-lieu/lop-06/phieu-bai-tap/2026-2027/vx5end/lemonmath_L06_vx5end_de.pdf",
+    "tep_loi_giai": "tai-lieu/lop-06/phieu-bai-tap/2026-2027/vx5end/lemonmath_L06_vx5end_loi-giai.pdf"
+  },
+  {
+    "ma": "y6e4eq",
+    "lop": 6,
+    "loai": "phieu-on-tap",
+    "tieu_de": "Toán 6 · Điểm, đường thẳng và đoạn thẳng",
+    "tep_pdf": "tai-lieu/lop-06/phieu-bai-tap/2026-2027/y6e4eq/lemonmath_L06_y6e4eq_de.pdf",
+    "tep_loi_giai": "tai-lieu/lop-06/phieu-bai-tap/2026-2027/y6e4eq/lemonmath_L06_y6e4eq_loi-giai.pdf"
+  },
+  {
+    "ma": "vql2ij",
+    "lop": 7,
+    "loai": "phieu-on-tap",
+    "tieu_de": "Toán 7 · Số hữu tỉ và lũy thừa",
+    "tep_pdf": "tai-lieu/lop-07/phieu-bai-tap/2026-2027/vql2ij/lemonmath_L07_vql2ij_de.pdf",
+    "tep_loi_giai": "tai-lieu/lop-07/phieu-bai-tap/2026-2027/vql2ij/lemonmath_L07_vql2ij_loi-giai.pdf"
+  },
+  {
+    "ma": "bizig6",
+    "lop": 7,
+    "loai": "phieu-on-tap",
+    "tieu_de": "Toán 7 · Số thực, căn bậc hai và giá trị tuyệt đối",
+    "tep_pdf": "tai-lieu/lop-07/phieu-bai-tap/2026-2027/bizig6/lemonmath_L07_bizig6_de.pdf",
+    "tep_loi_giai": "tai-lieu/lop-07/phieu-bai-tap/2026-2027/bizig6/lemonmath_L07_bizig6_loi-giai.pdf"
+  },
+  {
+    "ma": "ejrnpg",
+    "lop": 7,
+    "loai": "phieu-on-tap",
+    "tieu_de": "Toán 7 · Tỉ lệ thức và dãy tỉ số bằng nhau",
+    "tep_pdf": "tai-lieu/lop-07/phieu-bai-tap/2026-2027/ejrnpg/lemonmath_L07_ejrnpg_de.pdf",
+    "tep_loi_giai": "tai-lieu/lop-07/phieu-bai-tap/2026-2027/ejrnpg/lemonmath_L07_ejrnpg_loi-giai.pdf"
+  },
+  {
+    "ma": "traxo6",
+    "lop": 7,
+    "loai": "phieu-on-tap",
+    "tieu_de": "Toán 7 · Đại lượng tỉ lệ thuận và tỉ lệ nghịch",
+    "tep_pdf": "tai-lieu/lop-07/phieu-bai-tap/2026-2027/traxo6/lemonmath_L07_traxo6_de.pdf",
+    "tep_loi_giai": "tai-lieu/lop-07/phieu-bai-tap/2026-2027/traxo6/lemonmath_L07_traxo6_loi-giai.pdf"
+  },
+  {
+    "ma": "q4hep4",
+    "lop": 7,
+    "loai": "phieu-on-tap",
+    "tieu_de": "Toán 7 · Đa thức một biến và nghiệm",
+    "tep_pdf": "tai-lieu/lop-07/phieu-bai-tap/2026-2027/q4hep4/lemonmath_L07_q4hep4_de.pdf",
+    "tep_loi_giai": "tai-lieu/lop-07/phieu-bai-tap/2026-2027/q4hep4/lemonmath_L07_q4hep4_loi-giai.pdf"
+  },
+  {
+    "ma": "betafk",
+    "lop": 7,
+    "loai": "phieu-on-tap",
+    "tieu_de": "Toán 7 · Đường thẳng song song và góc",
+    "tep_pdf": "tai-lieu/lop-07/phieu-bai-tap/2026-2027/betafk/lemonmath_L07_betafk_de.pdf",
+    "tep_loi_giai": "tai-lieu/lop-07/phieu-bai-tap/2026-2027/betafk/lemonmath_L07_betafk_loi-giai.pdf"
+  },
+  {
+    "ma": "niafuc",
+    "lop": 7,
+    "loai": "phieu-on-tap",
+    "tieu_de": "Toán 7 · Tam giác bằng nhau và tam giác cân",
+    "tep_pdf": "tai-lieu/lop-07/phieu-bai-tap/2026-2027/niafuc/lemonmath_L07_niafuc_de.pdf",
+    "tep_loi_giai": "tai-lieu/lop-07/phieu-bai-tap/2026-2027/niafuc/lemonmath_L07_niafuc_loi-giai.pdf"
+  },
+  {
+    "ma": "dh5b7c",
+    "lop": 7,
+    "loai": "phieu-on-tap",
+    "tieu_de": "Toán 7 · Xác suất của biến cố",
+    "tep_pdf": "tai-lieu/lop-07/phieu-bai-tap/2026-2027/dh5b7c/lemonmath_L07_dh5b7c_de.pdf",
+    "tep_loi_giai": "tai-lieu/lop-07/phieu-bai-tap/2026-2027/dh5b7c/lemonmath_L07_dh5b7c_loi-giai.pdf"
+  },
+  {
+    "ma": "5kf56n",
+    "lop": 8,
+    "loai": "phieu-on-tap",
+    "tieu_de": "Toán 8 · Đa thức nhiều biến",
+    "tep_pdf": "tai-lieu/lop-08/phieu-bai-tap/2026-2027/5kf56n/lemonmath_L08_5kf56n_de.pdf",
+    "tep_loi_giai": "tai-lieu/lop-08/phieu-bai-tap/2026-2027/5kf56n/lemonmath_L08_5kf56n_loi-giai.pdf"
+  },
+  {
+    "ma": "pc63oq",
+    "lop": 8,
+    "loai": "phieu-on-tap",
+    "tieu_de": "Toán 8 · Hằng đẳng thức và phân tích thành nhân tử",
+    "tep_pdf": "tai-lieu/lop-08/phieu-bai-tap/2026-2027/pc63oq/lemonmath_L08_pc63oq_de.pdf",
+    "tep_loi_giai": "tai-lieu/lop-08/phieu-bai-tap/2026-2027/pc63oq/lemonmath_L08_pc63oq_loi-giai.pdf"
+  },
+  {
+    "ma": "v3vwdb",
+    "lop": 8,
+    "loai": "phieu-on-tap",
+    "tieu_de": "Toán 8 · Phân thức đại số",
+    "tep_pdf": "tai-lieu/lop-08/phieu-bai-tap/2026-2027/v3vwdb/lemonmath_L08_v3vwdb_de.pdf",
+    "tep_loi_giai": "tai-lieu/lop-08/phieu-bai-tap/2026-2027/v3vwdb/lemonmath_L08_v3vwdb_loi-giai.pdf"
+  },
+  {
+    "ma": "2dme4f",
+    "lop": 8,
+    "loai": "phieu-on-tap",
+    "tieu_de": "Toán 8 · Phương trình bậc nhất một ẩn",
+    "tep_pdf": "tai-lieu/lop-08/phieu-bai-tap/2026-2027/2dme4f/lemonmath_L08_2dme4f_de.pdf",
+    "tep_loi_giai": "tai-lieu/lop-08/phieu-bai-tap/2026-2027/2dme4f/lemonmath_L08_2dme4f_loi-giai.pdf"
+  },
+  {
+    "ma": "ueg4bm",
+    "lop": 8,
+    "loai": "phieu-on-tap",
+    "tieu_de": "Toán 8 · Giải toán bằng cách lập phương trình",
+    "tep_pdf": "tai-lieu/lop-08/phieu-bai-tap/2026-2027/ueg4bm/lemonmath_L08_ueg4bm_de.pdf",
+    "tep_loi_giai": "tai-lieu/lop-08/phieu-bai-tap/2026-2027/ueg4bm/lemonmath_L08_ueg4bm_loi-giai.pdf"
+  },
+  {
+    "ma": "ysrmom",
+    "lop": 8,
+    "loai": "phieu-on-tap",
+    "tieu_de": "Toán 8 · Hàm số bậc nhất và đồ thị",
+    "tep_pdf": "tai-lieu/lop-08/phieu-bai-tap/2026-2027/ysrmom/lemonmath_L08_ysrmom_de.pdf",
+    "tep_loi_giai": "tai-lieu/lop-08/phieu-bai-tap/2026-2027/ysrmom/lemonmath_L08_ysrmom_loi-giai.pdf"
+  },
+  {
+    "ma": "hat2e2",
+    "lop": 8,
+    "loai": "phieu-on-tap",
+    "tieu_de": "Toán 8 · Tứ giác và dấu hiệu nhận biết",
+    "tep_pdf": "tai-lieu/lop-08/phieu-bai-tap/2026-2027/hat2e2/lemonmath_L08_hat2e2_de.pdf",
+    "tep_loi_giai": "tai-lieu/lop-08/phieu-bai-tap/2026-2027/hat2e2/lemonmath_L08_hat2e2_loi-giai.pdf"
+  },
+  {
+    "ma": "jkvxjp",
+    "lop": 8,
+    "loai": "phieu-on-tap",
+    "tieu_de": "Toán 8 · Định lí Thalès và đường trung bình",
+    "tep_pdf": "tai-lieu/lop-08/phieu-bai-tap/2026-2027/jkvxjp/lemonmath_L08_jkvxjp_de.pdf",
+    "tep_loi_giai": "tai-lieu/lop-08/phieu-bai-tap/2026-2027/jkvxjp/lemonmath_L08_jkvxjp_loi-giai.pdf"
+  },
+  {
+    "ma": "4h67hg",
+    "lop": 8,
+    "loai": "phieu-on-tap",
+    "tieu_de": "Toán 8 · Tam giác đồng dạng và ứng dụng",
+    "tep_pdf": "tai-lieu/lop-08/phieu-bai-tap/2026-2027/4h67hg/lemonmath_L08_4h67hg_de.pdf",
+    "tep_loi_giai": "tai-lieu/lop-08/phieu-bai-tap/2026-2027/4h67hg/lemonmath_L08_4h67hg_loi-giai.pdf"
+  },
+  {
+    "ma": "2c37nx",
+    "lop": 8,
+    "loai": "phieu-on-tap",
+    "tieu_de": "Toán 8 · Định lí Pythagore và định lí đảo",
+    "tep_pdf": "tai-lieu/lop-08/phieu-bai-tap/2026-2027/2c37nx/lemonmath_L08_2c37nx_de.pdf",
+    "tep_loi_giai": "tai-lieu/lop-08/phieu-bai-tap/2026-2027/2c37nx/lemonmath_L08_2c37nx_loi-giai.pdf"
+  },
+  {
+    "ma": "fux66e",
+    "lop": 9,
+    "loai": "phieu-on-tap",
+    "tieu_de": "Toán 9 · Căn thức và điều kiện xác định",
+    "tep_pdf": "tai-lieu/lop-09/phieu-bai-tap/2026-2027/fux66e/lemonmath_L09_fux66e_de.pdf",
+    "tep_loi_giai": "tai-lieu/lop-09/phieu-bai-tap/2026-2027/fux66e/lemonmath_L09_fux66e_loi-giai.pdf"
+  },
+  {
+    "ma": "wxvu4p",
+    "lop": 9,
+    "loai": "phieu-on-tap",
+    "tieu_de": "Toán 9 · Biến đổi biểu thức chứa căn",
+    "tep_pdf": "tai-lieu/lop-09/phieu-bai-tap/2026-2027/wxvu4p/lemonmath_L09_wxvu4p_de.pdf",
+    "tep_loi_giai": "tai-lieu/lop-09/phieu-bai-tap/2026-2027/wxvu4p/lemonmath_L09_wxvu4p_loi-giai.pdf"
+  },
+  {
+    "ma": "ybiukn",
+    "lop": 9,
+    "loai": "phieu-on-tap",
+    "tieu_de": "Toán 9 · Phương trình tích và phương trình chứa ẩn ở mẫu",
+    "tep_pdf": "tai-lieu/lop-09/phieu-bai-tap/2026-2027/ybiukn/lemonmath_L09_ybiukn_de.pdf",
+    "tep_loi_giai": "tai-lieu/lop-09/phieu-bai-tap/2026-2027/ybiukn/lemonmath_L09_ybiukn_loi-giai.pdf"
+  },
+  {
+    "ma": "eoq4x5",
+    "lop": 9,
+    "loai": "phieu-on-tap",
+    "tieu_de": "Toán 9 · Bất phương trình bậc nhất một ẩn",
+    "tep_pdf": "tai-lieu/lop-09/phieu-bai-tap/2026-2027/eoq4x5/lemonmath_L09_eoq4x5_de.pdf",
+    "tep_loi_giai": "tai-lieu/lop-09/phieu-bai-tap/2026-2027/eoq4x5/lemonmath_L09_eoq4x5_loi-giai.pdf"
+  },
+  {
+    "ma": "bo7v75",
+    "lop": 9,
+    "loai": "phieu-on-tap",
+    "tieu_de": "Toán 9 · Hệ hai phương trình bậc nhất hai ẩn",
+    "tep_pdf": "tai-lieu/lop-09/phieu-bai-tap/2026-2027/bo7v75/lemonmath_L09_bo7v75_de.pdf",
+    "tep_loi_giai": "tai-lieu/lop-09/phieu-bai-tap/2026-2027/bo7v75/lemonmath_L09_bo7v75_loi-giai.pdf"
+  },
+  {
+    "ma": "rqvpiu",
+    "lop": 9,
+    "loai": "phieu-on-tap",
+    "tieu_de": "Toán 9 · Giải bài toán bằng cách lập hệ",
+    "tep_pdf": "tai-lieu/lop-09/phieu-bai-tap/2026-2027/rqvpiu/lemonmath_L09_rqvpiu_de.pdf",
+    "tep_loi_giai": "tai-lieu/lop-09/phieu-bai-tap/2026-2027/rqvpiu/lemonmath_L09_rqvpiu_loi-giai.pdf"
+  },
+  {
+    "ma": "z5kgsn",
+    "lop": 9,
+    "loai": "phieu-on-tap",
+    "tieu_de": "Toán 9 · Hàm số y = ax² và đồ thị",
+    "tep_pdf": "tai-lieu/lop-09/phieu-bai-tap/2026-2027/z5kgsn/lemonmath_L09_z5kgsn_de.pdf",
+    "tep_loi_giai": "tai-lieu/lop-09/phieu-bai-tap/2026-2027/z5kgsn/lemonmath_L09_z5kgsn_loi-giai.pdf"
+  },
+  {
+    "ma": "omwegs",
+    "lop": 9,
+    "loai": "phieu-on-tap",
+    "tieu_de": "Toán 9 · Phương trình bậc hai và hệ thức Viète",
+    "tep_pdf": "tai-lieu/lop-09/phieu-bai-tap/2026-2027/omwegs/lemonmath_L09_omwegs_de.pdf",
+    "tep_loi_giai": "tai-lieu/lop-09/phieu-bai-tap/2026-2027/omwegs/lemonmath_L09_omwegs_loi-giai.pdf"
+  },
+  {
+    "ma": "mmvfip",
+    "lop": 9,
+    "loai": "phieu-on-tap",
+    "tieu_de": "Toán 9 · Tỉ số lượng giác trong tam giác vuông",
+    "tep_pdf": "tai-lieu/lop-09/phieu-bai-tap/2026-2027/mmvfip/lemonmath_L09_mmvfip_de.pdf",
+    "tep_loi_giai": "tai-lieu/lop-09/phieu-bai-tap/2026-2027/mmvfip/lemonmath_L09_mmvfip_loi-giai.pdf"
+  },
+  {
+    "ma": "c7dd7v",
+    "lop": 9,
+    "loai": "phieu-on-tap",
+    "tieu_de": "Toán 9 · Đường tròn, dây và tiếp tuyến",
+    "tep_pdf": "tai-lieu/lop-09/phieu-bai-tap/2026-2027/c7dd7v/lemonmath_L09_c7dd7v_de.pdf",
+    "tep_loi_giai": "tai-lieu/lop-09/phieu-bai-tap/2026-2027/c7dd7v/lemonmath_L09_c7dd7v_loi-giai.pdf"
+  },
+  {
+    "ma": "ov4bi3",
+    "lop": 9,
+    "loai": "phieu-on-tap",
+    "tieu_de": "Toán 9 · Góc nội tiếp và tứ giác nội tiếp",
+    "tep_pdf": "tai-lieu/lop-09/phieu-bai-tap/2026-2027/ov4bi3/lemonmath_L09_ov4bi3_de.pdf",
+    "tep_loi_giai": "tai-lieu/lop-09/phieu-bai-tap/2026-2027/ov4bi3/lemonmath_L09_ov4bi3_loi-giai.pdf"
+  },
+  {
+    "ma": "dohdeg",
+    "lop": 9,
+    "loai": "phieu-on-tap",
+    "tieu_de": "Toán 9 · Hình trụ, hình nón và hình cầu",
+    "tep_pdf": "tai-lieu/lop-09/phieu-bai-tap/2026-2027/dohdeg/lemonmath_L09_dohdeg_de.pdf",
+    "tep_loi_giai": "tai-lieu/lop-09/phieu-bai-tap/2026-2027/dohdeg/lemonmath_L09_dohdeg_loi-giai.pdf"
+  },
+  {
+    "ma": "35eo4s",
+    "lop": 10,
+    "loai": "de-cuong",
+    "tieu_de": "Đề cương Toán 10 · Cuối học kì I · 02 · Tập hợp và các phép toán trên tập hợp và số gần đúng và sai số",
+    "tep_pdf": "tai-lieu/lop-10/de-cuong/2026-2027/35eo4s/lemonmath_L10_35eo4s_de-cuong.pdf",
+    "tep_loi_giai": "tai-lieu/lop-10/de-cuong/2026-2027/35eo4s/lemonmath_L10_35eo4s_loi-giai.pdf"
+  },
+  {
+    "ma": "a6rauf",
+    "lop": 10,
+    "loai": "de-cuong",
+    "tieu_de": "Đề cương Toán 10 · Cuối học kì I · 07 · Các khái niệm mở đầu",
+    "tep_pdf": "tai-lieu/lop-10/de-cuong/2026-2027/a6rauf/lemonmath_L10_a6rauf_de-cuong.pdf",
+    "tep_loi_giai": "tai-lieu/lop-10/de-cuong/2026-2027/a6rauf/lemonmath_L10_a6rauf_loi-giai.pdf"
+  },
+  {
+    "ma": "ctvh3g",
+    "lop": 10,
+    "loai": "de-cuong",
+    "tieu_de": "Đề cương Toán 10 · Cuối học kì I · 10 · Vectơ trong mặt phẳng toạ độ",
+    "tep_pdf": "tai-lieu/lop-10/de-cuong/2026-2027/ctvh3g/lemonmath_L10_ctvh3g_de-cuong.pdf",
+    "tep_loi_giai": "tai-lieu/lop-10/de-cuong/2026-2027/ctvh3g/lemonmath_L10_ctvh3g_loi-giai.pdf"
+  },
+  {
+    "ma": "e7zjvu",
+    "lop": 10,
+    "loai": "de-cuong",
+    "tieu_de": "Đề cương Toán 10 · Cuối học kì I · 04 · Hệ bất phương trình bậc nhất hai ẩn và các số đặc trưng đo độ phân tán",
+    "tep_pdf": "tai-lieu/lop-10/de-cuong/2026-2027/e7zjvu/lemonmath_L10_e7zjvu_de-cuong.pdf",
+    "tep_loi_giai": "tai-lieu/lop-10/de-cuong/2026-2027/e7zjvu/lemonmath_L10_e7zjvu_loi-giai.pdf"
+  },
+  {
+    "ma": "forjxi",
+    "lop": 10,
+    "loai": "de-cuong",
+    "tieu_de": "Đề cương Toán 10 · Cuối học kì I · 05 · Giá trị lượng giác của một góc từ 0° đến 180°",
+    "tep_pdf": "tai-lieu/lop-10/de-cuong/2026-2027/forjxi/lemonmath_L10_forjxi_de-cuong.pdf",
+    "tep_loi_giai": "tai-lieu/lop-10/de-cuong/2026-2027/forjxi/lemonmath_L10_forjxi_loi-giai.pdf"
+  },
+  {
+    "ma": "my7jee",
+    "lop": 10,
+    "loai": "de-cuong",
+    "tieu_de": "Đề cương Toán 10 · Cuối học kì I · 03 · Bất phương trình bậc nhất hai ẩn và các số đặc trưng đo xu thế trung tâm",
+    "tep_pdf": "tai-lieu/lop-10/de-cuong/2026-2027/my7jee/lemonmath_L10_my7jee_de-cuong.pdf",
+    "tep_loi_giai": "tai-lieu/lop-10/de-cuong/2026-2027/my7jee/lemonmath_L10_my7jee_loi-giai.pdf"
+  },
+  {
+    "ma": "uaikck",
+    "lop": 10,
+    "loai": "de-cuong",
+    "tieu_de": "Đề cương Toán 10 · Cuối học kì I · 09 · Tích vectơ với một số",
+    "tep_pdf": "tai-lieu/lop-10/de-cuong/2026-2027/uaikck/lemonmath_L10_uaikck_de-cuong.pdf",
+    "tep_loi_giai": "tai-lieu/lop-10/de-cuong/2026-2027/uaikck/lemonmath_L10_uaikck_loi-giai.pdf"
+  },
+  {
+    "ma": "y5s5c5",
+    "lop": 10,
+    "loai": "de-cuong",
+    "tieu_de": "Đề cương Toán 10 · Cuối học kì I · 08 · Tổng và hiệu của hai vectơ",
+    "tep_pdf": "tai-lieu/lop-10/de-cuong/2026-2027/y5s5c5/lemonmath_L10_y5s5c5_de-cuong.pdf",
+    "tep_loi_giai": "tai-lieu/lop-10/de-cuong/2026-2027/y5s5c5/lemonmath_L10_y5s5c5_loi-giai.pdf"
+  },
+  {
+    "ma": "yrputj",
+    "lop": 10,
+    "loai": "de-cuong",
+    "tieu_de": "Đề cương Toán 10 · Cuối học kì I · 01 · Mệnh đề và tích vô hướng của hai vectơ",
+    "tep_pdf": "tai-lieu/lop-10/de-cuong/2026-2027/yrputj/lemonmath_L10_yrputj_de-cuong.pdf",
+    "tep_loi_giai": "tai-lieu/lop-10/de-cuong/2026-2027/yrputj/lemonmath_L10_yrputj_loi-giai.pdf"
+  },
+  {
+    "ma": "zc7qaf",
+    "lop": 10,
+    "loai": "de-cuong",
+    "tieu_de": "Đề cương Toán 10 · Cuối học kì I · 06 · Hệ thức lượng trong tam giác",
+    "tep_pdf": "tai-lieu/lop-10/de-cuong/2026-2027/zc7qaf/lemonmath_L10_zc7qaf_de-cuong.pdf",
+    "tep_loi_giai": "tai-lieu/lop-10/de-cuong/2026-2027/zc7qaf/lemonmath_L10_zc7qaf_loi-giai.pdf"
+  },
+  {
+    "ma": "26pl7k",
+    "lop": 10,
+    "loai": "de-cuong",
+    "tieu_de": "Đề cương Toán 10 · Cuối học kì II · 05 · Phương trình đường thẳng",
+    "tep_pdf": "tai-lieu/lop-10/de-cuong/2026-2027/26pl7k/lemonmath_L10_26pl7k_de-cuong.pdf",
+    "tep_loi_giai": "tai-lieu/lop-10/de-cuong/2026-2027/26pl7k/lemonmath_L10_26pl7k_loi-giai.pdf"
+  },
+  {
+    "ma": "ahxjtl",
+    "lop": 10,
+    "loai": "de-cuong",
+    "tieu_de": "Đề cương Toán 10 · Cuối học kì II · 04 · Phương trình quy về phương trình bậc hai",
+    "tep_pdf": "tai-lieu/lop-10/de-cuong/2026-2027/ahxjtl/lemonmath_L10_ahxjtl_de-cuong.pdf",
+    "tep_loi_giai": "tai-lieu/lop-10/de-cuong/2026-2027/ahxjtl/lemonmath_L10_ahxjtl_loi-giai.pdf"
+  },
+  {
+    "ma": "dq2rwe",
+    "lop": 10,
+    "loai": "de-cuong",
+    "tieu_de": "Đề cương Toán 10 · Cuối học kì II · 02 · Hàm số bậc hai và biến cố và định nghĩa cổ điển của xác suất",
+    "tep_pdf": "tai-lieu/lop-10/de-cuong/2026-2027/dq2rwe/lemonmath_L10_dq2rwe_de-cuong.pdf",
+    "tep_loi_giai": "tai-lieu/lop-10/de-cuong/2026-2027/dq2rwe/lemonmath_L10_dq2rwe_loi-giai.pdf"
+  },
+  {
+    "ma": "dztgaz",
+    "lop": 10,
+    "loai": "de-cuong",
+    "tieu_de": "Đề cương Toán 10 · Cuối học kì II · 01 · Hàm số và nhị thức Newton",
+    "tep_pdf": "tai-lieu/lop-10/de-cuong/2026-2027/dztgaz/lemonmath_L10_dztgaz_de-cuong.pdf",
+    "tep_loi_giai": "tai-lieu/lop-10/de-cuong/2026-2027/dztgaz/lemonmath_L10_dztgaz_loi-giai.pdf"
+  },
+  {
+    "ma": "gjihhi",
+    "lop": 10,
+    "loai": "de-cuong",
+    "tieu_de": "Đề cương Toán 10 · Cuối học kì II · 03 · Dấu của tam thức bậc hai và thực hành tính xác suất theo định nghĩa cổ điển",
+    "tep_pdf": "tai-lieu/lop-10/de-cuong/2026-2027/gjihhi/lemonmath_L10_gjihhi_de-cuong.pdf",
+    "tep_loi_giai": "tai-lieu/lop-10/de-cuong/2026-2027/gjihhi/lemonmath_L10_gjihhi_loi-giai.pdf"
+  },
+  {
+    "ma": "gocskw",
+    "lop": 10,
+    "loai": "de-cuong",
+    "tieu_de": "Đề cương Toán 10 · Cuối học kì II · 10 · Hoán vị, chỉnh hợp và tổ hợp",
+    "tep_pdf": "tai-lieu/lop-10/de-cuong/2026-2027/gocskw/lemonmath_L10_gocskw_de-cuong.pdf",
+    "tep_loi_giai": "tai-lieu/lop-10/de-cuong/2026-2027/gocskw/lemonmath_L10_gocskw_loi-giai.pdf"
+  },
+  {
+    "ma": "ihwbel",
+    "lop": 10,
+    "loai": "de-cuong",
+    "tieu_de": "Đề cương Toán 10 · Cuối học kì II · 08 · Ba đường conic",
+    "tep_pdf": "tai-lieu/lop-10/de-cuong/2026-2027/ihwbel/lemonmath_L10_ihwbel_de-cuong.pdf",
+    "tep_loi_giai": "tai-lieu/lop-10/de-cuong/2026-2027/ihwbel/lemonmath_L10_ihwbel_loi-giai.pdf"
+  },
+  {
+    "ma": "pykezz",
+    "lop": 10,
+    "loai": "de-cuong",
+    "tieu_de": "Đề cương Toán 10 · Cuối học kì II · 09 · Quy tắc đếm",
+    "tep_pdf": "tai-lieu/lop-10/de-cuong/2026-2027/pykezz/lemonmath_L10_pykezz_de-cuong.pdf",
+    "tep_loi_giai": "tai-lieu/lop-10/de-cuong/2026-2027/pykezz/lemonmath_L10_pykezz_loi-giai.pdf"
+  },
+  {
+    "ma": "si6ios",
+    "lop": 10,
+    "loai": "de-cuong",
+    "tieu_de": "Đề cương Toán 10 · Cuối học kì II · 06 · Vị trí tương đối giữa hai đường thẳng. Góc và khoảng cách",
+    "tep_pdf": "tai-lieu/lop-10/de-cuong/2026-2027/si6ios/lemonmath_L10_si6ios_de-cuong.pdf",
+    "tep_loi_giai": "tai-lieu/lop-10/de-cuong/2026-2027/si6ios/lemonmath_L10_si6ios_loi-giai.pdf"
+  },
+  {
+    "ma": "ylcmf6",
+    "lop": 10,
+    "loai": "de-cuong",
+    "tieu_de": "Đề cương Toán 10 · Cuối học kì II · 07 · Đường tròn trong mặt phẳng toạ độ",
+    "tep_pdf": "tai-lieu/lop-10/de-cuong/2026-2027/ylcmf6/lemonmath_L10_ylcmf6_de-cuong.pdf",
+    "tep_loi_giai": "tai-lieu/lop-10/de-cuong/2026-2027/ylcmf6/lemonmath_L10_ylcmf6_loi-giai.pdf"
+  },
+  {
+    "ma": "34mtad",
+    "lop": 10,
+    "loai": "de-cuong",
+    "tieu_de": "Đề cương Toán 10 · Giữa học kì I · 01 · Mệnh đề",
+    "tep_pdf": "tai-lieu/lop-10/de-cuong/2026-2027/34mtad/lemonmath_L10_34mtad_de-cuong.pdf",
+    "tep_loi_giai": "tai-lieu/lop-10/de-cuong/2026-2027/34mtad/lemonmath_L10_34mtad_loi-giai.pdf"
+  },
+  {
+    "ma": "7r5cq2",
+    "lop": 10,
+    "loai": "de-cuong",
+    "tieu_de": "Đề cương Toán 10 · Giữa học kì I · 07 · Mệnh đề và tập hợp và các phép toán trên tập hợp",
+    "tep_pdf": "tai-lieu/lop-10/de-cuong/2026-2027/7r5cq2/lemonmath_L10_7r5cq2_de-cuong.pdf",
+    "tep_loi_giai": "tai-lieu/lop-10/de-cuong/2026-2027/7r5cq2/lemonmath_L10_7r5cq2_loi-giai.pdf"
+  },
+  {
+    "ma": "enaapy",
+    "lop": 10,
+    "loai": "de-cuong",
+    "tieu_de": "Đề cương Toán 10 · Giữa học kì I · 03 · Bất phương trình bậc nhất hai ẩn",
+    "tep_pdf": "tai-lieu/lop-10/de-cuong/2026-2027/enaapy/lemonmath_L10_enaapy_de-cuong.pdf",
+    "tep_loi_giai": "tai-lieu/lop-10/de-cuong/2026-2027/enaapy/lemonmath_L10_enaapy_loi-giai.pdf"
+  },
+  {
+    "ma": "h7brxq",
+    "lop": 10,
+    "loai": "de-cuong",
+    "tieu_de": "Đề cương Toán 10 · Giữa học kì I · 02 · Tập hợp và các phép toán trên tập hợp",
+    "tep_pdf": "tai-lieu/lop-10/de-cuong/2026-2027/h7brxq/lemonmath_L10_h7brxq_de-cuong.pdf",
+    "tep_loi_giai": "tai-lieu/lop-10/de-cuong/2026-2027/h7brxq/lemonmath_L10_h7brxq_loi-giai.pdf"
+  },
+  {
+    "ma": "osaxdb",
+    "lop": 10,
+    "loai": "de-cuong",
+    "tieu_de": "Đề cương Toán 10 · Giữa học kì I · 06 · Hệ thức lượng trong tam giác",
+    "tep_pdf": "tai-lieu/lop-10/de-cuong/2026-2027/osaxdb/lemonmath_L10_osaxdb_de-cuong.pdf",
+    "tep_loi_giai": "tai-lieu/lop-10/de-cuong/2026-2027/osaxdb/lemonmath_L10_osaxdb_loi-giai.pdf"
+  },
+  {
+    "ma": "ucsu6p",
+    "lop": 10,
+    "loai": "de-cuong",
+    "tieu_de": "Đề cương Toán 10 · Giữa học kì I · 10 · Hệ bất phương trình bậc nhất hai ẩn và giá trị lượng giác của một góc từ 0° đến 180°",
+    "tep_pdf": "tai-lieu/lop-10/de-cuong/2026-2027/ucsu6p/lemonmath_L10_ucsu6p_de-cuong.pdf",
+    "tep_loi_giai": "tai-lieu/lop-10/de-cuong/2026-2027/ucsu6p/lemonmath_L10_ucsu6p_loi-giai.pdf"
+  },
+  {
+    "ma": "vvmdse",
+    "lop": 10,
+    "loai": "de-cuong",
+    "tieu_de": "Đề cương Toán 10 · Giữa học kì I · 04 · Hệ bất phương trình bậc nhất hai ẩn",
+    "tep_pdf": "tai-lieu/lop-10/de-cuong/2026-2027/vvmdse/lemonmath_L10_vvmdse_de-cuong.pdf",
+    "tep_loi_giai": "tai-lieu/lop-10/de-cuong/2026-2027/vvmdse/lemonmath_L10_vvmdse_loi-giai.pdf"
+  },
+  {
+    "ma": "waaroo",
+    "lop": 10,
+    "loai": "de-cuong",
+    "tieu_de": "Đề cương Toán 10 · Giữa học kì I · 09 · Bất phương trình bậc nhất hai ẩn và hệ bất phương trình bậc nhất hai ẩn",
+    "tep_pdf": "tai-lieu/lop-10/de-cuong/2026-2027/waaroo/lemonmath_L10_waaroo_de-cuong.pdf",
+    "tep_loi_giai": "tai-lieu/lop-10/de-cuong/2026-2027/waaroo/lemonmath_L10_waaroo_loi-giai.pdf"
+  },
+  {
+    "ma": "wrkwfa",
+    "lop": 10,
+    "loai": "de-cuong",
+    "tieu_de": "Đề cương Toán 10 · Giữa học kì I · 05 · Giá trị lượng giác của một góc từ 0° đến 180°",
+    "tep_pdf": "tai-lieu/lop-10/de-cuong/2026-2027/wrkwfa/lemonmath_L10_wrkwfa_de-cuong.pdf",
+    "tep_loi_giai": "tai-lieu/lop-10/de-cuong/2026-2027/wrkwfa/lemonmath_L10_wrkwfa_loi-giai.pdf"
+  },
+  {
+    "ma": "yob3jo",
+    "lop": 10,
+    "loai": "de-cuong",
+    "tieu_de": "Đề cương Toán 10 · Giữa học kì I · 08 · Tập hợp và các phép toán trên tập hợp và bất phương trình bậc nhất hai ẩn",
+    "tep_pdf": "tai-lieu/lop-10/de-cuong/2026-2027/yob3jo/lemonmath_L10_yob3jo_de-cuong.pdf",
+    "tep_loi_giai": "tai-lieu/lop-10/de-cuong/2026-2027/yob3jo/lemonmath_L10_yob3jo_loi-giai.pdf"
+  },
+  {
+    "ma": "2h7yql",
+    "lop": 10,
+    "loai": "de-cuong",
+    "tieu_de": "Đề cương Toán 10 · Giữa học kì II · 02 · Hàm số bậc hai",
+    "tep_pdf": "tai-lieu/lop-10/de-cuong/2026-2027/2h7yql/lemonmath_L10_2h7yql_de-cuong.pdf",
+    "tep_loi_giai": "tai-lieu/lop-10/de-cuong/2026-2027/2h7yql/lemonmath_L10_2h7yql_loi-giai.pdf"
+  },
+  {
+    "ma": "6uexw3",
+    "lop": 10,
+    "loai": "de-cuong",
+    "tieu_de": "Đề cương Toán 10 · Giữa học kì II · 04 · Phương trình quy về phương trình bậc hai",
+    "tep_pdf": "tai-lieu/lop-10/de-cuong/2026-2027/6uexw3/lemonmath_L10_6uexw3_de-cuong.pdf",
+    "tep_loi_giai": "tai-lieu/lop-10/de-cuong/2026-2027/6uexw3/lemonmath_L10_6uexw3_loi-giai.pdf"
+  },
+  {
+    "ma": "7tob5l",
+    "lop": 10,
+    "loai": "de-cuong",
+    "tieu_de": "Đề cương Toán 10 · Giữa học kì II · 09 · Hàm số và hàm số bậc hai",
+    "tep_pdf": "tai-lieu/lop-10/de-cuong/2026-2027/7tob5l/lemonmath_L10_7tob5l_de-cuong.pdf",
+    "tep_loi_giai": "tai-lieu/lop-10/de-cuong/2026-2027/7tob5l/lemonmath_L10_7tob5l_loi-giai.pdf"
+  },
+  {
+    "ma": "gwqwkl",
+    "lop": 10,
+    "loai": "de-cuong",
+    "tieu_de": "Đề cương Toán 10 · Giữa học kì II · 06 · Vị trí tương đối giữa hai đường thẳng. Góc và khoảng cách",
+    "tep_pdf": "tai-lieu/lop-10/de-cuong/2026-2027/gwqwkl/lemonmath_L10_gwqwkl_de-cuong.pdf",
+    "tep_loi_giai": "tai-lieu/lop-10/de-cuong/2026-2027/gwqwkl/lemonmath_L10_gwqwkl_loi-giai.pdf"
+  },
+  {
+    "ma": "itaefa",
+    "lop": 10,
+    "loai": "de-cuong",
+    "tieu_de": "Đề cương Toán 10 · Giữa học kì II · 07 · Đường tròn trong mặt phẳng toạ độ",
+    "tep_pdf": "tai-lieu/lop-10/de-cuong/2026-2027/itaefa/lemonmath_L10_itaefa_de-cuong.pdf",
+    "tep_loi_giai": "tai-lieu/lop-10/de-cuong/2026-2027/itaefa/lemonmath_L10_itaefa_loi-giai.pdf"
+  },
+  {
+    "ma": "kcj6ah",
+    "lop": 10,
+    "loai": "de-cuong",
+    "tieu_de": "Đề cương Toán 10 · Giữa học kì II · 01 · Hàm số",
+    "tep_pdf": "tai-lieu/lop-10/de-cuong/2026-2027/kcj6ah/lemonmath_L10_kcj6ah_de-cuong.pdf",
+    "tep_loi_giai": "tai-lieu/lop-10/de-cuong/2026-2027/kcj6ah/lemonmath_L10_kcj6ah_loi-giai.pdf"
+  },
+  {
+    "ma": "m7jclt",
+    "lop": 10,
+    "loai": "de-cuong",
+    "tieu_de": "Đề cương Toán 10 · Giữa học kì II · 03 · Dấu của tam thức bậc hai",
+    "tep_pdf": "tai-lieu/lop-10/de-cuong/2026-2027/m7jclt/lemonmath_L10_m7jclt_de-cuong.pdf",
+    "tep_loi_giai": "tai-lieu/lop-10/de-cuong/2026-2027/m7jclt/lemonmath_L10_m7jclt_loi-giai.pdf"
+  },
+  {
+    "ma": "omwq5m",
+    "lop": 10,
+    "loai": "de-cuong",
+    "tieu_de": "Đề cương Toán 10 · Giữa học kì II · 08 · Ba đường conic",
+    "tep_pdf": "tai-lieu/lop-10/de-cuong/2026-2027/omwq5m/lemonmath_L10_omwq5m_de-cuong.pdf",
+    "tep_loi_giai": "tai-lieu/lop-10/de-cuong/2026-2027/omwq5m/lemonmath_L10_omwq5m_loi-giai.pdf"
+  },
+  {
+    "ma": "wcunhq",
+    "lop": 10,
+    "loai": "de-cuong",
+    "tieu_de": "Đề cương Toán 10 · Giữa học kì II · 05 · Phương trình đường thẳng",
+    "tep_pdf": "tai-lieu/lop-10/de-cuong/2026-2027/wcunhq/lemonmath_L10_wcunhq_de-cuong.pdf",
+    "tep_loi_giai": "tai-lieu/lop-10/de-cuong/2026-2027/wcunhq/lemonmath_L10_wcunhq_loi-giai.pdf"
+  },
+  {
+    "ma": "wjb7x3",
+    "lop": 10,
+    "loai": "de-cuong",
+    "tieu_de": "Đề cương Toán 10 · Giữa học kì II · 10 · Hàm số bậc hai và dấu của tam thức bậc hai",
+    "tep_pdf": "tai-lieu/lop-10/de-cuong/2026-2027/wjb7x3/lemonmath_L10_wjb7x3_de-cuong.pdf",
+    "tep_loi_giai": "tai-lieu/lop-10/de-cuong/2026-2027/wjb7x3/lemonmath_L10_wjb7x3_loi-giai.pdf"
+  },
+  {
+    "ma": "3nuurp",
+    "lop": 11,
+    "loai": "de-cuong",
+    "tieu_de": "Đề cương Toán 11 · Cuối học kì I · 09 · Các số đặc trưng đo xu thế trung tâm",
+    "tep_pdf": "tai-lieu/lop-11/de-cuong/2026-2027/3nuurp/lemonmath_L11_3nuurp_de-cuong.pdf",
+    "tep_loi_giai": "tai-lieu/lop-11/de-cuong/2026-2027/3nuurp/lemonmath_L11_3nuurp_loi-giai.pdf"
+  },
+  {
+    "ma": "3romju",
+    "lop": 11,
+    "loai": "de-cuong",
+    "tieu_de": "Đề cương Toán 11 · Cuối học kì I · 10 · Đường thẳng và mặt phẳng trong không gian",
+    "tep_pdf": "tai-lieu/lop-11/de-cuong/2026-2027/3romju/lemonmath_L11_3romju_de-cuong.pdf",
+    "tep_loi_giai": "tai-lieu/lop-11/de-cuong/2026-2027/3romju/lemonmath_L11_3romju_loi-giai.pdf"
+  },
+  {
+    "ma": "5tpgl4",
+    "lop": 11,
+    "loai": "de-cuong",
+    "tieu_de": "Đề cương Toán 11 · Cuối học kì I · 02 · Công thức lượng giác và đường thẳng và mặt phẳng song song",
+    "tep_pdf": "tai-lieu/lop-11/de-cuong/2026-2027/5tpgl4/lemonmath_L11_5tpgl4_de-cuong.pdf",
+    "tep_loi_giai": "tai-lieu/lop-11/de-cuong/2026-2027/5tpgl4/lemonmath_L11_5tpgl4_loi-giai.pdf"
+  },
+  {
+    "ma": "bb7dlt",
+    "lop": 11,
+    "loai": "de-cuong",
+    "tieu_de": "Đề cương Toán 11 · Cuối học kì I · 08 · Mẫu số liệu ghép nhóm",
+    "tep_pdf": "tai-lieu/lop-11/de-cuong/2026-2027/bb7dlt/lemonmath_L11_bb7dlt_de-cuong.pdf",
+    "tep_loi_giai": "tai-lieu/lop-11/de-cuong/2026-2027/bb7dlt/lemonmath_L11_bb7dlt_loi-giai.pdf"
+  },
+  {
+    "ma": "gllchf",
+    "lop": 11,
+    "loai": "de-cuong",
+    "tieu_de": "Đề cương Toán 11 · Cuối học kì I · 04 · Phương trình lượng giác cơ bản và phép chiếu song song",
+    "tep_pdf": "tai-lieu/lop-11/de-cuong/2026-2027/gllchf/lemonmath_L11_gllchf_de-cuong.pdf",
+    "tep_loi_giai": "tai-lieu/lop-11/de-cuong/2026-2027/gllchf/lemonmath_L11_gllchf_loi-giai.pdf"
+  },
+  {
+    "ma": "ibqevs",
+    "lop": 11,
+    "loai": "de-cuong",
+    "tieu_de": "Đề cương Toán 11 · Cuối học kì I · 01 · Giá trị lượng giác của góc lượng giác và hai đường thẳng song song",
+    "tep_pdf": "tai-lieu/lop-11/de-cuong/2026-2027/ibqevs/lemonmath_L11_ibqevs_de-cuong.pdf",
+    "tep_loi_giai": "tai-lieu/lop-11/de-cuong/2026-2027/ibqevs/lemonmath_L11_ibqevs_loi-giai.pdf"
+  },
+  {
+    "ma": "ofgkxi",
+    "lop": 11,
+    "loai": "de-cuong",
+    "tieu_de": "Đề cương Toán 11 · Cuối học kì I · 03 · Hàm số lượng giác và hai mặt phẳng song song",
+    "tep_pdf": "tai-lieu/lop-11/de-cuong/2026-2027/ofgkxi/lemonmath_L11_ofgkxi_de-cuong.pdf",
+    "tep_loi_giai": "tai-lieu/lop-11/de-cuong/2026-2027/ofgkxi/lemonmath_L11_ofgkxi_loi-giai.pdf"
+  },
+  {
+    "ma": "te2qbn",
+    "lop": 11,
+    "loai": "de-cuong",
+    "tieu_de": "Đề cương Toán 11 · Cuối học kì I · 06 · Cấp số cộng và giới hạn của hàm số",
+    "tep_pdf": "tai-lieu/lop-11/de-cuong/2026-2027/te2qbn/lemonmath_L11_te2qbn_de-cuong.pdf",
+    "tep_loi_giai": "tai-lieu/lop-11/de-cuong/2026-2027/te2qbn/lemonmath_L11_te2qbn_loi-giai.pdf"
+  },
+  {
+    "ma": "vol3bx",
+    "lop": 11,
+    "loai": "de-cuong",
+    "tieu_de": "Đề cương Toán 11 · Cuối học kì I · 05 · Dãy số và giới hạn của dãy số",
+    "tep_pdf": "tai-lieu/lop-11/de-cuong/2026-2027/vol3bx/lemonmath_L11_vol3bx_de-cuong.pdf",
+    "tep_loi_giai": "tai-lieu/lop-11/de-cuong/2026-2027/vol3bx/lemonmath_L11_vol3bx_loi-giai.pdf"
+  },
+  {
+    "ma": "vz2yyn",
+    "lop": 11,
+    "loai": "de-cuong",
+    "tieu_de": "Đề cương Toán 11 · Cuối học kì I · 07 · Cấp số nhân và hàm số liên tục",
+    "tep_pdf": "tai-lieu/lop-11/de-cuong/2026-2027/vz2yyn/lemonmath_L11_vz2yyn_de-cuong.pdf",
+    "tep_loi_giai": "tai-lieu/lop-11/de-cuong/2026-2027/vz2yyn/lemonmath_L11_vz2yyn_loi-giai.pdf"
+  },
+  {
+    "ma": "a3s2xq",
+    "lop": 11,
+    "loai": "de-cuong",
+    "tieu_de": "Đề cương Toán 11 · Cuối học kì II · 06 · Các quy tắc tính đạo hàm và công thức nhân xác suất cho hai biến cố độc lập",
+    "tep_pdf": "tai-lieu/lop-11/de-cuong/2026-2027/a3s2xq/lemonmath_L11_a3s2xq_de-cuong.pdf",
+    "tep_loi_giai": "tai-lieu/lop-11/de-cuong/2026-2027/a3s2xq/lemonmath_L11_a3s2xq_loi-giai.pdf"
+  },
+  {
+    "ma": "auamzj",
+    "lop": 11,
+    "loai": "de-cuong",
+    "tieu_de": "Đề cương Toán 11 · Cuối học kì II · 04 · Phương trình, bất phương trình mũ và lôgarit và biến cố hợp, biến cố giao, biến cố độc lập",
+    "tep_pdf": "tai-lieu/lop-11/de-cuong/2026-2027/auamzj/lemonmath_L11_auamzj_de-cuong.pdf",
+    "tep_loi_giai": "tai-lieu/lop-11/de-cuong/2026-2027/auamzj/lemonmath_L11_auamzj_loi-giai.pdf"
+  },
+  {
+    "ma": "bgj7p2",
+    "lop": 11,
+    "loai": "de-cuong",
+    "tieu_de": "Đề cương Toán 11 · Cuối học kì II · 02 · Lôgarit và khoảng cách trong không gian",
+    "tep_pdf": "tai-lieu/lop-11/de-cuong/2026-2027/bgj7p2/lemonmath_L11_bgj7p2_de-cuong.pdf",
+    "tep_loi_giai": "tai-lieu/lop-11/de-cuong/2026-2027/bgj7p2/lemonmath_L11_bgj7p2_loi-giai.pdf"
+  },
+  {
+    "ma": "iv2bmu",
+    "lop": 11,
+    "loai": "de-cuong",
+    "tieu_de": "Đề cương Toán 11 · Cuối học kì II · 03 · Hàm số mũ và hàm số lôgarit và thể tích",
+    "tep_pdf": "tai-lieu/lop-11/de-cuong/2026-2027/iv2bmu/lemonmath_L11_iv2bmu_de-cuong.pdf",
+    "tep_loi_giai": "tai-lieu/lop-11/de-cuong/2026-2027/iv2bmu/lemonmath_L11_iv2bmu_loi-giai.pdf"
+  },
+  {
+    "ma": "jzbidu",
+    "lop": 11,
+    "loai": "de-cuong",
+    "tieu_de": "Đề cương Toán 11 · Cuối học kì II · 10 · Phép chiếu vuông góc. Góc giữa đường thẳng và mặt phẳng",
+    "tep_pdf": "tai-lieu/lop-11/de-cuong/2026-2027/jzbidu/lemonmath_L11_jzbidu_de-cuong.pdf",
+    "tep_loi_giai": "tai-lieu/lop-11/de-cuong/2026-2027/jzbidu/lemonmath_L11_jzbidu_loi-giai.pdf"
+  },
+  {
+    "ma": "lapdhm",
+    "lop": 11,
+    "loai": "de-cuong",
+    "tieu_de": "Đề cương Toán 11 · Cuối học kì II · 08 · Hai đường thẳng vuông góc",
+    "tep_pdf": "tai-lieu/lop-11/de-cuong/2026-2027/lapdhm/lemonmath_L11_lapdhm_de-cuong.pdf",
+    "tep_loi_giai": "tai-lieu/lop-11/de-cuong/2026-2027/lapdhm/lemonmath_L11_lapdhm_loi-giai.pdf"
+  },
+  {
+    "ma": "lbilad",
+    "lop": 11,
+    "loai": "de-cuong",
+    "tieu_de": "Đề cương Toán 11 · Cuối học kì II · 07 · Đạo hàm cấp hai",
+    "tep_pdf": "tai-lieu/lop-11/de-cuong/2026-2027/lbilad/lemonmath_L11_lbilad_de-cuong.pdf",
+    "tep_loi_giai": "tai-lieu/lop-11/de-cuong/2026-2027/lbilad/lemonmath_L11_lbilad_loi-giai.pdf"
+  },
+  {
+    "ma": "mqdgte",
+    "lop": 11,
+    "loai": "de-cuong",
+    "tieu_de": "Đề cương Toán 11 · Cuối học kì II · 09 · Đường thẳng vuông góc với mặt phẳng",
+    "tep_pdf": "tai-lieu/lop-11/de-cuong/2026-2027/mqdgte/lemonmath_L11_mqdgte_de-cuong.pdf",
+    "tep_loi_giai": "tai-lieu/lop-11/de-cuong/2026-2027/mqdgte/lemonmath_L11_mqdgte_loi-giai.pdf"
+  },
+  {
+    "ma": "xv3tmy",
+    "lop": 11,
+    "loai": "de-cuong",
+    "tieu_de": "Đề cương Toán 11 · Cuối học kì II · 05 · Đạo hàm và công thức cộng xác suất",
+    "tep_pdf": "tai-lieu/lop-11/de-cuong/2026-2027/xv3tmy/lemonmath_L11_xv3tmy_de-cuong.pdf",
+    "tep_loi_giai": "tai-lieu/lop-11/de-cuong/2026-2027/xv3tmy/lemonmath_L11_xv3tmy_loi-giai.pdf"
+  },
+  {
+    "ma": "yr74tl",
+    "lop": 11,
+    "loai": "de-cuong",
+    "tieu_de": "Đề cương Toán 11 · Cuối học kì II · 01 · Luỹ thừa với số mũ thực và hai mặt phẳng vuông góc",
+    "tep_pdf": "tai-lieu/lop-11/de-cuong/2026-2027/yr74tl/lemonmath_L11_yr74tl_de-cuong.pdf",
+    "tep_loi_giai": "tai-lieu/lop-11/de-cuong/2026-2027/yr74tl/lemonmath_L11_yr74tl_loi-giai.pdf"
+  },
+  {
+    "ma": "4pa5gh",
+    "lop": 11,
+    "loai": "de-cuong",
+    "tieu_de": "Đề cương Toán 11 · Giữa học kì I · 09 · Công thức lượng giác và hàm số lượng giác",
+    "tep_pdf": "tai-lieu/lop-11/de-cuong/2026-2027/4pa5gh/lemonmath_L11_4pa5gh_de-cuong.pdf",
+    "tep_loi_giai": "tai-lieu/lop-11/de-cuong/2026-2027/4pa5gh/lemonmath_L11_4pa5gh_loi-giai.pdf"
+  },
+  {
+    "ma": "6db5lj",
+    "lop": 11,
+    "loai": "de-cuong",
+    "tieu_de": "Đề cương Toán 11 · Giữa học kì I · 08 · Giá trị lượng giác của góc lượng giác và công thức lượng giác",
+    "tep_pdf": "tai-lieu/lop-11/de-cuong/2026-2027/6db5lj/lemonmath_L11_6db5lj_de-cuong.pdf",
+    "tep_loi_giai": "tai-lieu/lop-11/de-cuong/2026-2027/6db5lj/lemonmath_L11_6db5lj_loi-giai.pdf"
+  },
+  {
+    "ma": "are4wc",
+    "lop": 11,
+    "loai": "de-cuong",
+    "tieu_de": "Đề cương Toán 11 · Giữa học kì I · 10 · Hàm số lượng giác và phương trình lượng giác cơ bản",
+    "tep_pdf": "tai-lieu/lop-11/de-cuong/2026-2027/are4wc/lemonmath_L11_are4wc_de-cuong.pdf",
+    "tep_loi_giai": "tai-lieu/lop-11/de-cuong/2026-2027/are4wc/lemonmath_L11_are4wc_loi-giai.pdf"
+  },
+  {
+    "ma": "b23iyy",
+    "lop": 11,
+    "loai": "de-cuong",
+    "tieu_de": "Đề cương Toán 11 · Giữa học kì I · 04 · Phương trình lượng giác cơ bản",
+    "tep_pdf": "tai-lieu/lop-11/de-cuong/2026-2027/b23iyy/lemonmath_L11_b23iyy_de-cuong.pdf",
+    "tep_loi_giai": "tai-lieu/lop-11/de-cuong/2026-2027/b23iyy/lemonmath_L11_b23iyy_loi-giai.pdf"
+  },
+  {
+    "ma": "ba34fs",
+    "lop": 11,
+    "loai": "de-cuong",
+    "tieu_de": "Đề cương Toán 11 · Giữa học kì I · 07 · Cấp số nhân",
+    "tep_pdf": "tai-lieu/lop-11/de-cuong/2026-2027/ba34fs/lemonmath_L11_ba34fs_de-cuong.pdf",
+    "tep_loi_giai": "tai-lieu/lop-11/de-cuong/2026-2027/ba34fs/lemonmath_L11_ba34fs_loi-giai.pdf"
+  },
+  {
+    "ma": "chnyy7",
+    "lop": 11,
+    "loai": "de-cuong",
+    "tieu_de": "Đề cương Toán 11 · Giữa học kì I · 03 · Hàm số lượng giác",
+    "tep_pdf": "tai-lieu/lop-11/de-cuong/2026-2027/chnyy7/lemonmath_L11_chnyy7_de-cuong.pdf",
+    "tep_loi_giai": "tai-lieu/lop-11/de-cuong/2026-2027/chnyy7/lemonmath_L11_chnyy7_loi-giai.pdf"
+  },
+  {
+    "ma": "f5s3ga",
+    "lop": 11,
+    "loai": "de-cuong",
+    "tieu_de": "Đề cương Toán 11 · Giữa học kì I · 06 · Cấp số cộng",
+    "tep_pdf": "tai-lieu/lop-11/de-cuong/2026-2027/f5s3ga/lemonmath_L11_f5s3ga_de-cuong.pdf",
+    "tep_loi_giai": "tai-lieu/lop-11/de-cuong/2026-2027/f5s3ga/lemonmath_L11_f5s3ga_loi-giai.pdf"
+  },
+  {
+    "ma": "ov7ixw",
+    "lop": 11,
+    "loai": "de-cuong",
+    "tieu_de": "Đề cương Toán 11 · Giữa học kì I · 02 · Công thức lượng giác",
+    "tep_pdf": "tai-lieu/lop-11/de-cuong/2026-2027/ov7ixw/lemonmath_L11_ov7ixw_de-cuong.pdf",
+    "tep_loi_giai": "tai-lieu/lop-11/de-cuong/2026-2027/ov7ixw/lemonmath_L11_ov7ixw_loi-giai.pdf"
+  },
+  {
+    "ma": "ulur3x",
+    "lop": 11,
+    "loai": "de-cuong",
+    "tieu_de": "Đề cương Toán 11 · Giữa học kì I · 05 · Dãy số",
+    "tep_pdf": "tai-lieu/lop-11/de-cuong/2026-2027/ulur3x/lemonmath_L11_ulur3x_de-cuong.pdf",
+    "tep_loi_giai": "tai-lieu/lop-11/de-cuong/2026-2027/ulur3x/lemonmath_L11_ulur3x_loi-giai.pdf"
+  },
+  {
+    "ma": "zcnpnw",
+    "lop": 11,
+    "loai": "de-cuong",
+    "tieu_de": "Đề cương Toán 11 · Giữa học kì I · 01 · Giá trị lượng giác của góc lượng giác",
+    "tep_pdf": "tai-lieu/lop-11/de-cuong/2026-2027/zcnpnw/lemonmath_L11_zcnpnw_de-cuong.pdf",
+    "tep_loi_giai": "tai-lieu/lop-11/de-cuong/2026-2027/zcnpnw/lemonmath_L11_zcnpnw_loi-giai.pdf"
+  },
+  {
+    "ma": "66bswq",
+    "lop": 11,
+    "loai": "de-cuong",
+    "tieu_de": "Đề cương Toán 11 · Giữa học kì II · 01 · Luỹ thừa với số mũ thực",
+    "tep_pdf": "tai-lieu/lop-11/de-cuong/2026-2027/66bswq/lemonmath_L11_66bswq_de-cuong.pdf",
+    "tep_loi_giai": "tai-lieu/lop-11/de-cuong/2026-2027/66bswq/lemonmath_L11_66bswq_loi-giai.pdf"
+  },
+  {
+    "ma": "6ij7tx",
+    "lop": 11,
+    "loai": "de-cuong",
+    "tieu_de": "Đề cương Toán 11 · Giữa học kì II · 10 · Thể tích",
+    "tep_pdf": "tai-lieu/lop-11/de-cuong/2026-2027/6ij7tx/lemonmath_L11_6ij7tx_de-cuong.pdf",
+    "tep_loi_giai": "tai-lieu/lop-11/de-cuong/2026-2027/6ij7tx/lemonmath_L11_6ij7tx_loi-giai.pdf"
+  },
+  {
+    "ma": "debop7",
+    "lop": 11,
+    "loai": "de-cuong",
+    "tieu_de": "Đề cương Toán 11 · Giữa học kì II · 03 · Hàm số mũ và hàm số lôgarit",
+    "tep_pdf": "tai-lieu/lop-11/de-cuong/2026-2027/debop7/lemonmath_L11_debop7_de-cuong.pdf",
+    "tep_loi_giai": "tai-lieu/lop-11/de-cuong/2026-2027/debop7/lemonmath_L11_debop7_loi-giai.pdf"
+  },
+  {
+    "ma": "hkkrh2",
+    "lop": 11,
+    "loai": "de-cuong",
+    "tieu_de": "Đề cương Toán 11 · Giữa học kì II · 05 · Hai đường thẳng vuông góc",
+    "tep_pdf": "tai-lieu/lop-11/de-cuong/2026-2027/hkkrh2/lemonmath_L11_hkkrh2_de-cuong.pdf",
+    "tep_loi_giai": "tai-lieu/lop-11/de-cuong/2026-2027/hkkrh2/lemonmath_L11_hkkrh2_loi-giai.pdf"
+  },
+  {
+    "ma": "ilkr6v",
+    "lop": 11,
+    "loai": "de-cuong",
+    "tieu_de": "Đề cương Toán 11 · Giữa học kì II · 08 · Hai mặt phẳng vuông góc",
+    "tep_pdf": "tai-lieu/lop-11/de-cuong/2026-2027/ilkr6v/lemonmath_L11_ilkr6v_de-cuong.pdf",
+    "tep_loi_giai": "tai-lieu/lop-11/de-cuong/2026-2027/ilkr6v/lemonmath_L11_ilkr6v_loi-giai.pdf"
+  },
+  {
+    "ma": "ipse5m",
+    "lop": 11,
+    "loai": "de-cuong",
+    "tieu_de": "Đề cương Toán 11 · Giữa học kì II · 06 · Đường thẳng vuông góc với mặt phẳng",
+    "tep_pdf": "tai-lieu/lop-11/de-cuong/2026-2027/ipse5m/lemonmath_L11_ipse5m_de-cuong.pdf",
+    "tep_loi_giai": "tai-lieu/lop-11/de-cuong/2026-2027/ipse5m/lemonmath_L11_ipse5m_loi-giai.pdf"
+  },
+  {
+    "ma": "jzu6nl",
+    "lop": 11,
+    "loai": "de-cuong",
+    "tieu_de": "Đề cương Toán 11 · Giữa học kì II · 07 · Phép chiếu vuông góc. Góc giữa đường thẳng và mặt phẳng",
+    "tep_pdf": "tai-lieu/lop-11/de-cuong/2026-2027/jzu6nl/lemonmath_L11_jzu6nl_de-cuong.pdf",
+    "tep_loi_giai": "tai-lieu/lop-11/de-cuong/2026-2027/jzu6nl/lemonmath_L11_jzu6nl_loi-giai.pdf"
+  },
+  {
+    "ma": "oegjpn",
+    "lop": 11,
+    "loai": "de-cuong",
+    "tieu_de": "Đề cương Toán 11 · Giữa học kì II · 04 · Phương trình, bất phương trình mũ và lôgarit",
+    "tep_pdf": "tai-lieu/lop-11/de-cuong/2026-2027/oegjpn/lemonmath_L11_oegjpn_de-cuong.pdf",
+    "tep_loi_giai": "tai-lieu/lop-11/de-cuong/2026-2027/oegjpn/lemonmath_L11_oegjpn_loi-giai.pdf"
+  },
+  {
+    "ma": "oro4bn",
+    "lop": 11,
+    "loai": "de-cuong",
+    "tieu_de": "Đề cương Toán 11 · Giữa học kì II · 09 · Khoảng cách trong không gian",
+    "tep_pdf": "tai-lieu/lop-11/de-cuong/2026-2027/oro4bn/lemonmath_L11_oro4bn_de-cuong.pdf",
+    "tep_loi_giai": "tai-lieu/lop-11/de-cuong/2026-2027/oro4bn/lemonmath_L11_oro4bn_loi-giai.pdf"
+  },
+  {
+    "ma": "wjwsvk",
+    "lop": 11,
+    "loai": "de-cuong",
+    "tieu_de": "Đề cương Toán 11 · Giữa học kì II · 02 · Lôgarit",
+    "tep_pdf": "tai-lieu/lop-11/de-cuong/2026-2027/wjwsvk/lemonmath_L11_wjwsvk_de-cuong.pdf",
+    "tep_loi_giai": "tai-lieu/lop-11/de-cuong/2026-2027/wjwsvk/lemonmath_L11_wjwsvk_loi-giai.pdf"
+  },
+  {
+    "ma": "2eb3oe",
+    "lop": 12,
+    "loai": "de-cuong",
+    "tieu_de": "Đề cương Toán 12 · Cuối học kì I · 05 · Ứng dụng đạo hàm để giải quyết một số vấn đề liên quan đến thực tiễn",
+    "tep_pdf": "tai-lieu/lop-12/de-cuong/2026-2027/2eb3oe/lemonmath_L12_2eb3oe_de-cuong.pdf",
+    "tep_loi_giai": "tai-lieu/lop-12/de-cuong/2026-2027/2eb3oe/lemonmath_L12_2eb3oe_loi-giai.pdf"
+  },
+  {
+    "ma": "2rjehv",
+    "lop": 12,
+    "loai": "de-cuong",
+    "tieu_de": "Đề cương Toán 12 · Cuối học kì I · 09 · Khoảng biến thiên và khoảng tứ phân vị",
+    "tep_pdf": "tai-lieu/lop-12/de-cuong/2026-2027/2rjehv/lemonmath_L12_2rjehv_de-cuong.pdf",
+    "tep_loi_giai": "tai-lieu/lop-12/de-cuong/2026-2027/2rjehv/lemonmath_L12_2rjehv_loi-giai.pdf"
+  },
+  {
+    "ma": "fdfnny",
+    "lop": 12,
+    "loai": "de-cuong",
+    "tieu_de": "Đề cương Toán 12 · Cuối học kì I · 03 · Đường tiệm cận của đồ thị hàm số",
+    "tep_pdf": "tai-lieu/lop-12/de-cuong/2026-2027/fdfnny/lemonmath_L12_fdfnny_de-cuong.pdf",
+    "tep_loi_giai": "tai-lieu/lop-12/de-cuong/2026-2027/fdfnny/lemonmath_L12_fdfnny_loi-giai.pdf"
+  },
+  {
+    "ma": "hxf35d",
+    "lop": 12,
+    "loai": "de-cuong",
+    "tieu_de": "Đề cương Toán 12 · Cuối học kì I · 04 · Khảo sát và vẽ đồ thị hàm số",
+    "tep_pdf": "tai-lieu/lop-12/de-cuong/2026-2027/hxf35d/lemonmath_L12_hxf35d_de-cuong.pdf",
+    "tep_loi_giai": "tai-lieu/lop-12/de-cuong/2026-2027/hxf35d/lemonmath_L12_hxf35d_loi-giai.pdf"
+  },
+  {
+    "ma": "je3m6q",
+    "lop": 12,
+    "loai": "de-cuong",
+    "tieu_de": "Đề cương Toán 12 · Cuối học kì I · 10 · Phương sai và độ lệch chuẩn",
+    "tep_pdf": "tai-lieu/lop-12/de-cuong/2026-2027/je3m6q/lemonmath_L12_je3m6q_de-cuong.pdf",
+    "tep_loi_giai": "tai-lieu/lop-12/de-cuong/2026-2027/je3m6q/lemonmath_L12_je3m6q_loi-giai.pdf"
+  },
+  {
+    "ma": "knxwhn",
+    "lop": 12,
+    "loai": "de-cuong",
+    "tieu_de": "Đề cương Toán 12 · Cuối học kì I · 07 · Hệ trục toạ độ trong không gian",
+    "tep_pdf": "tai-lieu/lop-12/de-cuong/2026-2027/knxwhn/lemonmath_L12_knxwhn_de-cuong.pdf",
+    "tep_loi_giai": "tai-lieu/lop-12/de-cuong/2026-2027/knxwhn/lemonmath_L12_knxwhn_loi-giai.pdf"
+  },
+  {
+    "ma": "r3nptq",
+    "lop": 12,
+    "loai": "de-cuong",
+    "tieu_de": "Đề cương Toán 12 · Cuối học kì I · 02 · Giá trị lớn nhất và giá trị nhỏ nhất của hàm số",
+    "tep_pdf": "tai-lieu/lop-12/de-cuong/2026-2027/r3nptq/lemonmath_L12_r3nptq_de-cuong.pdf",
+    "tep_loi_giai": "tai-lieu/lop-12/de-cuong/2026-2027/r3nptq/lemonmath_L12_r3nptq_loi-giai.pdf"
+  },
+  {
+    "ma": "rrttvh",
+    "lop": 12,
+    "loai": "de-cuong",
+    "tieu_de": "Đề cương Toán 12 · Cuối học kì I · 06 · Vectơ và các phép toán trong không gian",
+    "tep_pdf": "tai-lieu/lop-12/de-cuong/2026-2027/rrttvh/lemonmath_L12_rrttvh_de-cuong.pdf",
+    "tep_loi_giai": "tai-lieu/lop-12/de-cuong/2026-2027/rrttvh/lemonmath_L12_rrttvh_loi-giai.pdf"
+  },
+  {
+    "ma": "sx5cum",
+    "lop": 12,
+    "loai": "de-cuong",
+    "tieu_de": "Đề cương Toán 12 · Cuối học kì I · 08 · Biểu thức toạ độ của các phép toán vectơ",
+    "tep_pdf": "tai-lieu/lop-12/de-cuong/2026-2027/sx5cum/lemonmath_L12_sx5cum_de-cuong.pdf",
+    "tep_loi_giai": "tai-lieu/lop-12/de-cuong/2026-2027/sx5cum/lemonmath_L12_sx5cum_loi-giai.pdf"
+  },
+  {
+    "ma": "vkngog",
+    "lop": 12,
+    "loai": "de-cuong",
+    "tieu_de": "Đề cương Toán 12 · Cuối học kì I · 01 · Tính đơn điệu và cực trị của hàm số",
+    "tep_pdf": "tai-lieu/lop-12/de-cuong/2026-2027/vkngog/lemonmath_L12_vkngog_de-cuong.pdf",
+    "tep_loi_giai": "tai-lieu/lop-12/de-cuong/2026-2027/vkngog/lemonmath_L12_vkngog_loi-giai.pdf"
+  },
+  {
+    "ma": "4otzv4",
+    "lop": 12,
+    "loai": "de-cuong",
+    "tieu_de": "Đề cương Toán 12 · Cuối học kì II · 02 · Tích phân",
+    "tep_pdf": "tai-lieu/lop-12/de-cuong/2026-2027/4otzv4/lemonmath_L12_4otzv4_de-cuong.pdf",
+    "tep_loi_giai": "tai-lieu/lop-12/de-cuong/2026-2027/4otzv4/lemonmath_L12_4otzv4_loi-giai.pdf"
+  },
+  {
+    "ma": "6fqd2o",
+    "lop": 12,
+    "loai": "de-cuong",
+    "tieu_de": "Đề cương Toán 12 · Cuối học kì II · 08 · Xác suất có điều kiện",
+    "tep_pdf": "tai-lieu/lop-12/de-cuong/2026-2027/6fqd2o/lemonmath_L12_6fqd2o_de-cuong.pdf",
+    "tep_loi_giai": "tai-lieu/lop-12/de-cuong/2026-2027/6fqd2o/lemonmath_L12_6fqd2o_loi-giai.pdf"
+  },
+  {
+    "ma": "6ldjr7",
+    "lop": 12,
+    "loai": "de-cuong",
+    "tieu_de": "Đề cương Toán 12 · Cuối học kì II · 06 · Công thức tính góc trong không gian",
+    "tep_pdf": "tai-lieu/lop-12/de-cuong/2026-2027/6ldjr7/lemonmath_L12_6ldjr7_de-cuong.pdf",
+    "tep_loi_giai": "tai-lieu/lop-12/de-cuong/2026-2027/6ldjr7/lemonmath_L12_6ldjr7_loi-giai.pdf"
+  },
+  {
+    "ma": "covyqn",
+    "lop": 12,
+    "loai": "de-cuong",
+    "tieu_de": "Đề cương Toán 12 · Cuối học kì II · 01 · Nguyên hàm",
+    "tep_pdf": "tai-lieu/lop-12/de-cuong/2026-2027/covyqn/lemonmath_L12_covyqn_de-cuong.pdf",
+    "tep_loi_giai": "tai-lieu/lop-12/de-cuong/2026-2027/covyqn/lemonmath_L12_covyqn_loi-giai.pdf"
+  },
+  {
+    "ma": "evv2ry",
+    "lop": 12,
+    "loai": "de-cuong",
+    "tieu_de": "Đề cương Toán 12 · Cuối học kì II · 03 · Ứng dụng hình học của tích phân",
+    "tep_pdf": "tai-lieu/lop-12/de-cuong/2026-2027/evv2ry/lemonmath_L12_evv2ry_de-cuong.pdf",
+    "tep_loi_giai": "tai-lieu/lop-12/de-cuong/2026-2027/evv2ry/lemonmath_L12_evv2ry_loi-giai.pdf"
+  },
+  {
+    "ma": "jw2tco",
+    "lop": 12,
+    "loai": "de-cuong",
+    "tieu_de": "Đề cương Toán 12 · Cuối học kì II · 07 · Phương trình mặt cầu",
+    "tep_pdf": "tai-lieu/lop-12/de-cuong/2026-2027/jw2tco/lemonmath_L12_jw2tco_de-cuong.pdf",
+    "tep_loi_giai": "tai-lieu/lop-12/de-cuong/2026-2027/jw2tco/lemonmath_L12_jw2tco_loi-giai.pdf"
+  },
+  {
+    "ma": "mtno7o",
+    "lop": 12,
+    "loai": "de-cuong",
+    "tieu_de": "Đề cương Toán 12 · Cuối học kì II · 04 · Phương trình mặt phẳng",
+    "tep_pdf": "tai-lieu/lop-12/de-cuong/2026-2027/mtno7o/lemonmath_L12_mtno7o_de-cuong.pdf",
+    "tep_loi_giai": "tai-lieu/lop-12/de-cuong/2026-2027/mtno7o/lemonmath_L12_mtno7o_loi-giai.pdf"
+  },
+  {
+    "ma": "obzvbx",
+    "lop": 12,
+    "loai": "de-cuong",
+    "tieu_de": "Đề cương Toán 12 · Cuối học kì II · 05 · Phương trình đường thẳng trong không gian",
+    "tep_pdf": "tai-lieu/lop-12/de-cuong/2026-2027/obzvbx/lemonmath_L12_obzvbx_de-cuong.pdf",
+    "tep_loi_giai": "tai-lieu/lop-12/de-cuong/2026-2027/obzvbx/lemonmath_L12_obzvbx_loi-giai.pdf"
+  },
+  {
+    "ma": "pq6zb3",
+    "lop": 12,
+    "loai": "de-cuong",
+    "tieu_de": "Đề cương Toán 12 · Cuối học kì II · 10 · Nguyên hàm và tích phân",
+    "tep_pdf": "tai-lieu/lop-12/de-cuong/2026-2027/pq6zb3/lemonmath_L12_pq6zb3_de-cuong.pdf",
+    "tep_loi_giai": "tai-lieu/lop-12/de-cuong/2026-2027/pq6zb3/lemonmath_L12_pq6zb3_loi-giai.pdf"
+  },
+  {
+    "ma": "veabjw",
+    "lop": 12,
+    "loai": "de-cuong",
+    "tieu_de": "Đề cương Toán 12 · Cuối học kì II · 09 · Công thức xác suất toàn phần và công thức Bayes",
+    "tep_pdf": "tai-lieu/lop-12/de-cuong/2026-2027/veabjw/lemonmath_L12_veabjw_de-cuong.pdf",
+    "tep_loi_giai": "tai-lieu/lop-12/de-cuong/2026-2027/veabjw/lemonmath_L12_veabjw_loi-giai.pdf"
+  },
+  {
+    "ma": "3w3anm",
+    "lop": 12,
+    "loai": "de-cuong",
+    "tieu_de": "Đề cương Toán 12 · Giữa học kì I · 05 · Ứng dụng đạo hàm để giải quyết một số vấn đề liên quan đến thực tiễn",
+    "tep_pdf": "tai-lieu/lop-12/de-cuong/2026-2027/3w3anm/lemonmath_L12_3w3anm_de-cuong.pdf",
+    "tep_loi_giai": "tai-lieu/lop-12/de-cuong/2026-2027/3w3anm/lemonmath_L12_3w3anm_loi-giai.pdf"
+  },
+  {
+    "ma": "4gt65g",
+    "lop": 12,
+    "loai": "de-cuong",
+    "tieu_de": "Đề cương Toán 12 · Giữa học kì I · 04 · Khảo sát và vẽ đồ thị hàm số",
+    "tep_pdf": "tai-lieu/lop-12/de-cuong/2026-2027/4gt65g/lemonmath_L12_4gt65g_de-cuong.pdf",
+    "tep_loi_giai": "tai-lieu/lop-12/de-cuong/2026-2027/4gt65g/lemonmath_L12_4gt65g_loi-giai.pdf"
+  },
+  {
+    "ma": "e444dp",
+    "lop": 12,
+    "loai": "de-cuong",
+    "tieu_de": "Đề cương Toán 12 · Giữa học kì I · 10 · Ứng dụng đạo hàm để giải quyết một số vấn đề liên quan đến thực tiễn và tính đơn điệu và cực trị của hàm số",
+    "tep_pdf": "tai-lieu/lop-12/de-cuong/2026-2027/e444dp/lemonmath_L12_e444dp_de-cuong.pdf",
+    "tep_loi_giai": "tai-lieu/lop-12/de-cuong/2026-2027/e444dp/lemonmath_L12_e444dp_loi-giai.pdf"
+  },
+  {
+    "ma": "f4hwku",
+    "lop": 12,
+    "loai": "de-cuong",
+    "tieu_de": "Đề cương Toán 12 · Giữa học kì I · 08 · Đường tiệm cận của đồ thị hàm số và khảo sát và vẽ đồ thị hàm số",
+    "tep_pdf": "tai-lieu/lop-12/de-cuong/2026-2027/f4hwku/lemonmath_L12_f4hwku_de-cuong.pdf",
+    "tep_loi_giai": "tai-lieu/lop-12/de-cuong/2026-2027/f4hwku/lemonmath_L12_f4hwku_loi-giai.pdf"
+  },
+  {
+    "ma": "kcdpda",
+    "lop": 12,
+    "loai": "de-cuong",
+    "tieu_de": "Đề cương Toán 12 · Giữa học kì I · 03 · Đường tiệm cận của đồ thị hàm số",
+    "tep_pdf": "tai-lieu/lop-12/de-cuong/2026-2027/kcdpda/lemonmath_L12_kcdpda_de-cuong.pdf",
+    "tep_loi_giai": "tai-lieu/lop-12/de-cuong/2026-2027/kcdpda/lemonmath_L12_kcdpda_loi-giai.pdf"
+  },
+  {
+    "ma": "n6bwgd",
+    "lop": 12,
+    "loai": "de-cuong",
+    "tieu_de": "Đề cương Toán 12 · Giữa học kì I · 02 · Giá trị lớn nhất và giá trị nhỏ nhất của hàm số",
+    "tep_pdf": "tai-lieu/lop-12/de-cuong/2026-2027/n6bwgd/lemonmath_L12_n6bwgd_de-cuong.pdf",
+    "tep_loi_giai": "tai-lieu/lop-12/de-cuong/2026-2027/n6bwgd/lemonmath_L12_n6bwgd_loi-giai.pdf"
+  },
+  {
+    "ma": "naphjc",
+    "lop": 12,
+    "loai": "de-cuong",
+    "tieu_de": "Đề cương Toán 12 · Giữa học kì I · 06 · Tính đơn điệu và cực trị của hàm số và giá trị lớn nhất và giá trị nhỏ nhất của hàm số",
+    "tep_pdf": "tai-lieu/lop-12/de-cuong/2026-2027/naphjc/lemonmath_L12_naphjc_de-cuong.pdf",
+    "tep_loi_giai": "tai-lieu/lop-12/de-cuong/2026-2027/naphjc/lemonmath_L12_naphjc_loi-giai.pdf"
+  },
+  {
+    "ma": "plwkgz",
+    "lop": 12,
+    "loai": "de-cuong",
+    "tieu_de": "Đề cương Toán 12 · Giữa học kì I · 09 · Khảo sát và vẽ đồ thị hàm số và ứng dụng đạo hàm để giải quyết một số vấn đề liên quan đến thực tiễn",
+    "tep_pdf": "tai-lieu/lop-12/de-cuong/2026-2027/plwkgz/lemonmath_L12_plwkgz_de-cuong.pdf",
+    "tep_loi_giai": "tai-lieu/lop-12/de-cuong/2026-2027/plwkgz/lemonmath_L12_plwkgz_loi-giai.pdf"
+  },
+  {
+    "ma": "qsn6xi",
+    "lop": 12,
+    "loai": "de-cuong",
+    "tieu_de": "Đề cương Toán 12 · Giữa học kì I · 01 · Tính đơn điệu và cực trị của hàm số",
+    "tep_pdf": "tai-lieu/lop-12/de-cuong/2026-2027/qsn6xi/lemonmath_L12_qsn6xi_de-cuong.pdf",
+    "tep_loi_giai": "tai-lieu/lop-12/de-cuong/2026-2027/qsn6xi/lemonmath_L12_qsn6xi_loi-giai.pdf"
+  },
+  {
+    "ma": "vah5xg",
+    "lop": 12,
+    "loai": "de-cuong",
+    "tieu_de": "Đề cương Toán 12 · Giữa học kì I · 07 · Giá trị lớn nhất và giá trị nhỏ nhất của hàm số và đường tiệm cận của đồ thị hàm số",
+    "tep_pdf": "tai-lieu/lop-12/de-cuong/2026-2027/vah5xg/lemonmath_L12_vah5xg_de-cuong.pdf",
+    "tep_loi_giai": "tai-lieu/lop-12/de-cuong/2026-2027/vah5xg/lemonmath_L12_vah5xg_loi-giai.pdf"
+  },
+  {
+    "ma": "dreltp",
+    "lop": 12,
+    "loai": "de-cuong",
+    "tieu_de": "Đề cương Toán 12 · Giữa học kì II · 02 · Tích phân",
+    "tep_pdf": "tai-lieu/lop-12/de-cuong/2026-2027/dreltp/lemonmath_L12_dreltp_de-cuong.pdf",
+    "tep_loi_giai": "tai-lieu/lop-12/de-cuong/2026-2027/dreltp/lemonmath_L12_dreltp_loi-giai.pdf"
+  },
+  {
+    "ma": "ezqe3q",
+    "lop": 12,
+    "loai": "de-cuong",
+    "tieu_de": "Đề cương Toán 12 · Giữa học kì II · 03 · Ứng dụng hình học của tích phân",
+    "tep_pdf": "tai-lieu/lop-12/de-cuong/2026-2027/ezqe3q/lemonmath_L12_ezqe3q_de-cuong.pdf",
+    "tep_loi_giai": "tai-lieu/lop-12/de-cuong/2026-2027/ezqe3q/lemonmath_L12_ezqe3q_loi-giai.pdf"
+  },
+  {
+    "ma": "gbtebm",
+    "lop": 12,
+    "loai": "de-cuong",
+    "tieu_de": "Đề cương Toán 12 · Giữa học kì II · 07 · Phương trình mặt cầu",
+    "tep_pdf": "tai-lieu/lop-12/de-cuong/2026-2027/gbtebm/lemonmath_L12_gbtebm_de-cuong.pdf",
+    "tep_loi_giai": "tai-lieu/lop-12/de-cuong/2026-2027/gbtebm/lemonmath_L12_gbtebm_loi-giai.pdf"
+  },
+  {
+    "ma": "kusdum",
+    "lop": 12,
+    "loai": "de-cuong",
+    "tieu_de": "Đề cương Toán 12 · Giữa học kì II · 10 · Ứng dụng hình học của tích phân và phương trình mặt phẳng",
+    "tep_pdf": "tai-lieu/lop-12/de-cuong/2026-2027/kusdum/lemonmath_L12_kusdum_de-cuong.pdf",
+    "tep_loi_giai": "tai-lieu/lop-12/de-cuong/2026-2027/kusdum/lemonmath_L12_kusdum_loi-giai.pdf"
+  },
+  {
+    "ma": "oplpfd",
+    "lop": 12,
+    "loai": "de-cuong",
+    "tieu_de": "Đề cương Toán 12 · Giữa học kì II · 04 · Phương trình mặt phẳng",
+    "tep_pdf": "tai-lieu/lop-12/de-cuong/2026-2027/oplpfd/lemonmath_L12_oplpfd_de-cuong.pdf",
+    "tep_loi_giai": "tai-lieu/lop-12/de-cuong/2026-2027/oplpfd/lemonmath_L12_oplpfd_loi-giai.pdf"
+  },
+  {
+    "ma": "spuz3e",
+    "lop": 12,
+    "loai": "de-cuong",
+    "tieu_de": "Đề cương Toán 12 · Giữa học kì II · 08 · Nguyên hàm và tích phân",
+    "tep_pdf": "tai-lieu/lop-12/de-cuong/2026-2027/spuz3e/lemonmath_L12_spuz3e_de-cuong.pdf",
+    "tep_loi_giai": "tai-lieu/lop-12/de-cuong/2026-2027/spuz3e/lemonmath_L12_spuz3e_loi-giai.pdf"
+  },
+  {
+    "ma": "tto2mu",
+    "lop": 12,
+    "loai": "de-cuong",
+    "tieu_de": "Đề cương Toán 12 · Giữa học kì II · 06 · Công thức tính góc trong không gian",
+    "tep_pdf": "tai-lieu/lop-12/de-cuong/2026-2027/tto2mu/lemonmath_L12_tto2mu_de-cuong.pdf",
+    "tep_loi_giai": "tai-lieu/lop-12/de-cuong/2026-2027/tto2mu/lemonmath_L12_tto2mu_loi-giai.pdf"
+  },
+  {
+    "ma": "xqt3nl",
+    "lop": 12,
+    "loai": "de-cuong",
+    "tieu_de": "Đề cương Toán 12 · Giữa học kì II · 01 · Nguyên hàm",
+    "tep_pdf": "tai-lieu/lop-12/de-cuong/2026-2027/xqt3nl/lemonmath_L12_xqt3nl_de-cuong.pdf",
+    "tep_loi_giai": "tai-lieu/lop-12/de-cuong/2026-2027/xqt3nl/lemonmath_L12_xqt3nl_loi-giai.pdf"
+  },
+  {
+    "ma": "yyandt",
+    "lop": 12,
+    "loai": "de-cuong",
+    "tieu_de": "Đề cương Toán 12 · Giữa học kì II · 09 · Tích phân và ứng dụng hình học của tích phân",
+    "tep_pdf": "tai-lieu/lop-12/de-cuong/2026-2027/yyandt/lemonmath_L12_yyandt_de-cuong.pdf",
+    "tep_loi_giai": "tai-lieu/lop-12/de-cuong/2026-2027/yyandt/lemonmath_L12_yyandt_loi-giai.pdf"
+  },
+  {
+    "ma": "zvskyo",
+    "lop": 12,
+    "loai": "de-cuong",
+    "tieu_de": "Đề cương Toán 12 · Giữa học kì II · 05 · Phương trình đường thẳng trong không gian",
+    "tep_pdf": "tai-lieu/lop-12/de-cuong/2026-2027/zvskyo/lemonmath_L12_zvskyo_de-cuong.pdf",
+    "tep_loi_giai": "tai-lieu/lop-12/de-cuong/2026-2027/zvskyo/lemonmath_L12_zvskyo_loi-giai.pdf"
+  },
+  {
+    "ma": "37nzj2",
+    "lop": 12,
+    "loai": "de-cuong",
+    "tieu_de": "Đề cương Toán 12 · Ôn thi tốt nghiệp THPT · 10 · Ôn tập: lượng giác, mũ – lôgarit, cấp số và ôn tập: phương pháp toạ độ trong không gian",
+    "tep_pdf": "tai-lieu/lop-12/de-cuong/2026-2027/37nzj2/lemonmath_L12_37nzj2_de-cuong.pdf",
+    "tep_loi_giai": "tai-lieu/lop-12/de-cuong/2026-2027/37nzj2/lemonmath_L12_37nzj2_loi-giai.pdf"
+  },
+  {
+    "ma": "5d6mz2",
+    "lop": 12,
+    "loai": "de-cuong",
+    "tieu_de": "Đề cương Toán 12 · Ôn thi tốt nghiệp THPT · 04 · Biểu thức toạ độ của các phép toán vectơ và hệ trục toạ độ trong không gian",
+    "tep_pdf": "tai-lieu/lop-12/de-cuong/2026-2027/5d6mz2/lemonmath_L12_5d6mz2_de-cuong.pdf",
+    "tep_loi_giai": "tai-lieu/lop-12/de-cuong/2026-2027/5d6mz2/lemonmath_L12_5d6mz2_loi-giai.pdf"
+  },
+  {
+    "ma": "63cdp6",
+    "lop": 12,
+    "loai": "de-cuong",
+    "tieu_de": "Đề cương Toán 12 · Ôn thi tốt nghiệp THPT · 06 · Ứng dụng hình học của tích phân và nguyên hàm",
+    "tep_pdf": "tai-lieu/lop-12/de-cuong/2026-2027/63cdp6/lemonmath_L12_63cdp6_de-cuong.pdf",
+    "tep_loi_giai": "tai-lieu/lop-12/de-cuong/2026-2027/63cdp6/lemonmath_L12_63cdp6_loi-giai.pdf"
+  },
+  {
+    "ma": "6f3icy",
+    "lop": 12,
+    "loai": "de-cuong",
+    "tieu_de": "Đề cương Toán 12 · Ôn thi tốt nghiệp THPT · 03 · Khảo sát và vẽ đồ thị hàm số và đường tiệm cận của đồ thị hàm số",
+    "tep_pdf": "tai-lieu/lop-12/de-cuong/2026-2027/6f3icy/lemonmath_L12_6f3icy_de-cuong.pdf",
+    "tep_loi_giai": "tai-lieu/lop-12/de-cuong/2026-2027/6f3icy/lemonmath_L12_6f3icy_loi-giai.pdf"
+  },
+  {
+    "ma": "bqud6j",
+    "lop": 12,
+    "loai": "de-cuong",
+    "tieu_de": "Đề cương Toán 12 · Ôn thi tốt nghiệp THPT · 07 · Phương trình mặt phẳng và phương trình đường thẳng trong không gian",
+    "tep_pdf": "tai-lieu/lop-12/de-cuong/2026-2027/bqud6j/lemonmath_L12_bqud6j_de-cuong.pdf",
+    "tep_loi_giai": "tai-lieu/lop-12/de-cuong/2026-2027/bqud6j/lemonmath_L12_bqud6j_loi-giai.pdf"
+  },
+  {
+    "ma": "mqmxw4",
+    "lop": 12,
+    "loai": "de-cuong",
+    "tieu_de": "Đề cương Toán 12 · Ôn thi tốt nghiệp THPT · 08 · Phương trình mặt cầu và ôn tập: hình học không gian",
+    "tep_pdf": "tai-lieu/lop-12/de-cuong/2026-2027/mqmxw4/lemonmath_L12_mqmxw4_de-cuong.pdf",
+    "tep_loi_giai": "tai-lieu/lop-12/de-cuong/2026-2027/mqmxw4/lemonmath_L12_mqmxw4_loi-giai.pdf"
+  },
+  {
+    "ma": "nji4al",
+    "lop": 12,
+    "loai": "de-cuong",
+    "tieu_de": "Đề cương Toán 12 · Ôn thi tốt nghiệp THPT · 02 · Giá trị lớn nhất và giá trị nhỏ nhất của hàm số và ứng dụng đạo hàm để giải quyết một số vấn đề liên quan đến thực tiễn",
+    "tep_pdf": "tai-lieu/lop-12/de-cuong/2026-2027/nji4al/lemonmath_L12_nji4al_de-cuong.pdf",
+    "tep_loi_giai": "tai-lieu/lop-12/de-cuong/2026-2027/nji4al/lemonmath_L12_nji4al_loi-giai.pdf"
+  },
+  {
+    "ma": "nk3njc",
+    "lop": 12,
+    "loai": "de-cuong",
+    "tieu_de": "Đề cương Toán 12 · Ôn thi tốt nghiệp THPT · 09 · Công thức xác suất toàn phần và công thức Bayes và xác suất có điều kiện",
+    "tep_pdf": "tai-lieu/lop-12/de-cuong/2026-2027/nk3njc/lemonmath_L12_nk3njc_de-cuong.pdf",
+    "tep_loi_giai": "tai-lieu/lop-12/de-cuong/2026-2027/nk3njc/lemonmath_L12_nk3njc_loi-giai.pdf"
+  },
+  {
+    "ma": "vqemfk",
+    "lop": 12,
+    "loai": "de-cuong",
+    "tieu_de": "Đề cương Toán 12 · Ôn thi tốt nghiệp THPT · 01 · Tính đơn điệu và cực trị của hàm số và đường tiệm cận của đồ thị hàm số",
+    "tep_pdf": "tai-lieu/lop-12/de-cuong/2026-2027/vqemfk/lemonmath_L12_vqemfk_de-cuong.pdf",
+    "tep_loi_giai": "tai-lieu/lop-12/de-cuong/2026-2027/vqemfk/lemonmath_L12_vqemfk_loi-giai.pdf"
+  },
+  {
+    "ma": "xt3i3i",
+    "lop": 12,
+    "loai": "de-cuong",
+    "tieu_de": "Đề cương Toán 12 · Ôn thi tốt nghiệp THPT · 05 · Phương sai và độ lệch chuẩn và khoảng biến thiên và khoảng tứ phân vị",
+    "tep_pdf": "tai-lieu/lop-12/de-cuong/2026-2027/xt3i3i/lemonmath_L12_xt3i3i_de-cuong.pdf",
+    "tep_loi_giai": "tai-lieu/lop-12/de-cuong/2026-2027/xt3i3i/lemonmath_L12_xt3i3i_loi-giai.pdf"
   }
 ]
