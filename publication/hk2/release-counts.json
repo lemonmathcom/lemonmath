@@ -1,14 +1,11 @@
 {
   "kind": "worksheet",
   "grades": {
-    "6": 1,
-    "7": 1,
-    "8": 1,
-    "9": 1,
-    "10": 1,
-    "11": 1,
-    "12": 1
+    "9": 1
   },
-  "previous_qr_count": 98,
-  "total_qr_count": 105
+  "previous_qr_count": 105,
+  "total_qr_count": 105,
+  "previous_page_sha256": {
+    "55vcof": "0932178899efda7b6e55269d7aff52b6dbc9b2ac95ecd73d40dd8cb9fe031756"
+  }
 }
