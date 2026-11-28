@@ -31,7 +31,7 @@
   }
 
   function card(question, tags) {
-    const { code, grade, type, title, anchor, prompt, options, answers, answerHtml, explanation, sourceHref } = question;
+    const { code, grade, type, title, anchor, prompt, options, answers, answerHtml, explanation, sourceHref, sourceKind } = question;
     const headingId = `${code}-${anchor}`;
     const choiceLabels = type === 'tf' ? ['a)', 'b)', 'c)', 'd)'] : ['A.', 'B.', 'C.', 'D.'];
     const optionList = options.map((option, i) => `<li><b>${choiceLabels[i]}</b><div>${option}</div></li>`).join('');
@@ -42,7 +42,9 @@
         <span lang="vi">${esc(marker)} · ${esc(skill)}</span></li>`;
     }).join('');
     const sourceUrl = sourceHref || `/d/${code}#${anchor}`;
-    const sourceLabel = sourceHref && T.sourceDocument ? T.sourceDocument : T.source;
+    const sourceLabel = sourceKind === 'worksheet' && T.sourceWorksheet
+      ? T.sourceWorksheet
+      : (sourceHref && T.sourceDocument) || T.source;
     const answer = answerHtml || (answers.length > 1
       ? `<ul lang="vi">${answers.map((value) => `<li>${esc(value)}</li>`).join('')}</ul>`
       : `<p lang="vi">${esc(answers[0])}</p>`);

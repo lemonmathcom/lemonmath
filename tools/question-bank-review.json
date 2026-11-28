@@ -1,4 +1,180 @@
 {
+  "challenges": {
+    "djtj7l": [
+      {
+        "number": 1,
+        "title": "Bố trí xe cho đoàn tham quan",
+        "lesson": "g6/divisibility-and-properties",
+        "skill": "Dùng tính chia hết để giảm số xe",
+        "prompt": "Cần chở đúng 720 học sinh bằng hai loại xe 45 chỗ và 30 chỗ. Có nhiều nhất 9 xe loại 45 chỗ. Mọi xe sử dụng đều phải kín chỗ. Cần ít nhất bao nhiêu xe và mỗi loại dùng bao nhiêu chiếc?",
+        "answer": "20 xe, gồm 8 xe 45 chỗ và 12 xe 30 chỗ.",
+        "solution": "Vì 720 và số chỗ trên các xe loại 30 chỗ đều chia hết cho 30, tổng số chỗ trên các xe loại 45 chỗ cũng phải chia hết cho 30. Mỗi cặp xe 45 chỗ có 90 chỗ. Một xe 45 chỗ lẻ ra làm tổng dư 15 khi chia cho 30, nên số xe loại này phải chẵn.\n\nHai xe 45 chỗ chở được bằng ba xe 30 chỗ. Dùng thêm một cặp xe 45 chỗ sẽ giảm một xe. Số chẵn lớn nhất không quá 9 là 8. Sau khi bố trí 8 xe lớn, còn $720-8\\cdot45=360$ học sinh, cần 12 xe 30 chỗ. Tổng là 20 xe."
+      },
+      {
+        "number": 2,
+        "title": "Chọn báo giá lát sỏi",
+        "lesson": "g6/quadrilateral-perimeter-area",
+        "skill": "Đổi đơn vị, tính diện tích và tìm ngưỡng chi phí",
+        "prompt": "Lối đi lát sỏi có dạng hình bình hành với đáy 200 cm và chiều cao tương ứng 30 m. Nhà thầu A tính 100.000 đồng cho mỗi mét vuông. Nhà thầu B tính 110.000 đồng/m² cho 30 m² đầu, 80.000 đồng/m² cho diện tích vượt 30 m² và thêm 480.000 đồng vận chuyển.\n\na) Với lối đi trên, nhà thầu nào rẻ hơn và rẻ hơn bao nhiêu?\n\nb) Giữ hai báo giá này. Với diện tích tính bằng một số nguyên dương mét vuông, từ bao nhiêu mét vuông thì B rẻ hơn A?",
+        "answer": "Ở 60 m², A rẻ hơn 180.000 đồng. B rẻ hơn A từ 70 m².",
+        "solution": "a) Đổi 200 cm thành 2 m, diện tích lối đi là $2\\cdot30=60$ m². Chi phí của A là 6.000.000 đồng. Chi phí của B là $30\\cdot110\\,000+30\\cdot80\\,000+480\\,000=6\\,180\\,000$ đồng, nên A rẻ hơn 180.000 đồng.\n\nb) Trong 30 m² đầu, B có đơn giá cao hơn A và có thêm phí vận chuyển. Sau 30 m², mỗi mét vuông tăng thêm làm chênh lệch giữa B và A giảm 20.000 đồng. Từ 60 m², thêm $180\\,000:20\\,000=9$ m² thì hai giá bằng nhau. Số nguyên nhỏ nhất làm B rẻ hơn là 70."
+      },
+      {
+        "number": 3,
+        "title": "So sánh hai ưu đãi ở nhà sách",
+        "lesson": "g6/ratio-percentage-problems",
+        "skill": "So giá sau giảm và tìm số lượng tối thiểu",
+        "prompt": "Một máy tính có giá niêm yết 860.000 đồng, mỗi quyển tập giá niêm yết 15.000 đồng. Khi mua một máy tính và một số quyển tập, khách chọn một trong hai ưu đãi. Ưu đãi A giảm 20% trên cả giỏ hàng. Ưu đãi B giảm 25% riêng máy tính, tập bán theo giá niêm yết.\n\na) Mua kèm 10 quyển tập thì chọn ưu đãi nào rẻ hơn?\n\nb) Mua kèm ít nhất bao nhiêu quyển tập để A rẻ hơn B?",
+        "answer": "Với 10 quyển tập, B rẻ hơn 13.000 đồng. Từ 15 quyển tập, A rẻ hơn B.",
+        "solution": "Theo A, máy tính giá $860\\,000\\cdot80\\%=688\\,000$ đồng, mỗi quyển tập giá 12.000 đồng. Theo B, hai mức giá là 645.000 đồng và 15.000 đồng.\n\na) Với 10 quyển tập, A tính 808.000 đồng và B tính 795.000 đồng. B rẻ hơn 13.000 đồng.\n\nb) Theo A, riêng chiếc máy tính đắt hơn 43.000 đồng nhưng mỗi quyển tập tiết kiệm được 3.000 đồng. Mười bốn quyển chỉ bù được 42.000 đồng. Mười lăm quyển bù được 45.000 đồng, nên từ 15 quyển thì A rẻ hơn."
+      }
+    ],
+    "zse6bt": [
+      {
+        "number": 1,
+        "title": "Chọn vận tốc ở chặng giữa",
+        "lesson": "g7/direct-proportion",
+        "skill": "Dùng tỉ lệ nghịch giữa vận tốc và thời gian",
+        "prompt": "Một xe máy dự kiến chạy ba chặng dài bằng nhau với vận tốc lần lượt là 60, 30 và 20 km/h. Theo dự kiến, tổng thời gian của chặng thứ nhất và thứ ba nhiều hơn thời gian chặng thứ hai 3 giờ. Giữ nguyên độ dài các chặng và vận tốc ở chặng thứ nhất, thứ ba. Vận tốc ở chặng giữa ít nhất là bao nhiêu để cả hành trình mất không quá 8 giờ?",
+        "answer": "45 km/h.",
+        "solution": "Với cùng quãng đường, thời gian tỉ lệ nghịch với vận tốc. Ba thời gian dự kiến theo tỉ lệ $\\frac1{60}:\\frac1{30}:\\frac1{20}=1:2:3$. Hiệu giữa tổng chặng thứ nhất và thứ ba với chặng thứ hai bằng $1+3-2=2$ phần, ứng với 3 giờ. Vậy mỗi phần là 1,5 giờ và mỗi chặng dài $60\\cdot1{,}5=90$ km.\n\nChặng thứ nhất và thứ ba vẫn mất $1{,}5+4{,}5=6$ giờ. Còn nhiều nhất 2 giờ cho chặng giữa. Vì vậy vận tốc ít nhất là $90:2=45$ km/h. Ở vận tốc đó, thời gian toàn hành trình vừa đủ 8 giờ."
+      },
+      {
+        "number": 2,
+        "title": "Giảm giá mà vẫn đạt mức lãi",
+        "lesson": "g7/rational-number-operations",
+        "skill": "Tính ngược phần trăm theo hai giá gốc",
+        "prompt": "Một chiếc điện thoại có giá niêm yết 40 triệu đồng. Khi bán thấp hơn giá niêm yết 30%, cửa hàng vẫn lãi đúng 5% so với giá vốn. Trong chương trình mới, cửa hàng giảm một tỉ lệ phần trăm trên giá niêm yết, rồi trừ thêm 1,2 triệu đồng bằng mã giảm giá. Muốn lãi đúng 20% so với giá vốn thì mức giảm phần trăm trước khi trừ mã là bao nhiêu?",
+        "answer": "17%.",
+        "solution": "Sau mức giảm 30%, giá bán là $40\\cdot70\\%=28$ triệu đồng. Giá này bằng 105% giá vốn. Để lãi 20% so với giá vốn, số tiền thực thu phải là $28\\cdot\\frac{120}{105}=32$ triệu đồng.\n\nTrước khi trừ mã, giá phải là $32+1{,}2=33{,}2$ triệu đồng. Khoản giảm theo phần trăm là $40-33{,}2=6{,}8$ triệu đồng, bằng $6{,}8:40=17\\%$ của giá niêm yết."
+      },
+      {
+        "number": 3,
+        "title": "Đạt mục tiêu thu gom pin",
+        "lesson": "g7/proportions",
+        "skill": "Dùng dãy tỉ số và ràng buộc nguyên",
+        "prompt": "Trong đợt đầu, bốn khối 6, 7, 8 và 9 thu gom 480 cục pin cũ. Số pin của các khối lần lượt tỉ lệ với 8, 7, 5 và 4. Đợt sau chỉ có thêm pin từ khối 8 và 9, với số pin thu thêm theo tỉ lệ 2 : 3. Cần thu thêm ít nhất bao nhiêu cục pin để tổng sau hai đợt của mỗi khối 8 và 9 đạt ít nhất 150 cục?",
+        "answer": "125 cục pin.",
+        "solution": "Đợt đầu có $8+7+5+4=24$ phần, mỗi phần bằng $480:24=20$ cục. Khối 8 có 100 cục và khối 9 có 80 cục.\n\nĐợt sau hai khối thu thêm lần lượt $2k$ và $3k$ cục với $k$ nguyên dương. Riêng khối 8 cần thêm ít nhất 50 cục, nên $k\\ge25$. Với $k=25$, khối 9 có thêm 75 cục, đạt $80+75=155$ cục. Vậy $k=25$ thỏa cả hai khối và cho tổng nhỏ nhất là $5\\cdot25=125$ cục."
+      },
+      {
+        "number": 4,
+        "title": "Mua sơn đủ dùng với chi phí thấp nhất",
+        "lesson": "g7/g7-cuboids-and-cubes",
+        "skill": "Tính diện tích cần sơn và so các cách ghép thùng",
+        "prompt": "Một căn phòng hình hộp chữ nhật dài 6 m, rộng 4 m, cao 3 m. Cửa lớn có kích thước 1,5 m × 2 m, cửa sổ là hình vuông cạnh 1 m. Cần sơn hai lớp trên mặt trong của bốn bức tường, trừ diện tích hai cửa. Một lít sơn phủ được 9 m² cho mỗi lớp. Có thùng nguyên 5 lít giá 850.000 đồng và thùng nguyên 3 lít giá 540.000 đồng. Hãy chọn số thùng mỗi loại để đủ sơn với chi phí nhỏ nhất.",
+        "answer": "Hai thùng 5 lít và một thùng 3 lít, hết 2.240.000 đồng.",
+        "solution": "Diện tích cần phủ cho một lớp là $2(6+4)\\cdot3-1{,}5\\cdot2-1^2=56$ m². Hai lớp cần $112:9$ lít, nên tổng dung tích của các thùng nguyên phải từ 13 lít.\n\n- Không mua thùng 5 lít thì cần ít nhất 5 thùng 3 lít, giá 2.700.000 đồng.\n- Mua một thùng 5 lít thì cần ít nhất 3 thùng 3 lít, tổng giá 2.470.000 đồng.\n- Mua hai thùng 5 lít thì cần ít nhất 1 thùng 3 lít, tổng giá 2.240.000 đồng.\n- Từ ba thùng 5 lít, riêng các thùng này đã có giá ít nhất 2.550.000 đồng.\n\nVậy phương án tối ưu có hai thùng 5 lít và một thùng 3 lít, tổng dung tích 13 lít."
+      }
+    ],
+    "7hzjpi": [
+      {
+        "number": 1,
+        "title": "Tăng sản lượng trong cùng hạn làm việc",
+        "lesson": "g8/g8-equation-word-problems",
+        "skill": "Lập và so sánh hai biểu thức thời gian",
+        "prompt": "Chị Nga dự định làm 60 sản phẩm với năng suất $x$ sản phẩm mỗi ngày. Khi có thêm người hỗ trợ, mỗi ngày nhóm làm thêm được 2 sản phẩm so với năng suất dự định và nhận làm tổng cộng 70 sản phẩm. Cho $x$ là số nguyên dương và tính thời gian theo số ngày, kể cả phần ngày. Tìm $x$ lớn nhất để thời gian thực tế không quá thời gian dự định.",
+        "answer": "12 sản phẩm mỗi ngày.",
+        "solution": "Thời gian dự định là $\\frac{60}{x}$ ngày, thời gian thực tế là $\\frac{70}{x+2}$ ngày. Cần $\\frac{70}{x+2}\\le\\frac{60}{x}$.\n\nVì $x(x+2)>0$, nhân hai vế với tích này được $70x\\le60(x+2)$. Suy ra $10x\\le120$, hay $x\\le12$. Khi $x=12$, cả hai kế hoạch đều mất đúng 5 ngày. Do đó 12 là giá trị nguyên lớn nhất."
+      },
+      {
+        "number": 2,
+        "title": "So thời gian đạp xe hai chiều qua dốc",
+        "lesson": "g8/pythagoras-theorem",
+        "skill": "Tìm độ dài trên dốc rồi so hai hành trình",
+        "prompt": "Từ nhà $A$ đến trường $B$, An đi theo hai đoạn thẳng $AC$ và $CB$ qua đỉnh dốc $C$. Hình chiếu vuông góc $H$ của $C$ nằm trên đoạn thẳng nằm ngang $AB$. Biết $AB=682$ m, $AC=313$ m và $CH=25$ m. An đi với vận tốc 5 km/h khi lên dốc và 20 km/h khi xuống dốc ở cả hai chiều. Lúc về An đi theo đúng đường cũ. Chiều về lâu hơn hay nhanh hơn chiều đi bao nhiêu giây? Làm tròn đến giây.",
+        "answer": "Chiều về lâu hơn khoảng 31 giây.",
+        "solution": "Trong tam giác vuông $AHC$, ta có $AH=\\sqrt{313^2-25^2}=312$ m. Do đó $HB=682-312=370$ m và $CB=\\sqrt{370^2+25^2}\\approx370{,}84$ m.\n\nLúc về, đoạn $CB$ dài hơn là đoạn lên dốc. So với chiều đi, có $CB-AC$ mét chuyển từ tốc độ xuống dốc sang tốc độ lên dốc. Chênh lệch thời gian theo giây là\n$$3{,}6(CB-AC)\\left(\\frac15-\\frac1{20}\\right)\\approx31{,}24.$$\nHệ số 3,6 đổi cách tính với quãng đường theo mét và vận tốc theo km/h ra giây. Vậy chiều về lâu hơn khoảng 31 giây."
+      },
+      {
+        "number": 3,
+        "title": "Tối ưu tiền thuê khi phải giữ khách thuê",
+        "lesson": "g8/squares-identities",
+        "skill": "Hoàn thành bình phương và xét giới hạn số căn",
+        "prompt": "Một chung cư có 100 căn được thuê hết khi giá thuê là 6 triệu đồng một căn mỗi tháng. Cứ tăng giá một bước 100.000 đồng thì có thêm một căn bỏ trống. Người quản lí chỉ xét giữ nguyên hoặc tăng giá theo các bước này và cần ít nhất 85 căn có người thuê. Mức giá nào cho doanh thu tháng lớn nhất? Tính doanh thu đó.",
+        "answer": "Giá 7,5 triệu đồng/căn/tháng, doanh thu 637,5 triệu đồng/tháng.",
+        "solution": "Gọi $x$ là số bước tăng giá. Số căn thuê là $100-x$, nên $x$ nguyên và $0\\le x\\le15$. Doanh thu theo triệu đồng là\n$$R=(6+0{,}1x)(100-x)=640-0{,}1(x-20)^2.$$\nTrong phạm vi từ 0 đến 15, $x=15$ gần 20 nhất và cho bình phương nhỏ nhất. Mức giá tối ưu là $6+0{,}1\\cdot15=7{,}5$ triệu đồng. Khi đó có 85 căn thuê và doanh thu là $85\\cdot7{,}5=637{,}5$ triệu đồng."
+      }
+    ],
+    "ebohok": [
+      {
+        "number": 3,
+        "title": "Tìm ngưỡng mua hàng có lợi",
+        "lesson": "g9/linear-inequalities-one-unknown",
+        "skill": "Suy ra giá niêm yết và so hai biểu thức chi phí",
+        "prompt": "Hai cửa hàng bán cùng một mặt hàng với giá niêm yết như nhau. Ở A, món thứ nhất bán đúng giá, món thứ hai giảm 10.000 đồng, món thứ ba giảm 10%, còn từ món thứ tư trở đi khách chỉ trả 80% giá niêm yết. Một đơn 13 món ở A có tổng giá 1.298.000 đồng. Ở B, mọi món được giảm 15% trên giá niêm yết và mỗi đơn chịu phí giao hàng 20.000 đồng.\n\nVới một đơn từ 4 món, cần mua ít nhất bao nhiêu món để tổng chi phí tại A thấp hơn tại B?",
+        "answer": "6 món.",
+        "solution": "Gọi $p$ là giá niêm yết tính theo nghìn đồng. Đơn 13 món ở A thỏa $p+(p-10)+0{,}9p+10\\cdot0{,}8p=1298$. Do đó $10{,}9p=1308$ và $p=120$.\n\nVới $n\\ge4$, ba món đầu hết $120+110+108=338$ nghìn đồng, mỗi món còn lại giá 96 nghìn đồng. Chi phí ở A là $338+96(n-3)=96n+50$. Chi phí ở B là $102n+20$ nghìn đồng.\n\nBất phương trình $96n+50<102n+20$ tương đương $n>5$. Số nguyên nhỏ nhất thỏa là 6."
+      }
+    ],
+    "afu2z2": [
+      {
+        "number": 1,
+        "title": "Giới hạn góc khi kéo thuyền",
+        "lesson": "g10/dot-product",
+        "skill": "Dùng tích vô hướng để tìm ngưỡng hợp lực",
+        "prompt": "Hai người kéo một chiếc thuyền bằng hai lực có cùng điểm đặt, độ lớn lần lượt 100 N và 120 N. Góc giữa hai lực lớn nhất là bao nhiêu để độ lớn hợp lực ít nhất 200 N? Làm tròn đến phần mười độ.",
+        "answer": "Khoảng $49{,}5^\\circ$.",
+        "solution": "Gọi $\\alpha\\in[0^\\circ;180^\\circ]$ là góc giữa hai lực. Bình phương độ lớn hợp lực là $100^2+120^2+2\\cdot100\\cdot120\\cos\\alpha$. Muốn hợp lực ít nhất 200 N thì\n$$\\cos\\alpha\\ge\\frac{200^2-100^2-120^2}{2\\cdot100\\cdot120}=0{,}65.$$\nCosin giảm trên đoạn đang xét, nên góc lớn nhất là $\\arccos(0{,}65)\\approx49{,}5^\\circ$."
+      },
+      {
+        "number": 2,
+        "title": "Tìm thời điểm máy bay gần trạm nhất",
+        "lesson": "g10/quadratic-function",
+        "skill": "Lập và tối thiểu hóa bình phương khoảng cách",
+        "prompt": "Trên mặt phẳng tọa độ, máy bay chuyển động thẳng đều từ $A(4;8)$ tới $C(-11;13)$ trong 2 giờ 30 phút. Trạm theo dõi đặt tại gốc $O$. Trong chuyến bay từ $A$ đến $C$, sau lúc xuất phát bao lâu máy bay gần $O$ nhất? Xác định tọa độ của máy bay lúc đó.",
+        "answer": "Sau 12 phút, tại điểm có tọa độ $(2{,}8;8{,}4)$.",
+        "solution": "Vận tốc theo tọa độ là $\\frac1{2{,}5}(-15;5)=(-6;2)$ đơn vị mỗi giờ. Sau $t$ giờ, với $0\\le t\\le2{,}5$, máy bay ở $M(4-6t;8+2t)$.\n\nBình phương khoảng cách đến trạm là\n$$OM^2=(4-6t)^2+(8+2t)^2=40(t-0{,}2)^2+78{,}4.$$\nGiá trị nhỏ nhất đạt khi $t=0{,}2$ giờ, tức 12 phút, nằm trong thời gian chuyến bay. Thay vào tọa độ cho $M(2{,}8;8{,}4)$."
+      },
+      {
+        "number": 3,
+        "title": "Tối thiểu hóa ngày công trồng trọt",
+        "lesson": "g10/systems-linear-inequalities",
+        "skill": "Tìm cận dưới của ngày công và phương án đạt cận",
+        "prompt": "Bác Minh có 5 nghìn m² đất để trồng ngô và khoai lang. Mỗi nghìn m² ngô cần 4 ngày công và cho doanh thu 3 triệu đồng. Mỗi nghìn m² khoai lang cần 6 ngày công và cho doanh thu 4 triệu đồng. Diện tích từng loại có thể chia nhỏ. Muốn thu ít nhất 18 triệu đồng thì cần tối thiểu bao nhiêu ngày công? Nêu một cách phân bổ diện tích đạt mức đó.",
+        "answer": "26 ngày công, với 2 nghìn m² ngô và 3 nghìn m² khoai lang.",
+        "solution": "Gọi $x,y\\ge0$ là diện tích ngô và khoai lang theo nghìn m². Ta có $x+y\\le5$. Số ngày công là $L=4x+6y$. Doanh thu theo triệu đồng thỏa\n$$3x+4y=(x+y)+\\frac L2\\le5+\\frac L2.$$\nĐể đạt ít nhất 18 triệu đồng thì $5+L/2\\ge18$, nên $L\\ge26$. Chọn $x=2$, $y=3$ vừa đủ 5 nghìn m², thu $3\\cdot2+4\\cdot3=18$ triệu đồng và cần $4\\cdot2+6\\cdot3=26$ ngày công. Phương án này đạt cận dưới."
+      },
+      {
+        "number": 5,
+        "title": "Tính thời gian ở trong vùng phủ sóng",
+        "lesson": "g10/circles",
+        "skill": "Tìm giao điểm đường đi và đường tròn phủ sóng",
+        "prompt": "Trong hệ tọa độ theo đơn vị kilômét, một trạm tại $I(-2;1)$ phủ sóng trong hình tròn bán kính 3 km. Anh Thành đi thẳng từ $A(4;-2)$ đến $B(-3;5)$ với vận tốc không đổi 36 km/h. Anh ở trong vùng phủ sóng bao nhiêu phút? Làm tròn đến phần mười phút.",
+        "answer": "Khoảng 7,1 phút.",
+        "solution": "Đường đi nằm trên $x+y=2$. Biên vùng phủ sóng là $(x+2)^2+(y-1)^2=9$. Thay $y=2-x$ vào phương trình đường tròn được $2x^2+2x-4=0$, có hai nghiệm $x=1$ và $x=-2$. Hai điểm giao $(1;1)$ và $(-2;4)$ cùng nằm trên đoạn $AB$. Phần đường trong vùng phủ sóng là dây cung dài $3\\sqrt2$ km.\n\nThời gian ở trong vùng là $\\frac{3\\sqrt2}{36}\\cdot60=5\\sqrt2$ phút, xấp xỉ 7,1 phút."
+      }
+    ],
+    "geqjuh": [
+      {
+        "number": 1,
+        "title": "Suy ra độ cao đầu sào từ hai lần đo",
+        "lesson": "g11/orthogonal-projection-angle",
+        "skill": "Lập tỉ số độ dài hình chiếu theo phương đứng",
+        "prompt": "Một bồn chứa nước có đáy và mặt trên nằm ngang, cách nhau 4 m. Lần đầu đặt sào thẳng dài 5 m sao cho đầu dưới chạm đáy và đầu trên chạm mặt trên của bồn. Đoạn sào bị ướt dài 1,5 m. Lần sau vẫn dùng sào đó và giữ đầu trên chạm mặt trên, nhưng đầu dưới vướng thành bồn ở độ cao $h$ so với đáy. Đoạn sào ướt lúc này dài 1 m. Mực nước giữ nguyên giữa hai lần đo. Tìm $h$.",
+        "answer": "0,5 m.",
+        "solution": "Lần đầu, tỉ số độ dài phần ướt trên chiều dài sào bằng tỉ số độ dài hình chiếu đứng tương ứng. Mặt nước vì thế cao $4\\cdot\\frac{1{,}5}{5}=1{,}2$ m so với đáy.\n\nLần sau, toàn sào có hình chiếu đứng dài $4-h$, còn phần ướt có hình chiếu đứng dài $1{,}2-h$. Ta được $\\frac{1{,}2-h}{4-h}=\\frac15$, suy ra $6-5h=4-h$ và $h=0{,}5$ m. Đầu dưới vẫn thấp hơn mặt nước, phù hợp dữ kiện đoạn ướt."
+      },
+      {
+        "number": 2,
+        "title": "Đọc số học sinh dưới mốc từ bảng ghép nhóm",
+        "lesson": "g11/grouped-central-tendency",
+        "skill": "Phân biệt kết quả nội suy và tần số chính xác",
+        "prompt": "Điểm Toán của một lớp được tóm tắt bằng bảng dưới đây.\n\n| Khoảng điểm | [3;4) | [4;5) | [5;6) | [6;7) | [7;8) | [8;9) | [9;10] |\n| --- | --- | --- | --- | --- | --- | --- | --- |\n| Số học sinh | 2 | 3 | 3 | 14 | 23 | 3 | 2 |\n\nChỉ từ bảng này, giáo viên có xác định được chính xác số học sinh đạt từ 6,3 điểm trở xuống không? Hãy nêu hai cách phân bố điểm phù hợp với bảng mà cho hai số lượng khác nhau.",
+        "answer": "Bảng chưa xác định được số lượng chính xác. Hai phân bố ví dụ cho 8 và 22 học sinh.",
+        "solution": "Có $2+3+3=8$ học sinh chắc chắn đạt dưới 6 điểm. Nhóm $[6;7)$ có 14 học sinh, nhưng bảng chỉ cho biết mỗi điểm trong nhóm thuộc khoảng này.\n\n- Nếu cả 14 em trong nhóm đều đạt 6,9 điểm, số em đạt từ 6,3 trở xuống là 8.\n- Nếu cả 14 em trong nhóm đều đạt 6,1 điểm, số em đạt từ 6,3 trở xuống là $8+14=22$.\n\nGiữ các điểm ở những nhóm khác giống nhau trong hai ví dụ. Cả hai phân bố đều khớp các tần số đã cho, nên cần biết điểm chi tiết để đếm chính xác."
+      },
+      {
+        "number": 4,
+        "title": "Xác suất thắng trong cuộc thi kéo dài",
+        "lesson": "g11/multiplication-rule",
+        "skill": "Dùng khả năng lặp lại của các lượt hòa",
+        "prompt": "Hai thí sinh A và B trả lời một câu ở mỗi lượt. Xác suất trả lời đúng lần lượt là 0,7 và 0,8. Các kết quả trả lời độc lập giữa hai người và giữa các lượt. Nếu chỉ một người trả lời đúng thì người đó thắng và cuộc thi dừng. Nếu cả hai cùng đúng hoặc cùng sai thì thi tiếp.\n\na) Tính xác suất A thắng chung cuộc.\n\nb) Biết A thắng chung cuộc, tính xác suất cuộc thi kéo dài quá ba lượt.",
+        "answer": "Xác suất A thắng là $\\frac7{19}$. Xác suất cuộc thi kéo dài quá ba lượt khi biết A thắng là $0{,}238328$.",
+        "solution": "Mỗi lượt, A thắng với xác suất $0{,}7\\cdot0{,}2=0{,}14$. Xác suất hòa là $0{,}7\\cdot0{,}8+0{,}3\\cdot0{,}2=0{,}62$.\n\na) Gọi $p$ là xác suất A thắng chung cuộc. Nếu hòa ở lượt đầu, cuộc thi trở về tình huống ban đầu, nên $p=0{,}14+0{,}62p$. Suy ra $p=\\frac{0{,}14}{1-0{,}62}=\\frac7{19}$.\n\nb) Cuộc thi kéo dài quá ba lượt khi cả ba lượt đầu cùng hòa, có xác suất $0{,}62^3$. Sau đó xác suất A thắng vẫn là $p$ do tính độc lập. Chia xác suất đồng thời $0{,}62^3p$ cho $p$ được $0{,}62^3=0{,}238328$."
+      }
+    ]
+  },
   "outlines": {
     "zejdiq": [
       {"anchor": "tn-1", "page": 1, "title": "Bài 1 · Câu 1", "type": "mc", "labels": "Bài 1 · Câu 1 | g6/powers-natural-exponents | đặt lũy thừa chung | TH", "prompt": "Tính $5^7\\cdot18-5^7\\cdot13$.", "answer": "B", "solution": "Đặt $5^7$ làm thừa số chung, ta được $5^7(18-13)=5^7\\cdot5=5^8$.", "options": ["$5$", "$5^8$", "$5^7$", "$5^6$"]},

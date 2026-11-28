@@ -20,7 +20,7 @@ const questionBankText = {
     levels: { NB: 'Nhận biết', TH: 'Thông hiểu', VD: 'Vận dụng', VDC: 'Vận dụng cao' },
     clear: 'Xóa bộ lọc', loading: 'Đang tải câu hỏi…', error: 'Chưa tải được câu hỏi. Hãy thử lại.', retry: 'Thử lại',
     count: '{count} câu/bài', empty: 'Không có câu phù hợp với bộ lọc.', more: 'Xem thêm câu',
-    source: 'Xem đề gốc', sourceDocument: 'Xem tài liệu gốc',
+    source: 'Xem đề gốc', sourceDocument: 'Xem tài liệu gốc', sourceWorksheet: 'Xem phiếu gốc',
     reveal: 'Xem đáp án và lời giải', answer: 'Đáp án', solution: 'Lời giải',
     noScript: 'Bật JavaScript để dùng bộ lọc câu hỏi.', library: 'Mở Thư viện', worksheets: 'Phiếu ôn tập'
   },
@@ -31,7 +31,7 @@ const questionBankText = {
     levels: { NB: 'Recall', TH: 'Understanding', VD: 'Application', VDC: 'Advanced application' },
     clear: 'Clear filters', loading: 'Loading questions…', error: 'The questions could not load. Try again.', retry: 'Try again',
     count: '{count} questions', empty: 'No questions match these filters.', more: 'Show more questions',
-    source: 'Original paper', sourceDocument: 'Original document',
+    source: 'Original paper', sourceDocument: 'Original document', sourceWorksheet: 'Original worksheet',
     reveal: 'Show answer and solution', answer: 'Answer', solution: 'Solution',
     noScript: 'Enable JavaScript to filter questions.', library: 'Browse the library', worksheets: 'Worksheets'
   }
@@ -191,6 +191,33 @@ function reviewQuestions(exams, libraryByCode) {
   return [...outlines, ...worksheets];
 }
 
+function challengeQuestions(libraryByCode) {
+  const questions = [];
+  for (const [code, entries] of Object.entries(review.challenges)) {
+    const document = libraryByCode.get(code);
+    if (document?.loai !== 'phieu-on-tap' || !entries.length) {
+      throw new Error('Phiếu thử thách chưa khớp Thư viện: ' + code);
+    }
+    const grade = document.lop;
+    const numbers = new Set();
+    for (const entry of entries) {
+      const { number, lesson, skill, title, prompt } = entry;
+      if (!Number.isInteger(number) || number < 1 || numbers.has(number) || !lesson?.startsWith(`g${grade}/`) ||
+          !skill?.trim() || !title?.trim() || !prompt?.trim()) {
+        throw new Error(`Câu thử thách chưa hợp lệ ${code}/${number}`);
+      }
+      numbers.add(number);
+      const tags = [{ marker: `Câu ${number} · Thử thách`, lesson, skill, levels: ['VDC'] }];
+      questions.push(solvedReview({
+        code, grade, type: 'tl', title, anchor: `thu-thach-${number}`, tags,
+        prompt: markup(prompt, code), options: [],
+        sourceHref: `/d/${code}#cau-${number}`, sourceKind: 'worksheet',
+      }, entry));
+    }
+  }
+  return questions;
+}
+
 function buildQuestionBank(grades) {
   const papers = Object.fromEntries(library.filter((row) => row.loai === 'de-thi').map((paper) => [paper.ma, paper]));
   const codes = new Set(sources.map((source) => source.code));
@@ -209,7 +236,8 @@ function buildQuestionBank(grades) {
   }
   const exams = sources.flatMap((source) => paperQuestions(source, papers[source.code]));
   const libraryByCode = new Map(library.map((row) => [row.ma, row]));
-  const questions = [...exams, ...reviewQuestions(exams, libraryByCode)].sort((a, b) => a.grade - b.grade);
+  const questions = [...challengeQuestions(libraryByCode), ...exams, ...reviewQuestions(exams, libraryByCode)]
+    .sort((a, b) => a.grade - b.grade);
   const lessons = {};
   for (const question of questions) {
     for (const tag of question.tags) {
