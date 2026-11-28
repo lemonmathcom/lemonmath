@@ -9,7 +9,7 @@ import re
 import subprocess
 import sys
 from time import sleep
-from urllib.error import HTTPError
+from urllib.error import HTTPError, URLError
 from urllib.parse import quote, urlsplit
 from urllib.request import Request, urlopen
 from uuid import uuid4
@@ -253,6 +253,138 @@ def publish_source_files(items):
     print(f"Verified {len(items)} original source objects on {DOWNLOAD_HOST}", flush=True)
 
 
+ATTACHED_KEY = re.compile(
+    r"tai-lieu/lop-(?P<grade>0[6-9]|1[012])/(?P<kind>phieu-bai-tap|de-cuong)/2026-2027/"
+    r"(?P<code>[a-z2-7]{6})/lemonmath_L(?P=grade)_(?P=code)_(?P<role>de-cuong|de|loi-giai)\.(?P<ext>pdf|docx)"
+)
+
+
+def attachment_manifest(counts):
+    items = json.loads((ROOT/"r2-manifest.json").read_bytes())
+    by_code, paths = {}, set()
+    for item in items:
+        key = item["key"]
+        match = ATTACHED_KEY.fullmatch(key)
+        require(match and match["code"] == item["code"] and key not in paths,
+                f"Unexpected attachment destination {key}")
+        ext, kind, role = (match[field] for field in ("ext", "kind", "role"))
+        if kind == "phieu-bai-tap":
+            require(ext == "pdf" and role in {"de", "loi-giai"}, f"Wrong worksheet file {key}")
+        else:
+            require(role in {"de-cuong", "loi-giai"}, f"Wrong revision-guide file {key}")
+        paths.add(key)
+        data = (ROOT/"r2"/key).read_bytes()
+        mime, header = (WORD, b"PK\x03\x04") if ext == "docx" else ("application/pdf", b"%PDF-")
+        require(data.startswith(header) and item["contentType"] == mime and
+                len(data) == item["bytes"] and sha256(data).hexdigest() == item["sha256"],
+                f"Attachment validation failed for {key}")
+        group = by_code.setdefault(item["code"], {"kind": kind, "files": set()})
+        require(group["kind"] == kind, f"Conflicting attachment category {key}")
+        group["files"].add((role, ext))
+    for code, group in by_code.items():
+        guide = group["kind"] == "de-cuong"
+        roles = {"de-cuong", "loi-giai"} if guide else {"de", "loi-giai"}
+        formats = {"pdf", "docx"} if guide else {"pdf"}
+        require(group["files"] == {(role, ext) for role in roles for ext in formats},
+                f"Missing exercise or solution file for {code}")
+    require(len(by_code) == counts["documents"] and len(items) == counts["objects"] and
+            sum(item["contentType"] == WORD for item in items) == counts["words"] and
+            len(items) - counts["words"] == counts["pdfs"], "Attachment totals disagree with the release")
+    return items, set(by_code)
+
+
+def upload_attachment(item):
+    key = item["key"]
+    account = os.environ["CLOUDFLARE_ACCOUNT_ID"]
+    endpoint = (f"https://api.cloudflare.com/client/v4/accounts/{account}/r2/buckets/{BUCKET}/objects/"
+                + quote(key, safe="/"))
+    payload = (ROOT/"r2"/key).read_bytes()
+    req = Request(endpoint, method="PUT", data=payload, headers={
+        "Authorization": "Bearer " + os.environ["CLOUDFLARE_API_TOKEN"],
+        "Content-Type": item["contentType"],
+        "User-Agent": USER_AGENT,
+    })
+    with urlopen(req, timeout=70) as response:
+        result = json.load(response)
+    require(result.get("success") and result["result"]["key"] == key and
+            int(result["result"]["size"]) == item["bytes"], f"R2 upload was not confirmed for {key}")
+
+
+def check_attachment(item, fresh=False):
+    if item["contentType"] == "application/pdf":
+        return verify_pdf(item, download=not fresh)
+    return source_available(item, fresh=fresh)
+
+
+def publish_attachment_library(counts):
+    items, codes = attachment_manifest(counts)
+    pages = unpack_qr(counts["total_qr_count"], codes)
+    require(len(pages) - len(codes) == counts["previous_qr_count"], "Previous QR page count changed")
+    if "--check" in sys.argv:
+        print(f"Verified {len(items)} attachments and {len(codes)} new QR pages locally", flush=True)
+        return
+    verify_pages(pages, exclude=codes)
+    verify_bucket()
+    retryable = {408, 425, 429, 500, 502, 503, 504}
+
+    def upload(item):
+        for attempt in range(5):
+            try:
+                if not check_attachment(item, fresh=True):
+                    upload_attachment(item)
+                return
+            except HTTPError as error:
+                if error.code not in retryable or attempt == 4:
+                    raise RuntimeError(f"HTTP {error.code} when uploading {item['key']}") from None
+                delay = error.headers.get("Retry-After", "")
+                sleep(min(55, int(delay)) if delay.isdigit() else 2 * (attempt + 1))
+            except (TimeoutError, URLError):
+                if attempt == 4:
+                    raise
+                sleep(2 * (attempt + 1))
+
+    def check(item):
+        try:
+            return check_attachment(item)
+        except HTTPError as error:
+            if error.code not in retryable:
+                raise
+            return False
+        except (TimeoutError, URLError):
+            return False
+
+    with ThreadPoolExecutor(max_workers=10) as pool:
+        for i, _ in enumerate(pool.map(upload, items), 1):
+            if i % 50 == 0 or i == len(items):
+                print(f"Prepared {i}/{len(items)} attachments", flush=True)
+        pending = items
+        for wait in (0, 4, 8, 16, 30, 50):
+            sleep(wait)
+            pending = [item for item, ok in zip(pending, pool.map(check, pending)) if not ok]
+            if not pending:
+                break
+    require(not pending, f"Some downloads are unavailable: {[item['key'] for item in pending[:6]]}")
+    print(f"Verified {counts['pdfs']} PDFs and {counts['words']} Word downloads", flush=True)
+    deploy_qr_pages(pages, f"Publish {len(codes)} revision-guide and worksheet pages")
+
+
+def deploy_qr_pages(pages, message):
+    config = str(ROOT/"wrangler.jsonc")
+    upload = wrangler("versions", "upload", "--config", config, "--message", message, capture=True)
+    print(upload.stdout, flush=True)
+    version = re.search(r"\bVersion ID:\s*([a-f0-9-]{36})\b", upload.stdout, re.I)
+    require(version, "Wrangler did not return the new QR version ID")
+    wrangler("versions", "deploy", version[1] + "@100%", "--config", config, "--yes")
+    for wait in (1, 3, 6, 12, 20):
+        sleep(wait)
+        try:
+            verify_pages(pages)
+            break
+        except (RuntimeError, OSError):
+            if wait == 20:
+                raise
+
+
 def publish():
     counts = json.loads((ROOT/"release-counts.json").read_bytes())
     kind = counts.get("kind", "exam")
@@ -265,6 +397,9 @@ def publish():
         return
     if kind == "question-package-pdfs":
         publish_source_files(package_pdfs(counts))
+        return
+    if kind == "attachment-library":
+        publish_attachment_library(counts)
         return
     manifest, release_codes = expected_pdfs(counts["grades"], kind)
     previous = counts.get("previous_page_sha256", {})
@@ -294,22 +429,7 @@ def publish():
     require(not pending, "PDF download URLs did not reach the CDN")
     print(f"Verified {len(manifest)} downloadable PDFs before deploying QR links")
 
-    config = str(ROOT/"wrangler.jsonc")
-    upload = wrangler("versions","upload","--config",config,"--message",
-                      f"Publish {len(release_codes)} semester II {kind} pages",capture=True)
-    print(upload.stdout,flush=True)
-    version = re.search(r"\bVersion ID:\s*([a-f0-9-]{36})\b",upload.stdout,re.I)
-    require(version, "Wrangler did not return the new QR version ID")
-    wrangler("versions","deploy",version[1]+"@100%","--config",config,"--yes")
-
-    for wait in (1, 3, 6, 12, 20):
-        sleep(wait)
-        try:
-            verify_pages(pages)
-            break
-        except (RuntimeError, OSError):
-            if wait == 20:
-                raise
+    deploy_qr_pages(pages, f"Publish {len(release_codes)} semester II {kind} pages")
 
 if __name__ == "__main__":
     publish()

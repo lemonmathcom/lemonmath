@@ -1,13 +1,9 @@
 {
-  "kind": "question-package-pdfs",
-  "documents": 113,
-  "objects": 113,
-  "counts": {
-    "sa": 300,
-    "tl": 300,
-    "tf": 200,
-    "mc": 500
-  },
-  "images": 777,
-  "total": 1300
+  "kind": "attachment-library",
+  "documents": 186,
+  "objects": 632,
+  "previous_qr_count": 123,
+  "total_qr_count": 309,
+  "pdfs": 372,
+  "words": 260
 }
